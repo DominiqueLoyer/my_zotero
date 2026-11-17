@@ -13,7 +13,7 @@ zotero-key: "5JRXDLLM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5JRXDLLM"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-04-17 20:25:51"
+date-modified: "2026-11-17 18:00:37"
 ---
 
 # opus-mt-fr-en-finetuned-fr-to-en
@@ -23,6 +23,7 @@ date-modified: "2026-04-17 20:25:51"
 ## Extra
 
 Publication Title: Hugging Face
+OpenAlex: W7117981422
 
 ---
 

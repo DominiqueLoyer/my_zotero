@@ -22,12 +22,16 @@ zotero-key: "BH8KGCJQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/BH8KGCJQ"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-09 15:08:44"
+date-modified: "2026-11-17 18:00:26"
 ---
 
 # On Happiness and Human Potentials: A Review of Research on Hedonic and Eudaimonic Well-Being
 
 **Ryan, Richard M.; Deci, Edward L.**
+
+## Extra
+
+OpenAlex: W2127259621
 
 ## Attachments
 

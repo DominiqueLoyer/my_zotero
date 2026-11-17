@@ -20,7 +20,7 @@ zotero-key: "C76ECTJ9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/C76ECTJ9"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-04-17 20:25:53"
+date-modified: "2026-11-17 18:00:24"
 ---
 
 # NMT_Ru-En_v1
@@ -30,6 +30,10 @@ date-modified: "2026-04-17 20:25:53"
 ## Abstract
 
 Russian to English Neural Translation model based on Marian HF v1.0 https://doi.org/10.5281/zenodo.18167090 v2.0 https://doi.org/10.5281/zenodo.18210212
+
+## Extra
+
+OpenAlex: W7149535280
 
 ---
 

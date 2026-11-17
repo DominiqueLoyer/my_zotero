@@ -13,7 +13,7 @@ zotero-key: "7RHWBVNC"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7RHWBVNC"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-04-17 20:25:51"
+date-modified: "2026-11-17 18:00:22"
 ---
 
 # NMT_Ru-En
@@ -23,6 +23,7 @@ date-modified: "2026-04-17 20:25:51"
 ## Extra
 
 Publication Title: Hugging Face
+OpenAlex: W7151378017
 
 ---
 

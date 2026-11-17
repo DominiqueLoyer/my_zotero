@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "notion://www.notion.so/a11e76daf0d097e5557543e47c110cc8fe5321bd-2e29fa248c578160af0ecd81ee7d50e8"
+		},
+		{
+			"accessDate": "2026-11-17T18:00:01Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:00:01Z",
+			"dateModified": "2026-11-17T18:00:01Z",
+			"filename": "Laperdrix et al. - 2015 - Mitigating browser fingerprint tracking Multi-level reconfiguration and diversification.pdf",
+			"itemType": "attachment",
+			"key": "7PB4948D",
+			"linkMode": "imported_file",
+			"parentItem": "H5QIK4GR",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W1965883625.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Laperdrix et al. - 2015 - Mitigating browser fingerprint tracking Multi-level reconfiguration and diversification.pdf",
+				"files": [
+					{
+						"path": "attachments/7P/7PB4948D/Laperdrix et al. - 2015 - Mitigating browser fingerprint tracking Multi-level reconfiguration and diversification.pdf",
+						"size": 544157,
+						"storage": "git"
+					}
+				],
+				"key": "7PB4948D",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W1965883625.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -73,7 +106,8 @@
 		],
 		"date": "2015",
 		"dateAdded": "2026-01-08T20:14:05Z",
-		"dateModified": "2026-03-25T21:30:04Z",
+		"dateModified": "2026-11-17T18:00:01Z",
+		"extra": "OpenAlex: W1965883625",
 		"itemType": "journalArticle",
 		"key": "H5QIK4GR",
 		"language": "fr-CA",

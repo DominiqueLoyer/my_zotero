@@ -23,12 +23,16 @@ zotero-key: "Q2CLPAC4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Q2CLPAC4"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-11-09 14:58:32"
+date-modified: "2026-11-17 18:00:19"
 ---
 
 # Neuro-symbolic artificial intelligence: a survey
 
 **Bhuyan, Bikram Pratim; Ramdane-Cherif, Amar; Tomar, Ravi; Singh, TP**
+
+## Extra
+
+OpenAlex: W4399387213
 
 ## Attachments
 

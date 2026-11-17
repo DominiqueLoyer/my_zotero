@@ -21,12 +21,16 @@ zotero-key: "SN7UEMNW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SN7UEMNW"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-03-25 21:30:20"
+date-modified: "2026-11-17 18:00:09"
 ---
 
 # Neural collaborative filtering
 
 **He, Xiangnan; Liao, Lizi; Zhang, Hanwang; Nie, Liqiang; Hu, Xia; Chua, Tat-Seng**
+
+## Extra
+
+OpenAlex: W2605350416
 
 ## Attachments
 

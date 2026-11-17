@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T18:00:10Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:00:10Z",
+			"dateModified": "2026-11-17T18:00:10Z",
+			"filename": "Wang et al. - 2019 - Neural graph collaborative filtering.pdf",
+			"itemType": "attachment",
+			"key": "S5QFIDJV",
+			"linkMode": "imported_url",
+			"parentItem": "L7FNDS2V",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1905.08108"
+		},
+		{
 			"accessDate": "2026-01-08T20:32:27Z",
 			"charset": "",
 			"contentType": "",
@@ -29,6 +45,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "notion://www.notion.so/Wang2019-2e29fa248c5781669e9dd261c76380aa"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wang et al. - 2019 - Neural graph collaborative filtering.pdf",
+				"files": [
+					{
+						"path": "attachments/S5/S5QFIDJV/Wang et al. - 2019 - Neural graph collaborative filtering.pdf",
+						"size": 2645821,
+						"storage": "git"
+					}
+				],
+				"key": "S5QFIDJV",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1905.08108"
 			}
 		],
 		"collections": [
@@ -50,7 +83,7 @@
 		"zoteroURI": "zotero://select/library/items/L7FNDS2V"
 	},
 	"zotero": {
-		"citationKey": "wangNeuralGraphCollaborative2019b",
+		"citationKey": "wangNeuralGraphCollaborative2019d",
 		"collections": [
 			"7PN5IQY2"
 		],
@@ -83,7 +116,8 @@
 		],
 		"date": "2019",
 		"dateAdded": "2026-01-08T20:10:55Z",
-		"dateModified": "2026-03-25T21:30:18Z",
+		"dateModified": "2026-11-17T18:00:10Z",
+		"extra": "OpenAlex: W2945827670",
 		"itemType": "conferencePaper",
 		"key": "L7FNDS2V",
 		"pages": "165–174",

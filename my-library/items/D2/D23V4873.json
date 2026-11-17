@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T18:00:29Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:00:29Z",
+			"dateModified": "2026-11-17T18:00:29Z",
+			"filename": "Liebig, T. - 2020 - On the role of knowledge graphs in explainable AI.pdf",
+			"itemType": "attachment",
+			"key": "6XLX8KV3",
+			"linkMode": "imported_url",
+			"parentItem": "D23V4873",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://ceur-ws.org/Vol-2465/semex_short1.pdf"
+		},
+		{
 			"accessDate": "2026-03-09T20:35:48Z",
 			"charset": "",
 			"contentType": "",
@@ -23,6 +39,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Liebig, T. - 2020 - On the role of knowledge graphs in explainable AI.pdf",
+				"files": [
+					{
+						"path": "attachments/6X/6XLX8KV3/Liebig, T. - 2020 - On the role of knowledge graphs in explainable AI.pdf",
+						"size": 146808,
+						"storage": "git"
+					}
+				],
+				"key": "6XLX8KV3",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://ceur-ws.org/Vol-2465/semex_short1.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -63,8 +96,8 @@
 		],
 		"date": "2020",
 		"dateAdded": "2026-03-04T19:44:14Z",
-		"dateModified": "2026-03-25T21:29:05Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T18:00:29Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W2982378168",
 		"itemType": "journalArticle",
 		"key": "D23V4873",
 		"relations": {

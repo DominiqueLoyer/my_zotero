@@ -14,7 +14,7 @@ zotero-key: "5AB22EMA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5AB22EMA"
 date-added: "2026-03-08 21:23:36"
-date-modified: "2026-03-25 21:28:47"
+date-modified: "2026-11-17 18:00:14"
 ---
 
 # Neural-symbolic learning and reasoning: A survey and interpretation
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:47"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4402366710
 
 ## Attachments
 

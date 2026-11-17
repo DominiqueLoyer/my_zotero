@@ -15,7 +15,7 @@ zotero-key: "KSQC352U"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KSQC352U"
 date-added: "2026-02-25 21:32:22"
-date-modified: "2026-03-25 21:29:54"
+date-modified: "2026-11-17 18:00:28"
 ---
 
 # On the Robustness of Interpretability Methods
@@ -25,10 +25,12 @@ date-modified: "2026-03-25 21:29:54"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4210274113
 
 ## Attachments
 
 - [Notion](notion://www.notion.so/Alvarez-Melis2021On-3129fa248c578131893ee4253f4d156a)
+- [Alvarez-Melis, David and Jaakkola, Tommi S. - 2021 - On the Robustness of Interpretability Methods.pdf](../../attachments/24/24NJHTG6/Alvarez-Melis%2C%20David%20and%20Jaakkola%2C%20Tommi%20S.%20-%202021%20-%20On%20the%20Robustness%20of%20Interpretability%20Methods.pdf)
 
 ---
 

@@ -14,7 +14,7 @@ zotero-key: "59RENXID"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/59RENXID"
 date-added: "2026-02-25 21:37:50"
-date-modified: "2026-03-25 21:29:47"
+date-modified: "2026-11-17 18:00:10"
 ---
 
 # Neural Collaborative Filtering
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:47"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2605350416
 
 ## Attachments
 

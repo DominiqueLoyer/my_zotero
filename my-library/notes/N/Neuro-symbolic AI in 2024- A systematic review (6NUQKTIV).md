@@ -14,7 +14,7 @@ zotero-key: "6NUQKTIV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6NUQKTIV"
 date-added: "2026-03-08 21:23:08"
-date-modified: "2026-03-25 21:28:48"
+date-modified: "2026-11-17 18:00:15"
 ---
 
 # Neuro-symbolic AI in 2024: A systematic review
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:48"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4414077182
 
 ## Attachments
 

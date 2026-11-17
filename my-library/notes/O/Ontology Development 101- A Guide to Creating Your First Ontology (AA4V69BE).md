@@ -11,7 +11,7 @@ zotero-key: "AA4V69BE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/AA4V69BE"
 date-added: "2026-03-03 23:15:25"
-date-modified: "2026-11-09 15:08:47"
+date-modified: "2026-11-17 18:00:36"
 ---
 
 # Ontology Development 101: A Guide to Creating Your First Ontology
@@ -21,6 +21,7 @@ date-modified: "2026-11-09 15:08:47"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1654805921
 
 ## Attachments
 

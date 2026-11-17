@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "notion://www.notion.so/Hitzler2022Neurosymbolic-31e9fa248c5781b8b746e50c48cce09a"
+		},
+		{
+			"accessDate": "2026-11-17T18:00:17Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:00:17Z",
+			"dateModified": "2026-11-17T18:00:17Z",
+			"filename": "Hitzler, Pascal and Eberhart, Aaron and Ebrahimi, Monireh and Sarker, Md Kamruzzaman and Zhou, Lu - 2022 - Neuro-symbolic approaches in artificial intelligence.pdf",
+			"itemType": "attachment",
+			"key": "HCVYCJ3R",
+			"linkMode": "imported_file",
+			"parentItem": "IP9Q55N9",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://europepmc.org/api/getPdf?pmcid=PMC9166567"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hitzler, Pascal and Eberhart, Aaron and Ebrahimi, Monireh and Sarker, Md Kamruzzaman and Zhou, Lu - 2022 - Neuro-symbolic approaches in artificial intelligence.pdf",
+				"files": [
+					{
+						"path": "attachments/HC/HCVYCJ3R/Hitzler, Pascal and Eberhart, Aaron and Ebrahimi, Monireh and Sarker, Md Kamruzzaman and Zhou, Lu - 2022 - Neuro-symbolic approaches in artificial intelligence.pdf",
+						"size": 88367,
+						"storage": "git"
+					}
+				],
+				"key": "HCVYCJ3R",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://europepmc.org/api/getPdf?pmcid=PMC9166567"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -59,8 +92,8 @@
 		],
 		"date": "2022",
 		"dateAdded": "2026-03-08T21:24:10Z",
-		"dateModified": "2026-03-25T21:28:46Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T18:00:17Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W4213454368",
 		"itemType": "journalArticle",
 		"key": "IP9Q55N9",
 		"relations": {},

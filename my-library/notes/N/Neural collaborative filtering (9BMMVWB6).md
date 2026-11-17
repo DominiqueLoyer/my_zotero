@@ -22,12 +22,16 @@ zotero-key: "9BMMVWB6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9BMMVWB6"
 date-added: "2026-01-08 20:07:31"
-date-modified: "2026-03-25 21:30:40"
+date-modified: "2026-11-17 18:00:08"
 ---
 
 # Neural collaborative filtering
 
 **He, Xiangnan; Liao, Lizi; Zhang, Hanwang; Nie, Liqiang; Hu, Xia; Chua, Tat-Seng**
+
+## Extra
+
+OpenAlex: W2605350416
 
 ## Attachments
 

@@ -20,7 +20,7 @@ zotero-key: "W3BVETHD"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/W3BVETHD"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-03-25 21:30:04"
+date-modified: "2026-11-17 18:00:33"
 ---
 
 # Online tracking: a 1-million-site measurement and analysis
@@ -30,6 +30,10 @@ date-modified: "2026-03-25 21:30:04"
 ## Abstract
 
 We present the largest and most detailed measurement of online tracking conducted to date, based on a crawl of the top 1 million websites. We make 15 types of measurements on each site, including stateful (cookie-based) and stateless (fingerprinting-based) tracking, the effect of browser privacy tools, and the exchange of tracking data between different sites ("cookie syncing"). Our findings include multiple sophisticated fingerprinting techniques never before measured in the wild. This measurement is made possible by our open-source web privacy measurement tool, OpenWPM, which uses an automated version of a full-fledged consumer browser. It supports parallelism for speed and scale, automatic recovery from failures of the underlying browser, and comprehensive browser instrumentation. We demonstrate our platform's strength in enabling researchers to rapidly detect, quantify, and characterize emerging online tracking behaviors.
+
+## Extra
+
+OpenAlex: W2535603283
 
 ## Attachments
 

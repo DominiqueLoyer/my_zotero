@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T18:00:06Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:00:06Z",
+			"dateModified": "2026-11-17T18:00:06Z",
+			"filename": "Anusha - 2024 - Natural Language Processing (NLP) with Python – Tutorial for Beginners.pdf",
+			"itemType": "attachment",
+			"key": "K27WWXMH",
+			"linkMode": "imported_file",
+			"parentItem": "5FC4JE29",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4393087525.pdf"
+		},
+		{
 			"accessDate": "2026-03-09T20:37:13Z",
 			"charset": "",
 			"contentType": "",
@@ -19,6 +35,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Anusha - 2024 - Natural Language Processing (NLP) with Python – Tutorial for Beginners.pdf",
+				"files": [
+					{
+						"path": "attachments/K2/K27WWXMH/Anusha - 2024 - Natural Language Processing (NLP) with Python – Tutorial for Beginners.pdf",
+						"size": 241955,
+						"storage": "git"
+					}
+				],
+				"key": "K27WWXMH",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4393087525.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -55,8 +88,8 @@
 		],
 		"date": "2024",
 		"dateAdded": "2026-03-03T23:34:37Z",
-		"dateModified": "2026-03-25T21:29:13Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T18:00:06Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W4393087525",
 		"itemType": "journalArticle",
 		"key": "5FC4JE29",
 		"relations": {},

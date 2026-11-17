@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T18:00:15Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:00:15Z",
+			"dateModified": "2026-11-17T18:00:15Z",
+			"filename": "Colelough and Regli - 2025 - Neuro-symbolic AI in 2024 A systematic review.pdf",
+			"itemType": "attachment",
+			"key": "2PBU5MGX",
+			"linkMode": "imported_url",
+			"parentItem": "HWAZF9HY",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2501.05435"
+		},
+		{
 			"accessDate": "2026-01-02T19:07:46Z",
 			"charset": "",
 			"contentType": "",
@@ -29,6 +45,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "notion://www.notion.so/colelough2025neuro-2dc9fa248c57815e94dbc3d941a08f5c"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Colelough and Regli - 2025 - Neuro-symbolic AI in 2024 A systematic review.pdf",
+				"files": [
+					{
+						"path": "attachments/2P/2PBU5MGX/Colelough and Regli - 2025 - Neuro-symbolic AI in 2024 A systematic review.pdf",
+						"size": 1130658,
+						"storage": "git"
+					}
+				],
+				"key": "2PBU5MGX",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2501.05435"
 			}
 		],
 		"collections": [
@@ -65,7 +98,8 @@
 		],
 		"date": "2025",
 		"dateAdded": "2025-12-30T21:49:11Z",
-		"dateModified": "2026-03-25T21:30:50Z",
+		"dateModified": "2026-11-17T18:00:15Z",
+		"extra": "OpenAlex: W4406273454",
 		"itemType": "journalArticle",
 		"key": "HWAZF9HY",
 		"publicationTitle": "arXiv preprint arXiv:2501.05435",

@@ -15,6 +15,22 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "notion://www.notion.so/hitzler2022neuro-2dc9fa248c5781879a15c9ed411eeef2"
+		},
+		{
+			"accessDate": "2026-11-17T18:00:21Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:00:21Z",
+			"dateModified": "2026-11-17T18:00:21Z",
+			"filename": "Hitzler and Sarker - 2022 - Neuro-symbolic artificial intelligence The state of the art.pdf",
+			"itemType": "attachment",
+			"key": "W2HSYJ5U",
+			"linkMode": "imported_url",
+			"parentItem": "L68B9J28",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://www.gbv.de/dms/tib-ub-hannover/1786636506.pdf"
 		}
 	],
 	"meta": {
@@ -29,6 +45,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "notion://www.notion.so/hitzler2022neuro-2dc9fa248c5781879a15c9ed411eeef2"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hitzler and Sarker - 2022 - Neuro-symbolic artificial intelligence The state of the art.pdf",
+				"files": [
+					{
+						"path": "attachments/W2/W2HSYJ5U/Hitzler and Sarker - 2022 - Neuro-symbolic artificial intelligence The state of the art.pdf",
+						"size": 128195,
+						"storage": "git"
+					}
+				],
+				"key": "W2HSYJ5U",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://www.gbv.de/dms/tib-ub-hannover/1786636506.pdf"
 			}
 		],
 		"collections": [
@@ -65,7 +98,8 @@
 		],
 		"date": "2022",
 		"dateAdded": "2025-12-30T21:49:11Z",
-		"dateModified": "2026-03-25T21:30:50Z",
+		"dateModified": "2026-11-17T18:00:22Z",
+		"extra": "OpenAlex: W4206078757",
 		"itemType": "journalArticle",
 		"key": "L68B9J28",
 		"publisher": "IOS press",

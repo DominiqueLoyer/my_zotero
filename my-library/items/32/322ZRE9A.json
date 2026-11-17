@@ -24,6 +24,22 @@
 			"url": "notion://www.notion.so/plumbModelAgnosticSupervised2018-2c09fa248c5781bca71aceec0e0d9b9f"
 		},
 		{
+			"accessDate": "2026-11-17T18:00:01Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:00:01Z",
+			"dateModified": "2026-11-17T18:00:01Z",
+			"filename": "Plumb et al. - 2018 - Model Agnostic Supervised Local Explanations.pdf",
+			"itemType": "attachment",
+			"key": "DW9MYSQW",
+			"linkMode": "imported_url",
+			"parentItem": "322ZRE9A",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1807.02910"
+		},
+		{
 			"accessDate": "2026-01-08T20:31:24Z",
 			"charset": "",
 			"contentType": "",
@@ -63,6 +79,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "notion://www.notion.so/plumbModelAgnosticSupervised2018-2c09fa248c5781bca71aceec0e0d9b9f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Plumb et al. - 2018 - Model Agnostic Supervised Local Explanations.pdf",
+				"files": [
+					{
+						"path": "attachments/DW/DW9MYSQW/Plumb et al. - 2018 - Model Agnostic Supervised Local Explanations.pdf",
+						"size": 326221,
+						"storage": "git"
+					}
+				],
+				"key": "DW9MYSQW",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1807.02910"
 			}
 		],
 		"collections": [
@@ -109,7 +142,8 @@
 		],
 		"date": "2018",
 		"dateAdded": "2025-10-10T19:01:28Z",
-		"dateModified": "2026-11-09T14:59:23Z",
+		"dateModified": "2026-11-17T18:00:02Z",
+		"extra": "OpenAlex: W2898138693",
 		"itemType": "conferencePaper",
 		"key": "322ZRE9A",
 		"pages": "2515–2524",

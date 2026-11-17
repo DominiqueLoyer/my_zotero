@@ -15,6 +15,22 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "notion://www.notion.so/sarker2022neuro-31e9fa248c578155983bc9c2fbe7a412"
+		},
+		{
+			"accessDate": "2026-11-17T18:00:20Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:00:20Z",
+			"dateModified": "2026-11-17T18:00:20Z",
+			"filename": "Sarker, Md Kamruzzaman and Zhou, Lu and Eberhart, Aaron and Hitzler, Pascal - 2022 - Neuro-symbolic artificial intelligence Current trends.pdf",
+			"itemType": "attachment",
+			"key": "T7ASPWRC",
+			"linkMode": "imported_url",
+			"parentItem": "ZM4TXTV2",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2105.05330"
 		}
 	],
 	"meta": {
@@ -29,6 +45,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "notion://www.notion.so/sarker2022neuro-31e9fa248c578155983bc9c2fbe7a412"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Sarker, Md Kamruzzaman and Zhou, Lu and Eberhart, Aaron and Hitzler, Pascal - 2022 - Neuro-symbolic artificial intelligence Current trends.pdf",
+				"files": [
+					{
+						"path": "attachments/T7/T7ASPWRC/Sarker, Md Kamruzzaman and Zhou, Lu and Eberhart, Aaron and Hitzler, Pascal - 2022 - Neuro-symbolic artificial intelligence Current trends.pdf",
+						"size": 236656,
+						"storage": "git"
+					}
+				],
+				"key": "T7ASPWRC",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2105.05330"
 			}
 		],
 		"collections": [
@@ -58,8 +91,8 @@
 		],
 		"date": "2022",
 		"dateAdded": "2026-03-08T21:24:20Z",
-		"dateModified": "2026-03-25T21:28:46Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T18:00:20Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W3200351420",
 		"itemType": "journalArticle",
 		"key": "ZM4TXTV2",
 		"relations": {},
