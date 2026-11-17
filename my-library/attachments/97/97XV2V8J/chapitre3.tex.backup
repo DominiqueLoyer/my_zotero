@@ -1,0 +1,64 @@
+\part{Cadres d'action éthique et déontologique}
+\chapter{La responsabilité en pratique : intervenir et codifier}
+\label{chap:deontologie}
+
+\section{Introduction : de la critique à l'action}
+Les chapitres précédents ont dressé un constat critique : l'opacité des systèmes d'IA et leur incarnation d'une nouvelle forme de pouvoir bureaucratique posent des défis fondamentaux à la responsabilité. Ce chapitre, répondant aux deux dernières questions de recherche, passe de l'analyse à la proposition. Comment intervenir concrètement sur les algorithmes jugés prédateurs ? Et comment cultiver une culture de la responsabilité chez leurs concepteurs via un code de déontologie, en naviguant les «rapports de force» \footnote{Tels qu'évoqués dans les deux questions portant sur la partie en sciences cognitives du DIC-9401.} organisationnels ?
+
+\section{Intervenir sur les algorithmes prédateurs : un cadre méthodologique}
+Modifier un algorithme n'est pas un simple ajustement technique ; c'est un acte de gouvernance qui doit être éthiquement fondé et méthodologiquement rigoureux.
+
+\subsection{Fondements éthiques : prudence et principes}
+L'intervention se justifie par le «Principe Responsabilité» de \citet{Jonas1979} : face à l'incertitude des conséquences technologiques, la prudence impose de donner plus de poids à la «prophétie de malheur». La \textbf{Déclaration de Montréal pour une IA responsable} \citep{MontrealDeclaration2018} traduit cet impératif en dix principes actionnables (bien-être, autonomie, équité, etc.) qui serviront de boussole à notre démarche.
+
+\subsection{Une démarche structurée en cinq étapes}
+Nous proposons un processus itératif et participatif pour réaligner la logique d'un artefact technique avec des valeurs humaines.
+\begin{enumerate}
+    \item \textbf{Diagnostic et caractérisation du préjudice :} Identifier et qualifier précisément le préjudice (discrimination, manipulation, etc.) en mobilisant des méthodes mixtes (audits quantitatifs, entretiens qualitatifs).
+    \item \textbf{Analyse causale via l'explicabilité (XAI) :} Utiliser les outils de l'XAI (LIME, SHAP) pour «ouvrir la boîte noire» et déterminer si le problème vient des données, de la fonction objectif, ou d'autres facteurs techniques.
+    \item \textbf{Délibération éthique et redéfinition des objectifs :} Confronter les causes techniques aux principes de la Déclaration de Montréal. Cette étape, au cœur du processus, est politique et éthique : elle consiste à décider des compromis à faire (e.g., sacrifier un peu de «pertinence» pour plus de «diversité»).
+    \item \textbf{Conception et implémentation de l'intervention :} Sur la base des nouveaux objectifs, implémenter les modifications techniques : correction des biais dans les données, ajout de contraintes d'équité à l'algorithme, ajout de mécanismes de contrôle pour l'utilisateur, etc.
+    \item \textbf{Validation, déploiement et monitoring continu :} Tester rigoureusement la version modifiée, la déployer, et mettre en place une surveillance continue des métriques techniques et éthiques, ainsi que des canaux de feedback pour les utilisateurs.
+\end{enumerate}
+
+Ce processus transforme la modification d'un algorithme d'un «débogage» en un processus de gouvernance, réintroduisant la rationalité substantielle «les valeurs» dans un système dominé par la rationalité formelle «l'optimisation».
+
+\section{Élaborer un code de déontologie pour les concepteurs}
+Une approche plus proactive consiste à guider les pratiques en amont. Cependant, un code de déontologie doit reconnaître la réalité des «rapports de force» et ne pas faire peser toute la charge morale sur l'individu.
+
+\subsection{Inspiration processuelle : le Biosphere Code}
+L'inspiration principale du \textbf{Biosphere Code} \citep{BiosphereCode2015} n'est pas son contenu, mais son \textit{processus d'élaboration} : il a émergé d'un atelier collaboratif et interdisciplinaire.
+
+C'est ce modèle qu'il faut suivre pour garantir la pertinence et la légitimité du code. Il ne s'agit pas d'imposer des règles d'en haut, mais de les co-construire avec toutes les parties prenantes (développeurs, designers, chefs de produit, juristes, éthiciens, usagers).
+
+\subsection{Le code comme artefact culturel et outil de pouvoir}
+Un code de déontologie n'est pas un document juridique. C'est un \textit{artefact culturel} dont le but est de :
+\begin{itemize}[label=\textbullet]
+    \item Créer une \textit{conscience professionnelle collective}.
+    \item Fournir un \textit{langage commun} pour discuter des enjeux éthiques.
+    \item \textit{Légitimer les préoccupations éthiques} au sein de l'organisation.
+\end{itemize}
+Il devient un outil pour les développeurs dans les «rapports de force» en leur permettant de passer d'une objection personnelle («je suis en désaccord») à un argument professionnel («ceci contrevient au principe 4 de notre code»). Il vise à combler le «accountability gap» non pas en désignant un coupable, mais en créant une culture de la \textit{responsabilité partagée}, comme le suggère l'esprit de l'article de \citet{Neuer2018}.
+
+\subsection{Structure et principes directeurs proposés}
+Le code pourrait s'articuler autour des principes suivants, ancrés dans les cadres internationaux :
+
+\begin{table*}[ht]
+\centering
+\renewcommand{\tablename}{Tableau} 
+\caption{Structure et principes d'un code de déontologie pour la personnalisation}
+\label{tab:code_deonto}
+\begin{tabular}{@{}p{0.25\textwidth}p{0.65\textwidth}@{}}
+\toprule
+\textbf{Principe directeur} & \textbf{Devoirs et implications pratiques pour le concepteur} \\ \midrule
+\textbf{1. Primauté du bien-être et non-malveillance} & Évaluer les risques d'addiction, d'anxiété ou d'exploitation. Refuser et dénoncer les «dark patterns». Privilégier le bien-être à long terme sur l'engagement à court terme. \\
+\textbf{2. Équité et non-discrimination} & Auditer systématiquement les données et les modèles pour détecter et atténuer les biais. Utiliser des métriques d'équité adaptées. \\
+\textbf{3. Transparence et explicabilité} & Documenter rigoureusement les choix de conception, les données et les limites. Utiliser des techniques XAI. Contribuer à fournir des informations claires aux utilisateurs. \\
+\textbf{4. Respect de l'autonomie et vie privée} & Appliquer les principes de minimisation des données et de «Privacy by Design». Offrir aux utilisateurs un contrôle réel et simple sur leurs données et les paramètres. \\
+\textbf{5. Responsabilité et redevabilité} & Assumer la responsabilité de la qualité et des impacts des algorithmes. Coopérer aux audits. Exercer un devoir d'alerte face aux risques éthiques. \\
+\textbf{6. Supervision humaine} & Concevoir les systèmes pour permettre une supervision et une intervention humaines appropriées, en particulier pour les décisions à fort impact. \\ \bottomrule
+\end{tabular}
+\end{table*}
+
+\section{Conclusion du chapitre}
+Face à la puissance de la bureaucratie algorithmique, l'inaction n'est pas une option. Ce chapitre a esquissé deux voies d'action complémentaires. La première est une méthodologie d'intervention réactive, structurée et délibérative, pour corriger les systèmes prédateurs existants. La seconde est une approche proactive et culturelle : la co-construction d'un code de déontologie qui arme les professionnels pour intégrer l'éthique au cœur de leur pratique et pour naviguer les pressions organisationnelles. Ensemble, ces approches visent à passer d'une culture de l'optimisation à tout prix à une culture de la responsabilité partagée.

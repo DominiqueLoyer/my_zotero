@@ -1,0 +1,353 @@
+Introduction
+Chapitre 1
+
+
+ Introduction 2
+Prologue
+ Exemples :
+On voudrait qu ’un robot aille chercher
+des croissants chaque matin.
+Reconnaître un visage
+
+
+ Introduction 3
+Prologue
+ Tiraillement :
+– IA : l’intelligence humaine peut être « réduite » à
+une manipulation complexe de symboles via un
+médium donné (pas nécessairement le cerveau) ?
+– L’intelligence ne peut être reproduite sur un
+ordinateur. Elle requiert des « propriétés
+humaines » non simulables ?
+ Quel est le but ?
+– Veut-on vraiment des machines se comportant
+comme des humains ou des programmes
+complémentant nos capacités et compensant nos
+limitations ...
+
+
+ Introduction 4
+Définitions de l’IA
+ « ... the science of making machines do things that
+would require intelligence if done by humans » 
+Marvin Minsky
+ « AI is the part of computer science concerned with
+designing intelligent computer systems » -E.
+Feigenbaum
+ « Systems that can demonstrate human-like reasoning
+capability to enhance the quality of life and improve
+business competitiveness » - Japan-Singapore AI
+Centre
+
+
+ Introduction 5
+Quelques problèmes typiques
+ Planification ;
+ Vision ;
+ Robotique ;
+ Langage naturelle ;
+ Etc.
+Difficiles !
+ Diagnostic médical ;
+ Processus de décision financière ;
+ Helpdesk ;
+ Etc.
+Plus faciles !
+
+
+ Introduction 6
+Qu’est-ce que l’IA
+1. Une discipline de l’ingénierie dédiée à la création
+de machines intelligentes ;
+2. Une science empirique de la modélisation
+computationnelle de l’intelligence humaine ;
+(1) IA moderne
+(2) Science cognitive moderne
+Différencier les 2 disciplines, mais antagonisme
+bénéfique, tendant à s’estomper.
+
+
+ Introduction 7
+Qu’est-ce que l’IA ?
+«The branch of computer science that is concerned with the automation of intelligent behavior »
+(Luger+Stubbleeld, 1993)
+Act rationally
+« The study of how to make computers do things at which, at the moment, people are better »
+(Rich+Knight, 1991)
+Act like humans
+« The study of mental faculties through the use of computational models »
+(Charniak+McDermott, 1985)
+Think rationally
+« [The exciting new effort to make computers think ... machines with minds, in the full and literal sense »
+(Haugeland, 1985)
+Think like humans
+
+
+ Introduction 8
+Penser comme un humain : la science cognitive
+ Vers 1960 "révolution cognitive": la psychologie prenant en
+compte le traitement de l'information remplace l'orthodoxie
+prévalante du behaviorism
+ Besoin de théories scientifiques sur les activités internes du
+cerveau  Quel niveau d'abstraction? Connaissances ou "circuits"?  Comment valider les résultats expérimentaux?
+– étude et analyse du comportement humain (approche top-down) – déduction à partir de données neurologiques (approche bottom-up)
+ Les 2 approches correspondent maintenant à :
+– top-down science cognitive – bottom-up neuroscience cognitive
+ Elles se sont différenciées de l'IA
+
+
+ Introduction 9
+Agir comme un humain
+ En 1950 Alan Turing publie son papier " Computing Machinery and Intelligence" dans lequel il décrit une méthode pour tester un système d'intelligence artificielle
+ Principales composantes d'un système d'IA : représentation des connaissances, raisonnement, compréhension du langage naturel, apprentissage.
+ http://www.turing.org.uk/turing/
+
+
+ Introduction 10
+Test de Turing
+Test de Turing : un individu communique à l'aide d'un terminal
+d'ordinateur avec un interlocuteur invisible. Il doit décider si
+l'interlocuteur est un être humain ou un système d'IA imitant un
+être humain.
+
+
+ Introduction 11
+Penser rationnellement
+ Aristote : quels sont les processus de pensée corrects ?
+ Plusieurs formes de logiques :
+– notation et règles de dérivation pour les pensées, sans relation avec une mécanisation du raisonnement
+ Ligne directe des mathématiques et de la philosophie à l'IA moderne
+ Difficultés :
+– tous les comportements intelligents ne sont pas le résultats de raisonnement logique
+– quel est le but de l'action de penser? Quelles pensées doit-on avoir? Traduire une connaissance « informelle » en termes « formelles » ? Gestion de la connaissance « incertaine » ?
+
+
+ Introduction 12
+Agir rationnellement : notion d’agent rationnel
+ Comportement rationnel : effectuer l'action correcte pour atteindre l’objectif recherché ;
+ Action correcte : celle qui est supposé optimiser (maximiser, minimiser) l'objectif recherché, étant donné l'information disponible ;
+ Ne requiert pas nécessairement le fait de penser (ex. retirer sa main du feu), mais la pensée doit être au service de l'action rationnelle ;
+
+
+ Introduction 13
+Agent rationnel
+ Une entité qui perçoit et agit ;
+ Un agent est une fonction qui met en correspondance des perceptions et des actions ;
+ On recherche l’agent (ou le groupe d’agents) ayant la meilleure performance ;
+ Donc : concevoir le meilleur programme étant donné les ressources (machine) à notre disposition.
+
+
+ Introduction 14
+Un agent « intelligent » ?
+
+
+ Introduction 15
+Architectures de la cognition
+ Il s’agit de proposer, au moins implicitement, une
+architecture d’un agent intelligent ;
+ Cette architecture défini l’organisation du processus
+cognitif. Elle constitue le substrat computationnel sur
+lequel les habilités spécifiques à un domaine précis
+sont greffées ;
+– Ex : Organiser l’apprentissage des lois physiques de
+l’environnement dans lequel l’agent évolue, la combinaison
+d’inputs de multiples capteurs, et choisir les actions en
+évaluant leurs effets.
+ Pas de consensus sur ce que serait une architecture
+idéale pour un système intelligent e.g., séparation
+fonctionnelle avec modules de perception,
+d’apprentissage, de raisonnement, de communication,
+de locomotion, etc. ;
+
+
+ Introduction 16
+Comment fabriquer un agent « intelligent »
+ Approche «symbolique» : sans se limiter à
+reproduire des phénomènes observables ;
+ Approche neuro-mimétique : en s’inspirant de
+la réalité biologique et en construisant des
+modèles biologiquement plausibles ;
+ Philosophiquement irréconciliables ?
+ Complémentaires, comparables ; elles forment
+un continuum ;
+ Approche hybride neuro-symbolique.
+
+
+ Introduction 17
+Approche symbolique
+ Un symbole est un objet, partie de l’état interne de
+l’agent ;
+ 2 propriétés :
+– Peut-être comparé à d’autres symboles ;
+– Peut-être combiné avec d’autres symboles pour former des
+structures symboliques.
+ Newell & Simon 1972 : Physical Symbol System
+(PSS), la manipulation algorithmique de structures
+symboliques est nécessaire et suffisante pour
+« créer » de l’intelligence ;
+ L’hypothèse PSS, prise à l’extrême se confond avec
+la notion de COMPUTATION ;
+ Machine de Turing.
+
+
+ Introduction 18
+Approche symbolique
+ Fondée principalement sur la logique ;
+ Manipule des expressions et met en oeuvre des
+processus de raisonnement ;
+ Nécessite une représentation explicite des
+connaissances du problème et des méthodes de
+résolution ;
+ Problème : comment considérer des informations
+« numériques » (intensité, force, fréquence, etc.) du
+monde physique ?
+– Le projet de robotique Shakey [Raphael, 76] en est le premier
+exemple !
+– Un niveau de computation non symbolique entre le monde réel et le
+monde symbolique interne de l’agent ; – Qu’en est-il de l’existence d’une telle couche ?
+
+
+ Introduction 19
+Approche neuro-mimétique
+ S’inspire de la réalité biologique ;
+ En construit des modèles informatiques ;
+ Exploite des processus d’apprentissage ;
+ Permet de développer des systèmes autoadaptatifs et évolutifs.
+
+
+ Introduction 20
+Histoire
+ 1943 McCulloch & Pitts: modélisation des neurones et du cerveau
+ 1949 D. Hebb : assemblées de neurones, force des connexions entre
+neurones et règle d’apprentissage ;
+ 1950 ouvrage "Computing Machinery and Intelligence" de Turing : les
+fonctions calculables sont définies par une machine ;  1952-69 période euphorique!
+ 1950s 1er programmes d'IA: programme de jeu de dame de Samuel,
+"Logic Theorist" de Newell & Simon, «moteur» de preuve de
+théorèmes en géométrie de Gelernter  1956 réunion de Dartmouth : terme "Intelligence Artificielle " adopté  1957-1962 Rosenblatt : le perceptron  1965 algorithme de Robinson pour le raisonnement logique
+ 1966-74 IA découvre la complexité des calculs, recherche en réseaux
+de neurones disparaît (presque) complètement ; Coupure dans les
+budgets ;  1969-1980 knowledge is power ;
+
+
+ Introduction 21
+Histoire
+ 1969-79 1er développements de système à base de
+connaissances (Dendral) ;
+ 1980-88 industrie des systèmes experts en plein boum (DEC,
+etc.) ;  1988-93 frein dans l’industrie des systèmes experts, reflexion ;
+ ~1980-~1990 méthodes générales d’apprentissage : méthodes
+symboliques et,
+ 1985 - ... réseaux de neurones redeviennent populaires : dès
+Hopfield (82), le perceptron multi-couches (1985) ;
+ ~1990 - ... résurgence des méthodes de décision probabilistes,
+« Nouvelle IA » : Artificial Life, algorithmes génétiques, réseaux
+bayésiens. Besoins industriels.
+ Perspectives : data mining, text mining sur internet. Retour de
+la connaissance ?
+
+
+ Introduction 22
+Fondements de l’IA
+ Philosophie : logique, méthodes de raisonnement. Fondements : apprentissage, langage, rationalité ;
+ Mathématiques : représentations formelles et preuves, algorithmes, (in)décidabilité, probabilité ;
+ Psychologie : adaptation, phénomènes de perception et de contrôle moteur, techniques expérimentales (psychophysique, etc.) ;
+ Linguistique : représentation des connaissances, grammaire ;
+ Neurosciences : substrat physique de l'activité mentale ;
+
+
+ Introduction 23
+Progrès et futur
+ À cause des promesses initiales (non tenues), désenchantement ;
+ Mais peut-être peut-on vivre avec des programmes plus limités, comme des assistants intelligents, etc.
+ Maturité de l’IA : techniques mathématiques, modèles cognitifs ...
+
+
+ Introduction 24
+Exemples de système d’IA
+ robots
+ programme de jeu
+d'échecs
+ système de
+reconnaissance de la
+parole
+ vérificateur de syntaxe
+ reconnaissance de
+formes
+ diagnostic médical
+ algorithmes de jeu
+ traduction automatique
+ ordonnancement de ressources
+ systèmes à base de connaissances (diagnostic, conseil, planification, etc.)
+ apprentissage automatique
+ interfaces intelligentes
+
+
+ Introduction 25
+Faire de l’IA
+ Point de vue des sciences cognitives
+– Comprendre la cognition naturelle par des modèles informatiques ;
+ Point de vue de l’ingénieur
+– Résoudre des problèmes difficiles par des méthodes appropriées ;
+ Point de vue du théoricien
+– Découvrir les lois universelles de la cognition
+Oscillation entre ces 3 pôles
+
+
+ Introduction 26
+À lire ...
+ Haugeland, J. (1985). Artificial Intelligence: The Very Idea.
+Cambridge, MA: MIT Press.
+ Haugeland, J. (1989). « L'esprit dans la machine ». Editions
+Odile Jacob, Paris.
+ Barr, A., P. R. Cohen, and E. A. Feigenbaum, Eds. (1989). The
+Handbook of Artificial Intelligence, vol. 4. Reading, MA:
+Addison-Wesley.
+ Brooks, R. A. (1991). Intelligence without representation.
+Artificial Intelligence 47(1-3):139-159.  Chomsky, N. (1957). Syntactic Structures. The Hague: Mouton.
+ Dreyfus, H. L. (1992). What Computers Still Can't Do: A Critique
+of Artificial Reason. Cambridge, MA: MIT Press.
+ Feigenbaum, E. A., and J. Feldman, Eds. (1963). Computers
+and Thought. New York: McGraw-Hill.
+
+
+ Introduction 27
+À lire ...
+ McCulloch, W. S., and W. Pitts. (1943). A logical calculus of the
+ideas immanent in nervous activity. Bulletin of Mathematical
+Biophysics 5:115-137.
+ Minsky, M. L., Ed. (1968). Semantic Information Processing.
+Cambridge, MA: MIT Press.
+ Minsky, M. L. (1986). The Society of Mind. New York: Simon &
+Schuster.
+ Newell, A. (1990). Unified Theories of Cognition. Cambridge, MA:
+Harvard University Press.
+ Newell, A., and H. A. Simon. (1972). Human Problem Solving.
+Englewood Cliffs, NJ: Prentice-Hall.
+ Nilsson, N. J. (1998). Artificial Intelligence: A New Synthesis. San
+Mateo, CA: Morgan Kaufmann.
+ Poole, D., A. Mackworth, and R. Goebel. (1997). Computational
+Intelligence: A Logical Approach. Oxford: Oxford University Press.
+ Raphael, B. (1976). The Thinking Computer: Mind Inside Matter.
+New York: W. H. Freeman.
+
+
+ Introduction 28
+À lire.
+ Robinson, J. A. (1965). A machine-oriented logic based on the
+resolution principle. Journal of the Association for Computing
+Machinery 12:23-41.
+ Russell, S. J., and P. Norvig. (1995). Artificial Intelligence: A
+Modern Approach. Englewood Cliffs, NJ: Prentice-Hall.
+ Samuel, A. L. (1959). Some studies in machine learning using the
+game of checkers. IBM Journal of Research and Development
+3(3):210-229.
+ Shapiro, S. C., Ed. (1992). Encyclopedia of Artificial Intelligence.
+2nd ed. New York: Wiley.
+ Turing, A. M. (1950). Computing machinery and intelligence. Mind
+59:433-460.
+ Von Neumann, J., and O. Morgenstern. (1944). Theory of Games
+and Economic Behavior. 1st ed., Princeton, NJ: Princeton
+University Press.
+ Webber, B. L., and N. J. Nilsson, Eds. (1981). Readings in Artificial
+Intelligence. San Mateo, CA: Morgan Kaufmann.

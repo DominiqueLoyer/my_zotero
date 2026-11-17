@@ -1,0 +1,42 @@
+“EXPLORATION DE TECHNOLOGIES POUR DOTER UN AGENT INTELLIGENT D’UNE BASE DE COMPÉTENCES ” : APPLICATION AU DOMAINE FINANCIER
+Travail de : KODJO JEAN-PIERRE AKLAH
+NOVEMBRE 2019
+
+
+ Modélisation conceptuelle
+Diagramme de Cas d’utilisation
+
+
+ Description de cas d’utilisation
+Nom du cas
+d’utilisation Ajouter un énoncé
+Version 1.0
+Auteur Kodjo Jean-Pierre AKLAH
+Parties prenantes et objectifs
+L’employé doit pouvoir ajouter un énoncé; Le gestionnaire doit être en mesure d’ajouter un énoncé
+Acteur principal Gestionnaire, employé
+Préconditions L’utilisateur doit avoir déjà ajouté au préalable une intention
+Post-conditions Un énoncé est créé et associé à une intention dans SharePoint;
+Un énoncé est créé et associé à une intention dans LUIS.
+Étapes Actions de l’acteur Réponses du système
+1.
+Le gestionnaire/l’employé accède à la page de suggestion de l’énoncé
+Affiche la page de suggestion des énoncés
+2. Le gestionnaire/l’employé clique
+sur ajouter un énoncé Le système affiche la fenêtre d’ajout de l’énoncé
+3.
+Le gestionnaire/l’employé ajoute un énoncé et sélectionne la langue dans laquelle l’énoncé est ajouté
+Le système affiche un message d’ajout de l’énoncé
+Scénarios alternatifs
+Étapes Actions alternatives de l’acteur Réponses du système 3a.1 L’énoncé ajouté existe déjà dans
+la base de données
+Le système demande à l’utilisateur de réessayer avec un autre ajout d’énoncé différent
+3.a.2. L’utilisateur clique sur modifier
+l’énoncé
+Le système affiche la fenêtre de suggestion de l’énoncé
+3.a.3 GOTO 3.
+Cas d’utilisation : Ajouter un énoncé
+
+
+ Modélisation conceptuelle
+Diagramme de classes

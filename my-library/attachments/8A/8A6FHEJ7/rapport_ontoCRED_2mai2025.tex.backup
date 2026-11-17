@@ -1,0 +1,2010 @@
+\documentclass[9pt,twocolumn,twoside,french]{article}
+%\setboolean{shortarticle}{false}
+\usepackage[french]{babel}
+\usepackage{amsmath, amssymb} % Math symbols (though not strictly needed here)
+\usepackage{graphicx} % For images (though not needed here)
+\usepackage{caption}
+\usepackage{booktabs} % For professional quality tables (\toprule, \midrule,
+\usepackage{array} % For advanced table column specifications (like p{width})
+\usepackage{hyperref} % For hyperlinks (optional, useful if URLs were present)
+\usepackage{ragged2e} % For better justification in p columns (\RaggedRight)
+\usepackage{microtype} % Improves typography subtly
+\usepackage{natbib} % Required for apalike style
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym}
+\usepackage{plantuml}
+\usepackage{authblk}
+\usepackage{float}
+\newcommand{\inlinecite}[1]{
+  \{\citeauthor{#1},\, \citeyear{#1},\, \citetitle{#1}\}
+}
+\newcommand{\journalref}{}
+
+
+
+%\naaclfinalcopy % À décommenter pour la version finale
+\usepackage{listings}
+
+
+
+\usepackage{times}
+\date{2 mai 2025}
+
+\title{Système hybride de vérification de crédibilité des sources de l'information, une ontologie}
+
+\author{Dominique S. Loyer}
+
+
+\affil[UQAM]{Projet à l'intention du Professeur Petko Valchev, dans le cadre d'un cours de doctorat, Sciences du Web DIC-9335}
+\affil[@]{loyer.dominique@courrier.uqam.ca}
+\date{2 mai 2025} % Mettre à jour la date
+\begin{abstract}
+      Ce document accompagne l'ontologie OWL 2 DL créée pour modéliser le domaine de l'évaluation de la crédibilité des informations sur Internet, en se basant sur une modélisation UML antérieure \parencite{Loyer2025Rapport} et en s'inspirant de structures reconnues provenant d'une ontologie de gestion de subventions (projet 2 de ce cours) \parencite{Loyer2025OntoSubv}. L'ontologie, élaborée en syntaxe Turtle et conçue pour être utilisée avec des outils tels que Protégé \parencite{Protege2025}, a pour objectif de saisir les concepts essentiels (information, source, requête, rapport, méthodes d'évaluation, critères, niveaux de crédibilité), leurs interrelations et certains axiomes fondamentaux pour la cohérence et l'inférence possible. Ce texte fournit une explication approfondie du domaine modélisé, un inventaire des classes et des propriétés, ainsi qu'une évaluation des choix de modélisation concernant les types de propriétés, restrictions et axiomes OWL choisis, y compris la façon dont la structure facilite la catégorisation de l'information selon son niveau de crédibilité déduit. L'objectif consiste à enregistrer la structure et le raisonnement de l'ontologie créée pour le système d'évaluation de la crédibilité. 
+    \end{abstract}
+    \setboolean{displaycopyright}{false}
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  numbers=left,
+  frame=single,
+  breaklines=true,
+}
+\sloppy
+\begin{document}
+\maketitle
+\section{Introduction}
+
+Ce rapport présente la création et la modélisation d'une ontologie OWL 2 \parencite{W3C2012OWL2} pour le secteur de l'évaluation de la fiabilité des informations sur Internet. Ce projet est en lien avec le cours DIC-9335 et découle d'une première modélisation réalisée avec UML \parencite{Loyer2025Rapport, Fowler2003, Larman2004}. Le principal défi discuté est la propagation de la désinformation et la difficulté pour les utilisateurs de distinguer les informations crédibles \parencite{Zhou2020, Viviani2017, Metzger2010}. Le but de l'ontologie est d'offrir une représentation sémantique formelle pour un système d'évaluation de crédibilité, en saisissant les entités essentielles (informations fournies, sources, requêtes des utilisateurs, rapports d'évaluation, méthodes analytiques, critères, preuves) et leurs relations. 
+
+L'ontologie a été créée avec le langage OWL 2 DL et rédigée en syntaxe Turtle \parencite{TurtleSpec}. L'application Protégé \parencite{Protege2025} est destinée au chargement, à la visualisation et à l'exploitation de l'ontologie. La méthodologie s'appuie sur les principes fondamentaux de création d'ontologies \parencite{NoyMcGuinness2001} et incorpore des éléments structurels tirés d'une ontologie antérieure concernant la gestion des subventions \parencite{Loyer2025OntoSubv}, en particulier pour la modélisation de l'évaluation fondée sur des critères. 
+
+
+
+Ce rapport est structuré \footnote{Voir le plan en fin de document} comme suit : la Section~\ref{sec:domaine} présente une description détaillée du domaine modélisé, incluant les classes \footnote{Voir l'Annexe II du code en Turtle à partir de la ligne 141}et propriétés ajoutées ou adaptées. La Section~\ref{sec:modelisation} explique en détail les choix de modélisation spécifiques en insistant sur les types et axiomes \footnote{Voir les règles de l'Annexe II du code Turtle à partir de la ligne 266 jusqu'à 1030} de propriétés et de classes, ainsi que sur les restrictions utilisées. La Section~\ref{sec:classification} discute de la manière dont l'ontologie supporte la classification de l'information basée sur la crédibilité. La Section~\ref{sec:conclusion} conclut le rapport. Les références bibliographiques sont fournies à la fin.
+\section{État de l'Art}
+Dans le domaine de la vérification de la crédibilité de l'information, plusieurs approches et systèmes ont été développés. Ces efforts combinent souvent des techniques d'apprentissage automatique, de traitement du langage naturel, et de représentation des connaissances pour aider les utilisateurs à distinguer les informations fiables des contenus trompeurs \parencite{Oshikawa2020, Sharma2019, deSouza2020}.
+Les approches hybrides, combinant des règles expertes avec des modèles d'apprentissage automatique, sont devenues courantes pour tirer parti des forces de chaque méthode \parencite{Ahmed2024}. Les règles peuvent capturer des indicateurs explicites de crédibilité ou de désinformation, tandis que les modèles d'IA peuvent identifier des motifs plus subtils et s'adapter à de nouvelles formes de contenu trompeur, y compris ceux générés par des modèles de langage \parencite{Loth2024, ChenShu2023}.
+L'utilisation d'ontologies et du Web sémantique pour la vérification de l'information a également été explorée. Les ontologies permettent de formaliser les concepts clés, leurs relations et les règles du domaine, facilitant ainsi le raisonnement et l'inférence sur la crédibilité des sources et des informations \parencite{Pescuma2025}. Des initiatives comme Schema.org avec son vocabulaire `ClaimReview` visent à structurer les informations de vérification des faits sur le Web \parencite{ClaimReviewSchema}.
+Les travaux récents se sont également concentrés sur l'explicabilité des systèmes de vérification de l'information, en cherchant à fournir aux utilisateurs des justifications claires et compréhensibles des évaluations de crédibilité \parencite{he2023debunkingdisinformationrevolutionizingtruth}. Cela est particulièrement important pour favoriser la confiance dans ces systèmes et pour aider les utilisateurs à développer leur propre esprit critique.
+
+
+\section{Description Détaillée du Domaine Modélisé}
+\label{sec:domaine}
+
+Le domaine modélisé concerne le processus de vérification de la crédibilité d'une information \footnote{Voir les critères de vérifications Fig.9} trouvée en ligne (par exemple, un article de presse, un post de blog, une affirmation). Le système cible, tel que décrit dans la modélisation UML \parencite{Loyer2025Rapport}, vise à prendre une information soumise par un utilisateur \footnote{Voir l'interface en Fig. 3}, à l'analyser en utilisant une approche hybride (règles logiques et modèles d'IA/NLP), à consulter des sources externes (moteurs de recherche, bases de faits vérifiés, API LLM), et à produire un rapport d'évaluation comprenant un niveau de crédibilité et des justifications.
+
+L'ontologie doit capturer les éléments suivants :
+\begin{itemize}
+    \item \textbf{Le processus de requête :} Un utilisateur soumet une information, ce qui déclenche une requête d'évaluation. Cette requête passe par différents états (soumis, en traitement, analysé, rapport généré, erreur) et aboutit à un rapport.
+    \item \textbf{L'information et sa source :} L'information soumise (texte, URL) a une source originale présumée et potentiellement un auteur identifié.
+    \item \textbf{Les acteurs :} L'utilisateur lambda qui soumet la requête, et l'expert qui configure et maintient le système (règles, modèles).
+    \item \textbf{L'approche hybride :} Le système utilise des règles de vérification prédéfinies et des modèles d'IA/NLP pour analyser l'information.
+    \item \textbf{Les critères d'évaluation :} L'évaluation se base sur des critères spécifiques (ex: réputation de la source, cohérence du texte, présence de biais, analyse du ton).
+    \item \textbf{Les résultats intermédiaires :} Chaque règle ou modèle produit un résultat qui contribue à l'évaluation d'un ou plusieurs critères.
+    \item \textbf{Les sources externes :} Le système interagit avec des API externes pour collecter des données et des preuves.
+    \item \textbf{Les preuves :} Des informations externes (articles corroborants ou réfutants, entrées de bases de faits) sont collectées comme preuves.
+    \item \textbf{Le rapport final :} Le rapport synthétise les analyses, présente les preuves, détaille les résultats par critère, et assigne un niveau de crédibilité global (ex: Haut, Moyen, Bas).
+    \item \textbf{La classification :} L'ontologie doit permettre d'inférer la classification d'une information (ex: \onto{InformationHauteCredibilite}) en fonction du niveau de crédibilité déterminé dans son rapport.
+\end{itemize}
+
+\subsection{Classes Modélisées} \footnote{Voir Fig 1}
+
+Pour représenter ce domaine, les classes suivantes ont été définies (liste non exhaustive, voir ontologie complète pour détails) :
+
+\textbf{Classes principales du processus :}
+\begin{itemize}
+    \item \onto{RequeteEvaluation}: Représente une demande de vérification unique.
+    \item \onto{InformationSoumise}: L'information (texte/URL) fournie par l'utilisateur.
+    \item \onto{RapportEvaluation}: Le résultat final produit pour une requête.
+    \item \onto{User}: L'utilisateur initiant la requête.
+    \item \onto{Expert}: Sous-classe de \onto{User}, responsable de la configuration.
+\end{itemize}
+
+\textbf{Classes liées à l'information et sa provenance :}
+\begin{itemize}
+    \item \onto{Source}: L'origine de l'information ou des preuves (site web, organisation, etc.). Sous-classes : \onto{NewsWebsite}, \onto{SocialMediaPlatform}, \onto{AcademicJournal}, \onto{PersonalBlog}, \onto{FactCheckingOrganization}.
+    \item \onto{Author}: L'auteur présumé de l'information.
+\end{itemize}
+
+\textbf{Classes liées à l'évaluation et aux méthodes :}
+\begin{itemize}
+    \item \onto{VerificationMethod}: Classe mère pour les méthodes d'analyse.
+    \item \onto{RegleVerification}: Une règle logique spécifique.
+    \item \onto{ModeleIA}: Un modèle d'IA/NLP spécifique.
+    \item \onto{VerificationCriterion}: Un critère d'évaluation (ex: réputation, cohérence). Individus prédéfinis : \onto{Criteria\_SourceReputation}, \onto{Criteria\_AuthorExpertise}, etc.
+    \item \onto{ResultatVerification}: Classe mère pour les résultats intermédiaires.
+    \item \onto{ResultatRegle}: Résultat de l'application d'une règle.
+    \item \onto{ResultatNLP}: Résultat de l'application d'un modèle IA.
+    \item \onto{ResultatCritere}: Résultat agrégé pour un critère spécifique (inspiré de \onto{NoteAttribuee} dans \parencite{Loyer2025OntoSubv}).
+    \item \onto{CredibilityLevel}: Le niveau de crédibilité final (ex: Haut, Moyen, Bas). Individus prédéfinis : \onto{Niveau\_Haut}, \onto{Niveau\_Moyen}, etc.
+\end{itemize}
+
+\textbf{Classes liées aux données externes et preuves :}
+\begin{itemize}
+    \item \onto{SystemeExterne}: Une source de données externe (API, DB). Sous-classes : \onto{MoteurRecherche}, \onto{ApiLLM}, \onto{BaseDeFaits}.
+    \item \onto{Evidence}: Une preuve externe utilisée dans l'évaluation. Sous-classes : \onto{SupportingEvidence}, \onto{RefutingEvidence}.
+    \item \onto{InfoSourceAnalyse}: Détails sur une source analysée dans le rapport.
+\end{itemize}
+
+\textbf{Classes définitionnelles (pour classification) :}
+\begin{itemize}
+    \item \onto{InformationVerifiee}: Information ayant fait l'objet d'un rapport.
+    \item \onto{InformationHauteCredibilite}, \onto{InformationMoyenneCredibilite}, \onto{InformationFaibleCredibilite}: Classes définies par équivalence logique (\texttt{owl:equivalentClass}) basées sur le \onto{CredibilityLevel} assigné dans le rapport associé.
+\end{itemize}
+% --- Première page de figures ---
+\begin{figure*}[htbp]
+    % Utilise minipage pour placer deux figures côte à côte
+    \begin{minipage}{0.49\textwidth} % Ajustez la largeur si nécessaire (ex: 0.48\textwidth)
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{rapport Onto cred 2mai25/classes.png}
+        \caption{Vue des classes dans Protégé} % Légende spécifique à cette figure
+        \label{fig:classes_protege} % Label unique pour cette figure
+    \end{minipage}\hfill % Espace horizontal flexible entre les deux minipages
+    \begin{minipage}{0.49\textwidth} % Ajustez la largeur pour correspondre à la première minipage
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{rapport Onto cred 2mai25/objectsProperties.png}
+        \caption{Vue des relations d'objets dans Protégé} % Légende spécifique
+        \label{fig:obj_properties} % Label unique
+    \end{minipage}
+    % Le caption global pour la figure* n'est généralement pas utilisé quand on a des captions par minipage.
+    % Si vous voulez un caption global, placez-le ici après les minipages.
+\end{figure*}
+
+% --- Deuxième page de figures ---
+% LaTeX placera automatiquement cette figure* sur une nouvelle page si l'espace n'est pas suffisant
+% sur la page précédente, ce qui est l'objectif ici pour avoir 2 figures par page.
+\begin{figure*}[htbp]
+    % Utilise minipage pour placer les deux figures suivantes côte à côte
+    \begin{minipage}{0.49\textwidth} % Ajustez la largeur si nécessaire
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{rapport Onto cred 2mai25/interface.png}
+        \caption{Interface d'interaction simpliste avec l'utilisateur} % Légende spécifique
+        \label{fig:interface} % Label unique
+    \end{minipage}\hfill % Espace horizontal flexible
+    \begin{minipage}{0.49\textwidth} % Ajustez la largeur pour correspondre
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{rapport Onto cred 2mai25/dataProperies.png}
+        \caption{Vue des propriétés de données dans Protégé} % Légende spécifique
+        \label{fig:data_properties} % Label unique
+    \end{minipage}
+    % Caption global si désiré
+\end{figure*}
+\subsection{Propriétés Modélisées} \footnote{Voir Fig 2}
+
+Les relations entre ces classes et leurs attributs sont modélisés via des propriétés d'objet et de données.
+
+\textbf{Propriétés d'Objet Clés :}
+\begin{itemize}
+    \item \onto{concernsInformation}, \onto{submittedBy}, \onto{producesReport} (et leurs inverses) pour lier \onto{RequeteEvaluation}, \onto{InformationSoumise}, \onto{User}, et \onto{RapportEvaluation}.
+    \item \onto{hasOriginalSource}, \onto{hasAuthor} pour caractériser \onto{InformationSoumise}.
+    \item \onto{includesRuleResult}, \onto{includesNLPResult}, \onto{includesSourceAnalysis}, \onto{basedOnEvidence}, \onto{assignsCredibilityLevel} pour structurer le \onto{RapportEvaluation}.
+    \item \onto{appliesRule}, \onto{usesModel} pour lier les résultats à leurs méthodes.
+    \item \onto{evaluatesCriterion} pour lier les méthodes (\onto{RegleVerification}, \onto{ModeleIA}) aux critères qu'elles évaluent.
+    \item \onto{hasCriterionResult}, \onto{concernsCriterion}, \onto{obtainedVia} pour détailler les résultats par critère (inspiré de \parencite{Loyer2025OntoSubv}).
+    \item \onto{originatesFrom} pour lier \onto{Evidence} à sa \onto{Source}.
+    \item \onto{configuredByExpert}, \onto{fetchesDataFrom}.
+\end{itemize}
+\clearpage
+\textbf{Propriétés de Données Clés :}
+\begin{itemize}
+    \item \onto{requestStatus}, \onto{submissionTimestamp} (sur \onto{RequeteEvaluation}).
+    \item \onto{informationContent}, \onto{informationURL} (sur \onto{InformationSoumise}).
+    \item \onto{credibilityScoreValue}, \onto{reportSummary}, \onto{completionTimestamp} (sur \onto{RapportEvaluation}).
+    \item \onto{ruleLogic}, \onto{ruleWeight}, \onto{ruleDescription} (sur \onto{RegleVerification}).
+    \item \onto{ruleResultValid} (sur \onto{ResultatRegle}).
+    \item \onto{modelName}, \onto{modelType} (sur \onto{ModeleIA}).
+    \item \onto{sentimentScore}, \onto{coherenceScore}, \onto{detectedBiases} (sur \onto{ResultatNLP}).
+    \item \onto{criterionResultValue}, \onto{criterionResultConfidence} (sur \onto{ResultatCritere}).
+    \item \onto{sourceURL}, \onto{sourceReputationScore} (sur \onto{Source}).
+    \item \onto{evidenceURL}, \onto{evidenceSnippet} (sur \onto{Evidence}).
+    \item \onto{credibilityLevelValue} (sur \onto{CredibilityLevel}).
+\end{itemize}
+
+\section{Choix de Modélisation}
+\label{sec:modelisation}
+
+Cette section détaille les choix effectués pour représenter les éléments clés du domaine en OWL 2 \parencite{W3C2012OWL2}, en utilisant les vocabulaires RDF et RDFS, et en justifiant ces choix par rapport aux objectifs de l'ontologie et aux bonnes pratiques \parencite{NoyMcGuinness2001}.
+
+\subsection{Types de Propriétés (Caractéristiques)} \footnote{Voir Fig. 4}
+
+Plusieurs propriétés ont été déclarées avec des caractéristiques spécifiques pour enrichir la sémantique et permettre des inférences ou des contrôles de cohérence :
+\begin{itemize}
+    \item \textbf{Fonctionnelles (\texttt{owl:FunctionalProperty}):} Garantit qu'un individu \footnote{Voir les instanciations dans l'Annexe II du code Turtle à partir de la ligne 224}a au plus une valeur pour la propriété. Appliqué à des propriétés où une relation unique est attendue, par exemple :
+        \begin{itemize}
+            \item \onto{concernsInformation} (une requête concerne une seule info),
+            \item \onto{submittedBy} (une requête est soumise par un seul user),
+            \item \onto{producesReport} (une requête produit un seul rapport),
+            \item \onto{assignsCredibilityLevel} (un rapport assigne un seul niveau),
+            \item \onto{appliesRule} / \onto{usesModel} (un résultat spécifique vient d'une seule règle/modèle),
+            \item \onto{concernsCriterion} (un résultat de critère concerne un seul critère),
+            \item \onto{credibilityScoreValue}, \onto{credibilityLevelValue}, \onto{submissionTimestamp}, \onto{completionTimestamp}, \onto{requestStatus}, \onto{sourceURL}.
+        \end{itemize}
+    \item \textbf{Inverse Fonctionnelles (\texttt{owl:InverseFunctionalProperty}):} Garantit qu'une valeur donnée n'est associée qu'à un seul sujet via cette propriété. Appliqué à \onto{isReportOf} (un rapport correspond à une seule requête). \footnote{Voir fig. 10 pour la caractéristique d'inverse fonctionelle pour estRapportDe et produitRapport}
+    \item \textbf{Inverses (\texttt{owl:inverseOf}):} Définies explicitement pour les paires de propriétés réciproques (ex: \onto{concernsInformation} / \onto{isSubjectOfRequest}, \onto{submittedBy} / \onto{submitsRequest}, \onto{producesReport} / \onto{isReportOf}). Cela permet au raisonneur d'inférer une relation si son inverse est connue.
+    \item \textbf{Autres Caractéristiques:} Aucune propriété n'a été déclarée transitive, symétrique, etc., car cela ne semblait pas pertinent pour le domaine décrit.
+\end{itemize}
+
+\subsection{Restrictions de Propriétés}
+
+Les restrictions (\texttt{owl:Restriction}) sont utilisées pour définir des classes de manière plus précise, souvent en contraignant les valeurs ou le nombre de valeurs pour une propriété donnée :
+\begin{itemize}
+    \item \textbf{Restrictions de Cardinalité (\texttt{owl:cardinality}, \texttt{owl:minCardinality}, \texttt{owl:maxCardinality}):}
+        \begin{itemize}
+            \item Utilisées sur \onto{RequeteEvaluation} pour exiger exactement 1 \onto{concernsInformation} et 1 \onto{submittedBy}, et au plus 1 \onto{producesReport} (permettant les requêtes en cours).
+            \item Utilisées sur \onto{RapportEvaluation} pour exiger exactement 1 \onto{assignsCredibilityLevel}.
+            \item Utilisées sur \onto{ResultatRegle}, \onto{ResultatNLP}, \onto{ResultatCritere}, \onto{InfoSourceAnalyse} pour lier ces résultats à leur entité source unique (règle, modèle, critère, source).
+            \item Utilisées sur \onto{RegleVerification} et \onto{ModeleIA} pour indiquer qu'elles doivent évaluer (\onto{evaluatesCriterion}) au moins 1 \onto{VerificationCriterion}.
+            \item Utilisées sur \onto{ResultatCritere} pour indiquer qu'il doit être obtenu via (\onto{obtainedVia}) au moins 1 \onto{ResultatRegle} ou \onto{ResultatNLP}.
+            \item Centrales dans les axiomes \texttt{owl:equivalentClass} pour les classes de crédibilité (\onto{InformationHauteCredibilite}, etc.) pour filtrer sur la valeur du niveau de crédibilité.
+        \end{itemize}
+    \item \textbf{Restrictions de Valeur (\texttt{owl:allValuesFrom}, \texttt{owl:someValuesFrom}, \texttt{owl:hasValue}):}
+        \begin{itemize}
+            \item \texttt{owl:someValuesFrom} est utilisé dans les axiomes \texttt{owl:equivalentClass} pour exprimer des conditions existentielles (ex: une information est vérifiée si elle est sujet d'une requête qui produit un rapport).
+            \item \texttt{owl:hasValue} est utilisé dans les restrictions les plus internes des axiomes de classification de crédibilité pour spécifier que la valeur de la propriété \onto{assignsCredibilityLevel} doit être un individu spécifique (ex: \onto{Niveau\_Haut}, \onto{Niveau\_Moyen}, \onto{Niveau\_Bas}).
+            \item \texttt{owl:allValuesFrom} est utilisé dans les axiomes \texttt{rdfs:subClassOf} liant les classes définitionnelles (ex: \onto{InformationHauteCredibilite}) à la valeur correspondante de \onto{assignsCredibilityLevel} dans le rapport associé.
+        \end{itemize}
+\end{itemize}
+
+\subsection{Axiomes de Classes} \footnote{Voir les règles dans Annexe II ligne 266 à 1030}
+\begin{itemize}
+    \item \textbf{Hiérarchie (\texttt{rdfs:subClassOf}):} Définit la structure taxonomique de base (ex: \onto{Expert} est un \onto{User}, \onto{NewsWebsite} est une \onto{Source}, \onto{ResultatRegle} est un \onto{ResultatVerification}).
+    \item \textbf{Disjonction (\texttt{owl:AllDisjointClasses}):} Utilisé pour déclarer que certaines classes sont mutuellement exclusives :
+        \begin{itemize}
+            \item Les différents types de \onto{Source} (ex: \onto{NewsWebsite}, \onto{SocialMediaPlatform}).
+            \item Les différents types de \onto{SystemeExterne}.
+            \item Les types de \onto{Evidence} (\onto{SupportingEvidence}, \onto{RefutingEvidence}).
+            \item Les types de résultats internes (\onto{ResultatRegle}, \onto{ResultatNLP}).
+            \item Les différents \onto{CredibilityLevel} (ex: \onto{Niveau\_Haut}, \onto{Niveau\_Moyen}).
+            \item Les classes d'information définies par leur crédibilité (\onto{InformationHauteCredibilite}, \onto{InformationMoyenneCredibilite}, \onto{InformationFaibleCredibilite}). Cela garantit qu'une information ne peut pas être classée dans plusieurs de ces catégories simultanément via l'inférence.
+        \end{itemize}
+    \item \textbf{Combinaisons Booléennes (\texttt{owl:intersectionOf}, \texttt{owl:unionOf}, \texttt{owl:complementOf}):}
+        \begin{itemize}
+            \item \texttt{owl:intersectionOf} est essentiel pour les définitions \texttt{owl:equivalentClass} des classes de crédibilité, combinant la condition d'être une \onto{InformationVerifiee} avec la restriction sur le niveau de crédibilité assigné, et potentiellement des compléments pour l'exclusivité.
+            \item \texttt{owl:unionOf} est utilisé dans les domaines/ranges de certaines propriétés pour permettre plusieurs types (ex: le domaine de \onto{configuredByExpert} est l'union de \onto{RegleVerification}, \onto{ModeleIA}, \onto{VerificationCriterion}).
+            \item \texttt{owl:complementOf} est utilisé dans les définitions des classes \onto{InformationMoyenneCredibilite} et \onto{InformationFaibleCredibilite} pour exclure explicitement les informations appartenant déjà à une catégorie de crédibilité supérieure.
+        \end{itemize}
+    \item \textbf{Classes Équivalentes (\texttt{owl:equivalentClass}):} Au cœur de la classification automatique de la crédibilité. Les classes \onto{InformationHauteCredibilite}, \onto{InformationMoyenneCredibilite}, \onto{InformationFaibleCredibilite} sont définies comme logiquement équivalentes à des descriptions complexes basées sur le \onto{CredibilityLevel} (\onto{Niveau\_Haut}, etc.) assigné via le \onto{RapportEvaluation} associé à la \onto{RequeteEvaluation} concernant l'\onto{InformationSoumise}. Cela permet au raisonneur OWL d'inférer automatiquement l'appartenance d'une information à l'une de ces classes si elle satisfait les conditions. \footnote{Voir e.g. de combinaison booléenne intersectionOf en Fig. 11}
+\end{itemize}
+
+\subsection{Axiomes de Propriétés}
+\begin{itemize}
+    \item \textbf{Inversion (\texttt{owl:inverseOf}):} Le principal axiome de propriété utilisé, pour lier les paires de propriétés réciproques.
+    \item \textbf{Autres:} Aucun axiome de disjonction de propriétés (\texttt{owl:propertyDisjointWith}) ou de chaîne de propriétés (\texttt{owl:propertyChainAxiom}) n'a été défini, car cela n'apparaissait pas nécessaire pour le modèle actuel.
+\end{itemize}
+
+\section{Classification Basée sur la Crédibilité}
+\label{sec:classification}
+
+Un objectif clé de l'ontologie est de permettre la classification automatique d'une instance d'\onto{InformationSoumise} en fonction du niveau de crédibilité déterminé par le système. Ce mécanisme s'inspire de la classification des propositions de subvention vue dans \parencite{Loyer2025OntoSubv}.
+
+\subsection{Logique de Classification}
+
+La classification repose sur les axiomes \texttt{owl:equivalentClass} définis pour les classes \onto{InformationHauteCredibilite}, \onto{InformationMoyenneCredibilite}, et \onto{InformationFaibleCredibilite}. La logique est la suivante :
+\begin{enumerate}
+    \item Une \onto{InformationSoumise} est d'abord considérée comme \onto{InformationVerifiee} si elle est liée (\onto{isSubjectOfRequest}) à une \onto{RequeteEvaluation} qui a produit (\onto{producesReport}) un \onto{RapportEvaluation}.
+    \item Ensuite, pour être classée comme \onto{InformationHauteCredibilite}, une \onto{InformationVerifiee} doit être liée (via \onto{isSubjectOfRequest} puis \onto{producesReport}) à un \onto{RapportEvaluation} qui assigne (\onto{assignsCredibilityLevel}) l'individu \onto{Niveau\_Haut}.
+    \item Pour être classée comme \onto{InformationMoyenneCredibilite}, elle doit être une \onto{InformationVerifiee}, être liée à un rapport assignant \onto{Niveau\_Moyen}, ET ne PAS être une \onto{InformationHauteCredibilite} (via \texttt{owl:complementOf}).
+    \item Pour être classée comme \onto{InformationFaibleCredibilite}, elle doit être une \onto{InformationVerifiee}, être liée à un rapport assignant \onto{Niveau\_Bas}, ET ne PAS être ni \onto{InformationHauteCredibilite} ni \onto{InformationMoyenneCredibilite}.
+\end{enumerate}
+Cette structure, utilisant \texttt{owl:equivalentClass} et \texttt{owl:complementOf}, permet au raisonneur OWL de déduire la classe de crédibilité appropriée pour une information donnée, à condition que les instances (\onto{RequeteEvaluation}, \onto{RapportEvaluation}) et les relations (\onto{assignsCredibilityLevel}) soient correctement assertées.
+
+\subsection{Modélisation Détaillée des Résultats par Critère}
+
+L'introduction de la classe \onto{ResultatCritere} et des propriétés associées (\onto{hasCriterionResult}, \onto{concernsCriterion}, \onto{obtainedVia}, \onto{criterionResultValue}) permet une modélisation plus fine, analogue à la gestion des notes par critère dans l'ontologie de subvention \parencite{Loyer2025OntoSubv}.
+\begin{itemize}
+    \item Chaque \onto{RapportEvaluation} peut avoir plusieurs instances de \onto{ResultatCritere} (via \onto{hasCriterionResult}).
+    \item Chaque \onto{ResultatCritere} concerne un \onto{VerificationCriterion} spécifique (via \onto{concernsCriterion}).
+    \item Il est obtenu via un ou plusieurs \onto{ResultatRegle} ou \onto{ResultatNLP} (via \onto{obtainedVia}).
+    \item Il possède une valeur (\onto{criterionResultValue}, ex: "Réputation Faible", "Cohérence Élevée", "Biais Politique Détecté") et potentiellement une confiance (\onto{criterionResultConfidence}).
+\end{itemize}
+Bien que l'ontologie actuelle n'utilise pas directement les \onto{ResultatCritere} pour la classification finale (qui se base sur le \onto{CredibilityLevel} global), cette structure fournit la base pour des raisonnements futurs plus complexes ou pour l'explication détaillée du score final dans le rapport. Par exemple, on pourrait définir des classes d'information basées sur la présence de résultats spécifiques pour certains critères (ex: "Information avec Faible Réputation de Source").
+
+\subsection{Test par Inférence} \footnote{Voir Fig 5 à 8}
+
+Pour vérifier le fonctionnement de cette classification dans Protégé :
+\begin{enumerate}
+    \item Créer une instance d'\onto{InformationSoumise} (ex: \texttt{infoTestHaut}).
+    \item Créer une instance de \onto{RequeteEvaluation} (ex: \texttt{reqTestHaut}) et la lier à \texttt{infoTestHaut} via \onto{concernsInformation}.
+    \item Créer une instance de \onto{RapportEvaluation} (ex: \texttt{rapTestHaut}) et la lier à \texttt{reqTestHaut} via \onto{producesReport}.
+    \item Asserter la propriété \onto{assignsCredibilityLevel} sur \texttt{rapTestHaut} avec la valeur \onto{Niveau\_Haut}.
+    \item Lancer un raisonneur (ex: HermiT).
+    \item Vérifier que le raisonneur infère que \texttt{infoTestHaut} est de type \onto{InformationHauteCredibilite} (en plus de \onto{InformationSoumise} et \onto{InformationVerifiee}).
+    \item Répéter pour les autres niveaux (\onto{Niveau\_Moyen}, \onto{Niveau\_Bas}) en s'assurant que les classifications sont exclusives.
+\end{enumerate}
+Cette procédure permet de valider que les axiomes \texttt{owl:equivalentClass} fonctionnent comme prévu pour la classification basée sur le niveau de crédibilité final. \footnote{Voir changements apportés lors de ces tests en figure 12}
+
+\begin{figure*}[htbp]
+    \begin{minipage}{0.49\textwidth} 
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{infoTestHaut.png}
+        \caption{Inférence sur l'information analysée} % Légende spécifique à cette figure
+        \label{fig:infoTestAnalyse} % Label unique pour cette figure
+    \end{minipage}\hfill % Espace horizontal flexible entre les deux minipages
+    \begin{minipage}{0.49\textwidth} 
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{reqTestHaut.png}
+        \caption{Liaison de requête et de rapport} % Légende spécifique
+        \label{fig:reqTestHaut} % Label unique
+    \end{minipage}
+\end{figure*}
+
+% --- Deuxième page de figures ---
+% LaTeX placera automatiquement cette figure* sur une nouvelle page si l'espace n'est pas suffisant
+% sur la page précédente, ce qui est l'objectif ici pour avoir 2 figures par page.
+\begin{figure*}[htbp]
+    % Utilise minipage pour placer les deux figures suivantes côte à côte
+    \begin{minipage}{0.49\textwidth} % Ajustez la largeur si nécessaire
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{infoTestHaut.png}
+        \caption{Inférence de test avec autre crédibilité} % Légende spécifique
+        \label{fig:infoTestHaut} % Label unique
+    \end{minipage}\hfill % Espace horizontal flexible
+    \begin{minipage}{0.49\textwidth} % Ajustez la largeur pour correspondre
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{rapportTestHaut.png}
+        \caption{Rapport test avec haute crédibilité} % Légende spécifique
+        \label{fig:rapportTestHaut} % Label unique
+    \end{minipage}
+\end{figure*}
+%figure 9 à 12
+\begin{figure*}[htbp]
+    % Utilise minipage pour placer deux figures côte à côte
+    \begin{minipage}{0.49\textwidth} % Ajustez la largeur si nécessaire (ex: 0.48\textwidth)
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{rapport Onto cred 2mai25/critVerif.png}
+        \caption{Les critères de vérifications} % Légende spécifique à cette figure
+        \label{fig:critVerif} % Label unique pour cette figure
+    \end{minipage}\hfill % Espace horizontal flexible entre les deux minipages
+    \begin{minipage}{0.49\textwidth} % Ajustez la largeur pour correspondre à la première minipage
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{rapport Onto cred 2mai25/InverseFunctionalRapportDe.png}
+        \caption{e.g. de caractéristique d'inverse fonctionnelle pour estRapportDe} % Légende spécifique
+        \label{fig:invFonc} % Label unique
+    \end{minipage}
+    % Le caption global pour la figure* n'est généralement pas utilisé quand on a des captions par minipage.
+    % Si vous voulez un caption global, placez-le ici après les minipages.
+\end{figure*}
+
+% --- Deuxième page de figures ---
+% LaTeX placera automatiquement cette figure* sur une nouvelle page si l'espace n'est pas suffisant
+% sur la page précédente, ce qui est l'objectif ici pour avoir 2 figures par page.
+\begin{figure*}[htbp]
+    % Utilise minipage pour placer les deux figures suivantes côte à côte
+    \begin{minipage}{0.49\textwidth} % Ajustez la largeur si nécessaire
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{rapport Onto cred 2mai25/intersection.png}
+        \caption{e.g. d'intersections des domaines Modèles AI/NLP OU Règles de vérifications OU Critères de vérifications avec co-domaine Expert} % Légende spécifique
+        \label{fig:intersection} % Label unique
+    \end{minipage}\hfill % Espace horizontal flexible
+    \begin{minipage}{0.49\textwidth} % Ajustez la largeur pour correspondre
+        \centering % Centre l'image dans la minipage
+        \includegraphics[width=\textwidth]{test.png}
+        \caption{Changements apportés suite aux tests} % Légende spécifique
+        \label{fig:data_properties} % Label unique
+    \end{minipage}
+    % Caption global si désiré
+\end{figure*}
+\section{Résultats et Limitations}
+\label{sec:resultats}
+L'ontologie développée permet de représenter formellement le domaine de la vérification de la crédibilité de l'information en ligne. Le résultat principal est une structure OWL 2 DL qui capture les concepts essentiels et leurs relations, permettant ainsi de modéliser le processus d'évaluation de la crédibilité à travers une approche hybride.
+La section de classification démontre la capacité de l'ontologie à inférer le niveau de crédibilité d'une information soumise en se basant sur le niveau assigné dans le rapport d'évaluation. Cette fonctionnalité est un résultat direct de l'utilisation d'axiomes d'équivalence et de restrictions OWL. La modélisation des résultats par critère offre une base pour une analyse plus détaillée et potentiellement pour une inférence plus complexe dans le futur.
+Cependant, l'ontologie actuelle présente certaines limitations. Le détail de la modélisation des règles de vérification et des sorties des modèles d'IA/NLP reste abstrait. Bien que l'approche hybride soit représentée conceptuellement, la logique exacte de combinaison des résultats n'est pas encodée au niveau ontologique. L'intégration avec des ontologies externes existantes (par exemple, pour les types de sources ou les domaines thématiques) est limitée et pourrait enrichir la sémantique du modèle. De plus, l'ontologie ne spécifie pas explicitement la logique qui permet de dériver la valeur d'un résultat par critère à partir des résultats des règles et des modèles d'IA, ni la logique d'agrégation pour déterminer le niveau de crédibilité final. Ces aspects pourraient être abordés par des extensions futures utilisant des langages de règles sémantiques.
+\section{Conclusion et Perspectives}
+\label{sec:conclusion}
+
+L'ontologie OWL 2 DL élaborée \footnote{Voir la taxonomie du graphe en Fig.13} fournit une représentation sémantique formelle pour le domaine de la vérification de la crédibilité de l'information, en s'alignant sur une modélisation UML préalable \parencite{Loyer2025Rapport} et en intégrant des structures d'évaluation inspirées d'une ontologie de gestion de subventions \parencite{Loyer2025OntoSubv}. Elle capture les entités clés du processus (requête, information, source, rapport), les acteurs (utilisateur, expert), les méthodes d'analyse hybrides (règles, IA), les critères d'évaluation, et les résultats associés, incluant les niveaux de crédibilité finaux.
+
+L'utilisation d'axiomes \texttt{owl:equivalentClass}, combinée à des restrictions de valeur et des compléments, permet la classification automatique des informations vérifiées en catégories de crédibilité (Haute, Moyenne, Faible) sur la base du niveau de crédibilité assigné dans le rapport généré. La modélisation détaillée des résultats par critère via la classe \onto{ResultatCritere} offre une granularité fine pour l'analyse et l'explication potentielles.
+
+L'ontologie est conçue pour être utilisable avec des outils standards comme Protégé \parencite{Protege2025}, permettant l'exploration, l'instanciation et le raisonnement.
+
+\textbf{Perspectives et Travaux Futurs :}
+Plusieurs axes d'amélioration peuvent être envisagés :
+\begin{itemize}
+    \item \textbf{Affinement des Critères et Règles :} Détailler davantage les types de \onto{VerificationCriterion} et potentiellement modéliser la logique de certaines \onto{RegleVerification} si des patterns récurrents et formalisables existent.
+    \item \textbf{Modélisation des Sorties IA :} Représenter plus finement les types de biais ou les niveaux de sentiment/cohérence comme individus plutôt que simples chaînes de caractères dans \onto{ResultatNLP}.
+    \item \textbf{Intégration d'Ontologies Externes :} Aligner l'ontologie avec des vocabulaires existants pour les types de sources (ex: Schema.org), les domaines thématiques, ou les types de biais.
+    \item \textbf{Raisonnement Avancé :} Explorer l'utilisation de SWRL ou d'autres langages de règles pour encoder la logique qui détermine la valeur d'un \onto{ResultatCritere} à partir des \onto{ResultatRegle}/\onto{ResultatNLP}, ou même la logique qui détermine le \onto{CredibilityLevel} final à partir des \onto{ResultatCritere}. Cela augmenterait la complexité mais permettrait des inférences plus riches.
+    \item \textbf{Explicabilité :} Utiliser la structure de l'ontologie (liens entre rapport, résultats critères, résultats règles/nlp, preuves) pour générer des explications plus structurées et compréhensibles pour l'utilisateur final.
+    \item \textbf{Gestion de l'Incertitude :} Intégrer des mécanismes pour représenter la confiance ou l'incertitude associées aux différentes étapes de l'évaluation (ex: via des propriétés de données comme \onto{criterionResultConfidence} ou en explorant des extensions probabilistes d'OWL).
+\end{itemize}
+
+En conclusion, cette ontologie constitue une base sémantique solide pour le développement et l'explication d'un système d'évaluation de la crédibilité de l'information, tout en offrant des pistes claires pour des enrichissements futurs.
+
+% --- Bibliographie ---
+
+\nocite{*}
+\bibliographystyle{apalike}
+\bibliography{references} \\
+\tableofcontents 
+\section{Annexes 0 La Taxonomie de l'ontologie}
+\begin{figure*}[htbp] % Utilise figure* pour occuper toute la largeur en mode deux colonnes
+  \centering 
+  \includegraphics[width=1.08\textwidth]{rapport Onto cred 2mai25/tanonomy.png}
+  \caption{Le graphe de la taxonomie complète de l'ontologie} % Votre légende ici
+  \label{fig:taxonomy} % Votre étiquette unique ici (commence souvent par fig:)
+\end{figure*}
+
+\section{Annexes I (Le Code en Python de mon système hybride-PROTOTYPE)}
+\begin{lstlisting}[language=Python,basicstyle=\ttfamily\tiny,frame=single]
+import re
+import requests # Gardé pour d'éventuels appels API réels
+from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
+import numpy as np
+import torch # Nécessaire pour certains modèles transformers
+# LIME est conservé pour l'explicabilité, mais d'autres techniques pourraient être nécessaires
+# pour différents types de modèles (ex: SHAP).
+from lime.lime_text import LimeTextExplainer
+from urllib.parse import urlparse # Pour analyser les URLs
+import datetime # Pour la date de génération du rapport
+
+# --- Configuration Initiale (Modèles et Explainers) ---
+# On charge les modèles ici pour éviter de les recharger à chaque appel.
+# NOTE : Pour une application réelle, envisagez des modèles plus spécifiques
+#        pour la détection de biais, la cohérence, etc.
+#        Certains modèles peuvent nécessiter un fine-tuning.
+
+# Modèle de sentiment (comme dans votre code original)
+sentiment_pipeline = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
+
+# Modèle pour la détection de biais (Exemple - nécessite un modèle approprié)
+# Remplacer par un modèle entraîné pour la détection de biais.
+# Exemple : 'd4data/bias-detection-model' (vérifier disponibilité sur Hugging Face Hub)
+# Pour l'instant, on utilise un modèle de classification générique comme placeholder.
+bias_tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+bias_model = AutoModelForSequenceClassification.from_pretrained("bert-base-uncased") # PLACEHOLDER
+
+# Modèle pour la Reconnaissance d'Entités Nommées (NER)
+ner_pipeline = pipeline("ner", grouped_entities=True) # grouped_entities est souvent utile
+
+# Explainer LIME (pour le modèle de sentiment pour l'instant)
+# Note : L'explicabilité pour d'autres modèles (ex: biais) nécessiterait une configuration adaptée.
+explainer = LimeTextExplainer(class_names=['NEGATIVE', 'POSITIVE']) # Ajuster si le modèle a d'autres classes
+
+# --- Fonctions Utilitaires ---
+
+def is_url(text):
+    """Vérifie si une chaîne ressemble à une URL."""
+    try:
+        result = urlparse(text)
+        return all([result.scheme, result.netloc])
+    except ValueError:
+        return False
+
+def fetch_web_content(url):
+    """
+    Simule la récupération du contenu textuel d'une URL.
+    Pour une implémentation réelle, utiliser `requests` et `BeautifulSoup`.
+    """
+    print(f"[Simulation] Récupération du contenu de : {url}")
+    # Simuler différents contenus pour tester
+    if "verified-news.com" in url:
+        return "This official report is verified and credible. All facts checked."
+    elif "hoax-site.org" in url:
+        return "Shocking conspiracy revealed! Experts are wrong. This is a hoax!"
+    else:
+        # Simuler le cas où une URL ne retourne rien ou est inaccessible
+        if "nonexistent-domain-for-test.xyz" in url:
+             print(f"[Simulation] Échec de la récupération pour : {url}")
+             return None # Simule un échec
+        return "Some generic content from the web."
+
+def fetch_external_data(text_or_url):
+    """
+    Simule la récupération de données externes (fact-checking, réputation source).
+    Pour une implémentation réelle, appeler des API (Google Fact Check, NewsGuard, etc.).
+    """
+    print(f"[Simulation] Recherche de données externes pour : {str(text_or_url)[:50]}...") # Assurer que c'est une str pour le slicing
+    external_info = {
+        'fact_checks': [],
+        'source_reputation': 'Unknown',
+        'domain_age_days': None, # Initialisé à None
+        'related_articles': []
+    }
+    # Tente de récupérer les infos uniquement si c'est une URL valide
+    if isinstance(text_or_url, str) and is_url(text_or_url):
+        domain = urlparse(text_or_url).netloc
+        if "verified-news.com" in domain:
+            external_info['source_reputation'] = 'High'
+            external_info['domain_age_days'] = 1500 # Défini seulement pour les URLs reconnues
+            external_info['fact_checks'].append({'claim': 'Official report facts', 'rating': 'True'})
+        elif "hoax-site.org" in domain:
+            external_info['source_reputation'] = 'Low'
+            external_info['domain_age_days'] = 90 # Défini seulement pour les URLs reconnues
+            external_info['fact_checks'].append({'claim': 'Conspiracy theory', 'rating': 'False'})
+        elif "nonexistent-domain-for-test.xyz" not in domain: # Ne pas donner d'âge pour le domaine inexistant
+             external_info['source_reputation'] = 'Medium'
+             external_info['domain_age_days'] = 730 # Défini seulement pour les URLs reconnues
+
+    # Simulation de résultats de recherche (peut être ajouté même si ce n'est pas une URL)
+    external_info['related_articles'] = [
+        {'title': 'Related Story A', 'url': 'http://example.com/a'},
+        {'title': 'Related Story B', 'url': 'http://example.com/b'}
+    ]
+    return external_info
+
+# --- Classe Principale du Système ---
+
+class CredibilityVerificationSystem:
+    def __init__(self):
+        # Les modèles sont chargés globalement, on peut les référencer ici si besoin
+        self.sentiment_pipeline = sentiment_pipeline
+        self.ner_pipeline = ner_pipeline
+        self.bias_tokenizer = bias_tokenizer
+        self.bias_model = bias_model
+        self.explainer = explainer
+
+    def preprocess(self, text):
+        """Nettoyage simple du texte."""
+        # Améliorable : suppression de HTML, normalisation unicode, etc.
+        if not isinstance(text, str): # Vérifier si l'entrée est bien une chaîne
+             return ""
+        text = re.sub(r'http\S+|www\S+|https\S+', '', text, flags=re.MULTILINE) # Enlever les URLs
+        text = re.sub(r'\s+', ' ', text) # Normaliser les espaces
+        text = re.sub(r'[^\w\s\.\?,!]', '', text) # Garder ponctuation basique
+        return text.lower().strip()
+
+    def rule_based_analysis(self, text, external_data):
+        """
+        Analyse basée sur des règles logiques prédéfinies et des données externes.
+        Ceci est une version simplifiée basée sur le PDF.
+        """
+        results = {
+            'linguistic_markers': {},
+            'source_analysis': {},
+            'timeliness_flags': []
+        }
+        # 1. Marqueurs Linguistiques (Exemples simples)
+        sensational_words = ['shocking', 'revealed', 'conspiracy', 'amazing', 'secret']
+        certainty_words = ['verified', 'authentic', 'credible', 'proven', 'fact']
+        doubt_words = ['hoax', 'false', 'fake', 'unproven', 'rumor']
+
+        results['linguistic_markers']['sensationalism'] = sum(1 for word in sensational_words if word in text)
+        results['linguistic_markers']['certainty'] = sum(1 for word in certainty_words if word in text)
+        results['linguistic_markers']['doubt'] = sum(1 for word in doubt_words if word in text)
+
+        # 2. Analyse de la Source (basée sur les données externes simulées)
+        results['source_analysis']['reputation'] = external_data.get('source_reputation', 'Unknown')
+        domain_age = external_data.get('domain_age_days') # Récupérer la valeur (peut être None)
+        results['source_analysis']['domain_age_days'] = domain_age # Stocker la valeur récupérée
+
+        # 3. Actualité (Exemple très basique)
+        # *** CORRECTION ICI ***
+        # Vérifier si domain_age n'est PAS None AVANT de comparer
+        if domain_age is not None and domain_age < 180: # Moins de 6 mois
+             results['timeliness_flags'].append('Source domain is relatively new.')
+
+        # 4. Vérification des Faits (Fact-Checking)
+        results['fact_checking'] = external_data.get('fact_checks', [])
+
+        return results
+
+    def nlp_analysis(self, text):
+        """
+        Analyse via des modèles NLP (IA).
+        """
+        results = {
+            'sentiment': None,
+            'sentiment_explanation': None,
+            'bias_analysis': {'score': None, 'label': 'Unavailable'}, # Placeholder
+            'named_entities': None,
+            'coherence_score': None # Placeholder
+        }
+
+        # Vérification supplémentaire si le texte est vide après preprocess
+        if not text:
+             print("Avertissement : Texte vide fourni à nlp_analysis.")
+             results['sentiment'] = {'label': 'Neutral', 'score': 0.5} # Ou une autre valeur par défaut
+             return results # Retourner les résultats par défaut
+
+        # 1. Analyse de Sentiment (avec explicabilité LIME)
+        try:
+            # Prédiction pour LIME
+            def predict_proba_sentiment(texts):
+                # S'assurer que texts est une liste de chaînes
+                if isinstance(texts, str):
+                    texts = [texts]
+                elif not isinstance(texts, list):
+                    texts = list(texts) # Tenter de convertir en liste
+
+                processed_texts = [self.preprocess(t) for t in texts]
+                # Gérer les textes vides après prétraitement
+                valid_texts = [t for t in processed_texts if t]
+                probabilities = []
+
+                if not valid_texts:
+                    # Retourner une distribution neutre pour chaque texte original si tous sont vides
+                    return np.array([[0.5, 0.5]] * len(texts))
+
+                # Faire la prédiction uniquement sur les textes valides
+                predictions = self.sentiment_pipeline(valid_texts)
+                pred_idx = 0
+                for original_text in processed_texts:
+                    if original_text: # Si le texte original n'était pas vide après preprocess
+                        pred = predictions[pred_idx]
+                        # Assurer que la sortie est toujours [prob_neg, prob_pos]
+                        if pred['label'] == 'POSITIVE':
+                            probabilities.append([1 - pred['score'], pred['score']])
+                        else: # NEGATIVE or other label mapped to negative
+                            probabilities.append([pred['score'], 1 - pred['score']])
+                        pred_idx += 1
+                    else:
+                         probabilities.append([0.5, 0.5]) # Probabilité neutre pour texte vide
+
+                return np.array(probabilities)
+
+            # Obtenir la prédiction principale pour le texte unique
+            main_prediction = self.sentiment_pipeline(text)[0]
+            results['sentiment'] = main_prediction
+
+            # Générer l'explication LIME
+            explanation = self.explainer.explain_instance(
+                text,
+                predict_proba_sentiment,
+                num_features=6 # Nombre de mots/features à montrer dans l'explication
+            )
+            results['sentiment_explanation'] = explanation.as_list()
+
+        except Exception as e:
+            print(f"Erreur lors de l'analyse de sentiment ou LIME : {e}")
+            results['sentiment'] = {'label': 'Error', 'score': 0.0}
+            results['sentiment_explanation'] = []
+
+        # 2. Analyse de Biais (Simulation/Placeholder)
+        # Un vrai modèle de détection de biais serait nécessaire ici.
+        try:
+            inputs = self.bias_tokenizer(text, return_tensors="pt", truncation=True, max_length=512, padding=True)
+            with torch.no_grad():
+                logits = self.bias_model(**inputs).logits
+            simulated_bias_score = torch.softmax(logits, dim=1)[0][0].item() # Exemple
+            if simulated_bias_score > 0.7: # Seuil arbitraire
+                 results['bias_analysis'] = {'score': simulated_bias_score, 'label': 'Potential Bias Flagged (Simulated)'}
+            else:
+                 results['bias_analysis'] = {'score': simulated_bias_score, 'label': 'Low Bias Detected (Simulated)'}
+        except Exception as e:
+            print(f"Erreur lors de l'analyse de biais (simulée) : {e}")
+            results['bias_analysis'] = {'score': None, 'label': 'Error'}
+
+
+        # 3. Reconnaissance d'Entités Nommées (NER)
+        try:
+            entities = self.ner_pipeline(text)
+            results['named_entities'] = entities
+        except Exception as e:
+            print(f"Erreur lors de l'analyse NER : {e}")
+            results['named_entities'] = []
+
+        # 4. Analyse de Cohérence (Placeholder)
+        results['coherence_score'] = np.random.rand() # Score aléatoire pour l'exemple
+
+        return results
+
+    def calculate_overall_score(self, rule_results, nlp_results):
+        """
+        Calcule un score de crédibilité global basé sur les analyses.
+        Ceci est une heuristique simple, à affiner considérablement.
+        Le score va de 0 (peu crédible) à 1 (très crédible).
+        """
+        score = 0.5 # Score de base neutre
+        weight_sum = 1.0 # Pour normaliser les poids ajoutés/soustraits
+        score_adjustment = 0.0
+
+        # --- Pondérations (Exemples - À AJUSTER ABSOLUMENT) ---
+        WEIGHT_REPUTATION = 0.3
+        WEIGHT_AGE = 0.05
+        WEIGHT_CERTAINTY = 0.1
+        WEIGHT_DOUBT = 0.15
+        WEIGHT_SENSATIONALISM = 0.1
+        WEIGHT_NEGATIVE_SENTIMENT = 0.05
+        WEIGHT_BIAS = 0.15
+        WEIGHT_COHERENCE = 0.05 # Faible car simulé
+
+        # Facteurs basés sur les règles
+        if rule_results['source_analysis']['reputation'] == 'High':
+            score_adjustment += WEIGHT_REPUTATION
+            weight_sum += WEIGHT_REPUTATION
+        elif rule_results['source_analysis']['reputation'] == 'Low':
+            score_adjustment -= WEIGHT_REPUTATION
+            weight_sum += WEIGHT_REPUTATION
+
+        domain_age = rule_results['source_analysis'].get('domain_age_days')
+        # *** CORRECTION ICI AUSSI *** Vérifier si domain_age n'est pas None
+        if domain_age is not None:
+            if domain_age > 365 * 2: # Ex: > 2 ans
+                 score_adjustment += WEIGHT_AGE
+                 weight_sum += WEIGHT_AGE
+            elif domain_age < 90: # Ex: < 3 mois
+                 score_adjustment -= WEIGHT_AGE
+                 weight_sum += WEIGHT_AGE
+
+
+        if rule_results['linguistic_markers']['certainty'] > 0 and rule_results['linguistic_markers']['doubt'] == 0:
+             score_adjustment += WEIGHT_CERTAINTY * rule_results['linguistic_markers']['certainty'] # Plus de certitude = plus de poids
+             weight_sum += WEIGHT_CERTAINTY * rule_results['linguistic_markers']['certainty']
+        elif rule_results['linguistic_markers']['doubt'] > 0:
+             score_adjustment -= WEIGHT_DOUBT * rule_results['linguistic_markers']['doubt'] # Pénaliser plus si plusieurs mots
+             weight_sum += WEIGHT_DOUBT * rule_results['linguistic_markers']['doubt']
+
+        if rule_results['linguistic_markers']['sensationalism'] > 0:
+            sensationalism_penalty = min(WEIGHT_SENSATIONALISM * rule_results['linguistic_markers']['sensationalism'], WEIGHT_SENSATIONALISM * 3)
+            score_adjustment -= sensationalism_penalty
+            weight_sum += sensationalism_penalty
+
+        # Facteurs basés sur le NLP
+        if nlp_results.get('sentiment'): # Vérifier que la clé 'sentiment' existe
+            if nlp_results['sentiment']['label'] == 'NEGATIVE' and nlp_results['sentiment']['score'] > 0.85:
+                 score_adjustment -= WEIGHT_NEGATIVE_SENTIMENT
+                 weight_sum += WEIGHT_NEGATIVE_SENTIMENT
+
+        if nlp_results.get('bias_analysis') and 'Flagged' in nlp_results['bias_analysis'].get('label',''):
+             bias_score_value = nlp_results['bias_analysis'].get('score')
+             if bias_score_value is not None:
+                 bias_impact = WEIGHT_BIAS * ((bias_score_value - 0.5) * 2) # Normaliser le score de biais (0.5->0, 1.0->1)
+                 score_adjustment -= bias_impact # Soustraire l'impact du biais
+                 weight_sum += WEIGHT_BIAS # Ajouter le poids du facteur biais
+
+        if nlp_results.get('coherence_score') is not None:
+             coherence_adjustment = (nlp_results['coherence_score'] - 0.5) * WEIGHT_COHERENCE
+             score_adjustment += coherence_adjustment
+             weight_sum += abs(coherence_adjustment)
+
+        # Calcul final
+        final_score = 0.5 + score_adjustment / weight_sum if weight_sum > 0 else 0.5
+
+        return max(0.0, min(1.0, final_score)) # Assurer que le score reste entre 0 et 1
+
+
+    def generate_report(self, input_data, cleaned_text, rule_results, nlp_results, external_data, overall_score):
+        """
+        Génère le rapport final structuré, similaire à 'RapportEvaluation' du PDF.
+        """
+        report = {
+            'idRapport': f"report_{int(datetime.datetime.now().timestamp())}",
+            'informationEntree': input_data,
+            'dateGeneration': datetime.datetime.now().isoformat(),
+            'scoreCredibilite': round(overall_score, 2),
+            'resumeAnalyse': "", # Sera généré ci-dessous
+            'detailsScore': {
+                'base': 0.5,
+                'adjustments': self._get_score_adjustments(rule_results, nlp_results)
+            },
+            'sourcesUtilisees': [], # Lister les sources externes consultées
+            'reglesAppliquees': rule_results,
+            'analyseNLP': { # Filtrer pour ne pas inclure les explications potentiellement longues ici
+                 'sentiment': nlp_results.get('sentiment'),
+                 'bias_analysis': nlp_results.get('bias_analysis'),
+                 'named_entities_count': len(nlp_results.get('named_entities', [])),
+                 'coherence_score': nlp_results.get('coherence_score'),
+                 'sentiment_explanation_preview': nlp_results.get('sentiment_explanation', [])[:2] # Juste un aperçu
+            },
+        }
+
+        # Générer un résumé textuel simple
+        summary_parts = []
+        if overall_score > 0.75:
+            summary_parts.append("L'analyse suggère une crédibilité ÉLEVÉE.")
+        elif overall_score > 0.55:
+            summary_parts.append("L'analyse suggère une crédibilité MOYENNE à ÉLEVÉE.")
+        elif overall_score > 0.45:
+             summary_parts.append("L'analyse suggère une crédibilité MOYENNE.")
+        elif overall_score > 0.25:
+             summary_parts.append("L'analyse suggère une crédibilité FAIBLE à MOYENNE.")
+        else:
+            summary_parts.append("L'analyse suggère une crédibilité FAIBLE.")
+
+
+        if rule_results['source_analysis']['reputation'] != 'Unknown':
+             summary_parts.append(f"Réputation source : {rule_results['source_analysis']['reputation']}.")
+        elif isinstance(input_data, str) and is_url(input_data): # Seulement si c'était une URL mais réputation inconnue
+             summary_parts.append("Réputation source : Inconnue.")
+
+
+        if rule_results['linguistic_markers']['sensationalism'] > 0:
+             summary_parts.append(f"Marqueurs sensationnalistes détectés ({rule_results['linguistic_markers']['sensationalism']}).")
+        if rule_results['linguistic_markers']['doubt'] > 0:
+             summary_parts.append(f"Marqueurs de doute détectés ({rule_results['linguistic_markers']['doubt']}).")
+
+        bias_info = nlp_results.get('bias_analysis')
+        if bias_info and 'Flagged' in bias_info.get('label',''):
+             bias_score_str = f"{bias_info.get('score', 'N/A'):.2f}" if isinstance(bias_info.get('score'), float) else 'N/A'
+             summary_parts.append(f"Biais potentiel signalé (Score simulé: {bias_score_str}).")
+
+        if rule_results['fact_checking']:
+             fc_summary = ", ".join([f"{fc['claim']} ({fc['rating']})" for fc in rule_results['fact_checking']])
+             summary_parts.append(f"Vérifications externes trouvées : {fc_summary}.")
+        elif isinstance(input_data, str) and is_url(input_data): # Si c'était une URL mais pas de fact check trouvé
+             summary_parts.append("Aucune vérification externe spécifique trouvée (simulation).")
+
+
+        report['resumeAnalyse'] = " ".join(summary_parts)
+
+        # Lister les sources externes (exemple)
+        is_input_url_flag = isinstance(input_data, str) and is_url(input_data)
+        if is_input_url_flag:
+             report['sourcesUtilisees'].append({'type': 'Primary Input URL', 'url': input_data})
+        report['sourcesUtilisees'].append({'type': 'External Reputation Check', 'details': f"Reputation: {rule_results['source_analysis']['reputation']} (Simulated)"})
+        report['sourcesUtilisees'].append({'type': 'External Fact Check API', 'details': f"{len(rule_results['fact_checking'])} checks found (Simulated)"})
+
+
+        return report
+
+    def _get_score_adjustments(self, rule_results, nlp_results):
+        """Helper pour lister les ajustements de score pour le rapport."""
+        adjustments = []
+        # Miroir de la logique dans calculate_overall_score, mais juste pour le reporting
+        if rule_results['source_analysis']['reputation'] == 'High':
+            adjustments.append({'factor': 'Source Reputation', 'value': '+High'})
+        elif rule_results['source_analysis']['reputation'] == 'Low':
+            adjustments.append({'factor': 'Source Reputation', 'value': '-Low'})
+
+        domain_age = rule_results['source_analysis'].get('domain_age_days')
+        if domain_age is not None:
+            if domain_age > 365 * 2:
+                 adjustments.append({'factor': 'Domain Age', 'value': '+Old'})
+            elif domain_age < 90:
+                 adjustments.append({'factor': 'Domain Age', 'value': '-New'})
+
+        certainty = rule_results['linguistic_markers']['certainty']
+        doubt = rule_results['linguistic_markers']['doubt']
+        if certainty > 0 and doubt == 0:
+             adjustments.append({'factor': 'Certainty Markers', 'value': f"+{certainty}"})
+        elif doubt > 0:
+             adjustments.append({'factor': 'Doubt Markers', 'value': f"-{doubt}"})
+
+        sensationalism = rule_results['linguistic_markers']['sensationalism']
+        if sensationalism > 0:
+            adjustments.append({'factor': 'Sensationalism', 'value': f"-{sensationalism}"})
+
+        sentiment_info = nlp_results.get('sentiment')
+        if sentiment_info:
+            if sentiment_info['label'] == 'NEGATIVE' and sentiment_info['score'] > 0.85:
+                 adjustments.append({'factor': 'Strong Negative Sentiment', 'value': '-Impact'})
+
+        bias_info = nlp_results.get('bias_analysis')
+        if bias_info and 'Flagged' in bias_info.get('label',''):
+             bias_score_str = f"{bias_info.get('score', 0):.2f}" if isinstance(bias_info.get('score'), float) else 'N/A'
+             adjustments.append({'factor': 'Potential Bias', 'value': f"-Impact (Score: {bias_score_str})"})
+
+        coherence_score = nlp_results.get('coherence_score')
+        if coherence_score is not None:
+             adj_val = round((coherence_score - 0.5), 2)
+             adjustments.append({'factor': 'Coherence (Simulated)', 'value': f"{'+' if adj_val >= 0 else ''}{adj_val}"})
+
+        return adjustments
+
+
+    def verify_information(self, input_data):
+        """
+        Pipeline principal pour vérifier la crédibilité (adapté du PDF).
+        """
+         # Vérification initiale du type d'entrée
+        if not isinstance(input_data, str) or not input_data.strip():
+            print("Erreur: L'entrée fournie n'est pas une chaîne de caractères valide ou est vide.")
+            return {"error": "L'entrée doit être une chaîne de caractères non vide (texte ou URL)."}
+
+        print(f"\n--- Vérification pour : {input_data[:100]}... ---")
+
+        # 1. Déterminer le type d'entrée et récupérer le contenu si URL
+        text_to_analyze = ""
+        is_input_url = is_url(input_data)
+        if is_input_url:
+            try:
+                # --- Simulation ---
+                text_to_analyze = fetch_web_content(input_data)
+                if text_to_analyze is None: # Gérer l'échec simulé de fetch_web_content
+                     print(f"Échec de la récupération du contenu pour l'URL : {input_data}")
+                     return {"error": f"Impossible de récupérer le contenu de l'URL : {input_data}"}
+
+            except requests.exceptions.RequestException as e: # Garder pour une future implémentation réelle
+                 print(f"Erreur réseau/HTTP lors de la récupération de l'URL {input_data}: {e}")
+                 return {"error": f"Erreur réseau lors de la récupération de l'URL : {e}"}
+            except Exception as e:
+                 print(f"Erreur inattendue lors du traitement de l'URL {input_data}: {e}")
+                 return {"error": f"Erreur inattendue lors du traitement de l'URL : {e}"}
+
+        else: # Si ce n'est pas une URL, c'est du texte direct
+            text_to_analyze = input_data
+
+        # 2. Prétraitement du texte
+        cleaned_text = self.preprocess(text_to_analyze)
+        if not cleaned_text:
+             # Gérer le cas où le texte est vide après nettoyage
+             print("Erreur: Le texte est vide après prétraitement.")
+             return {"error": "Le texte fourni est vide ou ne contient que des éléments supprimés lors du prétraitement."}
+        print(f"Texte nettoyé (extrait) : {cleaned_text[:200]}...")
+
+        # 3. Récupérer les données externes
+        external_data = fetch_external_data(input_data if is_input_url else cleaned_text)
+        print(f"Données externes (simulées) : {external_data}")
+
+        # 4. Analyse basée sur les règles
+        rule_results = self.rule_based_analysis(cleaned_text, external_data)
+        print(f"Résultats règles : {rule_results}")
+
+        # 5. Analyse basée sur NLP/IA
+        nlp_results = self.nlp_analysis(cleaned_text)
+        print(f"Résultats NLP (Sentiment): {nlp_results.get('sentiment')}")
+        print(f"Résultats NLP (Bias): {nlp_results.get('bias_analysis')}")
+        print(f"Résultats NLP (NER count): {len(nlp_results.get('named_entities', []))}")
+
+        # 6. Calculer le score global
+        overall_score = self.calculate_overall_score(rule_results, nlp_results)
+        print(f"Score global calculé : {overall_score:.2f}")
+
+        # 7. Générer le rapport final
+        final_report = self.generate_report(input_data, cleaned_text, rule_results, nlp_results, external_data, overall_score)
+
+        return final_report
+
+# --- Tests du Système ---
+if __name__ == "__main__":
+    system = CredibilityVerificationSystem()
+    results = {} # Dictionnaire pour stocker les résultats
+
+    test_cases = {
+        "Test 1 (Texte Simple)": "This post is verified and credible. Avoid false information.",
+        "Test 2 (URL Crédible)": "http://verified-news.com/article123",
+        "Test 3 (URL Hoax)": "http://hoax-site.org/the-truth",
+        "Test 4 (Texte Sensationnaliste)": "Shocking news! The secret is revealed! This changes everything! Amazing discovery!",
+        "Test 5 (Texte Vide)": " ",
+        "Test 6 (URL Inexistante)": "http://nonexistent-domain-for-test.xyz",
+        "Test 7 (URL Générique)": "http://example-generic-site.com/page",
+        "Test 8 (Texte avec Doute)": "There are rumors and claims that this might be a hoax.",
+    }
+
+    import json
+
+    for test_name, test_input in test_cases.items():
+        print(f"\n===== Exécution: {test_name} =====")
+        result = system.verify_information(test_input)
+        results[test_name] = result # Stocker le résultat
+        print(f"\n--- Rapport Final {test_name} ---")
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+        print(f"===== Fin: {test_name} =====")
+
+    # Optionnel: Afficher un résumé de tous les scores à la fin
+    print("\n\n===== Résumé des Scores =====")
+    for test_name, result in results.items():
+         score = result.get('scoreCredibilite', 'Erreur')
+         if score == 'Erreur' and 'error' in result:
+              score = f"Erreur ({result['error']})"
+         print(f"{test_name}: {score}")
+
+\end{lstlisting}
+\section{Annexes II (Le Code en Turtle de ma base de règles pour peupler une ontologie de triplets (Sujet-Prédicat-Objet)}
+
+\begin{lstlisting}[language=Turtle,basicstyle=\ttfamily\tiny,frame=single]
+@base <http://www.dic9335.uqam.ca/ontologies/credibility-verification#> .
+@prefix : <http://www.dic9335.uqam.ca/ontologies/credibility-verification#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2002/07/owl#maxCardinality
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#analyzesSource
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#appliesRule
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#assignsCredibilityLevel
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#basedOnEvidence
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#concernsCriterion
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#concernsInformation
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#configuredByExpert
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#evaluatesCriterion
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#fetchesDataFrom
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#hasAuthor
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#hasCriterionResult
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#hasOriginalSource
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#includesNLPResult
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#includesRuleResult
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#includesSourceAnalysis
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#isReportOf
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#isSubjectOfRequest
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#obtainedVia
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#originatesFrom
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#producesReport
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#submitsRequest
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#submittedBy
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#usesModel
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#authorName
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#coherenceScore
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#completionTimestamp
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#credibilityLevelValue
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#credibilityScoreValue
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#criterionResultConfidence
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#criterionResultValue
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#detectedBiases
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#evidenceSnippet
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#evidenceURL
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#informationContent
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#informationURL
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#modelName
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#modelType
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#reportSummary
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#requestStatus
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ruleDescription
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ruleLogic
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ruleResultValid
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ruleWeight
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sentimentScore
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sourceAnalyzedReputation
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sourceAnalyzedURL
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sourceMentionsCount
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sourceReputationScore
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sourceURL
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#submissionTimestamp
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#userName
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#AcademicJournal
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ApiLLM
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Author
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#BaseDeFaits
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#CredibilityLevel
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Evidence
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Expert
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#FactCheckingOrganization
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InfoSourceAnalyse
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InformationFaibleCredibilite
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InformationHauteCredibilite
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InformationMoyenneCredibilite
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InformationSoumise
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InformationVerifiee
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ModeleIA
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#MoteurRecherche
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#NewsWebsite
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Bas
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Haut
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Moyen
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_NonVerifie
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#PersonalBlog
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#RapportEvaluation
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#RefutingEvidence
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#RegleVerification
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#RequeteEvaluation
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ResultatCritere
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ResultatNLP
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ResultatRegle
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ResultatVerification
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#SocialMediaPlatform
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Source
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#SupportingEvidence
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#SystemeExterne
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#User
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#VerificationCriterion
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#VerificationMethod
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_AuthorExpertise
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_CoherenceAnalysis
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_CrossReferencing
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_FactCheckDB
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_SourceReputation
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_ToneAnalysis
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Bas
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Haut
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Moyen
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_NonVerifie
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+# 
+# 
+# 
+# 
+# Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
+
+<credibility-verification> a owl:Ontology;
+  rdfs:comment "Ontologie enrichie et adaptée modélisant les concepts liés à la vérification de la crédibilité des sources d'information sur le Web, basée sur le rapport de modélisation UML et inspirée par l'ontologie de subvention recherche."@fr;
+  rdfs:label "Ontologie Système de Vérification de Sources (Adaptée Rapport + Subvention)"@fr;
+  owl:versionInfo "2.1" .
+
+owl:maxCardinality a owl:AnnotationProperty .
+
+:analyzesSource a owl:ObjectProperty;
+  rdfs:domain :InfoSourceAnalyse;
+  rdfs:range :Source;
+  rdfs:label "analyse source"@fr .
+
+:appliesRule a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :ResultatRegle;
+  rdfs:range :RegleVerification;
+  rdfs:label "applique règle"@fr .
+
+:assignsCredibilityLevel a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :CredibilityLevel;
+  rdfs:comment "Lie un rapport d'évaluation au niveau de crédibilité final attribué."@fr;
+  rdfs:label "assigne niveau crédibilité"@fr .
+
+:basedOnEvidence a owl:ObjectProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :Evidence;
+  rdfs:comment "Lie un rapport d'évaluation aux preuves collectées."@fr;
+  rdfs:label "basé sur preuve"@fr .
+
+:concernsCriterion a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :ResultatCritere;
+  rdfs:range :VerificationCriterion;
+  rdfs:label "concerne critère"@fr .
+
+:concernsInformation a owl:ObjectProperty, owl:FunctionalProperty;
+  owl:inverseOf :isSubjectOfRequest;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range :InformationSoumise;
+  rdfs:label "concerne information"@fr .
+
+:configuredByExpert a owl:ObjectProperty;
+  rdfs:domain _:genid1;
+  rdfs:range :Expert;
+  rdfs:label "configuré par expert"@fr .
+
+_:genid1 a owl:Class;
+  owl:unionOf _:genid4 .
+
+_:genid4 a rdf:List;
+  rdf:first :ModeleIA;
+  rdf:rest _:genid3 .
+
+_:genid3 a rdf:List;
+  rdf:first :RegleVerification;
+  rdf:rest _:genid2 .
+
+_:genid2 a rdf:List;
+  rdf:first :VerificationCriterion;
+  rdf:rest rdf:nil .
+
+:evaluatesCriterion a owl:ObjectProperty;
+  rdfs:domain _:genid5;
+  rdfs:range :VerificationCriterion;
+  rdfs:comment "Lie une règle ou un modèle au critère de vérification qu'il est conçu pour évaluer."@fr;
+  rdfs:label "évalue critère"@fr .
+
+_:genid5 a owl:Class;
+  owl:unionOf _:genid7 .
+
+_:genid7 a rdf:List;
+  rdf:first :ModeleIA;
+  rdf:rest _:genid6 .
+
+_:genid6 a rdf:List;
+  rdf:first :RegleVerification;
+  rdf:rest rdf:nil .
+
+:fetchesDataFrom a owl:ObjectProperty;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range :SystemeExterne;
+  rdfs:label "récupère données de"@fr .
+
+:hasAuthor a owl:ObjectProperty;
+  rdfs:domain :InformationSoumise;
+  rdfs:range :Author;
+  rdfs:comment "Lie une information soumise à son auteur présumé."@fr;
+  rdfs:label "a pour auteur"@fr .
+
+:hasCriterionResult a owl:ObjectProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :ResultatCritere;
+  rdfs:comment "Lie un rapport au résultat détaillé pour un critère d'évaluation spécifique."@fr;
+  rdfs:label "a résultat pour critère"@fr .
+
+:hasOriginalSource a owl:ObjectProperty;
+  rdfs:domain :InformationSoumise;
+  rdfs:range :Source;
+  rdfs:comment "Lie une information soumise à sa source d'origine principale."@fr;
+  rdfs:label "a pour source originale"@fr .
+
+:includesNLPResult a owl:ObjectProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :ResultatNLP;
+  rdfs:label "inclut résultat NLP"@fr .
+
+:includesRuleResult a owl:ObjectProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :ResultatRegle;
+  rdfs:label "inclut résultat règle"@fr .
+
+:includesSourceAnalysis a owl:ObjectProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :InfoSourceAnalyse;
+  rdfs:label "inclut analyse source"@fr .
+
+:isReportOf a owl:ObjectProperty, owl:InverseFunctionalProperty;
+  owl:inverseOf :producesReport;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :RequeteEvaluation;
+  rdfs:label "est rapport de"@fr .
+
+:isSubjectOfRequest a owl:ObjectProperty;
+  rdfs:domain :InformationSoumise;
+  rdfs:range :RequeteEvaluation;
+  rdfs:label "est sujet de requête"@fr .
+
+:obtainedVia a owl:ObjectProperty;
+  rdfs:domain :ResultatCritere;
+  rdfs:range _:genid8;
+  rdfs:label "obtenu via"@fr .
+
+_:genid8 a owl:Class;
+  owl:unionOf _:genid10 .
+
+_:genid10 a rdf:List;
+  rdf:first :ResultatNLP;
+  rdf:rest _:genid9 .
+
+_:genid9 a rdf:List;
+  rdf:first :ResultatRegle;
+  rdf:rest rdf:nil .
+
+:originatesFrom a owl:ObjectProperty;
+  rdfs:domain :Evidence;
+  rdfs:range :Source;
+  rdfs:comment "Lie une preuve à la source d'où elle a été extraite."@fr;
+  rdfs:label "provient de"@fr .
+
+:producesReport a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range :RapportEvaluation;
+  rdfs:label "produit rapport"@fr .
+
+:submitsRequest a owl:ObjectProperty;
+  owl:inverseOf :submittedBy;
+  rdfs:domain :User;
+  rdfs:range :RequeteEvaluation;
+  rdfs:label "soumet requête"@fr .
+
+:submittedBy a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range :User;
+  rdfs:comment "Lie une requête de vérification à l'utilisateur qui l'a soumise."@fr;
+  rdfs:label "soumise par"@fr .
+
+:usesModel a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :ResultatNLP;
+  rdfs:range :ModeleIA;
+  rdfs:label "utilise modèle"@fr .
+
+:authorName a owl:DatatypeProperty;
+  rdfs:domain :Author;
+  rdfs:range xsd:string;
+  rdfs:label "nom de l'auteur"@fr .
+
+:coherenceScore a owl:DatatypeProperty;
+  rdfs:domain :ResultatNLP;
+  rdfs:range xsd:float;
+  rdfs:label "score cohérence"@fr .
+
+:completionTimestamp a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range xsd:dateTime;
+  rdfs:label "horodatage de complétion"@fr .
+
+:credibilityLevelValue a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :CredibilityLevel;
+  rdfs:range xsd:float;
+  rdfs:label "valeur numérique niveau"@fr .
+
+:credibilityScoreValue a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range xsd:float;
+  rdfs:label "valeur score crédibilité"@fr .
+
+:criterionResultConfidence a owl:DatatypeProperty;
+  rdfs:domain :ResultatCritere;
+  rdfs:range xsd:float;
+  rdfs:label "confiance résultat critère"@fr .
+
+:criterionResultValue a owl:DatatypeProperty;
+  rdfs:domain :ResultatCritere;
+  rdfs:range xsd:string;
+  rdfs:label "valeur résultat critère"@fr .
+
+:detectedBiases a owl:DatatypeProperty;
+  rdfs:domain :ResultatNLP;
+  rdfs:range xsd:string;
+  rdfs:comment "";
+  rdfs:label "biais détectés"@fr .
+
+:evidenceSnippet a owl:DatatypeProperty;
+  rdfs:domain :Evidence;
+  rdfs:range xsd:string;
+  rdfs:label "extrait de la preuve"@fr .
+
+:evidenceURL a owl:DatatypeProperty;
+  rdfs:domain :Evidence;
+  rdfs:range xsd:anyURI;
+  rdfs:label "URL de la preuve"@fr .
+
+:informationContent a owl:DatatypeProperty;
+  rdfs:domain :InformationSoumise;
+  rdfs:range xsd:string;
+  rdfs:label "contenu de l'information"@fr .
+
+:informationURL a owl:DatatypeProperty;
+  rdfs:domain :InformationSoumise;
+  rdfs:range xsd:anyURI;
+  rdfs:label "URL de l'information"@fr .
+
+:modelName a owl:DatatypeProperty;
+  rdfs:domain :ModeleIA;
+  rdfs:range xsd:string;
+  rdfs:label "nom modèle"@fr .
+
+:modelType a owl:DatatypeProperty;
+  rdfs:domain :ModeleIA;
+  rdfs:range xsd:string;
+  rdfs:label "type modèle"@fr .
+
+:reportSummary a owl:DatatypeProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range xsd:string;
+  rdfs:label "résumé du rapport"@fr .
+
+:requestStatus a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range xsd:string;
+  rdfs:label "statut requête"@fr .
+
+:ruleDescription a owl:DatatypeProperty;
+  rdfs:domain :RegleVerification;
+  rdfs:range xsd:string;
+  rdfs:label "description règle"@fr .
+
+:ruleLogic a owl:DatatypeProperty;
+  rdfs:domain :RegleVerification;
+  rdfs:range xsd:string;
+  rdfs:label "logique règle"@fr .
+
+:ruleResultValid a owl:DatatypeProperty;
+  rdfs:domain :ResultatRegle;
+  rdfs:range xsd:boolean;
+  rdfs:label "résultat règle valide"@fr .
+
+:ruleWeight a owl:DatatypeProperty;
+  rdfs:domain :RegleVerification;
+  rdfs:range xsd:float;
+  rdfs:label "poids règle"@fr .
+
+:sentimentScore a owl:DatatypeProperty;
+  rdfs:domain :ResultatNLP;
+  rdfs:range xsd:float;
+  rdfs:label "score sentiment"@fr .
+
+:sourceAnalyzedReputation a owl:DatatypeProperty;
+  rdfs:domain :InfoSourceAnalyse;
+  rdfs:range xsd:string;
+  rdfs:label "réputation source analysée"@fr .
+
+:sourceAnalyzedURL a owl:DatatypeProperty;
+  rdfs:domain :InfoSourceAnalyse;
+  rdfs:range xsd:anyURI;
+  rdfs:label "URL source analysée"@fr .
+
+:sourceMentionsCount a owl:DatatypeProperty;
+  rdfs:domain :InfoSourceAnalyse;
+  rdfs:range xsd:integer;
+  rdfs:label "mentions source analysée"@fr .
+
+:sourceReputationScore a owl:DatatypeProperty;
+  rdfs:domain :Source;
+  rdfs:range xsd:float;
+  rdfs:label "score de réputation de la source"@fr .
+
+:sourceURL a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :Source;
+  rdfs:range xsd:anyURI;
+  rdfs:label "URL de la source"@fr .
+
+:submissionTimestamp a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range xsd:dateTime;
+  rdfs:label "horodatage de soumission"@fr .
+
+:userName a owl:DatatypeProperty;
+  rdfs:domain :User;
+  rdfs:range xsd:string;
+  rdfs:label "nom d'utilisateur"@fr .
+
+:AcademicJournal a owl:Class;
+  rdfs:subClassOf :Source;
+  rdfs:label "Revue Académique"@fr .
+
+:ApiLLM a owl:Class;
+  rdfs:subClassOf :SystemeExterne;
+  rdfs:label "API de LLM"@fr .
+
+:Author a owl:Class;
+  rdfs:comment "Représente la personne ou l'entité créditée pour la création de l'information soumise."@fr;
+  rdfs:label "Auteur"@fr .
+
+:BaseDeFaits a owl:Class;
+  rdfs:subClassOf :SystemeExterne;
+  rdfs:label "Base de Données de Faits Vérifiés"@fr .
+
+:CredibilityLevel a owl:Class;
+  rdfs:comment "Représente le niveau de crédibilité qualitatif ou quantitatif attribué dans le rapport."@fr;
+  rdfs:label "Niveau de Crédibilité"@fr .
+
+:Evidence a owl:Class;
+  rdfs:comment "Représente un élément d'information externe utilisé pour étayer ou réfuter l'information vérifiée."@fr;
+  rdfs:label "Preuve"@fr .
+
+:Expert a owl:Class;
+  rdfs:subClassOf :User;
+  rdfs:comment "Utilisateur qualifié responsable de la configuration et de l'amélioration du système (règles, modèles)."@fr;
+  rdfs:label "Expert"@fr .
+
+:FactCheckingOrganization a owl:Class;
+  rdfs:subClassOf :Source;
+  rdfs:label "Organisation de Vérification des Faits"@fr .
+
+:InfoSourceAnalyse a owl:Class;
+  rdfs:subClassOf _:genid11;
+  rdfs:comment "Détails sur une source spécifique telle qu'analysée et présentée dans le rapport."@fr;
+  rdfs:label "Information Source Analysée"@fr .
+
+_:genid11 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :analyzesSource .
+
+:InformationFaibleCredibilite a owl:Class;
+  owl:equivalentClass _:genid12;
+  rdfs:subClassOf _:genid22;
+  rdfs:label "Information Faiblement Crédible"@fr .
+
+_:genid12 a owl:Class;
+  owl:intersectionOf _:genid21 .
+
+_:genid21 a rdf:List;
+  rdf:first :InformationVerifiee;
+  rdf:rest _:genid19 .
+
+_:genid19 a rdf:List;
+  rdf:first _:genid20;
+  rdf:rest _:genid17 .
+
+_:genid17 a rdf:List;
+  rdf:first _:genid18;
+  rdf:rest _:genid13 .
+
+_:genid13 a rdf:List;
+  rdf:first _:genid14;
+  rdf:rest rdf:nil .
+
+_:genid14 a owl:Restriction;
+  owl:someValuesFrom _:genid15;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid15 a owl:Restriction;
+  owl:someValuesFrom _:genid16;
+  owl:onProperty :producesReport .
+
+_:genid16 a owl:Restriction;
+  owl:hasValue :Niveau_Bas;
+  owl:onProperty :assignsCredibilityLevel .
+
+_:genid18 a owl:Class;
+  owl:complementOf :InformationMoyenneCredibilite .
+
+_:genid20 a owl:Class;
+  owl:complementOf :InformationHauteCredibilite .
+
+_:genid22 a owl:Restriction;
+  owl:allValuesFrom _:genid23;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid23 a owl:Restriction;
+  owl:allValuesFrom _:genid24;
+  owl:onProperty :producesReport .
+
+_:genid24 a owl:Restriction;
+  owl:hasValue :Niveau_Bas;
+  owl:onProperty :assignsCredibilityLevel .
+
+:InformationHauteCredibilite a owl:Class;
+  owl:equivalentClass _:genid25;
+  rdfs:subClassOf _:genid31;
+  rdfs:label "Information Hautement Crédible"@fr .
+
+_:genid25 a owl:Class;
+  owl:intersectionOf _:genid30 .
+
+_:genid30 a rdf:List;
+  rdf:first :InformationVerifiee;
+  rdf:rest _:genid26 .
+
+_:genid26 a rdf:List;
+  rdf:first _:genid27;
+  rdf:rest rdf:nil .
+
+_:genid27 a owl:Restriction;
+  owl:someValuesFrom _:genid28;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid28 a owl:Restriction;
+  owl:someValuesFrom _:genid29;
+  owl:onProperty :producesReport .
+
+_:genid29 a owl:Restriction;
+  owl:hasValue :Niveau_Haut;
+  owl:onProperty :assignsCredibilityLevel .
+
+_:genid31 a owl:Restriction;
+  owl:allValuesFrom _:genid32;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid32 a owl:Restriction;
+  owl:allValuesFrom _:genid33;
+  owl:onProperty :producesReport .
+
+_:genid33 a owl:Restriction;
+  owl:hasValue :Niveau_Haut;
+  owl:onProperty :assignsCredibilityLevel .
+
+:InformationMoyenneCredibilite a owl:Class;
+  owl:equivalentClass _:genid34;
+  rdfs:subClassOf _:genid42;
+  rdfs:label "Information Moyennement Crédible"@fr .
+
+_:genid34 a owl:Class;
+  owl:intersectionOf _:genid41 .
+
+_:genid41 a rdf:List;
+  rdf:first :InformationVerifiee;
+  rdf:rest _:genid39 .
+
+_:genid39 a rdf:List;
+  rdf:first _:genid40;
+  rdf:rest _:genid35 .
+
+_:genid35 a rdf:List;
+  rdf:first _:genid36;
+  rdf:rest rdf:nil .
+
+_:genid36 a owl:Restriction;
+  owl:someValuesFrom _:genid37;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid37 a owl:Restriction;
+  owl:someValuesFrom _:genid38;
+  owl:onProperty :producesReport .
+
+_:genid38 a owl:Restriction;
+  owl:hasValue :Niveau_Moyen;
+  owl:onProperty :assignsCredibilityLevel .
+
+_:genid40 a owl:Class;
+  owl:complementOf :InformationHauteCredibilite .
+
+_:genid42 a owl:Restriction;
+  owl:allValuesFrom _:genid43;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid43 a owl:Restriction;
+  owl:allValuesFrom _:genid44;
+  owl:onProperty :producesReport .
+
+_:genid44 a owl:Restriction;
+  owl:hasValue :Niveau_Moyen;
+  owl:onProperty :assignsCredibilityLevel .
+
+:InformationSoumise a owl:Class;
+  rdfs:comment "Représente l'unité d'information (texte, URL) telle que soumise pour vérification."@fr;
+  rdfs:label "Information Soumise"@fr .
+
+:InformationVerifiee a owl:Class;
+  owl:equivalentClass _:genid45;
+  rdfs:label "Information Vérifiée"@fr .
+
+_:genid45 a owl:Class;
+  owl:intersectionOf _:genid49 .
+
+_:genid49 a rdf:List;
+  rdf:first :InformationSoumise;
+  rdf:rest _:genid46 .
+
+_:genid46 a rdf:List;
+  rdf:first _:genid47;
+  rdf:rest rdf:nil .
+
+_:genid47 a owl:Restriction;
+  owl:someValuesFrom _:genid48;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid48 a owl:Restriction;
+  owl:someValuesFrom :RapportEvaluation;
+  owl:onProperty :producesReport .
+
+:ModeleIA a owl:Class;
+  rdfs:subClassOf :VerificationMethod, _:genid50;
+  rdfs:comment "Représente un modèle d'apprentissage automatique utilisé pour l'analyse sémantique ou autre."@fr;
+  rdfs:label "Modèle IA/NLP"@fr .
+
+_:genid50 a owl:Restriction;
+  owl:minCardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :evaluatesCriterion .
+
+:MoteurRecherche a owl:Class;
+  rdfs:subClassOf :SystemeExterne;
+  rdfs:label "Moteur de Recherche"@fr .
+
+:NewsWebsite a owl:Class;
+  rdfs:subClassOf :Source;
+  rdfs:label "Site d'actualités"@fr .
+
+:Niveau_Bas a owl:Class, owl:NamedIndividual, :CredibilityLevel;
+  :credibilityLevelValue "0.2"^^xsd:float;
+  rdfs:label "Crédibilité Faible"@fr .
+
+:Niveau_Haut a owl:Class, owl:NamedIndividual, :CredibilityLevel;
+  :credibilityLevelValue "0.8"^^xsd:float;
+  rdfs:label "Crédibilité Élevée"@fr .
+
+:Niveau_Moyen a owl:Class, owl:NamedIndividual, :CredibilityLevel;
+  :credibilityLevelValue "0.5"^^xsd:float;
+  rdfs:label "Crédibilité Moyenne"@fr .
+
+:Niveau_NonVerifie a owl:Class, owl:NamedIndividual, :CredibilityLevel;
+  rdfs:label "Non Vérifié"@fr .
+
+:PersonalBlog a owl:Class;
+  rdfs:subClassOf :Source;
+  rdfs:label "Blog Personnel"@fr .
+
+:RapportEvaluation a owl:Class;
+  rdfs:subClassOf _:genid51;
+  rdfs:comment "Encapsule les résultats complets du processus de vérification pour une requête donnée."@fr;
+  rdfs:label "Rapport d'Évaluation"@fr .
+
+_:genid51 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :assignsCredibilityLevel .
+
+:RefutingEvidence a owl:Class;
+  rdfs:subClassOf :Evidence;
+  owl:disjointWith :SupportingEvidence;
+  rdfs:label "Preuve réfutante"@fr .
+
+:RegleVerification a owl:Class;
+  rdfs:subClassOf :VerificationMethod, _:genid52;
+  rdfs:comment "Représente une règle logique prédéfinie utilisée pour évaluer un aspect de la crédibilité."@fr;
+  rdfs:label "Règle de Vérification"@fr .
+
+_:genid52 a owl:Restriction;
+  owl:minCardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :evaluatesCriterion .
+
+:RequeteEvaluation a owl:Class;
+  rdfs:subClassOf _:genid53, _:genid54, _:genid55;
+  rdfs:comment "Représente une demande spécifique de vérification de crédibilité soumise par un utilisateur."@fr;
+  rdfs:label "Requête d'Évaluation"@fr .
+
+_:genid53 a owl:Restriction;
+  owl:minCardinality "0"^^xsd:nonNegativeInteger;
+  owl:onProperty :producesReport .
+
+_:genid54 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :concernsInformation .
+
+_:genid55 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :submittedBy .
+
+:ResultatCritere a owl:Class;
+  rdfs:subClassOf _:genid56, _:genid57;
+  rdfs:comment "Représente le résultat de l'évaluation d'un critère spécifique pour une requête, potentiellement basé sur un ou plusieurs résultats de règles/NLP."@fr;
+  rdfs:label "Résultat Critère"@fr .
+
+_:genid56 a owl:Restriction;
+  owl:minCardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :obtainedVia .
+
+_:genid57 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :concernsCriterion .
+
+:ResultatNLP a owl:Class;
+  rdfs:subClassOf :ResultatVerification, _:genid58;
+  owl:disjointWith :ResultatRegle;
+  rdfs:comment "Résultat de l'analyse effectuée par un modèle IA/NLP."@fr;
+  rdfs:label "Résultat NLP"@fr .
+
+_:genid58 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :usesModel .
+
+:ResultatRegle a owl:Class;
+  rdfs:subClassOf :ResultatVerification, _:genid59;
+  rdfs:comment "Résultat de l'application d'une règle de vérification spécifique."@fr;
+  rdfs:label "Résultat Règle"@fr .
+
+_:genid59 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :appliesRule .
+
+:ResultatVerification a owl:Class;
+  rdfs:comment "Classe parente pour les résultats issus des différentes méthodes de vérification."@fr;
+  rdfs:label "Résultat de Vérification (Interne)"@fr .
+
+:SocialMediaPlatform a owl:Class;
+  rdfs:subClassOf :Source;
+  rdfs:label "Plateforme de Média Social"@fr .
+
+:Source a owl:Class;
+  rdfs:comment "Représente une entité (site web, organisation, personne) d'où provient l'information originale ou la preuve."@fr;
+  rdfs:label "Source"@fr .
+
+:SupportingEvidence a owl:Class;
+  rdfs:subClassOf :Evidence;
+  rdfs:label "Preuve à l'appui"@fr .
+
+:SystemeExterne a owl:Class;
+  rdfs:comment "Représente une source de données ou un service externe utilisé pendant le processus de vérification (API, base de données)."@fr;
+  rdfs:label "Système Externe"@fr .
+
+:User a owl:Class;
+  rdfs:comment "Représente une personne interagissant avec le système de vérification."@fr;
+  rdfs:label "Utilisateur"@fr .
+
+:VerificationCriterion a owl:Class;
+  rdfs:comment "Aspect spécifique évalué lors de la vérification (ex: réputation de la source, cohérence)."@fr;
+  rdfs:label "Critère de Vérification"@fr .
+
+:VerificationMethod a owl:Class;
+  rdfs:comment "Représente une approche (règle, modèle IA) utilisée pour évaluer la crédibilité."@fr;
+  rdfs:label "Méthode de Vérification"@fr .
+
+:Criteria_AuthorExpertise a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Expertise de l'auteur"@fr .
+
+:Criteria_CoherenceAnalysis a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Analyse de la cohérence"@fr .
+
+:Criteria_CrossReferencing a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Références croisées"@fr .
+
+:Criteria_FactCheckDB a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Consultation base de données Fact-Check"@fr .
+
+:Criteria_SourceReputation a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Réputation de la source"@fr .
+
+:Criteria_ToneAnalysis a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Analyse du ton (ex: neutre, biaisé)"@fr .
+
+_:genid60 owl:maxCardinality "1"^^xsd:nonNegativeInteger .
+
+_:genid61 a owl:AllDisjointClasses;
+  owl:members _:genid66 .
+
+_:genid66 a rdf:List;
+  rdf:first :AcademicJournal;
+  rdf:rest _:genid65 .
+
+_:genid65 a rdf:List;
+  rdf:first :FactCheckingOrganization;
+  rdf:rest _:genid64 .
+
+_:genid64 a rdf:List;
+  rdf:first :NewsWebsite;
+  rdf:rest _:genid63 .
+
+_:genid63 a rdf:List;
+  rdf:first :PersonalBlog;
+  rdf:rest _:genid62 .
+
+_:genid62 a rdf:List;
+  rdf:first :SocialMediaPlatform;
+  rdf:rest rdf:nil .
+
+_:genid67 a owl:AllDisjointClasses;
+  owl:members _:genid70 .
+
+_:genid70 a rdf:List;
+  rdf:first :ApiLLM;
+  rdf:rest _:genid69 .
+
+_:genid69 a rdf:List;
+  rdf:first :BaseDeFaits;
+  rdf:rest _:genid68 .
+
+_:genid68 a rdf:List;
+  rdf:first :MoteurRecherche;
+  rdf:rest rdf:nil .
+
+_:genid71 a owl:AllDisjointClasses;
+  owl:members _:genid74 .
+
+_:genid74 a rdf:List;
+  rdf:first :InformationFaibleCredibilite;
+  rdf:rest _:genid73 .
+
+_:genid73 a rdf:List;
+  rdf:first :InformationHauteCredibilite;
+  rdf:rest _:genid72 .
+
+_:genid72 a rdf:List;
+  rdf:first :InformationMoyenneCredibilite;
+  rdf:rest rdf:nil .
+
+_:genid75 a owl:AllDisjointClasses;
+  owl:members _:genid79 .
+
+_:genid79 a rdf:List;
+  rdf:first :Niveau_Bas;
+  rdf:rest _:genid78 .
+
+_:genid78 a rdf:List;
+  rdf:first :Niveau_Haut;
+  rdf:rest _:genid77 .
+
+_:genid77 a rdf:List;
+  rdf:first :Niveau_Moyen;
+  rdf:rest _:genid76 .
+
+_:genid76 a rdf:List;
+  rdf:first :Niveau_NonVerifie;
+  rdf:rest rdf:nil .
+
+\end{lstlisting}
+\end{document}

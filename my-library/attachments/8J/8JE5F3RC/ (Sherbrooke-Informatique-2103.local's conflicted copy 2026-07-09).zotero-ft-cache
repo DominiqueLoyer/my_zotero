@@ -1,0 +1,116 @@
+Les Use-Cases ou Cas
+d’Utilisation – suite 
+
+
+ H. Lounis
+Sommaire
+a Acteurs
+a Cas d’utilisation
+a Scénario
+a Exemple
+
+
+ H. Lounis
+Modèle de UC
+aLe modèle de cas d'utilisation utilise des
+acteurs et des cas d'utilisation :
+` une aide pour définir ce qui existe en dehors
+du système (les acteurs) et ce qui doit être
+effectué par le système (les cas d'utilisation) ;
+` tout est défini du point de vue de l'utilisateur
+du système ;
+` modèle permettant une communication aisée
+avec les utilisateurs potentiels du système.
+
+
+ H. Lounis
+Acteur
+aReprésente ce qui interagit avec le système, tout ce
+qui a besoin d'échanger des informations avec le
+système :
+- est externe au système,
+- interagit avec le système,
+- représente un rôle que les utilisateurs peuvent jouer
+aUn acteur peut être:
+- une personne,
+- une machine,
+- un autre système, ...
+
+
+ H. Lounis
+Cas d’utilisation
+a spécifie un flux invoqué dans le système par un acteur
+spécifique, ce qui défini un scénario
+a Une séquence de transactions avec le système, initiée par
+un acteur, qui aboutit à des résultats identifiables pour au
+moins un acteur.
+- façons spécifiques d'utiliser le système en exécutant une ou plusieurs
+de ses fonctions
+- ensemble d'événements - initié par un acteur - qui spécifie les
+interactions entre un ou plusieurs acteurs et le système.
+a L'ensemble des cas d'utilisation = TOUTES les
+différentes façons d'utiliser le système (il ne peut pas y en
+avoir pas d'autres, du moins pour les besoins actuels !!).
+
+
+ H. Lounis
+Scénario
+aScénario : représente une séquence d'actions ou
+de transactions réalisées par le système en
+interaction avec un acteur
+Client Guichet Syst. Central
+Saisie compte
+Validation compte
+Type d’opération ?
+Retrait espèces Validation solde
+
+
+ H. Lounis
+Notation graphique
+lien d’interaction entre un acteur et un cas
+d’utilisation
+acteur cas d’utilisation le système
+
+
+ H. Lounis
+Remarque
+Attention : ne pas confondre acteur et utilisateur
+autilisateur = personne qui utilise réellement le
+système
+aacteur = agent externe qui représente un certain
+rôle et génère des données d'entrées pour le
+système
+=> peut être un utilisateur, un ordinateur, un
+périphérique, etc.
+
+
+ H. Lounis
+Remarque
+aOn peut considérer qu'un acteur est une classe et
+qu'un utilisateur est une instance de cette classe
+=> une même personne peut apparaître à travers
+les instances de plusieurs acteurs différents
+aUn acteur soumet le système à plusieurs actions
+différentes
+=> la suite de transactions est un cas d'utilisation
+aL'ensemble des descriptions de tous les cas
+d'utilisation spécifie la fonctionnalité complète du
+système.
+
+
+ H. Lounis
+Un exemple
+agence de voyage, système de réservation
+demander les
+séjours
+générer rapport
+journalier
+réserver un
+séjour
+déclarer les
+disponibilités
+Hôtesse
+responsable
+secteur
+Tour opérator
+Les cas d'utilisation se concentrent souvent sur une certaine fonctionnalité du système

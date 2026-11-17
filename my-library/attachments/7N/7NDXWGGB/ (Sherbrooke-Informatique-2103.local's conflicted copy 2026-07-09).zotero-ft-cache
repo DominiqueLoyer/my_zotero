@@ -1,0 +1,1266 @@
+MICHAEL NEGNEVITSKY
+Artificial
+Intelligence
+A Guide to Intelligent Systems
+Second Edition
+
+
+ Artificial Intelligence
+
+
+ We work with leading authors to develop the strongest educational materials in computer science, bringing cutting-edge thinking and best learning practice to a global market.
+Under a range of well-known imprints, including Addison-Wesley, we craft high quality print and electronic publications which help readers to understand and apply their content, whether studying or at work.
+To find out more about the complete range of our publishing please visit us on the World Wide Web at: www.pearsoned.co.uk
+
+
+ Artificial Intelligence
+A Guide to Intelligent Systems
+Second Edition
+Michael Negnevitsky
+
+
+ Pearson Education Limited Edinburgh Gate Harlow Essex CM20 2JE England
+and Associated Companies throughout the World.
+Visit us on the World Wide Web at: www.pearsoned.co.uk
+First published 2002
+Second edition published 2005
+# Pearson Education Limited 2002
+The right of Michael Negnevitsky to be identified as author of this Work has been asserted by the author in accordance with the Copyright, Designs and Patents Act 1988.
+All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording or otherwise, without either the prior written permission of the publisher or a licence permitting restricted copying in the United Kingdom issued by the Copyright Licensing Agency Ltd, 90 Tottenham Court Road, London W1T 4LP.
+The programs in this book have been included for their instructional value. They have been tested with care but are not guaranteed for any particular purpose. The publisher does not offer any warranties or representations nor does it accept any liabilities with respect to the programs.
+All trademarks used herein are the property of their respective owners. The use of any trademarks in this text does not vest in the author or publisher any trademark ownership rights in such trademarks, nor does the use of such trademarks imply any affiliation with or endorsement of this book by such owners.
+ISBN 0 321 20466 2
+British Library Cataloguing-in-Publication Data
+A catalogue record for this book can be obtained from the British Library
+Library of Congress Cataloging-in-Publication Data
+Negnevitsky, Michael. Artificial intelligence: a guide to intelligent systems/Michael Negnevitsky. p. cm. Includes bibliographical references and index. ISBN 0-321-20466-2 (case: alk. paper) 1. Expert systems (Computer science) 2. Artificial intelligence. I. Title.
+QA76.76.E95N445 2004 006.3’3—dc22 2004051817 10 9 8 7 6 5 4 3 2 1 08 07 06 05 04
+Typeset in 9/12pt Stone Serif by 68 Printed and bound in Great Britain by Biddles Ltd, King’s Lynn
+The publisher’s policy is to use paper manufactured from sustainable forests.
+
+
+ For my son, Vlad
+
+
+ 
+
+ Contents
+Preface xi Preface to the second edition xv Acknowledgements xvii
+1 Introduction to knowledge-based intelligent systems 1
+1.1 Intelligent machines, or what machines can do 1 1.2 The history of artificial intelligence, or from the ‘Dark Ages’ to knowledge-based systems 4 1.3 Summary 17 Questions for review 21 References 22
+2 Rule-based expert systems 25
+2.1 Introduction, or what is knowledge? 25 2.2 Rules as a knowledge representation technique 26 2.3 The main players in the expert system development team 28 2.4 Structure of a rule-based expert system 30 2.5 Fundamental characteristics of an expert system 33 2.6 Forward chaining and backward chaining inference techniques 35 2.7 MEDIA ADVISOR: a demonstration rule-based expert system 41 2.8 Conflict resolution 47 2.9 Advantages and disadvantages of rule-based expert systems 50 2.10 Summary 51 Questions for review 53 References 54
+3 Uncertainty management in rule-based expert systems 55
+3.1 Introduction, or what is uncertainty? 55 3.2 Basic probability theory 57 3.3 Bayesian reasoning 61 3.4 FORECAST: Bayesian accumulation of evidence 65
+
+
+ 3.5 Bias of the Bayesian method 72 3.6 Certainty factors theory and evidential reasoning 74 3.7 FORECAST: an application of certainty factors 80 3.8 Comparison of Bayesian reasoning and certainty factors 82 3.9 Summary 83 Questions for review 85 References 85
+4 Fuzzy expert systems 87
+4.1 Introduction, or what is fuzzy thinking? 87 4.2 Fuzzy sets 89 4.3 Linguistic variables and hedges 94 4.4 Operations of fuzzy sets 97 4.5 Fuzzy rules 103 4.6 Fuzzy inference 106 4.7 Building a fuzzy expert system 114 4.8 Summary 125 Questions for review 126 References 127 Bibliography 127
+5 Frame-based expert systems 131
+5.1 Introduction, or what is a frame? 131 5.2 Frames as a knowledge representation technique 133 5.3 Inheritance in frame-based systems 138 5.4 Methods and demons 142 5.5 Interaction of frames and rules 146 5.6 Buy Smart: a frame-based expert system 149 5.7 Summary 161 Questions for review 163 References 163 Bibliography 164
+6 Artificial neural networks 165
+6.1 Introduction, or how the brain works 165 6.2 The neuron as a simple computing element 168 6.3 The perceptron 170 6.4 Multilayer neural networks 175 6.5 Accelerated learning in multilayer neural networks 185 6.6 The Hopfield network 188 6.7 Bidirectional associative memory 196 6.8 Self-organising neural networks 200 6.9 Summary 212 Questions for review 215 References 216
+viii CONTENTS
+
+
+ 7 Evolutionary computation 219
+7.1 Introduction, or can evolution be intelligent? 219 7.2 Simulation of natural evolution 219 7.3 Genetic algorithms 222 7.4 Why genetic algorithms work 232 7.5 Case study: maintenance scheduling with genetic algorithms 235 7.6 Evolution strategies 242 7.7 Genetic programming 245 7.8 Summary 254 Questions for review 255 References 256 Bibliography 257
+8 Hybrid intelligent systems 259
+8.1 Introduction, or how to combine German mechanics with Italian love 259 8.2 Neural expert systems 261 8.3 Neuro-fuzzy systems 268 8.4 ANFIS: Adaptive Neuro-Fuzzy Inference System 277 8.5 Evolutionary neural networks 285 8.6 Fuzzy evolutionary systems 290 8.7 Summary 296 Questions for review 297 References 298
+9 Knowledge engineering and data mining 301
+9.1 Introduction, or what is knowledge engineering? 301 9.2 Will an expert system work for my problem? 308 9.3 Will a fuzzy expert system work for my problem? 317 9.4 Will a neural network work for my problem? 323 9.5 Will genetic algorithms work for my problem? 336 9.6 Will a hybrid intelligent system work for my problem? 339 9.7 Data mining and knowledge discovery 349 9.8 Summary 361 Questions for review 362 References 363
+Glossary 365 Appendix 391 Index 407
+CONTENTS ix
+
+
+ Trademark notice
+The following are trademarks or registered trademarks of their respective companies:
+KnowledgeSEEKER is a trademark of Angoss Software Corporation; Outlook and Windows are trademarks of Microsoft Corporation; MATLAB is a trademark of The MathWorks, Inc; Unix is a trademark of the Open Group.
+See Appendix for AI tools and their respective vendors.
+
+
+ Preface
+‘The only way not to succeed is not to try.’
+Edward Teller
+Another book on artificial intelligence . . . I’ve already seen so many of them. Why should I bother with this one? What makes this book different from the others?
+Each year hundreds of books and doctoral theses extend our knowledge of computer, or artificial, intelligence. Expert systems, artificial neural networks, fuzzy systems and evolutionary computation are major technologies used in intelligent systems. Hundreds of tools support these technologies, and thousands of scientific papers continue to push their boundaries. The contents of any chapter in this book can be, and in fact is, the subject of dozens of monographs. However, I wanted to write a book that would explain the basics of intelligent systems, and perhaps even more importantly, eliminate the fear of artificial intelligence. Most of the literature on artificial intelligence is expressed in the jargon of computer science, and crowded with complex matrix algebra and differential equations. This, of course, gives artificial intelligence an aura of respectability, and until recently kept non-computer scientists at bay. But the situation has changed! The personal computer has become indispensable in our everyday life. We use it as a typewriter and a calculator, a calendar and a communication system, an interactive database and a decision-support system. And we want more. We want our computers to act intelligently! We see that intelligent systems are rapidly coming out of research laboratories, and we want to use them to our advantage. What are the principles behind intelligent systems? How are they built? What are intelligent systems useful for? How do we choose the right tool for the job? These questions are answered in this book. Unlike many books on computer intelligence, this one shows that most ideas behind intelligent systems are wonderfully simple and straightforward. The book is based on lectures given to students who have little knowledge of calculus. And readers do not need to learn a programming language! The material in this book has been extensively tested through several courses taught by the author for the
+
+
+ past decade. Typical questions and suggestions from my students influenced the way this book was written. The book is an introduction to the field of computer intelligence. It covers rule-based expert systems, fuzzy expert systems, frame-based expert systems, artificial neural networks, evolutionary computation, hybrid intelligent systems and knowledge engineering. In a university setting, this book provides an introductory course for undergraduate students in computer science, computer information systems, and engineering. In the courses I teach, my students develop small rule-based and frame-based expert systems, design a fuzzy system, explore artificial neural networks, and implement a simple problem as a genetic algorithm. They use expert system shells (Leonardo, XpertRule, Level5 Object and Visual Rule Studio), MATLAB Fuzzy Logic Toolbox and MATLAB Neural Network Toolbox. I chose these tools because they can easily demonstrate the theory being presented. However, the book is not tied to any specific tool; the examples given in the book are easy to implement with different tools. This book is also suitable as a self-study guide for non-computer science professionals. For them, the book provides access to the state of the art in knowledge-based systems and computational intelligence. In fact, this book is aimed at a large professional audience: engineers and scientists, managers and businessmen, doctors and lawyers – everyone who faces challenging problems and cannot solve them by using traditional approaches, everyone who wants to understand the tremendous achievements in computer intelligence. The book will help to develop a practical understanding of what intelligent systems can and cannot do, discover which tools are most relevant for your task and, finally, how to use these tools. The book consists of nine chapters. In Chapter 1, we briefly discuss the history of artificial intelligence from the era of great ideas and great expectations in the 1960s to the disillusionment and funding cutbacks in the early 1970s; from the development of the first expert systems such as DENDRAL, MYCIN and PROSPECTOR in the seventies to the maturity of expert system technology and its massive applications in different areas in the 1980s and 1990s; from a simple binary model of neurons proposed in the 1940s to a dramatic resurgence of the field of artificial neural networks in the 1980s; from the introduction of fuzzy set theory and its being ignored by the West in the 1960s to numerous ‘fuzzy’ consumer products offered by the Japanese in the 1980s and world-wide acceptance of ‘soft’ computing and computing with words in the 1990s. In Chapter 2, we present an overview of rule-based expert systems. We briefly discuss what knowledge is, and how experts express their knowledge in the form of production rules. We identify the main players in the expert system development team and show the structure of a rule-based system. We discuss fundamental characteristics of expert systems and note that expert systems can make mistakes. Then we review the forward and backward chaining inference techniques and debate conflict resolution strategies. Finally, the advantages and disadvantages of rule-based expert systems are examined.
+xii PREFACE
+
+
+ In Chapter 3, we present two uncertainty management techniques used in expert systems: Bayesian reasoning and certainty factors. We identify the main sources of uncertain knowledge and briefly review probability theory. We consider the Bayesian method of accumulating evidence and develop a simple expert system based on the Bayesian approach. Then we examine the certainty factors theory (a popular alternative to Bayesian reasoning) and develop an expert system based on evidential reasoning. Finally, we compare Bayesian reasoning and certainty factors, and determine appropriate areas for their applications. In Chapter 4, we introduce fuzzy logic and discuss the philosophical ideas behind it. We present the concept of fuzzy sets, consider how to represent a fuzzy set in a computer, and examine operations of fuzzy sets. We also define linguistic variables and hedges. Then we present fuzzy rules and explain the main differences between classical and fuzzy rules. We explore two fuzzy inference techniques Mamdani and Sugeno – and suggest appropriate areas for their application. Finally, we introduce the main steps in developing a fuzzy expert system, and illustrate the theory through the actual process of building and tuning a fuzzy system. In Chapter 5, we present an overview of frame-based expert systems. We consider the concept of a frame and discuss how to use frames for knowledge representation. We find that inheritance is an essential feature of frame based systems. We examine the application of methods, demons and rules. Finally, we consider the development of a frame-based expert system through an example. In Chapter 6, we introduce artificial neural networks and discuss the basic ideas behind machine learning. We present the concept of a perceptron as a simple computing element and consider the perceptron learning rule. We explore multilayer neural networks and discuss how to improve the computational efficiency of the back-propagation learning algorithm. Then we introduce recurrent neural networks, consider the Hopfield network training algorithm and bidirectional associative memory (BAM). Finally, we present self-organising neural networks and explore Hebbian and competitive learning. In Chapter 7, we present an overview of evolutionary computation. We consider genetic algorithms, evolution strategies and genetic programming. We introduce the main steps in developing a genetic algorithm, discuss why genetic algorithms work, and illustrate the theory through actual applications of genetic algorithms. Then we present a basic concept of evolutionary strategies and determine the differences between evolutionary strategies and genetic algorithms. Finally, we consider genetic programming and its application to real problems. In Chapter 8, we consider hybrid intelligent systems as a combination of different intelligent technologies. First we introduce a new breed of expert systems, called neural expert systems, which combine neural networks and rulebased expert systems. Then we consider a neuro-fuzzy system that is functionally equivalent to the Mamdani fuzzy inference model, and an adaptive neuro-fuzzy inference system (ANFIS), equivalent to the Sugeno fuzzy inference model. Finally, we discuss evolutionary neural networks and fuzzy evolutionary systems. In Chapter 9, we consider knowledge engineering and data mining. First we discuss what kind of problems can be addressed with intelligent systems and introduce six main phases of the knowledge engineering process. Then we study
+PREFACE xiii
+
+
+ typical applications of intelligent systems, including diagnosis, classification, decision support, pattern recognition and prediction. Finally, we examine an application of decision trees in data mining. The book also has an appendix and a glossary. The appendix provides a list of commercially available AI tools. The glossary contains definitions of over 250 terms used in expert systems, fuzzy logic, neural networks, evolutionary computation, knowledge engineering and data mining. I hope that the reader will share my excitement on the subject of artificial intelligence and soft computing and will find this book useful. The website can be accessed at: http://www.booksites.net/negnevitsky
+Michael Negnevitsky Hobart, Tasmania, Australia February 2001
+xiv PREFACE
+
+
+ Preface to the second edition
+The main objective of the book remains the same as in the first edition – to provide the reader with practical understanding of the field of computer intelligence. It is intended as an introductory text suitable for a one-semester course, and assumes the students have no programming experience. In terms of the coverage, in this edition we demonstrate several new applications of intelligent tools for solving specific problems. The changes are in the following chapters:
+. In Chapter 2, we introduce a new demonstration rule-based expert system, MEDIA ADVISOR.
+. In Chapter 9, we add a new case study on classification neural networks with competitive learning.
+. In Chapter 9, we introduce a section ‘Will genetic algorithms work for my problem?’. The section includes a case study with the travelling salesman problem.
+. Also in Chapter 9, we add a new section ‘Will a hybrid intelligent system work for my problem?’. This section includes two case studies: the first covers a neuro-fuzzy decision-support system with a heterogeneous structure, and the second explores an adaptive neuro-fuzzy inference system (ANFIS) with a homogeneous structure.
+Finally, we have expanded the book’s references and bibliographies, and updated the list of AI tools and vendors in the appendix.
+Michael Negnevitsky Hobart, Tasmania, Australia January 2004
+
+
+ 
+
+ Acknowledgements
+I am deeply indebted to many people who, directly or indirectly, are responsible for this book coming into being. I am most grateful to Dr Vitaly Faybisovich for his constructive criticism of my research on soft computing, and most of all for his friendship and support in all my endeavours for the last twenty years. I am also very grateful to numerous reviewers of my book for their comments and helpful suggestions, and to the Pearson Education editors, particularly Keith Mansfield, Owen Knight and Liz Johnson, who led me through the process of publishing this book. I also thank my undergraduate and postgraduate students from the University of Tasmania, especially my former Ph.D. students Tan Loc Le, Quang Ha and Steven Carter, whose desire for new knowledge was both a challenge and an inspiration to me. I am indebted to Professor Stephen Grossberg from Boston University, Professor Frank Palis from the Otto-von-Guericke-Universita ̈t Magdeburg, Germany, Professor Hiroshi Sasaki from Hiroshima University, Japan and Professor Walter Wolf from the Rochester Institute of Technology, USA for giving me the opportunity to test the book’s material on their students. I am also truly grateful to Dr Vivienne Mawson and Margaret Eldridge for proof-reading the draft text. Although the first edition of this book appeared just two years ago, I cannot possibly thank all the people who have already used it and sent me their comments. However, I must acknowledge at least those who made especially helpful suggestions: Martin Beck (University of Plymouth, UK), Mike Brooks (University of Adelaide, Australia), Genard Catalano (Columbia College, USA), Warren du Plessis (University of Pretoria, South Africa), Salah Amin Elewa (American University, Egypt), John Fronckowiak (Medaille College, USA), Lev Goldfarb (University of New Brunswick, Canada), Susan Haller (University of Wisconsin, USA), Evor Hines (University of Warwick, UK), Philip Hingston (Edith Cowan University, Australia), Sam Hui (Stanford University, USA), David Lee (University of Hertfordshire, UK), Leon Reznik (Rochester Institute of Technology, USA), Simon Shiu (Hong Kong Polytechnic University), Thomas Uthmann (Johannes Gutenberg-Universit ̈at Mainz, Germany), Anne Venables (Victoria University, Australia), Brigitte Verdonk (University of Antwerp, Belgium), Ken Vollmar (Southwest Missouri State University, USA) and Kok Wai Wong (Nanyang Technological University, Singapore).
+
+
+ 
+
+ Introduction to knowledge- 1
+based intelligent systems
+In which we consider what it means to be intelligent and whether machines could be such a thing.
+1.1 Intelligent machines, or what machines can do
+Philosophers have been trying for over two thousand years to understand and resolve two big questions of the universe: how does a human mind work, and can non-humans have minds? However, these questions are still unanswered. Some philosophers have picked up the computational approach originated by computer scientists and accepted the idea that machines can do everything that humans can do. Others have openly opposed this idea, claiming that such highly sophisticated behaviour as love, creative discovery and moral choice will always be beyond the scope of any machine. The nature of philosophy allows for disagreements to remain unresolved. In fact, engineers and scientists have already built machines that we can call ‘intelligent’. So what does the word ‘intelligence’ mean? Let us look at a dictionary definition.
+1 Someone’s intelligence is their ability to understand and learn things. 2 Intelligence is the ability to think and understand instead of doing things by instinct or automatically.
+(Essential English Dictionary, Collins, London, 1990)
+Thus, according to the first definition, intelligence is the quality possessed by humans. But the second definition suggests a completely different approach and gives some flexibility; it does not specify whether it is someone or something that has the ability to think and understand. Now we should discover what thinking means. Let us consult our dictionary again.
+Thinking is the activity of using your brain to consider a problem or to create an idea.
+(Essential English Dictionary, Collins, London, 1990)
+
+
+ So, in order to think, someone or something has to have a brain, or in other words, an organ that enables someone or something to learn and understand things, to solve problems and to make decisions. So we can define intelligence as ‘the ability to learn and understand, to solve problems and to make decisions’. The very question that asks whether computers can be intelligent, or whether machines can think, came to us from the ‘dark ages’ of artificial intelligence (from the late 1940s). The goal of artificial intelligence (AI) as a science is to make machines do things that would require intelligence if done by humans (Boden, 1977). Therefore, the answer to the question ‘Can machines think?’ was vitally important to the discipline. However, the answer is not a simple ‘Yes’ or ‘No’, but rather a vague or fuzzy one. Your everyday experience and common sense would have told you that. Some people are smarter in some ways than others. Sometimes we make very intelligent decisions but sometimes we also make very silly mistakes. Some of us deal with complex mathematical and engineering problems but are moronic in philosophy and history. Some people are good at making money, while others are better at spending it. As humans, we all have the ability to learn and understand, to solve problems and to make decisions; however, our abilities are not equal and lie in different areas. Therefore, we should expect that if machines can think, some of them might be smarter than others in some ways. One of the earliest and most significant papers on machine intelligence, ‘Computing machinery and intelligence’, was written by the British mathematician Alan Turing over fifty years ago (Turing, 1950). However, it has stood up well to the test of time, and Turing’s approach remains universal. Alan Turing began his scientific career in the early 1930s by rediscovering the Central Limit Theorem. In 1937 he wrote a paper on computable numbers, in which he proposed the concept of a universal machine. Later, during the Second World War, he was a key player in deciphering Enigma, the German military encoding machine. After the war, Turing designed the ‘Automatic Computing Engine’. He also wrote the first program capable of playing a complete chess game; it was later implemented on the Manchester University computer. Turing’s theoretical concept of the universal computer and his practical experience in building code-breaking systems equipped him to approach the key fundamental question of artificial intelligence. He asked: Is there thought without experience? Is there mind without communication? Is there language without living? Is there intelligence without life? All these questions, as you can see, are just variations on the fundamental question of artificial intelligence, Can machines think? Turing did not provide definitions of machines and thinking, he just avoided semantic arguments by inventing a game, the Turing imitation game. Instead of asking, ‘Can machines think?’, Turing said we should ask, ‘Can machines pass a behaviour test for intelligence?’ He predicted that by the year 2000, a computer could be programmed to have a conversation with a human interrogator for five minutes and would have a 30 per cent chance of deceiving the interrogator that it was a human. Turing defined the intelligent behaviour of a computer as the ability to achieve the human-level performance in cognitive tasks. In other
+2 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ words, a computer passes the test if interrogators cannot distinguish the machine from a human on the basis of the answers to their questions. The imitation game proposed by Turing originally included two phases. In the first phase, shown in Figure 1.1, the interrogator, a man and a woman are each placed in separate rooms and can communicate only via a neutral medium such as a remote terminal. The interrogator’s objective is to work out who is the man and who is the woman by questioning them. The rules of the game are that the man should attempt to deceive the interrogator that he is the woman, while the woman has to convince the interrogator that she is the woman. In the second phase of the game, shown in Figure 1.2, the man is replaced by a computer programmed to deceive the interrogator as the man did. It would even be programmed to make mistakes and provide fuzzy answers in the way a human would. If the computer can fool the interrogator as often as the man did, we may say this computer has passed the intelligent behaviour test. Physical simulation of a human is not important for intelligence. Hence, in the Turing test the interrogator does not see, touch or hear the computer and is therefore not influenced by its appearance or voice. However, the interrogator is allowed to ask any questions, even provocative ones, in order to identify the machine. The interrogator may, for example, ask both the human and the
+Figure 1.1 Turing imitation game: phase 1
+Figure 1.2 Turing imitation game: phase 2
+INTELLIGENT MACHINES 3
+
+
+ machine to perform complex mathematical calculations, expecting that the computer will provide a correct solution and will do it faster than the human. Thus, the computer will need to know when to make a mistake and when to delay its answer. The interrogator also may attempt to discover the emotional nature of the human, and thus, he might ask both subjects to examine a short novel or poem or even painting. Obviously, the computer will be required here to simulate a human’s emotional understanding of the work. The Turing test has two remarkable qualities that make it really universal.
+. By maintaining communication between the human and the machine via terminals, the test gives us an objective standard view on intelligence. It avoids debates over the human nature of intelligence and eliminates any bias in favour of humans.
+. The test itself is quite independent from the details of the experiment. It can be conducted either as a two-phase game as just described, or even as a singlephase game in which the interrogator needs to choose between the human and the machine from the beginning of the test. The interrogator is also free to ask any question in any field and can concentrate solely on the content of the answers provided.
+Turing believed that by the end of the 20th century it would be possible to program a digital computer to play the imitation game. Although modern computers still cannot pass the Turing test, it provides a basis for the verification and validation of knowledge-based systems. A program thought intelligent in some narrow area of expertise is evaluated by comparing its performance with the performance of a human expert. Our brain stores the equivalent of over 1018 bits and can process information at the equivalent of about 1015 bits per second. By 2020, the brain will probably be modelled by a chip the size of a sugar cube – and perhaps by then there will be a computer that can play – even win – the Turing imitation game. However, do we really want the machine to perform mathematical calculations as slowly and inaccurately as humans do? From a practical point of view, an intelligent machine should help humans to make decisions, to search for information, to control complex objects, and finally to understand the meaning of words. There is probably no point in trying to achieve the abstract and elusive goal of developing machines with human-like intelligence. To build an intelligent computer system, we have to capture, organise and use human expert knowledge in some narrow area of expertise.
+1.2 The history of artificial intelligence, or from the ‘Dark Ages’ to knowledge-based systems
+Artificial intelligence as a science was founded by three generations of researchers. Some of the most important events and contributors from each generation are described next.
+4 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ 1.2.1 The ‘Dark Ages’, or the birth of artificial intelligence (1943–56)
+The first work recognised in the field of artificial intelligence (AI) was presented by Warren McCulloch and Walter Pitts in 1943. McCulloch had degrees in philosophy and medicine from Columbia University and became the Director of the Basic Research Laboratory in the Department of Psychiatry at the University of Illinois. His research on the central nervous system resulted in the first major contribution to AI: a model of neurons of the brain. McCulloch and his co-author Walter Pitts, a young mathematician, proposed a model of artificial neural networks in which each neuron was postulated as being in binary state, that is, in either on or off condition (McCulloch and Pitts, 1943). They demonstrated that their neural network model was, in fact, equivalent to the Turing machine, and proved that any computable function could be computed by some network of connected neurons. McCulloch and Pitts also showed that simple network structures could learn. The neural network model stimulated both theoretical and experimental work to model the brain in the laboratory. However, experiments clearly demonstrated that the binary model of neurons was not correct. In fact, a neuron has highly non-linear characteristics and cannot be considered as a simple two-state device. Nonetheless, McCulloch, the second ‘founding father’ of AI after Alan Turing, had created the cornerstone of neural computing and artificial neural networks (ANN). After a decline in the 1970s, the field of ANN was revived in the late 1980s. The third founder of AI was John von Neumann, the brilliant Hungarianborn mathematician. In 1930, he joined the Princeton University, lecturing in mathematical physics. He was a colleague and friend of Alan Turing. During the Second World War, von Neumann played a key role in the Manhattan Project that built the nuclear bomb. He also became an adviser for the Electronic Numerical Integrator and Calculator (ENIAC) project at the University of Pennsylvania and helped to design the Electronic Discrete Variable Automatic Computer (EDVAC), a stored program machine. He was influenced by McCulloch and Pitts’s neural network model. When Marvin Minsky and Dean Edmonds, two graduate students in the Princeton mathematics department, built the first neural network computer in 1951, von Neumann encouraged and supported them. Another of the first-generation researchers was Claude Shannon. He graduated from Massachusetts Institute of Technology (MIT) and joined Bell Telephone Laboratories in 1941. Shannon shared Alan Turing’s ideas on the possibility of machine intelligence. In 1950, he published a paper on chessplaying machines, which pointed out that a typical chess game involved about 10120 possible moves (Shannon, 1950). Even if the new von Neumann-type computer could examine one move per microsecond, it would take 3 10106 years to make its first move. Thus Shannon demonstrated the need to use heuristics in the search for the solution. Princeton University was also home to John McCarthy, another founder of AI. He convinced Martin Minsky and Claude Shannon to organise a summer
+THE HISTORY OF ARTIFICIAL INTELLIGENCE 5
+
+
+ workshop at Dartmouth College, where McCarthy worked after graduating from Princeton. In 1956, they brought together researchers interested in the study of machine intelligence, artificial neural nets and automata theory. The workshop was sponsored by IBM. Although there were just ten researchers, this workshop gave birth to a new science called artificial intelligence. For the next twenty years the field of AI would be dominated by the participants at the Dartmouth workshop and their students.
+1.2.2 The rise of artificial intelligence, or the era of great expectations (1956–late 1960s)
+The early years of AI are characterised by tremendous enthusiasm, great ideas and very limited success. Only a few years before, computers had been introduced to perform routine mathematical calculations, but now AI researchers were demonstrating that computers could do more than that. It was an era of great expectations. John McCarthy, one of the organisers of the Dartmouth workshop and the inventor of the term ‘artificial intelligence’, moved from Dartmouth to MIT. He defined the high-level language LISP – one of the oldest programming languages (FORTRAN is just two years older), which is still in current use. In 1958, McCarthy presented a paper, ‘Programs with Common Sense’, in which he proposed a program called the Advice Taker to search for solutions to general problems of the world (McCarthy, 1958). McCarthy demonstrated how his program could generate, for example, a plan to drive to the airport, based on some simple axioms. Most importantly, the program was designed to accept new axioms, or in other words new knowledge, in different areas of expertise without being reprogrammed. Thus the Advice Taker was the first complete knowledgebased system incorporating the central principles of knowledge representation and reasoning. Another organiser of the Dartmouth workshop, Marvin Minsky, also moved to MIT. However, unlike McCarthy with his focus on formal logic, Minsky developed an anti-logical outlook on knowledge representation and reasoning. His theory of frames (Minsky, 1975) was a major contribution to knowledge engineering. The early work on neural computing and artificial neural networks started by McCulloch and Pitts was continued. Learning methods were improved and Frank Rosenblatt proved the perceptron convergence theorem, demonstrating that his learning algorithm could adjust the connection strengths of a perceptron (Rosenblatt, 1962). One of the most ambitious projects of the era of great expectations was the General Problem Solver (GPS) (Newell and Simon, 1961, 1972). Allen Newell and Herbert Simon from the Carnegie Mellon University developed a generalpurpose program to simulate human problem-solving methods. GPS was probably the first attempt to separate the problem-solving technique from the data. It was based on the technique now referred to as means-ends analysis.
+6 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ Newell and Simon postulated that a problem to be solved could be defined in terms of states. The means-ends analysis was used to determine a difference between the current state and the desirable state or the goal state of the problem, and to choose and apply operators to reach the goal state. If the goal state could not be immediately reached from the current state, a new state closer to the goal would be established and the procedure repeated until the goal state was reached. The set of operators determined the solution plan. However, GPS failed to solve complicated problems. The program was based on formal logic and therefore could generate an infinite number of possible operators, which is inherently inefficient. The amount of computer time and memory that GPS required to solve real-world problems led to the project being abandoned. In summary, we can say that in the 1960s, AI researchers attempted to simulate the complex thinking process by inventing general methods for solving broad classes of problems. They used the general-purpose search mechanism to find a solution to the problem. Such approaches, now referred to as weak methods, applied weak information about the problem domain; this resulted in weak performance of the programs developed. However, it was also a time when the field of AI attracted great scientists who introduced fundamental new ideas in such areas as knowledge representation, learning algorithms, neural computing and computing with words. These ideas could not be implemented then because of the limited capabilities of computers, but two decades later they have led to the development of real-life practical applications. It is interesting to note that Lotfi Zadeh, a professor from the University of California at Berkeley, published his famous paper ‘Fuzzy sets’ also in the 1960s (Zadeh, 1965). This paper is now considered the foundation of the fuzzy set theory. Two decades later, fuzzy researchers have built hundreds of smart machines and intelligent systems. By 1970, the euphoria about AI was gone, and most government funding for AI projects was cancelled. AI was still a relatively new field, academic in nature, with few practical applications apart from playing games (Samuel, 1959, 1967; Greenblatt et al., 1967). So, to the outsider, the achievements would be seen as toys, as no AI system at that time could manage real-world problems.
+1.2.3 Unfulfilled promises, or the impact of reality (late 1960s–early 1970s)
+From the mid-1950s, AI researchers were making promises to build all-purpose intelligent machines on a human-scale knowledge base by the 1980s, and to exceed human intelligence by the year 2000. By 1970, however, they realised that such claims were too optimistic. Although a few AI programs could demonstrate some level of machine intelligence in one or two toy problems, almost no AI projects could deal with a wider selection of tasks or more difficult real-world problems.
+THE HISTORY OF ARTIFICIAL INTELLIGENCE 7
+
+
+ The main difficulties for AI in the late 1960s were:
+. Because AI researchers were developing general methods for broad classes of problems, early programs contained little or even no knowledge about a problem domain. To solve problems, programs applied a search strategy by trying out different combinations of small steps, until the right one was found. This method worked for ‘toy’ problems, so it seemed reasonable that, if the programs could be ‘scaled up’ to solve large problems, they would finally succeed. However, this approach was wrong. Easy, or tractable, problems can be solved in polynomial time, i.e. for a problem of size n, the time or number of steps needed to find the solution is a polynomial function of n. On the other hand, hard or intractable problems require times that are exponential functions of the problem size. While a polynomial-time algorithm is considered to be efficient, an exponential-time algorithm is inefficient, because its execution time increases rapidly with the problem size. The theory of NP-completeness (Cook, 1971; Karp, 1972), developed in the early 1970s, showed the existence of a large class of nondeterministic polynomial problems (NP problems) that are NP-complete. A problem is called NP if its solution (if one exists) can be guessed and verified in polynomial time; non-deterministic means that no particular algorithm is followed to make the guess. The hardest problems in this class are NP-complete. Even with faster computers and larger memories, these problems are hard to solve.
+. Many of the problems that AI attempted to solve were too broad and too difficult. A typical task for early AI was machine translation. For example, the National Research Council, USA, funded the translation of Russian scientific papers after the launch of the first artificial satellite (Sputnik) in 1957. Initially, the project team tried simply replacing Russian words with English, using an electronic dictionary. However, it was soon found that translation requires a general understanding of the subject to choose the correct words. This task was too difficult. In 1966, all translation projects funded by the US government were cancelled.
+. In 1971, the British government also suspended support for AI research. Sir James Lighthill had been commissioned by the Science Research Council of Great Britain to review the current state of AI (Lighthill, 1973). He did not find any major or even significant results from AI research, and therefore saw no need to have a separate science called ‘artificial intelligence’.
+1.2.4 The technology of expert systems, or the key to success (early 1970s–mid-1980s)
+Probably the most important development in the 1970s was the realisation that the problem domain for intelligent machines had to be sufficiently restricted. Previously, AI researchers had believed that clever search algorithms and reasoning techniques could be invented to emulate general, human-like, problem-solving methods. A general-purpose search mechanism could rely on
+8 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ elementary reasoning steps to find complete solutions and could use weak knowledge about domain. However, when weak methods failed, researchers finally realised that the only way to deliver practical results was to solve typical cases in narrow areas of expertise by making large reasoning steps. The DENDRAL program is a typical example of the emerging technology (Buchanan et al., 1969). DENDRAL was developed at Stanford University to analyse chemicals. The project was supported by NASA, because an unmanned spacecraft was to be launched to Mars and a program was required to determine the molecular structure of Martian soil, based on the mass spectral data provided by a mass spectrometer. Edward Feigenbaum (a former student of Herbert Simon), Bruce Buchanan (a computer scientist) and Joshua Lederberg (a Nobel prize winner in genetics) formed a team to solve this challenging problem. The traditional method of solving such problems relies on a generateand-test technique: all possible molecular structures consistent with the mass spectrogram are generated first, and then the mass spectrum is determined or predicted for each structure and tested against the actual spectrum. However, this method failed because millions of possible structures could be generated – the problem rapidly became intractable even for decent-sized molecules. To add to the difficulties of the challenge, there was no scientific algorithm for mapping the mass spectrum into its molecular structure. However, analytical chemists, such as Lederberg, could solve this problem by using their skills, experience and expertise. They could enormously reduce the number of possible structures by looking for well-known patterns of peaks in the spectrum, and thus provide just a few feasible solutions for further examination. Therefore, Feigenbaum’s job became to incorporate the expertise of Lederberg into a computer program to make it perform at a human expert level. Such programs were later called expert systems. To understand and adopt Lederberg’s knowledge and operate with his terminology, Feigenbaum had to learn basic ideas in chemistry and spectral analysis. However, it became apparent that Feigenbaum used not only rules of chemistry but also his own heuristics, or rules-of-thumb, based on his experience, and even guesswork. Soon Feigenbaum identified one of the major difficulties in the project, which he called the ‘knowledge acquisition bottleneck’ – how to extract knowledge from human experts to apply to computers. To articulate his knowledge, Lederberg even needed to study basics in computing. Working as a team, Feigenbaum, Buchanan and Lederberg developed DENDRAL, the first successful knowledge-based system. The key to their success was mapping all the relevant theoretical knowledge from its general form to highly specific rules (‘cookbook recipes’) (Feigenbaum et al., 1971). The significance of DENDRAL can be summarised as follows:
+. DENDRAL marked a major ‘paradigm shift’ in AI: a shift from generalpurpose, knowledge-sparse, weak methods to domain-specific, knowledgeintensive techniques.
+THE HISTORY OF ARTIFICIAL INTELLIGENCE 9
+
+
+ . The aim of the project was to develop a computer program to attain the level of performance of an experienced human chemist. Using heuristics in the form of high-quality specific rules – rules-of-thumb – elicited from human experts, the DENDRAL team proved that computers could equal an expert in narrow, defined, problem areas.
+. The DENDRAL project originated the fundamental idea of the new methodology of expert systems – knowledge engineering, which encompassed techniques of capturing, analysing and expressing in rules an expert’s ‘know-how’.
+DENDRAL proved to be a useful analytical tool for chemists and was marketed commercially in the United States. The next major project undertaken by Feigenbaum and others at Stanford University was in the area of medical diagnosis. The project, called MYCIN, started in 1972. It later became the Ph.D. thesis of Edward Shortliffe (Shortliffe, 1976). MYCIN was a rule-based expert system for the diagnosis of infectious blood diseases. It also provided a doctor with therapeutic advice in a convenient, user-friendly manner. MYCIN had a number of characteristics common to early expert systems, including:
+. MYCIN could perform at a level equivalent to human experts in the field and considerably better than junior doctors.
+. MYCIN’s knowledge consisted of about 450 independent rules of IF-THEN form derived from human knowledge in a narrow domain through extensive interviewing of experts.
+. The knowledge incorporated in the form of rules was clearly separated from the reasoning mechanism. The system developer could easily manipulate knowledge in the system by inserting or deleting some rules. For example, a domain-independent version of MYCIN called EMYCIN (Empty MYCIN) was later produced at Stanford University (van Melle, 1979; van Melle et al., 1981). It had all the features of the MYCIN system except the knowledge of infectious blood diseases. EMYCIN facilitated the development of a variety of diagnostic applications. System developers just had to add new knowledge in the form of rules to obtain a new application.
+MYCIN also introduced a few new features. Rules incorporated in MYCIN reflected the uncertainty associated with knowledge, in this case with medical diagnosis. It tested rule conditions (the IF part) against available data or data requested from the physician. When appropriate, MYCIN inferred the truth of a condition through a calculus of uncertainty called certainty factors. Reasoning in the face of uncertainty was the most important part of the system. Another probabilistic system that generated enormous publicity was PROSPECTOR, an expert system for mineral exploration developed by the Stanford Research Institute (Duda et al., 1979). The project ran from 1974 to
+10 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ 1983. Nine experts contributed their knowledge and expertise. To represent their knowledge, PROSPECTOR used a combined structure that incorporated rules and a semantic network. PROSPECTOR had over a thousand rules to represent extensive domain knowledge. It also had a sophisticated support package including a knowledge acquisition system. PROSPECTOR operates as follows. The user, an exploration geologist, is asked to input the characteristics of a suspected deposit: the geological setting, structures, kinds of rocks and minerals. Then the program compares these characteristics with models of ore deposits and, if necessary, queries the user to obtain additional information. Finally, PROSPECTOR makes an assessment of the suspected mineral deposit and presents its conclusion. It can also explain the steps it used to reach the conclusion. In exploration geology, important decisions are usually made in the face of uncertainty, with knowledge that is incomplete or fuzzy. To deal with such knowledge, PROSPECTOR incorporated Bayes’s rules of evidence to propagate uncertainties through the system. PROSPECTOR performed at the level of an expert geologist and proved itself in practice. In 1980, it identified a molybdenum deposit near Mount Tolman in Washington State. Subsequent drilling by a mining company confirmed the deposit was worth over $100 million. You couldn’t hope for a better justification for using expert systems. The expert systems mentioned above have now become classics. A growing number of successful applications of expert systems in the late 1970s showed that AI technology could move successfully from the research laboratory to the commercial environment. During this period, however, most expert systems were developed with special AI languages, such as LISP, PROLOG and OPS, based on powerful workstations. The need to have rather expensive hardware and complicated programming languages meant that the challenge of expert system development was left in the hands of a few research groups at Stanford University, MIT, Stanford Research Institute and Carnegie-Mellon University. Only in the 1980s, with the arrival of personal computers (PCs) and easy-to-use expert system development tools – shells – could ordinary researchers and engineers in all disciplines take up the opportunity to develop expert systems. A 1986 survey reported a remarkable number of successful expert system applications in different areas: chemistry, electronics, engineering, geology, management, medicine, process control and military science (Waterman, 1986). Although Waterman found nearly 200 expert systems, most of the applications were in the field of medical diagnosis. Seven years later a similar survey reported over 2500 developed expert systems (Durkin, 1994). The new growing area was business and manufacturing, which accounted for about 60 per cent of the applications. Expert system technology had clearly matured. Are expert systems really the key to success in any field? In spite of a great number of successful developments and implementations of expert systems in different areas of human knowledge, it would be a mistake to overestimate the capability of this technology. The difficulties are rather complex and lie in both technical and sociological spheres. They include the following:
+THE HISTORY OF ARTIFICIAL INTELLIGENCE 11
+
+
+ . Expert systems are restricted to a very narrow domain of expertise. For example, MYCIN, which was developed for the diagnosis of infectious blood diseases, lacks any real knowledge of human physiology. If a patient has more than one disease, we cannot rely on MYCIN. In fact, therapy prescribed for the blood disease might even be harmful because of the other disease.
+. Because of the narrow domain, expert systems are not as robust and flexible as a user might want. Furthermore, expert systems can have difficulty recognising domain boundaries. When given a task different from the typical problems, an expert system might attempt to solve it and fail in rather unpredictable ways.
+. Expert systems have limited explanation capabilities. They can show the sequence of the rules they applied to reach a solution, but cannot relate accumulated, heuristic knowledge to any deeper understanding of the problem domain.
+. Expert systems are also difficult to verify and validate. No general technique has yet been developed for analysing their completeness and consistency. Heuristic rules represent knowledge in abstract form and lack even basic understanding of the domain area. It makes the task of identifying incorrect, incomplete or inconsistent knowledge very difficult.
+. Expert systems, especially the first generation, have little or no ability to learn from their experience. Expert systems are built individually and cannot be developed fast. It might take from five to ten person-years to build an expert system to solve a moderately difficult problem (Waterman, 1986). Complex systems such as DENDRAL, MYCIN or PROSPECTOR can take over 30 personyears to build. This large effort, however, would be difficult to justify if improvements to the expert system’s performance depended on further attention from its developers.
+Despite all these difficulties, expert systems have made the breakthrough and proved their value in a number of important applications.
+1.2.5 How to make a machine learn, or the rebirth of neural networks (mid-1980s – onwards)
+In the mid-1980s, researchers, engineers and experts found that building an expert system required much more than just buying a reasoning system or expert system shell and putting enough rules in it. Disillusion about the applicability of expert system technology even led to people predicting an AI ‘winter’ with severely squeezed funding for AI projects. AI researchers decided to have a new look at neural networks. By the late 1960s, most of the basic ideas and concepts necessary for neural computing had already been formulated (Cowan, 1990). However, only in the mid-1980s did the solution emerge. The major reason for the delay was technological: there were no PCs or powerful workstations to model and
+12 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ experiment with artificial neural networks. The other reasons were psychological and financial. For example, in 1969, Minsky and Papert had mathematically demonstrated the fundamental computational limitations of one-layer perceptrons (Minsky and Papert, 1969). They also said there was no reason to expect that more complex multilayer perceptrons would represent much. This certainly would not encourage anyone to work on perceptrons, and as a result, most AI researchers deserted the field of artificial neural networks in the 1970s. In the 1980s, because of the need for brain-like information processing, as well as the advances in computer technology and progress in neuroscience, the field of neural networks experienced a dramatic resurgence. Major contributions to both theory and design were made on several fronts. Grossberg established a new principle of self-organisation (adaptive resonance theory), which provided the basis for a new class of neural networks (Grossberg, 1980). Hopfield introduced neural networks with feedback – Hopfield networks, which attracted much attention in the 1980s (Hopfield, 1982). Kohonen published a paper on self-organised maps (Kohonen, 1982). Barto, Sutton and Anderson published their work on reinforcement learning and its application in control (Barto et al., 1983). But the real breakthrough came in 1986 when the back-propagation learning algorithm, first introduced by Bryson and Ho in 1969 (Bryson and Ho, 1969), was reinvented by Rumelhart and McClelland in Parallel Distributed Processing: Explorations in the Microstructures of Cognition (Rumelhart and McClelland, 1986). At the same time, back-propagation learning was also discovered by Parker (Parker, 1987) and LeCun (LeCun, 1988), and since then has become the most popular technique for training multilayer perceptrons. In 1988, Broomhead and Lowe found a procedure to design layered feedforward networks using radial basis functions, an alternative to multilayer perceptrons (Broomhead and Lowe, 1988). Artificial neural networks have come a long way from the early models of McCulloch and Pitts to an interdisciplinary subject with roots in neuroscience, psychology, mathematics and engineering, and will continue to develop in both theory and practical applications. However, Hopfield’s paper (Hopfield, 1982) and Rumelhart and McClelland’s book (Rumelhart and McClelland, 1986) were the most significant and influential works responsible for the rebirth of neural networks in the 1980s.
+1.2.6 Evolutionary computation, or learning by doing (early 1970s–onwards)
+Natural intelligence is a product of evolution. Therefore, by simulating biological evolution, we might expect to discover how living systems are propelled towards high-level intelligence. Nature learns by doing; biological systems are not told how to adapt to a specific environment – they simply compete for survival. The fittest species have a greater chance to reproduce, and thereby to pass their genetic material to the next generation.
+THE HISTORY OF ARTIFICIAL INTELLIGENCE 13
+
+
+ The evolutionary approach to artificial intelligence is based on the computational models of natural selection and genetics. Evolutionary computation works by simulating a population of individuals, evaluating their performance, generating a new population, and repeating this process a number of times. Evolutionary computation combines three main techniques: genetic algorithms, evolutionary strategies, and genetic programming. The concept of genetic algorithms was introduced by John Holland in the early 1970s (Holland, 1975). He developed an algorithm for manipulating artificial ‘chromosomes’ (strings of binary digits), using such genetic operations as selection, crossover and mutation. Genetic algorithms are based on a solid theoretical foundation of the Schema Theorem (Holland, 1975; Goldberg, 1989). In the early 1960s, independently of Holland’s genetic algorithms, Ingo Rechenberg and Hans-Paul Schwefel, students of the Technical University of Berlin, proposed a new optimisation method called evolutionary strategies (Rechenberg, 1965). Evolutionary strategies were designed specifically for solving parameter optimisation problems in engineering. Rechenberg and Schwefel suggested using random changes in the parameters, as happens in natural mutation. In fact, an evolutionary strategies approach can be considered as an alternative to the engineer’s intuition. Evolutionary strategies use a numerical optimisation procedure, similar to a focused Monte Carlo search. Both genetic algorithms and evolutionary strategies can solve a wide range of problems. They provide robust and reliable solutions for highly complex, nonlinear search and optimisation problems that previously could not be solved at all (Holland, 1995; Schwefel, 1995). Genetic programming represents an application of the genetic model of learning to programming. Its goal is to evolve not a coded representation of some problem, but rather a computer code that solves the problem. That is, genetic programming generates computer programs as the solution. The interest in genetic programming was greatly stimulated by John Koza in the 1990s (Koza, 1992, 1994). He used genetic operations to manipulate symbolic code representing LISP programs. Genetic programming offers a solution to the main challenge of computer science – making computers solve problems without being explicitly programmed. Genetic algorithms, evolutionary strategies and genetic programming represent rapidly growing areas of AI, and have great potential.
+1.2.7 The new era of knowledge engineering, or computing with words (late 1980s–onwards)
+Neural network technology offers more natural interaction with the real world than do systems based on symbolic reasoning. Neural networks can learn, adapt to changes in a problem’s environment, establish patterns in situations where rules are not known, and deal with fuzzy or incomplete information. However, they lack explanation facilities and usually act as a black box. The process of training neural networks with current technologies is slow, and frequent retraining can cause serious difficulties.
+14 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ Although in some special cases, particularly in knowledge-poor situations, ANNs can solve problems better than expert systems, the two technologies are not in competition now. They rather nicely complement each other. Classic expert systems are especially good for closed-system applications with precise inputs and logical outputs. They use expert knowledge in the form of rules and, if required, can interact with the user to establish a particular fact. A major drawback is that human experts cannot always express their knowledge in terms of rules or explain the line of their reasoning. This can prevent the expert system from accumulating the necessary knowledge, and consequently lead to its failure. To overcome this limitation, neural computing can be used for extracting hidden knowledge in large data sets to obtain rules for expert systems (Medsker and Leibowitz, 1994; Zahedi, 1993). ANNs can also be used for correcting rules in traditional rule-based expert systems (Omlin and Giles, 1996). In other words, where acquired knowledge is incomplete, neural networks can refine the knowledge, and where the knowledge is inconsistent with some given data, neural networks can revise the rules. Another very important technology dealing with vague, imprecise and uncertain knowledge and data is fuzzy logic. Most methods of handling imprecision in classic expert systems are based on the probability concept. MYCIN, for example, introduced certainty factors, while PROSPECTOR incorporated Bayes’ rules to propagate uncertainties. However, experts do not usually think in probability values, but in such terms as often, generally, sometimes, occasionally and rarely. Fuzzy logic is concerned with the use of fuzzy values that capture the meaning of words, human reasoning and decision making. As a method to encode and apply human knowledge in a form that accurately reflects an expert’s understanding of difficult, complex problems, fuzzy logic provides the way to break through the computational bottlenecks of traditional expert systems. At the heart of fuzzy logic lies the concept of a linguistic variable. The values of the linguistic variable are words rather than numbers. Similar to expert systems, fuzzy systems use IF-THEN rules to incorporate human knowledge, but these rules are fuzzy, such as:
+IF speed is high THEN stopping_distance is long
+IF speed is low THEN stopping_distance is short.
+Fuzzy logic or fuzzy set theory was introduced by Professor Lotfi Zadeh, Berkeley’s electrical engineering department chairman, in 1965 (Zadeh, 1965). It provided a means of computing with words. However, acceptance of fuzzy set theory by the technical community was slow and difficult. Part of the problem was the provocative name – ‘fuzzy’ – which seemed too light-hearted to be taken seriously. Eventually, fuzzy theory, ignored in the West, was taken seriously in the East – by the Japanese. It has been used successfully since 1987 in Japanese-designed dishwashers, washing machines, air conditioners, television sets, copiers and even cars.
+THE HISTORY OF ARTIFICIAL INTELLIGENCE 15
+
+
+ The introduction of fuzzy products gave rise to tremendous interest in this apparently ‘new’ technology first proposed over 30 years ago. Hundreds of books and thousands of technical papers have been written on this topic. Some of the classics are: Fuzzy Sets, Neural Networks and Soft Computing (Yager and Zadeh, eds, 1994); The Fuzzy Systems Handbook (Cox, 1999); Fuzzy Engineering (Kosko, 1997); Expert Systems and Fuzzy Systems (Negoita, 1985); and also the best-seller science book, Fuzzy Thinking (Kosko, 1993), which popularised the field of fuzzy logic. Most fuzzy logic applications have been in the area of control engineering. However, fuzzy control systems use only a small part of fuzzy logic’s power of knowledge representation. Benefits derived from the application of fuzzy logic models in knowledge-based and decision-support systems can be summarised as follows (Cox, 1999; Turban and Aronson, 2000):
+. Improved computational power: Fuzzy rule-based systems perform faster than conventional expert systems and require fewer rules. A fuzzy expert system merges the rules, making them more powerful. Lotfi Zadeh believes that in a few years most expert systems will use fuzzy logic to solve highly nonlinear and computationally difficult problems.
+. Improved cognitive modelling: Fuzzy systems allow the encoding of knowledge in a form that reflects the way experts think about a complex problem. They usually think in such imprecise terms as high and low, fast and slow, heavy and light, and they also use such terms as very often and almost never, usually and hardly ever, frequently and occasionally. In order to build conventional rules, we need to define the crisp boundaries for these terms, thus breaking down the expertise into fragments. However, this fragmentation leads to the poor performance of conventional expert systems when they deal with highly complex problems. In contrast, fuzzy expert systems model imprecise information, capturing expertise much more closely to the way it is represented in the expert mind, and thus improve cognitive modelling of the problem.
+. The ability to represent multiple experts: Conventional expert systems are built for a very narrow domain with clearly defined expertise. It makes the system’s performance fully dependent on the right choice of experts. Although a common strategy is to find just one expert, when a more complex expert system is being built or when expertise is not well defined, multiple experts might be needed. Multiple experts can expand the domain, synthesise expertise and eliminate the need for a world-class expert, who is likely to be both very expensive and hard to access. However, multiple experts seldom reach close agreements; there are often differences in opinions and even conflicts. This is especially true in areas such as business and management where no simple solution exists and conflicting views should be taken into account. Fuzzy expert systems can help to represent the expertise of multiple experts when they have opposing views.
+16 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ Although fuzzy systems allow expression of expert knowledge in a more natural way, they still depend on the rules extracted from the experts, and thus might be smart or dumb. Some experts can provide very clever fuzzy rules – but some just guess and may even get them wrong. Therefore, all rules must be tested and tuned, which can be a prolonged and tedious process. For example, it took Hitachi engineers several years to test and tune only 54 fuzzy rules to guide the Sendai Subway System. Using fuzzy logic development tools, we can easily build a simple fuzzy system, but then we may spend days, weeks and even months trying out new rules and tuning our system. How do we make this process faster or, in other words, how do we generate good fuzzy rules automatically? In recent years, several methods based on neural network technology have been used to search numerical data for fuzzy rules. Adaptive or neural fuzzy systems can find new fuzzy rules, or change and tune existing ones based on the data provided. In other words, data in – rules out, or experience in – common sense out. So, where is knowledge engineering heading? Expert, neural and fuzzy systems have now matured and have been applied to a broad range of different problems, mainly in engineering, medicine, finance, business and management. Each technology handles the uncertainty and ambiguity of human knowledge differently, and each technology has found its place in knowledge engineering. They no longer compete; rather they complement each other. A synergy of expert systems with fuzzy logic and neural computing improves adaptability, robustness, fault-tolerance and speed of knowledge-based systems. Besides, computing with words makes them more ‘human’. It is now common practice to build intelligent systems using existing theories rather than to propose new ones, and to apply these systems to realworld problems rather than to ‘toy’ problems.
+1.3 Summary
+We live in the era of the knowledge revolution, when the power of a nation is determined not by the number of soldiers in its army but the knowledge it possesses. Science, medicine, engineering and business propel nations towards a higher quality of life, but they also require highly qualified and skilful people. We are now adopting intelligent machines that can capture the expertise of such knowledgeable people and reason in a manner similar to humans. The desire for intelligent machines was just an elusive dream until the first computer was developed. The early computers could manipulate large data bases effectively by following prescribed algorithms, but could not reason about the information provided. This gave rise to the question of whether computers could ever think. Alan Turing defined the intelligent behaviour of a computer as the ability to achieve human-level performance in a cognitive task. The Turing test provided a basis for the verification and validation of knowledge-based systems.
+SUMMARY 17
+
+
+ In 1956, a summer workshop at Dartmouth College brought together ten researchers interested in the study of machine intelligence, and a new science artificial intelligence – was born. Since the early 1950s, AI technology has developed from the curiosity of a few researchers to a valuable tool to support humans making decisions. We have seen historical cycles of AI from the era of great ideas and great expectations in the 1960s to the disillusionment and funding cutbacks in the early 1970s; from the development of the first expert systems such as DENDRAL, MYCIN and PROSPECTOR in the 1970s to the maturity of expert system technology and its massive applications in different areas in the 1980s/ 90s; from a simple binary model of neurons proposed in the 1940s to a dramatic resurgence of the field of artificial neural networks in the 1980s; from the introduction of fuzzy set theory and its being ignored by the West in the 1960s to numerous ‘fuzzy’ consumer products offered by the Japanese in the 1980s and world-wide acceptance of ‘soft’ computing and computing with words in the 1990s. The development of expert systems created knowledge engineering, the process of building intelligent systems. Today it deals not only with expert systems but also with neural networks and fuzzy logic. Knowledge engineering is still an art rather than engineering, but attempts have already been made to extract rules automatically from numerical data through neural network technology. Table 1.1 summarises the key events in the history of AI and knowledge engineering from the first work on AI by McCulloch and Pitts in 1943, to the recent trends of combining the strengths of expert systems, fuzzy logic and neural computing in modern knowledge-based systems capable of computing with words. The most important lessons learned in this chapter are:
+. Intelligence is the ability to learn and understand, to solve problems and to make decisions.
+. Artificial intelligence is a science that has defined its goal as making machines do things that would require intelligence if done by humans.
+. A machine is thought intelligent if it can achieve human-level performance in some cognitive task. To build an intelligent machine, we have to capture, organise and use human expert knowledge in some problem area.
+. The realisation that the problem domain for intelligent machines had to be sufficiently restricted marked a major ‘paradigm shift’ in AI from generalpurpose, knowledge-sparse, weak methods to domain-specific, knowledgeintensive methods. This led to the development of expert systems – computer programs capable of performing at a human-expert level in a narrow problem area. Expert systems use human knowledge and expertise in the form of specific rules, and are distinguished by the clean separation of the knowledge and the reasoning mechanism. They can also explain their reasoning procedures.
+18 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ Table 1.1 A summary of the main events in the history of AI and knowledge engineering
+Period Key events
+The birth of artificial intelligence (1943 – 56)
+McCulloch and Pitts, A Logical Calculus of the Ideas Immanent in Nervous Activity, 1943
+Turing, Computing Machinery and Intelligence, 1950
+The Electronic Numerical Integrator and Calculator project (von Neumann)
+Shannon, Programming a Computer for Playing Chess, 1950
+The Dartmouth College summer workshop on machine intelligence, artificial neural nets and automata theory, 1956
+The rise of artificial intelligence (1956–late 1960s)
+LISP (McCarthy)
+The General Problem Solver (GPR) project (Newell and Simon)
+Newell and Simon, Human Problem Solving, 1972
+Minsky, A Framework for Representing Knowledge, 1975
+The disillusionment in artificial intelligence (late 1960s–early 1970s)
+Cook, The Complexity of Theorem Proving Procedures, 1971
+Karp, Reducibility Among Combinatorial Problems, 1972
+The Lighthill Report, 1971
+The discovery of expert systems (early 1970s – mid-1980s)
+DENDRAL (Feigenbaum, Buchanan and Lederberg, Stanford University)
+MYCIN (Feigenbaum and Shortliffe, Stanford University)
+PROSPECTOR (Stanford Research Institute)
+PROLOG – a Logic Programming Language (Colmerauer, Roussel and Kowalski, France)
+EMYCIN (Stanford University)
+Waterman, A Guide to Expert Systems, 1986
+The rebirth of artificial neural networks (1965 – onwards)
+Hopfield, Neural Networks and Physical Systems with Emergent Collective Computational Abilities, 1982
+Kohonen, Self-Organized Formation of Topologically Correct Feature Maps, 1982
+Rumelhart and McClelland, Parallel Distributed Processing, 1986
+The First IEEE International Conference on Neural Networks, 1987
+Haykin, Neural Networks, 1994
+Neural Network, MATLAB Application Toolbox (The MathWork, Inc.)
+SUMMARY 19
+
+
+ . One of the main difficulties in building intelligent machines, or in other words in knowledge engineering, is the ‘knowledge acquisition bottleneck’ extracting knowledge from human experts.
+. Experts think in imprecise terms, such as very often and almost never, usually and hardly ever, frequently and occasionally, and use linguistic variables, such as high and low, fast and slow, heavy and light. Fuzzy logic
+Table 1.1 (cont.)
+Period Key events
+Evolutionary computation (early 1970s – onwards)
+Rechenberg, Evolutionsstrategien – Optimierung Technischer Systeme Nach Prinzipien der Biologischen Information, 1973
+Holland, Adaptation in Natural and Artificial Systems, 1975
+Koza, Genetic Programming: On the Programming of the Computers by Means of Natural Selection, 1992
+Schwefel, Evolution and Optimum Seeking, 1995
+Fogel, Evolutionary Computation – Towards a New Philosophy of Machine Intelligence, 1995
+Computing with words (late 1980s–onwards)
+Zadeh, Fuzzy Sets, 1965
+Zadeh, Fuzzy Algorithms, 1969
+Mamdani, Application of Fuzzy Logic to Approximate Reasoning Using Linguistic Synthesis, 1977
+Sugeno, Fuzzy Theory, 1983
+Japanese ‘fuzzy’ consumer products (dishwashers, washing machines, air conditioners, television sets, copiers)
+Sendai Subway System (Hitachi, Japan), 1986
+Negoita, Expert Systems and Fuzzy Systems, 1985
+The First IEEE International Conference on Fuzzy Systems, 1992
+Kosko, Neural Networks and Fuzzy Systems, 1992
+Kosko, Fuzzy Thinking, 1993
+Yager and Zadeh, Fuzzy Sets, Neural Networks and Soft Computing, 1994
+Cox, The Fuzzy Systems Handbook, 1994
+Kosko, Fuzzy Engineering, 1996
+Zadeh, Computing with Words – A Paradigm Shift, 1996
+Fuzzy Logic, MATLAB Application Toolbox (The MathWork, Inc.)
+20 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ or fuzzy set theory provides a means to compute with words. It concentrates on the use of fuzzy values that capture the meaning of words, human reasoning and decision making, and provides a way of breaking through the computational burden of traditional expert systems.
+. Expert systems can neither learn nor improve themselves through experience. They are individually created and demand large efforts for their development. It can take from five to ten person-years to build even a moderate expert system. Machine learning can accelerate this process significantly and enhance the quality of knowledge by adding new rules or changing incorrect ones.
+. Artificial neural networks, inspired by biological neural networks, learn from historical cases and make it possible to generate rules automatically and thus avoid the tedious and expensive processes of knowledge acquisition, validation and revision.
+. Integration of expert systems and ANNs, and fuzzy logic and ANNs improve the adaptability, fault tolerance and speed of knowledge-based systems.
+Questions for review
+1 Define intelligence. What is the intelligent behaviour of a machine?
+2 Describe the Turing test for artificial intelligence and justify its validity from a modern standpoint.
+3 Define artificial intelligence as a science. When was artificial intelligence born?
+4 What are weak methods? Identify the main difficulties that led to the disillusion with AI in the early 1970s.
+5 Define expert systems. What is the main difference between weak methods and the expert system technology?
+6 List the common characteristics of early expert systems such as DENDRAL, MYCIN and PROSPECTOR.
+7 What are the limitations of expert systems?
+8 What are the differences between expert systems and artificial neural networks?
+9 Why was the field of ANN reborn in the 1980s?
+10 What are the premises on which fuzzy logic is based? When was fuzzy set theory introduced?
+11 What are the main advantages of applying fuzzy logic in knowledge-based systems?
+12 What are the benefits of integrating expert systems, fuzzy logic and neural computing?
+QUESTIONS FOR REVIEW 21
+
+
+ References
+Barto, A.G., Sutton, R.S. and Anderson C.W. (1983). Neurolike adaptive elements that can solve difficult learning control problems, IEEE Transactions on Systems, Man and Cybernetics, SMC-13, pp. 834–846. Boden, M.A. (1977). Artificial Intelligence and Natural Man. Basic Books, New York. Broomhead, D.S. and Lowe, D. (1988). Multivariable functional interpolation and adaptive networks, Complex Systems, 2, 321–355. Bryson, A.E. and Ho, Y.-C. (1969). Applied Optimal Control. Blaisdell, New York. Buchanan, B.G., Sutherland, G.L. and Feigenbaum, E.A. (1969). Heuristic DENDRAL: a program for generating explanatory hypotheses in organic chemistry, Machine Intelligence 4, B. Meltzer, D. Michie and M. Swann, eds, Edinburgh University Press, Edinburgh, Scotland, pp. 209–254. Cook, S.A. (1971). The complexity of theorem proving procedures, Proceedings of the Third Annual ACM Symposium on Theory of Computing, New York, pp. 151–158.
+Cowan, J.D. (1990). Neural networks: the early days, Advances in Neural Information Processing Systems 2, D.S. Tourefzky, ed., San Mateo, CA: Morgan Kaufman, pp. 828–842.
+Cox, E. (1999). The Fuzzy Systems Handbook: A Practitioner’s Guide to Building, Using, and Maintaining Fuzzy Systems, 2nd edn. Academic Press, San Diego, CA. Duda, R., Gaschnig, J. and Hart, P. (1979). Model design in the PROSPECTOR consultant system for mineral exploration, Expert Systems in the Microelectronic Age, D. Michie, ed., Edinburgh University Press, Edinburgh, Scotland, pp. 153–167. Durkin, J. (1994). Expert Systems Design and Development. Prentice Hall, Englewood Cliffs, NJ. Feigenbaum, E.A., Buchanan, B.G. and Lederberg, J. (1971). On generality and problem solving: a case study using the DENDRAL program, Machine Intelligence 6, B. Meltzer and D. Michie, eds, Edinburgh University Press, Edinburgh, Scotland, pp. 165–190.
+Fogel, D.B. (1995). Evolutionary Computation – Towards a New Philosophy of Machine Intelligence. IEEE Press, Piscataway, NJ. Goldberg, D.E. (1989). Genetic Algorithms in Search, Optimisation and Machine Learning. Addison-Wesley Publishing Company, Reading, MA. Greenblatt, R.D., Eastlake, D.E. and Crocker, S.D. (1967). The Greenblatt Chess Program, Proceedings of the Fall Joint Computer Conference, pp. 801–810.
+Grossberg, S. (1980). How does a brain build a cognitive code?, Psychological Review, 87, pp. 1–51.
+Holland, J.H. (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press, Ann Arbor.
+Holland, J.H. (1995). Hidden Order: How Adaptation Builds Complexity. AddisonWesley, Reading, MA. Hopfield, J.J. (1982). Neural networks and physical systems with emergent collective computational abilities, Proceedings of the National Academy of Sciences of the USA, 79, pp. 2554–2558. Karp, R.M. (1972). Reducibility among combinatorial problems, Complexity of Computer Computations, R.E. Miller and J.W. Thatcher, eds, Plenum, New York, pp. 85–103. Kohonen, T. (1982). Self-organized formation of topologically correct feature maps, Biological Cybernetics, 43, pp. 59–69. Kosko, B. (1993). Fuzzy Thinking: The New Science of Fuzzy Logic. Hyperion, New York.
+22 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ Kosko, B. (1997). Fuzzy Engineering. Prentice Hall, Upper Saddle River, NJ.
+Koza, J.R. (1992). Genetic Programming: On the Programming of the Computers by Means of Natural Selection. MIT Press, Cambridge, MA.
+Koza, J.R. (1994). Genetic Programming II: Automatic Discovery of Reusable Programs. MIT Press, Cambridge, MA. LeCun, Y. (1988). A theoretical framework for back-propagation, Proceedings of the 1988 Connectionist Models Summer School, D. Touretzky, G. Hilton and T. Sejnowski, eds, Morgan Kaufmann, San Mateo, CA, pp. 21–28. Lighthill, J. (1973). Artificial intelligence: a general survey, Artificial Intelligence: A Paper Symposium. J. Lighthill, N.S. Sutherland, R.M. Needham, H.C. LonguestHiggins and D. Michie, eds, Science Research Council of Great Britain, London. McCarthy, J. (1958). Programs with common sense, Proceedings of the Symposium on Mechanisation of Thought Processes, vol. 1, London, pp. 77–84.
+McCulloch, W.S. and Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity, Bulletin of Mathematical Biophysics, vol. 5, pp. 115–137.
+Medsker, L. and Leibowitz, J. (1994). Design and Development of Expert Systems and Neural Computing. Macmillan, New York. Minsky, M.L. (1975). A framework for representing knowledge, The Psychology of Computer Vision, P. Winston, ed., McGraw-Hill, New York, pp. 211–277. Minsky, M.L. and Papert, S.A. (1969). Perceptrons. MIT Press, Cambridge, MA. Negoita, C.V. (1985). Expert Systems and Fuzzy Systems. Benjamin/Cummings, Menlo Park, CA. Newell, A. and Simon, H.A. (1961). GPS, a program that simulates human thought, Lernende Automatten, H. Billing, ed., R. Oldenbourg, Munich, pp. 109–124. Newell, A. and Simon, H.A. (1972). Human Problem Solving. Prentice Hall, Englewood Cliffs, NJ. Omlin, C.W. and Giles, C.L. (1996). Rule revision with recurrent neural networks, IEEE Transactions on Knowledge and Data Engineering, 8(1), 183–188.
+Parker, D.B. (1987). Optimal algorithms for adaptive networks: second order back propagation, second order direct propagation, and second order Hebbian learning, Proceedings of the IEEE 1st International Conference on Neural Networks, San Diego, CA, vol. 2, pp. 593–600.
+Rechenberg, I. (1965). Cybernetic Solution Path of an Experimental Problem. Ministry of Aviation, Royal Aircraft Establishment, Library Translation No. 1122, August.
+Rechenberg, I. (1973). Evolutionsstrategien – Optimierung Technischer Systeme Nach Prinzipien der Biologischen Information. Friedrich Frommann Verlag (G ̈unther Holzboog K.G.), Stuttgart–Bad Cannstatt. Rosenblatt, F. (1962). Principles of Neurodynamics. Spartan, Chicago. Rumelhart, D.E. and McClelland, J.L., eds (1986). Parallel Distributed Processing: Explorations in the Microstructures of Cognition. 2 vols, MIT Press, Cambridge, MA. Samuel, A.L. (1959). Some studies in machine learning using the game of checkers, IBM Journal of Research and Development, 3(3), 210–229.
+Samuel, A.L. (1967). Some studies in machine learning using the game of checkers II recent progress, IBM Journal of Research and Development, 11(6), 601–617. Schwefel, H.-P. (1995). Evolution and Optimum Seeking. John Wiley, New York. Shannon, C.E. (1950). Programming a computer for playing chess, Philosophical Magazine, 41(4), 256–275.
+Shortliffe, E.H. (1976). MYCIN: Computer-Based Medical Consultations. Elsevier Press, New York.
+REFERENCES 23
+
+
+ Turban, E. and Aronson, J.E. (2000). Decision Support Systems and Intelligent Systems, 6th edn. Prentice Hall, Englewood Cliffs, NJ. Turing, A.M. (1950). Computing machinery and intelligence, Mind, 59, 433–460. van Melle, W. (1979). A domain independent production-rule system for consultation programs, Proceedings of the IJCAI 6, pp. 923–925. van Melle, W., Shortliffe, E.H. and Buchanan B.G. (1981). EMYCIN: A domainindependent system that aids in constructing knowledge-based consultation programs, Machine Intelligence, Infotech State of the Art Report 9, no. 3.
+Waterman, D.A. (1986). A Guide to Expert Systems. Addison-Wesley, Reading, MA.
+Yager, R.R. and Zadeh, L.A., eds (1994). Fuzzy Sets, Neural Networks and Soft Computing. Van Nostrand Reinhold, New York. Zadeh, L. (1965). Fuzzy sets, Information and Control, 8(3), 338–353.
+Zahedi, F. (1993). Intelligent Systems for Business: Expert Systems with Neural Networks. Wadsworth, Belmont, CA.
+24 INTRODUCTION TO KNOWLEDGE-BASED INTELLIGENT SYSTEMS
+
+
+ Rule-based expert systems 2
+In which we introduce the most popular choice for building knowledge-based systems: rule-based expert systems.
+2.1 Introduction, or what is knowledge?
+In the 1970s, it was finally accepted that to make a machine solve an intellectual problem one had to know the solution. In other words, one has to have knowledge, ‘know-how’, in some specific domain.
+What is knowledge?
+Knowledge is a theoretical or practical understanding of a subject or a domain. Knowledge is also the sum of what is currently known, and apparently knowledge is power. Those who possess knowledge are called experts. They are the most powerful and important people in their organisations. Any successful company has at least a few first-class experts and it cannot remain in business without them.
+Who is generally acknowledged as an expert?
+Anyone can be considered a domain expert if he or she has deep knowledge (of both facts and rules) and strong practical experience in a particular domain. The area of the domain may be limited. For example, experts in electrical machines may have only general knowledge about transformers, while experts in life insurance marketing might have limited understanding of a real estate insurance policy. In general, an expert is a skilful person who can do things other people cannot.
+How do experts think?
+The human mental process is internal, and it is too complex to be represented as an algorithm. However, most experts are capable of expressing their knowledge in the form of rules for problem solving. Consider a simple example. Imagine, you meet an alien! He wants to cross a road. Can you help him? You are an expert in crossing roads – you’ve been on this job for several years. Thus you are able to teach the alien. How would you do this?
+
+
+ You explain to the alien that he can cross the road safely when the traffic light is green, and he must stop when the traffic light is red. These are the basic rules. Your knowledge can be formulated as the following simple statements:
+IF the ‘traffic light’ is green THEN the action is go
+IF the ‘traffic light’ is red THEN the action is stop
+These statements represented in the IF-THEN form are called production rules or just rules. The term ‘rule’ in AI, which is the most commonly used type of knowledge representation, can be defined as an IF-THEN structure that relates given information or facts in the IF part to some action in the THEN part. A rule provides some description of how to solve a problem. Rules are relatively easy to create and understand.
+2.2 Rules as a knowledge representation technique
+Any rule consists of two parts: the IF part, called the antecedent (premise or condition) and the THEN part called the consequent (conclusion or action). The basic syntax of a rule is:
+IF <antecedent> THEN <consequent>
+In general, a rule can have multiple antecedents joined by the keywords AND (conjunction), OR (disjunction) or a combination of both. However, it is a good habit to avoid mixing conjunctions and disjunctions in the same rule.
+IF <antecedent 1> AND <antecedent 2> . . .
+AND <antecedent n> THEN <consequent>
+IF <antecedent 1> OR <antecedent 2> . . .
+OR <antecedent n> THEN <consequent>
+26 RULE-BASED EXPERT SYSTEMS
+
+
+ The consequent of a rule can also have multiple clauses:
+IF <antecedent> THEN <consequent 1> <consequent 2> . . .
+<consequent m>
+The antecedent of a rule incorporates two parts: an object (linguistic object) and its value. In our road crossing example, the linguistic object ‘traffic light’ can take either the value green or the value red. The object and its value are linked by an operator. The operator identifies the object and assigns the value. Operators such as is, are, is not, are not are used to assign a symbolic value to a linguistic object. But expert systems can also use mathematical operators to define an object as numerical and assign it to the numerical value. For example,
+IF ‘age of the customer’ < 18 AND ‘cash withdrawal’ > 1000 THEN ‘signature of the parent’ is required
+Similar to a rule antecedent, a consequent combines an object and a value connected by an operator. The operator assigns the value to the linguistic object. In the road crossing example, if the value of traffic light is green, the first rule sets the linguistic object action to the value go. Numerical objects and even simple arithmetical expression can also be used in a rule consequent.
+IF ‘taxable income’ > 16283 THEN ‘Medicare levy’ 1⁄4 ‘taxable income’ 1.5 / 100
+Rules can represent relations, recommendations, directives, strategies and heuristics (Durkin, 1994).
+Relation
+IF the ‘fuel tank’ is empty THEN the car is dead
+Recommendation
+IF the season is autumn AND the sky is cloudy AND the forecast is drizzle THEN the advice is ‘take an umbrella’
+Directive
+IF the car is dead AND the ‘fuel tank’ is empty THEN the action is ‘refuel the car’
+RULES AS A KNOWLEDGE REPRESENTATION TECHNIQUE 27
+
+
+ Strategy
+IF the car is dead THEN the action is ‘check the fuel tank’; step1 is complete
+IF step1 is complete AND the ‘fuel tank’ is full THEN the action is ‘check the battery’; step2 is complete
+Heuristic
+IF the spill is liquid AND the ‘spill pH’ < 6 AND the ‘spill smell’ is vinegar THEN the ‘spill material’ is ‘acetic acid’
+2.3 The main players in the expert system development team
+As soon as knowledge is provided by a human expert, we can input it into a computer. We expect the computer to act as an intelligent assistant in some specific domain of expertise or to solve a problem that would otherwise have to be solved by an expert. We also would like the computer to be able to integrate new knowledge and to show its knowledge in a form that is easy to read and understand, and to deal with simple sentences in a natural language rather than an artificial programming language. Finally, we want our computer to explain how it reaches a particular conclusion. In other words, we have to build an expert system, a computer program capable of performing at the level of a human expert in a narrow problem area. The most popular expert systems are rule-based systems. A great number have been built and successfully applied in such areas as business and engineering, medicine and geology, power systems and mining. A large number of companies produce and market software for rule-based expert system development – expert system shells for personal computers. Expert system shells are becoming particularly popular for developing rulebased systems. Their main advantage is that the system builder can now concentrate on the knowledge itself rather than on learning a programming language.
+What is an expert system shell?
+An expert system shell can be considered as an expert system with the knowledge removed. Therefore, all the user has to do is to add the knowledge in the form of rules and provide relevant data to solve a problem. Let us now look at who is needed to develop an expert system and what skills are needed. In general, there are five members of the expert system development team: the domain expert, the knowledge engineer, the programmer, the project
+28 RULE-BASED EXPERT SYSTEMS
+
+
+ manager and the end-user. The success of their expert system entirely depends on how well the members work together. The basic relations in the development team are summarised in Figure 2.1. The domain expert is a knowledgeable and skilled person capable of solving problems in a specific area or domain. This person has the greatest expertise in a given domain. This expertise is to be captured in the expert system. Therefore, the expert must be able to communicate his or her knowledge, be willing to participate in the expert system development and commit a substantial amount of time to the project. The domain expert is the most important player in the expert system development team. The knowledge engineer is someone who is capable of designing, building and testing an expert system. This person is responsible for selecting an appropriate task for the expert system. He or she interviews the domain expert to find out how a particular problem is solved. Through interaction with the expert, the knowledge engineer establishes what reasoning methods the expert uses to handle facts and rules and decides how to represent them in the expert system. The knowledge engineer then chooses some development software or an expert system shell, or looks at programming languages for encoding the knowledge (and sometimes encodes it himself). And finally, the knowledge engineer is responsible for testing, revising and integrating the expert system into the workplace. Thus, the knowledge engineer is committed to the project from the initial design stage to the final delivery of the expert system, and even after the project is completed, he or she may also be involved in maintaining the system. The programmer is the person responsible for the actual programming, describing the domain knowledge in terms that a computer can understand. The programmer needs to have skills in symbolic programming in such AI
+Figure 2.1 The main players of the expert system development team
+THE MAIN PLAYERS IN THE EXPERT SYSTEM DEVELOPMENT TEAM 29
+
+
+ languages as LISP, Prolog and OPS5 and also some experience in the application of different types of expert system shells. In addition, the programmer should know conventional programming languages like C, Pascal, FORTRAN and Basic. If an expert system shell is used, the knowledge engineer can easily encode the knowledge into the expert system and thus eliminate the need for the programmer. However, if a shell cannot be used, a programmer must develop the knowledge and data representation structures (knowledge base and database), control structure (inference engine) and dialogue structure (user interface). The programmer may also be involved in testing the expert system. The project manager is the leader of the expert system development team, responsible for keeping the project on track. He or she makes sure that all deliverables and milestones are met, interacts with the expert, knowledge engineer, programmer and end-user. The end-user, often called just the user, is a person who uses the expert system when it is developed. The user might be an analytical chemist determining the molecular structure of soil from Mars (Feigenbaum et al., 1971), a junior doctor diagnosing an infectious blood disease (Shortliffe, 1976), an exploration geologist trying to discover a new mineral deposit (Duda et al., 1979), or a power system operator needing advice in an emergency (Negnevitsky, 1996). Each of these users of expert systems has different needs, which the system must meet: the system’s final acceptance will depend on the user’s satisfaction. The user must not only be confident in the expert system performance but also feel comfortable using it. Therefore, the design of the user interface of the expert system is also vital for the project’s success; the end-user’s contribution here can be crucial. The development of an expert system can be started when all five players have joined the team. However, many expert systems are now developed on personal computers using expert system shells. This can eliminate the need for the programmer and also might reduce the role of the knowledge engineer. For small expert systems, the project manager, knowledge engineer, programmer and even the expert could be the same person. But all team players are required when large expert systems are developed.
+2.4 Structure of a rule-based expert system
+In the early 1970s, Newell and Simon from Carnegie-Mellon University proposed a production system model, the foundation of the modern rule-based expert systems (Newell and Simon, 1972). The production model is based on the idea that humans solve problems by applying their knowledge (expressed as production rules) to a given problem represented by problem-specific information. The production rules are stored in the long-term memory and the problem-specific information or facts in the short-term memory. The production system model and the basic structure of a rule-based expert system are shown in Figure 2.2. A rule-based expert system has five components: the knowledge base, the database, the inference engine, the explanation facilities, and the user interface.
+30 RULE-BASED EXPERT SYSTEMS
+
+
+ The knowledge base contains the domain knowledge useful for problem solving. In a rule-based expert system, the knowledge is represented as a set of rules. Each rule specifies a relation, recommendation, directive, strategy or heuristic and has the IF (condition) THEN (action) structure. When the condition part of a rule is satisfied, the rule is said to fire and the action part is executed. The database includes a set of facts used to match against the IF (condition) parts of rules stored in the knowledge base. The inference engine carries out the reasoning whereby the expert system reaches a solution. It links the rules given in the knowledge base with the facts provided in the database.
+Figure 2.2 Production system and basic structure of a rule-based expert system: (a) production system model; (b) basic structure of a rule-based expert system
+STRUCTURE OF A RULE-BASED EXPERT SYSTEM 31
+
+
+ The explanation facilities enable the user to ask the expert system how a particular conclusion is reached and why a specific fact is needed. An expert system must be able to explain its reasoning and justify its advice, analysis or conclusion. The user interface is the means of communication between a user seeking a solution to the problem and an expert system. The communication should be as meaningful and friendly as possible. These five components are essential for any rule-based expert system. They constitute its core, but there may be a few additional components. The external interface allows an expert system to work with external data files and programs written in conventional programming languages such as C, Pascal, FORTRAN and Basic. The complete structure of a rule-based expert system is shown in Figure 2.3. The developer interface usually includes knowledge base editors, debugging aids and input/output facilities. All expert system shells provide a simple text editor to input and modify rules, and to check their correct format and spelling. Many expert systems also
+Figure 2.3 Complete structure of a rule-based expert system
+32 RULE-BASED EXPERT SYSTEMS
+
+
+ include book-keeping facilities to monitor the changes made by the knowledge engineer or expert. If a rule is changed, the editor will automatically store the change date and the name of the person who made this change for later reference. This is very important when a number of knowledge engineers and experts have access to the knowledge base and can modify it.
+Debugging aids usually consist of tracing facilities and break packages. Tracing provides a list of all rules fired during the program’s execution, and a break package makes it possible to tell the expert system in advance where to stop so that the knowledge engineer or the expert can examine the current values in the database. Most expert systems also accommodate input/output facilities such as runtime knowledge acquisition. This enables the running expert system to ask for needed information whenever this information is not available in the database. When the requested information is input by the knowledge engineer or the expert, the program resumes. In general, the developer interface, and knowledge acquisition facilities in particular, are designed to enable a domain expert to input his or her knowledge directly in the expert system and thus to minimise the intervention of a knowledge engineer.
+2.5 Fundamental characteristics of an expert system
+An expert system is built to perform at a human expert level in a narrow, specialised domain. Thus, the most important characteristic of an expert system is its high-quality performance. No matter how fast the system can solve a problem, the user will not be satisfied if the result is wrong. On the other hand, the speed of reaching a solution is very important. Even the most accurate decision or diagnosis may not be useful if it is too late to apply, for instance, in an emergency, when a patient dies or a nuclear power plant explodes. Experts use their practical experience and understanding of the problem to find short cuts to a solution. Experts use rules of thumb or heuristics. Like their human counterparts, expert systems should apply heuristics to guide the reasoning and thus reduce the search area for a solution. A unique feature of an expert system is its explanation capability. This enables the expert system to review its own reasoning and explain its decisions. An explanation in expert systems in effect traces the rules fired during a problem-solving session. This is, of course, a simplification; however a real or ‘human’ explanation is not yet possible because it requires basic understanding of the domain. Although a sequence of rules fired cannot be used to justify a conclusion, we can attach appropriate fundamental principles of the domain expressed as text to each rule, or at least each high-level rule, stored in the knowledge base. This is probably as far as the explanation capability can be taken. However, the ability to explain a line of reasoning may not be essential for some expert systems. For example, a scientific system built for experts may not be required to provide extensive explanations, because the conclusion it reaches
+FUNDAMENTAL CHARACTERISTICS OF AN EXPERT SYSTEM 33
+
+
+ can be self-explanatory to other experts; a simple rule-tracing might be quite appropriate. On the other hand, expert systems used in decision making usually demand complete and thoughtful explanations, as the cost of a wrong decision may be very high. Expert systems employ symbolic reasoning when solving a problem. Symbols are used to represent different types of knowledge such as facts, concepts and rules. Unlike conventional programs written for numerical data processing, expert systems are built for knowledge processing and can easily deal with qualitative data. Conventional programs process data using algorithms, or in other words, a series of well-defined step-by-step operations. An algorithm always performs the same operations in the same order, and it always provides an exact solution. Conventional programs do not make mistakes – but programmers sometimes do. Unlike conventional programs, expert systems do not follow a prescribed sequence of steps. They permit inexact reasoning and can deal with incomplete, uncertain and fuzzy data.
+Can expert systems make mistakes?
+Even a brilliant expert is only a human and thus can make mistakes. This suggests that an expert system built to perform at a human expert level also should be allowed to make mistakes. But we still trust experts, although we do recognise that their judgements are sometimes wrong. Likewise, at least in most cases, we can rely on solutions provided by expert systems, but mistakes are possible and we should be aware of this.
+Does it mean that conventional programs have an advantage over expert systems?
+In theory, conventional programs always provide the same ‘correct’ solutions. However, we must remember that conventional programs can tackle problems if, and only if, the data is complete and exact. When the data is incomplete or includes some errors, a conventional program will provide either no solution at all or an incorrect one. In contrast, expert systems recognise that the available information may be incomplete or fuzzy, but they can work in such situations and still arrive at some reasonable conclusion. Another important feature that distinguishes expert systems from conventional programs is that knowledge is separated from its processing (the knowledge base and the inference engine are split up). A conventional program is a mixture of knowledge and the control structure to process this knowledge. This mixing leads to difficulties in understanding and reviewing the program code, as any change to the code affects both the knowledge and its processing. In expert systems, knowledge is clearly separated from the processing mechanism. This makes expert systems much easier to build and maintain. When an expert system shell is used, a knowledge engineer or an expert simply enters rules in the knowledge base. Each new rule adds some new knowledge and makes the expert system smarter. The system can then be easily modified by changing or subtracting rules.
+34 RULE-BASED EXPERT SYSTEMS
+
+
+ The characteristics of expert systems discussed above make them different from conventional systems and human experts. A comparison is shown in Table 2.1.
+2.6 Forward chaining and backward chaining inference techniques
+In a rule-based expert system, the domain knowledge is represented by a set of IF-THEN production rules and data is represented by a set of facts about the current situation. The inference engine compares each rule stored in the
+Table 2.1 Comparison of expert systems with conventional systems and human experts
+Human experts Expert systems Conventional programs
+Use knowledge in the form of rules of thumb or heuristics to solve problems in a narrow domain.
+Process knowledge expressed in the form of rules and use symbolic reasoning to solve problems in a narrow domain.
+Process data and use algorithms, a series of well-defined operations, to solve general numerical problems.
+In a human brain, knowledge exists in a compiled form.
+Provide a clear separation of knowledge from its processing.
+Do not separate knowledge from the control structure to process this knowledge.
+Capable of explaining a line of reasoning and providing the details.
+Trace the rules fired during a problem-solving session and explain how a
+particular conclusion was reached and why specific data was needed.
+Do not explain how a particular result was obtained and why input data was needed.
+Use inexact reasoning and can deal with incomplete, uncertain and fuzzy information.
+Permit inexact reasoning and can deal with incomplete, uncertain and fuzzy data.
+Work only on problems where data is complete and exact.
+Can make mistakes when information is incomplete or fuzzy.
+Can make mistakes when data is incomplete or fuzzy.
+Provide no solution at all, or a wrong one, when data is incomplete or fuzzy.
+Enhance the quality of problem solving via years of learning and practical training. This process is slow, inefficient and expensive.
+Enhance the quality of problem solving by adding new rules or adjusting old ones in the knowledge base. When new knowledge is acquired, changes are easy to accomplish.
+Enhance the quality of problem solving by changing the program code, which affects both the knowledge and its processing, making changes difficult.
+FORWARD AND BACKWARD CHAINING INFERENCE TECHNIQUES 35
+
+
+ knowledge base with facts contained in the database. When the IF (condition) part of the rule matches a fact, the rule is fired and its THEN (action) part is executed. The fired rule may change the set of facts by adding a new fact, as shown in Figure 2.4. Letters in the database and the knowledge base are used to represent situations or concepts. The matching of the rule IF parts to the facts produces inference chains. The inference chain indicates how an expert system applies the rules to reach a conclusion. To illustrate chaining inference techniques, consider a simple example. Suppose the database initially includes facts A, B, C, D and E, and the knowledge base contains only three rules:
+Rule 1: IF Y is true AND D is true THEN Z is true
+Rule 2: IF X is true AND B is true AND E is true THEN Y is true
+Rule 3: IF A is true THEN X is true
+The inference chain shown in Figure 2.5 indicates how the expert system applies the rules to infer fact Z. First Rule 3 is fired to deduce new fact X from given fact A. Then Rule 2 is executed to infer fact Y from initially known facts B and E, and already known fact X. And finally, Rule 1 applies initially known fact D and just-obtained fact Y to arrive at conclusion Z. An expert system can display its inference chain to explain how a particular conclusion was reached; this is an essential part of its explanation facilities.
+Figure 2.4 The inference engine cycles via a match-fire procedure
+36 RULE-BASED EXPERT SYSTEMS
+
+
+ The inference engine must decide when the rules have to be fired. There are two principal ways in which rules are executed. One is called forward chaining and the other backward chaining (Waterman and Hayes-Roth, 1978).
+2.6.1 Forward chaining
+The example discussed above uses forward chaining. Now consider this technique in more detail. Let us first rewrite our rules in the following form:
+Rule 1: Y & D ! Z
+Rule 2: X & B & E ! Y
+Rule 3: A ! X
+Arrows here indicate the IF and THEN parts of the rules. Let us also add two more rules:
+Rule 4: C ! L
+Rule 5: L & M ! N
+Figure 2.6 shows how forward chaining works for this simple set of rules. Forward chaining is the data-driven reasoning. The reasoning starts from the known data and proceeds forward with that data. Each time only the topmost rule is executed. When fired, the rule adds a new fact in the database. Any rule can be executed only once. The match-fire cycle stops when no further rules can be fired. In the first cycle, only two rules, Rule 3: A ! X and Rule 4: C ! L, match facts in the database. Rule 3: A ! X is fired first as the topmost one. The IF part of this rule matches fact A in the database, its THEN part is executed and new fact X is added to the database. Then Rule 4: C ! L is fired and fact L is also placed in the database. In the second cycle, Rule 2: X & B & E ! Y is fired because facts B, E and X are already in the database, and as a consequence fact Y is inferred and put in the database. This in turn causes Rule 1: Y & D ! Z to execute, placing fact Z in the database (cycle 3). Now the match-fire cycles stop because the IF part of Rule 5: L & M ! N does not match all facts in the database and thus Rule 5 cannot be fired.
+Figure 2.5 An example of an inference chain
+FORWARD AND BACKWARD CHAINING INFERENCE TECHNIQUES 37
+
+
+ Forward chaining is a technique for gathering information and then inferring from it whatever can be inferred. However, in forward chaining, many rules may be executed that have nothing to do with the established goal. Suppose, in our example, the goal was to determine fact Z. We had only five rules in the knowledge base and four of them were fired. But Rule 4: C ! L, which is unrelated to fact Z, was also fired among others. A real rule-based expert system can have hundreds of rules, many of which might be fired to derive new facts that are valid, but unfortunately unrelated to the goal. Therefore, if our goal is to infer only one particular fact, the forward chaining inference technique would not be efficient. In such a situation, backward chaining is more appropriate.
+2.6.2 Backward chaining
+Backward chaining is the goal-driven reasoning. In backward chaining, an expert system has the goal (a hypothetical solution) and the inference engine attempts to find the evidence to prove it. First, the knowledge base is searched to find rules that might have the desired solution. Such rules must have the goal in their THEN (action) parts. If such a rule is found and its IF (condition) part matches data in the database, then the rule is fired and the goal is proved. However, this is rarely the case. Thus the inference engine puts aside the rule it is working with (the rule is said to stack) and sets up a new goal, a sub-goal, to prove the IF part of this rule. Then the knowledge base is searched again for rules that can prove the sub-goal. The inference engine repeats the process of stacking the rules until no rules are found in the knowledge base to prove the current sub-goal.
+Figure 2.6 Forward chaining
+38 RULE-BASED EXPERT SYSTEMS
+
+
+ Figure 2.7 shows how backward chaining works, using the rules for the forward chaining example. In Pass 1, the inference engine attempts to infer fact Z. It searches the knowledge base to find the rule that has the goal, in our case fact Z, in its THEN part. The inference engine finds and stacks Rule 1: Y & D ! Z. The IF part of Rule 1 includes facts Y and D, and thus these facts must be established. In Pass 2, the inference engine sets up the sub-goal, fact Y, and tries to determine it. First it checks the database, but fact Y is not there. Then the knowledge base is searched again for the rule with fact Y in its THEN part. The
+Figure 2.7 Backward chaining
+FORWARD AND BACKWARD CHAINING INFERENCE TECHNIQUES 39
+
+
+ inference engine locates and stacks Rule 2: X & B & E ! Y. The IF part of Rule 2 consists of facts X, B and E, and these facts also have to be established. In Pass 3, the inference engine sets up a new sub-goal, fact X. It checks the database for fact X, and when that fails, searches for the rule that infers X. The inference engine finds and stacks Rule 3: A ! X. Now it must determine fact A. In Pass 4, the inference engine finds fact A in the database, Rule 3: A ! X is fired and new fact X is inferred. In Pass 5, the inference engine returns to the sub-goal fact Y and once again tries to execute Rule 2: X & B & E ! Y. Facts X, B and E are in the database and thus Rule 2 is fired and a new fact, fact Y, is added to the database. In Pass 6, the system returns to Rule 1: Y & D ! Z trying to establish the original goal, fact Z. The IF part of Rule 1 matches all facts in the database, Rule 1 is executed and thus the original goal is finally established. Let us now compare Figure 2.6 with Figure 2.7. As you can see, four rules were fired when forward chaining was used, but just three rules when we applied backward chaining. This simple example shows that the backward chaining inference technique is more effective when we need to infer one particular fact, in our case fact Z. In forward chaining, the data is known at the beginning of the inference process, and the user is never asked to input additional facts. In backward chaining, the goal is set up and the only data used is the data needed to support the direct line of reasoning, and the user may be asked to input any fact that is not in the database.
+How do we choose between forward and backward chaining?
+The answer is to study how a domain expert solves a problem. If an expert first needs to gather some information and then tries to infer from it whatever can be inferred, choose the forward chaining inference engine. However, if your expert begins with a hypothetical solution and then attempts to find facts to prove it, choose the backward chaining inference engine. Forward chaining is a natural way to design expert systems for analysis and interpretation. For example, DENDRAL, an expert system for determining the molecular structure of unknown soil based on its mass spectral data (Feigenbaum et al., 1971), uses forward chaining. Most backward chaining expert systems are used for diagnostic purposes. For instance, MYCIN, a medical expert system for diagnosing infectious blood diseases (Shortliffe, 1976), uses backward chaining.
+Can we combine forward and backward chaining?
+Many expert system shells use a combination of forward and backward chaining inference techniques, so the knowledge engineer does not have to choose between them. However, the basic inference mechanism is usually backward chaining. Only when a new fact is established is forward chaining employed to maximise the use of the new data.
+40 RULE-BASED EXPERT SYSTEMS
+
+
+ 2.7 MEDIA ADVISOR: a demonstration rule-based expert system
+To illustrate some of the ideas discussed above, we next consider a simple rulebased expert system. The Leonardo expert system shell was selected as a tool to build a decision-support system called MEDIA ADVISOR. The system provides advice on selecting a medium for delivering a training program based on the trainee’s job. For example, if a trainee is a mechanical technician responsible for maintaining hydraulic systems, an appropriate medium might be a workshop, where the trainee could learn how basic hydraulic components operate, how to troubleshoot hydraulics problems and how to make simple repairs to hydraulic systems. On the other hand, if a trainee is a clerk assessing insurance applications, a training program might include lectures on specific problems of the task, as well as tutorials where the trainee could evaluate real applications. For complex tasks, where trainees are likely to make mistakes, a training program should also include feedback on the trainee’s performance.
+Knowledge base
+/* MEDIA ADVISOR: a demonstration rule-based expert system
+Rule: 1 if the environment is papers or the environment is manuals or the environment is documents or the environment is textbooks then the stimulus_situation is verbal
+Rule: 2 if the environment is pictures or the environment is illustrations or the environment is photographs or the environment is diagrams then the stimulus_situation is visual
+Rule: 3 if the environment is machines or the environment is buildings or the environment is tools then the stimulus_situation is ‘physical object’
+Rule: 4 if the environment is numbers or the environment is formulas or the environment is ‘computer programs’ then the stimulus_situation is symbolic
+MEDIA ADVISOR: A DEMONSTRATION RULE-BASED EXPERT SYSTEM 41
+
+
+ Rule: 5 if the job is lecturing or the job is advising or the job is counselling then the stimulus_response is oral
+Rule: 6 if the job is building or the job is repairing or the job is troubleshooting then the stimulus_response is ‘hands-on’
+Rule: 7 if the job is writing or the job is typing or the job is drawing then the stimulus_response is documented
+Rule: 8 if the job is evaluating or the job is reasoning or the job is investigating then the stimulus_response is analytical
+Rule: 9 if the stimulus_situation is ‘physical object’ and the stimulus_response is ‘hands-on’ and feedback is required then medium is workshop
+Rule: 10 if the stimulus_situation is symbolic and the stimulus_response is analytical and feedback is required then medium is ‘lecture – tutorial’
+Rule: 11 if the stimulus_situation is visual and the stimulus_response is documented and feedback is not required then medium is videocassette
+Rule: 12 if the stimulus_situation is visual and the stimulus_response is oral and feedback is required then medium is ‘lecture – tutorial’
+42 RULE-BASED EXPERT SYSTEMS
+
+
+ Rule: 13 if the stimulus_situation is verbal and the stimulus_response is analytical and feedback is required then medium is ‘lecture – tutorial’
+Rule: 14 if the stimulus_situation is verbal and the stimulus_response is oral and feedback is required then medium is ‘role-play exercises’
+/* The SEEK directive sets up the goal of the rule set
+seek medium
+Objects
+MEDIA ADVISOR uses six linguistic objects: environment, stimulus_situation, job, stimulus_response, feedback and medium. Each object can take one of the allowed values (for example, object environment can take the value of papers, manuals, documents, textbooks, pictures, illustrations, photographs, diagrams, machines, buildings, tools, numbers, formulas, computer programs). An object and its value constitute a fact (for instance, the environment is machines, and the job is repairing). All facts are placed in the database.
+Object Allowed values Object Allowed values
+environment papers job lecturing manuals advising documents counselling textbooks building pictures repairing illustrations troubleshooting photographs writing diagrams typing machines drawing buildings evaluating tools reasoning numbers formulas
+investigating
+computer programs stimulus_ response oral hands-on documented analytical
+stimulus_situation verbal visual physical object feedback required symbolic not required
+MEDIA ADVISOR: A DEMONSTRATION RULE-BASED EXPERT SYSTEM 43
+
+
+ Options
+The final goal of the rule-based expert system is to produce a solution to the problem based on input data. In MEDIA ADVISOR, the solution is a medium selected from the list of four options:
+medium is workshop medium is ‘lecture – tutorial’ medium is videocassette medium is ‘role-play exercises’
+Dialogue
+In the dialogue shown below, the expert system asks the user to input the data needed to solve the problem (the environment, the job and feedback). Based on the answers supplied by the user (answers are indicated by arrows), the expert system applies rules from its knowledge base to infer that the stimulus_situation is physical object, and the stimulus_response is hands-on. Rule 9 then selects one of the allowed values of medium.
+What sort of environment is a trainee dealing with on the job? ) machines
+Rule: 3 if the environment is machines or the environment is buildings or the environment is tools then the stimulus_situation is ‘physical object’
+In what way is a trainee expected to act or respond on the job? ) repairing
+Rule: 6 if the job is building or the job is repairing or the job is troubleshooting then the stimulus_response is ‘hands-on’
+Is feedback on the trainee’s progress required during training? ) required
+Rule: 9 if the stimulus_situation is ‘physical object’ and the stimulus_response is ‘hands-on’ and feedback is required then medium is workshop
+medium is workshop
+44 RULE-BASED EXPERT SYSTEMS
+
+
+ Inference techniques
+The standard inference technique in Leonardo is backward chaining with opportunistic forward chaining, which is the most efficient way to deal with the available information. However, Leonardo also enables the user to turn off either backward or forward chaining, and thus allows us to study each inference technique separately. Forward chaining is data-driven reasoning, so we need first to provide some data. Assume that
+the environment is machines ‘environment’ instantiated by user input to ‘machines’
+the job is repairing ‘job’ instantiated by user input to ‘repairing’
+feedback is required ‘feedback’ instantiated by user input to ‘required’
+The following process will then happen:
+Rule: 3 fires ‘stimulus_situation’ instantiated by Rule: 3 to ‘physical object’ Rule: 6 fires ‘stimulus_response’ instantiated by Rule: 6 to ‘hands-on’ Rule: 9 fires ‘medium’ instantiated by Rule: 9 to ‘workshop’ No rules fire stop
+Backward chaining is goal-driven reasoning, so we need first to establish a hypothetical solution (the goal). Let us, for example, set up the following goal:
+‘medium’ is ‘workshop’
+Pass 1 Trying Rule: 9 Need to find object ‘stimulus_situation’ Rule: 9 stacked Object ‘stimulus_situation’ sought as ‘physical object’
+Pass 2 Trying Rule: 3 Need to find object ‘environment’ Rule: 3 stacked Object ‘environment’ sought as ‘machines’
+ask environment )machines ‘environment’ instantiated by user input to ‘machines’
+Trying Rule: 3 ‘stimulus_situation’ instantiated by Rule: 3 to ‘physical object’
+Pass 3 Trying Rule: 9 Need to find object ‘stimulus_response’ Rule: 9 stacked Object ‘stimulus_response’ sought as ‘hands-on’
+MEDIA: A DEMONSTRATION RULE-BASED EXPERT SYSTEM 45
+
+
+ Pass 4 Trying Rule: 6 Need to find object ‘job’ Rule: 6 stacked Object ‘job’ sought as ‘building’
+ask job ) repairing ‘job’ instantiated by user input to ‘repairing’
+Trying Rule: 6 ‘stimulus_response’ instantiated by Rule: 6 to ‘hands-on’
+Pass 5 Trying Rule: 9 Need to find object ‘feedback’ Rule: 9 stacked Object ‘feedback’ sought as ‘required’
+ask feedback ) required ‘feedback’ instantiated by user input to ‘required’
+Trying Rule: 9 ‘medium’ instantiated by Rule: 9 to ‘workshop’
+medium is workshop
+It is useful to have a tree diagram that maps a consultation session with an expert system. A diagram for MEDIA ADVISOR is shown in Figure 2.8. The root node is the goal; when the system is started, the inference engine seeks to determine the goal’s value.
+Goal: medium
+stimulus situation ?
+Rule: 9 Rule: 10 Rule: 11 Rule: 12 Rule: 13 Rule: 14
+Rule: 1 Rule: 2 Rule: 3 Rule: 4 Rule: 5 Rule: 6 Rule: 7 Rule: 8
+stimulus response ?
+environment ?
+Ask:
+environment
+job ?
+Ask: job
+feedback ?
+Ask: feedback
+Figure 2.8 Tree diagram for the rule-based expert system MEDIA ADVISOR
+46 RULE-BASED EXPERT SYSTEMS
+
+
+ Does MEDIA ADVISOR handle all possible situations?
+When we start to use our expert system more often, we might find that the provided options do not cover all possible situations. For instance, the following dialogue might occur:
+What sort of environment is a trainee dealing with on the job? )illustrations
+In what way is a trainee expected to act or respond on the job? )drawing
+Is feedback on the trainee’s progress required during training? )required
+I am unable to draw any conclusions on the basis of the data.
+Thus, MEDIA ADVISOR in its present state cannot handle this particular situation. Fortunately, the expert system can easily be expanded to accommodate more rules until it finally does what the user wants it to do.
+2.8 Conflict resolution
+Earlier in this chapter, we considered two simple rules for crossing a road. Let us now add a third rule. We will get the following set of rules:
+Rule 1: IF the ‘traffic light’ is green THEN the action is go
+Rule 2: IF the ‘traffic light’ is red THEN the action is stop
+Rule 3: IF the ‘traffic light’ is red THEN the action is go
+What will happen?
+The inference engine compares IF (condition) parts of the rules with data available in the database, and when conditions are satisfied the rules are set to fire. The firing of one rule may affect the activation of other rules, and therefore the inference engine must allow only one rule to fire at a time. In our road crossing example, we have two rules, Rule 2 and Rule 3, with the same IF part. Thus both of them can be set to fire when the condition part is satisfied. These rules represent a conflict set. The inference engine must determine which rule to fire from such a set. A method for choosing a rule to fire when more than one rule can be fired in a given cycle is called conflict resolution.
+CONFLICT RESOLUTION 47
+
+
+ If the traffic light is red, which rule should be executed?
+In forward chaining, both rules would be fired. Rule 2 is fired first as the topmost one, and as a result, its THEN part is executed and linguistic object action obtains value stop. However, Rule 3 is also fired because the condition part of this rule matches the fact ‘traffic light’ is red, which is still in the database. As a consequence, object action takes new value go. This simple example shows that the rule order is vital when the forward chaining inference technique is used.
+How can we resolve a conflict?
+The obvious strategy for resolving conflicts is to establish a goal and stop the rule execution when the goal is reached. In our problem, for example, the goal is to establish a value for linguistic object action. When the expert system determines a value for action, it has reached the goal and stops. Thus if the traffic light is red, Rule 2 is executed, object action attains value stop and the expert system stops. In the given example, the expert system makes a right decision; however if we arranged the rules in the reverse order, the conclusion would be wrong. It means that the rule order in the knowledge base is still very important.
+Are there any other conflict resolution methods?
+Several methods are in use (Giarratano and Riley, 1998; Shirai and Tsuji, 1982):
+. Fire the rule with the highest priority. In simple applications, the priority can be established by placing the rules in an appropriate order in the knowledge base. Usually this strategy works well for expert systems with around 100 rules. However, in some applications, the data should be processed in order of importance. For example, in a medical consultation system (Durkin, 1994), the following priorities are introduced:
+Goal 1. Prescription is? Prescription
+RULE 1 Meningitis Prescription1 (Priority 100) IF Infection is Meningitis AND The Patient is a Child THEN Prescription is Number_1 AND Drug Recommendation is Ampicillin AND Drug Recommendation is Gentamicin AND Display Meningitis Prescription1
+RULE 2 Meningitis Prescription2 (Priority 90) IF Infection is Meningitis AND The Patient is an Adult THEN Prescription is Number_2 AND Drug Recommendation is Penicillin AND Display Meningitis Prescription2
+48 RULE-BASED EXPERT SYSTEMS
+
+
+ . Fire the most specific rule. This method is also known as the longest matching strategy. It is based on the assumption that a specific rule processes more information than a general one. For example,
+Rule 1: IF the season is autumn AND the sky is cloudy AND the forecast is rain THEN the advice is ‘stay home’
+Rule 2: IF the season is autumn THEN the advice is ‘take an umbrella’
+If the season is autumn, the sky is cloudy and the forecast is rain, then Rule 1 would be fired because its antecedent, the matching part, is more specific than that of Rule 2. But if it is known only that the season is autumn, then Rule 2 would be executed.
+. Fire the rule that uses the data most recently entered in the database. This method relies on time tags attached to each fact in the database. In the conflict set, the expert system first fires the rule whose antecedent uses the data most recently added to the database. For example,
+Rule 1: IF the forecast is rain [08:16 PM 11/25/96] THEN the advice is ‘take an umbrella’
+Rule 2: IF the weather is wet [10:18 AM 11/26/96] THEN the advice is ‘stay home’
+Assume that the IF parts of both rules match facts in the database. In this case, Rule 2 would be fired since the fact weather is wet was entered after the fact forecast is rain. This technique is especially useful for real-time expert system applications when information in the database is constantly updated.
+The conflict resolution methods considered above are simple and easily implemented. In most cases, these methods provide satisfactory solutions. However, as a program grows larger and more complex, it becomes increasingly difficult for the knowledge engineer to manage and oversee rules in the knowledge base. The expert system itself must take at least some of the burden and understand its own behaviour. To improve the performance of an expert system, we should supply the system with some knowledge about the knowledge it possesses, or in other words, metaknowledge.
+Metaknowledge can be simply defined as knowledge about knowledge. Metaknowledge is knowledge about the use and control of domain knowledge in an expert system (Waterman, 1986). In rule-based expert systems, metaknowledge is represented by metarules. A metarule determines a strategy for the use of task-specific rules in the expert system.
+CONFLICT RESOLUTION 49
+
+
+ What is the origin of metaknowledge?
+The knowledge engineer transfers the knowledge of the domain expert to the expert system, learns how problem-specific rules are used, and gradually creates in his or her own mind a new body of knowledge, knowledge about the overall behaviour of the expert system. This new knowledge, or metaknowledge, is largely domain-independent. For example,
+Metarule 1: Rules supplied by experts have higher priorities than rules supplied by novices.
+Metarule 2: Rules governing the rescue of human lives have higher priorities than rules concerned with clearing overloads on power system equipment.
+Can an expert system understand and use metarules?
+Some expert systems provide a separate inference engine for metarules. However, most expert systems cannot distinguish between rules and metarules. Thus metarules should be given the highest priority in the existing knowledge base. When fired, a metarule ‘injects’ some important information into the database that can change the priorities of some other rules.
+2.9 Advantages and disadvantages of rule-based expert systems
+Rule-based expert systems are generally accepted as the best option for building knowledge-based systems.
+Which features make rule-based expert systems particularly attractive for knowledge engineers? Among these features are:
+. Natural knowledge representation. An expert usually explains the problemsolving procedure with such expressions as this: ‘In such-and-such situation, I do so-and-so’. These expressions can be represented quite naturally as IF-THEN production rules.
+. Uniform structure. Production rules have the uniform IF-THEN structure. Each rule is an independent piece of knowledge. The very syntax of production rules enables them to be self-documented.
+. Separation of knowledge from its processing. The structure of a rule-based expert system provides an effective separation of the knowledge base from the inference engine. This makes it possible to develop different applications using the same expert system shell. It also allows a graceful and easy expansion of the expert system. To make the system smarter, a knowledge engineer simply adds some rules to the knowledge base without intervening in the control structure.
+50 RULE-BASED EXPERT SYSTEMS
+
+
+ . Dealing with incomplete and uncertain knowledge. Most rule-based expert systems are capable of representing and reasoning with incomplete and uncertain knowledge. For example, the rule
+IF season is autumn AND sky is ‘cloudy’ AND wind is low THEN forecast is clear { cf 0.1 }; forecast is drizzle { cf 1.0 }; forecast is rain { cf 0.9 }
+could be used to express the uncertainty of the following statement, ‘If the season is autumn and it looks like drizzle, then it will probably be another wet day today’. The rule represents the uncertainty by numbers called certainty factors fcf 0.1g. The expert system uses certainty factors to establish the degree of confidence or level of belief that the rule’s conclusion is true. This topic will be considered in detail in Chapter 3.
+All these features of the rule-based expert systems make them highly desirable for knowledge representation in real-world problems.
+Are rule-based expert systems problem-free? There are three main shortcomings:
+. Opaque relations between rules. Although the individual production rules tend to be relatively simple and self-documented, their logical interactions within the large set of rules may be opaque. Rule-based systems make it difficult to observe how individual rules serve the overall strategy. This problem is related to the lack of hierarchical knowledge representation in the rule-based expert systems.
+. Ineffective search strategy. The inference engine applies an exhaustive search through all the production rules during each cycle. Expert systems with a large set of rules (over 100 rules) can be slow, and thus large rule-based systems can be unsuitable for real-time applications.
+. Inability to learn. In general, rule-based expert systems do not have an ability to learn from the experience. Unlike a human expert, who knows when to ‘break the rules’, an expert system cannot automatically modify its knowledge base, or adjust existing rules or add new ones. The knowledge engineer is still responsible for revising and maintaining the system.
+2.10 Summary
+In this chapter, we presented an overview of rule-based expert systems. We briefly discussed what knowledge is, and how experts express their knowledge in the form of production rules. We identified the main players in the expert
+SUMMARY 51
+
+
+ system development team and showed the structure of a rule-based system. We discussed fundamental characteristics of expert systems and noted that expert systems can make mistakes. Then we reviewed the forward and backward chaining inference techniques and debated conflict resolution strategies. Finally, the advantages and disadvantages of rule-based expert systems were examined. The most important lessons learned in this chapter are:
+. Knowledge is a theoretical or practical understanding of a subject. Knowledge is the sum of what is currently known.
+. An expert is a person who has deep knowledge in the form of facts and rules and strong practical experience in a particular domain. An expert can do things other people cannot.
+. The experts can usually express their knowledge in the form of production rules.
+. Production rules are represented as IF (antecedent) THEN (consequent) statements. A production rule is the most popular type of knowledge representation. Rules can express relations, recommendations, directives, strategies and heuristics.
+. A computer program capable of performing at a human-expert level in a narrow problem domain area is called an expert system. The most popular expert systems are rule-based expert systems.
+. In developing rule-based expert systems, shells are becoming particularly common. An expert system shell is a skeleton expert system with the knowledge removed. To build a new expert system application, all the user has to do is to add the knowledge in the form of rules and provide relevant data. Expert system shells offer a dramatic reduction in the development time of expert systems.
+. The expert system development team should include the domain expert, the knowledge engineer, the programmer, the project manager and the end-user. The knowledge engineer designs, builds and tests an expert system. He or she captures the knowledge from the domain expert, establishes reasoning methods and chooses the development software. For small expert systems based on expert system shells, the project manager, knowledge engineer, programmer and even the expert could be the same person.
+. A rule-based expert system has five basic components: the knowledge base, the database, the inference engine, the explanation facilities and the user interface. The knowledge base contains the domain knowledge represented as a set of rules. The database includes a set of facts used to match against the IF parts of rules. The inference engine links the rules with the facts and carries out the reasoning whereby the expert system reaches a solution. The explanation facilities enable the user to query the expert system about how a particular conclusion is reached and why a specific fact is needed. The user interface is the means of communication between a user and an expert system.
+52 RULE-BASED EXPERT SYSTEMS
+
+
+ . Expert systems separate knowledge from its processing by splitting up the knowledge base and the inference engine. This makes the task of building and maintaining an expert system much easier. When an expert system shell is used, a knowledge engineer or an expert simply enter rules in the knowledge base. Each new rule adds some new knowledge and makes the expert system smarter.
+. Expert systems provide a limited explanation capability by tracing the rules fired during a problem-solving session.
+. Unlike conventional programs, expert systems can deal with incomplete and uncertain data and permit inexact reasoning. However, like their human counterparts, expert systems can make mistakes when information is incomplete or fuzzy.
+. There are two principal methods to direct search and reasoning: forward chaining and backward chaining inference techniques. Forward chaining is data-driven reasoning; it starts from the known data and proceeds forward until no further rules can be fired. Backward chaining is goal-driven reasoning; an expert system has a hypothetical solution (the goal), and the inference engine attempts to find the evidence to prove it.
+. If more than one rule can be fired in a given cycle, the inference engine must decide which rule to fire. A method for deciding is called conflict resolution.
+. Rule-based expert systems have the advantages of natural knowledge representation, uniform structure, separation of knowledge from its processing, and coping with incomplete and uncertain knowledge.
+. Rule-based expert systems also have disadvantages, especially opaque relations between rules, ineffective search strategy, and inability to learn.
+Questions for review
+1 What is knowledge? Explain why experts usually have detailed knowledge of a limited area of a specific domain. What do we mean by heuristic?
+2 What is a production rule? Give an example and define two basic parts of the production rule.
+3 List and describe the five major players in the expert system development team. What is the role of the knowledge engineer?
+4 What is an expert system shell? Explain why the use of an expert system shell can dramatically reduce the development time of an expert system.
+5 What is a production system model? List and define the five basic components of an expert system.
+6 What are the fundamental characteristics of an expert system? What are the differences between expert systems and conventional programs?
+QUESTIONS FOR REVIEW 53
+
+
+ 7 Can an expert system make mistakes? Why?
+8 Describe the forward chaining inference process. Give an example.
+9 Describe the backward chaining inference process. Give an example.
+10 List problems for which the forward chaining inference technique is appropriate. Why is backward chaining used for diagnostic problems?
+11 What is a conflict set of rules? How can we resolve a conflict? List and describe the basic conflict resolution methods.
+12 List advantages of rule-based expert systems. What are their disadvantages?
+References
+Duda, R., Gaschnig, J. and Hart, P. (1979). Model design in the PROSPECTOR consultant system for mineral exploration, Expert Systems in the Microelectronic Age, D. Michie, ed., Edinburgh University Press, Edinburgh, Scotland, pp. 153–167. Durkin, J. (1994). Expert Systems Design and Development. Prentice Hall, Englewood Cliffs, NJ. Feigenbaum, E.A., Buchanan, B.G. and Lederberg, J. (1971). On generality and problem solving: a case study using the DENDRAL program, Machine Intelligence 6, B. Meltzer and D. Michie, eds, Edinburgh University Press, Edinburgh, Scotland, pp. 165–190. Giarratano, J. and Riley, G. (1998). Expert Systems: Principles and Programming, 3rd edn. PWS Publishing Company, Boston. Negnevitsky, M. (1996). Crisis management in power systems: a knowledge based approach, Applications of Artificial Intelligence in Engineering XI, R.A. Adey, G. Rzevski and A.K. Sunol, eds, Computational Mechanics Publications, Southampton, UK, pp. 122–141. Newell, A. and Simon, H.A. (1972). Human Problem Solving. Prentice Hall, Englewood Cliffs, NJ.
+Shirai, Y. and Tsuji, J. (1982). Artificial Intelligence: Concepts, Technologies and Applications. John Wiley, New York.
+Shortliffe, E.H. (1976). MYCIN: Computer-Based Medical Consultations. Elsevier Press, New York. Waterman, D.A. (1986). A Guide to Expert Systems. Addison-Wesley, Reading, MA. Waterman, D.A. and Hayes-Roth, F. (1978). An overview of pattern-directed inference systems, Pattern-Directed Inference Systems, D.A. Waterman and F. Hayes-Roth, eds, Academic Press, New York.
+54 RULE-BASED EXPERT SYSTEMS
+
+
+ Uncertainty management in 3
+rule-based expert systems
+In which we present the main uncertainty management paradigms, Bayesian reasoning and certainty factors, discuss their relative merits and consider examples to illustrate the theory.
+3.1 Introduction, or what is uncertainty?
+One of the common characteristics of the information available to human experts is its imperfection. Information can be incomplete, inconsistent, uncertain, or all three. In other words, information is often unsuitable for solving a problem. However, an expert can cope with these defects and can usually make correct judgements and right decisions. Expert systems also have to be able to handle uncertainty and draw valid conclusions.
+What is uncertainty in expert systems?
+Uncertainty can be defined as the lack of the exact knowledge that would enable us to reach a perfectly reliable conclusion (Stephanou and Sage, 1987). Classical logic permits only exact reasoning. It assumes that perfect knowledge always exists and the law of the excluded middle can always be applied:
+IF A is true THEN A is not false
+and
+IF B is false THEN B is not true
+Unfortunately most real-world problems where expert systems could be used do not provide us with such clear-cut knowledge. The available information often contains inexact, incomplete or even unmeasurable data.
+What are the sources of uncertain knowledge in expert systems?
+In general, we can identify four main sources: weak implications, imprecise language, unknown data, and the difficulty of combining the views of different
+
+
+ experts (Bonissone and Tong, 1985). Let us consider these sources in more detail.
+. Weak implications. Rule-based expert systems often suffer from weak implications and vague associations. Domain experts and knowledge engineers have the painful, and rather hopeless, task of establishing concrete correlations between IF (condition) and THEN (action) parts of the rules. Therefore, expert systems need to have the ability to handle vague associations, for example by accepting the degree of correlations as numerical certainty factors.
+. Imprecise language. Our natural language is inherently ambiguous and imprecise. We describe facts with such terms as often and sometimes, frequently and hardly ever. As a result, it can be difficult to express knowledge in the precise IF-THEN form of production rules. However, if the meaning of the facts is quantified, it can be used in expert systems. In 1944, Ray Simpson asked 355 high school and college students to place 20 terms like often on a scale between 1 and 100 (Simpson, 1944). In 1968, Milton Hakel repeated this experiment (Hakel, 1968). Their results are presented in Table 3.1. Quantifying the meaning of the terms enables an expert system to establish an appropriate matching of the IF (condition) part of the rules with facts available in the database.
+. Unknown data. When the data is incomplete or missing, the only solution is to accept the value ‘unknown’ and proceed to an approximate reasoning with this value.
+. Combining the views of different experts. Large expert systems usually combine the knowledge and expertise of a number of experts. For example, nine experts participated in the development of PROSPECTOR, an expert system for mineral exploration (Duda et al., 1979). Unfortunately, experts seldom reach exactly the same conclusions. Usually, experts have contradictory opinions and produce conflicting rules. To resolve the conflict, the knowledge engineer has to attach a weight to each expert and then calculate the composite conclusion. However, even a domain expert generally does not have the same uniform level of expertise throughout a domain. In addition, no systematic method exists to obtain weights.
+In summary, an expert system should be able to manage uncertainties because any real-world domain contains inexact knowledge and needs to cope with incomplete, inconsistent or even missing data. A number of numeric and nonnumeric methods have been developed to deal with uncertainty in rule-based expert systems (Bhatnagar and Kanal, 1986). In this chapter, we consider the most popular uncertainty management paradigms: Bayesian reasoning and certainty factors. However, we first look at the basic principles of classical probability theory.
+56 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ 3.2 Basic probability theory
+The basic concept of probability plays a significant role in our everyday life. We try to determine the probability of rain and the prospects of our promotion, the odds that the Australian cricket team will win the next test match, and the likelihood of winning a million dollars in Tattslotto. The concept of probability has a long history that goes back thousands of years when words like ‘probably’, ‘likely’, ‘maybe’, ‘perhaps’ and ‘possibly’ were introduced into spoken languages (Good, 1959). However, the mathematical theory of probability was formulated only in the 17th century.
+How can we define probability?
+The probability of an event is the proportion of cases in which the event occurs (Good, 1959). Probability can also be defined as a scientific measure of chance. Detailed analysis of modern probability theory can be found in such well-known textbooks as Feller (1957) and Fine (1973). In this chapter, we examine only the basic ideas used in representing uncertainties in expert systems. Probability can be expressed mathematically as a numerical index with a range between zero (an absolute impossibility) to unity (an absolute certainty). Most events have a probability index strictly between 0 and 1, which means that
+Table 3.1 Quantification of ambiguous and imprecise terms on a time-frequency scale
+Ray Simpson (1944) Milton Hakel (1968)
+Term Mean value Term Mean value
+Always 99 Always 100 Very often 88 Very often 87 Usually 85 Usually 79 Often 78 Often 74 Generally 78 Rather often 74 Frequently 73 Frequently 72 Rather often 65 Generally 72 About as often as not 50 About as often as not 50 Now and then 20 Now and then 34 Sometimes 20 Sometimes 29 Occasionally 20 Occasionally 28 Once in a while 15 Once in a while 22 Not often 13 Not often 16 Usually not 10 Usually not 16 Seldom 10 Seldom 9 Hardly ever 7 Hardly ever 8 Very seldom 6 Very seldom 7 Rarely 5 Rarely 5 Almost never 3 Almost never 2 Never 0 Never 0
+BASIC PROBABILITY THEORY 57
+
+
+ each event has at least two possible outcomes: favourable outcome or success, and unfavourable outcome or failure. The probability of success and failure can be determined as follows:
+PðsuccessÞ 1⁄4 the number of successes
+the number of possible outcomes ð3:1Þ
+PðfailureÞ 1⁄4 the number of failures
+the number of possible outcomes ð3:2Þ
+Therefore, if s is the number of times success can occur, and f is the number of times failure can occur, then
+PðsuccessÞ 1⁄4 p 1⁄4 s
+s þ f ð3:3Þ
+PðfailureÞ 1⁄4 q 1⁄4 f
+s þ f ð3:4Þ
+and
+p þ q 1⁄4 1 ð3:5Þ
+Let us consider classical examples with a coin and a die. If we throw a coin, the probability of getting a head will be equal to the probability of getting a tail. In a single throw, s 1⁄4 f 1⁄4 1, and therefore the probability of getting a head (or a tail) is 0.5. Consider now a dice and determine the probability of getting a 6 from a single throw. If we assume a 6 as the only success, then s 1⁄4 1 and f 1⁄4 5, since there is just one way of getting a 6, and there are five ways of not getting a 6 in a single throw. Therefore, the probability of getting a 6 is
+p1⁄4 1
+1 þ 5 1⁄4 0:1666
+and the probability of not getting a 6 is
+q1⁄4 5
+1 þ 5 1⁄4 0:8333
+So far, we have been concerned with events that are independent and mutually exclusive (i.e. events that cannot happen simultaneously). In the dice experiment, the two events of obtaining a 6 and, for example, a 1 are mutually exclusive because we cannot obtain a 6 and a 1 simultaneously in a single throw. However, events that are not independent may affect the likelihood of one or the other occurring. Consider, for instance, the probability of getting a 6 in a
+58 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ single throw, knowing this time that a 1 has not come up. There are still five ways of not getting a 6, but one of them can be eliminated as we know that a 1 has not been obtained. Thus,
+p1⁄4 1
+1 þ ð5 1Þ
+Let A be an event in the world and B be another event. Suppose that events A and B are not mutually exclusive, but occur conditionally on the occurrence of the other. The probability that event A will occur if event B occurs is called the conditional probability. Conditional probability is denoted mathematically as pðAjBÞ in which the vertical bar represents GIVEN and the complete probability expression is interpreted as ‘Conditional probability of event A occurring given that event B has occurred’.
+pðAjBÞ 1⁄4 the number of times A and B can occur
+the number of times B can occur ð3:6Þ
+The number of times A and B can occur, or the probability that both A and B will occur, is called the joint probability of A and B. It is represented mathematically as pðA \ BÞ. The number of ways B can occur is the probability of B, pðBÞ, and thus
+pðAjBÞ 1⁄4 pðA \ BÞ
+pðBÞ ð3:7Þ
+Similarly, the conditional probability of event B occurring given that event A has occurred equals
+pðBjAÞ 1⁄4 pðB \ AÞ
+pðAÞ ð3:8Þ
+Hence,
+pðB \ AÞ 1⁄4 pðBjAÞ pðAÞ ð3:9Þ
+The joint probability is commutative, thus
+pðA \ BÞ 1⁄4 pðB \ AÞ
+Therefore,
+pðA \ BÞ 1⁄4 pðBjAÞ pðAÞ ð3:10Þ
+BASIC PROBABILITY THEORY 59
+
+
+ Substituting Eq. (3.10) into Eq. (3.7) yields the following equation:
+pðAjBÞ 1⁄4 pðBjAÞ pðAÞ
+pðBÞ ; ð3:11Þ
+where:
+pðAjBÞ is the conditional probability that event A occurs given that event B has occurred;
+pðBjAÞ is the conditional probability of event B occurring given that event A has occurred;
+pðAÞ is the probability of event A occurring;
+pðBÞ is the probability of event B occurring.
+Equation (3.11) is known as the Bayesian rule, which is named after Thomas Bayes, an 18th-century British mathematician who introduced this rule. The concept of conditional probability introduced so far considered that event A was dependent upon event B. This principle can be extended to event A being dependent on a number of mutually exclusive events B1; B2; . . . ; Bn. The following set of equations can then be derived from Eq. (3.7):
+pðA \ B1Þ 1⁄4 pðAjB1Þ pðB1Þ pðA \ B2Þ 1⁄4 pðAjB2Þ pðB2Þ
+...
+pðA \ BnÞ 1⁄4 pðAjBnÞ pðBnÞ
+or when combined:
+Xn
+i1⁄41
+pðA \ BiÞ 1⁄4 Xn
+i1⁄41
+pðAjBiÞ pðBiÞ ð3:12Þ
+If Eq. (3.12) is summed over an exhaustive list of events for Bi as illustrated in Figure 3.1, we obtain
+Xn
+i1⁄41
+pðA \ BiÞ 1⁄4 pðAÞ ð3:13Þ
+It reduces Eq. (3.12) to the following conditional probability equation:
+pðAÞ 1⁄4 n X
+i1⁄41
+pðAjBiÞ pðBiÞ ð3:14Þ
+60 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ If the occurrence of event A depends on only two mutually exclusive events, i.e. B and NOT B, then Eq. (3.14) becomes
+pðAÞ 1⁄4 pðAjBÞ pðBÞ þ pðAj:BÞ pð:BÞ; ð3:15Þ
+where : is the logical function NOT. Similarly,
+pðBÞ 1⁄4 pðBjAÞ pðAÞ þ pðBj:AÞ pð:AÞ ð3:16Þ
+Let us now substitute Eq. (3.16) into the Bayesian rule (3.11) to yield
+pðAjBÞ 1⁄4 pðBjAÞ pðAÞ
+pðBjAÞ pðAÞ þ pðBj:AÞ pð:AÞ ð3:17Þ
+Equation (3.17) provides the background for the application of probability theory to manage uncertainty in expert systems.
+3.3 Bayesian reasoning
+With Eq. (3.17) we can now leave basic probability theory and turn our attention back to expert systems. Suppose all rules in the knowledge base are represented in the following form:
+IF E is true THEN H is true {with probability p}
+This rule implies that if event E occurs, then the probability that event H will occur is p.
+What if event E has occurred but we do not know whether event H has occurred? Can we compute the probability that event H has occurred as well?
+Equation (3.17) tells us how to do this. We simply use H and E instead of A and B. In expert systems, H usually represents a hypothesis and E denotes evidence to
+Figure 3.1 The joint probability
+BAYESIAN REASONING 61
+
+
+ support this hypothesis. Thus, Eq. (3.17) expressed in terms of hypotheses and evidence looks like this (Firebaugh, 1989):
+pðHjEÞ 1⁄4 pðEjHÞ pðHÞ
+pðEjHÞ pðHÞ þ pðEj:HÞ pð:HÞ ð3:18Þ
+where:
+pðHÞ is the prior probability of hypothesis H being true;
+pðEjHÞ is the probability that hypothesis H being true will result in evidence E;
+pð:HÞ is the prior probability of hypothesis H being false;
+pðEj:HÞ is the probability of finding evidence E even when hypothesis H is false.
+Equation (3.18) suggests that the probability of hypothesis H, pðHÞ, has to be defined before any evidence is examined. In expert systems, the probabilities required to solve a problem are provided by experts. An expert determines the prior probabilities for possible hypotheses pðHÞ and pð:HÞ, and also the conditional probabilities for observing evidence E if hypothesis H is true, pðEjHÞ, and if hypothesis H is false, pðEj:HÞ. Users provide information about the evidence observed and the expert system computes pðHjEÞ for hypothesis H in light of the user-supplied evidence E. Probability pðHjEÞ is called the posterior probability of hypothesis H upon observing evidence E.
+What if the expert, based on single evidence E, cannot choose a single hypothesis but rather provides multiple hypotheses H1, H2, .. . , Hm? Or given multiple evidences E1, E2, . . . , En, the expert also produces multiple hypotheses?
+We can generalise Eq. (3.18) to take into account both multiple hypotheses H1; H2; . . . ; Hm and multiple evidences E1; E2; . . . ; En. But the hypotheses as well as the evidences must be mutually exclusive and exhaustive. Single evidence E and multiple hypotheses H1; H2; . . . ; Hm follow:
+pðHijEÞ 1⁄4 pðEjHiÞ pðHiÞ
+m X
+k1⁄41
+pðEjHkÞ pðHkÞ
+ð3:19Þ
+Multiple evidences E1; E2; . . . ; En and multiple hypotheses H1; H2; . . . ; Hm follow:
+pðHijE1E2 . . . EnÞ 1⁄4 pðE1E2 . . . EnjHiÞ pðHiÞ
+m X
+k1⁄41
+pðE1E2 . . . EnjHkÞ pðHkÞ
+ð3:20Þ
+An application of Eq. (3.20) requires us to obtain the conditional probabilities of all possible combinations of evidences for all hypotheses. This requirement
+62 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ places an enormous burden on the expert and makes his or her task practically impossible. Therefore, in expert systems, subtleties of evidence should be suppressed and conditional independence among different evidences assumed (Ng and Abramson, 1990). Thus, instead of unworkable Eq. (3.20), we attain:
+pðHijE1E2 . . . EnÞ 1⁄4 pðE1jHiÞ pðE2jHiÞ . . . pðEnjHiÞ pðHiÞ
+m X
+k1⁄41
+pðE1jHkÞ pðE2jHkÞ . . . pðEnjHkÞ pðHkÞ
+ð3:21Þ
+How does an expert system compute all posterior probabilities and finally rank potentially true hypotheses?
+Let us consider a simple example. Suppose an expert, given three conditionally independent evidences E1, E2 and E3, creates three mutually exclusive and exhaustive hypotheses H1, H2 and H3, and provides prior probabilities for these hypotheses – pðH1Þ, pðH2Þ and pðH3Þ, respectively. The expert also determines the conditional probabilities of observing each evidence for all possible hypotheses. Table 3.2 illustrates the prior and conditional probabilities provided by the expert. Assume that we first observe evidence E3. The expert system computes the posterior probabilities for all hypotheses according to Eq. (3.19):
+pðHijE3Þ 1⁄4 pðE3jHiÞ pðHiÞ
+X3
+k1⁄41
+pðE3jHkÞ pðHkÞ
+; i 1⁄4 1; 2; 3
+Thus,
+pðH1jE3Þ 1⁄4 0:6 0:40
+0:6 0:40 þ 0:7 0:35 þ 0:9 0:25 1⁄4 0:34
+pðH2jE3Þ 1⁄4 0:7 0:35
+0:6 0:40 þ 0:7 0:35 þ 0:9 0:25 1⁄4 0:34
+pðH3jE3Þ 1⁄4 0:9 0:25
+0:6 0:40 þ 0:7 0:35 þ 0:9 0:25 1⁄4 0:32
+Table 3.2 The prior and conditional probabilities
+Hypothesis
+Probability i 1⁄4 1 i 1⁄4 2 i 1⁄4 3
+pðHi Þ 0.40 0.35 0.25
+pðE1jHi Þ 0.3 0.8 0.5
+pðE2jHi Þ 0.9 0.0 0.7
+pðE3jHi Þ 0.6 0.7 0.9
+BAYESIAN REASONING 63
+
+
+ As you can see, after evidence E3 is observed, belief in hypothesis H1 decreases and becomes equal to belief in hypothesis H2. Belief in hypothesis H3 increases and even nearly reaches beliefs in hypotheses H1 and H2. Suppose now that we observe evidence E1. The posterior probabilities are calculated by Eq. (3.21):
+pðHijE1E3Þ 1⁄4 pðE1jHiÞ pðE3jHiÞ pðHiÞ
+3 X
+k1⁄41
+pðE1jHkÞ pðE3jHkÞ pðHkÞ
+; i 1⁄4 1; 2; 3
+Hence,
+pðH1jE1E3Þ 1⁄4 0:3 0:6 0:40
+0:3 0:6 0:40 þ 0:8 0:7 0:35 þ 0:5 0:9 0:25 1⁄4 0:19
+pðH2jE1E3Þ 1⁄4 0:8 0:7 0:35
+0:3 0:6 0:40 þ 0:8 0:7 0:35 þ 0:5 0:9 0:25 1⁄4 0:52
+pðH3jE1E3Þ 1⁄4 0:5 0:9 0:25
+0:3 0:6 0:40 þ 0:8 0:7 0:35 þ 0:5 0:9 0:25 1⁄4 0:29
+Hypothesis H2 is now considered as the most likely one, while belief in hypothesis H1 has decreased dramatically. After observing evidence E2 as well, the expert system calculates the final posterior probabilities for all hypotheses:
+pðHijE1E2E3Þ 1⁄4 pðE1jHiÞ pðE2jHiÞ pðE3jHiÞ pðHiÞ
+X3
+k1⁄41
+pðE1jHkÞ pðE2jHkÞ pðE3jHkÞ pðHkÞ
+; i 1⁄4 1; 2; 3
+Thus,
+pðH1jE1E2E3Þ 1⁄4 0:3 0:9 0:6 0:40
+0:3 0:9 0:6 0:40þ0:8 0:0 0:7 0:35þ0:5 0:7 0:9 0:25
+1⁄4 0:45
+pðH2jE1E2E3Þ 1⁄4 0:8 0:0 0:7 0:35
+0:3 0:9 0:6 0:40þ0:8 0:0 0:7 0:35þ0:5 0:7 0:9 0:25
+1⁄40
+pðH3jE1E2E3Þ 1⁄4 0:5 0:7 0:9 0:25
+0:3 0:9 0:6 0:40þ0:8 0:0 0:7 0:35þ0:5 0:7 0:9 0:25
+1⁄4 0:55
+Although the initial ranking provided by the expert was H1, H2 and H3, only hypotheses H1 and H3 remain under consideration after all evidences (E1, E2 and
+64 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ E3) were observed. Hypothesis H2 can now be completely abandoned. Note that hypothesis H3 is considered more likely than hypothesis H1. PROSPECTOR, an expert system for mineral exploration, was the first system to use Bayesian rules of evidence to compute pðHjEÞ and propagate uncertainties throughout the system (Duda et al., 1979). To help interpret Bayesian reasoning in expert systems, consider a simple example.
+3.4 FORECAST: Bayesian accumulation of evidence
+Let us develop an expert system for a real problem such as the weather forecast. Our expert system will be required to work out if it is going to rain tomorrow. It will need some real data, which can be obtained from the weather bureau. Table 3.3 summarises London weather for March 1982. It gives the minimum and maximum temperatures, rainfall and sunshine for each day. If rainfall is zero it is a dry day. The expert system should give us two possible outcomes – tomorrow is rain and tomorrow is dry – and provide their likelihood. In other words, the expert system must determine the conditional probabilities of the two hypotheses tomorrow is rain and tomorrow is dry.
+To apply the Bayesian rule (3.18), we should provide the prior probabilities of these hypotheses. The first thing to do is to write two basic rules that, with the data provided, could predict the weather for tomorrow.
+Rule: 1 IF today is rain THEN tomorrow is rain
+Rule: 2 IF today is dry THEN tomorrow is dry
+Using these rules we will make only ten mistakes – every time a wet day precedes a dry one, or a dry day precedes a wet one. Thus, we can accept the prior probabilities of 0.5 for both hypotheses and rewrite our rules in the following form:
+Rule: 1 IF today is rain {LS 2.5 LN .6} THEN tomorrow is rain {prior .5}
+Rule: 2 IF today is dry {LS 1.6 LN .4} THEN tomorrow is dry {prior .5}
+FORECAST: BAYESIAN ACCUMULATION OF EVIDENCE 65
+
+
+ The value of LS represents a measure of the expert belief in hypothesis H if evidence E is present. It is called likelihood of sufficiency. The likelihood of sufficiency is defined as the ratio of pðEjHÞ over pðEj:HÞ
+LS 1⁄4 pðEjHÞ
+pðEj:HÞ ð3:22Þ
+In our case, LS is the probability of getting rain today if we have rain tomorrow, divided by the probability of getting rain today if there is no rain tomorrow:
+LS 1⁄4 pðtoday is rain j tomorrow is rainÞ
+pðtoday is rain j tomorrow is dryÞ
+Table 3.3 London weather summary for March 1982
+Day of month
+Min. temp. 8C
+Max. temp. 8C
+Rainfall mm
+Sunshine hours
+Actual weather
+Weather forecast
+1 9.4 11.0 17.5 3.2 Rain 2 4.2 12.5 4.1 6.2 Rain Rain 3 7.6 11.2 7.7 1.1 Rain Rain 4 5.7 10.5 0.0 4.3 Dry Rain* 5 3.0 12.0 0.0 9.5 Dry Dry 6 4.4 9.6 0.0 3.5 Dry Dry 7 4.8 9.4 4.6 10.1 Rain Rain 8 1.8 9.2 5.5 7.8 Rain Rain 9 2.4 10.2 4.8 4.1 Rain Rain 10 5.5 12.7 4.2 3.8 Rain Rain 11 3.7 10.9 4.4 9.2 Rain Rain 12 5.9 10.0 4.8 7.1 Rain Rain 13 3.0 11.9 0.0 8.3 Dry Rain* 14 5.4 12.1 4.8 1.8 Rain Dry* 15 8.8 9.1 8.8 0.0 Rain Rain 16 2.4 8.4 3.0 3.1 Rain Rain 17 4.3 10.8 0.0 4.3 Dry Dry 18 3.4 11.1 4.2 6.6 Rain Rain 19 4.4 8.4 5.4 0.7 Rain Rain 20 5.1 7.9 3.0 0.1 Rain Rain 21 4.4 7.3 0.0 0.0 Dry Dry 22 5.6 14.0 0.0 6.8 Dry Dry 23 5.7 14.0 0.0 8.8 Dry Dry 24 2.9 13.9 0.0 9.5 Dry Dry 25 5.8 16.4 0.0 10.3 Dry Dry 26 3.9 17.0 0.0 9.9 Dry Dry 27 3.8 18.3 0.0 8.3 Dry Dry 28 5.8 15.4 3.2 7.0 Rain Dry* 29 6.7 8.8 0.0 4.2 Dry Dry 30 4.5 9.6 4.8 8.8 Rain Rain 31 4.6 9.6 3.2 4.2 Rain Rain
+* errors in weather forecast
+66 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ LN, as you may already have guessed, is a measure of discredit to hypothesis H if evidence E is missing. LN is called likelihood of necessity and defined as:
+LN 1⁄4 pð:EjHÞ
+pð:Ej:HÞ ð3:23Þ
+In our weather example, LN is the probability of not getting rain today if we have rain tomorrow, divided by the probability of not getting rain today if there is no rain tomorrow:
+LN 1⁄4 pðtoday is dry j tomorrow is rainÞ
+pðtoday is dry j tomorrow is dryÞ
+Note that LN cannot be derived from LS. The domain expert must provide both values independently.
+How does the domain expert determine values of the likelihood of sufficiency and the likelihood of necessity? Is the expert required to deal with conditional probabilities?
+To provide values for LS and LN, an expert does not need to determine exact values of conditional probabilities. The expert decides likelihood ratios directly. High values of LS ðLS >> 1Þ indicate that the rule strongly supports the hypothesis if the evidence is observed, and low values of LN ð0 < LN < 1Þ suggest that the rule also strongly opposes the hypothesis if the evidence is missing. Since the conditional probabilities can be easily computed from the likelihood ratios LS and LN, this approach can use the Bayesian rule to propagate evidence. Go back now to the London weather. Rule 1 tells us that if it is raining today, there is a high probability of rain tomorrow ðLS 1⁄4 2:5Þ. But even if there is no rain today, or in other words today is dry, there is still some chance of having rain tomorrow ðLN 1⁄4 0:6Þ. Rule 2, on the other hand, clarifies the situation with a dry day. If it is dry today, then the probability of a dry day tomorrow is also high ðLS 1⁄4 1:6Þ. However, as you can see, the probability of rain tomorrow if it is raining today is higher than the probability of a dry day tomorrow if it is dry today. Why? The values of LS and LN are usually determined by the domain expert. In our weather example, these values can also be confirmed from the statistical information published by the weather bureau. Rule 2 also determines the chance of a dry day tomorrow even if today we have rain ðLN 1⁄4 0:4Þ.
+How does the expert system get the overall probability of a dry or wet day tomorrow?
+In the rule-based expert system, the prior probability of the consequent, pðHÞ, is converted into the prior odds:
+OðHÞ 1⁄4 pðHÞ
+1 pðHÞ ð3:24Þ
+FORECAST: BAYESIAN ACCUMULATION OF EVIDENCE 67
+
+
+ The prior probability is only used when the uncertainty of the consequent is adjusted for the first time. Then in order to obtain the posterior odds, the prior odds are updated by LS if the antecedent of the rule (in other words evidence) is true and by LN if the antecedent is false:
+OðHjEÞ 1⁄4 LS OðHÞ ð3:25Þ
+and
+OðHj:EÞ 1⁄4 LN OðHÞ ð3:26Þ
+The posterior odds are then used to recover the posterior probabilities:
+pðHjEÞ 1⁄4 OðHjEÞ
+1 þ OðHjEÞ ð3:27Þ
+and
+pðHj:EÞ 1⁄4 OðHj:EÞ
+1 þ OðHj:EÞ ð3:28Þ
+Our London weather example shows how this scheme works. Suppose the user indicates that today is rain. Rule 1 is fired and the prior probability of tomorrow is rain is converted into the prior odds:
+Oðtomorrow is rainÞ 1⁄4 0:5
+1 0:5 1⁄4 1:0
+The evidence today is rain increases the odds by a factor of 2.5, thereby raising the probability from 0.5 to 0.71:
+Oðtomorrow is rain j today is rainÞ 1⁄4 2:5 1:0 1⁄4 2:5
+pðtomorrow is rain j today is rainÞ 1⁄4 2:5
+1 þ 2:5 1⁄4 0:71
+Rule 2 is also fired. The prior probability of tomorrow is dry is converted into the prior odds, but the evidence today is rain reduces the odds by a factor of 0.4. This, in turn, diminishes the probability of tomorrow is dry from 0.5 to 0.29:
+Oðtomorrow is dryÞ 1⁄4 0:5
+1 0:5 1⁄4 1:0
+Oðtomorrow is dry j today is rainÞ 1⁄4 0:4 1:0 1⁄4 0:4
+pðtomorrow is dry j today is rainÞ 1⁄4 0:4
+1 þ 0:4 1⁄4 0:29
+68 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ Hence if it is raining today there is a 71 per cent chance of it raining and a 29 per cent chance of it being dry tomorrow. Further suppose that the user input is today is dry. By a similar calculation there is a 62 per cent chance of it being dry and a 38 per cent chance of it raining tomorrow. Now we have examined the basic principles of Bayesian rules of evidence, we can incorporate some new knowledge in our expert system. To do this, we need to determine conditions when the weather actually did change. Analysis of the data provided in Table 3.3 allows us to develop the following knowledge base (the Leonardo expert system shell is used here).
+Knowledge base
+/* FORECAST: BAYESIAN ACCUMULATION OF EVIDENCE
+control bayes
+Rule: 1 if today is rain {LS 2.5 LN .6} then tomorrow is rain {prior .5}
+Rule: 2 if today is dry {LS 1.6 LN .4} then tomorrow is dry {prior .5}
+Rule: 3 if today is rain and rainfall is low {LS 10 LN 1} then tomorrow is dry {prior .5}
+Rule: 4 if today is rain and rainfall is low and temperature is cold {LS 1.5 LN 1} then tomorrow is dry {prior .5}
+Rule: 5 if today is dry and temperature is warm {LS 2 LN .9} then tomorrow is rain {prior .5}
+Rule: 6 if today is dry and temperature is warm and sky is overcast {LS 5 LN 1} then tomorrow is rain {prior .5}
+/* The SEEK directive sets up the goal of the rule set
+seek tomorrow
+FORECAST: BAYESIAN ACCUMULATION OF EVIDENCE 69
+
+
+ Dialogue
+Based on the information provided by the user, the expert system determines whether we can expect a dry day tomorrow. The user’s answers are indicated by arrows. We assume that rainfall is low if it is less than 4.1 mm, the temperature is cold if the average daily temperature is lower than or equal to 7.08C, and warm if it is higher than 7.08C. Finally, sunshine less than 4.6 hours a day stands for overcast.
+What is the weather today? ) rain
+Rule: 1 if today is rain {LS 2.5 LN .6} then tomorrow is rain {prior .5}
+Oðtomorrow is rainÞ 1⁄4 0:5
+1 0:5 1⁄4 1:0
+Oðtomorrow is rain j today is rainÞ 1⁄4 2:5 1:0 1⁄4 2:5
+pðtomorrow is rain j today is rainÞ 1⁄4 2:5
+1 þ 2:5 1⁄4 0:71
+tomorrow is rain {0.71}
+Rule: 2 if today is dry {LS 1.6 LN .4} then tomorrow is dry {prior .5}
+Oðtomorrow is dryÞ 1⁄4 0:5
+1 0:5 1⁄4 1:0
+Oðtomorrow is dry j today is rainÞ 1⁄4 0:4 1:0 1⁄4 0:4
+pðtomorrow is dry j today is rainÞ 1⁄4 0:4
+1 þ 0:4 1⁄4 0:29
+tomorrow is rain {0.71} dry {0.29}
+What is the rainfall today? ) low
+Rule: 3 if today is rain and rainfall is low {LS 10 LN 1} then tomorrow is dry {prior .5}
+Oðtomorrow is dryÞ 1⁄4 0:29
+1 0:29 1⁄4 0:41
+Oðtomorrow is dry j today is rain \ rainfall is lowÞ 1⁄4 10 0:41 1⁄4 4:1
+70 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ pðtomorrow is dry j today is rain \ rainfall is lowÞ 1⁄4 4:1
+1 þ 4:1 1⁄4 0:80
+tomorrow is dry {0.80} rain {0.71}
+What is the temperature today? ) cold
+Rule: 4 if today is rain and rainfall is low and temperature is cold {LS 1.5 LN 1} then tomorrow is dry {prior .5}
+Oðtomorrow is dryÞ 1⁄4 0:80
+1 0:80 1⁄4 4
+Oðtomorrow is dry j today is rain \ rainfall is low \ temperature is coldÞ
+1⁄4 1:50 4 1⁄4 6
+pðtomorrow is dry j today is rain \ rainfall is low \ temperature is coldÞ
+1⁄46
+1 þ 6 1⁄4 0:86
+tomorrow is dry {0.86} rain {0.71}
+Rule: 5 if today is dry and temperature is warm {LS 2 LN .9} then tomorrow is rain {prior .5}
+Oðtomorrow is rainÞ 1⁄4 0:71
+1 0:71 1⁄4 2:45
+Oðtomorrow is rain j today is not dry \ temperature is not warmÞ 1⁄4 0:9 2:45 1⁄4 2:21
+pðtomorrow is rain j today is not dry \ temperature is not warmÞ 1⁄4 2:21
+1 þ 2:21 1⁄4 0:69
+tomorrow is dry {0.86} rain {0.69}
+What is the cloud cover today? ) overcast
+Rule: 6 if today is dry and temperature is warm and sky is overcast {LS 5 LN 1} then tomorrow is rain {prior .5}
+FORECAST: BAYESIAN ACCUMULATION OF EVIDENCE 71
+
+
+ Oðtomorrow is rainÞ 1⁄4 0:69
+1 0:69 1⁄4 2:23
+Oðtomorrow is rain j today is not dry \ temperature is not warm \ sky is overcastÞ
+1⁄4 1:0 2:23 1⁄4 2:23
+pðtomorrow is rain j today is not dry \ temperature is not warm \ sky is overcastÞ 1⁄4 2:23
+1 þ 2:23 1⁄4 0:69
+tomorrow is dry {0.86} rain {0.69}
+This means that we have two potentially true hypotheses, tomorrow is dry and tomorrow is rain, but the likelihood of the first one is higher. From Table 3.3 you can see that our expert system made only four mistakes. This is an 86 per cent success rate, which compares well with the results provided in Naylor (1987) for the same case of the London weather.
+3.5 Bias of the Bayesian method
+The framework for Bayesian reasoning requires probability values as primary inputs. The assessment of these values usually involves human judgement. However, psychological research shows that humans either cannot elicit probability values consistent with the Bayesian rules or do it badly (Burns and Pearl, 1981; Tversky and Kahneman, 1982). This suggests that the conditional probabilities may be inconsistent with the prior probabilities given by the expert. Consider, for example, a car that does not start and makes odd noises when you press the starter. The conditional probability of the starter being faulty if the car makes odd noises may be expressed as:
+IF the symptom is ‘odd noises’ THEN the starter is bad {with probability 0.7}
+Apparently the conditional probability that the starter is not bad if the car makes odd noises is:
+pðstarter is not bad j odd noisesÞ 1⁄4 pðstarter is good j odd noisesÞ 1⁄4 1 0:7 1⁄4 0:3
+Therefore, we can obtain a companion rule that states
+IF the symptom is ‘odd noises’ THEN the starter is good {with probability 0.3}
+72 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ Domain experts do not deal easily with conditional probabilities and quite often deny the very existence of the hidden implicit probability (0.3 in our example). In our case, we would use available statistical information and empirical studies to derive the following two rules:
+IF the starter is bad THEN the symptom is ‘odd noises’ {with probability 0.85}
+IF the starter is bad THEN the symptom is not ‘odd noises’ {with probability 0.15}
+To use the Bayesian rule, we still need the prior probability, the probability that the starter is bad if the car does not start. Here we need an expert judgement. Suppose, the expert supplies us the value of 5 per cent. Now we can apply the Bayesian rule (3.18) to obtain
+pðstarter is bad j odd noisesÞ 1⁄4 0:85 0:05
+0:85 0:05 þ 0:15 0:95 1⁄4 0:23
+The number obtained is significantly lower than the expert’s estimate of 0.7 given at the beginning of this section.
+Why this inconsistency? Did the expert make a mistake?
+The most obvious reason for the inconsistency is that the expert made different assumptions when assessing the conditional and prior probabilities. We may attempt to investigate it by working backwards from the posterior probability pðstarter is bad j odd noisesÞ to the prior probability pðstarter is badÞ. In our case, we can assume that
+pðstarter is goodÞ 1⁄4 1 pðstarter is badÞ
+From Eq. (3.18) we obtain:
+pðHÞ 1⁄4 pðHjEÞ pðEj:HÞ
+pðHjEÞ pðEj:HÞ þ pðEjHÞ1⁄21 pðHjEÞ
+where:
+pðHÞ 1⁄4 pðstarter is badÞ;
+pðHjEÞ 1⁄4 pðstarter is bad j odd noisesÞ;
+pðEjHÞ 1⁄4 pðodd noises j starter is badÞ;
+pðEj:HÞ 1⁄4 pðodd noises j starter is goodÞ.
+If we now take the value of 0.7, pðstarter is badjodd noisesÞ, provided by the expert as the correct one, the prior probability pðstarter is badÞ would have
+BIAS OF THE BAYESIAN METHOD 73
+
+
+ to be:
+pðHÞ 1⁄4 0:7 0:15
+0:7 0:15 þ 0:85 ð1 0:7Þ 1⁄4 0:29
+This value is almost six times larger than the figure of 5 per cent provided by the expert. Thus the expert indeed uses quite different estimates of the prior and conditional probabilities. In fact, the prior probabilities also provided by the expert are likely to be inconsistent with the likelihood of sufficiency, LS, and the likelihood of necessity, LN. Several methods are proposed to handle this problem (Duda et al., 1976). The most popular technique, first applied in PROSPECTOR, is the use of a piecewise linear interpolation model (Duda et al., 1979). However, to use the subjective Bayesian approach, we must satisfy many assumptions, including the conditional independence of evidence under both a hypothesis and its negation. As these assumptions are rarely satisfied in real world problems, only a few systems have been built based on Bayesian reasoning. The best known one is PROSPECTOR, an expert system for mineral exploration (Duda et al., 1979).
+3.6 Certainty factors theory and evidential reasoning
+Certainty factors theory is a popular alternative to Bayesian reasoning. The basic principles of this theory were first introduced in MYCIN, an expert system for the diagnosis and therapy of blood infections and meningitis (Shortliffe and Buchanan, 1975). The developers of MYCIN found that medical experts expressed the strength of their belief in terms that were neither logical nor mathematically consistent. In addition, reliable statistical data about the problem domain was not available. Therefore, the MYCIN team was unable to use a classical probability approach. Instead they decided to introduce a certainty factor (cf ), a number to measure the expert’s belief. The maximum value of the certainty factor was þ1:0 (definitely true) and the minimum 1:0 (definitely false). A positive value represented a degree of belief and a negative a degree of disbelief. For example, if the expert stated that some evidence was almost certainly true, a cf value of 0.8 would be assigned to this evidence. Table 3.4 shows some uncertain terms interpreted in MYCIN (Durkin, 1994). In expert systems with certainty factors, the knowledge base consists of a set of rules that have the following syntax:
+IF <evidence> THEN <hypothesis> {cf}
+where cf represents belief in hypothesis H given that evidence E has occurred. The certainty factors theory is based on two functions: measure of belief MBðH; EÞ, and measure of disbelief MDðH; EÞ (Shortliffe and Buchanan, 1975).
+74 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ These functions indicate, respectively, the degree to which belief in hypothesis H would be increased if evidence E were observed, and the degree to which disbelief in hypothesis H would be increased by observing the same evidence E. The measure of belief and disbelief can be defined in terms of prior and conditional probabilities as follows (Ng and Abramson, 1990):
+MBðH; EÞ 1⁄4
+1 if pðHÞ 1⁄4 1 max 1⁄2pðHjEÞ; pðHÞ pðHÞ
+max 1⁄21; 0 pðHÞ otherwise
+8<
+: ð3:29Þ
+MDðH; EÞ 1⁄4
+1 if pðHÞ 1⁄4 0 min 1⁄2pðHjEÞ; pðHÞ pðHÞ
+min 1⁄21; 0 pðHÞ otherwise
+8<
+: ð3:30Þ
+where:
+pðHÞ is the prior probability of hypothesis H being true;
+pðHjEÞ is the probability that hypothesis H is true given evidence E.
+The values of MBðH; EÞ and MDðH; EÞ range between 0 and 1. The strength of belief or disbelief in hypothesis H depends on the kind of evidence E observed. Some facts may increase the strength of belief, but some increase the strength of disbelief.
+How can we determine the total strength of belief or disbelief in a hypothesis?
+To combine them into one number, the certainty factor, the following equation is used:
+cf 1⁄4 MBðH; EÞ MDðH; EÞ
+1 min 1⁄2MBðH; EÞ; MDðH; EÞ ð3:31Þ
+Table 3.4 Uncertain terms and their interpretation
+Term Certainty factor
+Definitely not 1:0 Almost certainly not 0:8 Probably not 0:6 Maybe not 0:4 Unknown 0:2 to þ0:2 Maybe þ0:4 Probably þ0:6 Almost certainly þ0:8 Definitely þ1:0
+CERTAINTY FACTORS THEORY AND EVIDENTIAL REASONING 75
+
+
+ Thus cf, which can range in MYCIN from 1 to þ1, indicates the total belief in hypothesis H. The MYCIN approach can be illustrated through an example. Consider a simple rule:
+IF A is X THEN B is Y
+Quite often, an expert may not be absolutely certain that this rule holds. Also suppose it has been observed that in some cases, even when the IF part of the rule is satisfied and object A takes on value X, object B can acquire some different value Z. In other words, we have here the uncertainty of a quasi-statistical kind. The expert usually can associate a certainty factor with each possible value B given that A has value X. Thus our rule might look as follows:
+IF A is X THEN B is Y {cf 0.7}; B is Z {cf 0.2}
+What does it mean? Where is the other 10 per cent?
+It means that, given A has received value X, B will be Y 70 per cent and Z 20 per cent of the time. The other 10 per cent of the time it could be anything. In such a way the expert might reserve a possibility that object B can take not only two known values, Y and Z, but also some other value that has not yet been observed. Note that we assign multiple values to object B. The certainty factor assigned by a rule is then propagated through the reasoning chain. Propagation of the certainty factor involves establishing the net certainty of the rule consequent when the evidence in the rule antecedent is uncertain. The net certainty for a single antecedent rule, cf ðH; EÞ, can be easily calculated by multiplying the certainty factor of the antecedent, cf ðEÞ, with the rule certainty factor, cf
+cf ðH; EÞ 1⁄4 cf ðEÞ cf ð3:32Þ
+For example,
+IF the sky is clear THEN the forecast is sunny {cf 0.8}
+and the current certainty factor of sky is clear is 0.5, then
+cf ðH; EÞ 1⁄4 0:5 0:8 1⁄4 0:4
+This result, according to Table 3.4, would read as ‘It may be sunny’.
+76 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ How does an expert system establish the certainty factor for rules with multiple antecedents?
+For conjunctive rules such as
+IF <evidence E1 > AND <evidence E2 > . . .
+AND <evidence En > THEN <hypothesis H > {cf}
+the net certainty of the consequent, or in other words the certainty of hypothesis H, is established as follows:
+cf ðH; E1 \ E2 \ . . . \ EnÞ 1⁄4 min 1⁄2cf ðE1Þ; cf ðE2Þ; . . . ; cf ðEnÞ cf ð3:33Þ
+For example,
+IF sky is clear AND the forecast is sunny THEN the action is ‘wear sunglasses’ {cf 0.8}
+and the certainty of sky is clear is 0.9 and the certainty of the forecast is sunny is 0.7, then
+cf ðH; E1 \ E2Þ 1⁄4 min 1⁄20:9; 0:7 0:8 1⁄4 0:7 0:8 1⁄4 0:56
+According to Table 3.4, this conclusion might be interpreted as ‘Probably it would be a good idea to wear sunglasses today’. For disjunctive rules such as
+IF <evidence E1 > OR <evidence E2 > . . .
+OR <evidence En > THEN <hypothesis H > {cf}
+the certainty of hypothesis H, is determined as follows:
+cf ðH; E1 [ E2 [ . . . [ EnÞ 1⁄4 max 1⁄2cf ðE1Þ; cf ðE2Þ; . . . ; cf ðEnÞ cf ð3:34Þ
+CERTAINTY FACTORS THEORY AND EVIDENTIAL REASONING 77
+
+
+ For example,
+IF sky is overcast OR the forecast is rain THEN the action is ‘take an umbrella’ {cf 0.9}
+and the certainty of sky is overcast is 0.6 and the certainty of the forecast is rain is 0.8, then
+cf ðH; E1 [ E2Þ 1⁄4 max 1⁄20:6; 0:8 0:9 1⁄4 0:8 0:9 1⁄4 0:72;
+which can be interpreted as ‘Almost certainly an umbrella should be taken today’.
+Sometimes two or even more rules can affect the same hypothesis. How does an expert system cope with such situations?
+When the same consequent is obtained as a result of the execution of two or more rules, the individual certainty factors of these rules must be merged to give a combined certainty factor for a hypothesis. Suppose the knowledge base consists of the following rules:
+Rule 1: IF A is X THEN C is Z {cf 0.8}
+Rule 2: IF B is Y THEN C is Z {cf 0.6}
+What certainty should be assigned to object C having value Z if both Rule 1 and Rule 2 are fired? Our common sense suggests that, if we have two pieces of evidence (A is X and B is Y) from different sources (Rule 1 and Rule 2) supporting the same hypothesis (C is Z), then the confidence in this hypothesis should increase and become stronger than if only one piece of evidence had been obtained. To calculate a combined certainty factor we can use the following equation (Durkin, 1994):
+cf ðcf1; cf2Þ 1⁄4
+cf1 þ cf2 ð1 cf1Þ if cf1 > 0 and cf2 > 0 cf1 þ cf2
+1 min 1⁄2jcf1j; jcf2j if cf1 < 0 or cf2 < 0 cf1 þ cf2 ð1 þ cf1Þ if cf1 < 0 and cf2 < 0
+8>><
+>>:
+ð3:35Þ
+where:
+cf1 is the confidence in hypothesis H established by Rule 1;
+cf2 is the confidence in hypothesis H established by Rule 2;
+jcf1j and jcf2j are absolute magnitudes of cf1 and cf2, respectively.
+78 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ Thus, if we assume that
+cf ðE1Þ 1⁄4 cf ðE2Þ 1⁄4 1:0
+then from Eq. (3.32) we get:
+cf1ðH; E1Þ 1⁄4 cf ðE1Þ cf1 1⁄4 1:0 0:8 1⁄4 0:8 cf2ðH; E2Þ 1⁄4 cf ðE2Þ cf2 1⁄4 1:0 0:6 1⁄4 0:6
+and from Eq. (3.35) we obtain:
+cf ðcf1; cf2Þ 1⁄4 cf1ðH; E1Þ þ cf2ðH; E2Þ 1⁄21 cf1ðH; E1Þ
+1⁄4 0:8 þ 0:6 ð1 0:8Þ 1⁄4 0:92
+This example shows an incremental increase of belief in a hypothesis and also confirms our expectations. Consider now a case when rule certainty factors have the opposite signs. Suppose that
+cf ðE1Þ 1⁄4 1 and cf ðE2Þ 1⁄4 1:0;
+then
+cf1ðH; E1Þ 1⁄4 1:0 0:8 1⁄4 0:8 cf2ðH; E2Þ 1⁄4 1:0 0:6 1⁄4 0:6
+and from Eq. (3.35) we obtain:
+cf ðcf1; cf2Þ 1⁄4 cf1ðH; E1Þ þ cf2ðH; E2Þ
+1 min 1⁄2jcf1ðH; E1Þj; jcf2ðH; E2Þj 1⁄4 0:8 0:6
+1 min 1⁄20:8; 0:6 1⁄4 0:5
+This example shows how a combined certainty factor, or in other words net belief, is obtained when one rule, Rule 1, confirms a hypothesis but another, Rule 2, discounts it. Let us consider now the case when rule certainty factors have negative signs. Suppose that:
+cf ðE1Þ 1⁄4 cf ðE2Þ 1⁄4 1:0;
+then
+cf1ðH; E1Þ 1⁄4 1:0 0:8 1⁄4 0:8 cf2ðH; E2Þ 1⁄4 1:0 0:6 1⁄4 0:6
+CERTAINTY FACTORS THEORY AND EVIDENTIAL REASONING 79
+
+
+ and from Eq. (3.35) we obtain:
+cf ðcf1; cf2Þ 1⁄4 cf1ðH; E1Þ þ cf2ðH; E2Þ 1⁄21 þ cf1ðH; E1Þ
+1⁄4 0:8 0:6 ð1 0:8Þ 1⁄4 0:92
+This example represents an incremental increase of disbelief in a hypothesis. The certainty factors theory provides a practical alternative to Bayesian reasoning. The heuristic manner of combining certainty factors is different from the manner in which they would be combined if they were probabilities. The certainty theory is not ‘mathematically pure’ but does mimic the thinking process of a human expert. To illustrate the evidential reasoning and the method of certainty factors propagation through a set of rules, consider again the FORECAST expert system developed in section 3.4.
+3.7 FORECAST: an application of certainty factors
+The expert system is required to predict whether it will rain tomorrow, or in other words to establish certainty factors for the multivalued object tomorrow. To simplify our task, we use the same set of rules as in section 3.4.
+Knowledge base
+/* FORECAST: AN APPLICATION OF CERTAINTY FACTORS
+control cf
+control ‘threshold 0.01’
+Rule: 1 if today is rain then tomorrow is rain {cf 0.5}
+Rule: 2 if today is dry then tomorrow is dry {cf 0.5}
+Rule: 3 if today is rain and rainfall is low then tomorrow is dry {cf 0.6}
+Rule: 4 if today is rain and rainfall is low and temperature is cold then tomorrow is dry {cf 0.7}
+80 UNCERTAINTY MANAGEMENT IN RULE-BASED EXPERT SYSTEMS
+
+
+ Rule: 5 if today is dry and temperature is warm then tomorrow is rain {cf 0.65}
+Rule: 6 if today is dry and temperature is warm and sky is overcast then tomorrow is rain {cf 0.55}
+seek tomorrow
+Dialogue
+To apply an inexact reasoning technique based on certainty factors, the expert system prompts the user to input not only the object value but also the certainty associated with this value. For example, using the Leonardo scale from 0 to 1.0, the following dialogue might be obtained:
+What is the weather today? ) rain
+Rule: 1 if today is rain then tomorrow is rain {cf 0.5}
+cf ðtomorrow is rain, today is rainÞ 1⁄4 cf ðtoday is rainÞ cf 1⁄4 1:0 0:5 1⁄4 0:5
+tomorrow is rain {0.50}
+What is the rainfall today? ) low
+To what degree do you believe the rainfall is low? Enter a numeric certainty between 0 and 1.0 inclusive. ) 0.8
+Rule: 3 if today is rain and rainfall is low then tomorrow is dry {cf 0.6}
+cf ðtomorrow is dry, today is rain \ rainfall is lowÞ 1⁄4 min 1⁄2cf ðtoday is rainÞ; cf ðrainfall is lowÞ cf 1⁄4 min 1⁄21; 0:8 0:6 1⁄4 0:48
+tomorrow is rain {0.50} dry {0.48}
+FORECAST: AN APPLICATION OF CERTAINTY FACTORS 81

@@ -1,0 +1,406 @@
+@article{2fb9a1c37b5728ae34de8f689dd3265b3263d735,
+title = {The Web Never Forgets: Persistent Tracking Mechanisms in the Wild},
+year = {2014},
+url = {https://www.semanticscholar.org/paper/2fb9a1c37b5728ae34de8f689dd3265b3263d735},
+abstract = {We present the first large-scale studies of three advanced web tracking mechanisms - canvas fingerprinting, evercookies and use of "cookie syncing" in conjunction with evercookies. Canvas fingerprinting, a recently developed form of browser fingerprinting, has not previously been reported in the wild; our results show that over 5% of the top 100,000 websites employ it. We then present the first automated study of evercookies and respawning and the discovery of a new evercookie vector, IndexedDB. Turning to cookie syncing, we present novel techniques for detection and analysing ID flows and we quantify the amplification of privacy-intrusive tracking practices due to cookie syncing. Our evaluation of the defensive techniques used by privacy-aware users finds that there exist subtle pitfalls --- such as failing to clear state on multiple browsers at once - in which a single lapse in judgement can shatter privacy defenses. This suggests that even sophisticated users face great difficulties in evading tracking techniques.},
+author = {},
+journal = {Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security},
+volume = {null},
+pages = {null},
+doi = {10.1145/2660267.2660347},
+}
+
+@article{012c0fde4a532d2294dd2c091b879c26729a44ce,
+title = {Hiding in the Crowd: an Analysis of the Effectiveness of Browser Fingerprinting at Large Scale},
+year = {2018},
+url = {https://www.semanticscholar.org/paper/012c0fde4a532d2294dd2c091b879c26729a44ce},
+abstract = {Browser fingerprinting is a stateless technique, which consists in collecting a wide range of data about a device through browser APIs. Past studies have demonstrated that modern devices present so much diversity that fingerprints can be exploited to identify and track users online. With this work, we want to evaluate if browser fingerprinting is still effective at uniquely identifying a large group of users when analyzing millions of fingerprints over a few months. We collected 2,067,942 browser fingerprints from one of the top 15 French websites. The analysis of this novel dataset sheds a new light on the ever-growing browser fingerprinting domain. The key insight is that the percentage of unique fingerprints in our dataset is much lower than what was reported in the past: only 33.6% of fingerprints are unique by opposition to over 80% in previous studies. We show that non-unique fingerprints tend to be fragile. If some features of the fingerprint change, it is very probable that the fingerprint will become unique. We also confirm that the current evolution of web technologies is benefiting users» privacy significantly as the removal of plugins brings down substantively the rate of unique desktop machines.},
+author = {Alejandro Gómez-Boix and Pierre Laperdrix and B. Baudry},
+journal = {Proceedings of the 2018 World Wide Web Conference},
+volume = {null},
+pages = {null},
+doi = {10.1145/3178876.3186097},
+}
+
+@article{b42c88c9a7cf1ac95598fc49169b0c008a414d76,
+title = {Fingerprinting Information in JavaScript Implementations},
+year = {2011},
+url = {https://www.semanticscholar.org/paper/b42c88c9a7cf1ac95598fc49169b0c008a414d76},
+abstract = {To date, many attempts have been made to fingerprint users on the web. These fingerprints allow browsing sessions to be linked together and possibly even tied to a user’s identity. They can be used constructively by sites to supplement traditional means of user authentication such as passwords; and they can be used destructively to counter attempts to stay anonymous online. In this paper, we identify two new avenues for browser fingerprinting. The new fingerprints arise from the browser’s JavaScript execution characteristics, making them difficult to simulate or mitigate in practice. The first uses the innate performance signature of each browser’s JavaScript engine, allowing the detection of browser version, operating system and microarchitecture, even when traditional forms of system identification (such as the user-agent header) are modified or hidden. The second subverts the whitelist mechanism of the popular NoScript Firefox extension, which selectively enables web pages’ scripting privileges to increase privacy by allowing a site to determine if particular domains exist in a user’s NoScript whitelist. We have experimentally verified the effectiveness of our system fingerprinting technique using a 1,015-person study on Amazon’s Mechanical Turk platform.},
+author = {K. Mowery and Dillon Bogenreif and Scott Yilek and H. Shacham},
+}
+
+@article{5c15f96d5085153b5bfc8e4d5aa8e55153f4def9,
+title = {Third-Party Web Tracking: Policy and Technology},
+year = {2012},
+url = {https://www.semanticscholar.org/paper/5c15f96d5085153b5bfc8e4d5aa8e55153f4def9},
+abstract = {In the early days of the web, content was designed and hosted by a single person, group, or organization. No longer. Webpages are increasingly composed of content from myriad unrelated "third-party" websites in the business of advertising, analytics, social networking, and more. Third-party services have tremendous value: they support free content and facilitate web innovation. But third-party services come at a privacy cost: researchers, civil society organizations, and policymakers have increasingly called attention to how third parties can track a user's browsing activities across websites. This paper surveys the current policy debate surrounding third-party web tracking and explains the relevant technology. It also presents the FourthParty web measurement platform and studies we have conducted with it. Our aim is to inform researchers with essential background and tools for contributing to public understanding and policy debates about web tracking.},
+author = {Jonathan R. Mayer and John C. Mitchell},
+journal = {2012 IEEE Symposium on Security and Privacy},
+volume = {null},
+pages = {413-427},
+doi = {10.1109/SP.2012.47},
+}
+
+@article{bdb430d06f3e134b2df8965dd62c77ac87710064,
+title = {Fast and Reliable Browser Identiﬁcation with JavaScript Engine Fingerprinting},
+year = {2013},
+url = {https://www.semanticscholar.org/paper/bdb430d06f3e134b2df8965dd62c77ac87710064},
+abstract = {—Web browsers are crucial software components in today’s usage of the Internet, but the reliable detection of whether a client is using a speciﬁc browser can still be considered a nontrivial problem. Reliable browser identiﬁcation is crucial for online security and privacy e.g., regarding drive-by downloads and user tracking, and can be used to enhance the user’s security. So far the UserAgent string is often used to identify a given browser, but it is a self-reported string provided by the client and can be changed arbitrarily. In this paper we propose a new method for identifying web browsers based on the underlying Javascript engine, which can be executed on the client side within a fraction of a second. Our method is three orders of magnitude faster than previous work on Javascript engine ﬁngerprinting, and can be implemented with well below a few hundred lines of code. We show the feasibility of our method with a survey and discuss the consequences for user privacy and browser security. Furthermore, we collected data for more than 150 browser and operating system combinations, and present algorithms to make browser identiﬁcation as fast as possible. UserAgent string modiﬁcations become easily detectable with JavaScript engine ﬁngerprinting, which is shown exemplarily on the Tor browser bundle as it uses a uniform UserAgent string across different browser versions. Finally, we propose to use our results for enhancing state-of-the-art session management (with or without SSL), as reliable browser identiﬁcation can be used to increase the complexity of session hijacking attacks considerably.},
+author = {M. Mulazzani and Philipp Reschl and Markus Huber and Manuel Leithner and S. Schrittwieser and E. Weippl},
+}
+
+@article{9c8f102e4cffc105fd054a1fd09f0bacb9dbeafc,
+title = {FPDetective: dusting the web for fingerprinters},
+year = {2013},
+url = {https://www.semanticscholar.org/paper/9c8f102e4cffc105fd054a1fd09f0bacb9dbeafc},
+abstract = {In the modern web, the browser has emerged as the vehicle of choice, which users are to trust, customize, and use, to access a wealth of information and online services. However, recent studies show that the browser can also be used to invisibly fingerprint the user: a practice that may have serious privacy and security implications. In this paper, we report on the design, implementation and deployment of FPDetective, a framework for the detection and analysis of web-based fingerprinters. Instead of relying on information about known fingerprinters or third-party-tracking blacklists, FPDetective focuses on the detection of the fingerprinting itself. By applying our framework with a focus on font detection practices, we were able to conduct a large scale analysis of the million most popular websites of the Internet, and discovered that the adoption of fingerprinting is much higher than previous studies had estimated. Moreover, we analyze two countermeasures that have been proposed to defend against fingerprinting and find weaknesses in them that might be exploited to bypass their protection. Finally, based on our findings, we discuss the current understanding of fingerprinting and how it is related to Personally Identifiable Information, showing that there needs to be a change in the way users, companies and legislators engage with fingerprinting.},
+author = {Gunes Acar and Marc Juárez and Nick Nikiforakis and Claudia Díaz and Seda F. Gürses and Frank Piessens and B. Preneel},
+journal = {Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security},
+volume = {null},
+pages = {null},
+doi = {10.1145/2508859.2516674},
+}
+
+@article{a155264f143aafd380f40fd0167c9b7960f64ea2,
+title = {(Cross-)Browser Fingerprinting via OS and Hardware Level Features},
+year = {2017},
+url = {https://www.semanticscholar.org/paper/a155264f143aafd380f40fd0167c9b7960f64ea2},
+abstract = {In this paper, we propose a browser fingerprinting technique that can track users not only within a single browser but also across different browsers on the same machine. Specifically, our approach utilizes many novel OS and hardware level features, such as those from graphics cards, CPU, and installed writing scripts. We extract these features by asking browsers to perform tasks that rely on corresponding OS and hardware functionalities. Our evaluation shows that our approach can successfully identify 99.24% of users as opposed to 90.84% for state of the art on single-browser fingerprinting against the same dataset. Further, our approach can achieve higher uniqueness rate than the only cross-browser approach in the literature with similar stability.},
+author = {Yinzhi Cao and Song Li and Erik Wijmans},
+doi = {10.14722/NDSS.2017.23152},
+}
+
+@article{413a468c37edf2c198be3b32fef0dd5097aaa611,
+title = {A Survey on Web Tracking: Mechanisms, Implications, and Defenses},
+year = {2017},
+url = {https://www.semanticscholar.org/paper/413a468c37edf2c198be3b32fef0dd5097aaa611},
+abstract = {Privacy seems to be the Achilles’ heel of today’s web. Most web services make continuous efforts to track their users and to obtain as much personal information as they can from the things they search, the sites they visit, the people they contact, and the products they buy. This information is mostly used for commercial purposes, which go far beyond targeted advertising. Although many users are already aware of the privacy risks involved in the use of internet services, the particular methods and technologies used for tracking them are much less known. In this survey, we review the existing literature on the methods used by web services to track the users online as well as their purposes, implications, and possible user’s defenses. We present five main groups of methods used for user tracking, which are based on sessions, client storage, client cache, fingerprinting, and other approaches. A special focus is placed on mechanisms that use web caches, operational caches, and fingerprinting, as they are usually very rich in terms of using various creative methodologies. We also show how the users can be identified on the web and associated with their real names, e-mail addresses, phone numbers, or even street addresses. We show why tracking is being used and its possible implications for the users. For each of the tracking methods, we present possible defenses. Some of them are specific to a particular tracking approach, while others are more universal (block more than one threat). Finally, we present the future trends in user tracking and show that they can potentially pose significant threats to the users’ privacy.},
+author = {T. Bujlow and Valentín Carela-Español and J. Solé-Pareta and P. Barlet-Ros},
+journal = {Proceedings of the IEEE},
+volume = {105},
+pages = {1476-1510},
+doi = {10.1109/JPROC.2016.2637878},
+}
+
+@article{c4cb2071f011c18cee299393c2a92cec3af2a675,
+title = {FPRandom: Randomizing Core Browser Objects to Break Advanced Device Fingerprinting Techniques},
+year = {2017},
+url = {https://www.semanticscholar.org/paper/c4cb2071f011c18cee299393c2a92cec3af2a675},
+abstract = {S2 TL;DR: FPRandom is presented, a modified version of Firefox that adds randomness to mitigate the most recent fingerprinting algorithms, namely canvas fingerprinting, AudioContext fingerprinting and the unmasking of browsers through the order of JavaScript properties.},
+author = {Pierre Laperdrix and B. Baudry and Vikas Mishra},
+doi = {10.1007/978-3-319-62105-0_7},
+}
+
+@article{64636610404013914bc73ae4ae9d057e6835c4b4,
+title = {FP-Block: Usable Web Privacy by Controlling Browser Fingerprinting},
+year = {2015},
+url = {https://www.semanticscholar.org/paper/64636610404013914bc73ae4ae9d057e6835c4b4},
+abstract = {S2 TL;DR: It is posited that for non-oppressed users, tracking within one website does not have a substantial negative impact on privacy, while it enables legitimate benefits, and cross-domain tracking negatively impacts user privacy while being of little benefit to the user.},
+author = {C. F. Torres and H. Jonker and S. Mauw},
+doi = {10.1007/978-3-319-24177-7_1},
+}
+
+@article{fe2f4faec5cf209ae7d8a73100db9cce46ce53d4,
+title = {Beauty and the Beast: Diverting Modern Web Browsers to Build Unique Browser Fingerprints},
+year = {2016},
+url = {https://www.semanticscholar.org/paper/fe2f4faec5cf209ae7d8a73100db9cce46ce53d4},
+abstract = {Worldwide, the number of people and the time spent browsing the web keeps increasing. Accordingly, the technologies to enrich the user experience are evolving at an amazing pace. Many of these evolutions provide for a more interactive web (e.g., boom of JavaScript libraries, weekly innovations in HTML5), a more available web (e.g., explosion of mobile devices), a more secure web (e.g., Flash is disappearing, NPAPI plugins are being deprecated), and a more private web (e.g., increased legislation against cookies, huge success of extensions such as Ghostery and AdBlock). Nevertheless, modern browser technologies, which provide the beauty and power of the web, also provide a darker side, a rich ecosystem of exploitable data that can be used to build unique browser fingerprints. Our work explores the validity of browser fingerprinting in today's environment. Over the past year, we have collected 118,934 fingerprints composed of 17 attributes gathered thanks to the most recent web technologies. We show that innovations in HTML5 provide access to highly discriminating attributes, notably with the use of the Canvas API which relies on multiple layers of the user's system. In addition, we show that browser fingerprinting is as effective on mobile devices as it is on desktops and laptops, albeit for radically different reasons due to their more constrained hardware and software environments. We also evaluate how browser fingerprinting could stop being a threat to user privacy if some technological evolutions continue (e.g., disappearance of plugins) or are embraced by browser vendors (e.g., standard HTTP headers).},
+author = {Pierre Laperdrix and Walter Rudametkin and B. Baudry},
+journal = {2016 IEEE Symposium on Security and Privacy (SP)},
+volume = {null},
+pages = {878-894},
+doi = {10.1109/SP.2016.57},
+}
+
+@article{1ac30f626837e58d02340a3b3656ec99f97468fd,
+title = {Block Me If You Can: A Large-Scale Study of Tracker-Blocking Tools},
+year = {2017},
+url = {https://www.semanticscholar.org/paper/1ac30f626837e58d02340a3b3656ec99f97468fd},
+abstract = {In this paper, we quantify the effectiveness of third-party tracker blockers on a large scale. First, we analyze the architecture of various state-of-the-art blocking solutions and discuss the advantages and disadvantages of each method. Second, we perform a two-part measurement study on the effectiveness of popular tracker-blocking tools. Our analysis quantifies the protection offered against trackers present on more than 100,000 popular websites and 10,000 popular Android applications. We provide novel insights into the ongoing arms race between trackers and developers of blocking tools as well as which tools achieve the best results under what circumstances. Among others, we discover that rule-based browser extensions outperform learning-based ones, trackers with smaller footprints are more successful at avoiding being blocked, and CDNs pose a major threat towards the future of tracker-blocking tools. Overall, the contributions of this paper advance the field of web privacy by providing not only the largest study to date on the effectiveness of tracker-blocking tools, but also by highlighting the most pressing challenges and privacy issues of third-party tracking.},
+author = {Georg Merzdovnik and Markus Huber and D. Buhov and Nick Nikiforakis and S. Neuner and Martin Schmiedecker and E. Weippl},
+journal = {2017 IEEE European Symposium on Security and Privacy (EuroS&P)},
+volume = {null},
+pages = {319-333},
+doi = {10.1109/EuroSP.2017.26},
+}
+
+@article{e37b5149aad208d08fcab37ff74aa2ccfd8c30b9,
+title = {Privacy diffusion on the web: a longitudinal perspective},
+year = {2009},
+url = {https://www.semanticscholar.org/paper/e37b5149aad208d08fcab37ff74aa2ccfd8c30b9},
+abstract = {For the last few years we have been studying the diffusion of private information for users as they visit various Web sites triggering data gathering aggregation by third parties. This paper reports on our longitudinal study consisting of multiple snapshots of our examination of such diffusion over four years. We examine the various technical ways by which third-party aggregators acquire data and the depth of user-related information acquired. We study techniques for protecting privacy diffusion as well as limitations of such techniques. We introduce the concept of secondary privacy damage. Our results show increasing aggregation of user-related data by a steadily decreasing number of entities. A handful of companies are able to track users' movement across almost all of the popular Web sites. Virtually all the protection techniques have significant limitations highlighting the seriousness of the problem and the need for alternate solutions.},
+author = {B. Krishnamurthy and C. Wills},
+doi = {10.1145/1526709.1526782},
+}
+
+@article{d896fe7a868a10efade1ed9f55f68db2a80574fa,
+title = {Internet Jones and the Raiders of the Lost Trackers: An Archaeological Study of Web Tracking from 1996 to 2016},
+year = {2016},
+url = {https://www.semanticscholar.org/paper/d896fe7a868a10efade1ed9f55f68db2a80574fa},
+abstract = {Though web tracking and its privacy implications have received much attention in recent years, that attention has come relatively recently in the history of the web and lacks full historical context. In this paper, we present longitudinal measurements of third-party web tracking behaviors from 1996 to present (2016). Our tool, TrackingExcavator, leverages a key insight: that the Internet Archive’s Wayback Machine opens the pos-sibility for a retrospective analysis of tracking over time. We contribute an evaluation of the Wayback Machine’s view of past third-party requests, which we ﬁnd is imperfect — we evaluate its limitations and unearth lessons and strategies for overcoming them. Applying these strategies in our measurements, we discover (among other ﬁndings) that third-party tracking on the web has increased in prevalence and complexity since the ﬁrst third-party tracker that we observe in 1996, and we see the spread of the most popular trackers to an increasing percentage of the most popular sites on the web. We argue that an understanding of the ecosystem’s historical trends — which we provide for the ﬁrst time at this scale in our work — is important to any technical and policy discussions surrounding tracking.},
+author = {Ada Lerner and A. K. Simpson and Tadayoshi Kohno and Franziska Roesner},
+}
+
+@article{8def6612f19323144d4bfa06accc05dd0601656b,
+title = {Cookieless Monster: Exploring the Ecosystem of Web-Based Device Fingerprinting},
+year = {2013},
+url = {https://www.semanticscholar.org/paper/8def6612f19323144d4bfa06accc05dd0601656b},
+abstract = {The web has become an essential part of our society and is currently the main medium of information delivery. Billions of users browse the web on a daily basis, and there are single websites that have reached over one billion user accounts. In this environment, the ability to track users and their online habits can be very lucrative for advertising companies, yet very intrusive for the privacy of users. In this paper, we examine how web-based device fingerprinting currently works on the Internet. By analyzing the code of three popular browser-fingerprinting code providers, we reveal the techniques that allow websites to track users without the need of client-side identifiers. Among these techniques, we show how current commercial fingerprinting approaches use questionable practices, such as the circumvention of HTTP proxies to discover a user's real IP address and the installation of intrusive browser plugins. At the same time, we show how fragile the browser ecosystem is against fingerprinting through the use of novel browser-identifying techniques. With so many different vendors involved in browser development, we demonstrate how one can use diversions in the browsers' implementation to distinguish successfully not only the browser-family, but also specific major and minor versions. Browser extensions that help users spoof the user-agent of their browsers are also evaluated. We show that current commercial approaches can bypass the extensions, and, in addition, take advantage of their shortcomings by using them as additional fingerprinting features.},
+author = {Nick Nikiforakis and A. Kapravelos and W. Joosen and Christopher Krügel and Frank Piessens and Giovanni Vigna},
+journal = {2013 IEEE Symposium on Security and Privacy},
+volume = {null},
+pages = {541-555},
+doi = {10.1109/SP.2013.43},
+}
+
+@article{42cf18892910afd15b0d6872f16384a7bb6cf915,
+title = {Flash Cookies and Privacy II: Now with HTML5 and ETag Respawning},
+year = {2011},
+url = {https://www.semanticscholar.org/paper/42cf18892910afd15b0d6872f16384a7bb6cf915},
+abstract = {In August 2009, we demonstrated that popular websites were using “Flash cookies” to track users. Some advertisers had adopted this technology because it allowed persistent tracking even where users had taken steps to avoid web profiling. We also demonstrated “respawning” on top sites with Flash technology. This allowed sites to reinstantiate HTTP cookies deleted by a user, making tracking more resistant to users’ privacy-seeking behaviors.In this followup study, we reassess the Flash cookies landscape and examine a new tracking vector, HTML5 local storage and Cache-Cookies via ETags. We found over 5,600 standard HTTP cookies on popular sites, over 4,900 were from third parties. Google-controlled cookies were present on 97 of the top 100 sites, including popular government websites. Seventeen sites were using HTML5, and seven of those sites had HTML5 local storage and HTTP cookies with matching values. Flash cookies were present on 37 of the top 100 sites. We found two sites that were respawning cookies, including one site – hulu.com – where both Flash and cache cookies were employed to make identifiers more persistent. The cache cookie method used ETags, and is capable of unique tracking even where all cookies are blocked by the user and “Private Browsing Mode” is enabled.Our 2009 study is also available at SSRN: http://ssrn.com/abstract=1446862.},
+author = {Mika D. Ayenson and D. J. Wambach and Ashkan Soltani and Nathaniel Good and C. Hoofnagle},
+doi = {10.2139/SSRN.1898390},
+}
+
+@article{f272b7777b861db4d92d233a559b0c80d81fefc0,
+title = {FPGuard: Detection and Prevention of Browser Fingerprinting},
+year = {2015},
+url = {https://www.semanticscholar.org/paper/f272b7777b861db4d92d233a559b0c80d81fefc0},
+abstract = {S2 TL;DR: Evaluation results show that FPGuard can effectively recognize and mitigate fingerprinting-related activities and distinguish normal from abnormal webpages (or fingerprinters).},
+author = {Amin FaizKhademi and Mohammad Zulkernine and Komminist Weldemariam},
+doi = {10.1007/978-3-319-20810-7_21},
+}
+
+@article{fd9ea169256e24f4f97712baf6647d47954b5cd5,
+title = {A classification of web browser fingerprinting techniques},
+year = {2015},
+url = {https://www.semanticscholar.org/paper/fd9ea169256e24f4f97712baf6647d47954b5cd5},
+abstract = {As the World Wide Web has increasingly become a necessity in daily life, the acute need to safeguard user privacy and security has become manifestly apparent. After users realized that browser cookies could allow websites to track their actions without permission or notification, many have chosen to reject cookies in order to protect their privacy. However, more recently, methods of fingerprinting a web browser have become an increasingly common practice. In this paper, we classify web browser fingerprinting into four main categories: (1) Browser Specific, (2) Canvas, (3) JavaScript Engine, and (4) Cross-browser. We then summarize the privacy and security implications, discuss commercial fingerprinting techniques, and finally present some detection and prevention methods.},
+author = {Randika Upathilake and Yingkun Li and A. Matrawy},
+journal = {2015 7th International Conference on New Technologies, Mobility and Security (NTMS)},
+volume = {null},
+pages = {1-5},
+doi = {10.1109/NTMS.2015.7266460},
+}
+
+@article{03e08e206021afaf2e410273483bae133c938d9c,
+title = {I never signed up for this! Privacy implications of email tracking},
+year = {2018},
+url = {https://www.semanticscholar.org/paper/03e08e206021afaf2e410273483bae133c938d9c},
+abstract = {Abstract We show that the simple act of viewing emails contains privacy pitfalls for the unwary. We assembled a corpus of commercial mailing-list emails, and find a network of hundreds of third parties that track email recipients via methods such as embedded pixels. About 30% of emails leak the recipient’s email address to one or more of these third parties when they are viewed. In the majority of cases, these leaks are intentional on the part of email senders, and further leaks occur if the recipient clicks links in emails. Mail servers and clients may employ a variety of defenses, but we analyze 16 servers and clients and find that they are far from comprehensive. We propose, prototype, and evaluate a new defense, namely stripping tracking tags from emails based on enhanced versions of existing web tracking protection lists.},
+author = {Steven Englehardt and Jeffrey Han and Arvind Narayanan},
+journal = {Proceedings on Privacy Enhancing Technologies},
+volume = {2018},
+pages = {109 - 126},
+doi = {10.1515/popets-2018-0006},
+}
+
+@article{51b0ce84988e083d6253af098542f905e1fea0a8,
+title = {Fingerprinting Web Users Through Font Metrics},
+year = {2015},
+url = {https://www.semanticscholar.org/paper/51b0ce84988e083d6253af098542f905e1fea0a8},
+abstract = {S2 TL;DR: It is shown that of the over 125,000 code points examined, it suffices to test only 43 in order to account for all the variation seen in the experiment, andFont metrics, being orthogonal to many other fingerprinting techniques, can augment and sharpen those other techniques.},
+author = {D. Fifield and Serge Egelman},
+doi = {10.1007/978-3-662-47854-7_7},
+}
+
+@article{820a83807b6530afde5ddbccb81af9794780993f,
+title = {User Tracking on the Web via Cross-Browser Fingerprinting},
+year = {2011},
+url = {https://www.semanticscholar.org/paper/820a83807b6530afde5ddbccb81af9794780993f},
+abstract = {S2 TL;DR: It is shown that a part of the IP address, the availability of a specific font set, the time zone, and the screen resolution are enough to uniquely identify most users of the five most popular web browsers, and that user agent strings are fairly effective but fragile identifiers of a browser instance.},
+author = {Károly Boda and Á. Földes and G. Gulyás and S. Imre},
+doi = {10.1007/978-3-642-29615-4_4},
+}
+
+@article{13c1fb050c42d6cb2f3974fd3bb70357ada9881c,
+title = {Tracing Information Flows Between Ad Exchanges Using Retargeted Ads},
+year = {2018},
+url = {https://www.semanticscholar.org/paper/13c1fb050c42d6cb2f3974fd3bb70357ada9881c},
+abstract = {Numerous surveys have shown that Web users are concerned about the loss of privacy associated with online tracking. Alarmingly, these surveys also reveal that people are also unaware of the amount of data sharing that occurs between ad exchanges, and thus underestimate the privacy risks associated with online tracking. 
+In reality, the modern ad ecosystem is fueled by a flow of user data between trackers and ad exchanges. Although recent work has shown that ad exchanges routinely perform cookie matching with other exchanges, these studies are based on brittle heuristics that cannot detect all forms of information sharing, especially under adversarial conditions. 
+In this study, we develop a methodology that is able to detect client- and server-side flows of information between arbitrary ad exchanges. Our key insight is to leverage retargeted ads as a tool for identifying information flows. Intuitively, our methodology works because it relies on the semantics of how exchanges serve ads, rather than focusing on specific cookie matching mechanisms. Using crawled data on 35,448 ad impressions, we show that our methodology can successfully categorize four different kinds of information sharing behavior between ad exchanges, including cases where existing heuristic methods fail. 
+We conclude with a discussion of how our findings and methodologies can be leveraged to give users more control over what kind of ads they see and how their information is shared between ad exchanges.},
+author = {M. Bashir and Sajjad Arshad and William K. Robertson and Christo Wilson},
+arxivid = {1811.00920},
+}
+
+@article{2ccde1be1ff725aa8740868929cd1a6f5072ab3a,
+title = {OpenWPM : An automated platform for web privacy measurement},
+year = {2016},
+url = {https://www.semanticscholar.org/paper/2ccde1be1ff725aa8740868929cd1a6f5072ab3a},
+abstract = {Web measurement techniques have been highly influential in online privacy debates and have brought transparency to the online tracking ecosystem. Due to its complexity, however, web privacy measurement remains a specialized research field. Our aim in this work is transform it into a widely available tool. First, we analyze over 30 web privacy measurement studies, identify several methodological challenges for the experimenter, and discuss how to address them. Next, we present the design and implementation of OpenWPM, a flexible, modular web privacy measurement platform that can handle any experiment that maps to a general framework. It supports parallelism for speed and scale, automatic recovery from failures of the underlying browser, and realistic simulation of users. OpenWPM is open-source and has already been used as the basis of several published studies on web privacy and security. We show how our generic platform provides a common foundation for these diverse experiments, including a new study on the “filter bubble” which we present here.},
+author = {Steven Englehardt and Christian Eubank and Peter Zimmerman and D. Reisman and Arvind Narayanan},
+}
+
+@article{6ffa93e8a674e3b0a40ecfaf0b1b1ae814f23c63,
+title = {Online Tracking: A 1-million-site Measurement and Analysis},
+year = {2016},
+url = {https://www.semanticscholar.org/paper/6ffa93e8a674e3b0a40ecfaf0b1b1ae814f23c63},
+abstract = {We present the largest and most detailed measurement of online tracking conducted to date, based on a crawl of the top 1 million websites. We make 15 types of measurements on each site, including stateful (cookie-based) and stateless (fingerprinting-based) tracking, the effect of browser privacy tools, and the exchange of tracking data between different sites ("cookie syncing"). Our findings include multiple sophisticated fingerprinting techniques never before measured in the wild. This measurement is made possible by our open-source web privacy measurement tool, OpenWPM, which uses an automated version of a full-fledged consumer browser. It supports parallelism for speed and scale, automatic recovery from failures of the underlying browser, and comprehensive browser instrumentation. We demonstrate our platform's strength in enabling researchers to rapidly detect, quantify, and characterize emerging online tracking behaviors.},
+author = {Steven Englehardt and Arvind Narayanan},
+journal = {Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security},
+volume = {null},
+pages = {null},
+doi = {10.1145/2976749.2978313},
+}
+
+@article{9243f5103669bd0e5b29f333f6e1d2246dc0a492,
+title = {Pixel Perfect : Fingerprinting Canvas in HTML 5},
+year = {2012},
+url = {https://www.semanticscholar.org/paper/9243f5103669bd0e5b29f333f6e1d2246dc0a492},
+abstract = {Tying the browser more closely to operating system functionality and system hardware means that websites have more access to these resources, and that browser behavior varies depending on the behavior of these resources. We propose a new system fingerprint, inspired by the observation above: render text and WebGL scenes to a <canvas> element, then examine the pixels produced. The new fingerprint is consistent, high-entropy, orthogonal to other fingerprints, transparent to the user, and readily obtainable.},
+author = {K. Mowery and H. Shacham},
+}
+
+@article{a1b2b348e71569ca9b1663b045cae7c194b34044,
+title = {Flash Cookies and Privacy},
+year = {2009},
+url = {https://www.semanticscholar.org/paper/a1b2b348e71569ca9b1663b045cae7c194b34044},
+abstract = {This is a pilot study of the use of 'Flash cookies' by popular websites. We find that more than 50% of the sites in our sample are using flash cookies to store information about the user. Some are using it to 'respawn' or re-instantiate HTTP cookies deleted by the user. Flash cookies often share the same values as HTTP cookies, and are even used on government websites to assign unique values to users. Privacy policies rarely disclose the presence of Flash cookies, and user controls for effectuating privacy preferences are lacking.},
+author = {Ashkan Soltani and S. Canty and Quentin Mayo and Lauren Thomas and C. Hoofnagle},
+doi = {10.2139/SSRN.1446862},
+}
+
+@article{4fac387adaea8c31d5064c80291a640bf075955f,
+title = {Who Touched My Browser Fingerprint?: A Large-scale Measurement Study and Classification of Fingerprint Dynamics},
+year = {2020},
+url = {https://www.semanticscholar.org/paper/4fac387adaea8c31d5064c80291a640bf075955f},
+abstract = {Browser fingerprints are dynamic, evolving with feature values changed over time. Previous fingerprinting datasets are either small-scale with only thousands of browser instances or without considering fingerprint dynamics. Thus, it remains unclear how an evolution-aware fingerprinting tool behaves in a real-world setting, e.g., on a website with millions of browser instances, let alone how fingerprint dynamics implicate privacy and security. In this paper, we perform the first, large-scale study of millions of fingerprints to analyze fingerprint dynamics in a real-world website. Our measurement study answers the question of how and why fingerprints change over time by classifying fingerprint dynamics into three categories based on their causes. We also observed several insights from our measurement, e.g., we show that state-of-the-art fingerprinting tool performs poorly in terms of F1-Score and matching speed in this real-world setting.},
+author = {Song Li and Yinzhi Cao},
+journal = {Proceedings of the ACM Internet Measurement Conference},
+volume = {null},
+pages = {null},
+doi = {10.1145/3419394.3423614},
+}
+
+@article{a11e76daf0d097e5557543e47c110cc8fe5321bd,
+title = {Mitigating Browser Fingerprint Tracking: Multi-level Reconfiguration and Diversification},
+year = {2015},
+url = {https://www.semanticscholar.org/paper/a11e76daf0d097e5557543e47c110cc8fe5321bd},
+abstract = {The diversity of software components (e.g., Browsers, plugins, fonts) is a wonderful opportunity for users to customize their platforms. Yet, massive customization creates a privacy issue: browsers are slightly different from one another, allowing third parties to collect unique and stable fingerprints to track users. Although software diversity appears to be the source of this privacy issue, we claim that this same diversity, combined with automatic reconfiguration, provides the essential ingredients to constantly change browsing platforms. Constant change acts as a moving target defense strategy against fingerprint tracking by breaking one essential property: stability over time. We leverage virtualization and modular architectures to automatically assemble and reconfigure software components at multiple levels. We operate on operating systems, browsers, fonts and plugins. This work is the first application of software reconfiguration to build a moving target defense against browser fingerprint tracking. The main objective is to automatically modify the fingerprint a platform exhibits. We have developed a prototype called Blink to experiment the effectiveness of our approach at randomizing fingerprints. We have assembled and reconfigured thousands of platforms, and we observe that all of them exhibit different fingerprints, and that commercial fingerprinting solutions are not able to detect that the different platforms actually correspond to a single user.},
+author = {Pierre Laperdrix and Walter Rudametkin and B. Baudry},
+journal = {2015 IEEE/ACM 10th International Symposium on Software Engineering for Adaptive and Self-Managing Systems},
+volume = {null},
+pages = {98-108},
+doi = {10.1109/SEAMS.2015.18},
+}
+
+@article{06cd648c3b90aaa66305af9a41714aa5ded54dd8,
+title = {The Leaking Battery - A Privacy Analysis of the HTML5 Battery Status API},
+year = {2015},
+url = {https://www.semanticscholar.org/paper/06cd648c3b90aaa66305af9a41714aa5ded54dd8},
+abstract = {S2 TL;DR: This study shows that websites can discover the capacity of users’ batteries by exploiting the high precision readouts provided by Firefox on Linux, and highlights privacy risks associated with the HTML5 Battery Status API.},
+author = {Lukasz Olejnik and Gunes Acar and C. Castelluccia and Claudia Díaz},
+doi = {10.1007/978-3-319-29883-2_18},
+}
+
+@article{9eabfa31d96989f7e7611d0f0ac0915c907f09d5,
+title = {PriVaricator: Deceiving Fingerprinters with Little White Lies},
+year = {2015},
+url = {https://www.semanticscholar.org/paper/9eabfa31d96989f7e7611d0f0ac0915c907f09d5},
+abstract = {Researchers have shown that, in recent years, unwanted web tracking is on the rise, with browser-based fingerprinting being adopted by more and more websites as a viable alternative to third-party cookies. In this paper we propose PriVaricator, a solution to the problem of browser-based fingerprinting. A key insight is that when it comes to web tracking, the real problem with fingerprinting is not uniqueness of a fingerprint, it is linkability, i.e., the ability to connect the same fingerprint across multiple visits. Thus, making fingerprints non-deterministic also makes them hard to link across browsing sessions. In PriVaricator we use the power of randomization to "break" linkability by exploring a space of parameterized randomization policies. We evaluate our techniques in terms of being able to prevent fingerprinting and not breaking existing (benign) sites. The best of our randomization policies renders all the fingerprinters we tested ineffective, while causing minimal damage on a set of 1000 Alexa sites on which we tested, with no noticeable performance overhead.},
+author = {Nick Nikiforakis and W. Joosen and B. Livshits},
+journal = {Proceedings of the 24th International Conference on World Wide Web},
+volume = {null},
+pages = {null},
+doi = {10.1145/2736277.2741090},
+}
+
+@article{8d6fd3522bc80cb512c3bb1f93ce52643fb976a1,
+title = {FP-STALKER: Tracking Browser Fingerprint Evolutions},
+year = {2018},
+url = {https://www.semanticscholar.org/paper/8d6fd3522bc80cb512c3bb1f93ce52643fb976a1},
+abstract = {Browser fingerprinting has emerged as a technique to track users without their consent. Unlike cookies, fingerprinting is a stateless technique that does not store any information on devices, but instead exploits unique combinations of attributes handed over freely by browsers. The uniqueness of fingerprints allows them to be used for identification. However, browser fingerprints change over time and the effectiveness of tracking users over longer durations has not been properly addressed. In this paper, we show that browser fingerprints tend to change frequently—from every few hours to days—due to, for example, software updates or configuration changes. Yet, despite these frequent changes, we show that browser fingerprints can still be linked, thus enabling long-term tracking. FP-STALKER is an approach to link browser fingerprint evolutions. It compares fingerprints to determine if they originate from the same browser. We created two variants of FP-STALKER, a rule-based variant that is faster, and a hybrid variant that exploits machine learning to boost accuracy. To evaluate FP-STALKER, we conduct an empirical study using 98,598 fingerprints we collected from 1, 905 distinct browser instances. We compare our algorithm with the state of the art and show that, on average, we can track browsers for 54.48 days, and 26 % of browsers can be tracked for more than 100 days.},
+author = {Antoine Vastel and Pierre Laperdrix and Walter Rudametkin and Romain Rouvoy},
+journal = {2018 IEEE Symposium on Security and Privacy (SP)},
+volume = {null},
+pages = {728-741},
+doi = {10.1109/SP.2018.00008},
+}
+
+@article{bc8570d0987429c086c515a1bfffae64ccbefcff,
+title = {Online Tracking Technologies and Web Privacy},
+year = {2017},
+url = {https://www.semanticscholar.org/paper/bc8570d0987429c086c515a1bfffae64ccbefcff},
+abstract = {This thesis is a study of the mechanisms that enable privacy-intrusive online tracking practices. The tracking mechanisms we focus on are resilient to removal, less transparent and hard to control. We first give a brief historical background of online tracking ecosystem and frame it as whack-a-mole game which led to the rise of browser fingerprinting and evercookies, two prominent examples of advanced tracking mechanisms we study. To contribute to the understanding of real-world practices that involve browser fingerprinting, we report on the design, implementation and deployment of FPDetective, a framework for the detection and analysis of fingerprinting with a focus on font-based fingerprinting. Using FPDetective, we conduct a large scale analysis of the million most popular websites, and discover that the adoption of fingerprinting is much higher than previous studies had estimated. We study the countermeasures against font-based fingerprinting and find a vulnerability in Tor Browser’s defenses, which we help to fix. Turning to more advanced forms of fingerprinting, we present the results of previously unreported canvas fingerprinting scripts as found on the top 100,000 Alexa sites. Our results show that 5% of the top 100,000 websites employ canvas fingerprinting making it the most common fingerprinting method ever studied. Analyzing the real-world canvas fingerprinting scripts we find them to be more advanced than the original method presented by the academic research community. We report on the first automated study of evercookies and respawning and the discovery of a new evercookie vector, IndexedDB. We found that 10 of the 200 globally most popular websites use Flash Local Shared Objects to respawn HTTP cookies deleted by the user. Our investigation also indicates that cookie syncing, the practice of sharing},
+author = {M. Acar},
+}
+
+@article{4c39c926689b52cbc1cd31a2b8a9159450219757,
+title = {Privacy leakage vs . Protection measures : the growing disconnect},
+year = {2011},
+url = {https://www.semanticscholar.org/paper/4c39c926689b52cbc1cd31a2b8a9159450219757},
+abstract = {Numerous research papers have listed different vectors of personally identiﬁable information leaking via traditional and mobile Online Social Networks (OSNs) and highlighted the ongoing aggregationof data about users visiting popularWeb sites. We argue that the landscape is worsening and existing proposals (including the recent U.S. Federal Trade Commis-sion’s report) do not address several key issues. We examined over 100 popular non-OSN Web sites across a number of categories where tens of millions of users representing diverse demographics have accounts, to see if these sites leak private information to prominent aggregators. Our results raise considerable concerns: we see leakage in sites for every category we examined; fully 56% of the sites directly leak pieces of private information with this result growing to 75% if we also include leakage of a site userid. Sensitive search strings sent to healthcare Web sites and travel itineraries on ﬂight reservation sites are leaked in 9 of the top 10 sites studied for each category. The community needs a clear understanding of the shortcomings of existing privacy protection measures and the new proposals. The growing disconnect between the protection measures and increasing leakage and linkage suggests that we need to move beyond the losing battle with aggregators and examine what roles ﬁrst-party sites can play in protecting privacy of their users.},
+author = {B. Krishnamurthy},
+}
+
+@article{82aaf21ef0b8b1bdff3d232295f78dec5a377ccf,
+title = {How Unique Is Your Web Browser?},
+year = {2010},
+url = {https://www.semanticscholar.org/paper/82aaf21ef0b8b1bdff3d232295f78dec5a377ccf},
+abstract = {S2 TL;DR: The degree to which modern web browsers are subject to "device fingerprinting" via the version and configuration information that they will transmit to websites upon request is investigated, and what countermeasures may be appropriate to prevent it is discussed.},
+author = {P. Eckersley},
+doi = {10.1007/978-3-642-14527-8_1},
+}
+
+@article{b8d904d87055f9f1731e99c0818f0caa4c12aabe,
+title = {Automated discovery of privacy violations on the web},
+year = {2018},
+url = {https://www.semanticscholar.org/paper/b8d904d87055f9f1731e99c0818f0caa4c12aabe},
+abstract = {Online tracking is increasingly invasive and ubiquitous. Tracking protection provided by browsers is often ineffective, while solutions based on voluntary cooperation, such as Do Not Track, haven’t had meaningful adoption. Knowledgeable users may turn to anti-tracking tools, but even these more advanced solutions fail to fully protect against the techniques we study. In this dissertation, we introduce OpenWPM, a platform we developed for flexible and modular web measurement. We’ve used OpenWPM to run large-scale studies leading to the discovery of numerous privacy violations across the web and in emails. These discoveries have curtailed the adoption of tracking techniques, and have informed policy debates and browser privacy decisions. In particular, we present novel detection methods and results for persistent tracking techniques, including: device fingerprinting, cookie syncing, and cookie respawning. Our findings include sophisticated fingerprinting techniques never before measured in the wild. We’ve found that nearly every new API is misused by trackers for fingerprinting. The misuse is often invisible to users and publishers alike, and in many cases was not anticipated by API designers. We take a critical look at how the API design process can be changed to prevent such misuse in the future. We also explore the industry of trackers which use PII-derived identifiers to track users across devices, and even into the offline world. To measure these techniques, we develop a novel bait technique, which allows us to spoof the presence of PII on a large number of sites. We show how trackers exfiltrate the spoofed PII through the abuse of browser features. We find that PII collection is not limited to the web—the act of viewing an email also leaks PII to trackers. Overall, about 30% of emails leak the recipient’s email address to one or more third parties. Finally, we study the ability of a passive eavesdropper to leverage tracking cookies for mass surveillance. If two web pages embed the same tracker, then the adversary iii can link visits to those pages from the same user even if the user’s IP address varies. We find that the adversary can reconstruct 62—73% of a typical user’s browsing history.},
+author = {Steven Englehardt},
+}
+
+@article{96df51029b8f6c936c9909bd45a9b0b8498d1ffa,
+title = {Detecting and Defending Against Third-Party Tracking on the Web},
+year = {2012},
+url = {https://www.semanticscholar.org/paper/96df51029b8f6c936c9909bd45a9b0b8498d1ffa},
+abstract = {While third-party tracking on the web has garnered much attention, its workings remain poorly understood. Our goal is to dissect how mainstream web tracking occurs in the wild. We develop a client-side method for detecting and classifying five kinds of third-party trackers based on how they manipulate browser state. We run our detection system while browsing the web and observe a rich ecosystem, with over 500 unique trackers in our measurements alone. We find that most commercial pages are tracked by multiple parties, trackers vary widely in their coverage with a small number being widely deployed, and many trackers exhibit a combination of tracking behaviors. Based on web search traces taken from AOL data, we estimate that several trackers can each capture more than 20% of a user's browsing behavior. We further assess the impact of defenses on tracking and find that no existing browser mechanisms prevent tracking by social media sites via widgets while still allowing those widgets to achieve their utility goals, which leads us to develop a new defense. To the best of our knowledge, our work is the most complete study of web tracking to date.},
+author = {Franziska Roesner and Tadayoshi Kohno and D. Wetherall},
+}
+
+@article{f507dd5ca12f937fd4b7995657f5ac972c4d26f3,
+title = {Cookies That Give You Away: The Surveillance Implications of Web Tracking},
+year = {2015},
+url = {https://www.semanticscholar.org/paper/f507dd5ca12f937fd4b7995657f5ac972c4d26f3},
+abstract = {We study the ability of a passive eavesdropper to leverage "third-party" HTTP tracking cookies for mass surveillance. If two web pages embed the same tracker which tags the browser with a unique cookie, then the adversary can link visits to those pages from the same user (i.e., browser instance) even if the user's IP address varies. Further, many popular websites leak a logged-in user's identity to an eavesdropper in unencrypted traffic. To evaluate the effectiveness of our attack, we introduce a methodology that combines web measurement and network measurement. Using OpenWPM, our web privacy measurement platform, we simulate users browsing the web and find that the adversary can reconstruct 62-73% of a typical user's browsing history. We then analyze the effect of the physical location of the wiretap as well as legal restrictions such as the NSA's "one-end foreign" rule. Using measurement units in various locations - Asia, Europe, and the United States - we show that foreign users are highly vulnerable to the NSA's dragnet surveillance due to the concentration of third-party trackers in the U.S. Finally, we find that some browser-based privacy tools mitigate the attack while others are largely ineffective.},
+author = {Steven Englehardt and D. Reisman and Christian Eubank and Peter Zimmerman and Jonathan R. Mayer and Arvind Narayanan and E. Felten},
+journal = {Proceedings of the 24th International Conference on World Wide Web},
+volume = {null},
+pages = {null},
+doi = {10.1145/2736277.2741679},
+}
+
+@article{dc82cdbc8a8a8f3f8899f9dabcd9409a4461b486,
+title = {Measuring and Improving Security and Privacy on the Web: Case Studies with QR Codes, Third-Party Tracking, and Archives},
+year = {2017},
+url = {https://www.semanticscholar.org/paper/dc82cdbc8a8a8f3f8899f9dabcd9409a4461b486},
+abstract = {Measuring and Improving Security and Privacy on the Web: Case Studies with QR Codes, Third-Party Tracking, and Archives},
+author = {Ada Lerner},
+}
+
+@article{05a6c52814eb6f5dbd11389a314fb20910b30db0,
+title = {BEFORE THE},
+year = {2010},
+url = {https://www.semanticscholar.org/paper/4309140eb905d41ef38dd17e099d9eefdc7b7947},
+abstract = {line},
+author = {Thomas Goode},
+}
+
+@article{34c6ca0071068a45283de21383cbcd60166b90d0,
+title = {Third-Party Net Stalk : Policy and Technology},
+year = {2014},
+url = {https://www.semanticscholar.org/paper/34c6ca0071068a45283de21383cbcd60166b90d0},
+abstract = {In the initial days of the netting, content was designed and hosted by a single person, group, or organization. But these days’ webpages are increasingly composed of content from countless unrelated “third-party” websites in the business of advertising, analytics, social networking, and more. Third-party services have tremendous value: they support free content and facilitate web innovation. But third-party services come at a privacy cost: researchers, civil society organizations, and policymakers have increasingly called attention to how third parties can track a user’s browsing activities across websites. This paper surveys the current policy debate surrounding third-party web tracking and explains the relevant technology. It also presents the Fourth-Party web measurement platform and studies we have conducted with it. Our aim is to inform re-searchers with essential background and tools for contributing to public understanding and policy debates about web tracking. Keywords-Web privacy; third-party tracking.},
+author = {S. Vanitha and U. Palani and A. Arthibala},
+}
+
+@article{4eb24b73879b2a65ea967ff8f15ef0887cf0f9e9,
+title = {Fast and Efficient Browser Identification with JavaScript Engine Fingerprinting Technical Report TR-SBA-Research-0512-01},
+year = {2012},
+url = {https://www.semanticscholar.org/paper/4eb24b73879b2a65ea967ff8f15ef0887cf0f9e9},
+abstract = {While web browsers are becoming more and more important in everyday life, the reliable detection of whether a client is using a specific browser is still a hard problem. So far, the UserAgent string is used, which is a self-reported string provided by the client. It is, however, not a security feature, and can be changed arbitrarily. In this paper, we propose a new method for identifying Web browsers, based on the underlying Javascript engine. We set up a Javascript conformance test and calculate a fingerprint that can reliably identify a given browser, and can be executed on the client within a fraction of a second. Our method is three orders of magnitude faster than previous work on browser fingerprinting, and can be implemented in just a few hundred lines of Javascript. Furthermore, we collected data for more than 150 browser and operating system combinations, and present algorithms to calculate minimal fingerprints for each of a given set of browsers to make fingerprinting as fast as possible. We evaluate the feasibility of our method with a survey and discuss the consequences for user privacy and security. This technique can be used to enhance state-of-the-art session management (with or without SSL), as it can make session hijacking considerably more difficult.},
+author = {M. Mulazzani and Philipp Reschl and Markus Huber and Manuel Leithner and E. Weippl},
+}
