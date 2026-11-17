@@ -18,16 +18,21 @@ zotero-key: "4R72KK7J"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4R72KK7J"
 date-added: "2026-01-08 20:10:56"
-date-modified: "2026-03-25 21:30:15"
+date-modified: "2026-11-17 18:05:35"
 ---
 
 # The mythos of model interpretability
 
 **Lipton, Zachary C.**
 
+## Extra
+
+OpenAlex: W2439568532
+
 ## Attachments
 
 - [Notion](notion://www.notion.so/Lipton2018-2e29fa248c57819e8205c9721f601d52)
+- [Lipton - 2018 - The mythos of model interpretability.pdf](../../attachments/BQ/BQDQBMXH/Lipton%20-%202018%20-%20The%20mythos%20of%20model%20interpretability.pdf)
 
 ---
 

@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T18:05:35Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:05:35Z",
+			"dateModified": "2026-11-17T18:05:35Z",
+			"filename": "Lipton - 2018 - The mythos of model interpretability.pdf",
+			"itemType": "attachment",
+			"key": "BQDQBMXH",
+			"linkMode": "imported_url",
+			"parentItem": "4R72KK7J",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1606.03490"
+		},
+		{
 			"accessDate": "2026-01-08T20:31:38Z",
 			"charset": "",
 			"contentType": "",
@@ -29,6 +45,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "notion://www.notion.so/Lipton2018-2e29fa248c57819e8205c9721f601d52"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Lipton - 2018 - The mythos of model interpretability.pdf",
+				"files": [
+					{
+						"path": "attachments/BQ/BQDQBMXH/Lipton - 2018 - The mythos of model interpretability.pdf",
+						"size": 367847,
+						"storage": "git"
+					}
+				],
+				"key": "BQDQBMXH",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1606.03490"
 			}
 		],
 		"collections": [
@@ -59,7 +92,8 @@
 		],
 		"date": "2018",
 		"dateAdded": "2026-01-08T20:10:56Z",
-		"dateModified": "2026-03-25T21:30:15Z",
+		"dateModified": "2026-11-17T18:05:35Z",
+		"extra": "OpenAlex: W2439568532",
 		"issue": "3",
 		"itemType": "journalArticle",
 		"key": "4R72KK7J",
