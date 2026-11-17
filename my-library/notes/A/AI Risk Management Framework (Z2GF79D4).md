@@ -14,7 +14,7 @@ zotero-key: "Z2GF79D4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Z2GF79D4"
 date-added: "2026-02-25 21:42:38"
-date-modified: "2026-03-25 21:29:40"
+date-modified: "2026-11-17 17:49:31"
 ---
 
 # AI Risk Management Framework
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:40"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4391927373
 
 ## Attachments
 

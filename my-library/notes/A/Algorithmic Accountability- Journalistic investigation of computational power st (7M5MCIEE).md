@@ -21,12 +21,16 @@ zotero-key: "7M5MCIEE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7M5MCIEE"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-13 19:31:17"
+date-modified: "2026-11-17 17:49:41"
 ---
 
 # Algorithmic Accountability: Journalistic investigation of computational power structures
 
 **Diakopoulos, Nicholas**
+
+## Extra
+
+OpenAlex: W2332851105
 
 ## Attachments
 

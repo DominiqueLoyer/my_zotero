@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:49:33Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:49:32Z",
+			"dateModified": "2026-11-17T17:49:33Z",
+			"filename": "Ahmed, Tanveer and Traore, Issa and Saad, Sherif - 2025 - AI-Driven Hybrid Model for Fake News Detection Integrating NLP, Sentiment Analysis, and Source Cred.pdf",
+			"itemType": "attachment",
+			"key": "55J7BWMV",
+			"linkMode": "imported_file",
+			"parentItem": "S37J46JS",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W7117978155.pdf"
+		},
+		{
 			"accessDate": "2026-11-08T16:03:57Z",
 			"charset": "",
 			"contentType": "",
@@ -19,6 +35,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ahmed, Tanveer and Traore, Issa and Saad, Sherif - 2025 - AI-Driven Hybrid Model for Fake News Detection Integrating NLP, Sentiment Analysis, and Source Cred.pdf",
+				"files": [
+					{
+						"path": "attachments/55/55J7BWMV/Ahmed, Tanveer and Traore, Issa and Saad, Sherif - 2025 - AI-Driven Hybrid Model for Fake News Detection Integrating NLP, Sentiment Analysis, and Source Cred.pdf",
+						"size": 571476,
+						"storage": "git"
+					}
+				],
+				"key": "55J7BWMV",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W7117978155.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -47,7 +80,7 @@
 	},
 	"zotero": {
 		"DOI": "10.29121/shodhkosh.v6.i4s.2025.6946",
-		"citationKey": "ahmedtanveerandtraoreissaandsaadsherifAIDrivenHybridModel2025",
+		"citationKey": "ahmedtanveerandtraoreissaandsaadsherifAIDrivenHybridModel2025a",
 		"collections": [
 			"TFD2PMBS"
 		],
@@ -59,8 +92,8 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-02-26T20:19:13Z",
-		"dateModified": "2026-11-13T19:31:06Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:49:33Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W7117978155",
 		"itemType": "journalArticle",
 		"key": "S37J46JS",
 		"relations": {

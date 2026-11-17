@@ -15,7 +15,7 @@ zotero-key: "A2B8N28C"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/A2B8N28C"
 date-added: "2026-02-25 20:54:08"
-date-modified: "2026-11-09 15:07:04"
+date-modified: "2026-11-17 17:49:28"
 ---
 
 # Advances in Collaborative Filtering
@@ -25,6 +25,7 @@ date-modified: "2026-11-09 15:07:04"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4226210383
 
 ## Attachments
 
