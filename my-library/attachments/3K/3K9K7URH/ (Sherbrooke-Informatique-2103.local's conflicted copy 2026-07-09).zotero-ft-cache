@@ -1,0 +1,133 @@
+Cas d’utilisation : prologue
+
+
+ H. Lounis
+Analyse vs. Conception
+aAnalyse : investigation du problème à
+résoudre, et de ce que le système doit
+faire.
+aConception : solution logique et détaillée,
+mais de haut niveau, et répondant aux
+besoins identifiés durant l’analyse.
+analyse conception construction
+Code
+Investigation
+du problème
+Solution
+logique
+
+
+ H. Lounis
+Un exemple sommaire : jeu
+de dés
+aDéfinir un cas d’utilisation : une narration
+structurée d’un processus du domaine.
+`UC : Jouer au dés
+`Acteurs : Joueur
+`Description : le UC commence prend
+possession des dés et les lance. Si le total des
+2 dés est 7, le joueur gagne, sinon, il perd.
+
+
+ H. Lounis
+Jeu de dés : modèle conceptuel
+Joueur
+-Nom : chaine de caracteres
+Dé
+-valeur de la face : 1..6
+Jeu de dés
+1
+2
+lance
+1
+1
+Joue
+1
+2
+Inclu
+Il représente les concepts du domaine du problème.
+
+
+ H. Lounis
+Jeu de dés : diagramme de
+collaboration
+: Joueur
+D2 : dé
+D1 : dé
+Joue() 1 : r1:= lance()
+2 : r2:= lance()
+Il montre le flot de messages entre les instances et l’évocation des
+méthodes.
+
+
+ H. Lounis
+Jeu de dés : Diagramme de
+classes – conception 
+Joueur
++Joue() :
+-Nom : chaine de caracteres
+Dé
++lance()
+-valeur de la face : 1..6
+Jeu de dés
++Commence()
+1
+2
+lance
+1
+1
+Joue
+1
+2
+Inclu
+- Comment les objets sont connectés entre eux ?
+-Quelles sont les méthodes des classes ?
+-Des détails de conception sont introduits !
+
+
+ H. Lounis
+OO vs. OF
+Analyse et conception OO Analyse et Conception Structurées
+Fonction 1 Fonction 2 Fonction 3
+Système
+Concept-1 Concept-2
+Concept-3
+
+
+ H. Lounis
+Un processus de développement
+[voir chapitre 2, C. Larman]
+aUML est à utiliser dans un processus de
+développement itératif et incrémental ;
+aItératif : succession de raffinements suivant des
+cycles d’analyse, de conception,
+d’implémentation et de tests ;
+aSe fixer des limites dans le temps, pour les
+différentes activités et cycles ;
+aLes UC peuvent être simplifiés à l’itération n,
+puis complétés à l’itération n+1 ; priorité aux UC
+« stratégiques » ;
+aQd créer les artéfacts
+
+
+ H. Lounis
+Exemple d’entités produites
+durant l’analyse
+aPlanification : temps, budget, ressources, etc.
+aRapport d’investigation préliminaire :
+motivation, alternatives, besoins, etc.
+aSpécification des besoins ;
+aGlossaire : concepts, etc.
+aPrototype ;
+aUCs sous forme narrative ;
+aDiagrammes de Ucs ;
+aModèle conceptuel.
+
+
+ H. Lounis
+Un exemple
+aRetrait d’espèces sur un compte client :
+`UC simplifié ;
+`Modèle conceptuel simplifié ;
+`Modèle de collaboration ;
+`Diagramme de classes (conception)

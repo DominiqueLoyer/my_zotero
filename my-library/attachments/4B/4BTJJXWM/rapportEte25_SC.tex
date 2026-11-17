@@ -1,0 +1,234 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fichier .tex Principal pour le Rapport de Projet RI
+% Style NAACL 2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper]{article}
+\usepackage{naacl2016} % Assurez-vous d'avoir ce fichier .sty
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[utf8]{inputenc} % Encodage UTF-8 pour les caractères français
+\usepackage[T1]{fontenc}    % Encodage des fontes
+\usepackage[french]{babel}  % Langue française (si nécessaire pour césures etc.)
+\usepackage{url}
+\usepackage{graphicx}       % Pour inclure des images/graphiques
+\usepackage{amsmath}        % Packages mathématiques
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}       % Pour de jolis tableaux (\toprule, \midrule, \bottomrule)
+\usepackage{multirow}       % Pour fusionner des cellules dans les tableaux
+\usepackage{natbib}         % Pour la bibliographie style auteur-date
+\usepackage{microtype}      % Améliore la typographie et les coupures de mots
+\usepackage{float}          % Pour mieux contrôler le placement des flottants si 
+
+\naaclfinalcopy % À décommenter pour la version finale
+
+
+% Définir le chemin vers le fichier .bib (si différent du dossier courant)
+% Assurez-vous que le fichier references.bib est dans le même dossier ou spécifiez le chemin
+% \bibliography{references}
+
+\title{Évaluation de la partie 1 Examen d'été partie en sciences cognitives} % Titre suggéré, adaptez si besoin
+
+% Mettez vos noms et affiliations ici
+\author{Dominique S. Loyer\\
+  Travail présenté le 28 avril 2025 \\
+  à Ngoc Tan Lê, dans le cadre d'un \\
+  d'un examen doctoral, DIC, à l'UQAM \\
+  loyer.dominique@courrier.uqam.ca \\}
+
+\date{today}
+\begin{document}
+\maketitle
+
+
+\begin{abstract}
+Ce rapport examine les intersections complexes entre les algorithmes de personnalisation, les théories de la bureaucratie et les impératifs de responsabilité dans le développement technologique. En réponse à des questions spécifiques posées par Dominique Loyer, nous analysons le lien entre les algorithmes de personnalisation et le phénomène bureaucratique tel que conceptualisé par Max Weber et critiqué par David Graeber, en nous appuyant sur les travaux de \cite{SerpaFerreira2019} et \cite{Graeber2015}. Nous explorons ensuite les étapes potentielles pour modifier les algorithmes de personnalisation jugés prédateurs, en nous basant principalement sur les principes de la Déclaration de Montréal pour une IA responsable \cite{DeclarationMontreal2018}, compte tenu de l'inaccessibilité de la référence Praxis Encommun.io \cite{PraxisInaccessible}. Enfin, inspirés par le Biosphere Code \cite{BiosphereCode2015} et confrontés à l'inaccessibilité de l'article de Laurence Neuer \cite{Neuer2018Inaccessible}, nous proposons une structure et des principes pour un code de déontologie destiné aux développeurs d'algorithmes de personnalisation, soulignant la responsabilité humaine, organisationnelle et sociale inhérente à leur travail. Cette analyse met en lumière l'opacité, la concentration de pouvoir et les défis d'imputabilité communs aux systèmes bureaucratiques et algorithmiques, tout en esquissant des pistes pour un développement et un déploiement plus éthiques et responsables des technologies de personnalisation. \\ \\
+\textbf{Mots-clés:} Algorithmes de personnalisation, Bureaucratie, Max Weber, David Graeber, Responsabilité algorithmique, Éthique de l'IA, Déclaration de Montréal, Biosphere Code, Opacité, Pouvoir. \\ \\
+\textbf{Abstract (English):} This report examines the complex intersections between personalization algorithms, theories of bureaucracy, and the imperatives of responsibility in technological development. Responding to specific questions posed by Dominique Loyer, we analyze the link between personalization algorithms and the bureaucratic phenomenon as conceptualized by Max Weber and critiqued by David Graeber, drawing on the works of \cite{SerpaFerreira2019} and \cite{Graeber2015}. We then explore potential steps to modify personalization algorithms deemed predatory, primarily based on the principles of the Montreal Declaration for Responsible AI \cite{DeclarationMontreal2018}, given the inaccessibility of the Praxis Encommun.io reference \cite{PraxisInaccessible}. Finally, inspired by the Biosphere Code \cite{BiosphereCode2015} and faced with the inaccessibility of Laurence Neuer's article \cite{Neuer2018Inaccessible}, we propose a structure and principles for a code of ethics for personalization algorithm developers, emphasizing the human, organizational, and social responsibility inherent in their work. This analysis highlights the opacity, concentration of power, and accountability challenges common to both bureaucratic and algorithmic systems, while outlining pathways for more ethical and responsible development and deployment of personalization technologies. \\ \\
+\textbf{Keywords:} Personalization Algorithms, Bureaucracy, Max Weber, David Graeber, Algorithmic Responsibility, AI Ethics, Montreal Declaration, Biosphere Code, Opacity, Power.
+\end{abstract}
+
+\section{Introduction}
+L'ère numérique a vu l'émergence et la prolifération d'algorithmes de personnalisation qui façonnent de plus en plus nos expériences en ligne et hors ligne. Ces systèmes, conçus pour adapter le contenu, les produits et les services aux préférences individuelles, soulèvent des questions fondamentales sur le pouvoir, la responsabilité et l'autonomie. La remarque initiale de Dominique Loyer concernant l'impossibilité pour un individu de demander des comptes à un algorithme de personnalisation fait écho aux préoccupations croissantes concernant l'opacité et l'absence d'imputabilité des systèmes automatisés.
+
+Cette opacité et cette concentration de pouvoir ne sont pas sans rappeler les critiques adressées aux systèmes bureaucratiques traditionnels. Max Weber, dans son analyse pionnière, décrivait la bureaucratie comme une forme d'organisation rationnelle et efficace, mais potentiellement déshumanisante et rigide \cite{SerpaFerreira2019}. David Graeber, plus récemment, a critiqué l'ère de la "bureaucratisation totale", arguant que les logiques bureaucratiques, fusionnant les sphères publique et privée, servent souvent à extraire de la valeur et à limiter la créativité humaine, tout en s'appuyant sur une menace latente de violence \cite{Graeber2015}.
+
+Ce rapport vise à explorer en profondeur les liens entre les algorithmes de personnalisation et le phénomène bureaucratique (Question 1), à envisager des stratégies d'intervention pour corriger les dérives potentielles de ces algorithmes (Question 2), et à proposer un cadre déontologique pour responsabiliser leurs concepteurs (Question 3). En mobilisant les travaux de Weber, Graeber, la Déclaration de Montréal pour une IA responsable \cite{DeclarationMontreal2018} et le Biosphere Code \cite{BiosphereCode2015}, nous chercherons à éclairer les dynamiques de pouvoir à l'œuvre et à esquisser des voies vers une technologie plus juste et responsable.
+
+\section{État de l'Art : Algorithmes de Personnalisation et Cadres Éthiques}
+
+\subsection{Algorithmes de Personnalisation : Fonctionnement et Enjeux}
+Les systèmes de recommandation et de personnalisation sont devenus omniprésents dans divers domaines tels que le commerce électronique, les services de streaming, les réseaux sociaux, le tourisme, la santé et l'éducation. Leur objectif principal est de filtrer l'information et de proposer aux utilisateurs des contenus, produits ou services susceptibles de les intéresser, en se basant sur leurs données et comportements passés ou ceux d'utilisateurs similaires.
+
+Plusieurs techniques sont employées, notamment le Filtrage Basé sur le Contenu, le Filtrage Collaboratif (CF), et les Systèmes Hybrides qui combinent plusieurs approches pour améliorer la performance globale. Ces systèmes reposent sur l'analyse de grandes quantités de données, explicites et implicites.
+
+Si leur efficacité commerciale est avérée, ils soulèvent d'importants enjeux éthiques :
+\begin{itemize}
+    \item \textbf{Opacité et Manque d'Explicabilité:} Les modèles complexes fonctionnent souvent comme des "boîtes noires", rendant difficile la compréhension de leurs décisions. L'explicabilité (XAI) devient cruciale.
+    \item \textbf{Biais et Équité:} Les algorithmes peuvent reproduire et amplifier les biais présents dans les données, conduisant à des discriminations.
+    \item \textbf{Bulles de Filtre et Polarisation:} Ils peuvent enfermer les utilisateurs dans des "bulles de filtre", limitant l'exposition à la diversité.
+    \item \textbf{Manipulation et Prédation:} La capacité à profiler finement les utilisateurs ouvre la porte à des stratégies marketing agressives.
+    \item \textbf{Vie Privée:} La collecte massive de données personnelles pose des risques.
+\end{itemize}
+
+\subsection{Cadres Éthiques et Principes de Responsabilité}
+Face à ces enjeux, plusieurs initiatives visent à encadrer le développement et le déploiement de l'IA et des algorithmes.
+\begin{itemize}
+    \item \textbf{La Déclaration de Montréal pour une IA responsable (2018):} Énonce dix principes fondamentaux (Bien-être, Autonomie, Vie privée, Solidarité, Participation démocratique, Équité, Diversité, Prudence, Responsabilité, Soutenabilité) \cite{DeclarationMontreal2018}.
+    \item \textbf{Le Biosphere Code (2015):} Propose sept principes guidant le développement algorithmique en tenant compte de l'impact sur la biosphère et la société (Responsabilité, Service à l'humanité/biosphère, Équité, Flexibilité, Anticipation, Ouverture des données, Inspiration) \cite{BiosphereCode2015}.
+    \item \textbf{Autres Principes et Réglementations:} Cadres comme le RGPD ou les principes de l'OCDE abordent aussi la protection des données, la transparence et l'équité. La nécessité de responsabiliser les individus et les organisations est récurrente.
+\end{itemize}
+Ces cadres soulignent l'importance de l'explicabilité, de la justice, de la vie privée et de la responsabilité humaine.
+
+\section{Méthodologie}
+Ce rapport adopte une approche qualitative et analytique basée sur l'examen critique des documents de référence fournis pour chaque question.
+
+\begin{enumerate}
+    \item \textbf{Pour la Question 1 (Algorithmes et Bureaucratie):} Analyse conceptuelle comparative des caractéristiques de la bureaucratie wébérienne \cite{SerpaFerreira2019} et des critiques de Graeber \cite{Graeber2015} avec les modalités de fonctionnement des algorithmes de personnalisation.
+    \item \textbf{Pour la Question 2 (Modification des Algorithmes):} En l'absence de \cite{PraxisInaccessible}, concentration sur la Déclaration de Montréal \cite{DeclarationMontreal2018} pour traduire ses principes en étapes opérationnalisables.
+    \item \textbf{Pour la Question 3 (Code de Déontologie):} En l'absence de \cite{Neuer2018Inaccessible}, inspiration principale du Biosphere Code \cite{BiosphereCode2015} pour proposer une structure et des principes adaptés aux algorithmes de personnalisation.
+\end{enumerate}
+La synthèse de ces analyses répond aux questions posées. Les limitations dues aux sources inaccessibles sont reconnues.
+
+\section{Résultats et Limitations}
+
+\subsection{Question 1 : Algorithmes de Personnalisation et Phénomène Bureaucratique}
+L'analyse comparative entre les algorithmes de personnalisation et le phénomène bureaucratique \cite{SerpaFerreira2019, Graeber2015} révèle des parallèles frappants autour du pouvoir, des règles, du savoir et de l'opacité.
+
+\textbf{a) Rationalité, Règles et Formalisation:}
+Weber décrivait la bureaucratie comme fonctionnant sur des règles abstraites, formelles et impersonnelles pour l'efficacité et la prévisibilité \cite{SerpaFerreira2019}. Les algorithmes opèrent aussi selon une logique de règles (codées ou apprises), appliquant une forme de \textbf{formalisation} des préférences humaines. Graeber critique cette formalisation comme un moyen de contrôle \cite{Graeber2015}. Les algorithmes réduisent la complexité individuelle à des profils, appliquant des règles standardisées.
+
+\textbf{b) Savoir, Pouvoir et Domination:}
+Weber soulignait le \textbf{savoir technique spécialisé} comme source de pouvoir bureaucratique ("domination par la force du savoir") \cite{SerpaFerreira2019}. Le pouvoir des algorithmes réside dans leur capacité à exploiter les données (savoir sur les utilisateurs) et dans la maîtrise technique des concepteurs. Ce savoir confère un pouvoir considérable aux plateformes pour influencer les utilisateurs. Graeber voit la bureaucratie moderne comme un système d'extraction de valeur \cite{Graeber2015}; les algorithmes de personnalisation peuvent être vus comme des instruments de cette extraction.
+
+\textbf{c) Hiérarchie et Centralisation:}
+La bureaucratie wébérienne est \textbf{hiérarchique} et centralisée \cite{SerpaFerreira2019}. Bien que l'architecture technique puisse être distribuée, le pouvoir décisionnel sur les algorithmes reste souvent fortement \textbf{centralisé} au sein des entreprises, sans contrôle des utilisateurs finaux.
+
+\textbf{d) Impersonnalité et Opacité:}
+L'\textbf{impersonnalité} wébérienne visait l'équité mais peut déshumaniser \cite{SerpaFerreira2019}. Les algorithmes opèrent aussi impersonnellement. Graeber critique les règles bureaucratiques masquant des relations de pouvoir et servant de contrôle \cite{Graeber2015}. L'\textbf{opacité} est un problème majeur. Weber reconnaissait que le savoir spécialisé crée l'opacité \cite{SerpaFerreira2019}. Graeber dénonce l'opacité des règles modernes \cite{Graeber2015}. Les algorithmes sont notoirement opaques ("boîtes noires"), rendant la contestation difficile, comme le souligne la question initiale. Cette incapacité à "rendre des comptes" est un trait commun.
+
+\textbf{e) Stupidité Structurelle et Limitation de la Créativité:}
+Graeber parle de "stupidité structurelle" des bureaucraties qui étouffent l'imagination \cite{Graeber2015}. Les algorithmes, en créant des "bulles de filtre" et en optimisant pour des métriques étroites, peuvent aussi limiter l'exposition à la nouveauté et appauvrir l'horizon créatif, faisant écho aux processus de standardisation critiqués \cite{SerpaFerreira2019, Graeber2015}.
+
+En conclusion, les algorithmes de personnalisation peuvent être vus comme une forme de bureaucratie technologique, partageant des caractéristiques clés (règles, pouvoir/savoir, impersonnalité, opacité) et les risques associés (rigidité, contrôle, déficit d'imputabilité).
+
+\subsection{Question 2 : Étapes pour Modifier les Algorithmes Prédateurs}
+Comment modifier des algorithmes de personnalisation générant des logiques prédatrices?
+
+\textbf{Limitation:} La référence \cite{PraxisInaccessible} est inaccessible. La réponse s'appuie sur la Déclaration de Montréal \cite{DeclarationMontreal2018}.
+
+Une approche structurée est nécessaire :
+
+\textbf{Étape 1 : Diagnostic Approfondi et Évaluation d'Impact (Prudence, Responsabilité, Équité)}
+\begin{itemize}
+    \item Caractériser précisément les mécanismes prédateurs et leurs effets.
+    \item Mener un audit d'équité et de biais systématique.
+    \item Évaluer l'impact sur le bien-être et l'autonomie des utilisateurs.
+\end{itemize}
+
+\textbf{Étape 2 : Redéfinition des Objectifs et Contraintes Éthiques (Bien-être, Justice, Équité, Soutenabilité)}
+\begin{itemize}
+    \item Aligner la fonction objectif sur le bien-être utilisateur, pas seulement la conversion.
+    \item Introduire des contraintes formelles d'équité.
+    \item Minimiser l'empreinte environnementale.
+\end{itemize}
+
+\textbf{Étape 3 : Intervention Technique et Re-conception (Prudence, Responsabilité, Autonomie)}
+\begin{itemize}
+    \item Corriger les biais dans les données d'entraînement.
+    \item Ajuster les modèles ou explorer des alternatives plus transparentes.
+    \item Implémenter des mécanismes d'explicabilité et de contrôle utilisateur.
+    \item Assurer la protection de la vie privée dès la conception.
+\end{itemize}
+
+\textbf{Étape 4 : Évaluation Post-Intervention et Monitoring Continu (Responsabilité, Prudence)}
+\begin{itemize}
+    \item Tester rigoureusement la version modifiée sur des métriques éthiques.
+    \item Mettre en place une surveillance continue des biais et effets prédateurs.
+    \item Créer des canaux de feedback utilisateur clairs.
+\end{itemize}
+
+\textbf{Étape 5 : Gouvernance et Participation Démocratique (Participation Démocratique, Responsabilité, Solidarité)}
+\begin{itemize}
+    \item Établir une gouvernance interne avec revue éthique.
+    \item Assurer une transparence externe sur les audits et mesures correctives.
+    \item Engager un dialogue avec les parties prenantes (utilisateurs, régulateurs, société civile).
+    \item Partager les leçons apprises avec la communauté.
+\end{itemize}
+Ce processus est itératif et exige un engagement soutenu envers la responsabilité et l'amélioration continue \cite{DeclarationMontreal2018}.
+
+\subsection{Question 3 : Vers un Code de Déontologie pour les Codeurs d'Algorithmes de Personnalisation}
+Comment formuler un code de déontologie pour les codeurs d'algorithmes de personnalisation, inspiré du Biosphere Code \cite{BiosphereCode2015}, pour rappeler la responsabilité humaine, organisationnelle et sociale?
+
+\textbf{Limitations:} L'article de \cite{Neuer2018Inaccessible} est inaccessible. Inspiration principale : Biosphere Code \cite{BiosphereCode2015} et Déclaration de Montréal \cite{DeclarationMontreal2018}.
+
+Le Biosphere Code \cite{BiosphereCode2015} offre un modèle par son approche interdisciplinaire et son accent sur la responsabilité explicite des créateurs face à des enjeux complexes. Un code pour les développeurs d'algorithmes de personnalisation pourrait adopter une structure similaire :
+
+\textbf{Structure Proposée :}
+\begin{enumerate}
+    \item \textbf{Préambule :} Raison d'être, portée, reconnaissance de l'impact, affirmation de la responsabilité fondamentale, objectif du code.
+    \item \textbf{Principes Fondamentaux :}
+        \begin{itemize}
+            \item P1: Primauté du Bien-être et de l'Autonomie de l'Utilisateur.
+            \item P2: Équité Algorithmique et Non-Discrimination.
+            \item P3: Transparence, Explicabilité et Intelligibilité.
+            \item P4: Contrôle Utilisateur et Respect de la Vie Privée.
+            \item P5: Responsabilité et Imputabilité.
+            \item P6: Prudence et Anticipation des Risques.
+            \item P7: Impact Sociétal et Environnemental.
+        \end{itemize}
+        Chaque principe serait assorti de devoirs clairs pour les codeurs.
+    \item \textbf{Mise en Œuvre et Application :} Formation, intégration dans les processus, outils, signalement.
+    \item \textbf{Gouvernance et Évolution du Code :} Comité d'éthique, revue périodique.
+\end{enumerate}
+
+\textbf{Formulation et Rapports de Force :}
+La formulation doit impliquer les codeurs et autres parties prenantes dans un processus transparent. Face aux rapports de force, le code sert à :
+\begin{itemize}
+    \item Objectiver le débat avec un langage et des principes partagés.
+    \item Légitimer les préoccupations éthiques des codeurs.
+    \item Responsabiliser collectivement (individus et organisations).
+\end{itemize}
+Il s'agit de cultiver une culture de la responsabilité, reconnaissant que "de grands pouvoirs algorithmiques impliquent de grandes responsabilités" \cite{BiosphereCode2015}.
+
+\subsection{Limitations de l'Étude}
+\begin{enumerate}
+    \item \textbf{Sources Inaccessibles:} Les références \cite{PraxisInaccessible} et \cite{Neuer2018Inaccessible} n'ont pu être consultées, limitant potentiellement la profondeur des réponses aux Questions 2 et 3.
+    \item \textbf{Nature Théorique:} Les réponses, surtout pour Q2 et Q3, sont exploratoires et nécessiteraient une validation pratique.
+    \item \textbf{Complexité des Concepts:} L'analyse de concepts comme la bureaucratie ou le pouvoir est basée sur les sources fournies et n'est pas exhaustive.
+    \item \textbf{Évolution Rapide du Domaine:} Les cadres et principes discutés nécessiteront une réévaluation continue.
+\end{enumerate}
+Malgré cela, l'analyse fournit un éclairage substantiel et des pistes concrètes.
+
+\section{Perspective et Travaux Futurs}
+Plusieurs perspectives de recherche émergent :
+\begin{enumerate}
+    \item Analyse empirique des "bureaucraties algorithmiques" dans différentes organisations.
+    \item Développement et test de méthodologies d'intervention spécifiques (audit de biais, métriques de bien-être, etc.).
+    \item Co-construction et évaluation de l'efficacité des codes de déontologie en pratique.
+    \item Exploration d'alternatives à la personnalisation opaque favorisant diversité et autonomie.
+    \item Étude de l'efficacité des cadres réglementaires pour l'imputabilité algorithmique.
+    \item Analyse des impacts sociétaux et environnementaux à long terme de la "bureaucratisation algorithmique".
+\end{enumerate}
+Ces travaux sont essentiels pour guider l'évolution de la technologie de manière responsable.
+
+\section{Conclusion}
+Ce rapport a mis en lumière les liens profonds entre les algorithmes de personnalisation et le phénomène bureaucratique, soulignant des enjeux communs d'opacité, de pouvoir et d'imputabilité. En s'appuyant sur Weber \cite{SerpaFerreira2019} et Graeber \cite{Graeber2015}, nous avons montré comment ces algorithmes peuvent incarner une forme de "bureaucratie algorithmique", avec ses efficacités potentielles mais aussi ses risques de rigidité et de contrôle.
+
+Face aux dérives possibles, comme les logiques prédatrices, une approche proactive et éthique est nécessaire. Les étapes proposées pour modifier ces systèmes, basées sur la Déclaration de Montréal \cite{DeclarationMontreal2018}, insistent sur une démarche globale intégrant diagnostic, redéfinition des objectifs, intervention technique, évaluation continue et gouvernance participative.
+
+La formulation d'un code de déontologie pour les codeurs, inspirée du Biosphere Code \cite{BiosphereCode2015}, apparaît comme un outil crucial pour ancrer la responsabilité individuelle et organisationnelle au cœur des pratiques de développement. Ce code doit promouvoir le bien-être utilisateur, l'équité, la transparence, la prudence et la prise en compte des impacts sociétaux.
+
+Reconnaître la nature bureaucratique des systèmes algorithmiques est essentiel pour anticiper et atténuer leurs potentiels effets négatifs. Une vigilance constante, un engagement éthique fort et des mécanismes d'imputabilité robustes sont indispensables pour assurer que ces puissantes technologies servent réellement l'humain et la société, répondant ainsi à l'impératif de responsabilité à l'ère numérique.
+
+
+
+\nocite{*}
+\bibliographystyle{acl} % Style bibliographique NAACL/ACL
+\bibliography{rapportEte25_SC/ete25SC} % 
+%\bibliography{referencesVF} % Nom de votre fichier .bib
+\clearpage
+\tableofcontents
+
+\end{document}

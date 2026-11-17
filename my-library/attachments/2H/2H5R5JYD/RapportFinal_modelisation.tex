@@ -1,0 +1,2114 @@
+\documentclass[9pt,twocolumn,french]{article}
+%\setboolean{shortarticle}{false}
+\usepackage[french]{babel}
+\usepackage{amsmath, amssymb} % Math symbols (though not strictly needed here)
+\usepackage{graphicx} % For images (though not needed here)
+\usepackage{booktabs} % For professional quality tables (\toprule, \midrule,
+\usepackage{array} 
+\usepackage{hyperref} % For hyperlinks (optional, useful if URLs were present)
+\usepackage{ragged2e} % For better justification in p columns (\RaggedRight)
+\usepackage{microtype} % Improves typography subtly
+\usepackage{natbib} % Required for apalike style
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym}
+\usepackage{plantuml}
+\usepackage{caption} 
+\usepackage{authblk}
+\usepackage{float}
+\newcommand{\inlinecite}[1]{
+  \{\citeauthor{#1},\, \citeyear{#1},\, \citetitle{#1}\}%
+}
+\newcommand{\journalref}{}
+
+% Définitions de couleurs pour opticajnl
+\usepackage{xcolor}
+\definecolor{color1}{RGB}{0,0,0}      % noir par défaut
+\definecolor{color2}{RGB}{128,128,128} % gris par défaut
+
+
+%\naaclfinalcopy % À décommenter pour la version finale
+\usepackage{listings}
+
+
+
+\usepackage{times}
+\date{28 avril 2025}
+
+\title{Projet 1: modélisation d'un système permettant l'explicabilité des sources d'information}
+
+\author{Dominique S. Loyer}
+
+
+\affil[UQAM]{Projet 1 présenté au Professeur Hakim Lounis, dans le cadre d'un cours de doctorat, modélisation des problèmes complexes, DIC-9251}
+\affil[@]{loyer.dominique@courrier.uqam.ca}
+\begin{abstract}
+      Face à la surcharge informationnelle croissante ("infobésité"), distinguer l'information fiable devient un défi majeur pour les citoyens numériques. La polarisation des opinions, souvent alimentée par la diffusion rapide d'informations non vérifiées, voire fausses, sur les plateformes numériques, exacerbe ce problème complexe \citep{Viviani2017}. Ce projet vise à concevoir un système capable d'évaluer la crédibilité des informations et de leurs sources (sites web, articles, réponses de grands modèles de langage). L'objectif est de fournir à l'utilisateur des métriques claires et interprétables (score de crédibilité, analyse des sources, identification des opinions divergentes) pour l'aider à développer un esprit critique et à s'informer de manière éclairée. Le système envisagé repose sur une approche hybride, combinant des règles logiques de prédicats prédéfinies et des techniques d'apprentissage automatique (traitement du langage naturel, analyse de sentiment, analyse de cohérence, détection de biais) pour analyser le contenu et évaluer ses sources \citep{Ahmed2025Aidriven}. Cette approche est motivée par les limitations reconnues des systèmes entièrement automatisés, en particulier dans des domaines complexes où le jugement humain reste crucial mais difficilement scalable \citep{Nabozny2021, Hagag2023The, Thibault2025A, Pescuma2025}. Ce rapport présente la modélisation UML initiale de ce système, détaillant sa structure statique et son comportement dynamique envisagé.
+    \end{abstract}
+    \setboolean{displaycopyright}{false}
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  numbers=left,
+  frame=single,
+  breaklines=true,
+}
+\sloppy
+\begin{document}
+\maketitle
+\section{Introduction \& Positionnement du problème}
+
+\subsection{Le Défi de l'Écosystème Informationnel Moderne}
+
+L'ère numérique a engendré un volume d'informations sans précédent, créant une situation souvent qualifiée d'"infobésité". Naviguer dans ce flux constant et discerner les informations fiables des contenus trompeurs est devenu une compétence essentielle mais difficile à maîtriser pour le citoyen moyen. Le défi est amplifié par la vitesse à laquelle l'information, qu'elle soit vraie ou fausse, se propage sur les réseaux sociaux et autres plateformes numériques \citep{Loth2024, Chen2024Combating, Castillo2011}. Cette dissémination rapide dépasse largement les capacités des méthodes traditionnelles de vérification manuelle des faits, qui, bien qu'essentielles, ne peuvent traiter l'ampleur et la vélocité du problème \citep{Hagag2023The, Pescuma2025, Loth2024}.
+
+Au cœur de ce défi se trouve la prolifération de la désinformation, de la mésinformation et des "fake news" \citep{Viviani2017, Loth2024, Zhou2022A, Sharma2021Combating}. Il est utile de distinguer ces termes : la mésinformation réfère à la diffusion d'informations fausses sans intention de nuire, tandis que la désinformation implique une intention délibérée de tromper \citep{Zhou2022A, Pescuma2025}. La "fake news", quant à elle, imite souvent le format des contenus journalistiques mais manque de processus éditoriaux rigoureux et peut servir des objectifs malveillants \citep{Zhou2022A, Sharma2021Combating}. L'impact de ces contenus erronés est profond, affectant l'opinion publique, les processus démocratiques, la confiance dans les institutions et même la santé publique, comme l'a démontré la pandémie de COVID-19 \citep{Viviani2017, Loth2024, Zhou2022A, de2026A}.
+
+L'avènement de l'Intelligence Artificielle Générative (GenAI) a ajouté une couche de complexité significative. Des technologies comme les grands modèles de langage (LLM) et les réseaux antagonistes génératifs (GAN) permettent désormais de créer automatiquement des textes, des images et des vidéos (deepfakes) d'un réalisme saisissant, souvent indiscernables des contenus authentiques par l'œil humain ou même par des outils de détection traditionnels \citep{Loth2024, Chen2024Combating, Thibault2025A}. Cette capacité de production à grande échelle et à faible coût de contenus faux mais crédibles exacerbe la crise informationnelle \citep{Loth2024, Zhou2022A, Sharma2021Combating}.
+
+Parallèlement, les utilisateurs sont souvent confrontés à un manque de transparence concernant les sources d'information. Évaluer la crédibilité d'un site web, d'un auteur ou d'une plateforme demande du temps et une expertise que la plupart des gens ne possèdent pas \citep{Viviani2017, Pescuma2025, Rieh2014Credibility, Metzger2010}. La crédibilité elle-même est un concept multidimensionnel, englobant des aspects tels que la fiabilité, l'expertise perçue, l'exactitude factuelle, l'objectivité (ou l'absence de biais), la qualité de la présentation et l'actualité de l'information \citep{Viviani2017, Pescuma2025, Rieh2014Credibility}. Cette complexité rend l'évaluation d'autant plus ardue pour le non-spécialiste.
+
+\subsection{Solution Proposée : Un Système d'Évaluation Automatisée de la Crédibilité}
+
+Pour répondre à ces défis, ce projet propose la conception d'un système d'évaluation de la crédibilité de l'information. L'objectif principal n'est pas de remplacer le jugement humain, mais de fournir aux utilisateurs des outils pour naviguer plus efficacement dans l'écosystème informationnel complexe. Le système vise à générer des métriques claires et interprétables – telles qu'un score de crédibilité global, une analyse détaillée des sources citées ou sous-jacentes, et l'identification d'éventuels points de vue divergents documentés – afin de soutenir et d'encourager le développement d'un esprit critique chez l'utilisateur.
+
+Une caractéristique centrale du système envisagé est son approche *hybride* \citep{Ahmed2025Aidriven}. Reconnaissant les limites des approches purement algorithmiques, notamment face à la subtilité et à la contextualité de nombreuses informations \citep{Nabozny2021, Hagag2023The, Thibault2025A, Pescuma2025}, le système combinera :
+\begin{itemize}
+    \item \textbf{Des règles logiques de prédicats\footnote{Voir Annexe II} prédéfinies :} Celles-ci permettent d'encoder des connaissances explicites sur les indicateurs de crédibilité ou de non-crédibilité (par exemple, la réputation connue d'une source, la présence de certains marqueurs linguistiques typiques de la désinformation) \citep{Metzger2010, W3CCredibility2018, Kedzie2018}. Elles sont efficaces pour les vérifications rapides et les patterns connus.
+    \item \textbf{Des techniques d'Intelligence Artificielle (IA) et de Traitement du Langage Naturel (NLP)\footnote{Voir Annexe I} :} Celles-ci sont employées pour analyser les aspects plus nuancés du contenu, tels que le sentiment véhiculé, la cohérence sémantique du texte, la présence de biais subtils, et pour s'adapter aux nouvelles tactiques de désinformation qui échappent aux règles fixes \citep{Ahmed2025Aidriven}. L'IA joue ici un rôle essentiel, non seulement comme source potentielle du problème (via la GenAI créant des faux), mais aussi comme partie intégrante de la solution \citep{Loth2024, Zhou2022A}.
+\end{itemize}
+Cette combinaison vise à exploiter la robustesse et la transparence des règles pour les cas clairs et la flexibilité de l'IA pour les analyses complexes et l'adaptation.
+
+Les objectifs spécifiques du système, tels que définis dans la problématique initiale, incluent :
+\begin{itemize}
+    \item Lutter contre la surabondance d'information (Infobésité).
+    \item Aider à la détection de la désinformation et des "Fake News", y compris celles générées par IA.
+    \item Offrir une évaluation transparente de la crédibilité des sources.
+    \item Présenter les métriques d'évaluation de manière simple et compréhensible.
+    \item Encourager une pensée critique outillée en présentant divers points de vue.
+    \item Tenter d'assurer la traçabilité de l'information.
+    \item Contribuer (à long terme) à la transparence et à l'imputabilité des systèmes d'information.
+\end{itemize}
+
+Pour atteindre ces objectifs, le système s'appuiera nécessairement sur des sources de données externes, telles que des moteurs de recherche, des API de LLM, et des bases de données de faits vérifiés \citep{Viviani2017}. La modélisation de ces interactions est une partie clé du travail présenté dans ce rapport.
+
+\subsection{Structure du Rapport}
+
+Ce rapport détaille la première phase de conception du système : la modélisation à l'aide du Langage de Modélisation Unifié (UML). La section 2 présente les différents diagrammes UML développés : spécification des acteurs, cas d'utilisation, diagramme de classes, diagrammes de séquence et diagramme d'états-transitions. La section 3 approfondit les technologies et composants clés envisagés, notamment le moteur de règles, le module IA/NLP et l'intégration des données externes. La section 4 discute des choix de modélisation, des défis inhérents à l'évaluation de la crédibilité, des limitations du modèle actuel et des perspectives futures. Enfin, les références bibliographiques sont fournies, suivies de la table des matières.
+
+\section{Modélisation du Système (UML)}
+
+Le Langage de Modélisation Unifié (UML) a été choisi pour cette phase de conception en raison de sa nature standardisée et de sa capacité à représenter différents aspects d'un système logiciel complexe, de ses utilisateurs à sa structure interne et son comportement dynamique \citep{Fowler1998Uml, Larman2004Applying}. Les diagrammes suivants fournissent un plan directeur pour le développement du système d'évaluation de la crédibilité.
+
+\subsection{Spécification des Acteurs}
+
+Les acteurs représentent les entités externes (humaines ou systèmes) qui interagissent avec le système d'évaluation. L'identification claire des acteurs et de leurs objectifs est fondamentale pour définir les frontières et les fonctionnalités du système. Les acteurs suivants ont été identifiés :
+
+\begin{table}[h!]
+  \centering
+  \caption{Acteurs du Système d'Évaluation de Crédibilité}
+  \label{tab:acteurs}
+  \begin{tabular}{@{}lp{0.3\linewidth}p{0.4\linewidth}@{}}
+    \toprule
+    Acteur & Description & Buts Principaux \\
+    \midrule
+    Utilisateur & Personne (lambda) souhaitant vérifier la crédibilité d'une information (texte, URL, requête). & Soumettre une requête de vérification, Consulter le rapport d'évaluation simplifié, Fournir un feedback sur la pertinence du rapport. \\
+    \addlinespace
+    Expert & Personne qualifiée (ex: data scientist, fact-checker) responsable de la configuration fine du système. & Définir/Ajuster les règles de vérification\footnote{Voire les règles de prédicats en Annexe II}, Paramétrer les indicateurs de crédibilité, Analyser les logs pour améliorer le système. \\
+    \addlinespace
+    Système Externe & Source de données tierce (API de moteur de recherche, API de LLM, Base de données de fact-checking, etc.). & Fournir des données brutes (articles, résultats de recherche, contenu web) pour l'analyse, Fournir des métadonnées (date, auteur, etc.). \\
+    \addlinespace
+    Système & Le système d'évaluation de crédibilité lui-même. & Traiter les requêtes, Interroger les systèmes externes, Appliquer les règles et modèles IA\footnote{Voire les modèles en Python en Annexe I}, Calculer les scores, Générer les rapports. \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+L'inclusion de l'acteur "Système" est une convention de modélisation utile pour visualiser les responsabilités internes lors de la description des interactions dynamiques (par exemple, dans les diagrammes de séquence), bien qu'il ne représente pas une entité externe au sens strict. L'acteur "Expert" est crucial car il incarne la nécessité d'une maintenance et d'une adaptation continues du système, une exigence fondamentale face à l'évolution constante des techniques de désinformation et aux limites inhérentes des modèles IA \citep{Nabozny2021, Loth2024, Zhou2022A}.
+
+\subsection{Modélisation des Cas d'Utilisation}
+
+Les cas d'utilisation décrivent les fonctionnalités offertes par le système du point de vue des acteurs. Ils définissent comment les acteurs interagissent avec le système pour atteindre leurs objectifs.
+
+\subsubsection{Diagramme des Cas d'Utilisation}
+
+Le diagramme suivant (Figure \ref{fig:UC}) illustre les principaux cas d'utilisation et leurs relations avec les acteurs. Il met en évidence l'interaction centrale de l'Utilisateur pour soumettre une requête et recevoir un rapport, le rôle de l'Expert dans la configuration, et la dépendance vis-à-vis des Systèmes Externes pour la collecte de données. Le cas d'utilisation "Exploiter système hybride" encapsule la logique interne combinant règles et IA.
+
+\begin{figure*}[htbp] % Utilise figure* pour occuper toute la largeur en mode deux colonnes
+  \centering % Centre l'image
+  % Remplacez 'nom_de_votre_fichier_image.png' par le nom réel de votre fichier
+  % Ajustez la largeur (width) selon vos besoins (ex: \textwidth, 0.8\textwidth)
+  \includegraphics[width=0.9\textwidth]{UC_VFplus.png}
+  \caption{Diagramme des cas d'utilisation. \tiny(Corrigé suite aux commentaires lors de la présentation)} % Votre légende ici
+  \label{fig:UC} % Votre étiquette unique ici (commence souvent par fig:)
+\end{figure*}
+
+Les regroupements logiques (packages implicites) sont :
+\begin{itemize}
+    \item \textbf{Interaction Utilisateur :} Soumettre requête (UC1), Générer rapport (UC2), Fournir feedback (UC7).
+    \item \textbf{Traitement Interne :} Exploiter système hybride (UC\_Hybride), Appliquer règles (UC4), Analyser via IA (UC5), Calculer score (UC6). Ces cas représentent le cœur fonctionnel du système, orchestrant l'analyse hybride.
+    \item \textbf{Gestion Externe :} Récupérer données externes (UC3). Ce cas souligne la dépendance critique envers les API tierces.
+    \item \textbf{Configuration Expert :} Mettre à jour règles/modèles (UC8). Ce cas assure l'adaptabilité et la maintenance du système.
+\end{itemize}
+
+\subsubsection{Spécification des Cas d'Utilisation}
+
+Les spécifications suivantes détaillent les cas d'utilisation les plus importants du point de vue des interactions externes.
+
+\paragraph{Cas d'Utilisation 1 : Soumettre une requête de vérification (UC1)}
+\begin{itemize}
+    \item \textbf{But :} Permettre à l'utilisateur de demander une évaluation de la crédibilité d'une information.\footnote{Voir l'interface en Annexe 0}
+    \item \textbf{Acteur(s) Primaire(s) :} Utilisateur.
+    \item \textbf{Acteur(s) Secondaire(s) :} Système, Système Externe.
+    \item \textbf{Préconditions :} L'utilisateur a accès à l'interface. Le système est opérationnel. Les systèmes externes sont (au moins partiellement) accessibles.
+    \item \textbf{Déroulement  :}
+        \begin{enumerate}
+            \item L'Utilisateur saisit/colle l'information (texte, URL, requête).
+            \item L'Utilisateur soumet la requête.
+            \item Le Système reçoit la requête.
+            \item Le Système déclenche UC\_Hybride pour traiter la requête.
+            \item Le Système reçoit le résultat (incluant le rapport de UC2).
+            \item Le Système présente le rapport à l'Utilisateur (via UC2).
+        \end{enumerate}
+    \item \textbf{Postconditions :} Rapport généré et présenté. Requête potentiellement stockée (anonymisée).
+    \item \textbf{Extensions :} Information invalide (notification utilisateur). Système externe indisponible (traitement partiel, signalement dans le rapport). Timeout (proposition d'envoi différé).
+\end{itemize}
+
+\paragraph{Cas d'Utilisation 2 : Générer un rapport de crédibilité (UC2)}
+\begin{itemize}
+    \item \textbf{But :} Présenter les résultats de l'évaluation de manière claire et concise.
+    \item \textbf{Acteur(s) Primaire(s) :} Système.
+    \item \textbf{Acteur(s) Secondaire(s) :} Utilisateur.
+    \item \textbf{Préconditions :} UC6 (Calculer score) terminé avec succès. Métriques et analyses disponibles.
+    \item \textbf{Déroulement  :}
+        \begin{enumerate}
+            \item Le Système collecte les résultats (score, détails règles/NLP, sources, opinions).
+            \item Le Système formate en un rapport structuré et lisible.
+            \item Le Système inclut des explications simples pour les métriques.
+            \item Le Système présente le rapport à l'Utilisateur.
+        \end{enumerate}
+    \item \textbf{Postconditions :} Rapport affiché.
+    \item \textbf{Extensions :} Niveau de détail variable (choix utilisateur : résumé vs détaillé).
+\end{itemize}
+
+\paragraph{Cas d'Utilisation 3 : Récupérer des données externes (UC3)}
+\begin{itemize}
+    \item \textbf{But :} Collecter les informations pertinentes depuis les sources externes.
+    \item \textbf{Acteur(s) Primaire(s) :} Système.
+    \item \textbf{Acteur(s) Secondaire(s) :} Système Externe (API Moteur Recherche, API LLM, API Fact-checking, etc.).
+    \item \textbf{Préconditions :} UC1 soumis. Informations à chercher identifiées. API externes configurées.
+    \item \textbf{Déroulement  :}
+        \begin{enumerate}
+            \item Le Système identifie les données nécessaires (contenu URL, résultats recherche, articles similaires...).
+            \item Le Système envoie des requêtes aux Systèmes Externes appropriés \citep{GoogleSearchAPI, microsoft_bing, Google2026Fact, schema_claimreview}.
+            \item Les Systèmes Externes retournent les données (HTML, texte, JSON...).
+            \item Le Système prétraite et stocke temporairement les données brutes.
+        \end{enumerate}
+    \item \textbf{Postconditions :} Données externes disponibles pour UC4 et UC5.
+    \item \textbf{Extensions :} Erreur API/Scrapping (gestion d'erreur, alternatives). Limites de taux API (respect des quotas, gestion des erreurs 429) \citep{GoogleSearchAPI, microsoft_bing}. Source non fiable ou inaccessible.
+\end{itemize}
+La robustesse de ce cas d'utilisation est critique, car toute défaillance dans la récupération des données externes impacte directement la qualité de l'évaluation. La gestion des erreurs, des timeouts et des limites d'API doit être implémentée avec soin \citep{GoogleSearchAPI, microsoft_bing}.
+
+\paragraph{Cas d'Utilisation 8 : Mettre à jour les règles/modèles (UC8)}
+\begin{itemize}
+    \item \textbf{But :} Permettre à un expert d'améliorer la performance et la pertinence du système.
+    \item \textbf{Acteur(s) Primaire(s) :} Expert.
+    \item \textbf{Acteur(s) Secondaire(s) :} Système.
+    \item \textbf{Préconditions :} Expert authentifié avec droits suffisants. Besoin de mise à jour identifié.
+    \item \textbf{Déroulement  :}
+        \begin{enumerate}
+            \item L'Expert accède à l'interface d'administration.
+            \item L'Expert modifie/ajoute/supprime des règles (affectant UC4) ou met à jour/réentraîne des modèles IA (affectant UC5).
+            \item L'Expert teste les modifications (potentiellement sur un jeu de validation).
+            \item L'Expert déploie les modifications.
+        \end{enumerate}
+    \item \textbf{Postconditions :} Règles ou modèles mis à jour. Performance potentiellement améliorée.
+    \item \textbf{Extensions :} Rollback vers une version précédente en cas de problème.
+\end{itemize}
+Ce cas d'utilisation est essentiel pour la maintenabilité et l'évolution du système face aux nouvelles menaces de désinformation et aux progrès des techniques d'IA \citep{Nabozny2021, Loth2024, Zhou2022A}.
+
+Les autres cas d'utilisation (UC4, UC5, UC6, UC\_Hybride) sont principalement des étapes internes déclenchées par UC1. Leur logique est la suivante : UC4 applique les règles logiques définies par l'Expert; UC5 exécute les analyses basées sur l'IA (sentiment, cohérence, biais, etc.); UC6 combine les résultats de UC4, UC5 et de l'analyse des sources (issues de UC3) pour calculer un score de crédibilité global et des métriques détaillées; UC\_Hybride orchestre l'ensemble de ce processus interne.
+
+\subsection{Modélisation Statique (Diagramme de Classes)}
+
+Le diagramme de classes (Figure \ref{fig:classes}) définit la structure statique du système : les classes principales, leurs attributs, leurs méthodes et les relations entre elles (associations, héritage, dépendances). Il fournit un schéma directeur pour l'implémentation.
+
+\begin{figure*}[htbp] % Utilise figure* pour occuper toute la largeur en mode deux colonnes
+  \centering % Centre l'image
+  % Remplacez 'nom_de_votre_fichier_image.png' par le nom réel de votre fichier
+  % Ajustez la largeur (width) selon vos besoins (ex: \textwidth, 0.8\textwidth)
+  \includegraphics[width=1.08\textwidth]{classesVFplus.png}
+  \caption{Diagramme des classes. \tiny (Classe pour l'ontologie rajoutée suite aux commentaires lors de la présentation)} % Votre légende ici
+  \label{fig:classes} 
+\end{figure*}
+
+Points clés du diagramme de classes :
+\begin{itemize}
+    \item \textbf{Orchestration Centrale :} La classe `SystemeEvaluation` agit comme une façade ou un contrôleur principal, encapsulant la logique pour lancer une évaluation. Elle détient des références aux règles (`RegleVerification`), aux modèles IA (`ModeleIA`), aux métriques (`MetriqueEvaluation`) et aux systèmes externes (`SystemeExterne`) nécessaires.
+    \item \textbf{Gestion des Requêtes :} `RequeteEvaluation` représente une demande d'évaluation spécifique, liée à une `InformationEntree` et produisant un `RapportEvaluation`. Elle gère également le statut du traitement.
+    \item \textbf{Extensibilité des Sources Externes :} L'utilisation d'une classe abstraite `SystemeExterne` avec des sous-classes concrètes (`MoteurRecherche`, `ApiLLM`, `BaseDeFaits`) permet d'ajouter facilement de nouvelles sources de données sans modifier radicalement le cœur du système \citep{Fowler1998Uml}. Chaque source externe implémente la méthode `recupererDonnees`.
+    \item \textbf{Approche Hybride Explicite :} La présence distincte des classes `RegleVerification` et `ModeleIA`, toutes deux utilisées par `SystemeEvaluation`, reflète directement l'approche hybride. La manière dont leurs résultats (`ResultatRegle`, `ResultatNLP`) sont combinés dans la méthode `calculerScore` reste un détail d'implémentation, mais la structure supporte cette combinaison.
+    \item \textbf{Richesse du Rapport :} La classe `RapportEvaluation` est conçue pour être comprehensive, incluant non seulement un score global (`scoreCredibilite`) mais aussi des détails sur les sources (`InfoSource`), les règles appliquées (`ResultatRegle`), et l'analyse NLP (`ResultatNLP`). Cela permet une présentation flexible à l'utilisateur, du résumé au détail complet.
+    \item \textbf{Configuration par l'Expert :} Les relations entre `Expert` et les classes `RegleVerification`, `ModeleIA`, `MetriqueEvaluation` montrent comment l'expert interagit avec le système pour le configurer et l'améliorer, conformément à UC8.
+\end{itemize}
+
+Ce modèle statique fournit une structure solide mais laisse volontairement certains détails d'implémentation ouverts, comme la logique interne exacte des règles, l'architecture des modèles IA, ou l'algorithme précis de calcul du score.
+
+\subsection{Modélisation Dynamique}
+
+La modélisation dynamique illustre comment les objets (instances des classes) interagissent au fil du temps pour réaliser les cas d'utilisation. Elle complète la vue statique en montrant le comportement du système.
+
+\subsubsection{Diagrammes de Séquence}
+
+Les diagrammes de séquence décrivent les interactions chronologiques entre objets pour des scénarios spécifiques.
+
+\paragraph{Scénario 1 : Vérification simple d'une URL par l'Utilisateur}
+Ce scénario (Figure \ref{fig:scenario1}) montre le flux typique lorsqu'un utilisateur soumet une URL pour évaluation. Il illustre l'orchestration par `SysFacade` (représentant `SystemeEvaluation`), la création d'une requête (`ReqMgr`), l'appel au moteur hybride (`HybridEng`), la récupération de données via `ExtData` auprès de systèmes externes (`SE1`, `SE2`), l'application interne des règles et de l'IA, le calcul du score, la génération du rapport (`ReportGen`), et enfin la présentation du rapport à l'utilisateur. Ce diagramme met en évidence la collaboration entre plusieurs composants et l'interaction cruciale avec les API externes \citep{Fowler1998Uml, Larman2004Applying}. La gestion des erreurs potentielles lors des appels externes (par exemple, à `SE1` ou `SE2`) n'est pas explicitement montrée ici mais est une considération essentielle pour l'implémentation, comme mentionné dans UC3 \citep{GoogleSearchAPI, microsoft_bing}.
+\begin{figure*}[htbp]
+  \centering % Centre l'image
+  \includegraphics[width=1.08\textwidth]{seq1.png}
+  \caption{Diagramme de séquences pour le scénario 1.} % Votre légende ici
+  \label{fig:scenario1}
+\end{figure*}
+
+\paragraph{Scénario 2 : Mise à jour d'une règle par l'Expert}
+Ce scénario (Figure \ref{fig:scenario2}) illustre le processus de mise à jour d'une règle de vérification par un expert (UC8). Il montre l'interaction via une interface d'administration (`AdminUI`), la validation de la règle par un gestionnaire (`RuleMgr`), une étape optionnelle mais recommandée de test (`TestSys`) sur un jeu de données, et enfin la mise à jour et la sauvegarde effectives de la règle si les tests réussissent. Ce processus souligne l'importance d'un cycle de validation avant le déploiement de nouvelles règles ou de nouveaux modèles IA pour maintenir la qualité et la fiabilité du système.
+
+\begin{figure*}[htbp]
+  \centering % Centre l'image
+  \includegraphics[width=1.08\textwidth]{seq2.png}
+  \caption{Diagramme de séquences pour le scénario 2} % Votre légende ici
+  \label{fig:scenario2} % Votre étiquette unique ici (commence souvent par fig:)
+\end{figure*}
+
+\subsubsection{Diagramme d'États/Transitions}
+
+Le diagramme d'états-transitions (Figure \ref{fig:ET}) modélise le cycle de vie d'un objet `RequeteEvaluation`, montrant les différents états par lesquels une requête passe depuis sa soumission jusqu'à sa complétion (ou son échec), ainsi que les événements ou actions qui déclenchent les transitions entre ces états \citep{Fowler1998Uml}.
+
+\begin{figure*}[htbp]
+  \centering 
+  \includegraphics[width=1.08\textwidth]{etats.png}
+  \caption{Diagramme d'états/transitions} % Votre légende ici
+  \label{fig:ET} % Votre étiquette unique ici (commence souvent par fig:)
+\end{figure*}
+
+Les états principaux sont :
+\begin{itemize}
+    \item \textbf{Soumis :} La requête est créée mais non traitée.
+    \item \textbf{EnTraitement :} Récupération des données externes, application des règles et analyses IA en cours. Cet état peut comporter des boucles internes ou des sous-états non détaillés ici.
+    \item \textbf{Analysé :} Les analyses sont terminées, le calcul du score est imminent ou achevé.
+    \item \textbf{RapportGénéré :} Le rapport est prêt pour l'utilisateur.
+    \item \textbf{AvecFeedback :} L'utilisateur a fourni un retour (via UC7).
+    \item \textbf{Erreur :} Une erreur non récupérable s'est produite (ex: échec critique de récupération de données, erreur interne majeure).
+\end{itemize}
+Ce diagramme aide à comprendre le flux de contrôle global pour le traitement d'une requête et à identifier les points où des erreurs peuvent survenir.
+
+\section{Composants et Technologies Clés du Système}
+
+La modélisation UML fournit une vue d'ensemble architecturale. Cette section détaille davantage les composants internes critiques et les technologies envisagées pour leur implémentation, en s'appuyant sur les classes et interactions modélisées.
+
+\subsection{Moteur Basé sur les Règles}
+
+Le composant responsable de l'application des règles (`RegleVerification` dans le modèle UML) joue un rôle crucial dans l'approche hybride. Son objectif est d'identifier rapidement des indicateurs de crédibilité ou de non-crédibilité basés sur des heuristiques et des connaissances établies, souvent avant de lancer des analyses IA plus coûteuses en ressources.
+
+Des exemples concrets de règles pourraient inclure \citep{Pescuma2025, Rieh2014Credibility, Metzger2010, W3CCredibility2018, Kedzie2018, Oshikawa2019A} :
+\begin{itemize}
+    \item \textbf{Règles basées sur la source :}
+        \begin{itemize}
+            \item Vérification de l'URL/domaine par rapport à des listes de sources connues pour leur fiabilité ou leur manque de fiabilité (par exemple, en s'inspirant des évaluations de Media Bias/Fact Check ou NewsGuard \citep{Pescuma2025}).
+            \item Analyse de l'ancienneté du domaine (un domaine très récent peut être suspect).
+            \item Vérification de la présence d'informations de contact claires ou d'une politique éditoriale sur le site source.
+            \item Analyse de l'historique de publication de fausses informations par la source (si des données sont disponibles, par exemple via des API comme Google Fact Check API qui peuvent retourner des `ClaimReview` associés à des URL spécifiques \citep{schema_claimreview, Google2026Fact}).
+        \end{itemize}
+    \item \textbf{Règles basées sur le contenu textuel :}
+        \begin{itemize}
+            \item Détection de langage excessivement émotionnel ou sensationnaliste (usage intensif de majuscules, points d'exclamation, superlatifs) \citep{Metzger2010}.
+            \item Vérification de la présence (ou absence flagrante) de citations, de références ou de liens vers des sources externes pour étayer les affirmations.
+            \item Identification de structures typiques des canulars ou chaînes de lettres (par exemple, "Partagez ceci massivement...") \citep{Metzger2010}.
+            \item Détection de certaines fallacies logiques simples si des patrons linguistiques récurrents peuvent être identifiés \citep{Oshikawa2019A}.
+            \item Analyse stylométrique basique (longueur des phrases, diversité lexicale) comparée à des normes établies pour des articles de qualité.
+        \end{itemize}
+    \item \textbf{Règles basées sur les métadonnées :}
+        \begin{itemize}
+            \item Vérification de la cohérence entre la date de publication et les dates des événements rapportés.
+            \item Signalement d'informations très anciennes présentées comme actuelles sans contexte approprié.
+        \end{itemize}
+\end{itemize}
+
+L'implémentation de ce moteur pourrait varier d'une série de structures conditionnelles simples à l'utilisation d'un moteur de règles dédié (par exemple, basé sur des standards comme Rete ou utilisant des bibliothèques spécifiques). Le rôle de l'acteur `Expert` est ici fondamental pour définir, affiner, tester et pondérer ces règles (attribut `poids` dans `RegleVerification`) afin d'assurer leur pertinence et d'éviter les faux positifs/négatifs.
+
+\subsection{Module IA/NLP}
+
+Le module d'Intelligence Artificielle et de Traitement du Langage Naturel (`ModeleIA` et `ResultatNLP` dans le modèle UML) est conçu pour effectuer des analyses plus profondes et sémantiques du contenu, là où les règles simples montrent leurs limites. Il est essentiel pour détecter des formes de désinformation plus subtiles et pour s'adapter à l'évolution des tactiques.
+
+\subsubsection{Représentation Textuelle}
+Une étape préliminaire fondamentale pour toute analyse NLP basée sur l'IA est la conversion du texte brut en une représentation numérique que les modèles peuvent traiter. Diverses techniques existent, allant des méthodes traditionnelles aux approches modernes basées sur les réseaux neuronaux profonds \citep{Ahmed2025Aidriven, Hagag2023The, Mikolov2020Efficient, Pennington2014Glove, Li2014A} :
+\begin{itemize}
+    \item \textbf{Méthodes basées sur la fréquence :} TF-IDF (Term Frequency-Inverse Document Frequency) ou Bag of Words (BoW) représentent le texte en fonction de la fréquence des mots, en pondérant éventuellement par leur rareté dans un corpus \citep{Hagag2023The}. Ces méthodes sont simples mais perdent l'ordre des mots et le contexte.
+    \item \textbf{Embeddings Statiques :} Word2Vec \citep{Mikolov2020Efficient} ou GloVe \citep{Ahmed2025Aidriven, Hagag2023The, Pennington2014Glove} apprennent des vecteurs denses pour chaque mot, capturant certaines relations sémantiques. Cependant, un mot a une seule représentation, quel que soit son contexte.
+    \item \textbf{Embeddings Contextualisés :} Les modèles basés sur les Transformers, comme BERT \citep{Zhou2022A, Li2021Debunking, Shah2024Decoding} ou Sentence-BERT (sBERT) \citep{Hagag2023The}, génèrent des représentations vectorielles pour les mots ou les phrases qui dépendent du contexte dans lequel ils apparaissent \citep{Loth2024}. Ces embeddings sont généralement plus performants pour les tâches nécessitant une compréhension fine du langage et ont montré une meilleure stabilité sur différents jeux de données \citep{Hagag2023The}.
+\end{itemize}
+Le choix de la technique de représentation dépendra des modèles IA spécifiques utilisés pour les tâches en aval et des ressources computationnelles disponibles.
+
+\subsubsection{Analyses NLP Spécifiques}
+Le module IA intégrera plusieurs types d'analyses pour évaluer différentes facettes de la crédibilité :
+
+\begin{itemize}
+    \item \textbf{Analyse de Sentiment :} Au-delà de la simple classification positif/négatif/neutre, l'objectif est d'identifier une utilisation potentiellement manipulatrice des émotions \citep{Ahmed2025Aidriven, Sharma2021Combating, Li2021Debunking, Giachanou2018Like, Castillo2011}. Cela inclut la détection d'un ton excessivement biaisé, inflammatoire, ou d'une charge émotionnelle disproportionnée par rapport au sujet traité. Des approches contextuelles, tenant compte du domaine (par exemple, un ton neutre est attendu dans un rapport scientifique, mais pas nécessairement dans un éditorial), sont préférables \citep{Ahmed2025Aidriven}. Des modèles comme les LSTMs bidirectionnels ou les Transformers peuvent être entraînés pour cette tâche \citep{Ahmed2025Aidriven, Li2021Debunking}. Les résultats de cette analyse contribuent à évaluer l'impartialité et l'objectivité du contenu \citep{Rieh2014Credibility}.
+
+    \item \textbf{Analyse de Cohérence :} Un texte crédible est généralement bien structuré et cohérent sur le plan thématique et logique \citep{Mikolov2020Efficient, Li2014A, Willems2020Modeling, Barzilay2008}. L'analyse de cohérence vise à détecter les ruptures, les contradictions ou le manque de focus qui pourraient indiquer une faible qualité ou une fabrication. Différentes approches peuvent être combinées :
+        \begin{itemize}
+            \item \textit{Cohérence Locale :} Analyse des transitions entre phrases adjacentes, par exemple en suivant le flux des entités (Entity Grid \citep{Barzilay2008}) ou en utilisant des modèles neuronaux entraînés pour prédire la relation entre phrases \citep{Barzilay2008}.
+            \item \textit{Cohérence Globale :} Évaluation de la consistance thématique sur l'ensemble du document. Des techniques comme la modélisation thématique (par exemple, LDA \citep{Ahmed2025Aidriven} ou des approches basées sur les embeddings comme BERTopic \citep{Willems2020Modeling}) peuvent être utilisées pour extraire les thèmes principaux et mesurer leur distribution ou leur évolution au fil du texte (par exemple, via la divergence JS entre les distributions thématiques des segments de texte \citep{Willems2020Modeling}). Des approches basées sur la prédiction de la position des phrases peuvent également fournir des embeddings utiles pour évaluer la structure globale \citep{Mikolov2020Efficient, Li2014A}. La cohérence est liée à la qualité perçue et au professionnalisme de la source \citep{Rieh2014Credibility}. Une faible cohérence a été observée comme un indicateur potentiel pour les fausses nouvelles ou les textes générés par IA, bien que son pouvoir discriminant seul puisse être limité \citep{Willems2020Modeling}.
+        \end{itemize}
+
+    \item \textbf{Détection de Biais :} Les biais (politique, de genre, racial, etc.) peuvent saper l'objectivité et donc la crédibilité d'une information \citep{Shah2024Decoding, Menzner2018Biasscanner, Baly2020We, Krieger2021, Garg2019Counterfactual}. Le système doit tenter d'identifier ces biais. Des modèles Transformers (BERT, RoBERTa...) peuvent être fine-tunés sur des datasets de détection de biais \citep{Shah2024Decoding, Menzner2018Biasscanner, Krieger2021}. Des outils et bibliothèques open-source existent également. L'utilisation directe de LLMs via prompting est une autre approche émergente \citep{Shah2024Decoding, Menzner2018Biasscanner, Chen2019Detecting, Krieger2021}. Un défi majeur est la disponibilité de données d'entraînement de haute qualité et la gestion du déséquilibre des classes pour les types de biais moins fréquents \citep{Shah2024Decoding}. La détection de biais est directement liée à l'évaluation de l'impartialité \citep{Rieh2014Credibility}.
+
+    \item \textbf{Reconnaissance d'Entités Nommées (NER) :} La NER identifie et catégorise les entités clés (personnes, organisations, lieux, dates, etc.) dans le texte \citep{Sharma2021Combating}. Son rôle dans l'évaluation de la crédibilité est multiple :
+        \begin{itemize}
+            \item \textit{Vérification des faits :} Les entités extraites peuvent être utilisées pour interroger des bases de connaissances ou des moteurs de recherche afin de vérifier les affirmations factuelles les concernant.
+            \item \textit{Évaluation de l'autorité :} Identifier les experts ou les institutions cités permet d'évaluer si la source s'appuie sur des autorités reconnues dans le domaine \citep{Sharma2021Combating}. L'absence de telles entités peut être un signal négatif.
+            \item \textit{Analyse des sources citées :} Si l'article mentionne explicitement ses sources, la NER peut les extraire pour une évaluation ultérieure de leur propre crédibilité \citep{Sharma2021Combating}.
+            \item \textit{Détection de biais d'entité :} Analyser la fréquence et le contexte des mentions de certaines entités peut révéler un biais (par exemple, critiques ou éloges disproportionnés) \citep{Shah2024Decoding, Menzner2018Biasscanner}.
+        \end{itemize}
+\end{itemize}
+
+Le tableau \ref{tab:credibility_indicators} résume le lien entre les indicateurs de crédibilité et les techniques d'analyse envisagées.
+
+\begin{table*}[htbp]
+  \centering
+  \caption{Indicateurs de Crédibilité Clés et Techniques d'Analyse Associées}
+  \label{tab:credibility_indicators}
+  \begin{tabular}{@{}lp{0.6\linewidth}@{}}
+    \toprule
+    Indicateur de Crédibilité & Techniques d'Analyse Associées dans le Système Proposé \\
+    \midrule
+    \textbf{Exactitude / Facticité} \citep{Pescuma2025, Rieh2014Credibility} & - Vérification via API de Fact-Checking (ex: Google Fact Check API / ClaimReview) \citep{schema_claimreview, Google2026Fact} \newline - NER + Interrogation de bases de connaissances / Moteurs de recherche \citep{Sharma2021Combating} \newline - Analyse de la présence et qualité des citations/références \citep{Oshikawa2019A} \\
+    \addlinespace
+    \textbf{Autorité / Réputation de la Source} \citep{Pescuma2025, Rieh2014Credibility} & - Consultation de bases de données de réputation de sources (ex: via règles basées sur MediaBias/FactCheck) \citep{Pescuma2025} \newline - Analyse de l'historique de la source (via règles, ex: domaine ancienneté, publications antérieures) \newline - NER pour identifier les experts/institutions cités \citep{Sharma2021Combating} \\
+    \addlinespace
+    \textbf{Objectivité / Impartialité / Biais} \citep{Pescuma2025, Rieh2014Credibility} & - Modèles de Détection de Biais (Politique, Genre, etc.) \citep{Shah2024Decoding, Menzner2018Biasscanner, Chen2019Detecting, Krieger2021} \newline - Analyse de Sentiment Contextualisée (détection de ton manipulateur/excessif) \citep{Ahmed2025Aidriven} \newline - Analyse de la diversité des points de vue présentés (via récupération d'infos externes) \\
+    \addlinespace
+    \textbf{Présentation / Style / Qualité} \citep{Rieh2014Credibility} & - Analyse de Cohérence (Locale et Globale) \citep{Willems2020Modeling, Barzilay2008} \newline - Règles de détection de langage sensationnaliste ou non professionnel \citep{Metzger2010} \newline - Analyse stylométrique (diversité lexicale, complexité syntaxique) \citep{Ahmed2025Aidriven} \newline - Détection de texte généré par IA (comme signal potentiel) \citep{Loth2024, Oshikawa2019A} \\
+    \addlinespace
+    \textbf{Actualité / Currency} \citep{Rieh2014Credibility} & - Règles de vérification de la cohérence des dates (publication vs événements) \newline - Signalement d'informations obsolètes présentées comme actuelles \\
+    \addlinespace
+    \textbf{Techniques de Persuasion / Fallacies} \citep{Pescuma2025, Oshikawa2019A} & - Règles de détection de patterns connus (ex: appels à l'émotion excessifs, fallacies simples) \citep{Metzger2010, Oshikawa2019A} \newline - Analyse de Sentiment (pour détecter la manipulation émotionnelle) \citep{Ahmed2025Aidriven} \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+L'intégration et la pondération des résultats de ces différentes analyses pour aboutir à un score de crédibilité final (`calculerScore` dans `SystemeEvaluation`) constituent un défi de conception majeur. Une approche d'ensemble learning, où les sorties de différents modèles (règles, sentiment, cohérence, biais, etc.) sont combinées, potentiellement avec des poids adaptatifs, pourrait être envisagée \citep{Ahmed2025Aidriven}.
+
+\subsection{Intégration des Données Externes}
+
+Le système ne fonctionne pas en vase clos ; il dépend de manière critique de l'accès à des informations et services externes via des API (`SystemeExterne` dans le modèle UML).
+
+\begin{itemize}
+    \item \textbf{Moteurs de Recherche (API Google/Bing) :} Ces API sont essentielles pour récupérer du contexte additionnel sur un sujet, trouver des articles corroborant ou contredisant une affirmation, ou identifier la source originale d'une information \citep{Viviani2017}. L'utilisation de ces API nécessite l'obtention de clés \citep{GoogleSearchAPI, microsoft_bing}, la gestion des requêtes (par exemple, en utilisant des guillemets pour des recherches exactes, en spécifiant la langue ou la région \citep{microsoft_bing}), l'analyse des réponses JSON \citep{GoogleSearchAPI, microsoft_bing}, et surtout la gestion rigoureuse des quotas d'utilisation et des coûts associés, ainsi que des erreurs potentielles (réseau, authentification, dépassement de quota - code 429) \citep{GoogleSearchAPI, microsoft_bing}. Des services tiers comme SerpApi peuvent également agréger ces résultats.
+
+    \item \textbf{Bases de Données / API de Fact\-Checking :} L'accès aux bases de données de vérifications de faits préexistantes est crucial pour éviter de réinventer la roue. Le standard \`ClaimReview\` de Schema.org est largement utilisé par les organisations de fact-checking pour publier leurs évaluations de manière structurée \citep{schema_claimreview}. L'API Google Fact Check Tool permet d'interroger cette base de données \citep{Google2026Fact, schema_claimreview}, bien qu'elle puisse avoir des limitations sur les informations retournées \citep{schema_claimreview, Google2026Fact}. Des projets comme ClaimsKG ou Osborne2024Cimplekg visent à agréger ces données dans des graphes de connaissances \citep{Osborne2024Cimplekg, Thibault2025A}. L'accès direct via API à des sources spécifiques comme Snopes ou PolitiFact semble plus limité, souvent réservé à des partenariats ou des outils internes \citep{Pescuma2025}. L'intégration de ces API permet au système de vérifier rapidement si une affirmation a déjà été traitée par des professionnels.
+
+    \item \textbf{API de Grands Modèles de Langage (LLM) :} Des API comme celles d'OpenAI (GPT), Google (Gemini) ou Anthropic (Claude) \citep{Chen2024Combating} peuvent être utilisées pour diverses sous-tâches NLP au sein du module IA, telles que la génération de résumés d'articles externes, la reformulation de requêtes, la génération d'explications pour le score de crédibilité, ou même des tâches de classification en mode zero-shot ou few-shot si des modèles «fine-tunés» ne sont pas disponibles ou trop coûteux à développer \citep{Loth2024, Chen2024Combating}. Comme pour les moteurs de recherche, la gestion des clés, des coûts et des limites d'utilisation est primordiale.
+\end{itemize}
+
+La fiabilité et la performance du système global sont donc intrinsèquement liées à la fiabilité, à la disponibilité et aux performances de ces API externes. Une architecture résiliente doit prévoir des mécanismes de secours, de mise en cache, et de gestion fine des erreurs et des limitations de ces services tiers \citep{GoogleSearchAPI, microsoft_bing}. De plus, la crédibilité des informations fournies par ces systèmes externes (par exemple, l'exactitude des résultats de recherche ou la fiabilité des bases de «fact-checking») doit également être considérée dans le calcul global.
+
+\section{Discussion}
+
+La modélisation UML et la description des composants technologiques fournissent une base conceptuelle pour le système d'évaluation de la crédibilité. Cette section discute des implications de ces choix, des défis inhérents au domaine, des limitations du modèle actuel et des perspectives d'évolution.
+
+\subsection{Synthèse de la Modélisation}
+
+Le modèle UML présenté articule une architecture modulaire conçue pour l'extensibilité et l'adaptabilité. Les acteurs clés (Utilisateur, Expert, Systèmes Externes) et leurs interactions principales sont clairement définis à travers les cas d'utilisation. La structure statique (diagramme de classes) met en évidence la séparation des préoccupations entre la gestion des requêtes, l'orchestration de l'évaluation, l'application des règles, l'analyse IA, et l'accès aux données externes. L'utilisation de l'abstraction pour les systèmes externes facilite l'ajout de nouvelles sources de données. La modélisation dynamique (diagrammes de séquence et d'états) illustre les flux de travail typiques pour l'évaluation d'une information et la mise à jour du système par un expert, confirmant la faisabilité conceptuelle des interactions. L'approche hybride, combinant règles et IA, est explicitement supportée par l'architecture proposée.
+
+\subsection{Forces et Limites du Modèle}
+
+Le modèle proposé présente plusieurs forces :
+\begin{itemize}
+    \item \textbf{Modularité et Extensibilité :} La séparation claire des composants (règles, IA, accès externe, rapport) et l'utilisation de principes comme l'abstraction rendent le système potentiellement plus facile à maintenir et à étendre avec de nouvelles fonctionnalités, règles, modèles IA ou sources de données \citep{Fowler1998Uml}.
+    \item \textbf{Approche Hybride Explicite :} Le modèle reconnaît la nécessité de combiner des approches logiques et connexionnistes, reflétant l'état de l'art et les limitations des systèmes purement basés sur l'IA ou les règles \citep{Ahmed2025Aidriven}.
+    \item \textbf{Adaptabilité via l'Expert :} L'inclusion de l'acteur Expert et des cas d'utilisation associés permet une adaptation continue du système, essentielle dans le domaine dynamique de la désinformation \citep{Nabozny2021, Zhou2022A}.
+    \item \textbf{Richesse de l'Évaluation :} La structure du `RapportEvaluation` permet de capturer et potentiellement de présenter une vue multidimensionnelle de la crédibilité, allant au-delà d'un simple score binaire.
+    \item \textbf{Boucle de Feedback :} La prise en compte du feedback utilisateur (UC7, état `AvecFeedback`) ouvre la voie à une amélioration continue basée sur l'expérience réelle des utilisateurs.
+\end{itemize}
+
+Cependant, le modèle présente aussi des limitations inhérentes à ce stade de conception :
+\begin{itemize}
+    \item \textbf{Abstraction de la Complexité Interne :} La logique précise à l'intérieur du moteur de règles et des modèles IA n'est pas détaillée. La complexité de l'analyse sémantique, de la détection de biais ou de la modélisation de la cohérence est largement abstraite \citep{Fowler1998Uml}.
+    \item \textbf{Mécanisme d'Intégration Hybride Non Spécifié :} Bien que la structure supporte l'approche hybride, la manière exacte dont les résultats des règles et de l'IA sont combinés pour calculer le score final n'est pas définie dans le modèle UML. Est-ce une somme pondérée? Un système de vote? Les règles filtrent-elles l'entrée de l'IA? Ceci reste une décision de conception cruciale.
+    \item \textbf{Performance et Scalabilité :} Le modèle UML ne traite pas directement des aspects non fonctionnels tels que le temps de réponse, le débit, ou la capacité à gérer un grand volume de requêtes simultanées. L'efficacité des appels aux API externes et la complexité des modèles IA auront un impact majeur sur ces aspects.
+    \item \textbf{Interface Utilisateur :} L'interface utilisateur (UI) et l'expérience utilisateur (UX) ne sont pas modélisées. La manière dont les informations de crédibilité (potentiellement complexes) sont présentées de manière "simple et compréhensible" est un défi de conception majeur en soi.
+\end{itemize}
+
+\subsection{Défis de Recherche en Évaluation de la Crédibilité}
+
+Le développement d'un tel système s'inscrit dans un domaine de recherche actif confronté à des défis fondamentaux :
+
+\begin{itemize}
+    \item \textbf{Volume, Vélocité, Variété :} La nature même du web et des médias sociaux génère un flux incessant d'informations multiformes (texte, image, vidéo) à une vitesse qui défie les capacités d'analyse, même automatisées \citep{Hagag2023The, Loth2024}. Concevoir des systèmes capables de traiter cette échelle en temps quasi réel est un défi technique majeur.
+    \item \textbf{L'Impact Évolutif de la GenAI :} La capacité croissante de la GenAI à produire des contenus synthétiques de haute qualité constitue une menace dynamique \citep{Loth2024, Zhou2022A}. Les techniques de désinformation évoluent constamment, nécessitant une adaptation continue des systèmes de détection. Cela crée une sorte de "course aux armements" technologique où les défenseurs doivent constamment innover pour contrer les nouvelles méthodes d'attaque.
+    \item \textbf{Multimodalité :} La désinformation combine souvent texte, images et vidéos pour renforcer son impact \citep{Loth2024, schema_claimreview}. Le modèle actuel se concentre principalement sur le texte. Une évaluation complète de la crédibilité nécessitera à l'avenir des capacités d'analyse multimodale, capables de détecter les incohérences ou les manipulations à travers différents formats de médias.
+    \item \textbf{Dépendance au Contexte et Subjectivité :} La crédibilité n'est pas une propriété intrinsèque et absolue. Elle dépend fortement du contexte (domaine, public cible, intention de communication) et comporte une part de subjectivité \citep{Viviani2017, Pescuma2025}. Par exemple, une affirmation peut être techniquement vraie mais présentée de manière trompeuse (biais de cadrage). Gérer cette nuance, distinguer l'opinion de l'affirmation factuelle, et interpréter correctement l'intention (par exemple, satire vs désinformation) sont des défis considérables pour les systèmes automatisés.
+    \item \textbf{Le fossé entre Automation et Jugement Humain :} Malgré les progrès de l'IA, de nombreuses tâches liées à l'évaluation de la crédibilité, en particulier dans des domaines spécialisés comme la médecine ou pour des affirmations complexes, nécessitent encore un jugement humain nuancé \citep{Nabozny2021, Hagag2023The, Pescuma2025}. Trouver le bon équilibre entre l'automatisation pour la scalabilité et l'intervention humaine pour la précision et la fiabilité reste un défi ouvert \citep{Sattar2016Claimeval}. Le système proposé intègre un Expert pour la configuration, mais une implication humaine dans le processus d'évaluation lui-même pourrait être nécessaire pour les cas limites.
+\end{itemize}
+
+\subsection{Défis Liés aux Données et à l'Évaluation}
+
+Au-delà des défis conceptuels, des obstacles très pratiques existent concernant les données et les méthodes d'évaluation dans ce domaine :
+
+\begin{itemize}
+    \item \textbf{Qualité des Données d'Entraînement :} Des études récentes ont mis en lumière des problèmes graves dans de nombreux datasets utilisés pour entraîner et évaluer les modèles de détection de désinformation \citep{Thibault2025A}. Ces problèmes incluent :
+        \begin{itemize}
+            \item \textit{Corrélations Fallacieuses :} Les modèles peuvent apprendre à prédire la véracité en se basant sur des signaux non pertinents, comme la présence de certains mots-clés (par exemple, noms de politiciens) ou la période de collecte des données, plutôt que sur le contenu réel \citep{Thibault2025A}. Cela conduit à des modèles qui performent bien sur le dataset spécifique mais ne généralisent pas à de nouvelles données.
+            \item \textit{Ambiguïté et Infaisabilité :} De nombreuses affirmations dans les datasets manquent de contexte suffisant pour être vérifiées, même avec accès à une recherche web \citep{Thibault2025A}. Entraîner des modèles sur de telles données revient à leur demander de deviner, ce qui ne mesure pas leur capacité réelle à évaluer la crédibilité.
+        \end{itemize}
+    Le développement du système proposé devra porter une attention particulière à la curation et à la validation des données utilisées pour l'entraînement et le test des composants IA.
+
+    \item \textbf{Limites des Métriques d'Évaluation Standard :} Les métriques classiques comme l'exactitude (accuracy) ou le score F1, basées sur la comparaison de labels catégoriques (vrai/faux), s'avèrent insuffisantes pour évaluer les systèmes modernes, notamment ceux basés sur la GenAI \citep{Thibault2025A}. Un système peut produire un raisonnement valide et une explication pertinente tout en assignant un label final qui diffère du "ground truth" du dataset (par exemple, si le ground truth est obsolète). Il est nécessaire de développer des métriques et des protocoles d'évaluation plus nuancés, qui pourraient inclure l'évaluation de la qualité des explications générées ou l'utilisation d'LLMs pour évaluer la cohérence du raisonnement \citep{Thibault2025A}. L'approche d'Évaluation de la Qualité de l'Évaluation (EQA), proposant une analyse critique des données et des méthodes d'évaluation utilisées, est une piste prometteuse \citep{Thibault2025A}.
+
+    \item \textbf{Coût et Difficulté de l'Annotation :} Obtenir des annotations de haute qualité pour la crédibilité, en particulier lorsqu'elles nécessitent une expertise de domaine (comme en médecine), est un processus coûteux et chronophage \citep{Hagag2023The, Pescuma2025, Thibault2025A}. Des techniques comme l'annotation active, qui visent à optimiser le temps des annotateurs en leur présentant en priorité les exemples les plus informatifs ou les plus susceptibles d'être non crédibles, peuvent aider à atténuer ce problème \citep{Hagag2023The, Nabozny2021}.
+\end{itemize}
+
+Le tableau \ref{tab:bias_detection_perf} illustre la variabilité des performances même pour une tâche spécifique comme la détection de biais, soulignant les défis liés aux données et à l'évaluation.
+
+\begin{table*}[htbp]
+  \centering
+  \caption{Exemple Illustratif de Performance de Modèles Transformers pour la Détection de Biais Multiples (Basé sur \citep{Shah2024Decoding})}
+  \label{tab:bias_detection_perf}
+  \begin{tabular}{@{}lcccccc@{}}
+    \toprule
+    Type de Biais \& Métrique \& BERT \& RoBERTa \& ALBERT \& DistilBERT \& XLNet \\
+    \midrule
+    \textbf{Politique} & F1-Score & \textbf{0.89} & 0.87 & 0.85 & 0.84 & 0.86 \\
+    \textbf{Genre} & F1-Score & \textbf{0.82} & 0.80 & 0.75 & 0.73 & 0.76 \\
+    \textbf{Entité} & F1-Score & \textbf{0.85} & 0.84 & 0.81 & 0.80 & 0.82 \\
+    \textbf{Racial} & F1-Score & \textbf{0.65} & 0.62 & 0.55 & 0.38 & 0.51 \\
+    \textbf{Religieux} & F1-Score & \textbf{0.78} & 0.77 & 0.72 & 0.70 & 0.74 \\
+    \textbf{Régional} & F1-Score & \textbf{0.70} & 0.68 & 0.63 & 0.59 & 0.65 \\
+    \textbf{Sensationnalisme} & F1-Score & \textbf{0.80} & 0.79 & 0.74 & 0.71 & 0.75 \\
+    \midrule
+    \multicolumn{2}{l}{Score F1 Moyen (Macro)} & \textbf{0.78} & 0.77 & 0.72 & 0.68 & 0.73 \\
+    \bottomrule
+    \multicolumn{7}{p{0.9\linewidth}}{\footnotesize \textit{Note :} Ces valeurs sont illustratives et basées sur les tendances rapportées dans \citep{Shah2024Decoding}. Les performances réelles dépendent fortement du jeu de données spécifique, du «fine-tuning» et de la gestion du déséquilibre des classes. Les scores plus faibles pour les biais Racial et Régional reflètent les défis posés par le déséquilibre des données mentionné dans l'étude.} \\
+  \end{tabular}
+\end{table*}
+
+\subsection{Considérations Éthiques}
+
+Le développement et le déploiement d'un système d'évaluation de la crédibilité soulèvent d'importantes questions éthiques :
+\begin{itemize}
+    \item \textbf{Biais Algorithmique :} Les composants IA du système peuvent involontairement apprendre et amplifier les biais présents dans les données d'entraînement (par exemple, associer certains sujets ou groupes démographiques à une crédibilité moindre) \citep{Menzner2018Biasscanner, Chen2019Detecting}. Des audits réguliers et des techniques d'atténuation des biais sont nécessaires pour garantir l'équité.
+    \item \textbf{Transparence et Explicabilité :} Pour être véritablement utile et digne de confiance, le système doit pouvoir expliquer pourquoi il attribue un certain score de crédibilité \citep{Ahmed2025Aidriven, Loth2024}. Fournir uniquement un score numérique sans justification risque d'être contre-productif. La conception du \`RapportEvaluation\` doit intégrer des éléments d'explication clairs.
+    \item \textbf{Effet sur la Pensée Critique :} Un risque potentiel est que les utilisateurs deviennent trop dépendants de l'outil et cessent d'exercer leur propre jugement critique \citep{Nabozny2021}. La conception de l'interface et la manière dont les résultats sont présentés doivent viser à *soutenir* et *encourager* la pensée critique, plutôt qu'à la remplacer, par exemple en mettant en évidence les indicateurs clés et les incertitudes.
+    \item \textbf{Potentiel de Mauvais Usage :} Comme tout outil puissant, un système d'évaluation de la crédibilité pourrait être détourné, par exemple pour cibler et discréditer systématiquement des sources légitimes mais critiques, ou pour renforcer des chambres d'écho en ne validant que les informations conformes à un certain point de vue. Les mécanismes de gouvernance et de surveillance sont importants.
+\end{itemize}
+
+\subsection{Travaux Futurs}
+
+Ce travail de modélisation constitue une première étape. Les étapes suivantes nécessaires pour réaliser le système incluent :
+\begin{itemize}
+    \item \textbf{Développement Détaillé :} Implémenter la logique interne complexe des règles et des modèles IA (entraînement, fine-tuning). Développer le mécanisme précis d'interaction et de pondération pour l'approche hybride.
+    \item \textbf{Implémentation Technique :} Coder les différentes classes et leurs interactions, gérer les dépendances externes (API), assurer la robustesse et la performance.
+    \item \textbf{Interface Utilisateur :} Concevoir et développer une interface utilisateur intuitive qui présente les résultats de manière efficace et favorise la pensée critique.
+    \item \textbf{Évaluation Rigoureuse :} Mener des évaluations approfondies en utilisant des datasets de haute qualité (ou en reconnaissant explicitement les limites des datasets disponibles) et des métriques d'évaluation appropriées, allant au-delà des simples scores F1 \citep{Thibault2025A}. Des études utilisateurs seront également nécessaires pour évaluer l'impact réel sur la perception et le jugement des utilisateurs.
+    \item \textbf{Extension Multimodale :} Intégrer l'analyse d'images et de vidéos pour une couverture plus complète de la désinformation moderne.
+    \item \textbf{Amélioration Continue :} Mettre en place des processus pour la mise à jour régulière des règles et des modèles IA par les experts, en réponse à l'évolution des menaces et aux retours d'expérience.
+    \item \textbf{Recherche sur l'Explicabilité :} Développer des méthodes pour générer des explications claires et fiables des évaluations de crédibilité produites par le système.
+\end{itemize}
+
+En conclusion, la modélisation UML présentée fournit une structure cohérente pour un système complexe et pertinent. Cependant, sa réalisation effective nécessitera de surmonter des défis techniques, de recherche et éthiques significatifs, en particulier concernant la qualité des données, l'évaluation robuste et l'interaction homme-machine favorisant la pensée critique. \\
+% --- BIBLIOGRAPHY ---
+\nocite{*}
+\bibliographystyle{apalike}
+\bibliography{references} \\
+\tableofcontents 
+\section{Annexes 0 L'Interface}
+\begin{figure*}[htbp] % Utilise figure* pour occuper toute la largeur en mode deux colonnes
+  \centering 
+  \includegraphics[width=1.08\textwidth]{interface.png}
+  \caption{L'Interface simpliste} % Votre légende ici
+  \label{fig:IN} % Votre étiquette unique ici (commence souvent par fig:)
+\end{figure*}
+
+\section{Annexes I (Le Code en Python de mon système hybride-PROTOTYPE)}
+\begin{lstlisting}[language=Python,basicstyle=\ttfamily\tiny,frame=single]
+import re
+import requests # Gardé pour d'éventuels appels API réels
+from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
+import numpy as np
+import torch # Nécessaire pour certains modèles transformers
+# LIME est conservé pour l'explicabilité, mais d'autres techniques pourraient être nécessaires
+# pour différents types de modèles (ex: SHAP).
+from lime.lime_text import LimeTextExplainer
+from urllib.parse import urlparse # Pour analyser les URLs
+import datetime # Pour la date de génération du rapport
+
+# --- Configuration Initiale (Modèles et Explainers) ---
+# On charge les modèles ici pour éviter de les recharger à chaque appel.
+# NOTE : Pour une application réelle, envisagez des modèles plus spécifiques
+#        pour la détection de biais, la cohérence, etc.
+#        Certains modèles peuvent nécessiter un fine-tuning.
+
+# Modèle de sentiment (comme dans votre code original)
+sentiment_pipeline = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
+
+# Modèle pour la détection de biais (Exemple - nécessite un modèle approprié)
+# Remplacer par un modèle entraîné pour la détection de biais.
+# Exemple : 'd4data/bias-detection-model' (vérifier disponibilité sur Hugging Face Hub)
+# Pour l'instant, on utilise un modèle de classification générique comme placeholder.
+bias_tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+bias_model = AutoModelForSequenceClassification.from_pretrained("bert-base-uncased") # PLACEHOLDER
+
+# Modèle pour la Reconnaissance d'Entités Nommées (NER)
+ner_pipeline = pipeline("ner", grouped_entities=True) # grouped_entities est souvent utile
+
+# Explainer LIME (pour le modèle de sentiment pour l'instant)
+# Note : L'explicabilité pour d'autres modèles (ex: biais) nécessiterait une configuration adaptée.
+explainer = LimeTextExplainer(class_names=['NEGATIVE', 'POSITIVE']) # Ajuster si le modèle a d'autres classes
+
+# --- Fonctions Utilitaires ---
+
+def is_url(text):
+    """Vérifie si une chaîne ressemble à une URL."""
+    try:
+        result = urlparse(text)
+        return all([result.scheme, result.netloc])
+    except ValueError:
+        return False
+
+def fetch_web_content(url):
+    """
+    Simule la récupération du contenu textuel d'une URL.
+    Pour une implémentation réelle, utiliser `requests` et `BeautifulSoup`.
+    """
+    print(f"[Simulation] Récupération du contenu de : {url}")
+    # Simuler différents contenus pour tester
+    if "verified-news.com" in url:
+        return "This official report is verified and credible. All facts checked."
+    elif "hoax-site.org" in url:
+        return "Shocking conspiracy revealed! Experts are wrong. This is a hoax!"
+    else:
+        # Simuler le cas où une URL ne retourne rien ou est inaccessible
+        if "nonexistent-domain-for-test.xyz" in url:
+             print(f"[Simulation] Échec de la récupération pour : {url}")
+             return None # Simule un échec
+        return "Some generic content from the web."
+
+def fetch_external_data(text_or_url):
+    """
+    Simule la récupération de données externes (fact-checking, réputation source).
+    Pour une implémentation réelle, appeler des API (Google Fact Check, NewsGuard, etc.).
+    """
+    print(f"[Simulation] Recherche de données externes pour : {str(text_or_url)[:50]}...") # Assurer que c'est une str pour le slicing
+    external_info = {
+        'fact_checks': [],
+        'source_reputation': 'Unknown',
+        'domain_age_days': None, # Initialisé à None
+        'related_articles': []
+    }
+    # Tente de récupérer les infos uniquement si c'est une URL valide
+    if isinstance(text_or_url, str) and is_url(text_or_url):
+        domain = urlparse(text_or_url).netloc
+        if "verified-news.com" in domain:
+            external_info['source_reputation'] = 'High'
+            external_info['domain_age_days'] = 1500 # Défini seulement pour les URLs reconnues
+            external_info['fact_checks'].append({'claim': 'Official report facts', 'rating': 'True'})
+        elif "hoax-site.org" in domain:
+            external_info['source_reputation'] = 'Low'
+            external_info['domain_age_days'] = 90 # Défini seulement pour les URLs reconnues
+            external_info['fact_checks'].append({'claim': 'Conspiracy theory', 'rating': 'False'})
+        elif "nonexistent-domain-for-test.xyz" not in domain: # Ne pas donner d'âge pour le domaine inexistant
+             external_info['source_reputation'] = 'Medium'
+             external_info['domain_age_days'] = 730 # Défini seulement pour les URLs reconnues
+
+    # Simulation de résultats de recherche (peut être ajouté même si ce n'est pas une URL)
+    external_info['related_articles'] = [
+        {'title': 'Related Story A', 'url': 'http://example.com/a'},
+        {'title': 'Related Story B', 'url': 'http://example.com/b'}
+    ]
+    return external_info
+
+# --- Classe Principale du Système ---
+
+class CredibilityVerificationSystem:
+    def __init__(self):
+        # Les modèles sont chargés globalement, on peut les référencer ici si besoin
+        self.sentiment_pipeline = sentiment_pipeline
+        self.ner_pipeline = ner_pipeline
+        self.bias_tokenizer = bias_tokenizer
+        self.bias_model = bias_model
+        self.explainer = explainer
+
+    def preprocess(self, text):
+        """Nettoyage simple du texte."""
+        # Améliorable : suppression de HTML, normalisation unicode, etc.
+        if not isinstance(text, str): # Vérifier si l'entrée est bien une chaîne
+             return ""
+        text = re.sub(r'http\S+|www\S+|https\S+', '', text, flags=re.MULTILINE) # Enlever les URLs
+        text = re.sub(r'\s+', ' ', text) # Normaliser les espaces
+        text = re.sub(r'[^\w\s\.\?,!]', '', text) # Garder ponctuation basique
+        return text.lower().strip()
+
+    def rule_based_analysis(self, text, external_data):
+        """
+        Analyse basée sur des règles logiques prédéfinies et des données externes.
+        Ceci est une version simplifiée basée sur le PDF.
+        """
+        results = {
+            'linguistic_markers': {},
+            'source_analysis': {},
+            'timeliness_flags': []
+        }
+        # 1. Marqueurs Linguistiques (Exemples simples)
+        sensational_words = ['shocking', 'revealed', 'conspiracy', 'amazing', 'secret']
+        certainty_words = ['verified', 'authentic', 'credible', 'proven', 'fact']
+        doubt_words = ['hoax', 'false', 'fake', 'unproven', 'rumor']
+
+        results['linguistic_markers']['sensationalism'] = sum(1 for word in sensational_words if word in text)
+        results['linguistic_markers']['certainty'] = sum(1 for word in certainty_words if word in text)
+        results['linguistic_markers']['doubt'] = sum(1 for word in doubt_words if word in text)
+
+        # 2. Analyse de la Source (basée sur les données externes simulées)
+        results['source_analysis']['reputation'] = external_data.get('source_reputation', 'Unknown')
+        domain_age = external_data.get('domain_age_days') # Récupérer la valeur (peut être None)
+        results['source_analysis']['domain_age_days'] = domain_age # Stocker la valeur récupérée
+
+        # 3. Actualité (Exemple très basique)
+        # *** CORRECTION ICI ***
+        # Vérifier si domain_age n'est PAS None AVANT de comparer
+        if domain_age is not None and domain_age < 180: # Moins de 6 mois
+             results['timeliness_flags'].append('Source domain is relatively new.')
+
+        # 4. Vérification des Faits (Fact-Checking)
+        results['fact_checking'] = external_data.get('fact_checks', [])
+
+        return results
+
+    def nlp_analysis(self, text):
+        """
+        Analyse via des modèles NLP (IA).
+        """
+        results = {
+            'sentiment': None,
+            'sentiment_explanation': None,
+            'bias_analysis': {'score': None, 'label': 'Unavailable'}, # Placeholder
+            'named_entities': None,
+            'coherence_score': None # Placeholder
+        }
+
+        # Vérification supplémentaire si le texte est vide après preprocess
+        if not text:
+             print("Avertissement : Texte vide fourni à nlp_analysis.")
+             results['sentiment'] = {'label': 'Neutral', 'score': 0.5} # Ou une autre valeur par défaut
+             return results # Retourner les résultats par défaut
+
+        # 1. Analyse de Sentiment (avec explicabilité LIME)
+        try:
+            # Prédiction pour LIME
+            def predict_proba_sentiment(texts):
+                # S'assurer que texts est une liste de chaînes
+                if isinstance(texts, str):
+                    texts = [texts]
+                elif not isinstance(texts, list):
+                    texts = list(texts) # Tenter de convertir en liste
+
+                processed_texts = [self.preprocess(t) for t in texts]
+                # Gérer les textes vides après prétraitement
+                valid_texts = [t for t in processed_texts if t]
+                probabilities = []
+
+                if not valid_texts:
+                    # Retourner une distribution neutre pour chaque texte original si tous sont vides
+                    return np.array([[0.5, 0.5]] * len(texts))
+
+                # Faire la prédiction uniquement sur les textes valides
+                predictions = self.sentiment_pipeline(valid_texts)
+                pred_idx = 0
+                for original_text in processed_texts:
+                    if original_text: # Si le texte original n'était pas vide après preprocess
+                        pred = predictions[pred_idx]
+                        # Assurer que la sortie est toujours [prob_neg, prob_pos]
+                        if pred['label'] == 'POSITIVE':
+                            probabilities.append([1 - pred['score'], pred['score']])
+                        else: # NEGATIVE or other label mapped to negative
+                            probabilities.append([pred['score'], 1 - pred['score']])
+                        pred_idx += 1
+                    else:
+                         probabilities.append([0.5, 0.5]) # Probabilité neutre pour texte vide
+
+                return np.array(probabilities)
+
+            # Obtenir la prédiction principale pour le texte unique
+            main_prediction = self.sentiment_pipeline(text)[0]
+            results['sentiment'] = main_prediction
+
+            # Générer l'explication LIME
+            explanation = self.explainer.explain_instance(
+                text,
+                predict_proba_sentiment,
+                num_features=6 # Nombre de mots/features à montrer dans l'explication
+            )
+            results['sentiment_explanation'] = explanation.as_list()
+
+        except Exception as e:
+            print(f"Erreur lors de l'analyse de sentiment ou LIME : {e}")
+            results['sentiment'] = {'label': 'Error', 'score': 0.0}
+            results['sentiment_explanation'] = []
+
+        # 2. Analyse de Biais (Simulation/Placeholder)
+        # Un vrai modèle de détection de biais serait nécessaire ici.
+        try:
+            inputs = self.bias_tokenizer(text, return_tensors="pt", truncation=True, max_length=512, padding=True)
+            with torch.no_grad():
+                logits = self.bias_model(**inputs).logits
+            simulated_bias_score = torch.softmax(logits, dim=1)[0][0].item() # Exemple
+            if simulated_bias_score > 0.7: # Seuil arbitraire
+                 results['bias_analysis'] = {'score': simulated_bias_score, 'label': 'Potential Bias Flagged (Simulated)'}
+            else:
+                 results['bias_analysis'] = {'score': simulated_bias_score, 'label': 'Low Bias Detected (Simulated)'}
+        except Exception as e:
+            print(f"Erreur lors de l'analyse de biais (simulée) : {e}")
+            results['bias_analysis'] = {'score': None, 'label': 'Error'}
+
+
+        # 3. Reconnaissance d'Entités Nommées (NER)
+        try:
+            entities = self.ner_pipeline(text)
+            results['named_entities'] = entities
+        except Exception as e:
+            print(f"Erreur lors de l'analyse NER : {e}")
+            results['named_entities'] = []
+
+        # 4. Analyse de Cohérence (Placeholder)
+        results['coherence_score'] = np.random.rand() # Score aléatoire pour l'exemple
+
+        return results
+
+    def calculate_overall_score(self, rule_results, nlp_results):
+        """
+        Calcule un score de crédibilité global basé sur les analyses.
+        Ceci est une heuristique simple, à affiner considérablement.
+        Le score va de 0 (peu crédible) à 1 (très crédible).
+        """
+        score = 0.5 # Score de base neutre
+        weight_sum = 1.0 # Pour normaliser les poids ajoutés/soustraits
+        score_adjustment = 0.0
+
+        # --- Pondérations (Exemples - À AJUSTER ABSOLUMENT) ---
+        WEIGHT_REPUTATION = 0.3
+        WEIGHT_AGE = 0.05
+        WEIGHT_CERTAINTY = 0.1
+        WEIGHT_DOUBT = 0.15
+        WEIGHT_SENSATIONALISM = 0.1
+        WEIGHT_NEGATIVE_SENTIMENT = 0.05
+        WEIGHT_BIAS = 0.15
+        WEIGHT_COHERENCE = 0.05 # Faible car simulé
+
+        # Facteurs basés sur les règles
+        if rule_results['source_analysis']['reputation'] == 'High':
+            score_adjustment += WEIGHT_REPUTATION
+            weight_sum += WEIGHT_REPUTATION
+        elif rule_results['source_analysis']['reputation'] == 'Low':
+            score_adjustment -= WEIGHT_REPUTATION
+            weight_sum += WEIGHT_REPUTATION
+
+        domain_age = rule_results['source_analysis'].get('domain_age_days')
+        # *** CORRECTION ICI AUSSI *** Vérifier si domain_age n'est pas None
+        if domain_age is not None:
+            if domain_age > 365 * 2: # Ex: > 2 ans
+                 score_adjustment += WEIGHT_AGE
+                 weight_sum += WEIGHT_AGE
+            elif domain_age < 90: # Ex: < 3 mois
+                 score_adjustment -= WEIGHT_AGE
+                 weight_sum += WEIGHT_AGE
+
+
+        if rule_results['linguistic_markers']['certainty'] > 0 and rule_results['linguistic_markers']['doubt'] == 0:
+             score_adjustment += WEIGHT_CERTAINTY * rule_results['linguistic_markers']['certainty'] # Plus de certitude = plus de poids
+             weight_sum += WEIGHT_CERTAINTY * rule_results['linguistic_markers']['certainty']
+        elif rule_results['linguistic_markers']['doubt'] > 0:
+             score_adjustment -= WEIGHT_DOUBT * rule_results['linguistic_markers']['doubt'] # Pénaliser plus si plusieurs mots
+             weight_sum += WEIGHT_DOUBT * rule_results['linguistic_markers']['doubt']
+
+        if rule_results['linguistic_markers']['sensationalism'] > 0:
+            sensationalism_penalty = min(WEIGHT_SENSATIONALISM * rule_results['linguistic_markers']['sensationalism'], WEIGHT_SENSATIONALISM * 3)
+            score_adjustment -= sensationalism_penalty
+            weight_sum += sensationalism_penalty
+
+        # Facteurs basés sur le NLP
+        if nlp_results.get('sentiment'): # Vérifier que la clé 'sentiment' existe
+            if nlp_results['sentiment']['label'] == 'NEGATIVE' and nlp_results['sentiment']['score'] > 0.85:
+                 score_adjustment -= WEIGHT_NEGATIVE_SENTIMENT
+                 weight_sum += WEIGHT_NEGATIVE_SENTIMENT
+
+        if nlp_results.get('bias_analysis') and 'Flagged' in nlp_results['bias_analysis'].get('label',''):
+             bias_score_value = nlp_results['bias_analysis'].get('score')
+             if bias_score_value is not None:
+                 bias_impact = WEIGHT_BIAS * ((bias_score_value - 0.5) * 2) # Normaliser le score de biais (0.5->0, 1.0->1)
+                 score_adjustment -= bias_impact # Soustraire l'impact du biais
+                 weight_sum += WEIGHT_BIAS # Ajouter le poids du facteur biais
+
+        if nlp_results.get('coherence_score') is not None:
+             coherence_adjustment = (nlp_results['coherence_score'] - 0.5) * WEIGHT_COHERENCE
+             score_adjustment += coherence_adjustment
+             weight_sum += abs(coherence_adjustment)
+
+        # Calcul final
+        final_score = 0.5 + score_adjustment / weight_sum if weight_sum > 0 else 0.5
+
+        return max(0.0, min(1.0, final_score)) # Assurer que le score reste entre 0 et 1
+
+
+    def generate_report(self, input_data, cleaned_text, rule_results, nlp_results, external_data, overall_score):
+        """
+        Génère le rapport final structuré, similaire à 'RapportEvaluation' du PDF.
+        """
+        report = {
+            'idRapport': f"report_{int(datetime.datetime.now().timestamp())}",
+            'informationEntree': input_data,
+            'dateGeneration': datetime.datetime.now().isoformat(),
+            'scoreCredibilite': round(overall_score, 2),
+            'resumeAnalyse': "", # Sera généré ci-dessous
+            'detailsScore': {
+                'base': 0.5,
+                'adjustments': self._get_score_adjustments(rule_results, nlp_results)
+            },
+            'sourcesUtilisees': [], # Lister les sources externes consultées
+            'reglesAppliquees': rule_results,
+            'analyseNLP': { # Filtrer pour ne pas inclure les explications potentiellement longues ici
+                 'sentiment': nlp_results.get('sentiment'),
+                 'bias_analysis': nlp_results.get('bias_analysis'),
+                 'named_entities_count': len(nlp_results.get('named_entities', [])),
+                 'coherence_score': nlp_results.get('coherence_score'),
+                 'sentiment_explanation_preview': nlp_results.get('sentiment_explanation', [])[:2] # Juste un aperçu
+            },
+        }
+
+        # Générer un résumé textuel simple
+        summary_parts = []
+        if overall_score > 0.75:
+            summary_parts.append("L'analyse suggère une crédibilité ÉLEVÉE.")
+        elif overall_score > 0.55:
+            summary_parts.append("L'analyse suggère une crédibilité MOYENNE à ÉLEVÉE.")
+        elif overall_score > 0.45:
+             summary_parts.append("L'analyse suggère une crédibilité MOYENNE.")
+        elif overall_score > 0.25:
+             summary_parts.append("L'analyse suggère une crédibilité FAIBLE à MOYENNE.")
+        else:
+            summary_parts.append("L'analyse suggère une crédibilité FAIBLE.")
+
+
+        if rule_results['source_analysis']['reputation'] != 'Unknown':
+             summary_parts.append(f"Réputation source : {rule_results['source_analysis']['reputation']}.")
+        elif isinstance(input_data, str) and is_url(input_data): # Seulement si c'était une URL mais réputation inconnue
+             summary_parts.append("Réputation source : Inconnue.")
+
+
+        if rule_results['linguistic_markers']['sensationalism'] > 0:
+             summary_parts.append(f"Marqueurs sensationnalistes détectés ({rule_results['linguistic_markers']['sensationalism']}).")
+        if rule_results['linguistic_markers']['doubt'] > 0:
+             summary_parts.append(f"Marqueurs de doute détectés ({rule_results['linguistic_markers']['doubt']}).")
+
+        bias_info = nlp_results.get('bias_analysis')
+        if bias_info and 'Flagged' in bias_info.get('label',''):
+             bias_score_str = f"{bias_info.get('score', 'N/A'):.2f}" if isinstance(bias_info.get('score'), float) else 'N/A'
+             summary_parts.append(f"Biais potentiel signalé (Score simulé: {bias_score_str}).")
+
+        if rule_results['fact_checking']:
+             fc_summary = ", ".join([f"{fc['claim']} ({fc['rating']})" for fc in rule_results['fact_checking']])
+             summary_parts.append(f"Vérifications externes trouvées : {fc_summary}.")
+        elif isinstance(input_data, str) and is_url(input_data): # Si c'était une URL mais pas de fact check trouvé
+             summary_parts.append("Aucune vérification externe spécifique trouvée (simulation).")
+
+
+        report['resumeAnalyse'] = " ".join(summary_parts)
+
+        # Lister les sources externes (exemple)
+        is_input_url_flag = isinstance(input_data, str) and is_url(input_data)
+        if is_input_url_flag:
+             report['sourcesUtilisees'].append({'type': 'Primary Input URL', 'url': input_data})
+        report['sourcesUtilisees'].append({'type': 'External Reputation Check', 'details': f"Reputation: {rule_results['source_analysis']['reputation']} (Simulated)"})
+        report['sourcesUtilisees'].append({'type': 'External Fact Check API', 'details': f"{len(rule_results['fact_checking'])} checks found (Simulated)"})
+
+
+        return report
+
+    def _get_score_adjustments(self, rule_results, nlp_results):
+        """Helper pour lister les ajustements de score pour le rapport."""
+        adjustments = []
+        # Miroir de la logique dans calculate_overall_score, mais juste pour le reporting
+        if rule_results['source_analysis']['reputation'] == 'High':
+            adjustments.append({'factor': 'Source Reputation', 'value': '+High'})
+        elif rule_results['source_analysis']['reputation'] == 'Low':
+            adjustments.append({'factor': 'Source Reputation', 'value': '-Low'})
+
+        domain_age = rule_results['source_analysis'].get('domain_age_days')
+        if domain_age is not None:
+            if domain_age > 365 * 2:
+                 adjustments.append({'factor': 'Domain Age', 'value': '+Old'})
+            elif domain_age < 90:
+                 adjustments.append({'factor': 'Domain Age', 'value': '-New'})
+
+        certainty = rule_results['linguistic_markers']['certainty']
+        doubt = rule_results['linguistic_markers']['doubt']
+        if certainty > 0 and doubt == 0:
+             adjustments.append({'factor': 'Certainty Markers', 'value': f"+{certainty}"})
+        elif doubt > 0:
+             adjustments.append({'factor': 'Doubt Markers', 'value': f"-{doubt}"})
+
+        sensationalism = rule_results['linguistic_markers']['sensationalism']
+        if sensationalism > 0:
+            adjustments.append({'factor': 'Sensationalism', 'value': f"-{sensationalism}"})
+
+        sentiment_info = nlp_results.get('sentiment')
+        if sentiment_info:
+            if sentiment_info['label'] == 'NEGATIVE' and sentiment_info['score'] > 0.85:
+                 adjustments.append({'factor': 'Strong Negative Sentiment', 'value': '-Impact'})
+
+        bias_info = nlp_results.get('bias_analysis')
+        if bias_info and 'Flagged' in bias_info.get('label',''):
+             bias_score_str = f"{bias_info.get('score', 0):.2f}" if isinstance(bias_info.get('score'), float) else 'N/A'
+             adjustments.append({'factor': 'Potential Bias', 'value': f"-Impact (Score: {bias_score_str})"})
+
+        coherence_score = nlp_results.get('coherence_score')
+        if coherence_score is not None:
+             adj_val = round((coherence_score - 0.5), 2)
+             adjustments.append({'factor': 'Coherence (Simulated)', 'value': f"{'+' if adj_val >= 0 else ''}{adj_val}"})
+
+        return adjustments
+
+
+    def verify_information(self, input_data):
+        """
+        Pipeline principal pour vérifier la crédibilité (adapté du PDF).
+        """
+         # Vérification initiale du type d'entrée
+        if not isinstance(input_data, str) or not input_data.strip():
+            print("Erreur: L'entrée fournie n'est pas une chaîne de caractères valide ou est vide.")
+            return {"error": "L'entrée doit être une chaîne de caractères non vide (texte ou URL)."}
+
+        print(f"\n--- Vérification pour : {input_data[:100]}... ---")
+
+        # 1. Déterminer le type d'entrée et récupérer le contenu si URL
+        text_to_analyze = ""
+        is_input_url = is_url(input_data)
+        if is_input_url:
+            try:
+                # --- Simulation ---
+                text_to_analyze = fetch_web_content(input_data)
+                if text_to_analyze is None: # Gérer l'échec simulé de fetch_web_content
+                     print(f"Échec de la récupération du contenu pour l'URL : {input_data}")
+                     return {"error": f"Impossible de récupérer le contenu de l'URL : {input_data}"}
+
+            except requests.exceptions.RequestException as e: # Garder pour une future implémentation réelle
+                 print(f"Erreur réseau/HTTP lors de la récupération de l'URL {input_data}: {e}")
+                 return {"error": f"Erreur réseau lors de la récupération de l'URL : {e}"}
+            except Exception as e:
+                 print(f"Erreur inattendue lors du traitement de l'URL {input_data}: {e}")
+                 return {"error": f"Erreur inattendue lors du traitement de l'URL : {e}"}
+
+        else: # Si ce n'est pas une URL, c'est du texte direct
+            text_to_analyze = input_data
+
+        # 2. Prétraitement du texte
+        cleaned_text = self.preprocess(text_to_analyze)
+        if not cleaned_text:
+             # Gérer le cas où le texte est vide après nettoyage
+             print("Erreur: Le texte est vide après prétraitement.")
+             return {"error": "Le texte fourni est vide ou ne contient que des éléments supprimés lors du prétraitement."}
+        print(f"Texte nettoyé (extrait) : {cleaned_text[:200]}...")
+
+        # 3. Récupérer les données externes
+        external_data = fetch_external_data(input_data if is_input_url else cleaned_text)
+        print(f"Données externes (simulées) : {external_data}")
+
+        # 4. Analyse basée sur les règles
+        rule_results = self.rule_based_analysis(cleaned_text, external_data)
+        print(f"Résultats règles : {rule_results}")
+
+        # 5. Analyse basée sur NLP/IA
+        nlp_results = self.nlp_analysis(cleaned_text)
+        print(f"Résultats NLP (Sentiment): {nlp_results.get('sentiment')}")
+        print(f"Résultats NLP (Bias): {nlp_results.get('bias_analysis')}")
+        print(f"Résultats NLP (NER count): {len(nlp_results.get('named_entities', []))}")
+
+        # 6. Calculer le score global
+        overall_score = self.calculate_overall_score(rule_results, nlp_results)
+        print(f"Score global calculé : {overall_score:.2f}")
+
+        # 7. Générer le rapport final
+        final_report = self.generate_report(input_data, cleaned_text, rule_results, nlp_results, external_data, overall_score)
+
+        return final_report
+
+# --- Tests du Système ---
+if __name__ == "__main__":
+    system = CredibilityVerificationSystem()
+    results = {} # Dictionnaire pour stocker les résultats
+
+    test_cases = {
+        "Test 1 (Texte Simple)": "This post is verified and credible. Avoid false information.",
+        "Test 2 (URL Crédible)": "http://verified-news.com/article123",
+        "Test 3 (URL Hoax)": "http://hoax-site.org/the-truth",
+        "Test 4 (Texte Sensationnaliste)": "Shocking news! The secret is revealed! This changes everything! Amazing discovery!",
+        "Test 5 (Texte Vide)": " ",
+        "Test 6 (URL Inexistante)": "http://nonexistent-domain-for-test.xyz",
+        "Test 7 (URL Générique)": "http://example-generic-site.com/page",
+        "Test 8 (Texte avec Doute)": "There are rumors and claims that this might be a hoax.",
+    }
+
+    import json
+
+    for test_name, test_input in test_cases.items():
+        print(f"\n===== Exécution: {test_name} =====")
+        result = system.verify_information(test_input)
+        results[test_name] = result # Stocker le résultat
+        print(f"\n--- Rapport Final {test_name} ---")
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+        print(f"===== Fin: {test_name} =====")
+
+    # Optionnel: Afficher un résumé de tous les scores à la fin
+    print("\n\n===== Résumé des Scores =====")
+    for test_name, result in results.items():
+         score = result.get('scoreCredibilite', 'Erreur')
+         if score == 'Erreur' and 'error' in result:
+              score = f"Erreur ({result['error']})"
+         print(f"{test_name}: {score}")
+
+\end{lstlisting}
+\section{Annexes II (Le Code en Turtle de ma base de règles pour peupler une ontologie de triplets (Sujet-Prédicat-Objet)}
+
+\begin{lstlisting}[language=Turtle,basicstyle=\ttfamily\tiny,frame=single]
+@base <http://www.dic9335.uqam.ca/ontologies/credibility-verification#> .
+@prefix : <http://www.dic9335.uqam.ca/ontologies/credibility-verification#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2002/07/owl#maxCardinality
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#analyzesSource
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#appliesRule
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#assignsCredibilityLevel
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#basedOnEvidence
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#concernsCriterion
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#concernsInformation
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#configuredByExpert
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#evaluatesCriterion
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#fetchesDataFrom
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#hasAuthor
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#hasCriterionResult
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#hasOriginalSource
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#includesNLPResult
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#includesRuleResult
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#includesSourceAnalysis
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#isReportOf
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#isSubjectOfRequest
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#obtainedVia
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#originatesFrom
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#producesReport
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#submitsRequest
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#submittedBy
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#usesModel
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#authorName
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#coherenceScore
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#completionTimestamp
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#credibilityLevelValue
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#credibilityScoreValue
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#criterionResultConfidence
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#criterionResultValue
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#detectedBiases
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#evidenceSnippet
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#evidenceURL
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#informationContent
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#informationURL
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#modelName
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#modelType
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#reportSummary
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#requestStatus
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ruleDescription
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ruleLogic
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ruleResultValid
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ruleWeight
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sentimentScore
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sourceAnalyzedReputation
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sourceAnalyzedURL
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sourceMentionsCount
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sourceReputationScore
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#sourceURL
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#submissionTimestamp
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#userName
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#AcademicJournal
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ApiLLM
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Author
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#BaseDeFaits
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#CredibilityLevel
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Evidence
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Expert
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#FactCheckingOrganization
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InfoSourceAnalyse
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InformationFaibleCredibilite
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InformationHauteCredibilite
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InformationMoyenneCredibilite
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InformationSoumise
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#InformationVerifiee
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ModeleIA
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#MoteurRecherche
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#NewsWebsite
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Bas
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Haut
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Moyen
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_NonVerifie
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#PersonalBlog
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#RapportEvaluation
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#RefutingEvidence
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#RegleVerification
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#RequeteEvaluation
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ResultatCritere
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ResultatNLP
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ResultatRegle
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#ResultatVerification
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#SocialMediaPlatform
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Source
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#SupportingEvidence
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#SystemeExterne
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#User
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#VerificationCriterion
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#VerificationMethod
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_AuthorExpertise
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_CoherenceAnalysis
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_CrossReferencing
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_FactCheckDB
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_SourceReputation
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Criteria_ToneAnalysis
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Bas
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Haut
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_Moyen
+# 
+# http://www.dic9335.uqam.ca/ontologies/credibility-verification#Niveau_NonVerifie
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+# 
+# 
+# 
+# 
+# Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
+
+<credibility-verification> a owl:Ontology;
+  rdfs:comment "Ontologie enrichie et adaptée modélisant les concepts liés à la vérification de la crédibilité des sources d'information sur le Web, basée sur le rapport de modélisation UML et inspirée par l'ontologie de subvention recherche."@fr;
+  rdfs:label "Ontologie Système de Vérification de Sources (Adaptée Rapport + Subvention)"@fr;
+  owl:versionInfo "2.1" .
+
+owl:maxCardinality a owl:AnnotationProperty .
+
+:analyzesSource a owl:ObjectProperty;
+  rdfs:domain :InfoSourceAnalyse;
+  rdfs:range :Source;
+  rdfs:label "analyse source"@fr .
+
+:appliesRule a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :ResultatRegle;
+  rdfs:range :RegleVerification;
+  rdfs:label "applique règle"@fr .
+
+:assignsCredibilityLevel a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :CredibilityLevel;
+  rdfs:comment "Lie un rapport d'évaluation au niveau de crédibilité final attribué."@fr;
+  rdfs:label "assigne niveau crédibilité"@fr .
+
+:basedOnEvidence a owl:ObjectProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :Evidence;
+  rdfs:comment "Lie un rapport d'évaluation aux preuves collectées."@fr;
+  rdfs:label "basé sur preuve"@fr .
+
+:concernsCriterion a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :ResultatCritere;
+  rdfs:range :VerificationCriterion;
+  rdfs:label "concerne critère"@fr .
+
+:concernsInformation a owl:ObjectProperty, owl:FunctionalProperty;
+  owl:inverseOf :isSubjectOfRequest;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range :InformationSoumise;
+  rdfs:label "concerne information"@fr .
+
+:configuredByExpert a owl:ObjectProperty;
+  rdfs:domain _:genid1;
+  rdfs:range :Expert;
+  rdfs:label "configuré par expert"@fr .
+
+_:genid1 a owl:Class;
+  owl:unionOf _:genid4 .
+
+_:genid4 a rdf:List;
+  rdf:first :ModeleIA;
+  rdf:rest _:genid3 .
+
+_:genid3 a rdf:List;
+  rdf:first :RegleVerification;
+  rdf:rest _:genid2 .
+
+_:genid2 a rdf:List;
+  rdf:first :VerificationCriterion;
+  rdf:rest rdf:nil .
+
+:evaluatesCriterion a owl:ObjectProperty;
+  rdfs:domain _:genid5;
+  rdfs:range :VerificationCriterion;
+  rdfs:comment "Lie une règle ou un modèle au critère de vérification qu'il est conçu pour évaluer."@fr;
+  rdfs:label "évalue critère"@fr .
+
+_:genid5 a owl:Class;
+  owl:unionOf _:genid7 .
+
+_:genid7 a rdf:List;
+  rdf:first :ModeleIA;
+  rdf:rest _:genid6 .
+
+_:genid6 a rdf:List;
+  rdf:first :RegleVerification;
+  rdf:rest rdf:nil .
+
+:fetchesDataFrom a owl:ObjectProperty;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range :SystemeExterne;
+  rdfs:label "récupère données de"@fr .
+
+:hasAuthor a owl:ObjectProperty;
+  rdfs:domain :InformationSoumise;
+  rdfs:range :Author;
+  rdfs:comment "Lie une information soumise à son auteur présumé."@fr;
+  rdfs:label "a pour auteur"@fr .
+
+:hasCriterionResult a owl:ObjectProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :ResultatCritere;
+  rdfs:comment "Lie un rapport au résultat détaillé pour un critère d'évaluation spécifique."@fr;
+  rdfs:label "a résultat pour critère"@fr .
+
+:hasOriginalSource a owl:ObjectProperty;
+  rdfs:domain :InformationSoumise;
+  rdfs:range :Source;
+  rdfs:comment "Lie une information soumise à sa source d'origine principale."@fr;
+  rdfs:label "a pour source originale"@fr .
+
+:includesNLPResult a owl:ObjectProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :ResultatNLP;
+  rdfs:label "inclut résultat NLP"@fr .
+
+:includesRuleResult a owl:ObjectProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :ResultatRegle;
+  rdfs:label "inclut résultat règle"@fr .
+
+:includesSourceAnalysis a owl:ObjectProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :InfoSourceAnalyse;
+  rdfs:label "inclut analyse source"@fr .
+
+:isReportOf a owl:ObjectProperty, owl:InverseFunctionalProperty;
+  owl:inverseOf :producesReport;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range :RequeteEvaluation;
+  rdfs:label "est rapport de"@fr .
+
+:isSubjectOfRequest a owl:ObjectProperty;
+  rdfs:domain :InformationSoumise;
+  rdfs:range :RequeteEvaluation;
+  rdfs:label "est sujet de requête"@fr .
+
+:obtainedVia a owl:ObjectProperty;
+  rdfs:domain :ResultatCritere;
+  rdfs:range _:genid8;
+  rdfs:label "obtenu via"@fr .
+
+_:genid8 a owl:Class;
+  owl:unionOf _:genid10 .
+
+_:genid10 a rdf:List;
+  rdf:first :ResultatNLP;
+  rdf:rest _:genid9 .
+
+_:genid9 a rdf:List;
+  rdf:first :ResultatRegle;
+  rdf:rest rdf:nil .
+
+:originatesFrom a owl:ObjectProperty;
+  rdfs:domain :Evidence;
+  rdfs:range :Source;
+  rdfs:comment "Lie une preuve à la source d'où elle a été extraite."@fr;
+  rdfs:label "provient de"@fr .
+
+:producesReport a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range :RapportEvaluation;
+  rdfs:label "produit rapport"@fr .
+
+:submitsRequest a owl:ObjectProperty;
+  owl:inverseOf :submittedBy;
+  rdfs:domain :User;
+  rdfs:range :RequeteEvaluation;
+  rdfs:label "soumet requête"@fr .
+
+:submittedBy a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range :User;
+  rdfs:comment "Lie une requête de vérification à l'utilisateur qui l'a soumise."@fr;
+  rdfs:label "soumise par"@fr .
+
+:usesModel a owl:ObjectProperty, owl:FunctionalProperty;
+  rdfs:domain :ResultatNLP;
+  rdfs:range :ModeleIA;
+  rdfs:label "utilise modèle"@fr .
+
+:authorName a owl:DatatypeProperty;
+  rdfs:domain :Author;
+  rdfs:range xsd:string;
+  rdfs:label "nom de l'auteur"@fr .
+
+:coherenceScore a owl:DatatypeProperty;
+  rdfs:domain :ResultatNLP;
+  rdfs:range xsd:float;
+  rdfs:label "score cohérence"@fr .
+
+:completionTimestamp a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range xsd:dateTime;
+  rdfs:label "horodatage de complétion"@fr .
+
+:credibilityLevelValue a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :CredibilityLevel;
+  rdfs:range xsd:float;
+  rdfs:label "valeur numérique niveau"@fr .
+
+:credibilityScoreValue a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range xsd:float;
+  rdfs:label "valeur score crédibilité"@fr .
+
+:criterionResultConfidence a owl:DatatypeProperty;
+  rdfs:domain :ResultatCritere;
+  rdfs:range xsd:float;
+  rdfs:label "confiance résultat critère"@fr .
+
+:criterionResultValue a owl:DatatypeProperty;
+  rdfs:domain :ResultatCritere;
+  rdfs:range xsd:string;
+  rdfs:label "valeur résultat critère"@fr .
+
+:detectedBiases a owl:DatatypeProperty;
+  rdfs:domain :ResultatNLP;
+  rdfs:range xsd:string;
+  rdfs:comment "";
+  rdfs:label "biais détectés"@fr .
+
+:evidenceSnippet a owl:DatatypeProperty;
+  rdfs:domain :Evidence;
+  rdfs:range xsd:string;
+  rdfs:label "extrait de la preuve"@fr .
+
+:evidenceURL a owl:DatatypeProperty;
+  rdfs:domain :Evidence;
+  rdfs:range xsd:anyURI;
+  rdfs:label "URL de la preuve"@fr .
+
+:informationContent a owl:DatatypeProperty;
+  rdfs:domain :InformationSoumise;
+  rdfs:range xsd:string;
+  rdfs:label "contenu de l'information"@fr .
+
+:informationURL a owl:DatatypeProperty;
+  rdfs:domain :InformationSoumise;
+  rdfs:range xsd:anyURI;
+  rdfs:label "URL de l'information"@fr .
+
+:modelName a owl:DatatypeProperty;
+  rdfs:domain :ModeleIA;
+  rdfs:range xsd:string;
+  rdfs:label "nom modèle"@fr .
+
+:modelType a owl:DatatypeProperty;
+  rdfs:domain :ModeleIA;
+  rdfs:range xsd:string;
+  rdfs:label "type modèle"@fr .
+
+:reportSummary a owl:DatatypeProperty;
+  rdfs:domain :RapportEvaluation;
+  rdfs:range xsd:string;
+  rdfs:label "résumé du rapport"@fr .
+
+:requestStatus a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range xsd:string;
+  rdfs:label "statut requête"@fr .
+
+:ruleDescription a owl:DatatypeProperty;
+  rdfs:domain :RegleVerification;
+  rdfs:range xsd:string;
+  rdfs:label "description règle"@fr .
+
+:ruleLogic a owl:DatatypeProperty;
+  rdfs:domain :RegleVerification;
+  rdfs:range xsd:string;
+  rdfs:label "logique règle"@fr .
+
+:ruleResultValid a owl:DatatypeProperty;
+  rdfs:domain :ResultatRegle;
+  rdfs:range xsd:boolean;
+  rdfs:label "résultat règle valide"@fr .
+
+:ruleWeight a owl:DatatypeProperty;
+  rdfs:domain :RegleVerification;
+  rdfs:range xsd:float;
+  rdfs:label "poids règle"@fr .
+
+:sentimentScore a owl:DatatypeProperty;
+  rdfs:domain :ResultatNLP;
+  rdfs:range xsd:float;
+  rdfs:label "score sentiment"@fr .
+
+:sourceAnalyzedReputation a owl:DatatypeProperty;
+  rdfs:domain :InfoSourceAnalyse;
+  rdfs:range xsd:string;
+  rdfs:label "réputation source analysée"@fr .
+
+:sourceAnalyzedURL a owl:DatatypeProperty;
+  rdfs:domain :InfoSourceAnalyse;
+  rdfs:range xsd:anyURI;
+  rdfs:label "URL source analysée"@fr .
+
+:sourceMentionsCount a owl:DatatypeProperty;
+  rdfs:domain :InfoSourceAnalyse;
+  rdfs:range xsd:integer;
+  rdfs:label "mentions source analysée"@fr .
+
+:sourceReputationScore a owl:DatatypeProperty;
+  rdfs:domain :Source;
+  rdfs:range xsd:float;
+  rdfs:label "score de réputation de la source"@fr .
+
+:sourceURL a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :Source;
+  rdfs:range xsd:anyURI;
+  rdfs:label "URL de la source"@fr .
+
+:submissionTimestamp a owl:DatatypeProperty, owl:FunctionalProperty;
+  rdfs:domain :RequeteEvaluation;
+  rdfs:range xsd:dateTime;
+  rdfs:label "horodatage de soumission"@fr .
+
+:userName a owl:DatatypeProperty;
+  rdfs:domain :User;
+  rdfs:range xsd:string;
+  rdfs:label "nom d'utilisateur"@fr .
+
+:AcademicJournal a owl:Class;
+  rdfs:subClassOf :Source;
+  rdfs:label "Revue Académique"@fr .
+
+:ApiLLM a owl:Class;
+  rdfs:subClassOf :SystemeExterne;
+  rdfs:label "API de LLM"@fr .
+
+:Author a owl:Class;
+  rdfs:comment "Représente la personne ou l'entité créditée pour la création de l'information soumise."@fr;
+  rdfs:label "Auteur"@fr .
+
+:BaseDeFaits a owl:Class;
+  rdfs:subClassOf :SystemeExterne;
+  rdfs:label "Base de Données de Faits Vérifiés"@fr .
+
+:CredibilityLevel a owl:Class;
+  rdfs:comment "Représente le niveau de crédibilité qualitatif ou quantitatif attribué dans le rapport."@fr;
+  rdfs:label "Niveau de Crédibilité"@fr .
+
+:Evidence a owl:Class;
+  rdfs:comment "Représente un élément d'information externe utilisé pour étayer ou réfuter l'information vérifiée."@fr;
+  rdfs:label "Preuve"@fr .
+
+:Expert a owl:Class;
+  rdfs:subClassOf :User;
+  rdfs:comment "Utilisateur qualifié responsable de la configuration et de l'amélioration du système (règles, modèles)."@fr;
+  rdfs:label "Expert"@fr .
+
+:FactCheckingOrganization a owl:Class;
+  rdfs:subClassOf :Source;
+  rdfs:label "Organisation de Vérification des Faits"@fr .
+
+:InfoSourceAnalyse a owl:Class;
+  rdfs:subClassOf _:genid11;
+  rdfs:comment "Détails sur une source spécifique telle qu'analysée et présentée dans le rapport."@fr;
+  rdfs:label "Information Source Analysée"@fr .
+
+_:genid11 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :analyzesSource .
+
+:InformationFaibleCredibilite a owl:Class;
+  owl:equivalentClass _:genid12;
+  rdfs:subClassOf _:genid22;
+  rdfs:label "Information Faiblement Crédible"@fr .
+
+_:genid12 a owl:Class;
+  owl:intersectionOf _:genid21 .
+
+_:genid21 a rdf:List;
+  rdf:first :InformationVerifiee;
+  rdf:rest _:genid19 .
+
+_:genid19 a rdf:List;
+  rdf:first _:genid20;
+  rdf:rest _:genid17 .
+
+_:genid17 a rdf:List;
+  rdf:first _:genid18;
+  rdf:rest _:genid13 .
+
+_:genid13 a rdf:List;
+  rdf:first _:genid14;
+  rdf:rest rdf:nil .
+
+_:genid14 a owl:Restriction;
+  owl:someValuesFrom _:genid15;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid15 a owl:Restriction;
+  owl:someValuesFrom _:genid16;
+  owl:onProperty :producesReport .
+
+_:genid16 a owl:Restriction;
+  owl:hasValue :Niveau_Bas;
+  owl:onProperty :assignsCredibilityLevel .
+
+_:genid18 a owl:Class;
+  owl:complementOf :InformationMoyenneCredibilite .
+
+_:genid20 a owl:Class;
+  owl:complementOf :InformationHauteCredibilite .
+
+_:genid22 a owl:Restriction;
+  owl:allValuesFrom _:genid23;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid23 a owl:Restriction;
+  owl:allValuesFrom _:genid24;
+  owl:onProperty :producesReport .
+
+_:genid24 a owl:Restriction;
+  owl:hasValue :Niveau_Bas;
+  owl:onProperty :assignsCredibilityLevel .
+
+:InformationHauteCredibilite a owl:Class;
+  owl:equivalentClass _:genid25;
+  rdfs:subClassOf _:genid31;
+  rdfs:label "Information Hautement Crédible"@fr .
+
+_:genid25 a owl:Class;
+  owl:intersectionOf _:genid30 .
+
+_:genid30 a rdf:List;
+  rdf:first :InformationVerifiee;
+  rdf:rest _:genid26 .
+
+_:genid26 a rdf:List;
+  rdf:first _:genid27;
+  rdf:rest rdf:nil .
+
+_:genid27 a owl:Restriction;
+  owl:someValuesFrom _:genid28;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid28 a owl:Restriction;
+  owl:someValuesFrom _:genid29;
+  owl:onProperty :producesReport .
+
+_:genid29 a owl:Restriction;
+  owl:hasValue :Niveau_Haut;
+  owl:onProperty :assignsCredibilityLevel .
+
+_:genid31 a owl:Restriction;
+  owl:allValuesFrom _:genid32;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid32 a owl:Restriction;
+  owl:allValuesFrom _:genid33;
+  owl:onProperty :producesReport .
+
+_:genid33 a owl:Restriction;
+  owl:hasValue :Niveau_Haut;
+  owl:onProperty :assignsCredibilityLevel .
+
+:InformationMoyenneCredibilite a owl:Class;
+  owl:equivalentClass _:genid34;
+  rdfs:subClassOf _:genid42;
+  rdfs:label "Information Moyennement Crédible"@fr .
+
+_:genid34 a owl:Class;
+  owl:intersectionOf _:genid41 .
+
+_:genid41 a rdf:List;
+  rdf:first :InformationVerifiee;
+  rdf:rest _:genid39 .
+
+_:genid39 a rdf:List;
+  rdf:first _:genid40;
+  rdf:rest _:genid35 .
+
+_:genid35 a rdf:List;
+  rdf:first _:genid36;
+  rdf:rest rdf:nil .
+
+_:genid36 a owl:Restriction;
+  owl:someValuesFrom _:genid37;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid37 a owl:Restriction;
+  owl:someValuesFrom _:genid38;
+  owl:onProperty :producesReport .
+
+_:genid38 a owl:Restriction;
+  owl:hasValue :Niveau_Moyen;
+  owl:onProperty :assignsCredibilityLevel .
+
+_:genid40 a owl:Class;
+  owl:complementOf :InformationHauteCredibilite .
+
+_:genid42 a owl:Restriction;
+  owl:allValuesFrom _:genid43;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid43 a owl:Restriction;
+  owl:allValuesFrom _:genid44;
+  owl:onProperty :producesReport .
+
+_:genid44 a owl:Restriction;
+  owl:hasValue :Niveau_Moyen;
+  owl:onProperty :assignsCredibilityLevel .
+
+:InformationSoumise a owl:Class;
+  rdfs:comment "Représente l'unité d'information (texte, URL) telle que soumise pour vérification."@fr;
+  rdfs:label "Information Soumise"@fr .
+
+:InformationVerifiee a owl:Class;
+  owl:equivalentClass _:genid45;
+  rdfs:label "Information Vérifiée"@fr .
+
+_:genid45 a owl:Class;
+  owl:intersectionOf _:genid49 .
+
+_:genid49 a rdf:List;
+  rdf:first :InformationSoumise;
+  rdf:rest _:genid46 .
+
+_:genid46 a rdf:List;
+  rdf:first _:genid47;
+  rdf:rest rdf:nil .
+
+_:genid47 a owl:Restriction;
+  owl:someValuesFrom _:genid48;
+  owl:onProperty :isSubjectOfRequest .
+
+_:genid48 a owl:Restriction;
+  owl:someValuesFrom :RapportEvaluation;
+  owl:onProperty :producesReport .
+
+:ModeleIA a owl:Class;
+  rdfs:subClassOf :VerificationMethod, _:genid50;
+  rdfs:comment "Représente un modèle d'apprentissage automatique utilisé pour l'analyse sémantique ou autre."@fr;
+  rdfs:label "Modèle IA/NLP"@fr .
+
+_:genid50 a owl:Restriction;
+  owl:minCardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :evaluatesCriterion .
+
+:MoteurRecherche a owl:Class;
+  rdfs:subClassOf :SystemeExterne;
+  rdfs:label "Moteur de Recherche"@fr .
+
+:NewsWebsite a owl:Class;
+  rdfs:subClassOf :Source;
+  rdfs:label "Site d'actualités"@fr .
+
+:Niveau_Bas a owl:Class, owl:NamedIndividual, :CredibilityLevel;
+  :credibilityLevelValue "0.2"^^xsd:float;
+  rdfs:label "Crédibilité Faible"@fr .
+
+:Niveau_Haut a owl:Class, owl:NamedIndividual, :CredibilityLevel;
+  :credibilityLevelValue "0.8"^^xsd:float;
+  rdfs:label "Crédibilité Élevée"@fr .
+
+:Niveau_Moyen a owl:Class, owl:NamedIndividual, :CredibilityLevel;
+  :credibilityLevelValue "0.5"^^xsd:float;
+  rdfs:label "Crédibilité Moyenne"@fr .
+
+:Niveau_NonVerifie a owl:Class, owl:NamedIndividual, :CredibilityLevel;
+  rdfs:label "Non Vérifié"@fr .
+
+:PersonalBlog a owl:Class;
+  rdfs:subClassOf :Source;
+  rdfs:label "Blog Personnel"@fr .
+
+:RapportEvaluation a owl:Class;
+  rdfs:subClassOf _:genid51;
+  rdfs:comment "Encapsule les résultats complets du processus de vérification pour une requête donnée."@fr;
+  rdfs:label "Rapport d'Évaluation"@fr .
+
+_:genid51 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :assignsCredibilityLevel .
+
+:RefutingEvidence a owl:Class;
+  rdfs:subClassOf :Evidence;
+  owl:disjointWith :SupportingEvidence;
+  rdfs:label "Preuve réfutante"@fr .
+
+:RegleVerification a owl:Class;
+  rdfs:subClassOf :VerificationMethod, _:genid52;
+  rdfs:comment "Représente une règle logique prédéfinie utilisée pour évaluer un aspect de la crédibilité."@fr;
+  rdfs:label "Règle de Vérification"@fr .
+
+_:genid52 a owl:Restriction;
+  owl:minCardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :evaluatesCriterion .
+
+:RequeteEvaluation a owl:Class;
+  rdfs:subClassOf _:genid53, _:genid54, _:genid55;
+  rdfs:comment "Représente une demande spécifique de vérification de crédibilité soumise par un utilisateur."@fr;
+  rdfs:label "Requête d'Évaluation"@fr .
+
+_:genid53 a owl:Restriction;
+  owl:minCardinality "0"^^xsd:nonNegativeInteger;
+  owl:onProperty :producesReport .
+
+_:genid54 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :concernsInformation .
+
+_:genid55 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :submittedBy .
+
+:ResultatCritere a owl:Class;
+  rdfs:subClassOf _:genid56, _:genid57;
+  rdfs:comment "Représente le résultat de l'évaluation d'un critère spécifique pour une requête, potentiellement basé sur un ou plusieurs résultats de règles/NLP."@fr;
+  rdfs:label "Résultat Critère"@fr .
+
+_:genid56 a owl:Restriction;
+  owl:minCardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :obtainedVia .
+
+_:genid57 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :concernsCriterion .
+
+:ResultatNLP a owl:Class;
+  rdfs:subClassOf :ResultatVerification, _:genid58;
+  owl:disjointWith :ResultatRegle;
+  rdfs:comment "Résultat de l'analyse effectuée par un modèle IA/NLP."@fr;
+  rdfs:label "Résultat NLP"@fr .
+
+_:genid58 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :usesModel .
+
+:ResultatRegle a owl:Class;
+  rdfs:subClassOf :ResultatVerification, _:genid59;
+  rdfs:comment "Résultat de l'application d'une règle de vérification spécifique."@fr;
+  rdfs:label "Résultat Règle"@fr .
+
+_:genid59 a owl:Restriction;
+  owl:cardinality "1"^^xsd:nonNegativeInteger;
+  owl:onProperty :appliesRule .
+
+:ResultatVerification a owl:Class;
+  rdfs:comment "Classe parente pour les résultats issus des différentes méthodes de vérification."@fr;
+  rdfs:label "Résultat de Vérification (Interne)"@fr .
+
+:SocialMediaPlatform a owl:Class;
+  rdfs:subClassOf :Source;
+  rdfs:label "Plateforme de Média Social"@fr .
+
+:Source a owl:Class;
+  rdfs:comment "Représente une entité (site web, organisation, personne) d'où provient l'information originale ou la preuve."@fr;
+  rdfs:label "Source"@fr .
+
+:SupportingEvidence a owl:Class;
+  rdfs:subClassOf :Evidence;
+  rdfs:label "Preuve à l'appui"@fr .
+
+:SystemeExterne a owl:Class;
+  rdfs:comment "Représente une source de données ou un service externe utilisé pendant le processus de vérification (API, base de données)."@fr;
+  rdfs:label "Système Externe"@fr .
+
+:User a owl:Class;
+  rdfs:comment "Représente une personne interagissant avec le système de vérification."@fr;
+  rdfs:label "Utilisateur"@fr .
+
+:VerificationCriterion a owl:Class;
+  rdfs:comment "Aspect spécifique évalué lors de la vérification (ex: réputation de la source, cohérence)."@fr;
+  rdfs:label "Critère de Vérification"@fr .
+
+:VerificationMethod a owl:Class;
+  rdfs:comment "Représente une approche (règle, modèle IA) utilisée pour évaluer la crédibilité."@fr;
+  rdfs:label "Méthode de Vérification"@fr .
+
+:Criteria_AuthorExpertise a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Expertise de l'auteur"@fr .
+
+:Criteria_CoherenceAnalysis a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Analyse de la cohérence"@fr .
+
+:Criteria_CrossReferencing a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Références croisées"@fr .
+
+:Criteria_FactCheckDB a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Consultation base de données Fact-Check"@fr .
+
+:Criteria_SourceReputation a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Réputation de la source"@fr .
+
+:Criteria_ToneAnalysis a owl:NamedIndividual, :VerificationCriterion;
+  rdfs:label "Analyse du ton (ex: neutre, biaisé)"@fr .
+
+_:genid60 owl:maxCardinality "1"^^xsd:nonNegativeInteger .
+
+_:genid61 a owl:AllDisjointClasses;
+  owl:members _:genid66 .
+
+_:genid66 a rdf:List;
+  rdf:first :AcademicJournal;
+  rdf:rest _:genid65 .
+
+_:genid65 a rdf:List;
+  rdf:first :FactCheckingOrganization;
+  rdf:rest _:genid64 .
+
+_:genid64 a rdf:List;
+  rdf:first :NewsWebsite;
+  rdf:rest _:genid63 .
+
+_:genid63 a rdf:List;
+  rdf:first :PersonalBlog;
+  rdf:rest _:genid62 .
+
+_:genid62 a rdf:List;
+  rdf:first :SocialMediaPlatform;
+  rdf:rest rdf:nil .
+
+_:genid67 a owl:AllDisjointClasses;
+  owl:members _:genid70 .
+
+_:genid70 a rdf:List;
+  rdf:first :ApiLLM;
+  rdf:rest _:genid69 .
+
+_:genid69 a rdf:List;
+  rdf:first :BaseDeFaits;
+  rdf:rest _:genid68 .
+
+_:genid68 a rdf:List;
+  rdf:first :MoteurRecherche;
+  rdf:rest rdf:nil .
+
+_:genid71 a owl:AllDisjointClasses;
+  owl:members _:genid74 .
+
+_:genid74 a rdf:List;
+  rdf:first :InformationFaibleCredibilite;
+  rdf:rest _:genid73 .
+
+_:genid73 a rdf:List;
+  rdf:first :InformationHauteCredibilite;
+  rdf:rest _:genid72 .
+
+_:genid72 a rdf:List;
+  rdf:first :InformationMoyenneCredibilite;
+  rdf:rest rdf:nil .
+
+_:genid75 a owl:AllDisjointClasses;
+  owl:members _:genid79 .
+
+_:genid79 a rdf:List;
+  rdf:first :Niveau_Bas;
+  rdf:rest _:genid78 .
+
+_:genid78 a rdf:List;
+  rdf:first :Niveau_Haut;
+  rdf:rest _:genid77 .
+
+_:genid77 a rdf:List;
+  rdf:first :Niveau_Moyen;
+  rdf:rest _:genid76 .
+
+_:genid76 a rdf:List;
+  rdf:first :Niveau_NonVerifie;
+  rdf:rest rdf:nil .
+
+\end{lstlisting}
+\end{document}

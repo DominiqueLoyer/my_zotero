@@ -1,0 +1,66 @@
+\part{De la recommandation à la réglementation : une étude complète sur l'explicabilité, la gouvernance et l'impact sociétal des systèmes d'IA modernes}
+\chapter{Fondements de la médiation et de l'interprétation algorithmiques}
+\section{L'évolution des systèmes de recommandation : du filtrage collaboratif à l'apprentissage profond}
+Les systèmes de recommandation (SR) sont devenus des outils omniprésents dans l'écosystème numérique, agissant comme des intermédiaires essentiels entre les utilisateurs et la surabondance d'informations. Leur évolution, depuis des techniques statistiques simples jusqu'à des architectures d'apprentissage profond complexes, reflète non seulement les progrès de l'intelligence artificielle, mais aussi une transformation conceptuelle de la manière dont la personnalisation est comprise et mise en œuvre. Cette section retrace cette trajectoire, en commençant par les principes fondateurs du filtrage collaboratif, en explorant le changement de paradigme induit par l'apprentissage profond, et en examinant les approches de pointe basées sur les réseaux de neurones sur graphes et les grands modèles de langage.
+\subsection{Principes fondamentaux du filtrage collaboratif et basé sur le contenu}
+Le paradigme classique des systèmes de recommandation repose sur le filtrage collaboratif (CF), une méthode qui consiste à faire des prédictions automatiques sur les intérêts d'un utilisateur en s'appuyant sur les informations de préférence ou de goût collectées auprès d'un grand nombre d'autres utilisateurs \citet{Sarwar2001, Adomavicius2005Toward}. 
+
+L'idée centrale est que si deux utilisateurs ont eu des goûts similaires dans le passé, ils sont susceptibles d'avoir des goûts similaires à l'avenir. Cette approche se divise principalement en deux catégories : les méthodes basées sur la mémoire (memory-based) et les méthodes basées sur un modèle (model-based) \citet{Su2009}.
+
+Les approches basées sur la mémoire utilisent directement l'ensemble des données d'évaluation utilisateur-item pour calculer les similarités. Elles se subdivisent en CF basé sur l'utilisateur et CF basé sur l'item. Dans le CF basé sur l'utilisateur, le système identifie un «voisinage» d'utilisateurs ayant des historiques d'évaluation similaires à ceux de l'utilisateur actif. Les recommandations sont ensuite générées en agrégeant les évaluations de ces voisins sur des items que l'utilisateur actif n'a pas encore évalués \citet{Herlocker2004}. La similarité entre utilisateurs est souvent calculée à l'aide de métriques telles que la corrélation de Pearson ou la similarité cosinus \citet{Breese2002Empirical}.
+
+Malgré leur simplicité conceptuelle et leur explicabilité relative, ces méthodes traditionnelles se heurtent à des défis importants qui ont motivé le développement d'approches plus sophistiquées. 
+\begin{enumerate}
+    \item Le premier est la rareté des données (data sparsity) : dans les systèmes à grande échelle, la matrice utilisateur-item est souvent extrêmement creuse, la plupart des utilisateurs n'ayant évalué qu'une infime fraction des items disponibles, ce qui rend difficile le calcul de similarités fiables \citep{Sarwar2001, Isinkaye2015Recommendation}.
+    \item Le deuxième défi est l'extensibilité ; les calculs de similarité deviennent prohibitifs sur le plan computationnel à mesure que le nombre d'utilisateurs et d'items atteint des millions ou des milliards \citep{Linden2003Amazoncom}.
+    \vspace{1em}
+    \item Enfin, le problème du démarrage à froid (cold start) se pose lorsqu'un nouvel utilisateur ou un nouvel item est introduit dans le système. Sans historique d'évaluations, il est impossible de calculer des similarités et donc de générer des recommandations pertinentes \citep{Schein2002, Lika2014Facing}. Ces limitations ont ouvert la voie à l'adoption de techniques d'apprentissage automatique plus puissantes.
+\end{enumerate}
+\subsection{Virage de l'apprentissage profond en recommandation}
+
+L'essor de l'apprentissage profond (Deep Learning) a métamorphosé les systèmes de recommandation, offrant des issues aux écueils des méthodes connues. Les réseaux neuronaux profonds (DNN) sont devenus forts pour saisir les liens complexes dans les échanges utilisateur-item, chose ardue avec les modèles matriciels \citep{He2017, Covington2016}. 
+
+Divers montages d'apprentissage profond ont servi à «surcharger» les systèmes de suggestion. Les perceptrons multicouches (MLP) apprennent les échanges entre les vecteurs latents (embeddings) des usagers et des items, saisissant des liens plus élevés \citet{He2017}.
+
+Les auto-encodeurs, réseaux neuronaux non supervisés, aident à compléter la matrice, où le modèle compresse les vecteurs d'interaction d'un usager, puis les refait pour deviner les évaluations ratées \citep{Sedhain2018Autorec}.
+
+D'autres structures, comme les réseaux neuronaux convolutifs (CNN) et récurrents (RNN), servent à des recommandations pointues. Les CNN extraient des traits des données multimodales comme les images d'items \citep{Wang2022Sessionbased}, tandis que les RNN, surtout les LSTM, modélisent bien les séquences d'interactions pour la recommandation séquentielle \citep{Hidasi2016Sessionbased}. 
+
+Ce saut vers l'apprentissage profond a haussé la justesse des recommandations dans des domaines tels que le commerce en ligne, les nouvelles et les loisirs \citep{Covington2016, Okura2017Embeddingbased}, et a lié plus d'informations. Les traits multimodaux (images, textes, vidéos) sont codés en vecteurs et utilisés avec les identifiants pour garnir les modèles et calmer le souci de la rareté des données \citep{Zhang2022A, Elkahky2015}. L'apprentissage de ces interactions complexes entre différentes caractéristiques est devenu essentiel pour maximiser les métriques d'engagement telles que le taux de clics (CTR) \citep{Guo2017}.
+\subsection{Réseaux de neurones sur graphes (GNNs) pour la capture d'interactions d'ordre supérieur}
+
+Une avancée plus recente et particulièrement puissante dans les systèmes de recommandation basés sur l'apprentissage profond est l'utilisation des réseaux de neurones sur graphes (GNNs).
+
+Cette approche reformule le problème de la recommandation en une tâche d'apprentissage sur graphe, où les utilisateurs et les items sont représentés comme des nœuds, et leurs interactions (clics, achats, évaluations) comme des arêtes dans un graphe bipartite \citep{Ying2018, Wang2019}. 
+
+L'avantage fondamental des GNNs réside dans leur capacité à exploiter explicitement la structure topologique du graphe d'interactions pour apprendre des représentations (embeddings) de meilleure qualité pour les utilisateurs et les items \citep{Wu2023Graph}.
+
+Le mécanisme central des GNNs est la propagation de messages (message passing). À chaque couche du GNN, un nœud agrège les représentations vectorielles de ses voisins pour mettre à jour sa propre représentation \citep{Gilmer2020Neural}.
+
+En empilant plusieurs couches, un nœud peut recevoir des informations de voisins de plus en plus éloignés dans le graphe.
+
+Dans le contexte du filtrage collaboratif, cela signifie que l'embedding d'un utilisateur est influencé non seulement par les items avec lesquels il a directement interagi, mais aussi par d'autres utilisateurs ayant interagi avec ces mêmes items, et ainsi de suite. Ce processus permet de capturer des signaux collaboratifs d'ordre supérieur et des relations complexes qui sont implicites dans le graphe d'interactions mais difficiles à modéliser avec d'autres méthodes \citep{Wang2019, He2025Lightgcn}.
+
+Des modèles comme NGCF (Neural Graph Collaborative Filtering) \citet{Wang2019} et LightGCN \citet{He2025Lightgcn} ont démontré l'efficacité de cette approche. LightGCN, en particulier, a montré qu'une simplification de l'architecture GNN, en supprimant les transformations de caractéristiques et les non-linéarités, pouvait conduire à des performances de pointe tout en étant plus efficace sur le plan computationnel. Les GNNs se sont également révélés efficaces pour intégrer d'autres types d'informations structurées, comme les réseaux sociaux (où les liens d'amitié peuvent influencer les préférences) ou les graphes de connaissances (qui fournissent des relations sémantiques riches entre les items) \citep{Fan2019, Wang2019a}.
+
+Cependant, les GNNs ne sont pas sans défis. Ils peuvent être sensibles au bruit dans les données d'interaction (connexions non pertinentes pour les intérêts de l'utilisateur) et leur champ réceptif, bien que plus large que celui des modèles précédents, reste limité par la profondeur du réseau, ce qui peut les empêcher de capturer des dépendances à très longue portée \citep{Ying2018, Wu2023Graph}.
+
+\subsection{L'émergence des LLMs dans les scénarios de recommandation}
+
+La frontière la plus récente de la recherche sur les systèmes de recommandation est l'intégration des grands modèles de langage (LLMs). Cette tendance marque un changement de paradigme potentiellement aussi important que celui de l'apprentissage profond, en traitant la recommandation non plus comme un problème de prédiction de notes ou d'apprentissage de représentations, mais comme un problème de traitement du langage naturel \citep{Geng2022Recommendation}.
+
+Les LLMs, pré-entraînés sur de vastes corpus de texte, possèdent une connaissance du monde et des capacités de raisonnement sémantique qui peuvent être exploitées de plusieurs manières pour la recommandation. 
+
+Une approche consiste à utiliser les LLMs pour mieux comprendre le contenu textuel associé aux items (descriptions, critiques) et aux préférences des utilisateurs (requêtes, dialogues) \citep{Zhang2024A, Wang2024A}. Par exemple, un LLM peut générer des embeddings de haute qualité pour des items à partir de leurs descriptions, ce qui est particulièrement utile pour résoudre le problème du démarrage à froid pour les nouveaux produits \citep{Sanner2023Foundational}.
+
+Une autre approche, plus transformatrice, utilise des paradigmes basés sur des prompts pour reformuler la tâche de recommandation. Des modèles comme P5 (Pretrain, Personalized Prompt, and Predict Paradigm) \citet{Geng2022Recommendation} unifient diverses tâches de recommandation (prédiction de notes, recommandation séquentielle, explication) sous un même format de génération de texte conditionnée par un prompt. Cela permet une flexibilité sans précédent et ouvre la voie à des systèmes de recommandation conversationnels et interactifs, où les utilisateurs peuvent affiner leurs préférences par le dialogue \citep{Wang2024A}.
+
+L'évolution des systèmes de recommandation, du simple remplissage de matrices à l'apprentissage de représentations structurelles et enfin au raisonnement sémantique, n'est pas qu'une simple surenchère de complexité technique. Elle révèle une transformation conceptuelle profonde de la tâche elle-même. Initialement, le filtrage collaboratif abordait la recommandation comme un problème purement statistique : prédire les valeurs manquantes dans une matrice d'interactions utilisateur-item \citep{Sarwar2001, Su2009}.L'objectif était la prédiction.
+
+L'arrivée de l'apprentissage profond a amélioré cette capacité prédictive en capturant des non-linéarités, mais le cadre est resté globalement le même \citet{He2017}.
+
+Les GNNs ont ensuite introduit une perspective structurelle, redéfinissant la recommandation comme un problème d'apprentissage de représentations sur graphe. La tâche est devenue l'apprentissage d'embeddings de haute qualité en exploitant la topologie des interactions \citep{Wang2019, Wu2023Graph}. Le focus s'est déplacé de la prédiction vers la représentation. L'intégration des LLMs marque une nouvelle rupture, en traitant la recommandation comme une tâche de raisonnement. 
+
+En formulant la «Recommandation comme Traitement du Langage» \citet{Geng2022Recommendation}, les LLMs peuvent comprendre du texte non structuré, engager un dialogue et mobiliser une vaste connaissance du monde. 
+
+Cette évolution conceptuelle de la prédiction à la représentation, puis au raisonnement, a des implications majeures sur ce que nous attendons de ces systèmes, notamment en termes d'explicabilité, d'interactivité et de fiabilité.
