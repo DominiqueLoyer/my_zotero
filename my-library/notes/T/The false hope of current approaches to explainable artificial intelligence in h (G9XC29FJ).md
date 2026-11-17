@@ -21,12 +21,16 @@ zotero-key: "G9XC29FJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/G9XC29FJ"
 date-added: "2026-01-08 20:07:31"
-date-modified: "2026-03-25 21:30:41"
+date-modified: "2026-11-17 18:05:13"
 ---
 
 # The false hope of current approaches to explainable artificial intelligence in health care
 
 **Ghassemi, Marzyeh; Oakden-Rayner, Luke; Beam, Andrew L.**
+
+## Extra
+
+OpenAlex: W3209901185
 
 ## Attachments
 

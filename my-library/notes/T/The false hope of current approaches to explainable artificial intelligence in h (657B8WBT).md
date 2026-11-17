@@ -14,7 +14,7 @@ zotero-key: "657B8WBT"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/657B8WBT"
 date-added: "2026-02-25 21:36:57"
-date-modified: "2026-03-25 21:29:48"
+date-modified: "2026-11-17 18:05:15"
 ---
 
 # The false hope of current approaches to explainable artificial intelligence in health care
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:48"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3209901185
 
 ## Attachments
 

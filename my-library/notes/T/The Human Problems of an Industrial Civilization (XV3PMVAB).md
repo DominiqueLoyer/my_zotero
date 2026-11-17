@@ -14,12 +14,16 @@ zotero-key: "XV3PMVAB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XV3PMVAB"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-03-25 21:31:04"
+date-modified: "2026-11-17 18:05:20"
 ---
 
 # The Human Problems of an Industrial Civilization
 
 **Mayo, Elton**
+
+## Extra
+
+OpenAlex: W1519721807
 
 ## Attachments
 

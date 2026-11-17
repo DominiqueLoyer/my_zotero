@@ -14,12 +14,16 @@ zotero-key: "GILF6EN9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GILF6EN9"
 date-added: "2026-01-08 20:07:33"
-date-modified: "2026-03-25 21:30:34"
+date-modified: "2026-11-17 18:05:16"
 ---
 
 # The filter bubble: What the internet is hiding from you
 
 **Pariser, Eli**
+
+## Extra
+
+OpenAlex: W1583059097
 
 ## Attachments
 

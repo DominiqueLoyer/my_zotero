@@ -14,12 +14,16 @@ zotero-key: "V3NKMQWS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/V3NKMQWS"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-03-25 21:31:02"
+date-modified: "2026-11-17 18:05:15"
 ---
 
 # The Filter Bubble: What the Internet Is Hiding from You
 
 **Pariser, Eli**
+
+## Extra
+
+OpenAlex: W1583059097
 
 ## Attachments
 
