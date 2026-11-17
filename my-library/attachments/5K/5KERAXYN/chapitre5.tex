@@ -1,0 +1,72 @@
+\subsection{L'impératif de l'IA explicable (XAI)}
+À mesure que les modèles d'intelligence artificielle, en particulier les systèmes de recommandation et autres architectures d'apprentissage profond, gagnaient en complexité et en performance, leur fonctionnement interne est devenu de plus en plus opaque. Cette opacité, souvent qualifiée de problème de la «boîte noire», a fait naître un besoin critique de transparence et d'interprétabilité, donnant naissance au domaine de l'IA Explicable (eXplainable AI, ou XAI). Cette section définit ce problème fondamental, présente une taxonomie des approches d'explicabilité, détaille les méthodologies clés et examine de manière critique leurs limites techniques.
+\section{Définition du problème de la «boîte noire» dans les domaines à hauts enjeux}
+Le phénomène dit de la «boîte noire» cristallise une tension fondamentale : l'incapacité croissante pour un observateur humain de saisir la logique interne par laquelle un modèle d'IA complexe, typiquement un réseau de neurones profond, aboutit à une décision ou une prédiction donnée \citep{Sankarapu2024, Zhao2023a}. 
+
+Ce paradoxe veut qu'à mesure que les modèles gagnent en puissance prédictive, leur fonctionnement interne s'obscurcit, les rendant de moins en moins interprétables \citep{Sankarapu2024}. Une telle opacité devient une source de préoccupation majeure, voire une vulnérabilité critique, dès lors que ces systèmes sont déployés dans des domaines à hauts enjeux, où une décision erronée ou non justifiable est susceptible d'entraîner des conséquences graves \citep{Sankarapu2024, Meske2022}.
+
+Dans le secteur de la santé, comprendre pourquoi un modèle prédit un certain diagnostic peut être aussi important que la prédiction elle-même, car cela influence les décisions cliniques et les résultats pour les patients \citep{Sankarapu2024}. 
+
+De même, dans le secteur financier, s'assurer que le processus de décision d'un modèle d'octroi de crédit est transparent est essentiel pour la conformité réglementaire (p. ex. pour éviter la discrimination) et pour maintenir la confiance des clients \citep{Sankarapu2024, Grynbaum2023}.
+
+Dans le système judiciaire, l'utilisation d'algorithmes pour évaluer le risque de récidive soulève des questions fondamentales de droit et d'équité si les raisons d'une évaluation ne peuvent être examinées. 
+
+Le manque de transparence constitue donc une barrière critique à l'adoption et au déploiement responsable de l'IA dans des applications critiques pour la société \citep{Siganos2017, Solanke2022}.
+\subsection{Une taxonomie de l'XAI : ante-hoc vs. post-hoc, local vs. global}
+Le domaine de l'XAI peut être structuré selon plusieurs dimensions clés qui aident à classer les différentes techniques d'explication. 
+\vspace{2em}
+
+La \textbf{première dimension} fondamentale se situe entre les approches ante-hoc et post-hoc.
+
+\begin{itemize}[label=\textbullet]
+    \item Ante-hoc (intrinsèque) : Cette approche concerne les modèles qui sont conçus pour être interprétables par nature. Il s'agit de modèles plus simples comme les arbres de décision, la régression linéaire ou les systèmes à base de règles, dont le mécanisme de décision est directement compréhensible \citet{Rudin2019}. 
+    L'inconvénient est que ces modèles peuvent ne pas atteindre le même niveau de performance que les modèles de type boîte noire sur des tâches complexes.
+    \item Post-hoc : Cette approche, qui a dominé la recherche recente en XAI, se concentre sur le développement de méthodes pour expliquer les décisions d'un modèle déjà entraîné, sans en modifier la structure interne \citep{Sankarapu2024}. Ces techniques traitent le modèle comme une boîte noire et tentent d'en déduire le comportement en analysant ses entrées et ses sorties.
+\end{itemize}
+
+Une \textbf{deuxième dimension} importante est la portée de l'explication :
+\begin{itemize}[label=\textbullet]
+    \item Explication locale : Elle vise à expliquer une prédiction individuelle pour une entrée spécifique. L'objectif est de répondre à la question : «Pourquoi le modèle a-t-il pris cette décision pour ce cas précis?» \citep{Ribeiro2016, Sankarapu2024}. Les explications locales sont particulièrement utiles pour les utilisateurs finaux qui cherchent à comprendre une décision qui les affecte directement.
+    \vspace{1em}
+    \item Explication globale : Elle cherche à décrire le comportement général du modèle dans son ensemble. La question posée est : «Comment le modèle prend-il ses décisions en général?» \citet{Lundberg2017}. Les explications globales sont souvent plus utiles pour les développeurs de modèles, les auditeurs ou les régulateurs qui ont besoin de valider le comportement global du système.
+\end{itemize}
+
+La plupart des techniques populaires développées ces dernières années, telles que LIME et SHAP, sont des méthodes post-hoc qui peuvent fournir des explications locales, SHAP étant également capable de les agréger pour une vue globale.
+\subsection{Méthodologies clés : LIME, SHAP et explications contrefactuelles}
+Parmi la myriade de techniques d'XAI post-hoc, trois approches se sont imposées comme des standards de facto en raison de leur flexibilité et de leur applicabilité à un large éventail de modèles.
+
+LIME (Local Interpretable Model-Agnostic Explanations) est une technique qui explique la prédiction d'un classifieur en l'approximant localement avec un modèle interprétable (p. ex. une régression linéaire) \citet{Ribeiro2016}.
+
+Pour expliquer une prédiction pour une instance donnée, LIME génère un voisinage de cette instance en créant des perturbations (par exemple, en masquant des mots dans un texte ou des super-pixels dans une image). Il interroge ensuite le modèle boîte noire pour obtenir des prédictions pour ces nouvelles instances synthétiques.
+
+Enfin, il entraîne un modèle simple et interprétable sur cet ensemble de données local, pondéré par la proximité avec l'instance originale. Les coefficients de ce modèle local (p. ex. les poids des mots ou des super-pixels) sont alors utilisés comme explication \citep{Ribeiro2016, Siganos2017}.
+
+SHAP (SHapley Additive exPlanations) est une approche unifiée pour interpréter les prédictions des modèles, basée sur les valeurs de Shapley issues de la théorie des jeux coopératifs \citet{Lundberg2017}. La valeur de Shapley d'une caractéristique est sa contribution marginale moyenne à la prédiction, calculée sur toutes les combinaisons possibles de caractéristiques.
+
+SHAP garantit des propriétés théoriques désirables, telles que la cohérence (l'importance d'une caractéristique ne devrait pas diminuer si le modèle est modifié pour s'appuyer davantage sur elle) et l'additivité (la somme des valeurs SHAP de toutes les caractéristiques est égale à la différence entre la prédiction du modèle et la prédiction de base) \citep{Lundberg2017, Siganos2017}.
+
+Le processus de calcul exact des valeurs de Shapley est exponentiel, mais des approximations efficaces comme KernelSHAP (pour les modèles agnostiques) et TreeSHAP (pour les modèles à base d'arbres) ont été développées \citet{Lundberg2017}. 
+
+SHAP peut fournir des explications locales détaillées pour chaque prédiction, et ces explications locales peuvent être agrégées pour obtenir des informations globales sur l'importance des caractéristiques \citep{Siganos2017}.
+
+Les explications contrefactuelles répondent à la question : «Quel est le plus petit changement à apporter aux caractéristiques d'une instance pour modifier la prédiction du modèle?» \citet{Wachter2017}.
+
+Au lieu d'expliquer pourquoi une décision a été prise, elles montrent ce qui aurait dû être différent pour obtenir un résultat différent (p. ex. «Votre prêt a été refusé. Si votre revenu annuel avait été supérieur de 50 000 dollars, il aurait été approuvé.»). Ces explications sont particulièrement utiles pour les utilisateurs finaux car elles sont intuitives et fournissent des pistes d'action claires pour obtenir le résultat souhaité \citep{Verma2020}.
+
+Ces méthodes sont largement appliquées dans des domaines comme la finance, pour expliquer les modèles de scoring de crédit et de détection de fraude, et la santé, pour interpréter les diagnostics basés sur l'IA, aidant ainsi à renforcer la confiance, à garantir l'équité et à se conformer aux réglementations \citep{Bussmann2020a, Misheva2021}.
+\subsection{Critiques techniques et limites : les défis de la fidélité et de la stabilité}
+Malgré leur adoption généralisée, les méthodes d'explication post-hoc font l'objet de critiques croissantes concernant leur fiabilité et leur robustesse. Un problème majeur est le manque d'évaluation rigoureuse et standardisée de la qualité des explications qu'elles produisent \citep{Sankarapu2024, Räuker2023}.
+
+LIME, en particulier, a été critiqué pour son instabilité : de légères modifications de l'instance à expliquer ou du processus d'échantillonnage aléatoire peuvent entraîner des explications radicalement différentes, ce qui mine la confiance dans leur fiabilité \citep{AlvarezMelis2018, Visani2023}.
+
+De plus, la fidélité (faithfulness) de LIME, c'est-à-dire la mesure dans laquelle le modèle de substitution local reflète fidèlement le comportement du modèle boîte noire, est souvent remise en question, en particulier pour les modèles très non linéaires où une approximation linéaire peut être trop simpliste \citep{Rudin2019, Plumb2018}.
+
+Plus fondamentalement, une critique adressée à l'ensemble des méthodes post-hoc est qu'elles ne font qu'approximer le raisonnement du modèle original plutôt que de le répliquer fidèlement \citep{Rudin2019, Lipton2018}. 
+
+Ces explications sont des rationalisations a posteriori, qui peuvent donner une illusion de compréhension tout en masquant le véritable fonctionnement du modèle. 
+
+Dans des contextes critiques comme la médecine, des explications trompeuses peuvent être plus dangereuses qu'aucune explication du tout, car elles peuvent conduire à une confiance excessive et injustifiée dans des prédictions erronées \citet{Ghassemi2021}. Certains chercheurs ont même qualifié l'état actuel de la recherche sur l'interprétabilité de «largement improductif» \citet{Räuker2023}.
+
+Cette situation révèle un paradoxe fondamental au cœur de l'XAI post-hoc. L'objectif est de renforcer la confiance dans un \texttt{modèle «boîte noire»} en utilisant un \texttt{second modèle, plus simple et explicatif}. Cependant, la confiance dans l'explication fournie par le second modèle $m2$ dépend entièrement de sa fidélité au premier modèle $m1$. 
+
+Pour vérifier cette fidélité, il faudrait avoir une connaissance du fonctionnement interne du Modèle A, ce qui est précisément ce que l'approche post-hoc cherche à éviter. Par conséquent, l'XAI post-hoc ne résout pas le problème de la confiance, mais le déplace : la confiance de l'utilisateur est transférée du modèle prédictif opaque à la relation, tout aussi opaque et souvent non vérifiée, entre le modèle prédictif et son modèle d'explication. Cette «déplacement de la confiance» constitue une vulnérabilité critique et souvent négligée dans l'application pratique de l'XAI.

@@ -1,0 +1,104 @@
+Algorithmes de recherche
+Illustrations extraites de « The Essence of AI », Alison Cawsey
+
+
+ Introduction
+ Techniques de recherche pour trouver une solution à un problème ;
+ Parcourir un espace de recherche pour atteindre une solution : espace d’actions possibles ;
+ Par exemple, règles en chaînage arrière : recherche d’une séquence d’étapes d’inférences pour prouver un but ;
+ Autres exemples : recherche de séquences d’étape pour résoudre un puzzle, une séquence de mouvements aux échecs, une séquence d’actions pour faire ses courses, ...
+ Beaucoup de ces problèmes consistent à être considérés ainsi : trouver une séquence d’actions pour aller d’un état initial vers un état final ;
+ Différence entre un espace de recherche petit et un autre grand : techniques de recherche aveugles versus heuristiques.
+
+
+ Arbres et Graphes
+ Modéliser le problème à résoudre ;
+ Avoir des abstractions sur lesquels s’appliquent les algorithmes de recherche/parcours ;
+
+
+ Arbres et Graphes
+Traduire le problème en une abstraction sur laquelle peuvent s’appliquer les algorithmes.
+
+
+ Approches « aveugles »
+ Largeur d’abord (Breadth first)
+ Utiliser une file d’attente :
+(l) (s, h) (h, f) (f, p, n) (n) (u, c)
+ u : état but, arrêt de l’algorithme.
+
+
+ Approches « aveugles »
+ Profondeur d’abord (Depth first, DF)
+ Algorithme quasi similaire au précédent
+ Substituer à la file d’attente une pile
+ Si on cherche le plus court chemin,
+BF meilleur que DF
+ Pour faire des gains en mémoire,
+DF généralement meilleur que BF
+ Pour trouver la solution rapidement,
+cela dépend de l’espace de recherche.
+
+
+ Approches heuristiques
+ Espace de recherche trop vaste
+ Explorer les nœuds « prometteurs » avant les autres
+ Besoin d’une fonction d’évaluation pour estimer si un
+nœud est prometteur ou pas
+ Idée : n’explorer que les chemins qui rapprochent du
+but
+ Plusieurs approches heuristiques
+
+
+ Approches heuristiques
+ Hill Climbing : considérer le meilleur nœud
+successeur ;
+ L’algorithme ne maintient pas une liste de nœuds,
+juste le nœud courant !
+ L’algorithme se termine quand il n’y a pas de
+nœud successeur meilleur que le nœud courant :
+School, maximum local, nœud meilleur que les
+nœuds voisins, mais ce n’est pas le nœud but.
+ Faire un retour arrière ou possiblement explorer
+un nœud successeur qui n’est pas meilleur
+ Choix de la fonction d’évaluation crucial dans cette
+approche.
+
+
+ Approches heuristiques
+ Meilleur d’abord (Best first) : approche exhaustive,
+explore éventuellement tous les chemins possibles ;
+ Utiliser une file « avec priorités » : un agenda ;
+ Les successeurs du meilleur nœud sont évalués, un
+score leur est attribué et ils sont ajoutés à l’agenda ;
+ BF : A, B, C, D, E, F, G
+ DF : A, B, D, E, G
+ Hill Climbing : pas de solution (max local en C)
+ Best First : A, C, B, E, G
+ Rôle important de la fonction d’évaluation !
+
+
+ Approches heuristiques
+ Algorithme A* : voir plus loin que Best first, en trouvant
+une solution minimisant le coût total du chemin solution
+ f(Nœud) = g(Nœud) + h(Nœud)
+g(Nœud) : coût du nœud initial au nœud courant Noeud ;
+h(Nœud) : coût estimé de Nœud au but.
+ Best first : A, B, D, E, F Coût = 13
+ A* : A, B, C, G, F’ Coût = 7
+ Si les coûts des liens sont les mêmes, BF trouvera le chemin
+solution au moindre coût, en premier ;
+ Best first trouvera certaines solutions rapidement, même si elles ne
+sont pas les meilleures ;
+ A* trouve une bonne solution rapidement.
+
+
+ Algorithmes/techniques de recherche
+pour la résolution de problèmes
+ Plusieurs problème d’IA requièrent des techniques de recherche/parcours ;
+ L’espace de recherche peut-être représenté par un arbre, un graphe, ... ;
+ Plusieurs algorithmes permettent de traverser ces abstractions ;
+ Approches aveugles : BF et DF ;
+ Heuristiques : estimer le coût de passage par un nœud. Solutions plus rapides.
+Best first, Hill-Climbing et A* ;
+NB: Les images et schémas de ces diapositives sont issues de : The essence of AI, Alison Cawsey, Prentice
+Hall.

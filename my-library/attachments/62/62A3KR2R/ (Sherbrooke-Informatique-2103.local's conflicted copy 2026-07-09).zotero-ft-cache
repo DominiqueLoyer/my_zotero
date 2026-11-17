@@ -1,0 +1,380 @@
+DIC-9150
+Les fondements cognitifs des réseaux de
+neurones, des algorithmes génétiques et
+des systèmes dynamiques
+Semaine 12
+PAR SERGE ROBERT
+UNIVERSITÉ DU QUÉBEC À MONTRÉAL
+1
+
+
+ L’intelligence artificielle et le naturalisme 1
+ Selon le paradigme symboliste : l’intelligence est faite de structures a priori et ces structures s’appliquent sur des objets pour en montrer l’organisation
+ Selon l’approche naturaliste : l’intelligence est acquise par une complexification dynamique d’éléments simples permettant l’apprentissage
+ Le naturalisme : l’apprentissage comme adaptation progressive à l’environnement et à ses changements
+ 3 approches de l’IA qui vont dans ce sens : A) les réseaux de neurones, B) les algorithmes génétiques, C) les systèmes dynamiques
+2
+
+
+ L’intelligence artificielle et le naturalisme 2
+ Les caractéristiques de l’IA :
+ 1) des capteurs d’information
+ 2) des procédures de catégorisation
+ 3) des procédures inférentielles
+ 4) des procédures d’apprentissage
+ La programmation symboliste insiste sur 3)
+ La programmation naturaliste va développer davantage 1), 2) et 4)
+3
+
+
+ A) Les fondements neuronaux des réseaux de
+neurones
+ Les réseaux de neurones : une simulation très approximative du fonctionnement
+neuronal
+ Le problème de l’IA symboliste : le machine learning (l’apprentissage) en tant que
+système adaptatif vs la chambre chinoise de Searle
+ Programmation qui simule le fonctionnement neuronal (90 milliards de neurones avec
+jusqu’à 10 000 connexions synaptiques par neurone)
+ Le neurone : une cellule de traitement d’information : dendrites, soma, axone
+ Réception électrochimique (par les dendrites) jusqu’à potentiel d’action : décharge
+vers d’autres neurones (par l’axone)
+ Plasticité des connexions : renforcement ou affaiblissement des connexions, nouvelles
+connexions, apprentissages (voir la loi de Hebb, 1949, apprentissage par plasticité)
+ Renforcement des connexions utiles, affaiblissement des connexions nuisibles
+ Un système parallèle et complexe de traitement de l’information avec apprentissage
+ Les réseaux de neurones artificiels sont basés sur ces principes et sont ainsi capables
+d’apprentissage
+4
+
+
+ Les réseaux de neurones artificiels
+ Connexions entre neurones (des nœuds, des unités d’information)
+ Poids dans les connexions (mémoire à long terme)
+ Les neurones reçoivent des signaux d’input
+ Ils peuvent émettre un signal d’output (selon un seuil d’activation) vers d’autres
+neurones
+ Les liens entre neurones ont un poids numérique : c’est la mémoire à long terme du
+réseau
+ Apprentissage par ajustements répétés des poids : par exemples ou par analogies ou
+par des règles
+ Neurone // soma (nœud)
+ Dendrite // input
+ Axone // output
+ Synapse // poids du lien
+ Liens avec l’environnement seulement en entrée et en sortie du réseau
+5
+
+
+ Le neurone artificiel
+ Il reçoit des signaux de l’environnement ou d’autres neurones (selon le poids des connexions)
+ Le principe de McCulloch & Pitts (1943)
+ Le neurone additionne les signaux d’input (x) selon leurs poids (w):
+(∑ x w)
+Il possède un seuil d’activation (  ) : (∑ x w) - 
+ Quand ce seuil d’activation est atteint (ou dépassé) par la ∑ , il émet un signal (le même envoyé à chacun des neurones de la couche suivante et qui est la somme pondérée des entrées)
+ Le signal de sortie va vers d’autres neurones ou constitue une réponse finale du réseau (pour la dernière couche)
+6
+
+
+ Diagramme d’un neurone artificiel
+7
+
+
+ Architecture de base d’un réseau de neurones 8
+
+
+ Exemples de fonctions d’activation pour un neurone 9
+
+
+ Le perceptron simple
+ McCullloch & Pitts (années 40) : un neurone avec ou sans activation (selon le seuil)
+ Perceptron (Rosenblatt, 1957) à deux couches (input, output)
+ Version 1 des réseaux de neurones
+ Apprentissage par petit ajustements des poids
+ Selon différences entre output actuel et output désiré
+10
+
+
+ Perceptron simple à deux couches
+11
+
+
+ L’apprentissage dans un réseau de neurones
+ Les réseaux de neurones ont été créés d’abord pour faire des systèmes dotés de capacités d’apprentissage (d’abord pour la catégorisation)
+ Un réseau de neurones est d’abord initialisé : les poids des connexions sont habituellement attribués au hasard
+ L’apprentissage se fait par petites modifications (ajustements) dans les poids des connexions jusqu’au résultat désiré (depuis le perceptron de Rosenblatt, 1957)
+ Mais, absence de la dimension inférentielle de la cognition
+12
+
+
+ Les réseaux multicouches
+ Les réseaux multicouches:
+ Couche d’entrée (reçoit les signaux d’entrée), couches cachées (affectent le traitement par les poids des connexions), couche de sortie (livre le résultat)
+ Rendent possible l’apprentissage général
+ Transmission d’information par feedforward : c’est la version 2 des réseaux
+ Les couches cachées sont ainsi parce qu’elles cachent le résultat du traitement qu’elles font
+ Plus le nombre de couches cachées est grand plus le réseau est flexible, mais moins on peut voir le traitement qu’il fait
+13
+
+
+ Perceptron multicouches
+14
+
+
+ L’apprentissage par rétropropagation, ou par
+feedback ou par les réseaux non supervisés
+ À la sortie, on fait un calcul d’erreur (relativement au but recherché)
+ On fait ensuite une rétropropagation d’un signal d’erreur de la couche de sortie
+jusqu’à la couche d’entrée, ce qui ajuste les poids dans les différentes couches
+(version 3)
+ Ce mode d’apprentissage est efficace, mais n’est pas celui des systèmes
+neuronaux biologiques
+ Maintenant, plusieurs réseaux ont des boucles de feedback de l’output vers
+l’input, jusqu’à ce que le réseau devienne stable: cela accélère l’apprentissage
+(version 4) (voir les systèmes dynamiques pour les feedbacks)
+ Il existe aussi de l’apprentissage non supervisé (auto-organisation) (version 5) vs
+l’apprentissage supervisé (par rétropropagation ou feedback): sans tuteur, plus
+rapide, plus près des processus neuronaux
+ La loi de Hebb (1949): la répétition de l’activation entre deux neurones accroît
+la valeur du poids de la connexion : apprentissage rapide, sans la nécessité
+d’un feedback de l’environnement ou d’un tuteur, sans tuteur; mais aussi, il y a
+un facteur d’oubli, qui fait décroître la valeur de la connexion
+15
+
+
+ Rétropropagation dans un réseau de neurones 16
+
+
+ Réseau de neurones vs programmation symboliste
+ Des unités d’information quelconques (symboles, images, sons...) vs des symboles
+ Des relations de dépendance causale entre ces unités vs des règles explicites de
+transformation de symboles : la cognition dans les réseaux est analogique
+ L’apprentissage est strictement statistique (variation mathématique des poids et des
+seuils d’activation)
+ La mémoire est inséparable de la structure
+ Les unités sont assimilables à des représentations, mais leur dynamique n’est pas faite
+de règles de transformation de représentations
+ Donc :
+ Pas de règles compositionnelles entre des symboles
+ Pas de règles syntaxiques et de règles sémantiques distinctes et coordonnées
+ Pas de règles de productivité pour générer des symboles
+ Pas de séparation entre mémoire des données et règles de traitement des données
+ Boîte noire à cause des couches cachées : apprentissage très flexible, mais sans explicitation
+par des règles
+17
+
+
+ Réseaux, règles et cognition humaine
+ État actuel de la recherche sur les intelligences humaine et artificielle :
+ Le subsymbolique ressemble à la construction des réseaux
+ Le symbolique ressemble à un système de règles
+ L’apprentissage (postsymbolique) ressemble aux modifications des réseaux
+18
+
+
+ B) Les bases biologiques des algorithmes génétiques
+ Les algorithmes génétiques : une simulation du processus de sélection naturelle
+ L’évolution a généré des « machines » douées d’apprentissage (comme nous) par optimisation
+ Cette évolution s’est faite par combinaisons et sélection naturelle, générant ainsi des adaptations, des « optimisations », des apprentissages
+ Trois types de processus : 1) reproduction, 2) mutations et crossingover, 3) compétition et sélection
+ L’optimisation comme anticipation des changements de l’environnement et aptitude à y réagir pour se maintenir (evolutionary increasing fitness)
+19
+
+
+ Les principes des algorithmes génétiques
+ Holland (1975) : créer une population d’individus, évaluer leur adaptation, générer une nouvelle population après une première sélection et ainsi de suite...
+ Des chromosomes qui contiennent des gènes (0 ou 1), mutations et crossing-over, puis sélection
+ Encodage suivi d’évaluation et sélection
+ Un chromosome est une collection de gènes et un gène est une succession de 0 et de 1 (voir A,T,G,C dans les gènes)
+ Mutations et cross-over au hasard dans la reproduction
+ Le but visé dans l’algorithme d’optimisation (ou de faisabilité) correspond à ce qu’est l’adaptation dans la nature
+20
+
+
+ Le fonctionnement des algorithmes génétiques 1
+ Des algorithmes de recherche stochastiques
+ 1) Générer un chromosome avec probabilité de mutation (Pm) et probabilité de crossing-over (Pc)
+ 2) Définir une fonction d’adaptation pour résoudre un problème spécifique
+ 3) Génération au hasard de chromosomes
+ 4) Calcul de l’adaptation de chacun des chromosomes
+ 5) Reproduction entre chromosomes (par paires) qui ont un degré d’adaptation élevé
+ 6) Génération de nouveaux chromosomes par mutations et cross-over
+ 7) Insérer les mutants dans la population (en éliminant les chromosomes moins adaptés)
+ 8) Refaire la reproduction (50 à 500 répétitions)
+ 9) Recalculer l’adaptation jusqu’à satisfaction
+ Donc, processus itératif de génération en génération jusqu’à un optimum
+21
+
+
+ Le fonctionnement des algorithmes génétiques 2 22
+
+
+ Décision d’arrêt et utilité des AG
+ La décision d’arrêt est souvent difficile à déterminer : qu’est-ce qu’une solution « optimale »?
+ Très utile pour générer des cédules : pas de connaissances préalables du résultat souhaité
+ Mais, une liste de contraintes préalables identifiées
+23
+
+
+ C) Les systèmes dynamiques : simuler la génération
+du complexe à partir du simple
+ Les systèmes dynamiques : une simulation de l’émergence de
+propriétés complexes à partir de composantes simples qui interagissent
+entre elles : le complexe naît de cette interaction
+ Analyser un tout en le décomposant en parties ne suffit pas pour
+expliquer ce tout; il y a des propriétés émergentes qui font que le tout
+est plus que ses parties
+ L’interaction entre les parties suffit pour générer du nouveau, du
+complexe, de l’apprentissage
+ La causalité n’est pas linéaire : l’effet peut affecter la cause (voir les
+feedbacks)
+ Ceci entraîne que le monde est continuellement en changement : la
+stabilité apparente est un équilibre dynamique (par feedback négatif)
+ Des facteurs en apparence mineurs peuvent provoquer des
+changements majeurs en rompant cet équilibre
+24
+
+
+ La systémique
+ L’approche systémique des questions scientifiques
+ Une hypothèse ontologique : la nature est un système de systèmes
+ L’esprit humain est un système cognitif au sein des systèmes naturels: il travaille à connaître les autres systèmes
+ Un système : des objets (x, y...), des classes d’objets (f(x)) et, surtout, des relations entre ces objets (f (x,y))
+ La systémique : vs l’individualisme méthodologique et vs la stabilité
+ Faire de la science avec l’hypothèse systémique : construire des modèles
+25
+
+
+ Qu’est-ce qu’un modèle?
+ Une représentation schématique, simplifiée, qui essaie de mettre en évidence la structure spatiale et la dynamique temporelle d’un système
+ Ses objectifs : décrire le système, l’expliquer (avec des hypothèses causales) et prédire (en faisant des projections sur le futur)
+ La prédiction est un objectif primordial
+ Le système cognitif connaît en générant des modèles des différents systèmes de la nature
+26
+
+
+ Délimitation d’un système : la frontière
+ Déterminer une frontière, une membrane, selon nos connaissances et nos intuitions : un intérieur + ou – fermé et un extérieur + ou - exclu
+ La frontière est discutable : + ou – naturelle, + ou – décidée par le modélisateur
+ Système ouvert (beaucoup d’interactions avec son environnement, changeant, instable, voir le vivant) vs système fermé (peu d’interactions avec son environnement, peu de changement, plutôt stable, voir un diamant)
+ Tout système est + ou – ouvert et + ou – fermé
+ Sauf l’ensemble de l’univers (totalement fermé (vs le néant) et/ou totalement ouvert (voir la loi de Hubble))
+27
+
+
+ L’ontologie des systèmes dynamiques
+ Le monde est fait de systèmes qui appartiennent tous à la nature (le grand système, naturalisme), avec évolution darwinienne pour le monde vivant
+ Un système comprend une frontière (plus ou moins perméable, système plus ouvert ou plus fermé) qui le distingue de son environnement : la frontière est l’objet d’une décision discutable
+ Au sein du système, il y a des objets (les réservoirs) qui se transforment continuellement et des relations causales entre ces réservoirs
+ Les systèmes sont des objets au sein de supersystèmes et les objets au sein des systèmes sont eux-mêmes des sous-systèmes : donc, les systèmes sont relatifs aux échelles spatiales et temporelles choisies
+28
+
+
+ Systèmes, entropie et néguentropie
+ La discipline fondatrice des systèmes est la physique (thermodynamique) : la tendance de la nature à l’entropie (l’absence de systèmes) et la création d’ilots de néguentropie (apparition de systèmes) par consommation d’énergie dans un milieu semi-ouvert
+ La néguentropie génère les systèmes par émergence de propriétés et de relations (irréductibilité du généré à ce qui l’engendre)
+ Les étoiles sont les sources entropiques de la néguentropie
+ La néguentropie est le fondement physique de l’information (l’ordre, l’organisation)
+ Connaître, c’est découvrir l’information dans un environnement donné
+ Un modèle est une représentation de l’information à l’œuvre dans un environnement
+29
+
+
+ Les constituants habituels d’un système
+ Des objets : des réservoirs (des ensembles d’objets quantifiés)
+ Des processus : des flux d’entrée et des flux de sortie (paramétrés : Δx / Δt; des robinets et des vidanges dans des équations différentielles)
+ Des convertisseurs : des quantités qui dictent les taux de changement des processus et des réservoirs (les modifications des flux par de nouvelles équations différentielles)
+ Des hypothèses causales entre les différents constituants (responsables des conversions)
+ Des boucles de rétroaction (feedbacks)
+30
+
+
+ Les rétroactions (feedbacks)
+ La conception traditionnelle de la causalité est linéaire:
+ Une cause produit un effet
+ Une conjonction ou une disjonction de causes produit l’effet
+ L’effet peut lui aussi être une conjonction ou une disjonction d’effets
+ La conception systémiste de la causalité : la rétroaction des effets sur les causes
+ La rétroaction positive : l’accroissement de l’effet produit un accroissement de la cause, qui produit un nouvel accroissement de l’effet : voir la course à l’armement
+ La rétroaction négative : l’accroissement de l’effet produit une diminution de la cause et une diminution de l’effet produit un accroissement de la cause : l’équilibre prédateurs-proies
+31
+
+
+ Les comportements de base d’un système
+dynamique
+ Croissance ou décroissance linéaire
+ Croissance ou décroissance exponentielle
+(feedback positif)
+ Croissance logistique
+(feedback positif suivi de négatif)
+ Oscillation
+(feedback négatif)
+32
+
+
+ La dynamique de ces comportements
+ La stabilité dans la nature est une illusion créée par les feedbacks négatifs (qui sont des équilibres dynamiques)
+ Les équilibres dynamiques sont fragiles et dépendent d’une conjonction de conditions déterminantes
+ Le défaut d’une de ces conditions peut entraîner une catastrophe : voir le battement d’ailes d’un papillon qui peut affecter le climat de la planète
+ Les feedbacks positifs peuvent mener vers une catastrophe : pour éliminer leurs effets catastrophiques, il faut un coup de barre radical
+ Une catastrophe est représentable comme une conjonction d’équations différentielles spécifiques
+33
+
+
+ Diagrammes de phase, catastrophe, attracteurs
+ La variation des réservoirs (Δx / Δt; Δy / Δt...)
+ Un diagramme de phase (Δy / Δx)
+ Un diagramme de phase peut révéler une convergence des relations entre x et y : un attracteur ou un chaos ou une catastrophe
+ L’histoire d’un processus peut être une alternance de feedbacks positifs, de feedbacks négatifs, de catastrophes, d’apparition d’attracteurs
+34
+
+
+ L’apprentissage dans les systèmes dynamiques
+ Un système dynamique peut apprendre : par adaptation après rupture du feedback négatif, ou par production d’un nouvel attracteur (un nouvel équilibre dynamique)
+ L’adaptation est différente de la résilience et habituellement plus difficile à réaliser
+ Un modèle de système dynamique permet d’expliquer le changement et de le prédire (donc, la planification et l’optimisation)
+ Particulièrement utilisé dans la modélisation environnementale (climat, météo, pollution...)
+35
+
+
+ Les fondements cognitifs des systèmes dynamiques
+ Naturalisme :
+ vs anthropocentrisme ou fatalisme
+ Interactionnisme et incertitude :
+ vs réductionnisme ou certitude
+ Causalité dynamique et feedbacks :
+ vs causalité linéaire ou stabilité
+ Entropie, évolution et fragilité :
+ vs structuralisme statique ou téléologie
+ Responsabilité environnementale :
+ vs caractère neutre ou toujours positif de l’action humaine
+36
+
+
+ Conclusion
+ L’intelligence est vue dans la perspective naturaliste comme le résultat
+d’une émergence du complexe à partir du simple et qui permet une
+adaptation à l’environnement, une aptitude à anticiper les
+changements de l’environnement et à s’y conformer
+ Certaines dimensions de l’intelligence sont modélisables et simulables
+sur l’ordinateur
+ C’est ce que font les réseaux de neurones (qui peuvent apprendre, par
+exemple, à faire de la catégorisation automatique), les algorithmes
+génétiques (qui peuvent générer des solutions originales à partir de
+contraintes), des systèmes dynamiques (qui peuvent expliquer
+l’émergence, contribuer à la planification, éviter des catastrophes)...
+ L’apprentissage, non comme acquisition de vérités, mais comme
+correction de croyances antérieures, à partir de contre-exemples
+ Il s’agit de l’IA faible et non forte (utopie de l’approche symboliste)...
+37
+
+
+ Références de base
+ Pour les réseaux de neurones:
+Michael Negnevitsky, Artificial Intelligence, A Guide to Intelligent Systems, Addison Wesley, 3e ed., 2011, chapitre 6.
+Stuart J. Russell & Peter Norvig, Artificial Intelligence : A Modern Approach, Prentice Hall, 3e ed., 2010, chapitre 18, section 7.
+ Pour les algorithmes génétiques:
+Michael Negnevitsky, Artificial Intelligence, A Guide to Intelligent Systems, Addison Wesley, 3e ed., 2011, chapitre 7.
+ Pour les systèmes dynamiques:
+Deaton, M. L. & Winebrake, J. I., Dynamic Modeling of Environmental Systems, Springer, 1999.
+38

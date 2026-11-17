@@ -1,0 +1,17 @@
+– Cas d’utilisation : Administrer le système
+Acteurs : Administrateur But : Ajouter, modifier ou supprimer des profils, des utilisateurs, des alertes et des menus. Description : Un groupe défini d'utilisateurs a le privilège dans l'application d'ajouter / enlever des utilisateurs et de modifier le profil de chacun. Il peut aussi modifier les droits d'accès pour un profil en particulier, ajouter des alertes et des menus. Pré-condition : L'utilisateur est connecté à l'application et a les droits d'administration. Post-condition : L’ajout de l’utilisateur a fonctionné. Le profil est modifié. L’alerte est ajoutée. Le menu est ajouté.
+Cours typique des événements
+Acteurs Réponse du système
+1. Un administrateur reçoit une demande pour ajouter une liste d’utilisateur dans un profil donné. Il entre les informations de l’utilisateur et choisi le profil.
+2. Enregistre l’utilisateur avec le profil et retourne une confirmation.
+Répète ceci pour tous les utilisaturs à ajouter.
+Idem pour les menus et les alertes.
+Alternative : L’administration des profils comprend aussi l’ajout ou le retrait de permission dans les profils, la suppression d’utilisateur dans un profil, l’ajout et suppression de profil.
+
+
+ Diagramme de séquence acteurs/système
+systeme
+Admi n : A dm inis trat eur ajouter un util isateur
+A jouter un e perm ission
+A jouter un profils
+Interfaces graphiques
