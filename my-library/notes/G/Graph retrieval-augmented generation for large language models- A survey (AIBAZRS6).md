@@ -14,7 +14,7 @@ zotero-key: "AIBAZRS6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/AIBAZRS6"
 date-added: "2026-03-08 21:25:33"
-date-modified: "2026-03-25 21:28:45"
+date-modified: "2026-11-17 17:56:11"
 ---
 
 # Graph retrieval-augmented generation for large language models: A survey
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:45"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4404954244
 
 ## Attachments
 

@@ -15,7 +15,7 @@ zotero-key: "34M3B55J"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/34M3B55J"
 date-added: "2026-02-25 21:38:01"
-date-modified: "2026-03-25 21:29:46"
+date-modified: "2026-11-17 17:56:15"
 ---
 
 # How a Dutch tax scandal showed the world the dangers of AI
@@ -25,9 +25,11 @@ date-modified: "2026-03-25 21:29:46"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4385411782
 
 ## Attachments
 
+- [Heikkilä, Melissa - 2023 - How a Dutch tax scandal showed the world the dangers of AI.pdf](../../attachments/BB/BBVLE7UJ/Heikkil%C3%A4%2C%20Melissa%20-%202023%20-%20How%20a%20Dutch%20tax%20scandal%20showed%20the%20world%20the%20dangers%20of%20AI.pdf)
 - [Notion](https://app.notion.com/p/Heikkil-Melissa-2023-4129fa248c5781c683fdce2cf0445589)
 
 ---

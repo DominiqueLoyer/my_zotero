@@ -19,7 +19,7 @@ zotero-key: "R8V6592M"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/R8V6592M"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-03-25 21:30:02"
+date-modified: "2026-11-17 17:55:46"
 ---
 
 # Flash cookies and privacy
@@ -33,6 +33,7 @@ This is a pilot study of the use of 'Flash cookies' by popular websites. We find
 ## Extra
 
 abstractTranslation: This is a pilot study of the use of 'Flash cookies' by popular websites. We find that more than 50
+OpenAlex: W3121347312
 
 ## Attachments
 

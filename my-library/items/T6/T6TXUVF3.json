@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:55:38Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:55:38Z",
+			"dateModified": "2026-11-17T17:55:38Z",
+			"filename": "Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matthis, Michael and Newlan, Timothy and Guu, Germ{'a}n and Huang, Pangwei and Prenger, Pooja and others - 2021 - .pdf",
+			"itemType": "attachment",
+			"key": "CAE97VEE",
+			"linkMode": "imported_file",
+			"parentItem": "T6TXUVF3",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W3202698243.pdf"
+		},
+		{
 			"accessDate": "2026-03-09T20:34:43Z",
 			"charset": "",
 			"contentType": "",
@@ -19,6 +35,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matthis, Michael and Newlan, Timothy and Guu, Germ{'a}n and Huang, Pangwei and Prenger, Pooja and others - 2021 - .pdf",
+				"files": [
+					{
+						"path": "attachments/CA/CAE97VEE/Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matthis, Michael and Newlan, Timothy and Guu, Germ{'a}n and Huang, Pangwei and Prenger, Pooja and others - 2021 - .pdf",
+						"size": 1279010,
+						"storage": "git"
+					}
+				],
+				"key": "CAE97VEE",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W3202698243.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -59,8 +92,8 @@
 		],
 		"date": "2021",
 		"dateAdded": "2026-03-05T00:56:00Z",
-		"dateModified": "2026-03-25T21:28:59Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:55:38Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W3202698243",
 		"itemType": "journalArticle",
 		"key": "T6TXUVF3",
 		"relations": {},

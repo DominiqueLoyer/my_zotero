@@ -14,7 +14,7 @@ zotero-key: "8W6TIC4U"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8W6TIC4U"
 date-added: "2026-03-08 21:19:58"
-date-modified: "2026-03-25 21:28:51"
+date-modified: "2026-11-17 17:56:19"
 ---
 
 # Hybrid System for Verifying the Credibility of Information Sources: An Ontology
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:51"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2339064014
 
 ## Attachments
 

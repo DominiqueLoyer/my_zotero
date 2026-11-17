@@ -19,12 +19,16 @@ zotero-key: "74EHYPJR"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/74EHYPJR"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-09 15:01:46"
+date-modified: "2026-11-17 17:55:40"
 ---
 
 # Facing the cold start problem in recommender systems
 
 **Lika, Blerina; Kolomvatsos, Kostas; Hadjiefthymiades, Stathes**
+
+## Extra
+
+OpenAlex: W2034792940
 
 ## Attachments
 

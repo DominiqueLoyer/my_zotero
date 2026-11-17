@@ -16,7 +16,7 @@ zotero-key: "6XUYYWDF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6XUYYWDF"
 date-added: "2026-01-08 20:14:06"
-date-modified: "2026-03-25 21:30:01"
+date-modified: "2026-11-17 17:56:17"
 ---
 
 # How unique is your web browser?
@@ -26,6 +26,10 @@ date-modified: "2026-03-25 21:30:01"
 ## Abstract
 
 S2 TL;DR: The degree to which modern web browsers are subject to "device fingerprinting" via the version and configuration information that they will transmit to websites upon request is investigated, and what countermeasures may be appropriate to prevent it is discussed.
+
+## Extra
+
+OpenAlex: W1525967479
 
 ## Attachments
 

@@ -14,7 +14,7 @@ zotero-key: "KPMK9H4E"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KPMK9H4E"
 date-added: "2026-03-04 19:43:41"
-date-modified: "2026-11-09 15:01:41"
+date-modified: "2026-11-17 17:55:50"
 ---
 
 # Foundations of Semantic Web Technologies
@@ -24,6 +24,7 @@ date-modified: "2026-11-09 15:01:41"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1533454855
 
 ## Attachments
 

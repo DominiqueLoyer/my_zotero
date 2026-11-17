@@ -19,10 +19,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Tanon-T-P-and-Vrandecic-D-and-Schaffert-S-and-Steiner-T-and-Pintscher-L-2016-4129fa248c5781588dc1dd16d6c182dd"
+		},
+		{
+			"accessDate": "2026-11-17T17:55:56Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:55:56Z",
+			"dateModified": "2026-11-17T17:55:56Z",
+			"filename": "Tanon, T. P. and Vrandecic, D. and Schaffert, S. and Steiner, T. and Pintscher, L. - 2016 - From Freebase to Wikidata The Great Migration.pdf",
+			"itemType": "attachment",
+			"key": "I9UAD87Q",
+			"linkMode": "imported_file",
+			"parentItem": "CTCRTCZ8",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W2309189658.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Tanon, T. P. and Vrandecic, D. and Schaffert, S. and Steiner, T. and Pintscher, L. - 2016 - From Freebase to Wikidata The Great Migration.pdf",
+				"files": [
+					{
+						"path": "attachments/I9/I9UAD87Q/Tanon, T. P. and Vrandecic, D. and Schaffert, S. and Steiner, T. and Pintscher, L. - 2016 - From Freebase to Wikidata The Great Migration.pdf",
+						"size": 2266958,
+						"storage": "git"
+					}
+				],
+				"key": "I9UAD87Q",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W2309189658.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -51,7 +84,7 @@
 	},
 	"zotero": {
 		"DOI": "10.1145/2872427.2874809",
-		"citationKey": "tanont.p.andvrandecicd.andschafferts.andsteinert.andpintscherl.FreebaseWikidataGreat2016",
+		"citationKey": "tanont.p.andvrandecicd.andschafferts.andsteinert.andpintscherl.FreebaseWikidataGreat2016a",
 		"collections": [
 			"7XVYZYFG"
 		],
@@ -63,8 +96,8 @@
 		],
 		"date": "2016",
 		"dateAdded": "2026-03-04T19:44:35Z",
-		"dateModified": "2026-03-25T21:29:05Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:55:56Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W2309189658",
 		"itemType": "journalArticle",
 		"key": "CTCRTCZ8",
 		"relations": {

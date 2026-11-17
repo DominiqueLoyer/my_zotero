@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/G-mez-Boix-et-al-2018-4129fa248c5781be8051d1a99dc414a4"
+		},
+		{
+			"accessDate": "2026-11-17T17:56:14Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:56:13Z",
+			"dateModified": "2026-11-17T17:56:14Z",
+			"filename": "Gómez-Boix et al. - 2018 - Hiding in the crowd an analysis of the effectiveness of browser fingerprinting at large scale.pdf",
+			"itemType": "attachment",
+			"key": "XKCLYDD9",
+			"linkMode": "imported_file",
+			"parentItem": "UQ8D8BVW",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W2787932188.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Gómez-Boix et al. - 2018 - Hiding in the crowd an analysis of the effectiveness of browser fingerprinting at large scale.pdf",
+				"files": [
+					{
+						"path": "attachments/XK/XKCLYDD9/Gómez-Boix et al. - 2018 - Hiding in the crowd an analysis of the effectiveness of browser fingerprinting at large scale.pdf",
+						"size": 884463,
+						"storage": "git"
+					}
+				],
+				"key": "XKCLYDD9",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W2787932188.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -73,7 +106,8 @@
 		],
 		"date": "2018",
 		"dateAdded": "2026-01-08T20:14:04Z",
-		"dateModified": "2026-03-25T21:30:06Z",
+		"dateModified": "2026-11-17T17:56:14Z",
+		"extra": "OpenAlex: W2787932188",
 		"itemType": "journalArticle",
 		"key": "UQ8D8BVW",
 		"language": "fr-CA",

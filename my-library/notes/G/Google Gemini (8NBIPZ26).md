@@ -10,10 +10,14 @@ zotero-key: "8NBIPZ26"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8NBIPZ26"
 date-added: "2025-11-22 01:39:14"
-date-modified: "2025-12-05 22:34:13"
+date-modified: "2026-11-17 17:56:01"
 ---
 
 # Google Gemini
+
+## Extra
+
+OpenAlex: W7226011467
 
 ## Attachments
 

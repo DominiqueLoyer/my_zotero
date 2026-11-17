@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:56:15Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:56:15Z",
+			"dateModified": "2026-11-17T17:56:15Z",
+			"filename": "Heikkilä, Melissa - 2023 - How a Dutch tax scandal showed the world the dangers of AI.pdf",
+			"itemType": "attachment",
+			"key": "BBVLE7UJ",
+			"linkMode": "imported_file",
+			"parentItem": "34M3B55J",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4385411782.pdf"
+		},
+		{
 			"accessDate": "2026-02-25T22:17:52Z",
 			"charset": "",
 			"contentType": "",
@@ -24,6 +40,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Heikkilä, Melissa - 2023 - How a Dutch tax scandal showed the world the dangers of AI.pdf",
+				"files": [
+					{
+						"path": "attachments/BB/BBVLE7UJ/Heikkilä, Melissa - 2023 - How a Dutch tax scandal showed the world the dangers of AI.pdf",
+						"size": 469364,
+						"storage": "git"
+					}
+				],
+				"key": "BBVLE7UJ",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4385411782.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -64,8 +97,8 @@
 		],
 		"date": "2023",
 		"dateAdded": "2026-02-25T21:38:01Z",
-		"dateModified": "2026-03-25T21:29:46Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:56:15Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W4385411782",
 		"itemType": "journalArticle",
 		"key": "34M3B55J",
 		"relations": {

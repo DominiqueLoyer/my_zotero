@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Laperdrix-et-al-2017-4129fa248c57812abed1ca74fb6efc2e"
+		},
+		{
+			"accessDate": "2026-11-17T17:55:55Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:55:55Z",
+			"dateModified": "2026-11-17T17:55:55Z",
+			"filename": "Laperdrix et al. - 2017 - FPRandom Randomizing core browser objects to break advanced device fingerprinting techniques.pdf",
+			"itemType": "attachment",
+			"key": "LUAXAAAV",
+			"linkMode": "imported_file",
+			"parentItem": "LFZ7FJRV",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W2620476287.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Laperdrix et al. - 2017 - FPRandom Randomizing core browser objects to break advanced device fingerprinting techniques.pdf",
+				"files": [
+					{
+						"path": "attachments/LU/LUAXAAAV/Laperdrix et al. - 2017 - FPRandom Randomizing core browser objects to break advanced device fingerprinting techniques.pdf",
+						"size": 453107,
+						"storage": "git"
+					}
+				],
+				"key": "LUAXAAAV",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W2620476287.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -73,7 +106,8 @@
 		],
 		"date": "2017",
 		"dateAdded": "2026-01-08T20:14:05Z",
-		"dateModified": "2026-03-25T21:30:04Z",
+		"dateModified": "2026-11-17T17:55:55Z",
+		"extra": "OpenAlex: W2620476287",
 		"itemType": "journalArticle",
 		"key": "LFZ7FJRV",
 		"language": "fr-CA",

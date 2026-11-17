@@ -15,6 +15,22 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Fan-et-al-2019-4129fa248c5781b7bdb8c7540b4dc500"
+		},
+		{
+			"accessDate": "2026-11-17T17:56:10Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:56:10Z",
+			"dateModified": "2026-11-17T17:56:10Z",
+			"filename": "Fan et al. - 2019 - Graph neural networks for social recommendation.pdf",
+			"itemType": "attachment",
+			"key": "GASUAHUS",
+			"linkMode": "imported_url",
+			"parentItem": "BYK38YAM",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1902.07243"
 		}
 	],
 	"meta": {
@@ -29,6 +45,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "https://app.notion.com/p/Fan-et-al-2019-4129fa248c5781b7bdb8c7540b4dc500"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Fan et al. - 2019 - Graph neural networks for social recommendation.pdf",
+				"files": [
+					{
+						"path": "attachments/GA/GASUAHUS/Fan et al. - 2019 - Graph neural networks for social recommendation.pdf",
+						"size": 1340889,
+						"storage": "git"
+					}
+				],
+				"key": "GASUAHUS",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1902.07243"
 			}
 		],
 		"collections": [
@@ -95,7 +128,8 @@
 		],
 		"date": "2019",
 		"dateAdded": "2026-01-08T20:10:55Z",
-		"dateModified": "2026-03-25T21:30:21Z",
+		"dateModified": "2026-11-17T17:56:10Z",
+		"extra": "OpenAlex: W2914721378",
 		"itemType": "conferencePaper",
 		"key": "BYK38YAM",
 		"language": "fr-CA",

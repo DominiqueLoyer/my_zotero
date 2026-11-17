@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Wu-Yonghui-and-Schuster-Mike-and-Chen-Zhifeng-and-Le-Quoc-V-and-Norouzi-Mohammad-and-Jaitly-Na-4129fa248c578123ad6bff16a24df784"
+		},
+		{
+			"accessDate": "2026-11-17T17:56:03Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:56:02Z",
+			"dateModified": "2026-11-17T17:56:03Z",
+			"filename": "Wu, Yonghui and Schuster, Mike and Chen, Zhifeng and Le, Quoc V and Norouzi, Mohammad and Jaitly, Navdeep and Hinton, Geoffrey and бригадный, ОРИГИНАЛ and others - 2019 - Google's Neural Ma.pdf",
+			"itemType": "attachment",
+			"key": "HIJGQQIQ",
+			"linkMode": "imported_file",
+			"parentItem": "I5A6S7B9",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W2964345285.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wu, Yonghui and Schuster, Mike and Chen, Zhifeng and Le, Quoc V and Norouzi, Mohammad and Jaitly, Navdeep and Hinton, Geoffrey and бригадный, ОРИГИНАЛ and others - 2019 - Google's Neural Ma.pdf",
+				"files": [
+					{
+						"path": "attachments/HI/HIJGQQIQ/Wu, Yonghui and Schuster, Mike and Chen, Zhifeng and Le, Quoc V and Norouzi, Mohammad and Jaitly, Navdeep and Hinton, Geoffrey and бригадный, ОРИГИНАЛ and others - 2019 - Google's Neural Ma.pdf",
+						"size": 854233,
+						"storage": "git"
+					}
+				],
+				"key": "HIJGQQIQ",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W2964345285.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -59,8 +92,8 @@
 		],
 		"date": "2019",
 		"dateAdded": "2026-03-05T00:56:16Z",
-		"dateModified": "2026-03-25T21:28:59Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:56:03Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W2964345285",
 		"itemType": "journalArticle",
 		"key": "I5A6S7B9",
 		"relations": {},

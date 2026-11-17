@@ -15,7 +15,7 @@ zotero-key: "7DAU25G8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7DAU25G8"
 date-added: "2026-03-06 17:06:57"
-date-modified: "2026-03-25 21:28:53"
+date-modified: "2026-11-17 17:56:19"
 ---
 
 # Hybrid System for Verifying the Credibility of Information
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:28:53"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4415709470
 
 ## Attachments
 

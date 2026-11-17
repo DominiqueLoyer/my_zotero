@@ -14,7 +14,7 @@ zotero-key: "M4QKA6ZS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/M4QKA6ZS"
 date-added: "2026-02-25 21:40:03"
-date-modified: "2026-03-25 21:29:43"
+date-modified: "2026-11-17 17:56:18"
 ---
 
 # Human-Centered Explainable AI (XAI): From Algorithms to User Experiences
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:43"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3019674878
 
 ## Attachments
 

@@ -11,7 +11,7 @@ zotero-key: "N2X658EB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/N2X658EB"
 date-added: "2025-09-15 17:38:11"
-date-modified: "2026-01-27 00:39:44"
+date-modified: "2026-11-17 17:56:01"
 ---
 
 # ‎Google Gemini
@@ -23,6 +23,7 @@ Voici Gemini, l'assistant IA de Google. Obtenez de l'aide pour la rédaction de 
 ## Extra
 
 abstractTranslation: Here is Gemini, Google's AI assistant. Get help with content writing, planning, brainstorming, and more. Discover the power of generative AI.
+OpenAlex: W7226011467
 
 ## Attachments
 

@@ -17,7 +17,7 @@ zotero-key: "JCWIHSAT"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JCWIHSAT"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-03-25 21:30:04"
+date-modified: "2026-11-17 17:55:43"
 ---
 
 # Fingerprinting web users through font metrics
@@ -27,6 +27,10 @@ date-modified: "2026-03-25 21:30:04"
 ## Abstract
 
 S2 TL;DR: It is shown that of the over 125,000 code points examined, it suffices to test only 43 in order to account for all the variation seen in the experiment, andFont metrics, being orthogonal to many other fingerprinting techniques, can augment and sharpen those other techniques.
+
+## Extra
+
+OpenAlex: W2228852330
 
 ## Attachments
 

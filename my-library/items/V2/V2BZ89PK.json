@@ -23,10 +23,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "notion://www.notion.so/Noy2019Industryscale-31e9fa248c578163920af91863ec033a"
+		},
+		{
+			"accessDate": "2026-11-17T17:56:20Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:56:20Z",
+			"dateModified": "2026-11-17T17:56:20Z",
+			"filename": "Noy, N. and Gao, Y. and Jain, A. and Narayanan, A. and Patterson, A. and Taylor, J. - 2019 - Industry-scale knowledge graphs Lessons and challenges.pdf",
+			"itemType": "attachment",
+			"key": "S95BD44A",
+			"linkMode": "imported_file",
+			"parentItem": "V2BZ89PK",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W3136296618.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Noy, N. and Gao, Y. and Jain, A. and Narayanan, A. and Patterson, A. and Taylor, J. - 2019 - Industry-scale knowledge graphs Lessons and challenges.pdf",
+				"files": [
+					{
+						"path": "attachments/S9/S95BD44A/Noy, N. and Gao, Y. and Jain, A. and Narayanan, A. and Patterson, A. and Taylor, J. - 2019 - Industry-scale knowledge graphs Lessons and challenges.pdf",
+						"size": 268101,
+						"storage": "git"
+					}
+				],
+				"key": "S95BD44A",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W3136296618.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -67,8 +100,8 @@
 		],
 		"date": "2019",
 		"dateAdded": "2026-03-04T19:44:26Z",
-		"dateModified": "2026-11-09T15:01:10Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:56:20Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W3136296618",
 		"itemType": "journalArticle",
 		"key": "V2BZ89PK",
 		"relations": {
