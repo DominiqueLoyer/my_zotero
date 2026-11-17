@@ -20,7 +20,7 @@ zotero-key: "FIQZNDPP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FIQZNDPP"
 date-added: "2026-01-08 20:07:32"
-date-modified: "2026-03-25 21:30:37"
+date-modified: "2026-11-17 17:49:59"
 ---
 
 # Amazon.com recommendations: Item-to-item collaborative filtering
@@ -30,6 +30,7 @@ date-modified: "2026-03-25 21:30:37"
 ## Extra
 
 Number: 1
+OpenAlex: W2159094788
 
 ## Attachments
 

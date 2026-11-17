@@ -20,7 +20,7 @@ zotero-key: "4ZVRM6MC"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4ZVRM6MC"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-11-13 19:31:39"
+date-modified: "2026-11-17 17:50:00"
 ---
 
 # Amazon.com recommendations: Item-to-item collaborative filtering
@@ -30,6 +30,7 @@ date-modified: "2026-11-13 19:31:39"
 ## Extra
 
 Number: 1
+OpenAlex: W2159094788
 
 ## Attachments
 

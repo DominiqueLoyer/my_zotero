@@ -22,12 +22,16 @@ zotero-key: "4Q69VHC2"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4Q69VHC2"
 date-added: "2024-10-15 17:59:48"
-date-modified: "2026-11-13 19:31:50"
+date-modified: "2026-11-17 17:50:05"
 ---
 
 # Argumenter son mémoire ou sa thèse
 
 **Olivier, Lawrence**
+
+## Extra
+
+OpenAlex: W2346896828
 
 ## Attachments
 

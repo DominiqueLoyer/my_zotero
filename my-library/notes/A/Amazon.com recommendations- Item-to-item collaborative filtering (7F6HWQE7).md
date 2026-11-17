@@ -14,7 +14,7 @@ zotero-key: "7F6HWQE7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7F6HWQE7"
 date-added: "2026-02-25 21:40:15"
-date-modified: "2026-03-25 21:29:43"
+date-modified: "2026-11-17 17:50:01"
 ---
 
 # Amazon.com recommendations: Item-to-item collaborative filtering
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:43"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2159094788
 
 ## Attachments
 

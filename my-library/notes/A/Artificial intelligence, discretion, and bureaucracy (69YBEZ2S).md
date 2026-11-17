@@ -19,7 +19,7 @@ zotero-key: "69YBEZ2S"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/69YBEZ2S"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-13 19:31:55"
+date-modified: "2026-11-17 17:50:15"
 ---
 
 # Artificial intelligence, discretion, and bureaucracy
@@ -29,6 +29,7 @@ date-modified: "2026-11-13 19:31:55"
 ## Extra
 
 DOI Fix previous DOI: 10.1177/0275074020929189
+OpenAlex: W2951696288
 
 ## Attachments
 

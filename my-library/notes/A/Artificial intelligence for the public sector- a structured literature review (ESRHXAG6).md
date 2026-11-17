@@ -14,7 +14,7 @@ zotero-key: "ESRHXAG6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ESRHXAG6"
 date-added: "2026-02-25 21:53:01"
-date-modified: "2026-11-13 19:31:54"
+date-modified: "2026-11-17 17:50:15"
 ---
 
 # Artificial intelligence for the public sector: a structured literature review
@@ -24,6 +24,7 @@ date-modified: "2026-11-13 19:31:54"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3125012659
 
 ## Attachments
 

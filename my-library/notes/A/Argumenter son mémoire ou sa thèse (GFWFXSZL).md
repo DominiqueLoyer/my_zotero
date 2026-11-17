@@ -17,12 +17,16 @@ zotero-key: "GFWFXSZL"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GFWFXSZL"
 date-added: "2024-11-22 18:44:30"
-date-modified: "2026-11-13 19:31:51"
+date-modified: "2026-11-17 17:50:07"
 ---
 
 # Argumenter son mémoire ou sa thèse
 
 **Olivier, Lawrence**
+
+## Extra
+
+OpenAlex: W2346896828
 
 ## Attachments
 

@@ -31,10 +31,43 @@
 			"tags": [],
 			"title": "Snapshot",
 			"url": "https://www.antidote.info/fr/assistance/depannage"
+		},
+		{
+			"accessDate": "2026-11-17T17:50:10Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:50:10Z",
+			"dateModified": "2026-11-17T17:50:10Z",
+			"filename": "Articles de dépannage.pdf",
+			"itemType": "attachment",
+			"key": "SVP88TTX",
+			"linkMode": "imported_file",
+			"parentItem": "MUCYUCAF",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4239274441.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Articles de dépannage.pdf",
+				"files": [
+					{
+						"path": "attachments/SV/SVP88TTX/Articles de dépannage.pdf",
+						"size": 415742,
+						"storage": "git"
+					}
+				],
+				"key": "SVP88TTX",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4239274441.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -82,8 +115,8 @@
 		"collections": [],
 		"creators": [],
 		"dateAdded": "2025-11-09T16:21:22Z",
-		"dateModified": "2026-11-13T19:31:54Z",
-		"extra": "abstractTranslation: Find answers to frequently asked general questions from users.",
+		"dateModified": "2026-11-17T17:50:10Z",
+		"extra": "abstractTranslation: Find answers to frequently asked general questions from users.\nOpenAlex: W4239274441",
 		"itemType": "webpage",
 		"key": "MUCYUCAF",
 		"language": "fr",

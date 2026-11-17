@@ -21,12 +21,16 @@ zotero-key: "UDBC8NJ8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UDBC8NJ8"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-13 19:31:54"
+date-modified: "2026-11-17 17:50:11"
 ---
 
 # Artificial intelligence for the public sector: a structured literature review
 
 **van Noordt, Colin; Misuraca, Gianluca**
+
+## Extra
+
+OpenAlex: W3179089335
 
 ## Attachments
 

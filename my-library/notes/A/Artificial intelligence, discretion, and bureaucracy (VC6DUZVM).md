@@ -19,7 +19,7 @@ zotero-key: "VC6DUZVM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VC6DUZVM"
 date-added: "2026-01-08 20:07:30"
-date-modified: "2026-11-13 19:32:01"
+date-modified: "2026-11-17 17:50:16"
 ---
 
 # Artificial intelligence, discretion, and bureaucracy
@@ -29,6 +29,7 @@ date-modified: "2026-11-13 19:32:01"
 ## Extra
 
 DOI Fix previous DOI: 10.1177/0275074020929189
+OpenAlex: W2951696288
 
 ## Attachments
 

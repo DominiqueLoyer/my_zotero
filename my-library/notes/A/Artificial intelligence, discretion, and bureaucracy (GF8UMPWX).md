@@ -14,7 +14,7 @@ zotero-key: "GF8UMPWX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GF8UMPWX"
 date-added: "2026-02-25 21:33:46"
-date-modified: "2026-03-25 21:29:52"
+date-modified: "2026-11-17 17:50:16"
 ---
 
 # Artificial intelligence, discretion, and bureaucracy
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:52"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2951696288
 
 ## Attachments
 
