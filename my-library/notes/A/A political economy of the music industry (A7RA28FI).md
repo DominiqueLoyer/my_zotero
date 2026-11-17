@@ -14,7 +14,7 @@ zotero-key: "A7RA28FI"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/A7RA28FI"
 date-added: "2026-02-25 21:41:06"
-date-modified: "2026-11-13 19:29:21"
+date-modified: "2026-11-17 17:48:49"
 ---
 
 # A political economy of the music industry
@@ -24,6 +24,7 @@ date-modified: "2026-11-13 19:29:21"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1563787909
 
 ## Attachments
 

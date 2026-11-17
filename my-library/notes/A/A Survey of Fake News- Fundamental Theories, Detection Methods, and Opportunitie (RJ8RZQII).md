@@ -14,7 +14,7 @@ zotero-key: "RJ8RZQII"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RJ8RZQII"
 date-added: "2026-02-26 20:21:25"
-date-modified: "2026-11-13 19:30:09"
+date-modified: "2026-11-17 17:48:59"
 ---
 
 # A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities
@@ -24,6 +24,7 @@ date-modified: "2026-11-13 19:30:09"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4285273521
 
 ## Attachments
 

@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:49:15Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:49:15Z",
+			"dateModified": "2026-11-17T17:49:15Z",
+			"filename": "Busuioc, Mădălina - 2021 - Accountable Artificial Intelligence Holding Algorithms to Account.pdf",
+			"itemType": "attachment",
+			"key": "72KBRII4",
+			"linkMode": "imported_file",
+			"parentItem": "DQ97ZVBT",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://europepmc.org/api/getPdf?pmcid=PMC8518786"
+		},
+		{
 			"accessDate": "2026-02-25T22:18:42Z",
 			"charset": "",
 			"contentType": "",
@@ -24,6 +40,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Busuioc, Mădălina - 2021 - Accountable Artificial Intelligence Holding Algorithms to Account.pdf",
+				"files": [
+					{
+						"path": "attachments/72/72KBRII4/Busuioc, Mădălina - 2021 - Accountable Artificial Intelligence Holding Algorithms to Account.pdf",
+						"size": 346374,
+						"storage": "git"
+					}
+				],
+				"key": "72KBRII4",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://europepmc.org/api/getPdf?pmcid=PMC8518786"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -64,8 +97,8 @@
 		],
 		"date": "2021",
 		"dateAdded": "2026-02-25T21:34:12Z",
-		"dateModified": "2026-03-25T21:29:52Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:49:15Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W3049338919",
 		"itemType": "journalArticle",
 		"key": "DQ97ZVBT",
 		"relations": {

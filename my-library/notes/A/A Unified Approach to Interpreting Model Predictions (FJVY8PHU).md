@@ -22,16 +22,21 @@ zotero-key: "FJVY8PHU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FJVY8PHU"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-13 19:30:30"
+date-modified: "2026-11-17 17:49:07"
 ---
 
 # A Unified Approach to Interpreting Model Predictions
 
 **Lundberg, Scott M.; Lee, Su-In**
 
+## Extra
+
+OpenAlex: W2618851150
+
 ## Attachments
 
 - [Notion](https://app.notion.com/p/Lundberg-and-Lee-2017-4129fa248c5781468db9f88f3e0b54ba)
+- [Lundberg and Lee - 2017 - A Unified Approach to Interpreting Model Predictions.pdf](../../attachments/SA/SA87DSCL/Lundberg%20and%20Lee%20-%202017%20-%20A%20Unified%20Approach%20to%20Interpreting%20Model%20Predictions.pdf)
 
 ---
 

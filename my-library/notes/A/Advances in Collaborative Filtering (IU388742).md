@@ -12,7 +12,7 @@ zotero-key: "IU388742"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IU388742"
 date-added: "2026-03-13 20:00:04"
-date-modified: "2026-11-08 16:03:35"
+date-modified: "2026-11-17 17:49:25"
 ---
 
 # Advances in Collaborative Filtering
@@ -22,6 +22,7 @@ date-modified: "2026-11-08 16:03:35"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2165949563
 
 ## Attachments
 

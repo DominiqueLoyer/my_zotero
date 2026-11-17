@@ -12,7 +12,7 @@ zotero-key: "2ZI5IVQ4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2ZI5IVQ4"
 date-added: "2026-03-13 19:59:55"
-date-modified: "2026-11-08 16:01:37"
+date-modified: "2026-11-17 17:49:00"
 ---
 
 # A Survey of Recommendation Systems
@@ -22,6 +22,7 @@ date-modified: "2026-11-08 16:01:37"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3137021366
 
 ## Attachments
 

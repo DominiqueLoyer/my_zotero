@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:48:50Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:48:50Z",
+			"dateModified": "2026-11-17T17:48:50Z",
+			"filename": "White et al. - 2023 - A prompt pattern catalog to enhance prompt engineering with chatgpt.pdf",
+			"itemType": "attachment",
+			"key": "4LPVI9ZN",
+			"linkMode": "imported_url",
+			"parentItem": "V2Y2B3P6",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2302.11382"
+		},
+		{
 			"accessDate": "2026-01-08T20:30:58Z",
 			"charset": "",
 			"contentType": "",
@@ -29,6 +45,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "https://app.notion.com/p/White-et-al-2023-4129fa248c57814c85c1d43f47da2d7b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "White et al. - 2023 - A prompt pattern catalog to enhance prompt engineering with chatgpt.pdf",
+				"files": [
+					{
+						"path": "attachments/4L/4LPVI9ZN/White et al. - 2023 - A prompt pattern catalog to enhance prompt engineering with chatgpt.pdf",
+						"size": 297795,
+						"storage": "git"
+					}
+				],
+				"key": "4LPVI9ZN",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2302.11382"
 			}
 		],
 		"collections": [
@@ -56,7 +89,7 @@
 		"zoteroURI": "zotero://select/library/items/V2Y2B3P6"
 	},
 	"zotero": {
-		"citationKey": "whitePromptPatternCatalog2023b",
+		"citationKey": "whitePromptPatternCatalog2023e",
 		"collections": [
 			"7PN5IQY2"
 		],
@@ -118,7 +151,8 @@
 		],
 		"date": "2023",
 		"dateAdded": "2026-01-08T20:10:56Z",
-		"dateModified": "2026-11-13T19:29:39Z",
+		"dateModified": "2026-11-17T17:48:50Z",
+		"extra": "OpenAlex: W7155906632",
 		"itemType": "journalArticle",
 		"key": "V2Y2B3P6",
 		"language": "fr-CA",

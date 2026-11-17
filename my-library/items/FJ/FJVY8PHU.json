@@ -22,6 +22,22 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Lundberg-and-Lee-2017-4129fa248c5781468db9f88f3e0b54ba"
+		},
+		{
+			"accessDate": "2026-11-17T17:49:07Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:49:07Z",
+			"dateModified": "2026-11-17T17:49:07Z",
+			"filename": "Lundberg and Lee - 2017 - A Unified Approach to Interpreting Model Predictions.pdf",
+			"itemType": "attachment",
+			"key": "SA87DSCL",
+			"linkMode": "imported_url",
+			"parentItem": "FJVY8PHU",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1705.07874"
 		}
 	],
 	"meta": {
@@ -36,6 +52,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "https://app.notion.com/p/Lundberg-and-Lee-2017-4129fa248c5781468db9f88f3e0b54ba"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Lundberg and Lee - 2017 - A Unified Approach to Interpreting Model Predictions.pdf",
+				"files": [
+					{
+						"path": "attachments/SA/SA87DSCL/Lundberg and Lee - 2017 - A Unified Approach to Interpreting Model Predictions.pdf",
+						"size": 1014198,
+						"storage": "git"
+					}
+				],
+				"key": "SA87DSCL",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1705.07874"
 			}
 		],
 		"collections": [
@@ -76,7 +109,8 @@
 		],
 		"date": "2017",
 		"dateAdded": "2025-10-10T19:01:27Z",
-		"dateModified": "2026-11-13T19:30:30Z",
+		"dateModified": "2026-11-17T17:49:07Z",
+		"extra": "OpenAlex: W2618851150",
 		"itemType": "conferencePaper",
 		"key": "FJVY8PHU",
 		"pages": "4765–4774",

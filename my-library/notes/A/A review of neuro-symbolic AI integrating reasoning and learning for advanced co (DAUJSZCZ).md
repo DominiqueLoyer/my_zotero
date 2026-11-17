@@ -14,7 +14,7 @@ zotero-key: "DAUJSZCZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DAUJSZCZ"
 date-added: "2026-03-08 21:24:24"
-date-modified: "2026-03-25 21:28:46"
+date-modified: "2026-11-17 17:48:53"
 ---
 
 # A review of neuro-symbolic AI integrating reasoning and learning for advanced cognitive systems
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:46"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4410635218
 
 ## Attachments
 

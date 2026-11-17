@@ -12,7 +12,7 @@ zotero-key: "XMPX9JFQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XMPX9JFQ"
 date-added: "2026-03-03 23:34:17"
-date-modified: "2026-11-13 19:30:38"
+date-modified: "2026-11-17 17:49:18"
 ---
 
 # ACL Anthology
@@ -22,6 +22,7 @@ date-modified: "2026-11-13 19:30:38"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W7118841786
 
 ## Attachments
 

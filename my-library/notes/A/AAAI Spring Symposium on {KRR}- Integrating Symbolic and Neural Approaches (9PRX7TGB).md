@@ -12,7 +12,7 @@ zotero-key: "9PRX7TGB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9PRX7TGB"
 date-added: "2026-03-05 00:43:19"
-date-modified: "2026-11-13 19:30:32"
+date-modified: "2026-11-17 17:49:13"
 ---
 
 # AAAI Spring Symposium on {KRR}: Integrating Symbolic and Neural Approaches
@@ -20,6 +20,7 @@ date-modified: "2026-11-13 19:30:32"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1974845763
 
 ## Attachments
 

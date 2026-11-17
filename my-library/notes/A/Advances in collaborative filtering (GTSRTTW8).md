@@ -23,12 +23,16 @@ zotero-key: "GTSRTTW8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GTSRTTW8"
 date-added: "2026-01-08 20:10:54"
-date-modified: "2026-03-25 21:30:24"
+date-modified: "2026-11-17 17:49:23"
 ---
 
 # Advances in collaborative filtering
 
 **Koren, Yehuda; Bell, Robert; Ricci, Francesco; Rokach, Lior; Shapira, Bracha; Kantor, Paul B.**
+
+## Extra
+
+OpenAlex: W2165949563
 
 ## Attachments
 

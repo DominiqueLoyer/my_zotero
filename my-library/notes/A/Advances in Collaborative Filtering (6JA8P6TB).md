@@ -14,7 +14,7 @@ zotero-key: "6JA8P6TB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6JA8P6TB"
 date-added: "2026-02-25 21:39:35"
-date-modified: "2026-03-25 21:29:44"
+date-modified: "2026-11-17 17:49:24"
 ---
 
 # Advances in Collaborative Filtering
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:44"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2165949563
 
 ## Attachments
 

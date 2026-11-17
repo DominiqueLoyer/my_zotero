@@ -20,12 +20,16 @@ zotero-key: "JM4N4EFK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JM4N4EFK"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-09 15:05:20"
+date-modified: "2026-11-17 17:48:57"
 ---
 
 # A Survey of Collaborative Filtering Techniques
 
 **Su, Xiaoyuan; Khoshgoftaar, Taghi M.**
+
+## Extra
+
+OpenAlex: W2100235918
 
 ## Attachments
 

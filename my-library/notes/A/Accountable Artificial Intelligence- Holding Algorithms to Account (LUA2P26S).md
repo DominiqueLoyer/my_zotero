@@ -20,12 +20,16 @@ zotero-key: "LUA2P26S"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/LUA2P26S"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-13 19:30:32"
+date-modified: "2026-11-17 17:49:13"
 ---
 
 # Accountable Artificial Intelligence: Holding Algorithms to Account
 
 **Busuioc, Mădălina**
+
+## Extra
+
+OpenAlex: W3080456737
 
 ## Attachments
 

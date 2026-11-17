@@ -22,15 +22,20 @@ zotero-key: "8V475VNM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8V475VNM"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-11-13 19:30:12"
+date-modified: "2026-11-17 17:49:02"
 ---
 
 # A survey on large language models for recommendation
 
 **Zhang, Zhaocheng; Liu, Jiongnan; Wu, Likang; Wang, Zhaopeng; Geng, Xingcan; Yuan, Fajie; Ren, Zhaochun**
 
+## Extra
+
+OpenAlex: W4386728881
+
 ## Attachments
 
+- [Zhang et al. - 2023 - A survey on large language models for recommendation.pdf](../../attachments/H6/H6JG8ZSP/Zhang%20et%20al.%20-%202023%20-%20A%20survey%20on%20large%20language%20models%20for%20recommendation.pdf)
 - [Notion](https://app.notion.com/p/Zhang-et-al-2023-4129fa248c5781f691ecf56a847af75f)
 
 ---

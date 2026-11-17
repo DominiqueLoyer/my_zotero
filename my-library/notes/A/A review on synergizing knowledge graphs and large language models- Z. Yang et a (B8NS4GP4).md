@@ -14,7 +14,7 @@ zotero-key: "B8NS4GP4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/B8NS4GP4"
 date-added: "2026-03-08 21:25:58"
-date-modified: "2026-03-25 21:28:44"
+date-modified: "2026-11-17 17:48:55"
 ---
 
 # A review on synergizing knowledge graphs and large language models: Z. Yang et al.
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:44"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4411108312
 
 ## Attachments
 

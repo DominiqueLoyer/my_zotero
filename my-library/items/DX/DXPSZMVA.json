@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:48:48Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:48:48Z",
+			"dateModified": "2026-11-17T17:48:48Z",
+			"filename": "Sankarapu, Sanyasi and B, V. P. - 2022 - A novel hybrid optimization model for intrusion detection system in software defined networks.pdf",
+			"itemType": "attachment",
+			"key": "AFIXHNNS",
+			"linkMode": "imported_file",
+			"parentItem": "DXPSZMVA",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4313425355.pdf"
+		},
+		{
 			"accessDate": "2026-02-25T22:16:18Z",
 			"charset": "",
 			"contentType": "",
@@ -24,6 +40,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Sankarapu, Sanyasi and B, V. P. - 2022 - A novel hybrid optimization model for intrusion detection system in software defined networks.pdf",
+				"files": [
+					{
+						"path": "attachments/AF/AFIXHNNS/Sankarapu, Sanyasi and B, V. P. - 2022 - A novel hybrid optimization model for intrusion detection system in software defined networks.pdf",
+						"size": 1713514,
+						"storage": "git"
+					}
+				],
+				"key": "AFIXHNNS",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4313425355.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -64,8 +97,8 @@
 		],
 		"date": "2022",
 		"dateAdded": "2026-02-25T21:46:26Z",
-		"dateModified": "2026-11-13T19:29:17Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:48:48Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W4313425355",
 		"itemType": "journalArticle",
 		"key": "DXPSZMVA",
 		"relations": {

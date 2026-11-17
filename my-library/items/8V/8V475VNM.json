@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:49:02Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:49:01Z",
+			"dateModified": "2026-11-17T17:49:02Z",
+			"filename": "Zhang et al. - 2023 - A survey on large language models for recommendation.pdf",
+			"itemType": "attachment",
+			"key": "H6JG8ZSP",
+			"linkMode": "imported_file",
+			"parentItem": "8V475VNM",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4386728881.pdf"
+		},
+		{
 			"accessDate": "2026-01-08T20:32:22Z",
 			"charset": "",
 			"contentType": "",
@@ -19,6 +35,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zhang et al. - 2023 - A survey on large language models for recommendation.pdf",
+				"files": [
+					{
+						"path": "attachments/H6/H6JG8ZSP/Zhang et al. - 2023 - A survey on large language models for recommendation.pdf",
+						"size": 383115,
+						"storage": "git"
+					}
+				],
+				"key": "H6JG8ZSP",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4386728881.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -96,7 +129,8 @@
 		],
 		"date": "2023",
 		"dateAdded": "2026-01-08T20:10:55Z",
-		"dateModified": "2026-11-13T19:30:12Z",
+		"dateModified": "2026-11-17T17:49:02Z",
+		"extra": "OpenAlex: W4386728881",
 		"itemType": "journalArticle",
 		"key": "8V475VNM",
 		"language": "fr-CA",

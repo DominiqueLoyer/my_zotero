@@ -22,12 +22,16 @@ zotero-key: "X2LJ62X4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/X2LJ62X4"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-03-25 21:31:06"
+date-modified: "2026-11-17 17:49:21"
 ---
 
 # Advances in Collaborative Filtering
 
 **Koren, Yehuda; Bell, Robert; Ricci, Francesco; Rokach, Lior; Shapira, Bracha; Kantor, Paul B.**
+
+## Extra
+
+OpenAlex: W2165949563
 
 ## Attachments
 

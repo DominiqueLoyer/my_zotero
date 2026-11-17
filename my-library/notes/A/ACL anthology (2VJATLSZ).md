@@ -15,7 +15,7 @@ zotero-key: "2VJATLSZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2VJATLSZ"
 date-added: "2025-04-10 15:02:46"
-date-modified: "2026-11-13 19:30:35"
+date-modified: "2026-11-17 17:49:17"
 ---
 
 # ACL anthology
@@ -26,6 +26,7 @@ date-modified: "2026-11-13 19:30:35"
 
 tex.date-added: 2025-04-10 09:48:04 -0400
 tex.date-modified: 2025-04-10 09:48:04 -0400
+OpenAlex: W7118841786
 
 ## Notes
 

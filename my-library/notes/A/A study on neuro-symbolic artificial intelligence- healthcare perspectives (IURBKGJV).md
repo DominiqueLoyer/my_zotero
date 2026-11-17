@@ -14,7 +14,7 @@ zotero-key: "IURBKGJV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IURBKGJV"
 date-added: "2026-03-08 21:23:42"
-date-modified: "2026-11-13 19:29:50"
+date-modified: "2026-11-17 17:48:56"
 ---
 
 # A study on neuro-symbolic artificial intelligence: healthcare perspectives
@@ -25,6 +25,7 @@ date-modified: "2026-11-13 19:29:50"
 
 Importé via SysCRED.
 DOI Fix previous DOI: 10.1016/c2023-0-51972-x
+OpenAlex: W4413423647
 
 ## Attachments
 

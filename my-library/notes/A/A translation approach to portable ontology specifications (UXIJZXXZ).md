@@ -14,7 +14,7 @@ zotero-key: "UXIJZXXZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UXIJZXXZ"
 date-added: "2026-03-04 19:43:25"
-date-modified: "2026-11-09 15:06:56"
+date-modified: "2026-11-17 17:49:06"
 ---
 
 # A translation approach to portable ontology specifications
@@ -24,6 +24,7 @@ date-modified: "2026-11-09 15:06:56"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2137079713
 
 ## Attachments
 

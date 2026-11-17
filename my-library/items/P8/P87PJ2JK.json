@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:49:11Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:49:11Z",
+			"dateModified": "2026-11-17T17:49:11Z",
+			"filename": "Bunel et al. - 2018 - A unified view of piecewise linear neural network verification.pdf",
+			"itemType": "attachment",
+			"key": "4RS8S6GF",
+			"linkMode": "imported_url",
+			"parentItem": "P87PJ2JK",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://ora.ox.ac.uk/objects/uuid:a054ab82-367c-48e3-8e04-a55059ece544/files/m08b740a206ba80f387857db077c70908"
+		},
+		{
 			"accessDate": "2025-12-05T22:36:29Z",
 			"charset": "",
 			"contentType": "",
@@ -26,6 +42,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Bunel et al. - 2018 - A unified view of piecewise linear neural network verification.pdf",
+				"files": [
+					{
+						"path": "attachments/4R/4RS8S6GF/Bunel et al. - 2018 - A unified view of piecewise linear neural network verification.pdf",
+						"size": 532361,
+						"storage": "git"
+					}
+				],
+				"key": "4RS8S6GF",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://ora.ox.ac.uk/objects/uuid:a054ab82-367c-48e3-8e04-a55059ece544/files/m08b740a206ba80f387857db077c70908"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -94,7 +127,8 @@
 		],
 		"date": "2018",
 		"dateAdded": "2025-10-10T19:01:25Z",
-		"dateModified": "2026-11-13T19:30:32Z",
+		"dateModified": "2026-11-17T17:49:11Z",
+		"extra": "OpenAlex: W2801079363",
 		"itemType": "conferencePaper",
 		"key": "P87PJ2JK",
 		"pages": "4795–4804",

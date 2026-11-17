@@ -15,7 +15,7 @@ zotero-key: "D2JTJ3SS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/D2JTJ3SS"
 date-added: "2026-02-25 21:37:18"
-date-modified: "2026-11-13 19:29:27"
+date-modified: "2026-11-17 17:48:50"
 ---
 
 # A Practical Guide to Algorithmic Auditing
@@ -25,6 +25,7 @@ date-modified: "2026-11-13 19:29:27"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1487809990
 
 ## Attachments
 
