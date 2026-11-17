@@ -1,5 +1,5 @@
 # Zotero Library
-
+![Zotero](https://img.shields.io/badge/Zotero-CC2936?style=flat&logo=zotero&logoColor=white)
 This directory is written by the [Zotero GitHub Sync](https://github.com/situkangsayur/zotero-github-plugin) plugin. Edits made here are not read back into Zotero unless you run **Import from GitHub**.
 
 ## Libraries
