@@ -1,7 +1,42 @@
 {
-	"children": [],
+	"children": [
+		{
+			"accessDate": "2026-11-17T18:01:03Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:01:02Z",
+			"dateModified": "2026-11-17T18:01:03Z",
+			"filename": "Loyer, Dominique S. - 2023 - Project 1 modeling a system allowing for the explainability of information sources.pdf",
+			"itemType": "attachment",
+			"key": "2WIHYKWR",
+			"linkMode": "imported_file",
+			"parentItem": "CTTIHS5V",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4384643616.pdf"
+		}
+	],
 	"meta": {
-		"attachments": [],
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer, Dominique S. - 2023 - Project 1 modeling a system allowing for the explainability of information sources.pdf",
+				"files": [
+					{
+						"path": "attachments/2W/2WIHYKWR/Loyer, Dominique S. - 2023 - Project 1 modeling a system allowing for the explainability of information sources.pdf",
+						"size": 783580,
+						"storage": "git"
+					}
+				],
+				"key": "2WIHYKWR",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4384643616.pdf"
+			}
+		],
 		"collections": [],
 		"creators": [
 			"Loyer, Dominique S."
@@ -26,8 +61,8 @@
 		],
 		"date": "2023",
 		"dateAdded": "2026-04-24T21:26:52Z",
-		"dateModified": "2026-06-16T20:30:07Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T18:01:03Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W4384643616",
 		"itemType": "journalArticle",
 		"key": "CTTIHS5V",
 		"relations": {},

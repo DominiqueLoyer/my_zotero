@@ -15,7 +15,7 @@ zotero-key: "55VRJTE6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/55VRJTE6"
 date-added: "2026-03-03 23:14:49"
-date-modified: "2026-11-09 14:58:01"
+date-modified: "2026-11-17 18:00:44"
 ---
 
 # OWL 2 Web Ontology Language Document Overview (Second Edition)
@@ -25,6 +25,7 @@ date-modified: "2026-11-09 14:58:01"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1502280640
 
 ## Attachments
 

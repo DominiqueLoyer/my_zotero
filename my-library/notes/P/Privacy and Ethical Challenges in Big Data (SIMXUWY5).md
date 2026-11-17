@@ -26,7 +26,7 @@ zotero-key: "SIMXUWY5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SIMXUWY5"
 date-added: "2024-11-23 17:49:56"
-date-modified: "2025-12-05 22:34:30"
+date-modified: "2026-11-17 18:00:58"
 ---
 
 # Privacy and Ethical Challenges in Big Data
@@ -36,6 +36,7 @@ date-modified: "2025-12-05 22:34:30"
 ## Extra
 
 Series Title: Lecture Notes in Computer Science
+OpenAlex: W2943447671
 
 ## Attachments
 

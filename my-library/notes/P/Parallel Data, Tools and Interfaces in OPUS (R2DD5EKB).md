@@ -14,7 +14,7 @@ zotero-key: "R2DD5EKB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/R2DD5EKB"
 date-added: "2026-03-05 00:54:51"
-date-modified: "2026-03-25 21:29:00"
+date-modified: "2026-11-17 18:00:47"
 ---
 
 # Parallel Data, Tools and Interfaces in OPUS
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:00"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W635530177
 
 ## Attachments
 

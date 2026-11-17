@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T18:00:41Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:00:41Z",
+			"dateModified": "2026-11-17T18:00:41Z",
+			"filename": "Donna K. Harman - 1994 - Overview of the Third Text REtrieval Conference (TREC-3).pdf",
+			"itemType": "attachment",
+			"key": "29CQ585W",
+			"linkMode": "imported_url",
+			"parentItem": "S5IF7RVF",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-225.pdf"
+		},
+		{
 			"accessDate": "2026-03-09T20:37:22Z",
 			"charset": "",
 			"contentType": "",
@@ -19,6 +35,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Donna K. Harman - 1994 - Overview of the Third Text REtrieval Conference (TREC-3).pdf",
+				"files": [
+					{
+						"path": "attachments/29/29CQ585W/Donna K. Harman - 1994 - Overview of the Third Text REtrieval Conference (TREC-3).pdf",
+						"size": 34062000,
+						"storage": "git"
+					}
+				],
+				"key": "29CQ585W",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-225.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -55,8 +88,8 @@
 		],
 		"date": "1994",
 		"dateAdded": "2026-03-03T23:33:59Z",
-		"dateModified": "2026-03-25T21:29:14Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T18:00:41Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W2887107689",
 		"itemType": "journalArticle",
 		"key": "S5IF7RVF",
 		"relations": {},

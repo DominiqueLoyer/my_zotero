@@ -12,7 +12,7 @@ zotero-key: "FVS5JS7T"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FVS5JS7T"
 date-added: "2026-03-03 23:14:44"
-date-modified: "2026-03-25 21:29:26"
+date-modified: "2026-11-17 18:01:05"
 ---
 
 # Rapport: Ontologie du Domaine du Financement Public de la Recherche
@@ -22,6 +22,7 @@ date-modified: "2026-03-25 21:29:26"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4248570414
 
 ## Attachments
 

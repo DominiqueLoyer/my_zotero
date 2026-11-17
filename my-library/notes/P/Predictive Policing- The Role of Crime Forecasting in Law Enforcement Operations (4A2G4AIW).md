@@ -14,7 +14,7 @@ zotero-key: "4A2G4AIW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4A2G4AIW"
 date-added: "2026-02-25 21:43:43"
-date-modified: "2026-03-25 21:29:39"
+date-modified: "2026-11-17 18:00:56"
 ---
 
 # Predictive Policing: The Role of Crime Forecasting in Law Enforcement Operations
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:39"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2791059564
 
 ## Attachments
 

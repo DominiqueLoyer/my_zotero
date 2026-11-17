@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T18:00:46Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:00:46Z",
+			"dateModified": "2026-11-17T18:00:46Z",
+			"filename": "Barrault, Lo{i}c and Etchegoyhen, Thomas and Bougares, Pascale and Cartoni, Benjamin and Maillard, Laurent and Carr{'e}, Julien and Bordes, Samuel and Scarton, Carolina and Tannier, Xavier and Gu{'e}rin, La.pdf",
+			"itemType": "attachment",
+			"key": "9JMBL3JP",
+			"linkMode": "imported_file",
+			"parentItem": "6ZXCTNIH",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W3035016936.pdf"
+		},
+		{
 			"accessDate": "2026-03-09T20:34:49Z",
 			"charset": "",
 			"contentType": "",
@@ -19,6 +35,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Barrault, Lo{i}c and Etchegoyhen, Thomas and Bougares, Pascale and Cartoni, Benjamin and Maillard, Laurent and Carr{'e}, Julien and Bordes, Samuel and Scarton, Carolina and Tannier, Xavier and Gu{'e}rin, La.pdf",
+				"files": [
+					{
+						"path": "attachments/9J/9JMBL3JP/Barrault, Lo{i}c and Etchegoyhen, Thomas and Bougares, Pascale and Cartoni, Benjamin and Maillard, Laurent and Carr{'e}, Julien and Bordes, Samuel and Scarton, Carolina and Tannier, Xavier and Gu{'e}rin, La.pdf",
+						"size": 618033,
+						"storage": "git"
+					}
+				],
+				"key": "9JMBL3JP",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W3035016936.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -59,8 +92,8 @@
 		],
 		"date": "2020",
 		"dateAdded": "2026-03-05T00:55:38Z",
-		"dateModified": "2026-03-25T21:28:59Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T18:00:46Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W3035016936",
 		"itemType": "journalArticle",
 		"key": "6ZXCTNIH",
 		"relations": {},

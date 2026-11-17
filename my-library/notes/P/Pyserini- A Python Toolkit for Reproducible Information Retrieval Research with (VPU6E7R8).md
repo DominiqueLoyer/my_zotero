@@ -13,7 +13,7 @@ zotero-key: "VPU6E7R8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VPU6E7R8"
 date-added: "2026-03-03 23:32:50"
-date-modified: "2026-03-25 21:29:15"
+date-modified: "2026-11-17 18:01:04"
 ---
 
 # Pyserini: A Python Toolkit for Reproducible Information Retrieval Research with Sparse and Dense Representations
@@ -23,6 +23,7 @@ date-modified: "2026-03-25 21:29:15"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3180230246
 
 ## Attachments
 

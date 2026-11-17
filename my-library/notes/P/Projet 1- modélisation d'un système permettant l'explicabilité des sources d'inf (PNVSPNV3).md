@@ -12,7 +12,7 @@ zotero-key: "PNVSPNV3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PNVSPNV3"
 date-added: "2026-03-03 23:14:40"
-date-modified: "2026-03-25 21:29:26"
+date-modified: "2026-11-17 18:01:04"
 ---
 
 # Projet 1: modélisation d'un système permettant l'explicabilité des sources d'information
@@ -22,6 +22,7 @@ date-modified: "2026-03-25 21:29:26"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2044651539
 
 ## Attachments
 

@@ -20,7 +20,7 @@ zotero-key: "UG43V6HQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UG43V6HQ"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-04-17 20:25:53"
+date-modified: "2026-11-17 18:00:49"
 ---
 
 # Plateforme de diffusion de contenu de l'institut des sciences cognitives de l'UQAM
@@ -30,6 +30,10 @@ date-modified: "2026-04-17 20:25:53"
 ## Abstract
 
 https://plateforme-isc.uqam.ca
+
+## Extra
+
+OpenAlex: W7139964866
 
 ---
 

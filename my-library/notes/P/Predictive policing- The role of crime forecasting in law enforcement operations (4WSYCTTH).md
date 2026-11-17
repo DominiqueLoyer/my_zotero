@@ -19,12 +19,16 @@ zotero-key: "4WSYCTTH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4WSYCTTH"
 date-added: "2026-01-08 20:10:54"
-date-modified: "2026-03-25 21:30:23"
+date-modified: "2026-11-17 18:00:55"
 ---
 
 # Predictive policing: The role of crime forecasting in law enforcement operations
 
 **Perry, Walter L.; McInnis, Brian; Price, Carter C.; Smith, Susan; Hollywood, John S.**
+
+## Extra
+
+OpenAlex: W2791059564
 
 ## Attachments
 
