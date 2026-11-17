@@ -15,7 +15,7 @@ zotero-key: "Q78GVUZU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Q78GVUZU"
 date-added: "2026-02-25 21:41:15"
-date-modified: "2026-03-25 21:29:42"
+date-modified: "2026-11-17 18:05:28"
 ---
 
 # The Human Problems of an Industrial Civilization
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:29:42"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4301015932
 
 ## Attachments
 

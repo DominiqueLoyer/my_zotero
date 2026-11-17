@@ -16,12 +16,16 @@ zotero-key: "RTKNMYR2"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RTKNMYR2"
 date-added: "2026-01-08 20:07:32"
-date-modified: "2026-03-25 21:30:36"
+date-modified: "2026-11-17 18:05:24"
 ---
 
 # The human problems of an industrial civilization
 
 **Mayo, Elton**
+
+## Extra
+
+OpenAlex: W1519721807
 
 ## Attachments
 
