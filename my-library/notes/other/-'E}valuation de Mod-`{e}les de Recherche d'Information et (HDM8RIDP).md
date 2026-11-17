@@ -15,7 +15,7 @@ zotero-key: "HDM8RIDP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/HDM8RIDP"
 date-added: "2026-03-04 20:27:48"
-date-modified: "2026-03-25 21:29:02"
+date-modified: "2026-11-17 17:52:24"
 ---
 
 # \'E}valuation de Mod\`{e}les de Recherche d'Information et
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:29:02"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4399822928
 
 ## Attachments
 

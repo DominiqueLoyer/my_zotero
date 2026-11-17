@@ -15,7 +15,7 @@ zotero-key: "Q265HJCM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Q265HJCM"
 date-added: "2026-03-04 20:28:05"
-date-modified: "2026-03-25 21:29:02"
+date-modified: "2026-11-17 17:52:24"
 ---
 
 # \'E}valuation de mod\`{e}les de pond\'{e}ration pour la recherche
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:29:02"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2317589897
 
 ## Attachments
 

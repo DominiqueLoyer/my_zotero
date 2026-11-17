@@ -21,12 +21,16 @@ zotero-key: "PYE4RIF9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PYE4RIF9"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-03-25 21:31:08"
+date-modified: "2026-11-17 17:52:36"
 ---
 
 # Evaluating collaborative filtering recommender systems
 
 **Herlocker, Jonathan L.; Konstan, Joseph A.; Terveen, Loren G.; Riedl, John T.**
+
+## Extra
+
+OpenAlex: W1971040550
 
 ## Attachments
 

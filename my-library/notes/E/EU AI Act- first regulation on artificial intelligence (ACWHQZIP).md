@@ -14,7 +14,7 @@ zotero-key: "ACWHQZIP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ACWHQZIP"
 date-added: "2026-02-25 21:36:27"
-date-modified: "2026-03-25 21:29:49"
+date-modified: "2026-11-17 17:52:32"
 ---
 
 # EU AI Act: first regulation on artificial intelligence
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:49"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4386596155
 
 ## Attachments
 

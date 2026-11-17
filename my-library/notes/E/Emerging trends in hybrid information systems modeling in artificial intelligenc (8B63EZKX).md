@@ -14,7 +14,7 @@ zotero-key: "8B63EZKX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8B63EZKX"
 date-added: "2026-03-08 21:25:06"
-date-modified: "2026-03-25 21:28:45"
+date-modified: "2026-11-17 17:52:28"
 ---
 
 # Emerging trends in hybrid information systems modeling in artificial intelligence
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:45"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4400463486
 
 ## Attachments
 

@@ -14,7 +14,7 @@ zotero-key: "72S4GSPH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/72S4GSPH"
 date-added: "2026-02-25 21:38:06"
-date-modified: "2026-03-25 21:29:46"
+date-modified: "2026-11-17 17:52:40"
 ---
 
 # Evaluating collaborative filtering recommender systems
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:46"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1971040550
 
 ## Attachments
 

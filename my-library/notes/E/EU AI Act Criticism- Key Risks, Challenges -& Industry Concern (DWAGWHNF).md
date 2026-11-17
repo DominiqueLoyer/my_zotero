@@ -14,7 +14,7 @@ zotero-key: "DWAGWHNF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DWAGWHNF"
 date-added: "2026-02-25 21:51:16"
-date-modified: "2026-03-25 21:29:36"
+date-modified: "2026-11-17 17:52:31"
 ---
 
 # EU AI Act Criticism: Key Risks, Challenges \& Industry Concern
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:36"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4398777439
 
 ## Attachments
 

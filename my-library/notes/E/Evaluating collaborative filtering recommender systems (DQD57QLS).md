@@ -20,7 +20,7 @@ zotero-key: "DQD57QLS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DQD57QLS"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-03-25 21:30:20"
+date-modified: "2026-11-17 17:52:39"
 ---
 
 # Evaluating collaborative filtering recommender systems
@@ -30,6 +30,7 @@ date-modified: "2026-03-25 21:30:20"
 ## Extra
 
 Number: 1
+OpenAlex: W1971040550
 
 ## Attachments
 

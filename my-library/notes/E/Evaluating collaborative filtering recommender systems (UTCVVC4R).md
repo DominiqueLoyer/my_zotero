@@ -22,12 +22,16 @@ zotero-key: "UTCVVC4R"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UTCVVC4R"
 date-added: "2026-01-08 20:07:31"
-date-modified: "2026-03-25 21:30:40"
+date-modified: "2026-11-17 17:52:37"
 ---
 
 # Evaluating collaborative filtering recommender systems
 
 **Herlocker, Jonathan L.; Konstan, Joseph A.; Terveen, Loren G.; Riedl, John T.**
+
+## Extra
+
+OpenAlex: W1971040550
 
 ## Attachments
 

@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Barbagallo-Ettore-and-Gadek-Guillaume-and-Faye-G-e-raud-and-Khairova-Nina-and-Arora-Chirag-an-4129fa248c57815f8ed1e0146637d133"
+		},
+		{
+			"accessDate": "2026-11-17T17:52:31Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:52:30Z",
+			"dateModified": "2026-11-17T17:52:31Z",
+			"filename": "Barbagallo, Ettore and Gadek, Guillaume and Faye, G{'e}raud and Khairova, Nina and Arora, Chirag and Thilakarathne, Dilhan and Joisten, Karen and Teixeira, S{'o}nia and Dur{'a}n, Juan M and Barrantes, Manue.pdf",
+			"itemType": "attachment",
+			"key": "B338I7GJ",
+			"linkMode": "imported_file",
+			"parentItem": "ABUX5KJC",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W7128523205.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Barbagallo, Ettore and Gadek, Guillaume and Faye, G{'e}raud and Khairova, Nina and Arora, Chirag and Thilakarathne, Dilhan and Joisten, Karen and Teixeira, S{'o}nia and Dur{'a}n, Juan M and Barrantes, Manue.pdf",
+				"files": [
+					{
+						"path": "attachments/B3/B338I7GJ/Barbagallo, Ettore and Gadek, Guillaume and Faye, G{'e}raud and Khairova, Nina and Arora, Chirag and Thilakarathne, Dilhan and Joisten, Karen and Teixeira, S{'o}nia and Dur{'a}n, Juan M and Barrantes, Manue.pdf",
+						"size": 1539085,
+						"storage": "git"
+					}
+				],
+				"key": "B338I7GJ",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W7128523205.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -59,8 +92,8 @@
 		],
 		"date": "2026",
 		"dateAdded": "2026-03-08T21:26:21Z",
-		"dateModified": "2026-03-25T21:28:44Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:52:31Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W7128523205",
 		"itemType": "journalArticle",
 		"key": "ABUX5KJC",
 		"relations": {},

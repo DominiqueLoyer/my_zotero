@@ -16,12 +16,16 @@ zotero-key: "RNBVB5DA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RNBVB5DA"
 date-added: "2025-10-10 19:01:29"
-date-modified: "2026-11-09 15:03:29"
+date-modified: "2026-11-17 17:52:25"
 ---
 
 # Economy and Society: An Outline of Interpretive Sociology
 
 **Weber, Max**
+
+## Extra
+
+OpenAlex: W2049812561
 
 ## Notes
 

@@ -14,7 +14,7 @@ zotero-key: "VWA4C3D2"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VWA4C3D2"
 date-added: "2026-02-25 21:42:50"
-date-modified: "2026-03-25 21:29:40"
+date-modified: "2026-11-17 17:52:27"
 ---
 
 # Embedding-based News Recommendation for Millions of Users
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:40"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2742272831
 
 ## Attachments
 

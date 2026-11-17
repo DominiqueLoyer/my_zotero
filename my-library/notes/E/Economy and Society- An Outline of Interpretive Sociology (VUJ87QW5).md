@@ -14,7 +14,7 @@ zotero-key: "VUJ87QW5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VUJ87QW5"
 date-added: "2026-02-25 21:56:42"
-date-modified: "2026-11-09 15:08:08"
+date-modified: "2026-11-17 17:52:26"
 ---
 
 # Economy and Society: An Outline of Interpretive Sociology
@@ -24,6 +24,7 @@ date-modified: "2026-11-09 15:08:08"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2165468268
 
 ## Attachments
 

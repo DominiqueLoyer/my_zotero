@@ -21,12 +21,16 @@ zotero-key: "KIXGAUXL"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KIXGAUXL"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-09 15:03:42"
+date-modified: "2026-11-17 17:52:27"
 ---
 
 # Embedding-based News Recommendation for Millions of Users
 
 **Okura, Shumpei; Tagami, Yuki; Ono, Shota; Tajima, Akira**
+
+## Extra
+
+OpenAlex: W2605225344
 
 ## Attachments
 

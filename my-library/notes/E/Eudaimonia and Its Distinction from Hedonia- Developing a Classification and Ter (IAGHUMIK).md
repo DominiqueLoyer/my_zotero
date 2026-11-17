@@ -20,12 +20,16 @@ zotero-key: "IAGHUMIK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IAGHUMIK"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-09 15:08:13"
+date-modified: "2026-11-17 17:52:35"
 ---
 
 # Eudaimonia and Its Distinction from Hedonia: Developing a Classification and Terminology for Understanding Conceptual and Operational Definitions
 
 **Huta, Veronika; Waterman, Alan S.**
+
+## Extra
+
+OpenAlex: W1988048929
 
 ## Attachments
 
