@@ -14,7 +14,7 @@ zotero-key: "TK7JN5WP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TK7JN5WP"
 date-added: "2026-02-25 21:58:53"
-date-modified: "2026-03-25 21:29:33"
+date-modified: "2026-11-17 17:51:39"
 ---
 
 # Deep learning based recommender system: A survey and new perspectives
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:33"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4236294630
 
 ## Attachments
 

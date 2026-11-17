@@ -14,7 +14,7 @@ zotero-key: "RBCB8VKF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RBCB8VKF"
 date-added: "2026-02-26 20:20:47"
-date-modified: "2026-03-25 21:29:28"
+date-modified: "2026-11-17 17:51:57"
 ---
 
 # Detecting Media Bias using Gaussian Mixture Models: An Unsupervised Approach
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:28"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2944083954
 
 ## Attachments
 

@@ -18,7 +18,7 @@ zotero-key: "IBVRPUN4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IBVRPUN4"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-08 16:12:21"
+date-modified: "2026-11-17 17:52:22"
 ---
 
 # DominiqueLoyer/Various_Projects_IN_R: 1stRelease
@@ -28,6 +28,10 @@ date-modified: "2026-11-08 16:12:21"
 ## Abstract
 
 Various projects I have done over the Years in R Full Changelog: https://github.com/DominiqueLoyer/Various_Projects_IN_R/commits/v1.0.0
+
+## Extra
+
+OpenAlex: W7115560854
 
 ## Attachments
 

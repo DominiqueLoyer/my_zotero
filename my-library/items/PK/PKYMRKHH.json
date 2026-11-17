@@ -19,10 +19,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Covington-et-al-2016-4129fa248c5781d59171f69ca4fa07ff"
+		},
+		{
+			"accessDate": "2026-11-17T17:51:40Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:51:40Z",
+			"dateModified": "2026-11-17T17:51:40Z",
+			"filename": "Covington et al. - 2016 - Deep neural networks for YouTube recommendations.pdf",
+			"itemType": "attachment",
+			"key": "MEE22N65",
+			"linkMode": "imported_file",
+			"parentItem": "PKYMRKHH",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W2512971201.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Covington et al. - 2016 - Deep neural networks for YouTube recommendations.pdf",
+				"files": [
+					{
+						"path": "attachments/ME/MEE22N65/Covington et al. - 2016 - Deep neural networks for YouTube recommendations.pdf",
+						"size": 1218100,
+						"storage": "git"
+					}
+				],
+				"key": "MEE22N65",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W2512971201.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -53,7 +86,7 @@
 	},
 	"zotero": {
 		"DOI": "10.1145/2959100.2959190",
-		"citationKey": "covingtonDeepNeuralNetworks2016a",
+		"citationKey": "covingtonDeepNeuralNetworks2016c",
 		"collections": [
 			"F9TGXIMY"
 		],
@@ -76,7 +109,8 @@
 		],
 		"date": "2016",
 		"dateAdded": "2026-01-08T20:07:30Z",
-		"dateModified": "2026-03-25T21:30:44Z",
+		"dateModified": "2026-11-17T17:51:40Z",
+		"extra": "OpenAlex: W2512971201",
 		"itemType": "conferencePaper",
 		"key": "PKYMRKHH",
 		"language": "fr-CA",

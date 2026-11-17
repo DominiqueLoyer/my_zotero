@@ -14,7 +14,7 @@ zotero-key: "T5XDDCFE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/T5XDDCFE"
 date-added: "2026-02-25 21:35:37"
-date-modified: "2026-03-25 21:29:50"
+date-modified: "2026-11-17 17:52:08"
 ---
 
 # Discours de la méthode pour bien conduire sa raison et chercher la vérité dans les sciences
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:50"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3112759519
 
 ## Attachments
 

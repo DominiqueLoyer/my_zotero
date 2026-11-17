@@ -18,7 +18,7 @@ zotero-key: "FBVZAK8U"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FBVZAK8U"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-08 16:12:17"
+date-modified: "2026-11-17 17:52:10"
 ---
 
 # DominiqueLoyer/2016_US_Election: 1STREALEASE
@@ -28,6 +28,10 @@ date-modified: "2026-11-08 16:12:17"
 ## Abstract
 
 2016 US ELECTION PREDICTION IN R with sentiment analysis Full Changelog: https://github.com/DominiqueLoyer/2016_US_Election/commits/v1.0.0
+
+## Extra
+
+OpenAlex: W7115580461
 
 ## Attachments
 

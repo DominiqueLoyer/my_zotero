@@ -12,7 +12,7 @@ zotero-key: "D2ZZX5KD"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/D2ZZX5KD"
 date-added: "2025-03-30 18:53:56"
-date-modified: "2025-12-05 22:35:34"
+date-modified: "2026-11-17 17:51:48"
 ---
 
 # DeepSeek
@@ -20,6 +20,10 @@ date-modified: "2025-12-05 22:35:34"
 ## Abstract
 
 Chat with DeepSeek AI.
+
+## Extra
+
+OpenAlex: W7126492586
 
 ## Attachments
 

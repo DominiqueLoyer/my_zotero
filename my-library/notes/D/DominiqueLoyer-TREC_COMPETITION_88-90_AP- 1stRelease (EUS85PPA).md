@@ -21,7 +21,7 @@ zotero-key: "EUS85PPA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EUS85PPA"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-08 16:12:21"
+date-modified: "2026-11-17 17:52:21"
 ---
 
 # DominiqueLoyer/TREC_COMPETITION_88-90_AP: 1stRelease
@@ -31,6 +31,10 @@ date-modified: "2026-11-08 16:12:21"
 ## Abstract
 
 TREC COMPETITION WITH PRETTY GOOD PERFORMANCE METRICS OF THE INFORMATION RETRIVAL Full Changelog: https://github.com/DominiqueLoyer/TREC_COMPETITION_88-90_AP/commits/v1.0.0 | Field | Valeur ||---|---|| Identifier | `10.5281/zenodo.18191784` || Relation | `Is new version of` || Resource type | `SOFTWARE` |
+
+## Extra
+
+OpenAlex: W7115580706
 
 ## Attachments
 

@@ -19,7 +19,7 @@ zotero-key: "ID4HLX8H"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ID4HLX8H"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-08 16:12:19"
+date-modified: "2026-11-17 17:52:19"
 ---
 
 # DominiqueLoyer/project5: Initial release
@@ -29,6 +29,10 @@ date-modified: "2026-11-08 16:12:19"
 ## Abstract
 
 “This record is an earlier or experimental version. Please use 10.5281/zenodo.17943728 as the primary, citable release of this project.” Generating DOI with ZENODO on my GITHUB Projects. Full Changelog: https://github.com/DominiqueLoyer/project5/commits/v1.0.0
+
+## Extra
+
+OpenAlex: W7115065404
 
 ## Attachments
 

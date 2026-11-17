@@ -17,7 +17,7 @@ zotero-key: "ELKZXIS8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ELKZXIS8"
 date-added: "2026-01-08 20:14:06"
-date-modified: "2026-03-25 21:30:01"
+date-modified: "2026-11-17 17:51:56"
 ---
 
 # Detecting and defending against third-party tracking on the web
@@ -27,6 +27,10 @@ date-modified: "2026-03-25 21:30:01"
 ## Abstract
 
 While third-party tracking on the web has garnered much attention, its workings remain poorly understood. Our goal is to dissect how mainstream web tracking occurs in the wild. We develop a client-side method for detecting and classifying five kinds of third-party trackers based on how they manipulate browser state. We run our detection system while browsing the web and observe a rich ecosystem, with over 500 unique trackers in our measurements alone. We find that most commercial pages are tracked by multiple parties, trackers vary widely in their coverage with a small number being widely deployed, and many trackers exhibit a combination of tracking behaviors. Based on web search traces taken from AOL data, we estimate that several trackers can each capture more than 20
+
+## Extra
+
+OpenAlex: W2099474262
 
 ## Attachments
 

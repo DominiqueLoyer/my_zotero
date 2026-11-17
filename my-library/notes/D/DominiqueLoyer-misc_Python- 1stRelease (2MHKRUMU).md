@@ -16,7 +16,7 @@ zotero-key: "2MHKRUMU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2MHKRUMU"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-08 16:12:17"
+date-modified: "2026-11-17 17:52:12"
 ---
 
 # DominiqueLoyer/misc_Python: 1stRelease
@@ -26,6 +26,10 @@ date-modified: "2026-11-08 16:12:17"
 ## Abstract
 
 Various projects in Python over the Years. Disclaimer: Use with caution at your own risk Full Changelog: https://github.com/DominiqueLoyer/misc_Python/commits/v1.0.0
+
+## Extra
+
+OpenAlex: W7115597938
 
 ## Attachments
 

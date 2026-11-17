@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:51:46Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:51:46Z",
+			"dateModified": "2026-11-17T17:51:46Z",
+			"filename": "Guo et al. - 2017 - DeepFM a factorization-machine based neural network for CTR prediction.pdf",
+			"itemType": "attachment",
+			"key": "9669Y9J6",
+			"linkMode": "imported_url",
+			"parentItem": "67DZ7UFL",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://www.ijcai.org/proceedings/2017/0239.pdf"
+		},
+		{
 			"accessDate": "2026-01-08T20:33:31Z",
 			"charset": "",
 			"contentType": "",
@@ -19,6 +35,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Guo et al. - 2017 - DeepFM a factorization-machine based neural network for CTR prediction.pdf",
+				"files": [
+					{
+						"path": "attachments/96/9669Y9J6/Guo et al. - 2017 - DeepFM a factorization-machine based neural network for CTR prediction.pdf",
+						"size": 833960,
+						"storage": "git"
+					}
+				],
+				"key": "9669Y9J6",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://www.ijcai.org/proceedings/2017/0239.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -50,7 +83,7 @@
 		"zoteroURI": "zotero://select/library/items/67DZ7UFL"
 	},
 	"zotero": {
-		"citationKey": "guoDeepFMFactorizationmachineBased2017b",
+		"citationKey": "guoDeepFMFactorizationmachineBased2017c",
 		"collections": [
 			"7PN5IQY2"
 		],
@@ -83,7 +116,8 @@
 		],
 		"date": "2017",
 		"dateAdded": "2026-01-08T20:10:55Z",
-		"dateModified": "2026-03-25T21:30:20Z",
+		"dateModified": "2026-11-17T17:51:46Z",
+		"extra": "OpenAlex: W2604662567",
 		"itemType": "conferencePaper",
 		"key": "67DZ7UFL",
 		"language": "fr-CA",

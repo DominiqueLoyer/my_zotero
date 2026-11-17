@@ -25,10 +25,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Universit-de-Montr-al-2018-4129fa248c5781d8a52bc4cfbed3618b"
+		},
+		{
+			"accessDate": "2026-11-17T17:51:31Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:51:31Z",
+			"dateModified": "2026-11-17T17:51:31Z",
+			"filename": "Université de Montréal - 2018 - Déclaration de Montréal pour un développement responsable de l'intelligence artificielle.pdf",
+			"itemType": "attachment",
+			"key": "ZN27EI37",
+			"linkMode": "imported_url",
+			"parentItem": "R9HHIPM6",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://umontreal.scholaris.ca/bitstreams/70b76429-3915-40e4-92c9-7217aff8e835/download"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Université de Montréal - 2018 - Déclaration de Montréal pour un développement responsable de l'intelligence artificielle.pdf",
+				"files": [
+					{
+						"path": "attachments/ZN/ZN27EI37/Université de Montréal - 2018 - Déclaration de Montréal pour un développement responsable de l'intelligence artificielle.pdf",
+						"size": 10556992,
+						"storage": "git"
+					}
+				],
+				"key": "ZN27EI37",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://umontreal.scholaris.ca/bitstreams/70b76429-3915-40e4-92c9-7217aff8e835/download"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -73,7 +106,8 @@
 		],
 		"date": "2018",
 		"dateAdded": "2025-10-10T19:01:27Z",
-		"dateModified": "2026-03-25T21:31:01Z",
+		"dateModified": "2026-11-17T17:51:31Z",
+		"extra": "OpenAlex: W7205242103",
 		"itemType": "document",
 		"key": "R9HHIPM6",
 		"relations": {},

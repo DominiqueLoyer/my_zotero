@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:51:34Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:51:34Z",
+			"dateModified": "2026-11-17T17:51:34Z",
+			"filename": "Université de Montréal - 2018 - Déclaration de Montréal pour un développement responsable de l'intelligence artificielle.pdf",
+			"itemType": "attachment",
+			"key": "6YQM6N3P",
+			"linkMode": "imported_url",
+			"parentItem": "QLQGLLA8",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://umontreal.scholaris.ca/bitstreams/70b76429-3915-40e4-92c9-7217aff8e835/download"
+		},
+		{
 			"accessDate": "2026-01-08T20:37:31Z",
 			"charset": "",
 			"contentType": "",
@@ -39,6 +55,23 @@
 		"attachments": [
 			{
 				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Université de Montréal - 2018 - Déclaration de Montréal pour un développement responsable de l'intelligence artificielle.pdf",
+				"files": [
+					{
+						"path": "attachments/6Y/6YQM6N3P/Université de Montréal - 2018 - Déclaration de Montréal pour un développement responsable de l'intelligence artificielle.pdf",
+						"size": 10556992,
+						"storage": "git"
+					}
+				],
+				"key": "6YQM6N3P",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://umontreal.scholaris.ca/bitstreams/70b76429-3915-40e4-92c9-7217aff8e835/download"
+			},
+			{
+				"annotationCount": 0,
 				"contentType": null,
 				"filename": null,
 				"files": [],
@@ -69,7 +102,7 @@
 		"zoteroURI": "zotero://select/library/items/QLQGLLA8"
 	},
 	"zotero": {
-		"citationKey": "universitedemontrealDeclarationMontrealPour2018a",
+		"citationKey": "universitedemontrealDeclarationMontrealPour2018c",
 		"collections": [
 			"F9TGXIMY"
 		],
@@ -81,7 +114,8 @@
 		],
 		"date": "2018",
 		"dateAdded": "2026-01-08T20:07:32Z",
-		"dateModified": "2026-03-25T21:30:34Z",
+		"dateModified": "2026-11-17T17:51:34Z",
+		"extra": "OpenAlex: W7205242103",
 		"itemType": "document",
 		"key": "QLQGLLA8",
 		"language": "fr-CA",

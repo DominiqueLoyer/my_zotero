@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Benbouzid-2017-4129fa248c57817590c1e34baa992f64"
+		},
+		{
+			"accessDate": "2026-11-17T17:51:53Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:51:52Z",
+			"dateModified": "2026-11-17T17:51:53Z",
+			"filename": "Benbouzid - 2017 - Des crimes et des séismes. la police prédictive entre science, technique et divination.pdf",
+			"itemType": "attachment",
+			"key": "WKFP5ZEY",
+			"linkMode": "imported_file",
+			"parentItem": "T474HNS7",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W2776205734.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Benbouzid - 2017 - Des crimes et des séismes. la police prédictive entre science, technique et divination.pdf",
+				"files": [
+					{
+						"path": "attachments/WK/WKFP5ZEY/Benbouzid - 2017 - Des crimes et des séismes. la police prédictive entre science, technique et divination.pdf",
+						"size": 2189125,
+						"storage": "git"
+					}
+				],
+				"key": "WKFP5ZEY",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W2776205734.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -59,7 +92,8 @@
 		],
 		"date": "2017",
 		"dateAdded": "2026-01-08T20:10:53Z",
-		"dateModified": "2026-03-25T21:30:26Z",
+		"dateModified": "2026-11-17T17:51:53Z",
+		"extra": "OpenAlex: W2776205734",
 		"issue": "6",
 		"itemType": "journalArticle",
 		"key": "T474HNS7",

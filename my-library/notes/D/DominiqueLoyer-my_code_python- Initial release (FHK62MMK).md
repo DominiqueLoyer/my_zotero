@@ -19,7 +19,7 @@ zotero-key: "FHK62MMK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FHK62MMK"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-08 16:12:18"
+date-modified: "2026-11-17 17:52:14"
 ---
 
 # DominiqueLoyer/my_code_python: Initial release
@@ -29,6 +29,10 @@ date-modified: "2026-11-08 16:12:18"
 ## Abstract
 
 adding DOI from ZENODO Full Changelog: https://github.com/DominiqueLoyer/my_code_python/commits/v1.0.0
+
+## Extra
+
+OpenAlex: W7115087052
 
 ## Attachments
 

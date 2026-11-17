@@ -14,7 +14,7 @@ zotero-key: "ERRAZ6WE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ERRAZ6WE"
 date-added: "2026-03-08 21:26:09"
-date-modified: "2026-03-25 21:28:44"
+date-modified: "2026-11-17 17:51:38"
 ---
 
 # Deep deductive reasoning is a hard deep learning problem
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:44"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4399113893
 
 ## Attachments
 

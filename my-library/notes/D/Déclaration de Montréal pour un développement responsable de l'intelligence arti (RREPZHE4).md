@@ -14,7 +14,7 @@ zotero-key: "RREPZHE4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RREPZHE4"
 date-added: "2026-02-25 21:42:11"
-date-modified: "2026-03-25 21:29:41"
+date-modified: "2026-11-17 17:51:37"
 ---
 
 # Déclaration de Montréal pour un développement responsable de l'intelligence artificielle
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:41"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4411910471
 
 ## Attachments
 

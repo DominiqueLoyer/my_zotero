@@ -13,7 +13,7 @@ zotero-key: "6GV27G3B"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6GV27G3B"
 date-added: "2026-03-03 23:38:32"
-date-modified: "2026-03-25 21:29:11"
+date-modified: "2026-11-17 17:51:23"
 ---
 
 # Debunking Disinformation: Revolutionizing Truth with NLP in Fake News Detection
@@ -23,6 +23,7 @@ date-modified: "2026-03-25 21:29:11"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3161251325
 
 ## Attachments
 

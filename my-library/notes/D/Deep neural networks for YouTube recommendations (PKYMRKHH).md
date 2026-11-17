@@ -19,15 +19,20 @@ zotero-key: "PKYMRKHH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PKYMRKHH"
 date-added: "2026-01-08 20:07:30"
-date-modified: "2026-03-25 21:30:44"
+date-modified: "2026-11-17 17:51:40"
 ---
 
 # Deep neural networks for YouTube recommendations
 
 **Covington, Paul; Adams, Jay; Sargin, Emre**
 
+## Extra
+
+OpenAlex: W2512971201
+
 ## Attachments
 
+- [Covington et al. - 2016 - Deep neural networks for YouTube recommendations.pdf](../../attachments/ME/MEE22N65/Covington%20et%20al.%20-%202016%20-%20Deep%20neural%20networks%20for%20YouTube%20recommendations.pdf)
 - [Notion](https://app.notion.com/p/Covington-et-al-2016-4129fa248c5781d59171f69ca4fa07ff)
 
 ---

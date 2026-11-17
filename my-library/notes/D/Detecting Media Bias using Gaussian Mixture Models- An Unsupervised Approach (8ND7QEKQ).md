@@ -12,7 +12,7 @@ zotero-key: "8ND7QEKQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8ND7QEKQ"
 date-added: "2026-03-03 23:39:25"
-date-modified: "2026-03-25 21:29:09"
+date-modified: "2026-11-17 17:51:58"
 ---
 
 # Detecting Media Bias using Gaussian Mixture Models: An Unsupervised Approach
@@ -22,6 +22,7 @@ date-modified: "2026-03-25 21:29:09"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2944083954
 
 ## Attachments
 

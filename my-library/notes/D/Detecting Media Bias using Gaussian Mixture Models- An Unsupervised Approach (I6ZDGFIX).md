@@ -12,7 +12,7 @@ zotero-key: "I6ZDGFIX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/I6ZDGFIX"
 date-added: "2026-04-24 21:30:56"
-date-modified: "2026-11-08 16:11:35"
+date-modified: "2026-11-17 17:52:05"
 ---
 
 # Detecting Media Bias using Gaussian Mixture Models: An Unsupervised Approach
@@ -22,6 +22,7 @@ date-modified: "2026-11-08 16:11:35"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2944083954
 
 ## Attachments
 
