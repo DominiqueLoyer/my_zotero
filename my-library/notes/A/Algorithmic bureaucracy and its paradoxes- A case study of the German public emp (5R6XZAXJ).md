@@ -14,7 +14,7 @@ zotero-key: "5R6XZAXJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5R6XZAXJ"
 date-added: "2026-02-25 21:45:17"
-date-modified: "2026-11-13 19:31:18"
+date-modified: "2026-11-17 17:49:41"
 ---
 
 # Algorithmic bureaucracy and its paradoxes: A case study of the German public employment service
@@ -24,6 +24,7 @@ date-modified: "2026-11-13 19:31:18"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2016836927
 
 ## Attachments
 

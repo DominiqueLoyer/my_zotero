@@ -22,10 +22,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Giest-and-Grimmelikhuijsen-2022-4129fa248c578195aa39e9f95facd528"
+		},
+		{
+			"accessDate": "2026-11-17T17:49:47Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:49:46Z",
+			"dateModified": "2026-11-17T17:49:47Z",
+			"filename": "Giest and Grimmelikhuijsen - 2022 - Algorithmic decision-making and the discretion of street-level bureaucrats A systematic review.pdf",
+			"itemType": "attachment",
+			"key": "MQF9IGJ9",
+			"linkMode": "imported_file",
+			"parentItem": "EKCVRK2L",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://europepmc.org/api/getPdf?pmcid=PMC8242824"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Giest and Grimmelikhuijsen - 2022 - Algorithmic decision-making and the discretion of street-level bureaucrats A systematic review.pdf",
+				"files": [
+					{
+						"path": "attachments/MQ/MQF9IGJ9/Giest and Grimmelikhuijsen - 2022 - Algorithmic decision-making and the discretion of street-level bureaucrats A systematic review.pdf",
+						"size": 1660719,
+						"storage": "git"
+					}
+				],
+				"key": "MQF9IGJ9",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://europepmc.org/api/getPdf?pmcid=PMC8242824"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -79,7 +112,8 @@
 		],
 		"date": "2022",
 		"dateAdded": "2025-10-10T19:01:26Z",
-		"dateModified": "2026-11-13T19:31:18Z",
+		"dateModified": "2026-11-17T17:49:47Z",
+		"extra": "OpenAlex: W3157392502",
 		"issue": "1",
 		"itemType": "journalArticle",
 		"key": "EKCVRK2L",

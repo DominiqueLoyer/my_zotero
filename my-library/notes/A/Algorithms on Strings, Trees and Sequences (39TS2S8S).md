@@ -14,7 +14,7 @@ zotero-key: "39TS2S8S"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/39TS2S8S"
 date-added: "2026-02-25 20:56:30"
-date-modified: "2026-03-25 21:29:55"
+date-modified: "2026-11-17 17:49:49"
 ---
 
 # Algorithms on Strings, Trees and Sequences
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:55"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W178414959
 
 ## Attachments
 
