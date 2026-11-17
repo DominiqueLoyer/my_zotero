@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Thibault-Camille-and-Tian-Jacob-Junqi-and-Peloquin-Skulski-Gabrielle-and-Curtis-Taylor-Lynn-and--4129fa248c578143a9f5d074d4fa3e69"
+		},
+		{
+			"accessDate": "2026-11-17T17:45:14Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:45:14Z",
+			"dateModified": "2026-11-17T17:45:14Z",
+			"filename": "Thibault, Camille and Tian, Jacob-Junqi and Peloquin-Skulski, Gabrielle and Curtis, Taylor Lynn and Zhou, James and Laflamme, Florence and Guan, Yuxiang and Rabbany, Reihaneh and Godbout, Jean-Fran{c{c}}ois.pdf",
+			"itemType": "attachment",
+			"key": "UGUCDBBH",
+			"linkMode": "imported_file",
+			"parentItem": "6QCMKBTP",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4412877107.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Thibault, Camille and Tian, Jacob-Junqi and Peloquin-Skulski, Gabrielle and Curtis, Taylor Lynn and Zhou, James and Laflamme, Florence and Guan, Yuxiang and Rabbany, Reihaneh and Godbout, Jean-Fran{c{c}}ois.pdf",
+				"files": [
+					{
+						"path": "attachments/UG/UGUCDBBH/Thibault, Camille and Tian, Jacob-Junqi and Peloquin-Skulski, Gabrielle and Curtis, Taylor Lynn and Zhou, James and Laflamme, Florence and Guan, Yuxiang and Rabbany, Reihaneh and Godbout, Jean-Fran{c{c}}ois.pdf",
+						"size": 1366884,
+						"storage": "git"
+					}
+				],
+				"key": "UGUCDBBH",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4412877107.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -47,7 +80,7 @@
 	},
 	"zotero": {
 		"DOI": "10.1145/3711896.3737437",
-		"citationKey": "thibaultcamilleandtianjacob-junqiandpeloquin-skulskigabrielleandcurtistaylorlynnandzhoujamesandlaflammeflorenceandguanyuxiangandrabbanyreihanehandgodboutjean-franccoisandpelrinekellinGuideMisinformationDetection2025",
+		"citationKey": "thibaultcamilleandtianjacob-junqiandpeloquin-skulskigabrielleandcurtistaylorlynnandzhoujamesandlaflammeflorenceandguanyuxiangandrabbanyreihanehandgodboutjean-franccoisandpelrinekellinGuideMisinformationDetection2025a",
 		"collections": [
 			"TFD2PMBS"
 		],
@@ -59,8 +92,8 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-02-26T20:18:55Z",
-		"dateModified": "2026-11-09T15:05:57Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:45:14Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W4412877107",
 		"itemType": "journalArticle",
 		"key": "6QCMKBTP",
 		"relations": {

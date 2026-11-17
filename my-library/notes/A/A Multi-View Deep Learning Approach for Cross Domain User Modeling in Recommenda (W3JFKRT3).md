@@ -19,12 +19,16 @@ zotero-key: "W3JFKRT3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/W3JFKRT3"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-03-25 21:31:11"
+date-modified: "2026-11-17 17:45:15"
 ---
 
 # A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems
 
 **Elkahky, Ali Mamdouh; Song, Yang; He, Xiaodong**
+
+## Extra
+
+OpenAlex: W2114079787
 
 ## Attachments
 

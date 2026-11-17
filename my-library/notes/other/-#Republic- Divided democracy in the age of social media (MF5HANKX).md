@@ -14,7 +14,7 @@ zotero-key: "MF5HANKX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/MF5HANKX"
 date-added: "2026-02-25 21:50:46"
-date-modified: "2026-03-25 21:29:36"
+date-modified: "2026-11-17 17:45:09"
 ---
 
 # \#Republic: Divided democracy in the age of social media
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:36"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2792069276
 
 ## Attachments
 

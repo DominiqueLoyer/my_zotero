@@ -21,7 +21,7 @@ zotero-key: "MGQ5H83Q"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/MGQ5H83Q"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-03-25 21:30:02"
+date-modified: "2026-11-17 17:45:10"
 ---
 
 # A classification of web browser fingerprinting techniques
@@ -35,6 +35,7 @@ As the World Wide Web has increasingly become a necessity in daily life, the acu
 ## Extra
 
 abstractTranslation: As the World Wide Web has increasingly become a necessity in daily life, the acute need to safeguard user privacy and security has become manifestly apparent. After users
+OpenAlex: W1659880361
 
 ## Attachments
 
