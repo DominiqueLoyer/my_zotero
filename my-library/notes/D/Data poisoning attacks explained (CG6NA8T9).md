@@ -14,7 +14,7 @@ zotero-key: "CG6NA8T9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/CG6NA8T9"
 date-added: "2026-02-25 21:57:46"
-date-modified: "2026-03-25 21:29:33"
+date-modified: "2026-11-17 17:51:12"
 ---
 
 # Data poisoning attacks explained
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:33"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4293160388
 
 ## Attachments
 

@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:51:17Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:51:17Z",
+			"dateModified": "2026-11-17T17:51:17Z",
+			"filename": "Lehmann, Jens and others - 2015 - DBpedia}---A large-scale multilingual knowledge base extracted from {Wikipedia.pdf",
+			"itemType": "attachment",
+			"key": "3QPU8AEB",
+			"linkMode": "imported_file",
+			"parentItem": "IPN6P5W5",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W1552847225.pdf"
+		},
+		{
 			"accessDate": "2026-03-09T20:35:34Z",
 			"charset": "",
 			"contentType": "",
@@ -23,6 +39,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Lehmann, Jens and others - 2015 - DBpedia}---A large-scale multilingual knowledge base extracted from {Wikipedia.pdf",
+				"files": [
+					{
+						"path": "attachments/3Q/3QPU8AEB/Lehmann, Jens and others - 2015 - DBpedia}---A large-scale multilingual knowledge base extracted from {Wikipedia.pdf",
+						"size": 2152010,
+						"storage": "git"
+					}
+				],
+				"key": "3QPU8AEB",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W1552847225.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -63,8 +96,8 @@
 		],
 		"date": "2015",
 		"dateAdded": "2026-03-04T20:00:34Z",
-		"dateModified": "2026-03-25T21:29:04Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:51:17Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W1552847225",
 		"itemType": "journalArticle",
 		"key": "IPN6P5W5",
 		"relations": {

@@ -14,7 +14,7 @@ zotero-key: "E7N4JRPC"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/E7N4JRPC"
 date-added: "2026-02-25 21:39:02"
-date-modified: "2026-03-25 21:29:45"
+date-modified: "2026-11-17 17:51:10"
 ---
 
 # Das Prinzip Verantwortung. Versuch einer Ethik für die technologische Zivilisation
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:45"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3129322261
 
 ## Attachments
 

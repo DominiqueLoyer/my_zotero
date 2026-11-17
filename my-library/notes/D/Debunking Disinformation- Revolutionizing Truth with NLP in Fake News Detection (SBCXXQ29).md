@@ -15,7 +15,7 @@ zotero-key: "SBCXXQ29"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SBCXXQ29"
 date-added: "2026-02-26 20:19:19"
-date-modified: "2026-03-25 21:29:30"
+date-modified: "2026-11-17 17:51:20"
 ---
 
 # Debunking Disinformation: Revolutionizing Truth with NLP in Fake News Detection
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:29:30"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3161251325
 
 ## Attachments
 

@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:51:16Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:51:15Z",
+			"dateModified": "2026-11-17T17:51:16Z",
+			"filename": "Lehmann, J. and Isele, R. and Jakob, M. and Jentzsch, A. and Kontokostas, D. and Mendes, P. N. and others and Bizer, C. - 2015 - DBpedia---A large-scale multilingual knowledge base extracted from Wikipedia.pdf",
+			"itemType": "attachment",
+			"key": "7KENAE8T",
+			"linkMode": "imported_file",
+			"parentItem": "VMMR4NC7",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W1552847225.pdf"
+		},
+		{
 			"accessDate": "2026-03-09T20:35:48Z",
 			"charset": "",
 			"contentType": "",
@@ -23,6 +39,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Lehmann, J. and Isele, R. and Jakob, M. and Jentzsch, A. and Kontokostas, D. and Mendes, P. N. and others and Bizer, C. - 2015 - DBpedia---A large-scale multilingual knowledge base extracted from Wikipedia.pdf",
+				"files": [
+					{
+						"path": "attachments/7K/7KENAE8T/Lehmann, J. and Isele, R. and Jakob, M. and Jentzsch, A. and Kontokostas, D. and Mendes, P. N. and others and Bizer, C. - 2015 - DBpedia---A large-scale multilingual knowledge base extracted from Wikipedia.pdf",
+						"size": 2152010,
+						"storage": "git"
+					}
+				],
+				"key": "7KENAE8T",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W1552847225.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -63,8 +96,8 @@
 		],
 		"date": "2015",
 		"dateAdded": "2026-03-04T19:44:09Z",
-		"dateModified": "2026-03-25T21:29:06Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:51:16Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W1552847225",
 		"itemType": "journalArticle",
 		"key": "VMMR4NC7",
 		"relations": {
