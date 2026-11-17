@@ -17,12 +17,16 @@ zotero-key: "9QAQFW5H"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9QAQFW5H"
 date-added: "2026-01-08 20:07:34"
-date-modified: "2026-11-09 14:57:41"
+date-modified: "2026-11-17 18:04:35"
 ---
 
 # The age of surveillance capitalism: The fight for a human future at the new frontier of power
 
 **Zuboff, Shoshana**
+
+## Extra
+
+OpenAlex: W2913707464
 
 ## Attachments
 

@@ -14,12 +14,16 @@ zotero-key: "ERFV4FUH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ERFV4FUH"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-03-25 21:31:05"
+date-modified: "2026-11-17 18:04:29"
 ---
 
 # Technopolice
 
 **La Quadrature du Net**
+
+## Extra
+
+OpenAlex: W4399664029
 
 ## Notes
 

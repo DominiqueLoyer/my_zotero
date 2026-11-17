@@ -15,12 +15,16 @@ zotero-key: "6ZDUITQQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6ZDUITQQ"
 date-added: "2026-01-08 20:07:30"
-date-modified: "2026-03-25 21:30:47"
+date-modified: "2026-11-17 18:04:57"
 ---
 
 # The EU AI act
 
 **ArtificialIntelligenceAct.eu**
+
+## Extra
+
+OpenAlex: W4404460162
 
 ## Attachments
 

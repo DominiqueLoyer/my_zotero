@@ -15,7 +15,7 @@ zotero-key: "U9HKQBV9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/U9HKQBV9"
 date-added: "2026-03-06 17:07:46"
-date-modified: "2026-03-25 21:28:52"
+date-modified: "2026-11-17 18:04:22"
 ---
 
 # systemFactChecking}: A Neuro-Symbolic {AI} System
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:28:52"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W7115586637
 
 ## Attachments
 

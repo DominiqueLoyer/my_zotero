@@ -32,7 +32,7 @@ zotero-key: "PLME2FNH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PLME2FNH"
 date-added: "2024-11-02 18:44:38"
-date-modified: "2025-03-21 21:39:45"
+date-modified: "2026-11-17 18:04:42"
 ---
 
 # The Black Box Society: The Secret Algorithms That Control Money and Information
@@ -46,6 +46,7 @@ Every day, corporations are connecting the dots about our personal behavior—si
 ## Extra
 
 Google-Books-ID: TumaBQAAQBAJ
+OpenAlex: W3157172840
 
 ## Attachments
 

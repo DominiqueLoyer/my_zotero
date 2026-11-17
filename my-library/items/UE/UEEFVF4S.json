@@ -20,10 +20,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "notion://www.notion.so/Citron2008-3129fa248c5781e298c1c289f6f91a56"
+		},
+		{
+			"accessDate": "2026-11-17T18:04:28Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:04:28Z",
+			"dateModified": "2026-11-17T18:04:28Z",
+			"filename": "Citron, Danielle Keats - 2008 - Technological Due Process.pdf",
+			"itemType": "attachment",
+			"key": "STZILMG4",
+			"linkMode": "imported_file",
+			"parentItem": "UEEFVF4S",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W1545608014.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Citron, Danielle Keats - 2008 - Technological Due Process.pdf",
+				"files": [
+					{
+						"path": "attachments/ST/STZILMG4/Citron, Danielle Keats - 2008 - Technological Due Process.pdf",
+						"size": 503962,
+						"storage": "git"
+					}
+				],
+				"key": "STZILMG4",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W1545608014.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -63,8 +96,8 @@
 		],
 		"date": "2008",
 		"dateAdded": "2026-02-25T21:34:48Z",
-		"dateModified": "2026-03-25T21:29:51Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T18:04:28Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W1545608014",
 		"itemType": "journalArticle",
 		"key": "UEEFVF4S",
 		"relations": {

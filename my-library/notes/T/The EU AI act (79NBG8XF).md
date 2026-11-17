@@ -15,12 +15,16 @@ zotero-key: "79NBG8XF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/79NBG8XF"
 date-added: "2026-01-08 20:10:57"
-date-modified: "2026-03-25 21:30:12"
+date-modified: "2026-11-17 18:04:59"
 ---
 
 # The EU AI act
 
 **ArtificialIntelligenceAct.eu**
+
+## Extra
+
+OpenAlex: W4404460162
 
 ## Attachments
 

@@ -14,12 +14,16 @@ zotero-key: "TQDZYSRB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TQDZYSRB"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-03-25 21:30:50"
+date-modified: "2026-11-17 18:04:40"
 ---
 
 # The black box society: The secret algorithms that control money and information
 
 **Pasquale, Frank**
+
+## Extra
+
+OpenAlex: W3157172840
 
 ## Attachments
 

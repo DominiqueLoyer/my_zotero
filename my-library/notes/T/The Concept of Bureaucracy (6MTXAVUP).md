@@ -14,7 +14,7 @@ zotero-key: "6MTXAVUP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6MTXAVUP"
 date-added: "2026-03-05 00:59:44"
-date-modified: "2026-11-09 14:57:17"
+date-modified: "2026-11-17 18:04:46"
 ---
 
 # The Concept of Bureaucracy
@@ -24,6 +24,7 @@ date-modified: "2026-11-09 14:57:17"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4246121261
 
 ## Attachments
 

@@ -14,7 +14,7 @@ zotero-key: "GGKNE49J"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GGKNE49J"
 date-added: "2026-03-05 00:59:53"
-date-modified: "2026-11-09 14:55:10"
+date-modified: "2026-11-17 18:04:32"
 ---
 
 # The Age of Surveillance Capitalism
@@ -24,6 +24,7 @@ date-modified: "2026-11-09 14:55:10"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3143251375
 
 ## Attachments
 

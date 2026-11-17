@@ -14,7 +14,7 @@ zotero-key: "UP246MGT"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UP246MGT"
 date-added: "2026-02-25 21:38:57"
-date-modified: "2026-03-25 21:29:45"
+date-modified: "2026-11-17 18:04:47"
 ---
 
 # The design of a data-driven government: an ethical perspective
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:45"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4386647045
 
 ## Attachments
 

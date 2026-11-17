@@ -14,7 +14,7 @@ zotero-key: "GA2HCD7S"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GA2HCD7S"
 date-added: "2026-02-25 21:32:33"
-date-modified: "2026-03-25 21:29:54"
+date-modified: "2026-11-17 18:05:00"
 ---
 
 # The EU AI Act
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:54"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4405202850
 
 ## Attachments
 

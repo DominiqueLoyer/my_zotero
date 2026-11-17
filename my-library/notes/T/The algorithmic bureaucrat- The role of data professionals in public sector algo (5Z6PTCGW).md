@@ -14,7 +14,7 @@ zotero-key: "5Z6PTCGW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5Z6PTCGW"
 date-added: "2026-02-25 21:36:37"
-date-modified: "2026-03-25 21:29:48"
+date-modified: "2026-11-17 18:04:39"
 ---
 
 # The algorithmic bureaucrat: The role of data professionals in public sector algorithmic decision-making
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:48"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4386535763
 
 ## Attachments
 

@@ -14,12 +14,16 @@ zotero-key: "5EIMG69A"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5EIMG69A"
 date-added: "2026-01-08 20:07:32"
-date-modified: "2026-03-25 21:30:37"
+date-modified: "2026-11-17 18:04:29"
 ---
 
 # Technopolice
 
 **La Quadrature du Net**
+
+## Extra
+
+OpenAlex: W4399664029
 
 ## Notes
 

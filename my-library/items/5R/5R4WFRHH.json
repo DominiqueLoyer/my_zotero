@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T18:04:36Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:04:36Z",
+			"dateModified": "2026-11-17T18:04:36Z",
+			"filename": "Digital SME Alliance - 2025 - The AI Act A Guide for SMEs.pdf",
+			"itemType": "attachment",
+			"key": "5WFIZBBI",
+			"linkMode": "imported_url",
+			"parentItem": "5R4WFRHH",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://scholar.law.colorado.edu/context/faculty-articles/article/3104/viewcontent/2025_Kaminski_Selbst_An_Americans_Guide_to_EU_AI_Act.pdf"
+		},
+		{
 			"accessDate": "2026-02-25T22:18:18Z",
 			"charset": "",
 			"contentType": "",
@@ -34,6 +50,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "notion://www.notion.so/Digital2025The-3129fa248c5781e69e4ec54e32b6793d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Digital SME Alliance - 2025 - The AI Act A Guide for SMEs.pdf",
+				"files": [
+					{
+						"path": "attachments/5W/5WFIZBBI/Digital SME Alliance - 2025 - The AI Act A Guide for SMEs.pdf",
+						"size": 1005198,
+						"storage": "git"
+					}
+				],
+				"key": "5WFIZBBI",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://scholar.law.colorado.edu/context/faculty-articles/article/3104/viewcontent/2025_Kaminski_Selbst_An_Americans_Guide_to_EU_AI_Act.pdf"
 			}
 		],
 		"collections": [
@@ -64,8 +97,8 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-02-25T21:35:52Z",
-		"dateModified": "2026-03-25T21:29:49Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T18:04:37Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W4412829760",
 		"itemType": "journalArticle",
 		"key": "5R4WFRHH",
 		"relations": {

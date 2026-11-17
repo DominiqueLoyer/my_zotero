@@ -21,12 +21,16 @@ zotero-key: "BHD3BER4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/BHD3BER4"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-09 14:57:28"
+date-modified: "2026-11-17 18:04:37"
 ---
 
 # The algorithmic bureaucrat: The role of data professionals in public sector algorithmic decision-making
 
 **Fest, F.; Klievink, B.**
+
+## Extra
+
+OpenAlex: W4307283796
 
 ## Attachments
 

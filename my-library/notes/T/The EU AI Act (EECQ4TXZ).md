@@ -14,12 +14,16 @@ zotero-key: "EECQ4TXZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EECQ4TXZ"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-03-25 21:31:15"
+date-modified: "2026-11-17 18:04:55"
 ---
 
 # The EU AI Act
 
 **ArtificialIntelligenceAct.eu**
+
+## Extra
+
+OpenAlex: W4404460162
 
 ## Attachments
 

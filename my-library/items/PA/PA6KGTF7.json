@@ -39,6 +39,22 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "notion://www.notion.so/Pasquale2016The-31e9fa248c5781d5a162e343e79b1834"
+		},
+		{
+			"accessDate": "2026-11-17T18:04:45Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:04:45Z",
+			"dateModified": "2026-11-17T18:04:45Z",
+			"filename": "Pasquale, Frank - 2016 - The Black Box Society The Secret Algorithms That Control Money and Information.pdf",
+			"itemType": "attachment",
+			"key": "LXNYXZEZ",
+			"linkMode": "imported_url",
+			"parentItem": "PA6KGTF7",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://swbplus.bsz-bw.de/cgi-bin/result_katan.pl?item=bsz469711426inh.htm"
 		}
 	],
 	"meta": {
@@ -64,6 +80,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "notion://www.notion.so/Pasquale2016The-31e9fa248c5781d5a162e343e79b1834"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Pasquale, Frank - 2016 - The Black Box Society The Secret Algorithms That Control Money and Information.pdf",
+				"files": [
+					{
+						"path": "attachments/LX/LXNYXZEZ/Pasquale, Frank - 2016 - The Black Box Society The Secret Algorithms That Control Money and Information.pdf",
+						"size": 10586,
+						"storage": "git"
+					}
+				],
+				"key": "LXNYXZEZ",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://swbplus.bsz-bw.de/cgi-bin/result_katan.pl?item=bsz469711426inh.htm"
 			}
 		],
 		"collections": [
@@ -96,8 +129,8 @@
 		],
 		"date": "2016",
 		"dateAdded": "2026-02-25T21:43:16Z",
-		"dateModified": "2026-11-09T14:57:21Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T18:04:45Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W202799293",
 		"itemType": "journalArticle",
 		"key": "PA6KGTF7",
 		"relations": {
