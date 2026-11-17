@@ -14,7 +14,7 @@ zotero-key: "VFXNEHQT"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VFXNEHQT"
 date-added: "2026-03-04 19:43:17"
-date-modified: "2026-03-25 21:29:06"
+date-modified: "2026-11-17 17:58:48"
 ---
 
 # Machine learning for the Semantic Web: Lessons learnt and next research directions
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:06"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2999394280
 
 ## Attachments
 

@@ -12,7 +12,7 @@ zotero-key: "Z565WXII"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Z565WXII"
 date-added: "2026-03-03 23:38:50"
-date-modified: "2026-03-25 21:29:10"
+date-modified: "2026-11-17 17:59:08"
 ---
 
 # Measuring Behavioral Trust in Social Networks
@@ -22,6 +22,7 @@ date-modified: "2026-03-25 21:29:10"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2032741002
 
 ## Attachments
 

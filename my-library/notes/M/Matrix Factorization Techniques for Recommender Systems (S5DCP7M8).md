@@ -23,12 +23,16 @@ zotero-key: "S5DCP7M8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/S5DCP7M8"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-09 14:59:36"
+date-modified: "2026-11-17 17:58:50"
 ---
 
 # Matrix Factorization Techniques for Recommender Systems
 
 **Koren, Yehuda; Bell, Robert; Volinsky, Chris**
+
+## Extra
+
+OpenAlex: W2054141820
 
 ## Attachments
 

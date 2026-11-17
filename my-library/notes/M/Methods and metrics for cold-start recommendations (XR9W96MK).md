@@ -14,7 +14,7 @@ zotero-key: "XR9W96MK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XR9W96MK"
 date-added: "2026-02-25 21:47:18"
-date-modified: "2026-03-25 21:29:38"
+date-modified: "2026-11-17 17:59:38"
 ---
 
 # Methods and metrics for cold-start recommendations
@@ -24,9 +24,11 @@ date-modified: "2026-03-25 21:29:38"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2158515176
 
 ## Attachments
 
+- [Schein, Andrew I. and Popescul, Alexandrin and Ungar, Lyle H. and Pennock, David M. - 2002 - Methods and metrics for cold-start recommendations.pdf](../../attachments/BX/BXCKGWNT/Schein%2C%20Andrew%20I.%20and%20Popescul%2C%20Alexandrin%20and%20Ungar%2C%20Lyle%20H.%20and%20Pennock%2C%20David%20M.%20-%202002%20-%20Methods%20and%20metrics%20for%20cold-start%20recommendations.pdf)
 - [Notion](notion://www.notion.so/Schein2002-3129fa248c5781b98e19eaf8de5126f9)
 
 ---

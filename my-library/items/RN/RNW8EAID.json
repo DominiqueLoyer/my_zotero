@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "notion://www.notion.so/scheinMethodsMetricsColdstart2002-2c09fa248c578133bc2aec0e8b301d40"
+		},
+		{
+			"accessDate": "2026-11-17T17:59:13Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:59:13Z",
+			"dateModified": "2026-11-17T17:59:13Z",
+			"filename": "Schein et al. - 2002 - Methods and metrics for cold-start recommendations.pdf",
+			"itemType": "attachment",
+			"key": "HKJAFA2S",
+			"linkMode": "imported_file",
+			"parentItem": "RNW8EAID",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W2158515176.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Schein et al. - 2002 - Methods and metrics for cold-start recommendations.pdf",
+				"files": [
+					{
+						"path": "attachments/HK/HKJAFA2S/Schein et al. - 2002 - Methods and metrics for cold-start recommendations.pdf",
+						"size": 130034,
+						"storage": "git"
+					}
+				],
+				"key": "HKJAFA2S",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W2158515176.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -78,7 +111,8 @@
 		],
 		"date": "2002",
 		"dateAdded": "2025-10-10T19:01:28Z",
-		"dateModified": "2026-03-25T21:31:00Z",
+		"dateModified": "2026-11-17T17:59:13Z",
+		"extra": "OpenAlex: W2158515176",
 		"itemType": "conferencePaper",
 		"key": "RNW8EAID",
 		"pages": "253–260",

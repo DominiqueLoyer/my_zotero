@@ -12,7 +12,7 @@ zotero-key: "CXCBHUV9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/CXCBHUV9"
 date-added: "2026-03-03 23:19:52"
-date-modified: "2026-03-25 21:29:18"
+date-modified: "2026-11-17 17:59:06"
 ---
 
 # Measuring Behavioral Trust in Social Networks
@@ -22,6 +22,7 @@ date-modified: "2026-03-25 21:29:18"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2032741002
 
 ## Attachments
 

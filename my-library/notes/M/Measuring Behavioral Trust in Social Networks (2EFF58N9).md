@@ -14,7 +14,7 @@ zotero-key: "2EFF58N9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2EFF58N9"
 date-added: "2026-02-26 20:19:51"
-date-modified: "2026-03-25 21:29:30"
+date-modified: "2026-11-17 17:59:04"
 ---
 
 # Measuring Behavioral Trust in Social Networks
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:30"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2032741002
 
 ## Attachments
 

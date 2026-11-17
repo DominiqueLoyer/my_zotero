@@ -11,7 +11,7 @@ zotero-key: "BHNXRNMK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/BHNXRNMK"
 date-added: "2026-04-17 21:34:49"
-date-modified: "2026-04-17 21:35:02"
+date-modified: "2026-11-17 17:59:02"
 ---
 
 # Measuring Behavioral Trust in Social Networks
@@ -21,6 +21,7 @@ date-modified: "2026-04-17 21:35:02"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2032741002
 
 ---
 

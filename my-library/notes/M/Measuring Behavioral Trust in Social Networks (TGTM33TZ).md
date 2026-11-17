@@ -10,7 +10,7 @@ zotero-key: "TGTM33TZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TGTM33TZ"
 date-added: "2026-04-24 21:29:37"
-date-modified: "2026-06-16 20:30:00"
+date-modified: "2026-11-17 17:59:00"
 ---
 
 # Measuring Behavioral Trust in Social Networks
@@ -20,6 +20,7 @@ date-modified: "2026-06-16 20:30:00"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2032741002
 
 ---
 

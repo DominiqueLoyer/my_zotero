@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:59:38Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:59:38Z",
+			"dateModified": "2026-11-17T17:59:38Z",
+			"filename": "Schein, Andrew I. and Popescul, Alexandrin and Ungar, Lyle H. and Pennock, David M. - 2002 - Methods and metrics for cold-start recommendations.pdf",
+			"itemType": "attachment",
+			"key": "BXCKGWNT",
+			"linkMode": "imported_file",
+			"parentItem": "XR9W96MK",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W2158515176.pdf"
+		},
+		{
 			"accessDate": "2026-02-25T22:16:15Z",
 			"charset": "",
 			"contentType": "",
@@ -24,6 +40,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Schein, Andrew I. and Popescul, Alexandrin and Ungar, Lyle H. and Pennock, David M. - 2002 - Methods and metrics for cold-start recommendations.pdf",
+				"files": [
+					{
+						"path": "attachments/BX/BXCKGWNT/Schein, Andrew I. and Popescul, Alexandrin and Ungar, Lyle H. and Pennock, David M. - 2002 - Methods and metrics for cold-start recommendations.pdf",
+						"size": 130034,
+						"storage": "git"
+					}
+				],
+				"key": "BXCKGWNT",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W2158515176.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -64,8 +97,8 @@
 		],
 		"date": "2002",
 		"dateAdded": "2026-02-25T21:47:18Z",
-		"dateModified": "2026-03-25T21:29:38Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:59:38Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W2158515176",
 		"itemType": "journalArticle",
 		"key": "XR9W96MK",
 		"relations": {

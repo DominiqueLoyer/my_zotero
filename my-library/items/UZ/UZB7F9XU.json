@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:59:18Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:59:18Z",
+			"dateModified": "2026-11-17T17:59:18Z",
+			"filename": "Schein et al. - 2002 - Methods and metrics for cold-start recommendations.pdf",
+			"itemType": "attachment",
+			"key": "LUAXNFHG",
+			"linkMode": "imported_file",
+			"parentItem": "UZB7F9XU",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W2158515176.pdf"
+		},
+		{
 			"accessDate": "2026-01-08T20:36:40Z",
 			"charset": "",
 			"contentType": "",
@@ -23,6 +39,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Schein et al. - 2002 - Methods and metrics for cold-start recommendations.pdf",
+				"files": [
+					{
+						"path": "attachments/LU/LUAXNFHG/Schein et al. - 2002 - Methods and metrics for cold-start recommendations.pdf",
+						"size": 130034,
+						"storage": "git"
+					}
+				],
+				"key": "LUAXNFHG",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W2158515176.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -54,7 +87,7 @@
 	},
 	"zotero": {
 		"DOI": "10.1145/564376.564421",
-		"citationKey": "scheinMethodsMetricsColdstart2002a",
+		"citationKey": "scheinMethodsMetricsColdstart2002c",
 		"collections": [
 			"F9TGXIMY"
 		],
@@ -82,7 +115,8 @@
 		],
 		"date": "2002",
 		"dateAdded": "2026-01-08T20:07:33Z",
-		"dateModified": "2026-03-25T21:30:32Z",
+		"dateModified": "2026-11-17T17:59:18Z",
+		"extra": "OpenAlex: W2158515176",
 		"itemType": "conferencePaper",
 		"key": "UZB7F9XU",
 		"pages": "253–260",

@@ -14,7 +14,7 @@ zotero-key: "ZGHMCS4U"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZGHMCS4U"
 date-added: "2026-03-04 19:43:09"
-date-modified: "2026-11-09 14:59:39"
+date-modified: "2026-11-17 17:58:41"
 ---
 
 # Linked Data---The story so far
@@ -24,6 +24,7 @@ date-modified: "2026-11-09 14:59:39"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2015191210
 
 ## Attachments
 

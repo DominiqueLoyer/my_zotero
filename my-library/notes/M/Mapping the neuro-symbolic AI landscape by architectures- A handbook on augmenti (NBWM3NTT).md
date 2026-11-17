@@ -14,7 +14,7 @@ zotero-key: "NBWM3NTT"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/NBWM3NTT"
 date-added: "2026-03-08 21:24:29"
-date-modified: "2026-03-25 21:28:46"
+date-modified: "2026-11-17 17:58:49"
 ---
 
 # Mapping the neuro-symbolic AI landscape by architectures: A handbook on augmenting deep learning through symbolic reasoning
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:46"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4392153463
 
 ## Attachments
 

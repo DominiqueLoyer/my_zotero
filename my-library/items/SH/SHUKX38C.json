@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:58:42Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:58:42Z",
+			"dateModified": "2026-11-17T17:58:42Z",
+			"filename": "Leite, Jo{~a}o A and Razuvayevskaya, Olesya and Bontcheva, Kalina and Scarton, Carolina - 2026 - LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems.pdf",
+			"itemType": "attachment",
+			"key": "4W4YLZLU",
+			"linkMode": "imported_url",
+			"parentItem": "SHUKX38C",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://aclanthology.org/2026.emnlp-main.86.pdf"
+		},
+		{
 			"accessDate": "2026-03-09T20:32:31Z",
 			"charset": "",
 			"contentType": "",
@@ -19,6 +35,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Leite, Jo{~a}o A and Razuvayevskaya, Olesya and Bontcheva, Kalina and Scarton, Carolina - 2026 - LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems.pdf",
+				"files": [
+					{
+						"path": "attachments/4W/4W4YLZLU/Leite, Jo{~a}o A and Razuvayevskaya, Olesya and Bontcheva, Kalina and Scarton, Carolina - 2026 - LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems.pdf",
+						"size": 1095117,
+						"storage": "git"
+					}
+				],
+				"key": "4W4YLZLU",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://aclanthology.org/2026.emnlp-main.86.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -58,8 +91,8 @@
 		],
 		"date": "2026",
 		"dateAdded": "2026-03-08T21:24:04Z",
-		"dateModified": "2026-03-25T21:28:46Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:58:42Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W7125709995",
 		"itemType": "journalArticle",
 		"key": "SHUKX38C",
 		"relations": {},
