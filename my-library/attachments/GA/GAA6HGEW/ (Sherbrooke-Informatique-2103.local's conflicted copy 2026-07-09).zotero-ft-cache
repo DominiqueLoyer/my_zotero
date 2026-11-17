@@ -1,0 +1,523 @@
+2024-09-19
+Memorize or
+leverage? Mounir Boukadoum
+ResMiQ-CoFaMic-UQAM
+(with many slides from the Internet!)
+Or how to train a neural network classifier with few data
+Regroupement Stratégique en Microsystèmes du Québec
+The mind as a machine...
+• 4th century BC: the mind is matter and form, as is the body (Aristotle)
+• Middle Ages: the mind is supernatural
+• 15th-16th century: the physical world is explainable • Calculus
+• 17th century: consciousness comes from thought (Descartes)
+• 19th century: mechanical intelligence is possible (industrial revolution)
+• 19-20th century: reasoning is logical thinking • Binary algebra (Boole), predicate calculus (Frege)
+• 20e siècle : reasoning can be mechanized • Von Newmann architecture (1945), AI as Computer Science (1956) • Today: Symbolic, connectionist (sub-symbolic), mimetic (behavioral) AI...
+Why computers?
+• A mathematical question initially: is there a mechanical way – i.e., a clearly specified sequence of instructions, each one with predictable results – to decide the veracity of a formal statement? • David Hilbert (who asked the question): no. • Alan Turing: on the other hand, if the statement is decidable, it can be computed by a machine. • Since then, a syllogism with two unproven hypotheses: • P1: any computable function can be by a Turing machine (Church-Turing thesis) • P2: human reasoning is made of computable functions (Putnam and Fodor functionalist-computationalist thesis) • C: we can reason using a Turing machine • Computers are a Turing machine by their structure • Arithmetic and logic unit, memory, input/outputs
+Problem solving with computers until 2012...
+ Formal symbolic tools and heuristics for up to 20% error
+Artificialneuralnetworksanacademiccuriosity!
+Linear regression Logistic regression k-means k-nearest neighbors Hidden Markov Model
+Bayesian inference Decision tree FFT transform DWT transform Support vector machine
+12
+34
+
+
+ 2024-09-19
+The new king of the hill in 2012
+2011: 25,8% error with SVM 2012: 16,4% error with 8-layer CNN
+2014: 7,3% error with 19 layers
+2015: 3,57% error with 152 layers
+Kaiming He,Xiangyu Zhang, Shaoqing Ren,& Jian Sun."Deep ResidualLearning for Image Recognition".arXiv 2015.
+ A neural network from the 90’s (CNN) starts a revolution!
+-.... 
+25.8
+16.4
+22 layers 6.7
+19 layers 7.3
+28.2
+ML
+ImageNet Large Scale Visual Recognition Competition (ILSVRC)
+152 layers!
+3,57
+8 layers 8 layers
+11.7
+ILSVRC’10 ILSVRC’11 ILSVRC’12 ILSVRC’13 ILSVRC’14 ILSVRC’14 ILSVRC’15 Alexnet VGG GoogLeNet ResNEt
+1000 objects, 1.2 million images in ILSVRC’12
+Human
+Top-5 error (%)
+ The deeper, the better (and harder to understand!)  Current score: 5-20% performance gain over formal approaches, using just data (no causal model needed)
+ Extension of the MLP (Multi-Layer Perceptron), a network model from the 1960’s  Static operator: x at the input produces y = f(x) at the output  Typically learns by minimizing the average error between a set x, y of examples and the set x, yො it produces when fed with the x parts • Error backpropagation with gradient descent popular
+ The CNN (convolutional neural network) incorporates convolution operations in some of the hidden layers  Capable of location-independent feature extraction
+CNNs
+ Feature extraction  Convolution mask size, pooling type, activation fonction yield different feature maps  Depth
+ Each hidden layer uses the previous output to progressively build a persistent and hierarchical internal representation of the data  Learning algorithm  The goal is to find network parameters θመ such that  Number crunching capacity  The more and faster, the better  And...
+CNN success: a matter of ...
+Image: slideteam.net
+... Training data!
+ Imagenet data for ILSVRC 2012
+Training: 1,281,167 images in 1000 synsets, 732-1300 image each Validation: 50 images/synset Test: 100 images/synset
+Source: image-net.org/challenges/LSVRC/2012/ilsvrc2012.pdf
+224x224 pixel images used by AlexNet network -> 50k vector size and 50kx50k matrices!
+56
+78
+
+
+ 2024-09-19
+The problem
+...
+ Up to O(n5) computations and O(n3) parameters (assuming n layers of n neurons)  Accounting for data variability requires more data than parameters (x5+)
+Images: SK Telecom Video Tech. Lab., 김지성 Manager
+• No convolutions or memory, attention instead
+• But a hacker’s dream come true, The improved performance comes with even more parameters and hunger for training data!
+QKV
+Encoder
+Next output
+MLP
+Attention multi-têtes
+masquée
+Attention
+multi-têtes
+Add. & Norm.
+Add. & Norm.
+MLP
+QKV
+QKV
+Previous outputs
+Décoder
+AreTransformers better?
+The root problem...
+ A CNN needs all the pictures on the right to learn recognizing the one on the left  A child recognizes all the pictures on the right after just seeing the one on the left Howdoeshe/shedoit? Reducingcomplexity,creatingnewdata,leveragingrelatedexperience?
+Image source: SK Telecom Video Tech. Lab., 김지성 Manager
+Child
+ANN
+Reducing network complexity
+Dropout
+Pruning and pooling
+Space reduction
+Dropout
+Pruning
+Superpixels
+Pooling
+Features
+Transforms
+ 
+        i
+L i
+i
+L i
+i
+i
+L i
+i
+L i
+ii
+Entropy e p z p z
+Uniformity U p z
+th Moment z m p z
+Smoothness R
+St Dev z
+Mean m z p z
+2
+1 0
+1 0
+2
+1 0
+3 3
+2
+2 2
+1 0
+log
+3.
+11
+1
+1
+.
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+•Histograms •Transforms •Attributes as inputs •Superpixels •Distillation
+9 10
+11 12
+
+
+ 2024-09-19
+Dealing with small datasets
+Augmentation
+Transfer learning
+. Fine tuning a pretrained model
+• Geometric changes • Data substitutions • Synthetic data generation • Noise addition...
+But... • Augmentation not applicable everywhere • Available techniques can’t account for unseen categories • Transfer learning not efficient for sparse data
+Standard learning
+ Seeks to imitate the human ability to develop skills using “related” experience
+• Learning from similar behavior (learning-to-learn!) to compensate the lack of training data
+ The idea is to match the performance of the model (“test task”) to those of the inspiration tasks (“training tasks”)
+Thecreatedmodeldoesnotrequire
+retrainingfornewdata!
+Meta-learning
+Image: http://www.research.ibm.com/haifa/dept/imt/ist_dm.shtml
+Meta learning
+ddDaaatttaaa Training with
+batches Model Learned from the data
+Training with each task
+dtdaaatstakas Model
+Model as test task
+specific classes training data target data
+meta
+learner Idndadatitavaidual
+task data
+Learned from the tasks
+Few-shot learning
+ Often called k-shot-N-way classification • k: number of examples/class, • N: number of classes
+ 1-shot learns from tasks having only 1 training example!
+ Meta-learning to classify new data based on a few training examples (called the support set) • Also useful for large data sets when labeling is costly
+https://www.borealisai.com/en/blog/tutorial-2-few-shot-learning-and-meta-learning-i/
+Few-shot learning example
+1. Define a generic 2-class learner (meta-learner) that uses 4 examples/ class (support set)
+2. Create instances (episodes) of the 2-class learner, each one with its specific support set
+3. Learn from each episode, using the target task for testing
+4-shot-2-way training
+Episode 1
+Episode 2
+Episode ...
+Image: https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html
+Themodellearnsitstaskfromthewaytheotherinstancesdotheirs
+ Problem: train a model to classify image data into dogs and otters, based on 4 examples of each and the help of two similar tasks
+13 14
+15 16
+
+
+ 2024-09-19
+Learning-based
+Optimizes the model configuration or parameters for small data sets
+Data-based
+Synthetically augments the training data
+Similarity-based
+Uses “semantic” data representations and a metric to evaluate closeness
+Few-shot learning
+Few-shot learning implementation
+ Essentially harnesses prior knowledge to use by a meta-learner
+ May be divided into three approaches:
+ Other divisions possible, e.g., performance, properties, transfer
+Implementation
+https://www.borealisai.com/en/blog/tutorial-2-few-shot-learning-and-meta-learning-i/
+How much training data?
+ Up to 99% classification accuracy using training sets of sizes between hundreds to thousands examples (instead of millions!) • Omniglot dataset has 1623 images of characters from 50 alphabets, written by 20 people (20shot; image size 105x105) • Mini-ImageNet dataset has 60K images from 100 objects, with 60 images each (60-shot; image size 84x84) • etc.
+Image : https://github.com/shaohua0116/MMAML-Classification
+How about really small training sets?
+ Real-life problems often have only a handful of examples to work with! (like student projects and theses )
+• Drug discovery • Anomaly detection • Transient data • Rare diseases • Patient fitting • Etc.
+ Back to giraffe puzzle? Maybenotifworkingwithembeddings
+17 18
+19 20
+
+
+ 2024-09-19
+Embeddings 101
+ Learned vectorial data representations that put semantically similar inputs close together
+ Originally used in natural language processing to code words with similar meanings
+Canturnclassificationto“closeness”verification!
+https://medium.com/analytics-vidhya/implementing-word2vec-in-tensorflow-44f93cf2665f
+https://norouzi.github.io/research/slides/ConSE.pptx
+Similarity-based 1-shot classification
+1. Training: a set of individual tasks are trained with one pair of examples each, one example used as support and the other for testing, not necessarily belonging to the same classes
+ In essence, the training creates clusters in the embedding space for subsequent nearest-neighbor classification
+Test
+class 1
+class 2
+class A
+2. Testing: classification of a new sample
+d(q,A)
+d(q,B)
+dddaaatttaaa
+instances
+Similarity verification
+semantic vector space
+Embedding
+class B
+d(q,C) class C
+class 1
+class 2
+clacslsas3s 3
+ Primarily meant for k-shot classification in a class-agnostic embedding space
+ Two networks f and g embed the elements of the support set and the query, and a distribution of the data is created based on a similarity metric
+ The output is a weighted sum of the support class labels, using a function that assesses the similarity between the query and the support set elements
+Matching Networks
+Vinyals et.al., NIPS 2016
+yො = ∑ aௌ xො, x௜ y௜
+௜ , aௌ xො, x௜ = softmax cos f xො, S , g x௜, S
+Vinyals et.al., 2016
+xො
+x௜ ௜ୀଵ
+௞
+Similarity
+distribution xො ȉ x௜
+xො ȉ x௜
+e( )೔ ∑௜ e( )೔
+Siamese Networks
+Koch et.al., 32 nd ICML,2015 (concept in 1993)
+Images: https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html
+ Primarily a 1-shot classifier  Twin networks embed the elements of the support set and the query, and a distribution of the data is created based on a distance metric
+ The predicted class is the label of the object in the support set that is closest to the query
+ Basically, verifies if the query is similar (close in the embedding space) to one of the support elements
+yො = arg ௫m೔∈aௌx P(x, x௜) P x, x௜ = σ W f x − f(x௜)
+Koch et.al., 32 nd ICML,2015
+21 22
+23 24
+
+
+ 2024-09-19
+ In principle, any network can do for the twins, and a complete implementation could be done with a multilayer perceptron  In practice, a CNN is typically used for the embedding
+Koch et al., ICML 2015
+Siamese Networks
+ Also use a single embedding network
+ Concatenate the query and support embedding and replaces the distance calculation by a CNN
+Sung et.al., Learning to Compare - Relation network for few-shot learning, CVPR 2018
+Relation networks
+Sung et.al., CVPR 2018
+Prototypical networks
+Snell et.al., NIPS 2017
+ Use class prototypes as support to achieve robustness to imbalanced data
+ The assumption is that a prototypical representation is simply the mean of the individual samples
+P y = k|x = softmax −d f x , c௞
+Distance function. – sign for inverse probability relationship
+ Can solve a potential bias problem with imbalanced data set when k>1
+How to compare?
+ Generic
+• Euclidian Distance:
+f( ⃑x , ⃑y)= ∑ x௜ − y௜ ଶ
+௜
+• Dot product attention
+xො ȉ x௜ k
+• Cosine similarity
+xො ȉ x௜ xො ȉ x௜
+• Manhattan, Minkowski ...
+ Data distribution based • Wasserstein • Mahalanobis • Etc.
+ Different metrics with different computational footprints
+25 26
+27 28
+
+
+ 2024-09-19
+Not all similarities are alike!
+D1
+D2
+The gray dot is:
+• closer to the blue dot according to the Euclidian distance
+• closer to the red dot according to the angle distance
+Model coding is easy
+model.add(Conv2D(256, (4,4), activation='relu’, kernel_initializer=initialize_weights, bias_initializer=initialize_bias, kernel_regularizer=l2(2e-4))) model.add(Flatten()) model.add(Dense(4096, activation='sigmoid’, kernel_regularizer=l2(1e-3), kernel_initializer=initialize_weights,bias_initializer=initialize_bias)) # Generate the encodings of the two images encoded_l = model(left_input) encoded_r = model(right_input) # Custom layer for L1 distance L1_layer = Lambda(lambda tensors:K.abs(tensors[0] - tensors[1])) L1_distance = L1_layer([encoded_l, encoded_r]) # Dense layer with a sigmoid unit to generate the similarity score prediction = Dense(1,activation='sigmoid',bias_initializer=initialize_bias)(L1_distance) # Define the Siamese net and return it siamese_net = Model(inputs=[left_input,right_input],outputs=prediction) return siamese_net
+def get_siamese_model(input_shape): # Define the tensors for the two input images left_input = Input(input_shape) right_input = Input(input_shape) # Define CNN model = Sequential() model.add(Conv2D(64, (10,10), activation='relu', input_shape=input_shape, kernel_initializer=initialize_weights, kernel_regularizer=l2(2e-4))) model.add(MaxPooling2D()) model.add(Conv2D(128, (7,7), activation='relu’, kernel_initializer=initialize_weights, bias_initializer=initialize_bias, kernel_regularizer=l2(2e-4))) model.add(MaxPooling2D()) model.add(Conv2D(128, (4,4), activation='relu', kernel_initializer=initialize_weights, bias_initializer=initialize_bias, kernel_regularizer=l2(2e-4))) model.add(MaxPooling2D())
+Application to drug discovery (with Fathi Souaker)
+ Drug discovery involves several costly and time-consuming steps:
+1. Identification of the therapeutic target (bacteria, virus, tissue, hormone, etc.)
+2. Inventory of the molecules that can act on the target (hit generation)
+3. Prospect isolation based on biophysical, chemical and industrial criteria
+4. Biochemical optimisation to design derivatives and isomers that meet the maximum number of criteria (40% of the R&D costs).
+5. In vivo testing on animals for toxicity and pharmacology qualification.
+6. Clinical trials on human upon successful step 5.
+The machine learning connection
+ Can automate tasks such as drug-target interaction, drug-drug
+interaction, compound screening, quantitative structure–activity relationship (QSAR), etc.
+ The automatic identification of prospect molecules saves time and money
+ One-shot classification can reach the goal without need of retraining the network for new classes (thanks to meta-learning)
+ Assesses the similarity between the structure of candidate molecules and a proven reference
+29 30
+31 32
+
+
+ 2024-09-19
+Desired one-shot model
+• Requirements:
+1. Should be architecturally simple while retaining the properties on a high-performance CNN
+2. Should be trainable with as few examples as possible
+• A light Siamese network with few parameters to tune meets
+the requirements
+• Might be built using a Google Inception CNN module for the twins
+• Two convolutions capture coarse and finer grained features
+Siamese network architecture
+• 1-shot-1-way model: determines if a candidate molecule is similar to the reference (y=0) or no (y=1).
+• The Euclidian distance measures the closeness of the produced embeddings for the two molecules
+• A sigmoid function predicts the output
+y
+x2
+x1
+Inception module f
+Inception module g
+Euclidian distance
+Output prediction
+Siamese network
+Inception module
+Training tasks
+• Three reference molecules to compare with • Penicillin: antibiotic • Sulconazole: anti-fungal
+• Mycophenolic acid : immunosuppressant Sulconazole molecule
+Penicillin molecule Mycophenolic acid molecule
+C18H15Cl3N2S
+C17H20O6
+R-C10H13N2O4S
+Support set
+Positive example using the sulconazole molecule (left) and the sulconazole nitrate molecule (right)
+Positive example using the mycophenolic acid molecule (left) and the mycophenolate mofetil molecule (right)
+Negative example using the mycophenolate sodium molecule (right) and the penicillin G molecule(left)
+Negative example using the mycophenolic acid molecule (left) and the sulconazole molecule (right)
+ Random pairs of positive and negative examples from the ChemPub database
+33 34
+35 36
+
+
+ 2024-09-19
+Loss function for training
+• Should minimize the distance between positive training pairs (y=0) et maximize it for negative training pairs (y=1) • Several approaches, of which a combination of contrastive and crossentropy loss
+L = LS + λ LC
+• The contrastive loss function maximizes interclass distance
+LS D, y = 1 − y ଵ
+ଶ Dଶ + y ଵ
+ଶ { max(0, m − D ) }ଶ
+• The binary cross-entropy (log-loss) function maximizes class probabilities
+LC y = − ଵ
+ே ∑ y௜ log P y௜
+ே
+௜ୀଵ + 1 − y௜ log(1 − P(y௜))
+Results
+Training time Molecule Accuracy (%) (min)*
+Training set size (pairs + & -)
+Penicillin 93.0
+50 86 Mycophenolate 90.0 Sulconazole 92.5 Penicillin 94.3
+25 43 Mycophenolate 95.1 Sulconazole 97.6
+Penicillin 70.0-98.0
+10 17 Mycophenolate 80.0-98.0 Sulconazole 50.0-88.0 Penicillin 62.0-98.0
+59 Mycophenolate 88.0-97.0 Sulconazole 77.0-98.0
+*Regular PC desktop station
+ Must accomplish the following: • Sensing and interpretation of EMG signals • Adaptation to different users • Conversion of body-generated signals to electro-mechanical commands
+Bionic hand prosthesis interface (done with U. Laval Team)
+● 5 major steps:
+Real-time myoelectric interface
+Windowing and
+Segmentation Data formatting Classification Tuning and
+postprocessing
+Raw data acquisition
+37 38
+39 40
+
+
+ 2024-09-19
+ Elastic bracelet/armband with a 4x8 array of gold-plated dry electrodes (newer version has 4x16 array for more resolution)  Matches the arm’s conic shape once installed
+ Analog signal amplification with bandpass filtering prior to analog-to-digital conversion
+ Digital filtering for baseline offset and 60Hz noise removal
+Data acquisition
+Raw data acquisition
+Windowing and
+Segmentation Data formatting Classification Tuning and
+postprocessing
+ Integration of real-time continuous signals to represent discrete points for inference
+• Teager-Kaiser enhancement • Mean absolute value filters
+Segmentation/windowing
+1 ms sampling rate, 15 ms interleaved windows
+Raw data acquisition
+Windowing and
+Segmentation Data formatting Classification Tuning and
+postprocessing
+• Unrolling and 2D heat mapping
+Raw data acquisition
+Windowing and
+Segmentation Data formatting Classification Tuning and
+postprocessing
+Data preparation
+Electrodes & Signal Acquisition1
+Digital Signal Processing2
+HD-EMG Samples Mapping3
+Convolutional Neural Network
+Majority Vote Inference Buffer
+Embedded Computing Platform
+2 Digital-Processed Signals
+1 Analog-Processed Signals 3 Mapped HD-EMG Samples
+b) c)
+a) d)
+• Convolutional neural network (CNN)
+Classifier training
+Raw data acquisition
+Windowing and
+Segmentation Classification Tuning and
+postprocessing
+Data formatting
+41 42
+43 44
+
+
+ 2024-09-19
+Heat map examples of different gesture
+CNN model
+Gestes d’entraînement
+• Convolutional neural network (CNN)
+Classifier training
+• Majority vote, threshold, repetition elimination • Majority voting
+Classifier inference
+Raw data acquisition
+Windowing and Segmentation
+Tuning and postprocessing
+Data formatting Classification
+Quad-core A57 & 128-core GPU 95x76x30 mm, 136 gr, 3-10 w
+NVIDIA Jetson Nano
+• Deployment • Human in the loop tuning • Transduction of hand gesture labels to motor/actuator control commands
+Postprocessing
+Raw data acquisition
+Windowing and Segmentation
+Tuning and postprocessing
+Data formatting Classification
+Postprocessing: deployment
+• Real-time operation constraint • User in the loop necessary for tuning • General algorithm adaptation • Iterative static model states • Re-training & calibration time consuming
+• Specific user adaptation • Dynamic user input and small sample set problems
+Raw data acquisition
+Windowing and Segmentation
+Tuning and postprocessing
+Data formatting Classification
+45 46
+47 48
+
+
+ 2024-09-19
+• Help from transfer learning • Retrain the CNN network with new data while keeping the weights of the inner layers
+Postprocessing: user adaptation
+S. Tam, M. Boukadoum, A. Campeau-Lecours, and B. Gosselin, “Intuitive real-time control strategy for high-density myoelectric hand prosthesis using deep and transfer learning,” Sci Rep, vol. 11, no. 1, p. 11275, Dec. 2021.
+Pretrained network layers Output to retrain
+• Few-shot learning with a Siamese neural network architecture provides a simpler solution to implement • User-driven reinforcement to inherently integrate user involvement in the training loop • Easier implementation in an embedded platform
+Postprocessing: deployment
+S. Tam, M. Boukadoum et al., “Siamese convolutional neural network and few-shot learning for embedded gesture recognition,” IEEE NEWCAS 2022.
+Can we do better than 1-shot?
+ 0-shot learning : trains the model based on class attributes instead of data examples
+ Ex.: match tree images with the properties of different trees species  LO-shot (less-than-one-shot!) learning : trains the model with distilled soft-labeled data
+ Initially, the probabilities of belonging to the available classes are used to partition the solution space. Then, new partitions are created for unseen before data  Ex.: a k-NN classifier with N initial classes will have its space partitioned into M > N regions
+Images: https://learnopencv.com/zero-shot-learning-an-introduction/ https://bdtechtalks.com/2020/10/01/less-than-one-shot-machine-learning/
+Back to Transformers
+• Transformer-based models such as GPT (Generative Pre-trained
+Transformer) appear to also learn unseen patterns in the training set (learn to learn)!
+• But gargantuan swallow of training and computation resources unfit for the current wearable device computing gear • GPT-3 is 96-module deep (each one a Transformer!) with 175 billions parameters to tune and store in memory, and a training set of 300 billions tokens • More guessing and hacking needed given the current SOTA
+... or maybe going back to science  (Kolmogorov-Arnold networks?)
+49 50
+51 52
+
+
+ 2024-09-19
+Crédit : xkcd.com/1838/
+• Not AGI, mostly technical progress :
+• Gradient descent (1970s), error backpropagation(1980s), CNN (1990s), RNN (1970s), GAN (2014). GPU & big data (2010s), Transformer (2017), large language models (2018)
+• Essentially guessing and hacking
+[With Deep Neural Networks,] machine learning has become alchemy, Ali Rahimi, Google (à NIPS 2017) https://www.youtube.com/watch?v=Qi1Yry33TQE Silicon Valley growth and hacker mentalities put on steroids, hoping for a lucky outcome, Demis Hassabis, DeepMind (MWC 2024) https://www.mwcbarcelona.com/agenda/sessions/4665-keynote-3-our-ai-future
+But...
+53 54

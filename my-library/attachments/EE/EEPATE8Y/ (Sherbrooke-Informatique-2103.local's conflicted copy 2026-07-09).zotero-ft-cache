@@ -1,0 +1,29 @@
+Cas d’utilisation : Gérer Bon de commande
+Documentation
+Titre Faire un bon de commande Type Use-case général Description L’acteur fait une demande pour avoir une pièce qui est listée ou non listée et qui n’est pas en magasin. Acteurs Technicien Préconditions Le bon doit être associé à une tâche. Postconditions Le bon de commande est fait. Exceptions Aucune
+Lorsque le technicien a besoin d’une pièce qui ne figure pas dans l’inventaire, il demande au système de créer un bon de commande. Pour créer un bon de commande, le technicien doit fournir comme information : la description de la pièce, le nom du fabricant, le numéro de modèle et la quantité nécessaire.
+Le technicien peut créer uniquement des bons de commande à l’intérieur d’une tâche. Lorsqu’un bon de commande est créé, il y est directement associé à la tâche pour lequel il a été créé. Cette information vient s’ajouter aux informations affichées de la tâche en indiquant le statut du bon de commande qui peut être : « En attente d’approbation », « Approuver », « Commander », « Reçu » ou « Annuler ».
+Scénario d’opération
+1. Le technicien entre le type de pièce. 2. Le technicien complète les informations nécessaires. 3. Le technicien donne la quantité. 4. Le technicien soumet la demande. 5. Le système associe le bon à la tâche. 6. Le système donne une confirmation.
+
+
+ Diagramme de séquences acteurs/système
+: A c t eur
+S y st è me
+Che rc he r Bon de c omma nde
+L is t e d e s b o n d e c o mm a n d e
+A ff ic h e r b o n d e c o mm a nd e
+in f o rma t io n b o n d e c o mma n d e
+c ré e r bon de c omma nde
+c o n f irma t io n
+M o d if ie r b o n d e c o mm a nd e
+c o n f irma t io n
+a n n ule r b o n d e c o mma n d e
+c o n f irma t io n
+A p p ro u v e r b o n d e c o mm an d e
+c o n f irma t io n
+
+
+ Interfaces
+(Écran de gestion de bon de commande)
+(Écran d’ajout/modification de bon de commande)

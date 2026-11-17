@@ -1,0 +1,63 @@
+# Explication Simplifiée des Formules Mathématiques du Rapport
+
+Bonjour ! Mettons nos casquettes de détective et décortiquons ensemble les formules mathématiques de votre rapport. L'idée est de comprendre l'intuition derrière chaque équation, sans se perdre dans un jargon trop complexe.
+
+## Partie I : Interprétabilité
+
+Dans la partie sur l'interprétabilité que vous avez sélectionnée, les concepts sont davantage qualitatifs et ne présentent pas de formules mathématiques denses à expliquer pour un grand public dans cette section. Les méthodes comme LIME et SHAP ont des fondements mathématiques, mais le document les décrit conceptuellement.
+
+## Partie II : Systèmes de Recommandation
+
+C'est ici que nous rencontrons quelques formules intéressantes ! Elles nous aident à comprendre comment les systèmes devinent ce que vous pourriez aimer.
+
+### 1. Similarité par Corrélation de Pearson (Pour le Filtrage Collaboratif User-Based)
+
+La formule :
+
+\[
+\text{sim}(a,u) = \frac{\sum_{j \in I_{au}} \left( r_{aj} - \bar{r}_a \right) \left( r_{uj} - \bar{r}_u \right)}{\sqrt{\sum_{j \in I_{au}} \left( r_{aj} - \bar{r}_a \right)^2} \sqrt{\sum_{j \in I_{au}} \left( r_{uj} - \bar{r}_u \right)^2}}
+\]
+
+À quoi ça sert ?
+
+Imaginez que vous voulez savoir si deux personnes, Alice (a) et Paul (u), ont des goûts similaires en matière de films. Cette formule calcule un score de similarité entre eux, allant de -1 (goûts totalement opposés) à +1 (goûts parfaitement identiques). Un score proche de 0 signifie qu'il n'y a pas vraiment de lien clair.
+
+### 2. Prédiction de Note pour le Filtrage Collaboratif User-Based
+
+La formule :
+
+\[
+\hat{r}_{uj} = \bar{r}_u + \frac{\sum_{v \in N_u} \left|\text{sim}(u,v)\right| \left( r_{vj} - \bar{r}_v \right)}{\sum_{v \in N_u} \left|\text{sim}(u,v)\right|}
+\]
+
+### 3. Prédiction de Note par Factorisation de Matrices (MF)
+
+La formule :
+
+\[
+\hat{r}_{ui} = p_u^T q_i = \sum_{k=1}^K p_{uk} q_{ik}
+\]
+
+### 4. Fonction de Coût pour la Factorisation de Matrices
+
+La formule :
+
+\[
+\min_{P,Q} \sum_{(u,i) \in \mathcal{K}} \left( r_{ui} - p_u^T q_i \right)^2 + \lambda \left( \|p_u\|^2 + \|q_i\|^2 \right)
+\]
+
+### 5. Prédiction de Note par Factorisation de Matrices (avec Biais)
+
+La formule :
+
+\[
+\hat{r}_{ui} = \mu + b_u + b_i + p_u^T q_i
+\]
+
+### 6. RMSE (Root Mean Squared Error) - Erreur Quadratique Moyenne Racine
+
+La formule :
+
+\[
+RMSE = \sqrt{\frac{1}{|\mathcal{T}|} \sum_{(u,i) \in \mathcal{T}} \left( r_{ui} - \hat{r}_{ui} \right)^2}
+\]
