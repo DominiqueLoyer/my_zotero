@@ -15,7 +15,7 @@ zotero-key: "JNCR7W2E"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JNCR7W2E"
 date-added: "2026-02-25 21:52:07"
-date-modified: "2026-03-25 21:29:35"
+date-modified: "2026-11-17 17:53:54"
 ---
 
 # Evaluating robustness of neural networks with mixed integer programming
@@ -25,9 +25,11 @@ date-modified: "2026-03-25 21:29:35"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4409593366
 
 ## Attachments
 
+- [Tjeng, Vincent and Xiao, Kai Y. and Tedrake, Russ - 2025 - Evaluating robustness of neural networks with mixed integer programming.pdf](../../attachments/ZR/ZR33ME8K/Tjeng%2C%20Vincent%20and%20Xiao%2C%20Kai%20Y.%20and%20Tedrake%2C%20Russ%20-%202025%20-%20Evaluating%20robustness%20of%20neural%20networks%20with%20mixed%20integer%20programming.pdf)
 - [Notion](https://app.notion.com/p/Tjeng-Vincent-and-Xiao-Kai-Y-and-Tedrake-Russ-2025-4129fa248c578112bc30d8aa179f67cf)
 
 ---

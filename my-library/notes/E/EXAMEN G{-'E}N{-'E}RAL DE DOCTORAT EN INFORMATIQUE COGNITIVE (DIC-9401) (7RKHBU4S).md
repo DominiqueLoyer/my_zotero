@@ -14,7 +14,7 @@ zotero-key: "7RKHBU4S"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7RKHBU4S"
 date-added: "2026-03-08 21:20:49"
-date-modified: "2026-03-25 21:28:50"
+date-modified: "2026-11-17 17:53:58"
 ---
 
 # EXAMEN G{\'E}N{\'E}RAL DE DOCTORAT EN INFORMATIQUE COGNITIVE (DIC-9401)
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:50"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4285476466
 
 ## Attachments
 

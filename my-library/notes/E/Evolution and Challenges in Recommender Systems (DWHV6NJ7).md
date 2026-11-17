@@ -14,7 +14,7 @@ zotero-key: "DWHV6NJ7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DWHV6NJ7"
 date-added: "2026-02-25 21:36:08"
-date-modified: "2026-03-25 21:29:49"
+date-modified: "2026-11-17 17:53:57"
 ---
 
 # Evolution and Challenges in Recommender Systems
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:49"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W7124992146
 
 ## Attachments
 

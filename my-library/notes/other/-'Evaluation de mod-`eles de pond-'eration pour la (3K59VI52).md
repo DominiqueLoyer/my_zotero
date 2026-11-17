@@ -15,7 +15,7 @@ zotero-key: "3K59VI52"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3K59VI52"
 date-added: "2026-03-06 17:07:33"
-date-modified: "2026-03-25 21:28:52"
+date-modified: "2026-11-17 17:53:55"
 ---
 
 # \'Evaluation de mod\`eles de pond\'eration pour la
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:28:52"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2089841450
 
 ## Attachments
 
