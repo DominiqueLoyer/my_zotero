@@ -13,7 +13,7 @@ zotero-key: "EG5W5HTM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EG5W5HTM"
 date-added: "2026-03-04 19:43:56"
-date-modified: "2026-03-25 21:29:06"
+date-modified: "2026-11-17 17:58:01"
 ---
 
 # Linked Data Is Merely More Data
@@ -23,6 +23,7 @@ date-modified: "2026-03-25 21:29:06"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2546750069
 
 ## Attachments
 
