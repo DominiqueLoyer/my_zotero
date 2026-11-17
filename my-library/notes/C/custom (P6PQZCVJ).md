@@ -10,10 +10,14 @@ zotero-key: "P6PQZCVJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/P6PQZCVJ"
 date-added: "2026-01-08 22:57:42"
-date-modified: "2026-11-13 19:35:14"
+date-modified: "2026-11-17 17:51:04"
 ---
 
 # custom
+
+## Extra
+
+OpenAlex: W4231874249
 
 ## Attachments
 

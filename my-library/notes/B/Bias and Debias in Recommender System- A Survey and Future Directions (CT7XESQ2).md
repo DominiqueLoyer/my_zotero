@@ -24,7 +24,7 @@ zotero-key: "CT7XESQ2"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/CT7XESQ2"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-13 19:32:33"
+date-modified: "2026-11-17 17:50:33"
 ---
 
 # Bias and Debias in Recommender System: A Survey and Future Directions
@@ -34,10 +34,12 @@ date-modified: "2026-11-13 19:32:33"
 ## Extra
 
 DOI Fix previous DOI: 10.1145/3564292
+OpenAlex: W3092103025
 
 ## Attachments
 
 - [Notion](https://app.notion.com/p/Chen-et-al-2023-4129fa248c57818f85a5c5a739d4cf81)
+- [Chen et al. - 2023 - Bias and Debias in Recommender System A Survey and Future Directions.pdf](../../attachments/CB/CB8LXYT3/Chen%20et%20al.%20-%202023%20-%20Bias%20and%20Debias%20in%20Recommender%20System%20A%20Survey%20and%20Future%20Directions.pdf)
 
 ---
 

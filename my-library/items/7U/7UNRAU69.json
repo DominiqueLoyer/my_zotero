@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Devlin-et-al-2018-4129fa248c5781e5b32ffcc2cfdfbce2"
+		},
+		{
+			"accessDate": "2026-11-17T17:50:31Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:50:31Z",
+			"dateModified": "2026-11-17T17:50:31Z",
+			"filename": "Devlin et al. - 2018 - BERT Pre-training of deep bidirectional transformers for language understanding.pdf",
+			"itemType": "attachment",
+			"key": "TM75TFGC",
+			"linkMode": "imported_url",
+			"parentItem": "7UNRAU69",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/N19-1423.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Devlin et al. - 2018 - BERT Pre-training of deep bidirectional transformers for language understanding.pdf",
+				"files": [
+					{
+						"path": "attachments/TM/TM75TFGC/Devlin et al. - 2018 - BERT Pre-training of deep bidirectional transformers for language understanding.pdf",
+						"size": 786279,
+						"storage": "git"
+					}
+				],
+				"key": "TM75TFGC",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/N19-1423.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -78,8 +111,8 @@
 		],
 		"date": "2018",
 		"dateAdded": "2025-04-10T15:02:46Z",
-		"dateModified": "2026-11-13T19:32:32Z",
-		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"dateModified": "2026-11-17T17:50:31Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400\nOpenAlex: W2963341956",
 		"itemType": "journalArticle",
 		"key": "7UNRAU69",
 		"publicationTitle": "arXiv preprint arXiv:1810.04805",

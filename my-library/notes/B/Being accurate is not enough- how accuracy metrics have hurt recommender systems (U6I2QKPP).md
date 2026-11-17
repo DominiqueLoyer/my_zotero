@@ -14,7 +14,7 @@ zotero-key: "U6I2QKPP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/U6I2QKPP"
 date-added: "2026-02-25 21:41:22"
-date-modified: "2026-11-13 19:32:30"
+date-modified: "2026-11-17 17:50:30"
 ---
 
 # Being accurate is not enough: how accuracy metrics have hurt recommender systems
@@ -25,6 +25,7 @@ date-modified: "2026-11-13 19:32:30"
 
 Importé via SysCRED.
 DOI Fix previous DOI: 10.1109/srds.2016.019
+OpenAlex: W2565047864
 
 ## Attachments
 

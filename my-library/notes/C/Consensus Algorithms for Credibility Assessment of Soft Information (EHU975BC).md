@@ -14,7 +14,7 @@ zotero-key: "EHU975BC"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EHU975BC"
 date-added: "2026-02-26 20:19:47"
-date-modified: "2026-11-13 19:34:52"
+date-modified: "2026-11-17 17:50:59"
 ---
 
 # Consensus Algorithms for Credibility Assessment of Soft Information
@@ -24,6 +24,7 @@ date-modified: "2026-11-13 19:34:52"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3125843494
 
 ## Attachments
 

@@ -16,12 +16,16 @@ zotero-key: "DGGDBWJE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DGGDBWJE"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-11-13 19:33:17"
+date-modified: "2026-11-17 17:50:43"
 ---
 
 # Bullshit jobs
 
 **Graeber, David**
+
+## Extra
+
+OpenAlex: W4251138693
 
 ## Attachments
 

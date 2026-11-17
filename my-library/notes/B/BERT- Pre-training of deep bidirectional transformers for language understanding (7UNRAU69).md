@@ -19,7 +19,7 @@ zotero-key: "7UNRAU69"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7UNRAU69"
 date-added: "2025-04-10 15:02:46"
-date-modified: "2026-11-13 19:32:32"
+date-modified: "2026-11-17 17:50:31"
 ---
 
 # BERT: Pre-training of deep bidirectional transformers for language understanding
@@ -30,9 +30,11 @@ date-modified: "2026-11-13 19:32:32"
 
 tex.date-added: 2025-04-10 09:48:04 -0400
 tex.date-modified: 2025-04-10 09:48:04 -0400
+OpenAlex: W2963341956
 
 ## Attachments
 
+- [Devlin et al. - 2018 - BERT Pre-training of deep bidirectional transformers for language understanding.pdf](../../attachments/TM/TM75TFGC/Devlin%20et%20al.%20-%202018%20-%20BERT%20Pre-training%20of%20deep%20bidirectional%20transformers%20for%20language%20understanding.pdf)
 - [Notion](https://app.notion.com/p/Devlin-et-al-2018-4129fa248c5781e5b32ffcc2cfdfbce2)
 
 ---

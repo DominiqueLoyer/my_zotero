@@ -21,12 +21,16 @@ zotero-key: "V5R3U6FR"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/V5R3U6FR"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-13 19:32:28"
+date-modified: "2026-11-17 17:50:29"
 ---
 
 # Autorec: Autoencoders meet collaborative filtering
 
 **Sedhain, Suvash; Menon, Aditya Krishna; Sanner, Scott; Xie, Lexing**
+
+## Extra
+
+OpenAlex: W1720514416
 
 ## Attachments
 

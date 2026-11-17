@@ -16,12 +16,16 @@ zotero-key: "J9A3FCHY"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/J9A3FCHY"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-13 19:33:45"
+date-modified: "2026-11-17 17:50:46"
 ---
 
 # Causal Explanations and XAI
 
 **Beckers, Sander**
+
+## Extra
+
+OpenAlex: W4283156005
 
 ## Attachments
 

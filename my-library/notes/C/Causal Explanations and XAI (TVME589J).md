@@ -14,7 +14,7 @@ zotero-key: "TVME589J"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TVME589J"
 date-added: "2026-02-25 21:32:51"
-date-modified: "2026-11-13 19:33:48"
+date-modified: "2026-11-17 17:50:47"
 ---
 
 # Causal Explanations and XAI
@@ -24,6 +24,7 @@ date-modified: "2026-11-13 19:33:48"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4283156005
 
 ## Attachments
 

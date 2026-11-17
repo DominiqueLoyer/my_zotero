@@ -10,10 +10,14 @@ zotero-key: "9DTFUFZC"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9DTFUFZC"
 date-added: "2026-01-08 22:57:46"
-date-modified: "2026-11-13 19:32:43"
+date-modified: "2026-11-17 17:50:36"
 ---
 
 # bibtex
+
+## Extra
+
+OpenAlex: W4394835107
 
 ## Attachments
 

@@ -10,10 +10,14 @@ zotero-key: "XLIBF6EZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XLIBF6EZ"
 date-added: "2026-01-08 22:57:47"
-date-modified: "2026-11-13 19:35:17"
+date-modified: "2026-11-17 17:51:05"
 ---
 
 # custom copie
+
+## Extra
+
+OpenAlex: W4253192206
 
 ## Attachments
 

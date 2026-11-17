@@ -14,7 +14,7 @@ zotero-key: "48GNDUBP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/48GNDUBP"
 date-added: "2026-02-25 20:54:34"
-date-modified: "2026-03-25 21:29:58"
+date-modified: "2026-11-17 17:51:09"
 ---
 
 # Das Prinzip Verantwortung. Versuch einer Ethik f{\"u}r die technologische Zivilisation
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:58"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3129322261
 
 ## Attachments
 

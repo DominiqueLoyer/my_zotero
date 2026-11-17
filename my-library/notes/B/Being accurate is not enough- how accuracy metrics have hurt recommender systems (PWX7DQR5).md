@@ -20,12 +20,16 @@ zotero-key: "PWX7DQR5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PWX7DQR5"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-13 19:32:30"
+date-modified: "2026-11-17 17:50:29"
 ---
 
 # Being accurate is not enough: how accuracy metrics have hurt recommender systems
 
 **McNee, Sean M.; Riedl, John; Konstan, Joseph A.**
+
+## Extra
+
+OpenAlex: W2049670925
 
 ## Attachments
 

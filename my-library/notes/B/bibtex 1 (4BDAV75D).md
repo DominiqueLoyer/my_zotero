@@ -10,10 +10,14 @@ zotero-key: "4BDAV75D"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4BDAV75D"
 date-added: "2026-01-08 22:57:45"
-date-modified: "2026-11-13 19:32:45"
+date-modified: "2026-11-17 17:50:37"
 ---
 
 # bibtex 1
+
+## Extra
+
+OpenAlex: W4394835107
 
 ## Attachments
 

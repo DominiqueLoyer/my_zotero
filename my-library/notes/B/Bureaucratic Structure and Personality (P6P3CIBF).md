@@ -14,7 +14,7 @@ zotero-key: "P6P3CIBF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/P6P3CIBF"
 date-added: "2026-02-25 20:55:31"
-date-modified: "2026-03-25 21:29:56"
+date-modified: "2026-11-17 17:50:45"
 ---
 
 # Bureaucratic Structure and Personality
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:56"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1980685039
 
 ## Attachments
 

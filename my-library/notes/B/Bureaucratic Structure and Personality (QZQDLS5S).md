@@ -19,12 +19,16 @@ zotero-key: "QZQDLS5S"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QZQDLS5S"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-09 15:07:26"
+date-modified: "2026-11-17 17:50:45"
 ---
 
 # Bureaucratic Structure and Personality
 
 **Merton, Robert K.**
+
+## Extra
+
+OpenAlex: W1980685039
 
 ## Attachments
 

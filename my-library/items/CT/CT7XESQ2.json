@@ -22,6 +22,22 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Chen-et-al-2023-4129fa248c57818f85a5c5a739d4cf81"
+		},
+		{
+			"accessDate": "2026-11-17T17:50:33Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:50:33Z",
+			"dateModified": "2026-11-17T17:50:33Z",
+			"filename": "Chen et al. - 2023 - Bias and Debias in Recommender System A Survey and Future Directions.pdf",
+			"itemType": "attachment",
+			"key": "CB8LXYT3",
+			"linkMode": "imported_url",
+			"parentItem": "CT7XESQ2",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2010.03240"
 		}
 	],
 	"meta": {
@@ -36,6 +52,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "https://app.notion.com/p/Chen-et-al-2023-4129fa248c57818f85a5c5a739d4cf81"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Chen et al. - 2023 - Bias and Debias in Recommender System A Survey and Future Directions.pdf",
+				"files": [
+					{
+						"path": "attachments/CB/CB8LXYT3/Chen et al. - 2023 - Bias and Debias in Recommender System A Survey and Future Directions.pdf",
+						"size": 1793185,
+						"storage": "git"
+					}
+				],
+				"key": "CB8LXYT3",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2010.03240"
 			}
 		],
 		"collections": [
@@ -99,8 +132,8 @@
 		],
 		"date": "2023",
 		"dateAdded": "2025-10-10T19:01:25Z",
-		"dateModified": "2026-11-13T19:32:33Z",
-		"extra": "DOI Fix previous DOI: 10.1145/3564292",
+		"dateModified": "2026-11-17T17:50:33Z",
+		"extra": "DOI Fix previous DOI: 10.1145/3564292\nOpenAlex: W3092103025",
 		"issue": "3",
 		"itemType": "journalArticle",
 		"key": "CT7XESQ2",

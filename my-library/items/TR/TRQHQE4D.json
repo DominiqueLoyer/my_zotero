@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:50:40Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:50:40Z",
+			"dateModified": "2026-11-17T17:50:40Z",
+			"filename": "Anja Loth and Marco Kappes and Marc-Oliver Pahl - 2024 - Blessing or curse A survey on the Impact of Generative AI on Fake News.pdf",
+			"itemType": "attachment",
+			"key": "LYC7FRAV",
+			"linkMode": "imported_url",
+			"parentItem": "TRQHQE4D",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2404.03021"
+		},
+		{
 			"accessDate": "2026-03-09T20:39:07Z",
 			"charset": "",
 			"contentType": "",
@@ -33,6 +49,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "https://app.notion.com/p/Anja-Loth-and-Marco-Kappes-and-Marc-Oliver-Pahl-2024-4129fa248c5781f984f8db174d7fee9c"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Anja Loth and Marco Kappes and Marc-Oliver Pahl - 2024 - Blessing or curse A survey on the Impact of Generative AI on Fake News.pdf",
+				"files": [
+					{
+						"path": "attachments/LY/LYC7FRAV/Anja Loth and Marco Kappes and Marc-Oliver Pahl - 2024 - Blessing or curse A survey on the Impact of Generative AI on Fake News.pdf",
+						"size": 337945,
+						"storage": "git"
+					}
+				],
+				"key": "LYC7FRAV",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2404.03021"
 			}
 		],
 		"collections": [],
@@ -58,8 +91,8 @@
 		],
 		"date": "2024",
 		"dateAdded": "2026-03-03T23:15:51Z",
-		"dateModified": "2026-11-13T19:32:58Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:50:40Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W4394007063",
 		"itemType": "journalArticle",
 		"key": "TRQHQE4D",
 		"relations": {

@@ -12,7 +12,7 @@ zotero-key: "EVCD9HIW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EVCD9HIW"
 date-added: "2026-03-03 23:40:30"
-date-modified: "2026-03-25 21:29:08"
+date-modified: "2026-11-17 17:51:02"
 ---
 
 # Credibility in social media: opinions, news, and health information—a survey
@@ -22,6 +22,7 @@ date-modified: "2026-03-25 21:29:08"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2620789444
 
 ## Attachments
 

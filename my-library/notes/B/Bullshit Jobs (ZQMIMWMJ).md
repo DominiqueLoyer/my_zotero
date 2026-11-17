@@ -15,12 +15,16 @@ zotero-key: "ZQMIMWMJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZQMIMWMJ"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-13 19:33:11"
+date-modified: "2026-11-17 17:50:43"
 ---
 
 # Bullshit Jobs
 
 **Graeber, David**
+
+## Extra
+
+OpenAlex: W4251138693
 
 ## Attachments
 

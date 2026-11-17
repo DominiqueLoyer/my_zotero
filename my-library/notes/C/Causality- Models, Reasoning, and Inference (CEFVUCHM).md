@@ -16,12 +16,16 @@ zotero-key: "CEFVUCHM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/CEFVUCHM"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-13 19:33:54"
+date-modified: "2026-11-17 17:50:48"
 ---
 
 # Causality: Models, Reasoning, and Inference
 
 **Pearl, Judea**
+
+## Extra
+
+OpenAlex: W2143891888
 
 ## Attachments
 

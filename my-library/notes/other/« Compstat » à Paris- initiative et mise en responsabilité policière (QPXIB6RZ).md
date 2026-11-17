@@ -14,7 +14,7 @@ zotero-key: "QPXIB6RZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QPXIB6RZ"
 date-added: "2026-02-25 21:35:47"
-date-modified: "2026-03-25 21:29:50"
+date-modified: "2026-11-17 17:50:57"
 ---
 
 # « Compstat » à Paris: initiative et mise en responsabilité policière
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:50"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1500320612
 
 ## Attachments
 

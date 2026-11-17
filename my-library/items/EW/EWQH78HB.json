@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:50:34Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:50:34Z",
+			"dateModified": "2026-11-17T17:50:34Z",
+			"filename": "Menzner, Philipp and Leidner, Jochen L. - 2018 - BiasScanner Detecting Biased Statements in News Articles.pdf",
+			"itemType": "attachment",
+			"key": "AREJYYIL",
+			"linkMode": "imported_file",
+			"parentItem": "EWQH78HB",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W2798279345.pdf"
+		},
+		{
 			"accessDate": "2026-02-26T22:35:07Z",
 			"charset": "",
 			"contentType": "",
@@ -23,6 +39,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Menzner, Philipp and Leidner, Jochen L. - 2018 - BiasScanner Detecting Biased Statements in News Articles.pdf",
+				"files": [
+					{
+						"path": "attachments/AR/AREJYYIL/Menzner, Philipp and Leidner, Jochen L. - 2018 - BiasScanner Detecting Biased Statements in News Articles.pdf",
+						"size": 1113696,
+						"storage": "git"
+					}
+				],
+				"key": "AREJYYIL",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W2798279345.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -63,8 +96,8 @@
 		],
 		"date": "2018",
 		"dateAdded": "2026-02-26T20:20:44Z",
-		"dateModified": "2026-11-13T19:32:40Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:50:34Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W2798279345",
 		"itemType": "journalArticle",
 		"key": "EWQH78HB",
 		"relations": {

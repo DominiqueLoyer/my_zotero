@@ -10,10 +10,14 @@ zotero-key: "5GWCBYWP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5GWCBYWP"
 date-added: "2026-01-08 22:57:43"
-date-modified: "2026-11-13 19:35:15"
+date-modified: "2026-11-17 17:51:05"
 ---
 
 # custom 1
+
+## Extra
+
+OpenAlex: W4231874249
 
 ## Attachments
 

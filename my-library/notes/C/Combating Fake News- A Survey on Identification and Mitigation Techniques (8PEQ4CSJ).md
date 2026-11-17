@@ -14,7 +14,7 @@ zotero-key: "8PEQ4CSJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8PEQ4CSJ"
 date-added: "2026-02-26 20:21:52"
-date-modified: "2026-11-13 19:34:37"
+date-modified: "2026-11-17 17:50:57"
 ---
 
 # Combating Fake News: A Survey on Identification and Mitigation Techniques
@@ -25,6 +25,7 @@ date-modified: "2026-11-13 19:34:37"
 
 Importé via SysCRED.
 DOI Fix previous DOI: 10.1109/icoei51242.2021.9452829
+OpenAlex: W3177132746
 
 ## Attachments
 

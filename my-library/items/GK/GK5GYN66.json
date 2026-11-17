@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:50:50Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:50:50Z",
+			"dateModified": "2026-11-17T17:50:50Z",
+			"filename": "Dominique - 2015 - «Chandigarh 50 ans après Le Corbusier. Le devenir indien d'une ville moderne». Compte rendu d'expos.pdf",
+			"itemType": "attachment",
+			"key": "NW3QMSZ9",
+			"linkMode": "imported_file",
+			"parentItem": "GK5GYN66",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4379142710.pdf"
+		},
+		{
 			"accessDate": "2026-11-08T16:07:57Z",
 			"charset": "",
 			"contentType": "",
@@ -19,6 +35,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Dominique - 2015 - «Chandigarh 50 ans après Le Corbusier. Le devenir indien d'une ville moderne». Compte rendu d'expos.pdf",
+				"files": [
+					{
+						"path": "attachments/NW/NW3QMSZ9/Dominique - 2015 - «Chandigarh 50 ans après Le Corbusier. Le devenir indien d'une ville moderne». Compte rendu d'expos.pdf",
+						"size": 162629,
+						"storage": "git"
+					}
+				],
+				"key": "NW3QMSZ9",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4379142710.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -60,8 +93,8 @@
 		],
 		"date": "2015",
 		"dateAdded": "2026-04-17T21:00:10Z",
-		"dateModified": "2026-11-13T19:34:07Z",
-		"extra": "tex.researchrabbitid: f409a511-0c4e-4bae-9d36-5aef229a1bc1",
+		"dateModified": "2026-11-17T17:50:50Z",
+		"extra": "tex.researchrabbitid: f409a511-0c4e-4bae-9d36-5aef229a1bc1\nOpenAlex: W4379142710",
 		"itemType": "journalArticle",
 		"key": "GK5GYN66",
 		"publicationTitle": "Histoire Politique. Revue du Centre d' …",

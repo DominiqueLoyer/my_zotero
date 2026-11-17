@@ -18,7 +18,7 @@ zotero-key: "PPB6LA4Q"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PPB6LA4Q"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-03-25 21:30:05"
+date-modified: "2026-11-17 17:51:03"
 ---
 
 # (Cross-)browser fingerprinting via OS and hardware level features
@@ -32,6 +32,7 @@ In this paper, we propose a browser fingerprinting technique that can track user
 ## Extra
 
 titleTranslation: (Cross-)browser fingerprinting via OS and hardware level features
+OpenAlex: W2612608334
 
 ## Attachments
 

@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:50:39Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:50:39Z",
+			"dateModified": "2026-11-17T17:50:39Z",
+			"filename": "Brayne - 2017 - Big data surveillance The case of policing.pdf",
+			"itemType": "attachment",
+			"key": "84WTJ5TP",
+			"linkMode": "imported_url",
+			"parentItem": "GF2J9ME6",
+			"relations": {},
+			"tags": [],
+			"title": "Accepted Version",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10846878/pdf/nihms-1913546.pdf"
+		},
+		{
 			"accessDate": "2026-01-08T20:40:43Z",
 			"charset": "",
 			"contentType": "",
@@ -23,6 +39,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Brayne - 2017 - Big data surveillance The case of policing.pdf",
+				"files": [
+					{
+						"path": "attachments/84/84WTJ5TP/Brayne - 2017 - Big data surveillance The case of policing.pdf",
+						"size": 1126110,
+						"storage": "git"
+					}
+				],
+				"key": "84WTJ5TP",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Accepted Version",
+				"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10846878/pdf/nihms-1913546.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -64,7 +97,8 @@
 		],
 		"date": "2017",
 		"dateAdded": "2026-01-08T20:07:30Z",
-		"dateModified": "2026-03-25T21:30:46Z",
+		"dateModified": "2026-11-17T17:50:39Z",
+		"extra": "OpenAlex: W2751772126",
 		"issue": "5",
 		"itemType": "journalArticle",
 		"key": "GF2J9ME6",

@@ -22,6 +22,22 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "https://app.notion.com/p/Koh-et-al-2020-4129fa248c5781b9acf3e367fbd55f9b"
+		},
+		{
+			"accessDate": "2026-11-17T17:50:58Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:50:58Z",
+			"dateModified": "2026-11-17T17:50:58Z",
+			"filename": "Koh et al. - 2020 - Concept Bottleneck Models.pdf",
+			"itemType": "attachment",
+			"key": "ALCEECXG",
+			"linkMode": "imported_url",
+			"parentItem": "Q5ZUY9BT",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2007.04612"
 		}
 	],
 	"meta": {
@@ -36,6 +52,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "https://app.notion.com/p/Koh-et-al-2020-4129fa248c5781b9acf3e367fbd55f9b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Koh et al. - 2020 - Concept Bottleneck Models.pdf",
+				"files": [
+					{
+						"path": "attachments/AL/ALCEECXG/Koh et al. - 2020 - Concept Bottleneck Models.pdf",
+						"size": 6200225,
+						"storage": "git"
+					}
+				],
+				"key": "ALCEECXG",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2007.04612"
 			}
 		],
 		"collections": [
@@ -104,7 +137,8 @@
 		],
 		"date": "2020",
 		"dateAdded": "2025-10-10T19:01:27Z",
-		"dateModified": "2026-11-13T19:34:44Z",
+		"dateModified": "2026-11-17T17:50:58Z",
+		"extra": "OpenAlex: W3035602609",
 		"itemType": "conferencePaper",
 		"key": "Q5ZUY9BT",
 		"pages": "5338–5348",
