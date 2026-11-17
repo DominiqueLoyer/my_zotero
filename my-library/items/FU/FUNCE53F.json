@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:08:24Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:08:24Z",
+			"dateModified": "2026-11-08T16:08:24Z",
+			"filename": "Visani, Giulio and Bagli, Enrico and Chesani, Federico - 2023 - A survey on the state of the art of the reliability of post-hoc explanation methods.pdf",
+			"itemType": "attachment",
+			"key": "F3VVUPJI",
+			"linkMode": "imported_url",
+			"parentItem": "FUNCE53F",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=11039632&ref="
+		},
+		{
+			"accessDate": "2026-02-25T22:15:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:43Z",
+			"dateModified": "2026-11-09T17:04:56Z",
+			"itemType": "attachment",
+			"key": "UTD7NL72",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:56 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "FUNCE53F",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2MXAZV6M",
+					"http://zotero.org/groups/6376680/items/H6WBBP2S"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Visani-Giulio-and-Bagli-Enrico-and-Chesani-Federico-2023-4129fa248c5781fba045d1eda7debb67"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Visani, Giulio and Bagli, Enrico and Chesani, Federico - 2023 - A survey on the state of the art of the reliability of post-hoc explanation methods.pdf",
+				"files": [
+					{
+						"path": "attachments/F3/F3VVUPJI/Visani, Giulio and Bagli, Enrico and Chesani, Federico - 2023 - A survey on the state of the art of the reliability of post-hoc explanation methods.pdf",
+						"size": 4859386,
+						"storage": "git"
+					}
+				],
+				"key": "F3VVUPJI",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=11039632&ref="
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UTD7NL72",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Visani-Giulio-and-Bagli-Enrico-and-Chesani-Federico-2023-4129fa248c5781fba045d1eda7debb67"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Visani, Giulio and Bagli, Enrico and Chesani, Federico"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A survey on the state of the art of the reliability of post-hoc explanation methods",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/FUNCE53F"
+	},
+	"zotero": {
+		"DOI": "10.36227/techrxiv.173834937.72763339/v1",
+		"citationKey": "visanigiulioandbaglienricoandchesanifedericoSurveyStateArt2023",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Visani, Giulio and Bagli, Enrico and Chesani, Federico"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-02-25T21:53:41Z",
+		"dateModified": "2026-11-13T19:30:17Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "FUNCE53F",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/7JKN2CVX",
+				"http://zotero.org/groups/6376680/items/XUSU72HY"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A survey on the state of the art of the reliability of post-hoc explanation methods"
+	}
+}

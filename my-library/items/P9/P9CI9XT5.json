@@ -1,0 +1,128 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-13T14:38:53Z",
+			"dateModified": "2025-03-13T14:39:00Z",
+			"filename": "Benamara et al. - 2023 - Evaluating a Model of Pathological Affect based on Pedagogical Situations for a Virtual Patient.pdf",
+			"itemType": "attachment",
+			"key": "G3IGE2GI",
+			"linkMode": "imported_file",
+			"parentItem": "P9CI9XT5",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:37:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:01Z",
+			"dateModified": "2026-11-09T17:08:18Z",
+			"itemType": "attachment",
+			"key": "IWSL4LUE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:18 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "P9CI9XT5",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Benamara-et-al-2023-4129fa248c5781c6948fc87e4f3ef85b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IWSL4LUE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Benamara-et-al-2023-4129fa248c5781c6948fc87e4f3ef85b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Benamara et al. - 2023 - Evaluating a Model of Pathological Affect based on Pedagogical Situations for a Virtual Patient.pdf",
+				"files": [],
+				"key": "G3IGE2GI",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/9270 (H25)/JC Martin 13 mars25"
+		],
+		"creators": [
+			"Benamara, Amine",
+			"Martin, Jean-Claude",
+			"Prigent, Elise",
+			"Ravenet, Brian"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Evaluating a Model of Pathological Affect based on Pedagogical Situations for a Virtual Patient",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/P9CI9XT5"
+	},
+	"zotero": {
+		"DOI": "10.1145/3570945.3607325",
+		"ISBN": "978-1-4503-9994-4",
+		"abstractNote": "The COPALZ model [3] is designed to simulate emotional disorders of a virtual agent representing a patient in a pedagogical scenario for training healthcare professionals. The identification of emotional and expressive pathologies may sometimes require an assessment over multiple interactions with trainees, as behaviors associated with emotional disorders are not systematically observed on patients’ behavior in the early stages of the pathology. The aim of this article is to propose an evaluation method for this model, which, in the case of computational models of affects that generate nonverbal behaviors, requires a tailored approach. This task can be difficult as the correspondence between a pathology and observed behaviors is not systematic. Our method focuses on the pedagogical dimension and on the ability of the model to display pathological behaviors identified as relevant for training interactions. The results highlight the ability of the studied model to simulate multiple relevant pedagogical situations and adapt the virtual patient’s behaviors to the evolution of the pathology and the patient’s mood instability. This method gives interesting perspectives for the evaluation of virtual patients and computational models of affect.",
+		"accessDate": "2025-03-13T14:39:00Z",
+		"citationKey": "benamaraEvaluatingModelPathological2023",
+		"collections": [
+			"C688M7SV"
+		],
+		"conferenceName": "IVA '23: ACM International Conference on Intelligent Virtual Agents",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Amine",
+				"lastName": "Benamara"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jean-Claude",
+				"lastName": "Martin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Elise",
+				"lastName": "Prigent"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Brian",
+				"lastName": "Ravenet"
+			}
+		],
+		"date": "2023-09-19",
+		"dateAdded": "2025-03-13T14:39:00Z",
+		"dateModified": "2025-12-05T22:37:01Z",
+		"itemType": "conferencePaper",
+		"key": "P9CI9XT5",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1-8",
+		"place": "Würzburg Germany",
+		"proceedingsTitle": "Proceedings of the 23rd ACM International Conference on Intelligent Virtual Agents",
+		"publisher": "ACM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Evaluating a Model of Pathological Affect based on Pedagogical Situations for a Virtual Patient",
+		"url": "https://dl.acm.org/doi/10.1145/3570945.3607325"
+	}
+}

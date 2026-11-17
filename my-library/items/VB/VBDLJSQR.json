@@ -1,0 +1,109 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-08T17:52:33Z",
+			"dateModified": "2024-12-08T17:52:42Z",
+			"filename": "2011 - Data Mining Practical Machine Learning Tools and Techniques.pdf",
+			"itemType": "attachment",
+			"key": "AHV9X7UR",
+			"linkMode": "imported_file",
+			"parentItem": "VBDLJSQR",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:35:44Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:44Z",
+			"dateModified": "2026-11-09T17:06:58Z",
+			"itemType": "attachment",
+			"key": "J58IUU3Q",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:58 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VBDLJSQR",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Data-Mining-Practical-Machine-Learning-Tools-and-Techniques-2011-4129fa248c57818297ecea84fbdda916"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "J58IUU3Q",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Data-Mining-Practical-Machine-Learning-Tools-and-Techniques-2011-4129fa248c57818297ecea84fbdda916"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "2011 - Data Mining Practical Machine Learning Tools and Techniques.pdf",
+				"files": [
+					{
+						"path": "attachments/AH/AHV9X7UR/2011 - Data Mining Practical Machine Learning Tools and Techniques.pdf",
+						"size": 6351086,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/AH/AHV9X7UR/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 212207,
+						"storage": "git"
+					}
+				],
+				"key": "AHV9X7UR",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/Dic9150/Analyse des données"
+		],
+		"creators": [],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Data Mining: Practical Machine Learning Tools and Techniques",
+		"year": "2011",
+		"zoteroURI": "zotero://select/library/items/VBDLJSQR"
+	},
+	"zotero": {
+		"DOI": "10.1016/C2009-0-19715-5",
+		"ISBN": "978-0-12-374856-0",
+		"accessDate": "2024-12-08T17:52:41Z",
+		"citationKey": "DataMiningPractical2011",
+		"collections": [
+			"KEP7659E"
+		],
+		"creators": [],
+		"date": "2011",
+		"dateAdded": "2024-12-08T17:52:41Z",
+		"dateModified": "2025-12-05T22:35:44Z",
+		"itemType": "book",
+		"key": "VBDLJSQR",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"publisher": "Elsevier",
+		"relations": {},
+		"shortTitle": "Data Mining",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Data Mining: Practical Machine Learning Tools and Techniques",
+		"url": "https://linkinghub.elsevier.com/retrieve/pii/C20090197155"
+	}
+}

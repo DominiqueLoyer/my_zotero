@@ -1,0 +1,214 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:22:48Z",
+			"dateModified": "2026-11-09T15:05:22Z",
+			"itemType": "attachment",
+			"key": "3KHUVN4I",
+			"linkMode": "linked_file",
+			"parentItem": "NIXGQW5J",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/beamer_modelisation_030326/PDFs/Zhou and Zafarani - 2021 - A Survey of Fake News Fundamental Theories, Detection Methods, and Opportunities.pdf",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/5HKYYKVR",
+					"http://zotero.org/users/15425556/items/AGHXYPTE"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-03-14T17:35:14Z",
+			"dateModified": "2026-03-14T17:35:14Z",
+			"itemType": "note",
+			"key": "AUKDIDZE",
+			"note": "Comment: ACM Computing Surveys (CSUR), 37 pages",
+			"parentItem": "NIXGQW5J",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HMH4IVBS"
+				]
+			},
+			"tags": []
+		},
+		{
+			"dateAdded": "2026-03-14T17:37:23Z",
+			"dateModified": "2026-11-09T15:05:22Z",
+			"itemType": "note",
+			"key": "GC6NVL99",
+			"note": "Comment: ACM Computing Surveys (CSUR), 37 pages",
+			"parentItem": "NIXGQW5J",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/9XJ9APU6"
+				]
+			},
+			"tags": []
+		},
+		{
+			"dateAdded": "2026-03-14T17:39:04Z",
+			"dateModified": "2026-11-09T15:05:22Z",
+			"itemType": "note",
+			"key": "MKLEML6R",
+			"note": "Comment: ACM Computing Surveys (CSUR), 37 pages",
+			"parentItem": "NIXGQW5J",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/FLI8R22Z"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-03-14T18:18:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:18:00Z",
+			"dateModified": "2026-11-09T17:04:48Z",
+			"itemType": "attachment",
+			"key": "P67PXC49",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:48 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "NIXGQW5J",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/GAF2QSTL"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Zhou-and-Zafarani-2021-4129fa248c5781939ff1d61205590b73"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "P67PXC49",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Zhou-and-Zafarani-2021-4129fa248c5781939ff1d61205590b73"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zhou and Zafarani - 2021 - A Survey of Fake News Fundamental Theories, Detection Methods, and Opportunities.pdf",
+				"files": [
+					{
+						"path": "attachments/3K/3KHUVN4I/Zhou and Zafarani - 2021 - A Survey of Fake News Fundamental Theories, Detection Methods, and Opportunities.pdf",
+						"size": 6901364,
+						"storage": "git"
+					}
+				],
+				"key": "3KHUVN4I",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/beamer_modelisation_030326/PDFs",
+			"_ALL_CIT_140326/ontoCRED_030326/PDFs",
+			"_ALL_CIT_140326/ontoCRED_250226/PDFs"
+		],
+		"creators": [
+			"Zhou, Xinyi",
+			"Zafarani, Reza"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "MKLEML6R",
+				"title": "Comment: ACM Computing Surveys (CSUR), 37 pages"
+			},
+			{
+				"key": "GC6NVL99",
+				"title": "Comment: ACM Computing Surveys (CSUR), 37 pages"
+			},
+			{
+				"key": "AUKDIDZE",
+				"title": "Comment: ACM Computing Surveys (CSUR), 37 pages"
+			}
+		],
+		"title": "A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/NIXGQW5J"
+	},
+	"zotero": {
+		"DOI": "10.1145/3395046",
+		"ISSN": "0360-0300, 1557-7341",
+		"abstractNote": "The explosive growth in fake news and its erosion to democracy, justice, and public trust has increased the demand for fake news detection and intervention. This survey reviews and evaluates methods that can detect fake news from four perspectives: (1) the false knowledge it carries, (2) its writing style, (3) its propagation patterns, and (4) the credibility of its source. The survey also highlights some potential research tasks based on the review. In particular, we identify and detail related fundamental theories across various disciplines to encourage interdisciplinary research on fake news. We hope this survey can facilitate collaborative efforts among experts in computer and information sciences, social sciences, political science, and journalism to research fake news, where such efforts can lead to fake news detection that is not only efficient but more importantly, explainable.",
+		"accessDate": "2026-03-14T17:35:14Z",
+		"citationKey": "zhouSurveyFakeNews2021",
+		"collections": [
+			"EJNXQCUQ",
+			"JTRHBT4K",
+			"VET5I7ZN"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xinyi",
+				"lastName": "Zhou"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Reza",
+				"lastName": "Zafarani"
+			}
+		],
+		"date": "2021-09-30",
+		"dateAdded": "2026-03-14T17:35:14Z",
+		"dateModified": "2026-11-13T19:30:09Z",
+		"extra": "arXiv:1812.00315 [cs]",
+		"issue": "5",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "ACM Comput. Surv.",
+		"key": "NIXGQW5J",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"pages": "1-40",
+		"publicationTitle": "ACM Computing Surveys",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/PYMRX8VY",
+				"http://zotero.org/users/15425556/items/VGM8A3QC"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/BR6JC99P",
+				"http://zotero.org/groups/6376680/items/L6EGYJYJ",
+				"http://zotero.org/groups/6376680/items/MKT78ERX"
+			]
+		},
+		"shortTitle": "A Survey of Fake News",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Social and Information Networks",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities",
+		"url": "http://arxiv.org/abs/1812.00315",
+		"volume": "53"
+	}
+}

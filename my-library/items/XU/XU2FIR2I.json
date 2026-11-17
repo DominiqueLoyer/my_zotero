@@ -1,0 +1,141 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:42Z",
+			"dateModified": "2026-01-02T19:18:13Z",
+			"itemType": "attachment",
+			"key": "64S5EEWE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:13 p.m.</p>",
+			"parentItem": "XU2FIR2I",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/souakerLightSiameseNeural2024-2c09fa248c5781ec9804efd9ef009b62"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-08T14:23:46Z",
+			"dateModified": "2024-11-22T16:29:00Z",
+			"filename": "Souaker et Boukadoum - 2024 - Light Siamese Neural Network Architecture for Image Comparison.pdf",
+			"itemType": "attachment",
+			"key": "SLMAF9SW",
+			"linkMode": "imported_file",
+			"parentItem": "XU2FIR2I",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/W9TMLPU4"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "64S5EEWE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/souakerLightSiameseNeural2024-2c09fa248c5781ec9804efd9ef009b62"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Souaker et Boukadoum - 2024 - Light Siamese Neural Network Architecture for Image Comparison.pdf",
+				"files": [
+					{
+						"path": "attachments/SL/SLMAF9SW/Souaker et Boukadoum - 2024 - Light Siamese Neural Network Architecture for Image Comparison.pdf",
+						"size": 344107,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/SL/SLMAF9SW/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 25253,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/SL/SLMAF9SW/Souaker et Boukadoum - 2024 - Light Siamese Neural Network Architecture for Image Comparison (trashed 2025-11-24 15-34-11) (trashed 2025-12-05 17-17-43).pdf",
+						"size": 344107,
+						"storage": "git"
+					}
+				],
+				"key": "SLMAF9SW",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9270(A24)/conférence Mouhnir 19sept24 méta-apprentissage (few shots learning)"
+		],
+		"creators": [
+			"Souaker, Fathi",
+			"Boukadoum, Mounir"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Light Siamese Neural Network Architecture for Image Comparison",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/XU2FIR2I"
+	},
+	"zotero": {
+		"DOI": "10.1109/LASCAS60203.2024.10506129",
+		"ISBN": "979-8-3503-8122-1",
+		"abstractNote": "Deep neural networks typically require large training sets and powerful processing hardware, thus making their use difﬁcult in training data or processing resource-limited systems. Siamese neural networks use few-shot learning to address this problem. However, their twins are typically implemented with standard multilayered perceptrons (MLP) or convolutional neural networks (CNN), which still require large training sets and powerful processing hardware. We propose a simpliﬁed Siamese model that uses a single Inception module for the twins instead of a full Inception CNN, for 20 times less parameters to learn and an easier implementation. Our validation experiments to assess whether the image of a molecular structure bears similarity with a reference shows 95.6% average accuracy for three different reference molecules, using training sets of just 25 randomly selected pairs of positive and negative examples for the twins. The training took 43 minutes to complete on an Intel I5-based PC station with no GPU acceleration.",
+		"accessDate": "2024-11-08T14:23:50Z",
+		"citationKey": "souakerLightSiameseNeural2024",
+		"collections": [
+			"MB324HL4"
+		],
+		"conferenceName": "2024 IEEE 15th Latin America Symposium on Circuits and Systems (LASCAS)",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Fathi",
+				"lastName": "Souaker"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mounir",
+				"lastName": "Boukadoum"
+			}
+		],
+		"date": "2024-2-27",
+		"dateAdded": "2024-11-08T14:23:50Z",
+		"dateModified": "2025-12-05T22:25:42Z",
+		"itemType": "conferencePaper",
+		"key": "XU2FIR2I",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1-5",
+		"place": "Punta del Este, Uruguay",
+		"proceedingsTitle": "2024 IEEE 15th Latin America Symposium on Circuits and Systems (LASCAS)",
+		"publisher": "IEEE",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/6UDNCMGN"
+			]
+		},
+		"rights": "https://doi.org/10.15223/policy-029",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Light Siamese Neural Network Architecture for Image Comparison",
+		"url": "https://ieeexplore.ieee.org/document/10506129/"
+	}
+}

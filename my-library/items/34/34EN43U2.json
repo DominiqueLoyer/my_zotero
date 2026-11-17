@@ -1,0 +1,120 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:34:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:34:31Z",
+			"dateModified": "2026-11-09T15:00:16Z",
+			"itemType": "attachment",
+			"key": "9RS2M2BF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:02 p.m.</p>",
+			"parentItem": "34EN43U2",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/koenig2019fin-2e29fa248c5781d0b006c5a262096652"
+		},
+		{
+			"accessDate": "2025-12-05T22:32:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:57Z",
+			"dateModified": "2026-11-09T15:00:16Z",
+			"itemType": "attachment",
+			"key": "MCI86WNP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:11:10 p.m.</p>",
+			"parentItem": "34EN43U2",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/GN2X25L8"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/XUB9HGL7"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/koenigFinLindividuVoyage2019-2c09fa248c57815286a6f08619ce8e5d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9RS2M2BF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/koenig2019fin-2e29fa248c5781d0b006c5a262096652"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "MCI86WNP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/koenigFinLindividuVoyage2019-2c09fa248c57815286a6f08619ce8e5d"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Koenig, Gaspard"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "La Fin de L'individu: Voyage D'un Philosophe Au Pays de L'intelligence Artificielle",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/34EN43U2"
+	},
+	"zotero": {
+		"citationKey": "koenigFinLindividuVoyage2019",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gaspard",
+				"lastName": "Koenig"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-09T15:00:16Z",
+		"itemType": "book",
+		"key": "34EN43U2",
+		"publisher": "Éditions de l'Observatoire",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/X8JXKYIV",
+				"http://zotero.org/users/15425556/items/XB85XLKL"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/72IP2BEK"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "La Fin de L'individu: Voyage D'un Philosophe Au Pays de L'intelligence Artificielle"
+	}
+}

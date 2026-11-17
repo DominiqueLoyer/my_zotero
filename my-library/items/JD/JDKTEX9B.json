@@ -1,0 +1,121 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:37:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:42Z",
+			"dateModified": "2026-11-09T17:05:12Z",
+			"itemType": "attachment",
+			"key": "2KP8PDM8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:12 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "JDKTEX9B",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Algorithmes-Ce-sont-les-individus-qu-il-faut-responsabiliser-4129fa248c57815d8d30e18410748771"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-08-21T19:19:30Z",
+			"dateModified": "2025-08-21T19:37:52Z",
+			"filename": "Algorithmes  « Ce sont les individus qu'il faut responsabiliser ».pdf",
+			"itemType": "attachment",
+			"key": "LI3LGVZD",
+			"linkMode": "imported_file",
+			"parentItem": "JDKTEX9B",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/3ZHM3UEK",
+					"http://zotero.org/users/15425556/items/7ZV3PM9N",
+					"http://zotero.org/users/15425556/items/8JQ33K8T",
+					"http://zotero.org/users/15425556/items/BH7VNL5C",
+					"http://zotero.org/users/15425556/items/KEVE7G3G",
+					"http://zotero.org/users/15425556/items/MHJSDGWQ",
+					"http://zotero.org/users/15425556/items/UYHK6DVL",
+					"http://zotero.org/users/15425556/items/VGHP4DP6",
+					"http://zotero.org/users/15425556/items/VUI2GA6I",
+					"http://zotero.org/users/15425556/items/ZYCGV4XK"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2KP8PDM8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Algorithmes-Ce-sont-les-individus-qu-il-faut-responsabiliser-4129fa248c57815d8d30e18410748771"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Algorithmes  « Ce sont les individus qu'il faut responsabiliser ».pdf",
+				"files": [],
+				"key": "LI3LGVZD",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)"
+		],
+		"creators": [],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmes : « Ce sont les individus qu'il faut responsabiliser »",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/JDKTEX9B"
+	},
+	"zotero": {
+		"citationKey": "AlgorithmesCeSont",
+		"collections": [
+			"TFCUVACE"
+		],
+		"creators": [],
+		"dateAdded": "2025-08-21T19:19:37Z",
+		"dateModified": "2026-11-13T19:31:07Z",
+		"itemType": "journalArticle",
+		"key": "JDKTEX9B",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/23FNQ5N5",
+				"http://zotero.org/users/15425556/items/2LPYJZLP",
+				"http://zotero.org/users/15425556/items/2QN4HN2X",
+				"http://zotero.org/users/15425556/items/7STSKXDQ",
+				"http://zotero.org/users/15425556/items/HJJBQZIU",
+				"http://zotero.org/users/15425556/items/JT56M26X",
+				"http://zotero.org/users/15425556/items/MTNXVHE4",
+				"http://zotero.org/users/15425556/items/PWFNU7N6",
+				"http://zotero.org/users/15425556/items/ZCPUC6DZ",
+				"http://zotero.org/users/15425556/items/ZKM8X432"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmes : « Ce sont les individus qu'il faut responsabiliser »"
+	}
+}

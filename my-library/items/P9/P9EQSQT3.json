@@ -1,0 +1,154 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:14:46Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:14:46Z",
+			"dateModified": "2026-11-08T16:14:46Z",
+			"filename": "Wang et al. - 2019 - Knowledge-aware graph neural networks with label smoothness regularization for recommender systems.pdf",
+			"itemType": "attachment",
+			"key": "7R4DRMAV",
+			"linkMode": "imported_url",
+			"parentItem": "P9EQSQT3",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1905.04413"
+		},
+		{
+			"accessDate": "2026-01-08T20:35:50Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:35:50Z",
+			"dateModified": "2026-03-09T20:51:32Z",
+			"itemType": "attachment",
+			"key": "BEWPFI69",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:32 p.m.</p>",
+			"parentItem": "P9EQSQT3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/A69KKQ4K"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Wang2019a-2e29fa248c57811f87b7dd6d2fc46e2a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "BEWPFI69",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Wang2019a-2e29fa248c57811f87b7dd6d2fc46e2a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wang et al. - 2019 - Knowledge-aware graph neural networks with label smoothness regularization for recommender systems.pdf",
+				"files": [
+					{
+						"path": "attachments/7R/7R4DRMAV/Wang et al. - 2019 - Knowledge-aware graph neural networks with label smoothness regularization for recommender systems.pdf",
+						"size": 990331,
+						"storage": "git"
+					}
+				],
+				"key": "7R4DRMAV",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1905.04413"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Wang, Hongwei",
+			"Zhang, Fuzheng",
+			"Wang, Jialin",
+			"Zhao, Miao",
+			"Li, Wenjie",
+			"Wang, Xing",
+			"Xie, Xing"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Knowledge-aware graph neural networks with label smoothness regularization for recommender systems",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/P9EQSQT3"
+	},
+	"zotero": {
+		"DOI": "10.1145/3292500.3330836",
+		"citationKey": "wangKnowledgeawareGraphNeural2019a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Hongwei",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fuzheng",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jialin",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Miao",
+				"lastName": "Zhao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Wenjie",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xing",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xing",
+				"lastName": "Xie"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-01-08T20:07:34Z",
+		"dateModified": "2026-03-25T21:30:28Z",
+		"itemType": "conferencePaper",
+		"key": "P9EQSQT3",
+		"language": "fr-CA",
+		"pages": "968–977",
+		"proceedingsTitle": "Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4YBJT6LB"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Knowledge-aware graph neural networks with label smoothness regularization for recommender systems"
+	}
+}

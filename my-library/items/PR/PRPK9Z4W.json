@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:16:37Z",
+			"dateModified": "2026-03-09T20:41:55Z",
+			"itemType": "attachment",
+			"key": "5GJTYCYJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:41:55 p.m.</p>",
+			"parentItem": "PRPK9Z4W",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6JZPLLWZ",
+					"http://zotero.org/groups/6376680/items/JVGYDY2E"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Plumb2022Model-3129fa248c5781c492e0d9f45b959d6a"
+		},
+		{
+			"accessDate": "2026-11-08T16:15:37Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:15:37Z",
+			"dateModified": "2026-11-08T16:15:37Z",
+			"filename": "Plumb, Gregory and Molitor, David and Talwalkar, Ameet S. - 2022 - Model Agnostic Supervised Local Explanations.pdf",
+			"itemType": "attachment",
+			"key": "WR6J77BK",
+			"linkMode": "imported_url",
+			"parentItem": "PRPK9Z4W",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://www.esann.org/sites/default/files/proceedings/2022/ES2022-34.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Plumb, Gregory and Molitor, David and Talwalkar, Ameet S. - 2022 - Model Agnostic Supervised Local Explanations.pdf",
+				"files": [
+					{
+						"path": "attachments/WR/WR6J77BK/Plumb, Gregory and Molitor, David and Talwalkar, Ameet S. - 2022 - Model Agnostic Supervised Local Explanations.pdf",
+						"size": 1580250,
+						"storage": "git"
+					}
+				],
+				"key": "WR6J77BK",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://www.esann.org/sites/default/files/proceedings/2022/ES2022-34.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5GJTYCYJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Plumb2022Model-3129fa248c5781c492e0d9f45b959d6a"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Plumb, Gregory and Molitor, David and Talwalkar, Ameet S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Model Agnostic Supervised Local Explanations",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/PRPK9Z4W"
+	},
+	"zotero": {
+		"DOI": "10.14428/esann/2022.es2022-34",
+		"citationKey": "plumbgregoryandmolitordavidandtalwalkarameets.ModelAgnosticSupervised2022",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Plumb, Gregory and Molitor, David and Talwalkar, Ameet S."
+			}
+		],
+		"date": "2022",
+		"dateAdded": "2026-02-25T21:43:59Z",
+		"dateModified": "2026-03-25T21:29:39Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "PRPK9Z4W",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8TZ29KRC",
+				"http://zotero.org/groups/6376680/items/WYF5A46N"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Model Agnostic Supervised Local Explanations"
+	}
+}

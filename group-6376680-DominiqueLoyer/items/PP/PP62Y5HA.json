@@ -1,0 +1,88 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-27T00:06:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:02:14Z",
+			"dateModified": "2026-11-17T14:48:38Z",
+			"itemType": "attachment",
+			"key": "BR95D7YD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-25, 5:20:06 p.m.</p>",
+			"parentItem": "PP62Y5HA",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/T738VECZ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerHybridSystemVerifying-2f59fa248c5781afa02ce68ad9201b3e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "BR95D7YD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerHybridSystemVerifying-2f59fa248c5781afa02ce68ad9201b3e"
+			}
+		],
+		"collections": [
+			"My papers (English)",
+			"_ALL_CIT_140326/Revue_de_litterature"
+		],
+		"creators": [
+			"Loyer, Dominique S"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Hybrid System for Verifying the Credibility of Information Sources: An Ontology",
+		"year": "",
+		"zoteroURI": "zotero://select/groups/6376680/items/PP62Y5HA"
+	},
+	"zotero": {
+		"citationKey": "loyerHybridSystemVerifying",
+		"collections": [
+			"7NU35ACK",
+			"WASU97Q5"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			}
+		],
+		"dateAdded": "2026-02-26T21:02:14Z",
+		"dateModified": "2026-11-17T14:48:38Z",
+		"extra": "titleTranslation: Hybrid System for Verifying the Credibility of Information Sources: An Ontology",
+		"itemType": "journalArticle",
+		"key": "PP62Y5HA",
+		"language": "en",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/UACZ3BNQ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Hybrid System for Verifying the Credibility of Information Sources: An Ontology"
+	}
+}

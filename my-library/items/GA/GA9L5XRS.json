@@ -1,0 +1,141 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:08Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:08Z",
+			"dateModified": "2026-01-02T19:13:23Z",
+			"itemType": "attachment",
+			"key": "75LDLGSV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:23 p.m.</p>",
+			"parentItem": "GA9L5XRS",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/graeberUtopiaRulesTechnology2015-2c09fa248c57819db19dc7439a84ebd0"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-08-21T19:30:14Z",
+			"dateModified": "2025-08-21T19:38:49Z",
+			"filename": "Graeber - 2015 - The utopia of rules on technology, stupidity, and the secret joys of bureaucracy.pdf",
+			"itemType": "attachment",
+			"key": "DAZZ3L6R",
+			"linkMode": "imported_file",
+			"parentItem": "GA9L5XRS",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-05-06T20:11:49Z",
+			"dateModified": "2025-05-06T20:11:58Z",
+			"filename": "Graeber - 2015 - The utopia of rules on technology, stupidity, and the secret joys of bureaucracy.pdf",
+			"itemType": "attachment",
+			"key": "LLHJTBKD",
+			"linkMode": "imported_file",
+			"parentItem": "GA9L5XRS",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "75LDLGSV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/graeberUtopiaRulesTechnology2015-2c09fa248c57819db19dc7439a84ebd0"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Graeber - 2015 - The utopia of rules on technology, stupidity, and the secret joys of bureaucracy.pdf",
+				"files": [],
+				"key": "LLHJTBKD",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Graeber - 2015 - The utopia of rules on technology, stupidity, and the secret joys of bureaucracy.pdf",
+				"files": [
+					{
+						"path": "attachments/DA/DAZZ3L6R/Graeber - 2015 - The utopia of rules on technology, stupidity, and the secret joys of bureaucracy.pdf",
+						"size": 1555223,
+						"storage": "git"
+					}
+				],
+				"key": "DAZZ3L6R",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)"
+		],
+		"creators": [
+			"Graeber, David"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The utopia of rules: on technology, stupidity, and the secret joys of bureaucracy",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/GA9L5XRS"
+	},
+	"zotero": {
+		"ISBN": "978-1-61219-374-8",
+		"abstractNote": "\"Where does the desire for endless rules, regulations, and bureaucracy come from? How did we come to spend so much of our time filling out forms? And is it really a cipher for state violence? To answer these questions, anthropologist David Graeber ... traces the peculiar and unexpected ways we relate to bureaucracy today, and reveals how it shapes our lives in ways we may not even notice\"--Jacket",
+		"callNumber": "302.35",
+		"citationKey": "graeberUtopiaRulesTechnology2015",
+		"collections": [
+			"TFCUVACE"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Graeber"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2025-05-06T20:11:58Z",
+		"dateModified": "2025-12-05T22:34:08Z",
+		"itemType": "book",
+		"key": "GA9L5XRS",
+		"language": "en",
+		"libraryCatalog": "BnF ISBN",
+		"place": "Brooklyn",
+		"publisher": "Melville House",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/QA5T2EZX"
+			]
+		},
+		"shortTitle": "The utopia of rules",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The utopia of rules: on technology, stupidity, and the secret joys of bureaucracy"
+	}
+}

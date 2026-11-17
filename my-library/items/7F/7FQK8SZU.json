@@ -1,0 +1,94 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:26Z",
+			"dateModified": "2026-11-09T14:55:36Z",
+			"itemType": "attachment",
+			"key": "LVGERPDC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:40 p.m.</p>",
+			"parentItem": "7FQK8SZU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/ZPX6QQA4"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HEFALZFM",
+					"http://zotero.org/groups/6376680/items/HIVZ4WDN",
+					"http://zotero.org/groups/6376680/items/P3DPRYCL",
+					"http://zotero.org/groups/6376680/items/Z2N58VJR"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Selznick1950Tva-3129fa248c578159bf7afa73b9ff7263"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LVGERPDC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Selznick1950Tva-3129fa248c578159bf7afa73b9ff7263"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Selznick, Philip"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "TVA and the Grass Roots: A Study in the Sociology of Formal Organization",
+		"year": "1950",
+		"zoteroURI": "zotero://select/library/items/7FQK8SZU"
+	},
+	"zotero": {
+		"DOI": "10.2307/442449",
+		"citationKey": "selznickphilipTVAGrassRoots1950",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Selznick, Philip"
+			}
+		],
+		"date": "1950",
+		"dateAdded": "2026-02-25T20:55:35Z",
+		"dateModified": "2026-11-09T14:55:36Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "7FQK8SZU",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/XCJVDHT6"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2K9ZFC5K",
+				"http://zotero.org/groups/6376680/items/87G9BAHD",
+				"http://zotero.org/groups/6376680/items/DSSYAFKW",
+				"http://zotero.org/groups/6376680/items/P9UICSNZ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "TVA and the Grass Roots: A Study in the Sociology of Formal Organization"
+	}
+}

@@ -1,0 +1,91 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:33:15Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:33:15Z",
+			"dateModified": "2026-11-09T17:05:32Z",
+			"itemType": "attachment",
+			"key": "3KXIRCCB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:32 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "4ZVRM6MC",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Linden-et-al-2003-4129fa248c5781cc9396d72f24deee49"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3KXIRCCB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Linden-et-al-2003-4129fa248c5781cc9396d72f24deee49"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"Linden, Greg",
+			"Smith, Brent",
+			"York, Jeremy"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Amazon.com recommendations: Item-to-item collaborative filtering",
+		"year": "2003",
+		"zoteroURI": "zotero://select/library/items/4ZVRM6MC"
+	},
+	"zotero": {
+		"DOI": "10.1109/mic.2003.1167344",
+		"citationKey": "lindenAmazoncomRecommendationsItemtoitem2003b",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Greg",
+				"lastName": "Linden"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Brent",
+				"lastName": "Smith"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jeremy",
+				"lastName": "York"
+			}
+		],
+		"date": "2003",
+		"dateAdded": "2026-01-08T20:10:55Z",
+		"dateModified": "2026-11-13T19:31:39Z",
+		"extra": "Number: 1",
+		"itemType": "conferencePaper",
+		"key": "4ZVRM6MC",
+		"language": "fr-CA",
+		"pages": "76–80",
+		"proceedingsTitle": "IEEE internet computing",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Amazon.com recommendations: Item-to-item collaborative filtering",
+		"volume": "7"
+	}
+}

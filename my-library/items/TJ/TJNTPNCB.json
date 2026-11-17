@@ -1,0 +1,83 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:26:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:26:53Z",
+			"dateModified": "2026-03-09T20:47:09Z",
+			"itemType": "attachment",
+			"key": "ZUKNGBVD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:09 p.m.</p>",
+			"parentItem": "TJNTPNCB",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/9243f5103669bd0e5b29f333f6e1d2246dc0a492-2e29fa248c57817397e2f4c76be7fe19"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZUKNGBVD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/9243f5103669bd0e5b29f333f6e1d2246dc0a492-2e29fa248c57817397e2f4c76be7fe19"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Mowery, K.",
+			"Shacham, H."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Pixel perfect : Fingerprinting canvas in HTML 5",
+		"year": "2012",
+		"zoteroURI": "zotero://select/library/items/TJNTPNCB"
+	},
+	"zotero": {
+		"abstractNote": "Tying the browser more closely to operating system functionality and system hardware means that websites have more access to these resources, and that browser behavior varies depending on the behavior of these resources. We propose a new system fingerprint, inspired by the observation above: render text and WebGL scenes to a ¡canvas¿ element, then examine the pixels produced. The new fingerprint is consistent, high-entropy, orthogonal to other fingerprints, transparent to the user, and readily obtainable.",
+		"citationKey": "moweryPixelPerfectFingerprinting2012",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "K.",
+				"lastName": "Mowery"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "H.",
+				"lastName": "Shacham"
+			}
+		],
+		"date": "2012",
+		"dateAdded": "2026-01-08T20:14:05Z",
+		"dateModified": "2026-03-25T21:30:03Z",
+		"extra": "abstractTranslation: Tying the browser more closely to operating system functionality and system hardware means that websites have more access to these resources, and that browser behavior varies depending on the behavior of these resources. We propose a new system fingerprint, inspired by the observation above: render text and WebGL scenes to a canvas element, then examine the pixels produced. The new fingerprint is consistent, high-entropy, orthogonal to other fingerprints, transparent to the user, and readily obtainable.",
+		"itemType": "journalArticle",
+		"key": "TJNTPNCB",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Pixel perfect : Fingerprinting canvas in HTML 5",
+		"url": "https://www.semanticscholar.org/paper/9243f5103669bd0e5b29f333f6e1d2246dc0a492"
+	}
+}

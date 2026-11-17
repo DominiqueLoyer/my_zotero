@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:53:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:24Z",
+			"dateModified": "2026-03-09T20:46:38Z",
+			"itemType": "attachment",
+			"key": "B4D9YQMU",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:46:38 p.m.</p>",
+			"parentItem": "7D9RE452",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/WYPXVUMX"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Ref2-2ea9fa248c5781a18654c20615d5deda"
+		},
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:17Z",
+			"dateModified": "2026-01-08T22:57:43Z",
+			"filename": "ref 2.bib",
+			"itemType": "attachment",
+			"key": "LW8KZZ6Q",
+			"linkMode": "imported_file",
+			"parentItem": "7D9RE452",
+			"relations": {},
+			"tags": [],
+			"title": "ref 2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "B4D9YQMU",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Ref2-2ea9fa248c5781a18654c20615d5deda"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "ref 2.bib",
+				"files": [
+					{
+						"path": "attachments/LW/LW8KZZ6Q/ref 2.bib",
+						"size": 4281,
+						"storage": "git"
+					}
+				],
+				"key": "LW8KZZ6Q",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "ref 2",
+				"url": null
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "ref 2",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/7D9RE452"
+	},
+	"zotero": {
+		"citationKey": "Ref2",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:43Z",
+		"dateModified": "2026-01-16T15:53:24Z",
+		"itemType": "document",
+		"key": "7D9RE452",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/I74FJ3ZI"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ref 2"
+	}
+}

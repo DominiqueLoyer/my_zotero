@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:52Z",
+			"dateModified": "2026-03-09T20:44:19Z",
+			"itemType": "attachment",
+			"key": "B79B45BB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:19 p.m.</p>",
+			"parentItem": "84W3MDBX",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/P97IV3EL",
+					"http://zotero.org/groups/6376680/items/RWS8ZQDX"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Betker2024Improving-3129fa248c578176a9a8c7ba9c1028cc"
+		},
+		{
+			"accessDate": "2026-11-08T16:14:30Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:14:30Z",
+			"dateModified": "2026-11-08T16:14:30Z",
+			"filename": "Betker, James and Goh, Gabriel and Jing, Li and Tan, Tim and Yu, Advay - 2024 - Improving Image Generation with Better Captions.pdf",
+			"itemType": "attachment",
+			"key": "DL9EMSF7",
+			"linkMode": "imported_url",
+			"parentItem": "84W3MDBX",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2406.04325"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "B79B45BB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Betker2024Improving-3129fa248c578176a9a8c7ba9c1028cc"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Betker, James and Goh, Gabriel and Jing, Li and Tan, Tim and Yu, Advay - 2024 - Improving Image Generation with Better Captions.pdf",
+				"files": [
+					{
+						"path": "attachments/DL/DL9EMSF7/Betker, James and Goh, Gabriel and Jing, Li and Tan, Tim and Yu, Advay - 2024 - Improving Image Generation with Better Captions.pdf",
+						"size": 9675332,
+						"storage": "git"
+					}
+				],
+				"key": "DL9EMSF7",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2406.04325"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Betker, James and Goh, Gabriel and Jing, Li and Tan, Tim and Yu, Advay"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Improving Image Generation with Better Captions",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/84W3MDBX"
+	},
+	"zotero": {
+		"DOI": "10.52202/079017-0614",
+		"citationKey": "betkerjamesandgohgabrielandjingliandtantimandyuadvayImprovingImageGeneration2024",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Betker, James and Goh, Gabriel and Jing, Li and Tan, Tim and Yu, Advay"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:33:09Z",
+		"dateModified": "2026-03-25T21:29:53Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "84W3MDBX",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/BSG8HVFJ",
+				"http://zotero.org/groups/6376680/items/LDW5PCI5"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Improving Image Generation with Better Captions",
+		"url": "https://openai.com/research/improving-image-generation-with-better-captions"
+	}
+}

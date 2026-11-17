@@ -1,0 +1,163 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "J3R47887",
+			"note": "Technical Report",
+			"parentItem": "XTL2LUN2",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T22:30:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-11-17T14:42:21Z",
+			"itemType": "attachment",
+			"key": "JP24IX6L",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:42:21 a.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"41b9fa24-8c57-81b7-a281-cee84010d702\",\"notes\":{\"J3R47887\":{\"blockID\":\"41b9fa24-8c57-8144-82d7-c3498ef609c2\",\"syncedAt\":\"2026-11-17T14:42:21.145Z\"},\"M5RDLHWN\":{\"blockID\":\"41b9fa24-8c57-8124-a5e7-f086c14929e4\",\"syncedAt\":\"2026-11-17T14:42:21.965Z\"}}}</pre>",
+			"parentItem": "XTL2LUN2",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c578176aaa7c8b7cedcf6ef"
+		},
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "M5RDLHWN",
+			"note": "Technical Report",
+			"parentItem": "XTL2LUN2",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T20:17:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "attachment",
+			"key": "Z9HHA6EW",
+			"linkMode": "linked_url",
+			"parentItem": "XTL2LUN2",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JP24IX6L",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c578176aaa7c8b7cedcf6ef"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Z9HHA6EW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "J3R47887",
+				"title": "Technical Report"
+			},
+			{
+				"key": "M5RDLHWN",
+				"title": "Technical Report"
+			}
+		],
+		"title": "Evaluation de modeles de recherche d'Information et d'Expansion de requetes sur la collection TREC AP 88-90",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/XTL2LUN2"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.23572.00647",
+		"citationKey": "loyerEvaluationModelesRecherche2025",
+		"collections": [
+			"RJVJKNN2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-26T21:01:07Z",
+		"dateModified": "2026-02-26T21:01:07Z",
+		"extra": "ISBN: 978-1-0699945-5-4\ntitleTranslation: Evaluation of Information Retrieval and Query Expansion Models on the TREC AP 88-90 Collection",
+		"itemType": "journalArticle",
+		"key": "XTL2LUN2",
+		"language": "fr-CA",
+		"pages": "7",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "BM25"
+			},
+			{
+				"tag": "BM25;QLD;Stemming;Query Expansion;RM3."
+			},
+			{
+				"tag": "Expansion"
+			},
+			{
+				"tag": "Modeles Vectoriels"
+			},
+			{
+				"tag": "RI"
+			},
+			{
+				"tag": "Recherche d'Information"
+			},
+			{
+				"tag": "Recherche information"
+			},
+			{
+				"tag": "RechercheInformation"
+			},
+			{
+				"tag": "TF-IDF"
+			},
+			{
+				"tag": "TREC"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Evaluation de modeles de recherche d'Information et d'Expansion de requetes sur la collection TREC AP 88-90",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.23572.00647"
+	}
+}

@@ -1,0 +1,203 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:18:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:18:31Z",
+			"dateModified": "2026-11-09T17:04:45Z",
+			"itemType": "attachment",
+			"key": "CW6V38YP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:45 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "L9QJ45XU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/BEHQWP7T"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/93ZS46PT",
+					"http://zotero.org/groups/6376680/items/H6NRDIUR"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lan-et-al-2022-4129fa248c57811c864af0cf152b8110"
+		},
+		{
+			"dateAdded": "2026-03-14T17:38:13Z",
+			"dateModified": "2026-03-14T17:38:13Z",
+			"itemType": "note",
+			"key": "UWG47P2G",
+			"note": "Comment: 11 pages, four figures, 2 tables",
+			"parentItem": "L9QJ45XU",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LGXFA2EC"
+				]
+			},
+			"tags": []
+		},
+		{
+			"dateAdded": "2026-03-14T17:38:21Z",
+			"dateModified": "2026-11-09T15:06:26Z",
+			"itemType": "note",
+			"key": "VMCGAXMI",
+			"note": "Comment: 11 pages, four figures, 2 tables",
+			"parentItem": "L9QJ45XU",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/V9NCV2XZ"
+				]
+			},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:27:48Z",
+			"dateModified": "2026-11-09T15:06:26Z",
+			"itemType": "attachment",
+			"key": "W223N5U9",
+			"linkMode": "linked_file",
+			"parentItem": "L9QJ45XU",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/2eTP_dic9335_040326/AVEC SOURCES CUSTOM/PDFs/Lan et al. - 2022 - A Semantic Web Technology Index.pdf",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/XS3Y48IP"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CW6V38YP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lan-et-al-2022-4129fa248c57811c864af0cf152b8110"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Lan et al. - 2022 - A Semantic Web Technology Index.pdf",
+				"files": [
+					{
+						"path": "attachments/W2/W223N5U9/Lan et al. - 2022 - A Semantic Web Technology Index.pdf",
+						"size": 820842,
+						"storage": "git"
+					}
+				],
+				"key": "W223N5U9",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/2eTP_dic9335_040326/AVEC SOURCES CUSTOM/PDFs",
+			"_ALL_CIT_140326/2eTP_dic9335_040326/PDFs"
+		],
+		"creators": [
+			"Lan, Gongjin",
+			"Liu, Ting",
+			"Wang, Xu",
+			"Pan, Xueli",
+			"Huang, Zhisheng"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "VMCGAXMI",
+				"title": "Comment: 11 pages, four figures, 2 tables"
+			},
+			{
+				"key": "UWG47P2G",
+				"title": "Comment: 11 pages, four figures, 2 tables"
+			}
+		],
+		"title": "A Semantic Web Technology Index",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/L9QJ45XU"
+	},
+	"zotero": {
+		"DOI": "10.1038/s41598-022-07615-4",
+		"abstractNote": "Semantic Web (SW) technology has been widely applied to many domains such as medicine, health care, finance, geology. At present, researchers mainly rely on their experience and preferences to develop and evaluate the work of SW technology. Although the general architecture (e.g., Tim Berners-Lee's Semantic Web Layer Cake) of SW technology was proposed many years ago and has been well-known, it still lacks a concrete guideline for standardizing the development of SW technology. In this paper, we propose an SW technology index to standardize the development for ensuring that the work of SW technology is designed well and to quantitatively evaluate the quality of the work in SW technology. This index consists of 10 criteria that quantify the quality as a score of 0 ~ 10. We address each criterion in detail for a clear explanation from three aspects: 1) what is the criterion? 2) why do we consider this criterion and 3) how do the current studies meet this criterion? Finally, we present the validation of this index by providing some examples of how to apply the index to the validation cases. We conclude that the index is a useful standard to guide and evaluate the work in SW technology.",
+		"accessDate": "2026-03-14T17:38:13Z",
+		"archiveID": "arXiv:2201.07034",
+		"citationKey": "lanSemanticWebTechnology2022",
+		"collections": [
+			"UJT7XNX7",
+			"YSDMUVNX"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gongjin",
+				"lastName": "Lan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ting",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xu",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xueli",
+				"lastName": "Pan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhisheng",
+				"lastName": "Huang"
+			}
+		],
+		"date": "2022-01-14",
+		"dateAdded": "2026-03-14T17:38:13Z",
+		"dateModified": "2026-11-09T16:08:50Z",
+		"extra": "arXiv:2201.07034 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2201.07034",
+		"itemType": "preprint",
+		"key": "L9QJ45XU",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/4XX84879"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/HZFMQLI9",
+				"http://zotero.org/groups/6376680/items/QR3SPKFM"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Software Engineering",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Semantic Web Technology Index",
+		"url": "http://arxiv.org/abs/2201.07034"
+	}
+}

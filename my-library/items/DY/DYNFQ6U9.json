@@ -1,0 +1,91 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:12Z",
+			"dateModified": "2026-11-09T14:56:47Z",
+			"itemType": "attachment",
+			"key": "Q4MQAKTY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:09:59 p.m.</p>",
+			"parentItem": "DYNFQ6U9",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/M9HS83ZS"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/D2PDYTK5"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/selznickTVAGrassRoots1949-2c09fa248c5781caa47cd87eabc73500"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Q4MQAKTY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/selznickTVAGrassRoots1949-2c09fa248c5781caa47cd87eabc73500"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"Selznick, Philip"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "TVA and the Grass Roots: A Study in the Sociology of Formal Organization",
+		"year": "1949",
+		"zoteroURI": "zotero://select/library/items/DYNFQ6U9"
+	},
+	"zotero": {
+		"citationKey": "selznickTVAGrassRoots1949",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Philip",
+				"lastName": "Selznick"
+			}
+		],
+		"date": "1949",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T14:56:47Z",
+		"itemType": "book",
+		"key": "DYNFQ6U9",
+		"place": "Berkeley",
+		"publisher": "University of California Press",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/8VJCXR4L"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/LC8HXGST"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "TVA and the Grass Roots: A Study in the Sociology of Formal Organization"
+	}
+}

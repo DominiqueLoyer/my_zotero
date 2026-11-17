@@ -1,0 +1,93 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:33:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:33:06Z",
+			"dateModified": "2026-03-09T20:50:01Z",
+			"itemType": "attachment",
+			"key": "8RDEFFZ6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:50:01 p.m.</p>",
+			"parentItem": "Y8YJDWEF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Schein2002-2e29fa248c5781a0a3bfc2d601916a6f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8RDEFFZ6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Schein2002-2e29fa248c5781a0a3bfc2d601916a6f"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"Schein, Andrew I.",
+			"Popescul, Alexandrin",
+			"Ungar, Lyle H.",
+			"Pennock, David M."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Methods and metrics for cold-start recommendations",
+		"year": "2002",
+		"zoteroURI": "zotero://select/library/items/Y8YJDWEF"
+	},
+	"zotero": {
+		"citationKey": "scheinMethodsMetricsColdstart2002b",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Andrew I.",
+				"lastName": "Schein"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alexandrin",
+				"lastName": "Popescul"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lyle H.",
+				"lastName": "Ungar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "David M.",
+				"lastName": "Pennock"
+			}
+		],
+		"date": "2002",
+		"dateAdded": "2026-01-08T20:10:55Z",
+		"dateModified": "2026-03-25T21:30:19Z",
+		"itemType": "conferencePaper",
+		"key": "Y8YJDWEF",
+		"pages": "253–260",
+		"proceedingsTitle": "Proceedings of the 25th annual international ACM SIGIR conference on Research and development in information retrieval",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Methods and metrics for cold-start recommendations"
+	}
+}

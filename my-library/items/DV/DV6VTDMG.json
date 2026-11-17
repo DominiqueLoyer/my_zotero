@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:42Z",
+			"dateModified": "2026-11-09T17:08:43Z",
+			"itemType": "attachment",
+			"key": "RF6CX66X",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:43 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "DV6VTDMG",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3YVNXI9I",
+					"http://zotero.org/groups/6376680/items/BB6NA3GA"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Bussmann-Niklas-and-Giudici-Paolo-and-Marinelli-Daniele-and-Papenbrock-Jochen-2021-4129fa248c57812e9477c709368a06aa"
+		},
+		{
+			"accessDate": "2026-11-08T16:29:55Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:29:55Z",
+			"dateModified": "2026-11-08T16:29:55Z",
+			"filename": "Bussmann, Niklas and Giudici, Paolo and Marinelli, Daniele and Papenbrock, Jochen - 2021 - Explainable AI in credit risk management.pdf",
+			"itemType": "attachment",
+			"key": "WBXFKPZS",
+			"linkMode": "imported_url",
+			"parentItem": "DV6VTDMG",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://link.springer.com/content/pdf/10.1007/s10614-020-10042-0.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Bussmann, Niklas and Giudici, Paolo and Marinelli, Daniele and Papenbrock, Jochen - 2021 - Explainable AI in credit risk management.pdf",
+				"files": [
+					{
+						"path": "attachments/WB/WBXFKPZS/Bussmann, Niklas and Giudici, Paolo and Marinelli, Daniele and Papenbrock, Jochen - 2021 - Explainable AI in credit risk management.pdf",
+						"size": 1900874,
+						"storage": "git"
+					}
+				],
+				"key": "WBXFKPZS",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://link.springer.com/content/pdf/10.1007/s10614-020-10042-0.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RF6CX66X",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Bussmann-Niklas-and-Giudici-Paolo-and-Marinelli-Daniele-and-Papenbrock-Jochen-2021-4129fa248c57812e9477c709368a06aa"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Bussmann, Niklas and Giudici, Paolo and Marinelli, Daniele and Papenbrock, Jochen"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explainable AI in credit risk management",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/DV6VTDMG"
+	},
+	"zotero": {
+		"DOI": "10.2139/ssrn.3506274",
+		"citationKey": "bussmannniklasandgiudicipaoloandmarinellidanieleandpapenbrockjochenExplainableAICredit2021",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Bussmann, Niklas and Giudici, Paolo and Marinelli, Daniele and Papenbrock, Jochen"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-02-25T21:34:20Z",
+		"dateModified": "2026-03-25T21:29:52Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "DV6VTDMG",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/IQTKJLMH",
+				"http://zotero.org/groups/6376680/items/Y3R6KR7N"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable AI in credit risk management"
+	}
+}

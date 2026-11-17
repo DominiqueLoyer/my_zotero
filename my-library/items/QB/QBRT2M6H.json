@@ -1,0 +1,76 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:28:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:28:04Z",
+			"dateModified": "2026-11-09T17:07:49Z",
+			"itemType": "attachment",
+			"key": "FL2ZGI36",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:49 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "QBRT2M6H",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Descartes-1637-4129fa248c5781d19e0cde912515a3a0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FL2ZGI36",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Descartes-1637-4129fa248c5781d19e0cde912515a3a0"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"Descartes, René"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Discours de la Méthode",
+		"year": "1637",
+		"zoteroURI": "zotero://select/library/items/QBRT2M6H"
+	},
+	"zotero": {
+		"citationKey": "descartesDiscoursMethode1637",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "René",
+				"lastName": "Descartes"
+			}
+		],
+		"date": "1637",
+		"dateAdded": "2026-01-08T20:10:58Z",
+		"dateModified": "2026-03-25T21:30:07Z",
+		"itemType": "book",
+		"key": "QBRT2M6H",
+		"language": "fr-CA",
+		"place": "Leyde",
+		"publisher": "Joannes Maire",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Discours de la Méthode"
+	}
+}

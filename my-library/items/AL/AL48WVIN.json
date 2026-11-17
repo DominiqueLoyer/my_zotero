@@ -1,0 +1,110 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:36:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:45Z",
+			"dateModified": "2026-11-09T17:08:11Z",
+			"itemType": "attachment",
+			"key": "5RSCEXJJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:11 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "AL48WVIN",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/7FB6WQ9I"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/TTLQSRMI"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Breese-et-al-1998-4129fa248c57818895abe9e680e018d2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5RSCEXJJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Breese-et-al-1998-4129fa248c57818895abe9e680e018d2"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Breese, John S.",
+			"Heckerman, David",
+			"Kadie, Carl"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Empirical analysis of predictive algorithms for collaborative filtering",
+		"year": "1998",
+		"zoteroURI": "zotero://select/library/items/AL48WVIN"
+	},
+	"zotero": {
+		"citationKey": "breeseEmpiricalAnalysisPredictive1998",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "John S.",
+				"lastName": "Breese"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Heckerman"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Carl",
+				"lastName": "Kadie"
+			}
+		],
+		"date": "1998",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-09T15:08:10Z",
+		"itemType": "conferencePaper",
+		"key": "AL48WVIN",
+		"pages": "43–52",
+		"proceedingsTitle": "Proceedings of the Fourteenth conference on Uncertainty in artificial intelligence",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/SKQURMAD",
+				"http://zotero.org/users/15425556/items/TDPIRT2G"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/6H8ICFGG"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Empirical analysis of predictive algorithms for collaborative filtering"
+	}
+}

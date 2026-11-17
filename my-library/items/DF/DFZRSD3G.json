@@ -1,0 +1,116 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:09:55Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:09:55Z",
+			"dateModified": "2026-11-09T17:06:45Z",
+			"itemType": "attachment",
+			"key": "9KQYAV2L",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:45 p.m.</p>",
+			"parentItem": "DFZRSD3G",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Viviani-Marco-and-Pasi-Gabriella-2017-4129fa248c5781619f5bdf454ed238c0"
+		},
+		{
+			"accessDate": "2026-11-08T16:48:24Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:48:24Z",
+			"dateModified": "2026-11-09T15:04:00Z",
+			"filename": "Rieh, Soo Young - 2014 - Credibility assessment of online information in context.pdf",
+			"itemType": "attachment",
+			"key": "RSE9R9WN",
+			"linkMode": "imported_url",
+			"parentItem": "DFZRSD3G",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://accesson.kr/jistap/assets/pdf/7311/journal-2-3-6.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Rieh, Soo Young - 2014 - Credibility assessment of online information in context.pdf",
+				"files": [
+					{
+						"path": "attachments/RS/RSE9R9WN/Rieh, Soo Young - 2014 - Credibility assessment of online information in context.pdf",
+						"size": 246107,
+						"storage": "git"
+					}
+				],
+				"key": "RSE9R9WN",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://accesson.kr/jistap/assets/pdf/7311/journal-2-3-6.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9KQYAV2L",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Viviani-Marco-and-Pasi-Gabriella-2017-4129fa248c5781619f5bdf454ed238c0"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Viviani, Marco and Pasi, Gabriella"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Credibility in social media: opinions, news, and health information—a survey",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/DFZRSD3G"
+	},
+	"zotero": {
+		"DOI": "10.1002/widm.1209",
+		"citationKey": "vivianimarcoandpasigabriellaCredibilitySocialMedia2017",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Viviani, Marco and Pasi, Gabriella"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-02-26T20:21:33Z",
+		"dateModified": "2026-11-09T15:04:00Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "DFZRSD3G",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/CK3PQMRP",
+				"http://zotero.org/users/15425556/items/RCASNU2B",
+				"http://zotero.org/users/15425556/items/WHQ3MGJG"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/KH62YXE9"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Credibility in social media: opinions, news, and health information—a survey"
+	}
+}

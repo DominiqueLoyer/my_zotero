@@ -1,0 +1,122 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:08:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:08:53Z",
+			"dateModified": "2026-11-09T17:06:29Z",
+			"itemType": "attachment",
+			"key": "5HZQBM39",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:29 p.m.</p>",
+			"parentItem": "2NGPMUKT",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Didier-2011-4129fa248c578198bae6e16f689c80a1"
+		},
+		{
+			"accessDate": "2026-11-08T16:26:46Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:26:46Z",
+			"dateModified": "2026-11-09T15:07:50Z",
+			"filename": "Kaidong Chen and Kai Shu - 2024 - Combating Misinformation in the Age of LLMs Opportunities and Challenges.pdf",
+			"itemType": "attachment",
+			"key": "VPX3JNY4",
+			"linkMode": "imported_url",
+			"parentItem": "2NGPMUKT",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2311.05656"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5HZQBM39",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Didier-2011-4129fa248c578198bae6e16f689c80a1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Kaidong Chen and Kai Shu - 2024 - Combating Misinformation in the Age of LLMs Opportunities and Challenges.pdf",
+				"files": [
+					{
+						"path": "attachments/VP/VPX3JNY4/Kaidong Chen and Kai Shu - 2024 - Combating Misinformation in the Age of LLMs Opportunities and Challenges.pdf",
+						"size": 2749591,
+						"storage": "git"
+					}
+				],
+				"key": "VPX3JNY4",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2311.05656"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Didier, Emmanuel"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "« Compstat » à Paris: initiative et mise en responsabilité policière",
+		"year": "2011",
+		"zoteroURI": "zotero://select/library/items/2NGPMUKT"
+	},
+	"zotero": {
+		"DOI": "10.4000/champpenal.8123",
+		"citationKey": "didierCompstatParisInitiative2011",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Emmanuel",
+				"lastName": "Didier"
+			}
+		],
+		"date": "2011",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-13T19:34:41Z",
+		"itemType": "journalArticle",
+		"key": "2NGPMUKT",
+		"publicationTitle": "Champ pénal/Penal field",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/MQTIDX62",
+				"http://zotero.org/users/15425556/items/RKRV5TYY",
+				"http://zotero.org/users/15425556/items/X4AEA4JM"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/XC5JLL4P"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "« Compstat » à Paris: initiative et mise en responsabilité policière",
+		"volume": "VIII"
+	}
+}

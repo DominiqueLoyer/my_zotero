@@ -1,0 +1,127 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:08Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:08Z",
+			"dateModified": "2026-11-09T17:09:25Z",
+			"itemType": "attachment",
+			"key": "9PNAANNW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:25 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "BEA9D9W7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Liu-2023-4129fa248c578106bf63f4b37a44034f"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-02-28T17:56:59Z",
+			"dateModified": "2025-02-28T17:57:02Z",
+			"filename": "Liu - 2023 - Grounding for Artificial Intelligence.pdf",
+			"itemType": "attachment",
+			"key": "NWIBUVW3",
+			"linkMode": "imported_file",
+			"parentItem": "BEA9D9W7",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9PNAANNW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Liu-2023-4129fa248c578106bf63f4b37a44034f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Liu - 2023 - Grounding for Artificial Intelligence.pdf",
+				"files": [
+					{
+						"path": "attachments/NW/NWIBUVW3/Liu - 2023 - Grounding for Artificial Intelligence.pdf",
+						"size": 271352,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/NW/NWIBUVW3/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 33417,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/NW/NWIBUVW3/Liu - 2023 - Grounding for Artificial Intelligence (trashed 2025-11-24 15-34-07).pdf",
+						"size": 271352,
+						"storage": "git"
+					}
+				],
+				"key": "NWIBUVW3",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/9270 (H25)/Liu 27 fév"
+		],
+		"creators": [
+			"Liu, Bing"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Grounding for Artificial Intelligence",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/BEA9D9W7"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2312.09532",
+		"abstractNote": "A core function of intelligence is grounding, which is the process of connecting the natural language and abstract knowledge to the internal representation of the real world in an intelligent being, e.g., a human. Human cognition is grounded in our sensorimotor experiences in the external world and subjective feelings in our internal world. We use languages to communicate with each other and the languages are grounded on our shared sensorimotor experiences and feelings. Without this shard grounding, it is impossible for us to understand each other because all natural languages are highly abstract and are only able to describe a tiny portion of what has happened or is happening in the real world. Although grounding at high or abstract levels has been studied in different fields and applications, to our knowledge, limited systematic work at fine-grained levels has been done. With the rapid progress of large language models (LLMs), it is imperative that we have a sound understanding of grounding in order to move to the next level of intelligence. It is also believed that grounding is necessary for Artificial General Intelligence (AGI). This paper makes an attempt to systematically study this problem.",
+		"accessDate": "2025-02-28T17:57:02Z",
+		"archiveID": "arXiv:2312.09532",
+		"citationKey": "liuGroundingArtificialIntelligence2023",
+		"collections": [
+			"SXNXAMTK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Bing",
+				"lastName": "Liu"
+			}
+		],
+		"date": "2023-12-15",
+		"dateAdded": "2025-02-28T17:57:02Z",
+		"dateModified": "2025-03-21T21:40:21Z",
+		"extra": "arXiv:2312.09532 [cs]",
+		"itemType": "preprint",
+		"key": "BEA9D9W7",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Grounding for Artificial Intelligence",
+		"url": "http://arxiv.org/abs/2312.09532"
+	}
+}

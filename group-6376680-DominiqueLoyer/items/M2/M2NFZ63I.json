@@ -1,0 +1,75 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T21:46:58Z",
+			"itemType": "attachment",
+			"key": "DYJYCKCB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:41:35 p.m.</p>",
+			"parentItem": "M2NFZ63I",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Achiam2024Gpt4-3129fa248c5781ea9a64dfd9ebf644e9"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "DYJYCKCB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Achiam2024Gpt4-3129fa248c5781ea9a64dfd9ebf644e9"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and An, Shyamal and others"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "GPT-4 Technical Report",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/M2NFZ63I"
+	},
+	"zotero": {
+		"DOI": "10.1371/journal.pdig.0000417",
+		"citationKey": "Achiam2024Gpt4",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and An, Shyamal and others"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T21:46:58Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "M2NFZ63I",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "GPT-4 Technical Report",
+		"url": "https://arxiv.org/abs/2303.08774"
+	}
+}

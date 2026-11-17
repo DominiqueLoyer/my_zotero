@@ -1,0 +1,150 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-03-14T17:39:08Z",
+			"dateModified": "2026-03-14T17:39:08Z",
+			"itemType": "note",
+			"key": "4AZR4DFQ",
+			"note": "Comment: 19 pages",
+			"parentItem": "PZITWKND",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/5A7GFMQA"
+				]
+			},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:29:34Z",
+			"dateModified": "2026-03-14T17:39:08Z",
+			"itemType": "attachment",
+			"key": "DLHHQ9CD",
+			"linkMode": "linked_file",
+			"parentItem": "PZITWKND",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/230226_v1551/PDFs/Colelough and Regli - 2025 - Neuro-Symbolic AI in 2024 A Systematic Review.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:17:58Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:58Z",
+			"dateModified": "2026-03-14T18:24:05Z",
+			"itemType": "attachment",
+			"key": "MPGXFMYH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:24:05 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-81ee-b101-eab17e86db38\",\"notes\":{\"4AZR4DFQ\":{\"blockID\":\"3239fa24-8c57-819b-9ff3-d7adfb3fceae\",\"syncedAt\":\"2026-03-14T18:24:05.073Z\"}}}</pre>",
+			"parentItem": "PZITWKND",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LJG8W33P"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/coleloughNeuroSymbolicAI20242025d-3239fa248c57813eb4b6f744168c9034"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "MPGXFMYH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/coleloughNeuroSymbolicAI20242025d-3239fa248c57813eb4b6f744168c9034"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Colelough and Regli - 2025 - Neuro-Symbolic AI in 2024 A Systematic Review.pdf",
+				"files": [
+					{
+						"path": "attachments/DL/DLHHQ9CD/Colelough and Regli - 2025 - Neuro-Symbolic AI in 2024 A Systematic Review.pdf",
+						"size": 1130658,
+						"storage": "git"
+					}
+				],
+				"key": "DLHHQ9CD",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/230226_v1551/PDFs"
+		],
+		"creators": [
+			"Colelough, Brandon C.",
+			"Regli, William"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "4AZR4DFQ",
+				"title": "Comment: 19 pages"
+			}
+		],
+		"title": "Neuro-Symbolic AI in 2024: A Systematic Review",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/PZITWKND"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2501.05435",
+		"abstractNote": "Background: The field of Artificial Intelligence has undergone cyclical periods of growth and decline, known as AI summers and winters. Currently, we are in the third AI summer, characterized by significant advancements and commercialization, particularly in the integration of Symbolic AI and Sub-Symbolic AI, leading to the emergence of Neuro-Symbolic AI. Methods: The review followed the PRISMA methodology, utilizing databases such as IEEE Explore, Google Scholar, arXiv, ACM, and SpringerLink. The inclusion criteria targeted peer-reviewed papers published between 2020 and 2024. Papers were screened for relevance to Neuro-Symbolic AI, with further inclusion based on the availability of associated codebases to ensure reproducibility. Results: From an initial pool of 1,428 papers, 167 met the inclusion criteria and were analyzed in detail. The majority of research efforts are concentrated in the areas of learning and inference (63%), logic and reasoning (35%), and knowledge representation (44%). Explainability and trustworthiness are less represented (28%), with Meta-Cognition being the least explored area (5%). The review identifies significant interdisciplinary opportunities, particularly in integrating explainability and trustworthiness with other research areas. Conclusion: Neuro-Symbolic AI research has seen rapid growth since 2020, with concentrated efforts in learning and inference. Significant gaps remain in explainability, trustworthiness, and Meta-Cognition. Addressing these gaps through interdisciplinary research will be crucial for advancing the field towards more intelligent, reliable, and context-aware AI systems.",
+		"accessDate": "2026-03-14T17:39:08Z",
+		"archiveID": "arXiv:2501.05435",
+		"citationKey": "coleloughNeuroSymbolicAI20242025d",
+		"collections": [
+			"CH9RLMF5"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Brandon C.",
+				"lastName": "Colelough"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "William",
+				"lastName": "Regli"
+			}
+		],
+		"date": "2025-04-05",
+		"dateAdded": "2026-03-14T17:39:08Z",
+		"dateModified": "2026-03-25T21:28:27Z",
+		"extra": "arXiv:2501.05435 [cs]",
+		"itemType": "preprint",
+		"key": "PZITWKND",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4XWV35FD"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Neuro-Symbolic AI in 2024",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neuro-Symbolic AI in 2024: A Systematic Review",
+		"url": "http://arxiv.org/abs/2501.05435"
+	}
+}

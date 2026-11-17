@@ -1,0 +1,138 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:37:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:12Z",
+			"dateModified": "2026-01-02T19:18:08Z",
+			"itemType": "attachment",
+			"key": "A65I8PIX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:08 p.m.</p>",
+			"parentItem": "SR5UFR95",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2RNF6CSL"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/avrahamUnderstandingInsuranceAntiDiscrimination-2c09fa248c57814191c8ebdd5230f2d4"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-18T16:10:58Z",
+			"dateModified": "2024-11-18T16:11:03Z",
+			"filename": "Avraham et al. - Understanding Insurance Anti-Discrimination Laws.pdf",
+			"itemType": "attachment",
+			"key": "T9NWY8B4",
+			"linkMode": "imported_file",
+			"parentItem": "SR5UFR95",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "A65I8PIX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/avrahamUnderstandingInsuranceAntiDiscrimination-2c09fa248c57814191c8ebdd5230f2d4"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Avraham et al. - Understanding Insurance Anti-Discrimination Laws.pdf",
+				"files": [
+					{
+						"path": "attachments/T9/T9NWY8B4/Avraham et al. - Understanding Insurance Anti-Discrimination Laws.pdf",
+						"size": 1800457,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/T9/T9NWY8B4/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 171940,
+						"storage": "git"
+					}
+				],
+				"key": "T9NWY8B4",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Biais and discrimination"
+		],
+		"creators": [
+			"Avraham, Ronen",
+			"Logue, Kyle D",
+			"Schwarcz, Daniel"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Understanding Insurance Anti-Discrimination Laws",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/SR5UFR95"
+	},
+	"zotero": {
+		"citationKey": "avrahamUnderstandingInsuranceAntiDiscrimination",
+		"collections": [
+			"CFHZPEAA",
+			"J4VTG4NB",
+			"NKV86EAI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ronen",
+				"lastName": "Avraham"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kyle D",
+				"lastName": "Logue"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Daniel",
+				"lastName": "Schwarcz"
+			}
+		],
+		"dateAdded": "2024-11-18T16:11:03Z",
+		"dateModified": "2025-12-29T23:57:37Z",
+		"itemType": "journalArticle",
+		"key": "SR5UFR95",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8V87CWXI"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Understanding Insurance Anti-Discrimination Laws"
+	}
+}

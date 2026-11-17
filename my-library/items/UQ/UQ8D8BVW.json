@@ -1,0 +1,92 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:27:38Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:27:38Z",
+			"dateModified": "2026-11-09T17:09:27Z",
+			"itemType": "attachment",
+			"key": "WB73NJKL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:27 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "UQ8D8BVW",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/G-mez-Boix-et-al-2018-4129fa248c5781be8051d1a99dc414a4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WB73NJKL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/G-mez-Boix-et-al-2018-4129fa248c5781be8051d1a99dc414a4"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Gómez-Boix, Alejandro",
+			"Laperdrix, Pierre",
+			"Baudry, B."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Hiding in the crowd: an analysis of the effectiveness of browser fingerprinting at large scale",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/UQ8D8BVW"
+	},
+	"zotero": {
+		"DOI": "10.1145/3178876.3186097",
+		"abstractNote": "Browser fingerprinting is a stateless technique, which consists in collecting a wide range of data about a device through browser APIs. Past studies have demonstrated that modern devices present so much diversity that fingerprints can be exploited to identify and track users online. With this work, we want to evaluate if browser fingerprinting is still effective at uniquely identifying a large group of users when analyzing millions of fingerprints over a few months. We collected 2,067,942 browser fingerprints from one of the top 15 French websites. The analysis of this novel dataset sheds a new light on the ever-growing browser fingerprinting domain. The key insight is that the percentage of unique fingerprints in our dataset is much lower than what was reported in the past: only 33.6",
+		"citationKey": "gomez-boixHidingCrowdAnalysis2018",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Alejandro",
+				"lastName": "Gómez-Boix"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pierre",
+				"lastName": "Laperdrix"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "B.",
+				"lastName": "Baudry"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-01-08T20:14:04Z",
+		"dateModified": "2026-03-25T21:30:06Z",
+		"itemType": "journalArticle",
+		"key": "UQ8D8BVW",
+		"language": "fr-CA",
+		"pages": "null",
+		"publicationTitle": "Proceedings of the 2018 World Wide Web Conference",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Hiding in the crowd: an analysis of the effectiveness of browser fingerprinting at large scale",
+		"url": "https://www.semanticscholar.org/paper/012c0fde4a532d2294dd2c091b879c26729a44ce",
+		"volume": "null"
+	}
+}

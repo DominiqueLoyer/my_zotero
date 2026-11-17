@@ -1,0 +1,156 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "467VXLGW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:31 p.m.</p>",
+			"parentItem": "PXQA74MG",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/barbagalloEthicalConsiderationsContext2026-3239fa248c5781d49f30c367f93aa4d1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "467VXLGW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/barbagalloEthicalConsiderationsContext2026-3239fa248c5781d49f30c367f93aa4d1"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Chetouani, Mohamed",
+			"Nowak, Andrzej",
+			"Lukowicz, Paul",
+			"Barbagallo, Ettore",
+			"Gadek, Guillaume",
+			"Faye, Géraud",
+			"Khairova, Nina",
+			"Arora, Chirag",
+			"Thilakarathne, Dilhan",
+			"Joisten, Karen",
+			"Teixeira, Sónia",
+			"Durán, Juan M.",
+			"Barrantes, Manuel"
+		],
+		"itemType": "bookSection",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Ethical Considerations in the Context of AI-Driven Misinformation Detection",
+		"year": "2026",
+		"zoteroURI": "zotero://select/groups/6376680/items/PXQA74MG"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-031-61050-9_31-1",
+		"ISBN": "978-3-031-61050-9",
+		"abstractNote": "Misinformation poses one of the most urgent challenges of our society and raises the question of how to deal with it and manage its rapid spread. To address this problem, a promising approach relies on AI-based misinformation detection. This chapter of the book offers a critical analysis of the ethical implications associated with the design, deployment, and use of misinformation detectors (MDs). Designing and deploying an MD—an AI system that automatically identiﬁes misinformation—is a complex undertaking that requires an interdisciplinary approach, as the challenges faced by MD designers and deployers encompass not only technical aspects, but also linguistic, sociological, political, and especially ethical dimensions. Our analysis is ethics-oriented and follows two main lines of inquiry: (1) Ethics by Design, which focuses on issues related to the design process of an MD, and (2) Ethics of Impact, which addresses the intended and unintended effects of MD deployment and use.",
+		"accessDate": "2026-03-14T17:40:18Z",
+		"bookTitle": "Handbook of Human-AI Collaboration",
+		"citationKey": "barbagalloEthicalConsiderationsContext2026",
+		"collections": [
+			"PNZQF2WF"
+		],
+		"creators": [
+			{
+				"creatorType": "editor",
+				"firstName": "Mohamed",
+				"lastName": "Chetouani"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Andrzej",
+				"lastName": "Nowak"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Paul",
+				"lastName": "Lukowicz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ettore",
+				"lastName": "Barbagallo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Guillaume",
+				"lastName": "Gadek"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Géraud",
+				"lastName": "Faye"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Nina",
+				"lastName": "Khairova"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chirag",
+				"lastName": "Arora"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dilhan",
+				"lastName": "Thilakarathne"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Karen",
+				"lastName": "Joisten"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sónia",
+				"lastName": "Teixeira"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Juan M.",
+				"lastName": "Durán"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Manuel",
+				"lastName": "Barrantes"
+			}
+		],
+		"date": "2026",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"itemType": "bookSection",
+		"key": "PXQA74MG",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1-38",
+		"place": "Cham",
+		"publisher": "Springer Nature Switzerland",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Ethical Considerations in the Context of AI-Driven Misinformation Detection",
+		"url": "https://link.springer.com/10.1007/978-3-031-61050-9_31-1"
+	}
+}

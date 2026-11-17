@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-11-17T14:46:36Z",
+			"itemType": "attachment",
+			"key": "QKQSWI3R",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:37:01 p.m.</p>",
+			"parentItem": "JK7JV9T4",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/PA9AEDWK"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Su2009-3129fa248c57810ead66d37ba4acacc0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QKQSWI3R",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Su2009-3129fa248c57810ead66d37ba4acacc0"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"references_dic9401"
+		],
+		"creators": [
+			"Su, Xiaoyuan and Khoshgoftaar, Taghi M."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A Survey of Collaborative Filtering Techniques",
+		"year": "2009",
+		"zoteroURI": "zotero://select/groups/6376680/items/JK7JV9T4"
+	},
+	"zotero": {
+		"DOI": "10.1155/2009/421425",
+		"citationKey": "Su2009",
+		"collections": [
+			"KRMD3KDT",
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Su, Xiaoyuan and Khoshgoftaar, Taghi M."
+			}
+		],
+		"date": "2009",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-11-17T14:46:36Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "JK7JV9T4",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/9PSLRKUU"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey of Collaborative Filtering Techniques"
+	}
+}

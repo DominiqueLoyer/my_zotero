@@ -1,0 +1,99 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:37:42Z",
+			"dateModified": "2026-03-09T20:52:55Z",
+			"itemType": "attachment",
+			"key": "85XUN2VK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:55 p.m.</p>",
+			"parentItem": "ZHDPRNPS",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/NIZVE3MV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Nagtegaal2021-2e29fa248c5781f5add7db155c38074b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "85XUN2VK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Nagtegaal2021-2e29fa248c5781f5add7db155c38074b"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Nagtegaal, F. M.",
+			"van de Wetering, R.",
+			"Klievink, B."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The role of human discretion in automated decision-making: A case study of the Dutch childcare allowance scandal",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/ZHDPRNPS"
+	},
+	"zotero": {
+		"DOI": "10.1016/j.giq.2021.101614",
+		"citationKey": "nagtegaalRoleHumanDiscretion2021a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "F. M.",
+				"lastName": "Nagtegaal"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "R.",
+				"lastName": "van de Wetering"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "B.",
+				"lastName": "Klievink"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-01-08T20:07:32Z",
+		"dateModified": "2026-03-25T21:30:35Z",
+		"issue": "4",
+		"itemType": "journalArticle",
+		"key": "ZHDPRNPS",
+		"language": "fr-CA",
+		"pages": "101614",
+		"publicationTitle": "Government Information Quarterly",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/WERJS7JJ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The role of human discretion in automated decision-making: A case study of the Dutch childcare allowance scandal",
+		"volume": "38"
+	}
+}

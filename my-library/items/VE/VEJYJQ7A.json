@@ -1,0 +1,160 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:16:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:16:57Z",
+			"dateModified": "2026-11-09T17:09:23Z",
+			"itemType": "attachment",
+			"key": "5YPLNG4H",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:23 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VEJYJQ7A",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/I8UIKHB9"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Zhu-et-al-2026-4129fa248c578198a5cdfa223cd0b6ba"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:33:36Z",
+			"dateModified": "2026-03-14T17:41:05Z",
+			"itemType": "attachment",
+			"key": "6W4NFECQ",
+			"linkMode": "linked_file",
+			"parentItem": "VEJYJQ7A",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Zhu et al. - 2026 - Graph-based Approaches and Functionalities in Retrieval-Augmented Generation A Comprehensive Survey.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5YPLNG4H",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Zhu-et-al-2026-4129fa248c578198a5cdfa223cd0b6ba"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zhu et al. - 2026 - Graph-based Approaches and Functionalities in Retrieval-Augmented Generation A Comprehensive Survey.pdf",
+				"files": [
+					{
+						"path": "attachments/6W/6W4NFECQ/Zhu et al. - 2026 - Graph-based Approaches and Functionalities in Retrieval-Augmented Generation A Comprehensive Survey.pdf",
+						"size": 3461598,
+						"storage": "git"
+					}
+				],
+				"key": "6W4NFECQ",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Zhu, Zulun",
+			"Huang, Tiancheng",
+			"Wang, Kai",
+			"Ye, Junda",
+			"Chen, Xinghe",
+			"Luo, Siqiang"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Graph-based Approaches and Functionalities in Retrieval-Augmented Generation: A Comprehensive Survey",
+		"year": "2026",
+		"zoteroURI": "zotero://select/library/items/VEJYJQ7A"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2504.10499",
+		"abstractNote": "Large language models (LLMs) struggle with the factual error during inference due to the lack of sufficient training data and the most updated knowledge, leading to the hallucination problem. Retrieval-Augmented Generation (RAG) has gained attention as a promising solution to address the limitation of LLMs, by retrieving relevant information from external source to generate more accurate answers to the questions. Given the pervasive presence of structured knowledge in the external source, considerable strides in RAG have been made to employ the techniques related to graphs and achieve more complex reasoning based on the topological information between knowledge entities. However, there is currently neither unified review examining the diverse roles of graphs in RAG, nor a comprehensive resource to help researchers navigate and contribute to this evolving field. This survey offers a novel perspective on the functionality of graphs within RAG and their impact on enhancing performance across a wide range of graph-structured data. It provides a detailed breakdown of the roles that graphs play in RAG, covering database construction, algorithms, pipelines, and tasks. Finally, it identifies current challenges and outline future research directions, aiming to inspire further developments in this field. Our graph-centered analysis highlights the commonalities and differences in existing methods, setting the stage for future researchers in areas such as graph learning, database systems, and natural language processing.",
+		"accessDate": "2026-03-14T17:41:05Z",
+		"archiveID": "arXiv:2504.10499",
+		"citationKey": "zhuGraphbasedApproachesFunctionalities2026",
+		"collections": [
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Zulun",
+				"lastName": "Zhu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tiancheng",
+				"lastName": "Huang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kai",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Junda",
+				"lastName": "Ye"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xinghe",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Siqiang",
+				"lastName": "Luo"
+			}
+		],
+		"date": "2026-01-21",
+		"dateAdded": "2026-03-14T17:41:05Z",
+		"dateModified": "2026-03-14T18:16:57Z",
+		"extra": "arXiv:2504.10499 [cs]",
+		"itemType": "preprint",
+		"key": "VEJYJQ7A",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/XMBLBSXZ"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Graph-based Approaches and Functionalities in Retrieval-Augmented Generation",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Graph-based Approaches and Functionalities in Retrieval-Augmented Generation: A Comprehensive Survey",
+		"url": "http://arxiv.org/abs/2504.10499"
+	}
+}

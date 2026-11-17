@@ -1,0 +1,73 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:30:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:30:37Z",
+			"dateModified": "2026-03-09T20:48:40Z",
+			"itemType": "attachment",
+			"key": "4ZS9SGIV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:48:40 p.m.</p>",
+			"parentItem": "CXGKSGMR",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/CrowdStrike2024-2e29fa248c578103a99ecde9a6f64c86"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "4ZS9SGIV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/CrowdStrike2024-2e29fa248c578103a99ecde9a6f64c86"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"CrowdStrike"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "What is data poisoning?",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/CXGKSGMR"
+	},
+	"zotero": {
+		"citationKey": "crowdstrikeWhatDataPoisoning2024c",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "CrowdStrike"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-01-08T20:10:57Z",
+		"dateModified": "2026-03-25T21:30:12Z",
+		"itemType": "document",
+		"key": "CXGKSGMR",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "What is data poisoning?",
+		"url": "https://www.crowdstrike.com/cybersecurity-101/data-security/data-poisoning/"
+	}
+}

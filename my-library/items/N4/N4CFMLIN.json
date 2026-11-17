@@ -1,0 +1,106 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-11-12T22:14:19Z",
+			"dateModified": "2026-11-12T22:14:19Z",
+			"itemType": "note",
+			"key": "FKTXJG4U",
+			"note": "Survey Article",
+			"parentItem": "N4CFMLIN",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-11-12T22:14:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-12T22:14:19Z",
+			"dateModified": "2026-11-12T22:14:19Z",
+			"itemType": "attachment",
+			"key": "YVQNG8B9",
+			"linkMode": "linked_url",
+			"parentItem": "N4CFMLIN",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "YVQNG8B9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126 2026-11-12, 5:14:18 p.m."
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "FKTXJG4U",
+				"title": "Survey Article"
+			}
+		],
+		"title": "A survey and critical evaluation of yoav shoham's knowledge representation perspective",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/N4CFMLIN"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.26691.26400",
+		"citationKey": "loyerSurveyCriticalEvaluation2025a",
+		"collections": [
+			"IE29Y4Q7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-13T19:29:56Z",
+		"extra": "ISBN: 978-1-0699904-6-4",
+		"itemType": "journalArticle",
+		"key": "N4CFMLIN",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "AI Reasoning"
+			},
+			{
+				"tag": "Formal Logic"
+			},
+			{
+				"tag": "Knowledge Representation"
+			},
+			{
+				"tag": "Ontologies"
+			},
+			{
+				"tag": "Yoav Shoham"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			}
+		],
+		"title": "A survey and critical evaluation of yoav shoham's knowledge representation perspective",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.26691.26400"
+	}
+}

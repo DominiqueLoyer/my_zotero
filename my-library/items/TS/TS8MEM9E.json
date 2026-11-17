@@ -1,0 +1,210 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-03-14T17:35:54Z",
+			"dateModified": "2026-03-14T17:35:54Z",
+			"itemType": "note",
+			"key": "95P9BIGR",
+			"note": "Comment: Demonstration paper",
+			"parentItem": "TS8MEM9E",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/Z94FE5JZ"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-03-14T18:20:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:20:00Z",
+			"dateModified": "2026-03-14T18:28:34Z",
+			"itemType": "attachment",
+			"key": "EQJBGF9Y",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:28:34 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-8153-8d03-ed452a889ab8\",\"notes\":{\"95P9BIGR\":{\"blockID\":\"3239fa24-8c57-8130-adfc-ed25abd93ae2\",\"syncedAt\":\"2026-03-14T18:28:34.371Z\"}}}</pre>",
+			"parentItem": "TS8MEM9E",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/EC8I2C7W"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/junczys-dowmuntMarianFastNeural2018-3239fa248c57815598c7dfd26a491cfc"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:10Z",
+			"dateModified": "2026-03-14T17:35:55Z",
+			"itemType": "attachment",
+			"key": "G8RIMLZ7",
+			"linkMode": "linked_file",
+			"parentItem": "TS8MEM9E",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/NMT_en-ru_040326/PDFs/Junczys-Dowmunt et al. - 2018 - Marian Fast Neural Machine Translation in C++.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EQJBGF9Y",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/junczys-dowmuntMarianFastNeural2018-3239fa248c57815598c7dfd26a491cfc"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Junczys-Dowmunt et al. - 2018 - Marian Fast Neural Machine Translation in C++.pdf",
+				"files": [
+					{
+						"path": "attachments/G8/G8RIMLZ7/Junczys-Dowmunt et al. - 2018 - Marian Fast Neural Machine Translation in C++.pdf",
+						"size": 297790,
+						"storage": "git"
+					}
+				],
+				"key": "G8RIMLZ7",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
+		],
+		"creators": [
+			"Junczys-Dowmunt, Marcin",
+			"Grundkiewicz, Roman",
+			"Dwojak, Tomasz",
+			"Hoang, Hieu",
+			"Heafield, Kenneth",
+			"Neckermann, Tom",
+			"Seide, Frank",
+			"Germann, Ulrich",
+			"Aji, Alham Fikri",
+			"Bogoychev, Nikolay",
+			"Martins, André F. T.",
+			"Birch, Alexandra"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "95P9BIGR",
+				"title": "Comment: Demonstration paper"
+			}
+		],
+		"title": "Marian: Fast Neural Machine Translation in C++",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/TS8MEM9E"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1804.00344",
+		"abstractNote": "We present Marian, an efficient and self-contained Neural Machine Translation framework with an integrated automatic differentiation engine based on dynamic computation graphs. Marian is written entirely in C++. We describe the design of the encoder-decoder framework and demonstrate that a research-friendly toolkit can achieve high training and translation speed.",
+		"accessDate": "2026-03-14T17:35:54Z",
+		"archiveID": "arXiv:1804.00344",
+		"citationKey": "junczys-dowmuntMarianFastNeural2018",
+		"collections": [
+			"VENCFFG7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Marcin",
+				"lastName": "Junczys-Dowmunt"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Roman",
+				"lastName": "Grundkiewicz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tomasz",
+				"lastName": "Dwojak"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hieu",
+				"lastName": "Hoang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kenneth",
+				"lastName": "Heafield"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tom",
+				"lastName": "Neckermann"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Frank",
+				"lastName": "Seide"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ulrich",
+				"lastName": "Germann"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alham Fikri",
+				"lastName": "Aji"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Nikolay",
+				"lastName": "Bogoychev"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "André F. T.",
+				"lastName": "Martins"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alexandra",
+				"lastName": "Birch"
+			}
+		],
+		"date": "2018-04-04",
+		"dateAdded": "2026-03-14T17:35:54Z",
+		"dateModified": "2026-03-14T18:20:00Z",
+		"extra": "arXiv:1804.00344 [cs]",
+		"itemType": "preprint",
+		"key": "TS8MEM9E",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/JE6B7DQG"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Marian",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Marian: Fast Neural Machine Translation in C++",
+		"url": "http://arxiv.org/abs/1804.00344"
+	}
+}

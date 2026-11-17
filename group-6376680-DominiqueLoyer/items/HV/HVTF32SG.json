@@ -1,0 +1,89 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "YFKX3LLE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:06 p.m.</p>",
+			"parentItem": "HVTF32SG",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/McNee2006-2e29fa248c5781e1bd58eb582572af50"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "YFKX3LLE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/McNee2006-2e29fa248c5781e1bd58eb582572af50"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"McNee, Sean M.",
+			"Riedl, John",
+			"Konstan, Joseph A."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Being accurate is not enough: how accuracy metrics have hurt recommender systems",
+		"year": "2006",
+		"zoteroURI": "zotero://select/groups/6376680/items/HVTF32SG"
+	},
+	"zotero": {
+		"DOI": "10.1145/1125451.1125659",
+		"citationKey": "mcneeBeingAccurateNot2006a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Sean M.",
+				"lastName": "McNee"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John",
+				"lastName": "Riedl"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joseph A.",
+				"lastName": "Konstan"
+			}
+		],
+		"date": "2006",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "HVTF32SG",
+		"language": "fr-CA",
+		"pages": "1097–1101",
+		"proceedingsTitle": "CHI'06 extended abstracts on Human factors in computing systems",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Being accurate is not enough: how accuracy metrics have hurt recommender systems"
+	}
+}

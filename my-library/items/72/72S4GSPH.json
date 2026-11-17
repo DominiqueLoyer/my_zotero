@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:51Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:51Z",
+			"dateModified": "2026-11-09T17:08:19Z",
+			"itemType": "attachment",
+			"key": "I7NYS7LK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:19 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "72S4GSPH",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2DGQDWJ7",
+					"http://zotero.org/groups/6376680/items/KWXWIQLM"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Herlocker-Jonathan-L-and-Konstan-Joseph-A-and-Terveen-Loren-G-and-Riedl-John-T-2004-4129fa248c57819e826ae67610d40d1e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "I7NYS7LK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Herlocker-Jonathan-L-and-Konstan-Joseph-A-and-Terveen-Loren-G-and-Riedl-John-T-2004-4129fa248c57819e826ae67610d40d1e"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Herlocker, Jonathan L. and Konstan, Joseph A. and Terveen, Loren G. and Riedl, John T."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Evaluating collaborative filtering recommender systems",
+		"year": "2004",
+		"zoteroURI": "zotero://select/library/items/72S4GSPH"
+	},
+	"zotero": {
+		"DOI": "10.1145/963770.963772",
+		"citationKey": "herlockerjonathanl.andkonstanjosepha.andterveenloreng.andriedljohnt.EvaluatingCollaborativeFiltering2004",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Herlocker, Jonathan L. and Konstan, Joseph A. and Terveen, Loren G. and Riedl, John T."
+			}
+		],
+		"date": "2004",
+		"dateAdded": "2026-02-25T21:38:06Z",
+		"dateModified": "2026-03-25T21:29:46Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "72S4GSPH",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/ANPXAGPJ",
+				"http://zotero.org/groups/6376680/items/UQ4XAX7F"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Evaluating collaborative filtering recommender systems"
+	}
+}

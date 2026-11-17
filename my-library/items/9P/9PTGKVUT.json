@@ -1,0 +1,129 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:49:25Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:49:25Z",
+			"dateModified": "2026-01-01T23:49:25Z",
+			"filename": "Sarwar et al. - 2001 - Item-Based Collaborative Filtering Recommendation Algorithms.pdf",
+			"itemType": "attachment",
+			"key": "NUTUTIPY",
+			"linkMode": "imported_url",
+			"parentItem": "9PTGKVUT",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://www.ra.ethz.ch/CDstore/www10/papers/pdf/p519.pdf"
+		},
+		{
+			"accessDate": "2025-12-05T22:26:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:24Z",
+			"dateModified": "2026-01-02T19:10:05Z",
+			"itemType": "attachment",
+			"key": "SF8K5EHN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:10:05 p.m.</p>",
+			"parentItem": "9PTGKVUT",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/sarwarItemBasedCollaborativeFiltering2001-2c09fa248c5781a98534c21ddd8b10b6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SF8K5EHN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/sarwarItemBasedCollaborativeFiltering2001-2c09fa248c5781a98534c21ddd8b10b6"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Sarwar et al. - 2001 - Item-Based Collaborative Filtering Recommendation Algorithms.pdf",
+				"files": [
+					{
+						"path": "attachments/NU/NUTUTIPY/Sarwar et al. - 2001 - Item-Based Collaborative Filtering Recommendation Algorithms.pdf",
+						"size": 258563,
+						"storage": "git"
+					}
+				],
+				"key": "NUTUTIPY",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://www.ra.ethz.ch/CDstore/www10/papers/pdf/p519.pdf"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Sarwar, Badrul",
+			"Karypis, George",
+			"Konstan, Joseph A.",
+			"Riedl, John"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Item-Based Collaborative Filtering Recommendation Algorithms",
+		"year": "2001",
+		"zoteroURI": "zotero://select/library/items/9PTGKVUT"
+	},
+	"zotero": {
+		"DOI": "10.1145/371920.372071",
+		"citationKey": "sarwarItemBasedCollaborativeFiltering2001",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Badrul",
+				"lastName": "Sarwar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "George",
+				"lastName": "Karypis"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joseph A.",
+				"lastName": "Konstan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John",
+				"lastName": "Riedl"
+			}
+		],
+		"date": "2001",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-03-25T21:31:00Z",
+		"itemType": "conferencePaper",
+		"key": "9PTGKVUT",
+		"pages": "285–295",
+		"place": "New York, NY, USA",
+		"proceedingsTitle": "Proceedings of the 10th International Conference on World Wide Web",
+		"publisher": "Association for Computing Machinery",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Item-Based Collaborative Filtering Recommendation Algorithms"
+	}
+}

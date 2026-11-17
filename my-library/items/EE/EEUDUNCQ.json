@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:19Z",
+			"dateModified": "2026-11-09T17:04:51Z",
+			"itemType": "attachment",
+			"key": "2YW983PC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:51 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "EEUDUNCQ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6MWK7YUU",
+					"http://zotero.org/groups/6376680/items/A6BT74VL"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Luo-Z-and-Chen-Z-and-Wang-Y-and-Cheng-P-and-Zhang-J-2024-4129fa248c57815ab393f733e9689495"
+		},
+		{
+			"accessDate": "2026-11-08T16:22:58Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:22:58Z",
+			"dateModified": "2026-11-08T16:22:58Z",
+			"filename": "Luo, Z., and Chen, Z., and Wang, Y., and Cheng, P., and Zhang, J. - 2024 - A Survey on Explainability of Large Language Models.pdf",
+			"itemType": "attachment",
+			"key": "P2GFV9DH",
+			"linkMode": "imported_url",
+			"parentItem": "EEUDUNCQ",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2402.16029v5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2YW983PC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Luo-Z-and-Chen-Z-and-Wang-Y-and-Cheng-P-and-Zhang-J-2024-4129fa248c57815ab393f733e9689495"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Luo, Z., and Chen, Z., and Wang, Y., and Cheng, P., and Zhang, J. - 2024 - A Survey on Explainability of Large Language Models.pdf",
+				"files": [
+					{
+						"path": "attachments/P2/P2GFV9DH/Luo, Z., and Chen, Z., and Wang, Y., and Cheng, P., and Zhang, J. - 2024 - A Survey on Explainability of Large Language Models.pdf",
+						"size": 1566333,
+						"storage": "git"
+					}
+				],
+				"key": "P2GFV9DH",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2402.16029v5"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Luo, Z., and Chen, Z., and Wang, Y., and Cheng, P., and Zhang, J."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Survey on Explainability of Large Language Models",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/EEUDUNCQ"
+	},
+	"zotero": {
+		"DOI": "10.1145/3639372",
+		"citationKey": "luoz.andchenz.andwangy.andchengp.andzhangj.SurveyExplainabilityLarge2024",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Luo, Z., and Chen, Z., and Wang, Y., and Cheng, P., and Zhang, J."
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:41:01Z",
+		"dateModified": "2026-11-13T19:30:11Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "EEUDUNCQ",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/D3HU2FZ3",
+				"http://zotero.org/groups/6376680/items/VC4KSCHB"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey on Explainability of Large Language Models",
+		"url": "https://arxiv.org/abs/2402.16029"
+	}
+}

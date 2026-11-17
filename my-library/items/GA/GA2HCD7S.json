@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:58Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:58Z",
+			"dateModified": "2026-03-09T20:44:24Z",
+			"itemType": "attachment",
+			"key": "24V79WS9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:24 p.m.</p>",
+			"parentItem": "GA2HCD7S",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/NXWIXVCN",
+					"http://zotero.org/groups/6376680/items/TL6KYGZI"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ArtificialIntelligenceAct-eu2024The-3129fa248c5781dd9423fbd2ba55e194"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "24V79WS9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ArtificialIntelligenceAct-eu2024The-3129fa248c5781dd9423fbd2ba55e194"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"ArtificialIntelligenceAct.eu"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The EU AI Act",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/GA2HCD7S"
+	},
+	"zotero": {
+		"DOI": "10.37307/j.2701-7605.2024.06.03",
+		"citationKey": "artificialintelligenceact.euEUAIAct2024c",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "ArtificialIntelligenceAct.eu"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:32:33Z",
+		"dateModified": "2026-03-25T21:29:54Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "GA2HCD7S",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/HFAVAA9Q",
+				"http://zotero.org/groups/6376680/items/XC2GEHYM"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The EU AI Act"
+	}
+}

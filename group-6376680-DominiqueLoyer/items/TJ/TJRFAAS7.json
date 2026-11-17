@@ -1,0 +1,91 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:46Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "ASPCJ29J",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:13 p.m.</p>",
+			"parentItem": "TJRFAAS7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Elkahky2015-2e29fa248c5781b99db5e0a4e5dae5e1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ASPCJ29J",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Elkahky2015-2e29fa248c5781b99db5e0a4e5dae5e1"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Elkahky, Ali Mamdouh",
+			"Song, Yang",
+			"He, Xiaodong"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A multi-view deep learning approach for cross domain user modeling in recommendation systems",
+		"year": "2015",
+		"zoteroURI": "zotero://select/groups/6376680/items/TJRFAAS7"
+	},
+	"zotero": {
+		"DOI": "10.1145/2736277.2741667",
+		"citationKey": "elkahkyMultiviewDeepLearning2015a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ali Mamdouh",
+				"lastName": "Elkahky"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yang",
+				"lastName": "Song"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiaodong",
+				"lastName": "He"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "TJRFAAS7",
+		"pages": "278–288",
+		"place": "New York, NY, USA",
+		"proceedingsTitle": "Proceedings of the 24th international conference on world wide web (WWW '15)",
+		"publisher": "Association for Computing Machinery",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A multi-view deep learning approach for cross domain user modeling in recommendation systems",
+		"url": "https://arxiv.org/abs/1511.06939"
+	}
+}

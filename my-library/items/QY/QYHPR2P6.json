@@ -1,0 +1,147 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:54:53Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:54:53Z",
+			"dateModified": "2026-11-09T15:02:43Z",
+			"filename": "Siganos et al. - 2017 - Explaining and Interpreting Black-Box Models A Survey on the Role of Interaction.pdf",
+			"itemType": "attachment",
+			"key": "EEJA2K56",
+			"linkMode": "imported_url",
+			"parentItem": "QYHPR2P6",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/SJCXU3XJ"
+				]
+			},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/1711.02222v1"
+		},
+		{
+			"accessDate": "2025-12-05T22:25:55Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:55Z",
+			"dateModified": "2026-11-09T17:08:49Z",
+			"itemType": "attachment",
+			"key": "KP63XUK7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:49 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "QYHPR2P6",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/QRTL42M4"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/EKIF2RBY"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Siganos-et-al-2017-4129fa248c5781c1bfb5cc75b338c466"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KP63XUK7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Siganos-et-al-2017-4129fa248c5781c1bfb5cc75b338c466"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Siganos et al. - 2017 - Explaining and Interpreting Black-Box Models A Survey on the Role of Interaction.pdf",
+				"files": [
+					{
+						"path": "attachments/EE/EEJA2K56/Siganos et al. - 2017 - Explaining and Interpreting Black-Box Models A Survey on the Role of Interaction.pdf",
+						"size": 1054538,
+						"storage": "git"
+					}
+				],
+				"key": "EEJA2K56",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/1711.02222v1"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Siganos, Georgios",
+			"Vlachos, Michalis",
+			"Gunopulos, Dimitrios"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explaining and Interpreting Black-Box Models: A Survey on the Role of Interaction",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/QYHPR2P6"
+	},
+	"zotero": {
+		"citationKey": "siganosExplainingInterpretingBlackBox2017",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Georgios",
+				"lastName": "Siganos"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Michalis",
+				"lastName": "Vlachos"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dimitrios",
+				"lastName": "Gunopulos"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T15:02:43Z",
+		"itemType": "journalArticle",
+		"key": "QYHPR2P6",
+		"publicationTitle": "arXiv preprint arXiv:1711.02222",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/VNNKM7NF",
+				"http://zotero.org/users/15425556/items/Z3TVRZAD"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/DHHN3PF4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Explaining and Interpreting Black-Box Models: A Survey on the Role of Interaction",
+		"url": "https://arxiv.org/abs/1711.02222"
+	}
+}

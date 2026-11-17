@@ -1,0 +1,138 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:42Z",
+			"dateModified": "2026-11-09T17:08:07Z",
+			"itemType": "attachment",
+			"key": "MV9XK4BX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:07 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "49SARRZH",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Faskowitz-et-al-2021-4129fa248c57816a9147ec2441613c4c"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-10-15T19:02:46Z",
+			"dateModified": "2024-10-15T19:02:51Z",
+			"filename": "Faskowitz et al. - 2021 - Edges in brain networks Contributions to models of structure and function.pdf",
+			"itemType": "attachment",
+			"key": "QS2X8MFC",
+			"linkMode": "imported_file",
+			"parentItem": "49SARRZH",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "MV9XK4BX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Faskowitz-et-al-2021-4129fa248c57816a9147ec2441613c4c"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Faskowitz et al. - 2021 - Edges in brain networks Contributions to models of structure and function.pdf",
+				"files": [
+					{
+						"path": "attachments/QS/QS2X8MFC/Faskowitz et al. - 2021 - Edges in brain networks Contributions to models of structure and function.pdf",
+						"size": 1758173,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/QS/QS2X8MFC/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 123200,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/QS/QS2X8MFC/Faskowitz et al. - 2021 - Edges in brain networks Contributions to models of structure and function (trashed 2025-11-24 15-34-11).pdf",
+						"size": 1758173,
+						"storage": "git"
+					}
+				],
+				"key": "QS2X8MFC",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9270(A24)",
+			"Cours A24/DIC9270(A24)/conférence 17 oct 2024, Sporns"
+		],
+		"creators": [
+			"Faskowitz, Joshua",
+			"Betzel, Richard F.",
+			"Sporns, Olaf"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Edges in brain networks: Contributions to models of structure and function",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/49SARRZH"
+	},
+	"zotero": {
+		"DOI": "10.1162/netn_a_00204",
+		"ISSN": "2472-1751",
+		"abstractNote": "Network models describe the brain as sets of nodes and edges that represent its distributed organization. So far, most discoveries in network neuroscience have prioritized insights that highlight distinct groupings and specialized functional contributions of network nodes. Importantly, these functional contributions are determined and expressed by the web of their interrelationships, formed by network edges. Here, we underscore the important contributions made by brain network edges for understanding distributed brain organization. Different types of edges represent different types of relationships, including connectivity and similarity among nodes. Adopting a specific definition of edges can fundamentally alter how we analyze and interpret a brain network. Furthermore, edges can associate into collectives and higher order arrangements, describe time series, and form edge communities that provide insights into brain network topology complementary to the traditional nodecentric perspective. Focusing on the edges, and the higher order or dynamic information they can provide, discloses previously underappreciated aspects of structural and functional network organization.",
+		"accessDate": "2024-10-15T19:02:51Z",
+		"citationKey": "faskowitzEdgesBrainNetworks2021",
+		"collections": [
+			"J8IAVEXZ",
+			"MKJPXVYB"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Joshua",
+				"lastName": "Faskowitz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Richard F.",
+				"lastName": "Betzel"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Olaf",
+				"lastName": "Sporns"
+			}
+		],
+		"date": "2021-10-26",
+		"dateAdded": "2024-10-15T19:02:51Z",
+		"dateModified": "2025-12-05T22:34:42Z",
+		"itemType": "journalArticle",
+		"key": "49SARRZH",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1-28",
+		"publicationTitle": "Network Neuroscience",
+		"relations": {},
+		"shortTitle": "Edges in brain networks",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Edges in brain networks: Contributions to models of structure and function",
+		"url": "https://direct.mit.edu/netn/article/doi/10.1162/netn_a_00204/106931/Edges-in-brain-networks-Contributions-to-models-of"
+	}
+}

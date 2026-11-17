@@ -1,0 +1,123 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:23:32Z",
+			"dateModified": "2026-11-17T14:46:26Z",
+			"itemType": "attachment",
+			"key": "B85KZ4ND",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:56 p.m.</p>",
+			"parentItem": "QZS7JJIA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Hitzler2021A-31e9fa248c57812ca245f3d4abddfd21"
+		},
+		{
+			"accessDate": "2026-03-14T18:18:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:46:26Z",
+			"itemType": "attachment",
+			"key": "CRX4IM2J",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:18:25 p.m.</p>",
+			"parentItem": "QZS7JJIA",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/DCEJRHYJ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/hitzlerReviewSemanticWeb2021a-3239fa248c5781809e02f46ce30f9eb8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "B85KZ4ND",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Hitzler2021A-31e9fa248c57812ca245f3d4abddfd21"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CRX4IM2J",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/hitzlerReviewSemanticWeb2021a-3239fa248c5781809e02f46ce30f9eb8"
+			}
+		],
+		"collections": [
+			"_9335_all",
+			"_ALL_CIT_140326/2eTP_dic9335_040326/PDFs"
+		],
+		"creators": [
+			"Hitzler, Pascal"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A review of the semantic web field",
+		"year": "2021",
+		"zoteroURI": "zotero://select/groups/6376680/items/QZS7JJIA"
+	},
+	"zotero": {
+		"DOI": "10.1145/3397512",
+		"ISSN": "0001-0782, 1557-7317",
+		"abstractNote": "Tracing the triumphs and challenges of two decades of Semantic Web research and applications.",
+		"accessDate": "2026-03-14T17:38:23Z",
+		"citationKey": "hitzlerReviewSemanticWeb2021",
+		"collections": [
+			"JVLZZMAC",
+			"ZUF52BR8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Pascal",
+				"lastName": "Hitzler"
+			}
+		],
+		"date": "2021-01-25",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-11-17T14:46:26Z",
+		"issue": "2",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Commun. ACM",
+		"key": "QZS7JJIA",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "76-83",
+		"publicationTitle": "Communications of the ACM",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/3T6WL3RF",
+				"http://zotero.org/groups/6376680/items/EYCJVECU"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A review of the semantic web field",
+		"url": "https://dl.acm.org/doi/10.1145/3397512",
+		"volume": "64"
+	}
+}

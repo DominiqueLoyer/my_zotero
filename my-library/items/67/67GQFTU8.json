@@ -1,0 +1,181 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:21Z",
+			"dateModified": "2026-11-09T17:09:29Z",
+			"itemType": "attachment",
+			"key": "IQ8EG4VB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:29 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "67GQFTU8",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/7Q7EYPC9"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ACI7F2RA"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Liao-et-al-2023-4129fa248c5781e59718f17ced474594"
+		},
+		{
+			"accessDate": "2026-11-08T16:14:22Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:14:22Z",
+			"dateModified": "2026-11-09T15:01:12Z",
+			"filename": "Liao et al. - 2023 - Human-centered explainable AI (XAI) From algorithms to user experiences.pdf",
+			"itemType": "attachment",
+			"key": "K5TTQLQT",
+			"linkMode": "imported_url",
+			"parentItem": "67GQFTU8",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2207.03277"
+		},
+		{
+			"accessDate": "2026-01-01T23:50:23Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:50:23Z",
+			"dateModified": "2026-01-01T23:50:23Z",
+			"filename": "Liao et al. - 2023 - Human-Centered Explainable AI (XAI) From Algorithms to User Experiences.pdf",
+			"itemType": "attachment",
+			"key": "ZV88HTSC",
+			"linkMode": "imported_url",
+			"parentItem": "67GQFTU8",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://dl.acm.org/doi/pdf/10.1145/3583561"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Liao et al. - 2023 - Human-Centered Explainable AI (XAI) From Algorithms to User Experiences.pdf",
+				"files": [
+					{
+						"path": "attachments/ZV/ZV88HTSC/Liao et al. - 2023 - Human-Centered Explainable AI (XAI) From Algorithms to User Experiences.pdf",
+						"size": 4225081,
+						"storage": "git"
+					}
+				],
+				"key": "ZV88HTSC",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://dl.acm.org/doi/pdf/10.1145/3583561"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IQ8EG4VB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Liao-et-al-2023-4129fa248c5781e59718f17ced474594"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Liao et al. - 2023 - Human-centered explainable AI (XAI) From algorithms to user experiences.pdf",
+				"files": [
+					{
+						"path": "attachments/K5/K5TTQLQT/Liao et al. - 2023 - Human-centered explainable AI (XAI) From algorithms to user experiences.pdf",
+						"size": 4487459,
+						"storage": "git"
+					}
+				],
+				"key": "K5TTQLQT",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2207.03277"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Liao, Q. Vera",
+			"Singh, Gagandeep",
+			"Aneja, Jyoti",
+			"Morris, John D."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Human-Centered Explainable AI (XAI): From Algorithms to User Experiences",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/67GQFTU8"
+	},
+	"zotero": {
+		"DOI": "10.1145/3583561",
+		"citationKey": "liaoHumanCenteredExplainableAI2023",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Q. Vera",
+				"lastName": "Liao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gagandeep",
+				"lastName": "Singh"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jyoti",
+				"lastName": "Aneja"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John D.",
+				"lastName": "Morris"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-09T15:01:12Z",
+		"issue": "3",
+		"itemType": "journalArticle",
+		"key": "67GQFTU8",
+		"pages": "1–37",
+		"publicationTitle": "ACM Transactions on Interactive Intelligent Systems",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/J49BH7ML",
+				"http://zotero.org/users/15425556/items/RKRFKGII"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/ZFUBKD68"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Human-Centered Explainable AI (XAI): From Algorithms to User Experiences",
+		"volume": "13"
+	}
+}

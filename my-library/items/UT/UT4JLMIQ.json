@@ -1,0 +1,172 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:27:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:20Z",
+			"dateModified": "2026-11-09T17:06:24Z",
+			"itemType": "attachment",
+			"key": "64XLZ258",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:24 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "UT4JLMIQ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Robert-2024-4129fa248c5781bfa79cfbf6e0c335a5"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ff6666",
+			"annotationComment": "",
+			"annotationPageLabel": "21",
+			"annotationPosition": "{\"pageIndex\":20,\"rects\":[[390.89,423.979,740.626,455.088]]}",
+			"annotationSortIndex": "00020|000039|00084",
+			"annotationText": "(Tooby & Cosmides, 1989)",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-04T16:55:20Z",
+			"dateModified": "2024-12-04T16:55:20Z",
+			"itemType": "annotation",
+			"key": "EWMWNV7V",
+			"parentItem": "K6CI993D",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "",
+			"annotationPageLabel": "26",
+			"annotationPosition": "{\"pageIndex\":25,\"rects\":[[121.08,358.388,360.324,374.92]]}",
+			"annotationSortIndex": "00025|000027|00165",
+			"annotationText": "Evans, Stanovich, Kahneman",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-04T18:51:47Z",
+			"dateModified": "2024-12-04T18:51:47Z",
+			"itemType": "annotation",
+			"key": "JPGCH3S6",
+			"parentItem": "K6CI993D",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-01T03:35:11Z",
+			"dateModified": "2024-12-01T03:35:13Z",
+			"filename": "Robert - Cognition et représentation en sciences cognitives du raisonnement.pdf",
+			"itemType": "attachment",
+			"key": "K6CI993D",
+			"linkMode": "imported_file",
+			"parentItem": "UT4JLMIQ",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "",
+			"annotationPageLabel": "25",
+			"annotationPosition": "{\"pageIndex\":24,\"rects\":[[380.69,360.397,521.375,374.95]]}",
+			"annotationSortIndex": "00024|000054|00165",
+			"annotationText": "Oaksford & Chater,",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-04T18:50:47Z",
+			"dateModified": "2024-12-04T18:50:47Z",
+			"itemType": "annotation",
+			"key": "V7YPKLS5",
+			"parentItem": "K6CI993D",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "64XLZ258",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Robert-2024-4129fa248c5781bfa79cfbf6e0c335a5"
+			},
+			{
+				"annotationCount": 3,
+				"contentType": "application/pdf",
+				"filename": "Robert - Cognition et représentation en sciences cognitives du raisonnement.pdf",
+				"files": [
+					{
+						"path": "attachments/K6/K6CI993D/Robert - Cognition et représentation en sciences cognitives du raisonnement.pdf",
+						"size": 811941,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/K6/K6CI993D/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 20073,
+						"storage": "git"
+					}
+				],
+				"key": "K6CI993D",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Papier sur Evans (Raissonning)"
+		],
+		"creators": [
+			"Robert, Serge"
+		],
+		"itemType": "presentation",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Cognition et représentation en sciences cognitives du raisonnement",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/UT4JLMIQ"
+	},
+	"zotero": {
+		"citationKey": "robertCognitionRepresentationSciences2024",
+		"collections": [
+			"VVY733TS"
+		],
+		"creators": [
+			{
+				"creatorType": "presenter",
+				"firstName": "Serge",
+				"lastName": "Robert"
+			}
+		],
+		"date": "2024-10-24",
+		"dateAdded": "2024-12-01T03:35:12Z",
+		"dateModified": "2026-11-13T19:34:29Z",
+		"itemType": "presentation",
+		"key": "UT4JLMIQ",
+		"language": "fr",
+		"place": "UQAM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "raisonning"
+			},
+			{
+				"tag": "raissonnement"
+			}
+		],
+		"title": "Cognition et représentation en sciences cognitives du raisonnement"
+	}
+}

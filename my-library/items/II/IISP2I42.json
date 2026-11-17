@@ -1,0 +1,115 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-26T14:08:44Z",
+			"dateModified": "2025-03-26T14:08:48Z",
+			"filename": "Shah - 2024 - From Prompt Engineering to Prompt Science With Human in the Loop.pdf",
+			"itemType": "attachment",
+			"key": "GZYZ7A7Q",
+			"linkMode": "imported_file",
+			"parentItem": "IISP2I42",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:25:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:57Z",
+			"dateModified": "2026-11-09T17:09:10Z",
+			"itemType": "attachment",
+			"key": "J3TZ6THD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:10 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "IISP2I42",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Shah-2024-4129fa248c5781d89e0de289ba62e691"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "J3TZ6THD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Shah-2024-4129fa248c5781d89e0de289ba62e691"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Shah - 2024 - From Prompt Engineering to Prompt Science With Human in the Loop.pdf",
+				"files": [],
+				"key": "GZYZ7A7Q",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/9270 (H25)/27 mars Chirag Shah"
+		],
+		"creators": [
+			"Shah, Chirag"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "From Prompt Engineering to Prompt Science With Human in the Loop",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/IISP2I42"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2401.04122",
+		"abstractNote": "As LLMs make their way into many aspects of our lives, one place that warrants increased scrutiny with LLM usage is scientific research. Using LLMs for generating or analyzing data for research purposes is gaining popularity. But when such application is marred with ad-hoc decisions and engineering solutions, we need to be concerned about how it may affect that research, its findings, or any future works based on that research. We need a more scientific approach to using LLMs in our research. While there are several active efforts to support more systematic construction of prompts, they are often focused more on achieving desirable outcomes rather than producing replicable and generalizable knowledge with sufficient transparency, objectivity, or rigor. This article presents a new methodology inspired by codebook construction through qualitative methods to address that. Using humans in the loop and a multiphase verification processes, this methodology lays a foundation for more systematic, objective, and trustworthy way of applying LLMs for analyzing data. Specifically, we show how a set of researchers can work through a rigorous process of labeling, deliberating, and documenting to remove subjectivity and bring transparency and replicability to prompt generation process.",
+		"accessDate": "2025-03-26T14:08:48Z",
+		"archiveID": "arXiv:2401.04122",
+		"citationKey": "shahPromptEngineeringPrompt2024",
+		"collections": [
+			"M2XX24Z9"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Chirag",
+				"lastName": "Shah"
+			}
+		],
+		"date": "2024-05-10",
+		"dateAdded": "2025-03-26T14:08:48Z",
+		"dateModified": "2025-12-05T22:25:57Z",
+		"extra": "arXiv:2401.04122 [cs]",
+		"itemType": "preprint",
+		"key": "IISP2I42",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Human-Computer Interaction",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "From Prompt Engineering to Prompt Science With Human in the Loop",
+		"url": "http://arxiv.org/abs/2401.04122"
+	}
+}

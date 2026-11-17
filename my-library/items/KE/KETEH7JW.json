@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:53:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:30Z",
+			"dateModified": "2026-03-09T20:46:48Z",
+			"itemType": "attachment",
+			"key": "GZTMZ4HG",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:46:48 p.m.</p>",
+			"parentItem": "KETEH7JW",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/24YM4KXL"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ReferencesVFTrashed20250528-2ea9fa248c578102babbd36ef57b2845"
+		},
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:20Z",
+			"dateModified": "2026-01-08T22:57:40Z",
+			"filename": "referencesVF (trashed 2025-05-28 14-37-59) 1-at.bib",
+			"itemType": "attachment",
+			"key": "LCEC6Q65",
+			"linkMode": "imported_file",
+			"parentItem": "KETEH7JW",
+			"relations": {},
+			"tags": [],
+			"title": "referencesVF (trashed 2025-05-28 14-37-59) 1-at"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GZTMZ4HG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ReferencesVFTrashed20250528-2ea9fa248c578102babbd36ef57b2845"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "referencesVF (trashed 2025-05-28 14-37-59) 1-at.bib",
+				"files": [
+					{
+						"path": "attachments/LC/LCEC6Q65/referencesVF (trashed 2025-05-28 14-37-59) 1-at.bib",
+						"size": 20429,
+						"storage": "git"
+					}
+				],
+				"key": "LCEC6Q65",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "referencesVF (trashed 2025-05-28 14-37-59) 1-at",
+				"url": null
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "referencesVF (trashed 2025-05-28 14-37-59) 1-at",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/KETEH7JW"
+	},
+	"zotero": {
+		"citationKey": "ReferencesVFTrashed20250528",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:40Z",
+		"dateModified": "2026-02-05T00:09:07Z",
+		"itemType": "document",
+		"key": "KETEH7JW",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/GQZVNRFV"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "referencesVF (trashed 2025-05-28 14-37-59) 1-at"
+	}
+}

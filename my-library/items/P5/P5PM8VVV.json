@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:56Z",
+			"dateModified": "2026-11-09T17:06:54Z",
+			"itemType": "attachment",
+			"key": "TRJRAV9B",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:54 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "P5PM8VVV",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2XPNZ6AT",
+					"http://zotero.org/groups/6376680/items/F8PU3FXN"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Universit-e-de-Montr-e-al-2020-4129fa248c5781da8cb2f05746a43a5d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TRJRAV9B",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Universit-e-de-Montr-e-al-2020-4129fa248c5781da8cb2f05746a43a5d"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Universit{\\'e} de Montr{\\'e}al"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "D{\\'e}claration de Montr{\\'e}al pour un d{\\'e}veloppement responsable de l'intelligence artificielle",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/P5PM8VVV"
+	},
+	"zotero": {
+		"DOI": "10.61737/NICJ7555",
+		"citationKey": "universitedemontrealDeclarationMontrealPour2020",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Universit{\\'e} de Montr{\\'e}al"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-02-25T20:54:42Z",
+		"dateModified": "2026-11-13T19:35:18Z",
+		"extra": "Importé via SysCRED.\nDOI Fix previous DOI: 10.61737/nicj7555",
+		"itemType": "journalArticle",
+		"key": "P5PM8VVV",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/3EI5XK9W",
+				"http://zotero.org/groups/6376680/items/6YVEY7E5"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "D{\\'e}claration de Montr{\\'e}al pour un d{\\'e}veloppement responsable de l'intelligence artificielle"
+	}
+}

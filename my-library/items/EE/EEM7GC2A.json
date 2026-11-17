@@ -1,0 +1,81 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:52:44Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:52:44Z",
+			"dateModified": "2026-03-09T20:46:06Z",
+			"itemType": "attachment",
+			"key": "3A5VFCA9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:46:06 p.m.</p>",
+			"parentItem": "EEM7GC2A",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerModelisationDunSysteme2025a-2ea9fa248c57815e81e5c3ba84a092ee"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3A5VFCA9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerModelisationDunSysteme2025a-2ea9fa248c57815e81e5c3ba84a092ee"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Modélisation d'un système hybride d'évaluation de crédibilité des sources d'information (système AI/NLP et système à base de règles logiques)",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/EEM7GC2A"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.18312.74244",
+		"abstractNote": "Augmentation massive de l’information (\"infobésité\").\nDiﬃculté croissante à distinguer l’information ﬁable.\nPolarisation des opinions alimentée par la désinformation. Metzger et al.\nNécessité d’outils pour aider à l’évaluation critique.\nProlifération de désinformation, mésinformation et \"fake news\". Oshikawa et al. ; Zhou and Zafarani ; Pescuma et al.\nImpact négatif sur l’opinion publique, la conﬁance et la démocratie. Loth et al. ; Zhou and Zafarani\nIllustration tragique lors de la pandémie de COVID-19. Loth et al.\n); Chen and Shu  Metzger et al.",
+		"citationKey": "loyerModelisationDunSysteme2025b",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-09T18:32:40Z",
+		"dateModified": "2026-02-05T00:04:46Z",
+		"extra": "abstractTranslation: Massive increase in information (\"information overload\"). Growing difficulty in distinguishing reliable information. Polarization of opinions fueled by disinformation. Metzger et al. Need for tools to aid critical evaluation. Proliferation of disinformation, misinformation, and \"fake news\". Oshikawa et al.; Zhou and Zafarani; Pescuma et al. Negative impact on public opinion, trust, and democracy. Loth et al.; Zhou and Zafarani Tragic illustration during the COVID-19 pandemic. Loth et al.); Chen and Shu Metzger et al.\ntitleTranslation: Modeling a hybrid system for evaluating the credibility of information sources (AI/NLP system and logical rule-based system)",
+		"itemType": "conferencePaper",
+		"key": "EEM7GC2A",
+		"language": "fr-CA",
+		"pages": "33",
+		"place": "Montréal, Québec, Canada",
+		"publisher": "UQAM",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/users/15425556/publications/items/QY2Q2C8R"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Modélisation d'un système hybride d'évaluation de crédibilité des sources d'information (système AI/NLP et système à base de règles logiques)",
+		"url": "https://www.researchgate.net/publication/392330408_Modelisation_d%27un_systeme_hybride_d%27evaluation_de_credibilite_des_sources_d%27information_systeme_AINLP_et_systeme_a_base_de_regles_logiques?channel=doi&linkId=683df5ab6b5a287c3048cb20&showFulltext=true"
+	}
+}

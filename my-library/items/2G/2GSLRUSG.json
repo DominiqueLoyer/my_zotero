@@ -1,0 +1,109 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:32:42Z",
+			"dateModified": "2025-03-31T18:49:51Z",
+			"filename": "UC_Instit_Financiere.pdf",
+			"itemType": "attachment",
+			"key": "N3C69ICJ",
+			"linkMode": "imported_file",
+			"parentItem": "2GSLRUSG",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:25:16Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:16Z",
+			"dateModified": "2026-01-02T19:15:04Z",
+			"itemType": "attachment",
+			"key": "Y5DGGCAF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:04 p.m.</p>",
+			"parentItem": "2GSLRUSG",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/UC_Instit_Financiere-2c09fa248c578123835adb9a107da319"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Y5DGGCAF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/UC_Instit_Financiere-2c09fa248c578123835adb9a107da319"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "UC_Instit_Financiere.pdf",
+				"files": [
+					{
+						"path": "attachments/N3/N3C69ICJ/UC_Instit_Financiere.pdf",
+						"size": 1804553,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/N3/N3C69ICJ/UC_Instit_Financiere (trashed 2025-11-24 15-34-11) (trashed 2025-12-05 17-17-43).pdf",
+						"size": 1804553,
+						"storage": "git"
+					}
+				],
+				"key": "N3C69ICJ",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "UC_Instit_Financiere",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/2GSLRUSG"
+	},
+	"zotero": {
+		"citationKey": "lounishakimUC_Instit_Financiere",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:49:47Z",
+		"dateModified": "2025-03-31T18:50:24Z",
+		"itemType": "document",
+		"key": "2GSLRUSG",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "UC_Instit_Financiere"
+	}
+}

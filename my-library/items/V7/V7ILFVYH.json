@@ -1,0 +1,152 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:36:17Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:17Z",
+			"dateModified": "2026-11-09T17:04:31Z",
+			"itemType": "attachment",
+			"key": "ELT6N9Z3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:31 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "V7ILFVYH",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Cao-et-al-2023-4129fa248c5781b4b9b8fe742dcb800d"
+		},
+		{
+			"accessDate": "2026-01-01T23:55:16Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:55:16Z",
+			"dateModified": "2026-01-01T23:55:16Z",
+			"filename": "Cao et al. - 2023 - A Comprehensive Survey of AI-Generated Content (AIGC) A History of Generative AI from GAN to ChatGP.pdf",
+			"itemType": "attachment",
+			"key": "N4VNU842",
+			"linkMode": "imported_url",
+			"parentItem": "V7ILFVYH",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2303.04226v1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ELT6N9Z3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Cao-et-al-2023-4129fa248c5781b4b9b8fe742dcb800d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Cao et al. - 2023 - A Comprehensive Survey of AI-Generated Content (AIGC) A History of Generative AI from GAN to ChatGP.pdf",
+				"files": [
+					{
+						"path": "attachments/N4/N4VNU842/Cao et al. - 2023 - A Comprehensive Survey of AI-Generated Content (AIGC) A History of Generative AI from GAN to ChatGP.pdf",
+						"size": 2738271,
+						"storage": "git"
+					}
+				],
+				"key": "N4VNU842",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2303.04226v1"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Cao, Yuhan",
+			"Li, Siyu",
+			"Liu, Yixin",
+			"Yan, Zhiling",
+			"Dai, Yutong",
+			"Yu, Philip S.",
+			"Sun, Lichao"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/V7ILFVYH"
+	},
+	"zotero": {
+		"citationKey": "caoComprehensiveSurveyAIGenerated2023a",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Yuhan",
+				"lastName": "Cao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Siyu",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yixin",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhiling",
+				"lastName": "Yan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yutong",
+				"lastName": "Dai"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Philip S.",
+				"lastName": "Yu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lichao",
+				"lastName": "Sun"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-13T19:29:06Z",
+		"itemType": "journalArticle",
+		"key": "V7ILFVYH",
+		"publicationTitle": "arXiv preprint arXiv:2303.04226",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT",
+		"url": "https://arxiv.org/abs/2303.04226"
+	}
+}

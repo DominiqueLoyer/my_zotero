@@ -1,0 +1,95 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-02T19:08:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-02T19:08:25Z",
+			"dateModified": "2026-11-09T17:05:45Z",
+			"itemType": "attachment",
+			"key": "UN473YXI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:45 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "7D3CILB8",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Baltes-et-al-2019-4129fa248c5781818d22f806a415acfd"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UN473YXI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Baltes-et-al-2019-4129fa248c5781818d22f806a415acfd"
+			}
+		],
+		"collections": [
+			"GS_301225.bibtex"
+		],
+		"creators": [
+			"Baltes, Bogdan Andrei",
+			"Cardinale, Yudith",
+			"Arroquia-Cuadros, Benjamı́n"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Automated fact-checking based on large language models: An application for the press",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/7D3CILB8"
+	},
+	"zotero": {
+		"citationKey": "baltesAutomatedFactcheckingBased2019",
+		"collections": [
+			"H8Z7N6W8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Bogdan Andrei",
+				"lastName": "Baltes"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yudith",
+				"lastName": "Cardinale"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Benjamı́n",
+				"lastName": "Arroquia-Cuadros"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2025-12-30T21:49:10Z",
+		"dateModified": "2026-11-13T19:32:27Z",
+		"itemType": "conferencePaper",
+		"key": "7D3CILB8",
+		"pages": "40–53",
+		"proceedingsTitle": "Proceedings of the 1st workshop on countering disinformation with artificial intelligence, santiago de compostela, spain",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Automated fact-checking based on large language models: An application for the press"
+	}
+}

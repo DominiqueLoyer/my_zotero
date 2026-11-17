@@ -1,0 +1,154 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:43:25Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:43:25Z",
+			"dateModified": "2026-11-08T16:43:25Z",
+			"filename": "Zhang et al. - 2023 - A survey on large language models for recommendation.pdf",
+			"itemType": "attachment",
+			"key": "63TGWTWI",
+			"linkMode": "imported_url",
+			"parentItem": "WXYUJGYX",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2305.19860v5"
+		},
+		{
+			"accessDate": "2026-01-08T20:35:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:35:04Z",
+			"dateModified": "2026-11-09T17:04:51Z",
+			"itemType": "attachment",
+			"key": "ZQ5EWC48",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:51 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "WXYUJGYX",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ALY5AMRQ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Zhang-et-al-2023-4129fa248c57814c82aaf156cb95292f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZQ5EWC48",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Zhang-et-al-2023-4129fa248c57814c82aaf156cb95292f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zhang et al. - 2023 - A survey on large language models for recommendation.pdf",
+				"files": [
+					{
+						"path": "attachments/63/63TGWTWI/Zhang et al. - 2023 - A survey on large language models for recommendation.pdf",
+						"size": 2100078,
+						"storage": "git"
+					}
+				],
+				"key": "63TGWTWI",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2305.19860v5"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Zhang, Zhaocheng",
+			"Liu, Jiongnan",
+			"Wu, Likang",
+			"Wang, Zhaopeng",
+			"Geng, Xingcan",
+			"Yuan, Fajie",
+			"Ren, Zhaochun"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A survey on large language models for recommendation",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/WXYUJGYX"
+	},
+	"zotero": {
+		"DOI": "10.36227/techrxiv.173272687.73188733/v1",
+		"citationKey": "zhangSurveyLargeLanguage2023a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Zhaocheng",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jiongnan",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Likang",
+				"lastName": "Wu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhaopeng",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xingcan",
+				"lastName": "Geng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fajie",
+				"lastName": "Yuan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhaochun",
+				"lastName": "Ren"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-01-08T20:07:34Z",
+		"dateModified": "2026-11-09T16:07:13Z",
+		"itemType": "journalArticle",
+		"key": "WXYUJGYX",
+		"language": "fr-CA",
+		"publicationTitle": "arXiv preprint arXiv:2305.19860",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/MTJR3KWR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A survey on large language models for recommendation",
+		"url": "https://arxiv.org/abs/2305.19860"
+	}
+}

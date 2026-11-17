@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:20:57Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:20:57Z",
+			"dateModified": "2026-11-08T16:20:57Z",
+			"filename": "Cao, Yuhan and Li, Siyu and Liu, Yixin and Yan, Zhiling and Dai, Yutong and Yu, Philip S. and Sun, Lichao - 2025 - A Comprehensive Survey of AI-Generated Content (AIGC) A History of Generative AI from GAN to ChatGP.pdf",
+			"itemType": "attachment",
+			"key": "APL2YBXA",
+			"linkMode": "imported_url",
+			"parentItem": "5BW668CA",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2303.04226v1"
+		},
+		{
+			"accessDate": "2026-02-25T22:18:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:32Z",
+			"dateModified": "2026-11-09T17:04:32Z",
+			"itemType": "attachment",
+			"key": "H93XMFYP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:32 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "5BW668CA",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/8GGZ9BRF",
+					"http://zotero.org/groups/6376680/items/CHFMDQ7W"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Cao-Yuhan-and-Li-Siyu-and-Liu-Yixin-and-Yan-Zhiling-and-Dai-Yutong-and-Yu-Philip-S-and-Sun-L-4129fa248c5781e49751d213a7e4d8d5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "H93XMFYP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Cao-Yuhan-and-Li-Siyu-and-Liu-Yixin-and-Yan-Zhiling-and-Dai-Yutong-and-Yu-Philip-S-and-Sun-L-4129fa248c5781e49751d213a7e4d8d5"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Cao, Yuhan and Li, Siyu and Liu, Yixin and Yan, Zhiling and Dai, Yutong and Yu, Philip S. and Sun, Lichao - 2025 - A Comprehensive Survey of AI-Generated Content (AIGC) A History of Generative AI from GAN to ChatGP.pdf",
+				"files": [
+					{
+						"path": "attachments/AP/APL2YBXA/Cao, Yuhan and Li, Siyu and Liu, Yixin and Yan, Zhiling and Dai, Yutong and Yu, Philip S. and Sun, Lichao - 2025 - A Comprehensive Survey of AI-Generated Content (AIGC) A History of Generative AI from GAN to ChatGP.pdf",
+						"size": 2738271,
+						"storage": "git"
+					}
+				],
+				"key": "APL2YBXA",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2303.04226v1"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Cao, Yuhan and Li, Siyu and Liu, Yixin and Yan, Zhiling and Dai, Yutong and Yu, Philip S. and Sun, Lichao"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/5BW668CA"
+	},
+	"zotero": {
+		"DOI": "10.1145/3704262",
+		"citationKey": "caoyuhanandlisiyuandliuyixinandyanzhilinganddaiyutongandyuphilips.andsunlichaoComprehensiveSurveyAIGenerated2025",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Cao, Yuhan and Li, Siyu and Liu, Yixin and Yan, Zhiling and Dai, Yutong and Yu, Philip S. and Sun, Lichao"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-25T21:34:25Z",
+		"dateModified": "2026-11-13T19:29:11Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "5BW668CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/F8CISQVR",
+				"http://zotero.org/groups/6376680/items/RTIHHA2D"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT",
+		"url": "https://arxiv.org/abs/2303.04226"
+	}
+}

@@ -1,0 +1,111 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-26T22:35:08Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T22:35:08Z",
+			"dateModified": "2026-11-09T17:04:36Z",
+			"itemType": "attachment",
+			"key": "WBYBB6R6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:36 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "JTBFIGTZ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Li-Jiwei-and-Hovy-Eduard-2014-4129fa248c57818183a7e5c83f0a1d36"
+		},
+		{
+			"accessDate": "2026-11-08T16:01:05Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:01:05Z",
+			"dateModified": "2026-11-08T16:01:05Z",
+			"filename": "Li, Jiwei and Hovy, Eduard - 2014 - A Model of Coherence Based on Distributed Sentence Representation.pdf",
+			"itemType": "attachment",
+			"key": "WXEQPW9G",
+			"linkMode": "imported_url",
+			"parentItem": "JTBFIGTZ",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://aclanthology.org/D14-1218.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Li, Jiwei and Hovy, Eduard - 2014 - A Model of Coherence Based on Distributed Sentence Representation.pdf",
+				"files": [
+					{
+						"path": "attachments/WX/WXEQPW9G/Li, Jiwei and Hovy, Eduard - 2014 - A Model of Coherence Based on Distributed Sentence Representation.pdf",
+						"size": 277962,
+						"storage": "git"
+					}
+				],
+				"key": "WXEQPW9G",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://aclanthology.org/D14-1218.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WBYBB6R6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Li-Jiwei-and-Hovy-Eduard-2014-4129fa248c57818183a7e5c83f0a1d36"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Li, Jiwei and Hovy, Eduard"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Model of Coherence Based on Distributed Sentence Representation",
+		"year": "2014",
+		"zoteroURI": "zotero://select/library/items/JTBFIGTZ"
+	},
+	"zotero": {
+		"DOI": "10.3115/v1/d14-1218",
+		"citationKey": "lijiweiandhovyeduardModelCoherenceBased2014",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Li, Jiwei and Hovy, Eduard"
+			}
+		],
+		"date": "2014",
+		"dateAdded": "2026-02-26T20:20:38Z",
+		"dateModified": "2026-03-25T21:29:29Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "JTBFIGTZ",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/5L57PZ5M"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Model of Coherence Based on Distributed Sentence Representation"
+	}
+}

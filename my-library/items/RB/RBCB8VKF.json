@@ -1,0 +1,78 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-26T22:35:07Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T22:35:07Z",
+			"dateModified": "2026-11-09T17:07:24Z",
+			"itemType": "attachment",
+			"key": "L4GRI3N8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:24 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "RBCB8VKF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Chen-Wei-Fan-and-Oh-Alice-2019-4129fa248c5781339bfbe0ba664847c0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "L4GRI3N8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Chen-Wei-Fan-and-Oh-Alice-2019-4129fa248c5781339bfbe0ba664847c0"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Chen, Wei-Fan and Oh, Alice"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Detecting Media Bias using Gaussian Mixture Models: An Unsupervised Approach",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/RBCB8VKF"
+	},
+	"zotero": {
+		"DOI": "10.1080/07421222.2019.1661089",
+		"citationKey": "chenwei-fanandohaliceDetectingMediaBias2019",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Chen, Wei-Fan and Oh, Alice"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-02-26T20:20:47Z",
+		"dateModified": "2026-03-25T21:29:28Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "RBCB8VKF",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/5FUMVLRA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Detecting Media Bias using Gaussian Mixture Models: An Unsupervised Approach"
+	}
+}

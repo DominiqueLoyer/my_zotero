@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:11Z",
+			"dateModified": "2026-01-02T19:15:41Z",
+			"itemType": "attachment",
+			"key": "2U3HJ9AE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:41 p.m.</p>",
+			"parentItem": "257WUMEY",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Sequencediagpret1-2c09fa248c57815b8eedfacedf867c9e"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:28:10Z",
+			"dateModified": "2025-03-31T18:58:54Z",
+			"filename": "sequence-diag-pret1.pdf",
+			"itemType": "attachment",
+			"key": "T4EUREUF",
+			"linkMode": "imported_file",
+			"parentItem": "257WUMEY",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/6TXKB8G4"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2U3HJ9AE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Sequencediagpret1-2c09fa248c57815b8eedfacedf867c9e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "sequence-diag-pret1.pdf",
+				"files": [
+					{
+						"path": "attachments/T4/T4EUREUF/sequence-diag-pret1.pdf",
+						"size": 3840,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/T4/T4EUREUF/sequence-diag-pret1 (trashed 2025-11-24 15-34-16).pdf",
+						"size": 3840,
+						"storage": "git"
+					}
+				],
+				"key": "T4EUREUF",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/cours 4.1 dynamique"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "sequence-diag-pret1",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/257WUMEY"
+	},
+	"zotero": {
+		"citationKey": "lounishakimSequencediagpret1",
+		"collections": [
+			"G4KBEA9A",
+			"JBEL9UJJ"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:38:31Z",
+		"dateModified": "2025-03-31T18:58:54Z",
+		"itemType": "document",
+		"key": "257WUMEY",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/ULNS4I3L"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "sequence-diag-pret1"
+	}
+}

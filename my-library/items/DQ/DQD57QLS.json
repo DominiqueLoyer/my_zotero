@@ -1,0 +1,96 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:33:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:33:24Z",
+			"dateModified": "2026-11-09T17:08:19Z",
+			"itemType": "attachment",
+			"key": "HLUC5PXV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:19 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "DQD57QLS",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Herlocker-et-al-2004-4129fa248c578112b4f7d86b50909a75"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HLUC5PXV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Herlocker-et-al-2004-4129fa248c578112b4f7d86b50909a75"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"Herlocker, Jonathan L.",
+			"Konstan, Joseph A.",
+			"Terveen, Loren G.",
+			"Riedl, John T."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Evaluating collaborative filtering recommender systems",
+		"year": "2004",
+		"zoteroURI": "zotero://select/library/items/DQD57QLS"
+	},
+	"zotero": {
+		"citationKey": "herlockerEvaluatingCollaborativeFiltering2004b",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jonathan L.",
+				"lastName": "Herlocker"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joseph A.",
+				"lastName": "Konstan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Loren G.",
+				"lastName": "Terveen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John T.",
+				"lastName": "Riedl"
+			}
+		],
+		"date": "2004",
+		"dateAdded": "2026-01-08T20:10:55Z",
+		"dateModified": "2026-03-25T21:30:20Z",
+		"extra": "Number: 1",
+		"itemType": "conferencePaper",
+		"key": "DQD57QLS",
+		"language": "fr-CA",
+		"pages": "5–53",
+		"proceedingsTitle": "ACM transactions on information systems (TOIS)",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Evaluating collaborative filtering recommender systems",
+		"volume": "22"
+	}
+}

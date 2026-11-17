@@ -1,0 +1,135 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:23:49Z",
+			"dateModified": "2026-03-14T17:35:42Z",
+			"itemType": "attachment",
+			"key": "IVC7R4AJ",
+			"linkMode": "linked_file",
+			"parentItem": "MGJLJUXN",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/mod_lisation_260226/PDFs/Prabhakaran et al. - 2019 - Perturbation Sensitivity Analysis to Detect Unintended Model Biases.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:20:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:20:04Z",
+			"dateModified": "2026-03-14T18:20:04Z",
+			"itemType": "attachment",
+			"key": "PP75GYRK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:20:04 p.m.</p>",
+			"parentItem": "MGJLJUXN",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/VQSCKFRR"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/prabhakaranPerturbationSensitivityAnalysis2019a-3239fa248c5781499c22d133e93e958e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PP75GYRK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/prabhakaranPerturbationSensitivityAnalysis2019a-3239fa248c5781499c22d133e93e958e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Prabhakaran et al. - 2019 - Perturbation Sensitivity Analysis to Detect Unintended Model Biases.pdf",
+				"files": [
+					{
+						"path": "attachments/IV/IVC7R4AJ/Prabhakaran et al. - 2019 - Perturbation Sensitivity Analysis to Detect Unintended Model Biases.pdf",
+						"size": 389916,
+						"storage": "git"
+					}
+				],
+				"key": "IVC7R4AJ",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/mod_lisation_260226/PDFs"
+		],
+		"creators": [
+			"Prabhakaran, Vinodkumar",
+			"Hutchinson, Ben",
+			"Mitchell, Margaret"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Perturbation Sensitivity Analysis to Detect Unintended Model Biases",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/MGJLJUXN"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/D19-1578",
+		"abstractNote": "Data-driven statistical Natural Language Processing (NLP) techniques leverage large amounts of language data to build models that can understand language. However, most language data reﬂect the public discourse at the time the data was produced, and hence NLP models are susceptible to learning incidental associations around named referents at a particular point in time, in addition to general linguistic meaning. An NLP system designed to model notions such as sentiment and toxicity should ideally produce scores that are independent of the identity of such entities mentioned in text and their social associations. For example, in a general purpose sentiment analysis system, a phrase such as I hate Katy Perry should be interpreted as having the same sentiment as I hate Taylor Swift. Based on this idea, we propose a generic evaluation framework, Perturbation Sensitivity Analysis, which detects unintended model biases related to named entities, and requires no new annotations or corpora. We demonstrate the utility of this analysis by employing it on two different NLP models — a sentiment model and a toxicity model — applied on online comments in English language from four different genres.",
+		"accessDate": "2026-03-14T17:35:41Z",
+		"citationKey": "prabhakaranPerturbationSensitivityAnalysis2019",
+		"collections": [
+			"6ZWL4EBC"
+		],
+		"conferenceName": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Vinodkumar",
+				"lastName": "Prabhakaran"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ben",
+				"lastName": "Hutchinson"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Margaret",
+				"lastName": "Mitchell"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-03-14T17:35:41Z",
+		"dateModified": "2026-03-25T21:28:37Z",
+		"itemType": "conferencePaper",
+		"key": "MGJLJUXN",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "5739-5744",
+		"place": "Hong Kong, China",
+		"proceedingsTitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+		"publisher": "Association for Computational Linguistics",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4Y75CS8X"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Perturbation Sensitivity Analysis to Detect Unintended Model Biases",
+		"url": "https://www.aclweb.org/anthology/D19-1578"
+	}
+}

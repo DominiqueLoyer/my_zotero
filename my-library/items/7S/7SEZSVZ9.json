@@ -1,0 +1,121 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:34:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:34:42Z",
+			"dateModified": "2026-03-09T20:51:07Z",
+			"itemType": "attachment",
+			"key": "E7RSKTBI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:07 p.m.</p>",
+			"parentItem": "7SEZSVZ9",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Doran2017-2e29fa248c578183a840f2017a0c4112"
+		},
+		{
+			"accessDate": "2026-11-08T16:40:12Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:40:12Z",
+			"dateModified": "2026-11-08T16:40:12Z",
+			"filename": "Doran et al. - 2017 - What does explainable AI really mean A new conceptualization of perspectives.pdf",
+			"itemType": "attachment",
+			"key": "IS7TFBKR",
+			"linkMode": "imported_url",
+			"parentItem": "7SEZSVZ9",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/1710.00794v1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "E7RSKTBI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Doran2017-2e29fa248c578183a840f2017a0c4112"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Doran et al. - 2017 - What does explainable AI really mean A new conceptualization of perspectives.pdf",
+				"files": [
+					{
+						"path": "attachments/IS/IS7TFBKR/Doran et al. - 2017 - What does explainable AI really mean A new conceptualization of perspectives.pdf",
+						"size": 1926855,
+						"storage": "git"
+					}
+				],
+				"key": "IS7TFBKR",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/1710.00794v1"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"Doran, Derek",
+			"Schulz, Sarah",
+			"Besold, Tarek R."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "What does explainable AI really mean? A new conceptualization of perspectives",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/7SEZSVZ9"
+	},
+	"zotero": {
+		"citationKey": "doranWhatDoesExplainable2017b",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Derek",
+				"lastName": "Doran"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sarah",
+				"lastName": "Schulz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tarek R.",
+				"lastName": "Besold"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-01-08T20:10:54Z",
+		"dateModified": "2026-03-25T21:30:25Z",
+		"itemType": "journalArticle",
+		"key": "7SEZSVZ9",
+		"language": "fr-CA",
+		"publicationTitle": "arXiv preprint arXiv:1710.00794",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "What does explainable AI really mean? A new conceptualization of perspectives",
+		"url": "https://arxiv.org/abs/1710.00794"
+	}
+}

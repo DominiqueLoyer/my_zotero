@@ -1,0 +1,92 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:20:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "UHDPKZJY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:20:20 p.m.</p>",
+			"parentItem": "3YUBT4XY",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/rasooliYaraParserFast2015-3239fa248c5781978343df8ce9f3e1de"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UHDPKZJY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/rasooliYaraParserFast2015-3239fa248c5781978343df8ce9f3e1de"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/dic9401/PDFs"
+		],
+		"creators": [
+			"Rasooli, Mohammad Sadegh",
+			"Tetreault, Joel"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Yara Parser: A Fast and Accurate Dependency Parser",
+		"year": "2015",
+		"zoteroURI": "zotero://select/groups/6376680/items/3YUBT4XY"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1503.06733",
+		"abstractNote": "Dependency parsers are among the most crucial tools in natural language processing as they have many important applications in downstream tasks such as information retrieval, machine translation and knowledge acquisition. We introduce the Yara Parser, a fast and accurate open-source dependency parser based on the arc-eager algorithm and beam search. It achieves an unlabeled accuracy of 93.32 on the standard WSJ test set which ranks it among the top dependency parsers. At its fastest, Yara can parse about 4000 sentences per second when in greedy mode (1 beam). When optimizing for accuracy (using 64 beams and Brown cluster features), Yara can parse 45 sentences per second. The parser can be trained on any syntactic dependency treebank and different options are provided in order to make it more flexible and tunable for specific tasks. It is released with the Apache version 2.0 license and can be used for both commercial and academic purposes. The parser can be found at https://github.com/yahoo/YaraParser.",
+		"accessDate": "2026-03-14T17:35:20Z",
+		"archiveID": "arXiv:1503.06733",
+		"citationKey": "rasooliYaraParserFast2015",
+		"collections": [
+			"NY3HGKS9"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Mohammad Sadegh",
+				"lastName": "Rasooli"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joel",
+				"lastName": "Tetreault"
+			}
+		],
+		"date": "2015-03-24",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:1503.06733 [cs]",
+		"itemType": "preprint",
+		"key": "3YUBT4XY",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"shortTitle": "Yara Parser",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Yara Parser: A Fast and Accurate Dependency Parser",
+		"url": "http://arxiv.org/abs/1503.06733"
+	}
+}

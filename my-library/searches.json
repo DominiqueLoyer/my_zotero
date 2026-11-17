@@ -1,0 +1,23 @@
+[
+	{
+		"conditions": [
+			{
+				"condition": "creator",
+				"operator": "contains",
+				"value": " Loyer"
+			},
+			{
+				"condition": "recursive",
+				"operator": "true",
+				"value": ""
+			},
+			{
+				"condition": "includeParentsAndChildren",
+				"operator": "true",
+				"value": ""
+			}
+		],
+		"key": "VSL97UUV",
+		"name": "rechercheAvancée_Loyer_090126"
+	}
+]

@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:59Z",
+			"dateModified": "2026-11-09T17:04:27Z",
+			"itemType": "attachment",
+			"key": "8G3NX38T",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:27 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "MF5HANKX",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/C6F2S5JR",
+					"http://zotero.org/groups/6376680/items/XTNHNMYA"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Sunstein-Cass-R-2018-4129fa248c578164b7c5d7a3a31fd155"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8G3NX38T",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Sunstein-Cass-R-2018-4129fa248c578164b7c5d7a3a31fd155"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Sunstein, Cass R."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "\\#Republic: Divided democracy in the age of social media",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/MF5HANKX"
+	},
+	"zotero": {
+		"DOI": "10.1080/10848770.2018.1449394",
+		"citationKey": "sunsteincassr.RepublicDividedDemocracy2018",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Sunstein, Cass R."
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-02-25T21:50:46Z",
+		"dateModified": "2026-03-25T21:29:36Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "MF5HANKX",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/39D9D8DK",
+				"http://zotero.org/groups/6376680/items/63ILJG6S"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "\\#Republic: Divided democracy in the age of social media"
+	}
+}

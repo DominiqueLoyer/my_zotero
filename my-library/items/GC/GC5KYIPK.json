@@ -1,0 +1,115 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:30:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:30:04Z",
+			"dateModified": "2026-01-02T19:17:04Z",
+			"itemType": "attachment",
+			"key": "7NJFSF3F",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:04 p.m.</p>",
+			"parentItem": "GC5KYIPK",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyers-dominiqueMesNotesCoursA2024-2c09fa248c5781819d8cfd18923807d2"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-08T17:54:16Z",
+			"dateModified": "2024-12-08T17:55:28Z",
+			"filename": "Mes notes du cours dic9150.pdf",
+			"itemType": "attachment",
+			"key": "P37XRITC",
+			"linkMode": "imported_file",
+			"parentItem": "GC5KYIPK",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "Dominique Loyer"
+				},
+				{
+					"tag": "dic-9150"
+				}
+			],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7NJFSF3F",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyers-dominiqueMesNotesCoursA2024-2c09fa248c5781819d8cfd18923807d2"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Mes notes du cours dic9150.pdf",
+				"files": [
+					{
+						"path": "attachments/P3/P37XRITC/Mes notes du cours dic9150.pdf",
+						"size": 923258,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/P3/P37XRITC/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 26282,
+						"storage": "git"
+					}
+				],
+				"key": "P37XRITC",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/Dic9150"
+		],
+		"creators": [
+			"Loyer S. Dominique"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Mes notes du cours dic9150",
+		"year": "0000",
+		"zoteroURI": "zotero://select/library/items/GC5KYIPK"
+	},
+	"zotero": {
+		"citationKey": "loyers.dominiqueMesNotesCoursA2024",
+		"collections": [
+			"77BIVK4E"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Loyer S. Dominique"
+			}
+		],
+		"date": "A2024",
+		"dateAdded": "2024-12-08T17:55:27Z",
+		"dateModified": "2025-12-05T22:30:04Z",
+		"itemType": "document",
+		"key": "GC5KYIPK",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Mes notes du cours dic9150"
+	}
+}

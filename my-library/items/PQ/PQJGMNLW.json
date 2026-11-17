@@ -1,0 +1,115 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:29Z",
+			"dateModified": "2026-11-09T17:09:11Z",
+			"itemType": "attachment",
+			"key": "CPSZSG7W",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:11 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "PQJGMNLW",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/APC6ZIXT"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Gemini-acc-dez-directement-l-IA-de-Google-4129fa248c5781dc92e0e4546a339c2d"
+		},
+		{
+			"accessDate": "2025-11-19T18:17:29Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2025-11-19T18:17:29Z",
+			"dateModified": "2025-11-19T18:17:29Z",
+			"filename": "9eeac164ca06.html",
+			"itemType": "attachment",
+			"key": "DGWXUBXQ",
+			"linkMode": "imported_url",
+			"parentItem": "PQJGMNLW",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://gemini.google.com/share/9eeac164ca06"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CPSZSG7W",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Gemini-acc-dez-directement-l-IA-de-Google-4129fa248c5781dc92e0e4546a339c2d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "9eeac164ca06.html",
+				"files": [
+					{
+						"path": "attachments/DG/DGWXUBXQ/9eeac164ca06.html",
+						"size": 2244634,
+						"storage": "git"
+					}
+				],
+				"key": "DGWXUBXQ",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://gemini.google.com/share/9eeac164ca06"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)"
+		],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "‎Gemini : accédez directement à l'IA de Google",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/PQJGMNLW"
+	},
+	"zotero": {
+		"abstractNote": "Élément créé avec Gemini",
+		"accessDate": "2025-11-19T18:17:24Z",
+		"citationKey": "GeminiAccedezDirectement",
+		"collections": [
+			"TFCUVACE"
+		],
+		"creators": [],
+		"dateAdded": "2025-11-19T18:17:24Z",
+		"dateModified": "2026-11-09T15:02:01Z",
+		"extra": "abstractTranslation: Item created with Gemini",
+		"itemType": "webpage",
+		"key": "PQJGMNLW",
+		"language": "fr-CA",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/4D2XPLJJ"
+			]
+		},
+		"shortTitle": "‎Gemini",
+		"tags": [
+			{
+				"tag": "gemini"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "‎Gemini : accédez directement à l'IA de Google",
+		"url": "https://gemini.google.com/share/9eeac164ca06",
+		"websiteTitle": "Gemini"
+	}
+}

@@ -1,0 +1,159 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:39Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:39Z",
+			"dateModified": "2026-01-02T19:18:25Z",
+			"itemType": "attachment",
+			"key": "DKQVS9M5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:25 p.m.</p>",
+			"parentItem": "VPH3A2TE",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/K9DWPB76"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/staabLARGELANGUAGEMODELS2024-2c09fa248c578151b3dfcfd6f0d14787"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-02T18:27:47Z",
+			"dateModified": "2024-11-22T19:19:39Z",
+			"filename": "Staab et al. - 2024 - LARGE LANGUAGE MODELS ARE ANONYMIZERS.pdf",
+			"itemType": "attachment",
+			"key": "YYMXNTSP",
+			"linkMode": "imported_file",
+			"parentItem": "VPH3A2TE",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/UGH3SUSN"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "DKQVS9M5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/staabLARGELANGUAGEMODELS2024-2c09fa248c578151b3dfcfd6f0d14787"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Staab et al. - 2024 - LARGE LANGUAGE MODELS ARE ANONYMIZERS.pdf",
+				"files": [
+					{
+						"path": "attachments/YY/YYMXNTSP/Staab et al. - 2024 - LARGE LANGUAGE MODELS ARE ANONYMIZERS.pdf",
+						"size": 1334190,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/YY/YYMXNTSP/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 76135,
+						"storage": "git"
+					}
+				],
+				"key": "YYMXNTSP",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Littérature donnée par Daniel",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Anonymation",
+			"Ma thèse/Systematic review/Daniel Lemire",
+			"Ma thèse/Systematic review/LLMs"
+		],
+		"creators": [
+			"Staab, Robin",
+			"Vero, Mark",
+			"Balunovic, Mislav",
+			"Vechev, Martin"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "LARGE LANGUAGE MODELS ARE ANONYMIZERS",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/VPH3A2TE"
+	},
+	"zotero": {
+		"abstractNote": "Recent work in privacy research on large language models has shown that they achieve near human-level performance at inferring personal data from real-world online texts. With consistently increasing model capabilities, currently existing text anonymization methods are lacking behind both regulatory requirements and adversarial threats. This raises the question of how individuals can effectively protect their personal data in sharing online texts. In this work, we take two steps to answer this question: We first present a new setting for evaluating anonymizations in the face of adversarial LLMs inferences, allowing for a natural measurement of anonymization performance while remedying some of the shortcomings of previous metrics. We then present our LLM-based adversarial anonymization framework leveraging the strong inferential capabilities of LLMs to inform our anonymization procedure. In our experimental evaluation, we show on both realworld and synthetic online texts how adversarial anonymization outperforms current industry-grade anonymizers both in terms of the resulting utlity and privacy.",
+		"citationKey": "staabLARGELANGUAGEMODELS2024",
+		"collections": [
+			"ENT9VKF6",
+			"GQ7PFL4D",
+			"J4VTG4NB",
+			"ND9Z8QCS",
+			"NKV86EAI",
+			"TQ5YIFNE"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Robin",
+				"lastName": "Staab"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mark",
+				"lastName": "Vero"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mislav",
+				"lastName": "Balunovic"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Martin",
+				"lastName": "Vechev"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2024-11-02T18:27:51Z",
+		"dateModified": "2025-12-29T23:57:38Z",
+		"itemType": "journalArticle",
+		"key": "VPH3A2TE",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/EDXRG3XZ"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/EG77B8MN"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "LARGE LANGUAGE MODELS ARE ANONYMIZERS"
+	}
+}

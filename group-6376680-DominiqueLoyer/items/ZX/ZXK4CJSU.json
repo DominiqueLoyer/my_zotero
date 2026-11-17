@@ -1,0 +1,91 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:38Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "SLEVKFNF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:19 p.m.</p>",
+			"parentItem": "ZXK4CJSU",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Koren2009-2e29fa248c57819da2fbc8c1e4e0cdfc"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SLEVKFNF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Koren2009-2e29fa248c57819da2fbc8c1e4e0cdfc"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Koren, Yehuda",
+			"Bell, Robert",
+			"Volinsky, Chris"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Matrix factorization techniques for recommender systems",
+		"year": "2009",
+		"zoteroURI": "zotero://select/groups/6376680/items/ZXK4CJSU"
+	},
+	"zotero": {
+		"DOI": "10.1109/MC.2009.263",
+		"citationKey": "korenMatrixFactorizationTechniques2009a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Yehuda",
+				"lastName": "Koren"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Robert",
+				"lastName": "Bell"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chris",
+				"lastName": "Volinsky"
+			}
+		],
+		"date": "2009",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"issue": "8",
+		"itemType": "journalArticle",
+		"key": "ZXK4CJSU",
+		"language": "fr-CA",
+		"pages": "30–37",
+		"publicationTitle": "Computer",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Matrix factorization techniques for recommender systems",
+		"volume": "42"
+	}
+}

@@ -1,0 +1,108 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:33:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:33:53Z",
+			"dateModified": "2026-03-09T20:33:53Z",
+			"itemType": "attachment",
+			"key": "ARCXZGPE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:33:53 p.m.</p>",
+			"parentItem": "9THCA82E",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Neuer2010Intelligence-31e9fa248c5781e98424ee5c25d0bcd0"
+		},
+		{
+			"accessDate": "2026-11-08T16:14:38Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:14:38Z",
+			"dateModified": "2026-11-08T16:14:38Z",
+			"filename": "Neuer, Laurence - 2010 - Intelligence artificielle  vers un code de déontologie des codeurs.pdf",
+			"itemType": "attachment",
+			"key": "M9B3PPA4",
+			"linkMode": "imported_url",
+			"parentItem": "9THCA82E",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://droit.cairn.info/article/LEGI_045_0029/pdf?lang=fr"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Neuer, Laurence - 2010 - Intelligence artificielle  vers un code de déontologie des codeurs.pdf",
+				"files": [
+					{
+						"path": "attachments/M9/M9B3PPA4/Neuer, Laurence - 2010 - Intelligence artificielle  vers un code de déontologie des codeurs.pdf",
+						"size": 1508302,
+						"storage": "git"
+					}
+				],
+				"key": "M9B3PPA4",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://droit.cairn.info/article/LEGI_045_0029/pdf?lang=fr"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ARCXZGPE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Neuer2010Intelligence-31e9fa248c5781e98424ee5c25d0bcd0"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Neuer, Laurence"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Intelligence artificielle : vers un code de déontologie des codeurs",
+		"year": "2010",
+		"zoteroURI": "zotero://select/library/items/9THCA82E"
+	},
+	"zotero": {
+		"DOI": "10.3917/legi.045.0029",
+		"citationKey": "neuerlaurenceIntelligenceArtificielleVers2010",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Neuer, Laurence"
+			}
+		],
+		"date": "2010",
+		"dateAdded": "2026-03-05T01:11:51Z",
+		"dateModified": "2026-03-25T21:28:55Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "9THCA82E",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Intelligence artificielle : vers un code de déontologie des codeurs",
+		"url": "https://www.lepoint.fr"
+	}
+}

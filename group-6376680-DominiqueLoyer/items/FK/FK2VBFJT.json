@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:33Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T22:27:08Z",
+			"itemType": "attachment",
+			"key": "3UZZKQJQ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:39:22 p.m.</p>",
+			"parentItem": "FK2VBFJT",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/8E5N8JSN"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Jonas2021Das-3129fa248c57815297edf2fcd758c6a8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3UZZKQJQ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Jonas2021Das-3129fa248c57815297edf2fcd758c6a8"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Jonas, Hans"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Das Prinzip Verantwortung. Versuch einer Ethik für die technologische Zivilisation",
+		"year": "2021",
+		"zoteroURI": "zotero://select/groups/6376680/items/FK2VBFJT"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-476-05723-5_20",
+		"citationKey": "Jonas2021Das",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Jonas, Hans"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T22:27:08Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "FK2VBFJT",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/RY2WV4GC"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Das Prinzip Verantwortung. Versuch einer Ethik für die technologische Zivilisation"
+	}
+}

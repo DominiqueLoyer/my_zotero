@@ -1,0 +1,138 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:20:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:20:25Z",
+			"dateModified": "2026-11-09T17:07:09Z",
+			"itemType": "attachment",
+			"key": "K47VZZ5B",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:09 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "QFJ3PQMW",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/N385FQHU"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Shah-et-al-2025-4129fa248c57819baa6df37fa81dc1e5"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:22:41Z",
+			"dateModified": "2026-03-14T17:35:08Z",
+			"itemType": "attachment",
+			"key": "L6I2AQX4",
+			"linkMode": "linked_file",
+			"parentItem": "QFJ3PQMW",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/beamer_modelisation_030326/PDFs/Shah et al. - 2025 - Decoding News Bias Multi Bias Detection in News Articles.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "K47VZZ5B",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Shah-et-al-2025-4129fa248c57819baa6df37fa81dc1e5"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Shah et al. - 2025 - Decoding News Bias Multi Bias Detection in News Articles.pdf",
+				"files": [
+					{
+						"path": "attachments/L6/L6I2AQX4/Shah et al. - 2025 - Decoding News Bias Multi Bias Detection in News Articles.pdf",
+						"size": 1687179,
+						"storage": "git"
+					}
+				],
+				"key": "L6I2AQX4",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/beamer_modelisation_030326/PDFs"
+		],
+		"creators": [
+			"Shah, Bhushan Santosh",
+			"Shah, Deven Santosh",
+			"Attar, Vahida"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Decoding News Bias: Multi Bias Detection in News Articles",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/QFJ3PQMW"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2501.02482",
+		"abstractNote": "News Articles provides crucial information about various events happening in the society but they unfortunately come with different kind of biases. These biases can significantly distort public opinion and trust in the media, making it essential to develop techniques to detect and address them. Previous works have majorly worked towards identifying biases in particular domains e.g., Political, gender biases. However, more comprehensive studies are needed to detect biases across diverse domains. Large language models (LLMs) offer a powerful way to analyze and understand natural language, making them ideal for constructing datasets and detecting these biases. In this work, we have explored various biases present in the news articles, built a dataset using LLMs and present results obtained using multiple detection techniques. Our approach highlights the importance of broad-spectrum bias detection and offers new insights for improving the integrity of news articles.",
+		"accessDate": "2026-03-14T17:35:07Z",
+		"archiveID": "arXiv:2501.02482",
+		"citationKey": "shahDecodingNewsBias2025",
+		"collections": [
+			"JTRHBT4K"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Bhushan Santosh",
+				"lastName": "Shah"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Deven Santosh",
+				"lastName": "Shah"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Vahida",
+				"lastName": "Attar"
+			}
+		],
+		"date": "2025-01-05",
+		"dateAdded": "2026-03-14T17:35:07Z",
+		"dateModified": "2026-03-25T21:28:39Z",
+		"extra": "arXiv:2501.02482 [cs]",
+		"itemType": "preprint",
+		"key": "QFJ3PQMW",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4NVDLBFH"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Decoding News Bias",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Decoding News Bias: Multi Bias Detection in News Articles",
+		"url": "http://arxiv.org/abs/2501.02482"
+	}
+}

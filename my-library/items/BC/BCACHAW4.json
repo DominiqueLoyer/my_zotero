@@ -1,0 +1,179 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-01-08T20:00:28Z",
+			"dateModified": "2026-01-16T18:00:22Z",
+			"itemType": "note",
+			"key": "2WICQLJE",
+			"note": "Universite de Sherbrooke",
+			"parentItem": "BCACHAW4",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/SZLVCRR8"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T22:30:51Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T22:30:51Z",
+			"dateModified": "2026-03-09T20:45:10Z",
+			"itemType": "attachment",
+			"key": "JAAQ7LWA",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:45:10 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2e49fa24-8c57-8196-8285-c5bebd5624bc\",\"notes\":{\"X4VX44U9\":{\"blockID\":\"2e49fa24-8c57-817f-a1b1-d3384667592e\",\"syncedAt\":\"2026-01-10T22:31:26.059Z\"}}}</pre>",
+			"parentItem": "BCACHAW4",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/2LX3PETG"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/UMTPEIQR"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerLintelligenceArtificielleQuest2025-2e49fa248c5781dc9f9fc549c02a39f4"
+		},
+		{
+			"accessDate": "2026-01-10T20:17:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T20:17:21Z",
+			"dateModified": "2026-01-16T18:00:22Z",
+			"itemType": "attachment",
+			"key": "S5BRZ73T",
+			"linkMode": "linked_url",
+			"parentItem": "BCACHAW4",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/D697A522"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/C3JZ83Z6"
+				]
+			},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"dateAdded": "2026-01-10T20:17:21Z",
+			"dateModified": "2026-01-10T20:17:21Z",
+			"itemType": "note",
+			"key": "X4VX44U9",
+			"note": "Universite de Sherbrooke",
+			"parentItem": "BCACHAW4",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6MFRPVSQ"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JAAQ7LWA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerLintelligenceArtificielleQuest2025-2e49fa248c5781dc9f9fc549c02a39f4"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "S5BRZ73T",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126",
+			"zenodoDOI_ISBN_dominiqueloyer_060126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "2WICQLJE",
+				"title": "Universite de Sherbrooke"
+			},
+			{
+				"key": "X4VX44U9",
+				"title": "Universite de Sherbrooke"
+			}
+		],
+		"title": "L'intelligence artificielle. Qu'est-ce que c'est?",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/BCACHAW4"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.11245.78560",
+		"ISBN": "978-1-0699945-2-3",
+		"citationKey": "loyerLintelligenceArtificielleQuest2025",
+		"collections": [
+			"8UCLQEMM",
+			"KKPWSFMI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-10T20:17:21Z",
+		"dateModified": "2026-01-16T18:00:22Z",
+		"extra": "titleTranslation: Artificial Intelligence. What is it?",
+		"itemType": "conferencePaper",
+		"key": "BCACHAW4",
+		"language": "fr-CA",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/K7CYTL3C"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/PCKBBJEA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Deep Learning"
+			},
+			{
+				"tag": "Education IA"
+			},
+			{
+				"tag": "Ethique IA"
+			},
+			{
+				"tag": "Intelligence Artificielle"
+			},
+			{
+				"tag": "Machine Learning"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "L'intelligence artificielle. Qu'est-ce que c'est?",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.11245.78560"
+	}
+}

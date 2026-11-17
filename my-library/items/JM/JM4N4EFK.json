@@ -1,0 +1,106 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:36Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:36Z",
+			"dateModified": "2026-11-09T17:04:47Z",
+			"itemType": "attachment",
+			"key": "TSIXJGPA",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:47 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "JM4N4EFK",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/HE8M3WWD"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/PA9AEDWK"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Su-and-Khoshgoftaar-2009-4129fa248c578116b41ac7ff03f9a8ac"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TSIXJGPA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Su-and-Khoshgoftaar-2009-4129fa248c578116b41ac7ff03f9a8ac"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Su, Xiaoyuan",
+			"Khoshgoftaar, Taghi M."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Survey of Collaborative Filtering Techniques",
+		"year": "2009",
+		"zoteroURI": "zotero://select/library/items/JM4N4EFK"
+	},
+	"zotero": {
+		"DOI": "10.1155/2009/421425",
+		"citationKey": "suSurveyCollaborativeFiltering2009",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F",
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xiaoyuan",
+				"lastName": "Su"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Taghi M.",
+				"lastName": "Khoshgoftaar"
+			}
+		],
+		"date": "2009",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T15:05:20Z",
+		"itemType": "journalArticle",
+		"key": "JM4N4EFK",
+		"publicationTitle": "Advances in Artificial Intelligence",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/2VI2RDSB",
+				"http://zotero.org/users/15425556/items/VFLMNM23",
+				"http://zotero.org/users/15425556/items/XBLYVSDI"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/5566JPTF",
+				"http://zotero.org/groups/6376680/items/9PSLRKUU",
+				"http://zotero.org/groups/6376680/items/JK7JV9T4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey of Collaborative Filtering Techniques",
+		"volume": "2009"
+	}
+}

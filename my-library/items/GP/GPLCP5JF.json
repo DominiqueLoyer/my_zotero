@@ -1,0 +1,119 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:09Z",
+			"dateModified": "2026-11-09T14:54:43Z",
+			"itemType": "attachment",
+			"key": "3XR899VA",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:09:46 p.m.</p>",
+			"parentItem": "GPLCP5JF",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/XQIRKDCM"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/SA2QDV88"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/unescoRecommendationEthicsArtificial2021-2c09fa248c5781f39036eb3adcbfa72e"
+		},
+		{
+			"accessDate": "2026-01-08T20:28:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:28:11Z",
+			"dateModified": "2026-11-09T14:54:43Z",
+			"itemType": "attachment",
+			"key": "PLG8SIVC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:57 p.m.</p>",
+			"parentItem": "GPLCP5JF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/UNESCO2021-2e29fa248c5781989036ca1fe64082a7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PLG8SIVC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/UNESCO2021-2e29fa248c5781989036ca1fe64082a7"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3XR899VA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/unescoRecommendationEthicsArtificial2021-2c09fa248c5781f39036eb3adcbfa72e"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"UNESCO"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Recommendation on the Ethics of Artificial Intelligence",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/GPLCP5JF"
+	},
+	"zotero": {
+		"citationKey": "unescoRecommendationEthicsArtificial2021",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "UNESCO"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T14:54:43Z",
+		"itemType": "document",
+		"key": "GPLCP5JF",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/4Q8J7TLB",
+				"http://zotero.org/users/15425556/items/CB8F8HQU"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UXFI4QMF"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Recommendation on the Ethics of Artificial Intelligence",
+		"url": "https://www.unesco.org/en/artificial-intelligence/ethics"
+	}
+}

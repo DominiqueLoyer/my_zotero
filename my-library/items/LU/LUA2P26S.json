@@ -1,0 +1,97 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:36:22Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:22Z",
+			"dateModified": "2026-11-09T17:05:02Z",
+			"itemType": "attachment",
+			"key": "8UF6VCVE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:02 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "LUA2P26S",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/J4TB5R5I"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/FT7AH7KG"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Busuioc-2021-4129fa248c57812187c8e83e693dd1ce"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8UF6VCVE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Busuioc-2021-4129fa248c57812187c8e83e693dd1ce"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Busuioc, Mădălina"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Accountable Artificial Intelligence: Holding Algorithms to Account",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/LUA2P26S"
+	},
+	"zotero": {
+		"DOI": "10.1111/puar.13295",
+		"citationKey": "busuiocAccountableArtificialIntelligence2021",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Mădălina",
+				"lastName": "Busuioc"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-13T19:30:32Z",
+		"issue": "5",
+		"itemType": "journalArticle",
+		"key": "LUA2P26S",
+		"pages": "825–836",
+		"publicationTitle": "Public Administration Review",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/8BNDA4D3",
+				"http://zotero.org/users/15425556/items/ZXZ42JDB"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8DG7HLRA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Accountable Artificial Intelligence: Holding Algorithms to Account",
+		"volume": "81"
+	}
+}

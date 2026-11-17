@@ -1,0 +1,80 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "XM3TFGLZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:31 p.m.</p>",
+			"parentItem": "MDMIL5TW",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Israni2017-2e29fa248c57815787e2ec248e78f26d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XM3TFGLZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Israni2017-2e29fa248c57815787e2ec248e78f26d"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Israni, Ellora"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "When an algorithm helps send you to prison",
+		"year": "2017",
+		"zoteroURI": "zotero://select/groups/6376680/items/MDMIL5TW"
+	},
+	"zotero": {
+		"citationKey": "israniWhenAlgorithmHelps2017a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ellora",
+				"lastName": "Israni"
+			}
+		],
+		"date": "2017-10-26",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:09Z",
+		"itemType": "journalArticle",
+		"key": "MDMIL5TW",
+		"language": "fr-CA",
+		"publicationTitle": "The New York Times",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "When an algorithm helps send you to prison",
+		"url": "https://www.nytimes.com/2017/10/26/opinion/algorithm-compas-sentencing-bias.html"
+	}
+}

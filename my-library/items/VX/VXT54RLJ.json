@@ -1,0 +1,116 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:27:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:43Z",
+			"dateModified": "2026-01-02T19:16:14Z",
+			"itemType": "attachment",
+			"key": "M74D9NKW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:14 p.m.</p>",
+			"parentItem": "VXT54RLJ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ramanathanStateArtCrossLingual-2c09fa248c578127974ecfb0f7dfb4e9"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-20T18:02:42Z",
+			"dateModified": "2025-03-20T18:02:45Z",
+			"filename": "Ramanathan - State of the Art in Cross-Lingual Information Retrieval.pdf",
+			"itemType": "attachment",
+			"key": "SG5WBQ2Z",
+			"linkMode": "imported_file",
+			"parentItem": "VXT54RLJ",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "M74D9NKW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ramanathanStateArtCrossLingual-2c09fa248c578127974ecfb0f7dfb4e9"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ramanathan - State of the Art in Cross-Lingual Information Retrieval.pdf",
+				"files": [
+					{
+						"path": "attachments/SG/SG5WBQ2Z/Ramanathan - State of the Art in Cross-Lingual Information Retrieval.pdf",
+						"size": 98965,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/SG/SG5WBQ2Z/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 27006,
+						"storage": "git"
+					}
+				],
+				"key": "SG5WBQ2Z",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues",
+			"Cours H25/Traitement naturel des langues/rit 20 mars"
+		],
+		"creators": [
+			"Ramanathan, Ananthakrishnan"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "State of the Art in Cross-Lingual Information Retrieval",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/VXT54RLJ"
+	},
+	"zotero": {
+		"citationKey": "ramanathanStateArtCrossLingual",
+		"collections": [
+			"L7CZ8WGI",
+			"UELGWEXV"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ananthakrishnan",
+				"lastName": "Ramanathan"
+			}
+		],
+		"dateAdded": "2025-03-20T18:02:44Z",
+		"dateModified": "2025-12-29T23:57:23Z",
+		"itemType": "journalArticle",
+		"key": "VXT54RLJ",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "State of the Art in Cross-Lingual Information Retrieval"
+	}
+}

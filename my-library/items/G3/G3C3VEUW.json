@@ -1,0 +1,183 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-03-14T17:40:05Z",
+			"dateModified": "2026-03-14T17:40:05Z",
+			"itemType": "note",
+			"key": "ERT2ANCE",
+			"note": "Comment: Accepted by ICML 2024; Code, data, model, and demo are available at https://github.com/xingyaoww/code-act",
+			"parentItem": "G3C3VEUW",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/AYBR6B2G"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-03-14T18:17:38Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:38Z",
+			"dateModified": "2026-11-09T17:08:39Z",
+			"itemType": "attachment",
+			"key": "XH2SM92W",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:39 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "G3C3VEUW",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ADI6ES5Y"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Wang-et-al-2024-4129fa248c5781a085b5f7d6901c831d"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:32:06Z",
+			"dateModified": "2026-03-14T17:40:06Z",
+			"itemType": "attachment",
+			"key": "XRXKJ2YY",
+			"linkMode": "linked_file",
+			"parentItem": "G3C3VEUW",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401_ic_/PDFs/Wang et al. - 2024 - Executable Code Actions Elicit Better LLM Agents.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XH2SM92W",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Wang-et-al-2024-4129fa248c5781a085b5f7d6901c831d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wang et al. - 2024 - Executable Code Actions Elicit Better LLM Agents.pdf",
+				"files": [
+					{
+						"path": "attachments/XR/XRXKJ2YY/Wang et al. - 2024 - Executable Code Actions Elicit Better LLM Agents.pdf",
+						"size": 4345392,
+						"storage": "git"
+					}
+				],
+				"key": "XRXKJ2YY",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Wang, Xingyao",
+			"Chen, Yangyi",
+			"Yuan, Lifan",
+			"Zhang, Yizhe",
+			"Li, Yunzhu",
+			"Peng, Hao",
+			"Ji, Heng"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "ERT2ANCE",
+				"title": "Comment: Accepted by ICML 2024; Code, data, model, and demo are available at https://github.com/xingyaoww/code-act"
+			}
+		],
+		"title": "Executable Code Actions Elicit Better LLM Agents",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/G3C3VEUW"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2402.01030",
+		"abstractNote": "Large Language Model (LLM) agents, capable of performing a broad range of actions, such as invoking tools and controlling robots, show great potential in tackling real-world challenges. LLM agents are typically prompted to produce actions by generating JSON or text in a pre-defined format, which is usually limited by constrained action space (e.g., the scope of pre-defined tools) and restricted flexibility (e.g., inability to compose multiple tools). This work proposes to use executable Python code to consolidate LLM agents' actions into a unified action space (CodeAct). Integrated with a Python interpreter, CodeAct can execute code actions and dynamically revise prior actions or emit new actions upon new observations through multi-turn interactions. Our extensive analysis of 17 LLMs on API-Bank and a newly curated benchmark shows that CodeAct outperforms widely used alternatives (up to 20% higher success rate). The encouraging performance of CodeAct motivates us to build an open-source LLM agent that interacts with environments by executing interpretable code and collaborates with users using natural language. To this end, we collect an instruction-tuning dataset CodeActInstruct that consists of 7k multi-turn interactions using CodeAct. We show that it can be used with existing data to improve models in agent-oriented tasks without compromising their general capability. CodeActAgent, finetuned from Llama2 and Mistral, is integrated with Python interpreter and uniquely tailored to perform sophisticated tasks (e.g., model training) using existing libraries and autonomously self-debug.",
+		"accessDate": "2026-03-14T17:40:05Z",
+		"archiveID": "arXiv:2402.01030",
+		"citationKey": "wangExecutableCodeActions2024",
+		"collections": [
+			"U5GGZRY8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xingyao",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yangyi",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lifan",
+				"lastName": "Yuan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yizhe",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yunzhu",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hao",
+				"lastName": "Peng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Heng",
+				"lastName": "Ji"
+			}
+		],
+		"date": "2024-06-07",
+		"dateAdded": "2026-03-14T17:40:05Z",
+		"dateModified": "2026-03-14T18:17:38Z",
+		"extra": "arXiv:2402.01030 [cs]",
+		"itemType": "preprint",
+		"key": "G3C3VEUW",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/7ENIYEFC"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Executable Code Actions Elicit Better LLM Agents",
+		"url": "http://arxiv.org/abs/2402.01030"
+	}
+}

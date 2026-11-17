@@ -1,0 +1,83 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:26Z",
+			"dateModified": "2026-03-09T20:44:03Z",
+			"itemType": "attachment",
+			"key": "LZJYQ5Z3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:03 p.m.</p>",
+			"parentItem": "UEEFVF4S",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ITGDVCV5",
+					"http://zotero.org/groups/6376680/items/JNV3L584"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Citron2008-3129fa248c5781e298c1c289f6f91a56"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LZJYQ5Z3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Citron2008-3129fa248c5781e298c1c289f6f91a56"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Citron, Danielle Keats"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Technological Due Process",
+		"year": "2008",
+		"zoteroURI": "zotero://select/library/items/UEEFVF4S"
+	},
+	"zotero": {
+		"citationKey": "citrondaniellekeatsTechnologicalDueProcess2008",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Citron, Danielle Keats"
+			}
+		],
+		"date": "2008",
+		"dateAdded": "2026-02-25T21:34:48Z",
+		"dateModified": "2026-03-25T21:29:51Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "UEEFVF4S",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/CGXZNM47",
+				"http://zotero.org/groups/6376680/items/H367TSZD"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Technological Due Process"
+	}
+}

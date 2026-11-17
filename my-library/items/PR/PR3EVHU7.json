@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:16:08Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:16:08Z",
+			"dateModified": "2026-11-08T16:16:08Z",
+			"filename": "Tsamoura, Efthymia and Hospedales, Timothy and Michael, Loizos - 2021 - Neural-symbolic integration A compositional perspective.pdf",
+			"itemType": "attachment",
+			"key": "L3SGSE6Q",
+			"linkMode": "imported_url",
+			"parentItem": "PR3EVHU7",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2010.11926"
+		},
+		{
+			"accessDate": "2026-03-09T20:32:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:30Z",
+			"dateModified": "2026-03-09T20:32:30Z",
+			"itemType": "attachment",
+			"key": "UCMCG9ZA",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:32:30 p.m.</p>",
+			"parentItem": "PR3EVHU7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Tsamoura2021Neuralsymbolic-31e9fa248c5781c5a539dc3204a2fd5c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UCMCG9ZA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Tsamoura2021Neuralsymbolic-31e9fa248c5781c5a539dc3204a2fd5c"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Tsamoura, Efthymia and Hospedales, Timothy and Michael, Loizos - 2021 - Neural-symbolic integration A compositional perspective.pdf",
+				"files": [
+					{
+						"path": "attachments/L3/L3SGSE6Q/Tsamoura, Efthymia and Hospedales, Timothy and Michael, Loizos - 2021 - Neural-symbolic integration A compositional perspective.pdf",
+						"size": 1168996,
+						"storage": "git"
+					}
+				],
+				"key": "L3SGSE6Q",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2010.11926"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Tsamoura, Efthymia and Hospedales, Timothy and Michael, Loizos"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neural-symbolic integration: A compositional perspective",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/PR3EVHU7"
+	},
+	"zotero": {
+		"DOI": "10.1609/aaai.v35i6.16639",
+		"citationKey": "tsamouraefthymiaandhospedalestimothyandmichaelloizosNeuralsymbolicIntegrationCompositional2021",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Tsamoura, Efthymia and Hospedales, Timothy and Michael, Loizos"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-03-08T21:24:15Z",
+		"dateModified": "2026-03-25T21:28:46Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "PR3EVHU7",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural-symbolic integration: A compositional perspective"
+	}
+}

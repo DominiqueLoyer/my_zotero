@@ -1,0 +1,214 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:32:14Z",
+			"dateModified": "2026-03-14T17:40:16Z",
+			"itemType": "attachment",
+			"key": "9UXNVB85",
+			"linkMode": "linked_file",
+			"parentItem": "N8VREKMC",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401_ic_/PDFs/Wu et al. - 2024 - A Survey on Large Language Models for Recommendation.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-03-14T17:40:16Z",
+			"dateModified": "2026-03-14T17:40:16Z",
+			"itemType": "note",
+			"key": "Q49RQPB9",
+			"note": "Comment: 34 pages, 7 figures, 2 tables",
+			"parentItem": "N8VREKMC",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/TV9UW8CK"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-03-14T18:17:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:32Z",
+			"dateModified": "2026-11-09T17:04:51Z",
+			"itemType": "attachment",
+			"key": "RS4VVKFX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:51 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "N8VREKMC",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/5929N83F"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Wu-et-al-2024-4129fa248c5781f19e1cdfd9a6e8c960"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RS4VVKFX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Wu-et-al-2024-4129fa248c5781f19e1cdfd9a6e8c960"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wu et al. - 2024 - A Survey on Large Language Models for Recommendation.pdf",
+				"files": [
+					{
+						"path": "attachments/9U/9UXNVB85/Wu et al. - 2024 - A Survey on Large Language Models for Recommendation.pdf",
+						"size": 2100078,
+						"storage": "git"
+					}
+				],
+				"key": "9UXNVB85",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Wu, Likang",
+			"Zheng, Zhi",
+			"Qiu, Zhaopeng",
+			"Wang, Hao",
+			"Gu, Hongchao",
+			"Shen, Tingjia",
+			"Qin, Chuan",
+			"Zhu, Chen",
+			"Zhu, Hengshu",
+			"Liu, Qi",
+			"Xiong, Hui",
+			"Chen, Enhong"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "Q49RQPB9",
+				"title": "Comment: 34 pages, 7 figures, 2 tables"
+			}
+		],
+		"title": "A Survey on Large Language Models for Recommendation",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/N8VREKMC"
+	},
+	"zotero": {
+		"DOI": "10.1007/s11280-024-01291-2",
+		"abstractNote": "Large Language Models (LLMs) have emerged as powerful tools in the field of Natural Language Processing (NLP) and have recently gained significant attention in the domain of Recommendation Systems (RS). These models, trained on massive amounts of data using self-supervised learning, have demonstrated remarkable success in learning universal representations and have the potential to enhance various aspects of recommendation systems by some effective transfer techniques such as fine-tuning and prompt tuning, and so on. The crucial aspect of harnessing the power of language models in enhancing recommendation quality is the utilization of their high-quality representations of textual features and their extensive coverage of external knowledge to establish correlations between items and users. To provide a comprehensive understanding of the existing LLM-based recommendation systems, this survey presents a taxonomy that categorizes these models into two major paradigms, respectively Discriminative LLM for Recommendation (DLLM4Rec) and Generative LLM for Recommendation (GLLM4Rec), with the latter being systematically sorted out for the first time. Furthermore, we systematically review and analyze existing LLM-based recommendation systems within each paradigm, providing insights into their methodologies, techniques, and performance. Additionally, we identify key challenges and several valuable findings to provide researchers and practitioners with inspiration. We have also created a GitHub repository to index relevant papers on LLMs for recommendation, https://github.com/WLiK/LLM4Rec.",
+		"accessDate": "2026-03-14T17:40:16Z",
+		"archiveID": "arXiv:2305.19860",
+		"citationKey": "wuSurveyLargeLanguage2024",
+		"collections": [
+			"U5GGZRY8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Likang",
+				"lastName": "Wu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhi",
+				"lastName": "Zheng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhaopeng",
+				"lastName": "Qiu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hao",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hongchao",
+				"lastName": "Gu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tingjia",
+				"lastName": "Shen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chuan",
+				"lastName": "Qin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chen",
+				"lastName": "Zhu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hengshu",
+				"lastName": "Zhu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Qi",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hui",
+				"lastName": "Xiong"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Enhong",
+				"lastName": "Chen"
+			}
+		],
+		"date": "2024-06-18",
+		"dateAdded": "2026-03-14T17:40:16Z",
+		"dateModified": "2026-11-13T19:30:12Z",
+		"extra": "arXiv:2305.19860 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2305.19860",
+		"itemType": "preprint",
+		"key": "N8VREKMC",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/9CSGH5BP"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey on Large Language Models for Recommendation",
+		"url": "http://arxiv.org/abs/2305.19860"
+	}
+}

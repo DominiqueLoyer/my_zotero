@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:32:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:57Z",
+			"dateModified": "2026-11-09T17:06:08Z",
+			"itemType": "attachment",
+			"key": "J8CT3UUV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:08 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "JRNIV3DT",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Coutrot-Thomas-2019-4129fa248c578148a091ebfe7f8fe056"
+		},
+		{
+			"accessDate": "2026-11-08T16:25:48Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:25:48Z",
+			"dateModified": "2026-11-08T16:25:48Z",
+			"filename": "Coutrot, Thomas - 2019 - Bullshit Jobs David Graeber, Paris, Les Liens qui lib{`e}rent, 2018, 416 p..pdf",
+			"itemType": "attachment",
+			"key": "UYF4X88I",
+			"linkMode": "imported_url",
+			"parentItem": "JRNIV3DT",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://shs.cairn.info/article/ETU_4258_0119ac/pdf?lang=fr"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Coutrot, Thomas - 2019 - Bullshit Jobs David Graeber, Paris, Les Liens qui lib{`e}rent, 2018, 416 p..pdf",
+				"files": [
+					{
+						"path": "attachments/UY/UYF4X88I/Coutrot, Thomas - 2019 - Bullshit Jobs David Graeber, Paris, Les Liens qui lib{`e}rent, 2018, 416 p..pdf",
+						"size": 2361587,
+						"storage": "git"
+					}
+				],
+				"key": "UYF4X88I",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://shs.cairn.info/article/ETU_4258_0119ac/pdf?lang=fr"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "J8CT3UUV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Coutrot-Thomas-2019-4129fa248c578148a091ebfe7f8fe056"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Coutrot, Thomas"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Bullshit Jobs: David Graeber, Paris, Les Liens qui lib{\\`e}rent, 2018, 416 p.",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/JRNIV3DT"
+	},
+	"zotero": {
+		"DOI": "10.3917/etu.4258.0119ac",
+		"citationKey": "coutrotthomasBullshitJobsDavid2019",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Coutrot, Thomas"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-03-08T21:22:48Z",
+		"dateModified": "2026-11-13T19:33:24Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "JRNIV3DT",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bullshit Jobs: David Graeber, Paris, Les Liens qui lib{\\`e}rent, 2018, 416 p."
+	}
+}

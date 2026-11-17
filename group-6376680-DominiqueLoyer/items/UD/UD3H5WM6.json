@@ -1,0 +1,134 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:26:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:17Z",
+			"dateModified": "2026-04-17T21:21:17Z",
+			"itemType": "attachment",
+			"key": "C2I5E2MN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-16, 10:53:46 a.m.</p>",
+			"parentItem": "UD3H5WM6",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerDeveloppementEvaluationDun-2e29fa248c57817392cae67fd9d24481"
+		},
+		{
+			"accessDate": "2026-01-02T19:08:02Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:17Z",
+			"dateModified": "2026-04-17T21:21:17Z",
+			"itemType": "attachment",
+			"key": "PN463GAH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:08:02 p.m.</p>",
+			"parentItem": "UD3H5WM6",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerdeveloppement-2dc9fa248c5781a5984deffc94fe9e6b"
+		},
+		{
+			"accessDate": "2026-01-16T15:52:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:17Z",
+			"dateModified": "2026-04-17T21:21:17Z",
+			"itemType": "attachment",
+			"key": "XT7C45IW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-16, 10:52:21 a.m.</p>",
+			"parentItem": "UD3H5WM6",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerDeveloppementEvaluationDunb-2ea9fa248c578139b297f2eba5a7f847"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PN463GAH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerdeveloppement-2dc9fa248c5781a5984deffc94fe9e6b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "C2I5E2MN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerDeveloppementEvaluationDun-2e29fa248c57817392cae67fd9d24481"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XT7C45IW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerDeveloppementEvaluationDunb-2ea9fa248c578139b297f2eba5a7f847"
+			}
+		],
+		"collections": [
+			"mes papiers et beamers"
+		],
+		"creators": [
+			"Loyer, Dominique S"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Développement et Évaluation d’un Système de Traduction Automatique Neuronale Anglais–Russe",
+		"year": "",
+		"zoteroURI": "zotero://select/groups/6376680/items/UD3H5WM6"
+	},
+	"zotero": {
+		"abstractNote": "Ce rapport présente le développement et l’évaluation d’un système de traduction automatique neuronale (TAN) Anglais→Russe (EN→RU). En utilisant la bibliothèque Hugging Face Transformers(Wolf et al., 2020) et un modèle pré-entraîné Helsinki-NLP/opus-mt-en-ru(JunczysDowmunt and Grundkiewicz, 2018) basé sur l’architecture Transformer(Vaswani et al., 2017), nous avons fine-tuné le modèle sur un sous-ensemble de 10 000 paires de phrases du corpus parallèle opus_books(Tiedemann, 2012). Le système a été entraîné pendant 3 époques dans un environnement Kaggle (GPU T4). L’évaluation sur un jeu de test réservé du même corpus donne SacreBLEU 22.6 et chrF 48.5.",
+		"citationKey": "loyerDeveloppementEvaluationDun",
+		"collections": [
+			"86QJKFHN"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			}
+		],
+		"dateAdded": "2026-04-17T21:21:17Z",
+		"dateModified": "2026-04-17T21:21:22Z",
+		"extra": "abstractTranslation: This report presents the development and evaluation of an English–Russian neural machine translation (NMT) system (EN→RU). Using the Hugging Face Transformers library (Wolf et al., 2020) and a pre-trained Helsinki-NLP/opus-mt-en-ru model (JunczysDowmunt and Grundkiewicz, 2018) based on the Transformer architecture (Vaswani et al., 2017), we fine-tuned the model on a subset of 10,000 sentence pairs from the opus_books parallel corpus (Tiedemann, 2012). The system was trained for 3 epochs in a Kaggle environment (T4 GPU). Evaluation on a held-out test set from the same corpus yielded SacreBLEU 22.6 and chrF 48.5.",
+		"itemType": "journalArticle",
+		"key": "UD3H5WM6",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Développement et Évaluation d’un Système de Traduction Automatique Neuronale Anglais–Russe"
+	}
+}

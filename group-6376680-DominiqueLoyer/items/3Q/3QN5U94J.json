@@ -1,0 +1,75 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T21:46:58Z",
+			"itemType": "attachment",
+			"key": "ILE9DGAB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:41:09 p.m.</p>",
+			"parentItem": "3QN5U94J",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Bunel2018A-3129fa248c57813daf3cce5b11085e96"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ILE9DGAB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Bunel2018A-3129fa248c57813daf3cce5b11085e96"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Bunel, Rudy and Turkaslan, Ilge and Torr, Philip H. S. and Kohli, Pushmeet and Kumar, M. Pawan"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A unified view of piecewise linear neural network verification",
+		"year": "2018",
+		"zoteroURI": "zotero://select/groups/6376680/items/3QN5U94J"
+	},
+	"zotero": {
+		"DOI": "10.23919/acc.2018.8431048",
+		"citationKey": "Bunel2018A",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Bunel, Rudy and Turkaslan, Ilge and Torr, Philip H. S. and Kohli, Pushmeet and Kumar, M. Pawan"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T21:46:58Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "3QN5U94J",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A unified view of piecewise linear neural network verification",
+		"url": "https://papers.nips.cc/paper/2018/file/3b0807444f3b3799c7adf603c3c97307-Paper.pdf"
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:02Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "KZVGDVEL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:02 p.m.</p>",
+			"parentItem": "F5V4M4WA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/tsamouraNeuralSymbolicIntegrationCompositional2020-3239fa248c578135934acdd2acc067d4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KZVGDVEL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/tsamouraNeuralSymbolicIntegrationCompositional2020-3239fa248c578135934acdd2acc067d4"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Tsamoura, Efthymia",
+			"Michael, Loizos"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Neural-Symbolic Integration: A Compositional Perspective",
+		"year": "2020",
+		"zoteroURI": "zotero://select/groups/6376680/items/F5V4M4WA"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2010.11926",
+		"abstractNote": "Despite significant progress in the development of neural-symbolic frameworks, the question of how to integrate a neural and a symbolic system in a \\emph{compositional} manner remains open. Our work seeks to fill this gap by treating these two systems as black boxes to be integrated as modules into a single architecture, without making assumptions on their internal structure and semantics. Instead, we expect only that each module exposes certain methods for accessing the functions that the module implements: the symbolic module exposes a deduction method for computing the function's output on a given input, and an abduction method for computing the function's inputs for a given output; the neural module exposes a deduction method for computing the function's output on a given input, and an induction method for updating the function given input-output training instances. We are, then, able to show that a symbolic module -- with any choice for syntax and semantics, as long as the deduction and abduction methods are exposed -- can be cleanly integrated with a neural module, and facilitate the latter's efficient training, achieving empirical performance that exceeds that of previous work.",
+		"accessDate": "2026-03-14T17:40:53Z",
+		"archiveID": "arXiv:2010.11926",
+		"citationKey": "tsamouraNeuralSymbolicIntegrationCompositional2020",
+		"collections": [
+			"PNZQF2WF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Efthymia",
+				"lastName": "Tsamoura"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Loizos",
+				"lastName": "Michael"
+			}
+		],
+		"date": "2020-10-22",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:2010.11926 [cs]",
+		"itemType": "preprint",
+		"key": "F5V4M4WA",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"shortTitle": "Neural-Symbolic Integration",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural-Symbolic Integration: A Compositional Perspective",
+		"url": "http://arxiv.org/abs/2010.11926"
+	}
+}

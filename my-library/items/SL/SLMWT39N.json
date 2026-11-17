@@ -1,0 +1,87 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:13Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:37:13Z",
+			"dateModified": "2026-03-09T20:52:42Z",
+			"itemType": "attachment",
+			"key": "KHG9KR8G",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:42 p.m.</p>",
+			"parentItem": "SLMWT39N",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ND7384XV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Pearl2019-2e29fa248c5781c28137c16e64c83c63"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KHG9KR8G",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Pearl2019-2e29fa248c5781c28137c16e64c83c63"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Pearl, Judea"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The seven tools of causal inference, with reflections on machine learning",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/SLMWT39N"
+	},
+	"zotero": {
+		"DOI": "10.1145/3241334",
+		"citationKey": "pearlSevenToolsCausal2019a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Judea",
+				"lastName": "Pearl"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-01-08T20:07:33Z",
+		"dateModified": "2026-03-25T21:30:33Z",
+		"issue": "3",
+		"itemType": "journalArticle",
+		"key": "SLMWT39N",
+		"language": "fr-CA",
+		"pages": "54–60",
+		"publicationTitle": "Communications of the ACM",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/EJ5A4KGL"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The seven tools of causal inference, with reflections on machine learning",
+		"volume": "62"
+	}
+}

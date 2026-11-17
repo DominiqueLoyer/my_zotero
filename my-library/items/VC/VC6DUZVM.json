@@ -1,0 +1,88 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:40:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:40:32Z",
+			"dateModified": "2026-11-09T17:05:38Z",
+			"itemType": "attachment",
+			"key": "W3CR44UP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:38 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VC6DUZVM",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/RL2VFDH4"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Bullock-2020-4129fa248c5781beb988f9c6a1e3675a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "W3CR44UP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Bullock-2020-4129fa248c5781beb988f9c6a1e3675a"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Bullock, Justin B."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Artificial intelligence, discretion, and bureaucracy",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/VC6DUZVM"
+	},
+	"zotero": {
+		"DOI": "10.1177/0275074019856123",
+		"citationKey": "bullockArtificialIntelligenceDiscretion2020a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Justin B.",
+				"lastName": "Bullock"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-01-08T20:07:30Z",
+		"dateModified": "2026-11-13T19:32:01Z",
+		"extra": "DOI Fix previous DOI: 10.1177/0275074020929189",
+		"issue": "6-7",
+		"itemType": "journalArticle",
+		"key": "VC6DUZVM",
+		"language": "fr-CA",
+		"pages": "543–548",
+		"publicationTitle": "The American Review of Public Administration",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/V8IUQ5Z9"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Artificial intelligence, discretion, and bureaucracy",
+		"volume": "50"
+	}
+}

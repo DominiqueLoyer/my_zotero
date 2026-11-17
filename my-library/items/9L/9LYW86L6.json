@@ -1,0 +1,80 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:26:39Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:26:39Z",
+			"dateModified": "2026-11-09T17:05:44Z",
+			"itemType": "attachment",
+			"key": "574EGRNN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:44 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "9LYW86L6",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Englehardt-2018-4129fa248c578101ad9be61315b5600f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "574EGRNN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Englehardt-2018-4129fa248c578101ad9be61315b5600f"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Englehardt, Steven"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Automated discovery of privacy violations on the web",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/9LYW86L6"
+	},
+	"zotero": {
+		"abstractNote": "Online tracking is increasingly invasive and ubiquitous. Tracking protection provided by browsers is often ineffective, while solutions based on voluntary cooperation, such as Do Not Track, haven’t had meaningful adoption. Knowledgeable users may turn to anti-tracking tools, but even these more advanced solutions fail to fully protect against the techniques we study. In this dissertation, we introduce OpenWPM, a platform we developed for flexible and modular web measurement. We’ve used OpenWPM to run large-scale studies leading to the discovery of numerous privacy violations across the web and in emails. These discoveries have curtailed the adoption of tracking techniques, and have informed policy debates and browser privacy decisions. In particular, we present novel detection methods and results for persistent tracking techniques, including: device fingerprinting, cookie syncing, and cookie respawning. Our findings include sophisticated fingerprinting techniques never before measured in the wild. We’ve found that nearly every new API is misused by trackers for fingerprinting. The misuse is often invisible to users and publishers alike, and in many cases was not anticipated by API designers. We take a critical look at how the API design process can be changed to prevent such misuse in the future. We also explore the industry of trackers which use PII-derived identifiers to track users across devices, and even into the offline world. To measure these techniques, we develop a novel bait technique, which allows us to spoof the presence of PII on a large number of sites. We show how trackers exfiltrate the spoofed PII through the abuse of browser features. We find that PII collection is not limited to the web—the act of viewing an email also leaks PII to trackers. Overall, about 30",
+		"citationKey": "englehardtAutomatedDiscoveryPrivacy2018",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Steven",
+				"lastName": "Englehardt"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-01-08T20:14:06Z",
+		"dateModified": "2026-11-13T19:32:26Z",
+		"itemType": "journalArticle",
+		"key": "9LYW86L6",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Automated discovery of privacy violations on the web",
+		"url": "https://www.semanticscholar.org/paper/b8d904d87055f9f1731e99c0818f0caa4c12aabe"
+	}
+}

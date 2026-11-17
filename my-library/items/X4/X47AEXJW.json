@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:30:00Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:30:00Z",
+			"dateModified": "2026-11-08T16:30:00Z",
+			"filename": "Siganos, Georgios and Vlachos, Michalis and Gunopulos, Dimitrios - 2019 - Explaining and Interpreting Black-Box Models A Survey on the Role of Interaction.pdf",
+			"itemType": "attachment",
+			"key": "VNE84CCY",
+			"linkMode": "imported_url",
+			"parentItem": "X47AEXJW",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/1711.02222v1"
+		},
+		{
+			"accessDate": "2026-02-25T22:16:05Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:16:05Z",
+			"dateModified": "2026-11-09T17:08:49Z",
+			"itemType": "attachment",
+			"key": "X8TVX2YE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:49 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "X47AEXJW",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/PD7SWC39",
+					"http://zotero.org/groups/6376680/items/PYW2J3RV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Siganos-Georgios-and-Vlachos-Michalis-and-Gunopulos-Dimitrios-2019-4129fa248c5781a58cbddbddd1cfc452"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "X8TVX2YE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Siganos-Georgios-and-Vlachos-Michalis-and-Gunopulos-Dimitrios-2019-4129fa248c5781a58cbddbddd1cfc452"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Siganos, Georgios and Vlachos, Michalis and Gunopulos, Dimitrios - 2019 - Explaining and Interpreting Black-Box Models A Survey on the Role of Interaction.pdf",
+				"files": [
+					{
+						"path": "attachments/VN/VNE84CCY/Siganos, Georgios and Vlachos, Michalis and Gunopulos, Dimitrios - 2019 - Explaining and Interpreting Black-Box Models A Survey on the Role of Interaction.pdf",
+						"size": 1054538,
+						"storage": "git"
+					}
+				],
+				"key": "VNE84CCY",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/1711.02222v1"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Siganos, Georgios and Vlachos, Michalis and Gunopulos, Dimitrios"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explaining and Interpreting Black-Box Models: A Survey on the Role of Interaction",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/X47AEXJW"
+	},
+	"zotero": {
+		"DOI": "10.1145/3236009",
+		"citationKey": "siganosgeorgiosandvlachosmichalisandgunopulosdimitriosExplainingInterpretingBlackBox2019",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Siganos, Georgios and Vlachos, Michalis and Gunopulos, Dimitrios"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-02-25T21:49:40Z",
+		"dateModified": "2026-03-25T21:29:37Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "X47AEXJW",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/RAFT7RHN",
+				"http://zotero.org/groups/6376680/items/VBCM9DB7"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explaining and Interpreting Black-Box Models: A Survey on the Role of Interaction",
+		"url": "https://arxiv.org/abs/1711.02222"
+	}
+}

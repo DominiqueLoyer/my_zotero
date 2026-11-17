@@ -1,0 +1,110 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-04-02T15:56:08Z",
+			"dateModified": "2025-04-02T15:56:15Z",
+			"filename": "Harnad - 2025 - Language writ large LLMs, ChatGPT, meaning, and understanding.pdf",
+			"itemType": "attachment",
+			"key": "QKCXM8UP",
+			"linkMode": "imported_file",
+			"parentItem": "QRT53E8S",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:33:58Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:58Z",
+			"dateModified": "2026-01-02T19:14:24Z",
+			"itemType": "attachment",
+			"key": "WQIG9IBC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:14:24 p.m.</p>",
+			"parentItem": "QRT53E8S",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/harnadLanguageWritLarge2025-2c09fa248c57816a813ed1952abf1526"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WQIG9IBC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/harnadLanguageWritLarge2025-2c09fa248c57816a813ed1952abf1526"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Harnad - 2025 - Language writ large LLMs, ChatGPT, meaning, and understanding.pdf",
+				"files": [],
+				"key": "QKCXM8UP",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/9270 (H25)/pandatosi 3 avril"
+		],
+		"creators": [
+			"Harnad, Stevan"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Language writ large: LLMs, ChatGPT, meaning, and understanding",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/QRT53E8S"
+	},
+	"zotero": {
+		"DOI": "10.3389/frai.2024.1490698",
+		"ISSN": "2624-8212",
+		"abstractNote": "Apart from what (little) OpenAI may be concealing from us, we all know (roughly) how Large Language Models (LLMs) such as ChatGPT work (their vast text databases, statistics, vector representations, and huge number of parameters, nextword training, etc.). However, none of us can say (hand on heart) that we are not surprised by what ChatGPT has proved to be able to do with these resources. This has even driven some of us to conclude that ChatGPT actually understands. It is not true that it understands. But it is also not true that we understand how it can do what it can do. I will suggest some hunches about benign “biases”—convergent constraints that emerge at the LLM scale that may be helping ChatGPT do so much better than we would have expected. These biases are inherent in the nature of language itself, at the LLM scale, and they are closely linked to what it is that ChatGPT lacks, which is direct sensorimotor grounding to connect its words to their referents and its propositions to their meanings. These convergent biases are related to (1) the parasitism of indirect verbal grounding on direct sensorimotor grounding, (2) the circularity of verbal definition, (3) the “mirroring” of language production and comprehension, (4) iconicity in propositions at LLM scale, (5) computational counterparts of human “categorical perception” in category learning by neural nets, and perhaps also (6) a conjecture by Chomsky about the laws of thought. The exposition will be in the form of a dialogue with ChatGPT-4.",
+		"accessDate": "2025-04-02T15:56:15Z",
+		"citationKey": "harnadLanguageWritLarge2025",
+		"collections": [
+			"86SZKNNX"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Stevan",
+				"lastName": "Harnad"
+			}
+		],
+		"date": "2025-2-12",
+		"dateAdded": "2025-04-02T15:56:15Z",
+		"dateModified": "2025-12-05T22:33:58Z",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Front. Artif. Intell.",
+		"key": "QRT53E8S",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1490698",
+		"publicationTitle": "Frontiers in Artificial Intelligence",
+		"relations": {},
+		"shortTitle": "Language writ large",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Language writ large: LLMs, ChatGPT, meaning, and understanding",
+		"url": "https://www.frontiersin.org/articles/10.3389/frai.2024.1490698/full",
+		"volume": "7"
+	}
+}

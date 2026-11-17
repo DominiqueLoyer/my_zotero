@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:37:23Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:37:23Z",
+			"dateModified": "2026-03-09T20:37:23Z",
+			"itemType": "attachment",
+			"key": "A5XYKQW6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:37:23 p.m.</p>",
+			"parentItem": "EZZ3EZPH",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Guangyuan2024Query-31e9fa248c5781e79910f1c95a0d88c5"
+		},
+		{
+			"accessDate": "2026-11-08T16:44:37Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:44:37Z",
+			"dateModified": "2026-11-08T16:44:37Z",
+			"filename": "Guangyuan Ma and Pengfei Liu - 2024 - Query Generation for Information Retrieval using Large Language Models A Survey.pdf",
+			"itemType": "attachment",
+			"key": "BQPQJCRF",
+			"linkMode": "imported_url",
+			"parentItem": "EZZ3EZPH",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2310.11496v1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "A5XYKQW6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Guangyuan2024Query-31e9fa248c5781e79910f1c95a0d88c5"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Guangyuan Ma and Pengfei Liu - 2024 - Query Generation for Information Retrieval using Large Language Models A Survey.pdf",
+				"files": [
+					{
+						"path": "attachments/BQ/BQPQJCRF/Guangyuan Ma and Pengfei Liu - 2024 - Query Generation for Information Retrieval using Large Language Models A Survey.pdf",
+						"size": 751964,
+						"storage": "git"
+					}
+				],
+				"key": "BQPQJCRF",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2310.11496v1"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Guangyuan Ma and Pengfei Liu"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Query Generation for Information Retrieval using Large Language Models: A Survey",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/EZZ3EZPH"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-031-56066-8_19",
+		"citationKey": "guangyuanmaandpengfeiliuQueryGenerationInformation2024",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Guangyuan Ma and Pengfei Liu"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-03T23:33:11Z",
+		"dateModified": "2026-03-25T21:29:14Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "EZZ3EZPH",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Query Generation for Information Retrieval using Large Language Models: A Survey",
+		"url": "https://arxiv.org/abs/2310.11496"
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:39:13Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:39:13Z",
+			"dateModified": "2026-03-09T20:39:13Z",
+			"itemType": "attachment",
+			"key": "SNP5L7JD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:39:13 p.m.</p>",
+			"parentItem": "WWR22IP2",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/TurtleSpec-31e9fa248c5781e7a1e4f2d58bedaf83"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SNP5L7JD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/TurtleSpec-31e9fa248c5781e7a1e4f2d58bedaf83"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Beckett, David and Berners-Lee, Tim and Prud'hommeaux, Eric and Carothers, Gavin"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "RDF 1.1 Turtle: Terse RDF Triple Language",
+		"year": "2014",
+		"zoteroURI": "zotero://select/library/items/WWR22IP2"
+	},
+	"zotero": {
+		"citationKey": "beckettdavidandberners-leetimandprudhommeauxericandcarothersgavinRDF11Turtle2014",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Beckett, David and Berners-Lee, Tim and Prud'hommeaux, Eric and Carothers, Gavin"
+			}
+		],
+		"date": "2014",
+		"dateAdded": "2026-03-03T23:15:21Z",
+		"dateModified": "2026-11-09T14:58:19Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "WWR22IP2",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/W26BDM28"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "RDF 1.1 Turtle: Terse RDF Triple Language",
+		"url": "https://www.w3.org/TR/turtle/"
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:27:33Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:27:33Z",
+			"dateModified": "2026-03-09T20:47:32Z",
+			"itemType": "attachment",
+			"key": "XWQIF6D6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:32 p.m.</p>",
+			"parentItem": "Q95YNM3S",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/2fb9a1c37b5728ae34de8f689dd3265b3263d735-2e29fa248c57815a8831f9e92c2e5b06"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XWQIF6D6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/2fb9a1c37b5728ae34de8f689dd3265b3263d735-2e29fa248c57815a8831f9e92c2e5b06"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The web never forgets: Persistent tracking mechanisms in the wild",
+		"year": "2014",
+		"zoteroURI": "zotero://select/library/items/Q95YNM3S"
+	},
+	"zotero": {
+		"DOI": "10.1145/2660267.2660347",
+		"abstractNote": "We present the first large-scale studies of three advanced web tracking mechanisms - canvas fingerprinting, evercookies and use of \"cookie syncing\" in conjunction with evercookies. Canvas fingerprinting, a recently developed form of browser fingerprinting, has not previously been reported in the wild; our results show that over 5",
+		"citationKey": "WebNeverForgets2014",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [],
+		"date": "2014",
+		"dateAdded": "2026-01-08T20:14:04Z",
+		"dateModified": "2026-03-25T21:30:06Z",
+		"itemType": "journalArticle",
+		"key": "Q95YNM3S",
+		"language": "fr-CA",
+		"pages": "null",
+		"publicationTitle": "Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The web never forgets: Persistent tracking mechanisms in the wild",
+		"url": "https://www.semanticscholar.org/paper/2fb9a1c37b5728ae34de8f689dd3265b3263d735",
+		"volume": "null"
+	}
+}

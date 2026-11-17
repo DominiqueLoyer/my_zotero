@@ -1,0 +1,140 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:34:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:34:12Z",
+			"dateModified": "2026-11-09T14:54:40Z",
+			"itemType": "attachment",
+			"key": "IMK5HCE7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:50:43 p.m.</p>",
+			"parentItem": "A4QQRW3Z",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Ricci2011-2e29fa248c57819e8e8fd02c4285db40"
+		},
+		{
+			"accessDate": "2025-12-05T22:27:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:21Z",
+			"dateModified": "2026-11-09T14:54:40Z",
+			"itemType": "attachment",
+			"key": "QG9FUJS8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:10:15 p.m.</p>",
+			"parentItem": "A4QQRW3Z",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/VKTY6WLX"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/PQ3K9VG9"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ricciRecommenderSystemsHandbook2011-2c09fa248c5781f788c5f354e46832e9"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IMK5HCE7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Ricci2011-2e29fa248c57819e8e8fd02c4285db40"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QG9FUJS8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ricciRecommenderSystemsHandbook2011-2c09fa248c5781f788c5f354e46832e9"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Ricci, Francesco",
+			"Rokach, Lior",
+			"Shapira, Bracha",
+			"Kantor, Paul B."
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Recommender Systems Handbook",
+		"year": "2011",
+		"zoteroURI": "zotero://select/library/items/A4QQRW3Z"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-0-387-85820-3",
+		"citationKey": "ricciRecommenderSystemsHandbook2011",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "editor",
+				"firstName": "Francesco",
+				"lastName": "Ricci"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Lior",
+				"lastName": "Rokach"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Bracha",
+				"lastName": "Shapira"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Paul B.",
+				"lastName": "Kantor"
+			}
+		],
+		"date": "2011",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T14:54:40Z",
+		"itemType": "book",
+		"key": "A4QQRW3Z",
+		"place": "New York, NY, USA",
+		"publisher": "Springer",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/JZ544B9B",
+				"http://zotero.org/users/15425556/items/PBAFN5IZ"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/6333BD7C"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Recommender Systems Handbook"
+	}
+}

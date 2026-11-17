@@ -1,0 +1,127 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:55:43Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:55:43Z",
+			"dateModified": "2026-01-01T23:55:43Z",
+			"filename": "Salton and Buckley - 1988 - Term-weighting approaches in automatic text retrieval.pdf",
+			"itemType": "attachment",
+			"key": "38IBS74G",
+			"linkMode": "imported_url",
+			"parentItem": "UYWZ5RRQ",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://ecommons.cornell.edu/bitstreams/fc18789c-6a03-48e6-8226-7dba0ce94e32/download"
+		},
+		{
+			"accessDate": "2025-12-05T22:26:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:31Z",
+			"dateModified": "2026-11-09T14:55:06Z",
+			"itemType": "attachment",
+			"key": "KVWD4RJG",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:14:13 p.m.</p>",
+			"parentItem": "UYWZ5RRQ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/E6QRPUSS"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Salton1988TermWeighting-2c09fa248c57810fbbd9f528f44e99b3"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KVWD4RJG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Salton1988TermWeighting-2c09fa248c57810fbbd9f528f44e99b3"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Salton and Buckley - 1988 - Term-weighting approaches in automatic text retrieval.pdf",
+				"files": [
+					{
+						"path": "attachments/38/38IBS74G/Salton and Buckley - 1988 - Term-weighting approaches in automatic text retrieval.pdf",
+						"size": 1567525,
+						"storage": "git"
+					}
+				],
+				"key": "38IBS74G",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://ecommons.cornell.edu/bitstreams/fc18789c-6a03-48e6-8226-7dba0ce94e32/download"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Salton, Gerard",
+			"Buckley, Christopher"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Term-weighting approaches in automatic text retrieval",
+		"year": "1988",
+		"zoteroURI": "zotero://select/library/items/UYWZ5RRQ"
+	},
+	"zotero": {
+		"DOI": "10.1016/0306-4573(88)90021-0",
+		"citationKey": "saltonTermweightingApproachesAutomatic1988",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gerard",
+				"lastName": "Salton"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Christopher",
+				"lastName": "Buckley"
+			}
+		],
+		"date": "1988",
+		"dateAdded": "2025-04-10T15:02:45Z",
+		"dateModified": "2026-11-09T14:55:06Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"issue": "5",
+		"itemType": "journalArticle",
+		"key": "UYWZ5RRQ",
+		"pages": "513–523",
+		"publicationTitle": "Information Processing & Management",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/P98B5N6W"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Term-weighting approaches in automatic text retrieval",
+		"url": "https://doi.org/10.1016/0306-4573(88)90021-0",
+		"volume": "24"
+	}
+}

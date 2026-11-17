@@ -1,0 +1,115 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:39:12Z",
+			"dateModified": "2026-03-09T20:53:47Z",
+			"itemType": "attachment",
+			"key": "5K7TCSYI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:47 p.m.</p>",
+			"parentItem": "9BMMVWB6",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/Z9VCMCQY"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/He2017-2e29fa248c5781c09f4af8a31664f50c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5K7TCSYI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/He2017-2e29fa248c5781c09f4af8a31664f50c"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"He, Xiangnan",
+			"Liao, Lizi",
+			"Zhang, Hanwang",
+			"Nie, Liqiang",
+			"Hu, Xia",
+			"Chua, Tat-Seng"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neural collaborative filtering",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/9BMMVWB6"
+	},
+	"zotero": {
+		"DOI": "10.1145/3038912.3052569",
+		"citationKey": "heNeuralCollaborativeFiltering2017a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xiangnan",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lizi",
+				"lastName": "Liao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hanwang",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Liqiang",
+				"lastName": "Nie"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xia",
+				"lastName": "Hu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tat-Seng",
+				"lastName": "Chua"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-01-08T20:07:31Z",
+		"dateModified": "2026-03-25T21:30:40Z",
+		"itemType": "conferencePaper",
+		"key": "9BMMVWB6",
+		"language": "fr-CA",
+		"pages": "173–182",
+		"proceedingsTitle": "Proceedings of the 26th international conference on world wide web",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UPUD9CNZ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural collaborative filtering"
+	}
+}

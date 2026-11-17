@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:37:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:18Z",
+			"dateModified": "2026-11-09T17:09:28Z",
+			"itemType": "attachment",
+			"key": "8TPYLN6U",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:28 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "X3W5I8CF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Anderson-2009-4129fa248c5781209853fd73295917b4"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-08T17:49:43Z",
+			"dateModified": "2024-12-08T17:49:49Z",
+			"filename": "Anderson - 2009 - How Can the Human Mind Occur in the Physical Universe.pdf",
+			"itemType": "attachment",
+			"key": "K23UXSFS",
+			"linkMode": "imported_file",
+			"parentItem": "X3W5I8CF",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8TPYLN6U",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Anderson-2009-4129fa248c5781209853fd73295917b4"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Anderson - 2009 - How Can the Human Mind Occur in the Physical Universe.pdf",
+				"files": [
+					{
+						"path": "attachments/K2/K23UXSFS/Anderson - 2009 - How Can the Human Mind Occur in the Physical Universe.pdf",
+						"size": 3124916,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/K2/K23UXSFS/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 187971,
+						"storage": "git"
+					}
+				],
+				"key": "K23UXSFS",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/Dic9150/Cognition incarnée, située et sociale"
+		],
+		"creators": [
+			"Anderson, John R."
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "How Can the Human Mind Occur in the Physical Universe?",
+		"year": "2009",
+		"zoteroURI": "zotero://select/library/items/X3W5I8CF"
+	},
+	"zotero": {
+		"ISBN": "978-0-19-532425-9 978-0-19-974126-7",
+		"citationKey": "andersonHowCanHuman2009",
+		"collections": [
+			"TJKQSYSH"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "John R.",
+				"lastName": "Anderson"
+			}
+		],
+		"date": "2009",
+		"dateAdded": "2024-12-08T17:49:49Z",
+		"dateModified": "2025-12-05T22:37:18Z",
+		"edition": "1st ed",
+		"itemType": "book",
+		"key": "X3W5I8CF",
+		"language": "en",
+		"libraryCatalog": "K10plus ISBN",
+		"numPages": "1",
+		"place": "Oxford",
+		"publisher": "Oxford University Press, Incorporated",
+		"relations": {},
+		"series": "Oxford Series on Cognitive Models and Architectures Ser",
+		"seriesNumber": "v.3",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "How Can the Human Mind Occur in the Physical Universe?"
+	}
+}

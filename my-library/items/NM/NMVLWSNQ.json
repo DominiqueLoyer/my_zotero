@@ -1,0 +1,137 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:36:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:26Z",
+			"dateModified": "2026-11-09T17:04:54Z",
+			"itemType": "attachment",
+			"key": "H56UUIBW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:54 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "NMVLWSNQ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/2B2MSGAG"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Burkart-and-Huber-2021-4129fa248c57816e8994e17680500586"
+		},
+		{
+			"accessDate": "2026-01-01T23:55:28Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:55:28Z",
+			"dateModified": "2026-11-09T15:05:03Z",
+			"filename": "Burkart and Huber - 2021 - A Survey on the Explainability of Supervised Machine Learning.pdf",
+			"itemType": "attachment",
+			"key": "WQ77DJYH",
+			"linkMode": "imported_url",
+			"parentItem": "NMVLWSNQ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/22LXCYPS",
+					"http://zotero.org/users/15425556/items/3J88KG9F"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://jair.org/index.php/jair/article/download/12228/26647"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Burkart and Huber - 2021 - A Survey on the Explainability of Supervised Machine Learning.pdf",
+				"files": [
+					{
+						"path": "attachments/WQ/WQ77DJYH/Burkart and Huber - 2021 - A Survey on the Explainability of Supervised Machine Learning.pdf",
+						"size": 865325,
+						"storage": "git"
+					}
+				],
+				"key": "WQ77DJYH",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://jair.org/index.php/jair/article/download/12228/26647"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "H56UUIBW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Burkart-and-Huber-2021-4129fa248c57816e8994e17680500586"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"GS_301225.bibtex",
+			"references_dic9401"
+		],
+		"creators": [
+			"Burkart, Nadia",
+			"Huber, Marco F."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Survey on the Explainability of Supervised Machine Learning",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/NMVLWSNQ"
+	},
+	"zotero": {
+		"DOI": "10.1613/jair.1.12228",
+		"citationKey": "burkartSurveyExplainabilitySupervised2021",
+		"collections": [
+			"F9TGXIMY",
+			"H8Z7N6W8",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Nadia",
+				"lastName": "Burkart"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Marco F.",
+				"lastName": "Huber"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-09T15:05:03Z",
+		"itemType": "journalArticle",
+		"key": "NMVLWSNQ",
+		"pages": "245–317",
+		"publicationTitle": "Journal of Artificial Intelligence Research",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/J9Y4KP9R",
+				"http://zotero.org/users/15425556/items/LAGMGENH"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/LSKZXDN7"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey on the Explainability of Supervised Machine Learning",
+		"volume": "70"
+	}
+}

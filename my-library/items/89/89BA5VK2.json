@@ -1,0 +1,155 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:33:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:06Z",
+			"dateModified": "2026-11-09T17:04:47Z",
+			"itemType": "attachment",
+			"key": "9A6BVKXS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:47 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "89BA5VK2",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/4XCRUMBU"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2F3RSURT"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Karimi-et-al-2021-4129fa248c578158a37bc98ada06ca54"
+		},
+		{
+			"accessDate": "2026-01-01T23:50:42Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:50:42Z",
+			"dateModified": "2026-11-09T15:05:37Z",
+			"filename": "Karimi et al. - 2021 - A survey of algorithmic recourse definitions, formulations, and empirical evaluation.pdf",
+			"itemType": "attachment",
+			"key": "GXFM8A77",
+			"linkMode": "imported_url",
+			"parentItem": "89BA5VK2",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/DKTLY5JF",
+					"http://zotero.org/users/15425556/items/J4EFGMB6"
+				]
+			},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2101.07425"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9A6BVKXS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Karimi-et-al-2021-4129fa248c578158a37bc98ada06ca54"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Karimi et al. - 2021 - A survey of algorithmic recourse definitions, formulations, and empirical evaluation.pdf",
+				"files": [
+					{
+						"path": "attachments/GX/GXFM8A77/Karimi et al. - 2021 - A survey of algorithmic recourse definitions, formulations, and empirical evaluation.pdf",
+						"size": 4174045,
+						"storage": "git"
+					}
+				],
+				"key": "GXFM8A77",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2101.07425"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"Karimi, Amir-Hossein",
+			"Barthe, Gilles",
+			"Balle, Borja",
+			"Valera, Isabel"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A survey of algorithmic recourse: definitions, formulations, and empirical evaluation",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/89BA5VK2"
+	},
+	"zotero": {
+		"DOI": "10.1145/3446342",
+		"citationKey": "karimiSurveyAlgorithmicRecourse2021",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F",
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Amir-Hossein",
+				"lastName": "Karimi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gilles",
+				"lastName": "Barthe"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Borja",
+				"lastName": "Balle"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Isabel",
+				"lastName": "Valera"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-13T19:30:00Z",
+		"issue": "8",
+		"itemType": "journalArticle",
+		"key": "89BA5VK2",
+		"pages": "1–29",
+		"publicationTitle": "ACM Computing Surveys (CSUR)",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/5W9GMA5N",
+				"http://zotero.org/users/15425556/items/E79BVVX2"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/EQEBTXRQ",
+				"http://zotero.org/groups/6376680/items/I4955NR6",
+				"http://zotero.org/groups/6376680/items/TI2IYJXS"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A survey of algorithmic recourse: definitions, formulations, and empirical evaluation",
+		"volume": "54"
+	}
+}

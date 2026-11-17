@@ -1,0 +1,87 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "K2JZ8QNQ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:15 p.m.</p>",
+			"parentItem": "AVABEWNN",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Lika2014-2e29fa248c57815a931ed54c8b27139e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "K2JZ8QNQ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Lika2014-2e29fa248c57815a931ed54c8b27139e"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Lika, Blerina",
+			"Kolomvatsos, Kostas",
+			"Hadjiefthymiades, Stathes"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Facing the cold start problem in recommender systems",
+		"year": "2014",
+		"zoteroURI": "zotero://select/groups/6376680/items/AVABEWNN"
+	},
+	"zotero": {
+		"DOI": "10.1145/2645791.2645811",
+		"citationKey": "likaFacingColdStart2014a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Blerina",
+				"lastName": "Lika"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kostas",
+				"lastName": "Kolomvatsos"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Stathes",
+				"lastName": "Hadjiefthymiades"
+			}
+		],
+		"date": "2014",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "AVABEWNN",
+		"proceedingsTitle": "Proceedings of the 8th hellenic conference on artificial intelligence",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Facing the cold start problem in recommender systems"
+	}
+}

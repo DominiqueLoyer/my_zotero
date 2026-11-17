@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:16:47Z",
+			"dateModified": "2026-11-09T17:05:10Z",
+			"itemType": "attachment",
+			"key": "WW8IAQL3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:10 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "Z2GF79D4",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6UF2UWSC",
+					"http://zotero.org/groups/6376680/items/SKG6F2QP"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/NIST-2024-4129fa248c5781adb271f005169b8cd5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WW8IAQL3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/NIST-2024-4129fa248c5781adb271f005169b8cd5"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"NIST"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "AI Risk Management Framework",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/Z2GF79D4"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-031-53824-7_51",
+		"citationKey": "nistAIRiskManagement2024",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "NIST"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:42:38Z",
+		"dateModified": "2026-03-25T21:29:40Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "Z2GF79D4",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/LZX6HAPA",
+				"http://zotero.org/groups/6376680/items/RAMLP2HL"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "AI Risk Management Framework"
+	}
+}

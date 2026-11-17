@@ -1,0 +1,313 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:19:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:47Z",
+			"dateModified": "2026-11-09T17:09:14Z",
+			"itemType": "attachment",
+			"key": "AY7VH9R9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:14 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "DGXM5X4C",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/KEIBFY8T"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Wu-et-al-2016-4129fa248c57814f9014e89b236e034e"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:21Z",
+			"dateModified": "2026-03-14T17:36:10Z",
+			"itemType": "attachment",
+			"key": "VBGII6KM",
+			"linkMode": "linked_file",
+			"parentItem": "DGXM5X4C",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/NMT_en-ru_040326/PDFs/Wu et al. - 2016 - Google's Neural Machine Translation System Bridging the Gap between Human and Machine Translation.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "AY7VH9R9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Wu-et-al-2016-4129fa248c57814f9014e89b236e034e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wu et al. - 2016 - Google's Neural Machine Translation System Bridging the Gap between Human and Machine Translation.pdf",
+				"files": [
+					{
+						"path": "attachments/VB/VBGII6KM/Wu et al. - 2016 - Google's Neural Machine Translation System Bridging the Gap between Human and Machine Translation.pdf",
+						"size": 1688289,
+						"storage": "git"
+					}
+				],
+				"key": "VBGII6KM",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
+		],
+		"creators": [
+			"Wu, Yonghui",
+			"Schuster, Mike",
+			"Chen, Zhifeng",
+			"Le, Quoc V.",
+			"Norouzi, Mohammad",
+			"Macherey, Wolfgang",
+			"Krikun, Maxim",
+			"Cao, Yuan",
+			"Gao, Qin",
+			"Macherey, Klaus",
+			"Klingner, Jeff",
+			"Shah, Apurva",
+			"Johnson, Melvin",
+			"Liu, Xiaobing",
+			"Kaiser, Łukasz",
+			"Gouws, Stephan",
+			"Kato, Yoshikiyo",
+			"Kudo, Taku",
+			"Kazawa, Hideto",
+			"Stevens, Keith",
+			"Kurian, George",
+			"Patil, Nishant",
+			"Wang, Wei",
+			"Young, Cliff",
+			"Smith, Jason",
+			"Riesa, Jason",
+			"Rudnick, Alex",
+			"Vinyals, Oriol",
+			"Corrado, Greg",
+			"Hughes, Macduff",
+			"Dean, Jeffrey"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/DGXM5X4C"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1609.08144",
+		"abstractNote": "Neural Machine Translation (NMT) is an end-to-end learning approach for automated translation, with the potential to overcome many of the weaknesses of conventional phrase-based translation systems. Unfortunately, NMT systems are known to be computationally expensive both in training and in translation inference. Also, most NMT systems have difficulty with rare words. These issues have hindered NMT's use in practical deployments and services, where both accuracy and speed are essential. In this work, we present GNMT, Google's Neural Machine Translation system, which attempts to address many of these issues. Our model consists of a deep LSTM network with 8 encoder and 8 decoder layers using attention and residual connections. To improve parallelism and therefore decrease training time, our attention mechanism connects the bottom layer of the decoder to the top layer of the encoder. To accelerate the final translation speed, we employ low-precision arithmetic during inference computations. To improve handling of rare words, we divide words into a limited set of common sub-word units (\"wordpieces\") for both input and output. This method provides a good balance between the flexibility of \"character\"-delimited models and the efficiency of \"word\"-delimited models, naturally handles translation of rare words, and ultimately improves the overall accuracy of the system. Our beam search technique employs a length-normalization procedure and uses a coverage penalty, which encourages generation of an output sentence that is most likely to cover all the words in the source sentence. On the WMT'14 English-to-French and English-to-German benchmarks, GNMT achieves competitive results to state-of-the-art. Using a human side-by-side evaluation on a set of isolated simple sentences, it reduces translation errors by an average of 60% compared to Google's phrase-based production system.",
+		"accessDate": "2026-03-14T17:36:09Z",
+		"archiveID": "arXiv:1609.08144",
+		"citationKey": "wuGooglesNeuralMachine2016",
+		"collections": [
+			"VENCFFG7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Yonghui",
+				"lastName": "Wu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mike",
+				"lastName": "Schuster"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhifeng",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Quoc V.",
+				"lastName": "Le"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mohammad",
+				"lastName": "Norouzi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Wolfgang",
+				"lastName": "Macherey"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Maxim",
+				"lastName": "Krikun"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yuan",
+				"lastName": "Cao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Qin",
+				"lastName": "Gao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Klaus",
+				"lastName": "Macherey"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jeff",
+				"lastName": "Klingner"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Apurva",
+				"lastName": "Shah"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Melvin",
+				"lastName": "Johnson"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiaobing",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Łukasz",
+				"lastName": "Kaiser"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Stephan",
+				"lastName": "Gouws"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yoshikiyo",
+				"lastName": "Kato"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Taku",
+				"lastName": "Kudo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hideto",
+				"lastName": "Kazawa"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Keith",
+				"lastName": "Stevens"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "George",
+				"lastName": "Kurian"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Nishant",
+				"lastName": "Patil"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Wei",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Cliff",
+				"lastName": "Young"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jason",
+				"lastName": "Smith"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jason",
+				"lastName": "Riesa"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alex",
+				"lastName": "Rudnick"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Oriol",
+				"lastName": "Vinyals"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Greg",
+				"lastName": "Corrado"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Macduff",
+				"lastName": "Hughes"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jeffrey",
+				"lastName": "Dean"
+			}
+		],
+		"date": "2016-10-08",
+		"dateAdded": "2026-03-14T17:36:09Z",
+		"dateModified": "2026-03-14T18:19:47Z",
+		"extra": "arXiv:1609.08144 [cs]",
+		"itemType": "preprint",
+		"key": "DGXM5X4C",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/GMYYSF83"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Google's Neural Machine Translation System",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
+		"url": "http://arxiv.org/abs/1609.08144"
+	}
+}

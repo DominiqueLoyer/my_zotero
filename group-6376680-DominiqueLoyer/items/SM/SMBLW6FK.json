@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-11-17T14:49:21Z",
+			"itemType": "attachment",
+			"key": "G92MC7K2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:41:06 p.m.</p>",
+			"parentItem": "SMBLW6FK",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/WCPPWBL9"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Busuioc2020-3129fa248c5781e8aea5fc6a8468b967"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "G92MC7K2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Busuioc2020-3129fa248c5781e8aea5fc6a8468b967"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"references_dic9401"
+		],
+		"creators": [
+			"Busuioc, Mădălina"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "The algorithmic professional: The new rules of the game",
+		"year": "2020",
+		"zoteroURI": "zotero://select/groups/6376680/items/SMBLW6FK"
+	},
+	"zotero": {
+		"DOI": "10.1111/puar.13258",
+		"citationKey": "Busuioc2020",
+		"collections": [
+			"KRMD3KDT",
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Busuioc, Mădălina"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-11-17T14:49:21Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "SMBLW6FK",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/WQ9S7MQ9"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The algorithmic professional: The new rules of the game"
+	}
+}

@@ -1,0 +1,148 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:54:49Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:54:49Z",
+			"dateModified": "2026-11-09T15:07:59Z",
+			"filename": "Verma et al. - 2020 - Counterfactual Explanations for Machine Learning A Review.pdf",
+			"itemType": "attachment",
+			"key": "2T5HTPMY",
+			"linkMode": "imported_url",
+			"parentItem": "3CH57MT3",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/96IS3C5P"
+				]
+			},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2007.10427v1"
+		},
+		{
+			"accessDate": "2025-12-05T22:24:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:57Z",
+			"dateModified": "2026-11-09T17:06:41Z",
+			"itemType": "attachment",
+			"key": "TZX37S44",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:41 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "3CH57MT3",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/2R7LF9Z5"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/Z2AKLERV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Verma-et-al-2020-4129fa248c5781c7a7e9e38c32cf6aef"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TZX37S44",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Verma-et-al-2020-4129fa248c5781c7a7e9e38c32cf6aef"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Verma et al. - 2020 - Counterfactual Explanations for Machine Learning A Review.pdf",
+				"files": [
+					{
+						"path": "attachments/2T/2T5HTPMY/Verma et al. - 2020 - Counterfactual Explanations for Machine Learning A Review.pdf",
+						"size": 7207700,
+						"storage": "git"
+					}
+				],
+				"key": "2T5HTPMY",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2007.10427v1"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Verma, Sahil",
+			"Dickerson, John",
+			"Hines, Keegan"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Counterfactual Explanations for Machine Learning: A Review",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/3CH57MT3"
+	},
+	"zotero": {
+		"DOI": "10.1145/3677119",
+		"citationKey": "vermaCounterfactualExplanationsMachine2020",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Sahil",
+				"lastName": "Verma"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John",
+				"lastName": "Dickerson"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Keegan",
+				"lastName": "Hines"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-13T19:35:07Z",
+		"itemType": "conferencePaper",
+		"key": "3CH57MT3",
+		"proceedingsTitle": "AAAI Workshop on Explainable Artificial Intelligence",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/QDPHDDR2",
+				"http://zotero.org/users/15425556/items/TFWMAGWM"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/SA4BV96K"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Counterfactual Explanations for Machine Learning: A Review",
+		"url": "https://arxiv.org/abs/2007.10427"
+	}
+}

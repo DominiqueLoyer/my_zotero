@@ -1,0 +1,98 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:35:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:18Z",
+			"dateModified": "2026-11-09T17:07:47Z",
+			"itemType": "attachment",
+			"key": "5FZQGXQ9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:47 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "TIFYPVHB",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781d095c0da5c0445ce1e"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-31T16:20:48Z",
+			"dateModified": "2025-03-31T19:02:44Z",
+			"filename": "dic9251_resolution.pdf",
+			"itemType": "attachment",
+			"key": "P8AQVIFV",
+			"linkMode": "imported_file",
+			"parentItem": "TIFYPVHB",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5FZQGXQ9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781d095c0da5c0445ce1e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "dic9251_resolution.pdf",
+				"files": [],
+				"key": "P8AQVIFV",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/représentation de la connaissance"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "dic9251_resolution",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/TIFYPVHB"
+	},
+	"zotero": {
+		"citationKey": "lounishakimDic9251_resolution",
+		"collections": [
+			"G4KBEA9A",
+			"MCWSJY5G"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T19:02:43Z",
+		"dateModified": "2025-03-31T19:02:48Z",
+		"itemType": "document",
+		"key": "TIFYPVHB",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "dic9251_resolution"
+	}
+}

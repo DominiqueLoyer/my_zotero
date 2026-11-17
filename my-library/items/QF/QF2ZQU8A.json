@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:16:12Z",
+			"dateModified": "2026-11-09T17:05:46Z",
+			"itemType": "attachment",
+			"key": "QMKVVUVK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:46 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "QF2ZQU8A",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2YJZW3WA",
+					"http://zotero.org/groups/6376680/items/ZUBV2DC6"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Sedhain-Suvash-and-Menon-Aditya-Krishna-and-Sanner-Scott-and-Xie-Lexing-2018-4129fa248c5781108e65c6a89ce25a21"
+		},
+		{
+			"accessDate": "2026-11-08T16:11:04Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:11:04Z",
+			"dateModified": "2026-11-08T16:11:04Z",
+			"filename": "Sedhain, Suvash and Menon, Aditya Krishna and Sanner, Scott and Xie, Lexing - 2018 - Autorec Autoencoders meet collaborative filtering.pdf",
+			"itemType": "attachment",
+			"key": "YKT2NKCJ",
+			"linkMode": "imported_url",
+			"parentItem": "QF2ZQU8A",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1802.05814"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QMKVVUVK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Sedhain-Suvash-and-Menon-Aditya-Krishna-and-Sanner-Scott-and-Xie-Lexing-2018-4129fa248c5781108e65c6a89ce25a21"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Sedhain, Suvash and Menon, Aditya Krishna and Sanner, Scott and Xie, Lexing - 2018 - Autorec Autoencoders meet collaborative filtering.pdf",
+				"files": [
+					{
+						"path": "attachments/YK/YKT2NKCJ/Sedhain, Suvash and Menon, Aditya Krishna and Sanner, Scott and Xie, Lexing - 2018 - Autorec Autoencoders meet collaborative filtering.pdf",
+						"size": 2825145,
+						"storage": "git"
+					}
+				],
+				"key": "YKT2NKCJ",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1802.05814"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Sedhain, Suvash and Menon, Aditya Krishna and Sanner, Scott and Xie, Lexing"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Autorec: Autoencoders meet collaborative filtering",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/QF2ZQU8A"
+	},
+	"zotero": {
+		"DOI": "10.1145/3178876.3186150",
+		"citationKey": "sedhainsuvashandmenonadityakrishnaandsannerscottandxielexingAutorecAutoencodersMeet2018",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Sedhain, Suvash and Menon, Aditya Krishna and Sanner, Scott and Xie, Lexing"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-02-25T21:48:16Z",
+		"dateModified": "2026-11-13T19:32:28Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "QF2ZQU8A",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/6CM3LJQM",
+				"http://zotero.org/groups/6376680/items/MM67EFGJ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Autorec: Autoencoders meet collaborative filtering"
+	}
+}

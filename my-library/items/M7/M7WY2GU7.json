@@ -1,0 +1,191 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:27:07Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:07Z",
+			"dateModified": "2026-11-09T17:07:42Z",
+			"itemType": "attachment",
+			"key": "5ERCMNLX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:42 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "M7WY2GU7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Robert-Serge-2024-4129fa248c5781c1b74bd27146fb50dd"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-28T20:07:49Z",
+			"dateModified": "2024-12-11T19:34:32Z",
+			"filename": "DIC-9001 PPT semaine 14b.pdf",
+			"itemType": "attachment",
+			"key": "5MU27PQD",
+			"linkMode": "imported_file",
+			"parentItem": "M7WY2GU7",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ff6666",
+			"annotationComment": "économiste invente ça: Taller prix nobel économie\nnudge: clin d'oeil\n1-on encode pour la mémoire\n2-on stock\n3-on récupère\n\nles nudges: des aide mémoire sont là pour déclancher la memoire à long terme\n\ndaniel kannan  thinking fast and slow\n\nsimon: le good enough",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[133.788,371.524,288.135,402.61]]}",
+			"annotationSortIndex": "00000|000001|00137",
+			"annotationText": "s nudges :",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-28T20:53:06Z",
+			"dateModified": "2024-11-28T21:01:08Z",
+			"itemType": "annotation",
+			"key": "KKTCRZ7V",
+			"parentItem": "5MU27PQD",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "les animaux reconnaissent des indices\nquand le signe fait partie de l,histoire c'est un indice\nthéorie de Pierre : ça a 125 ans",
+			"annotationPageLabel": "3",
+			"annotationPosition": "{\"pageIndex\":2,\"rects\":[[152.66,237.166,214.328,254.63]]}",
+			"annotationSortIndex": "00002|000178|00285",
+			"annotationText": "Indices",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-28T21:03:55Z",
+			"dateModified": "2024-11-28T21:09:08Z",
+			"itemType": "annotation",
+			"key": "KNP74KJB",
+			"parentItem": "5MU27PQD",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "le carré des oppositions logiques",
+			"annotationPageLabel": "13",
+			"annotationPosition": "{\"pageIndex\":12,\"rects\":[[496.571,403.967,518.571,425.967]]}",
+			"annotationSortIndex": "00012|000046|00114",
+			"annotationType": "note",
+			"dateAdded": "2024-11-28T21:53:55Z",
+			"dateModified": "2024-11-28T21:54:06Z",
+			"itemType": "annotation",
+			"key": "RH8TJURG",
+			"parentItem": "5MU27PQD",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ff6666",
+			"annotationComment": "thèse d'olivier  Houdé",
+			"annotationPageLabel": "15",
+			"annotationPosition": "{\"pageIndex\":14,\"rects\":[[152.302,278.717,317.472,298.16]]}",
+			"annotationSortIndex": "00014|000188|00241",
+			"annotationText": "contrôle exécutif",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-28T21:55:40Z",
+			"dateModified": "2024-11-28T21:55:57Z",
+			"itemType": "annotation",
+			"key": "WTSYYEAK",
+			"parentItem": "5MU27PQD",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5ERCMNLX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Robert-Serge-2024-4129fa248c5781c1b74bd27146fb50dd"
+			},
+			{
+				"annotationCount": 4,
+				"contentType": "application/pdf",
+				"filename": "DIC-9001 PPT semaine 14b.pdf",
+				"files": [
+					{
+						"path": "attachments/5M/5MU27PQD/DIC-9001 PPT semaine 14b.pdf",
+						"size": 703945,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/5M/5MU27PQD/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 9903,
+						"storage": "git"
+					}
+				],
+				"key": "5MU27PQD",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Russell"
+		],
+		"creators": [
+			"Robert Serge"
+		],
+		"itemType": "presentation",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DIC-9001 PPT semaine 14b",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/M7WY2GU7"
+	},
+	"zotero": {
+		"citationKey": "robertsergeDIC9001PPTSemaine2024",
+		"collections": [
+			"3JEI6M6Q"
+		],
+		"creators": [
+			{
+				"creatorType": "presenter",
+				"name": "Robert Serge"
+			}
+		],
+		"date": "Automne 2024",
+		"dateAdded": "2024-12-11T19:34:32Z",
+		"dateModified": "2025-12-05T22:27:07Z",
+		"itemType": "presentation",
+		"key": "M7WY2GU7",
+		"place": "UQAM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "AI"
+			},
+			{
+				"tag": "dic-9001"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "pensée convergente"
+			},
+			{
+				"tag": "pensée divergente"
+			},
+			{
+				"tag": "processus duaux"
+			}
+		],
+		"title": "DIC-9001 PPT semaine 14b"
+	}
+}

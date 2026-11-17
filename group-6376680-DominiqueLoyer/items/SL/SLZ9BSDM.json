@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:02Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-11-17T14:46:41Z",
+			"itemType": "attachment",
+			"key": "R3DCPRLK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:39:54 p.m.</p>",
+			"parentItem": "SLZ9BSDM",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/5JYFF2LG"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Gozalo-Brizuela2024A-3129fa248c578123982ef74808171cd0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "R3DCPRLK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Gozalo-Brizuela2024A-3129fa248c578123982ef74808171cd0"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Gozalo-Brizuela, Roberto and Garrido-Merchán, Eduardo C."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A survey of Generative AI Applications",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/SLZ9BSDM"
+	},
+	"zotero": {
+		"DOI": "10.3844/jcssp.2024.801.818",
+		"citationKey": "Gozalo-Brizuela2024A",
+		"collections": [
+			"HXLA8A4T",
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Gozalo-Brizuela, Roberto and Garrido-Merchán, Eduardo C."
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-11-17T14:46:41Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "SLZ9BSDM",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/5PCSIDHW"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A survey of Generative AI Applications"
+	}
+}

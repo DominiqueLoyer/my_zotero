@@ -1,0 +1,90 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:27:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:24Z",
+			"dateModified": "2026-01-02T19:10:16Z",
+			"itemType": "attachment",
+			"key": "ATWM9MYN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:10:16 p.m.</p>",
+			"parentItem": "E9UAJEWI",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ribeiroWhyShouldTrust2016-2c09fa248c57817291e0ea0dce1631f8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ATWM9MYN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ribeiroWhyShouldTrust2016-2c09fa248c57817291e0ea0dce1631f8"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Ribeiro, Marco Tulio",
+			"Singh, Sameer",
+			"Guestrin, Carlos"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/E9UAJEWI"
+	},
+	"zotero": {
+		"DOI": "10.1145/2939672.2939778",
+		"citationKey": "ribeiroWhyShouldTrust2016",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Marco Tulio",
+				"lastName": "Ribeiro"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sameer",
+				"lastName": "Singh"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Carlos",
+				"lastName": "Guestrin"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-03-25T21:31:01Z",
+		"itemType": "conferencePaper",
+		"key": "E9UAJEWI",
+		"pages": "1135–1144",
+		"place": "New York, NY, USA",
+		"proceedingsTitle": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+		"publisher": "Association for Computing Machinery",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier"
+	}
+}

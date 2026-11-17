@@ -1,0 +1,149 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "NS42HNEY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:30 p.m.</p>",
+			"parentItem": "DMLATXKE",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/barbieroInterpretableNeuralSymbolicConcept2023-3239fa248c5781f7858cc1700731b2c4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NS42HNEY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/barbieroInterpretableNeuralSymbolicConcept2023-3239fa248c5781f7858cc1700731b2c4"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Barbiero, Pietro",
+			"Ciravegna, Gabriele",
+			"Giannini, Francesco",
+			"Zarlenga, Mateo Espinosa",
+			"Magister, Lucie Charlotte",
+			"Tonda, Alberto",
+			"Lio', Pietro",
+			"Precioso, Frederic",
+			"Jamnik, Mateja",
+			"Marra, Giuseppe"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Interpretable Neural-Symbolic Concept Reasoning",
+		"year": "2023",
+		"zoteroURI": "zotero://select/groups/6376680/items/DMLATXKE"
+	},
+	"zotero": {
+		"DOI": "10.5555/3618408.3618484",
+		"abstractNote": "Deep learning methods are highly accurate, yet their opaque decision process prevents them from earning full human trust. Concept-based models aim to address this issue by learning tasks based on a set of human-understandable concepts. However, state-of-the-art concept-based models rely on high-dimensional concept embedding representations which lack a clear semantic meaning, thus questioning the interpretability of their decision process. To overcome this limitation, we propose the Deep Concept Reasoner (DCR), the first interpretable concept-based model that builds upon concept embeddings. In DCR, neural networks do not make task predictions directly, but they build syntactic rule structures using concept embeddings. DCR then executes these rules on meaningful concept truth degrees to provide a final interpretable and semantically-consistent prediction in a differentiable manner. Our experiments show that DCR: (i) improves up to +25% w.r.t. state-of-the-art interpretable concept-based models on challenging benchmarks (ii) discovers meaningful logic rules matching known ground truths even in the absence of concept supervision during training, and (iii), facilitates the generation of counterfactual examples providing the learnt rules as guidance.",
+		"accessDate": "2026-03-14T17:40:20Z",
+		"citationKey": "barbieroInterpretableNeuralSymbolicConcept2023",
+		"collections": [
+			"PNZQF2WF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Pietro",
+				"lastName": "Barbiero"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gabriele",
+				"lastName": "Ciravegna"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Francesco",
+				"lastName": "Giannini"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mateo Espinosa",
+				"lastName": "Zarlenga"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lucie Charlotte",
+				"lastName": "Magister"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alberto",
+				"lastName": "Tonda"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pietro",
+				"lastName": "Lio'"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Frederic",
+				"lastName": "Precioso"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mateja",
+				"lastName": "Jamnik"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Giuseppe",
+				"lastName": "Marra"
+			}
+		],
+		"date": "2023-05-22",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:2304.14068 [cs]",
+		"itemType": "preprint",
+		"key": "DMLATXKE",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Neural and Evolutionary Computing",
+				"type": 1
+			},
+			{
+				"tag": "Statistics - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Interpretable Neural-Symbolic Concept Reasoning",
+		"url": "http://arxiv.org/abs/2304.14068"
+	}
+}

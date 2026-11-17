@@ -1,0 +1,183 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-01-08T20:00:27Z",
+			"dateModified": "2026-01-16T18:00:58Z",
+			"itemType": "note",
+			"key": "5XP5RFIC",
+			"note": "DIC-9345 TALN - Text REtrieval Conference",
+			"parentItem": "PQZVTNTS",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/8T9IPJE3"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T22:30:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T22:30:53Z",
+			"dateModified": "2026-11-09T17:08:27Z",
+			"itemType": "attachment",
+			"key": "FMBZN3BK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:27 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "PQZVTNTS",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/Q7ZIGNLD"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/P7CVTEXA"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-4129fa248c57815e9b31dd4f09edc646"
+		},
+		{
+			"dateAdded": "2026-01-10T20:17:21Z",
+			"dateModified": "2026-01-10T20:17:21Z",
+			"itemType": "note",
+			"key": "GBAJW2JT",
+			"note": "DIC-9345 TALN - Text REtrieval Conference",
+			"parentItem": "PQZVTNTS",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/Z5A387HF"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T20:17:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T20:17:21Z",
+			"dateModified": "2026-01-16T18:00:58Z",
+			"itemType": "attachment",
+			"key": "KE977S3R",
+			"linkMode": "linked_url",
+			"parentItem": "PQZVTNTS",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/DPWM8GJV"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ANHABRZV"
+				]
+			},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FMBZN3BK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-4129fa248c57815e9b31dd4f09edc646"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KE977S3R",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126",
+			"zenodoDOI_ISBN_dominiqueloyer_060126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "5XP5RFIC",
+				"title": "DIC-9345 TALN - Text REtrieval Conference"
+			},
+			{
+				"key": "GBAJW2JT",
+				"title": "DIC-9345 TALN - Text REtrieval Conference"
+			}
+		],
+		"title": "Evaluation de modeles de ponderations pour la recherche d'information sur TREC AP 88-90",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/PQZVTNTS"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.18538.84164",
+		"ISBN": "978-1-0699904-8-8",
+		"citationKey": "loyerEvaluationModelesPonderations2025",
+		"collections": [
+			"8UCLQEMM",
+			"KKPWSFMI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-10T20:17:21Z",
+		"dateModified": "2026-01-16T18:00:58Z",
+		"extra": "titleTranslation: Evaluation of Weighting Models for Information Retrieval on TREC AP 88-90",
+		"itemType": "conferencePaper",
+		"key": "PQZVTNTS",
+		"language": "fr-CA",
+		"pages": "20",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/DJIXMV7Y"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/S2ZVUEAR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "BM25"
+			},
+			{
+				"tag": "Modeles de Ranking"
+			},
+			{
+				"tag": "Ponderations"
+			},
+			{
+				"tag": "Recherche d'Information"
+			},
+			{
+				"tag": "TF-IDF"
+			},
+			{
+				"tag": "TREC"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Evaluation de modeles de ponderations pour la recherche d'information sur TREC AP 88-90",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.18538.84164"
+	}
+}

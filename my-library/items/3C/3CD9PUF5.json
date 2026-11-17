@@ -1,0 +1,131 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:29:59Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:29:59Z",
+			"dateModified": "2026-11-08T16:29:59Z",
+			"filename": "Schneider and Vlachos - 2024 - Explainable generative AI (GenXAI) a survey, conceptualization, and research agenda.pdf",
+			"itemType": "attachment",
+			"key": "GRZAEHPV",
+			"linkMode": "imported_url",
+			"parentItem": "3CD9PUF5",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2404.09554v1"
+		},
+		{
+			"accessDate": "2026-01-08T20:36:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:36:37Z",
+			"dateModified": "2026-11-09T17:08:47Z",
+			"itemType": "attachment",
+			"key": "X7BSTQJF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:47 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "3CD9PUF5",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/NE63HLAQ"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ERCBYUBP"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Schneider-and-Vlachos-2024-4129fa248c578116ba3dca6e2313f68f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "X7BSTQJF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Schneider-and-Vlachos-2024-4129fa248c578116ba3dca6e2313f68f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Schneider and Vlachos - 2024 - Explainable generative AI (GenXAI) a survey, conceptualization, and research agenda.pdf",
+				"files": [
+					{
+						"path": "attachments/GR/GRZAEHPV/Schneider and Vlachos - 2024 - Explainable generative AI (GenXAI) a survey, conceptualization, and research agenda.pdf",
+						"size": 2075085,
+						"storage": "git"
+					}
+				],
+				"key": "GRZAEHPV",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2404.09554v1"
+			}
+		],
+		"collections": [
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Schneider, Jan",
+			"Vlachos, Michalis"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explainable generative AI (GenXAI): a survey, conceptualization, and research agenda",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/3CD9PUF5"
+	},
+	"zotero": {
+		"citationKey": "schneiderExplainableGenerativeAI2024",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jan",
+				"lastName": "Schneider"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Michalis",
+				"lastName": "Vlachos"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-01-08T20:07:33Z",
+		"dateModified": "2026-11-09T15:02:41Z",
+		"itemType": "journalArticle",
+		"key": "3CD9PUF5",
+		"language": "fr-CA",
+		"publicationTitle": "arXiv preprint arXiv:2404.09554",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/YZRMY3NN"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/9LNDHI77"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable generative AI (GenXAI): a survey, conceptualization, and research agenda",
+		"url": "https://arxiv.org/abs/2404.09554"
+	}
+}

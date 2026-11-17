@@ -1,0 +1,120 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:27:33Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:27:33Z",
+			"dateModified": "2026-11-08T16:27:33Z",
+			"filename": "Benbouzid - 2017 - Des crimes et des séismes. La police prédictive entre science, technique et divination.pdf",
+			"itemType": "attachment",
+			"key": "FW39CD7M",
+			"linkMode": "imported_url",
+			"parentItem": "H5H5NW8X",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://shs.cairn.info/article/RES_206_0095/pdf?lang=fr"
+		},
+		{
+			"accessDate": "2026-01-08T20:40:50Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:40:50Z",
+			"dateModified": "2026-11-09T17:07:22Z",
+			"itemType": "attachment",
+			"key": "LZ8GLSCZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:22 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "H5H5NW8X",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/CVSGAIZQ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Benbouzid-2017-4129fa248c57819b9e56c332141b0f8c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Benbouzid - 2017 - Des crimes et des séismes. La police prédictive entre science, technique et divination.pdf",
+				"files": [
+					{
+						"path": "attachments/FW/FW39CD7M/Benbouzid - 2017 - Des crimes et des séismes. La police prédictive entre science, technique et divination.pdf",
+						"size": 2189122,
+						"storage": "git"
+					}
+				],
+				"key": "FW39CD7M",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://shs.cairn.info/article/RES_206_0095/pdf?lang=fr"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LZ8GLSCZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Benbouzid-2017-4129fa248c57819b9e56c332141b0f8c"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Benbouzid, Bilel"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Des crimes et des séismes. La police prédictive entre science, technique et divination",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/H5H5NW8X"
+	},
+	"zotero": {
+		"DOI": "10.3917/res.206.0095",
+		"citationKey": "benbouzidCrimesSeismesPolice2017a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Bilel",
+				"lastName": "Benbouzid"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-01-08T20:07:30Z",
+		"dateModified": "2026-03-25T21:30:47Z",
+		"issue": "6",
+		"itemType": "journalArticle",
+		"key": "H5H5NW8X",
+		"language": "fr-CA",
+		"pages": "95–123",
+		"publicationTitle": "Réseaux",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4XPIVQEM"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Des crimes et des séismes. La police prédictive entre science, technique et divination",
+		"volume": "206"
+	}
+}

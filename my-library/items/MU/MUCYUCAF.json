@@ -1,0 +1,100 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:37:15Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:15Z",
+			"dateModified": "2026-11-09T17:05:36Z",
+			"itemType": "attachment",
+			"key": "8UU9HZPI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:36 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "MUCYUCAF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Articles-de-d-pannage-4129fa248c5781179ea2c0d12e683274"
+		},
+		{
+			"accessDate": "2025-11-09T16:21:31Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2025-11-09T16:21:31Z",
+			"dateModified": "2025-11-09T16:21:31Z",
+			"filename": "depannage.html",
+			"itemType": "attachment",
+			"key": "GW69DLIW",
+			"linkMode": "imported_url",
+			"parentItem": "MUCYUCAF",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://www.antidote.info/fr/assistance/depannage"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8UU9HZPI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Articles-de-d-pannage-4129fa248c5781179ea2c0d12e683274"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "depannage.html",
+				"files": [
+					{
+						"path": "attachments/GW/GW69DLIW/depannage.html",
+						"size": 862436,
+						"storage": "git"
+					}
+				],
+				"key": "GW69DLIW",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://www.antidote.info/fr/assistance/depannage"
+			}
+		],
+		"collections": [],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Articles de dépannage",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/MUCYUCAF"
+	},
+	"zotero": {
+		"DOI": "10.7202/200999ar",
+		"abstractNote": "Trouvez les réponses aux questions de nature générale qui sont fréquemment posées par les utilisateurs.",
+		"accessDate": "2025-11-09T16:21:22Z",
+		"citationKey": "ArticlesDepannage",
+		"collections": [],
+		"creators": [],
+		"dateAdded": "2025-11-09T16:21:22Z",
+		"dateModified": "2026-11-13T19:31:54Z",
+		"extra": "abstractTranslation: Find answers to frequently asked general questions from users.",
+		"itemType": "webpage",
+		"key": "MUCYUCAF",
+		"language": "fr",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Articles de dépannage",
+		"url": "https://www.antidote.info/fr/assistance/depannage",
+		"websiteTitle": "Antidote.info"
+	}
+}

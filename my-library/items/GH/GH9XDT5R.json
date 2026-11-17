@@ -1,0 +1,114 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:06Z",
+			"dateModified": "2026-01-02T19:15:33Z",
+			"itemType": "attachment",
+			"key": "C3Z2PDZ6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:33 p.m.</p>",
+			"parentItem": "GH9XDT5R",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/UseCases3-2c09fa248c578154aa8cec690d337632"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:31:26Z",
+			"dateModified": "2025-03-31T18:39:21Z",
+			"filename": "UseCases3.pdf",
+			"itemType": "attachment",
+			"key": "HKKXQY3P",
+			"linkMode": "imported_file",
+			"parentItem": "GH9XDT5R",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "C3Z2PDZ6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/UseCases3-2c09fa248c578154aa8cec690d337632"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "UseCases3.pdf",
+				"files": [
+					{
+						"path": "attachments/HK/HKKXQY3P/UseCases3.pdf",
+						"size": 192935,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/HK/HKKXQY3P/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 2381,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/HK/HKKXQY3P/UseCases3 (trashed 2025-11-24 15-34-10).pdf",
+						"size": 192935,
+						"storage": "git"
+					}
+				],
+				"key": "HKKXQY3P",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "UseCases3",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/GH9XDT5R"
+	},
+	"zotero": {
+		"citationKey": "lounishakimUseCases3",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:39:19Z",
+		"dateModified": "2025-03-31T18:57:08Z",
+		"itemType": "document",
+		"key": "GH9XDT5R",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "UseCases3"
+	}
+}

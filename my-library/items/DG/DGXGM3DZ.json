@@ -1,0 +1,253 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-10T22:31:08Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T22:31:08Z",
+			"dateModified": "2026-11-09T14:59:20Z",
+			"itemType": "attachment",
+			"key": "5C9UYJGW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:45:21 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2e49fa24-8c57-81ee-a1c1-c5db70279f6c\",\"notes\":{\"DK6SKSMF\":{\"blockID\":\"2e49fa24-8c57-81d4-9c54-dbff8dcb6605\",\"syncedAt\":\"2026-01-10T22:31:57.703Z\"}}}</pre>",
+			"parentItem": "DGXGM3DZ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/KHWUSZNA",
+					"http://zotero.org/users/15425556/items/NKZUVE96"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/EZ3N6JFQ",
+					"http://zotero.org/groups/6376680/items/IBXTLVA8"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerModelingHybridSystem2025-2e49fa248c57812b9149d7ef9f3fed89"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-05-17T21:20:04Z",
+			"dateModified": "2026-01-16T18:02:25Z",
+			"filename": "Loyer - Modeling an Hybrid System (predicate-logic-based + MLAI) for Verifying the Credibility of Informati.pdf",
+			"itemType": "attachment",
+			"key": "D7F6KEL7",
+			"linkMode": "imported_file",
+			"parentItem": "DGXGM3DZ",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-01-10T20:17:20Z",
+			"dateModified": "2026-01-10T20:17:20Z",
+			"itemType": "note",
+			"key": "DK6SKSMF",
+			"note": "DIC-9251 Modeling Project 1",
+			"parentItem": "DGXGM3DZ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2PZVGMZB"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T20:17:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T20:17:20Z",
+			"dateModified": "2026-01-16T18:02:25Z",
+			"itemType": "attachment",
+			"key": "XGGQIZ4H",
+			"linkMode": "linked_url",
+			"parentItem": "DGXGM3DZ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/U6H3HG3C"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ZA5IGZIQ"
+				]
+			},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"dateAdded": "2026-01-08T20:00:27Z",
+			"dateModified": "2026-01-16T18:02:25Z",
+			"itemType": "note",
+			"key": "Z4YLZ355",
+			"note": "DIC-9251 Modeling Project 1",
+			"parentItem": "DGXGM3DZ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/XHN9WY6B"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5C9UYJGW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerModelingHybridSystem2025-2e49fa248c57812b9149d7ef9f3fed89"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XGGQIZ4H",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer - Modeling an Hybrid System (predicate-logic-based + MLAI) for Verifying the Credibility of Informati.pdf",
+				"files": [],
+				"key": "D7F6KEL7",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"GS_301225.bibtex",
+			"GoogleScholar_mypapers290925",
+			"My papers (English)",
+			"_9335_all",
+			"all-references",
+			"completeLoyer_100126",
+			"mes papiers et beamers",
+			"myReferences",
+			"zenodoDOI_ISBN_dominiqueloyer_060126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "Z4YLZ355",
+				"title": "DIC-9251 Modeling Project 1"
+			},
+			{
+				"key": "DK6SKSMF",
+				"title": "DIC-9251 Modeling Project 1"
+			}
+		],
+		"title": "Modeling a hybrid system (predicate-logic-based + ML/AI) for verifying the credibility of information sources",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/DGXGM3DZ"
+	},
+	"zotero": {
+		"DOI": "10.13140/rg.2.2.36348.24961",
+		"citationKey": "loyerModelingHybridSystem2025",
+		"collections": [
+			"6IRQRQI8",
+			"7XVYZYFG",
+			"8UCLQEMM",
+			"CYKYMNH4",
+			"GXLPXWSC",
+			"H8Z7N6W8",
+			"KKPWSFMI",
+			"UIV5JLK2",
+			"YA7CLAFP"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-10T20:17:20Z",
+		"dateModified": "2026-11-09T14:59:20Z",
+		"extra": "ISBN: 978-1-0699945-0-9\ntitleTranslation: Modeling a hybrid system (predicate-logic-based + ML/AI) for verifying the credibility of information sources",
+		"itemType": "journalArticle",
+		"key": "DGXGM3DZ",
+		"language": "fr-CA",
+		"pages": "33",
+		"relations": {
+			"dc:relation": [
+				"http://zotero.org/users/15425556/items/KFLA284L",
+				"http://zotero.org/users/15425556/items/MK5ZVGBU",
+				"http://zotero.org/users/15425556/items/VPMCRPUJ"
+			],
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/7TAFDHJN",
+				"http://zotero.org/users/15425556/items/AQ42LZL4",
+				"http://zotero.org/users/15425556/items/CU5HKBHI",
+				"http://zotero.org/users/15425556/items/IE636I3Q",
+				"http://zotero.org/users/15425556/items/QKVKFNNI",
+				"http://zotero.org/users/15425556/items/WHJK8V6Q",
+				"http://zotero.org/users/15425556/items/YFS5FNJU"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2649BCN7",
+				"http://zotero.org/groups/6376680/items/2A8YDH7M"
+			]
+		},
+		"tags": [
+			{
+				"tag": "AI Transparency"
+			},
+			{
+				"tag": "AI accountability"
+			},
+			{
+				"tag": "Dominique Loyer"
+			},
+			{
+				"tag": "Fact Checker"
+			},
+			{
+				"tag": "Hybrid Systems"
+			},
+			{
+				"tag": "Information Credibility"
+			},
+			{
+				"tag": "Intelligence artificielle explicable"
+			},
+			{
+				"tag": "Machine Learning"
+			},
+			{
+				"tag": "Neuro-Symbolic AI"
+			},
+			{
+				"tag": "Predicate Logic"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "verificationSystem"
+			},
+			{
+				"tag": "xAI"
+			}
+		],
+		"title": "Modeling a hybrid system (predicate-logic-based + ML/AI) for verifying the credibility of information sources",
+		"url": "https://www.researchgate.net/doi/10.13140/rg.2.2.36348.24961"
+	}
+}

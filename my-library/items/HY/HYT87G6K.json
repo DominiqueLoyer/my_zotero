@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:34:02Z",
+			"dateModified": "2026-03-14T17:41:19Z",
+			"itemType": "attachment",
+			"key": "H8GEP33L",
+			"linkMode": "linked_file",
+			"parentItem": "HYT87G6K",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/Revue_de_litterature/Loyer - Modeling an Hybrid System (predicate-logic-based + MLAI) for Verifying the Credibility of Informati.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:16:44Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:16:44Z",
+			"dateModified": "2026-03-14T18:16:44Z",
+			"itemType": "attachment",
+			"key": "YTMH5VZF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:16:44 p.m.</p>",
+			"parentItem": "HYT87G6K",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/K6HYRZJF"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerModelingHybridSystem-3239fa248c578149b21ffeb11c7d0fcc"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "YTMH5VZF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerModelingHybridSystem-3239fa248c578149b21ffeb11c7d0fcc"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer - Modeling an Hybrid System (predicate-logic-based + MLAI) for Verifying the Credibility of Informati.pdf",
+				"files": [
+					{
+						"path": "attachments/H8/H8GEP33L/Loyer - Modeling an Hybrid System (predicate-logic-based + MLAI) for Verifying the Credibility of Informati.pdf",
+						"size": 1473396,
+						"storage": "git"
+					}
+				],
+				"key": "H8GEP33L",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/Revue_de_litterature"
+		],
+		"creators": [
+			"Loyer, Dominique S"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Modeling an Hybrid System (predicate-logic-based + ML/AI) for Verifying the Credibility of Information Sources",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/HYT87G6K"
+	},
+	"zotero": {
+		"citationKey": "loyerModelingHybridSystem",
+		"collections": [
+			"DE3FMIGK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			}
+		],
+		"dateAdded": "2026-03-14T17:41:18Z",
+		"dateModified": "2026-03-14T18:16:44Z",
+		"itemType": "journalArticle",
+		"key": "HYT87G6K",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/M8RWBHIR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Modeling an Hybrid System (predicate-logic-based + ML/AI) for Verifying the Credibility of Information Sources"
+	}
+}

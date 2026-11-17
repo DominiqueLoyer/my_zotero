@@ -1,0 +1,98 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "BWBCDKBW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:45 p.m.</p>",
+			"parentItem": "SR49L3WP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/holzingerMeasuringQualityExplanations2020a-3239fa248c5781a0aca4e8114041c716"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "BWBCDKBW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/holzingerMeasuringQualityExplanations2020a-3239fa248c5781a0aca4e8114041c716"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Holzinger, Andreas",
+			"Carrington, André",
+			"Müller, Heimo"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Measuring the Quality of Explanations: The System Causability Scale (SCS): Comparing Human and Machine Explanations",
+		"year": "2020",
+		"zoteroURI": "zotero://select/groups/6376680/items/SR49L3WP"
+	},
+	"zotero": {
+		"DOI": "10.1007/s13218-020-00636-z",
+		"ISSN": "0933-1875, 1610-1987",
+		"abstractNote": "Recent success in Artificial Intelligence (AI) and Machine Learning (ML) allow problem solving automatically without any human intervention. Autonomous approaches can be very convenient. However, in certain domains, e.g., in the medical domain, it is necessary to enable a domain expert to understand, why an algorithm came up with a certain result. Consequently, the field of Explainable AI (xAI) rapidly gained interest worldwide in various domains, particularly in medicine. Explainable AI studies transparency and traceability of opaque AI/ML and there are already a huge variety of methods. For example with layer-wise relevance propagation relevant parts of inputs to, and representations in, a neural network which caused a result, can be highlighted. This is a first important step to ensure that end users, e.g., medical professionals, assume responsibility for decision making with AI/ML and of interest to professionals and regulators. Interactive ML adds the component of human expertise to AI/ML processes by enabling them to re-enact and retrace AI/ML results, e.g. let them check it for plausibility. This requires new human–AI interfaces for explainable AI. In order to build effective and efficient interactive human–AI interfaces we have to deal with the question of how to evaluate the quality of explanations given by an explainable AI system. In this paper we introduce our System Causability Scale to measure the quality of explanations. It is based on our notion of Causability (Holzinger et al. in Wiley Interdiscip Rev Data Min Knowl Discov 9(4), 2019) combined with concepts adapted from a widely-accepted usability scale.",
+		"accessDate": "2026-03-14T17:39:38Z",
+		"citationKey": "holzingerMeasuringQualityExplanations2020",
+		"collections": [
+			"HXLA8A4T"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Andreas",
+				"lastName": "Holzinger"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "André",
+				"lastName": "Carrington"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Heimo",
+				"lastName": "Müller"
+			}
+		],
+		"date": "06/2020",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"issue": "2",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Künstl Intell",
+		"key": "SR49L3WP",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "193-198",
+		"publicationTitle": "KI - Künstliche Intelligenz",
+		"relations": {},
+		"shortTitle": "Measuring the Quality of Explanations",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Measuring the Quality of Explanations: The System Causability Scale (SCS): Comparing Human and Machine Explanations",
+		"url": "http://link.springer.com/10.1007/s13218-020-00636-z",
+		"volume": "34"
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:33:46Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:46Z",
+			"dateModified": "2026-11-09T17:08:18Z",
+			"itemType": "attachment",
+			"key": "SL5Y5IPU",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:18 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "PYE4RIF9",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Herlocker-et-al-2004-4129fa248c5781c09273ef7aba276e9e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SL5Y5IPU",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Herlocker-et-al-2004-4129fa248c5781c09273ef7aba276e9e"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Herlocker, Jonathan L.",
+			"Konstan, Joseph A.",
+			"Terveen, Loren G.",
+			"Riedl, John T."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Evaluating collaborative filtering recommender systems",
+		"year": "2004",
+		"zoteroURI": "zotero://select/library/items/PYE4RIF9"
+	},
+	"zotero": {
+		"DOI": "10.1145/963770.963772",
+		"citationKey": "herlockerEvaluatingCollaborativeFiltering2004",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jonathan L.",
+				"lastName": "Herlocker"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joseph A.",
+				"lastName": "Konstan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Loren G.",
+				"lastName": "Terveen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John T.",
+				"lastName": "Riedl"
+			}
+		],
+		"date": "2004",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-03-25T21:31:08Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"key": "PYE4RIF9",
+		"pages": "5–53",
+		"publicationTitle": "ACM Transactions on Information Systems (TOIS)",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Evaluating collaborative filtering recommender systems",
+		"volume": "22"
+	}
+}

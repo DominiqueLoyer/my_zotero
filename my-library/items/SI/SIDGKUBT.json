@@ -1,0 +1,186 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:43:44Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:43:44Z",
+			"dateModified": "2026-11-09T15:03:54Z",
+			"filename": "Wachter, Sandra and Mittelstadt, Brent and Russell, Chris - 2017 - Counterfactual explanations without opening the black box Automated decisions and the GDPR.pdf",
+			"itemType": "attachment",
+			"key": "2ZG2IUXF",
+			"linkMode": "imported_url",
+			"parentItem": "SIDGKUBT",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1711.00399"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:32:00Z",
+			"dateModified": "2026-11-09T15:03:54Z",
+			"itemType": "attachment",
+			"key": "KXTRHDS4",
+			"linkMode": "linked_file",
+			"parentItem": "SIDGKUBT",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401_ic_/PDFs/Wachter et al. - 2017 - Counterfactual Explanations Without Opening the Black Box Automated Decisions and the GDPR.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:24:51Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:51Z",
+			"dateModified": "2026-11-09T17:06:41Z",
+			"itemType": "attachment",
+			"key": "LY6MCG3L",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:41 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "SIDGKUBT",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/DG84RKLC"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/F7T6ZSUY"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Wachter-et-al-2017-4129fa248c5781c0988af7c00a2376be"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LY6MCG3L",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Wachter-et-al-2017-4129fa248c5781c0988af7c00a2376be"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wachter et al. - 2017 - Counterfactual Explanations Without Opening the Black Box Automated Decisions and the GDPR.pdf",
+				"files": [
+					{
+						"path": "attachments/KX/KXTRHDS4/Wachter et al. - 2017 - Counterfactual Explanations Without Opening the Black Box Automated Decisions and the GDPR.pdf",
+						"size": 1118240,
+						"storage": "git"
+					}
+				],
+				"key": "KXTRHDS4",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wachter, Sandra and Mittelstadt, Brent and Russell, Chris - 2017 - Counterfactual explanations without opening the black box Automated decisions and the GDPR.pdf",
+				"files": [
+					{
+						"path": "attachments/2Z/2ZG2IUXF/Wachter, Sandra and Mittelstadt, Brent and Russell, Chris - 2017 - Counterfactual explanations without opening the black box Automated decisions and the GDPR.pdf",
+						"size": 1118240,
+						"storage": "git"
+					}
+				],
+				"key": "2ZG2IUXF",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1711.00399"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"Examen doctoral 9401(été25)/9401_101025",
+			"_ALL_CIT_140326/9401_ic_/PDFs",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Wachter, Sandra",
+			"Mittelstadt, Brent",
+			"Russell, Chris"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Counterfactual explanations without opening the black box: Automated decisions and the GDPR",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/SIDGKUBT"
+	},
+	"zotero": {
+		"DOI": "10.2139/ssrn.3063289",
+		"citationKey": "wachterCounterfactualExplanationsOpening2017",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F",
+			"N7XK7RGS",
+			"U5GGZRY8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Sandra",
+				"lastName": "Wachter"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Brent",
+				"lastName": "Mittelstadt"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chris",
+				"lastName": "Russell"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2025-10-10T19:01:29Z",
+		"dateModified": "2026-11-13T19:35:08Z",
+		"issue": "2",
+		"itemType": "journalArticle",
+		"key": "SIDGKUBT",
+		"pages": "841–887",
+		"publicationTitle": "Harvard Journal of Law & Technology",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/9PBIFEQ6",
+				"http://zotero.org/users/15425556/items/PU932G8V",
+				"http://zotero.org/users/15425556/items/QXLZVQXT",
+				"http://zotero.org/users/15425556/items/ZEZEKN2Z"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/AR7MAGXC",
+				"http://zotero.org/groups/6376680/items/FGQXWXL2",
+				"http://zotero.org/groups/6376680/items/GPUUWYKU",
+				"http://zotero.org/groups/6376680/items/TVDHM6K5"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Counterfactual explanations without opening the black box: Automated decisions and the GDPR",
+		"volume": "31"
+	}
+}

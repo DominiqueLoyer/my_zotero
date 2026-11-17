@@ -1,0 +1,108 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:53:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:03Z",
+			"dateModified": "2026-11-09T17:06:33Z",
+			"itemType": "attachment",
+			"key": "2GHRJNBC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:33 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VU5A5S7P",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/AHFHF9KU"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/ConnectedPapers-for-Online-Tracking-3A-A-1-20million-20site-Measurement-and-Analysis-4129fa248c5781b48c75c1fbe08a0c29"
+		},
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:20:36Z",
+			"dateModified": "2026-01-08T22:57:51Z",
+			"filename": "ConnectedPapers-for-Online-Tracking%3A-A-1%20million%20site-Measurement-and-Analysis.bib",
+			"itemType": "attachment",
+			"key": "MUGWPAT3",
+			"linkMode": "imported_file",
+			"parentItem": "VU5A5S7P",
+			"relations": {},
+			"tags": [],
+			"title": "ConnectedPapers-for-Online-Tracking%3A-A-1%20million%20site-Measurement-and-Analysis"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "ConnectedPapers-for-Online-Tracking%3A-A-1%20million%20site-Measurement-and-Analysis.bib",
+				"files": [
+					{
+						"path": "attachments/MU/MUGWPAT3/ConnectedPapers-for-Online-Tracking%3A-A-1%20million%20site-Measurement-and-Analysis.bib",
+						"size": 204,
+						"storage": "git"
+					}
+				],
+				"key": "MUGWPAT3",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "ConnectedPapers-for-Online-Tracking%3A-A-1%20million%20site-Measurement-and-Analysis",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2GHRJNBC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/ConnectedPapers-for-Online-Tracking-3A-A-1-20million-20site-Measurement-and-Analysis-4129fa248c5781b48c75c1fbe08a0c29"
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "ConnectedPapers-for-Online-Tracking%3A-A-1%20million%20site-Measurement-and-Analysis",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/VU5A5S7P"
+	},
+	"zotero": {
+		"citationKey": "ConnectedPapersforOnlineTracking3AA120million20siteMeasurementandAnalysis",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:51Z",
+		"dateModified": "2026-11-13T19:34:44Z",
+		"itemType": "document",
+		"key": "VU5A5S7P",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/M77Z9LT6"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ConnectedPapers-for-Online-Tracking%3A-A-1%20million%20site-Measurement-and-Analysis"
+	}
+}

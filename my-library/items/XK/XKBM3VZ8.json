@@ -1,0 +1,125 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-20T18:03:02Z",
+			"dateModified": "2025-03-20T18:03:10Z",
+			"filename": "Liu - A Neural Approach to Cross-Lingual Information Retrieval.pdf",
+			"itemType": "attachment",
+			"key": "5V7RHL4E",
+			"linkMode": "imported_file",
+			"parentItem": "XKBM3VZ8",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:32:02Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:02Z",
+			"dateModified": "2026-11-09T17:04:39Z",
+			"itemType": "attachment",
+			"key": "ECVU6YYS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:39 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "XKBM3VZ8",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Liu-4129fa248c57815ea738da901b3fb658"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ECVU6YYS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Liu-4129fa248c57815ea738da901b3fb658"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Liu - A Neural Approach to Cross-Lingual Information Retrieval.pdf",
+				"files": [
+					{
+						"path": "attachments/5V/5V7RHL4E/Liu - A Neural Approach to Cross-Lingual Information Retrieval.pdf",
+						"size": 2746656,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/5V/5V7RHL4E/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 164698,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/5V/5V7RHL4E/Liu - A Neural Approach to Cross-Lingual Information Retrieval (trashed 2025-11-24 15-34-10) (trashed 2025-12-05 17-17-43).pdf",
+						"size": 2746656,
+						"storage": "git"
+					}
+				],
+				"key": "5V7RHL4E",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues",
+			"Cours H25/Traitement naturel des langues/rit 20 mars"
+		],
+		"creators": [
+			"Liu, Qing"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Neural Approach to Cross-Lingual Information Retrieval",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/XKBM3VZ8"
+	},
+	"zotero": {
+		"citationKey": "liuNeuralApproachCrossLingual",
+		"collections": [
+			"L7CZ8WGI",
+			"UELGWEXV"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Qing",
+				"lastName": "Liu"
+			}
+		],
+		"dateAdded": "2025-03-20T18:03:09Z",
+		"dateModified": "2026-11-13T19:29:14Z",
+		"itemType": "journalArticle",
+		"key": "XKBM3VZ8",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "A Neural Approach to Cross-Lingual Information Retrieval"
+	}
+}

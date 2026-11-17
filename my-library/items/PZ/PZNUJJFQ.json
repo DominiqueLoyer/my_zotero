@@ -1,0 +1,130 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:28:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:29Z",
+			"dateModified": "2026-11-09T17:05:39Z",
+			"itemType": "attachment",
+			"key": "3TUEPUR8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:39 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "PZNUJJFQ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Negnevitsky-2005-4129fa248c578104bfe6fab980a6b461"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-08T17:47:07Z",
+			"dateModified": "2024-12-08T17:47:17Z",
+			"filename": "Negnevitsky - 2005 - Artificial intelligence a guide to intelligent systems.pdf",
+			"itemType": "attachment",
+			"key": "7NDXWGGB",
+			"linkMode": "imported_file",
+			"parentItem": "PZNUJJFQ",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3TUEPUR8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Negnevitsky-2005-4129fa248c578104bfe6fab980a6b461"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Negnevitsky - 2005 - Artificial intelligence a guide to intelligent systems.pdf",
+				"files": [
+					{
+						"path": "attachments/7N/7NDXWGGB/Negnevitsky - 2005 - Artificial intelligence a guide to intelligent systems.pdf",
+						"size": 11384109,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/7N/7NDXWGGB/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 191670,
+						"storage": "git"
+					}
+				],
+				"key": "7NDXWGGB",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/Dic9150"
+		],
+		"creators": [
+			"Negnevitsky, Michael"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Artificial intelligence: a guide to intelligent systems",
+		"year": "2005",
+		"zoteroURI": "zotero://select/library/items/PZNUJJFQ"
+	},
+	"zotero": {
+		"ISBN": "978-0-321-20466-0",
+		"callNumber": "QA76.76.E95 N445 2004",
+		"citationKey": "negnevitskyArtificialIntelligenceGuide2005",
+		"collections": [
+			"77BIVK4E"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Michael",
+				"lastName": "Negnevitsky"
+			}
+		],
+		"date": "2005",
+		"dateAdded": "2024-12-08T17:47:17Z",
+		"dateModified": "2026-11-13T19:32:03Z",
+		"edition": "2nd ed",
+		"itemType": "book",
+		"key": "PZNUJJFQ",
+		"language": "en",
+		"libraryCatalog": "Library of Congress ISBN",
+		"numPages": "415",
+		"place": "Harlow, England ; New York",
+		"publisher": "Addison-Wesley",
+		"relations": {},
+		"shortTitle": "Artificial intelligence",
+		"tags": [
+			{
+				"tag": "Artificial intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Expert systems (Computer science)",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Artificial intelligence: a guide to intelligent systems"
+	}
+}

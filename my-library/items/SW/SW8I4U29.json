@@ -1,0 +1,112 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-01T03:27:57Z",
+			"dateModified": "2024-12-04T18:31:50Z",
+			"filename": "fodor-pylyshyn.pdf",
+			"itemType": "attachment",
+			"key": "HVSZ7VRS",
+			"linkMode": "imported_file",
+			"parentItem": "SW8I4U29",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:33:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:25Z",
+			"dateModified": "2026-11-09T17:06:35Z",
+			"itemType": "attachment",
+			"key": "QAJJU6CE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:35 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "SW8I4U29",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Jerry-A-Fodor-and-Zenon-W-Pylyshyn-1986-4129fa248c5781d0a2fcc89689a2ec5d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QAJJU6CE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Jerry-A-Fodor-and-Zenon-W-Pylyshyn-1986-4129fa248c5781d0a2fcc89689a2ec5d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "fodor-pylyshyn.pdf",
+				"files": [
+					{
+						"path": "attachments/HV/HVSZ7VRS/fodor-pylyshyn.pdf",
+						"size": 3775126,
+						"storage": "git"
+					}
+				],
+				"key": "HVSZ7VRS",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Fodor",
+			"Cours A24/DIC9001/Papier sur Evans (Raissonning)"
+		],
+		"creators": [
+			"Jerry A. Fodor",
+			"Zenon W. Pylyshyn"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Connectionism and cognitive architecture: A critical analysis",
+		"year": "1986",
+		"zoteroURI": "zotero://select/library/items/SW8I4U29"
+	},
+	"zotero": {
+		"DOI": "10.1016/0010-0277(88)90031-5",
+		"citationKey": "jerrya.fodorConnectionismCognitiveArchitecture1986",
+		"collections": [
+			"FI8D7E69",
+			"VVY733TS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Jerry A. Fodor"
+			},
+			{
+				"creatorType": "author",
+				"name": "Zenon W. Pylyshyn"
+			}
+		],
+		"date": "1986",
+		"dateAdded": "2024-12-04T18:31:50Z",
+		"dateModified": "2026-11-13T19:34:52Z",
+		"itemType": "journalArticle",
+		"key": "SW8I4U29",
+		"pages": "69",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Connectionism and cognitive architecture: A critical analysis"
+	}
+}

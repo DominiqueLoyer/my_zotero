@@ -1,0 +1,89 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:40:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "H44AH9X6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:55:01 p.m.</p>",
+			"parentItem": "DMUGS7CV",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/BiosphereCode2015-2e29fa248c5781ebade3f860687bfdfb"
+		},
+		{
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "note",
+			"key": "QR7GZ4RS",
+			"note": "Lien brisé. Consulté le 10 octobre 2025",
+			"parentItem": "DMUGS7CV",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "H44AH9X6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/BiosphereCode2015-2e29fa248c5781ebade3f860687bfdfb"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Biosphere"
+		],
+		"itemType": "document",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "QR7GZ4RS",
+				"title": "Lien brisé. Consulté le 10 octobre 2025"
+			}
+		],
+		"title": "The biosphere code",
+		"year": "2015",
+		"zoteroURI": "zotero://select/groups/6376680/items/DMUGS7CV"
+	},
+	"zotero": {
+		"citationKey": "biosphereBiosphereCode2015b",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Biosphere"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "document",
+		"key": "DMUGS7CV",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The biosphere code",
+		"url": "https://darkmachines.earth/blog/the-biosphere-code"
+	}
+}

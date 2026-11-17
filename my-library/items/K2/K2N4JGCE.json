@@ -1,0 +1,150 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-10T22:30:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T22:30:49Z",
+			"dateModified": "2026-03-09T20:45:09Z",
+			"itemType": "attachment",
+			"key": "7EMUVAK6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:45:09 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2e49fa24-8c57-8165-ba28-d7f8d6915eb6\",\"notes\":{\"A64R4LS4\":{\"blockID\":\"2e49fa24-8c57-81ae-abc1-e4180d5f0b59\",\"syncedAt\":\"2026-01-10T22:31:21.757Z\"}}}</pre>",
+			"parentItem": "K2N4JGCE",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/S6QF53XJ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerSystemeTraductionAutomatique2025b-2e49fa248c5781eb9e47d7a3840c1417"
+		},
+		{
+			"dateAdded": "2026-01-10T20:17:21Z",
+			"dateModified": "2026-01-10T20:17:21Z",
+			"itemType": "note",
+			"key": "A64R4LS4",
+			"note": "DIC-9345 TALN",
+			"parentItem": "K2N4JGCE",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/D2WCWT7P"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T20:17:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T20:17:21Z",
+			"dateModified": "2026-01-10T20:17:21Z",
+			"itemType": "attachment",
+			"key": "TILV3DHG",
+			"linkMode": "linked_url",
+			"parentItem": "K2N4JGCE",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/RSGRWS8E"
+				]
+			},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7EMUVAK6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerSystemeTraductionAutomatique2025b-2e49fa248c5781eb9e47d7a3840c1417"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TILV3DHG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "A64R4LS4",
+				"title": "DIC-9345 TALN"
+			}
+		],
+		"title": "Systeme de traduction automatique neuronal du russe vers l'anglais",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/K2N4JGCE"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.21668.18563",
+		"ISBN": "978-1-0699904-9-5",
+		"citationKey": "loyerSystemeTraductionAutomatique2025a",
+		"collections": [
+			"8UCLQEMM"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-10T20:17:21Z",
+		"dateModified": "2026-03-25T21:29:59Z",
+		"extra": "titleTranslation: Neural machine translation system from Russian to English",
+		"itemType": "conferencePaper",
+		"key": "K2N4JGCE",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/7NG87U4V"
+			]
+		},
+		"tags": [
+			{
+				"tag": "RU-EN"
+			},
+			{
+				"tag": "Reseaux Neuronaux"
+			},
+			{
+				"tag": "Sequence-a-Sequence"
+			},
+			{
+				"tag": "TAL"
+			},
+			{
+				"tag": "Traduction Automatique"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Systeme de traduction automatique neuronal du russe vers l'anglais",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.21668.18563"
+	}
+}

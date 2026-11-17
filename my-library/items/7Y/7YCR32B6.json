@@ -1,0 +1,110 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-31T16:08:06Z",
+			"dateModified": "2025-03-31T18:57:54Z",
+			"filename": "cours_dyn_state.pdf",
+			"itemType": "attachment",
+			"key": "A5A2GT5U",
+			"linkMode": "imported_file",
+			"parentItem": "7YCR32B6",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/6VG7WYMG"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:35:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:56Z",
+			"dateModified": "2026-11-09T17:06:44Z",
+			"itemType": "attachment",
+			"key": "NBQPE98G",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:44 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "7YCR32B6",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c57819fae37cef90395ab5b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NBQPE98G",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c57819fae37cef90395ab5b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "cours_dyn_state.pdf",
+				"files": [],
+				"key": "A5A2GT5U",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/cours 4.1 dynamique"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "cours_dyn_state",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/7YCR32B6"
+	},
+	"zotero": {
+		"citationKey": "lounishakimCours_dyn_state",
+		"collections": [
+			"G4KBEA9A",
+			"JBEL9UJJ"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:36:11Z",
+		"dateModified": "2026-11-13T19:35:10Z",
+		"itemType": "document",
+		"key": "7YCR32B6",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/G4CR8D73"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "cours_dyn_state"
+	}
+}

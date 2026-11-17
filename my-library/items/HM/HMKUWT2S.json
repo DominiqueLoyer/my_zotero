@@ -1,0 +1,145 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:24:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:43Z",
+			"dateModified": "2026-11-09T17:05:47Z",
+			"itemType": "attachment",
+			"key": "BF9HJ9UM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:47 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "HMKUWT2S",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Wasserman-2000-4129fa248c5781a8a8dfe11b5c427dd6"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-05-06T20:11:31Z",
+			"dateModified": "2025-05-06T20:11:34Z",
+			"filename": "Wasserman - 2000 - Bayesian Model Selection and Model Averaging.pdf",
+			"itemType": "attachment",
+			"key": "PUV6I2TT",
+			"linkMode": "imported_file",
+			"parentItem": "HMKUWT2S",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-08-21T19:30:11Z",
+			"dateModified": "2025-08-21T19:38:02Z",
+			"filename": "Wasserman - 2000 - Bayesian Model Selection and Model Averaging.pdf",
+			"itemType": "attachment",
+			"key": "QVVPZAYR",
+			"linkMode": "imported_file",
+			"parentItem": "HMKUWT2S",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "BF9HJ9UM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Wasserman-2000-4129fa248c5781a8a8dfe11b5c427dd6"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wasserman - 2000 - Bayesian Model Selection and Model Averaging.pdf",
+				"files": [],
+				"key": "PUV6I2TT",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wasserman - 2000 - Bayesian Model Selection and Model Averaging.pdf",
+				"files": [
+					{
+						"path": "attachments/QV/QVVPZAYR/Wasserman - 2000 - Bayesian Model Selection and Model Averaging.pdf",
+						"size": 145281,
+						"storage": "git"
+					}
+				],
+				"key": "QVVPZAYR",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)"
+		],
+		"creators": [
+			"Wasserman, Larry"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Bayesian Model Selection and Model Averaging",
+		"year": "2000",
+		"zoteroURI": "zotero://select/library/items/HMKUWT2S"
+	},
+	"zotero": {
+		"DOI": "10.1006/jmps.1999.1278",
+		"ISSN": "00222496",
+		"accessDate": "2025-05-06T20:11:34Z",
+		"citationKey": "wassermanBayesianModelSelection2000",
+		"collections": [
+			"TFCUVACE"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Larry",
+				"lastName": "Wasserman"
+			}
+		],
+		"date": "03/2000",
+		"dateAdded": "2025-05-06T20:11:34Z",
+		"dateModified": "2025-12-05T22:24:43Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Journal of Mathematical Psychology",
+		"key": "HMKUWT2S",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "92-107",
+		"publicationTitle": "Journal of Mathematical Psychology",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/FSB67NHU"
+			]
+		},
+		"rights": "https://www.elsevier.com/tdm/userlicense/1.0/",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bayesian Model Selection and Model Averaging",
+		"url": "https://linkinghub.elsevier.com/retrieve/pii/S0022249699912786",
+		"volume": "44"
+	}
+}

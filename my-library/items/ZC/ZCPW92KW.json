@@ -1,0 +1,108 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:36:13Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:13Z",
+			"dateModified": "2026-11-09T17:06:18Z",
+			"itemType": "attachment",
+			"key": "7XPB9BGP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:18 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "ZCPW92KW",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c57814d8fc4fcadfb7d5cc0"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:32:02Z",
+			"dateModified": "2025-03-31T19:04:35Z",
+			"filename": "Ceform-UC.pdf",
+			"itemType": "attachment",
+			"key": "WBU2UNI2",
+			"linkMode": "imported_file",
+			"parentItem": "ZCPW92KW",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7XPB9BGP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c57814d8fc4fcadfb7d5cc0"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ceform-UC.pdf",
+				"files": [
+					{
+						"path": "attachments/WB/WBU2UNI2/Ceform-UC.pdf",
+						"size": 20066,
+						"storage": "git"
+					}
+				],
+				"key": "WBU2UNI2",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Ceform-UC",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/ZCPW92KW"
+	},
+	"zotero": {
+		"citationKey": "lounishakimCeformUC",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T19:04:34Z",
+		"dateModified": "2026-11-13T19:34:00Z",
+		"itemType": "document",
+		"key": "ZCPW92KW",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Ceform-UC"
+	}
+}

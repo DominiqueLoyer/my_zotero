@@ -1,0 +1,75 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T21:46:58Z",
+			"itemType": "attachment",
+			"key": "B8GPDL45",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:41:42 p.m.</p>",
+			"parentItem": "WG9PW55H",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Mohammad2014Yara-3129fa248c5781a78dacd9f31979135e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "B8GPDL45",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Mohammad2014Yara-3129fa248c5781a78dacd9f31979135e"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Mohammad Sadegh Rasooli and Joel R. Tetreault"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Yara Parser: {A} Fast and Accurate Dependency Parser",
+		"year": "2014",
+		"zoteroURI": "zotero://select/groups/6376680/items/WG9PW55H"
+	},
+	"zotero": {
+		"DOI": "10.3115/v1/d14-1082",
+		"citationKey": "Mohammad2014Yara",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Mohammad Sadegh Rasooli and Joel R. Tetreault"
+			}
+		],
+		"date": "2014",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T21:46:58Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "WG9PW55H",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Yara Parser: {A} Fast and Accurate Dependency Parser",
+		"url": "http://arxiv.org/abs/1503.06733"
+	}
+}

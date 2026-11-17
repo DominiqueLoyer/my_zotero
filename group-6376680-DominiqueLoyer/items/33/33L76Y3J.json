@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:36:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "BN99ASLW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:39 p.m.</p>",
+			"parentItem": "33L76Y3J",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/R-uker2023-2e29fa248c5781f5b279ecea1b4c12fe"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "BN99ASLW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/R-uker2023-2e29fa248c5781f5b279ecea1b4c12fe"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Räuker, Thomas",
+			"Zgrim, Corina",
+			"Schelter, Sebastian",
+			"Bär, David",
+			"Giessmann, David"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "What's in the box? A critical look at the state of explainable AI",
+		"year": "2023",
+		"zoteroURI": "zotero://select/groups/6376680/items/33L76Y3J"
+	},
+	"zotero": {
+		"citationKey": "raukerWhatsBoxCritical2023a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Thomas",
+				"lastName": "Räuker"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Corina",
+				"lastName": "Zgrim"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sebastian",
+				"lastName": "Schelter"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Bär"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Giessmann"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:12Z",
+		"itemType": "journalArticle",
+		"key": "33L76Y3J",
+		"language": "fr-CA",
+		"publicationTitle": "arXiv preprint arXiv:2302.04822",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "What's in the box? A critical look at the state of explainable AI",
+		"url": "https://arxiv.org/abs/2302.04822"
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:29:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:29:12Z",
+			"dateModified": "2026-11-09T17:05:49Z",
+			"itemType": "attachment",
+			"key": "CB5M59DR",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:49 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "PWX7DQR5",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/UP42KJ8T"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/YFKX3LLE"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/McNee-et-al-2006-4129fa248c5781f0bd62da8979afa85d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CB5M59DR",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/McNee-et-al-2006-4129fa248c5781f0bd62da8979afa85d"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"McNee, Sean M.",
+			"Riedl, John",
+			"Konstan, Joseph A."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Being accurate is not enough: how accuracy metrics have hurt recommender systems",
+		"year": "2006",
+		"zoteroURI": "zotero://select/library/items/PWX7DQR5"
+	},
+	"zotero": {
+		"DOI": "10.1145/1125451.1125659",
+		"citationKey": "mcneeBeingAccurateNot2006",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Sean M.",
+				"lastName": "McNee"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John",
+				"lastName": "Riedl"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joseph A.",
+				"lastName": "Konstan"
+			}
+		],
+		"date": "2006",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-13T19:32:30Z",
+		"itemType": "conferencePaper",
+		"key": "PWX7DQR5",
+		"pages": "1097–1101",
+		"proceedingsTitle": "CHI'06 extended abstracts on Human factors in computing systems",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/HDHVHPGH",
+				"http://zotero.org/users/15425556/items/YF7UA53I"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/HVTF32SG"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Being accurate is not enough: how accuracy metrics have hurt recommender systems"
+	}
+}

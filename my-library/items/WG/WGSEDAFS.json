@@ -1,0 +1,136 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:34Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:34Z",
+			"dateModified": "2026-11-09T14:55:49Z",
+			"itemType": "attachment",
+			"key": "QFSXBSF7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:10:58 p.m.</p>",
+			"parentItem": "WGSEDAFS",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/8IS8259K"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2XW7T82B"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/kuperVerifyingPropertiesDeep2018-2c09fa248c5781fdb75fc3874806219a"
+		},
+		{
+			"accessDate": "2026-01-08T20:28:39Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:28:39Z",
+			"dateModified": "2026-11-09T14:55:49Z",
+			"itemType": "attachment",
+			"key": "TXDNKU23",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:48:22 p.m.</p>",
+			"parentItem": "WGSEDAFS",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Kuper2018-2e29fa248c578115b918fc21fdff099e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TXDNKU23",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Kuper2018-2e29fa248c578115b918fc21fdff099e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QFSXBSF7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/kuperVerifyingPropertiesDeep2018-2c09fa248c5781fdb75fc3874806219a"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Kuper, G.",
+			"Bodik, R.",
+			"Singh, S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Verifying properties of deep neural networks",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/WGSEDAFS"
+	},
+	"zotero": {
+		"DOI": "10.1145/3243176.3204022",
+		"citationKey": "kuperVerifyingPropertiesDeep2018",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "G.",
+				"lastName": "Kuper"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "R.",
+				"lastName": "Bodik"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "S.",
+				"lastName": "Singh"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-09T14:55:49Z",
+		"issue": "4",
+		"itemType": "journalArticle",
+		"key": "WGSEDAFS",
+		"pages": "1–14",
+		"publicationTitle": "ACM SIGPLAN Notices",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/IKRHIPUM",
+				"http://zotero.org/users/15425556/items/VZIF5QP6"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4QLY9G2U"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Verifying properties of deep neural networks",
+		"volume": "53"
+	}
+}

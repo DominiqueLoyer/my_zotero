@@ -1,0 +1,97 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:35:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:52Z",
+			"dateModified": "2026-11-09T15:00:22Z",
+			"itemType": "attachment",
+			"key": "7EMBPI3E",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:12:11 p.m.</p>",
+			"parentItem": "L6R2LBVH",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/EA743M23"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/U8UZ4BJC"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/crozierLacteurSysteme1977-2c09fa248c57812b9628ea4f9347a91d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7EMBPI3E",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/crozierLacteurSysteme1977-2c09fa248c57812b9628ea4f9347a91d"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"Crozier, Michel",
+			"Friedberg, Erhard"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "L'acteur et le système",
+		"year": "1977",
+		"zoteroURI": "zotero://select/library/items/L6R2LBVH"
+	},
+	"zotero": {
+		"citationKey": "crozierLacteurSysteme1977",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Michel",
+				"lastName": "Crozier"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Erhard",
+				"lastName": "Friedberg"
+			}
+		],
+		"date": "1977",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-09T15:00:22Z",
+		"itemType": "book",
+		"key": "L6R2LBVH",
+		"place": "Paris",
+		"publisher": "Éditions du Seuil",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/2RW25V5I"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/Z8SKUU88"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "L'acteur et le système"
+	}
+}

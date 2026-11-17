@@ -1,0 +1,97 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:40:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:40:12Z",
+			"dateModified": "2026-11-09T17:07:16Z",
+			"itemType": "attachment",
+			"key": "4JTVHSTL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:16 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "PKYMRKHH",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/X9CGQ2H3"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Covington-et-al-2016-4129fa248c5781d59171f69ca4fa07ff"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "4JTVHSTL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Covington-et-al-2016-4129fa248c5781d59171f69ca4fa07ff"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Covington, Paul",
+			"Adams, Jay",
+			"Sargin, Emre"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Deep neural networks for YouTube recommendations",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/PKYMRKHH"
+	},
+	"zotero": {
+		"DOI": "10.1145/2959100.2959190",
+		"citationKey": "covingtonDeepNeuralNetworks2016a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Paul",
+				"lastName": "Covington"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jay",
+				"lastName": "Adams"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Emre",
+				"lastName": "Sargin"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-01-08T20:07:30Z",
+		"dateModified": "2026-03-25T21:30:44Z",
+		"itemType": "conferencePaper",
+		"key": "PKYMRKHH",
+		"language": "fr-CA",
+		"pages": "191–198",
+		"proceedingsTitle": "Proceedings of the 10th ACM conference on recommender systems",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/9HM2VE69"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Deep neural networks for YouTube recommendations"
+	}
+}

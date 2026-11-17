@@ -1,0 +1,98 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-31T16:08:28Z",
+			"dateModified": "2025-03-31T16:08:33Z",
+			"filename": "Raisonnement incertain.pdf",
+			"itemType": "attachment",
+			"key": "6BQAMPWC",
+			"linkMode": "imported_file",
+			"parentItem": "2QMTNVJ7",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:27:44Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:44Z",
+			"dateModified": "2026-01-02T19:16:03Z",
+			"itemType": "attachment",
+			"key": "9KUJR2NW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:03 p.m.</p>",
+			"parentItem": "2QMTNVJ7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/RaisonnementIncertain-2c09fa248c5781d0b277f61e12d9998f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9KUJR2NW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/RaisonnementIncertain-2c09fa248c5781d0b277f61e12d9998f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Raisonnement incertain.pdf",
+				"files": [],
+				"key": "6BQAMPWC",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Raisonnement incertain",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/2QMTNVJ7"
+	},
+	"zotero": {
+		"citationKey": "lounishakimRaisonnementIncertain",
+		"collections": [
+			"G4KBEA9A"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T16:08:32Z",
+		"dateModified": "2025-03-31T18:46:44Z",
+		"itemType": "journalArticle",
+		"key": "2QMTNVJ7",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Raisonnement incertain"
+	}
+}

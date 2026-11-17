@@ -1,0 +1,182 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-10T20:17:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "attachment",
+			"key": "27AMDEDQ",
+			"linkMode": "linked_url",
+			"parentItem": "BTTGV8AA",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "79Y44CAZ",
+			"note": "DIC-9335 Sciences du Web - Final Project",
+			"parentItem": "BTTGV8AA",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-16T15:52:07Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-11-17T14:48:35Z",
+			"itemType": "attachment",
+			"key": "FQM9I58T",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:42:27 a.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"41b9fa24-8c57-81f2-b1bb-c818ff0d44fa\",\"notes\":{\"LRLXXQY6\":{\"blockID\":\"41b9fa24-8c57-8167-a222-ed596e0e5a3a\",\"syncedAt\":\"2026-11-17T14:42:26.778Z\"},\"79Y44CAZ\":{\"blockID\":\"41b9fa24-8c57-81ac-ade3-fd4e4bffe32a\",\"syncedAt\":\"2026-11-17T14:42:27.701Z\"}}}</pre>",
+			"parentItem": "BTTGV8AA",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/5HZ6FUNM"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c5781e1949bf6b82e620a29"
+		},
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "LRLXXQY6",
+			"note": "DIC-9335 Sciences du Web - Final Project",
+			"parentItem": "BTTGV8AA",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FQM9I58T",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c5781e1949bf6b82e620a29"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "27AMDEDQ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"My papers (English)",
+			"_9335_all",
+			"completeLoyer_100126",
+			"mes papiers et beamers",
+			"myReferences"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "LRLXXQY6",
+				"title": "DIC-9335 Sciences du Web - Final Project"
+			},
+			{
+				"key": "79Y44CAZ",
+				"title": "DIC-9335 Sciences du Web - Final Project"
+			}
+		],
+		"title": "Hybrid system ontology for information source verification: An OWL-based knowledge representation",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/BTTGV8AA"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.22926.47680",
+		"citationKey": "loyerHybridSystemOntology2025",
+		"collections": [
+			"86QJKFHN",
+			"JVLZZMAC",
+			"K5YZTBZN",
+			"RJVJKNN2",
+			"WASU97Q5"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-26T21:01:07Z",
+		"dateModified": "2026-11-17T14:48:35Z",
+		"extra": "ISBN: 978-1-0699945-1-6\ntitleTranslation: Hybrid system ontology for information source verification: An OWL-based knowledge representation",
+		"itemType": "journalArticle",
+		"key": "BTTGV8AA",
+		"language": "fr-CA",
+		"pages": "22",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/KDAZBZU6"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Dominique Loyer"
+			},
+			{
+				"tag": "Fact Checker, xAI, AI Transparency, AI accountability, Intelligence artificielle explicable"
+			},
+			{
+				"tag": "Information Verification"
+			},
+			{
+				"tag": "Knowledge Representation"
+			},
+			{
+				"tag": "OWL Ontology"
+			},
+			{
+				"tag": "Ontology"
+			},
+			{
+				"tag": "RDF"
+			},
+			{
+				"tag": "Web Science"
+			},
+			{
+				"tag": "knowkeldge representation"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "ontology"
+			},
+			{
+				"tag": "verificationSystem"
+			}
+		],
+		"title": "Hybrid system ontology for information source verification: An OWL-based knowledge representation",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.22926.47680"
+	}
+}

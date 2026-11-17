@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:40:17Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "8TI2VJZR",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:40 p.m.</p>",
+			"parentItem": "3IPPM4C8",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Chen2020-2e29fa248c5781919c9dfa64d4fa788c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8TI2VJZR",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Chen2020-2e29fa248c5781919c9dfa64d4fa788c"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Chen, Lixin",
+			"others"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Mitigating feedback loops in recommender systems",
+		"year": "2020",
+		"zoteroURI": "zotero://select/groups/6376680/items/3IPPM4C8"
+	},
+	"zotero": {
+		"DOI": "10.1609/aaai.v34i07.6857",
+		"citationKey": "chenMitigatingFeedbackLoops2020",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Lixin",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"name": "others"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"issue": "07",
+		"itemType": "journalArticle",
+		"key": "3IPPM4C8",
+		"language": "fr-CA",
+		"pages": "12345–12351",
+		"publicationTitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Mitigating feedback loops in recommender systems",
+		"volume": "34"
+	}
+}

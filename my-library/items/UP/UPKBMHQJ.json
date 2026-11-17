@@ -1,0 +1,335 @@
+{
+	"children": [
+		{
+			"dateAdded": "2024-11-22T16:10:18Z",
+			"dateModified": "2024-11-22T16:10:18Z",
+			"itemType": "note",
+			"key": "3VMM4PEH",
+			"note": "Comment: Code is available at https://github.com/andyzoujm/representation-engineering",
+			"parentItem": "UPKBMHQJ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2Z43USN7"
+				]
+			},
+			"tags": []
+		},
+		{
+			"dateAdded": "2024-11-23T17:49:56Z",
+			"dateModified": "2024-11-23T18:37:15Z",
+			"itemType": "note",
+			"key": "9F3J8WQG",
+			"note": "<h2>Other</h2>\nCode is available at https://github.com/andyzoujm/representation-engineering",
+			"parentItem": "UPKBMHQJ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/UY2B42X6"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:23:51Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:23:51Z",
+			"dateModified": "2026-01-02T19:18:04Z",
+			"itemType": "attachment",
+			"key": "IGR39U8H",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:04 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-81a2-8f36-e1cd4bcf93e5\",\"notes\":{\"3VMM4PEH\":{\"blockID\":\"2c09fa24-8c57-8151-b06b-dd5208cb0c45\",\"syncedAt\":\"2025-12-05T22:38:11.315Z\"},\"9F3J8WQG\":{\"blockID\":\"2c09fa24-8c57-81e5-8a62-ebc830473108\",\"syncedAt\":\"2025-12-05T22:38:14.210Z\"}}}</pre>",
+			"parentItem": "UPKBMHQJ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/SI49ZS9D"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/zouRepresentationEngineeringTopDown2023-2c09fa248c5781d59858eff293d73c47"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-22T16:10:10Z",
+			"dateModified": "2024-11-22T16:10:19Z",
+			"filename": "Zou et al. - 2023 - Representation Engineering A Top-Down Approach to AI Transparency.pdf",
+			"itemType": "attachment",
+			"key": "SJMJ4XW9",
+			"linkMode": "imported_file",
+			"parentItem": "UPKBMHQJ",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IGR39U8H",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/zouRepresentationEngineeringTopDown2023-2c09fa248c5781d59858eff293d73c47"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zou et al. - 2023 - Representation Engineering A Top-Down Approach to AI Transparency.pdf",
+				"files": [
+					{
+						"path": "attachments/SJ/SJMJ4XW9/Zou et al. - 2023 - Representation Engineering A Top-Down Approach to AI Transparency.pdf",
+						"size": 10656367,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/SJ/SJMJ4XW9/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 177053,
+						"storage": "git"
+					}
+				],
+				"key": "SJMJ4XW9",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Transparency"
+		],
+		"creators": [
+			"Zou, Andy",
+			"Phan, Long",
+			"Chen, Sarah",
+			"Campbell, James",
+			"Guo, Phillip",
+			"Ren, Richard",
+			"Pan, Alexander",
+			"Yin, Xuwang",
+			"Mazeika, Mantas",
+			"Dombrowski, Ann-Kathrin",
+			"Goel, Shashwat",
+			"Li, Nathaniel",
+			"Byun, Michael J.",
+			"Wang, Zifan",
+			"Mallen, Alex",
+			"Basart, Steven",
+			"Koyejo, Sanmi",
+			"Song, Dawn",
+			"Fredrikson, Matt",
+			"Kolter, J. Zico",
+			"Hendrycks, Dan"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "3VMM4PEH",
+				"title": "Comment: Code is available at https://github.com/andyzoujm/representation-engineering"
+			},
+			{
+				"key": "9F3J8WQG",
+				"title": "Other"
+			}
+		],
+		"title": "Representation Engineering: A Top-Down Approach to AI Transparency",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/UPKBMHQJ"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2310.01405",
+		"abstractNote": "We identify and characterize the emerging area of representation engineering (RepE), an approach to enhancing the transparency of AI systems that draws on insights from cognitive neuroscience. RepE places representations, rather than neurons or circuits, at the center of analysis, equipping us with novel methods for monitoring and manipulating high-level cognitive phenomena in deep neural networks (DNNs). We provide baselines and an initial analysis of RepE techniques, showing that they offer simple yet effective solutions for improving our understanding and control of large language models. We showcase how these methods can provide traction on a wide range of safety-relevant problems, including honesty, harmlessness, power-seeking, and more, demonstrating the promise of top-down transparency research. We hope that this work catalyzes further exploration of RepE and fosters advancements in the transparency and safety of AI systems. Code is available at github.com/andyzoujm/representation-engineering.",
+		"accessDate": "2024-11-22T16:10:18Z",
+		"archiveID": "arXiv:2310.01405",
+		"citationKey": "zouRepresentationEngineeringTopDown2023",
+		"collections": [
+			"J4VTG4NB",
+			"NKV86EAI",
+			"YTIIWDKF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Andy",
+				"lastName": "Zou"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Long",
+				"lastName": "Phan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sarah",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "James",
+				"lastName": "Campbell"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Phillip",
+				"lastName": "Guo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Richard",
+				"lastName": "Ren"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alexander",
+				"lastName": "Pan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xuwang",
+				"lastName": "Yin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mantas",
+				"lastName": "Mazeika"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ann-Kathrin",
+				"lastName": "Dombrowski"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Shashwat",
+				"lastName": "Goel"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Nathaniel",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Michael J.",
+				"lastName": "Byun"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zifan",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alex",
+				"lastName": "Mallen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Steven",
+				"lastName": "Basart"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sanmi",
+				"lastName": "Koyejo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dawn",
+				"lastName": "Song"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Matt",
+				"lastName": "Fredrikson"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "J. Zico",
+				"lastName": "Kolter"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dan",
+				"lastName": "Hendrycks"
+			}
+		],
+		"date": "2023-10-10",
+		"dateAdded": "2024-11-22T16:10:18Z",
+		"dateModified": "2025-12-05T22:23:51Z",
+		"extra": "arXiv:2310.01405 [cs]",
+		"itemType": "preprint",
+		"key": "UPKBMHQJ",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/KAEX729G"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/Y3L6BIFQ"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Representation Engineering",
+		"tags": [
+			{
+				"tag": "Artificial Intelligence (cs.AI)",
+				"type": 1
+			},
+			{
+				"tag": "Computation and Language (cs.CL)",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computer Vision and Pattern Recognition",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computers and Society",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "Computer Vision and Pattern Recognition (cs.CV)",
+				"type": 1
+			},
+			{
+				"tag": "Computers and Society (cs.CY)",
+				"type": 1
+			},
+			{
+				"tag": "FOS: Computer and information sciences",
+				"type": 1
+			},
+			{
+				"tag": "Machine Learning (cs.LG)",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Representation Engineering: A Top-Down Approach to AI Transparency",
+		"url": "http://arxiv.org/abs/2310.01405"
+	}
+}

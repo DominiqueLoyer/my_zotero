@@ -1,0 +1,161 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:18:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:50:10Z",
+			"itemType": "attachment",
+			"key": "AQ8QUK7A",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:18:18 p.m.</p>",
+			"parentItem": "WREIRFTE",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/hagagTruthWholeTruth2023c-3239fa248c578122b679e8203cfb5fb4"
+		},
+		{
+			"accessDate": "2026-03-14T18:20:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:50:10Z",
+			"itemType": "attachment",
+			"key": "IJLHZV5U",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:20:31 p.m.</p>",
+			"parentItem": "WREIRFTE",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/NL3JEJTC"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/hagagTruthWholeTruth2023-3239fa248c5781328727db5aee140fa8"
+		},
+		{
+			"accessDate": "2026-03-14T18:20:16Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:50:10Z",
+			"itemType": "attachment",
+			"key": "VZ8TSK8A",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:20:16 p.m.</p>",
+			"parentItem": "WREIRFTE",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/hagagTruthWholeTruth2023a-3239fa248c578109b7daf780590d5765"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "AQ8QUK7A",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/hagagTruthWholeTruth2023c-3239fa248c578122b679e8203cfb5fb4"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VZ8TSK8A",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/hagagTruthWholeTruth2023a-3239fa248c578109b7daf780590d5765"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IJLHZV5U",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/hagagTruthWholeTruth2023-3239fa248c5781328727db5aee140fa8"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/beamer_modelisation_030326/PDFs",
+			"_ALL_CIT_140326/mod_lisation_260226/PDFs",
+			"_ALL_CIT_140326/ontoCRED_030326/PDFs",
+			"_ALL_CIT_140326/ontoCRED_250226/PDFs"
+		],
+		"creators": [
+			"Hagag, Ben",
+			"Tsarfaty, Reut"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "The Truth, The Whole Truth, and Nothing but the Truth: A New Benchmark Dataset for Hebrew Text Credibility Assessment",
+		"year": "2023",
+		"zoteroURI": "zotero://select/groups/6376680/items/WREIRFTE"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2023.findings-emnlp.251",
+		"abstractNote": "In the age of information overload, it is more important than ever to discern fact from fiction. From the internet to traditional media, we are constantly confronted with a deluge of information, much of which comes from politicians and other public figures who wield significant influence. In this paper, we introduce HeTrue: a new, publicly available dataset for evaluating the credibility of statements made by Israeli public figures and politicians. This dataset consists of 1021 statements, manually annotated by Israeli professional journalists, for their credibility status. Using this corpus, we set out to assess whether the credibility of statements can be predicted based on the text alone. To establish a baseline, we compare text-only methods with others using additional data like metadata, context, and evidence. Furthermore, we develop several credibility assessment models, including a feature-based model that utilizes linguistic features, and state-of-theart transformer-based models with contextualized embeddings from a pre-trained encoder. Empirical results demonstrate improved performance when models integrate statement and context, outperforming those relying on the statement text alone. Our best model, which also integrates evidence, achieves a 48.3 F1 Score, suggesting that HeTrue is a challenging benchmark, calling for further work on this task.",
+		"accessDate": "2026-03-14T17:34:50Z",
+		"citationKey": "hagagTruthWholeTruth2023c",
+		"collections": [
+			"4RRISJKY",
+			"Q9WGFC6X",
+			"XF9R8VJ6",
+			"YXDWMKHA"
+		],
+		"conferenceName": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ben",
+				"lastName": "Hagag"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Reut",
+				"lastName": "Tsarfaty"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-11-17T14:50:10Z",
+		"itemType": "conferencePaper",
+		"key": "WREIRFTE",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "3850-3865",
+		"place": "Singapore",
+		"proceedingsTitle": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+		"publisher": "Association for Computational Linguistics",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/AX48NU2F",
+				"http://zotero.org/groups/6376680/items/AZLB8328",
+				"http://zotero.org/groups/6376680/items/WECK679C"
+			]
+		},
+		"shortTitle": "The Truth, The Whole Truth, and Nothing but the Truth",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Truth, The Whole Truth, and Nothing but the Truth: A New Benchmark Dataset for Hebrew Text Credibility Assessment",
+		"url": "https://aclanthology.org/2023.findings-emnlp.251"
+	}
+}

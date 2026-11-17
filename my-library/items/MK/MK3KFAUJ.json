@@ -1,0 +1,83 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:33:07Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:07Z",
+			"dateModified": "2026-01-02T19:13:56Z",
+			"itemType": "attachment",
+			"key": "GRD5IE6S",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:56 p.m.</p>",
+			"parentItem": "MK3KFAUJ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/jurafskyMartinSLP3-2c09fa248c5781adba96f95ecf012d8e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GRD5IE6S",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/jurafskyMartinSLP3-2c09fa248c5781adba96f95ecf012d8e"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Jurafsky, Daniel",
+			"Martin, James H."
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Speech and language processing",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/MK3KFAUJ"
+	},
+	"zotero": {
+		"citationKey": "jurafskySpeechLanguageProcessing2023",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Daniel",
+				"lastName": "Jurafsky"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "James H.",
+				"lastName": "Martin"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2025-04-10T15:02:46Z",
+		"edition": "3rd (Draft)",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "book",
+		"key": "MK3KFAUJ",
+		"publisher": "Online",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Speech and language processing",
+		"url": "https://web.stanford.edu/~jurafsky/slp3/"
+	}
+}

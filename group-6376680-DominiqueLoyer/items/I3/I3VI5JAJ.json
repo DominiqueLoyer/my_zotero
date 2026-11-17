@@ -1,0 +1,120 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-10T20:17:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:07Z",
+			"dateModified": "2026-04-17T21:22:07Z",
+			"itemType": "attachment",
+			"key": "EFRJW2VC",
+			"linkMode": "linked_url",
+			"parentItem": "I3VI5JAJ",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"accessDate": "2026-01-10T22:31:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:07Z",
+			"dateModified": "2026-11-17T14:42:31Z",
+			"itemType": "attachment",
+			"key": "FKC6A2RM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:42:31 a.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"41b9fa24-8c57-8125-94d3-e343564c9071\",\"notes\":{\"LAYIM2AQ\":{\"blockID\":\"41b9fa24-8c57-815e-b332-e7a5aabcaf26\",\"syncedAt\":\"2026-11-17T14:42:31.387Z\"}}}</pre>",
+			"parentItem": "I3VI5JAJ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c57814bac7dc98a3062a456"
+		},
+		{
+			"dateAdded": "2026-04-17T21:22:07Z",
+			"dateModified": "2026-04-17T21:22:07Z",
+			"itemType": "note",
+			"key": "LAYIM2AQ",
+			"note": "Beamer Presentation - Doctoral Synthesis Exam UQAM",
+			"parentItem": "I3VI5JAJ",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FKC6A2RM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c57814bac7dc98a3062a456"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EFRJW2VC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "LAYIM2AQ",
+				"title": "Beamer Presentation - Doctoral Synthesis Exam UQAM"
+			}
+		],
+		"title": "Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/I3VI5JAJ"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.19196.60806",
+		"ISBN": "978-1-0699904-7-1",
+		"citationKey": "loyerLeviathanAlgorithmiquePouvoir2025a",
+		"collections": [
+			"RJVJKNN2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-04-17T21:22:07Z",
+		"dateModified": "2026-04-17T21:22:07Z",
+		"extra": "titleTranslation: The Algorithmic Leviathan: Power, Opacity, and Responsibility in the Age of Artificial Intelligence",
+		"itemType": "conferencePaper",
+		"key": "I3VI5JAJ",
+		"language": "fr-CA",
+		"pages": "64",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.19196.60806"
+	}
+}

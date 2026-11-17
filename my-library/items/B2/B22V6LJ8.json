@@ -1,0 +1,128 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:33:12Z",
+			"dateModified": "2026-03-14T17:40:39Z",
+			"itemType": "attachment",
+			"key": "SJU68PRL",
+			"linkMode": "linked_file",
+			"parentItem": "B22V6LJ8",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Hossain and Chen - A Study on Neuro-Symbolic Artificial Intelligence Healthcare Perspectives.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:17:16Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:16Z",
+			"dateModified": "2026-11-09T17:04:45Z",
+			"itemType": "attachment",
+			"key": "ZIKLRMYZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:45 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "B22V6LJ8",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/BRQRCW6I"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Hossain-and-Chen-4129fa248c57818693e2d83d60305426"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZIKLRMYZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Hossain-and-Chen-4129fa248c57818693e2d83d60305426"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hossain and Chen - A Study on Neuro-Symbolic Artificial Intelligence Healthcare Perspectives.pdf",
+				"files": [
+					{
+						"path": "attachments/SJ/SJU68PRL/Hossain and Chen - A Study on Neuro-Symbolic Artificial Intelligence Healthcare Perspectives.pdf",
+						"size": 1087502,
+						"storage": "git"
+					}
+				],
+				"key": "SJU68PRL",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Hossain, Delower",
+			"Chen, Jake Y"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Study on Neuro-Symbolic Artificial Intelligence: Healthcare Perspectives",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/B22V6LJ8"
+	},
+	"zotero": {
+		"abstractNote": "Over the last few decades, Artificial Intelligence (AI) scientists have been conducting investigations to attain humanlevel performance by a machine in accomplishing a cognitive task. Within machine learning, the ultimate aspiration is to attain Artificial General Intelligence (AGI) through a machine. This pursuit has led to the exploration of two distinct AI paradigms. Symbolic AI, also known as classical or GOFAI (Good Old-Fashioned AI) and Connectionist (Sub-symbolic) AI, represented by Neural Systems, are two mutually exclusive paradigms. Symbolic AI excels in reasoning, explainability, and knowledge representation but faces challenges in processing complex real-world data with noise. Conversely, deep learning (Black-Box systems) research breakthroughs in neural networks are notable, yet they lack reasoning and interpretability. Neuro-symbolic AI (NeSy), an emerging area of AI research, attempts to bridge this gap by integrating logical reasoning into neural networks, enabling them to learn and reason with symbolic representations. While a long path, this strategy has made significant progress towards achieving common sense reasoning by systems. This article conducts an extensive review of over 977 studies from prominent scientific databases (DBLP, ACL, IEEExplore, Scopus, PubMed, ICML, ICLR), thoroughly examining the multifaceted capabilities of Neuro-Symbolic AI, with a particular focus on its healthcare applications, particularly in drug discovery, and Protein engineering research. The survey addresses vital themes, including reasoning, explainability, integration strategies, 41 healthcare-related use cases, benchmarking, datasets, current approach limitations from both healthcare and broader perspectives, and proposed novel approaches for future experiments. Moreover, it identifies critical challenges in applying Neuro-Symbolic AI to medicine and represents a comprehensive exploration of its transformative potential in the biomedical field.",
+		"citationKey": "hossainStudyNeuroSymbolicArtificial",
+		"collections": [
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Delower",
+				"lastName": "Hossain"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jake Y",
+				"lastName": "Chen"
+			}
+		],
+		"dateAdded": "2026-03-14T17:40:38Z",
+		"dateModified": "2026-11-13T19:29:49Z",
+		"itemType": "journalArticle",
+		"key": "B22V6LJ8",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/CXVMER6B"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "A Study on Neuro-Symbolic Artificial Intelligence: Healthcare Perspectives"
+	}
+}

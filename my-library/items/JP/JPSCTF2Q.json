@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:26:51Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:26:51Z",
+			"dateModified": "2026-11-09T17:08:59Z",
+			"itemType": "attachment",
+			"key": "V8UMBK8X",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:59 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "JPSCTF2Q",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Mulazzani-et-al-2013-4129fa248c5781a6ac27e226dfd121bf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "V8UMBK8X",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Mulazzani-et-al-2013-4129fa248c5781a6ac27e226dfd121bf"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Mulazzani, M.",
+			"Reschl, Philipp",
+			"Huber, Markus",
+			"Leithner, Manuel",
+			"Schrittwieser, S.",
+			"Weippl, E."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Fast and reliable browser identiﬁcation with JavaScript engine fingerprinting",
+		"year": "2013",
+		"zoteroURI": "zotero://select/library/items/JPSCTF2Q"
+	},
+	"zotero": {
+		"abstractNote": "—Web browsers are crucial software components in today’s usage of the Internet, but the reliable detection of whether a client is using a speciﬁc browser can still be considered a nontrivial problem. Reliable browser identiﬁcation is crucial for online security and privacy e.g., regarding drive-by downloads and user tracking, and can be used to enhance the user’s security. So far the UserAgent string is often used to identify a given browser, but it is a self-reported string provided by the client and can be changed arbitrarily. In this paper we propose a new method for identifying web browsers based on the underlying Javascript engine, which can be executed on the client side within a fraction of a second. Our method is three orders of magnitude faster than previous work on Javascript engine ﬁngerprinting, and can be implemented with well below a few hundred lines of code. We show the feasibility of our method with a survey and discuss the consequences for user privacy and browser security. Furthermore, we collected data for more than 150 browser and operating system combinations, and present algorithms to make browser identiﬁcation as fast as possible. UserAgent string modiﬁcations become easily detectable with JavaScript engine ﬁngerprinting, which is shown exemplarily on the Tor browser bundle as it uses a uniform UserAgent string across different browser versions. Finally, we propose to use our results for enhancing state-of-the-art session management (with or without SSL), as reliable browser identiﬁcation can be used to increase the complexity of session hijacking attacks considerably.",
+		"citationKey": "mulazzaniFastReliableBrowser2013",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "M.",
+				"lastName": "Mulazzani"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Philipp",
+				"lastName": "Reschl"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Markus",
+				"lastName": "Huber"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Manuel",
+				"lastName": "Leithner"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "S.",
+				"lastName": "Schrittwieser"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "E.",
+				"lastName": "Weippl"
+			}
+		],
+		"date": "2013",
+		"dateAdded": "2026-01-08T20:14:05Z",
+		"dateModified": "2026-03-25T21:30:03Z",
+		"extra": "abstractTranslation: —Web browsers are crucial software components in today’s usage of the Internet, but the reliable detection of whether a client is using a specific browser can still be considered a nontrivial problem. Reliable browser identification is crucial for online security and privacy e.g., regarding drive-by downloads and user tracking, and can be used to enhance the user’s security. So far the UserAgent string is often used to identify a given browser, but it is a self-reported string provided by the client and can be changed arbitrarily. In this paper we propose a new method for identifying web browsers based on the underlying Javascript engine, which can be executed on the client side within a fraction of a second. Our method is three orders of magnitude faster than previous work on Javascript engine fingerprinting, and can be implemented with well below a few hundred lines of code. We show the feasibility of our method with a survey and discuss the consequences for user privacy and browser security. Furthermore, we collected data for more than 150 browser and operating system combinations, and present algorithms to make browser identification as fast as possible. UserAgent string modifications become easily detectable with JavaScript engine fingerprinting, which is shown exemplarily on the Tor browser bundle as it uses a uniform UserAgent string across different browser versions. Finally, we propose to use our results for enhancing state-of-the-art session management (with or without SSL), as reliable browser identification can be used to increase the complexity of session hijacking attacks considerably.",
+		"itemType": "journalArticle",
+		"key": "JPSCTF2Q",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Fast and reliable browser identiﬁcation with JavaScript engine fingerprinting",
+		"url": "https://www.semanticscholar.org/paper/bdb430d06f3e134b2df8965dd62c77ac87710064"
+	}
+}

@@ -1,0 +1,124 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:39:44Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:39:44Z",
+			"dateModified": "2026-11-09T15:09:00Z",
+			"filename": "Alfred V. Aho and Jeffrey D. Ullman - 1974 - The Theory of Parsing, Translation and Compiling.pdf",
+			"itemType": "attachment",
+			"key": "I9EXAL64",
+			"linkMode": "imported_url",
+			"parentItem": "SX7CUUS8",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/T5VZVQFH"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=1672499&ref="
+		},
+		{
+			"accessDate": "2026-02-25T22:19:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:11Z",
+			"dateModified": "2026-03-09T20:44:34Z",
+			"itemType": "attachment",
+			"key": "IKTKW2KB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:34 p.m.</p>",
+			"parentItem": "SX7CUUS8",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HNDSJPPH",
+					"http://zotero.org/groups/6376680/items/T6GF7765"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Alfred1974The-3129fa248c5781a491b6f89346eb8711"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Alfred V. Aho and Jeffrey D. Ullman - 1974 - The Theory of Parsing, Translation and Compiling.pdf",
+				"files": [
+					{
+						"path": "attachments/I9/I9EXAL64/Alfred V. Aho and Jeffrey D. Ullman - 1974 - The Theory of Parsing, Translation and Compiling.pdf",
+						"size": 647982,
+						"storage": "git"
+					}
+				],
+				"key": "I9EXAL64",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=1672499&ref="
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IKTKW2KB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Alfred1974The-3129fa248c5781a491b6f89346eb8711"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Alfred V. Aho and Jeffrey D. Ullman"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The Theory of Parsing, Translation and Compiling",
+		"year": "1974",
+		"zoteroURI": "zotero://select/library/items/SX7CUUS8"
+	},
+	"zotero": {
+		"DOI": "10.1109/t-c.1974.223906",
+		"citationKey": "alfredv.ahoandjeffreyd.ullmanTheoryParsingTranslation1974",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Alfred V. Aho and Jeffrey D. Ullman"
+			}
+		],
+		"date": "1974",
+		"dateAdded": "2026-02-25T20:56:06Z",
+		"dateModified": "2026-11-09T15:09:00Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "SX7CUUS8",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/3S35V9PF"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/GZHBQR9C",
+				"http://zotero.org/groups/6376680/items/Q6BQF22L"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Theory of Parsing, Translation and Compiling"
+	}
+}

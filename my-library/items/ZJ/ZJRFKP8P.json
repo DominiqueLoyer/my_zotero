@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:16:54Z",
+			"dateModified": "2026-03-09T20:42:06Z",
+			"itemType": "attachment",
+			"key": "CYQBS7VL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:42:06 p.m.</p>",
+			"parentItem": "ZJRFKP8P",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/B9HCA8AJ",
+					"http://zotero.org/groups/6376680/items/KPKSR69W"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/morozov2013real-3129fa248c578124870bd96701c3b6b0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CYQBS7VL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/morozov2013real-3129fa248c578124870bd96701c3b6b0"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Morozov, Evgeny"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The real privacy problem",
+		"year": "2013",
+		"zoteroURI": "zotero://select/library/items/ZJRFKP8P"
+	},
+	"zotero": {
+		"citationKey": "morozovevgenyRealPrivacyProblem2013",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Morozov, Evgeny"
+			}
+		],
+		"date": "2013",
+		"dateAdded": "2026-02-25T21:42:15Z",
+		"dateModified": "2026-03-25T21:29:41Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "ZJRFKP8P",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/LBRU2THP",
+				"http://zotero.org/groups/6376680/items/ZYX6ZM8J"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The real privacy problem",
+		"url": "https://www.technologyreview.com/2013/10/21/175051/the-real-privacy-problem/"
+	}
+}

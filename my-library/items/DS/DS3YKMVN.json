@@ -1,0 +1,214 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:33:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:32Z",
+			"dateModified": "2026-11-09T17:06:58Z",
+			"itemType": "attachment",
+			"key": "RN37FU6Q",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:58 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "DS3YKMVN",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HSZPB3CP"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Jaff-et-al-2024-4129fa248c5781ee8869c944731aef62"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-02T18:24:30Z",
+			"dateModified": "2024-11-22T19:19:19Z",
+			"filename": "Jaff et al. - 2024 - Data Exposure from LLM Apps An In-depth Investigation of OpenAI's GPTs.pdf",
+			"itemType": "attachment",
+			"key": "UAPWRX4K",
+			"linkMode": "imported_file",
+			"parentItem": "DS3YKMVN",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/9X3H7WN9"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2024-11-22T19:13:52Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2024-11-22T19:13:52Z",
+			"dateModified": "2024-11-22T19:19:19Z",
+			"filename": "2408.html",
+			"itemType": "attachment",
+			"key": "XBTAESLG",
+			"linkMode": "imported_url",
+			"parentItem": "DS3YKMVN",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "http://arxiv.org/abs/2408.13247"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RN37FU6Q",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Jaff-et-al-2024-4129fa248c5781ee8869c944731aef62"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Jaff et al. - 2024 - Data Exposure from LLM Apps An In-depth Investigation of OpenAI's GPTs.pdf",
+				"files": [
+					{
+						"path": "attachments/UA/UAPWRX4K/Jaff et al. - 2024 - Data Exposure from LLM Apps An In-depth Investigation of OpenAI's GPTs.pdf",
+						"size": 890482,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/UA/UAPWRX4K/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 90938,
+						"storage": "git"
+					}
+				],
+				"key": "UAPWRX4K",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "2408.html",
+				"files": [
+					{
+						"path": "attachments/XB/XBTAESLG/2408.html",
+						"size": 63194,
+						"storage": "git"
+					}
+				],
+				"key": "XBTAESLG",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "http://arxiv.org/abs/2408.13247"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Littérature donnée par Daniel",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/LLMs"
+		],
+		"creators": [
+			"Jaff, Evin",
+			"Wu, Yuhao",
+			"Zhang, Ning",
+			"Iqbal, Umar"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Data Exposure from LLM Apps: An In-depth Investigation of OpenAI's GPTs",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/DS3YKMVN"
+	},
+	"zotero": {
+		"abstractNote": "LLM app ecosystems are quickly maturing and supporting a wide range of use cases, which requires them to collect excessive user data. Given that the LLM apps are developed by third-parties and that anecdotal evidence suggests LLM platforms currently do not strictly enforce their policies, user data shared with arbitrary third-parties poses a significant privacy risk. In this paper we aim to bring transparency in data practices of LLM apps. As a case study, we study OpenAI’s GPT app ecosystem. We develop an LLM-based framework to conduct the static analysis of natural language-based source code of GPTs and their Actions (external services) to characterize their data collection practices. Our findings indicate that Actions collect expansive data about users, including sensitive information prohibited by OpenAI, such as passwords. We find that some Actions, including related to advertising and analytics, are embedded in multiple GPTs, which allow them to track user activities across GPTs. Additionally, co-occurrence of Actions exposes as much as 9.5× more data to them, than it is exposed to individual Actions. Lastly, we develop an LLM-based privacy policy analysis framework to automatically check the consistency of data collection by Actions with disclosures in their privacy policies. Our measurements indicate that the disclosures for most of the collected data types are omitted in privacy policies, with only 5.8% of Actions clearly disclosing their data collection practices.",
+		"accessDate": "2024-11-02T18:24:35Z",
+		"archiveID": "arXiv:2408.13247",
+		"citationKey": "jaffDataExposureLLM2024",
+		"collections": [
+			"ENT9VKF6",
+			"J4VTG4NB",
+			"NKV86EAI",
+			"TQ5YIFNE"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Evin",
+				"lastName": "Jaff"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yuhao",
+				"lastName": "Wu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ning",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Umar",
+				"lastName": "Iqbal"
+			}
+		],
+		"date": "2024-08-23",
+		"dateAdded": "2024-11-02T18:24:35Z",
+		"dateModified": "2026-11-13T19:35:30Z",
+		"extra": "arXiv:2408.13247 [cs]",
+		"itemType": "preprint",
+		"key": "DS3YKMVN",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/JRC8GMTM"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/RZ4GBJHY"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Data Exposure from LLM Apps",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computers and Society",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Cryptography and Security",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Data Exposure from LLM Apps: An In-depth Investigation of OpenAI's GPTs",
+		"url": "http://arxiv.org/abs/2408.13247"
+	}
+}

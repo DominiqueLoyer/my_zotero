@@ -1,0 +1,123 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-10-30T21:00:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-10-30T21:00:37Z",
+			"dateModified": "2026-01-02T19:13:16Z",
+			"itemType": "attachment",
+			"key": "RT6MJ5Y2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:16 p.m.</p>",
+			"parentItem": "7YQTKWKB",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/VENG3EIT"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerOntologieSysVerification2025-29c9fa248c5781f6ae27d9441d38b1bc"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-05-30T18:47:28Z",
+			"dateModified": "2025-05-30T18:47:30Z",
+			"filename": "Loyer - Ontologie - Sys. de Vérification de la Crédibilité de l'Information - Projet Final présenté à Petko.pdf",
+			"itemType": "attachment",
+			"key": "XWQBJ89M",
+			"linkMode": "imported_file",
+			"parentItem": "7YQTKWKB",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RT6MJ5Y2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerOntologieSysVerification2025-29c9fa248c5781f6ae27d9441d38b1bc"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer - Ontologie - Sys. de Vérification de la Crédibilité de l'Information - Projet Final présenté à Petko.pdf",
+				"files": [],
+				"key": "XWQBJ89M",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"mes papiers et beamers",
+			"zenodoDOI_ISBN_dominiqueloyer_060126"
+		],
+		"creators": [
+			"Loyer, Dominique S",
+			"Loyer, Dominique"
+		],
+		"itemType": "presentation",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Ontologie - Sys. de Vérification de la Crédibilité de l'Information - Projet Final présenté à Petko Valchev, DIC-9335 Sciences du Web",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/7YQTKWKB"
+	},
+	"zotero": {
+		"abstractNote": "La prolifération exponentielle de l’information en ligne (Zhou et Zafarani 2020; Viviani et Pasi 2017). Difficulté croissante pour les utilisateurs à évaluer la fiabilité des sources et des contenus (Metzger, Flanagin et Medders 2010; Rieh 2010). Impact sociétal majeur de la désinformation (mésinformation, fake news) (Sharma et al. 2019; Souza et al. 2020; Oshikawa, Qian et Wang 2020). Complexité accrue par l’IA générative (GenAI) capable de créer des contenus synthétiques réalistes (K. Chen et Shu 2023; Loth, Kappes et Pahl 2024). Besoin de transparence et d’explicabilité des systèmes IA, notamment les LLMs (Liao2024; Mahari2023; Zou2023; Chaudhary2024; DiakopoulosND). But Principal : Développer une ontologie OWL 2 DL (W3C2012OWL2) pour modéliser formellement un système d’évaluation de la crédibilité, basé sur une modélisation UML préalable (Loyer2025Rapport). Objectifs Spécifiques : Représenter le processus : RequeteEvaluation →Analyse → RapportEvaluation. Modéliser les acteurs : User (demandeur), Expert (configurateur). Capturer l’information : InformationSoumise, Source, Author. Intégrer l’approche hybride : RegleVerification (logique) + ModeleIA (sémantique). Définir l’évaluation : VerificationCriterion, ResultatCritere, CredibilityLevel. Inclure les données externes : SystemeExterne, Evidence. Permettre l’explicabilité et la classification inférée. Considérer les aspects de tracking et d’anonymisation (Acar2014; Yang2024; Jaff2024; Staab2024).",
+		"citationKey": "loyerOntologieSysVerification2025c",
+		"collections": [
+			"GXLPXWSC",
+			"KKPWSFMI"
+		],
+		"creators": [
+			{
+				"creatorType": "presenter",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			},
+			{
+				"creatorType": "presenter",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "30 avril 2025",
+		"dateAdded": "2025-05-30T18:47:29Z",
+		"dateModified": "2025-05-30T18:56:58Z",
+		"extra": "ORCID=\"0009-0003-9713-7109\"",
+		"itemType": "presentation",
+		"key": "7YQTKWKB",
+		"language": "fr",
+		"place": "UQAM",
+		"presentationType": "Diapositives",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/VJ89PXTH"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "ontology, fact cheking"
+			}
+		],
+		"title": "Ontologie - Sys. de Vérification de la Crédibilité de l'Information - Projet Final présenté à Petko Valchev, DIC-9335 Sciences du Web",
+		"url": "10.13140/RG.2.2.25249.72807"
+	}
+}

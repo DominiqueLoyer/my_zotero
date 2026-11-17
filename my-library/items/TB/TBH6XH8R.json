@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:27:13Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:27:13Z",
+			"dateModified": "2026-11-08T16:27:13Z",
+			"filename": "Verma, Sahil and Dickerson, John and Hines, Keegan - 2024 - Counterfactual Explanations for Machine Learning A Review.pdf",
+			"itemType": "attachment",
+			"key": "A97FNKDW",
+			"linkMode": "imported_url",
+			"parentItem": "TBH6XH8R",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2007.10427v1"
+		},
+		{
+			"accessDate": "2026-02-25T22:15:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:43Z",
+			"dateModified": "2026-11-09T17:06:41Z",
+			"itemType": "attachment",
+			"key": "JI83EWB5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:41 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "TBH6XH8R",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/EM8KTGYQ",
+					"http://zotero.org/groups/6376680/items/I6H7T6UE"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Verma-Sahil-and-Dickerson-John-and-Hines-Keegan-2024-4129fa248c578128ac82ed20719f87a7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JI83EWB5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Verma-Sahil-and-Dickerson-John-and-Hines-Keegan-2024-4129fa248c578128ac82ed20719f87a7"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Verma, Sahil and Dickerson, John and Hines, Keegan - 2024 - Counterfactual Explanations for Machine Learning A Review.pdf",
+				"files": [
+					{
+						"path": "attachments/A9/A97FNKDW/Verma, Sahil and Dickerson, John and Hines, Keegan - 2024 - Counterfactual Explanations for Machine Learning A Review.pdf",
+						"size": 7207700,
+						"storage": "git"
+					}
+				],
+				"key": "A97FNKDW",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2007.10427v1"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Verma, Sahil and Dickerson, John and Hines, Keegan"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Counterfactual Explanations for Machine Learning: A Review",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/TBH6XH8R"
+	},
+	"zotero": {
+		"DOI": "10.1145/3677119",
+		"citationKey": "vermasahilanddickersonjohnandhineskeeganCounterfactualExplanationsMachine2024",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Verma, Sahil and Dickerson, John and Hines, Keegan"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:53:26Z",
+		"dateModified": "2026-03-25T21:29:35Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "TBH6XH8R",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/F7GPZXDX",
+				"http://zotero.org/groups/6376680/items/KG4DYEKW"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Counterfactual Explanations for Machine Learning: A Review",
+		"url": "https://arxiv.org/abs/2007.10427"
+	}
+}

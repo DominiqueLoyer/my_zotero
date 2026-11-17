@@ -1,0 +1,172 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-01T16:05:48Z",
+			"dateModified": "2024-12-01T16:09:22Z",
+			"filename": "DIC-9001 PPT semaine 1.pdf",
+			"itemType": "attachment",
+			"key": "9WJGVB6D",
+			"linkMode": "imported_file",
+			"parentItem": "NAQS6FFJ",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "",
+			"annotationPageLabel": "2",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[152.66,325.832,316.509,342.388]]}",
+			"annotationSortIndex": "00001|000102|00197",
+			"annotationText": "John Herschel (1831",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-02T00:40:07Z",
+			"dateModified": "2024-12-02T00:40:07Z",
+			"itemType": "annotation",
+			"key": "FTL9ZYM4",
+			"parentItem": "9WJGVB6D",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "",
+			"annotationPageLabel": "2",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[176.329,269.058,400.677,285.59]]}",
+			"annotationSortIndex": "00001|000181|00254",
+			"annotationText": "problème de la justification",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-02T00:38:55Z",
+			"dateModified": "2024-12-02T00:39:45Z",
+			"itemType": "annotation",
+			"key": "NEJ6DTEK",
+			"parentItem": "9WJGVB6D",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "justification"
+				}
+			]
+		},
+		{
+			"accessDate": "2025-12-05T22:27:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:18Z",
+			"dateModified": "2026-11-09T17:07:41Z",
+			"itemType": "attachment",
+			"key": "SANINFFS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:41 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "NAQS6FFJ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Robert-4129fa248c5781dfbfa7cc1df207f470"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "",
+			"annotationPageLabel": "2",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[176.329,297.498,406.692,314.03]]}",
+			"annotationSortIndex": "00001|000124|00225",
+			"annotationText": "problème de la découverte",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-02T00:38:40Z",
+			"dateModified": "2024-12-02T00:39:27Z",
+			"itemType": "annotation",
+			"key": "ZWYPMW7I",
+			"parentItem": "9WJGVB6D",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "découverte"
+				}
+			]
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SANINFFS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Robert-4129fa248c5781dfbfa7cc1df207f470"
+			},
+			{
+				"annotationCount": 3,
+				"contentType": "application/pdf",
+				"filename": "DIC-9001 PPT semaine 1.pdf",
+				"files": [
+					{
+						"path": "attachments/9W/9WJGVB6D/DIC-9001 PPT semaine 1.pdf",
+						"size": 275855,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/9W/9WJGVB6D/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 10350,
+						"storage": "git"
+					}
+				],
+				"key": "9WJGVB6D",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Miller"
+		],
+		"creators": [
+			"Robert, Serge"
+		],
+		"itemType": "presentation",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DIC-9001 PPT semaine 1",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/NAQS6FFJ"
+	},
+	"zotero": {
+		"citationKey": "robertDIC9001PPTSemaine",
+		"collections": [
+			"VWJRTXG9"
+		],
+		"creators": [
+			{
+				"creatorType": "presenter",
+				"firstName": "Serge",
+				"lastName": "Robert"
+			}
+		],
+		"dateAdded": "2024-12-01T16:09:22Z",
+		"dateModified": "2025-12-05T22:27:18Z",
+		"itemType": "presentation",
+		"key": "NAQS6FFJ",
+		"place": "UQAM",
+		"presentationType": "Diapositives",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "empirisme logique"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "DIC-9001 PPT semaine 1"
+	}
+}

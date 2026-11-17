@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-02T19:08:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-02T19:08:18Z",
+			"dateModified": "2026-11-09T14:58:32Z",
+			"itemType": "attachment",
+			"key": "J8TFMMVT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:08:18 p.m.</p>",
+			"parentItem": "Q2CLPAC4",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/RWPX8MHH"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/bhuyan2024neuro-2dc9fa248c57815c8508eeea62d7c75b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "J8TFMMVT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/bhuyan2024neuro-2dc9fa248c57815c8508eeea62d7c75b"
+			}
+		],
+		"collections": [
+			"GS_301225.bibtex",
+			"_gs_080326"
+		],
+		"creators": [
+			"Bhuyan, Bikram Pratim",
+			"Ramdane-Cherif, Amar",
+			"Tomar, Ravi",
+			"Singh, TP"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neuro-symbolic artificial intelligence: a survey",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/Q2CLPAC4"
+	},
+	"zotero": {
+		"DOI": "10.1007/s00521-024-09960-z",
+		"citationKey": "bhuyanNeurosymbolicArtificialIntelligence2024",
+		"collections": [
+			"9ERXAIZK",
+			"H8Z7N6W8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Bikram Pratim",
+				"lastName": "Bhuyan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Amar",
+				"lastName": "Ramdane-Cherif"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ravi",
+				"lastName": "Tomar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "TP",
+				"lastName": "Singh"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2025-12-30T21:49:10Z",
+		"dateModified": "2026-11-09T14:58:32Z",
+		"issue": "21",
+		"itemType": "journalArticle",
+		"key": "Q2CLPAC4",
+		"pages": "12809–12844",
+		"publicationTitle": "Neural Computing and Applications",
+		"publisher": "Springer",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/ZNKAMWF3"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neuro-symbolic artificial intelligence: a survey",
+		"volume": "36"
+	}
+}

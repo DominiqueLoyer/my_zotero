@@ -1,0 +1,78 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-02T19:07:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-02T19:07:57Z",
+			"dateModified": "2026-11-09T17:06:01Z",
+			"itemType": "attachment",
+			"key": "2P8JS3IR",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:01 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "KCEBJY7R",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Pasquale-2015-4129fa248c578156b1d9e17569cd0acb"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2P8JS3IR",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Pasquale-2015-4129fa248c578156b1d9e17569cd0acb"
+			}
+		],
+		"collections": [
+			"GS_301225.bibtex"
+		],
+		"creators": [
+			"Pasquale, Franck"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Black Box Society. Les algorithmes secrets qui contrôlent l'économie et l'information",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/KCEBJY7R"
+	},
+	"zotero": {
+		"citationKey": "pasqualeBlackBoxSociety2015",
+		"collections": [
+			"H8Z7N6W8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Franck",
+				"lastName": "Pasquale"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2025-12-30T21:49:10Z",
+		"dateModified": "2026-11-13T19:32:55Z",
+		"itemType": "book",
+		"key": "KCEBJY7R",
+		"publisher": "FYP editions",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Black Box Society. Les algorithmes secrets qui contrôlent l'économie et l'information"
+	}
+}

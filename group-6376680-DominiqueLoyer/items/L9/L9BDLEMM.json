@@ -1,0 +1,135 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "note",
+			"key": "6V9PA8J6",
+			"note": "Comment: 11 pages, 7 figures, 2 tables, 1 algorithm. Version Update: Figure 6",
+			"parentItem": "L9BDLEMM",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:28:27Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "attachment",
+			"key": "EB64FDL9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:31 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-8175-93a0-e58456ed7f10\",\"notes\":{\"QYT2GUYF\":{\"blockID\":\"2c09fa24-8c57-81ea-90e3-e80336675e9f\",\"syncedAt\":\"2025-12-05T22:40:02.497Z\"}}}</pre>",
+			"parentItem": "L9BDLEMM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ngnaweDetectingBrittleDecisions2024-2c09fa248c5781209933c9713bd6d2c1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EB64FDL9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ngnaweDetectingBrittleDecisions2024-2c09fa248c5781209933c9713bd6d2c1"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Ngnawé, Jonas",
+			"Sahoo, Sabyasachi",
+			"Pequignot, Yann",
+			"Precioso, Frédéric",
+			"Gagné, Christian"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "6V9PA8J6",
+				"title": "Comment: 11 pages, 7 figures, 2 tables, 1 algorithm. Version Update: Figure 6"
+			}
+		],
+		"title": "Detecting Brittle Decisions for Free: Leveraging Margin Consistency in Deep Robust Classifiers",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/L9BDLEMM"
+	},
+	"zotero": {
+		"abstractNote": "Despite extensive research on adversarial training strategies to improve robustness, the decisions of even the most robust deep learning models can still be quite sensitive to imperceptible perturbations, creating serious risks when deploying them for high-stakes real-world applications. While detecting such cases may be critical, evaluating a model’s vulnerability at a per-instance level using adversarial attacks is computationally too intensive and unsuitable for real-time deployment scenarios. The input space margin is the exact score to detect non-robust samples and is intractable for deep neural networks. This paper introduces the concept of margin consistency – a property that links the input space margins and the logit margins in robust models – for efficient detection of vulnerable samples. First, we establish that margin consistency is a necessary and sufficient condition to use a model’s logit margin as a score for identifying non-robust samples. Next, through comprehensive empirical analysis of various robustly trained models on CIFAR10 and CIFAR100 datasets, we show that they indicate strong margin consistency with a strong correlation between their input space margins and the logit margins. Then, we show that we can effectively use the logit margin to confidently detect brittle decisions with such models and accurately estimate robust accuracy on an arbitrarily large test set by estimating the input margins only on a small subset. Finally, we address cases where the model is not sufficiently margin-consistent by learning a pseudo-margin from the feature representation. Our findings highlight the potential of leveraging deep representations to efficiently assess adversarial vulnerability in deployment scenarios.",
+		"accessDate": "2024-11-02T17:29:33Z",
+		"archiveID": "arXiv:2406.18451",
+		"citationKey": "ngnaweDetectingBrittleDecisions2024",
+		"collections": [
+			"J6WCHKF9",
+			"P9N6XDU8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jonas",
+				"lastName": "Ngnawé"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sabyasachi",
+				"lastName": "Sahoo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yann",
+				"lastName": "Pequignot"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Frédéric",
+				"lastName": "Precioso"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Christian",
+				"lastName": "Gagné"
+			}
+		],
+		"date": "2024-07-22",
+		"dateAdded": "2026-04-17T21:21:41Z",
+		"dateModified": "2026-04-17T21:21:41Z",
+		"extra": "arXiv:2406.18451 [cs]",
+		"itemType": "preprint",
+		"key": "L9BDLEMM",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"shortTitle": "Detecting Brittle Decisions for Free",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computer Vision and Pattern Recognition",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Detecting Brittle Decisions for Free: Leveraging Margin Consistency in Deep Robust Classifiers",
+		"url": "http://arxiv.org/abs/2406.18451"
+	}
+}

@@ -1,0 +1,128 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:20Z",
+			"dateModified": "2026-03-14T18:17:20Z",
+			"itemType": "attachment",
+			"key": "2Y6WZI3L",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:20 p.m.</p>",
+			"parentItem": "HLNLD2CG",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2MWRETNP"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/hitzlerNeuroSymbolicArtificialIntelligence2021-3239fa248c5781f78d5aeccb563aa185"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:33:09Z",
+			"dateModified": "2026-03-14T17:40:34Z",
+			"itemType": "attachment",
+			"key": "U92DFXRB",
+			"linkMode": "linked_file",
+			"parentItem": "HLNLD2CG",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Hitzler and Sarker - 2021 - Neuro-Symbolic Artificial Intelligence The State of the Art.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2Y6WZI3L",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/hitzlerNeuroSymbolicArtificialIntelligence2021-3239fa248c5781f78d5aeccb563aa185"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hitzler and Sarker - 2021 - Neuro-Symbolic Artificial Intelligence The State of the Art.pdf",
+				"files": [
+					{
+						"path": "attachments/U9/U92DFXRB/Hitzler and Sarker - 2021 - Neuro-Symbolic Artificial Intelligence The State of the Art.pdf",
+						"size": 128195,
+						"storage": "git"
+					}
+				],
+				"key": "U92DFXRB",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Hitzler, Pascal",
+			"Sarker, Md Kamruzzaman"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neuro-Symbolic Artificial Intelligence: The State of the Art",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/HLNLD2CG"
+	},
+	"zotero": {
+		"DOI": "10.3233/FAIA342",
+		"ISBN": "978-1-64368-244-0 978-1-64368-245-7",
+		"accessDate": "2026-03-14T17:40:34Z",
+		"citationKey": "hitzlerNeuroSymbolicArtificialIntelligence2021",
+		"collections": [
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "editor",
+				"firstName": "Pascal",
+				"lastName": "Hitzler"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Md Kamruzzaman",
+				"lastName": "Sarker"
+			}
+		],
+		"date": "2021-12-22",
+		"dateAdded": "2026-03-14T17:40:34Z",
+		"dateModified": "2026-03-14T18:17:20Z",
+		"itemType": "book",
+		"key": "HLNLD2CG",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"publisher": "IOS Press",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/WVEYXJF4"
+			]
+		},
+		"series": "Frontiers in Artificial Intelligence and Applications",
+		"shortTitle": "Neuro-Symbolic Artificial Intelligence",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neuro-Symbolic Artificial Intelligence: The State of the Art",
+		"url": "https://ebooks.iospress.nl/doi/10.3233/FAIA342",
+		"volume": "342"
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:39:29Z",
+			"dateModified": "2026-03-09T20:54:01Z",
+			"itemType": "attachment",
+			"key": "FE28YDEZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:01 p.m.</p>",
+			"parentItem": "G9XC29FJ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ETUKY35U"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Ghassemi2021-2e29fa248c5781778afcee46e314ff9f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FE28YDEZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Ghassemi2021-2e29fa248c5781778afcee46e314ff9f"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Ghassemi, Marzyeh",
+			"Oakden-Rayner, Luke",
+			"Beam, Andrew L."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The false hope of current approaches to explainable artificial intelligence in health care",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/G9XC29FJ"
+	},
+	"zotero": {
+		"DOI": "10.1016/S2589-7500(21)00208-9",
+		"citationKey": "ghassemiFalseHopeCurrent2021a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Marzyeh",
+				"lastName": "Ghassemi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Luke",
+				"lastName": "Oakden-Rayner"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Andrew L.",
+				"lastName": "Beam"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-01-08T20:07:31Z",
+		"dateModified": "2026-03-25T21:30:41Z",
+		"issue": "11",
+		"itemType": "journalArticle",
+		"key": "G9XC29FJ",
+		"language": "fr-CA",
+		"pages": "e745–e750",
+		"publicationTitle": "The Lancet Digital Health",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4WX5VJ9F"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The false hope of current approaches to explainable artificial intelligence in health care",
+		"volume": "3"
+	}
+}

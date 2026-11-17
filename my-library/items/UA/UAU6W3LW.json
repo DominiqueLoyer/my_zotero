@@ -1,0 +1,133 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:52:33Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:52:33Z",
+			"dateModified": "2026-01-01T23:52:33Z",
+			"filename": "Aviram and Cohen - 2024 - Algorithmic discretion The case of predictive policing.pdf",
+			"itemType": "attachment",
+			"key": "Y22P4J25",
+			"linkMode": "imported_url",
+			"parentItem": "UAU6W3LW",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/rego.12596"
+		},
+		{
+			"accessDate": "2025-12-05T22:37:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:12Z",
+			"dateModified": "2026-11-09T17:05:23Z",
+			"itemType": "attachment",
+			"key": "Z4GJS3H2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:23 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "UAU6W3LW",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/2LMS29CY"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/49AYRKX3"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Aviram-and-Cohen-2024-4129fa248c57818d8822c6fd21b7b534"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Aviram and Cohen - 2024 - Algorithmic discretion The case of predictive policing.pdf",
+				"files": [
+					{
+						"path": "attachments/Y2/Y22P4J25/Aviram and Cohen - 2024 - Algorithmic discretion The case of predictive policing.pdf",
+						"size": 333603,
+						"storage": "git"
+					}
+				],
+				"key": "Y22P4J25",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/rego.12596"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Z4GJS3H2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Aviram-and-Cohen-2024-4129fa248c57818d8822c6fd21b7b534"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Aviram, Hadar",
+			"Cohen, N."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmic discretion: The case of predictive policing",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/UAU6W3LW"
+	},
+	"zotero": {
+		"DOI": "10.1111/rego.12596",
+		"citationKey": "aviramAlgorithmicDiscretionCase2024",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Hadar",
+				"lastName": "Aviram"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "N.",
+				"lastName": "Cohen"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-13T19:31:18Z",
+		"itemType": "journalArticle",
+		"key": "UAU6W3LW",
+		"publicationTitle": "Regulation & Governance",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/J3TXBQC8",
+				"http://zotero.org/users/15425556/items/Q4THN6DI"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/TGF9FAI2"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmic discretion: The case of predictive policing"
+	}
+}

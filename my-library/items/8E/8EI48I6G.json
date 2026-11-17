@@ -1,0 +1,198 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:28:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:42Z",
+			"dateModified": "2026-11-09T17:06:39Z",
+			"itemType": "attachment",
+			"key": "52XRMUN2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:39 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "8EI48I6G",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/UAMDM3IW"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/86EJ8QPZ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Momeni-et-al-2024-4129fa248c57813895b7c5d6ad794551"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-02-28T17:56:43Z",
+			"dateModified": "2025-02-28T17:56:48Z",
+			"filename": "Momeni et al. - 2024 - Continual Learning Using a Kernel-Based Method Over Foundation Models.pdf",
+			"itemType": "attachment",
+			"key": "9IXCKL4L",
+			"linkMode": "imported_file",
+			"parentItem": "8EI48I6G",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:27:52Z",
+			"dateModified": "2026-11-09T15:07:56Z",
+			"itemType": "attachment",
+			"key": "ECKHCUGI",
+			"linkMode": "linked_file",
+			"parentItem": "8EI48I6G",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/2eTP_dic9335_040326/AVEC SOURCES CUSTOM/PDFs/Momeni et al. - 2024 - Continual Learning Using a Kernel-Based Method Over Foundation Models.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "52XRMUN2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Momeni-et-al-2024-4129fa248c57813895b7c5d6ad794551"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Momeni et al. - 2024 - Continual Learning Using a Kernel-Based Method Over Foundation Models.pdf",
+				"files": [
+					{
+						"path": "attachments/9I/9IXCKL4L/Momeni et al. - 2024 - Continual Learning Using a Kernel-Based Method Over Foundation Models.pdf",
+						"size": 399991,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/9I/9IXCKL4L/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 48187,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/9I/9IXCKL4L/Momeni et al. - 2024 - Continual Learning Using a Kernel-Based Method Over Foundation Models (trashed 2025-11-24 15-34-10).pdf",
+						"size": 399991,
+						"storage": "git"
+					}
+				],
+				"key": "9IXCKL4L",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Momeni et al. - 2024 - Continual Learning Using a Kernel-Based Method Over Foundation Models.pdf",
+				"files": [
+					{
+						"path": "attachments/EC/ECKHCUGI/Momeni et al. - 2024 - Continual Learning Using a Kernel-Based Method Over Foundation Models.pdf",
+						"size": 399991,
+						"storage": "git"
+					}
+				],
+				"key": "ECKHCUGI",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/9270 (H25)/Liu 27 fév",
+			"_ALL_CIT_140326/2eTP_dic9335_040326/AVEC SOURCES CUSTOM/PDFs"
+		],
+		"creators": [
+			"Momeni, Saleh",
+			"Mazumder, Sahisnu",
+			"Liu, Bing"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Continual Learning Using a Kernel-Based Method Over Foundation Models",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/8EI48I6G"
+	},
+	"zotero": {
+		"DOI": "10.1609/aaai.v39i18.34150",
+		"abstractNote": "Continual learning (CL) learns a sequence of tasks incrementally. This paper studies the challenging CL setting of class-incremental learning (CIL). CIL has two key challenges: catastrophic forgetting (CF) and inter-task class separation (ICS). Despite numerous proposed methods, these issues remain persistent obstacles. This paper proposes a novel CIL method, called Kernel Linear Discriminant Analysis (KLDA), that can effectively avoid CF and ICS problems. It leverages only the powerful features learned in a foundation model (FM). However, directly using these features proves suboptimal. To address this, KLDA incorporates the Radial Basis Function (RBF) kernel and its Random Fourier Features (RFF) to enhance the feature representations from the FM, leading to improved performance. When a new task arrives, KLDA computes only the mean for each class in the task and updates a shared covariance matrix for all learned classes based on the kernelized features. Classification is performed using Linear Discriminant Analysis. Our empirical evaluation using text and image classification datasets demonstrates that KLDA significantly outperforms baselines. Remarkably, without relying on replay data, KLDA achieves accuracy comparable to joint training of all classes, which is considered the upper bound for CIL performance. The KLDA code is available at https://github.com/salehmomeni/klda.",
+		"accessDate": "2025-02-28T17:56:48Z",
+		"archiveID": "arXiv:2412.15571",
+		"citationKey": "momeniContinualLearningUsing2024",
+		"collections": [
+			"SXNXAMTK",
+			"YSDMUVNX"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Saleh",
+				"lastName": "Momeni"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sahisnu",
+				"lastName": "Mazumder"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Bing",
+				"lastName": "Liu"
+			}
+		],
+		"date": "2024-12-20",
+		"dateAdded": "2025-02-28T17:56:48Z",
+		"dateModified": "2026-11-13T19:35:05Z",
+		"extra": "arXiv:2412.15571 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2412.15571",
+		"itemType": "preprint",
+		"key": "8EI48I6G",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/RKCQKKQ5"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/F3RVF2PF"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computer Vision and Pattern Recognition",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Continual Learning Using a Kernel-Based Method Over Foundation Models",
+		"url": "http://arxiv.org/abs/2412.15571"
+	}
+}

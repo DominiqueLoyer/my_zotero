@@ -1,0 +1,134 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:51:12Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:51:12Z",
+			"dateModified": "2026-11-09T15:04:20Z",
+			"filename": "Goodman - 2022 - Algorithmic Due Process.pdf",
+			"itemType": "attachment",
+			"key": "44WFICKU",
+			"linkMode": "imported_url",
+			"parentItem": "RAJC8WK2",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/Z4JSR5VN"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://papers.ssrn.com/sol3/Delivery.cfm/8b1937ad-9740-42f9-8523-e7099ae23a1f-MECA.pdf?abstractid=4054203&mirid=1"
+		},
+		{
+			"accessDate": "2025-12-05T22:34:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:20Z",
+			"dateModified": "2026-11-09T17:05:23Z",
+			"itemType": "attachment",
+			"key": "4ZDAWHAL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:23 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "RAJC8WK2",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/85LJQAUT"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ME77U9JR"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Goodman-2022-4129fa248c57817c8d42cfe84fcddd6a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Goodman - 2022 - Algorithmic Due Process.pdf",
+				"files": [
+					{
+						"path": "attachments/44/44WFICKU/Goodman - 2022 - Algorithmic Due Process.pdf",
+						"size": 1858474,
+						"storage": "git"
+					}
+				],
+				"key": "44WFICKU",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://papers.ssrn.com/sol3/Delivery.cfm/8b1937ad-9740-42f9-8523-e7099ae23a1f-MECA.pdf?abstractid=4054203&mirid=1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "4ZDAWHAL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Goodman-2022-4129fa248c57817c8d42cfe84fcddd6a"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Goodman, Chris"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmic Due Process",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/RAJC8WK2"
+	},
+	"zotero": {
+		"citationKey": "goodmanAlgorithmicDueProcess2022",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Chris",
+				"lastName": "Goodman"
+			}
+		],
+		"date": "2022",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-13T19:31:19Z",
+		"itemType": "document",
+		"key": "RAJC8WK2",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/GRQRCUHS",
+				"http://zotero.org/users/15425556/items/GWHE4TWI"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/66PCV8ZF"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmic Due Process",
+		"url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4054203"
+	}
+}

@@ -1,0 +1,150 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:58Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:58Z",
+			"dateModified": "2026-11-09T17:09:16Z",
+			"itemType": "attachment",
+			"key": "SMIZXUW2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:16 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "6Y6J8ZER",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/RPIW6UJ7"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HE8DGD27"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Engstrom-et-al-2020-4129fa248c5781408ce1d11a669aa1f7"
+		},
+		{
+			"accessDate": "2026-01-01T23:51:47Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:51:47Z",
+			"dateModified": "2026-01-01T23:51:47Z",
+			"filename": "Engstrom et al. - 2020 - Government by Algorithm Artificial Intelligence in Federal Administrative Agencies.pdf",
+			"itemType": "attachment",
+			"key": "VUFWBZK4",
+			"linkMode": "imported_url",
+			"parentItem": "6Y6J8ZER",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3551505_code1402146.pdf?abstractid=3551505&mirid=1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Engstrom et al. - 2020 - Government by Algorithm Artificial Intelligence in Federal Administrative Agencies.pdf",
+				"files": [
+					{
+						"path": "attachments/VU/VUFWBZK4/Engstrom et al. - 2020 - Government by Algorithm Artificial Intelligence in Federal Administrative Agencies.pdf",
+						"size": 5439258,
+						"storage": "git"
+					}
+				],
+				"key": "VUFWBZK4",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3551505_code1402146.pdf?abstractid=3551505&mirid=1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SMIZXUW2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Engstrom-et-al-2020-4129fa248c5781408ce1d11a669aa1f7"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Engstrom, David Freeman",
+			"Ho, Daniel E.",
+			"Sharkey, Catherine M.",
+			"Cuéllar, Mariano-Florentino"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Government by Algorithm: Artificial Intelligence in Federal Administrative Agencies",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/6Y6J8ZER"
+	},
+	"zotero": {
+		"DOI": "10.2139/ssrn.3551505",
+		"citationKey": "engstromGovernmentAlgorithmArtificial2020",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F",
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "David Freeman",
+				"lastName": "Engstrom"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Daniel E.",
+				"lastName": "Ho"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Catherine M.",
+				"lastName": "Sharkey"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mariano-Florentino",
+				"lastName": "Cuéllar"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-09T15:01:31Z",
+		"itemType": "journalArticle",
+		"key": "6Y6J8ZER",
+		"publicationTitle": "SSRN Electronic Journal",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/3ZLJIIMT",
+				"http://zotero.org/users/15425556/items/68RUFP4M",
+				"http://zotero.org/users/15425556/items/GD9HK8UC"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/BJID82EI",
+				"http://zotero.org/groups/6376680/items/S2WJJQNY",
+				"http://zotero.org/groups/6376680/items/WRV7H95Q"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Government by Algorithm: Artificial Intelligence in Federal Administrative Agencies"
+	}
+}

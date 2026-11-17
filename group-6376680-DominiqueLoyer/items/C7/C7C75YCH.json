@@ -1,0 +1,90 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "note",
+			"key": "8DKZY4MH",
+			"note": "Oeuvre poshume de Weber, Wirtschaft und Gesellschaft, traduite de l'anglais pour la 1ère fois",
+			"parentItem": "C7C75YCH",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-08T20:35:41Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "8UA6K68H",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:28 p.m.</p>",
+			"parentItem": "C7C75YCH",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Weber1968-2e29fa248c578164bf91df250f403a78"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8UA6K68H",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Weber1968-2e29fa248c578164bf91df250f403a78"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Weber, Max"
+		],
+		"itemType": "book",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "8DKZY4MH",
+				"title": "Oeuvre poshume de Weber, Wirtschaft und Gesellschaft, traduite de l'anglais pour la 1ère fois"
+			}
+		],
+		"title": "Economy and society: An outline of interpretive sociology",
+		"year": "1968",
+		"zoteroURI": "zotero://select/groups/6376680/items/C7C75YCH"
+	},
+	"zotero": {
+		"citationKey": "weberEconomySocietyOutline1968a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Max",
+				"lastName": "Weber"
+			}
+		],
+		"date": "1968",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "book",
+		"key": "C7C75YCH",
+		"language": "fr-CA",
+		"publisher": "Bedminster Press",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Economy and society: An outline of interpretive sociology"
+	}
+}

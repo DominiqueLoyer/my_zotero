@@ -1,0 +1,80 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "GTTM32WE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:01 p.m.</p>",
+			"parentItem": "RIS7E4FM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/morozov2013real-2e29fa248c57817fab17d12117873022"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GTTM32WE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/morozov2013real-2e29fa248c57817fab17d12117873022"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Morozov, Evgeny"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "The real privacy problem",
+		"year": "2013",
+		"zoteroURI": "zotero://select/groups/6376680/items/RIS7E4FM"
+	},
+	"zotero": {
+		"citationKey": "morozovRealPrivacyProblem2013a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Evgeny",
+				"lastName": "Morozov"
+			}
+		],
+		"date": "2013-10-21",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:12Z",
+		"itemType": "journalArticle",
+		"key": "RIS7E4FM",
+		"language": "fr-CA",
+		"publicationTitle": "MIT Technology Review",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "The real privacy problem",
+		"url": "https://www.technologyreview.com/2013/10/21/175051/the-real-privacy-problem/"
+	}
+}

@@ -1,0 +1,194 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:55:38Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:55:38Z",
+			"dateModified": "2026-11-09T15:01:34Z",
+			"filename": "Achiam et al. - 2023 - GPT-4 Technical Report.pdf",
+			"itemType": "attachment",
+			"key": "44NJRAFR",
+			"linkMode": "imported_url",
+			"parentItem": "8U6LSBB7",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/GU8J9FW9"
+				]
+			},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2303.08774v6"
+		},
+		{
+			"accessDate": "2025-12-05T22:37:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:59Z",
+			"dateModified": "2026-11-09T17:09:18Z",
+			"itemType": "attachment",
+			"key": "HYWQEU6K",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:18 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "8U6LSBB7",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/NHJJ2G5T"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/9MJJJB22"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Achiam-et-al-2023-4129fa248c5781d49880c6921b655623"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HYWQEU6K",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Achiam-et-al-2023-4129fa248c5781d49880c6921b655623"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Achiam et al. - 2023 - GPT-4 Technical Report.pdf",
+				"files": [
+					{
+						"path": "attachments/44/44NJRAFR/Achiam et al. - 2023 - GPT-4 Technical Report.pdf",
+						"size": 5245564,
+						"storage": "git"
+					}
+				],
+				"key": "44NJRAFR",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2303.08774v6"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Achiam, Josh",
+			"Adler, Steven",
+			"Agarwal, Sandhini",
+			"Ahmad, Lama",
+			"Akkaya, Ilge",
+			"Aleman, Florencia Leoni",
+			"Almeida, Diogo",
+			"Altenschmidt, Janko",
+			"Altman, Sam",
+			"An, Shyamal",
+			"others"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "GPT-4 Technical Report",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/8U6LSBB7"
+	},
+	"zotero": {
+		"citationKey": "achiamGPT4TechnicalReport2023",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Josh",
+				"lastName": "Achiam"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Steven",
+				"lastName": "Adler"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sandhini",
+				"lastName": "Agarwal"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lama",
+				"lastName": "Ahmad"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ilge",
+				"lastName": "Akkaya"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Florencia Leoni",
+				"lastName": "Aleman"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Diogo",
+				"lastName": "Almeida"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Janko",
+				"lastName": "Altenschmidt"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sam",
+				"lastName": "Altman"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Shyamal",
+				"lastName": "An"
+			},
+			{
+				"creatorType": "author",
+				"name": "others"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-09T15:01:34Z",
+		"itemType": "journalArticle",
+		"key": "8U6LSBB7",
+		"publicationTitle": "arXiv preprint arXiv:2303.08774",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/2LN7R2N5",
+				"http://zotero.org/users/15425556/items/B3EKJRJ8"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4LEDYF6M"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "GPT-4 Technical Report",
+		"url": "https://arxiv.org/abs/2303.08774"
+	}
+}

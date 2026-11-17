@@ -1,0 +1,106 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:32:32Z",
+			"dateModified": "2025-03-17T17:32:34Z",
+			"filename": "Un CEGEP vous confie la réalisation d’un logiciel de gestion hôtelière.pdf",
+			"itemType": "attachment",
+			"key": "M46FI8NH",
+			"linkMode": "imported_file",
+			"parentItem": "H8DHFDFA",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:36:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:09Z",
+			"dateModified": "2026-01-02T19:16:19Z",
+			"itemType": "attachment",
+			"key": "U5F7RUCG",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:19 p.m.</p>",
+			"parentItem": "H8DHFDFA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/CEGEPVousConfie-2c09fa248c5781769764df5295ec934a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "U5F7RUCG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/CEGEPVousConfie-2c09fa248c5781769764df5295ec934a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Un CEGEP vous confie la réalisation d’un logiciel de gestion hôtelière.pdf",
+				"files": [
+					{
+						"path": "attachments/M4/M46FI8NH/Un CEGEP vous confie la réalisation d’un logiciel de gestion hôtelière.pdf",
+						"size": 75540,
+						"storage": "git"
+					}
+				],
+				"key": "M46FI8NH",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Un CEGEP vous confie la réalisation d’un logiciel de gestion hôtelière",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/H8DHFDFA"
+	},
+	"zotero": {
+		"citationKey": "lounishakimCEGEPVousConfie",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-17T17:32:33Z",
+		"dateModified": "2025-03-31T18:56:38Z",
+		"itemType": "journalArticle",
+		"key": "H8DHFDFA",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Un CEGEP vous confie la réalisation d’un logiciel de gestion hôtelière"
+	}
+}

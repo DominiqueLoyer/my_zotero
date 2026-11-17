@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:09Z",
+			"dateModified": "2026-11-09T17:05:31Z",
+			"itemType": "attachment",
+			"key": "5BMI27AV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:31 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "U96ZUX3Z",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3FU7D68D",
+					"http://zotero.org/groups/6376680/items/ILNJXHVZ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Ashok-K-Chandra-and-Dexter-C-Kozen-and-Larry-J-Stockmeyer-1981-4129fa248c5781e8976beefd43ecf0d1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5BMI27AV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Ashok-K-Chandra-and-Dexter-C-Kozen-and-Larry-J-Stockmeyer-1981-4129fa248c5781e8976beefd43ecf0d1"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Ashok K. Chandra and Dexter C. Kozen and Larry J. Stockmeyer"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Alternation",
+		"year": "1981",
+		"zoteroURI": "zotero://select/library/items/U96ZUX3Z"
+	},
+	"zotero": {
+		"DOI": "10.1145/322234.322243",
+		"citationKey": "ashokk.chandraanddexterc.kozenandlarryj.stockmeyerAlternation1981",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Ashok K. Chandra and Dexter C. Kozen and Larry J. Stockmeyer"
+			}
+		],
+		"date": "1981",
+		"dateAdded": "2026-02-25T20:56:15Z",
+		"dateModified": "2026-03-25T21:29:55Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "U96ZUX3Z",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8U98DNCL",
+				"http://zotero.org/groups/6376680/items/SWT8YLDV"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Alternation"
+	}
+}

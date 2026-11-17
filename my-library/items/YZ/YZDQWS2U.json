@@ -1,0 +1,129 @@
+{
+	"children": [
+		{
+			"accessDate": "2024-11-02T18:36:23Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2024-11-02T18:36:23Z",
+			"dateModified": "2024-11-02T18:36:23Z",
+			"filename": "algorithmic_accountability_on_the_investigation_of_black_boxes.html",
+			"itemType": "attachment",
+			"key": "2CKHKJUU",
+			"linkMode": "imported_url",
+			"parentItem": "YZDQWS2U",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://www.cjr.org/tow_center_reports/algorithmic_accountability_on_the_investigation_of_black_boxes.php"
+		},
+		{
+			"accessDate": "2025-12-05T22:35:27Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:27Z",
+			"dateModified": "2026-11-09T17:05:18Z",
+			"itemType": "attachment",
+			"key": "RV26BA9P",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:18 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "YZDQWS2U",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/GYC5HQSR"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Diakopoulos-4129fa248c57813b8a2cecdd45339d45"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RV26BA9P",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Diakopoulos-4129fa248c57813b8a2cecdd45339d45"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "algorithmic_accountability_on_the_investigation_of_black_boxes.html",
+				"files": [
+					{
+						"path": "attachments/2C/2CKHKJUU/algorithmic_accountability_on_the_investigation_of_black_boxes.html",
+						"size": 1343221,
+						"storage": "git"
+					}
+				],
+				"key": "2CKHKJUU",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://www.cjr.org/tow_center_reports/algorithmic_accountability_on_the_investigation_of_black_boxes.php"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Acccountability",
+			"Ma thèse/Systematic review/Black-Box"
+		],
+		"creators": [
+			"Diakopoulos, Nicholas"
+		],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmic Accountability: On the Investigation of Black Boxes",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/YZDQWS2U"
+	},
+	"zotero": {
+		"abstractNote": "<p>Introduction “We should interrogate the architecture of cyberspace as we interrogate the code of Congress.” — Lawrence Lessig The past three years have seen a small profusion of websites, perhaps as many as 80, spring up to capitalize on the high interest that mug shot photos generate online.1 Mug shots are public record, artifacts of […]</p>",
+		"accessDate": "2024-11-02T18:36:16Z",
+		"citationKey": "diakopoulosAlgorithmicAccountabilityInvestigation",
+		"collections": [
+			"4IANSE73",
+			"J4VTG4NB",
+			"NKV86EAI",
+			"RG2GUIMI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Nicholas",
+				"lastName": "Diakopoulos"
+			}
+		],
+		"dateAdded": "2024-11-02T18:36:16Z",
+		"dateModified": "2026-11-13T19:31:17Z",
+		"itemType": "webpage",
+		"key": "YZDQWS2U",
+		"language": "en",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/D2RSSTXS"
+			]
+		},
+		"shortTitle": "Algorithmic Accountability",
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmic Accountability: On the Investigation of Black Boxes",
+		"url": "https://www.cjr.org/tow_center_reports/algorithmic_accountability_on_the_investigation_of_black_boxes.php/",
+		"websiteTitle": "Columbia Journalism Review"
+	}
+}

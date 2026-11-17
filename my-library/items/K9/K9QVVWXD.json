@@ -1,0 +1,130 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-10-05T19:01:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-10-05T19:01:26Z",
+			"dateModified": "2025-10-05T19:01:26Z",
+			"itemType": "attachment",
+			"key": "9YSKIIJS",
+			"linkMode": "linked_url",
+			"parentItem": "K9QVVWXD",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/Q3X5CXV9"
+				]
+			},
+			"tags": [],
+			"title": "Sys_de_Verification_de_la_Credibilite_de_l'Information, une ontologie.",
+			"url": "https://www.researchgate.net/publication/392626777_Ontologie_-_Sys_de_Verification_de_la_Credibilite_de_l'Information_Projet_Final_presente_a_Petko_Valchev_DIC-9335_Sciences_du_Web"
+		},
+		{
+			"accessDate": "2025-12-05T22:30:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:30:37Z",
+			"dateModified": "2026-01-02T19:12:49Z",
+			"itemType": "attachment",
+			"key": "GQTM42BJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:12:49 p.m.</p>",
+			"parentItem": "K9QVVWXD",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/Z6TK2MQ8"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerOntologieSysVerification2025a-2c09fa248c5781b2bb6efd7651b3c7b0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GQTM42BJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerOntologieSysVerification2025a-2c09fa248c5781b2bb6efd7651b3c7b0"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9YSKIIJS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Sys_de_Verification_de_la_Credibilite_de_l'Information, une ontologie.",
+				"url": "https://www.researchgate.net/publication/392626777_Ontologie_-_Sys_de_Verification_de_la_Credibilite_de_l'Information_Projet_Final_presente_a_Petko_Valchev_DIC-9335_Sciences_du_Web"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Loyer, Dominique S",
+			"Loyer, Dominique"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Ontologie - Sys. de Vérification de la Crédibilité de l’Information Projet Final présenté à Petko Valchev, DIC-9335 Sciences du Web",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/K9QVVWXD"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.25249.72807",
+		"abstractNote": "Prolifération exponentielle de l’information en ligne (Zhou et Zafarani 2020;\nViviani et Pasi 2017).\nDifficulté croissante pour les utilisateurs à évaluer la fiabilité des sources et des\ncontenus (Metzger, Flanagin et Medders 2010; Rieh 2010).\nImpact sociétal majeur de la désinformation (mésinformation, fake news)\n(Sharma et al. 2019; Souza et al. 2020; Oshikawa, Qian et Wang 2020).\nComplexité accrue par l’IA générative (GenAI) capable de créer des contenus\nsynthétiques réalistes (K. Chen et Shu 2023; Loth, Kappes et Pahl 2024).\nBesoin de transparence et d’explicabilité des systèmes IA, notamment les LLMs\n(Liao2024; Mahari2023; Zou2023; Chaudhary2024; DiakopoulosND).",
+		"accessDate": "2025-10-05T18:57:05Z",
+		"citationKey": "loyerOntologieSysVerification2025d",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2025-10-05T18:57:05Z",
+		"dateModified": "2026-11-17T15:07:56Z",
+		"extra": "abstractTranslation: Exponential proliferation of online information (Zhou and Zafarani 2020; Viviani and Pasi 2017). Increasing difficulty for users to assess the reliability of sources and content (Metzger, Flanagin, and Medders 2010; Rieh 2010). Major societal impact of disinformation (misinformation, fake news) (Sharma et al. 2019; Souza et al. 2020; Oshikawa, Qian, and Wang 2020). Increased complexity due to generative AI (GenAI) capable of creating realistic synthetic content (K. Chen and Shu 2023; Loth, Kappes, and Pahl 2024). Need for transparency and explainability of AI systems, particularly LLMs (Liao2024; Mahari2023; Zou2023; Chaudhary2024; DiakopoulosND).\ntitleTranslation: Ontology - Information Credibility Verification System Final Project presented to Petko Valchev, DIC-9335 Web Sciences",
+		"inPublications": true,
+		"itemType": "journalArticle",
+		"key": "K9QVVWXD",
+		"language": "fr",
+		"libraryCatalog": "DOI.org (Datacite)",
+		"pages": "22",
+		"publisher": "Unpublished",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/79LXFULR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Fact Checker, xAI, AI Transparency, AI accountability, Intelligence artificielle explicable"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Ontologie - Sys. de Vérification de la Crédibilité de l’Information Projet Final présenté à Petko Valchev, DIC-9335 Sciences du Web",
+		"url": "https://rgdoi.net/10.13140/RG.2.2.25249.72807"
+	}
+}

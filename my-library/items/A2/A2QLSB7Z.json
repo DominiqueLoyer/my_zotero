@@ -1,0 +1,151 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:55:24Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:55:24Z",
+			"dateModified": "2026-11-09T15:02:31Z",
+			"filename": "Bussmann et al. - 2021 - Explainable AI in credit risk management.pdf",
+			"itemType": "attachment",
+			"key": "KF6F93J8",
+			"linkMode": "imported_url",
+			"parentItem": "A2QLSB7Z",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/MVVJTT39"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://link.springer.com/content/pdf/10.1007%2Fs10614-020-10042-0.pdf"
+		},
+		{
+			"accessDate": "2025-12-05T22:36:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:24Z",
+			"dateModified": "2026-11-09T17:08:43Z",
+			"itemType": "attachment",
+			"key": "WR2LY4RG",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:43 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "A2QLSB7Z",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/2HCH6H62"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/9UKTJVKV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Bussmann-et-al-2021-4129fa248c5781e2b699fc60d4c1ae21"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Bussmann et al. - 2021 - Explainable AI in credit risk management.pdf",
+				"files": [
+					{
+						"path": "attachments/KF/KF6F93J8/Bussmann et al. - 2021 - Explainable AI in credit risk management.pdf",
+						"size": 1900874,
+						"storage": "git"
+					}
+				],
+				"key": "KF6F93J8",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://link.springer.com/content/pdf/10.1007%2Fs10614-020-10042-0.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WR2LY4RG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Bussmann-et-al-2021-4129fa248c5781e2b699fc60d4c1ae21"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Bussmann, Niklas",
+			"Giudici, Paolo",
+			"Marinelli, Daniele",
+			"Papenbrock, Jochen"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explainable AI in credit risk management",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/A2QLSB7Z"
+	},
+	"zotero": {
+		"DOI": "10.1007/s10614-020-10042-0",
+		"citationKey": "bussmannExplainableAICredit2021",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Niklas",
+				"lastName": "Bussmann"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Paolo",
+				"lastName": "Giudici"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Daniele",
+				"lastName": "Marinelli"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jochen",
+				"lastName": "Papenbrock"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-09T15:02:31Z",
+		"itemType": "conferencePaper",
+		"key": "A2QLSB7Z",
+		"pages": "203–216",
+		"proceedingsTitle": "Computational Economics",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/6QYT5KAL",
+				"http://zotero.org/users/15425556/items/AUHDCYBL"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/DA5H63NR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable AI in credit risk management",
+		"volume": "57"
+	}
+}

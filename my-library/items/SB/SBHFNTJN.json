@@ -1,0 +1,154 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:35:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:32Z",
+			"dateModified": "2026-11-09T17:07:49Z",
+			"itemType": "attachment",
+			"key": "ADM79YLF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:49 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "SBHFNTJN",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/GG98XDEJ"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ZS65JPGJ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Descartes-1637-4129fa248c5781c59551d00d7c647009"
+		},
+		{
+			"dateAdded": "2025-10-10T19:01:26Z",
+			"dateModified": "2025-10-10T19:01:26Z",
+			"itemType": "note",
+			"key": "MEWQJPHG",
+			"note": "<p>Première édition</p>",
+			"parentItem": "SBHFNTJN",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"dateAdded": "2026-01-08T20:07:31Z",
+			"dateModified": "2026-11-09T15:03:26Z",
+			"itemType": "note",
+			"key": "TLFY3FQD",
+			"note": "Première édition",
+			"parentItem": "SBHFNTJN",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/85MVT86T"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-08T20:07:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:07:31Z",
+			"dateModified": "2026-11-09T15:03:26Z",
+			"itemType": "attachment",
+			"key": "U8IG6VUX",
+			"linkMode": "linked_url",
+			"parentItem": "SBHFNTJN",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/JPH4THEB"
+				]
+			},
+			"tags": [],
+			"title": "textenumerise",
+			"url": "https://gallica.bnf.fr/ark:/12148/bpt6k7356c.image"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ADM79YLF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Descartes-1637-4129fa248c5781c59551d00d7c647009"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "U8IG6VUX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "textenumerise",
+				"url": "https://gallica.bnf.fr/ark:/12148/bpt6k7356c.image"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"Descartes, René"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "TLFY3FQD",
+				"title": "Première édition"
+			},
+			{
+				"key": "MEWQJPHG",
+				"title": "Première édition"
+			}
+		],
+		"title": "Discours de la méthode pour bien conduire sa raison et chercher la vérité dans les sciences",
+		"year": "1637",
+		"zoteroURI": "zotero://select/library/items/SBHFNTJN"
+	},
+	"zotero": {
+		"citationKey": "descartesDiscoursMethodePour1637",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "René",
+				"lastName": "Descartes"
+			}
+		],
+		"date": "1637",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-09T15:03:26Z",
+		"itemType": "book",
+		"key": "SBHFNTJN",
+		"place": "Leyde",
+		"publisher": "Jean Maire",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/2HL22U6D"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/QY2WMIER"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Discours de la méthode pour bien conduire sa raison et chercher la vérité dans les sciences"
+	}
+}

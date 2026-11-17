@@ -1,0 +1,98 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "video/mp4",
+			"dateAdded": "2025-03-03T17:56:29Z",
+			"dateModified": "2025-03-03T17:57:23Z",
+			"filename": "Intro.mp4",
+			"itemType": "attachment",
+			"key": "6IJPYULT",
+			"linkMode": "imported_file",
+			"parentItem": "J8DT7KB9",
+			"relations": {},
+			"tags": [],
+			"title": "Vidéo"
+		},
+		{
+			"accessDate": "2025-12-05T22:31:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:31:57Z",
+			"dateModified": "2026-01-02T19:16:34Z",
+			"itemType": "attachment",
+			"key": "G97IETT8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:34 p.m.</p>",
+			"parentItem": "J8DT7KB9",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/lounishakimIntro2025-2c09fa248c57814c8472e113fe97d916"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "G97IETT8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/lounishakimIntro2025-2c09fa248c57814c8472e113fe97d916"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "video/mp4",
+				"filename": "Intro.mp4",
+				"files": [],
+				"key": "6IJPYULT",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "Vidéo",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "videoRecording",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Intro",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/J8DT7KB9"
+	},
+	"zotero": {
+		"citationKey": "lounishakimIntro2025",
+		"collections": [
+			"G4KBEA9A"
+		],
+		"creators": [
+			{
+				"creatorType": "director",
+				"name": "Lounis Hakim"
+			}
+		],
+		"date": "mars 2025",
+		"dateAdded": "2025-03-03T17:57:22Z",
+		"dateModified": "2025-12-05T22:31:57Z",
+		"itemType": "videoRecording",
+		"key": "J8DT7KB9",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Intro",
+		"videoRecordingFormat": "mp4"
+	}
+}

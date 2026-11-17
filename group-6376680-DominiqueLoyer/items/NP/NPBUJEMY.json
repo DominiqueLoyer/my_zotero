@@ -1,0 +1,93 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "attachment",
+			"key": "6VBWEQNK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:43 p.m.</p>",
+			"parentItem": "NPBUJEMY",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/englehardtOnlineTracking1millionsite2016-2c09fa248c5781c080a6edc5d4951c41"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "6VBWEQNK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/englehardtOnlineTracking1millionsite2016-2c09fa248c5781c080a6edc5d4951c41"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Englehardt, Steven",
+			"Narayanan, Arvind"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Online Tracking: A 1-million-site Measurement and Analysis",
+		"year": "2016",
+		"zoteroURI": "zotero://select/groups/6376680/items/NPBUJEMY"
+	},
+	"zotero": {
+		"DOI": "10.1145/2976749.2978313",
+		"ISBN": "978-1-4503-4139-4",
+		"accessDate": "2024-11-24T15:08:04Z",
+		"citationKey": "englehardtOnlineTracking1millionsite2016a",
+		"collections": [
+			"J6WCHKF9",
+			"P9N6XDU8"
+		],
+		"conferenceName": "CCS'16: 2016 ACM SIGSAC Conference on Computer and Communications Security",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Steven",
+				"lastName": "Englehardt"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Arvind",
+				"lastName": "Narayanan"
+			}
+		],
+		"date": "2016-10-24",
+		"dateAdded": "2026-04-17T21:21:41Z",
+		"dateModified": "2026-04-17T21:21:41Z",
+		"itemType": "conferencePaper",
+		"key": "NPBUJEMY",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1388-1401",
+		"place": "Vienna Austria",
+		"proceedingsTitle": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security",
+		"publisher": "ACM",
+		"relations": {},
+		"shortTitle": "Online Tracking",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Online Tracking: A 1-million-site Measurement and Analysis",
+		"url": "https://dl.acm.org/doi/10.1145/2976749.2978313"
+	}
+}

@@ -1,0 +1,116 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:27:54Z",
+			"dateModified": "2025-03-31T18:58:50Z",
+			"filename": "Résumé du formalisme graphique diag etat.pdf",
+			"itemType": "attachment",
+			"key": "HCEFWJRT",
+			"linkMode": "imported_file",
+			"parentItem": "427DDKZQ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/5QP9F7NU",
+					"http://zotero.org/users/15425556/items/7SIGYQTR"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:27:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:26Z",
+			"dateModified": "2026-01-02T19:15:16Z",
+			"itemType": "attachment",
+			"key": "TMCS2NNN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:16 p.m.</p>",
+			"parentItem": "427DDKZQ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ResumeFormalismeGraphique-2c09fa248c578155b952ce62d864216d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TMCS2NNN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ResumeFormalismeGraphique-2c09fa248c578155b952ce62d864216d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Résumé du formalisme graphique diag etat.pdf",
+				"files": [
+					{
+						"path": "attachments/HC/HCEFWJRT/Résumé du formalisme graphique diag etat.pdf",
+						"size": 8887,
+						"storage": "git"
+					}
+				],
+				"key": "HCEFWJRT",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases",
+			"Cours H25/Modélisation/cours 4.1 dynamique"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Résumé du formalisme graphique diag etat",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/427DDKZQ"
+	},
+	"zotero": {
+		"citationKey": "lounishakimResumeFormalismeGraphique",
+		"collections": [
+			"G4KBEA9A",
+			"JBEL9UJJ",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:47:54Z",
+		"dateModified": "2025-03-31T18:58:50Z",
+		"itemType": "document",
+		"key": "427DDKZQ",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/GASSTY2S",
+				"http://zotero.org/users/15425556/items/X3HN5LVJ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Résumé du formalisme graphique diag etat"
+	}
+}

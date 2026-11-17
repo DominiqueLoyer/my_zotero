@@ -1,0 +1,80 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:16:25Z",
+			"dateModified": "2026-03-09T20:41:50Z",
+			"itemType": "attachment",
+			"key": "IN3C9S36",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:41:50 p.m.</p>",
+			"parentItem": "R5FHR8F4",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/BX5MGU2U",
+					"http://zotero.org/groups/6376680/items/PE2ETC44"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/2022Recommender-3129fa248c57818bb7adc8b251536223"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IN3C9S36",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/2022Recommender-3129fa248c57818bb7adc8b251536223"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Recommender Systems Handbook",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/R5FHR8F4"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-1-0716-2197-4",
+		"citationKey": "RecommenderSystemsHandbook2022",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [],
+		"date": "2022",
+		"dateAdded": "2026-02-25T21:45:12Z",
+		"dateModified": "2026-11-09T14:58:24Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "R5FHR8F4",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/KGJHMFHE"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/E4K79B4E",
+				"http://zotero.org/groups/6376680/items/RGMZB37A"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Recommender Systems Handbook"
+	}
+}

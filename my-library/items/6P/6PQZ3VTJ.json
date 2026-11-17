@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:31Z",
+			"dateModified": "2026-03-09T20:44:06Z",
+			"itemType": "attachment",
+			"key": "VQEHPPSH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:06 p.m.</p>",
+			"parentItem": "6PQZ3VTJ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/KSFPGQVB",
+					"http://zotero.org/groups/6376680/items/Q4Z2SPVE"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Chen2019Mitigating-3129fa248c5781d783a2ebb45b1c5086"
+		},
+		{
+			"accessDate": "2026-11-08T16:38:05Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:38:05Z",
+			"dateModified": "2026-11-08T16:38:05Z",
+			"filename": "Chen, Lixin and others - 2019 - Mitigating Feedback Loops in Recommender Systems.pdf",
+			"itemType": "attachment",
+			"key": "W3BTZZC7",
+			"linkMode": "imported_url",
+			"parentItem": "6PQZ3VTJ",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1902.10730"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VQEHPPSH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Chen2019Mitigating-3129fa248c5781d783a2ebb45b1c5086"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Chen, Lixin and others - 2019 - Mitigating Feedback Loops in Recommender Systems.pdf",
+				"files": [
+					{
+						"path": "attachments/W3/W3BTZZC7/Chen, Lixin and others - 2019 - Mitigating Feedback Loops in Recommender Systems.pdf",
+						"size": 1014156,
+						"storage": "git"
+					}
+				],
+				"key": "W3BTZZC7",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1902.10730"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Chen, Lixin and others"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Mitigating Feedback Loops in Recommender Systems",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/6PQZ3VTJ"
+	},
+	"zotero": {
+		"DOI": "10.1145/3306618.3314288",
+		"citationKey": "chenlixinandothersMitigatingFeedbackLoops2019",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Chen, Lixin and others"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-02-25T21:34:36Z",
+		"dateModified": "2026-03-25T21:29:51Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "6PQZ3VTJ",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/6KHGFQ5S",
+				"http://zotero.org/groups/6376680/items/AYRRTZTU"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Mitigating Feedback Loops in Recommender Systems"
+	}
+}

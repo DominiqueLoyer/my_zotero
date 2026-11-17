@@ -1,0 +1,101 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:37:31Z",
+			"dateModified": "2026-11-09T17:07:07Z",
+			"itemType": "attachment",
+			"key": "C64ZKCIY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:07 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "QLQGLLA8",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ZH9ZZDU5"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Universit-de-Montr-al-2018-4129fa248c5781c1b87acd06c3bad653"
+		},
+		{
+			"dateAdded": "2026-01-08T20:07:32Z",
+			"dateModified": "2026-01-08T20:07:32Z",
+			"itemType": "note",
+			"key": "SXYPRFPY",
+			"note": "Consulté le 10 octobre 2025",
+			"parentItem": "QLQGLLA8",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/KZ5ETHMV"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "C64ZKCIY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Universit-de-Montr-al-2018-4129fa248c5781c1b87acd06c3bad653"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Université de Montréal"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "SXYPRFPY",
+				"title": "Consulté le 10 octobre 2025"
+			}
+		],
+		"title": "Déclaration de Montréal pour un développement responsable de l'intelligence artificielle",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/QLQGLLA8"
+	},
+	"zotero": {
+		"citationKey": "universitedemontrealDeclarationMontrealPour2018a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Université de Montréal"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-01-08T20:07:32Z",
+		"dateModified": "2026-03-25T21:30:34Z",
+		"itemType": "document",
+		"key": "QLQGLLA8",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/32QFN3WA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Déclaration de Montréal pour un développement responsable de l'intelligence artificielle",
+		"url": "https://www.declarationmontreal-iaresponsable.com/"
+	}
+}

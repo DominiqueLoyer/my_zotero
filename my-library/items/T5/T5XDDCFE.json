@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:19Z",
+			"dateModified": "2026-11-09T17:07:50Z",
+			"itemType": "attachment",
+			"key": "ZRGT6EDM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:50 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "T5XDDCFE",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HDMTUGWY",
+					"http://zotero.org/groups/6376680/items/Z7V2R9A6"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Descartes-Ren-2020-4129fa248c57815c8a58df49b5b5010b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZRGT6EDM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Descartes-Ren-2020-4129fa248c57815c8a58df49b5b5010b"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Descartes, René"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Discours de la méthode pour bien conduire sa raison et chercher la vérité dans les sciences",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/T5XDDCFE"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-476-05728-0_9538-1",
+		"citationKey": "descartesreneDiscoursMethodePour2020",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Descartes, René"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-02-25T21:35:37Z",
+		"dateModified": "2026-03-25T21:29:50Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "T5XDDCFE",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/G4CMF954",
+				"http://zotero.org/groups/6376680/items/MMGW8ZQ6"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Discours de la méthode pour bien conduire sa raison et chercher la vérité dans les sciences"
+	}
+}

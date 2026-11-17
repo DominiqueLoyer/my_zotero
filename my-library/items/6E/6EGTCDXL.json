@@ -1,0 +1,188 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:35Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:35Z",
+			"dateModified": "2026-01-02T19:18:31Z",
+			"itemType": "attachment",
+			"key": "I32CQ56N",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:31 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-81c9-8098-e19a66fddcd9\",\"notes\":{\"WE65WL3B\":{\"blockID\":\"2c09fa24-8c57-81c7-b029-e3a93c15d66e\",\"syncedAt\":\"2025-12-05T22:39:22.053Z\"}}}</pre>",
+			"parentItem": "6EGTCDXL",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/YMXDZLPI"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/sahooLayerwiseEarlyStopping2024-2c09fa248c57812c853ffa2035de2cd9"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-02T18:48:10Z",
+			"dateModified": "2024-11-02T18:48:10Z",
+			"filename": "Sahoo et al. - 2024 - Layerwise Early Stopping for Test Time Adaptation.pdf",
+			"itemType": "attachment",
+			"key": "N85MMDCR",
+			"linkMode": "imported_file",
+			"parentItem": "6EGTCDXL",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2024-11-02T17:29:21Z",
+			"dateModified": "2024-11-02T17:29:21Z",
+			"itemType": "note",
+			"key": "WE65WL3B",
+			"note": "Comment: 14 pages, 5 figures",
+			"parentItem": "6EGTCDXL",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HH83SMHJ"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "I32CQ56N",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/sahooLayerwiseEarlyStopping2024-2c09fa248c57812c853ffa2035de2cd9"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Sahoo et al. - 2024 - Layerwise Early Stopping for Test Time Adaptation.pdf",
+				"files": [
+					{
+						"path": "attachments/N8/N85MMDCR/Sahoo et al. - 2024 - Layerwise Early Stopping for Test Time Adaptation.pdf",
+						"size": 351416,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/N8/N85MMDCR/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 89097,
+						"storage": "git"
+					}
+				],
+				"key": "N85MMDCR",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Sahoo, Sabyasachi",
+			"ElAraby, Mostafa",
+			"Ngnawe, Jonas",
+			"Pequignot, Yann",
+			"Precioso, Frederic",
+			"Gagne, Christian"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "WE65WL3B",
+				"title": "Comment: 14 pages, 5 figures"
+			}
+		],
+		"title": "Layerwise Early Stopping for Test Time Adaptation",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/6EGTCDXL"
+	},
+	"zotero": {
+		"abstractNote": "Test Time Adaptation (TTA) addresses the problem of distribution shift by enabling pretrained models to learn new features on an unseen domain at test time. However, it poses a significant challenge to maintain a balance between learning new features and retaining useful pretrained features. In this paper, we propose Layerwise EArly STopping (LEAST) for TTA to address this problem. The key idea is to stop adapting individual layers during TTA if the features being learned do not appear beneficial for the new domain. For that purpose, we propose using a novel gradient-based metric to measure the relevance of the current learnt features to the new domain without the need for supervised labels. More specifically, we propose to use this metric to determine dynamically when to stop updating each layer during TTA. This enables a more balanced adaptation, restricted to layers benefiting from it, and only for a certain number of steps. Such an approach also has the added effect of limiting the forgetting of pretrained features useful for dealing with new domains. Through extensive experiments, we demonstrate that Layerwise Early Stopping improves the performance of existing TTA approaches across multiple datasets, domain shifts, model architectures, and TTA losses.",
+		"accessDate": "2024-11-02T17:29:21Z",
+		"archiveID": "arXiv:2404.03784",
+		"citationKey": "sahooLayerwiseEarlyStopping2024",
+		"collections": [
+			"J4VTG4NB",
+			"NKV86EAI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Sabyasachi",
+				"lastName": "Sahoo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mostafa",
+				"lastName": "ElAraby"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jonas",
+				"lastName": "Ngnawe"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yann",
+				"lastName": "Pequignot"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Frederic",
+				"lastName": "Precioso"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Christian",
+				"lastName": "Gagne"
+			}
+		],
+		"date": "2024-04-04",
+		"dateAdded": "2024-11-02T17:29:21Z",
+		"dateModified": "2025-12-05T22:26:35Z",
+		"extra": "arXiv:2404.03784 [cs]",
+		"itemType": "preprint",
+		"key": "6EGTCDXL",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/WAFYK4HL"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computer Vision and Pattern Recognition",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Layerwise Early Stopping for Test Time Adaptation",
+		"url": "http://arxiv.org/abs/2404.03784"
+	}
+}

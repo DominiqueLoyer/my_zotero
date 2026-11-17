@@ -1,0 +1,157 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:29:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:29:19Z",
+			"dateModified": "2026-01-02T19:18:30Z",
+			"itemType": "attachment",
+			"key": "24BD9QWH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:30 p.m.</p>",
+			"parentItem": "SJ7C57AX",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2WF8SB93"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/mahariTRANSPARENCYDESIGNLARGE2023-2c09fa248c57814a906ffd9c259a9e55"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-02T17:29:45Z",
+			"dateModified": "2024-11-22T19:19:51Z",
+			"filename": "Mahari et al. - 2023 - TRANSPARENCY BY DESIGN FOR LARGE LANGUAGE MODELS.pdf",
+			"itemType": "attachment",
+			"key": "AMIULE9Q",
+			"linkMode": "imported_file",
+			"parentItem": "SJ7C57AX",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/4L6CHKN3"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "24BD9QWH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/mahariTRANSPARENCYDESIGNLARGE2023-2c09fa248c57814a906ffd9c259a9e55"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Mahari et al. - 2023 - TRANSPARENCY BY DESIGN FOR LARGE LANGUAGE MODELS.pdf",
+				"files": [
+					{
+						"path": "attachments/AM/AMIULE9Q/Mahari et al. - 2023 - TRANSPARENCY BY DESIGN FOR LARGE LANGUAGE MODELS.pdf",
+						"size": 165104,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/AM/AMIULE9Q/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 23386,
+						"storage": "git"
+					}
+				],
+				"key": "AMIULE9Q",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Littérature donnée par Daniel",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Transparency"
+		],
+		"creators": [
+			"Mahari, Robert",
+			"South, Tobin",
+			"Pentland, Sandy’"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "TRANSPARENCY BY DESIGN FOR LARGE LANGUAGE MODELS",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/SJ7C57AX"
+	},
+	"zotero": {
+		"citationKey": "mahariTRANSPARENCYDESIGNLARGE2023",
+		"collections": [
+			"ENT9VKF6",
+			"J4VTG4NB",
+			"NKV86EAI",
+			"YTIIWDKF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Robert",
+				"lastName": "Mahari"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tobin",
+				"lastName": "South"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sandy’",
+				"lastName": "Pentland"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2024-11-02T17:29:47Z",
+		"dateModified": "2025-12-29T23:57:38Z",
+		"itemType": "journalArticle",
+		"key": "SJ7C57AX",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/K3TQIDYC"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/AGE8XYNN"
+			]
+		},
+		"tags": [
+			{
+				"tag": "LLM"
+			},
+			{
+				"tag": "algorithm transparency"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "transparency"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "TRANSPARENCY BY DESIGN FOR LARGE LANGUAGE MODELS"
+	}
+}

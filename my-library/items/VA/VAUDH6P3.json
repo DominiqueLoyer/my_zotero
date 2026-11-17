@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:14Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:14Z",
+			"dateModified": "2026-11-09T17:04:39Z",
+			"itemType": "attachment",
+			"key": "7TURLJJC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:39 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VAUDH6P3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/4AJ4TD8D",
+					"http://zotero.org/groups/6376680/items/DT6WLJVM"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Elkahky-Ali-Mamdouh-and-Song-Yang-and-He-Xiaodong-2015-4129fa248c5781ce858fe6d19a6ebaaf"
+		},
+		{
+			"accessDate": "2026-11-08T16:21:00Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:21:00Z",
+			"dateModified": "2026-11-08T16:21:00Z",
+			"filename": "Elkahky, Ali Mamdouh and Song, Yang and He, Xiaodong - 2015 - A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems.pdf",
+			"itemType": "attachment",
+			"key": "DNC5ACWB",
+			"linkMode": "imported_url",
+			"parentItem": "VAUDH6P3",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/1511.06939v4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7TURLJJC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Elkahky-Ali-Mamdouh-and-Song-Yang-and-He-Xiaodong-2015-4129fa248c5781ce858fe6d19a6ebaaf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Elkahky, Ali Mamdouh and Song, Yang and He, Xiaodong - 2015 - A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems.pdf",
+				"files": [
+					{
+						"path": "attachments/DN/DNC5ACWB/Elkahky, Ali Mamdouh and Song, Yang and He, Xiaodong - 2015 - A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems.pdf",
+						"size": 311412,
+						"storage": "git"
+					}
+				],
+				"key": "DNC5ACWB",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/1511.06939v4"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Elkahky, Ali Mamdouh and Song, Yang and He, Xiaodong"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/VAUDH6P3"
+	},
+	"zotero": {
+		"DOI": "10.1145/2736277.2741667",
+		"citationKey": "elkahkyalimamdouhandsongyangandhexiaodongMultiViewDeepLearning2015",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Elkahky, Ali Mamdouh and Song, Yang and He, Xiaodong"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-02-25T21:36:13Z",
+		"dateModified": "2026-03-25T21:29:49Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "VAUDH6P3",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8X8KY4DZ",
+				"http://zotero.org/groups/6376680/items/EJ4HN6HE"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems",
+		"url": "https://arxiv.org/abs/1511.06939"
+	}
+}

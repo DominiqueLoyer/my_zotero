@@ -1,0 +1,155 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:01Z",
+			"dateModified": "2026-11-09T17:05:32Z",
+			"itemType": "attachment",
+			"key": "5M9W5QQK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:32 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "Z6PWCHF6",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LLM7HY72"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Vermeulen-et-al-2023-4129fa248c578184af6aeb016dd117c1"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:33:25Z",
+			"dateModified": "2026-03-14T17:40:55Z",
+			"itemType": "attachment",
+			"key": "LPGXTYIN",
+			"linkMode": "linked_file",
+			"parentItem": "Z6PWCHF6",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Vermeulen et al. - 2023 - An Experimental Overview of Neural-Symbolic Systems.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5M9W5QQK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Vermeulen-et-al-2023-4129fa248c578184af6aeb016dd117c1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Vermeulen et al. - 2023 - An Experimental Overview of Neural-Symbolic Systems.pdf",
+				"files": [
+					{
+						"path": "attachments/LP/LPGXTYIN/Vermeulen et al. - 2023 - An Experimental Overview of Neural-Symbolic Systems.pdf",
+						"size": 706825,
+						"storage": "git"
+					}
+				],
+				"key": "LPGXTYIN",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Bellodi, Elena",
+			"Lisi, Francesca Alessandra",
+			"Zese, Riccardo",
+			"Vermeulen, Arne",
+			"Manhaeve, Robin",
+			"Marra, Giuseppe"
+		],
+		"itemType": "bookSection",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "An Experimental Overview of Neural-Symbolic Systems",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/Z6PWCHF6"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-031-49299-0_9",
+		"ISBN": "978-3-031-49298-3 978-3-031-49299-0",
+		"abstractNote": "Neural-symbolic AI is the field that seeks to integrate deep learning with symbolic, logic-based methods, as they have complementary strengths. Lately, more and more researchers have encountered the limitations of deep learning, which has led to a rise in the popularity of neural-symbolic AI, with a wide variety of systems being developed. However, many of these systems are either evaluated on different benchmarks, or introduce new benchmarks that other systems have not been tested on. As a result, it is unclear which systems are suited to which tasks, and whether the difference between systems is actually significant. In this paper, we give an overview and classification of the tasks used in state-of-the-art neural-symbolic system. We show that most tasks fall in one of five categories, and that very few systems are compared on the same benchmarks. We also provide a methodological experimental comparison of a variety of systems on two popular tasks: learning with distant supervision and structured prediction. Our results show that a systems based on (probabilistic) logic programming achieve superior performance on these tasks, and that the performance amongst these methods does not differ significantly. Finally, we also discuss how the properties of the (probabilistic) logic programming-based systems are desirable for most neural-symbolic tasks.",
+		"accessDate": "2026-03-14T17:40:55Z",
+		"bookTitle": "Inductive Logic Programming",
+		"citationKey": "vermeulenExperimentalOverviewNeuralSymbolic2023",
+		"collections": [
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "editor",
+				"firstName": "Elena",
+				"lastName": "Bellodi"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Francesca Alessandra",
+				"lastName": "Lisi"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Riccardo",
+				"lastName": "Zese"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Arne",
+				"lastName": "Vermeulen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Robin",
+				"lastName": "Manhaeve"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Giuseppe",
+				"lastName": "Marra"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-03-14T17:40:55Z",
+		"dateModified": "2026-03-14T18:17:01Z",
+		"extra": "Series Title: Lecture Notes in Computer Science",
+		"itemType": "bookSection",
+		"key": "Z6PWCHF6",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "124-138",
+		"place": "Cham",
+		"publisher": "Springer Nature Switzerland",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8ZNMLGFR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "An Experimental Overview of Neural-Symbolic Systems",
+		"url": "https://link.springer.com/10.1007/978-3-031-49299-0_9",
+		"volume": "14363"
+	}
+}

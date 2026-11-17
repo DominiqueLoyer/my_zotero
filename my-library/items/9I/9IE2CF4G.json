@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:25:37Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:25:37Z",
+			"dateModified": "2026-11-08T16:25:37Z",
+			"filename": "UK DRCF - 2021 - Auditing algorithms the existing landscape, role of regulators and future outlook.pdf",
+			"itemType": "attachment",
+			"key": "74HTTQ5Y",
+			"linkMode": "imported_url",
+			"parentItem": "9IE2CF4G",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://www.mdpi.com/2072-6694/13/16/4023/pdf?version=1628591265"
+		},
+		{
+			"accessDate": "2026-02-25T22:15:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:48Z",
+			"dateModified": "2026-11-09T17:05:41Z",
+			"itemType": "attachment",
+			"key": "SVHERJQL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:41 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "9IE2CF4G",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/T3YHFNQY",
+					"http://zotero.org/groups/6376680/items/USUP9PRA"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/UK-DRCF-2021-4129fa248c57819b9999e06207d72ee1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "UK DRCF - 2021 - Auditing algorithms the existing landscape, role of regulators and future outlook.pdf",
+				"files": [
+					{
+						"path": "attachments/74/74HTTQ5Y/UK DRCF - 2021 - Auditing algorithms the existing landscape, role of regulators and future outlook.pdf",
+						"size": 715515,
+						"storage": "git"
+					}
+				],
+				"key": "74HTTQ5Y",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://www.mdpi.com/2072-6694/13/16/4023/pdf?version=1628591265"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SVHERJQL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/UK-DRCF-2021-4129fa248c57819b9999e06207d72ee1"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"UK DRCF"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Auditing algorithms: the existing landscape, role of regulators and future outlook",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/9IE2CF4G"
+	},
+	"zotero": {
+		"DOI": "10.3390/cancers13164023",
+		"citationKey": "ukdrcfAuditingAlgorithmsExisting2021",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "UK DRCF"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-02-25T21:52:30Z",
+		"dateModified": "2026-11-13T19:32:11Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "9IE2CF4G",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/Q5MVDVMN",
+				"http://zotero.org/groups/6376680/items/R7G4I8G5"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Auditing algorithms: the existing landscape, role of regulators and future outlook"
+	}
+}

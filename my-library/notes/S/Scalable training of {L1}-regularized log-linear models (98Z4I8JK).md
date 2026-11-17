@@ -1,0 +1,34 @@
+---
+title: "Scalable training of {L1}-regularized log-linear models"
+item-type: "journalArticle"
+authors:
+  - "Andrew, Galen and Gao, Jianfeng"
+date: "2009"
+year: "2009"
+doi: "10.3115/1687878.1687946"
+tags:
+  - "notion"
+collections:
+  - "9401_bibtex_all_250226"
+zotero-key: "98Z4I8JK"
+zotero-library: 1
+zotero-uri: "zotero://select/library/items/98Z4I8JK"
+date-added: "2026-02-25 20:56:24"
+date-modified: "2026-03-25 21:29:55"
+---
+
+# Scalable training of {L1}-regularized log-linear models
+
+**Andrew, Galen and Gao, Jianfeng**
+
+## Extra
+
+Importé via SysCRED.
+
+## Attachments
+
+- [Notion](notion://www.notion.so/Andrew2009Scalable-3129fa248c5781e49223ccaacf4a509e)
+
+---
+
+[Open in Zotero](zotero://select/library/items/98Z4I8JK)

@@ -1,0 +1,119 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:30:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:30:54Z",
+			"dateModified": "2026-11-09T14:56:02Z",
+			"itemType": "attachment",
+			"key": "FAYBHGR9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:48:45 p.m.</p>",
+			"parentItem": "RGLP26FU",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Shearman2024-2e29fa248c578135aab6e44fc32233f8"
+		},
+		{
+			"accessDate": "2025-12-05T22:38:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:38:06Z",
+			"dateModified": "2026-11-09T14:56:02Z",
+			"itemType": "attachment",
+			"key": "P3FF3N56",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:10:22 p.m.</p>",
+			"parentItem": "RGLP26FU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/QVUREVZJ"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HYY7L3WL"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/a-o-shearmanZoomingAI102024-2c09fa248c5781bca5bde968b0a60436"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FAYBHGR9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Shearman2024-2e29fa248c578135aab6e44fc32233f8"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "P3FF3N56",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/a-o-shearmanZoomingAI102024-2c09fa248c5781bca5bde968b0a60436"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"A.O. Shearman"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Zooming in on AI – #10: EU AI Act – What are the obligations for “high-risk AI systems”?",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/RGLP26FU"
+	},
+	"zotero": {
+		"citationKey": "a.o.shearmanZoomingAI102024",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "A.O. Shearman"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T14:56:02Z",
+		"itemType": "document",
+		"key": "RGLP26FU",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/8VADU7DE",
+				"http://zotero.org/users/15425556/items/SSP5P9R9"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UWPPJ6L3"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Zooming in on AI – #10: EU AI Act – What are the obligations for “high-risk AI systems”?",
+		"url": "https://www.aoshearman.com/en/insights/ao-shearman-on-tech/zooming-in-on-ai-10-eu-ai-act-what-are-the-obligations-for-high-risk-ai-systems"
+	}
+}

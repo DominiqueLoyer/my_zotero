@@ -1,0 +1,203 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:30Z",
+			"dateModified": "2026-11-09T17:06:06Z",
+			"itemType": "attachment",
+			"key": "2CC9EWC3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:06 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "YVR4WYBB",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/EFFPTJPE"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Laperdrix-et-al-2019-4129fa248c57814f9738d0cf4a90f8a8"
+		},
+		{
+			"accessDate": "2024-11-24T18:09:15Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2024-11-24T18:09:15Z",
+			"dateModified": "2024-11-24T18:09:15Z",
+			"filename": "1905.html",
+			"itemType": "attachment",
+			"key": "C6MZCWFV",
+			"linkMode": "imported_url",
+			"parentItem": "YVR4WYBB",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://arxiv.org/abs/1905.01051"
+		},
+		{
+			"accessDate": "2024-11-24T18:09:15Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-24T18:09:15Z",
+			"dateModified": "2024-11-24T18:09:15Z",
+			"filename": "Laperdrix et al. - 2019 - Browser Fingerprinting A survey.pdf",
+			"itemType": "attachment",
+			"key": "P62J64A3",
+			"linkMode": "imported_url",
+			"parentItem": "YVR4WYBB",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://arxiv.org/pdf/1905.01051"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Laperdrix et al. - 2019 - Browser Fingerprinting A survey.pdf",
+				"files": [
+					{
+						"path": "attachments/P6/P62J64A3/Laperdrix et al. - 2019 - Browser Fingerprinting A survey.pdf",
+						"size": 898089,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/P6/P62J64A3/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 128889,
+						"storage": "git"
+					}
+				],
+				"key": "P62J64A3",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://arxiv.org/pdf/1905.01051"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2CC9EWC3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Laperdrix-et-al-2019-4129fa248c57814f9738d0cf4a90f8a8"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "1905.html",
+				"files": [
+					{
+						"path": "attachments/C6/C6MZCWFV/1905.html",
+						"size": 60629,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/C6/C6MZCWFV/1905 (trashed 2025-11-24 15-34-11).html",
+						"size": 60629,
+						"storage": "git"
+					}
+				],
+				"key": "C6MZCWFV",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://arxiv.org/abs/1905.01051"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Laperdrix, Pierre",
+			"Bielova, Nataliia",
+			"Baudry, Benoit",
+			"Avoine, Gildas"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Browser Fingerprinting: A survey",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/YVR4WYBB"
+	},
+	"zotero": {
+		"DOI": "10.1145/3386040",
+		"abstractNote": "With this paper, we survey the research performed in the domain of browser fingerprinting, while providing an accessible entry point to newcomers in the field. We explain how this technique works and where it stems from. We analyze the related work in detail to understand the composition of modern fingerprints and see how this technique is currently used online. We systematize existing defense solutions into different categories and detail the current challenges yet to overcome.",
+		"accessDate": "2024-11-24T18:09:09Z",
+		"archiveID": "arXiv:1905.01051",
+		"citationKey": "laperdrixBrowserFingerprintingSurvey2019",
+		"collections": [
+			"J4VTG4NB",
+			"NKV86EAI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Pierre",
+				"lastName": "Laperdrix"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Nataliia",
+				"lastName": "Bielova"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Benoit",
+				"lastName": "Baudry"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gildas",
+				"lastName": "Avoine"
+			}
+		],
+		"date": "2019-11-04",
+		"dateAdded": "2024-11-24T18:09:09Z",
+		"dateModified": "2026-11-13T19:33:11Z",
+		"extra": "arXiv:1905.01051\nDOI Fix previous DOI: 10.48550/arXiv.1905.01051",
+		"itemType": "preprint",
+		"key": "YVR4WYBB",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/68NPM4YJ"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Browser Fingerprinting",
+		"tags": [
+			{
+				"tag": "Computer Science - Cryptography and Security",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Software Engineering",
+				"type": 1
+			},
+			{
+				"tag": "fingerprinting"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "user privacy"
+			},
+			{
+				"tag": "web tracking"
+			}
+		],
+		"title": "Browser Fingerprinting: A survey",
+		"url": "http://arxiv.org/abs/1905.01051"
+	}
+}

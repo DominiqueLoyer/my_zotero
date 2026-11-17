@@ -1,0 +1,114 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:32Z",
+			"dateModified": "2026-01-02T19:17:07Z",
+			"itemType": "attachment",
+			"key": "B2IDHBPD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:07 p.m.</p>",
+			"parentItem": "ZFTZ9H6N",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/lakoffPhilosophyFlesh-2c09fa248c5781f0b828eadc62eb7e18"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-08T17:48:25Z",
+			"dateModified": "2024-12-08T17:48:33Z",
+			"filename": "Lakoff - Philosophy In The Flesh.pdf",
+			"itemType": "attachment",
+			"key": "P676XBMU",
+			"linkMode": "imported_file",
+			"parentItem": "ZFTZ9H6N",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "B2IDHBPD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/lakoffPhilosophyFlesh-2c09fa248c5781f0b828eadc62eb7e18"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Lakoff - Philosophy In The Flesh.pdf",
+				"files": [
+					{
+						"path": "attachments/P6/P676XBMU/Lakoff - Philosophy In The Flesh.pdf",
+						"size": 7748099,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/P6/P676XBMU/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 235851,
+						"storage": "git"
+					}
+				],
+				"key": "P676XBMU",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/Dic9150/Cognition incarnée, située et sociale"
+		],
+		"creators": [
+			"Lakoff, George"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Philosophy In The Flesh",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/ZFTZ9H6N"
+	},
+	"zotero": {
+		"citationKey": "lakoffPhilosophyFlesh",
+		"collections": [
+			"TJKQSYSH"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "George",
+				"lastName": "Lakoff"
+			}
+		],
+		"dateAdded": "2024-12-08T17:48:33Z",
+		"dateModified": "2025-12-29T23:57:36Z",
+		"itemType": "journalArticle",
+		"key": "ZFTZ9H6N",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Philosophy In The Flesh"
+	}
+}

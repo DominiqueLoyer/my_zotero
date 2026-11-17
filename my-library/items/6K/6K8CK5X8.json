@@ -1,0 +1,143 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:53Z",
+			"dateModified": "2026-03-14T17:36:23Z",
+			"itemType": "attachment",
+			"key": "9H5E53Q7",
+			"linkMode": "linked_file",
+			"parentItem": "6K8CK5X8",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/trec_rapport1_030326/PDFs/Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:19:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:42Z",
+			"dateModified": "2026-11-09T17:05:51Z",
+			"itemType": "attachment",
+			"key": "I6BU5SRH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:51 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "6K8CK5X8",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/X8QU25L8"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Devlin-et-al-2019-4129fa248c5781d3a141c2b1cc1b6f87"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "I6BU5SRH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Devlin-et-al-2019-4129fa248c5781d3a141c2b1cc1b6f87"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
+				"files": [
+					{
+						"path": "attachments/9H/9H5E53Q7/Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
+						"size": 775166,
+						"storage": "git"
+					}
+				],
+				"key": "9H5E53Q7",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/trec_rapport1_030326/PDFs"
+		],
+		"creators": [
+			"Devlin, Jacob",
+			"Chang, Ming-Wei",
+			"Lee, Kenton",
+			"Toutanova, Kristina"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/6K8CK5X8"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/n19-1423",
+		"abstractNote": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+		"accessDate": "2026-03-14T17:36:23Z",
+		"archiveID": "arXiv:1810.04805",
+		"citationKey": "devlinBERTPretrainingDeep2019a",
+		"collections": [
+			"MISBU3F7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jacob",
+				"lastName": "Devlin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ming-Wei",
+				"lastName": "Chang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kenton",
+				"lastName": "Lee"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kristina",
+				"lastName": "Toutanova"
+			}
+		],
+		"date": "2019-05-24",
+		"dateAdded": "2026-03-14T17:36:23Z",
+		"dateModified": "2026-11-13T19:32:32Z",
+		"extra": "arXiv:1810.04805 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.1810.04805",
+		"itemType": "preprint",
+		"key": "6K8CK5X8",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8APGGNWA"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "BERT",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+		"url": "http://arxiv.org/abs/1810.04805"
+	}
+}

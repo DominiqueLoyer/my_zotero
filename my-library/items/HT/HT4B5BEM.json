@@ -1,0 +1,122 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:08:04Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:08:04Z",
+			"dateModified": "2026-11-09T15:05:02Z",
+			"filename": "de Souza, Daniel F. and Castro, Luiz H. M. and Oliveira, Denis and Zarpel{~a}o, Bruno B. - 2026 - A survey on the automation of fake news detection.pdf",
+			"itemType": "attachment",
+			"key": "BXSBE6UU",
+			"linkMode": "imported_url",
+			"parentItem": "HT4B5BEM",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/6TYFYWIN",
+					"http://zotero.org/users/15425556/items/QMFDMRRT",
+					"http://zotero.org/users/15425556/items/VV4ZEY6B"
+				]
+			},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://ijarsct.co.in/Paper31032.pdf"
+		},
+		{
+			"accessDate": "2026-11-08T16:02:15Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:02:15Z",
+			"dateModified": "2026-11-09T17:04:54Z",
+			"itemType": "attachment",
+			"key": "X958YDKB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:54 p.m.</p>",
+			"parentItem": "HT4B5BEM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/de-Souza-Daniel-F-and-Castro-Luiz-H-M-and-Oliveira-Denis-and-Zarpel-a-o-Bruno-B-2026-4129fa248c57811e9e81d481fbd24fd2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "de Souza, Daniel F. and Castro, Luiz H. M. and Oliveira, Denis and Zarpel{~a}o, Bruno B. - 2026 - A survey on the automation of fake news detection.pdf",
+				"files": [
+					{
+						"path": "attachments/BX/BXSBE6UU/de Souza, Daniel F. and Castro, Luiz H. M. and Oliveira, Denis and Zarpel{~a}o, Bruno B. - 2026 - A survey on the automation of fake news detection.pdf",
+						"size": 633120,
+						"storage": "git"
+					}
+				],
+				"key": "BXSBE6UU",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://ijarsct.co.in/Paper31032.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "X958YDKB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/de-Souza-Daniel-F-and-Castro-Luiz-H-M-and-Oliveira-Denis-and-Zarpel-a-o-Bruno-B-2026-4129fa248c57811e9e81d481fbd24fd2"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"de Souza, Daniel F. and Castro, Luiz H. M. and Oliveira, Denis and Zarpel{\\~a}o, Bruno B."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A survey on the automation of fake news detection",
+		"year": "2026",
+		"zoteroURI": "zotero://select/library/items/HT4B5BEM"
+	},
+	"zotero": {
+		"DOI": "10.48175/ijarsct-31032",
+		"citationKey": "desouzadanielf.andcastroluizh.m.andoliveiradenisandzarpelaobrunob.SurveyAutomationFake2026",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "de Souza, Daniel F. and Castro, Luiz H. M. and Oliveira, Denis and Zarpel{\\~a}o, Bruno B."
+			}
+		],
+		"date": "2026",
+		"dateAdded": "2026-02-26T20:21:43Z",
+		"dateModified": "2026-11-09T15:05:02Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "HT4B5BEM",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/5MRPBTKV",
+				"http://zotero.org/users/15425556/items/FSPKT9B2",
+				"http://zotero.org/users/15425556/items/WT2V3T7T"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/BGHIMZ5B"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A survey on the automation of fake news detection"
+	}
+}

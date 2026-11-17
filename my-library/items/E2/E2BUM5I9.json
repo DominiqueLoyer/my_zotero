@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:40:16Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:40:16Z",
+			"dateModified": "2026-11-08T16:40:16Z",
+			"filename": "Räuker, Thomas and Zgrim, Corina and Schelter, Sebastian and Bär, David and Giessmann, David - 2023 - What's in the Box A Critical Look at the State of Explainable AI.pdf",
+			"itemType": "attachment",
+			"key": "49ZTBF8A",
+			"linkMode": "imported_url",
+			"parentItem": "E2BUM5I9",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2302.04822v1"
+		},
+		{
+			"accessDate": "2026-02-25T22:16:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:16:29Z",
+			"dateModified": "2026-03-09T20:41:52Z",
+			"itemType": "attachment",
+			"key": "DF43TBES",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:41:52 p.m.</p>",
+			"parentItem": "E2BUM5I9",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/H8YZ7CAE",
+					"http://zotero.org/groups/6376680/items/VZ3PXAKJ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/R-uker2023-3129fa248c57812e9073ce4deeefd8f8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "DF43TBES",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/R-uker2023-3129fa248c57812e9073ce4deeefd8f8"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Räuker, Thomas and Zgrim, Corina and Schelter, Sebastian and Bär, David and Giessmann, David - 2023 - What's in the Box A Critical Look at the State of Explainable AI.pdf",
+				"files": [
+					{
+						"path": "attachments/49/49ZTBF8A/Räuker, Thomas and Zgrim, Corina and Schelter, Sebastian and Bär, David and Giessmann, David - 2023 - What's in the Box A Critical Look at the State of Explainable AI.pdf",
+						"size": 5162021,
+						"storage": "git"
+					}
+				],
+				"key": "49ZTBF8A",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2302.04822v1"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Räuker, Thomas and Zgrim, Corina and Schelter, Sebastian and Bär, David and Giessmann, David"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "What's in the Box? A Critical Look at the State of Explainable AI",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/E2BUM5I9"
+	},
+	"zotero": {
+		"citationKey": "raukerthomasandzgrimcorinaandscheltersebastianandbardavidandgiessmanndavidWhatsBoxCritical2023",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Räuker, Thomas and Zgrim, Corina and Schelter, Sebastian and Bär, David and Giessmann, David"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-02-25T21:44:39Z",
+		"dateModified": "2026-03-25T21:29:39Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "E2BUM5I9",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/QTJAUIQA",
+				"http://zotero.org/groups/6376680/items/QTZ7YNLH"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "What's in the Box? A Critical Look at the State of Explainable AI",
+		"url": "https://arxiv.org/abs/2302.04822"
+	}
+}

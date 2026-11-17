@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:20:17Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "GE6XQQEM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:20:17 p.m.</p>",
+			"parentItem": "85ZJCM3N",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/balyWeCanDetect2020a-3239fa248c5781bc8367d9c261fc1451"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GE6XQQEM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/balyWeCanDetect2020a-3239fa248c5781bc8367d9c261fc1451"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/mod_lisation_260226/PDFs"
+		],
+		"creators": [
+			"Baly, Ramy",
+			"Da San Martino, Giovanni",
+			"Glass, James",
+			"Nakov, Preslav"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "We Can Detect Your Bias: Predicting the Political Ideology of News Articles",
+		"year": "2020",
+		"zoteroURI": "zotero://select/groups/6376680/items/85ZJCM3N"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2020.emnlp-main.404",
+		"abstractNote": "We explore the task of predicting the leading political ideology or bias of news articles. First, we collect and release a large dataset of 34,737 articles that were manually annotated for political ideology –left, center, or right–, which is well-balanced across both topics and media. We further use a challenging experimental setup where the test examples come from media that were not seen during training, which prevents the model from learning to detect the source of the target news article instead of predicting its political ideology. From a modeling perspective, we propose an adversarial media adaptation, as well as a specially adapted triplet loss. We further add background information about the source, and we show that it is quite helpful for improving article-level prediction. Our experimental results show very sizable improvements over using state-of-the-art pre-trained Transformers in this challenging setup.",
+		"accessDate": "2026-03-14T17:35:26Z",
+		"citationKey": "balyWeCanDetect2020b",
+		"collections": [
+			"YXDWMKHA"
+		],
+		"conferenceName": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ramy",
+				"lastName": "Baly"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Giovanni",
+				"lastName": "Da San Martino"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "James",
+				"lastName": "Glass"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Preslav",
+				"lastName": "Nakov"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"itemType": "conferencePaper",
+		"key": "85ZJCM3N",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "4982-4991",
+		"place": "Online",
+		"proceedingsTitle": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+		"publisher": "Association for Computational Linguistics",
+		"relations": {},
+		"shortTitle": "We Can Detect Your Bias",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "We Can Detect Your Bias: Predicting the Political Ideology of News Articles",
+		"url": "https://aclanthology.org/2020.emnlp-main.404"
+	}
+}

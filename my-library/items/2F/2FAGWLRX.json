@@ -1,0 +1,344 @@
+{
+	"children": [
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "",
+			"annotationPageLabel": "674",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[100.632,549.396,158.409,557.259]]}",
+			"annotationSortIndex": "00000|000389|00284",
+			"annotationText": "cookie syncing",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-23T18:39:39Z",
+			"dateModified": "2024-11-23T18:39:39Z",
+			"itemType": "annotation",
+			"key": "4LZXD75I",
+			"parentItem": "AXJ9KHGX",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "",
+			"annotationPageLabel": "674",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[218.196,486.631,292.901,494.494],[53.798,476.17,292.901,484.033],[53.798,465.709,292.905,473.572],[53.798,455.249,194.258,463.112]]}",
+			"annotationSortIndex": "00000|000778|00368",
+			"annotationText": "cookie syncing, we present novel techniques for detection and analysing ID flows and we quantify the amplification of privacy-intrusive tracking practices due to cookie syncing",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-23T18:41:22Z",
+			"dateModified": "2024-11-23T18:41:22Z",
+			"itemType": "annotation",
+			"key": "8MTSGUBZ",
+			"parentItem": "AXJ9KHGX",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "",
+			"annotationPageLabel": "674",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[166.92,444.788,292.908,452.651],[53.798,434.327,292.905,442.19],[53.798,423.866,292.907,431.729]]}",
+			"annotationSortIndex": "00000|000880|00389",
+			"annotationText": "defensive techniques used by privacy-aware users finds that there exist subtle pitfalls such as failing to clear state on multiple browsers at once",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-23T18:42:45Z",
+			"dateModified": "2024-11-23T18:42:45Z",
+			"itemType": "annotation",
+			"key": "9SDKEIFZ",
+			"parentItem": "AXJ9KHGX",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2024-11-23T18:35:00Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-23T18:35:00Z",
+			"dateModified": "2024-11-24T15:40:05Z",
+			"filename": "Acar et al. - 2014 - The Web Never Forgets Persistent Tracking Mechanisms in the Wild.pdf",
+			"itemType": "attachment",
+			"key": "AXJ9KHGX",
+			"linkMode": "imported_url",
+			"parentItem": "2FAGWLRX",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/UFXTJELS"
+				]
+			},
+			"tags": [],
+			"title": "PDF",
+			"url": "https://securehomes.esat.kuleuven.be/~gacar/persistent/the_web_never_forgets.pdf"
+		},
+		{
+			"accessDate": "2025-12-05T22:38:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:38:03Z",
+			"dateModified": "2026-01-02T19:18:22Z",
+			"itemType": "attachment",
+			"key": "F2XZRM8B",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:22 p.m.</p>",
+			"parentItem": "2FAGWLRX",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/GNMKV4L4"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/acarWebNeverForgets2014-2c09fa248c5781afa3bec18a1807d706"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#e56eee",
+			"annotationComment": "",
+			"annotationPageLabel": "674",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[53.798,497.092,292.904,504.955],[53.798,486.631,168.152,494.494]]}",
+			"annotationSortIndex": "00000|000628|00336",
+			"annotationText": "evercookies and respawning and the discovery of a new evercookie vector, IndexedDB.",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-23T18:41:02Z",
+			"dateModified": "2024-11-23T18:41:02Z",
+			"itemType": "annotation",
+			"key": "KHCGIYIC",
+			"parentItem": "AXJ9KHGX",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "",
+			"annotationPageLabel": "674",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[156.088,559.856,240.858,567.719]]}",
+			"annotationSortIndex": "00000|000350|00274",
+			"annotationText": "canvas fingerprinting",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-23T18:39:25Z",
+			"dateModified": "2024-11-23T18:39:25Z",
+			"itemType": "annotation",
+			"key": "QZTYZGIS",
+			"parentItem": "AXJ9KHGX",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "",
+			"annotationPageLabel": "674",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[165.237,518.013,292.904,525.876],[53.798,507.552,92.754,515.415]]}",
+			"annotationSortIndex": "00000|000558|00316",
+			"annotationText": "5% of the top 100,000 websites employ it",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-23T18:40:33Z",
+			"dateModified": "2024-11-23T18:40:33Z",
+			"itemType": "annotation",
+			"key": "TXIHT93N",
+			"parentItem": "AXJ9KHGX",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "",
+			"annotationPageLabel": "674",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[53.798,538.935,139.881,546.798]]}",
+			"annotationSortIndex": "00000|000433|00295",
+			"annotationText": "Canvas fingerprinting",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-23T18:40:25Z",
+			"dateModified": "2024-11-23T18:40:25Z",
+			"itemType": "annotation",
+			"key": "U8Z9YTLS",
+			"parentItem": "AXJ9KHGX",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#e56eee",
+			"annotationComment": "",
+			"annotationPageLabel": "674",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[247.811,559.856,292.902,567.719]]}",
+			"annotationSortIndex": "00000|000370|00274",
+			"annotationText": "evercookies",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-23T18:39:32Z",
+			"dateModified": "2024-11-23T18:39:32Z",
+			"itemType": "annotation",
+			"key": "UGV5CEVT",
+			"parentItem": "AXJ9KHGX",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2024-11-02T18:34:54Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2024-11-02T18:34:54Z",
+			"dateModified": "2024-11-02T18:34:54Z",
+			"filename": "the-web-never-forgets-persistent-tracking-mechanisms-in-the-wild.html",
+			"itemType": "attachment",
+			"key": "UYXF5LF5",
+			"linkMode": "imported_url",
+			"parentItem": "2FAGWLRX",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://collaborate.princeton.edu/en/publications/the-web-never-forgets-persistent-tracking-mechanisms-in-the-wild"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "F2XZRM8B",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/acarWebNeverForgets2014-2c09fa248c5781afa3bec18a1807d706"
+			},
+			{
+				"annotationCount": 8,
+				"contentType": "application/pdf",
+				"filename": "Acar et al. - 2014 - The Web Never Forgets Persistent Tracking Mechanisms in the Wild.pdf",
+				"files": [
+					{
+						"path": "attachments/AX/AXJ9KHGX/Acar et al. - 2014 - The Web Never Forgets Persistent Tracking Mechanisms in the Wild.pdf",
+						"size": 956656,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/AX/AXJ9KHGX/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 85729,
+						"storage": "git"
+					}
+				],
+				"key": "AXJ9KHGX",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "PDF",
+				"url": "https://securehomes.esat.kuleuven.be/~gacar/persistent/the_web_never_forgets.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "the-web-never-forgets-persistent-tracking-mechanisms-in-the-wild.html",
+				"files": [
+					{
+						"path": "attachments/UY/UYXF5LF5/the-web-never-forgets-persistent-tracking-mechanisms-in-the-wild.html",
+						"size": 769860,
+						"storage": "git"
+					}
+				],
+				"key": "UYXF5LF5",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://collaborate.princeton.edu/en/publications/the-web-never-forgets-persistent-tracking-mechanisms-in-the-wild"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/XAI",
+			"Ma thèse/Systematic review/ébauche"
+		],
+		"creators": [
+			"Acar, Gunes",
+			"Eubank, Christian",
+			"Englehardt, Steven",
+			"Juarez, Marc",
+			"Narayanan, Arvind",
+			"Diaz, Claudia"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The web never forgets: Persistent tracking mechanisms in the wild",
+		"year": "2014",
+		"zoteroURI": "zotero://select/library/items/2FAGWLRX"
+	},
+	"zotero": {
+		"DOI": "10.1145/2660267.2660347",
+		"accessDate": "2024-11-02T18:34:47Z",
+		"citationKey": "acarWebNeverForgets2014",
+		"collections": [
+			"DSF6PKGR",
+			"GK26NQRP",
+			"J4VTG4NB",
+			"NKV86EAI"
+		],
+		"conferenceName": "21st ACM Conference on Computer and Communications Security, CCS 2014",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gunes",
+				"lastName": "Acar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Christian",
+				"lastName": "Eubank"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Steven",
+				"lastName": "Englehardt"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Marc",
+				"lastName": "Juarez"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Arvind",
+				"lastName": "Narayanan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Claudia",
+				"lastName": "Diaz"
+			}
+		],
+		"date": "2014/11/03",
+		"dateAdded": "2024-11-02T18:34:47Z",
+		"dateModified": "2025-12-05T22:38:03Z",
+		"itemType": "conferencePaper",
+		"key": "2FAGWLRX",
+		"language": "English (US)",
+		"libraryCatalog": "collaborate.princeton.edu",
+		"pages": "674-689",
+		"proceedingsTitle": "Proceedings of the ACM Conference on Computer and Communications Security",
+		"publisher": "Association for Computing Machinery",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/7K9PLPXA",
+				"http://zotero.org/users/15425556/items/GLI7644D",
+				"http://zotero.org/users/15425556/items/MRXS2JTP",
+				"http://zotero.org/users/15425556/items/U5XAYGQY"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/WRXC6K7U"
+			]
+		},
+		"shortTitle": "The web never forgets",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The web never forgets: Persistent tracking mechanisms in the wild",
+		"url": "https://collaborate.princeton.edu/en/publications/the-web-never-forgets-persistent-tracking-mechanisms-in-the-wild"
+	}
+}

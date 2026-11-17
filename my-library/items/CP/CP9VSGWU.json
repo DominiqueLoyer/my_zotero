@@ -1,0 +1,89 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:35:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:06Z",
+			"dateModified": "2026-11-09T17:09:25Z",
+			"itemType": "attachment",
+			"key": "AW2DKHI8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:25 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "CP9VSGWU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/DRE9ICLM"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6JJCP6B2"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/EDPB-2019-4129fa248c5781f2a7bbec787965bb57"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "AW2DKHI8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/EDPB-2019-4129fa248c5781f2a7bbec787965bb57"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"EDPB"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Guidelines 02/2019 on the processing of personal data under Article 6(1)(b) GDPR in the context of the provision of online services to data subjects",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/CP9VSGWU"
+	},
+	"zotero": {
+		"citationKey": "edpbGuidelines0220192019",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "EDPB"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-09T15:01:14Z",
+		"itemType": "document",
+		"key": "CP9VSGWU",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/7BJIAGTN"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/QIFCVF4M"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Guidelines 02/2019 on the processing of personal data under Article 6(1)(b) GDPR in the context of the provision of online services to data subjects",
+		"url": "https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-22019-processing-personal-data-under-article-61b_en"
+	}
+}

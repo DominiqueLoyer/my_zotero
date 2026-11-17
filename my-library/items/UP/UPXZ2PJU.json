@@ -1,0 +1,270 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:20Z",
+			"dateModified": "2026-03-14T17:36:08Z",
+			"itemType": "attachment",
+			"key": "GERPYHHW",
+			"linkMode": "linked_file",
+			"parentItem": "UPXZ2PJU",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/NMT_en-ru_040326/PDFs/Wolf et al. - 2020 - HuggingFace's Transformers State-of-the-art Natural Language Processing.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-03-14T17:36:07Z",
+			"dateModified": "2026-03-14T17:36:07Z",
+			"itemType": "note",
+			"key": "VTI55GXI",
+			"note": "Comment: 8 pages, 4 figures, more details at https://github.com/huggingface/transformers",
+			"parentItem": "UPXZ2PJU",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/N7CU26JU"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-03-14T18:19:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:48Z",
+			"dateModified": "2026-11-09T17:09:29Z",
+			"itemType": "attachment",
+			"key": "XYV6VJ4Y",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:29 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "UPXZ2PJU",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/YB7S3A9N"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Wolf-et-al-2020-4129fa248c57810db5f5dab7745dbb91"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XYV6VJ4Y",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Wolf-et-al-2020-4129fa248c57810db5f5dab7745dbb91"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wolf et al. - 2020 - HuggingFace's Transformers State-of-the-art Natural Language Processing.pdf",
+				"files": [
+					{
+						"path": "attachments/GE/GERPYHHW/Wolf et al. - 2020 - HuggingFace's Transformers State-of-the-art Natural Language Processing.pdf",
+						"size": 512815,
+						"storage": "git"
+					}
+				],
+				"key": "GERPYHHW",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
+		],
+		"creators": [
+			"Wolf, Thomas",
+			"Debut, Lysandre",
+			"Sanh, Victor",
+			"Chaumond, Julien",
+			"Delangue, Clement",
+			"Moi, Anthony",
+			"Cistac, Pierric",
+			"Rault, Tim",
+			"Louf, Rémi",
+			"Funtowicz, Morgan",
+			"Davison, Joe",
+			"Shleifer, Sam",
+			"Platen, Patrick von",
+			"Ma, Clara",
+			"Jernite, Yacine",
+			"Plu, Julien",
+			"Xu, Canwen",
+			"Scao, Teven Le",
+			"Gugger, Sylvain",
+			"Drame, Mariama",
+			"Lhoest, Quentin",
+			"Rush, Alexander M."
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "VTI55GXI",
+				"title": "Comment: 8 pages, 4 figures, more details at https://github.com/huggingface/transformers"
+			}
+		],
+		"title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/UPXZ2PJU"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1910.03771",
+		"abstractNote": "Recent progress in natural language processing has been driven by advances in both model architecture and model pretraining. Transformer architectures have facilitated building higher-capacity models and pretraining has made it possible to effectively utilize this capacity for a wide variety of tasks. \\textit{Transformers} is an open-source library with the goal of opening up these advances to the wider machine learning community. The library consists of carefully engineered state-of-the art Transformer architectures under a unified API. Backing this library is a curated collection of pretrained models made by and available for the community. \\textit{Transformers} is designed to be extensible by researchers, simple for practitioners, and fast and robust in industrial deployments. The library is available at \\url{https://github.com/huggingface/transformers}.",
+		"accessDate": "2026-03-14T17:36:07Z",
+		"archiveID": "arXiv:1910.03771",
+		"citationKey": "wolfHuggingFacesTransformersStateoftheart2020",
+		"collections": [
+			"VENCFFG7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Thomas",
+				"lastName": "Wolf"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lysandre",
+				"lastName": "Debut"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Victor",
+				"lastName": "Sanh"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Julien",
+				"lastName": "Chaumond"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Clement",
+				"lastName": "Delangue"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Anthony",
+				"lastName": "Moi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pierric",
+				"lastName": "Cistac"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tim",
+				"lastName": "Rault"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Rémi",
+				"lastName": "Louf"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Morgan",
+				"lastName": "Funtowicz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joe",
+				"lastName": "Davison"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sam",
+				"lastName": "Shleifer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Patrick von",
+				"lastName": "Platen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Clara",
+				"lastName": "Ma"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yacine",
+				"lastName": "Jernite"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Julien",
+				"lastName": "Plu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Canwen",
+				"lastName": "Xu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Teven Le",
+				"lastName": "Scao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sylvain",
+				"lastName": "Gugger"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mariama",
+				"lastName": "Drame"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Quentin",
+				"lastName": "Lhoest"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alexander M.",
+				"lastName": "Rush"
+			}
+		],
+		"date": "2020-07-14",
+		"dateAdded": "2026-03-14T17:36:07Z",
+		"dateModified": "2026-03-14T18:19:48Z",
+		"extra": "arXiv:1910.03771 [cs]",
+		"itemType": "preprint",
+		"key": "UPXZ2PJU",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/VW7Y9SG6"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "HuggingFace's Transformers",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+		"url": "http://arxiv.org/abs/1910.03771"
+	}
+}

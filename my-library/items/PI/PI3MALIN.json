@@ -1,0 +1,164 @@
+{
+	"children": [
+		{
+			"dateAdded": "2025-04-10T15:02:46Z",
+			"dateModified": "2025-04-10T15:02:46Z",
+			"itemType": "note",
+			"key": "FYPQ3SKR",
+			"note": "Contextualise les modèles de pertinence utilisés dans TREC, dont RM3 est un exemple.",
+			"parentItem": "PI3MALIN",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:38:05Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:38:05Z",
+			"dateModified": "2026-01-02T19:14:07Z",
+			"itemType": "attachment",
+			"key": "HEZX5YQT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:14:07 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-81a1-94c6-eb351d6785f0\",\"notes\":{\"FYPQ3SKR\":{\"blockID\":\"2c09fa24-8c57-813a-bd9b-f30044d969b5\",\"syncedAt\":\"2025-12-05T22:41:57.762Z\"}}}</pre>",
+			"parentItem": "PI3MALIN",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/AbdulJaleel2004PRF-2c09fa248c578176881efe81cb852e2b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HEZX5YQT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/AbdulJaleel2004PRF-2c09fa248c578176881efe81cb852e2b"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Abdul-Jaleel, Naveen",
+			"Allan, James",
+			"Croft, W. Bruce",
+			"Dı́az, Fernando",
+			"Larkey, Leah S.",
+			"Li, Xiaoyan",
+			"Metzler, Donald",
+			"Smucker, Mark D.",
+			"Strohman, Trevor",
+			"Turtle, Howard",
+			"Vantonder, Courtney",
+			"Voorhees, Ellen M.",
+			"Buckland, Lori P."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "FYPQ3SKR",
+				"title": "Contextualise les modèles de pertinence utilisés dans TREC, dont RM3 est un exemple."
+			}
+		],
+		"title": "UMass at TREC 2004: Novelty and HARD",
+		"year": "2004",
+		"zoteroURI": "zotero://select/library/items/PI3MALIN"
+	},
+	"zotero": {
+		"DOI": "10.21236/ADA460118",
+		"citationKey": "abdul-jaleelUMassTREC20042004",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Naveen",
+				"lastName": "Abdul-Jaleel"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "James",
+				"lastName": "Allan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "W. Bruce",
+				"lastName": "Croft"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fernando",
+				"lastName": "Dı́az"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Leah S.",
+				"lastName": "Larkey"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiaoyan",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Donald",
+				"lastName": "Metzler"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mark D.",
+				"lastName": "Smucker"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Trevor",
+				"lastName": "Strohman"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Howard",
+				"lastName": "Turtle"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Courtney",
+				"lastName": "Vantonder"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Ellen M.",
+				"lastName": "Voorhees"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Lori P.",
+				"lastName": "Buckland"
+			}
+		],
+		"date": "2004",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2025-04-10T15:02:46Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "conferencePaper",
+		"key": "PI3MALIN",
+		"proceedingsTitle": "Proceedings of the thirteenth text retrieval conference (TREC 2004)",
+		"publisher": "NIST",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "UMass at TREC 2004: Novelty and HARD"
+	}
+}

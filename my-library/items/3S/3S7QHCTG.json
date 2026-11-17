@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:33:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:33:20Z",
+			"dateModified": "2026-11-09T17:05:45Z",
+			"itemType": "attachment",
+			"key": "6KQZ9AP2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:45 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "3S7QHCTG",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Baltes-Bogdan-Andrei-and-Cardinale-Yudith-and-Arroquia-Cuadros-Benjam-i-n-2025-4129fa248c5781f5932bfc5f5a6fc7b3"
+		},
+		{
+			"accessDate": "2026-11-08T16:25:38Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:25:38Z",
+			"dateModified": "2026-11-08T16:25:38Z",
+			"filename": "Baltes, Bogdan Andrei and Cardinale, Yudith and Arroquia-Cuadros, Benjam{'i}n - 2025 - Automated Fact-checking based on Large Language Models An application for the press..pdf",
+			"itemType": "attachment",
+			"key": "YSITHMD2",
+			"linkMode": "imported_url",
+			"parentItem": "3S7QHCTG",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://www.nature.com/articles/s44168-025-00215-8.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Baltes, Bogdan Andrei and Cardinale, Yudith and Arroquia-Cuadros, Benjam{'i}n - 2025 - Automated Fact-checking based on Large Language Models An application for the press..pdf",
+				"files": [
+					{
+						"path": "attachments/YS/YSITHMD2/Baltes, Bogdan Andrei and Cardinale, Yudith and Arroquia-Cuadros, Benjam{'i}n - 2025 - Automated Fact-checking based on Large Language Models An application for the press..pdf",
+						"size": 1418969,
+						"storage": "git"
+					}
+				],
+				"key": "YSITHMD2",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://www.nature.com/articles/s44168-025-00215-8.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "6KQZ9AP2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Baltes-Bogdan-Andrei-and-Cardinale-Yudith-and-Arroquia-Cuadros-Benjam-i-n-2025-4129fa248c5781f5932bfc5f5a6fc7b3"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Baltes, Bogdan Andrei and Cardinale, Yudith and Arroquia-Cuadros, Benjam{\\'\\i}n"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Automated Fact-checking based on Large Language Models: An application for the press.",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/3S7QHCTG"
+	},
+	"zotero": {
+		"DOI": "10.1038/s44168-025-00215-8",
+		"citationKey": "baltesbogdanandreiandcardinaleyudithandarroquia-cuadrosbenjaminAutomatedFactcheckingBased2025",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Baltes, Bogdan Andrei and Cardinale, Yudith and Arroquia-Cuadros, Benjam{\\'\\i}n"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-03-08T21:20:32Z",
+		"dateModified": "2026-11-13T19:32:27Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "3S7QHCTG",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Automated Fact-checking based on Large Language Models: An application for the press."
+	}
+}

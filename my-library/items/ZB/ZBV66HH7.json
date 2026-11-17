@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:38:11Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:38:11Z",
+			"dateModified": "2026-11-08T16:38:11Z",
+			"filename": "Bahdanau, Dzmitry and Cho, Kyunghyun and Bengio, Yoshua - 2021 - Neural Machine Translation by Jointly Learning to Align and Translate.pdf",
+			"itemType": "attachment",
+			"key": "MYQGMQXG",
+			"linkMode": "imported_url",
+			"parentItem": "ZBV66HH7",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/2021.emnlp-main.1.pdf"
+		},
+		{
+			"accessDate": "2026-03-09T20:35:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:35:00Z",
+			"dateModified": "2026-03-09T20:35:00Z",
+			"itemType": "attachment",
+			"key": "Z7PMKJMT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:00 p.m.</p>",
+			"parentItem": "ZBV66HH7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Bahdanau2021Neural-31e9fa248c578114b771f8ec1ff02e28"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Bahdanau, Dzmitry and Cho, Kyunghyun and Bengio, Yoshua - 2021 - Neural Machine Translation by Jointly Learning to Align and Translate.pdf",
+				"files": [
+					{
+						"path": "attachments/MY/MYQGMQXG/Bahdanau, Dzmitry and Cho, Kyunghyun and Bengio, Yoshua - 2021 - Neural Machine Translation by Jointly Learning to Align and Translate.pdf",
+						"size": 636464,
+						"storage": "git"
+					}
+				],
+				"key": "MYQGMQXG",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/2021.emnlp-main.1.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Z7PMKJMT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Bahdanau2021Neural-31e9fa248c578114b771f8ec1ff02e28"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Bahdanau, Dzmitry and Cho, Kyunghyun and Bengio, Yoshua"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/ZBV66HH7"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2021.emnlp-main.1",
+		"citationKey": "bahdanaudzmitryandchokyunghyunandbengioyoshuaNeuralMachineTranslation2021",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Bahdanau, Dzmitry and Cho, Kyunghyun and Bengio, Yoshua"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-03-05T00:54:32Z",
+		"dateModified": "2026-03-25T21:29:01Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "ZBV66HH7",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural Machine Translation by Jointly Learning to Align and Translate"
+	}
+}

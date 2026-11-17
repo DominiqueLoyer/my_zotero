@@ -1,0 +1,90 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:58Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:35:58Z",
+			"dateModified": "2026-11-09T17:04:58Z",
+			"itemType": "attachment",
+			"key": "C85TB5NB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:58 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "UXIJZXXZ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/4U6GQGGJ"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/TIRDAZ8Q",
+					"http://zotero.org/groups/6376680/items/TN4T7UFV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Gruber-T-R-1993-4129fa248c578102a877e9a145709f6c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "C85TB5NB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Gruber-T-R-1993-4129fa248c578102a877e9a145709f6c"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Gruber, T. R."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A translation approach to portable ontology specifications",
+		"year": "1993",
+		"zoteroURI": "zotero://select/library/items/UXIJZXXZ"
+	},
+	"zotero": {
+		"DOI": "10.1006/knac.1993.1008",
+		"citationKey": "grubert.r.TranslationApproachPortable1993",
+		"collections": [
+			"7XVYZYFG"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Gruber, T. R."
+			}
+		],
+		"date": "1993",
+		"dateAdded": "2026-03-04T19:43:25Z",
+		"dateModified": "2026-11-09T15:06:56Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "UXIJZXXZ",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/XKJAHQ5S"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/V97E5KLU",
+				"http://zotero.org/groups/6376680/items/VJMDGY7Q"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A translation approach to portable ontology specifications"
+	}
+}

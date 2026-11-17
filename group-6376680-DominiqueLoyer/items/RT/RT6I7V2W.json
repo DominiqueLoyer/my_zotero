@@ -1,0 +1,199 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:18:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:46:42Z",
+			"itemType": "attachment",
+			"key": "GQHFXUK2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:18:56 p.m.</p>",
+			"parentItem": "RT6I7V2W",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/BKP3U39K"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/zhangSurveyGraphRetrievalAugmented2025a-3239fa248c578196b369fab7f01602c5"
+		},
+		{
+			"accessDate": "2026-03-14T18:20:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:46:42Z",
+			"itemType": "attachment",
+			"key": "HEZ73TAV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:20:37 p.m.</p>",
+			"parentItem": "RT6I7V2W",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/zhangSurveyGraphRetrievalAugmented2025-3239fa248c578153a959e52581e03ac4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GQHFXUK2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/zhangSurveyGraphRetrievalAugmented2025a-3239fa248c578196b369fab7f01602c5"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HEZ73TAV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/zhangSurveyGraphRetrievalAugmented2025-3239fa248c578153a959e52581e03ac4"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/240226/PDFs",
+			"_ALL_CIT_140326/240226_v2130/PDFs",
+			"_ALL_CIT_140326/sysCRED_240226/PDFs"
+		],
+		"creators": [
+			"Zhang, Qinggang",
+			"Chen, Shengyuan",
+			"Bei, Yuanchen",
+			"Yuan, Zheng",
+			"Zhou, Huachi",
+			"Hong, Zijin",
+			"Chen, Hao",
+			"Xiao, Yilin",
+			"Zhou, Chuang",
+			"Dong, Junnan",
+			"Chang, Yi",
+			"Huang, Xiao"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/RT6I7V2W"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2501.13958",
+		"abstractNote": "Large language models (LLMs) have demonstrated remarkable capabilities in a wide range of tasks, yet their application to specialized domains remains challenging due to the need for deep expertise. Retrieval-Augmented generation (RAG) has emerged as a promising solution to customize LLMs for professional fields by seamlessly integrating external knowledge bases, enabling real-time access to domain-specific expertise during inference. Despite its potential, traditional RAG systems, based on flat text retrieval, face three critical challenges: (i) complex query understanding in professional contexts, (ii) difficulties in knowledge integration across distributed sources, and (iii) system efficiency bottlenecks at scale. This survey presents a systematic analysis of Graph-based Retrieval-Augmented Generation (GraphRAG), a new paradigm that revolutionizes domain-specific LLM applications. GraphRAG addresses traditional RAG limitations through three key innovations: (i) graph-structured knowledge representation that explicitly captures entity relationships and domain hierarchies, (ii) efficient graph-based retrieval techniques that enable context-preserving knowledge retrieval with multihop reasoning ability, and (iii) structure-aware knowledge integration algorithms that leverage retrieved knowledge for accurate and logical coherent generation of LLMs. In this survey, we systematically analyze the technical foundations of GraphRAG and examine current implementations across various professional domains, identifying key technical challenges and promising research directions. All the related resources of GraphRAG, including research papers, open-source data, and projects, are collected for the community in https://github.com/DEEP-PolyU/Awesome-GraphRAG.",
+		"accessDate": "2026-03-14T17:37:41Z",
+		"archiveID": "arXiv:2501.13958",
+		"citationKey": "zhangSurveyGraphRetrievalAugmented2025a",
+		"collections": [
+			"9IXQQWAM",
+			"J5JBI8ZS",
+			"VSQXX5BR"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Qinggang",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Shengyuan",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yuanchen",
+				"lastName": "Bei"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zheng",
+				"lastName": "Yuan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Huachi",
+				"lastName": "Zhou"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zijin",
+				"lastName": "Hong"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hao",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yilin",
+				"lastName": "Xiao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chuang",
+				"lastName": "Zhou"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Junnan",
+				"lastName": "Dong"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yi",
+				"lastName": "Chang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiao",
+				"lastName": "Huang"
+			}
+		],
+		"date": "2025-09-29",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-11-17T14:46:42Z",
+		"extra": "arXiv:2501.13958 [cs]",
+		"itemType": "preprint",
+		"key": "RT6I7V2W",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/7WLXNW9T",
+				"http://zotero.org/groups/6376680/items/RJPVCUMR"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models",
+		"url": "http://arxiv.org/abs/2501.13958"
+	}
+}

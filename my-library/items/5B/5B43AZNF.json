@@ -1,0 +1,89 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:19Z",
+			"dateModified": "2026-01-02T19:13:51Z",
+			"itemType": "attachment",
+			"key": "AESK63U4",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:51 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-8162-a6e8-d1fb1a86c516\",\"notes\":{\"SYD3QYIG\":{\"blockID\":\"2c09fa24-8c57-810d-b102-cc61dad8dd41\",\"syncedAt\":\"2025-12-05T22:38:44.665Z\"}}}</pre>",
+			"parentItem": "5B43AZNF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/trecWebsite-2c09fa248c578192bf3fc53bafb10281"
+		},
+		{
+			"dateAdded": "2025-04-10T15:02:46Z",
+			"dateModified": "2025-04-10T15:02:46Z",
+			"itemType": "note",
+			"key": "SYD3QYIG",
+			"note": "Accessed: 2025-04-09",
+			"parentItem": "5B43AZNF",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "AESK63U4",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/trecWebsite-2c09fa248c578192bf3fc53bafb10281"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"National Institute of Standards and Technology (NIST)"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "SYD3QYIG",
+				"title": "Accessed: 2025-04-09"
+			}
+		],
+		"title": "Text retrieval conference (TREC)",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/5B43AZNF"
+	},
+	"zotero": {
+		"citationKey": "nationalinstituteofstandardsandtechnologynistTextRetrievalConference2025",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "National Institute of Standards and Technology (NIST)"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2025-04-10T15:02:46Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "document",
+		"key": "5B43AZNF",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Text retrieval conference (TREC)",
+		"url": "https://trec.nist.gov"
+	}
+}

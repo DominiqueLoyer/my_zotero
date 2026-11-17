@@ -1,0 +1,92 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "NRGEMLPD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:17 p.m.</p>",
+			"parentItem": "SJ8HTQWY",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Doran2017-2e29fa248c57819cbecef22adcb5ec5f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NRGEMLPD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Doran2017-2e29fa248c57819cbecef22adcb5ec5f"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Doran, Derek",
+			"Schulz, Sarah",
+			"Besold, Tarek R."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "What does explainable AI really mean? A new conceptualization of perspectives",
+		"year": "2017",
+		"zoteroURI": "zotero://select/groups/6376680/items/SJ8HTQWY"
+	},
+	"zotero": {
+		"citationKey": "doranWhatDoesExplainable2017g",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Derek",
+				"lastName": "Doran"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sarah",
+				"lastName": "Schulz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tarek R.",
+				"lastName": "Besold"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:08Z",
+		"itemType": "journalArticle",
+		"key": "SJ8HTQWY",
+		"language": "fr-CA",
+		"publicationTitle": "arXiv preprint arXiv:1710.00794",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "What does explainable AI really mean? A new conceptualization of perspectives",
+		"url": "https://arxiv.org/abs/1710.00794"
+	}
+}

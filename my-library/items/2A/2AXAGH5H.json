@@ -1,0 +1,116 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:41Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:41Z",
+			"dateModified": "2026-01-02T19:16:16Z",
+			"itemType": "attachment",
+			"key": "GVFM3MYE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:16 p.m.</p>",
+			"parentItem": "2AXAGH5H",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/SpecificationsDunSysteme-2c09fa248c57810d9fcec3f9391e739b"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:33:18Z",
+			"dateModified": "2025-03-17T17:33:20Z",
+			"filename": "Spécifications d’un système d’IA.pdf",
+			"itemType": "attachment",
+			"key": "YCES8EZG",
+			"linkMode": "imported_file",
+			"parentItem": "2AXAGH5H",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GVFM3MYE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/SpecificationsDunSysteme-2c09fa248c57810d9fcec3f9391e739b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Spécifications d’un système d’IA.pdf",
+				"files": [
+					{
+						"path": "attachments/YC/YCES8EZG/Spécifications d’un système d’IA.pdf",
+						"size": 95315,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/YC/YCES8EZG/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 6170,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/YC/YCES8EZG/Spécifications d’un système d’IA (trashed 2025-11-24 15-34-07).pdf",
+						"size": 95315,
+						"storage": "git"
+					}
+				],
+				"key": "YCES8EZG",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/cours 2 Agent intelligent"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Spécifications d’un système d’IA",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/2AXAGH5H"
+	},
+	"zotero": {
+		"citationKey": "lounishakimSpecificationsDunSysteme",
+		"collections": [
+			"G4KBEA9A",
+			"WMWH26HK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-17T17:33:20Z",
+		"dateModified": "2025-03-31T18:49:14Z",
+		"itemType": "journalArticle",
+		"key": "2AXAGH5H",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Spécifications d’un système d’IA"
+	}
+}

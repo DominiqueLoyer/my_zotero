@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-03-08T22:26:40Z",
+			"itemType": "attachment",
+			"key": "TTXYWMWI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:38:25 p.m.</p>",
+			"parentItem": "EFJJ6VCL",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/3FJYGLHZ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Neuer2019Algorithmes-3129fa248c57814ebcccfc6d5aaa9e55"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TTXYWMWI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Neuer2019Algorithmes-3129fa248c57814ebcccfc6d5aaa9e55"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Neuer, Laurence"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Algorithmes: ce sont les individus qu'il faut responsabiliser",
+		"year": "2019",
+		"zoteroURI": "zotero://select/groups/6376680/items/EFJJ6VCL"
+	},
+	"zotero": {
+		"DOI": "10.3917/ae.389.0030",
+		"citationKey": "Neuer2019Algorithmes",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Neuer, Laurence"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-03-08T22:26:40Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "EFJJ6VCL",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/2UPRJTUE"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmes: ce sont les individus qu'il faut responsabiliser"
+	}
+}

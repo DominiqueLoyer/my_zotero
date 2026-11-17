@@ -1,0 +1,134 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:49Z",
+			"dateModified": "2026-01-02T19:17:33Z",
+			"itemType": "attachment",
+			"key": "C2CYKT25",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:33 p.m.</p>",
+			"parentItem": "3L95KT9X",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/smithelisabethhORIGINESCONTRIBUTIONLINGUISTIQUE2024-2c09fa248c5781ce8d42c55b879420a2"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-01T03:28:04Z",
+			"dateModified": "2024-12-01T16:08:45Z",
+			"filename": "Smith - LES ORIGINES DE LA CONTRIBUTION DE LA LINGUISTIQUE AUX SCIENCES COGNITIVES.pdf",
+			"itemType": "attachment",
+			"key": "UU4K6A2N",
+			"linkMode": "imported_file",
+			"parentItem": "3L95KT9X",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/YLE8PEHI"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "C2CYKT25",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/smithelisabethhORIGINESCONTRIBUTIONLINGUISTIQUE2024-2c09fa248c5781ce8d42c55b879420a2"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Smith - LES ORIGINES DE LA CONTRIBUTION DE LA LINGUISTIQUE AUX SCIENCES COGNITIVES.pdf",
+				"files": [
+					{
+						"path": "attachments/UU/UU4K6A2N/Smith - LES ORIGINES DE LA CONTRIBUTION DE LA LINGUISTIQUE AUX SCIENCES COGNITIVES.pdf",
+						"size": 17346346,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/UU/UU4K6A2N/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 1180,
+						"storage": "git"
+					}
+				],
+				"key": "UU4K6A2N",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Fodor"
+		],
+		"creators": [
+			"Smith Elisabethh"
+		],
+		"itemType": "presentation",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "LES ORIGINES DE LA CONTRIBUTION DE LA LINGUISTIQUE AUX SCIENCES COGNITIVES",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/3L95KT9X"
+	},
+	"zotero": {
+		"citationKey": "smithelisabethhORIGINESCONTRIBUTIONLINGUISTIQUE2024",
+		"collections": [
+			"FI8D7E69"
+		],
+		"creators": [
+			{
+				"creatorType": "presenter",
+				"firstName": "",
+				"lastName": "Smith Elisabethh"
+			}
+		],
+		"date": "automne 2024",
+		"dateAdded": "2024-12-01T03:28:07Z",
+		"dateModified": "2025-12-05T22:25:49Z",
+		"itemType": "presentation",
+		"key": "3L95KT9X",
+		"language": "fr",
+		"place": "UQAM",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/D8ZRKH92"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Fodor"
+			},
+			{
+				"tag": "Linguistic"
+			},
+			{
+				"tag": "Linguistique"
+			},
+			{
+				"tag": "Pylyshyn"
+			},
+			{
+				"tag": "Smith Elisabeth"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "LES ORIGINES DE LA CONTRIBUTION DE LA LINGUISTIQUE AUX SCIENCES COGNITIVES"
+	}
+}

@@ -1,0 +1,101 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:46Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "MU2W6VRW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:26 p.m.</p>",
+			"parentItem": "BJH2XI7R",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Katz2017-2e29fa248c57813cba99fbac2ae5faa7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "MU2W6VRW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Katz2017-2e29fa248c57813cba99fbac2ae5faa7"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Katz, Guy",
+			"Barrett, Clark",
+			"Dill, David L.",
+			"Kochenderfer, Mykel",
+			"Platzer, Andre"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Reluplex: An efficient SMT solver for verifying deep neural networks",
+		"year": "2017",
+		"zoteroURI": "zotero://select/groups/6376680/items/BJH2XI7R"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-319-63387-9_5",
+		"citationKey": "katzReluplexEfficientSMT2017a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Guy",
+				"lastName": "Katz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Clark",
+				"lastName": "Barrett"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "David L.",
+				"lastName": "Dill"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mykel",
+				"lastName": "Kochenderfer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Andre",
+				"lastName": "Platzer"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "BJH2XI7R",
+		"language": "fr-CA",
+		"pages": "97–117",
+		"proceedingsTitle": "Computer aided verification",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Reluplex: An efficient SMT solver for verifying deep neural networks"
+	}
+}

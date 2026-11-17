@@ -1,0 +1,78 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:12Z",
+			"dateModified": "2026-11-09T17:06:06Z",
+			"itemType": "attachment",
+			"key": "LUVKSTX8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:06 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "ZQMIMWMJ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Graeber-2018-4129fa248c5781268677ebcf1a0c9992"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LUVKSTX8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Graeber-2018-4129fa248c5781268677ebcf1a0c9992"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Graeber, David"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Bullshit Jobs",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/ZQMIMWMJ"
+	},
+	"zotero": {
+		"citationKey": "graeberBullshitJobs2018",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Graeber"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-13T19:33:11Z",
+		"itemType": "book",
+		"key": "ZQMIMWMJ",
+		"publisher": "Simon & Schuster",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bullshit Jobs"
+	}
+}

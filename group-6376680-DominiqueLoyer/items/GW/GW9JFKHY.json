@@ -1,0 +1,88 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "SHFM27G5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:12 p.m.</p>",
+			"parentItem": "GW9JFKHY",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Lundberg2017-2e29fa248c57817787e9febc71e6e5b6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SHFM27G5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Lundberg2017-2e29fa248c57817787e9febc71e6e5b6"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Lundberg, Scott M.",
+			"Lee, Su-In"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A unified approach to interpreting model predictions",
+		"year": "2017",
+		"zoteroURI": "zotero://select/groups/6376680/items/GW9JFKHY"
+	},
+	"zotero": {
+		"citationKey": "lundbergUnifiedApproachInterpreting2017a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Scott M.",
+				"lastName": "Lundberg"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Su-In",
+				"lastName": "Lee"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:12Z",
+		"itemType": "conferencePaper",
+		"key": "GW9JFKHY",
+		"language": "fr-CA",
+		"pages": "4765–4774",
+		"proceedingsTitle": "Advances in neural information processing systems 30 (NIPS 2017)",
+		"publisher": "Curran Associates, Inc.",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "A unified approach to interpreting model predictions",
+		"url": "https://proceedings.neurips.cc/paper/2017/file/8a3363abe792db2d8761d6403605aeb7-Paper.pdf"
+	}
+}

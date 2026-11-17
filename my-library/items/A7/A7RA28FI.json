@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:18Z",
+			"dateModified": "2026-11-09T17:04:40Z",
+			"itemType": "attachment",
+			"key": "7QQQRFNS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:40 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "A7RA28FI",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/4BNYKHNU",
+					"http://zotero.org/groups/6376680/items/A57AGAUW"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Matthews-David-2012-4129fa248c5781898717e5a711b10770"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7QQQRFNS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Matthews-David-2012-4129fa248c5781898717e5a711b10770"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Matthews, David"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A political economy of the music industry",
+		"year": "2012",
+		"zoteroURI": "zotero://select/library/items/A7RA28FI"
+	},
+	"zotero": {
+		"DOI": "10.14264/158010",
+		"citationKey": "matthewsdavidPoliticalEconomyMusic2012",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Matthews, David"
+			}
+		],
+		"date": "2012",
+		"dateAdded": "2026-02-25T21:41:06Z",
+		"dateModified": "2026-11-13T19:29:21Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "A7RA28FI",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/TC29Y2BK",
+				"http://zotero.org/groups/6376680/items/XZIP7CPD"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A political economy of the music industry"
+	}
+}

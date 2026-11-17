@@ -1,0 +1,159 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "H6UN6MDD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:21:43 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-81e7-ab1c-f97dfafcab09\",\"notes\":{\"NENVGLZ3\":{\"blockID\":\"3239fa24-8c57-81dd-979c-d4fa4d94e345\",\"syncedAt\":\"2026-03-14T18:21:43.324Z\"}}}</pre>",
+			"parentItem": "CN8WKNNJ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/wanCognitiveAISystems2024-3239fa248c57811093e4f19dfb32c6cd"
+		},
+		{
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "note",
+			"key": "JNK45X9W",
+			"note": "Comment: Workshop on Systems for Next-Gen AI Paradigms, 6th Conference on Machine Learning and Systems (MLSys), June 4-8, 2023, Miami, FL, USA",
+			"parentItem": "CN8WKNNJ",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "H6UN6MDD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/wanCognitiveAISystems2024-3239fa248c57811093e4f19dfb32c6cd"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Wan, Zishen",
+			"Liu, Che-Kai",
+			"Yang, Hanchen",
+			"Li, Chaojian",
+			"You, Haoran",
+			"Fu, Yonggan",
+			"Wan, Cheng",
+			"Krishna, Tushar",
+			"Lin, Yingyan",
+			"Raychowdhury, Arijit"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "JNK45X9W",
+				"title": "Comment: Workshop on Systems for Next-Gen AI Paradigms, 6th Conference on Machine Learning and Systems (MLSys), June 4-8"
+			}
+		],
+		"title": "Towards Cognitive AI Systems: a Survey and Prospective on Neuro-Symbolic AI",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/CN8WKNNJ"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2401.01040",
+		"abstractNote": "The remarkable advancements in artificial intelligence (AI), primarily driven by deep neural networks, have significantly impacted various aspects of our lives. However, the current challenges surrounding unsustainable computational trajectories, limited robustness, and a lack of explainability call for the development of next-generation AI systems. Neuro-symbolic AI (NSAI) emerges as a promising paradigm, fusing neural, symbolic, and probabilistic approaches to enhance interpretability, robustness, and trustworthiness while facilitating learning from much less data. Recent NSAI systems have demonstrated great potential in collaborative human-AI scenarios with reasoning and cognitive capabilities. In this paper, we provide a systematic review of recent progress in NSAI and analyze the performance characteristics and computational operators of NSAI models. Furthermore, we discuss the challenges and potential future directions of NSAI from both system and architectural perspectives.",
+		"accessDate": "2026-03-14T17:40:57Z",
+		"archiveID": "arXiv:2401.01040",
+		"citationKey": "wanCognitiveAISystems2024",
+		"collections": [
+			"PNZQF2WF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Zishen",
+				"lastName": "Wan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Che-Kai",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hanchen",
+				"lastName": "Yang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chaojian",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Haoran",
+				"lastName": "You"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yonggan",
+				"lastName": "Fu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Cheng",
+				"lastName": "Wan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tushar",
+				"lastName": "Krishna"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yingyan",
+				"lastName": "Lin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Arijit",
+				"lastName": "Raychowdhury"
+			}
+		],
+		"date": "2024-01-02",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:2401.01040 [cs]",
+		"itemType": "preprint",
+		"key": "CN8WKNNJ",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"shortTitle": "Towards Cognitive AI Systems",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Hardware Architecture",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Towards Cognitive AI Systems: a Survey and Prospective on Neuro-Symbolic AI",
+		"url": "http://arxiv.org/abs/2401.01040"
+	}
+}

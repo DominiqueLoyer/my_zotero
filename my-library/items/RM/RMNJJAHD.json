@@ -1,0 +1,143 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:04Z",
+			"dateModified": "2026-11-09T17:05:06Z",
+			"itemType": "attachment",
+			"key": "IHDB293C",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:06 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "RMNJJAHD",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Hamet-Bagnou-et-al-2022-4129fa248c57810d802ef61bd49c9965"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-13T14:38:52Z",
+			"dateModified": "2025-03-13T14:38:58Z",
+			"filename": "Hamet Bagnou et al. - 2022 - Adaptation and validation of two annotation scales for assessing social skills in a corpus of multim.pdf",
+			"itemType": "attachment",
+			"key": "R462BM9M",
+			"linkMode": "imported_file",
+			"parentItem": "RMNJJAHD",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IHDB293C",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Hamet-Bagnou-et-al-2022-4129fa248c57810d802ef61bd49c9965"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hamet Bagnou et al. - 2022 - Adaptation and validation of two annotation scales for assessing social skills in a corpus of multim.pdf",
+				"files": [
+					{
+						"path": "attachments/R4/R462BM9M/Hamet Bagnou et al. - 2022 - Adaptation and validation of two annotation scales for assessing social skills in a corpus of multim.pdf",
+						"size": 1020224,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/R4/R462BM9M/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 70009,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/R4/R462BM9M/Hamet Bagnou et al. - 2022 - Adaptation and validation of two annotation scales for assessing social skills in a corpus of multim (trashed 2025-11-24 15-34-11).pdf",
+						"size": 1020224,
+						"storage": "git"
+					}
+				],
+				"key": "R462BM9M",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/9270 (H25)/JC Martin 13 mars25"
+		],
+		"creators": [
+			"Hamet Bagnou, Jennifer",
+			"Prigent, Elise",
+			"Martin, Jean-Claude",
+			"Clavel, Céline"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Adaptation and validation of two annotation scales for assessing social skills in a corpus of multimodal collaborative interactions",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/RMNJJAHD"
+	},
+	"zotero": {
+		"DOI": "10.3389/fpsyg.2022.1039169",
+		"ISSN": "1664-1078",
+		"abstractNote": "Method: The construct validity of these two scales was assessed by exploratory factor analysis and inter-item correlations. We also checked inter-judge agreement using inter-class correlation coefficients. Internal consistency was determined using Cronbach’s alpha and convergent and divergent validity by assessing correlations between the two scales and measures of depression and alexithymia. Finally, the discriminative properties of the two scales were analyzed by comparing the scores obtained by a group of anxious individuals and a non-anxious control group.\nResults: The results show that our two scales have excellent inter-item correlations. Internal consistency is excellent (alpha SPRS =0.90; SSC=0.93). Inter-rater agreement ranged from moderate to high. Finally, convergent validity was significant with the alexithymia scale, as was divergent validity with the depression scale. Anxious individuals had lower scores on both scales than non-anxious individuals.\nConclusion: Both scales show good psychometric properties for assessing social skills relevant to different collaborative tasks. They also identify individuals with difficulties in social interaction. Thus, they could allow monitoring the effectiveness of training social skills useful in CPS.",
+		"accessDate": "2025-03-13T14:38:58Z",
+		"citationKey": "hametbagnouAdaptationValidationTwo2022",
+		"collections": [
+			"C688M7SV"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jennifer",
+				"lastName": "Hamet Bagnou"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Elise",
+				"lastName": "Prigent"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jean-Claude",
+				"lastName": "Martin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Céline",
+				"lastName": "Clavel"
+			}
+		],
+		"date": "2022-10-27",
+		"dateAdded": "2025-03-13T14:38:58Z",
+		"dateModified": "2025-12-05T22:34:04Z",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Front. Psychol.",
+		"key": "RMNJJAHD",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1039169",
+		"publicationTitle": "Frontiers in Psychology",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Adaptation and validation of two annotation scales for assessing social skills in a corpus of multimodal collaborative interactions",
+		"url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.1039169/full",
+		"volume": "13"
+	}
+}

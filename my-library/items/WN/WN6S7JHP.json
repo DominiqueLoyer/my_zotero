@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:32:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:09Z",
+			"dateModified": "2026-11-09T17:08:58Z",
+			"itemType": "attachment",
+			"key": "AVA2DFPJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:58 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "WN6S7JHP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Sittar-Abdul-and-Smiljanic-Mateja-and-Gu-v-c-ek-Alenka-and-Grobelnik-Marko-2026-4129fa248c5781c2af1fd63fb1a2957d"
+		},
+		{
+			"accessDate": "2026-11-08T16:30:12Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:30:12Z",
+			"dateModified": "2026-11-08T16:30:12Z",
+			"filename": "Sittar, Abdul and Smiljanic, Mateja and Gu{v{c}}ek, Alenka and Grobelnik, Marko - 2026 - Fake News Detection Through LLM-Driven Text Augmentation Across Media and Languages.pdf",
+			"itemType": "attachment",
+			"key": "CSMJCZ6Q",
+			"linkMode": "imported_url",
+			"parentItem": "WN6S7JHP",
+			"relations": {},
+			"tags": [],
+			"title": "Accepted Version",
+			"url": "https://www.preprints.org/frontend/manuscript/0de50cbc075aba3090965d72567cbc43/download_pub"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Sittar, Abdul and Smiljanic, Mateja and Gu{v{c}}ek, Alenka and Grobelnik, Marko - 2026 - Fake News Detection Through LLM-Driven Text Augmentation Across Media and Languages.pdf",
+				"files": [
+					{
+						"path": "attachments/CS/CSMJCZ6Q/Sittar, Abdul and Smiljanic, Mateja and Gu{v{c}}ek, Alenka and Grobelnik, Marko - 2026 - Fake News Detection Through LLM-Driven Text Augmentation Across Media and Languages.pdf",
+						"size": 1403702,
+						"storage": "git"
+					}
+				],
+				"key": "CSMJCZ6Q",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Accepted Version",
+				"url": "https://www.preprints.org/frontend/manuscript/0de50cbc075aba3090965d72567cbc43/download_pub"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "AVA2DFPJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Sittar-Abdul-and-Smiljanic-Mateja-and-Gu-v-c-ek-Alenka-and-Grobelnik-Marko-2026-4129fa248c5781c2af1fd63fb1a2957d"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Sittar, Abdul and Smiljanic, Mateja and Gu{\\v{c}}ek, Alenka and Grobelnik, Marko"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Fake News Detection Through LLM-Driven Text Augmentation Across Media and Languages",
+		"year": "2026",
+		"zoteroURI": "zotero://select/library/items/WN6S7JHP"
+	},
+	"zotero": {
+		"DOI": "10.20944/preprints202603.0360.v1",
+		"citationKey": "sittarabdulandsmiljanicmatejaandguvcekalenkaandgrobelnikmarkoFakeNewsDetection2026",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Sittar, Abdul and Smiljanic, Mateja and Gu{\\v{c}}ek, Alenka and Grobelnik, Marko"
+			}
+		],
+		"date": "2026",
+		"dateAdded": "2026-03-08T21:26:26Z",
+		"dateModified": "2026-03-25T21:28:43Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "WN6S7JHP",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Fake News Detection Through LLM-Driven Text Augmentation Across Media and Languages"
+	}
+}

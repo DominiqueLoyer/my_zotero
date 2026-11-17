@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:15Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:16:15Z",
+			"dateModified": "2026-03-09T20:41:34Z",
+			"itemType": "attachment",
+			"key": "GDZ4AHQF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:41:34 p.m.</p>",
+			"parentItem": "XR9W96MK",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/L4LQIDE7",
+					"http://zotero.org/groups/6376680/items/RX9HI8U9"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Schein2002-3129fa248c5781b98e19eaf8de5126f9"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GDZ4AHQF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Schein2002-3129fa248c5781b98e19eaf8de5126f9"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Schein, Andrew I. and Popescul, Alexandrin and Ungar, Lyle H. and Pennock, David M."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Methods and metrics for cold-start recommendations",
+		"year": "2002",
+		"zoteroURI": "zotero://select/library/items/XR9W96MK"
+	},
+	"zotero": {
+		"DOI": "10.1145/564376.564421",
+		"citationKey": "scheinandrewi.andpopesculalexandrinandungarlyleh.andpennockdavidm.MethodsMetricsColdstart2002",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Schein, Andrew I. and Popescul, Alexandrin and Ungar, Lyle H. and Pennock, David M."
+			}
+		],
+		"date": "2002",
+		"dateAdded": "2026-02-25T21:47:18Z",
+		"dateModified": "2026-03-25T21:29:38Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "XR9W96MK",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/88N4L22E",
+				"http://zotero.org/groups/6376680/items/TD2Y3JCT"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Methods and metrics for cold-start recommendations"
+	}
+}

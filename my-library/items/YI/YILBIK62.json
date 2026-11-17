@@ -1,0 +1,180 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:37Z",
+			"dateModified": "2026-11-09T17:04:42Z",
+			"itemType": "attachment",
+			"key": "HVLGLIWP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:42 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "YILBIK62",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HHHXLX7E"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/White-et-al-2023-4129fa248c578160a1fdfdc24213c7e6"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:32:09Z",
+			"dateModified": "2026-03-14T17:40:08Z",
+			"itemType": "attachment",
+			"key": "IKDH8YN4",
+			"linkMode": "linked_file",
+			"parentItem": "YILBIK62",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401_ic_/PDFs/White et al. - 2023 - A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HVLGLIWP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/White-et-al-2023-4129fa248c578160a1fdfdc24213c7e6"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "White et al. - 2023 - A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT.pdf",
+				"files": [
+					{
+						"path": "attachments/IK/IKDH8YN4/White et al. - 2023 - A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT.pdf",
+						"size": 297795,
+						"storage": "git"
+					}
+				],
+				"key": "IKDH8YN4",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"White, Jules",
+			"Fu, Quchen",
+			"Hays, Sam",
+			"Sandborn, Michael",
+			"Olea, Carlos",
+			"Gilbert, Henry",
+			"Elnashar, Ashraf",
+			"Spencer-Smith, Jesse",
+			"Schmidt, Douglas C."
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/YILBIK62"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2302.11382",
+		"abstractNote": "Prompt engineering is an increasingly important skill set needed to converse effectively with large language models (LLMs), such as ChatGPT. Prompts are instructions given to an LLM to enforce rules, automate processes, and ensure specific qualities (and quantities) of generated output. Prompts are also a form of programming that can customize the outputs and interactions with an LLM. This paper describes a catalog of prompt engineering techniques presented in pattern form that have been applied to solve common problems when conversing with LLMs. Prompt patterns are a knowledge transfer method analogous to software patterns since they provide reusable solutions to common problems faced in a particular context, i.e., output generation and interaction when working with LLMs. This paper provides the following contributions to research on prompt engineering that apply LLMs to automate software development tasks. First, it provides a framework for documenting patterns for structuring prompts to solve a range of problems so that they can be adapted to different domains. Second, it presents a catalog of patterns that have been applied successfully to improve the outputs of LLM conversations. Third, it explains how prompts can be built from multiple patterns and illustrates prompt patterns that benefit from combination with other prompt patterns.",
+		"accessDate": "2026-03-14T17:40:07Z",
+		"archiveID": "arXiv:2302.11382",
+		"citationKey": "whitePromptPatternCatalog2023d",
+		"collections": [
+			"U5GGZRY8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jules",
+				"lastName": "White"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Quchen",
+				"lastName": "Fu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sam",
+				"lastName": "Hays"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Michael",
+				"lastName": "Sandborn"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Carlos",
+				"lastName": "Olea"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Henry",
+				"lastName": "Gilbert"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ashraf",
+				"lastName": "Elnashar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jesse",
+				"lastName": "Spencer-Smith"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Douglas C.",
+				"lastName": "Schmidt"
+			}
+		],
+		"date": "2023-02-21",
+		"dateAdded": "2026-03-14T17:40:07Z",
+		"dateModified": "2026-11-13T19:29:45Z",
+		"extra": "arXiv:2302.11382 [cs]",
+		"itemType": "preprint",
+		"key": "YILBIK62",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/ZXDFZHAL"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Software Engineering",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT",
+		"url": "http://arxiv.org/abs/2302.11382"
+	}
+}

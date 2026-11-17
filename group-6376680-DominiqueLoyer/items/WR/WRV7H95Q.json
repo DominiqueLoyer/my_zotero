@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:13Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-11-17T14:48:17Z",
+			"itemType": "attachment",
+			"key": "GIHU9JC3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:40:22 p.m.</p>",
+			"parentItem": "WRV7H95Q",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/HE8DGD27"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Engstrom2020-3129fa248c578196a81cdae8561b3b26"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GIHU9JC3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Engstrom2020-3129fa248c578196a81cdae8561b3b26"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"references_dic9401"
+		],
+		"creators": [
+			"Engstrom, David Freeman and Ho, Daniel E. and Sharkey, Catherine M. and Cuéllar, Mariano-Florentino"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Government by Algorithm: Artificial Intelligence in Federal Administrative Agencies",
+		"year": "2020",
+		"zoteroURI": "zotero://select/groups/6376680/items/WRV7H95Q"
+	},
+	"zotero": {
+		"DOI": "10.2139/ssrn.3551505",
+		"citationKey": "Engstrom2020",
+		"collections": [
+			"KRMD3KDT",
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Engstrom, David Freeman and Ho, Daniel E. and Sharkey, Catherine M. and Cuéllar, Mariano-Florentino"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-11-17T14:48:17Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "WRV7H95Q",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/S2WJJQNY"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Government by Algorithm: Artificial Intelligence in Federal Administrative Agencies"
+	}
+}

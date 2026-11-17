@@ -1,0 +1,74 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-03-08T21:46:46Z",
+			"itemType": "attachment",
+			"key": "ZUBV2DC6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:37:26 p.m.</p>",
+			"parentItem": "6CM3LJQM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Sedhain2018Autorec-3129fa248c578115b2ecd25760569b42"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZUBV2DC6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Sedhain2018Autorec-3129fa248c578115b2ecd25760569b42"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Sedhain, Suvash and Menon, Aditya Krishna and Sanner, Scott and Xie, Lexing"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Autorec: Autoencoders meet collaborative filtering",
+		"year": "2018",
+		"zoteroURI": "zotero://select/groups/6376680/items/6CM3LJQM"
+	},
+	"zotero": {
+		"DOI": "10.1145/3178876.3186150",
+		"citationKey": "Sedhain2018Autorec",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Sedhain, Suvash and Menon, Aditya Krishna and Sanner, Scott and Xie, Lexing"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-03-08T21:46:46Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "6CM3LJQM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Autorec: Autoencoders meet collaborative filtering"
+	}
+}

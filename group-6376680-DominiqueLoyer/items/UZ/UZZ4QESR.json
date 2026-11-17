@@ -1,0 +1,137 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:50:41Z",
+			"itemType": "note",
+			"key": "HSEK73K3",
+			"note": "Comment: SIGIR 2019; the latest version of NGCF paper, which is distinct from the version published in ACM Digital Library",
+			"parentItem": "UZZ4QESR",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-08T20:35:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-11-17T14:50:41Z",
+			"itemType": "attachment",
+			"key": "W5VLMPS6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:30 p.m.</p>",
+			"parentItem": "UZZ4QESR",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/7SJ5VPKI"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Wang2019-2e29fa248c5781539747c6751af1ae07"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "W5VLMPS6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Wang2019-2e29fa248c5781539747c6751af1ae07"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs",
+			"references_dic9401"
+		],
+		"creators": [
+			"Wang, Xiang",
+			"He, Xiangnan",
+			"Wang, Meng",
+			"Feng, Fuli",
+			"Chua, Tat-Seng"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "HSEK73K3",
+				"title": "Comment: SIGIR 2019; the latest version of NGCF paper, which is distinct from the version published in ACM Digital Libra"
+			}
+		],
+		"title": "Neural graph collaborative filtering",
+		"year": "2019",
+		"zoteroURI": "zotero://select/groups/6376680/items/UZZ4QESR"
+	},
+	"zotero": {
+		"DOI": "10.1145/3331184.3331267",
+		"citationKey": "wangNeuralGraphCollaborative2019b",
+		"collections": [
+			"HXLA8A4T",
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xiang",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiangnan",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Meng",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fuli",
+				"lastName": "Feng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tat-Seng",
+				"lastName": "Chua"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-11-17T14:50:41Z",
+		"itemType": "conferencePaper",
+		"key": "UZZ4QESR",
+		"pages": "165–174",
+		"proceedingsTitle": "Proceedings of the 42nd international ACM SIGIR conference on research and development in information retrieval",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/UMPJ2WBF"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Social and Information Networks",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural graph collaborative filtering"
+	}
+}

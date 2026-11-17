@@ -1,0 +1,181 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:15Z",
+			"dateModified": "2026-03-14T17:36:02Z",
+			"itemType": "attachment",
+			"key": "LTKEXKPJ",
+			"linkMode": "linked_file",
+			"parentItem": "W9CYEHLQ",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/NMT_en-ru_040326/PDFs/Raffel et al. - 2023 - Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:19:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:52Z",
+			"dateModified": "2026-11-09T17:08:51Z",
+			"itemType": "attachment",
+			"key": "XE6TXXXT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:51 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "W9CYEHLQ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/EGG8XP8F"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Raffel-et-al-2023-4129fa248c5781b7b2a9e9958cc7004c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XE6TXXXT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Raffel-et-al-2023-4129fa248c5781b7b2a9e9958cc7004c"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Raffel et al. - 2023 - Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.pdf",
+				"files": [
+					{
+						"path": "attachments/LT/LTKEXKPJ/Raffel et al. - 2023 - Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.pdf",
+						"size": 1190021,
+						"storage": "git"
+					}
+				],
+				"key": "LTKEXKPJ",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
+		],
+		"creators": [
+			"Raffel, Colin",
+			"Shazeer, Noam",
+			"Roberts, Adam",
+			"Lee, Katherine",
+			"Narang, Sharan",
+			"Matena, Michael",
+			"Zhou, Yanqi",
+			"Li, Wei",
+			"Liu, Peter J."
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/W9CYEHLQ"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1910.10683",
+		"abstractNote": "Transfer learning, where a model is first pre-trained on a data-rich task before being fine-tuned on a downstream task, has emerged as a powerful technique in natural language processing (NLP). The effectiveness of transfer learning has given rise to a diversity of approaches, methodology, and practice. In this paper, we explore the landscape of transfer learning techniques for NLP by introducing a unified framework that converts all text-based language problems into a text-to-text format. Our systematic study compares pre-training objectives, architectures, unlabeled data sets, transfer approaches, and other factors on dozens of language understanding tasks. By combining the insights from our exploration with scale and our new ``Colossal Clean Crawled Corpus'', we achieve state-of-the-art results on many benchmarks covering summarization, question answering, text classification, and more. To facilitate future work on transfer learning for NLP, we release our data set, pre-trained models, and code.",
+		"accessDate": "2026-03-14T17:36:02Z",
+		"archiveID": "arXiv:1910.10683",
+		"citationKey": "raffelExploringLimitsTransfer2023",
+		"collections": [
+			"VENCFFG7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Colin",
+				"lastName": "Raffel"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Noam",
+				"lastName": "Shazeer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Adam",
+				"lastName": "Roberts"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Katherine",
+				"lastName": "Lee"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sharan",
+				"lastName": "Narang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Michael",
+				"lastName": "Matena"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yanqi",
+				"lastName": "Zhou"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Wei",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Peter J.",
+				"lastName": "Liu"
+			}
+		],
+		"date": "2023-09-19",
+		"dateAdded": "2026-03-14T17:36:02Z",
+		"dateModified": "2026-03-14T18:19:52Z",
+		"extra": "arXiv:1910.10683 [cs]",
+		"itemType": "preprint",
+		"key": "W9CYEHLQ",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/ADZUF48S"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "Statistics - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+		"url": "http://arxiv.org/abs/1910.10683"
+	}
+}

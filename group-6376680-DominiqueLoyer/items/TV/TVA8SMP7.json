@@ -1,0 +1,101 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:15Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "KTY3XK8D",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:50 p.m.</p>",
+			"parentItem": "TVA8SMP7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Guo2017-2e29fa248c57810f82a3d2fc8f0a7168"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KTY3XK8D",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Guo2017-2e29fa248c57810f82a3d2fc8f0a7168"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Guo, Huifeng",
+			"Tang, Ruiming",
+			"Ye, Yunming",
+			"Li, Zhenguo",
+			"He, Xiuqiang"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "DeepFM: a factorization-machine based neural network for CTR prediction",
+		"year": "2017",
+		"zoteroURI": "zotero://select/groups/6376680/items/TVA8SMP7"
+	},
+	"zotero": {
+		"DOI": "10.24963/ijcai.2017/239",
+		"citationKey": "guoDeepFMFactorizationmachineBased2017b",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Huifeng",
+				"lastName": "Guo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ruiming",
+				"lastName": "Tang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yunming",
+				"lastName": "Ye"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhenguo",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiuqiang",
+				"lastName": "He"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "TVA8SMP7",
+		"language": "fr-CA",
+		"pages": "1725–1731",
+		"proceedingsTitle": "Proceedings of the 26th international joint conference on artificial intelligence",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "DeepFM: a factorization-machine based neural network for CTR prediction"
+	}
+}

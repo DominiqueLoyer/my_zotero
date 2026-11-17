@@ -1,0 +1,83 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:27:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:27:04Z",
+			"dateModified": "2026-03-09T20:47:20Z",
+			"itemType": "attachment",
+			"key": "EL2EZNBF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:20 p.m.</p>",
+			"parentItem": "D7N9AYE7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/e37b5149aad208d08fcab37ff74aa2ccfd8c30b9-2e29fa248c578190be33d5c16cf69ffb"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EL2EZNBF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/e37b5149aad208d08fcab37ff74aa2ccfd8c30b9-2e29fa248c578190be33d5c16cf69ffb"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Krishnamurthy, B.",
+			"Wills, C."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Privacy diffusion on the web: a longitudinal perspective",
+		"year": "2009",
+		"zoteroURI": "zotero://select/library/items/D7N9AYE7"
+	},
+	"zotero": {
+		"DOI": "10.1145/1526709.1526782",
+		"abstractNote": "For the last few years we have been studying the diffusion of private information for users as they visit various Web sites triggering data gathering aggregation by third parties. This paper reports on our longitudinal study consisting of multiple snapshots of our examination of such diffusion over four years. We examine the various technical ways by which third-party aggregators acquire data and the depth of user-related information acquired. We study techniques for protecting privacy diffusion as well as limitations of such techniques. We introduce the concept of secondary privacy damage. Our results show increasing aggregation of user-related data by a steadily decreasing number of entities. A handful of companies are able to track users' movement across almost all of the popular Web sites. Virtually all the protection techniques have significant limitations highlighting the seriousness of the problem and the need for alternate solutions.",
+		"citationKey": "krishnamurthyPrivacyDiffusionWeb2009",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "B.",
+				"lastName": "Krishnamurthy"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "C.",
+				"lastName": "Wills"
+			}
+		],
+		"date": "2009",
+		"dateAdded": "2026-01-08T20:14:05Z",
+		"dateModified": "2026-03-25T21:30:04Z",
+		"itemType": "journalArticle",
+		"key": "D7N9AYE7",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Privacy diffusion on the web: a longitudinal perspective",
+		"url": "https://www.semanticscholar.org/paper/e37b5149aad208d08fcab37ff74aa2ccfd8c30b9"
+	}
+}

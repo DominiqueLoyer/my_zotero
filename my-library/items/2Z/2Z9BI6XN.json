@@ -1,0 +1,90 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:08:16Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:08:16Z",
+			"dateModified": "2026-11-09T17:06:22Z",
+			"itemType": "attachment",
+			"key": "IWKSNWHV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:22 p.m.</p>",
+			"parentItem": "2Z9BI6XN",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Schema-org-Community-2025-4129fa248c5781a2a594e078e3a2a6a2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IWKSNWHV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Schema-org-Community-2025-4129fa248c5781a2a594e078e3a2a6a2"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226",
+			"_gs_080326"
+		],
+		"creators": [
+			"Schema.org Community"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "ClaimReview - Schema.org Type",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/2Z9BI6XN"
+	},
+	"zotero": {
+		"citationKey": "schema.orgcommunityClaimReviewSchemaorgType2025",
+		"collections": [
+			"9ERXAIZK",
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Schema.org Community"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-26T20:21:04Z",
+		"dateModified": "2026-11-13T19:34:18Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "2Z9BI6XN",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/7TD542VN",
+				"http://zotero.org/users/15425556/items/ARRGVVJQ",
+				"http://zotero.org/users/15425556/items/CXG9TFZJ",
+				"http://zotero.org/users/15425556/items/DI6VMSQJ",
+				"http://zotero.org/users/15425556/items/M4SW6KRS"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/AWCKQFEU"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ClaimReview - Schema.org Type"
+	}
+}

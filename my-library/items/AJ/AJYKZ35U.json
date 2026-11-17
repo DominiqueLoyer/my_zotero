@@ -1,0 +1,92 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:21Z",
+			"dateModified": "2026-11-09T17:07:02Z",
+			"itemType": "attachment",
+			"key": "7HNIWDKE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:02 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "AJYKZ35U",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Topbots-2024-4129fa248c5781cba8e1de72e99c8c56"
+		},
+		{
+			"dateAdded": "2025-10-10T19:01:28Z",
+			"dateModified": "2025-10-10T19:01:28Z",
+			"itemType": "note",
+			"key": "GRCX2U97",
+			"note": "<p>Lien original brisé. Consulté le 10 octobre 2025</p>",
+			"parentItem": "AJYKZ35U",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7HNIWDKE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Topbots-2024-4129fa248c5781cba8e1de72e99c8c56"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Topbots"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "GRCX2U97",
+				"title": "Lien original brisé. Consulté le 10 octobre 2025"
+			}
+		],
+		"title": "Data Poisoning: The New Frontier of AI-Powered Cyber Attacks",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/AJYKZ35U"
+	},
+	"zotero": {
+		"citationKey": "topbotsDataPoisoningNew2024",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Topbots"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-13T19:35:46Z",
+		"itemType": "document",
+		"key": "AJYKZ35U",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Data Poisoning: The New Frontier of AI-Powered Cyber Attacks",
+		"url": "https://www.topbots.com/data-poisoning-ai-cyber-attacks/"
+	}
+}

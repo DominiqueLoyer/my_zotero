@@ -1,0 +1,102 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-12T22:14:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-12T22:14:19Z",
+			"dateModified": "2026-11-12T22:14:19Z",
+			"itemType": "attachment",
+			"key": "88HX327D",
+			"linkMode": "linked_url",
+			"parentItem": "JBIVEXZK",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"dateAdded": "2026-11-12T22:14:19Z",
+			"dateModified": "2026-11-12T22:14:19Z",
+			"itemType": "note",
+			"key": "TNHU4NCV",
+			"note": "DIC-9345 TALN",
+			"parentItem": "JBIVEXZK",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "88HX327D",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126 2026-11-12, 5:14:18 p.m."
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "TNHU4NCV",
+				"title": "DIC-9345 TALN"
+			}
+		],
+		"title": "Systeme de traduction automatique neuronal du russe vers l'anglais",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/JBIVEXZK"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.21668.18563",
+		"ISBN": "978-1-0699904-9-5",
+		"citationKey": "loyerSystemeTraductionAutomatique2025b",
+		"collections": [
+			"IE29Y4Q7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-12T22:14:19Z",
+		"itemType": "conferencePaper",
+		"key": "JBIVEXZK",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "RU-EN"
+			},
+			{
+				"tag": "Reseaux Neuronaux"
+			},
+			{
+				"tag": "Sequence-a-Sequence"
+			},
+			{
+				"tag": "TAL"
+			},
+			{
+				"tag": "Traduction Automatique"
+			}
+		],
+		"title": "Systeme de traduction automatique neuronal du russe vers l'anglais",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.21668.18563"
+	}
+}

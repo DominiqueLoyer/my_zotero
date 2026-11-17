@@ -1,0 +1,255 @@
+{
+	"children": [
+		{
+			"dateAdded": "2025-02-01T19:36:21Z",
+			"dateModified": "2025-02-01T19:36:21Z",
+			"itemType": "note",
+			"key": "7TYKJL2H",
+			"note": "Comment: 15 pages, 5 figures",
+			"parentItem": "ZMJTIDS7",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-02-01T19:36:15Z",
+			"dateModified": "2025-02-01T19:36:22Z",
+			"filename": "Vaswani et al. - 2023 - Attention Is All You Need.pdf",
+			"itemType": "attachment",
+			"key": "BLPSINMT",
+			"linkMode": "imported_file",
+			"parentItem": "ZMJTIDS7",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:25:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:00Z",
+			"dateModified": "2026-11-09T17:05:40Z",
+			"itemType": "attachment",
+			"key": "T8ZKQZSM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:40 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "ZMJTIDS7",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/8PZNX2ZC"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/V2JRECXD"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Vaswani-et-al-2023-4129fa248c57815b8aedf4d2d9192c99"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:19Z",
+			"dateModified": "2026-11-09T15:04:39Z",
+			"itemType": "attachment",
+			"key": "WKEIBGHS",
+			"linkMode": "linked_file",
+			"parentItem": "ZMJTIDS7",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/NMT_en-ru_040326/PDFs/Vaswani et al. - 2023 - Attention Is All You Need.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-03-14T17:36:06Z",
+			"dateModified": "2026-11-09T15:04:39Z",
+			"itemType": "note",
+			"key": "Y83XXQLG",
+			"note": "Comment: 15 pages, 5 figures",
+			"parentItem": "ZMJTIDS7",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/5BHTSULC"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "T8ZKQZSM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Vaswani-et-al-2023-4129fa248c57815b8aedf4d2d9192c99"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Vaswani et al. - 2023 - Attention Is All You Need.pdf",
+				"files": [
+					{
+						"path": "attachments/BL/BLPSINMT/Vaswani et al. - 2023 - Attention Is All You Need.pdf",
+						"size": 2215244,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/BL/BLPSINMT/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 39758,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/BL/BLPSINMT/Vaswani et al. - 2023 - Attention Is All You Need (trashed 2025-11-24 15-34-16).pdf",
+						"size": 2215244,
+						"storage": "git"
+					}
+				],
+				"key": "BLPSINMT",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Vaswani et al. - 2023 - Attention Is All You Need.pdf",
+				"files": [
+					{
+						"path": "attachments/WK/WKEIBGHS/Vaswani et al. - 2023 - Attention Is All You Need.pdf",
+						"size": 2215244,
+						"storage": "git"
+					}
+				],
+				"key": "WKEIBGHS",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/9270 (H25)",
+			"Cours H25/9270 (H25)/toufik",
+			"_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
+		],
+		"creators": [
+			"Vaswani, Ashish",
+			"Shazeer, Noam",
+			"Parmar, Niki",
+			"Uszkoreit, Jakob",
+			"Jones, Llion",
+			"Gomez, Aidan N.",
+			"Kaiser, Lukasz",
+			"Polosukhin, Illia"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "7TYKJL2H",
+				"title": "Comment: 15 pages, 5 figures"
+			},
+			{
+				"key": "Y83XXQLG",
+				"title": "Comment: 15 pages, 5 figures"
+			}
+		],
+		"title": "Attention Is All You Need",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/ZMJTIDS7"
+	},
+	"zotero": {
+		"DOI": "10.65215/r5bs2d54",
+		"abstractNote": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+		"accessDate": "2025-02-01T19:36:21Z",
+		"archiveID": "arXiv:1706.03762",
+		"citationKey": "vaswaniAttentionAllYou2023",
+		"collections": [
+			"FVGRRYQ4",
+			"PQV7PYGS",
+			"VENCFFG7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ashish",
+				"lastName": "Vaswani"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Noam",
+				"lastName": "Shazeer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Niki",
+				"lastName": "Parmar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jakob",
+				"lastName": "Uszkoreit"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Llion",
+				"lastName": "Jones"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aidan N.",
+				"lastName": "Gomez"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lukasz",
+				"lastName": "Kaiser"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Illia",
+				"lastName": "Polosukhin"
+			}
+		],
+		"date": "2023-08-02",
+		"dateAdded": "2025-02-01T19:36:21Z",
+		"dateModified": "2026-11-13T19:32:11Z",
+		"extra": "arXiv:1706.03762 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.1706.03762",
+		"itemType": "preprint",
+		"key": "ZMJTIDS7",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/XVW772BG"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/PTMX4CG7"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Attention Is All You Need",
+		"url": "http://arxiv.org/abs/1706.03762"
+	}
+}

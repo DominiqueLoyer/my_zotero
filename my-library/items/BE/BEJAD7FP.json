@@ -1,0 +1,154 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:32:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:45Z",
+			"dateModified": "2026-11-09T14:58:47Z",
+			"itemType": "attachment",
+			"key": "S7R3LP2M",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:32:45 p.m.</p>",
+			"parentItem": "BEJAD7FP",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/6J3T864G"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/KTDPX66H"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/OBIKE2025Neurosymbolic-31e9fa248c578116bb5ce85b3ff878a1"
+		},
+		{
+			"accessDate": "2026-11-08T16:38:19Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:38:19Z",
+			"dateModified": "2026-11-08T16:38:19Z",
+			"filename": "OBIKE, Peter Godfrey and USIP, Patience Usoro and UDO, Edward Ndarake and ANANGA, Aniekan Joe - 2025 - Neuro-symbolic reasoning Performance, challenges, and benchmarks A systematic literature review.pdf",
+			"itemType": "attachment",
+			"key": "TAN6BL7P",
+			"linkMode": "imported_url",
+			"parentItem": "BEJAD7FP",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://journals.abuad.edu.ng/index.php/ajeas/article/download/1367/942"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:33:22Z",
+			"dateModified": "2026-11-09T14:58:47Z",
+			"itemType": "attachment",
+			"key": "ZXY8H7LN",
+			"linkMode": "linked_file",
+			"parentItem": "BEJAD7FP",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Obike et al. - 2025 - Neuro-Symbolic Reasoning Performance, Challenges, and Benchmarks A Systematic Literature Review.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "OBIKE, Peter Godfrey and USIP, Patience Usoro and UDO, Edward Ndarake and ANANGA, Aniekan Joe - 2025 - Neuro-symbolic reasoning Performance, challenges, and benchmarks A systematic literature review.pdf",
+				"files": [
+					{
+						"path": "attachments/TA/TAN6BL7P/OBIKE, Peter Godfrey and USIP, Patience Usoro and UDO, Edward Ndarake and ANANGA, Aniekan Joe - 2025 - Neuro-symbolic reasoning Performance, challenges, and benchmarks A systematic literature review.pdf",
+						"size": 741268,
+						"storage": "git"
+					}
+				],
+				"key": "TAN6BL7P",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://journals.abuad.edu.ng/index.php/ajeas/article/download/1367/942"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "S7R3LP2M",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/OBIKE2025Neurosymbolic-31e9fa248c578116bb5ce85b3ff878a1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Obike et al. - 2025 - Neuro-Symbolic Reasoning Performance, Challenges, and Benchmarks A Systematic Literature Review.pdf",
+				"files": [
+					{
+						"path": "attachments/ZX/ZXY8H7LN/Obike et al. - 2025 - Neuro-Symbolic Reasoning Performance, Challenges, and Benchmarks A Systematic Literature Review.pdf",
+						"size": 741268,
+						"storage": "git"
+					}
+				],
+				"key": "ZXY8H7LN",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs",
+			"_gs_080326"
+		],
+		"creators": [
+			"OBIKE, Peter Godfrey and USIP, Patience Usoro and UDO, Edward Ndarake and ANANGA, Aniekan Joe"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neuro-symbolic reasoning: Performance, challenges, and benchmarks: A systematic literature review",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/BEJAD7FP"
+	},
+	"zotero": {
+		"DOI": "10.53982/ajeas.2025.0301.05-j",
+		"citationKey": "obikepetergodfreyandusippatienceusoroandudoedwardndarakeandanangaaniekanjoeNeurosymbolicReasoningPerformance2025",
+		"collections": [
+			"9ERXAIZK",
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "OBIKE, Peter Godfrey and USIP, Patience Usoro and UDO, Edward Ndarake and ANANGA, Aniekan Joe"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-03-08T21:23:31Z",
+		"dateModified": "2026-11-09T14:58:47Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "BEJAD7FP",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/6IFFMYX6"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/YTWPCP7P"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neuro-symbolic reasoning: Performance, challenges, and benchmarks: A systematic literature review"
+	}
+}

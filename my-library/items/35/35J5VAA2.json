@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:24Z",
+			"dateModified": "2026-03-09T20:43:59Z",
+			"itemType": "attachment",
+			"key": "LMP676AJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:43:59 p.m.</p>",
+			"parentItem": "35J5VAA2",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/GM62T7GU",
+					"http://zotero.org/groups/6376680/items/QI7773EF"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Crozier1967Le-3129fa248c5781d2acbac6579b0766b9"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LMP676AJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Crozier1967Le-3129fa248c5781d2acbac6579b0766b9"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Crozier, Michel"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Le Phénomène Bureaucratique",
+		"year": "1967",
+		"zoteroURI": "zotero://select/library/items/35J5VAA2"
+	},
+	"zotero": {
+		"DOI": "10.2307/3499545",
+		"citationKey": "croziermichelPhenomeneBureaucratique1967",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Crozier, Michel"
+			}
+		],
+		"date": "1967",
+		"dateAdded": "2026-02-25T21:35:05Z",
+		"dateModified": "2026-03-25T21:29:50Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "35J5VAA2",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/5SXQSPWM",
+				"http://zotero.org/groups/6376680/items/BVIR97XA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Le Phénomène Bureaucratique"
+	}
+}

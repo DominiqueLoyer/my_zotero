@@ -1,0 +1,108 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-10-30T21:01:28Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-09T20:19:09Z",
+			"dateModified": "2026-11-17T14:46:33Z",
+			"itemType": "attachment",
+			"key": "VYCXXN2F",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:41:53 a.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "DE7F3GNV",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/QSJM868Y"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-and-Loyer-2025-41b9fa248c57815480c0d72e36f66356"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VYCXXN2F",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-and-Loyer-2025-41b9fa248c57815480c0d72e36f66356"
+			}
+		],
+		"collections": [
+			"My papers (English)",
+			"_9335_all",
+			"completeLoyer_100126",
+			"mes papiers et beamers",
+			"myReferences"
+		],
+		"creators": [
+			"Loyer, Dominique S",
+			"Loyer, Dominique"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A Survey and Critical Evaluation of Yoav Shoham’s Knowledge Representation Perspective",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/DE7F3GNV"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.26691.26400",
+		"abstractNote": "This paper presents a critical evaluation of Yoav Shoham’s work, \"Why Knowledge Representation Matters\" (Shoham, 2016), which advocates for a revitalization of Knowledge Representation (KR)—particularly its logical and philosophical foundations—in the current era of Artificial Intelligence (AI) dominated by Machine Learning (ML). Shoham’s main thesis argues that KR provides essential conceptual foundations, a claim he supports primarily through the case study of Timeful, based on his own investigations into intention logics (Shoham, 2009). Timeful aimed to create a personal time-management assistant founded on an enriched data model, the “Intent Object” (IO), inspired by KR principles. This paper evaluates the robustness of Shoham’s argument and the evidentiary value of the Timeful example. While acknowledging KR’s importance for conceptual clarity and the organization of complex problems as illustrated by the IO model, it concludes that Shoham’s direct causal link between KR foundations and Timeful’s commercial success (notably its acquisition by Google) is overly simplified. It overlooks other crucial factors such as integrated ML algorithms, contributions from behavioral economics, technical implementation quality, and market conditions. Ultimately, this paper suggests that the Timeful story more convincingly supports a synergistic integration of KR and ML, rather than the preeminence of one approach over the other, aligning with Shoham’s own vision of a necessary balance.",
+		"citationKey": "loyerSurveyCriticalEvaluation2025",
+		"collections": [
+			"86QJKFHN",
+			"JVLZZMAC",
+			"K5YZTBZN",
+			"RJVJKNN2",
+			"WASU97Q5"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-09T20:19:09Z",
+		"dateModified": "2026-11-17T14:46:33Z",
+		"extra": "ORCID=\"0009-0003-9713-7109\"",
+		"itemType": "journalArticle",
+		"key": "DE7F3GNV",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"pages": "4",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/UNP2GQL6"
+			]
+		},
+		"rights": "Licence Creative Commons Attribution - Pas d’utilisation commerciale - Partage dans les mêmes conditions 4.0 International",
+		"tags": [
+			{
+				"tag": "Yoav Shoham"
+			},
+			{
+				"tag": "knowledge representation"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey and Critical Evaluation of Yoav Shoham’s Knowledge Representation Perspective"
+	}
+}

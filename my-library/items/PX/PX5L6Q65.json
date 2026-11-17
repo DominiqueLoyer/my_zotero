@@ -1,0 +1,180 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:48Z",
+			"dateModified": "2026-03-14T18:23:09Z",
+			"itemType": "attachment",
+			"key": "4RUJHSHX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:23:09 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-812c-8ab2-c434789e238d\",\"notes\":{\"ZKFEZ3HP\":{\"blockID\":\"3239fa24-8c57-8126-81c5-f9de0069a4ce\",\"syncedAt\":\"2026-03-14T18:23:09.936Z\"}}}</pre>",
+			"parentItem": "PX5L6Q65",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/QVX85B5V"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/gengRecommendationLanguageProcessing2023-3239fa248c5781a7adfae840e5b9bdba"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:31:38Z",
+			"dateModified": "2026-03-14T17:39:29Z",
+			"itemType": "attachment",
+			"key": "CK6V2QBA",
+			"linkMode": "linked_file",
+			"parentItem": "PX5L6Q65",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401_ic_/PDFs/Geng et al. - 2023 - Recommendation as Language Processing (RLP) A Unified Pretrain, Personalized Prompt & Predict Parad.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-03-14T17:39:28Z",
+			"dateModified": "2026-03-14T17:39:28Z",
+			"itemType": "note",
+			"key": "ZKFEZ3HP",
+			"note": "Comment: Accepted to ACM RecSys 2022. The arXiv version is more comprehensive",
+			"parentItem": "PX5L6Q65",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/NZLKTW2H"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "4RUJHSHX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/gengRecommendationLanguageProcessing2023-3239fa248c5781a7adfae840e5b9bdba"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Geng et al. - 2023 - Recommendation as Language Processing (RLP) A Unified Pretrain, Personalized Prompt & Predict Parad.pdf",
+				"files": [
+					{
+						"path": "attachments/CK/CK6V2QBA/Geng et al. - 2023 - Recommendation as Language Processing (RLP) A Unified Pretrain, Personalized Prompt & Predict Parad.pdf",
+						"size": 4239268,
+						"storage": "git"
+					}
+				],
+				"key": "CK6V2QBA",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Geng, Shijie",
+			"Liu, Shuchang",
+			"Fu, Zuohui",
+			"Ge, Yingqiang",
+			"Zhang, Yongfeng"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "ZKFEZ3HP",
+				"title": "Comment: Accepted to ACM RecSys 2022. The arXiv version is more comprehensive"
+			}
+		],
+		"title": "Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5)",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/PX5L6Q65"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2203.13366",
+		"abstractNote": "For a long time, different recommendation tasks typically require designing task-specific architectures and training objectives. As a result, it is hard to transfer the learned knowledge and representations from one task to another, thus restricting the generalization ability of existing recommendation approaches, e.g., a sequential recommendation model can hardly be applied or transferred to a review generation method. To deal with such issues, considering that language can describe almost anything and language grounding is a powerful medium to represent various problems or tasks, we present a flexible and unified text-to-text paradigm called \"Pretrain, Personalized Prompt, and Predict Paradigm\" (P5) for recommendation, which unifies various recommendation tasks in a shared framework. In P5, all data such as user-item interactions, user descriptions, item metadata, and user reviews are converted to a common format -- natural language sequences. The rich information from natural language assists P5 to capture deeper semantics for personalization and recommendation. Specifically, P5 learns different tasks with the same language modeling objective during pretraining. Thus, it serves as the foundation model for various downstream recommendation tasks, allows easy integration with other modalities, and enables instruction-based recommendation based on prompts. P5 advances recommender systems from shallow model to deep model to big model, and will revolutionize the technical form of recommender systems towards universal recommendation engine. With adaptive personalized prompt for different users, P5 is able to make predictions in a zero-shot or few-shot manner and largely reduces the necessity for extensive fine-tuning. On several recommendation benchmarks, we conduct experiments to show the effectiveness of P5. We release the source code at https://github.com/jeykigung/P5.",
+		"accessDate": "2026-03-14T17:39:28Z",
+		"archiveID": "arXiv:2203.13366",
+		"citationKey": "gengRecommendationLanguageProcessing2023",
+		"collections": [
+			"U5GGZRY8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Shijie",
+				"lastName": "Geng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Shuchang",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zuohui",
+				"lastName": "Fu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yingqiang",
+				"lastName": "Ge"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yongfeng",
+				"lastName": "Zhang"
+			}
+		],
+		"date": "2023-01-02",
+		"dateAdded": "2026-03-14T17:39:28Z",
+		"dateModified": "2026-03-14T18:17:48Z",
+		"extra": "arXiv:2203.13366 [cs]",
+		"itemType": "preprint",
+		"key": "PX5L6Q65",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/I2LX3YNX"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Recommendation as Language Processing (RLP)",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5)",
+		"url": "http://arxiv.org/abs/2203.13366"
+	}
+}

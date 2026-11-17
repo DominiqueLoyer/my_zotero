@@ -1,0 +1,74 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:36Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-03-08T21:46:46Z",
+			"itemType": "attachment",
+			"key": "N9YKFA4Q",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:36:30 p.m.</p>",
+			"parentItem": "43RLEB46",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Wang2019a-3129fa248c578119b9d7d6082049c7c1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "N9YKFA4Q",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Wang2019a-3129fa248c578119b9d7d6082049c7c1"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Wang, Hongwei and Zhang, Fuzheng and Wang, Jialin and Zhao, Miao and Li, Wenjie and Wang, Xing and Xie, Xing"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems",
+		"year": "2019",
+		"zoteroURI": "zotero://select/groups/6376680/items/43RLEB46"
+	},
+	"zotero": {
+		"DOI": "10.1145/3292500.3330836",
+		"citationKey": "Wang2019a",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Wang, Hongwei and Zhang, Fuzheng and Wang, Jialin and Zhao, Miao and Li, Wenjie and Wang, Xing and Xie, Xing"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-03-08T21:46:46Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "43RLEB46",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems"
+	}
+}

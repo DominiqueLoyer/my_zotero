@@ -1,0 +1,145 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:27Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:27Z",
+			"dateModified": "2026-01-02T19:18:13Z",
+			"itemType": "attachment",
+			"key": "832DLFA7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:13 p.m.</p>",
+			"parentItem": "28F9N37J",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/tamSiameseConvolutionalNeural2022-2c09fa248c5781a28387f9584387f451"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-08T14:23:56Z",
+			"dateModified": "2024-11-08T14:24:04Z",
+			"filename": "Tam et al. - 2022 - Siamese Convolutional Neural Network and Few-Shot Learning for Embedded Gesture Recognition.pdf",
+			"itemType": "attachment",
+			"key": "DFNBZQYC",
+			"linkMode": "imported_file",
+			"parentItem": "28F9N37J",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "832DLFA7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/tamSiameseConvolutionalNeural2022-2c09fa248c5781a28387f9584387f451"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Tam et al. - 2022 - Siamese Convolutional Neural Network and Few-Shot Learning for Embedded Gesture Recognition.pdf",
+				"files": [
+					{
+						"path": "attachments/DF/DFNBZQYC/Tam et al. - 2022 - Siamese Convolutional Neural Network and Few-Shot Learning for Embedded Gesture Recognition.pdf",
+						"size": 15919117,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/DF/DFNBZQYC/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 27035,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/DF/DFNBZQYC/Tam et al. - 2022 - Siamese Convolutional Neural Network and Few-Shot Learning for Embedded Gesture Recognition (trashed 2025-11-24 15-34-11).pdf",
+						"size": 15919117,
+						"storage": "git"
+					}
+				],
+				"key": "DFNBZQYC",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9270(A24)/conférence Mouhnir 19sept24 méta-apprentissage (few shots learning)"
+		],
+		"creators": [
+			"Tam, Simon",
+			"Boukadoum, Mounir",
+			"Campeau-Lecours, Alexandre",
+			"Gosselin, Benoit"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Siamese Convolutional Neural Network and Few-Shot Learning for Embedded Gesture Recognition",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/28F9N37J"
+	},
+	"zotero": {
+		"DOI": "10.1109/NEWCAS52662.2022.9901391",
+		"ISBN": "978-1-6654-0105-0",
+		"abstractNote": "This work proposes a framework to train and deploy neural network-based gesture recognition algorithms in wearable devices. The approach is demonstrated for a highdensity electromyography (HD-EMG) gesture recognition system, where a Siamese convolution neural network (SCNN) learns to associate and dissociate muscle activity patterns from the same or distinct gesture classes. This optimizes learning in low-data environments such as gesture recognition and myoelectric control, where training data must be provided by the end user. Then, using a cosine similarity-based few-shot classifier and inter-sessionintra-user transfer of the SCNN’s learning, the proposed model is intended to achieve state-of-the-art results in a framework that is realistically applicable in wearable devices. For an experimented myoelectric interface user, the proposed model achieved 86.49 % accuracy in 6-class gesture recognition, using inter-session-intrauser transfer learning by the SCNN. Few-shot learning demonstrates convergence to this accuracy within 20 shots with the cosine similarity classifier. Across a group of 13 able-bodied participants, 90.66 % and 97.34 % mean and median accuracy were obtained from the 6-way 20-shot learning approach with a majority vote (100 votes) over time-distributed inferences.",
+		"accessDate": "2024-11-08T14:24:04Z",
+		"citationKey": "tamSiameseConvolutionalNeural2022",
+		"collections": [
+			"MB324HL4"
+		],
+		"conferenceName": "2022 20th IEEE Interregional NEWCAS Conference (NEWCAS)",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Simon",
+				"lastName": "Tam"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mounir",
+				"lastName": "Boukadoum"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alexandre",
+				"lastName": "Campeau-Lecours"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Benoit",
+				"lastName": "Gosselin"
+			}
+		],
+		"date": "2022-6-19",
+		"dateAdded": "2024-11-08T14:24:04Z",
+		"dateModified": "2025-12-05T22:25:27Z",
+		"itemType": "conferencePaper",
+		"key": "28F9N37J",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "114-118",
+		"place": "Quebec City, QC, Canada",
+		"proceedingsTitle": "2022 20th IEEE Interregional NEWCAS Conference (NEWCAS)",
+		"publisher": "IEEE",
+		"relations": {},
+		"rights": "https://doi.org/10.15223/policy-029",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Siamese Convolutional Neural Network and Few-Shot Learning for Embedded Gesture Recognition",
+		"url": "https://ieeexplore.ieee.org/document/9901391/"
+	}
+}

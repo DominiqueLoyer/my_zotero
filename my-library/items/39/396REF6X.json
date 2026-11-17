@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:42Z",
+			"dateModified": "2026-03-09T20:44:47Z",
+			"itemType": "attachment",
+			"key": "QFIMM86B",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:47 p.m.</p>",
+			"parentItem": "396REF6X",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/7XJXXPY5",
+					"http://zotero.org/groups/6376680/items/QBJ7EQ64"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Ricci2011Introduction-3129fa248c5781278831d05e66468098"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QFIMM86B",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Ricci2011Introduction-3129fa248c5781278831d05e66468098"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Ricci, Francesco and Rokach, Lior and Shapira, Bracha"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Introduction to Recommender Systems Handbook",
+		"year": "2011",
+		"zoteroURI": "zotero://select/library/items/396REF6X"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-0-387-85820-3_1",
+		"citationKey": "riccifrancescoandrokachliorandshapirabrachaIntroductionRecommenderSystems2011",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Ricci, Francesco and Rokach, Lior and Shapira, Bracha"
+			}
+		],
+		"date": "2011",
+		"dateAdded": "2026-02-25T20:55:16Z",
+		"dateModified": "2026-03-25T21:29:57Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "396REF6X",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/892A5VR7",
+				"http://zotero.org/groups/6376680/items/PPVFJXDS"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Introduction to Recommender Systems Handbook"
+	}
+}

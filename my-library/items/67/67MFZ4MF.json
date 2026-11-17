@@ -1,0 +1,113 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:52:47Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:52:47Z",
+			"dateModified": "2026-01-01T23:52:47Z",
+			"filename": "Miller - 1995 - WordNet a lexical database for english.pdf",
+			"itemType": "attachment",
+			"key": "23ZYTEDE",
+			"linkMode": "imported_url",
+			"parentItem": "67MFZ4MF",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://dl.acm.org/doi/pdf/10.1145/219717.219748"
+		},
+		{
+			"accessDate": "2025-12-05T22:28:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:54Z",
+			"dateModified": "2026-01-02T19:13:51Z",
+			"itemType": "attachment",
+			"key": "8Y4QC2Q6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:51 p.m.</p>",
+			"parentItem": "67MFZ4MF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Miller1995WordNet-2c09fa248c5781b0b820e573c3db2cbb"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Miller - 1995 - WordNet a lexical database for english.pdf",
+				"files": [
+					{
+						"path": "attachments/23/23ZYTEDE/Miller - 1995 - WordNet a lexical database for english.pdf",
+						"size": 278506,
+						"storage": "git"
+					}
+				],
+				"key": "23ZYTEDE",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://dl.acm.org/doi/pdf/10.1145/219717.219748"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8Y4QC2Q6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Miller1995WordNet-2c09fa248c5781b0b820e573c3db2cbb"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Miller, George A."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "WordNet: a lexical database for english",
+		"year": "1995",
+		"zoteroURI": "zotero://select/library/items/67MFZ4MF"
+	},
+	"zotero": {
+		"DOI": "10.1145/219717.219748",
+		"citationKey": "millerWordNetLexicalDatabase1995",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "George A.",
+				"lastName": "Miller"
+			}
+		],
+		"date": "1995",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2025-04-10T15:02:46Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"issue": "11",
+		"itemType": "journalArticle",
+		"key": "67MFZ4MF",
+		"pages": "39–41",
+		"publicationTitle": "Communications of the ACM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "WordNet: a lexical database for english",
+		"url": "https://doi.org/10.1145/219717.219748",
+		"volume": "38"
+	}
+}

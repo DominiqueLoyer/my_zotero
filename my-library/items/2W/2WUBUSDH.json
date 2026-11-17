@@ -1,0 +1,81 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:52:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:52:45Z",
+			"dateModified": "2026-11-09T17:08:23Z",
+			"itemType": "attachment",
+			"key": "SPYEGE8W",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:23 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "2WUBUSDH",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-4129fa248c578174bad9de2e41f8491f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SPYEGE8W",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-4129fa248c578174bad9de2e41f8491f"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Évaluation de modèles de pondération pour la recherche d’information sur TREC AP 88-90",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/2WUBUSDH"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.21668.18563",
+		"abstractNote": "Recherche d’Information (RI) : Trouver l’information pertinente\ndans la vaste collection TREC AP 88-90.\nDéfi : 243k documents compressés individuellement en\nGunZip->.gz dans un fichier->.tar les englobants. Traitement\nséquentiel long vs. en parralèle. Le type d’encodage du fichier\nXML n’est pas pris en charge par Python -> conversion en .JSON\nObjectif Principal : Implémenter et évaluer un système RI\nmonolingue (Anglais) sur la collection.\nPertinence Cours : Application pratique des concepts de TALN\nvus dans le cours DIC-9345 tels que : (modèles RI, indexation,\névaluation, amélioration).",
+		"citationKey": "loyerEvaluationModelesPonderation2025c",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-09T18:32:36Z",
+		"dateModified": "2026-02-05T00:04:49Z",
+		"extra": "abstractTranslation: Information Retrieval (IR): Finding relevant information in the vast TREC AP 88-90 collection. Challenge: 243k documents individually compressed with GunZip into .gz files within a .tar archive. Long sequential processing vs. parallel processing. Python does not support the XML file encoding type, requiring conversion to .JSON. Main Objective: Implement and evaluate a monolingual (English) IR system on the collection. Course Relevance: Practical application of NLP concepts covered in DIC-9345 such as: (IR models, indexing, evaluation, improvement).\ntitleTranslation: Evaluation of weighting models for information retrieval on TREC AP 88-90",
+		"itemType": "conferencePaper",
+		"key": "2WUBUSDH",
+		"language": "fr-CA",
+		"pages": "21",
+		"place": "Montréal, Québec, Canada",
+		"publisher": "UQAM",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/users/15425556/publications/items/ZEVEKDWF"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Évaluation de modèles de pondération pour la recherche d’information sur TREC AP 88-90",
+		"url": "https://www.researchgate.net/publication/392329863_Traduction_automatique_neuronal_du_Russe-Anglais?channel=doi&linkId=683df6c86a754f72b58ff628&showFulltext=true"
+	}
+}

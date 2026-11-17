@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-11-17T14:49:41Z",
+			"itemType": "attachment",
+			"key": "8ZAT85ZY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:41:19 p.m.</p>",
+			"parentItem": "NJSMMADA",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/3SWX88RI"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/benbouzid2018gerer-3129fa248c578188a975dc0d0e0a5bff"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8ZAT85ZY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/benbouzid2018gerer-3129fa248c578188a975dc0d0e0a5bff"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"references_dic9401"
+		],
+		"creators": [
+			"Benbouzid, Bilel"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Quand prédire, c'est gérer. La police prédictive aux États-Unis",
+		"year": "2018",
+		"zoteroURI": "zotero://select/groups/6376680/items/NJSMMADA"
+	},
+	"zotero": {
+		"DOI": "10.3917/res.211.0221",
+		"citationKey": "benbouzid2018gerer",
+		"collections": [
+			"KRMD3KDT",
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Benbouzid, Bilel"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-11-17T14:49:41Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "NJSMMADA",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/H94UI22G"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Quand prédire, c'est gérer. La police prédictive aux États-Unis"
+	}
+}

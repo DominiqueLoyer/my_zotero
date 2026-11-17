@@ -1,0 +1,149 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:18Z",
+			"dateModified": "2026-11-09T15:00:58Z",
+			"itemType": "attachment",
+			"key": "66INCEMI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:10:02 p.m.</p>",
+			"parentItem": "HACCLC3M",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/UWWDCRCW"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/E7X4ZSW4"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/schwalbeInteractiveConversationalExplainable2023-2c09fa248c5781e5b412c9407f3ffe48"
+		},
+		{
+			"accessDate": "2026-01-08T20:31:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:31:12Z",
+			"dateModified": "2026-11-09T15:00:58Z",
+			"itemType": "attachment",
+			"key": "HIF6AIFP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:49:04 p.m.</p>",
+			"parentItem": "HACCLC3M",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Schwalbe2023-2e29fa248c5781269775ed45e9ade0eb"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HIF6AIFP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Schwalbe2023-2e29fa248c5781269775ed45e9ade0eb"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "66INCEMI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/schwalbeInteractiveConversationalExplainable2023-2c09fa248c5781e5b412c9407f3ffe48"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Schwalbe, Gerrit",
+			"Schemmer, Michael",
+			"Trendafilov, Rumen",
+			"Gerstenberger, Thomas",
+			"Leimeister, Jan Marco"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Interactive and Conversational Explainable AI (ICXAI): A Research Agenda",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/HACCLC3M"
+	},
+	"zotero": {
+		"citationKey": "schwalbeInteractiveConversationalExplainable2023",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gerrit",
+				"lastName": "Schwalbe"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Michael",
+				"lastName": "Schemmer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Rumen",
+				"lastName": "Trendafilov"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Thomas",
+				"lastName": "Gerstenberger"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jan Marco",
+				"lastName": "Leimeister"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T15:00:58Z",
+		"itemType": "conferencePaper",
+		"key": "HACCLC3M",
+		"proceedingsTitle": "Proceedings of the 31st European Conference on Information Systems (ECIS)",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/U7Z4Z66U",
+				"http://zotero.org/users/15425556/items/WETYSVW8"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/R7T8VF9L"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Interactive and Conversational Explainable AI (ICXAI): A Research Agenda",
+		"url": "https://aisel.aisnet.org/ecis2023_rp/310/"
+	}
+}

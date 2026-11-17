@@ -1,0 +1,130 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T22:59:23Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-08T22:59:23Z",
+			"dateModified": "2026-01-08T22:59:23Z",
+			"filename": "Chen et al. - 2020 - True to the model or true to the data.pdf",
+			"itemType": "attachment",
+			"key": "SBUQ2LFA",
+			"linkMode": "imported_url",
+			"parentItem": "YUHB3E8K",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376369?download=true"
+		},
+		{
+			"accessDate": "2026-01-08T20:28:07Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:28:07Z",
+			"dateModified": "2026-03-09T20:47:53Z",
+			"itemType": "attachment",
+			"key": "SXC432JV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:53 p.m.</p>",
+			"parentItem": "YUHB3E8K",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Chen2020-2e29fa248c5781afbd5adc05d84b8532"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Chen et al. - 2020 - True to the model or true to the data.pdf",
+				"files": [
+					{
+						"path": "attachments/SB/SBUQ2LFA/Chen et al. - 2020 - True to the model or true to the data.pdf",
+						"size": 2313747,
+						"storage": "git"
+					}
+				],
+				"key": "SBUQ2LFA",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376369?download=true"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SXC432JV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Chen2020-2e29fa248c5781afbd5adc05d84b8532"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"Chen, Vivian",
+			"Li, Q. Vera",
+			"Guttag, John",
+			"Tseng, Bi"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "True to the model or true to the data?",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/YUHB3E8K"
+	},
+	"zotero": {
+		"DOI": "10.1145/3313831.3376369",
+		"citationKey": "chenTrueModelTrue2020",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Vivian",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Q. Vera",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John",
+				"lastName": "Guttag"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Bi",
+				"lastName": "Tseng"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-01-08T20:10:58Z",
+		"dateModified": "2026-03-25T21:30:07Z",
+		"itemType": "conferencePaper",
+		"key": "YUHB3E8K",
+		"language": "fr-CA",
+		"pages": "1–12",
+		"place": "New York, NY, USA",
+		"proceedingsTitle": "Proceedings of the 2020 CHI conference on human factors in computing systems (CHI '20)",
+		"publisher": "Association for Computing Machinery",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "True to the model or true to the data?"
+	}
+}

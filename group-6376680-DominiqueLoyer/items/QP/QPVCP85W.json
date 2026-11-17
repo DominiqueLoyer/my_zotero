@@ -1,0 +1,130 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:40Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "BQ3X2KXS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:40 p.m.</p>",
+			"parentItem": "QPVCP85W",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/wangKnowledgeawareGraphNeural2019a-3239fa248c57817a83e4dd9e689a44d6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "BQ3X2KXS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/wangKnowledgeawareGraphNeural2019a-3239fa248c57817a83e4dd9e689a44d6"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Wang, Hongwei",
+			"Zhang, Fuzheng",
+			"Zhang, Mengdi",
+			"Leskovec, Jure",
+			"Zhao, Miao",
+			"Li, Wenjie",
+			"Wang, Zhongyuan"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems",
+		"year": "2019",
+		"zoteroURI": "zotero://select/groups/6376680/items/QPVCP85W"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1905.04413",
+		"abstractNote": "Knowledge graphs capture structured information and relations between a set of entities or items. As such knowledge graphs represent an attractive source of information that could help improve recommender systems. However, existing approaches in this domain rely on manual feature engineering and do not allow for an end-to-end training. Here we propose Knowledge-aware Graph Neural Networks with Label Smoothness regularization (KGNN-LS) to provide better recommendations. Conceptually, our approach computes user-specific item embeddings by first applying a trainable function that identifies important knowledge graph relationships for a given user. This way we transform the knowledge graph into a user-specific weighted graph and then apply a graph neural network to compute personalized item embeddings. To provide better inductive bias, we rely on label smoothness assumption, which posits that adjacent items in the knowledge graph are likely to have similar user relevance labels/scores. Label smoothness provides regularization over the edge weights and we prove that it is equivalent to a label propagation scheme on a graph. We also develop an efficient implementation that shows strong scalability with respect to the knowledge graph size. Experiments on four datasets show that our method outperforms state of the art baselines. KGNN-LS also achieves strong performance in cold-start scenarios where user-item interactions are sparse.",
+		"accessDate": "2026-03-14T17:40:00Z",
+		"archiveID": "arXiv:1905.04413",
+		"citationKey": "wangKnowledgeawareGraphNeural2019",
+		"collections": [
+			"HXLA8A4T"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Hongwei",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fuzheng",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mengdi",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jure",
+				"lastName": "Leskovec"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Miao",
+				"lastName": "Zhao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Wenjie",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhongyuan",
+				"lastName": "Wang"
+			}
+		],
+		"date": "2019-06-14",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:1905.04413 [cs]",
+		"itemType": "preprint",
+		"key": "QPVCP85W",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "Statistics - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems",
+		"url": "http://arxiv.org/abs/1905.04413"
+	}
+}

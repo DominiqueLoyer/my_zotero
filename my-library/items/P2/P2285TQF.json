@@ -1,0 +1,77 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:28:23Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:23Z",
+			"dateModified": "2026-11-09T17:05:09Z",
+			"itemType": "attachment",
+			"key": "BZIRBGY3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:09 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "P2285TQF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/NIST-2023-4129fa248c5781b19791fd7ab31bdb81"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "BZIRBGY3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/NIST-2023-4129fa248c5781b19791fd7ab31bdb81"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"NIST"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "AI Risk Management Framework",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/P2285TQF"
+	},
+	"zotero": {
+		"citationKey": "nistAIRiskManagement2023",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "NIST"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-13T19:30:56Z",
+		"itemType": "document",
+		"key": "P2285TQF",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "AI Risk Management Framework",
+		"url": "https://www.nist.gov/itl/ai-risk-management-framework"
+	}
+}

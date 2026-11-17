@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:16Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "IB73MMXC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:16 p.m.</p>",
+			"parentItem": "PPJ27JPL",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ibrahimSurveyAugmentingKnowledge2024-3239fa248c578175bf1ef0da6b761ff7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IB73MMXC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ibrahimSurveyAugmentingKnowledge2024-3239fa248c578175bf1ef0da6b761ff7"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Ibrahim, Nourhan",
+			"Aboulela, Samar",
+			"Ibrahim, Ahmed",
+			"Kashef, Rasha"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A survey on augmenting knowledge graphs (KGs) with large language models (LLMs): models, evaluation metrics, benchmarks, and challenges",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/PPJ27JPL"
+	},
+	"zotero": {
+		"DOI": "10.1007/s44163-024-00175-8",
+		"ISSN": "2731-0809",
+		"abstractNote": "Integrating Large Language Models (LLMs) with Knowledge Graphs (KGs) enhances the interpretability and performance of AI systems. This research comprehensively analyzes this integration, classifying approaches into three fundamental paradigms: KG-augmented LLMs, LLM-augmented KGs, and synergized frameworks. The evaluation examines each paradigm’s methodology, strengths, drawbacks, and practical applications in real-life scenarios. The findings highlight the substantial impact of these integrations in fundamentally improving real-time data analysis, efficient decision-making, and promoting innovation across various domains. In this paper, we also describe essential evaluation metrics and benchmarks for assessing the performance of these integrations, addressing challenges like scalability and computational overhead, and providing potential solutions. This comprehensive analysis underscores the profound impact of these integrations on improving real-time data analysis, enhancing decision-making efficiency, and fostering innovation across various domains.",
+		"accessDate": "2026-03-14T17:40:40Z",
+		"citationKey": "ibrahimSurveyAugmentingKnowledge2024",
+		"collections": [
+			"PNZQF2WF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Nourhan",
+				"lastName": "Ibrahim"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Samar",
+				"lastName": "Aboulela"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ahmed",
+				"lastName": "Ibrahim"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Rasha",
+				"lastName": "Kashef"
+			}
+		],
+		"date": "2024-11-04",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Discov Artif Intell",
+		"key": "PPJ27JPL",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "76",
+		"publicationTitle": "Discover Artificial Intelligence",
+		"relations": {},
+		"shortTitle": "A survey on augmenting knowledge graphs (KGs) with large language models (LLMs)",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A survey on augmenting knowledge graphs (KGs) with large language models (LLMs): models, evaluation metrics, benchmarks, and challenges",
+		"url": "https://link.springer.com/10.1007/s44163-024-00175-8",
+		"volume": "4"
+	}
+}

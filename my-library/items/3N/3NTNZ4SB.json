@@ -1,0 +1,116 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:13Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:35:13Z",
+			"dateModified": "2026-03-09T20:35:13Z",
+			"itemType": "attachment",
+			"key": "KXQNDBDC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:13 p.m.</p>",
+			"parentItem": "3NTNZ4SB",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/DAKCJPJN"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Loyer2009Traduction-31e9fa248c5781adaa5ee05466d34ddb"
+		},
+		{
+			"accessDate": "2026-11-08T16:39:59Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:39:59Z",
+			"dateModified": "2026-11-08T16:39:59Z",
+			"filename": "Loyer, Dominique - 2009 - Traduction automatique neuronal du Russe-Anglais.pdf",
+			"itemType": "attachment",
+			"key": "LVIUAT27",
+			"linkMode": "imported_url",
+			"parentItem": "3NTNZ4SB",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://shs.cairn.info/article/RFLA_141_0093/pdf?lang=fr"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer, Dominique - 2009 - Traduction automatique neuronal du Russe-Anglais.pdf",
+				"files": [
+					{
+						"path": "attachments/LV/LVIUAT27/Loyer, Dominique - 2009 - Traduction automatique neuronal du Russe-Anglais.pdf",
+						"size": 1376660,
+						"storage": "git"
+					}
+				],
+				"key": "LVIUAT27",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://shs.cairn.info/article/RFLA_141_0093/pdf?lang=fr"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KXQNDBDC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Loyer2009Traduction-31e9fa248c5781adaa5ee05466d34ddb"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Loyer, Dominique"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Traduction automatique neuronal du Russe-Anglais",
+		"year": "2009",
+		"zoteroURI": "zotero://select/library/items/3NTNZ4SB"
+	},
+	"zotero": {
+		"DOI": "10.3917/rfla.141.0093",
+		"citationKey": "loyerdominiqueTraductionAutomatiqueNeuronal2009",
+		"collections": [
+			"7XVYZYFG"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Loyer, Dominique"
+			}
+		],
+		"date": "2009",
+		"dateAdded": "2026-03-04T20:28:10Z",
+		"dateModified": "2026-03-25T21:29:02Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "3NTNZ4SB",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/VRGS4WDP"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Traduction automatique neuronal du Russe-Anglais",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.21668.18563"
+	}
+}

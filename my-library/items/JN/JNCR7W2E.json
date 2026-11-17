@@ -1,0 +1,85 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:50Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:50Z",
+			"dateModified": "2026-11-09T17:08:21Z",
+			"itemType": "attachment",
+			"key": "UWTIHHZT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:21 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "JNCR7W2E",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/GIC9LB4K",
+					"http://zotero.org/groups/6376680/items/MBFLH4N8"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Tjeng-Vincent-and-Xiao-Kai-Y-and-Tedrake-Russ-2025-4129fa248c578112bc30d8aa179f67cf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UWTIHHZT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Tjeng-Vincent-and-Xiao-Kai-Y-and-Tedrake-Russ-2025-4129fa248c578112bc30d8aa179f67cf"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Tjeng, Vincent and Xiao, Kai Y. and Tedrake, Russ"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Evaluating robustness of neural networks with mixed integer programming",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/JNCR7W2E"
+	},
+	"zotero": {
+		"DOI": "10.1016/j.neucom.2025.130214",
+		"citationKey": "tjengvincentandxiaokaiy.andtedrakerussEvaluatingRobustnessNeural2025",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Tjeng, Vincent and Xiao, Kai Y. and Tedrake, Russ"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-25T21:52:07Z",
+		"dateModified": "2026-03-25T21:29:35Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "JNCR7W2E",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/56XM7Z6J",
+				"http://zotero.org/groups/6376680/items/RGXPNLNX"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Evaluating robustness of neural networks with mixed integer programming",
+		"url": "https://openreview.net/forum?id=Hy-2x3x0F"
+	}
+}

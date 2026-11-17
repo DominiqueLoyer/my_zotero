@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:26:49Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:26:49Z",
+			"dateModified": "2026-11-08T16:26:49Z",
+			"filename": "Koh, Pang Wei and Nguyen, Thao and Tang, Yew Siang and Mussmann, Stephen and Pierson, Emma and Kim, Been and Liang, Percy - 2023 - Concept Bottleneck Models.pdf",
+			"itemType": "attachment",
+			"key": "A22644VC",
+			"linkMode": "imported_url",
+			"parentItem": "4CRJKPV2",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2212.07430"
+		},
+		{
+			"accessDate": "2026-02-25T22:17:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:30Z",
+			"dateModified": "2026-11-09T17:06:33Z",
+			"itemType": "attachment",
+			"key": "W6CFLUCK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:33 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "4CRJKPV2",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/IUDVX53H",
+					"http://zotero.org/groups/6376680/items/MQ4H3A2T"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Koh-Pang-Wei-and-Nguyen-Thao-and-Tang-Yew-Siang-and-Mussmann-Stephen-and-Pierson-Emma-and-Kim--4129fa248c5781d79f97c99827235779"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "W6CFLUCK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Koh-Pang-Wei-and-Nguyen-Thao-and-Tang-Yew-Siang-and-Mussmann-Stephen-and-Pierson-Emma-and-Kim--4129fa248c5781d79f97c99827235779"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Koh, Pang Wei and Nguyen, Thao and Tang, Yew Siang and Mussmann, Stephen and Pierson, Emma and Kim, Been and Liang, Percy - 2023 - Concept Bottleneck Models.pdf",
+				"files": [
+					{
+						"path": "attachments/A2/A22644VC/Koh, Pang Wei and Nguyen, Thao and Tang, Yew Siang and Mussmann, Stephen and Pierson, Emma and Kim, Been and Liang, Percy - 2023 - Concept Bottleneck Models.pdf",
+						"size": 5536370,
+						"storage": "git"
+					}
+				],
+				"key": "A22644VC",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2212.07430"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Koh, Pang Wei and Nguyen, Thao and Tang, Yew Siang and Mussmann, Stephen and Pierson, Emma and Kim, Been and Liang, Percy"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Concept Bottleneck Models",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/4CRJKPV2"
+	},
+	"zotero": {
+		"DOI": "10.1609/aaai.v37i5.25736",
+		"citationKey": "kohpangweiandnguyenthaoandtangyewsiangandmussmannstephenandpiersonemmaandkimbeenandliangpercyConceptBottleneckModels2023",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Koh, Pang Wei and Nguyen, Thao and Tang, Yew Siang and Mussmann, Stephen and Pierson, Emma and Kim, Been and Liang, Percy"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-02-25T21:39:28Z",
+		"dateModified": "2026-03-25T21:29:44Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "4CRJKPV2",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/LJZ33MA5",
+				"http://zotero.org/groups/6376680/items/ZE6E8MUP"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Concept Bottleneck Models"
+	}
+}

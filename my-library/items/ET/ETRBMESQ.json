@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:25Z",
+			"dateModified": "2026-03-09T20:42:50Z",
+			"itemType": "attachment",
+			"key": "N7EZNG7E",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:42:50 p.m.</p>",
+			"parentItem": "ETRBMESQ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3BH4634V",
+					"http://zotero.org/groups/6376680/items/9JQ5XLJB"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Kuper2018Verifying-3129fa248c57817b8f90f23d95fa451f"
+		},
+		{
+			"accessDate": "2026-11-08T16:20:38Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:20:38Z",
+			"dateModified": "2026-11-08T16:20:38Z",
+			"filename": "Kuper, G. and Bodik, R. and Singh, S. - 2018 - Verifying properties of deep neural networks.pdf",
+			"itemType": "attachment",
+			"key": "Z9HPI3GI",
+			"linkMode": "imported_url",
+			"parentItem": "ETRBMESQ",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1709.06662"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "N7EZNG7E",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Kuper2018Verifying-3129fa248c57817b8f90f23d95fa451f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Kuper, G. and Bodik, R. and Singh, S. - 2018 - Verifying properties of deep neural networks.pdf",
+				"files": [
+					{
+						"path": "attachments/Z9/Z9HPI3GI/Kuper, G. and Bodik, R. and Singh, S. - 2018 - Verifying properties of deep neural networks.pdf",
+						"size": 1449552,
+						"storage": "git"
+					}
+				],
+				"key": "Z9HPI3GI",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1709.06662"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Kuper, G. and Bodik, R. and Singh, S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Verifying properties of deep neural networks",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/ETRBMESQ"
+	},
+	"zotero": {
+		"DOI": "10.1609/aaai.v32i1.12206",
+		"citationKey": "kuperg.andbodikr.andsinghs.VerifyingPropertiesDeep2018",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Kuper, G. and Bodik, R. and Singh, S."
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-02-25T21:39:56Z",
+		"dateModified": "2026-03-25T21:29:43Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "ETRBMESQ",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/PSPZBU47",
+				"http://zotero.org/groups/6376680/items/PUXSAX62"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Verifying properties of deep neural networks"
+	}
+}

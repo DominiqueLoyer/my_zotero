@@ -1,0 +1,240 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:01Z",
+			"dateModified": "2026-11-09T17:08:47Z",
+			"itemType": "attachment",
+			"key": "RYB7PM58",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:47 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "YJGPPK3I",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/JPPLIMPB"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Longo-et-al-2024-4129fa248c578189a0fdefc12ee671d9"
+		},
+		{
+			"accessDate": "2024-11-23T17:54:35Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-23T17:54:35Z",
+			"dateModified": "2024-11-23T17:54:35Z",
+			"filename": "Longo et al. - 2024 - Explainable Artificial Intelligence (XAI) 2.0 A manifesto of open challenges and interdisciplinary.pdf",
+			"itemType": "attachment",
+			"key": "TSY948R3",
+			"linkMode": "imported_url",
+			"parentItem": "YJGPPK3I",
+			"relations": {},
+			"tags": [],
+			"title": "Version acceptée",
+			"url": "https://eprints.gla.ac.uk/320332/1/320332.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RYB7PM58",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Longo-et-al-2024-4129fa248c578189a0fdefc12ee671d9"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Longo et al. - 2024 - Explainable Artificial Intelligence (XAI) 2.0 A manifesto of open challenges and interdisciplinary.pdf",
+				"files": [
+					{
+						"path": "attachments/TS/TSY948R3/Longo et al. - 2024 - Explainable Artificial Intelligence (XAI) 2.0 A manifesto of open challenges and interdisciplinary.pdf",
+						"size": 1470211,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/TS/TSY948R3/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 186819,
+						"storage": "git"
+					}
+				],
+				"key": "TSY948R3",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Version acceptée",
+				"url": "https://eprints.gla.ac.uk/320332/1/320332.pdf"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Longo, Luca",
+			"Brcic, Mario",
+			"Cabitza, Federico",
+			"Choi, Jaesik",
+			"Confalonieri, Roberto",
+			"Ser, Javier Del",
+			"Guidotti, Riccardo",
+			"Hayashi, Yoichi",
+			"Herrera, Francisco",
+			"Holzinger, Andreas",
+			"Jiang, Richard",
+			"Khosravi, Hassan",
+			"Lecue, Freddy",
+			"Malgieri, Gianclaudio",
+			"Páez, Andrés",
+			"Samek, Wojciech",
+			"Schneider, Johannes",
+			"Speith, Timo",
+			"Stumpf, Simone"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/YJGPPK3I"
+	},
+	"zotero": {
+		"DOI": "10.1016/j.inffus.2024.102301",
+		"ISSN": "15662535",
+		"accessDate": "2024-11-23T17:49:55Z",
+		"citationKey": "longoExplainableArtificialIntelligence2024",
+		"collections": [
+			"J4VTG4NB",
+			"NKV86EAI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Luca",
+				"lastName": "Longo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mario",
+				"lastName": "Brcic"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Federico",
+				"lastName": "Cabitza"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jaesik",
+				"lastName": "Choi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Roberto",
+				"lastName": "Confalonieri"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Javier Del",
+				"lastName": "Ser"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Riccardo",
+				"lastName": "Guidotti"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yoichi",
+				"lastName": "Hayashi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Francisco",
+				"lastName": "Herrera"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Andreas",
+				"lastName": "Holzinger"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Richard",
+				"lastName": "Jiang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hassan",
+				"lastName": "Khosravi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Freddy",
+				"lastName": "Lecue"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gianclaudio",
+				"lastName": "Malgieri"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Andrés",
+				"lastName": "Páez"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Wojciech",
+				"lastName": "Samek"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Johannes",
+				"lastName": "Schneider"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Timo",
+				"lastName": "Speith"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Simone",
+				"lastName": "Stumpf"
+			}
+		],
+		"date": "06/2024",
+		"dateAdded": "2024-11-23T17:49:56Z",
+		"dateModified": "2025-12-05T22:32:01Z",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Information Fusion",
+		"key": "YJGPPK3I",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "102301",
+		"publicationTitle": "Information Fusion",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/BPYJJ7SP"
+			]
+		},
+		"shortTitle": "Explainable Artificial Intelligence (XAI) 2.0",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions",
+		"url": "https://linkinghub.elsevier.com/retrieve/pii/S1566253524000794",
+		"volume": "106"
+	}
+}

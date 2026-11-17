@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:10:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:10:57Z",
+			"dateModified": "2026-11-09T17:07:07Z",
+			"itemType": "attachment",
+			"key": "JQ4LVSTM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:07 p.m.</p>",
+			"parentItem": "QX6URUIP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Luyu-He-and-Siyi-Hu-and-Allen-Pei-2021-4129fa248c57811bb2d2ef31b03a8586"
+		},
+		{
+			"accessDate": "2026-11-08T16:27:29Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:27:29Z",
+			"dateModified": "2026-11-08T16:27:29Z",
+			"filename": "Luyu He and Siyi Hu and Allen Pei - 2021 - Debunking Disinformation Revolutionizing Truth with NLP in Fake News Detection.pdf",
+			"itemType": "attachment",
+			"key": "YJRMZMBM",
+			"linkMode": "imported_url",
+			"parentItem": "QX6URUIP",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://www.intechopen.com/citation-pdf-url/73323"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Luyu He and Siyi Hu and Allen Pei - 2021 - Debunking Disinformation Revolutionizing Truth with NLP in Fake News Detection.pdf",
+				"files": [
+					{
+						"path": "attachments/YJ/YJRMZMBM/Luyu He and Siyi Hu and Allen Pei - 2021 - Debunking Disinformation Revolutionizing Truth with NLP in Fake News Detection.pdf",
+						"size": 356624,
+						"storage": "git"
+					}
+				],
+				"key": "YJRMZMBM",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://www.intechopen.com/citation-pdf-url/73323"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JQ4LVSTM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Luyu-He-and-Siyi-Hu-and-Allen-Pei-2021-4129fa248c57811bb2d2ef31b03a8586"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Luyu He and Siyi Hu and Allen Pei"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Debunking Disinformation: Revolutionizing Truth with NLP in Fake News Detection",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/QX6URUIP"
+	},
+	"zotero": {
+		"DOI": "10.5772/intechopen.93738",
+		"citationKey": "luyuheandsiyihuandallenpeiDebunkingDisinformationRevolutionizing2021a",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Luyu He and Siyi Hu and Allen Pei"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-04-24T21:29:18Z",
+		"dateModified": "2026-11-08T16:10:57Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "QX6URUIP",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Debunking Disinformation: Revolutionizing Truth with NLP in Fake News Detection"
+	}
+}

@@ -1,0 +1,132 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:30Z",
+			"dateModified": "2026-03-14T17:36:12Z",
+			"itemType": "attachment",
+			"key": "P8CNXZ5I",
+			"linkMode": "linked_file",
+			"parentItem": "P7KL2EBC",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9411_291225/PDFs/Bengio - 2019 - The Consciousness Prior.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:19:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:47Z",
+			"dateModified": "2026-03-14T18:19:47Z",
+			"itemType": "attachment",
+			"key": "W85CZ6MJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:19:47 p.m.</p>",
+			"parentItem": "P7KL2EBC",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/CNDGXV78"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/bengioConsciousnessPrior2019-3239fa248c57817d8e61e83e7f8e8af3"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "W85CZ6MJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/bengioConsciousnessPrior2019-3239fa248c57817d8e61e83e7f8e8af3"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Bengio - 2019 - The Consciousness Prior.pdf",
+				"files": [
+					{
+						"path": "attachments/P8/P8CNXZ5I/Bengio - 2019 - The Consciousness Prior.pdf",
+						"size": 123000,
+						"storage": "git"
+					}
+				],
+				"key": "P8CNXZ5I",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9411_291225/PDFs"
+		],
+		"creators": [
+			"Bengio, Yoshua"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The Consciousness Prior",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/P7KL2EBC"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1709.08568",
+		"abstractNote": "A new prior is proposed for learning representations of high-level concepts of the kind we manipulate with language. This prior can be combined with other priors in order to help disentangling abstract factors from each other. It is inspired by cognitive neuroscience theories of consciousness, seen as a bottleneck through which just a few elements, after having been selected by attention from a broader pool, are then broadcast and condition further processing, both in perception and decision-making. The set of recently selected elements one becomes aware of is seen as forming a low-dimensional conscious state. This conscious state is combining the few concepts constituting a conscious thought, i.e., what one is immediately conscious of at a particular moment. We claim that this architectural and information-processing constraint corresponds to assumptions about the joint distribution between high-level concepts. To the extent that these assumptions are generally true (and the form of natural language seems consistent with them), they can form a useful prior for representation learning. A low-dimensional thought or conscious state is analogous to a sentence: it involves only a few variables and yet can make a statement with very high probability of being true. This is consistent with a joint distribution (over high-level concepts) which has the form of a sparse factor graph, i.e., where the dependencies captured by each factor of the factor graph involve only very few variables while creating a strong dip in the overall energy function. The consciousness prior also makes it natural to map conscious states to natural language utterances or to express classical AI knowledge in a form similar to facts and rules, albeit capturing uncertainty as well as efficient search mechanisms implemented by attention mechanisms.",
+		"accessDate": "2026-03-14T17:36:12Z",
+		"archiveID": "arXiv:1709.08568",
+		"citationKey": "bengioConsciousnessPrior2019",
+		"collections": [
+			"IUJM2GD9"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Yoshua",
+				"lastName": "Bengio"
+			}
+		],
+		"date": "2019-12-02",
+		"dateAdded": "2026-03-14T17:36:12Z",
+		"dateModified": "2026-03-14T18:19:47Z",
+		"extra": "arXiv:1709.08568 [cs]",
+		"itemType": "preprint",
+		"key": "P7KL2EBC",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/3VA3A2S4"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "Statistics - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Consciousness Prior",
+		"url": "http://arxiv.org/abs/1709.08568"
+	}
+}

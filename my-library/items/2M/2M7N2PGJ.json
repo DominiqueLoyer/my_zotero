@@ -1,0 +1,91 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:35:12Z",
+			"dateModified": "2026-11-09T17:07:58Z",
+			"itemType": "attachment",
+			"key": "7APF8IMP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:58 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "2M7N2PGJ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/VLLPMDBS"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HZIFE36K"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Dominique-2026-4129fa248c5781988d60ee76a96833f2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7APF8IMP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Dominique-2026-4129fa248c5781988d60ee76a96833f2"
+			}
+		],
+		"collections": [
+			"_9335_all",
+			"_gs_080326"
+		],
+		"creators": [
+			"Dominique"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DominiqueLoyer/systemFactChecking: v2.2.1 - PyPI Publication",
+		"year": "2026",
+		"zoteroURI": "zotero://select/library/items/2M7N2PGJ"
+	},
+	"zotero": {
+		"DOI": "10.5281/ZENODO.18436691",
+		"citationKey": "dominiqueDominiqueLoyerSystemFactCheckingV2212026",
+		"collections": [
+			"7XVYZYFG",
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Dominique"
+			}
+		],
+		"date": "2026",
+		"dateAdded": "2026-03-04T20:28:17Z",
+		"dateModified": "2026-11-09T15:03:34Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "2M7N2PGJ",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/28BGEHT8"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4VFTI595"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "DominiqueLoyer/systemFactChecking: v2.2.1 - PyPI Publication",
+		"url": "https://zenodo.org/doi/10.5281/zenodo.18436691"
+	}
+}

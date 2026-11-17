@@ -1,0 +1,92 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:34Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:34Z",
+			"dateModified": "2026-11-09T15:08:27Z",
+			"itemType": "attachment",
+			"key": "X3XN9UQE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:40:51 p.m.</p>",
+			"parentItem": "J83JBACD",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/46EVP959"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3ZF67E7P",
+					"http://zotero.org/groups/6376680/items/ZWK3DTLV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Weber1960Le-3129fa248c5781f2960df604263fb9f9"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "X3XN9UQE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Weber1960Le-3129fa248c5781f2960df604263fb9f9"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"_gs_080326"
+		],
+		"creators": [
+			"Weber, Max"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Le Savant et le Politique",
+		"year": "1960",
+		"zoteroURI": "zotero://select/library/items/J83JBACD"
+	},
+	"zotero": {
+		"DOI": "10.2307/3320085",
+		"citationKey": "webermaxSavantPolitique1960",
+		"collections": [
+			"9ERXAIZK",
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Weber, Max"
+			}
+		],
+		"date": "1960",
+		"dateAdded": "2026-02-25T21:56:13Z",
+		"dateModified": "2026-11-09T15:08:27Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "J83JBACD",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/8MTQ5E88"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/RTZRUG4M",
+				"http://zotero.org/groups/6376680/items/XCKM23C4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Le Savant et le Politique"
+	}
+}

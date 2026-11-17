@@ -1,0 +1,89 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:40Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "3TS65XZD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:54 p.m.</p>",
+			"parentItem": "MHTKQPUN",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/NCDD2024-2e29fa248c57815eaf3cdd60f87ae6f0"
+		},
+		{
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "note",
+			"key": "KN7ZVVEA",
+			"note": "Source non vérifiable",
+			"parentItem": "MHTKQPUN",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3TS65XZD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/NCDD2024-2e29fa248c57815eaf3cdd60f87ae6f0"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"NCDD"
+		],
+		"itemType": "document",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "KN7ZVVEA",
+				"title": "Source non vérifiable"
+			}
+		],
+		"title": "Collective constitutional AI: a new approach to AI alignment",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/MHTKQPUN"
+	},
+	"zotero": {
+		"citationKey": "ncddCollectiveConstitutionalAI2024a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "NCDD"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "document",
+		"key": "MHTKQPUN",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Collective constitutional AI: a new approach to AI alignment",
+		"url": "https://www.ncdd.org/"
+	}
+}

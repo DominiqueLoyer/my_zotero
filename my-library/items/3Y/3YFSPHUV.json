@@ -1,0 +1,478 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:03Z",
+			"dateModified": "2026-01-02T19:18:05Z",
+			"itemType": "attachment",
+			"key": "2VJLX68N",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:05 p.m.</p>",
+			"parentItem": "3YFSPHUV",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/WLPBG2JL"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/haresamudramThreeLevelsAI2023-2c09fa248c5781d0a914dd66e7df306c"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-21T22:05:50Z",
+			"dateModified": "2024-11-21T22:05:54Z",
+			"filename": "Haresamudram et al. - 2023 - Three Levels of AI Transparency.pdf",
+			"itemType": "attachment",
+			"key": "BGJWZPH8",
+			"linkMode": "imported_file",
+			"parentItem": "3YFSPHUV",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[219.479,471.642,227.553,504.871],[228.707,85.7,236.781,130.355]]}",
+			"annotationSortIndex": "00001|000642|00464",
+			"annotationText": "Interaction  Transparency,",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:08:14Z",
+			"dateModified": "2024-11-21T22:08:14Z",
+			"itemType": "annotation",
+			"key": "CAJ5E3RB",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[213.697,208.512,218.326,239.93]]}",
+			"annotationSortIndex": "00001|000446|00355",
+			"annotationText": "algorithm,",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:07:39Z",
+			"dateModified": "2024-11-21T22:07:39Z",
+			"itemType": "annotation",
+			"key": "G3XEDJ9T",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ff6666",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[663.566,248.857,671.892,292.425],[673.854,67.758,682.18,195.006]]}",
+			"annotationSortIndex": "00001|002689|00399",
+			"annotationText": "fragmented  understanding of AI transparency",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:15:10Z",
+			"dateModified": "2024-11-21T22:15:10Z",
+			"itemType": "annotation",
+			"key": "GAX6B7DV",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[219.479,85.7,227.553,113.095]]}",
+			"annotationSortIndex": "00001|000526|00481",
+			"annotationText": "the user,",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:07:49Z",
+			"dateModified": "2024-11-21T22:07:49Z",
+			"itemType": "annotation",
+			"key": "GENP5Z2V",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ff6666",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[468.085,159.34,476.411,221.754]]}",
+			"annotationSortIndex": "00001|001705|00373",
+			"annotationText": "decision-making",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:11:45Z",
+			"dateModified": "2024-11-21T22:11:45Z",
+			"itemType": "annotation",
+			"key": "HWYZHVHE",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#a28ae5",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[612.124,271.674,620.449,292.425],[622.412,67.758,630.738,190.67]]}",
+			"annotationSortIndex": "00001|002435|00404",
+			"annotationText": "negatively affect trust in consumers",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:14:28Z",
+			"dateModified": "2024-11-21T22:14:28Z",
+			"itemType": "annotation",
+			"key": "HZS5C3XH",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[219.479,376.946,227.553,456.978]]}",
+			"annotationSortIndex": "00001|000604|00138",
+			"annotationText": "Algorithmic Transparency",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:08:05Z",
+			"dateModified": "2024-11-21T22:08:05Z",
+			"itemType": "annotation",
+			"key": "NDV8DZSU",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#f19837",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[228.707,156.916,236.781,220.993]]}",
+			"annotationSortIndex": "00001|000661|00374",
+			"annotationText": "Social Transparency",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:08:22Z",
+			"dateModified": "2024-11-21T22:08:22Z",
+			"itemType": "annotation",
+			"key": "P75V47IU",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#a28ae5",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[354.912,168.157,363.238,227.166]]}",
+			"annotationSortIndex": "00001|001160|00367",
+			"annotationText": "trustworthy AI",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:09:50Z",
+			"dateModified": "2024-11-21T22:10:07Z",
+			"itemType": "annotation",
+			"key": "QQFST78C",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "Trustworthy AI"
+				}
+			]
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[509.239,164.295,517.565,200.647]]}",
+			"annotationSortIndex": "00001|001899|00394",
+			"annotationText": "black-box",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:12:18Z",
+			"dateModified": "2024-11-21T22:12:54Z",
+			"itemType": "annotation",
+			"key": "R6PX8DD9",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "Black boxe"
+				},
+				{
+					"tag": "Black-boxe"
+				}
+			]
+		},
+		{
+			"accessDate": "2024-11-23T17:50:06Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-23T17:50:06Z",
+			"dateModified": "2024-11-23T18:35:39Z",
+			"filename": "Haresamudram et al. - 2023 - Three Levels of AI Transparency.pdf",
+			"itemType": "attachment",
+			"key": "RK2W53GX",
+			"linkMode": "imported_url",
+			"parentItem": "3YFSPHUV",
+			"relations": {},
+			"tags": [],
+			"title": "Version acceptée",
+			"url": "https://lup.lub.lu.se/search/files/126635664/Three_Levels_of_AI_Transparency_Accepted_Version.pdf"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#aaaaaa",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[601.835,198.182,610.161,292.425],[612.124,67.758,620.449,246.671]]}",
+			"annotationSortIndex": "00001|002387|00348",
+			"annotationText": "some research has found  transparency to lead to information overload",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:14:16Z",
+			"dateModified": "2024-11-21T22:14:16Z",
+			"itemType": "annotation",
+			"key": "RTPBCIMI",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[192.596,396.378,200.027,472.359],[204.469,85.7,209.098,217.827]]}",
+			"annotationSortIndex": "00001|000301|00377",
+			"annotationText": "However, the concept of  transparency is fragmented in AI research",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:06:50Z",
+			"dateModified": "2024-11-21T22:07:00Z",
+			"itemType": "annotation",
+			"key": "SKIZEZYY",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "transparency"
+				}
+			]
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#f19837",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[219.479,128.958,227.553,176.923]]}",
+			"annotationSortIndex": "00001|000537|00418",
+			"annotationText": "society at large",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:07:54Z",
+			"dateModified": "2024-11-21T22:07:54Z",
+			"itemType": "annotation",
+			"key": "SYSSYA3D",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#f19837",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[632.701,138.42,641.026,292.425],[642.989,67.758,651.315,211.98]]}",
+			"annotationSortIndex": "00001|002535|00383",
+			"annotationText": "more empirical research on transparency  requirements from a user perspective",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:14:47Z",
+			"dateModified": "2024-11-21T22:14:47Z",
+			"itemType": "annotation",
+			"key": "TXNGNQAE",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[540.105,268.117,548.43,292.425],[550.393,67.758,558.719,292.425],[560.681,67.758,569.007,210.972]]}",
+			"annotationSortIndex": "00001|002132|00384",
+			"annotationText": "it isn’t  entirely clear whether the same is true for all types of AI  systems and contexts of application.",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:13:34Z",
+			"dateModified": "2024-11-21T22:13:34Z",
+			"itemType": "annotation",
+			"key": "W8ES2BG4",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[529.816,194.981,538.142,292.425],[540.105,67.758,548.43,263.009]]}",
+			"annotationSortIndex": "00001|002034|00331",
+			"annotationText": "especially when decisions  are being suggested to aid human decision-makers",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-21T22:13:17Z",
+			"dateModified": "2024-11-21T22:13:17Z",
+			"itemType": "annotation",
+			"key": "WZYH5FZ5",
+			"parentItem": "BGJWZPH8",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2VJLX68N",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/haresamudramThreeLevelsAI2023-2c09fa248c5781d0a914dd66e7df306c"
+			},
+			{
+				"annotationCount": 16,
+				"contentType": "application/pdf",
+				"filename": "Haresamudram et al. - 2023 - Three Levels of AI Transparency.pdf",
+				"files": [
+					{
+						"path": "attachments/BG/BGJWZPH8/Haresamudram et al. - 2023 - Three Levels of AI Transparency.pdf",
+						"size": 2172604,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/BG/BGJWZPH8/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 35824,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/BG/BGJWZPH8/Three Levels of AI Transparency 1 (trashed 2025-11-17 14-46-58) (trashed 2025-12-05 17-19-45).pdf",
+						"size": 2172604,
+						"storage": "git"
+					}
+				],
+				"key": "BGJWZPH8",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Haresamudram et al. - 2023 - Three Levels of AI Transparency.pdf",
+				"files": [
+					{
+						"path": "attachments/RK/RK2W53GX/Haresamudram et al. - 2023 - Three Levels of AI Transparency.pdf",
+						"size": 2172604,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/RK/RK2W53GX/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 35824,
+						"storage": "git"
+					}
+				],
+				"key": "RK2W53GX",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Version acceptée",
+				"url": "https://lup.lub.lu.se/search/files/126635664/Three_Levels_of_AI_Transparency_Accepted_Version.pdf"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Transparency"
+		],
+		"creators": [
+			"Haresamudram, Kashyap",
+			"Larsson, Stefan",
+			"Heintz, Fredrik"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Three Levels of AI Transparency",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/3YFSPHUV"
+	},
+	"zotero": {
+		"DOI": "10.1109/MC.2022.3213181",
+		"ISSN": "0018-9162, 1558-0814",
+		"accessDate": "2024-11-21T22:05:53Z",
+		"citationKey": "haresamudramThreeLevelsAI2023",
+		"collections": [
+			"J4VTG4NB",
+			"NKV86EAI",
+			"YTIIWDKF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Kashyap",
+				"lastName": "Haresamudram"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Stefan",
+				"lastName": "Larsson"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fredrik",
+				"lastName": "Heintz"
+			}
+		],
+		"date": "2/2023",
+		"dateAdded": "2024-11-21T22:05:53Z",
+		"dateModified": "2025-12-05T22:34:03Z",
+		"issue": "2",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Computer",
+		"key": "3YFSPHUV",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "93-100",
+		"publicationTitle": "Computer",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/SPFM3SKX"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/ZMYSJJKA"
+			]
+		},
+		"rights": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Three Levels of AI Transparency",
+		"url": "https://ieeexplore.ieee.org/document/10042109/",
+		"volume": "56"
+	}
+}

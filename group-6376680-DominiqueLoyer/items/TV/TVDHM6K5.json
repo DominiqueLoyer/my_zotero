@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:40Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-11-17T14:47:30Z",
+			"itemType": "attachment",
+			"key": "XRCQA5KK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:36:37 p.m.</p>",
+			"parentItem": "TVDHM6K5",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/F7T6ZSUY"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Wachter2017Counterfactual-3129fa248c5781258701d72b5e1e4131"
+		},
+		{
+			"accessDate": "2026-03-14T18:17:40Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:47:30Z",
+			"itemType": "attachment",
+			"key": "XWAVLZXN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:40 p.m.</p>",
+			"parentItem": "TVDHM6K5",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/wachterCounterfactualExplanationsOpening2017a-3239fa248c5781e28985ca9e04cd4cf9"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XWAVLZXN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/wachterCounterfactualExplanationsOpening2017a-3239fa248c5781e28985ca9e04cd4cf9"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XRCQA5KK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Wachter2017Counterfactual-3129fa248c5781258701d72b5e1e4131"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"_ALL_CIT_140326/9401_ic_/PDFs",
+			"references_dic9401"
+		],
+		"creators": [
+			"Wachter, Sandra and Mittelstadt, Brent and Russell, Chris"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Counterfactual explanations without opening the black box: Automated decisions and the GDPR",
+		"year": "2017",
+		"zoteroURI": "zotero://select/groups/6376680/items/TVDHM6K5"
+	},
+	"zotero": {
+		"DOI": "10.2139/ssrn.3063289",
+		"citationKey": "Wachter2017Counterfactual",
+		"collections": [
+			"HXLA8A4T",
+			"KRMD3KDT",
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Wachter, Sandra and Mittelstadt, Brent and Russell, Chris"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-11-17T14:47:30Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "TVDHM6K5",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/AR7MAGXC",
+				"http://zotero.org/groups/6376680/items/FGQXWXL2"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Counterfactual explanations without opening the black box: Automated decisions and the GDPR"
+	}
+}

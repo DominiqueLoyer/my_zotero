@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:00:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:00:56Z",
+			"dateModified": "2026-11-09T17:04:46Z",
+			"itemType": "attachment",
+			"key": "96Q8Y96I",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:46 p.m.</p>",
+			"parentItem": "F9SK34W4",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/LOYER-2025-4129fa248c5781d0873ce2d676528d52"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "96Q8Y96I",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/LOYER-2025-4129fa248c5781d0873ce2d676528d52"
+			}
+		],
+		"collections": [
+			"GS_MyPapers_020126"
+		],
+		"creators": [
+			"LOYER, Loyer, DOMINIQUE S"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A survey and critical evaluation of yoav shoham’s knowledge representation perspective",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/F9SK34W4"
+	},
+	"zotero": {
+		"citationKey": "loyerSurveyCriticalEvaluation2025b",
+		"collections": [
+			"EHBZ3IKR"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Loyer, DOMINIQUE S",
+				"lastName": "LOYER"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-03T00:11:30Z",
+		"dateModified": "2026-11-13T19:29:57Z",
+		"itemType": "journalArticle",
+		"key": "F9SK34W4",
+		"publicationTitle": "https://doi.org/10.13140/RG.2.2.26691.26400 |. ISBN : 978-1-0699904-6-4",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "A survey and critical evaluation of yoav shoham’s knowledge representation perspective"
+	}
+}

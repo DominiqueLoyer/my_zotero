@@ -1,0 +1,139 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:55:12Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:55:12Z",
+			"dateModified": "2026-01-01T23:55:12Z",
+			"filename": "He et al. - 2017 - Neural Collaborative Filtering.pdf",
+			"itemType": "attachment",
+			"key": "3GEEGZJS",
+			"linkMode": "imported_url",
+			"parentItem": "3H5JK3AV",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1708.05031"
+		},
+		{
+			"accessDate": "2025-12-05T22:33:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:47Z",
+			"dateModified": "2026-01-02T19:11:27Z",
+			"itemType": "attachment",
+			"key": "82FIYDGP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:11:27 p.m.</p>",
+			"parentItem": "3H5JK3AV",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/heNeuralCollaborativeFiltering2017-2c09fa248c5781f89323f93811843ae8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "82FIYDGP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/heNeuralCollaborativeFiltering2017-2c09fa248c5781f89323f93811843ae8"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "He et al. - 2017 - Neural Collaborative Filtering.pdf",
+				"files": [
+					{
+						"path": "attachments/3G/3GEEGZJS/He et al. - 2017 - Neural Collaborative Filtering.pdf",
+						"size": 1520085,
+						"storage": "git"
+					}
+				],
+				"key": "3GEEGZJS",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1708.05031"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"He, Xiangnan",
+			"Liao, Lizi",
+			"Zhang, Hanwang",
+			"Nie, Liqiang",
+			"Hu, Xia",
+			"Chua, Tat-Seng"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neural Collaborative Filtering",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/3H5JK3AV"
+	},
+	"zotero": {
+		"DOI": "10.1145/3038912.3052569",
+		"citationKey": "heNeuralCollaborativeFiltering2017",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xiangnan",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lizi",
+				"lastName": "Liao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hanwang",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Liqiang",
+				"lastName": "Nie"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xia",
+				"lastName": "Hu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tat-Seng",
+				"lastName": "Chua"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-03-25T21:31:08Z",
+		"itemType": "conferencePaper",
+		"key": "3H5JK3AV",
+		"pages": "173–182",
+		"proceedingsTitle": "Proceedings of the 26th International Conference on World Wide Web",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural Collaborative Filtering"
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:33:30Z",
+			"dateModified": "2025-03-31T19:01:28Z",
+			"filename": "WhatisAI.pdf",
+			"itemType": "attachment",
+			"key": "D6VWDDK2",
+			"linkMode": "imported_file",
+			"parentItem": "TFU8HWTB",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:24:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:25Z",
+			"dateModified": "2026-01-02T19:15:01Z",
+			"itemType": "attachment",
+			"key": "PDP53YKF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:01 p.m.</p>",
+			"parentItem": "TFU8HWTB",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/WhatisAI-2c09fa248c57811c8b49dcee1ee723a0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PDP53YKF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/WhatisAI-2c09fa248c57811c8b49dcee1ee723a0"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "WhatisAI.pdf",
+				"files": [
+					{
+						"path": "attachments/D6/D6VWDDK2/WhatisAI.pdf",
+						"size": 4528436,
+						"storage": "git"
+					}
+				],
+				"key": "D6VWDDK2",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation/cours 2 Agent intelligent"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "WhatisAI",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/TFU8HWTB"
+	},
+	"zotero": {
+		"citationKey": "WhatisAI",
+		"collections": [
+			"WMWH26HK"
+		],
+		"creators": [],
+		"dateAdded": "2025-03-31T19:01:27Z",
+		"dateModified": "2025-12-05T22:24:25Z",
+		"itemType": "document",
+		"key": "TFU8HWTB",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "WhatisAI"
+	}
+}

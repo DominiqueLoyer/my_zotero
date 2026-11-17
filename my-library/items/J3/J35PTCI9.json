@@ -1,0 +1,162 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:54:46Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:54:46Z",
+			"dateModified": "2026-01-01T23:54:46Z",
+			"filename": "Wang et al. - 2024 - A Survey on Large Language Models for Recommendation Systems.pdf",
+			"itemType": "attachment",
+			"key": "34YS67XM",
+			"linkMode": "imported_url",
+			"parentItem": "J35PTCI9",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2402.01030v4"
+		},
+		{
+			"accessDate": "2025-12-05T22:24:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:45Z",
+			"dateModified": "2026-11-09T17:04:52Z",
+			"itemType": "attachment",
+			"key": "W9M8F9AC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:52 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "J35PTCI9",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/P4VJ5ZEU"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/XV59IMUS"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Wang-et-al-2024-4129fa248c57810b8bb1f3d7330de5e0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "W9M8F9AC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Wang-et-al-2024-4129fa248c57810b8bb1f3d7330de5e0"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wang et al. - 2024 - A Survey on Large Language Models for Recommendation Systems.pdf",
+				"files": [
+					{
+						"path": "attachments/34/34YS67XM/Wang et al. - 2024 - A Survey on Large Language Models for Recommendation Systems.pdf",
+						"size": 4345392,
+						"storage": "git"
+					}
+				],
+				"key": "34YS67XM",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2402.01030v4"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Wang, Chen",
+			"Lim, Kian-Huat",
+			"Ng, See-Kiong",
+			"Wang, Yiling",
+			"Liu, Yang",
+			"Bhowmick, Sourav S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Survey on Large Language Models for Recommendation Systems",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/J35PTCI9"
+	},
+	"zotero": {
+		"DOI": "10.1007/s11280-024-01291-2",
+		"citationKey": "wangSurveyLargeLanguage2024",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Chen",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kian-Huat",
+				"lastName": "Lim"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "See-Kiong",
+				"lastName": "Ng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yiling",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yang",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sourav S.",
+				"lastName": "Bhowmick"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2025-10-10T19:01:29Z",
+		"dateModified": "2026-11-09T16:07:14Z",
+		"itemType": "journalArticle",
+		"key": "J35PTCI9",
+		"publicationTitle": "arXiv preprint arXiv:2402.01030",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/KK7DYLRF",
+				"http://zotero.org/users/15425556/items/VSNMBXN8"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/GWQPJ72W"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "A Survey on Large Language Models for Recommendation Systems",
+		"url": "https://arxiv.org/abs/2402.01030"
+	}
+}

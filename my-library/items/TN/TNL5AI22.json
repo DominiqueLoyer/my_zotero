@@ -1,0 +1,111 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:28Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:28Z",
+			"dateModified": "2026-11-09T17:05:46Z",
+			"itemType": "attachment",
+			"key": "CI67IY7P",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:46 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "TNL5AI22",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Salton-4129fa248c5781a39931ed48bc5cd7b4"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-04-03T07:43:00Z",
+			"dateModified": "2025-04-03T07:43:04Z",
+			"filename": "Salton - Automatic text processing the transformation, analysis, and retrieval of information by computer.pdf",
+			"itemType": "attachment",
+			"key": "YJ3LBRN2",
+			"linkMode": "imported_file",
+			"parentItem": "TNL5AI22",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CI67IY7P",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Salton-4129fa248c5781a39931ed48bc5cd7b4"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Salton - Automatic text processing the transformation, analysis, and retrieval of information by computer.pdf",
+				"files": [],
+				"key": "YJ3LBRN2",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/cours 3-4 RI"
+		],
+		"creators": [
+			"Salton, Gerard"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Automatic text processing: the transformation, analysis, and retrieval of information by computer",
+		"year": "0000",
+		"zoteroURI": "zotero://select/library/items/TNL5AI22"
+	},
+	"zotero": {
+		"ISBN": "978-0-201-12227-5",
+		"citationKey": "saltonAutomaticTextProcessing19xx",
+		"collections": [
+			"RZX7UAY3"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gerard",
+				"lastName": "Salton"
+			}
+		],
+		"date": "19",
+		"dateAdded": "2025-04-03T07:43:04Z",
+		"dateModified": "2026-11-13T19:32:28Z",
+		"edition": "Repr. with corr., [Nachdr.]",
+		"itemType": "book",
+		"key": "TNL5AI22",
+		"language": "fr",
+		"libraryCatalog": "K10plus ISBN",
+		"numPages": "530",
+		"place": "Reading, Mass.",
+		"publisher": "Addison-Wesley",
+		"relations": {},
+		"series": "Addison-Wesley series in computer science",
+		"shortTitle": "Automatic text processing",
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Automatic text processing: the transformation, analysis, and retrieval of information by computer"
+	}
+}

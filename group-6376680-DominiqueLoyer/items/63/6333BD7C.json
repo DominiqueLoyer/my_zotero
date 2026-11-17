@@ -1,0 +1,95 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:36:55Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "PQ3K9VG9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:36 p.m.</p>",
+			"parentItem": "6333BD7C",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Ricci2011-2e29fa248c5781588e15e4e4b8fc50f0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PQ3K9VG9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Ricci2011-2e29fa248c5781588e15e4e4b8fc50f0"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Ricci, Francesco",
+			"Rokach, Lior",
+			"Shapira, Bracha",
+			"Kantor, Paul B."
+		],
+		"itemType": "book",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Recommender systems handbook",
+		"year": "2011",
+		"zoteroURI": "zotero://select/groups/6376680/items/6333BD7C"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-0-387-85820-3",
+		"citationKey": "ricciRecommenderSystemsHandbook2011a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "editor",
+				"firstName": "Francesco",
+				"lastName": "Ricci"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Lior",
+				"lastName": "Rokach"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Bracha",
+				"lastName": "Shapira"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Paul B.",
+				"lastName": "Kantor"
+			}
+		],
+		"date": "2011",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "book",
+		"key": "6333BD7C",
+		"language": "fr-CA",
+		"place": "New York, NY, USA",
+		"publisher": "Springer",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Recommender systems handbook"
+	}
+}

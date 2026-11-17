@@ -1,0 +1,94 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:27:34Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:27:34Z",
+			"dateModified": "2026-11-09T17:09:04Z",
+			"itemType": "attachment",
+			"key": "F6XQYX6Y",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:04 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "EG6W4ZFI",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Mowery-et-al-2011-4129fa248c5781c1a8f6f6e5ea6682e4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "F6XQYX6Y",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Mowery-et-al-2011-4129fa248c5781c1a8f6f6e5ea6682e4"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Mowery, K.",
+			"Bogenreif, Dillon",
+			"Yilek, Scott",
+			"Shacham, H."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Fingerprinting information in JavaScript implementations",
+		"year": "2011",
+		"zoteroURI": "zotero://select/library/items/EG6W4ZFI"
+	},
+	"zotero": {
+		"abstractNote": "To date, many attempts have been made to fingerprint users on the web. These fingerprints allow browsing sessions to be linked together and possibly even tied to a user’s identity. They can be used constructively by sites to supplement traditional means of user authentication such as passwords; and they can be used destructively to counter attempts to stay anonymous online. In this paper, we identify two new avenues for browser fingerprinting. The new fingerprints arise from the browser’s JavaScript execution characteristics, making them difficult to simulate or mitigate in practice. The first uses the innate performance signature of each browser’s JavaScript engine, allowing the detection of browser version, operating system and microarchitecture, even when traditional forms of system identification (such as the user-agent header) are modified or hidden. The second subverts the whitelist mechanism of the popular NoScript Firefox extension, which selectively enables web pages’ scripting privileges to increase privacy by allowing a site to determine if particular domains exist in a user’s NoScript whitelist. We have experimentally verified the effectiveness of our system fingerprinting technique using a 1,015-person study on Amazon’s Mechanical Turk platform.",
+		"citationKey": "moweryFingerprintingInformationJavaScript2011",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "K.",
+				"lastName": "Mowery"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dillon",
+				"lastName": "Bogenreif"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Scott",
+				"lastName": "Yilek"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "H.",
+				"lastName": "Shacham"
+			}
+		],
+		"date": "2011",
+		"dateAdded": "2026-01-08T20:14:04Z",
+		"dateModified": "2026-03-25T21:30:06Z",
+		"itemType": "journalArticle",
+		"key": "EG6W4ZFI",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Fingerprinting information in JavaScript implementations",
+		"url": "https://www.semanticscholar.org/paper/b42c88c9a7cf1ac95598fc49169b0c008a414d76"
+	}
+}

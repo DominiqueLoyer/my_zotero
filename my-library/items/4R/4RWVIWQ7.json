@@ -1,0 +1,111 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:38:33Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:38:33Z",
+			"dateModified": "2026-11-08T16:38:33Z",
+			"filename": "Prabhakaran, Vinodkumar and Hutchinson, Ben and Mitchell, Margaret - 2019 - Perturbation Sensitivity Analysis to Detect Unintended Model Biases.pdf",
+			"itemType": "attachment",
+			"key": "PLT875VD",
+			"linkMode": "imported_url",
+			"parentItem": "4RWVIWQ7",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/D19-1578.pdf"
+		},
+		{
+			"accessDate": "2026-02-26T22:35:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T22:35:26Z",
+			"dateModified": "2026-03-09T20:40:03Z",
+			"itemType": "attachment",
+			"key": "VSGD684K",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:40:03 p.m.</p>",
+			"parentItem": "4RWVIWQ7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Prabhakaran2019Perturbation-3139fa248c578163b94ef47ee4cf4f85"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Prabhakaran, Vinodkumar and Hutchinson, Ben and Mitchell, Margaret - 2019 - Perturbation Sensitivity Analysis to Detect Unintended Model Biases.pdf",
+				"files": [
+					{
+						"path": "attachments/PL/PLT875VD/Prabhakaran, Vinodkumar and Hutchinson, Ben and Mitchell, Margaret - 2019 - Perturbation Sensitivity Analysis to Detect Unintended Model Biases.pdf",
+						"size": 389916,
+						"storage": "git"
+					}
+				],
+				"key": "PLT875VD",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/D19-1578.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VSGD684K",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Prabhakaran2019Perturbation-3139fa248c578163b94ef47ee4cf4f85"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Prabhakaran, Vinodkumar and Hutchinson, Ben and Mitchell, Margaret"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Perturbation Sensitivity Analysis to Detect Unintended Model Biases",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/4RWVIWQ7"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/d19-1578",
+		"citationKey": "prabhakaranvinodkumarandhutchinsonbenandmitchellmargaretPerturbationSensitivityAnalysis2019",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Prabhakaran, Vinodkumar and Hutchinson, Ben and Mitchell, Margaret"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-02-26T20:20:06Z",
+		"dateModified": "2026-03-25T21:29:29Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "4RWVIWQ7",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/5FTI9VTU"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Perturbation Sensitivity Analysis to Detect Unintended Model Biases"
+	}
+}

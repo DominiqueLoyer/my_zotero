@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:54Z",
+			"dateModified": "2026-03-09T20:43:22Z",
+			"itemType": "attachment",
+			"key": "VPXHVIQQ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:43:22 p.m.</p>",
+			"parentItem": "59RENXID",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/A6TR9QAI",
+					"http://zotero.org/groups/6376680/items/M4HCTNC5"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/He2017-3129fa248c578134a885d8194cbddedd"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VPXHVIQQ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/He2017-3129fa248c578134a885d8194cbddedd"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"He, Xiangnan and Liao, Lizi and Zhang, Hanwang and Nie, Liqiang and Hu, Xia and Chua, Tat-Seng"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neural Collaborative Filtering",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/59RENXID"
+	},
+	"zotero": {
+		"DOI": "10.1145/3038912.3052569",
+		"citationKey": "hexiangnanandliaoliziandzhanghanwangandnieliqiangandhuxiaandchuatat-sengNeuralCollaborativeFiltering2017",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "He, Xiangnan and Liao, Lizi and Zhang, Hanwang and Nie, Liqiang and Hu, Xia and Chua, Tat-Seng"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-02-25T21:37:50Z",
+		"dateModified": "2026-03-25T21:29:47Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "59RENXID",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/IXMLF7HD",
+				"http://zotero.org/groups/6376680/items/MLMJ5RTR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural Collaborative Filtering"
+	}
+}

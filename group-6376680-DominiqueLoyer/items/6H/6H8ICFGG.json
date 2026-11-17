@@ -1,0 +1,93 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:40:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "TTLQSRMI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:58 p.m.</p>",
+			"parentItem": "6H8ICFGG",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Breese1998-2e29fa248c578120b895c154a2f90f1d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TTLQSRMI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Breese1998-2e29fa248c578120b895c154a2f90f1d"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Breese, John S.",
+			"Heckerman, David",
+			"Kadie, Carl"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Empirical analysis of predictive algorithms for collaborative filtering",
+		"year": "1998",
+		"zoteroURI": "zotero://select/groups/6376680/items/6H8ICFGG"
+	},
+	"zotero": {
+		"citationKey": "breeseEmpiricalAnalysisPredictive1998a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "John S.",
+				"lastName": "Breese"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Heckerman"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Carl",
+				"lastName": "Kadie"
+			}
+		],
+		"date": "1998",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:08Z",
+		"itemType": "conferencePaper",
+		"key": "6H8ICFGG",
+		"language": "fr-CA",
+		"pages": "43–52",
+		"proceedingsTitle": "Proceedings of the Fourteenth conference on Uncertainty in artificial intelligence",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Empirical analysis of predictive algorithms for collaborative filtering",
+		"url": "https://people.eecs.berkeley.edu/~jordan/papers/98-UAI-collab-filtering.pdf"
+	}
+}

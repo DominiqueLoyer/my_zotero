@@ -1,0 +1,135 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:05Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:39:05Z",
+			"dateModified": "2026-03-09T20:53:43Z",
+			"itemType": "attachment",
+			"key": "NHVHYCCV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:43 p.m.</p>",
+			"parentItem": "WD33BHQ7",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/EJPBM3DG"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Hidasi2016-2e29fa248c5781629e07e0a7d18130a7"
+		},
+		{
+			"accessDate": "2026-11-08T16:39:02Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:39:02Z",
+			"dateModified": "2026-11-08T16:39:02Z",
+			"filename": "Hidasi et al. - 2016 - Session-based recommendations with recurrent neural networks.pdf",
+			"itemType": "attachment",
+			"key": "Q2IWPDCZ",
+			"linkMode": "imported_url",
+			"parentItem": "WD33BHQ7",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/1511.06939v4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NHVHYCCV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Hidasi2016-2e29fa248c5781629e07e0a7d18130a7"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hidasi et al. - 2016 - Session-based recommendations with recurrent neural networks.pdf",
+				"files": [
+					{
+						"path": "attachments/Q2/Q2IWPDCZ/Hidasi et al. - 2016 - Session-based recommendations with recurrent neural networks.pdf",
+						"size": 311412,
+						"storage": "git"
+					}
+				],
+				"key": "Q2IWPDCZ",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/1511.06939v4"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Hidasi, Balazs",
+			"Karatzoglou, Alexandros",
+			"Baltrunas, Linas",
+			"Tikk, Domonkos"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Session-based recommendations with recurrent neural networks",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/WD33BHQ7"
+	},
+	"zotero": {
+		"citationKey": "hidasiSessionbasedRecommendationsRecurrent2016a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Balazs",
+				"lastName": "Hidasi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alexandros",
+				"lastName": "Karatzoglou"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Linas",
+				"lastName": "Baltrunas"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Domonkos",
+				"lastName": "Tikk"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-01-08T20:07:31Z",
+		"dateModified": "2026-03-25T21:30:39Z",
+		"itemType": "conferencePaper",
+		"key": "WD33BHQ7",
+		"language": "fr-CA",
+		"proceedingsTitle": "Proceedings of the 4th international conference on learning representations, ICLR 2016",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2H8T3RXH"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Session-based recommendations with recurrent neural networks",
+		"url": "https://arxiv.org/abs/1511.06939"
+	}
+}

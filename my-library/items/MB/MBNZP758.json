@@ -1,0 +1,112 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:32:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:32:29Z",
+			"dateModified": "2026-03-09T20:49:53Z",
+			"itemType": "attachment",
+			"key": "PU6XURQJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:49:53 p.m.</p>",
+			"parentItem": "MBNZP758",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Wang2019a-2e29fa248c5781c2b8a7f0a3f4967dee"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PU6XURQJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Wang2019a-2e29fa248c5781c2b8a7f0a3f4967dee"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"Wang, Hongwei",
+			"Zhang, Fuzheng",
+			"Wang, Jialin",
+			"Zhao, Miao",
+			"Li, Wenjie",
+			"Wang, Xing",
+			"Xie, Xing"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Knowledge-aware graph neural networks with label smoothness regularization for recommender systems",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/MBNZP758"
+	},
+	"zotero": {
+		"citationKey": "wangKnowledgeawareGraphNeural2019b",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Hongwei",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fuzheng",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jialin",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Miao",
+				"lastName": "Zhao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Wenjie",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xing",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xing",
+				"lastName": "Xie"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-01-08T20:10:55Z",
+		"dateModified": "2026-03-25T21:30:18Z",
+		"itemType": "conferencePaper",
+		"key": "MBNZP758",
+		"language": "fr-CA",
+		"pages": "968–977",
+		"proceedingsTitle": "Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Knowledge-aware graph neural networks with label smoothness regularization for recommender systems"
+	}
+}

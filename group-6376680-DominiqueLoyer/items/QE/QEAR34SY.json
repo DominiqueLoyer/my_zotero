@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:23:32Z",
+			"dateModified": "2026-11-17T14:49:37Z",
+			"itemType": "attachment",
+			"key": "HKJKN7J2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:37 p.m.</p>",
+			"parentItem": "QEAR34SY",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/VYXZZX55"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Guha2015Schemaorg-31e9fa248c5781d1ba46eb0d377eed5e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HKJKN7J2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Guha2015Schemaorg-31e9fa248c5781d1ba46eb0d377eed5e"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Guha, Ramanathan V. and Brickley, Dan and MacBeth, Steve"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Schema.org}: Evolution of structured data on the web",
+		"year": "2015",
+		"zoteroURI": "zotero://select/groups/6376680/items/QEAR34SY"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-319-16211-9_32",
+		"citationKey": "guharamanathanv.andbrickleydanandmacbethsteveSchemaorgEvolutionStructured2015",
+		"collections": [
+			"JVLZZMAC"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Guha, Ramanathan V. and Brickley, Dan and MacBeth, Steve"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-04-17T21:23:32Z",
+		"dateModified": "2026-11-17T14:49:37Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "QEAR34SY",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/T4ADT3BA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Schema.org}: Evolution of structured data on the web"
+	}
+}

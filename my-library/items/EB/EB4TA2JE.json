@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:40:07Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:40:07Z",
+			"dateModified": "2026-11-08T16:40:07Z",
+			"filename": "Ma, Chuangtao and Chen, Yongrui and Wu, Tianxing and Khan, Arijit and Wang, Haofen - 2025 - Unifying Large Language Models and Knowledge Graphs for Question Answering Recent Advances and Oppo.pdf",
+			"itemType": "attachment",
+			"key": "DX97J8FR",
+			"linkMode": "imported_url",
+			"parentItem": "EB4TA2JE",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/2025.emnlp-main.1249.pdf"
+		},
+		{
+			"accessDate": "2026-03-09T20:32:15Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:15Z",
+			"dateModified": "2026-03-09T20:32:15Z",
+			"itemType": "attachment",
+			"key": "HMBLYWAZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:32:15 p.m.</p>",
+			"parentItem": "EB4TA2JE",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Ma2025Unifying-31e9fa248c578129a977c4c89c385b31"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ma, Chuangtao and Chen, Yongrui and Wu, Tianxing and Khan, Arijit and Wang, Haofen - 2025 - Unifying Large Language Models and Knowledge Graphs for Question Answering Recent Advances and Oppo.pdf",
+				"files": [
+					{
+						"path": "attachments/DX/DX97J8FR/Ma, Chuangtao and Chen, Yongrui and Wu, Tianxing and Khan, Arijit and Wang, Haofen - 2025 - Unifying Large Language Models and Knowledge Graphs for Question Answering Recent Advances and Oppo.pdf",
+						"size": 1270413,
+						"storage": "git"
+					}
+				],
+				"key": "DX97J8FR",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/2025.emnlp-main.1249.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HMBLYWAZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Ma2025Unifying-31e9fa248c578129a977c4c89c385b31"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Ma, Chuangtao and Chen, Yongrui and Wu, Tianxing and Khan, Arijit and Wang, Haofen"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Unifying Large Language Models and Knowledge Graphs for Question Answering: Recent Advances and Opportunities.",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/EB4TA2JE"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2025.emnlp-main.1249",
+		"citationKey": "machuangtaoandchenyongruiandwutianxingandkhanarijitandwanghaofenUnifyingLargeLanguage2025",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Ma, Chuangtao and Chen, Yongrui and Wu, Tianxing and Khan, Arijit and Wang, Haofen"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-03-08T21:25:44Z",
+		"dateModified": "2026-03-25T21:28:44Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "EB4TA2JE",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Unifying Large Language Models and Knowledge Graphs for Question Answering: Recent Advances and Opportunities."
+	}
+}

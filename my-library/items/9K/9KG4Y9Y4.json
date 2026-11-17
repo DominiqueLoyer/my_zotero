@@ -1,0 +1,93 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:33:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:56Z",
+			"dateModified": "2026-11-09T17:09:27Z",
+			"itemType": "attachment",
+			"key": "JWUS7CE8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:27 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "9KG4Y9Y4",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/F96534KM"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/FUT9J694"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Heikkil-2022-4129fa248c578162adf3f94faf828d82"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JWUS7CE8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Heikkil-2022-4129fa248c578162adf3f94faf828d82"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Heikkilä, Melissa"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "How a Dutch tax scandal showed the world the dangers of AI",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/9KG4Y9Y4"
+	},
+	"zotero": {
+		"citationKey": "heikkilaHowDutchTax2022",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Melissa",
+				"lastName": "Heikkilä"
+			}
+		],
+		"date": "2022-02-21",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-09T15:01:20Z",
+		"itemType": "document",
+		"key": "9KG4Y9Y4",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/LULB8LVJ",
+				"http://zotero.org/users/15425556/items/S2XBJ7XQ"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/9Y2WQSQK"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "How a Dutch tax scandal showed the world the dangers of AI",
+		"url": "https://www.technologyreview.com/2022/02/21/1045753/dutch-tax-scandal-ai/"
+	}
+}

@@ -1,0 +1,120 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:44Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "L3D9ZXRG",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:22:53 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-811a-ae46-f7e586f6b889\",\"notes\":{\"Z2Y7TWKY\":{\"blockID\":\"3239fa24-8c57-81f7-8e1a-e86f641afe73\",\"syncedAt\":\"2026-03-14T18:22:53.250Z\"}}}</pre>",
+			"parentItem": "R4KTH67B",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/chenGraphWizInstructionFollowingLanguage2024-3239fa248c57815091f5d9d0235ed28a"
+		},
+		{
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "note",
+			"key": "TEFZMSED",
+			"note": "Comment: 27pages, 15 tables",
+			"parentItem": "R4KTH67B",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "L3D9ZXRG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/chenGraphWizInstructionFollowingLanguage2024-3239fa248c57815091f5d9d0235ed28a"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Chen, Nuo",
+			"Li, Yuhan",
+			"Tang, Jianheng",
+			"Li, Jia"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "TEFZMSED",
+				"title": "Comment: 27pages, 15 tables"
+			}
+		],
+		"title": "GraphWiz: An Instruction-Following Language Model for Graph Problems",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/R4KTH67B"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2402.16029",
+		"abstractNote": "Large language models (LLMs) have achieved impressive success across several fields, but their proficiency in understanding and resolving complex graph problems is less explored. To bridge this gap, we introduce GraphInstruct, a novel and comprehensive instruction-tuning dataset designed to equip language models with the ability to tackle a broad spectrum of graph problems using explicit reasoning paths. Utilizing GraphInstruct, we build GraphWiz, an open-source language model capable of resolving various graph problem types while generating clear reasoning processes. To enhance the model's capability and reliability, we incorporate the Direct Preference Optimization (DPO) framework into the graph problem-solving context. The enhanced model, GraphWiz-DPO, achieves an average accuracy of 65% across nine tasks with different complexity levels, surpassing GPT-4 which has an average accuracy of 43.8%. Moreover, our research delves into the delicate balance between training data volume and model performance, highlighting the potential for overfitting with increased data. We also explore the transferability of the model's reasoning ability across different graph tasks, indicating the model's adaptability and practical application potential. Our investigation offers a new blueprint and valuable insights for developing LLMs specialized in graph reasoning and problem-solving.",
+		"accessDate": "2026-03-14T17:39:41Z",
+		"archiveID": "arXiv:2402.16029",
+		"citationKey": "chenGraphWizInstructionFollowingLanguage2024",
+		"collections": [
+			"HXLA8A4T"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Nuo",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yuhan",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jianheng",
+				"lastName": "Tang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jia",
+				"lastName": "Li"
+			}
+		],
+		"date": "2024-07-03",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:2402.16029 [cs]",
+		"itemType": "preprint",
+		"key": "R4KTH67B",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"shortTitle": "GraphWiz",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "GraphWiz: An Instruction-Following Language Model for Graph Problems",
+		"url": "http://arxiv.org/abs/2402.16029"
+	}
+}

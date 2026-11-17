@@ -1,0 +1,93 @@
+{
+	"children": [
+		{
+			"dateAdded": "2025-04-10T15:02:46Z",
+			"dateModified": "2025-04-10T15:02:46Z",
+			"itemType": "note",
+			"key": "9ZMJ3GE7",
+			"note": "Accessed: 2025-04-09",
+			"parentItem": "TTFQ9C7N",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:37:58Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:58Z",
+			"dateModified": "2026-11-09T17:05:04Z",
+			"itemType": "attachment",
+			"key": "FEDUCNKJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:04 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "TTFQ9C7N",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/ACL-Anthology-Organization-2025-4129fa248c57818297e3ee68c48b24d7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FEDUCNKJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/ACL-Anthology-Organization-2025-4129fa248c57818297e3ee68c48b24d7"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"ACL Anthology Organization"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "9ZMJ3GE7",
+				"title": "Accessed: 2025-04-09"
+			}
+		],
+		"title": "ACL anthology GitHub repository",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/TTFQ9C7N"
+	},
+	"zotero": {
+		"citationKey": "aclanthologyorganizationACLAnthologyGitHub2025",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "ACL Anthology Organization"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2026-11-13T19:30:42Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "document",
+		"key": "TTFQ9C7N",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ACL anthology GitHub repository",
+		"url": "https://github.com/acl-org/acl-anthology/"
+	}
+}

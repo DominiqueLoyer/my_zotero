@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:45Z",
+			"dateModified": "2026-11-09T17:05:30Z",
+			"itemType": "attachment",
+			"key": "994SHMJ9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:30 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "ZJBIGYWW",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/BTYAMSNF"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/G2INU483"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Soffia-et-al-2021-4129fa248c5781a59e84d1c75c9451d5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "994SHMJ9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Soffia-et-al-2021-4129fa248c5781a59e84d1c75c9451d5"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"Soffia, Magdalena",
+			"Wood, Alex J.",
+			"Burchell, Brendan"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Alienation is not ‘bullshit’: an empirical critique of Graeber’s theory of BS jobs",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/ZJBIGYWW"
+	},
+	"zotero": {
+		"DOI": "10.1177/09500170211015067",
+		"citationKey": "soffiaAlienationNotBullshit2021",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Magdalena",
+				"lastName": "Soffia"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alex J.",
+				"lastName": "Wood"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Brendan",
+				"lastName": "Burchell"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-13T19:31:38Z",
+		"extra": "DOI Fix previous DOI: 10.1177/0950017020947198",
+		"issue": "5",
+		"itemType": "journalArticle",
+		"key": "ZJBIGYWW",
+		"pages": "851–870",
+		"publicationTitle": "Work, Employment and Society",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/2ICL95WB"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/Y9LFD5AV"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Alienation is not ‘bullshit’: an empirical critique of Graeber’s theory of BS jobs",
+		"volume": "35"
+	}
+}

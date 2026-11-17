@@ -1,0 +1,88 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:22Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "attachment",
+			"key": "ZW8D2M4X",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:52 p.m.</p>",
+			"parentItem": "2NKREFZP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/schneiderExplainableGenerativeAI2024-2c09fa248c578114b6ece7cf25cc0876"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZW8D2M4X",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/schneiderExplainableGenerativeAI2024-2c09fa248c578114b6ece7cf25cc0876"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Schneider, Johannes"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Explainable Generative AI (GenXAI): a survey, conceptualization, and research agenda",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/2NKREFZP"
+	},
+	"zotero": {
+		"DOI": "10.1007/s10462-024-10916-x",
+		"ISSN": "1573-7462",
+		"abstractNote": "Abstract\n            Generative AI (GenAI) represents a shift from AI’s ability to “recognize” to its ability to “generate” solutions for a wide range of tasks. As generated solutions and applications grow more complex and multi-faceted, new needs, objectives, and possibilities for explainability (XAI) have emerged. This work elaborates on why XAI has gained importance with the rise of GenAI and the challenges it poses for explainability research. We also highlight new and emerging criteria that explanations should meet, such as verifiability, interactivity, security, and cost considerations. To achieve this, we focus on surveying existing literature. Additionally, we provide a taxonomy of relevant dimensions to better characterize existing XAI mechanisms and methods for GenAI. We explore various approaches to ensure XAI, ranging from training data to prompting. Our paper provides a concise technical background of GenAI for non-technical readers, focusing on text and images to help them understand new or adapted XAI techniques for GenAI. However, due to the extensive body of work on GenAI, we chose not to delve into detailed aspects of XAI related to the evaluation and usage of explanations. Consequently, the manuscript appeals to both technical experts and professionals from other fields, such as social scientists and information systems researchers. Our research roadmap outlines over ten directions for future investigation.",
+		"accessDate": "2024-11-23T17:49:55Z",
+		"citationKey": "schneiderExplainableGenerativeAI2024c",
+		"collections": [
+			"J6WCHKF9",
+			"P9N6XDU8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Johannes",
+				"lastName": "Schneider"
+			}
+		],
+		"date": "2024-09-15",
+		"dateAdded": "2026-04-17T21:21:41Z",
+		"dateModified": "2026-04-17T21:21:41Z",
+		"issue": "11",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Artif Intell Rev",
+		"key": "2NKREFZP",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "289",
+		"publicationTitle": "Artificial Intelligence Review",
+		"relations": {},
+		"shortTitle": "Explainable Generative AI (GenXAI)",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable Generative AI (GenXAI): a survey, conceptualization, and research agenda",
+		"url": "https://link.springer.com/10.1007/s10462-024-10916-x",
+		"volume": "57"
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:38:16Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:38:16Z",
+			"dateModified": "2026-11-08T16:38:16Z",
+			"filename": "Zhang, Xin and Sheng, Victor S - 2024 - Neuro-symbolic ai Explainability, challenges, and future trends.pdf",
+			"itemType": "attachment",
+			"key": "8W7KXJ27",
+			"linkMode": "imported_url",
+			"parentItem": "2QEG5KBX",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10731866&ref="
+		},
+		{
+			"accessDate": "2026-03-09T20:32:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:49Z",
+			"dateModified": "2026-03-09T20:32:49Z",
+			"itemType": "attachment",
+			"key": "SGGQACIE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:32:49 p.m.</p>",
+			"parentItem": "2QEG5KBX",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Zhang2024Neurosymbolic-31e9fa248c5781feab2ffc966470fccc"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zhang, Xin and Sheng, Victor S - 2024 - Neuro-symbolic ai Explainability, challenges, and future trends.pdf",
+				"files": [
+					{
+						"path": "attachments/8W/8W7KXJ27/Zhang, Xin and Sheng, Victor S - 2024 - Neuro-symbolic ai Explainability, challenges, and future trends.pdf",
+						"size": 1190293,
+						"storage": "git"
+					}
+				],
+				"key": "8W7KXJ27",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10731866&ref="
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SGGQACIE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Zhang2024Neurosymbolic-31e9fa248c5781feab2ffc966470fccc"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Zhang, Xin and Sheng, Victor S"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neuro-symbolic ai: Explainability, challenges, and future trends",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/2QEG5KBX"
+	},
+	"zotero": {
+		"DOI": "10.1109/access.2024.3485185",
+		"citationKey": "zhangxinandshengvictorsNeurosymbolicAiExplainability2024",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Zhang, Xin and Sheng, Victor S"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-08T21:23:19Z",
+		"dateModified": "2026-03-25T21:28:47Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "2QEG5KBX",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neuro-symbolic ai: Explainability, challenges, and future trends"
+	}
+}

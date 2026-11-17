@@ -1,0 +1,92 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:07Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "UBE52MM6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:41 p.m.</p>",
+			"parentItem": "LLI3QIBJ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Plumb2018-2e29fa248c578172b108eeacfbb45384"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UBE52MM6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Plumb2018-2e29fa248c578172b108eeacfbb45384"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Plumb, Gregory",
+			"Molitor, David",
+			"Talwalkar, Ameet S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Model agnostic supervised local explanations",
+		"year": "2018",
+		"zoteroURI": "zotero://select/groups/6376680/items/LLI3QIBJ"
+	},
+	"zotero": {
+		"citationKey": "plumbModelAgnosticSupervised2018a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gregory",
+				"lastName": "Plumb"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Molitor"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ameet S.",
+				"lastName": "Talwalkar"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:12Z",
+		"itemType": "conferencePaper",
+		"key": "LLI3QIBJ",
+		"language": "fr-CA",
+		"pages": "2515–2524",
+		"proceedingsTitle": "Advances in neural information processing systems 31",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Model agnostic supervised local explanations"
+	}
+}

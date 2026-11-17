@@ -1,0 +1,88 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:33Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "K5X27KYT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:16 p.m.</p>",
+			"parentItem": "N3E237NV",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/LQDN2024b-2e29fa248c5781dea991c2f5048eaaa2"
+		},
+		{
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "note",
+			"key": "SLY7XZT4",
+			"note": "Consulté le 10 octobre 2025",
+			"parentItem": "N3E237NV",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "K5X27KYT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/LQDN2024b-2e29fa248c5781dea991c2f5048eaaa2"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"La Quadrature du Net"
+		],
+		"itemType": "document",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "SLY7XZT4",
+				"title": "Consulté le 10 octobre 2025"
+			}
+		],
+		"title": "Technopolice",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/N3E237NV"
+	},
+	"zotero": {
+		"citationKey": "laquadraturedunetTechnopolice2024a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "La Quadrature du Net"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "document",
+		"key": "N3E237NV",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Technopolice",
+		"url": "https://technopolice.fr/"
+	}
+}

@@ -1,0 +1,111 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:37:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:19Z",
+			"dateModified": "2026-11-09T17:05:33Z",
+			"itemType": "attachment",
+			"key": "KHK7594K",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:33 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "QM454M7F",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Analyses-4129fa248c57813f996bf4dab90c92f6"
+		},
+		{
+			"accessDate": "2024-10-15T18:09:33Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2024-10-15T18:09:33Z",
+			"dateModified": "2024-10-15T18:09:33Z",
+			"filename": "analyses.html",
+			"itemType": "attachment",
+			"key": "P95L88NE",
+			"linkMode": "imported_url",
+			"parentItem": "QM454M7F",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://www.erudit.org/fr/revues/analyses/"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KHK7594K",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Analyses-4129fa248c57813f996bf4dab90c92f6"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "analyses.html",
+				"files": [
+					{
+						"path": "attachments/P9/P95L88NE/analyses.html",
+						"size": 2928407,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/P9/P95L88NE/analyses (trashed 2025-11-24 15-34-12).html",
+						"size": 2928407,
+						"storage": "git"
+					}
+				],
+				"key": "P95L88NE",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://www.erudit.org/fr/revues/analyses/"
+			}
+		],
+		"collections": [
+			"Outils sur rédaction Thèse"
+		],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Analyses",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/QM454M7F"
+	},
+	"zotero": {
+		"abstractNote": "Créée en janvier 2006 au département de français de l'Université d'Ottawa, la revue @nalyses publie des études universitaire…",
+		"accessDate": "2024-10-15T18:09:28Z",
+		"citationKey": "Analyses",
+		"collections": [
+			"L8BMEDQ4"
+		],
+		"creators": [],
+		"dateAdded": "2024-10-15T18:09:28Z",
+		"dateModified": "2026-11-13T19:31:43Z",
+		"itemType": "webpage",
+		"key": "QM454M7F",
+		"language": "fr",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Analyses",
+		"url": "https://www.erudit.org/fr/revues/analyses/",
+		"websiteTitle": "Érudit"
+	}
+}

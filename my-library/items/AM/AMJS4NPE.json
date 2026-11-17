@@ -1,0 +1,211 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:29:13Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:29:13Z",
+			"dateModified": "2026-01-02T19:18:39Z",
+			"itemType": "attachment",
+			"key": "FLSWDME8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:39 p.m.</p>",
+			"parentItem": "AMJS4NPE",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/TXIYHH5R"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/maudebenoitLapprentissagePratiqueLecriture2018-2c09fa248c5781bab864ce2eb55fc5e7"
+		},
+		{
+			"accessDate": "2024-10-15T18:10:46Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-10-15T18:10:46Z",
+			"dateModified": "2024-11-23T18:37:11Z",
+			"filename": "Benoit - 2018 - L’apprentissage et la pratique de l’écriture scientifique aux études supérieures.pdf",
+			"itemType": "attachment",
+			"key": "SKK653TK",
+			"linkMode": "imported_url",
+			"parentItem": "AMJS4NPE",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/WY6VZ8PC"
+				]
+			},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://www.erudit.org/fr/revues/ps/2018-v37-n3-ps04083/1053489ar.pdf"
+		},
+		{
+			"accessDate": "2024-10-15T18:10:52Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2024-10-15T18:10:52Z",
+			"dateModified": "2024-11-23T18:37:11Z",
+			"filename": "1053489ar.html",
+			"itemType": "attachment",
+			"key": "SZVA7PS2",
+			"linkMode": "imported_url",
+			"parentItem": "AMJS4NPE",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://www.erudit.org/fr/revues/ps/2018-v37-n3-ps04083/1053489ar/"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Benoit - 2018 - L’apprentissage et la pratique de l’écriture scientifique aux études supérieures.pdf",
+				"files": [
+					{
+						"path": "attachments/SK/SKK653TK/Benoit - 2018 - L’apprentissage et la pratique de l’écriture scientifique aux études supérieures.pdf",
+						"size": 275351,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/SK/SKK653TK/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 26136,
+						"storage": "git"
+					}
+				],
+				"key": "SKK653TK",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://www.erudit.org/fr/revues/ps/2018-v37-n3-ps04083/1053489ar.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FLSWDME8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/maudebenoitLapprentissagePratiqueLecriture2018-2c09fa248c5781bab864ce2eb55fc5e7"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "1053489ar.html",
+				"files": [
+					{
+						"path": "attachments/SZ/SZVA7PS2/1053489ar.html",
+						"size": 2661451,
+						"storage": "git"
+					}
+				],
+				"key": "SZVA7PS2",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://www.erudit.org/fr/revues/ps/2018-v37-n3-ps04083/1053489ar/"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review",
+			"Outils sur rédaction Thèse"
+		],
+		"creators": [
+			"Maude Benoit",
+			"Benoit, Maude"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "L’apprentissage et la pratique de l’écriture scientifique aux études supérieures",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/AMJS4NPE"
+	},
+	"zotero": {
+		"DOI": "10.7202/1053489ar",
+		"abstractNote": "Qui n’a pas deja entendu l’expression «une bonne these est une these finie»? La popularite de cette formule tient probablement au fait qu’elle resume en peu de mots le constat qu’il ne suffit pas d’avoir des reflexions interessantes pour reussir un memoire ou une these, mais qu’il faut surtout etre capable de coucher sur papier ses idees pour mener a terme son projet. Or, nombreux sont les etudiant·e·s qui rencontrent des difficultes au moment d’ecrire. Ce court article explore les defis que pose l’apprentissage de la redaction aux cycles superieurs et propose des solutions pratiques pour surmonter la procrastination et le syndrome de la page blanche, mais surtout pour encourager les etudiant·e·s a devenir des ecrivain·e·s qui reussiront a mettre un point final a leur manuscrit.",
+		"citationKey": "maudebenoitLapprentissagePratiqueLecriture2018",
+		"collections": [
+			"J4VTG4NB",
+			"L8BMEDQ4",
+			"NKV86EAI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Maude Benoit"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Maude",
+				"lastName": "Benoit"
+			}
+		],
+		"date": "2018-10-31",
+		"dateAdded": "2024-10-15T18:10:46Z",
+		"dateModified": "2025-12-05T22:29:13Z",
+		"extra": "DOI: 10.7202/1053489ar\nMAG ID: 2901724027",
+		"issue": "3",
+		"itemType": "journalArticle",
+		"key": "AMJS4NPE",
+		"pages": "115-122",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/FIC2ZTMX",
+				"http://zotero.org/users/15425556/items/R3MQBQBG"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/MLFN7UJA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "cycles supérieurs",
+				"type": 1
+			},
+			{
+				"tag": "graduate level",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "procrastination",
+				"type": 1
+			},
+			{
+				"tag": "rédaction scientifique",
+				"type": 1
+			},
+			{
+				"tag": "scientific writing",
+				"type": 1
+			},
+			{
+				"tag": "syndrome de la page blanche",
+				"type": 1
+			},
+			{
+				"tag": "thesis",
+				"type": 1
+			},
+			{
+				"tag": "thèse",
+				"type": 1
+			},
+			{
+				"tag": "“writer’s block”",
+				"type": 1
+			}
+		],
+		"title": "L’apprentissage et la pratique de l’écriture scientifique aux études supérieures",
+		"volume": "37"
+	}
+}

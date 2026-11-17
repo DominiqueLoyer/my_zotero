@@ -1,0 +1,131 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:19Z",
+			"dateModified": "2026-11-09T15:08:49Z",
+			"itemType": "attachment",
+			"key": "4IST5T3Z",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:10:03 p.m.</p>",
+			"parentItem": "3RCCJLST",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/Z2UAE4ES"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/T6DHH34S"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/schneiderPersonalizedExplanationsMachine2019-2c09fa248c5781a685c4c89579196b36"
+		},
+		{
+			"accessDate": "2026-01-08T20:31:15Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:31:15Z",
+			"dateModified": "2026-11-09T15:08:49Z",
+			"itemType": "attachment",
+			"key": "CUDIQ82A",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:49:07 p.m.</p>",
+			"parentItem": "3RCCJLST",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Schneider2019-2e29fa248c5781aeb597f4ae9a4fd336"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CUDIQ82A",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Schneider2019-2e29fa248c5781aeb597f4ae9a4fd336"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "4IST5T3Z",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/schneiderPersonalizedExplanationsMachine2019-2c09fa248c5781a685c4c89579196b36"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Schneider, Jan",
+			"Vlachos, Michalis"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Personalized Explanations for Machine Learning: A Conceptualization",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/3RCCJLST"
+	},
+	"zotero": {
+		"citationKey": "schneiderPersonalizedExplanationsMachine2019",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jan",
+				"lastName": "Schneider"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Michalis",
+				"lastName": "Vlachos"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T15:08:49Z",
+		"itemType": "conferencePaper",
+		"key": "3RCCJLST",
+		"proceedingsTitle": "Proceedings of the 27th European Conference on Information Systems (ECIS)",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/BKY6R5EV",
+				"http://zotero.org/users/15425556/items/SDZWN7W2"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/JKBCBCW5"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Personalized Explanations for Machine Learning: A Conceptualization",
+		"url": "https://aisel.aisnet.org/ecis2019_rp/156/"
+	}
+}

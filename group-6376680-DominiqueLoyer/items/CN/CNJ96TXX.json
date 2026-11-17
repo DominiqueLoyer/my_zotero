@@ -1,0 +1,78 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "XX5LSY82",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:04 p.m.</p>",
+			"parentItem": "CNJ96TXX",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/foucault1975surveiller-2e29fa248c5781a0b1b5ef1ef47b2fed"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XX5LSY82",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/foucault1975surveiller-2e29fa248c5781a0b1b5ef1ef47b2fed"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Foucault, Michel"
+		],
+		"itemType": "book",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Surveiller et punir : Naissance de la prison",
+		"year": "1975",
+		"zoteroURI": "zotero://select/groups/6376680/items/CNJ96TXX"
+	},
+	"zotero": {
+		"ISBN": "978-2-07-029179-3",
+		"citationKey": "foucaultSurveillerPunirNaissance1975a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Michel",
+				"lastName": "Foucault"
+			}
+		],
+		"date": "1975",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "book",
+		"key": "CNJ96TXX",
+		"language": "fr-CA",
+		"place": "Paris",
+		"publisher": "Gallimard",
+		"relations": {},
+		"series": "Bibliothèque des histoires",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Surveiller et punir : Naissance de la prison"
+	}
+}

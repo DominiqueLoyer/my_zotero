@@ -1,0 +1,122 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-20T18:02:49Z",
+			"dateModified": "2025-03-20T18:02:53Z",
+			"filename": "Sadat - Using co-occurrence tendencies to improve Cross-Language Information Retrieval.pdf",
+			"itemType": "attachment",
+			"key": "BCQRTPQ5",
+			"linkMode": "imported_file",
+			"parentItem": "JKL7IMWD",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:26:36Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:36Z",
+			"dateModified": "2026-01-02T19:16:13Z",
+			"itemType": "attachment",
+			"key": "FT5NCLHI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:13 p.m.</p>",
+			"parentItem": "JKL7IMWD",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/sadatUsingCooccurrenceTendencies-2c09fa248c5781c380c2e6f10790587e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FT5NCLHI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/sadatUsingCooccurrenceTendencies-2c09fa248c5781c380c2e6f10790587e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Sadat - Using co-occurrence tendencies to improve Cross-Language Information Retrieval.pdf",
+				"files": [
+					{
+						"path": "attachments/BC/BCQRTPQ5/Sadat - Using co-occurrence tendencies to improve Cross-Language Information Retrieval.pdf",
+						"size": 1889954,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/BC/BCQRTPQ5/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 33766,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/BC/BCQRTPQ5/Sadat - Using co-occurrence tendencies to improve Cross-Language Information Retrieval (trashed 2025-11-24 15-34-12).pdf",
+						"size": 1889954,
+						"storage": "git"
+					}
+				],
+				"key": "BCQRTPQ5",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues",
+			"Cours H25/Traitement naturel des langues/rit 20 mars"
+		],
+		"creators": [
+			"Sadat, Fatiha"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Using co-occurrence tendencies to improve Cross-Language Information Retrieval",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/JKL7IMWD"
+	},
+	"zotero": {
+		"abstractNote": "Query disambiguation is considered as one of the most important methods in improving the effectiveness of information retrieval. In the present paper, we focus on query terms disambiguation via, a combined statistical method both before and after translation, in order to avoid source language ambiguity as well as incorrect selection of target translations. By combining query expansion with dictionary-based translation and statistics-based disambiguation, in order to overcome query terms ambiguity, information retrieval should become much more efficient. Thus, query expansion techniques through relevance feedback were performed prior to either the first or the second disambiguation processes. We tested the effectiveness of the proposed combined method, by an application to a French-English Information Retrieval. Experiments involving TREC data collection revealed the proposed disambiguation and expansion methods to be highly effective.",
+		"citationKey": "sadatUsingCooccurrenceTendencies",
+		"collections": [
+			"L7CZ8WGI",
+			"UELGWEXV"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Fatiha",
+				"lastName": "Sadat"
+			}
+		],
+		"dateAdded": "2025-03-20T18:02:52Z",
+		"dateModified": "2025-12-29T23:57:32Z",
+		"itemType": "journalArticle",
+		"key": "JKL7IMWD",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Using co-occurrence tendencies to improve Cross-Language Information Retrieval"
+	}
+}

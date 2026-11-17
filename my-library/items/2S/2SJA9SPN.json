@@ -1,0 +1,96 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-31T16:08:01Z",
+			"dateModified": "2025-03-31T18:38:36Z",
+			"filename": "sequence-diag-pret2.pdf",
+			"itemType": "attachment",
+			"key": "6NRWCD7M",
+			"linkMode": "imported_file",
+			"parentItem": "2SJA9SPN",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:26:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:09Z",
+			"dateModified": "2026-01-02T19:15:37Z",
+			"itemType": "attachment",
+			"key": "MFIZM6TB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:37 p.m.</p>",
+			"parentItem": "2SJA9SPN",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Sequencediagpret2b-2c09fa248c57814cad15dd55eb3e7f0e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "MFIZM6TB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Sequencediagpret2b-2c09fa248c57814cad15dd55eb3e7f0e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "sequence-diag-pret2.pdf",
+				"files": [],
+				"key": "6NRWCD7M",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "sequence-diag-diapositives_exemples",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/2SJA9SPN"
+	},
+	"zotero": {
+		"citationKey": "lounishakimSequencediagdiapositives_exemples",
+		"collections": [
+			"G4KBEA9A"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:38:34Z",
+		"dateModified": "2025-03-31T18:39:07Z",
+		"itemType": "document",
+		"key": "2SJA9SPN",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "sequence-diag-diapositives_exemples"
+	}
+}

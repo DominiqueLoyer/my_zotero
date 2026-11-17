@@ -1,0 +1,92 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "T9YTWGEK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:53 p.m.</p>",
+			"parentItem": "ENLTYPKW",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Graeber2015-2e29fa248c57818c858fc25d99e49312"
+		},
+		{
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "note",
+			"key": "XWW6M6QG",
+			"note": "Traduit de l'anglais par Françoise Chemla",
+			"parentItem": "ENLTYPKW",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "T9YTWGEK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Graeber2015-2e29fa248c57818c858fc25d99e49312"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Graeber, David"
+		],
+		"itemType": "book",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "XWW6M6QG",
+				"title": "Traduit de l'anglais par Françoise Chemla"
+			}
+		],
+		"title": "Bureaucratie. L'utopie des règles",
+		"year": "2015",
+		"zoteroURI": "zotero://select/groups/6376680/items/ENLTYPKW"
+	},
+	"zotero": {
+		"ISBN": "979-10-209-0291-7",
+		"citationKey": "graeberBureaucratieLutopieRegles2015a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Graeber"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "book",
+		"key": "ENLTYPKW",
+		"language": "fr-CA",
+		"place": "Paris",
+		"publisher": "Les Liens qui libèrent",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bureaucratie. L'utopie des règles"
+	}
+}

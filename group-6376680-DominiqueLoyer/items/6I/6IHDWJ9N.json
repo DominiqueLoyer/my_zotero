@@ -1,0 +1,94 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-11-05T19:08:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-09T20:19:09Z",
+			"dateModified": "2026-01-09T20:19:09Z",
+			"itemType": "attachment",
+			"key": "Z6RQ6XYY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:12:45 p.m.</p>",
+			"parentItem": "6IHDWJ9N",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerEvaluationModelesPonderation2025a-2a29fa248c57817194f6d96ba6186c7e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Z6RQ6XYY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerEvaluationModelesPonderation2025a-2a29fa248c57817194f6d96ba6186c7e"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Évaluation de modèles de pondération pour la recherche d’information sur TREC AP 88-90",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/6IHDWJ9N"
+	},
+	"zotero": {
+		"DOI": "10.13140/rg.2.2.18538.84162",
+		"abstractNote": "Recherche d’Information (RI) : Trouver l’information pertinente\ndans la vaste collection TREC AP 88-90.\nDéfi : 243k documents compressés individuellement en\nGunZip->.gz dans un fichier->.tar les englobants. Traitement\nséquentiel long vs. en parralèle. Le type d’encodage du fichier\nXML n’est pas pris en charge par Python -> conversion en .JSON\nObjectif Principal : Implémenter et évaluer un système RI\nmonolingue (Anglais) sur la collection.\nPertinence Cours : Application pratique des concepts de TALN\nvus dans le cours DIC-9345 tels que : (modèles RI, indexation,\névaluation, amélioration).",
+		"citationKey": "loyerEvaluationModelesPonderation2025",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-09T20:19:09Z",
+		"dateModified": "2026-03-08T21:45:50Z",
+		"itemType": "conferencePaper",
+		"key": "6IHDWJ9N",
+		"language": "Français",
+		"pages": "21",
+		"place": "Montréal, Québec, Canada",
+		"publisher": "UQAM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "Information Retrieval"
+			},
+			{
+				"tag": "NLP"
+			},
+			{
+				"tag": "RM3"
+			},
+			{
+				"tag": "Recherche information"
+			},
+			{
+				"tag": "TALN"
+			},
+			{
+				"tag": "TREC"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Évaluation de modèles de pondération pour la recherche d’information sur TREC AP 88-90",
+		"url": "https://www.researchgate.net/publication/392329863_Traduction_automatique_neuronal_du_Russe-Anglais?channel=doi&linkId=683df6c86a754f72b58ff628&showFulltext=true"
+	}
+}

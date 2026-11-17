@@ -1,0 +1,144 @@
+{
+	"children": [
+		{
+			"dateAdded": "2025-10-10T19:01:27Z",
+			"dateModified": "2025-10-10T19:01:27Z",
+			"itemType": "note",
+			"key": "28SA8ZJW",
+			"note": "<p>Consulté le 10 octobre 2025</p>",
+			"parentItem": "WJV5W93I",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:28:28Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:28Z",
+			"dateModified": "2026-11-09T17:05:15Z",
+			"itemType": "attachment",
+			"key": "67E8FRQX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:15 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "WJV5W93I",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/Z8NIR5XH"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/64UW2K4V"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Neuer-2018-4129fa248c578118b7d5c3a841c345c6"
+		},
+		{
+			"dateAdded": "2026-01-08T20:10:54Z",
+			"dateModified": "2026-11-09T15:04:07Z",
+			"itemType": "note",
+			"key": "L6M62Y7A",
+			"note": "Consulté le 14 août 2025",
+			"parentItem": "WJV5W93I",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"dateAdded": "2026-01-08T20:07:33Z",
+			"dateModified": "2026-11-09T15:04:07Z",
+			"itemType": "note",
+			"key": "XDU2LXXF",
+			"note": "Consulté le 10 octobre 2025",
+			"parentItem": "WJV5W93I",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/46LLLNF5"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "67E8FRQX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Neuer-2018-4129fa248c578118b7d5c3a841c345c6"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Neuer, Laurence"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "XDU2LXXF",
+				"title": "Consulté le 10 octobre 2025"
+			},
+			{
+				"key": "28SA8ZJW",
+				"title": "Consulté le 10 octobre 2025"
+			},
+			{
+				"key": "L6M62Y7A",
+				"title": "Consulté le 14 août 2025"
+			}
+		],
+		"title": "Algorithmes: ce sont les individus qu'il faut responsabiliser",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/WJV5W93I"
+	},
+	"zotero": {
+		"citationKey": "neuerAlgorithmesCeSont2018",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Laurence",
+				"lastName": "Neuer"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-13T19:31:15Z",
+		"itemType": "document",
+		"key": "WJV5W93I",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/DEK2A83P",
+				"http://zotero.org/users/15425556/items/N3BL2FNY"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/HLUDMA63"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmes: ce sont les individus qu'il faut responsabiliser",
+		"url": "https://www.lepoint.fr/editos-du-point/laurence-neuer/algorithmes-ce-sont-les-individus-qu-il-faut-responsabiliser-29-01-2018-2190382_56.php"
+	}
+}

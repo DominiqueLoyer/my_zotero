@@ -1,0 +1,246 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-01-08T20:00:27Z",
+			"dateModified": "2026-01-16T18:01:44Z",
+			"itemType": "note",
+			"key": "54CAYR89",
+			"note": "DIC-9345 TALN",
+			"parentItem": "WEWYX6JE",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-16T15:52:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:52:43Z",
+			"dateModified": "2026-11-09T17:07:27Z",
+			"itemType": "attachment",
+			"key": "B8W5KN37",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:27 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "WEWYX6JE",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-4129fa248c5781a8a1bbd9ccfb0f13c7"
+		},
+		{
+			"dateAdded": "2026-01-10T20:17:21Z",
+			"dateModified": "2026-01-10T20:17:21Z",
+			"itemType": "note",
+			"key": "JH868ZAE",
+			"note": "DIC-9345 TALN",
+			"parentItem": "WEWYX6JE",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T20:17:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T20:17:21Z",
+			"dateModified": "2026-01-16T18:01:44Z",
+			"itemType": "attachment",
+			"key": "K4U55CTC",
+			"linkMode": "linked_url",
+			"parentItem": "WEWYX6JE",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/JYSK6QFR"
+				]
+			},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"accessDate": "2025-10-05T19:14:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-10-05T19:14:54Z",
+			"dateModified": "2026-01-16T18:01:44Z",
+			"inPublications": true,
+			"itemType": "attachment",
+			"key": "XYWNYD3D",
+			"linkMode": "linked_url",
+			"parentItem": "WEWYX6JE",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/XTUYLLAC"
+				]
+			},
+			"tags": [],
+			"title": "Development and Evaluation of an English-to-Russian Neural Machine Translation System",
+			"url": "https://rgdoi.net/10.13140/RG.2.2.17980.55687"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XYWNYD3D",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Development and Evaluation of an English-to-Russian Neural Machine Translation System",
+				"url": "https://rgdoi.net/10.13140/RG.2.2.17980.55687"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "B8W5KN37",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-4129fa248c5781a8a1bbd9ccfb0f13c7"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "K4U55CTC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"GS_301225.bibtex",
+			"GoogleScholar_mypapers290925",
+			"My papers (English)",
+			"all-references",
+			"completeLoyer_100126",
+			"mes papiers et beamers",
+			"myReferences",
+			"zenodoDOI_ISBN_dominiqueloyer_060126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "54CAYR89",
+				"title": "DIC-9345 TALN"
+			},
+			{
+				"key": "JH868ZAE",
+				"title": "DIC-9345 TALN"
+			}
+		],
+		"title": "Development and evaluation of an english-to-russian neural machine translation system",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/WEWYX6JE"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.17980.55687",
+		"ISSN": "978-1-0699904-4-0",
+		"citationKey": "loyerDevelopmentEvaluationEnglishtorussian2025",
+		"collections": [
+			"6IRQRQI8",
+			"8UCLQEMM",
+			"CYKYMNH4",
+			"GXLPXWSC",
+			"H8Z7N6W8",
+			"KKPWSFMI",
+			"UIV5JLK2",
+			"YA7CLAFP"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-10T20:17:21Z",
+		"dateModified": "2026-11-17T15:07:24Z",
+		"extra": "https://orcid.org/0009-0003-9713-7109\n\ntitleTranslation: Development and evaluation of an English-to-Russian neural machine translation system",
+		"itemType": "journalArticle",
+		"key": "WEWYX6JE",
+		"language": "fr-CA",
+		"pages": "8",
+		"relations": {
+			"dc:relation": [
+				"http://zotero.org/users/15425556/items/AD967TE9",
+				"http://zotero.org/users/15425556/items/CMW9PWRU",
+				"http://zotero.org/users/15425556/items/RRC9H635",
+				"http://zotero.org/users/15425556/items/ZEVEKDWF"
+			],
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/4MJ4YJBL",
+				"http://zotero.org/users/15425556/items/5AIM2DDI",
+				"http://zotero.org/users/15425556/items/HIW4CDV2",
+				"http://zotero.org/users/15425556/items/JK9LEAN5",
+				"http://zotero.org/users/15425556/items/PATKFQ8E",
+				"http://zotero.org/users/15425556/items/TM35M8VR",
+				"http://zotero.org/users/15425556/items/ZVU9UB6X"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/S2AUX8WU",
+				"http://zotero.org/users/15425556/publications/items/JK9LEAN5"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Attention Mechanisms"
+			},
+			{
+				"tag": "BLEU"
+			},
+			{
+				"tag": "EN-RU Translation"
+			},
+			{
+				"tag": "Fine-tuning"
+			},
+			{
+				"tag": "NLP"
+			},
+			{
+				"tag": "Neural Machine"
+			},
+			{
+				"tag": "Neural Machine Translation"
+			},
+			{
+				"tag": "Neural Machine;Translation ENRU;"
+			},
+			{
+				"tag": "SacreBLEU"
+			},
+			{
+				"tag": "Transformer"
+			},
+			{
+				"tag": "Transformer;Fine-tuning;SacreBLEU;chrF"
+			},
+			{
+				"tag": "Translation ENRU"
+			},
+			{
+				"tag": "chrF"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Development and evaluation of an english-to-russian neural machine translation system",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.17980.55687"
+	}
+}

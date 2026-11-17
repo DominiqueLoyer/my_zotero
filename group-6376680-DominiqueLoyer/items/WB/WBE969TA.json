@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "3F9CS3RN",
+			"note": "<div data-schema-version=\"9\"><h1></h1>\n<pre><u><span style=\"color: rgb(0, 0, 0);\">@software</span></u><span style=\"color: rgb(0, 0, 0);\">{</span><u><span style=\"color: rgb(0, 0, 0);\">loyer2025_trec_zenodo</span></u><span style=\"color: rgb(0, 0, 0);\">,</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;</span><u><span style=\"color: rgb(0, 0, 0);\">doi</span></u><span style=\"color: rgb(0, 0, 0);\"> = {10.5281/</span><u><span style=\"color: rgb(0, 0, 0);\">zenodo</span></u><span style=\"color: rgb(0, 0, 0);\">.17943728},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;title = {</span><u><span style=\"color: rgb(0, 0, 0);\">TREC</span></u><span style=\"color: rgb(0, 0, 0);\"> Competition: Information Retrieval on </span><u><span style=\"color: rgb(0, 0, 0);\">AP</span></u><span style=\"color: rgb(0, 0, 0);\"> 88-90},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;author = {</span><u><span style=\"color: rgb(0, 0, 0);\">Loyer</span></u><span style=\"color: rgb(0, 0, 0);\">, Dominique S.},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;year = {2025},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;publisher = {</span><u><span style=\"color: rgb(0, 0, 0);\">Zenodo</span></u><span style=\"color: rgb(0, 0, 0);\">},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;url = {</span><u><span style=\"color: rgb(0, 0, 0);\">https</span></u><span style=\"color: rgb(0, 0, 0);\">://</span><u><span style=\"color: rgb(0, 0, 0);\">zenodo</span></u><span style=\"color: rgb(0, 0, 0);\">.</span><u><span style=\"color: rgb(0, 0, 0);\">org</span></u><span style=\"color: rgb(0, 0, 0);\">/record/17943728},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;</span><u><span style=\"color: rgb(0, 0, 0);\">github</span></u><span style=\"color: rgb(0, 0, 0);\"> = {</span><u><span style=\"color: rgb(0, 0, 0);\">DominiqueLoyer</span></u><span style=\"color: rgb(0, 0, 0);\">/</span><u><span style=\"color: rgb(0, 0, 0);\">TREC_COMPETITION_88</span></u><span style=\"color: rgb(0, 0, 0);\">-</span><u><span style=\"color: rgb(0, 0, 0);\">90_AP</span></u><span style=\"color: rgb(0, 0, 0);\">},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;keywords = {Information Retrieval, </span><u><span style=\"color: rgb(0, 0, 0);\">TREC</span></u><span style=\"color: rgb(0, 0, 0);\">, Python, </span><u><span style=\"color: rgb(0, 0, 0);\">BM25</span></u><span style=\"color: rgb(0, 0, 0);\">, </span><u><span style=\"color: rgb(0, 0, 0);\">TF</span></u><span style=\"color: rgb(0, 0, 0);\">-</span><u><span style=\"color: rgb(0, 0, 0);\">IDF</span></u><span style=\"color: rgb(0, 0, 0);\">}</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\">}</span></pre>\n</div>",
+			"parentItem": "WBE969TA",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T22:31:05Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-11-17T14:42:41Z",
+			"itemType": "attachment",
+			"key": "9CQI76N2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:42:41 a.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"41b9fa24-8c57-810c-86bf-f6da38905572\",\"notes\":{\"3F9CS3RN\":{\"blockID\":\"41b9fa24-8c57-818b-a9fb-d2b02652919a\",\"syncedAt\":\"2026-11-17T14:42:41.137Z\"}}}</pre>",
+			"parentItem": "WBE969TA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c57813bbca1d645204f5099"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9CQI76N2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c57813bbca1d645204f5099"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "computerProgram",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "3F9CS3RN",
+				"title": "Note"
+			}
+		],
+		"title": "TREC competition: Information retrieval on AP 88-90",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/WBE969TA"
+	},
+	"zotero": {
+		"DOI": "10.5281/zenodo.17943728",
+		"citationKey": "loyerTRECCompetitionInformation2025",
+		"collections": [
+			"RJVJKNN2"
+		],
+		"company": "Zenodo",
+		"creators": [
+			{
+				"creatorType": "programmer",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-26T21:01:07Z",
+		"dateModified": "2026-02-26T21:01:07Z",
+		"extra": "tex.github: DominiqueLoyer/TREC_COMPETITION_88-90_AP\ntitleTranslation: TREC competition: Information retrieval on AP 88-90",
+		"itemType": "computerProgram",
+		"key": "WBE969TA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "BM25"
+			},
+			{
+				"tag": "Information Retrieval"
+			},
+			{
+				"tag": "Python"
+			},
+			{
+				"tag": "TF-IDF"
+			},
+			{
+				"tag": "TREC"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "TREC competition: Information retrieval on AP 88-90",
+		"url": "https://zenodo.org/record/17943728"
+	}
+}

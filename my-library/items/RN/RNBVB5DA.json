@@ -1,0 +1,112 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-01-08T20:07:34Z",
+			"dateModified": "2026-11-09T15:03:29Z",
+			"itemType": "note",
+			"key": "G6CR6S3T",
+			"note": "Oeuvre poshume de Weber, Wirtschaft und Gesellschaft, traduite de l'anglais pour la 1ère fois",
+			"parentItem": "RNBVB5DA",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/8DKZY4MH"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:24:39Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:39Z",
+			"dateModified": "2026-11-09T17:08:05Z",
+			"itemType": "attachment",
+			"key": "M4RHDN47",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:05 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "RNBVB5DA",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/9EDUF278"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/8UA6K68H"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Weber-1968-4129fa248c57814294abf144ef0228bf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "M4RHDN47",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Weber-1968-4129fa248c57814294abf144ef0228bf"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Weber, Max"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "G6CR6S3T",
+				"title": "Oeuvre poshume de Weber, Wirtschaft und Gesellschaft, traduite de l'anglais pour la 1ère fois"
+			}
+		],
+		"title": "Economy and Society: An Outline of Interpretive Sociology",
+		"year": "1968",
+		"zoteroURI": "zotero://select/library/items/RNBVB5DA"
+	},
+	"zotero": {
+		"citationKey": "weberEconomySocietyOutline1968",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Max",
+				"lastName": "Weber"
+			}
+		],
+		"date": "1968",
+		"dateAdded": "2025-10-10T19:01:29Z",
+		"dateModified": "2026-11-09T15:03:29Z",
+		"itemType": "book",
+		"key": "RNBVB5DA",
+		"publisher": "Bedminster Press",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/FWEQBEV6",
+				"http://zotero.org/users/15425556/items/TSGZ4FKG"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/C7C75YCH"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Economy and Society: An Outline of Interpretive Sociology"
+	}
+}

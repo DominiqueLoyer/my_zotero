@@ -1,0 +1,87 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:56Z",
+			"dateModified": "2026-11-09T17:06:15Z",
+			"itemType": "attachment",
+			"key": "M86H2AYB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:15 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "U9UTCJQ4",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/DL658WUV",
+					"http://zotero.org/groups/6376680/items/J3Q63BZA"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Bareinboim-Elias-2024-4129fa248c5781d996c1c4cb56fe6fb5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "M86H2AYB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Bareinboim-Elias-2024-4129fa248c5781d996c1c4cb56fe6fb5"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Bareinboim, Elias"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Causal AI Lab",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/U9UTCJQ4"
+	},
+	"zotero": {
+		"citationKey": "bareinboimeliasCausalAILab2024",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Bareinboim, Elias"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:32:46Z",
+		"dateModified": "2026-11-13T19:33:45Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "U9UTCJQ4",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/5J7ZCZS2",
+				"http://zotero.org/groups/6376680/items/W6K7VSVA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Causal AI Lab"
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "C7ISM3FH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:42 p.m.</p>",
+			"parentItem": "I6FWHBQZ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/sarwarItemBasedCollaborativeFiltering-3239fa248c57816f953ad2efaf3d8746"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "C7ISM3FH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/sarwarItemBasedCollaborativeFiltering-3239fa248c57816f953ad2efaf3d8746"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Sarwar, Badrul",
+			"Karypis, George",
+			"Konstan, Joseph",
+			"Riedl, John"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Item-Based Collaborative Filtering Recommendation Algorithms",
+		"year": "",
+		"zoteroURI": "zotero://select/groups/6376680/items/I6FWHBQZ"
+	},
+	"zotero": {
+		"DOI": "10.1145/371920.372071",
+		"abstractNote": "Recommender systems apply knowledge discovery techniques to the problem of making personalized recommendations for information, products or services during a live interaction. These systems, especially the k-nearest neighbor collaborative ltering based ones, are achieving widespread success on the Web. The tremendous growth in the amount of available information and the number of visitors to Web sites in recent years poses some key challenges for recommender systems. These are: producing high quality recommendations, performing many recommendations per second for millions of users and items and achieving high coverage in the face of data sparsity. In traditional collaborative ltering systems the amount of work increases with the number of participants in the system. New recommender system technologies are needed that can quickly produce high quality recommendations, even for very large-scale problems. To address these issues we have explored item-based collaborative ltering techniques. Item-based techniques rst analyze the user-item matrix to identify relationships between di erent items, and then use these relationships to indirectly compute recommendations for users.",
+		"citationKey": "sarwarItemBasedCollaborativeFiltering",
+		"collections": [
+			"HXLA8A4T"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Badrul",
+				"lastName": "Sarwar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "George",
+				"lastName": "Karypis"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joseph",
+				"lastName": "Konstan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John",
+				"lastName": "Riedl"
+			}
+		],
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"itemType": "journalArticle",
+		"key": "I6FWHBQZ",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Item-Based Collaborative Filtering Recommendation Algorithms"
+	}
+}

@@ -1,0 +1,97 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:18:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "RXA5WHP9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:18:48 p.m.</p>",
+			"parentItem": "LEV4P6TQ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/bonesRequirementsUseCases2026-3239fa248c578104a9b3c1ee2ad6e978"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RXA5WHP9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/bonesRequirementsUseCases2026-3239fa248c578104a9b3c1ee2ad6e978"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/240226_v2130/PDFs"
+		],
+		"creators": [
+			"Bønes, Erlend",
+			"Granja, Conceição",
+			"Solvoll, Terje"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Requirements and Use Cases for eHealth Solutions in Flexible Assertive Community Treatment Teams: Design Science Study",
+		"year": "2026",
+		"zoteroURI": "zotero://select/groups/6376680/items/LEV4P6TQ"
+	},
+	"zotero": {
+		"DOI": "10.2196/77354",
+		"ISSN": "2561-326X",
+		"abstractNote": "Background: Health care delivery is often fragmented, with different services being delivered by different organizations. Various forms of teamwork are often used in health care, aiming to mitigate the challenges related to this fragmentation. One example of teamwork in mental health is Flexible Assertive Community Treatment (FACT). FACT is a model for comprehensive and integrated care for patients with long-term, serious mental illness. FACT teams deliver services using assertive outreach to treat patients who can be hard to reach by health care services. However, Norwegian FACT teams have issues with the current eHealth solutions related to the fragmentation of health care.\nObjective: This study aimed to identify requirements and develop use cases and use case diagrams for eHealth solutions that support effective teamwork within FACT teams, using them in a case study for collaborative health care delivery.\nMethods: A design science framework was used to explicate the problems of eHealth solutions in FACT teams. This included performing the subactivities of defining the problem precisely, positioning and justifying the problem, and finding root causes. Based on this explication, we derived a set of requirements, use cases, and use case diagrams for FACT teams.\nResults: We present the explication of the problems of eHealth in Norwegian FACT teams. Building on the results, we present functional and nonfunctional requirements for electronic health records, electronic whiteboards, video conference solutions, and digital questionnaires. Improved integration across these systems was identified as a recurring need. We also provide use cases and diagrams illustrating system use in practice.\nConclusions: FACT teams in Norway require more integrated and tailored eHealth solutions. The requirements and use cases presented in this study offer a foundation for developing tools that better support the collaborative and mobile nature of FACT team operations.",
+		"accessDate": "2026-03-14T17:37:51Z",
+		"citationKey": "bonesRequirementsUseCases2026",
+		"collections": [
+			"9IXQQWAM"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Erlend",
+				"lastName": "Bønes"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Conceição",
+				"lastName": "Granja"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Terje",
+				"lastName": "Solvoll"
+			}
+		],
+		"date": "2026-1-26",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "JMIR Form Res",
+		"key": "LEV4P6TQ",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "e77354-e77354",
+		"publicationTitle": "JMIR Formative Research",
+		"relations": {},
+		"shortTitle": "Requirements and Use Cases for eHealth Solutions in Flexible Assertive Community Treatment Teams",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Requirements and Use Cases for eHealth Solutions in Flexible Assertive Community Treatment Teams: Design Science Study",
+		"url": "https://formative.jmir.org/2026/1/e77354",
+		"volume": "10"
+	}
+}

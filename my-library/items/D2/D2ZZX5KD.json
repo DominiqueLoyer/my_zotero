@@ -1,0 +1,98 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-03-30T18:54:00Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2025-03-30T18:54:00Z",
+			"dateModified": "2025-03-30T18:54:00Z",
+			"filename": "103c897e-af1c-41f7-b3ad-3363c5270b1e.html",
+			"itemType": "attachment",
+			"key": "PG9C6ENJ",
+			"linkMode": "imported_url",
+			"parentItem": "D2ZZX5KD",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://chat.deepseek.com/a/chat/s/103c897e-af1c-41f7-b3ad-3363c5270b1e"
+		},
+		{
+			"accessDate": "2025-12-05T22:35:34Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:34Z",
+			"dateModified": "2026-11-09T17:07:19Z",
+			"itemType": "attachment",
+			"key": "XS88DHC8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:19 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "D2ZZX5KD",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/DeepSeek-4129fa248c5781ca980cfd94d543db04"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XS88DHC8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/DeepSeek-4129fa248c5781ca980cfd94d543db04"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "103c897e-af1c-41f7-b3ad-3363c5270b1e.html",
+				"files": [],
+				"key": "PG9C6ENJ",
+				"linkMode": "imported_url",
+				"status": "missing",
+				"title": "Snapshot",
+				"url": "https://chat.deepseek.com/a/chat/s/103c897e-af1c-41f7-b3ad-3363c5270b1e"
+			}
+		],
+		"collections": [
+			"Cours H25/science du web"
+		],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DeepSeek",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/D2ZZX5KD"
+	},
+	"zotero": {
+		"abstractNote": "Chat with DeepSeek AI.",
+		"accessDate": "2025-03-30T18:53:56Z",
+		"citationKey": "DeepSeek",
+		"collections": [
+			"W7937JUV"
+		],
+		"creators": [],
+		"dateAdded": "2025-03-30T18:53:56Z",
+		"dateModified": "2025-12-05T22:35:34Z",
+		"itemType": "webpage",
+		"key": "D2ZZX5KD",
+		"language": "en",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "web sémantique;dic9335"
+			}
+		],
+		"title": "DeepSeek",
+		"url": "https://chat.deepseek.com"
+	}
+}

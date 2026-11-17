@@ -1,0 +1,74 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T21:46:58Z",
+			"itemType": "attachment",
+			"key": "4S2WUEVT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:40:42 p.m.</p>",
+			"parentItem": "THGCM4ZR",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Covington2016-3129fa248c57812dabb6e401a04332f7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "4S2WUEVT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Covington2016-3129fa248c57812dabb6e401a04332f7"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Covington, Paul and Adams, Jay and Sargin, Emre"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Deep Neural Networks for YouTube Recommendations",
+		"year": "2016",
+		"zoteroURI": "zotero://select/groups/6376680/items/THGCM4ZR"
+	},
+	"zotero": {
+		"DOI": "10.1145/2959100.2959190",
+		"citationKey": "Covington2016",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Covington, Paul and Adams, Jay and Sargin, Emre"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T21:46:58Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "THGCM4ZR",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Deep Neural Networks for YouTube Recommendations"
+	}
+}

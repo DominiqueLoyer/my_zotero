@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:38:59Z",
+			"dateModified": "2026-03-09T20:53:34Z",
+			"itemType": "attachment",
+			"key": "CZ8I7NK2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:34 p.m.</p>",
+			"parentItem": "XQTHE7HP",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/4J8HMW29"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/HuggingFace2024-2e29fa248c5781dc96f7f6be9c2ba5d6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CZ8I7NK2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/HuggingFace2024-2e29fa248c5781dc96f7f6be9c2ba5d6"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Hugging Face"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The EU AI act",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/XQTHE7HP"
+	},
+	"zotero": {
+		"citationKey": "huggingfaceEUAIAct2024a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Hugging Face"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-01-08T20:07:31Z",
+		"dateModified": "2026-03-25T21:30:39Z",
+		"itemType": "document",
+		"key": "XQTHE7HP",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/VQA4A257"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The EU AI act",
+		"url": "https://huggingface.co/docs/hub/en/eu-ai-act"
+	}
+}

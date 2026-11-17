@@ -1,0 +1,126 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:35:05Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-11-17T14:47:43Z",
+			"itemType": "attachment",
+			"key": "74V6NQ6S",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:18 p.m.</p>",
+			"parentItem": "NBEC7JSN",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/CWFVZQN2"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Zhang2019-2e29fa248c5781f9a09bd33cf7835aa2"
+		},
+		{
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:47:43Z",
+			"itemType": "note",
+			"key": "LPWCIA2A",
+			"note": "Comment: The paper has been accepted by ACM Computing Surveys. https://doi.acm.org/10.1145/3285029",
+			"parentItem": "NBEC7JSN",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "74V6NQ6S",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Zhang2019-2e29fa248c5781f9a09bd33cf7835aa2"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs",
+			"references_dic9401"
+		],
+		"creators": [
+			"Zhang, Shuai",
+			"Yao, Lina",
+			"Sun, Aixin",
+			"Tay, Yi"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "LPWCIA2A",
+				"title": "Comment: The paper has been accepted by ACM Computing Surveys. https://doi.acm.org/10.1145/3285029"
+			}
+		],
+		"title": "Deep learning based recommender system: A survey and new perspectives",
+		"year": "2019",
+		"zoteroURI": "zotero://select/groups/6376680/items/NBEC7JSN"
+	},
+	"zotero": {
+		"DOI": "10.1145/3285029",
+		"citationKey": "zhangDeepLearningBased2019",
+		"collections": [
+			"HXLA8A4T",
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Shuai",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lina",
+				"lastName": "Yao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aixin",
+				"lastName": "Sun"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yi",
+				"lastName": "Tay"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-11-17T14:47:43Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"key": "NBEC7JSN",
+		"language": "fr-CA",
+		"pages": "1–38",
+		"publicationTitle": "ACM Computing Surveys (CSUR)",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/UU22YQQ4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Deep learning based recommender system: A survey and new perspectives",
+		"volume": "52"
+	}
+}

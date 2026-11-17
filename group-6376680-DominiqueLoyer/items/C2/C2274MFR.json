@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-03-08T22:25:31Z",
+			"itemType": "attachment",
+			"key": "KH9EJY56",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:36:22 p.m.</p>",
+			"parentItem": "C2274MFR",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/CI4VSEPU"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Weber2002Economy-3129fa248c5781bf84a3c5ba6ca5622e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KH9EJY56",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Weber2002Economy-3129fa248c5781bf84a3c5ba6ca5622e"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Weber, Max"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Economy and Society: An Outline of Interpretive Sociology",
+		"year": "2002",
+		"zoteroURI": "zotero://select/groups/6376680/items/C2274MFR"
+	},
+	"zotero": {
+		"DOI": "10.1002/9780470755679.ch3",
+		"citationKey": "Weber2002Economy",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Weber, Max"
+			}
+		],
+		"date": "2002",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-03-08T22:25:31Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "C2274MFR",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/TPIW4HKC"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Economy and Society: An Outline of Interpretive Sociology"
+	}
+}

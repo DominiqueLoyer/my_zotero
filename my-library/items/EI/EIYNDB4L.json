@@ -1,0 +1,125 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:31:53Z",
+			"dateModified": "2026-03-14T17:39:53Z",
+			"itemType": "attachment",
+			"key": "X8JXHRFF",
+			"linkMode": "linked_file",
+			"parentItem": "EIYNDB4L",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401_ic_/PDFs/Schneider - 2024 - Explainable Generative AI (GenXAI) A Survey, Conceptualization, and Research Agenda.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:17:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:42Z",
+			"dateModified": "2026-11-09T17:08:48Z",
+			"itemType": "attachment",
+			"key": "Z5RNA7W9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:48 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "EIYNDB4L",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/YEGYFQHW"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Schneider-2024-4129fa248c5781e5b50bd5365928ff07"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Z5RNA7W9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Schneider-2024-4129fa248c5781e5b50bd5365928ff07"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Schneider - 2024 - Explainable Generative AI (GenXAI) A Survey, Conceptualization, and Research Agenda.pdf",
+				"files": [
+					{
+						"path": "attachments/X8/X8JXHRFF/Schneider - 2024 - Explainable Generative AI (GenXAI) A Survey, Conceptualization, and Research Agenda.pdf",
+						"size": 2075085,
+						"storage": "git"
+					}
+				],
+				"key": "X8JXHRFF",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Schneider, Johannes"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explainable Generative AI (GenXAI): A Survey, Conceptualization, and Research Agenda",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/EIYNDB4L"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2404.09554",
+		"abstractNote": "Generative AI (GenAI) marked a shift from AI being able to recognize to AI being able to generate solutions for a wide variety of tasks. As the generated solutions and applications become increasingly more complex and multi-faceted, novel needs, objectives, and possibilities have emerged for explainability (XAI). In this work, we elaborate on why XAI has gained importance with the rise of GenAI and its challenges for explainability research. We also unveil novel and emerging desiderata that explanations should fulfill, covering aspects such as verifiability, interactivity, security, and cost. To this end, we focus on surveying existing works. Furthermore, we provide a taxonomy of relevant dimensions that allows us to better characterize existing XAI mechanisms and methods for GenAI. We discuss different avenues to ensure XAI, from training data to prompting. Our paper offers a short but concise technical background of GenAI for non-technical readers, focusing on text and images to better understand novel or adapted XAI techniques for GenAI. However, due to the vast array of works on GenAI, we decided to forego detailed aspects of XAI related to evaluation and usage of explanations. As such, the manuscript interests both technically oriented people and other disciplines, such as social scientists and information systems researchers. Our research roadmap provides more than ten directions for future investigation.",
+		"accessDate": "2026-03-14T17:39:52Z",
+		"archiveID": "arXiv:2404.09554",
+		"citationKey": "schneiderExplainableGenerativeAI2024a",
+		"collections": [
+			"U5GGZRY8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Johannes",
+				"lastName": "Schneider"
+			}
+		],
+		"date": "2024-04-15",
+		"dateAdded": "2026-03-14T17:39:52Z",
+		"dateModified": "2026-03-25T21:28:25Z",
+		"extra": "arXiv:2404.09554 [cs]",
+		"itemType": "preprint",
+		"key": "EIYNDB4L",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/C5IJRN4L"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Explainable Generative AI (GenXAI)",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable Generative AI (GenXAI): A Survey, Conceptualization, and Research Agenda",
+		"url": "http://arxiv.org/abs/2404.09554"
+	}
+}

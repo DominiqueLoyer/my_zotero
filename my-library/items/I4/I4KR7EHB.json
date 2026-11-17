@@ -1,0 +1,145 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-05T18:08:36Z",
+			"dateModified": "2024-12-01T16:08:50Z",
+			"filename": "Taconnat - 2012 - Fonctionnement et dysfonctionnement de la mémoire humaine.pdf",
+			"itemType": "attachment",
+			"key": "7DI4Y96B",
+			"linkMode": "imported_file",
+			"parentItem": "I4KR7EHB",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/PBP89QCU"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ff6666",
+			"annotationComment": "",
+			"annotationPageLabel": "18",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[190.355,201.79,252.454,211.849]]}",
+			"annotationSortIndex": "00001|000330|00630",
+			"annotationText": "(Tulving E., 1985)",
+			"annotationType": "highlight",
+			"dateAdded": "2024-11-05T20:42:57Z",
+			"dateModified": "2024-11-05T20:42:57Z",
+			"itemType": "annotation",
+			"key": "ADBWNFIF",
+			"parentItem": "7DI4Y96B",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:25:28Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:28Z",
+			"dateModified": "2026-11-09T17:09:06Z",
+			"itemType": "attachment",
+			"key": "HBDAX5M6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:06 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "I4KR7EHB",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Taconnat-2012-4129fa248c578147867ad290228efb2c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HBDAX5M6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Taconnat-2012-4129fa248c578147867ad290228efb2c"
+			},
+			{
+				"annotationCount": 1,
+				"contentType": "application/pdf",
+				"filename": "Taconnat - 2012 - Fonctionnement et dysfonctionnement de la mémoire humaine.pdf",
+				"files": [
+					{
+						"path": "attachments/7D/7DI4Y96B/Taconnat - 2012 - Fonctionnement et dysfonctionnement de la mémoire humaine.pdf",
+						"size": 1645763,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/7D/7DI4Y96B/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 38791,
+						"storage": "git"
+					}
+				],
+				"key": "7DI4Y96B",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/papier sur Mémoire Taconnah"
+		],
+		"creators": [
+			"Taconnat, Laurence"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Fonctionnement et dysfonctionnement de la mémoire humaine:",
+		"year": "2012",
+		"zoteroURI": "zotero://select/library/items/I4KR7EHB"
+	},
+	"zotero": {
+		"DOI": "10.3917/jdp.297.0018",
+		"ISSN": "0752-501X",
+		"accessDate": "2024-11-05T18:08:46Z",
+		"citationKey": "taconnatFonctionnementDysfonctionnementMemoire2012",
+		"collections": [
+			"WCNN4PWZ"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Laurence",
+				"lastName": "Taconnat"
+			}
+		],
+		"date": "2012-5-1",
+		"dateAdded": "2024-11-05T18:08:46Z",
+		"dateModified": "2025-12-05T22:25:28Z",
+		"issue": "4",
+		"itemType": "journalArticle",
+		"key": "I4KR7EHB",
+		"language": "fr",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "18-23",
+		"publicationTitle": "Le Journal des psychologues",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/GTIDNMVE"
+			]
+		},
+		"shortTitle": "Fonctionnement et dysfonctionnement de la mémoire humaine",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Fonctionnement et dysfonctionnement de la mémoire humaine:",
+		"url": "https://www.cairn.info/revue-le-journal-des-psychologues-2012-4-page-18.htm?ref=doi",
+		"volume": "n° 297"
+	}
+}

@@ -1,0 +1,124 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:23:00Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:23:00Z",
+			"dateModified": "2026-11-09T15:05:01Z",
+			"filename": "Oshikawa, Ray and Qian, Jing and Wang, William Yang - 2019 - A Survey on Natural Language Processing for Fake News Detection.pdf",
+			"itemType": "attachment",
+			"key": "253U2V79",
+			"linkMode": "imported_url",
+			"parentItem": "5E8IGDEQ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/2FZ5QQJY",
+					"http://zotero.org/users/15425556/items/HZW98TU7",
+					"http://zotero.org/users/15425556/items/JH6HLSPG",
+					"http://zotero.org/users/15425556/items/TVPWWDCP"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://ijcseonline.org/index.php/j/article/download/7091/7123"
+		},
+		{
+			"accessDate": "2026-11-08T16:02:15Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:02:15Z",
+			"dateModified": "2026-11-09T17:04:53Z",
+			"itemType": "attachment",
+			"key": "IHTGBFGI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:53 p.m.</p>",
+			"parentItem": "5E8IGDEQ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Oshikawa-Ray-and-Qian-Jing-and-Wang-William-Yang-2019-4129fa248c5781f6b7dee0ed52307920"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Oshikawa, Ray and Qian, Jing and Wang, William Yang - 2019 - A Survey on Natural Language Processing for Fake News Detection.pdf",
+				"files": [
+					{
+						"path": "attachments/25/253U2V79/Oshikawa, Ray and Qian, Jing and Wang, William Yang - 2019 - A Survey on Natural Language Processing for Fake News Detection.pdf",
+						"size": 401838,
+						"storage": "git"
+					}
+				],
+				"key": "253U2V79",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://ijcseonline.org/index.php/j/article/download/7091/7123"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IHTGBFGI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Oshikawa-Ray-and-Qian-Jing-and-Wang-William-Yang-2019-4129fa248c5781f6b7dee0ed52307920"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Oshikawa, Ray and Qian, Jing and Wang, William Yang"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Survey on Natural Language Processing for Fake News Detection",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/5E8IGDEQ"
+	},
+	"zotero": {
+		"DOI": "10.26438/ijcse/v7i9.115121",
+		"citationKey": "oshikawarayandqianjingandwangwilliamyangSurveyNaturalLanguage2019",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Oshikawa, Ray and Qian, Jing and Wang, William Yang"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-02-26T20:21:20Z",
+		"dateModified": "2026-11-09T15:05:01Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "5E8IGDEQ",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/7FC37KMJ",
+				"http://zotero.org/users/15425556/items/88DTHCZS",
+				"http://zotero.org/users/15425556/items/BK6QG4X3",
+				"http://zotero.org/users/15425556/items/G57ADFVT"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/GLBL5X9N"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey on Natural Language Processing for Fake News Detection"
+	}
+}

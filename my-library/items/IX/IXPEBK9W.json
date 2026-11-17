@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:54Z",
+			"dateModified": "2026-03-09T20:43:21Z",
+			"itemType": "attachment",
+			"key": "QZ6FAYPM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:43:21 p.m.</p>",
+			"parentItem": "IXPEBK9W",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/646ZH38I",
+					"http://zotero.org/groups/6376680/items/8XTTQ4L9"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/He2025Lightgcn-3129fa248c57810e95cbd875a0810b93"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QZ6FAYPM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/He2025Lightgcn-3129fa248c57810e95cbd875a0810b93"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"He, Xiangnan and Deng, Kuan and Wang, Xiang and Li, Yan and Zhang, Yongdong and Wang, Meng"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/IXPEBK9W"
+	},
+	"zotero": {
+		"DOI": "10.1007/s11227-025-08045-5",
+		"citationKey": "hexiangnananddengkuanandwangxiangandliyanandzhangyongdongandwangmengLightGCNSimplifyingPowering2025",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "He, Xiangnan and Deng, Kuan and Wang, Xiang and Li, Yan and Zhang, Yongdong and Wang, Meng"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-25T21:37:55Z",
+		"dateModified": "2026-03-25T21:29:47Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "IXPEBK9W",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/MYA7ANIN",
+				"http://zotero.org/groups/6376680/items/NPNYQXZM"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation"
+	}
+}

@@ -1,0 +1,162 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:34:08Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:34:08Z",
+			"dateModified": "2026-11-09T14:55:15Z",
+			"itemType": "attachment",
+			"key": "9JD6JS9N",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:34:08 p.m.</p>",
+			"parentItem": "MZMXQKTB",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Zuboff2020The-31e9fa248c5781649e58fb6d7d2c11d1"
+		},
+		{
+			"accessDate": "2026-02-25T22:19:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:56Z",
+			"dateModified": "2026-11-09T14:55:15Z",
+			"itemType": "attachment",
+			"key": "JEKJ8ZFX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:51 p.m.</p>",
+			"parentItem": "MZMXQKTB",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/GBA66S9E"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/BCLBURTT",
+					"http://zotero.org/groups/6376680/items/EDSYMIH8",
+					"http://zotero.org/groups/6376680/items/HDLM4N73",
+					"http://zotero.org/groups/6376680/items/XPGHBZC9"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Zuboff2020The-3129fa248c5781128ba9f8d991cd3933"
+		},
+		{
+			"accessDate": "2026-11-08T16:39:17Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:39:17Z",
+			"dateModified": "2026-11-09T14:55:15Z",
+			"filename": "Zuboff, Shoshana - 2020 - The Age of Surveillance Capitalism The Fight for a Human Future at the New Frontier of Power.pdf",
+			"itemType": "attachment",
+			"key": "V436I6VV",
+			"linkMode": "imported_url",
+			"parentItem": "MZMXQKTB",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/8ZBG7ZP5",
+					"http://zotero.org/users/15425556/items/A6T22WW2"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://journals.library.brocku.ca/brocked/index.php/home/article/download/849/397"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zuboff, Shoshana - 2020 - The Age of Surveillance Capitalism The Fight for a Human Future at the New Frontier of Power.pdf",
+				"files": [
+					{
+						"path": "attachments/V4/V436I6VV/Zuboff, Shoshana - 2020 - The Age of Surveillance Capitalism The Fight for a Human Future at the New Frontier of Power.pdf",
+						"size": 250582,
+						"storage": "git"
+					}
+				],
+				"key": "V436I6VV",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://journals.library.brocku.ca/brocked/index.php/home/article/download/849/397"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JEKJ8ZFX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Zuboff2020The-3129fa248c5781128ba9f8d991cd3933"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9JD6JS9N",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Zuboff2020The-31e9fa248c5781649e58fb6d7d2c11d1"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"_gs_080326"
+		],
+		"creators": [
+			"Zuboff, Shoshana"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/MZMXQKTB"
+	},
+	"zotero": {
+		"DOI": "10.26522/brocked.v29i2.849",
+		"citationKey": "zuboffshoshanaAgeSurveillanceCapitalism2020",
+		"collections": [
+			"9ERXAIZK",
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Zuboff, Shoshana"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-02-25T20:54:47Z",
+		"dateModified": "2026-11-09T14:55:15Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "MZMXQKTB",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/RDIGET89",
+				"http://zotero.org/users/15425556/items/UU5FZU6D"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2MNWU554",
+				"http://zotero.org/groups/6376680/items/7I76NJK5",
+				"http://zotero.org/groups/6376680/items/975R2TCY",
+				"http://zotero.org/groups/6376680/items/DIPACMWM"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power"
+	}
+}

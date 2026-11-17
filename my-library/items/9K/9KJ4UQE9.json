@@ -1,0 +1,86 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:39:18Z",
+			"dateModified": "2026-11-09T17:06:07Z",
+			"itemType": "attachment",
+			"key": "LGYCLES6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:07 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "9KJ4UQE9",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/A9YTTUUG"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Graeber-2018-4129fa248c578131b9f3c2415c47095a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LGYCLES6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Graeber-2018-4129fa248c578131b9f3c2415c47095a"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Graeber, David"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Bullshit jobs",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/9KJ4UQE9"
+	},
+	"zotero": {
+		"citationKey": "graeberBullshitJobs2018b",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Graeber"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-01-08T20:07:31Z",
+		"dateModified": "2026-11-13T19:33:21Z",
+		"itemType": "book",
+		"key": "9KJ4UQE9",
+		"publisher": "Simon & Schuster",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UD83IXHQ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bullshit jobs"
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:48Z",
+			"dateModified": "2026-03-09T20:41:08Z",
+			"itemType": "attachment",
+			"key": "9V4XCC8T",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:41:08 p.m.</p>",
+			"parentItem": "MQMTZJT8",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/5GJA36IN",
+					"http://zotero.org/groups/6376680/items/XVYE72KX"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/UNESCO2025Recommendation-3129fa248c5781f29aaaf4809aa9b993"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9V4XCC8T",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/UNESCO2025Recommendation-3129fa248c5781f29aaaf4809aa9b993"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"UNESCO"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Recommendation on the Ethics of Artificial Intelligence",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/MQMTZJT8"
+	},
+	"zotero": {
+		"DOI": "10.1093/9780197803325.003.0020",
+		"citationKey": "unescoRecommendationEthicsArtificial2025",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "UNESCO"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-25T21:52:47Z",
+		"dateModified": "2026-03-25T21:29:35Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "MQMTZJT8",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4NRZ4UWA",
+				"http://zotero.org/groups/6376680/items/Q39Z7ZVS"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Recommendation on the Ethics of Artificial Intelligence"
+	}
+}

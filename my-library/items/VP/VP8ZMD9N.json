@@ -1,0 +1,111 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-11-12T22:14:19Z",
+			"dateModified": "2026-11-12T22:14:19Z",
+			"itemType": "note",
+			"key": "7VQH32WB",
+			"note": "DIC-9345 TALN",
+			"parentItem": "VP8ZMD9N",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-11-12T22:14:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-12T22:14:19Z",
+			"dateModified": "2026-11-12T22:14:19Z",
+			"itemType": "attachment",
+			"key": "JBCTA4A3",
+			"linkMode": "linked_url",
+			"parentItem": "VP8ZMD9N",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JBCTA4A3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126 2026-11-12, 5:14:18 p.m."
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "7VQH32WB",
+				"title": "DIC-9345 TALN"
+			}
+		],
+		"title": "Evaluation of information retrieval models and query expansion on the TREC AP 88-90 collection",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/VP8ZMD9N"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.22608.62721",
+		"citationKey": "loyerEvaluationInformationRetrieval2025a",
+		"collections": [
+			"IE29Y4Q7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-12T22:14:19Z",
+		"extra": "ISBN: 978-1-0699904-5-7",
+		"itemType": "journalArticle",
+		"key": "VP8ZMD9N",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "BM25"
+			},
+			{
+				"tag": "Information Retrieval"
+			},
+			{
+				"tag": "MAP"
+			},
+			{
+				"tag": "NDCG"
+			},
+			{
+				"tag": "Query Expansion"
+			},
+			{
+				"tag": "TF-IDF"
+			},
+			{
+				"tag": "TREC"
+			},
+			{
+				"tag": "Vector Space Models"
+			}
+		],
+		"title": "Evaluation of information retrieval models and query expansion on the TREC AP 88-90 collection",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.22608.62721"
+	}
+}

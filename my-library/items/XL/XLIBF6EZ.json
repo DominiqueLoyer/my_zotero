@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:53:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:11Z",
+			"dateModified": "2026-11-09T17:06:53Z",
+			"itemType": "attachment",
+			"key": "ASCVG9XZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:53 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "XLIBF6EZ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3AIPZXMN"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/custom-copie-4129fa248c578102ae8bfbc38b036f30"
+		},
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:13Z",
+			"dateModified": "2026-01-08T22:57:47Z",
+			"filename": "custom copie.bib",
+			"itemType": "attachment",
+			"key": "H5ED648I",
+			"linkMode": "imported_file",
+			"parentItem": "XLIBF6EZ",
+			"relations": {},
+			"tags": [],
+			"title": "custom copie"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "custom copie.bib",
+				"files": [
+					{
+						"path": "attachments/H5/H5ED648I/custom copie.bib",
+						"size": 11024,
+						"storage": "git"
+					}
+				],
+				"key": "H5ED648I",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "custom copie",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ASCVG9XZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/custom-copie-4129fa248c578102ae8bfbc38b036f30"
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "custom copie",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/XLIBF6EZ"
+	},
+	"zotero": {
+		"DOI": "10.1163/2214-8264_dutchpamphlets-kb0-kb00232",
+		"citationKey": "CustomCopie",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:47Z",
+		"dateModified": "2026-11-13T19:35:17Z",
+		"itemType": "document",
+		"key": "XLIBF6EZ",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/G8G8MLMV"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "custom copie"
+	}
+}

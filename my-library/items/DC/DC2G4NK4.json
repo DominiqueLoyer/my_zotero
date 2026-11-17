@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:12Z",
+			"dateModified": "2026-01-08T22:57:47Z",
+			"filename": "references copie.bib",
+			"itemType": "attachment",
+			"key": "G4SURRRU",
+			"linkMode": "imported_file",
+			"parentItem": "DC2G4NK4",
+			"relations": {},
+			"tags": [],
+			"title": "references copie"
+		},
+		{
+			"accessDate": "2026-01-16T15:53:10Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:10Z",
+			"dateModified": "2026-03-09T20:46:27Z",
+			"itemType": "attachment",
+			"key": "ICGXB47S",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:46:27 p.m.</p>",
+			"parentItem": "DC2G4NK4",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ZHKICDAW"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ReferencesCopie-2ea9fa248c5781c5a960ea2245cd8370"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ICGXB47S",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ReferencesCopie-2ea9fa248c5781c5a960ea2245cd8370"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "references copie.bib",
+				"files": [
+					{
+						"path": "attachments/G4/G4SURRRU/references copie.bib",
+						"size": 17923,
+						"storage": "git"
+					}
+				],
+				"key": "G4SURRRU",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "references copie",
+				"url": null
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "references copie",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/DC2G4NK4"
+	},
+	"zotero": {
+		"citationKey": "ReferencesCopie",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:47Z",
+		"dateModified": "2026-02-05T00:08:23Z",
+		"itemType": "document",
+		"key": "DC2G4NK4",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/GURF8R77"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "references copie"
+	}
+}

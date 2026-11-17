@@ -1,0 +1,149 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:36:55Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:55Z",
+			"dateModified": "2026-11-09T15:00:50Z",
+			"itemType": "attachment",
+			"key": "MS86Q36U",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:12:27 p.m.</p>",
+			"parentItem": "E74JZXZB",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/T37D6TPF"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/YNZUILJS"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/betkerImprovingImageGeneration2023-2c09fa248c5781d694a8cb21f4adaa74"
+		},
+		{
+			"accessDate": "2026-01-08T20:32:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:32:12Z",
+			"dateModified": "2026-11-09T15:00:50Z",
+			"itemType": "attachment",
+			"key": "PIU6TMAQ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:49:27 p.m.</p>",
+			"parentItem": "E74JZXZB",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Betker2023-2e29fa248c5781e8a1c1e698d02f2069"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PIU6TMAQ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Betker2023-2e29fa248c5781e8a1c1e698d02f2069"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "MS86Q36U",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/betkerImprovingImageGeneration2023-2c09fa248c5781d694a8cb21f4adaa74"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Betker, James",
+			"Goh, Gabriel",
+			"Jing, Li",
+			"Tan, Tim",
+			"Yu, Advay"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Improving Image Generation with Better Captions",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/E74JZXZB"
+	},
+	"zotero": {
+		"citationKey": "betkerImprovingImageGeneration2023",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "James",
+				"lastName": "Betker"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gabriel",
+				"lastName": "Goh"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Li",
+				"lastName": "Jing"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tim",
+				"lastName": "Tan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Advay",
+				"lastName": "Yu"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-09T15:00:50Z",
+		"itemType": "journalArticle",
+		"key": "E74JZXZB",
+		"publicationTitle": "OpenAI",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/XDIR5B5N",
+				"http://zotero.org/users/15425556/items/Y7LHE2SD"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/3C9BJE5Q"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Improving Image Generation with Better Captions",
+		"url": "https://openai.com/research/improving-image-generation-with-better-captions"
+	}
+}

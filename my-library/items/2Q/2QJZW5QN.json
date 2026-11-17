@@ -1,0 +1,158 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:24:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:00Z",
+			"dateModified": "2026-01-02T19:16:09Z",
+			"itemType": "attachment",
+			"key": "A58ZMVHL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:09 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-8138-92ef-ef374003c22c\",\"notes\":{\"BT88FCFY\":{\"blockID\":\"2c09fa24-8c57-81b0-a8e1-e7fa6d530e25\",\"syncedAt\":\"2025-12-05T22:38:18.243Z\"}}}</pre>",
+			"parentItem": "2QJZW5QN",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/zaiemSequenceSequenceLearning2018-2c09fa248c57814a8b28ccb1de4d8e2d"
+		},
+		{
+			"dateAdded": "2025-03-20T18:03:01Z",
+			"dateModified": "2025-03-20T18:03:01Z",
+			"itemType": "note",
+			"key": "BT88FCFY",
+			"note": "Comment: 8 pages, 2 figures, AAAI-19 Student Abstract and Poster Program",
+			"parentItem": "2QJZW5QN",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-20T18:02:58Z",
+			"dateModified": "2025-03-20T18:03:02Z",
+			"filename": "Zaiem et Sadat - 2018 - Sequence to Sequence Learning for Query Expansion.pdf",
+			"itemType": "attachment",
+			"key": "WJDYPMBT",
+			"linkMode": "imported_file",
+			"parentItem": "2QJZW5QN",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "A58ZMVHL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/zaiemSequenceSequenceLearning2018-2c09fa248c57814a8b28ccb1de4d8e2d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zaiem et Sadat - 2018 - Sequence to Sequence Learning for Query Expansion.pdf",
+				"files": [
+					{
+						"path": "attachments/WJ/WJDYPMBT/Zaiem et Sadat - 2018 - Sequence to Sequence Learning for Query Expansion.pdf",
+						"size": 215814,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/WJ/WJDYPMBT/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 28621,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/WJ/WJDYPMBT/Zaiem et Sadat - 2018 - Sequence to Sequence Learning for Query Expansion (trashed 2025-11-24 15-34-10).pdf",
+						"size": 215814,
+						"storage": "git"
+					}
+				],
+				"key": "WJDYPMBT",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues",
+			"Cours H25/Traitement naturel des langues/rit 20 mars"
+		],
+		"creators": [
+			"Zaiem, Salah",
+			"Sadat, Fatiha"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "BT88FCFY",
+				"title": "Comment: 8 pages, 2 figures, AAAI-19 Student Abstract and Poster Program"
+			}
+		],
+		"title": "Sequence to Sequence Learning for Query Expansion",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/2QJZW5QN"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1812.10119",
+		"abstractNote": "As fas as we are aware, using sequence to sequence algorithms for query expansion has not been explored yet in Information Retrieval literature nor in QuestionAnswering’s. We tried to ﬁll this gap in the literature with a custom Query Expansion system trained and tested on open datasets. One speciﬁcity of our engine compared to classic ones is that it does not need the documents to expand the introduced query. We test our expansions on three different tasks : Information Retrieval, Answer preselection and Text classiﬁcation. Our method yielded a slight improvement in performance in the three tasks .",
+		"accessDate": "2025-03-20T18:03:01Z",
+		"archiveID": "arXiv:1812.10119",
+		"citationKey": "zaiemSequenceSequenceLearning2018",
+		"collections": [
+			"L7CZ8WGI",
+			"UELGWEXV"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Salah",
+				"lastName": "Zaiem"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fatiha",
+				"lastName": "Sadat"
+			}
+		],
+		"date": "2018-12-25",
+		"dateAdded": "2025-03-20T18:03:01Z",
+		"dateModified": "2025-12-05T22:24:00Z",
+		"extra": "arXiv:1812.10119 [cs]",
+		"itemType": "preprint",
+		"key": "2QJZW5QN",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "Statistics - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Sequence to Sequence Learning for Query Expansion",
+		"url": "http://arxiv.org/abs/1812.10119"
+	}
+}

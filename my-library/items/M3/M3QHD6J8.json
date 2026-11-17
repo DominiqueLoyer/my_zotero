@@ -1,0 +1,124 @@
+{
+	"children": [
+		{
+			"accessDate": "2024-11-24T01:32:15Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2024-11-24T01:32:15Z",
+			"dateModified": "2024-11-24T15:19:37Z",
+			"filename": "graph.html",
+			"itemType": "attachment",
+			"key": "RES4EIMM",
+			"linkMode": "imported_url",
+			"parentItem": "M3QHD6J8",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/AYP4JVXZ",
+					"http://zotero.org/users/15425556/items/TCFE37LN"
+				]
+			},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://www.connectedpapers.com/main/6b7c85a798c338dfb939bd0a2d88a6af3adacd01/Privacy-and-Transparency-in-an-AI%20driven-World%3A-Does-Algorithmic-Transparency-Fit-on-Data-Privacy-Under-GDPR%3F/graph"
+		},
+		{
+			"accessDate": "2025-12-05T22:35:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:56Z",
+			"dateModified": "2026-11-09T17:06:33Z",
+			"itemType": "attachment",
+			"key": "ZL7KF5SX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:33 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "M3QHD6J8",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/BPHIL3S7"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Connected-Papers-Find-and-explore-academic-papers-4129fa248c5781e2b268df31cf5eeaad"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZL7KF5SX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Connected-Papers-Find-and-explore-academic-papers-4129fa248c5781e2b268df31cf5eeaad"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "graph.html",
+				"files": [
+					{
+						"path": "attachments/RE/RES4EIMM/graph.html",
+						"size": 825742,
+						"storage": "git"
+					}
+				],
+				"key": "RES4EIMM",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://www.connectedpapers.com/main/6b7c85a798c338dfb939bd0a2d88a6af3adacd01/Privacy-and-Transparency-in-an-AI%20driven-World%3A-Does-Algorithmic-Transparency-Fit-on-Data-Privacy-Under-GDPR%3F/graph"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Connected Papers | Find and explore academic papers",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/M3QHD6J8"
+	},
+	"zotero": {
+		"abstractNote": "A unique, visual tool to help researchers and applied scientists find and explore papers relevant to their field of work.",
+		"accessDate": "2024-11-24T01:32:13Z",
+		"citationKey": "ConnectedPapersFind",
+		"collections": [
+			"J4VTG4NB",
+			"NKV86EAI"
+		],
+		"creators": [],
+		"dateAdded": "2024-11-24T01:32:13Z",
+		"dateModified": "2026-11-13T19:34:44Z",
+		"itemType": "webpage",
+		"key": "M3QHD6J8",
+		"language": "en",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/BTNLKB57",
+				"http://zotero.org/users/15425556/items/NN5PUG2Y"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/5GRCFIA4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Connected Papers | Find and explore academic papers",
+		"url": "https://www.connectedpapers.com/main/6b7c85a798c338dfb939bd0a2d88a6af3adacd01/Privacy-and-Transparency-in-an-AI%20driven-World%3A-Does-Algorithmic-Transparency-Fit-on-Data-Privacy-Under-GDPR%3F/graph"
+	}
+}

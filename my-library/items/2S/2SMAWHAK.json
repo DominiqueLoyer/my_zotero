@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:32:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:59Z",
+			"dateModified": "2026-11-09T17:09:19Z",
+			"itemType": "attachment",
+			"key": "3EXCPU5K",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:19 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "2SMAWHAK",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Le-Texier-Thibault-2016-4129fa248c5781198d07ee42d85bee48"
+		},
+		{
+			"accessDate": "2026-11-08T16:36:30Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:36:30Z",
+			"dateModified": "2026-11-08T16:36:30Z",
+			"filename": "Le Texier, Thibault - 2016 - Graeber et les limites du militantisme th{'e}orique. {`A} propos de David Graeber, Bureaucratie..pdf",
+			"itemType": "attachment",
+			"key": "UV8PLSFS",
+			"linkMode": "imported_url",
+			"parentItem": "2SMAWHAK",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://shs.cairn.info/article/ECOPO1_052_0171a/pdf?lang=fr"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Le Texier, Thibault - 2016 - Graeber et les limites du militantisme th{'e}orique. {`A} propos de David Graeber, Bureaucratie..pdf",
+				"files": [
+					{
+						"path": "attachments/UV/UV8PLSFS/Le Texier, Thibault - 2016 - Graeber et les limites du militantisme th{'e}orique. {`A} propos de David Graeber, Bureaucratie..pdf",
+						"size": 2201113,
+						"storage": "git"
+					}
+				],
+				"key": "UV8PLSFS",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://shs.cairn.info/article/ECOPO1_052_0171a/pdf?lang=fr"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3EXCPU5K",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Le-Texier-Thibault-2016-4129fa248c5781198d07ee42d85bee48"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Le Texier, Thibault"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Graeber et les limites du militantisme th{\\'e}orique. {\\`A} propos de: David Graeber, Bureaucratie. L'utopie des r{\\`e}gles, Paris, Les Liens qui lib{\\`e}rent, 2015.",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/2SMAWHAK"
+	},
+	"zotero": {
+		"DOI": "10.3917/ecopo1.052.0171a",
+		"citationKey": "letexierthibaultGraeberLimitesMilitantisme2016",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Le Texier, Thibault"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-03-08T21:22:38Z",
+		"dateModified": "2026-03-25T21:28:48Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "2SMAWHAK",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Graeber et les limites du militantisme th{\\'e}orique. {\\`A} propos de: David Graeber, Bureaucratie. L'utopie des r{\\`e}gles, Paris, Les Liens qui lib{\\`e}rent, 2015."
+	}
+}

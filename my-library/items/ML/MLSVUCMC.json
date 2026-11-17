@@ -1,0 +1,136 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:23:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:23:54Z",
+			"dateModified": "2026-11-09T17:04:33Z",
+			"itemType": "attachment",
+			"key": "55K6JY4J",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:33 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "MLSVUCMC",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/YAD4FYLM"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/RH2UN55N"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Zhang-and-Li-2017-4129fa248c57810b8af2fd35280fcc13"
+		},
+		{
+			"accessDate": "2026-01-08T22:59:08Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-08T22:59:08Z",
+			"dateModified": "2026-11-09T15:05:48Z",
+			"filename": "Zhang and Li - 2017 - A deep neural network for semi-supervised aspect-based sentiment analysis.pdf",
+			"itemType": "attachment",
+			"key": "ZJHVTFJM",
+			"linkMode": "imported_url",
+			"parentItem": "MLSVUCMC",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://dl.acm.org/doi/pdf/10.1145/3041021.3054174?download=true"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zhang and Li - 2017 - A deep neural network for semi-supervised aspect-based sentiment analysis.pdf",
+				"files": [
+					{
+						"path": "attachments/ZJ/ZJHVTFJM/Zhang and Li - 2017 - A deep neural network for semi-supervised aspect-based sentiment analysis.pdf",
+						"size": 812296,
+						"storage": "git"
+					}
+				],
+				"key": "ZJHVTFJM",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://dl.acm.org/doi/pdf/10.1145/3041021.3054174?download=true"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "55K6JY4J",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Zhang-and-Li-2017-4129fa248c57810b8af2fd35280fcc13"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Zhang, Dong",
+			"Li, Wu-Jun"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Deep Neural Network for Semi-Supervised Aspect-Based Sentiment Analysis",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/MLSVUCMC"
+	},
+	"zotero": {
+		"DOI": "10.1145/3041021.3054174",
+		"citationKey": "zhangDeepNeuralNetwork2017",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dong",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Wu-Jun",
+				"lastName": "Li"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2025-10-10T19:01:29Z",
+		"dateModified": "2026-11-13T19:29:12Z",
+		"itemType": "conferencePaper",
+		"key": "MLSVUCMC",
+		"pages": "1303–1304",
+		"place": "Republic and Canton of Geneva, CHE",
+		"proceedingsTitle": "Proceedings of the 26th International Conference on World Wide Web Companion (WWW '17 Companion)",
+		"publisher": "International World Wide Web Conferences Steering Committee",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/H5RQX38B",
+				"http://zotero.org/users/15425556/items/WBLY57SE"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/B7ZDVCGM"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Deep Neural Network for Semi-Supervised Aspect-Based Sentiment Analysis"
+	}
+}

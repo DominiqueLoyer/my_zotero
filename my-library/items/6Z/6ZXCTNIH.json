@@ -1,0 +1,75 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:34:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:34:49Z",
+			"dateModified": "2026-03-09T20:34:49Z",
+			"itemType": "attachment",
+			"key": "JEK4D266",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:34:49 p.m.</p>",
+			"parentItem": "6ZXCTNIH",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Barrault2020Paracrawl-31e9fa248c578158b23cf553b6639dd7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JEK4D266",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Barrault2020Paracrawl-31e9fa248c578158b23cf553b6639dd7"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Barrault, Lo{\\\"i}c and Etchegoyhen, Thomas and Bougares, Pascale and Cartoni, Benjamin and Maillard, Laurent and Carr{\\'e}, Julien and Bordes, Samuel and Scarton, Carolina and Tannier, Xavier and Gu{\\'e}rin, Laurent and {\\v{S}}imko, Marek"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "ParaCrawl: Large Scale Extracted Parallel Corpora",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/6ZXCTNIH"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2020.acl-main.417",
+		"citationKey": "barraultloicandetchegoyhenthomasandbougarespascaleandcartonibenjaminandmaillardlaurentandcarrejulienandbordessamuelandscartoncarolinaandtannierxavierandguerinlaurentandvsimkomarekParaCrawlLargeScale2020",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Barrault, Lo{\\\"i}c and Etchegoyhen, Thomas and Bougares, Pascale and Cartoni, Benjamin and Maillard, Laurent and Carr{\\'e}, Julien and Bordes, Samuel and Scarton, Carolina and Tannier, Xavier and Gu{\\'e}rin, Laurent and {\\v{S}}imko, Marek"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-03-05T00:55:38Z",
+		"dateModified": "2026-03-25T21:28:59Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "6ZXCTNIH",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ParaCrawl: Large Scale Extracted Parallel Corpora",
+		"url": "https://aclanthology.org/E19-1099"
+	}
+}

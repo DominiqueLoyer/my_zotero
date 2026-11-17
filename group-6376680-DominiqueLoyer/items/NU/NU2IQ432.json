@@ -1,0 +1,159 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:20:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:47:32Z",
+			"itemType": "attachment",
+			"key": "64WE2HQ7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:20:32 p.m.</p>",
+			"parentItem": "NU2IQ432",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/gargCounterfactualFairnessText2019-3239fa248c578165be89e717ac6c9981"
+		},
+		{
+			"accessDate": "2026-03-14T18:19:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:47:32Z",
+			"itemType": "attachment",
+			"key": "CZ6RY9RX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:19:29 p.m.</p>",
+			"parentItem": "NU2IQ432",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/LCPZEYXV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/gargCounterfactualFairnessText2019a-3239fa248c578111bc3ced220f3ed251"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CZ6RY9RX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/gargCounterfactualFairnessText2019a-3239fa248c578111bc3ced220f3ed251"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "64WE2HQ7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/gargCounterfactualFairnessText2019-3239fa248c578165be89e717ac6c9981"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/beamer_modelisation_030326/PDFs",
+			"_ALL_CIT_140326/ontoCRED_030326/PDFs",
+			"_ALL_CIT_140326/ontoCRED_250226/PDFs"
+		],
+		"creators": [
+			"Garg, Sahaj",
+			"Perot, Vincent",
+			"Limtiaco, Nicole",
+			"Taly, Ankur",
+			"Chi, Ed H.",
+			"Beutel, Alex"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Counterfactual Fairness in Text Classification through Robustness",
+		"year": "2019",
+		"zoteroURI": "zotero://select/groups/6376680/items/NU2IQ432"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1809.10610",
+		"abstractNote": "In this paper, we study counterfactual fairness in text classification, which asks the question: How would the prediction change if the sensitive attribute referenced in the example were different? Toxicity classifiers demonstrate a counterfactual fairness issue by predicting that \"Some people are gay\" is toxic while \"Some people are straight\" is nontoxic. We offer a metric, counterfactual token fairness (CTF), for measuring this particular form of fairness in text classifiers, and describe its relationship with group fairness. Further, we offer three approaches, blindness, counterfactual augmentation, and counterfactual logit pairing (CLP), for optimizing counterfactual token fairness during training, bridging the robustness and fairness literature. Empirically, we find that blindness and CLP address counterfactual token fairness. The methods do not harm classifier performance, and have varying tradeoffs with group fairness. These approaches, both for measurement and optimization, provide a new path forward for addressing fairness concerns in text classification.",
+		"accessDate": "2026-03-14T17:36:47Z",
+		"archiveID": "arXiv:1809.10610",
+		"citationKey": "gargCounterfactualFairnessText2019a",
+		"collections": [
+			"4RRISJKY",
+			"Q9WGFC6X",
+			"XF9R8VJ6"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Sahaj",
+				"lastName": "Garg"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Vincent",
+				"lastName": "Perot"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Nicole",
+				"lastName": "Limtiaco"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ankur",
+				"lastName": "Taly"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ed H.",
+				"lastName": "Chi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alex",
+				"lastName": "Beutel"
+			}
+		],
+		"date": "2019-02-13",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-11-17T14:47:32Z",
+		"extra": "arXiv:1809.10610 [cs]",
+		"itemType": "preprint",
+		"key": "NU2IQ432",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/BIRYPYUT",
+				"http://zotero.org/groups/6376680/items/N2FIRT9U"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "Statistics - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Counterfactual Fairness in Text Classification through Robustness",
+		"url": "http://arxiv.org/abs/1809.10610"
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:35:39Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:39Z",
+			"dateModified": "2026-11-09T17:07:04Z",
+			"itemType": "attachment",
+			"key": "EL5J8X7M",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:04 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "P4RAK8SJ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c578119bcd6ddbf9e916e47"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:29:35Z",
+			"dateModified": "2025-03-31T18:57:59Z",
+			"filename": "DC_Instit_Financiere.pdf",
+			"itemType": "attachment",
+			"key": "XTJDE3MZ",
+			"linkMode": "imported_file",
+			"parentItem": "P4RAK8SJ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/JVJF4UN7"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EL5J8X7M",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c578119bcd6ddbf9e916e47"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "DC_Instit_Financiere.pdf",
+				"files": [
+					{
+						"path": "attachments/XT/XTJDE3MZ/DC_Instit_Financiere.pdf",
+						"size": 1316947,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/XT/XTJDE3MZ/DC_Instit_Financiere (trashed 2025-11-24 15-34-10).pdf",
+						"size": 1316947,
+						"storage": "git"
+					}
+				],
+				"key": "XTJDE3MZ",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/4.0  modélisation statique",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DC_Instit_Financiere",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/P4RAK8SJ"
+	},
+	"zotero": {
+		"citationKey": "lounishakimDC_Instit_Financiere",
+		"collections": [
+			"G4KBEA9A",
+			"IVY9PBG4",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:36:12Z",
+		"dateModified": "2025-03-31T18:57:59Z",
+		"itemType": "document",
+		"key": "P4RAK8SJ",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/8YHLBYXG"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "DC_Instit_Financiere"
+	}
+}

@@ -1,0 +1,108 @@
+{
+	"children": [
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:19Z",
+			"dateModified": "2026-01-08T22:57:41Z",
+			"filename": "anthology 1-at-2025-07-05T22_29_09.622Z-pinned.bib",
+			"itemType": "attachment",
+			"key": "RK66GSJE",
+			"linkMode": "imported_file",
+			"parentItem": "2LW3URSX",
+			"relations": {},
+			"tags": [],
+			"title": "anthology 1-at-2025-07-05T22_29_09.622Z-pinned"
+		},
+		{
+			"accessDate": "2026-01-16T15:53:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:29Z",
+			"dateModified": "2026-11-09T17:05:34Z",
+			"itemType": "attachment",
+			"key": "X9LTV857",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:34 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "2LW3URSX",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/CBFE4FBX"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/anthology-1-at-2025-07-05T22_29_09-622Z-pinned-4129fa248c578136a32edb864afe2424"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "anthology 1-at-2025-07-05T22_29_09.622Z-pinned.bib",
+				"files": [
+					{
+						"path": "attachments/RK/RK66GSJE/anthology 1-at-2025-07-05T22_29_09.622Z-pinned.bib",
+						"size": 97,
+						"storage": "git"
+					}
+				],
+				"key": "RK66GSJE",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "anthology 1-at-2025-07-05T22_29_09.622Z-pinned",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "X9LTV857",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/anthology-1-at-2025-07-05T22_29_09-622Z-pinned-4129fa248c578136a32edb864afe2424"
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "anthology 1-at-2025-07-05T22_29_09.622Z-pinned",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/2LW3URSX"
+	},
+	"zotero": {
+		"citationKey": "Anthology1at20250705T22_29_09622Zpinned",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:41Z",
+		"dateModified": "2026-11-13T19:31:43Z",
+		"itemType": "document",
+		"key": "2LW3URSX",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/IHJUBJKG"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "anthology 1-at-2025-07-05T22_29_09.622Z-pinned"
+	}
+}

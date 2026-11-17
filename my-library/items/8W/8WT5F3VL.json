@@ -1,0 +1,134 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-02T14:41:27Z",
+			"dateModified": "2024-12-02T14:42:05Z",
+			"filename": "Concernant le texte de Taconnat sur la mémoire.pdf",
+			"itemType": "attachment",
+			"key": "ARJCET4M",
+			"linkMode": "imported_file",
+			"parentItem": "8WT5F3VL",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "Dominique Loyer"
+				},
+				{
+					"tag": "Taconnat"
+				},
+				{
+					"tag": "mémoire"
+				}
+			],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:31:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:31:18Z",
+			"dateModified": "2026-01-02T19:17:19Z",
+			"itemType": "attachment",
+			"key": "PFA8VWCW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:19 p.m.</p>",
+			"parentItem": "8WT5F3VL",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerJeMeSouviensOuimais2024-2c09fa248c57811e8fddd0a25e621fc8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PFA8VWCW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerJeMeSouviensOuimais2024-2c09fa248c57811e8fddd0a25e621fc8"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Concernant le texte de Taconnat sur la mémoire.pdf",
+				"files": [
+					{
+						"path": "attachments/AR/ARJCET4M/Concernant le texte de Taconnat sur la mémoire.pdf",
+						"size": 229419,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/AR/ARJCET4M/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 6914,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/AR/ARJCET4M/Concernant le texte de Taconnat sur la mémoire (trashed 2025-11-24 15-34-12).pdf",
+						"size": 229419,
+						"storage": "git"
+					}
+				],
+				"key": "ARJCET4M",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/papier sur Mémoire Taconnah"
+		],
+		"creators": [
+			"Loyer, Dominique"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Je me souviens...Oui,mais de quoi?",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/8WT5F3VL"
+	},
+	"zotero": {
+		"citationKey": "loyerJeMeSouviensOuimais2024",
+		"collections": [
+			"WCNN4PWZ"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "4 novembre 2024",
+		"dateAdded": "2024-12-02T14:42:04Z",
+		"dateModified": "2025-12-05T22:31:18Z",
+		"itemType": "document",
+		"key": "8WT5F3VL",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "Dominique Loyer"
+			},
+			{
+				"tag": "Taconnat"
+			},
+			{
+				"tag": "mémoire"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Je me souviens...Oui,mais de quoi?"
+	}
+}

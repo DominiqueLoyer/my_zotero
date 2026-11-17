@@ -1,0 +1,89 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "note",
+			"key": "KZ5ETHMV",
+			"note": "Consulté le 10 octobre 2025",
+			"parentItem": "32QFN3WA",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-08T20:37:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "ZH9ZZDU5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:53 p.m.</p>",
+			"parentItem": "32QFN3WA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/MontrealDeclaration2018-2e29fa248c578133960fed7bd8162bb2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZH9ZZDU5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/MontrealDeclaration2018-2e29fa248c578133960fed7bd8162bb2"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Université de Montréal"
+		],
+		"itemType": "document",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "KZ5ETHMV",
+				"title": "Consulté le 10 octobre 2025"
+			}
+		],
+		"title": "Déclaration de Montréal pour un développement responsable de l'intelligence artificielle",
+		"year": "2018",
+		"zoteroURI": "zotero://select/groups/6376680/items/32QFN3WA"
+	},
+	"zotero": {
+		"citationKey": "universitedemontrealDeclarationMontrealPour2018a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Université de Montréal"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "document",
+		"key": "32QFN3WA",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Déclaration de Montréal pour un développement responsable de l'intelligence artificielle",
+		"url": "https://www.declarationmontreal-iaresponsable.com/"
+	}
+}

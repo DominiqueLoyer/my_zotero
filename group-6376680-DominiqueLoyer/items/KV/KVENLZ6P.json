@@ -1,0 +1,75 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-03-08T21:46:46Z",
+			"itemType": "attachment",
+			"key": "CASICB9X",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:38:23 p.m.</p>",
+			"parentItem": "KVENLZ6P",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Norori2019Explainable-3129fa248c5781debc40eebbbe8388ff"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CASICB9X",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Norori2019Explainable-3129fa248c5781debc40eebbbe8388ff"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Norori, Nelson and Hu, Qiyang and Aellen, Florian and Cieliebak, Mark and Senn, E."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Explainable AI: A Survey of the State-of-the-Art in Natural Language Generation",
+		"year": "2019",
+		"zoteroURI": "zotero://select/groups/6376680/items/KVENLZ6P"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/w19-8402",
+		"citationKey": "Norori2019Explainable",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Norori, Nelson and Hu, Qiyang and Aellen, Florian and Cieliebak, Mark and Senn, E."
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-03-08T21:46:46Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "KVENLZ6P",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable AI: A Survey of the State-of-the-Art in Natural Language Generation",
+		"url": "https://aclanthology.org/2021.emnlp-main.485/"
+	}
+}

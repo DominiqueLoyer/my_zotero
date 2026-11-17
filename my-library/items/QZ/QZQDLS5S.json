@@ -1,0 +1,94 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:29:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:29:11Z",
+			"dateModified": "2026-11-09T17:06:09Z",
+			"itemType": "attachment",
+			"key": "S893WT8B",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:09 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "QZQDLS5S",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/GGTU3BB5"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/GHAVVSPK"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Merton-1940-4129fa248c5781268d92f7ff8710b22a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "S893WT8B",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Merton-1940-4129fa248c5781268d92f7ff8710b22a"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"Merton, Robert K."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Bureaucratic Structure and Personality",
+		"year": "1940",
+		"zoteroURI": "zotero://select/library/items/QZQDLS5S"
+	},
+	"zotero": {
+		"DOI": "10.2307/2570634",
+		"citationKey": "mertonBureaucraticStructurePersonality1940",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Robert K.",
+				"lastName": "Merton"
+			}
+		],
+		"date": "1940",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-09T15:07:26Z",
+		"issue": "4",
+		"itemType": "journalArticle",
+		"key": "QZQDLS5S",
+		"pages": "560–568",
+		"publicationTitle": "Social Forces",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/3P2X7MBY"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/KSIR2A5E"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bureaucratic Structure and Personality",
+		"volume": "18"
+	}
+}

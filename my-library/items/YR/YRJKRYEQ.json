@@ -1,0 +1,169 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:22:37Z",
+			"dateModified": "2026-11-09T15:03:37Z",
+			"itemType": "attachment",
+			"key": "K8H8Z6J7",
+			"linkMode": "linked_file",
+			"parentItem": "YRJKRYEQ",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/beamer_modelisation_030326/PDFs/Mikolov et al. - 2013 - Efficient Estimation of Word Representations in Vector Space.pdf",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/5LAEEWUQ",
+					"http://zotero.org/users/15425556/items/G66XINY5",
+					"http://zotero.org/users/15425556/items/JLGTW5Q8",
+					"http://zotero.org/users/15425556/items/Q6WPGR4S",
+					"http://zotero.org/users/15425556/items/WFURC4BY"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:18:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:18:04Z",
+			"dateModified": "2026-11-09T17:08:07Z",
+			"itemType": "attachment",
+			"key": "VRMF932U",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:07 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "YRJKRYEQ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/BGYW8MN8"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Mikolov-et-al-2013-4129fa248c578127a2f1c0d7a5462a74"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VRMF932U",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Mikolov-et-al-2013-4129fa248c578127a2f1c0d7a5462a74"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Mikolov et al. - 2013 - Efficient Estimation of Word Representations in Vector Space.pdf",
+				"files": [
+					{
+						"path": "attachments/K8/K8H8Z6J7/Mikolov et al. - 2013 - Efficient Estimation of Word Representations in Vector Space.pdf",
+						"size": 228716,
+						"storage": "git"
+					}
+				],
+				"key": "K8H8Z6J7",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/beamer_modelisation_030326/PDFs",
+			"_ALL_CIT_140326/mod_lisation_260226/PDFs",
+			"_ALL_CIT_140326/ontoCRED_030326/PDFs",
+			"_ALL_CIT_140326/ontoCRED_250226/PDFs"
+		],
+		"creators": [
+			"Mikolov, Tomas",
+			"Chen, Kai",
+			"Corrado, Greg",
+			"Dean, Jeffrey"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Efficient Estimation of Word Representations in Vector Space",
+		"year": "2013",
+		"zoteroURI": "zotero://select/library/items/YRJKRYEQ"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1301.3781",
+		"abstractNote": "We propose two novel model architectures for computing continuous vector representations of words from very large data sets. The quality of these representations is measured in a word similarity task, and the results are compared to the previously best performing techniques based on different types of neural networks. We observe large improvements in accuracy at much lower computational cost, i.e. it takes less than a day to learn high quality word vectors from a 1.6 billion words data set. Furthermore, we show that these vectors provide state-of-the-art performance on our test set for measuring syntactic and semantic word similarities.",
+		"accessDate": "2026-03-14T17:34:56Z",
+		"archiveID": "arXiv:1301.3781",
+		"citationKey": "mikolovEfficientEstimationWord2013",
+		"collections": [
+			"6ZWL4EBC",
+			"EJNXQCUQ",
+			"JTRHBT4K",
+			"VET5I7ZN"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Tomas",
+				"lastName": "Mikolov"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kai",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Greg",
+				"lastName": "Corrado"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jeffrey",
+				"lastName": "Dean"
+			}
+		],
+		"date": "2013-09-07",
+		"dateAdded": "2026-03-14T17:34:56Z",
+		"dateModified": "2026-11-09T15:03:37Z",
+		"extra": "arXiv:1301.3781 [cs]",
+		"itemType": "preprint",
+		"key": "YRJKRYEQ",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/79L2G5CU",
+				"http://zotero.org/users/15425556/items/BYV9PMCE",
+				"http://zotero.org/users/15425556/items/EI972MER",
+				"http://zotero.org/users/15425556/items/HY2BUG4E",
+				"http://zotero.org/users/15425556/items/J4Y4ZRUV"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/6D3D863V",
+				"http://zotero.org/groups/6376680/items/9TNX3JJE",
+				"http://zotero.org/groups/6376680/items/EE3SKRE6",
+				"http://zotero.org/groups/6376680/items/NBJEUL6I",
+				"http://zotero.org/groups/6376680/items/SNBRRTSL",
+				"http://zotero.org/groups/6376680/items/YB4QEEJW"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Efficient Estimation of Word Representations in Vector Space",
+		"url": "http://arxiv.org/abs/1301.3781"
+	}
+}

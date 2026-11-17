@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:36:35Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "E7X4ZSW4",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:01 p.m.</p>",
+			"parentItem": "R7T8VF9L",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Schwalbe2023-2e29fa248c5781b98092c04a4d105a5a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "E7X4ZSW4",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Schwalbe2023-2e29fa248c5781b98092c04a4d105a5a"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Schwalbe, Gerrit",
+			"Schemmer, Michael",
+			"Trendafilov, Rumen",
+			"Gerstenberger, Thomas",
+			"Leimeister, Jan Marco"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Interactive and conversational explainable AI (ICXAI): a research agenda",
+		"year": "2023",
+		"zoteroURI": "zotero://select/groups/6376680/items/R7T8VF9L"
+	},
+	"zotero": {
+		"citationKey": "schwalbeInteractiveConversationalExplainable2023a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gerrit",
+				"lastName": "Schwalbe"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Michael",
+				"lastName": "Schemmer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Rumen",
+				"lastName": "Trendafilov"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Thomas",
+				"lastName": "Gerstenberger"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jan Marco",
+				"lastName": "Leimeister"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:12Z",
+		"itemType": "conferencePaper",
+		"key": "R7T8VF9L",
+		"language": "fr-CA",
+		"proceedingsTitle": "Proceedings of the 31st european conference on information systems (ECIS)",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Interactive and conversational explainable AI (ICXAI): a research agenda",
+		"url": "https://aisel.aisnet.org/ecis2023_rp/310/"
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:23:32Z",
+			"dateModified": "2026-11-17T14:50:59Z",
+			"itemType": "attachment",
+			"key": "JV33F2TQ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:59 p.m.</p>",
+			"parentItem": "EIX3DQ4F",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/FGLTR3TQ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Bizer2009Linked-31e9fa248c57811ca040cb69a76e03c4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JV33F2TQ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Bizer2009Linked-31e9fa248c57811ca040cb69a76e03c4"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Bizer, C. and Heath, T. and Berners-Lee, T."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Linked Data---The story so far",
+		"year": "2009",
+		"zoteroURI": "zotero://select/groups/6376680/items/EIX3DQ4F"
+	},
+	"zotero": {
+		"DOI": "10.4018/jswis.2009081901",
+		"citationKey": "bizerc.andheatht.andberners-leet.LinkedDataTheStory2009",
+		"collections": [
+			"JVLZZMAC"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Bizer, C. and Heath, T. and Berners-Lee, T."
+			}
+		],
+		"date": "2009",
+		"dateAdded": "2026-04-17T21:23:32Z",
+		"dateModified": "2026-11-17T14:50:59Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "EIX3DQ4F",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/IM6F7DYT"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Linked Data---The story so far"
+	}
+}

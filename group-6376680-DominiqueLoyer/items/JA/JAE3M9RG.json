@@ -1,0 +1,97 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "JHIUDT7H",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:05 p.m.</p>",
+			"parentItem": "JAE3M9RG",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Meske2022-2e29fa248c5781d99874d400ec3e6c07"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JHIUDT7H",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Meske2022-2e29fa248c5781d99874d400ec3e6c07"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Meske, Christian",
+			"Bunde, Eric",
+			"Schneider, Jan",
+			"Gnewuch, Ulrike"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Explainable AI: A review of the state-of-the-art and a research agenda",
+		"year": "2022",
+		"zoteroURI": "zotero://select/groups/6376680/items/JAE3M9RG"
+	},
+	"zotero": {
+		"DOI": "10.1007/s10257-021-00555-9",
+		"citationKey": "meskeExplainableAIReview2022a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Christian",
+				"lastName": "Meske"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Eric",
+				"lastName": "Bunde"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jan",
+				"lastName": "Schneider"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ulrike",
+				"lastName": "Gnewuch"
+			}
+		],
+		"date": "2022",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"issue": "3",
+		"itemType": "journalArticle",
+		"key": "JAE3M9RG",
+		"language": "fr-CA",
+		"pages": "335–374",
+		"publicationTitle": "Information Systems and e-Business Management",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable AI: A review of the state-of-the-art and a research agenda",
+		"volume": "20"
+	}
+}

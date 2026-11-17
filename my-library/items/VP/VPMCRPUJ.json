@@ -1,0 +1,283 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-01-10T20:17:20Z",
+			"dateModified": "2026-01-10T20:17:20Z",
+			"itemType": "note",
+			"key": "9NESG7BH",
+			"note": "DIC-9335 Sciences du Web - Final Project",
+			"parentItem": "VPMCRPUJ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/79Y44CAZ"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-16T15:52:07Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:52:07Z",
+			"dateModified": "2026-11-09T17:09:32Z",
+			"itemType": "attachment",
+			"key": "APAIQCYK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:32 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VPMCRPUJ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/XBQEICA6"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/5HZ6FUNM",
+					"http://zotero.org/groups/6376680/items/FQM9I58T"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-4129fa248c5781a68229f58c06ac3f2b"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-05-16T19:02:39Z",
+			"dateModified": "2026-01-16T18:02:44Z",
+			"filename": "Loyer - Hybrid System for Verifying the Credibility of Information Sources An Ontology.pdf",
+			"itemType": "attachment",
+			"key": "J87YSXV9",
+			"linkMode": "imported_file",
+			"parentItem": "VPMCRPUJ",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-01-10T20:17:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T20:17:20Z",
+			"dateModified": "2026-01-16T18:02:44Z",
+			"itemType": "attachment",
+			"key": "KWU3H52W",
+			"linkMode": "linked_url",
+			"parentItem": "VPMCRPUJ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/PWKDFE3W"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/27AMDEDQ"
+				]
+			},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"dateAdded": "2026-01-08T20:00:27Z",
+			"dateModified": "2026-01-16T18:02:44Z",
+			"itemType": "note",
+			"key": "PQBQEDJ8",
+			"note": "DIC-9335 Sciences du Web - Final Project",
+			"parentItem": "VPMCRPUJ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LRLXXQY6"
+				]
+			},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-09T21:12:25Z",
+			"dateModified": "2026-01-16T18:02:44Z",
+			"filename": "Loyer - Hybrid System for Verifying the Credibility of Information Sources An Ontology.pdf",
+			"itemType": "attachment",
+			"key": "YSJU87R8",
+			"linkMode": "imported_file",
+			"parentItem": "VPMCRPUJ",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "APAIQCYK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-4129fa248c5781a68229f58c06ac3f2b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KWU3H52W",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer - Hybrid System for Verifying the Credibility of Information Sources An Ontology.pdf",
+				"files": [
+					{
+						"path": "attachments/YS/YSJU87R8/Loyer - Hybrid System for Verifying the Credibility of Information Sources An Ontology.pdf",
+						"size": 2113774,
+						"storage": "git"
+					}
+				],
+				"key": "YSJU87R8",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer - Hybrid System for Verifying the Credibility of Information Sources An Ontology.pdf",
+				"files": [],
+				"key": "J87YSXV9",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"GS_301225.bibtex",
+			"GoogleScholar_mypapers290925",
+			"My papers (English)",
+			"_9335_all",
+			"all-references",
+			"completeLoyer_100126",
+			"mes papiers et beamers",
+			"myReferences",
+			"zenodoDOI_ISBN_dominiqueloyer_060126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "PQBQEDJ8",
+				"title": "DIC-9335 Sciences du Web - Final Project"
+			},
+			{
+				"key": "9NESG7BH",
+				"title": "DIC-9335 Sciences du Web - Final Project"
+			}
+		],
+		"title": "Hybrid system ontology for information source verification: An OWL-based knowledge representation",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/VPMCRPUJ"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.22926.47680",
+		"citationKey": "loyerHybridSystemOntology2025",
+		"collections": [
+			"6IRQRQI8",
+			"7XVYZYFG",
+			"8UCLQEMM",
+			"CYKYMNH4",
+			"GXLPXWSC",
+			"H8Z7N6W8",
+			"KKPWSFMI",
+			"UIV5JLK2",
+			"YA7CLAFP"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-10T20:17:20Z",
+		"dateModified": "2026-11-09T15:01:07Z",
+		"extra": "ISBN: 978-1-0699945-1-6\ntitleTranslation: Hybrid system ontology for information source verification: An OWL-based knowledge representation",
+		"itemType": "journalArticle",
+		"key": "VPMCRPUJ",
+		"language": "fr-CA",
+		"pages": "22",
+		"relations": {
+			"dc:relation": [
+				"http://zotero.org/users/15425556/items/7TAFDHJN",
+				"http://zotero.org/users/15425556/items/DGXGM3DZ",
+				"http://zotero.org/users/15425556/items/MK5ZVGBU",
+				"http://zotero.org/users/15425556/items/QKVKFNNI",
+				"http://zotero.org/users/15425556/items/QY2Q2C8R"
+			],
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/5L3FWVVR",
+				"http://zotero.org/users/15425556/items/DCPX4QT4",
+				"http://zotero.org/users/15425556/items/DKQPUKIP",
+				"http://zotero.org/users/15425556/items/KFLA284L",
+				"http://zotero.org/users/15425556/items/T5DD2RRJ",
+				"http://zotero.org/users/15425556/items/XFJ4P3E7",
+				"http://zotero.org/users/15425556/items/YWEK2294",
+				"http://zotero.org/users/15425556/items/ZNZA89FE"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/BTTGV8AA",
+				"http://zotero.org/groups/6376680/items/KDAZBZU6"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Dominique Loyer"
+			},
+			{
+				"tag": "Fact Checker, xAI, AI Transparency, AI accountability, Intelligence artificielle explicable"
+			},
+			{
+				"tag": "Information Verification"
+			},
+			{
+				"tag": "Knowledge Representation"
+			},
+			{
+				"tag": "OWL Ontology"
+			},
+			{
+				"tag": "Ontology"
+			},
+			{
+				"tag": "RDF"
+			},
+			{
+				"tag": "Web Science"
+			},
+			{
+				"tag": "knowkeldge representation"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "ontology"
+			},
+			{
+				"tag": "verificationSystem"
+			}
+		],
+		"title": "Hybrid system ontology for information source verification: An OWL-based knowledge representation",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.22926.47680"
+	}
+}

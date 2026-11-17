@@ -1,0 +1,182 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:33:34Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:33:34Z",
+			"dateModified": "2026-11-09T15:08:38Z",
+			"itemType": "attachment",
+			"key": "9IJBBKMZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:50:17 p.m.</p>",
+			"parentItem": "8JZSWCKU",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Gilmer2017-2e29fa248c5781c0b059d7d1a6627c1a"
+		},
+		{
+			"accessDate": "2025-12-05T22:34:23Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:23Z",
+			"dateModified": "2026-11-09T15:08:38Z",
+			"itemType": "attachment",
+			"key": "KE7HYP4M",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:11:37 p.m.</p>",
+			"parentItem": "8JZSWCKU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/5UBVYC8Q"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/AD7XVLJE"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/gilmerNeuralMessagePassing2017-2c09fa248c57817babfcce67df74c068"
+		},
+		{
+			"accessDate": "2026-11-08T16:38:12Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:38:12Z",
+			"dateModified": "2026-11-09T15:08:38Z",
+			"filename": "Gilmer et al. - 2017 - Neural message passing for quantum chemistry.pdf",
+			"itemType": "attachment",
+			"key": "UA8TEHZU",
+			"linkMode": "imported_url",
+			"parentItem": "8JZSWCKU",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "http://proceedings.mlr.press/v70/gilmer17a/gilmer17a.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Gilmer et al. - 2017 - Neural message passing for quantum chemistry.pdf",
+				"files": [
+					{
+						"path": "attachments/UA/UA8TEHZU/Gilmer et al. - 2017 - Neural message passing for quantum chemistry.pdf",
+						"size": 409424,
+						"storage": "git"
+					}
+				],
+				"key": "UA8TEHZU",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "http://proceedings.mlr.press/v70/gilmer17a/gilmer17a.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9IJBBKMZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Gilmer2017-2e29fa248c5781c0b059d7d1a6627c1a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KE7HYP4M",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/gilmerNeuralMessagePassing2017-2c09fa248c57817babfcce67df74c068"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Gilmer, Justin",
+			"Schoenholz, Samuel S.",
+			"Riley, Patrick F.",
+			"Vinyals, Oriol",
+			"Dahl, George E."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neural Message Passing for Quantum Chemistry",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/8JZSWCKU"
+	},
+	"zotero": {
+		"citationKey": "gilmerNeuralMessagePassing2017",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Justin",
+				"lastName": "Gilmer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Samuel S.",
+				"lastName": "Schoenholz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Patrick F.",
+				"lastName": "Riley"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Oriol",
+				"lastName": "Vinyals"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "George E.",
+				"lastName": "Dahl"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-09T15:08:38Z",
+		"itemType": "conferencePaper",
+		"key": "8JZSWCKU",
+		"pages": "1263–1272",
+		"proceedingsTitle": "Proceedings of the 34th International Conference on Machine Learning",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/B8H69JVQ",
+				"http://zotero.org/users/15425556/items/XM65EGNF"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2MW4JTCR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Neural Message Passing for Quantum Chemistry"
+	}
+}

@@ -1,0 +1,171 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "5929N83F",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:22:19 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-81ac-a965-f208914bfaa2\",\"notes\":{\"Q49RQPB9\":{\"blockID\":\"3239fa24-8c57-8129-b7df-ee9bea3b8d41\",\"syncedAt\":\"2026-03-14T18:22:19.739Z\"}}}</pre>",
+			"parentItem": "9CSGH5BP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/wuSurveyLargeLanguage2024-3239fa248c5781988a9bde815f94ada8"
+		},
+		{
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "note",
+			"key": "TV9UW8CK",
+			"note": "Comment: 34 pages, 7 figures, 2 tables",
+			"parentItem": "9CSGH5BP",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5929N83F",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/wuSurveyLargeLanguage2024-3239fa248c5781988a9bde815f94ada8"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Wu, Likang",
+			"Zheng, Zhi",
+			"Qiu, Zhaopeng",
+			"Wang, Hao",
+			"Gu, Hongchao",
+			"Shen, Tingjia",
+			"Qin, Chuan",
+			"Zhu, Chen",
+			"Zhu, Hengshu",
+			"Liu, Qi",
+			"Xiong, Hui",
+			"Chen, Enhong"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "TV9UW8CK",
+				"title": "Comment: 34 pages, 7 figures, 2 tables"
+			}
+		],
+		"title": "A Survey on Large Language Models for Recommendation",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/9CSGH5BP"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2305.19860",
+		"abstractNote": "Large Language Models (LLMs) have emerged as powerful tools in the field of Natural Language Processing (NLP) and have recently gained significant attention in the domain of Recommendation Systems (RS). These models, trained on massive amounts of data using self-supervised learning, have demonstrated remarkable success in learning universal representations and have the potential to enhance various aspects of recommendation systems by some effective transfer techniques such as fine-tuning and prompt tuning, and so on. The crucial aspect of harnessing the power of language models in enhancing recommendation quality is the utilization of their high-quality representations of textual features and their extensive coverage of external knowledge to establish correlations between items and users. To provide a comprehensive understanding of the existing LLM-based recommendation systems, this survey presents a taxonomy that categorizes these models into two major paradigms, respectively Discriminative LLM for Recommendation (DLLM4Rec) and Generative LLM for Recommendation (GLLM4Rec), with the latter being systematically sorted out for the first time. Furthermore, we systematically review and analyze existing LLM-based recommendation systems within each paradigm, providing insights into their methodologies, techniques, and performance. Additionally, we identify key challenges and several valuable findings to provide researchers and practitioners with inspiration. We have also created a GitHub repository to index relevant papers on LLMs for recommendation, https://github.com/WLiK/LLM4Rec.",
+		"accessDate": "2026-03-14T17:40:16Z",
+		"archiveID": "arXiv:2305.19860",
+		"citationKey": "wuSurveyLargeLanguage2024",
+		"collections": [
+			"HXLA8A4T"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Likang",
+				"lastName": "Wu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhi",
+				"lastName": "Zheng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhaopeng",
+				"lastName": "Qiu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hao",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hongchao",
+				"lastName": "Gu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tingjia",
+				"lastName": "Shen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chuan",
+				"lastName": "Qin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chen",
+				"lastName": "Zhu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hengshu",
+				"lastName": "Zhu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Qi",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hui",
+				"lastName": "Xiong"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Enhong",
+				"lastName": "Chen"
+			}
+		],
+		"date": "2024-06-18",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:2305.19860 [cs]",
+		"itemType": "preprint",
+		"key": "9CSGH5BP",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey on Large Language Models for Recommendation",
+		"url": "http://arxiv.org/abs/2305.19860"
+	}
+}

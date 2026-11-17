@@ -1,0 +1,98 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:05Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "EJPBM3DG",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:43 p.m.</p>",
+			"parentItem": "2H8T3RXH",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Hidasi2016-2e29fa248c5781629e07e0a7d18130a7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EJPBM3DG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Hidasi2016-2e29fa248c5781629e07e0a7d18130a7"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Hidasi, Balazs",
+			"Karatzoglou, Alexandros",
+			"Baltrunas, Linas",
+			"Tikk, Domonkos"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Session-based recommendations with recurrent neural networks",
+		"year": "2016",
+		"zoteroURI": "zotero://select/groups/6376680/items/2H8T3RXH"
+	},
+	"zotero": {
+		"citationKey": "hidasiSessionbasedRecommendationsRecurrent2016b",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Balazs",
+				"lastName": "Hidasi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alexandros",
+				"lastName": "Karatzoglou"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Linas",
+				"lastName": "Baltrunas"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Domonkos",
+				"lastName": "Tikk"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:09Z",
+		"itemType": "conferencePaper",
+		"key": "2H8T3RXH",
+		"language": "fr-CA",
+		"proceedingsTitle": "Proceedings of the 4th international conference on learning representations, ICLR 2016",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Session-based recommendations with recurrent neural networks",
+		"url": "https://arxiv.org/abs/1511.06939"
+	}
+}

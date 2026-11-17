@@ -1,0 +1,90 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:06:46Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:06:46Z",
+			"dateModified": "2026-11-09T17:05:59Z",
+			"itemType": "attachment",
+			"key": "RQ24EN3A",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:59 p.m.</p>",
+			"parentItem": "W7HR8M57",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Microsoft-2025-4129fa248c57813a93d9f27c48346e83"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RQ24EN3A",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Microsoft-2025-4129fa248c57813a93d9f27c48346e83"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226",
+			"_gs_080326"
+		],
+		"creators": [
+			"Microsoft"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Bing Search APIs Documentation",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/W7HR8M57"
+	},
+	"zotero": {
+		"citationKey": "microsoftBingSearchAPIs2025",
+		"collections": [
+			"9ERXAIZK",
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Microsoft"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-26T20:21:12Z",
+		"dateModified": "2026-11-13T19:32:54Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "W7HR8M57",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/2DV7R443",
+				"http://zotero.org/users/15425556/items/4RSFIV58",
+				"http://zotero.org/users/15425556/items/RUUF68NU",
+				"http://zotero.org/users/15425556/items/XQXEHPSN",
+				"http://zotero.org/users/15425556/items/ZWB2FFXR"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/JLEXBJTS"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bing Search APIs Documentation"
+	}
+}

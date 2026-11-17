@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "image/jpeg",
+			"dateAdded": "2025-03-17T17:31:46Z",
+			"dateModified": "2025-03-31T18:42:16Z",
+			"filename": "Distrib-Boissons.jpg",
+			"itemType": "attachment",
+			"key": "8IB36KQM",
+			"linkMode": "imported_file",
+			"parentItem": "P9GJI8S3",
+			"relations": {},
+			"tags": [],
+			"title": "Image"
+		},
+		{
+			"accessDate": "2025-12-05T22:35:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:09Z",
+			"dateModified": "2026-11-09T17:07:51Z",
+			"itemType": "attachment",
+			"key": "I6U5CXSP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:51 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "P9GJI8S3",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781d1837bf7a5bbb8101b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "image/jpeg",
+				"filename": "Distrib-Boissons.jpg",
+				"files": [
+					{
+						"path": "attachments/8I/8IB36KQM/Distrib-Boissons.jpg",
+						"size": 2515138,
+						"storage": "git"
+					}
+				],
+				"key": "8IB36KQM",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Image",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "I6U5CXSP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781d1837bf7a5bbb8101b"
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Distrib-Boissons",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/P9GJI8S3"
+	},
+	"zotero": {
+		"citationKey": "lounishakimDistribBoissons",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:42:15Z",
+		"dateModified": "2025-03-31T18:42:20Z",
+		"itemType": "document",
+		"key": "P9GJI8S3",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Distrib-Boissons"
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:20:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:49:00Z",
+			"itemType": "attachment",
+			"key": "CFDP9EDI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:20:52 p.m.</p>",
+			"parentItem": "9P94V4RZ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/10-1093-combul-40-5-30-a-3239fa248c578151a72ef1b80bf85794"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CFDP9EDI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/10-1093-combul-40-5-30-a-3239fa248c578151a72ef1b80bf85794"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226",
+			"_ALL_CIT_140326"
+		],
+		"creators": [
+			"Fowler, Martin"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "UML Distilled: A Brief Guide to the Standard Object Modeling Language",
+		"year": "1998",
+		"zoteroURI": "zotero://select/groups/6376680/items/9P94V4RZ"
+	},
+	"zotero": {
+		"DOI": "10.1093/combul/40.5.30-a",
+		"citationKey": "fowlermartinUMLDistilledBrief1998",
+		"collections": [
+			"L4Y27KF6",
+			"RAMFQZBQ"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Fowler, Martin"
+			}
+		],
+		"date": "1998",
+		"dateAdded": "2026-02-26T21:04:13Z",
+		"dateModified": "2026-11-17T14:49:00Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "9P94V4RZ",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/E63HURLS"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "UML Distilled: A Brief Guide to the Standard Object Modeling Language"
+	}
+}

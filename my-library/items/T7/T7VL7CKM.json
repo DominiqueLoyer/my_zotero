@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:53:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:06Z",
+			"dateModified": "2026-03-09T20:46:20Z",
+			"itemType": "attachment",
+			"key": "LQXD6SVM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:46:20 p.m.</p>",
+			"parentItem": "T7VL7CKM",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/BLUVWSTB"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Ref1108-2ea9fa248c5781e3ad56ec27307134db"
+		},
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:10Z",
+			"dateModified": "2026-01-08T22:57:49Z",
+			"filename": "ref1108.bib",
+			"itemType": "attachment",
+			"key": "S86N6LK4",
+			"linkMode": "imported_file",
+			"parentItem": "T7VL7CKM",
+			"relations": {},
+			"tags": [],
+			"title": "ref1108"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LQXD6SVM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Ref1108-2ea9fa248c5781e3ad56ec27307134db"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "ref1108.bib",
+				"files": [
+					{
+						"path": "attachments/S8/S86N6LK4/ref1108.bib",
+						"size": 1017,
+						"storage": "git"
+					}
+				],
+				"key": "S86N6LK4",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "ref1108",
+				"url": null
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "ref1108",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/T7VL7CKM"
+	},
+	"zotero": {
+		"citationKey": "Ref1108",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:49Z",
+		"dateModified": "2026-01-16T15:53:06Z",
+		"itemType": "document",
+		"key": "T7VL7CKM",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/PVSJDNV4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ref1108"
+	}
+}

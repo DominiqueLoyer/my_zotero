@@ -1,0 +1,90 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:35:57Z",
+			"dateModified": "2026-11-09T15:08:55Z",
+			"itemType": "attachment",
+			"key": "NPWG6SJ4",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:57 p.m.</p>",
+			"parentItem": "CX6Q6DAK",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/EP28WBW4"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HKJKN7J2",
+					"http://zotero.org/groups/6376680/items/VYXZZX55"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Guha2015Schemaorg-31e9fa248c5781e28d7af0a2cef18f0b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NPWG6SJ4",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Guha2015Schemaorg-31e9fa248c5781e28d7af0a2cef18f0b"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Guha, R. V. and Brickley, D. and MacBeth, S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Schema.org: Evolution of structured data on the web",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/CX6Q6DAK"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-319-16211-9_32",
+		"citationKey": "guhar.v.andbrickleyd.andmacbeths.SchemaorgEvolutionStructured2015",
+		"collections": [
+			"7XVYZYFG"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Guha, R. V. and Brickley, D. and MacBeth, S."
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-03-04T19:43:31Z",
+		"dateModified": "2026-11-09T15:08:55Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "CX6Q6DAK",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/SIZXKT66"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/QEAR34SY",
+				"http://zotero.org/groups/6376680/items/T4ADT3BA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Schema.org: Evolution of structured data on the web"
+	}
+}

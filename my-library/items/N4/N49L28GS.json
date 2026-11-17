@@ -1,0 +1,167 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-13T14:38:51Z",
+			"dateModified": "2025-03-13T14:38:56Z",
+			"filename": "Debackere et al. - 2023 - Design framework for the development of tailored behavior change technologies.pdf",
+			"itemType": "attachment",
+			"key": "3IFJLLAI",
+			"linkMode": "imported_file",
+			"parentItem": "N49L28GS",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:35:38Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:38Z",
+			"dateModified": "2026-11-09T17:07:23Z",
+			"itemType": "attachment",
+			"key": "ZIYQ3KU5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:23 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "N49L28GS",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Debackere-et-al-2023-4129fa248c57815f9624e6389bddaac1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZIYQ3KU5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Debackere-et-al-2023-4129fa248c57815f9624e6389bddaac1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Debackere et al. - 2023 - Design framework for the development of tailored behavior change technologies.pdf",
+				"files": [
+					{
+						"path": "attachments/3I/3IFJLLAI/Debackere et al. - 2023 - Design framework for the development of tailored behavior change technologies.pdf",
+						"size": 287199,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/3I/3IFJLLAI/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 48892,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/3I/3IFJLLAI/Debackere et al. - 2023 - Design framework for the development of tailored behavior change technologies (trashed 2025-11-24 15-34-09).pdf",
+						"size": 287199,
+						"storage": "git"
+					}
+				],
+				"key": "3IFJLLAI",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/9270 (H25)/JC Martin 13 mars25"
+		],
+		"creators": [
+			"Debackere, Florian",
+			"Clavel, Céline",
+			"Roren, Alexandra",
+			"Tran, Viet-Thi",
+			"Messai, Yosra",
+			"Rannou, François",
+			"Nguyen, Christelle",
+			"Martin, Jean-Caude"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Design framework for the development of tailored behavior change technologies",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/N49L28GS"
+	},
+	"zotero": {
+		"DOI": "10.1145/3563359.3596984",
+		"ISBN": "978-1-4503-9891-6",
+		"accessDate": "2025-03-13T14:38:56Z",
+		"citationKey": "debackereDesignFrameworkDevelopment2023",
+		"collections": [
+			"C688M7SV"
+		],
+		"conferenceName": "UMAP '23: 31st ACM Conference on User Modeling, Adaptation and Personalization",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Florian",
+				"lastName": "Debackere"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Céline",
+				"lastName": "Clavel"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alexandra",
+				"lastName": "Roren"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Viet-Thi",
+				"lastName": "Tran"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yosra",
+				"lastName": "Messai"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "François",
+				"lastName": "Rannou"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Christelle",
+				"lastName": "Nguyen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jean-Caude",
+				"lastName": "Martin"
+			}
+		],
+		"date": "2023-06-16",
+		"dateAdded": "2025-03-13T14:38:56Z",
+		"dateModified": "2025-12-05T22:35:38Z",
+		"itemType": "conferencePaper",
+		"key": "N49L28GS",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "140-146",
+		"place": "Limassol Cyprus",
+		"proceedingsTitle": "Adjunct Proceedings of the 31st ACM Conference on User Modeling, Adaptation and Personalization",
+		"publisher": "ACM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Design framework for the development of tailored behavior change technologies",
+		"url": "https://dl.acm.org/doi/10.1145/3563359.3596984"
+	}
+}

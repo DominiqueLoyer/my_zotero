@@ -1,0 +1,160 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:55:01Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:55:01Z",
+			"dateModified": "2026-11-09T15:02:22Z",
+			"filename": "Norori et al. - 2021 - Explainable AI A Survey of the State-of-the-Art in Natural Language Generation.pdf",
+			"itemType": "attachment",
+			"key": "CJH4IAZR",
+			"linkMode": "imported_url",
+			"parentItem": "Z9BFS5AU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/SMUQN4UA"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/2021.emnlp-main.485.pdf"
+		},
+		{
+			"accessDate": "2025-12-05T22:28:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:19Z",
+			"dateModified": "2026-11-09T17:08:46Z",
+			"itemType": "attachment",
+			"key": "IBWWXPJT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:46 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "Z9BFS5AU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/9CWWFVDJ"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/TU8ZXNKK"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Norori-et-al-2021-4129fa248c57817cb7b2e85478b364e6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Norori et al. - 2021 - Explainable AI A Survey of the State-of-the-Art in Natural Language Generation.pdf",
+				"files": [
+					{
+						"path": "attachments/CJ/CJH4IAZR/Norori et al. - 2021 - Explainable AI A Survey of the State-of-the-Art in Natural Language Generation.pdf",
+						"size": 2166777,
+						"storage": "git"
+					}
+				],
+				"key": "CJH4IAZR",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/2021.emnlp-main.485.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IBWWXPJT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Norori-et-al-2021-4129fa248c57817cb7b2e85478b364e6"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Norori, Nelson",
+			"Hu, Qiyang",
+			"Aellen, Florian",
+			"Cieliebak, Mark",
+			"Senn, E."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explainable AI: A Survey of the State-of-the-Art in Natural Language Generation",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/Z9BFS5AU"
+	},
+	"zotero": {
+		"citationKey": "nororiExplainableAISurvey2021",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Nelson",
+				"lastName": "Norori"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Qiyang",
+				"lastName": "Hu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Florian",
+				"lastName": "Aellen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mark",
+				"lastName": "Cieliebak"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "E.",
+				"lastName": "Senn"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-09T15:02:22Z",
+		"itemType": "conferencePaper",
+		"key": "Z9BFS5AU",
+		"pages": "1–11",
+		"proceedingsTitle": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/9XBAG7XX",
+				"http://zotero.org/users/15425556/items/G3XBFVKM"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/INUWMV2K"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Explainable AI: A Survey of the State-of-the-Art in Natural Language Generation",
+		"url": "https://aclanthology.org/2021.emnlp-main.485/"
+	}
+}

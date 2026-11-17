@@ -1,0 +1,102 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:19:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "STAR6BG8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:19:43 p.m.</p>",
+			"parentItem": "U4KNWHP9",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/tangACLAnthologyHelper2023-3239fa248c5781e6824fdaf2aa0a0741"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "STAR6BG8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/tangACLAnthologyHelper2023-3239fa248c5781e6824fdaf2aa0a0741"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/trec_rapport1_030326/PDFs"
+		],
+		"creators": [
+			"Tang, Chen",
+			"Guerin, Frank",
+			"Lin, Chenghua"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "ACL Anthology Helper: A Tool to Retrieve and Manage Literature from ACL Anthology",
+		"year": "2023",
+		"zoteroURI": "zotero://select/groups/6376680/items/U4KNWHP9"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2310.20467",
+		"abstractNote": "The ACL Anthology is an online repository that serves as a comprehensive collection of publications in the field of natural language processing (NLP) and computational linguistics (CL). This paper presents a tool called ``ACL Anthology Helper''. It automates the process of parsing and downloading papers along with their meta-information, which are then stored in a local MySQL database. This allows for efficient management of the local papers using a wide range of operations, including \"where,\" \"group,\" \"order,\" and more. By providing over 20 operations, this tool significantly enhances the retrieval of literature based on specific conditions. Notably, this tool has been successfully utilised in writing a survey paper (Tang et al.,2022a). By introducing the ACL Anthology Helper, we aim to enhance researchers' ability to effectively access and organise literature from the ACL Anthology. This tool offers a convenient solution for researchers seeking to explore the ACL Anthology's vast collection of publications while allowing for more targeted and efficient literature retrieval.",
+		"accessDate": "2026-03-14T17:36:21Z",
+		"archiveID": "arXiv:2310.20467",
+		"citationKey": "tangACLAnthologyHelper2023",
+		"collections": [
+			"M554FTW4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Chen",
+				"lastName": "Tang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Frank",
+				"lastName": "Guerin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chenghua",
+				"lastName": "Lin"
+			}
+		],
+		"date": "2023-10-31",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:2310.20467 [cs]",
+		"itemType": "preprint",
+		"key": "U4KNWHP9",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"shortTitle": "ACL Anthology Helper",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ACL Anthology Helper: A Tool to Retrieve and Manage Literature from ACL Anthology",
+		"url": "http://arxiv.org/abs/2310.20467"
+	}
+}

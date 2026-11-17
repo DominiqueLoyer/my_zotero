@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:23:32Z",
+			"dateModified": "2026-11-17T14:48:08Z",
+			"itemType": "attachment",
+			"key": "JTRIGJZV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:52 p.m.</p>",
+			"parentItem": "NFFW3WNW",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/ZN2D7HPB"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Hitzler2010Foundations-31e9fa248c5781c8ba3cd6eec7021858"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JTRIGJZV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Hitzler2010Foundations-31e9fa248c5781c8ba3cd6eec7021858"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Hitzler, P. and Kr{\\\"o}tzsch, M. and Rudolph, S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Foundations of Semantic Web Technologies",
+		"year": "2010",
+		"zoteroURI": "zotero://select/groups/6376680/items/NFFW3WNW"
+	},
+	"zotero": {
+		"DOI": "10.5860/choice.48-0914",
+		"citationKey": "hitzlerp.andkrotzschm.andrudolphs.FoundationsSemanticWeb2010",
+		"collections": [
+			"JVLZZMAC"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Hitzler, P. and Kr{\\\"o}tzsch, M. and Rudolph, S."
+			}
+		],
+		"date": "2010",
+		"dateAdded": "2026-04-17T21:23:32Z",
+		"dateModified": "2026-11-17T14:48:08Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "NFFW3WNW",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/GQBRBNXD"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Foundations of Semantic Web Technologies"
+	}
+}

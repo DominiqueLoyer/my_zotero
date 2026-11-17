@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:35:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "79YI4EDK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:20 p.m.</p>",
+			"parentItem": "LL3M2ATS",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Ying2018-2e29fa248c57810e9fdcd0edf3185cd0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "79YI4EDK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Ying2018-2e29fa248c57810e9fdcd0edf3185cd0"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Ying, Rex",
+			"He, Ruining",
+			"Chen, Kaifeng",
+			"Eksombatchai, Pong",
+			"Hamilton, William L.",
+			"Leskovec, Jure"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Graph convolutional neural networks for web-scale recommender systems",
+		"year": "2018",
+		"zoteroURI": "zotero://select/groups/6376680/items/LL3M2ATS"
+	},
+	"zotero": {
+		"DOI": "10.1145/3219819.3219890",
+		"citationKey": "yingGraphConvolutionalNeural2018b",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Rex",
+				"lastName": "Ying"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ruining",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kaifeng",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pong",
+				"lastName": "Eksombatchai"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "William L.",
+				"lastName": "Hamilton"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jure",
+				"lastName": "Leskovec"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "LL3M2ATS",
+		"language": "fr-CA",
+		"pages": "974–983",
+		"proceedingsTitle": "Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Graph convolutional neural networks for web-scale recommender systems"
+	}
+}

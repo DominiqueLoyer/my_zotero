@@ -1,0 +1,119 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:02Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:02Z",
+			"dateModified": "2026-01-02T19:13:58Z",
+			"itemType": "attachment",
+			"key": "8M2SUIXM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:58 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-81c3-9d58-c448e7745903\",\"notes\":{\"V95L7GIL\":{\"blockID\":\"2c09fa24-8c57-81c0-a62a-efdef1f49c07\",\"syncedAt\":\"2025-12-05T22:40:44.314Z\"}}}</pre>",
+			"parentItem": "E5PCITU7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Harman1995TREC-2c09fa248c57812c8175ed315582e17a"
+		},
+		{
+			"accessDate": "2026-01-01T23:54:05Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:54:05Z",
+			"dateModified": "2026-01-01T23:54:05Z",
+			"filename": "Harman - 1995 - Overview of the third text retrieval conference (TREC-3).pdf",
+			"itemType": "attachment",
+			"key": "IGBXAM4H",
+			"linkMode": "imported_url",
+			"parentItem": "E5PCITU7",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-225.pdf"
+		},
+		{
+			"dateAdded": "2025-04-10T15:02:46Z",
+			"dateModified": "2025-04-10T15:02:46Z",
+			"itemType": "note",
+			"key": "V95L7GIL",
+			"note": "NIST Special Publication 500-225. Contexte pour la collection AP.",
+			"parentItem": "E5PCITU7",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Harman - 1995 - Overview of the third text retrieval conference (TREC-3).pdf",
+				"files": [],
+				"key": "IGBXAM4H",
+				"linkMode": "imported_url",
+				"status": "missing",
+				"title": "Full Text",
+				"url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-225.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8M2SUIXM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Harman1995TREC-2c09fa248c57812c8175ed315582e17a"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Harman, Donna K."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "V95L7GIL",
+				"title": "NIST Special Publication 500-225. Contexte pour la collection AP."
+			}
+		],
+		"title": "Overview of the third text retrieval conference (TREC-3)",
+		"year": "1995",
+		"zoteroURI": "zotero://select/library/items/E5PCITU7"
+	},
+	"zotero": {
+		"DOI": "10.6028/NIST.SP.500-225",
+		"citationKey": "harmanOverviewThirdText1995",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "editor",
+				"firstName": "Donna K.",
+				"lastName": "Harman"
+			}
+		],
+		"date": "1995",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2025-04-10T15:02:46Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "conferencePaper",
+		"key": "E5PCITU7",
+		"place": "Gaithersburg, USA",
+		"proceedingsTitle": "Proceedings of the third text retrieval conference (TREC-3)",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Overview of the third text retrieval conference (TREC-3)"
+	}
+}

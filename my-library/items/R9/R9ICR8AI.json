@@ -1,0 +1,101 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-29T23:32:55Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-29T23:32:55Z",
+			"dateModified": "2026-11-09T17:05:33Z",
+			"itemType": "attachment",
+			"key": "HKLIU9JZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:33 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "R9ICR8AI",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Analyse-de-Votre-Code-Initial-et-des-Adaptations-4129fa248c57813fa83ef84b5bbd1988"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-12-16T16:53:14Z",
+			"dateModified": "2025-12-16T16:53:19Z",
+			"filename": "Analyse de Votre Code Initial et des Adaptations.pdf",
+			"itemType": "attachment",
+			"key": "WNHRQTXF",
+			"linkMode": "imported_file",
+			"parentItem": "R9ICR8AI",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HKLIU9JZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Analyse-de-Votre-Code-Initial-et-des-Adaptations-4129fa248c57813fa83ef84b5bbd1988"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Analyse de Votre Code Initial et des Adaptations.pdf",
+				"files": [
+					{
+						"path": "attachments/WN/WNHRQTXF/Analyse de Votre Code Initial et des Adaptations.pdf",
+						"size": 66675,
+						"storage": "git"
+					}
+				],
+				"key": "WNHRQTXF",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Outils sur rédaction Thèse"
+		],
+		"creators": [],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Analyse de Votre Code Initial et des Adaptations",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/R9ICR8AI"
+	},
+	"zotero": {
+		"citationKey": "AnalyseVotreCode",
+		"collections": [
+			"L8BMEDQ4"
+		],
+		"creators": [],
+		"dateAdded": "2025-12-16T16:53:18Z",
+		"dateModified": "2026-11-13T19:31:40Z",
+		"itemType": "journalArticle",
+		"key": "R9ICR8AI",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Analyse de Votre Code Initial et des Adaptations"
+	}
+}

@@ -1,0 +1,124 @@
+{
+	"children": [
+		{
+			"dateAdded": "2025-10-10T19:01:25Z",
+			"dateModified": "2025-10-10T19:01:25Z",
+			"itemType": "note",
+			"key": "AILUIKYV",
+			"note": "<p>Thèse en préparation</p>",
+			"parentItem": "SDU5N2RN",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:36:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:06Z",
+			"dateModified": "2026-11-09T15:00:19Z",
+			"itemType": "attachment",
+			"key": "MY787U5R",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:12:15 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-81e5-8688-c612f9f206cb\",\"notes\":{\"AILUIKYV\":{\"blockID\":\"2c09fa24-8c57-81aa-911d-e85b95237c26\",\"syncedAt\":\"2025-12-05T22:41:19.827Z\"}}}</pre>",
+			"parentItem": "SDU5N2RN",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/7YWWTGTD"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/L6ZSX7AW"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/chambonPolicePredictive2018-2c09fa248c57813fae49d7f24ce2c928"
+		},
+		{
+			"dateAdded": "2026-01-08T20:07:30Z",
+			"dateModified": "2026-11-09T15:00:19Z",
+			"itemType": "note",
+			"key": "ZV28AAGT",
+			"note": "Thèse en préparation",
+			"parentItem": "SDU5N2RN",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/4HY6AWIQ"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "MY787U5R",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/chambonPolicePredictive2018-2c09fa248c57813fae49d7f24ce2c928"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"Chambon, Margot"
+		],
+		"itemType": "thesis",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "ZV28AAGT",
+				"title": "Thèse en préparation"
+			},
+			{
+				"key": "AILUIKYV",
+				"title": "Thèse en préparation"
+			}
+		],
+		"title": "La police prédictive",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/SDU5N2RN"
+	},
+	"zotero": {
+		"citationKey": "chambonPolicePredictive2018",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Margot",
+				"lastName": "Chambon"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-09T15:00:19Z",
+		"itemType": "thesis",
+		"key": "SDU5N2RN",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/RBBYTR8G"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/VKC9IL9X"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"thesisType": "PhD Thesis",
+		"title": "La police prédictive",
+		"university": "Aix-Marseille Université"
+	}
+}

@@ -1,0 +1,180 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:21:48Z",
+			"dateModified": "2026-03-14T17:34:24Z",
+			"itemType": "attachment",
+			"key": "GZS2BYNH",
+			"linkMode": "linked_file",
+			"parentItem": "L2W3DVJU",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/220226/PDFs/Mao et al. - 2019 - The Neuro-Symbolic Concept Learner Interpreting Scenes, Words, and Sentences From Natural Supervisi.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-03-14T17:34:24Z",
+			"dateModified": "2026-03-14T17:34:24Z",
+			"itemType": "note",
+			"key": "V2AIHGYM",
+			"note": "Comment: ICLR 2019 (Oral). Project page: http://nscl.csail.mit.edu/",
+			"parentItem": "L2W3DVJU",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/NDUBVZHA"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-03-14T18:20:41Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:20:41Z",
+			"dateModified": "2026-03-14T18:29:46Z",
+			"itemType": "attachment",
+			"key": "VVD4KSLB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:29:46 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-811c-9998-cd68ebd78b13\",\"notes\":{\"V2AIHGYM\":{\"blockID\":\"3239fa24-8c57-8135-b3e0-ebe2faaded19\",\"syncedAt\":\"2026-03-14T18:29:46.789Z\"}}}</pre>",
+			"parentItem": "L2W3DVJU",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3W6LPKEQ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/maoNeuroSymbolicConceptLearner2019-3239fa248c57817ba471f9a475acf864"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VVD4KSLB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/maoNeuroSymbolicConceptLearner2019-3239fa248c57817ba471f9a475acf864"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Mao et al. - 2019 - The Neuro-Symbolic Concept Learner Interpreting Scenes, Words, and Sentences From Natural Supervisi.pdf",
+				"files": [
+					{
+						"path": "attachments/GZ/GZS2BYNH/Mao et al. - 2019 - The Neuro-Symbolic Concept Learner Interpreting Scenes, Words, and Sentences From Natural Supervisi.pdf",
+						"size": 8144703,
+						"storage": "git"
+					}
+				],
+				"key": "GZS2BYNH",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/220226/PDFs"
+		],
+		"creators": [
+			"Mao, Jiayuan",
+			"Gan, Chuang",
+			"Kohli, Pushmeet",
+			"Tenenbaum, Joshua B.",
+			"Wu, Jiajun"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "V2AIHGYM",
+				"title": "Comment: ICLR 2019 (Oral). Project page: http://nscl.csail.mit.edu/"
+			}
+		],
+		"title": "The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/L2W3DVJU"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1904.12584",
+		"abstractNote": "We propose the Neuro-Symbolic Concept Learner (NS-CL), a model that learns visual concepts, words, and semantic parsing of sentences without explicit supervision on any of them; instead, our model learns by simply looking at images and reading paired questions and answers. Our model builds an object-based scene representation and translates sentences into executable, symbolic programs. To bridge the learning of two modules, we use a neuro-symbolic reasoning module that executes these programs on the latent scene representation. Analogical to human concept learning, the perception module learns visual concepts based on the language description of the object being referred to. Meanwhile, the learned visual concepts facilitate learning new words and parsing new sentences. We use curriculum learning to guide the searching over the large compositional space of images and language. Extensive experiments demonstrate the accuracy and efficiency of our model on learning visual concepts, word representations, and semantic parsing of sentences. Further, our method allows easy generalization to new object attributes, compositions, language concepts, scenes and questions, and even new program domains. It also empowers applications including visual question answering and bidirectional image-text retrieval.",
+		"accessDate": "2026-03-14T17:34:24Z",
+		"archiveID": "arXiv:1904.12584",
+		"citationKey": "maoNeuroSymbolicConceptLearner2019",
+		"collections": [
+			"QVJDJBVY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jiayuan",
+				"lastName": "Mao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chuang",
+				"lastName": "Gan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pushmeet",
+				"lastName": "Kohli"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joshua B.",
+				"lastName": "Tenenbaum"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jiajun",
+				"lastName": "Wu"
+			}
+		],
+		"date": "2019-04-26",
+		"dateAdded": "2026-03-14T17:34:24Z",
+		"dateModified": "2026-03-25T21:28:41Z",
+		"extra": "arXiv:1904.12584 [cs]",
+		"itemType": "preprint",
+		"key": "L2W3DVJU",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/ASQ2FU2R"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "The Neuro-Symbolic Concept Learner",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computer Vision and Pattern Recognition",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision",
+		"url": "http://arxiv.org/abs/1904.12584"
+	}
+}

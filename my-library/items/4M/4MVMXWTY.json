@@ -1,0 +1,150 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-03-14T17:35:56Z",
+			"dateModified": "2026-03-14T17:35:56Z",
+			"itemType": "note",
+			"key": "7WQAJWJZ",
+			"note": "Comment: Accepted as a demo paper at EMNLP2018",
+			"parentItem": "4MVMXWTY",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/WCVN73B8"
+				]
+			},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:11Z",
+			"dateModified": "2026-03-14T17:35:56Z",
+			"itemType": "attachment",
+			"key": "LPS4SUY4",
+			"linkMode": "linked_file",
+			"parentItem": "4MVMXWTY",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/NMT_en-ru_040326/PDFs/Kudo and Richardson - 2018 - SentencePiece A simple and language independent subword tokenizer and detokenizer for Neural Text P.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:19:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:59Z",
+			"dateModified": "2026-03-14T18:28:24Z",
+			"itemType": "attachment",
+			"key": "PIYFJDH9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:28:24 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-814b-a7be-dbfdca5225fa\",\"notes\":{\"7WQAJWJZ\":{\"blockID\":\"3239fa24-8c57-8163-9060-ec367b0d234b\",\"syncedAt\":\"2026-03-14T18:28:24.928Z\"}}}</pre>",
+			"parentItem": "4MVMXWTY",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/EVE8NRJL"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/kudoSentencePieceSimpleLanguage2018-3239fa248c57810fb397ead445b17331"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PIYFJDH9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/kudoSentencePieceSimpleLanguage2018-3239fa248c57810fb397ead445b17331"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Kudo and Richardson - 2018 - SentencePiece A simple and language independent subword tokenizer and detokenizer for Neural Text P.pdf",
+				"files": [
+					{
+						"path": "attachments/LP/LPS4SUY4/Kudo and Richardson - 2018 - SentencePiece A simple and language independent subword tokenizer and detokenizer for Neural Text P.pdf",
+						"size": 211658,
+						"storage": "git"
+					}
+				],
+				"key": "LPS4SUY4",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
+		],
+		"creators": [
+			"Kudo, Taku",
+			"Richardson, John"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "7WQAJWJZ",
+				"title": "Comment: Accepted as a demo paper at EMNLP2018"
+			}
+		],
+		"title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/4MVMXWTY"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1808.06226",
+		"abstractNote": "This paper describes SentencePiece, a language-independent subword tokenizer and detokenizer designed for Neural-based text processing, including Neural Machine Translation. It provides open-source C++ and Python implementations for subword units. While existing subword segmentation tools assume that the input is pre-tokenized into word sequences, SentencePiece can train subword models directly from raw sentences, which allows us to make a purely end-to-end and language independent system. We perform a validation experiment of NMT on English-Japanese machine translation, and find that it is possible to achieve comparable accuracy to direct subword training from raw sentences. We also compare the performance of subword training and segmentation with various configurations. SentencePiece is available under the Apache 2 license at https://github.com/google/sentencepiece.",
+		"accessDate": "2026-03-14T17:35:56Z",
+		"archiveID": "arXiv:1808.06226",
+		"citationKey": "kudoSentencePieceSimpleLanguage2018",
+		"collections": [
+			"VENCFFG7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Taku",
+				"lastName": "Kudo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John",
+				"lastName": "Richardson"
+			}
+		],
+		"date": "2018-08-19",
+		"dateAdded": "2026-03-14T17:35:56Z",
+		"dateModified": "2026-03-14T18:19:59Z",
+		"extra": "arXiv:1808.06226 [cs]",
+		"itemType": "preprint",
+		"key": "4MVMXWTY",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/P6K379P9"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "SentencePiece",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+		"url": "http://arxiv.org/abs/1808.06226"
+	}
+}

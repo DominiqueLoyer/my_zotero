@@ -1,0 +1,76 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:20:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:20:00Z",
+			"dateModified": "2026-03-09T20:44:54Z",
+			"itemType": "attachment",
+			"key": "YPMZ28AD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:54 p.m.</p>",
+			"parentItem": "EVRB5FZV",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/BW6J5T4A",
+					"http://zotero.org/groups/6376680/items/SYVDVFPN"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/BiosphereCode2015-3129fa248c578136ab0ddb7f8ca00835"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "YPMZ28AD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/BiosphereCode2015-3129fa248c578136ab0ddb7f8ca00835"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The {Biosphere} Code",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/EVRB5FZV"
+	},
+	"zotero": {
+		"citationKey": "BiosphereCode2015",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [],
+		"date": "2015",
+		"dateAdded": "2026-02-25T20:54:23Z",
+		"dateModified": "2026-02-25T22:20:00Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "EVRB5FZV",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UZL6GXA6",
+				"http://zotero.org/groups/6376680/items/VG7U78DY"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The {Biosphere} Code"
+	}
+}

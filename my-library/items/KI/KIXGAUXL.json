@@ -1,0 +1,113 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:28:10Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:10Z",
+			"dateModified": "2026-11-09T17:08:08Z",
+			"itemType": "attachment",
+			"key": "26XGZVZN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:08 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "KIXGAUXL",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/3Y3IYC88"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/42J622G2"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Okura-et-al-2017-4129fa248c5781469c19c8122bae25b7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "26XGZVZN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Okura-et-al-2017-4129fa248c5781469c19c8122bae25b7"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Okura, Shumpei",
+			"Tagami, Yuki",
+			"Ono, Shota",
+			"Tajima, Akira"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Embedding-based News Recommendation for Millions of Users",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/KIXGAUXL"
+	},
+	"zotero": {
+		"DOI": "10.1145/3097983.3098059",
+		"citationKey": "okuraEmbeddingbasedNewsRecommendation2017",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Shumpei",
+				"lastName": "Okura"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yuki",
+				"lastName": "Tagami"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Shota",
+				"lastName": "Ono"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Akira",
+				"lastName": "Tajima"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-09T15:03:42Z",
+		"itemType": "conferencePaper",
+		"key": "KIXGAUXL",
+		"pages": "1933–1942",
+		"proceedingsTitle": "Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/FIMJGDY8",
+				"http://zotero.org/users/15425556/items/WD2JESSB"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/228WMNUZ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Embedding-based News Recommendation for Millions of Users"
+	}
+}

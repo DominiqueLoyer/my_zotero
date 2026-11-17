@@ -1,0 +1,75 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:50Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-03-08T21:46:46Z",
+			"itemType": "attachment",
+			"key": "GIC9LB4K",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:36:53 p.m.</p>",
+			"parentItem": "RGXPNLNX",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Tjeng2025Evaluating-3129fa248c578107867ff08b062c944a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GIC9LB4K",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Tjeng2025Evaluating-3129fa248c578107867ff08b062c944a"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Tjeng, Vincent and Xiao, Kai Y. and Tedrake, Russ"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Evaluating robustness of neural networks with mixed integer programming",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/RGXPNLNX"
+	},
+	"zotero": {
+		"DOI": "10.1016/j.neucom.2025.130214",
+		"citationKey": "Tjeng2025Evaluating",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Tjeng, Vincent and Xiao, Kai Y. and Tedrake, Russ"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-03-08T21:46:46Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "RGXPNLNX",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Evaluating robustness of neural networks with mixed integer programming",
+		"url": "https://openreview.net/forum?id=Hy-2x3x0F"
+	}
+}

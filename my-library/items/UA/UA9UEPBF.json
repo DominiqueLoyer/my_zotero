@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:27:30Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:27:30Z",
+			"dateModified": "2026-11-08T16:27:30Z",
+			"filename": "Shah, Bhushan Santosh and Shah, Deven Santosh and Attar, Vahida - 2024 - Decoding News Bias Multi Bias Detection in News Articles.pdf",
+			"itemType": "attachment",
+			"key": "G2SIEQPB",
+			"linkMode": "imported_url",
+			"parentItem": "UA9UEPBF",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2501.02482"
+		},
+		{
+			"accessDate": "2026-03-09T20:36:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:36:49Z",
+			"dateModified": "2026-11-09T17:07:14Z",
+			"itemType": "attachment",
+			"key": "T3YKDH8H",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:14 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "UA9UEPBF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Shah-Bhushan-Santosh-and-Shah-Deven-Santosh-and-Attar-Vahida-2024-4129fa248c578195897ed233dfc657d0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "T3YKDH8H",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Shah-Bhushan-Santosh-and-Shah-Deven-Santosh-and-Attar-Vahida-2024-4129fa248c578195897ed233dfc657d0"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Shah, Bhushan Santosh and Shah, Deven Santosh and Attar, Vahida - 2024 - Decoding News Bias Multi Bias Detection in News Articles.pdf",
+				"files": [
+					{
+						"path": "attachments/G2/G2SIEQPB/Shah, Bhushan Santosh and Shah, Deven Santosh and Attar, Vahida - 2024 - Decoding News Bias Multi Bias Detection in News Articles.pdf",
+						"size": 1687179,
+						"storage": "git"
+					}
+				],
+				"key": "G2SIEQPB",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2501.02482"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Shah, Bhushan Santosh and Shah, Deven Santosh and Attar, Vahida"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Decoding News Bias: Multi Bias Detection in News Articles",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/UA9UEPBF"
+	},
+	"zotero": {
+		"DOI": "10.1145/3711542.3711601",
+		"citationKey": "shahbhushansantoshandshahdevensantoshandattarvahidaDecodingNewsBias2024b",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Shah, Bhushan Santosh and Shah, Deven Santosh and Attar, Vahida"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-03T23:38:20Z",
+		"dateModified": "2026-03-25T21:29:11Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "UA9UEPBF",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Decoding News Bias: Multi Bias Detection in News Articles"
+	}
+}

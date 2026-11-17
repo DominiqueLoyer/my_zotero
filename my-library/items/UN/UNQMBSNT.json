@@ -1,0 +1,94 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:36:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:18Z",
+			"dateModified": "2026-01-02T19:18:32Z",
+			"itemType": "attachment",
+			"key": "LL4TILFE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:32 p.m.</p>",
+			"parentItem": "UNQMBSNT",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/DDWQJBZ5"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/caganLIAGeneratiqueEte2024-2c09fa248c57816d9e5cdffbc9e81104"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LL4TILFE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/caganLIAGeneratiqueEte2024-2c09fa248c57816d9e5cdffbc9e81104"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Littérature donnée par Daniel",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Daniel Lemire"
+		],
+		"creators": [
+			"Cagan, Anne"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "L'IA génératique a été surestimée",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/UNQMBSNT"
+	},
+	"zotero": {
+		"citationKey": "caganLIAGeneratiqueEte12au18septembre2024",
+		"collections": [
+			"ENT9VKF6",
+			"J4VTG4NB",
+			"ND9Z8QCS",
+			"NKV86EAI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Anne",
+				"lastName": "Cagan"
+			}
+		],
+		"date": "12 au 18 septembre 2024",
+		"dateAdded": "2024-11-02T17:25:53Z",
+		"dateModified": "2025-12-29T23:57:39Z",
+		"issue": "3819",
+		"itemType": "journalArticle",
+		"key": "UNQMBSNT",
+		"pages": "58-60",
+		"publicationTitle": "L'Express",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/M8GHZMXZ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "L'IA génératique a été surestimée"
+	}
+}

@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:24:57Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:24:57Z",
+			"dateModified": "2026-11-08T16:24:57Z",
+			"filename": "Goodman, Chris - 2024 - Algorithmic Due Process.pdf",
+			"itemType": "attachment",
+			"key": "SVR3VJLJ",
+			"linkMode": "imported_url",
+			"parentItem": "QIG7FI8R",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://pureadmin.qub.ac.uk/ws/files/527827946/SSRN_id4610556.pdf"
+		},
+		{
+			"accessDate": "2026-02-25T22:18:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:03Z",
+			"dateModified": "2026-11-09T17:05:24Z",
+			"itemType": "attachment",
+			"key": "Z56MN3JY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:24 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "QIG7FI8R",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HRMBV7QB",
+					"http://zotero.org/groups/6376680/items/L7BCXFS7"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Goodman-Chris-2024-4129fa248c5781799fe7f185ff40ea94"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Z56MN3JY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Goodman-Chris-2024-4129fa248c5781799fe7f185ff40ea94"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Goodman, Chris - 2024 - Algorithmic Due Process.pdf",
+				"files": [
+					{
+						"path": "attachments/SV/SVR3VJLJ/Goodman, Chris - 2024 - Algorithmic Due Process.pdf",
+						"size": 749100,
+						"storage": "git"
+					}
+				],
+				"key": "SVR3VJLJ",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://pureadmin.qub.ac.uk/ws/files/527827946/SSRN_id4610556.pdf"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Goodman, Chris"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmic Due Process",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/QIG7FI8R"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-031-56556-4_9",
+		"citationKey": "goodmanchrisAlgorithmicDueProcess2024",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Goodman, Chris"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:37:13Z",
+		"dateModified": "2026-11-13T19:31:19Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "QIG7FI8R",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/HK5CQPFY",
+				"http://zotero.org/groups/6376680/items/Q8DJD22B"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmic Due Process",
+		"url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4054203"
+	}
+}

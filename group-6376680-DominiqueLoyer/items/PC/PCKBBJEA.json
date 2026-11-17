@@ -1,0 +1,148 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "6MFRPVSQ",
+			"note": "Universite de Sherbrooke",
+			"parentItem": "PCKBBJEA",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T20:17:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "attachment",
+			"key": "C3JZ83Z6",
+			"linkMode": "linked_url",
+			"parentItem": "PCKBBJEA",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "SZLVCRR8",
+			"note": "Universite de Sherbrooke",
+			"parentItem": "PCKBBJEA",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T22:30:51Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-11-17T14:42:30Z",
+			"itemType": "attachment",
+			"key": "UMTPEIQR",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:42:30 a.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"41b9fa24-8c57-81ff-8c30-fa2a0cd56203\",\"notes\":{\"SZLVCRR8\":{\"blockID\":\"41b9fa24-8c57-81b9-aa68-cc77556853e0\",\"syncedAt\":\"2026-11-17T14:42:28.941Z\"},\"6MFRPVSQ\":{\"blockID\":\"41b9fa24-8c57-81a7-84a7-cfc9b16844e0\",\"syncedAt\":\"2026-11-17T14:42:30.156Z\"}}}</pre>",
+			"parentItem": "PCKBBJEA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c57815cb3a2cb9920752118"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UMTPEIQR",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c57815cb3a2cb9920752118"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "C3JZ83Z6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "SZLVCRR8",
+				"title": "Universite de Sherbrooke"
+			},
+			{
+				"key": "6MFRPVSQ",
+				"title": "Universite de Sherbrooke"
+			}
+		],
+		"title": "L'intelligence artificielle. Qu'est-ce que c'est?",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/PCKBBJEA"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.11245.78560",
+		"ISBN": "978-1-0699945-2-3",
+		"citationKey": "loyerLintelligenceArtificielleQuest2025",
+		"collections": [
+			"RJVJKNN2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-26T21:01:07Z",
+		"dateModified": "2026-02-26T21:01:07Z",
+		"extra": "titleTranslation: Artificial Intelligence. What is it?",
+		"itemType": "conferencePaper",
+		"key": "PCKBBJEA",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "Deep Learning"
+			},
+			{
+				"tag": "Education IA"
+			},
+			{
+				"tag": "Ethique IA"
+			},
+			{
+				"tag": "Intelligence Artificielle"
+			},
+			{
+				"tag": "Machine Learning"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "L'intelligence artificielle. Qu'est-ce que c'est?",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.11245.78560"
+	}
+}

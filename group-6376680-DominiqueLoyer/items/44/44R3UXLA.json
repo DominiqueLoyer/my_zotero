@@ -1,0 +1,148 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-10T22:31:02Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-11-17T14:42:08Z",
+			"itemType": "attachment",
+			"key": "E5KWAYNA",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:42:08 a.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"41b9fa24-8c57-81c8-a09d-d1f69af4c1ef\",\"notes\":{\"YGFV6QHQ\":{\"blockID\":\"41b9fa24-8c57-8163-ae04-f998ae3f297b\",\"syncedAt\":\"2026-11-17T14:42:07.323Z\"},\"NPP877H3\":{\"blockID\":\"41b9fa24-8c57-8197-86bc-f7022e2e6e36\",\"syncedAt\":\"2026-11-17T14:42:08.959Z\"}}}</pre>",
+			"parentItem": "44R3UXLA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c5781689742ef874e5baa96"
+		},
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "NPP877H3",
+			"note": "DIC-9345 TALN",
+			"parentItem": "44R3UXLA",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T20:17:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "attachment",
+			"key": "QRWR7GR6",
+			"linkMode": "linked_url",
+			"parentItem": "44R3UXLA",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "YGFV6QHQ",
+			"note": "DIC-9345 TALN",
+			"parentItem": "44R3UXLA",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "E5KWAYNA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c5781689742ef874e5baa96"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QRWR7GR6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "YGFV6QHQ",
+				"title": "DIC-9345 TALN"
+			},
+			{
+				"key": "NPP877H3",
+				"title": "DIC-9345 TALN"
+			}
+		],
+		"title": "Developpement et evaluation d'un systeme de traduction automatique neuronale anglais-russe",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/44R3UXLA"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.13505.67685",
+		"citationKey": "loyerDeveloppementEvaluationDun2025",
+		"collections": [
+			"RJVJKNN2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-26T21:01:07Z",
+		"dateModified": "2026-02-26T21:01:07Z",
+		"extra": "ISBN: 978-1-0699945-6-1\ntitleTranslation: Development and Evaluation of an English-Russian Neural Machine Translation System",
+		"itemType": "journalArticle",
+		"key": "44R3UXLA",
+		"language": "fr-CA",
+		"pages": "5",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "EN-RU"
+			},
+			{
+				"tag": "Mecanismes d'Attention"
+			},
+			{
+				"tag": "TAL"
+			},
+			{
+				"tag": "Traduction Automatique Neuronale"
+			},
+			{
+				"tag": "Transformateurs"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Developpement et evaluation d'un systeme de traduction automatique neuronale anglais-russe",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.13505.67685"
+	}
+}

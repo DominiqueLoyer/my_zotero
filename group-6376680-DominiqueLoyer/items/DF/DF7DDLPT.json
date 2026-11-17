@@ -1,0 +1,109 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "RTL733A5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:12 p.m.</p>",
+			"parentItem": "DF7DDLPT",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/luSurveyingNeurosymbolicApproaches2024-3239fa248c57813aa9bceb9a9a986095"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RTL733A5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/luSurveyingNeurosymbolicApproaches2024-3239fa248c57813aa9bceb9a9a986095"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Lu, Zhen",
+			"Afridi, Imran",
+			"Kang, Hong Jin",
+			"Ruchkin, Ivan",
+			"Zheng, Xi"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Surveying neuro-symbolic approaches for reliable artificial intelligence of things",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/DF7DDLPT"
+	},
+	"zotero": {
+		"DOI": "10.1007/s40860-024-00231-1",
+		"ISSN": "2199-4668, 2199-4676",
+		"abstractNote": "The integration of Artiﬁcial Intelligence (AI) with the Internet of Things (IoT), known as the Artiﬁcial Intelligence of Things (AIoT), enhances the devices’ processing and analysis capabilities and disrupts such sectors as healthcare, industry, and oil. However, AIoT’s complexity and scale are challenging for traditional machine learning (ML). Deep learning offers a solution but has limited testability, veriﬁability, and interpretability. In turn, the neuro-symbolic paradigm addresses these challenges by combining the robustness of symbolic AI with the ﬂexibility of DL, enabling AI systems to reason, make decisions, and generalize knowledge from large datasets better. This paper reviews state-of-the-art DL models for IoT, identiﬁes their limitations, and explores how neuro-symbolic methods can overcome them. It also discusses key challenges and research opportunities in enhancing AIoT reliability with neuro-symbolic approaches, including hard-coded symbolic AI, multimodal sensor data, biased interpretability, trading-off interpretability, and performance, complexity in integrating neural networks and symbolic AI, and ethical and societal challenges.",
+		"accessDate": "2026-03-14T17:40:44Z",
+		"citationKey": "luSurveyingNeurosymbolicApproaches2024",
+		"collections": [
+			"PNZQF2WF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Zhen",
+				"lastName": "Lu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Imran",
+				"lastName": "Afridi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hong Jin",
+				"lastName": "Kang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ivan",
+				"lastName": "Ruchkin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xi",
+				"lastName": "Zheng"
+			}
+		],
+		"date": "09/2024",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"issue": "3",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "J Reliable Intell Environ",
+		"key": "DF7DDLPT",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "257-279",
+		"publicationTitle": "Journal of Reliable Intelligent Environments",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Surveying neuro-symbolic approaches for reliable artificial intelligence of things",
+		"url": "https://link.springer.com/10.1007/s40860-024-00231-1",
+		"volume": "10"
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:27:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:27:30Z",
+			"dateModified": "2026-03-09T20:47:30Z",
+			"itemType": "attachment",
+			"key": "3CZ4WMLR",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:30 p.m.</p>",
+			"parentItem": "K3VHNUQS",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/bc8570d0987429c086c515a1bfffae64ccbefcff-2e29fa248c5781f8ae1de14254385408"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3CZ4WMLR",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/bc8570d0987429c086c515a1bfffae64ccbefcff-2e29fa248c5781f8ae1de14254385408"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Acar, M."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Online tracking technologies and web privacy",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/K3VHNUQS"
+	},
+	"zotero": {
+		"abstractNote": "This thesis is a study of the mechanisms that enable privacy-intrusive online tracking practices. The tracking mechanisms we focus on are resilient to removal, less transparent and hard to control. We first give a brief historical background of online tracking ecosystem and frame it as whack-a-mole game which led to the rise of browser fingerprinting and evercookies, two prominent examples of advanced tracking mechanisms we study. To contribute to the understanding of real-world practices that involve browser fingerprinting, we report on the design, implementation and deployment of FPDetective, a framework for the detection and analysis of fingerprinting with a focus on font-based fingerprinting. Using FPDetective, we conduct a large scale analysis of the million most popular websites, and discover that the adoption of fingerprinting is much higher than previous studies had estimated. We study the countermeasures against font-based fingerprinting and find a vulnerability in Tor Browser’s defenses, which we help to fix. Turning to more advanced forms of fingerprinting, we present the results of previously unreported canvas fingerprinting scripts as found on the top 100,000 Alexa sites. Our results show that 5",
+		"citationKey": "acarOnlineTrackingTechnologies2017",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "M.",
+				"lastName": "Acar"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-01-08T20:14:05Z",
+		"dateModified": "2026-03-25T21:30:05Z",
+		"itemType": "journalArticle",
+		"key": "K3VHNUQS",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Online tracking technologies and web privacy",
+		"url": "https://www.semanticscholar.org/paper/bc8570d0987429c086c515a1bfffae64ccbefcff"
+	}
+}

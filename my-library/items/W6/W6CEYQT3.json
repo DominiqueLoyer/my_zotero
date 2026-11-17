@@ -1,0 +1,153 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:31:29Z",
+			"dateModified": "2026-03-14T17:39:18Z",
+			"itemType": "attachment",
+			"key": "4R2A93RL",
+			"linkMode": "linked_file",
+			"parentItem": "W6CEYQT3",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401_ic_/PDFs/Alvarez-Melis and Jaakkola - 2018 - On the Robustness of Interpretability Methods.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-03-14T17:39:18Z",
+			"dateModified": "2026-03-14T17:39:18Z",
+			"itemType": "note",
+			"key": "EV2U2XJ7",
+			"note": "Comment: presented at 2018 ICML Workshop on Human Interpretability in Machine Learning (WHI 2018), Stockholm, Sweden",
+			"parentItem": "W6CEYQT3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/KHE5DZ76"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-03-14T18:17:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:52Z",
+			"dateModified": "2026-03-14T18:23:48Z",
+			"itemType": "attachment",
+			"key": "XACWQSXZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:23:48 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-810f-a0b8-da80afc1d49d\",\"notes\":{\"EV2U2XJ7\":{\"blockID\":\"3239fa24-8c57-8158-928f-e7c165fe2dc8\",\"syncedAt\":\"2026-03-14T18:23:48.820Z\"}}}</pre>",
+			"parentItem": "W6CEYQT3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/JLDACE45"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/alvarez-melisRobustnessInterpretabilityMethods2018a-3239fa248c5781079992d5deafb6bb76"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XACWQSXZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/alvarez-melisRobustnessInterpretabilityMethods2018a-3239fa248c5781079992d5deafb6bb76"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Alvarez-Melis and Jaakkola - 2018 - On the Robustness of Interpretability Methods.pdf",
+				"files": [
+					{
+						"path": "attachments/4R/4R2A93RL/Alvarez-Melis and Jaakkola - 2018 - On the Robustness of Interpretability Methods.pdf",
+						"size": 1789625,
+						"storage": "git"
+					}
+				],
+				"key": "4R2A93RL",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Alvarez-Melis, David",
+			"Jaakkola, Tommi S."
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "EV2U2XJ7",
+				"title": "Comment: presented at 2018 ICML Workshop on Human Interpretability in Machine Learning (WHI 2018), Stockholm, Sweden"
+			}
+		],
+		"title": "On the Robustness of Interpretability Methods",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/W6CEYQT3"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1806.08049",
+		"abstractNote": "We argue that robustness of explanations---i.e., that similar inputs should give rise to similar explanations---is a key desideratum for interpretability. We introduce metrics to quantify robustness and demonstrate that current methods do not perform well according to these metrics. Finally, we propose ways that robustness can be enforced on existing interpretability approaches.",
+		"accessDate": "2026-03-14T17:39:18Z",
+		"archiveID": "arXiv:1806.08049",
+		"citationKey": "alvarez-melisRobustnessInterpretabilityMethods2018a",
+		"collections": [
+			"U5GGZRY8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Alvarez-Melis"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tommi S.",
+				"lastName": "Jaakkola"
+			}
+		],
+		"date": "2018-06-21",
+		"dateAdded": "2026-03-14T17:39:18Z",
+		"dateModified": "2026-03-25T21:28:26Z",
+		"extra": "arXiv:1806.08049 [cs]",
+		"itemType": "preprint",
+		"key": "W6CEYQT3",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/6I5NR65G"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "Statistics - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "On the Robustness of Interpretability Methods",
+		"url": "http://arxiv.org/abs/1806.08049"
+	}
+}

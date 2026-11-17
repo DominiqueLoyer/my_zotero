@@ -1,0 +1,115 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:28:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:52Z",
+			"dateModified": "2026-11-09T17:08:41Z",
+			"itemType": "attachment",
+			"key": "YRIT6NVK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:41 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "Y378E58W",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/VNHGAMNW"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/PKBTSVCR"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Misheva-et-al-2021-4129fa248c5781bab2f0ffa8c0704d5d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "YRIT6NVK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Misheva-et-al-2021-4129fa248c5781bab2f0ffa8c0704d5d"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Misheva, Branka",
+			"Anevska, Katerina",
+			"Gjorgjevikj, Dejan",
+			"Vodenska, Irena"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explainable AI for financial services: a survey",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/Y378E58W"
+	},
+	"zotero": {
+		"DOI": "10.1186/s40854-021-00258-7",
+		"citationKey": "mishevaExplainableAIFinancial2021",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Branka",
+				"lastName": "Misheva"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Katerina",
+				"lastName": "Anevska"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dejan",
+				"lastName": "Gjorgjevikj"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Irena",
+				"lastName": "Vodenska"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-09T15:02:39Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"key": "Y378E58W",
+		"pages": "1–26",
+		"publicationTitle": "Financial Innovation",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/GMJEZZQ7",
+				"http://zotero.org/users/15425556/items/NYSH3BR3"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/TZYAM6Q8"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable AI for financial services: a survey",
+		"volume": "7"
+	}
+}

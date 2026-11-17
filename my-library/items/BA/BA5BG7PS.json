@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:05Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:05Z",
+			"dateModified": "2026-11-09T17:04:34Z",
+			"itemType": "attachment",
+			"key": "3AB7UQDZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:34 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "BA5BG7PS",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/AW9MJJCH",
+					"http://zotero.org/groups/6376680/items/NNUDMLKU"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Ando-Rie-Kubota-and-Zhang-Tong-2017-4129fa248c5781d0ab9cd73620141009"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3AB7UQDZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Ando-Rie-Kubota-and-Zhang-Tong-2017-4129fa248c5781d0ab9cd73620141009"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Ando, Rie Kubota and Zhang, Tong"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/BA5BG7PS"
+	},
+	"zotero": {
+		"DOI": "10.1109/TIE.2016.2588463",
+		"citationKey": "andoriekubotaandzhangtongFrameworkLearningPredictive2017",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Ando, Rie Kubota and Zhang, Tong"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-02-25T20:56:39Z",
+		"dateModified": "2026-11-13T19:29:12Z",
+		"extra": "Importé via SysCRED.\nDOI Fix previous DOI: 10.1109/tie.2016.2588463",
+		"itemType": "journalArticle",
+		"key": "BA5BG7PS",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4LQG8X43",
+				"http://zotero.org/groups/6376680/items/7IMWFF2P"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data"
+	}
+}

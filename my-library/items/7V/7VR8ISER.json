@@ -1,0 +1,110 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-31T16:19:22Z",
+			"dateModified": "2025-03-31T18:58:09Z",
+			"filename": "etat.pdf",
+			"itemType": "attachment",
+			"key": "CJNZMG7B",
+			"linkMode": "imported_file",
+			"parentItem": "7VR8ISER",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/6F6VUV9E",
+					"http://zotero.org/users/15425556/items/KMVFIHIV"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:34:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:57Z",
+			"dateModified": "2026-11-09T17:08:12Z",
+			"itemType": "attachment",
+			"key": "G592RXGI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:12 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "7VR8ISER",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781da9f03ca4e8f15f9fb"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "G592RXGI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781da9f03ca4e8f15f9fb"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "etat.pdf",
+				"files": [],
+				"key": "CJNZMG7B",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases",
+			"Cours H25/Modélisation/cours 4.1 dynamique"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "etat",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/7VR8ISER"
+	},
+	"zotero": {
+		"citationKey": "lounishakimEtat",
+		"collections": [
+			"G4KBEA9A",
+			"JBEL9UJJ",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:35:35Z",
+		"dateModified": "2025-03-31T18:58:09Z",
+		"itemType": "document",
+		"key": "7VR8ISER",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/9LJ2A5L4",
+				"http://zotero.org/users/15425556/items/B8ITU8D7"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "etat"
+	}
+}

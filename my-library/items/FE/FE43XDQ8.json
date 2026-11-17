@@ -1,0 +1,114 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:31:14Z",
+			"dateModified": "2025-03-31T18:46:34Z",
+			"filename": "prologue_UC.pdf",
+			"itemType": "attachment",
+			"key": "3K9K7URH",
+			"linkMode": "imported_file",
+			"parentItem": "FE43XDQ8",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:27:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:45Z",
+			"dateModified": "2026-01-02T19:15:18Z",
+			"itemType": "attachment",
+			"key": "TMW45Y8D",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:18 p.m.</p>",
+			"parentItem": "FE43XDQ8",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Prologue_UC-2c09fa248c5781f6b8d5fdfcd8bdb419"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TMW45Y8D",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Prologue_UC-2c09fa248c5781f6b8d5fdfcd8bdb419"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "prologue_UC.pdf",
+				"files": [
+					{
+						"path": "attachments/3K/3K9K7URH/prologue_UC.pdf",
+						"size": 212725,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/3K/3K9K7URH/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 2613,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/3K/3K9K7URH/prologue_UC (trashed 2025-11-24 15-34-11) (trashed 2025-12-05 17-17-43).pdf",
+						"size": 212725,
+						"storage": "git"
+					}
+				],
+				"key": "3K9K7URH",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "prologue_UC",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/FE43XDQ8"
+	},
+	"zotero": {
+		"citationKey": "lounishakimPrologue_UC",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:46:33Z",
+		"dateModified": "2025-03-31T18:46:38Z",
+		"itemType": "document",
+		"key": "FE43XDQ8",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "prologue_UC"
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:36:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:36:04Z",
+			"dateModified": "2026-11-09T17:05:42Z",
+			"itemType": "attachment",
+			"key": "7AWAZVD2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:42 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "MSAVE3MB",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/KEV549AL"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/UK-DRCF-2022-4129fa248c5781e08df7c9b5a26d8fc6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7AWAZVD2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/UK-DRCF-2022-4129fa248c5781e08df7c9b5a26d8fc6"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"UK DRCF"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Auditing algorithms: the existing landscape, role of regulators and future outlook",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/MSAVE3MB"
+	},
+	"zotero": {
+		"citationKey": "ukdrcfAuditingAlgorithmsExisting2022a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "UK DRCF"
+			}
+		],
+		"date": "2022",
+		"dateAdded": "2026-01-08T20:07:34Z",
+		"dateModified": "2026-11-13T19:32:21Z",
+		"itemType": "document",
+		"key": "MSAVE3MB",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UG49LC4K"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Auditing algorithms: the existing landscape, role of regulators and future outlook",
+		"url": "https://www.gov.uk/government/publications/drcf-workplan-2022-to-2023/auditing-algorithms-the-existing-landscape-role-of-regulators-and-future-outlook"
+	}
+}

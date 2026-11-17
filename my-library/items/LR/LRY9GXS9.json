@@ -1,0 +1,149 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:31:46Z",
+			"dateModified": "2026-03-14T17:39:34Z",
+			"itemType": "attachment",
+			"key": "5575D64F",
+			"linkMode": "linked_file",
+			"parentItem": "LRY9GXS9",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401_ic_/PDFs/Guo et al. - 2017 - DeepFM A Factorization-Machine based Neural Network for CTR Prediction.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:17:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:47Z",
+			"dateModified": "2026-11-09T17:07:18Z",
+			"itemType": "attachment",
+			"key": "827SMKVK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:18 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "LRY9GXS9",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/R8Z7EM5S"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Guo-et-al-2017-4129fa248c5781c79a9cdd27a078949e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "827SMKVK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Guo-et-al-2017-4129fa248c5781c79a9cdd27a078949e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Guo et al. - 2017 - DeepFM A Factorization-Machine based Neural Network for CTR Prediction.pdf",
+				"files": [
+					{
+						"path": "attachments/55/5575D64F/Guo et al. - 2017 - DeepFM A Factorization-Machine based Neural Network for CTR Prediction.pdf",
+						"size": 833960,
+						"storage": "git"
+					}
+				],
+				"key": "5575D64F",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Guo, Huifeng",
+			"Tang, Ruiming",
+			"Ye, Yunming",
+			"Li, Zhenguo",
+			"He, Xiuqiang"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/LRY9GXS9"
+	},
+	"zotero": {
+		"DOI": "10.24963/ijcai.2017/239",
+		"ISBN": "978-0-9992411-0-3",
+		"abstractNote": "Learning sophisticated feature interactions behind user behaviors is critical in maximizing CTR for recommender systems. Despite great progress, existing methods seem to have a strong bias towards low- or high-order interactions, or require expertise feature engineering. In this paper, we show that it is possible to derive an end-to-end learning model that emphasizes both low- and highorder feature interactions. The proposed model, DeepFM, combines the power of factorization machines for recommendation and deep learning for feature learning in a new neural network architecture. Compared to the latest Wide & Deep model from Google, DeepFM has a shared input to its “wide” and “deep” parts, with no need of feature engineering besides raw features. Comprehensive experiments are conducted to demonstrate the effectiveness and efﬁciency of DeepFM over the existing models for CTR prediction, on both benchmark data and commercial data.",
+		"accessDate": "2026-03-14T17:39:33Z",
+		"citationKey": "guoDeepFMFactorizationMachineBased2017",
+		"collections": [
+			"U5GGZRY8"
+		],
+		"conferenceName": "Twenty-Sixth International Joint Conference on Artificial Intelligence",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Huifeng",
+				"lastName": "Guo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ruiming",
+				"lastName": "Tang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yunming",
+				"lastName": "Ye"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhenguo",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiuqiang",
+				"lastName": "He"
+			}
+		],
+		"date": "8/2017",
+		"dateAdded": "2026-03-14T17:39:33Z",
+		"dateModified": "2026-03-25T21:28:26Z",
+		"itemType": "conferencePaper",
+		"key": "LRY9GXS9",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1725-1731",
+		"place": "Melbourne, Australia",
+		"proceedingsTitle": "Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence",
+		"publisher": "International Joint Conferences on Artificial Intelligence Organization",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/LN2HMC3S"
+			]
+		},
+		"shortTitle": "DeepFM",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+		"url": "https://www.ijcai.org/proceedings/2017/239"
+	}
+}

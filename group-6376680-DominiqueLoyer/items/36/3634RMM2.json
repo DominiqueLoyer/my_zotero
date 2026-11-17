@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:19:40Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "CI6MB2QQ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:19:40 p.m.</p>",
+			"parentItem": "3634RMM2",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/abdul-jaleelUMassTREC2004-3239fa248c5781c3bf3bfe81427509d4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CI6MB2QQ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/abdul-jaleelUMassTREC2004-3239fa248c5781c3bf3bfe81427509d4"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/trec_rapport1_030326/PDFs"
+		],
+		"creators": [
+			"Abdul-Jaleel, Nasreen",
+			"Allan, James",
+			"Croft, W Bruce",
+			"Diaz, Fernando",
+			"Larkey, Leah",
+			"Li, Xiaoyan",
+			"Smucker, Mark D",
+			"Wade, Courtney"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "UMass at TREC 2004: Novelty and HARD",
+		"year": "",
+		"zoteroURI": "zotero://select/groups/6376680/items/3634RMM2"
+	},
+	"zotero": {
+		"abstractNote": "For the TREC 2004 Novelty track, UMass participated in all four tasks. Although ﬁnding relevant sentences was harder this year than last, we continue to show marked improvements over the baseline of calling all sentences relevant, with a variant of tﬁdf being the most successful approach. We achieve 5–9% improvements over the baseline in locating novel sentences, primarily by looking at the similarity of a sentence to earlier sentences and focusing on named entities.",
+		"citationKey": "abdul-jaleelUMassTREC2004",
+		"collections": [
+			"M554FTW4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Nasreen",
+				"lastName": "Abdul-Jaleel"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "James",
+				"lastName": "Allan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "W Bruce",
+				"lastName": "Croft"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fernando",
+				"lastName": "Diaz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Leah",
+				"lastName": "Larkey"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiaoyan",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mark D",
+				"lastName": "Smucker"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Courtney",
+				"lastName": "Wade"
+			}
+		],
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:23:31Z",
+		"itemType": "journalArticle",
+		"key": "3634RMM2",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "UMass at TREC 2004: Novelty and HARD"
+	}
+}

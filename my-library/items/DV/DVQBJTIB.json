@@ -1,0 +1,162 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:44Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:44Z",
+			"dateModified": "2026-11-09T14:56:09Z",
+			"itemType": "attachment",
+			"key": "EHFSCB2E",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:49 p.m.</p>",
+			"parentItem": "DVQBJTIB",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/HXTXSPNM"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3K43QI3K",
+					"http://zotero.org/groups/6376680/items/IU5AA7ZF",
+					"http://zotero.org/groups/6376680/items/KBLFT4CV",
+					"http://zotero.org/groups/6376680/items/VYFTPLMX"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Ribeiro2016Why-3129fa248c5781f581b2f68ad4d623c6"
+		},
+		{
+			"accessDate": "2026-11-08T16:40:17Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:40:17Z",
+			"dateModified": "2026-11-09T14:56:09Z",
+			"filename": "Ribeiro, Marco Tulio and Singh, Sameer and Guestrin, Carlos - 2016 - Why Should I Trust You Explaining the Predictions of Any Classifier.pdf",
+			"itemType": "attachment",
+			"key": "HVFK3G6H",
+			"linkMode": "imported_url",
+			"parentItem": "DVQBJTIB",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/5CK6BD5Z",
+					"http://zotero.org/users/15425556/items/7RQYZQQX"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/N16-3020.pdf"
+		},
+		{
+			"accessDate": "2026-03-09T20:33:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:33:48Z",
+			"dateModified": "2026-11-09T14:56:09Z",
+			"itemType": "attachment",
+			"key": "JJUIEXAM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:33:48 p.m.</p>",
+			"parentItem": "DVQBJTIB",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Ribeiro2016Why-31e9fa248c57816584dadcab7e5a5ee7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ribeiro, Marco Tulio and Singh, Sameer and Guestrin, Carlos - 2016 - Why Should I Trust You Explaining the Predictions of Any Classifier.pdf",
+				"files": [
+					{
+						"path": "attachments/HV/HVFK3G6H/Ribeiro, Marco Tulio and Singh, Sameer and Guestrin, Carlos - 2016 - Why Should I Trust You Explaining the Predictions of Any Classifier.pdf",
+						"size": 235200,
+						"storage": "git"
+					}
+				],
+				"key": "HVFK3G6H",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/N16-3020.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EHFSCB2E",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Ribeiro2016Why-3129fa248c5781f581b2f68ad4d623c6"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JJUIEXAM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Ribeiro2016Why-31e9fa248c57816584dadcab7e5a5ee7"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"_gs_080326"
+		],
+		"creators": [
+			"Ribeiro, Marco Tulio and Singh, Sameer and Guestrin, Carlos"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/DVQBJTIB"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/n16-3020",
+		"citationKey": "ribeiromarcotulioandsinghsameerandguestrincarlosWhyShouldTrust2016",
+		"collections": [
+			"9ERXAIZK",
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Ribeiro, Marco Tulio and Singh, Sameer and Guestrin, Carlos"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-02-25T20:54:57Z",
+		"dateModified": "2026-11-09T14:56:09Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "DVQBJTIB",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/E22CJG9N",
+				"http://zotero.org/users/15425556/items/JMG2P6UK"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2KP6KJAF",
+				"http://zotero.org/groups/6376680/items/DBTQ398Y",
+				"http://zotero.org/groups/6376680/items/H33ZG4P3",
+				"http://zotero.org/groups/6376680/items/MC9YJI4G"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Why Should I Trust You?\": Explaining the Predictions of Any Classifier"
+	}
+}

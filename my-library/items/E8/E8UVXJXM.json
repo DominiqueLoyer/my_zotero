@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:30:22Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:30:22Z",
+			"dateModified": "2026-11-08T16:30:22Z",
+			"filename": "Pennington, Jeffrey and Socher, Richard and Manning, Christopher D. - 2014 - Glove Global Vectors for Word Representation.pdf",
+			"itemType": "attachment",
+			"key": "8CCU4R9W",
+			"linkMode": "imported_url",
+			"parentItem": "E8UVXJXM",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/D14-1162.pdf"
+		},
+		{
+			"accessDate": "2026-11-08T16:15:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:15:03Z",
+			"dateModified": "2026-11-09T17:09:13Z",
+			"itemType": "attachment",
+			"key": "WCTQGBHD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:13 p.m.</p>",
+			"parentItem": "E8UVXJXM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Pennington-Jeffrey-and-Socher-Richard-and-Manning-Christopher-D-2014-4129fa248c5781d09444cf50b963d578"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Pennington, Jeffrey and Socher, Richard and Manning, Christopher D. - 2014 - Glove Global Vectors for Word Representation.pdf",
+				"files": [
+					{
+						"path": "attachments/8C/8CCU4R9W/Pennington, Jeffrey and Socher, Richard and Manning, Christopher D. - 2014 - Glove Global Vectors for Word Representation.pdf",
+						"size": 2661778,
+						"storage": "git"
+					}
+				],
+				"key": "8CCU4R9W",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/D14-1162.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WCTQGBHD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Pennington-Jeffrey-and-Socher-Richard-and-Manning-Christopher-D-2014-4129fa248c5781d09444cf50b963d578"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Pennington, Jeffrey and Socher, Richard and Manning, Christopher D."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Glove: Global Vectors for Word Representation",
+		"year": "2014",
+		"zoteroURI": "zotero://select/library/items/E8UVXJXM"
+	},
+	"zotero": {
+		"DOI": "10.3115/v1/d14-1162",
+		"citationKey": "penningtonjeffreyandsocherrichardandmanningchristopherd.GloveGlobalVectors2014",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Pennington, Jeffrey and Socher, Richard and Manning, Christopher D."
+			}
+		],
+		"date": "2014",
+		"dateAdded": "2026-02-26T20:20:29Z",
+		"dateModified": "2026-11-09T15:02:04Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "E8UVXJXM",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/B7XI8TMW",
+				"http://zotero.org/users/15425556/items/GESCINZ4",
+				"http://zotero.org/users/15425556/items/HAAJU5KS",
+				"http://zotero.org/users/15425556/items/KQURKJMX"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/NAR6XNRI"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Glove: Global Vectors for Word Representation"
+	}
+}

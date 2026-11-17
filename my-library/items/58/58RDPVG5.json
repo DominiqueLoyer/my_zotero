@@ -1,0 +1,283 @@
+{
+	"children": [
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#aaaaaa",
+			"annotationComment": "",
+			"annotationPageLabel": "10",
+			"annotationPosition": "{\"pageIndex\":9,\"rects\":[[184.6,401.312,292.655,417.191]]}",
+			"annotationSortIndex": "00009|000022|00122",
+			"annotationText": "Algorithme A*",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-10T19:12:35Z",
+			"dateModified": "2025-03-10T19:12:35Z",
+			"itemType": "annotation",
+			"key": "4MUWMT33",
+			"parentItem": "55GP3F4K",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-10T19:00:33Z",
+			"dateModified": "2025-03-31T18:28:57Z",
+			"filename": "Lounis - Algorithmes de recherche.pdf",
+			"itemType": "attachment",
+			"key": "55GP3F4K",
+			"linkMode": "imported_file",
+			"parentItem": "58RDPVG5",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/5FJG5KG4",
+					"http://zotero.org/users/15425556/items/BMYNGGNE"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#a28ae5",
+			"annotationComment": "nifo  la stack",
+			"annotationPageLabel": "6",
+			"annotationPosition": "{\"pageIndex\":5,\"rects\":[[394.35,287.336,553.092,305.178]]}",
+			"annotationSortIndex": "00005|000106|00234",
+			"annotationText": "d’attente une pile",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-10T19:04:54Z",
+			"dateModified": "2025-03-10T19:05:15Z",
+			"itemType": "annotation",
+			"key": "6JE6WUUF",
+			"parentItem": "55GP3F4K",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#f19837",
+			"annotationComment": "par escalade, il garde en mémoire le noeud courriant, il garde pas de liste. empreter dans un optimun local",
+			"annotationPageLabel": "8",
+			"annotationPosition": "{\"pageIndex\":7,\"rects\":[[216.84,364.836,322.668,382.678]]}",
+			"annotationSortIndex": "00007|000022|00157",
+			"annotationText": "Hill Climbing",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-10T19:07:09Z",
+			"dateModified": "2025-03-10T19:07:55Z",
+			"itemType": "annotation",
+			"key": "BSHWPDZ3",
+			"parentItem": "55GP3F4K",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:32:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:00Z",
+			"dateModified": "2026-11-09T17:05:12Z",
+			"itemType": "attachment",
+			"key": "CG99C4XW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:12 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "58RDPVG5",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-4129fa248c5781a8b348cb4251503ec2"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ff6666",
+			"annotationComment": "une file avec des priorités",
+			"annotationPageLabel": "9",
+			"annotationPosition": "{\"pageIndex\":8,\"rects\":[[540.905,294.44,620.445,314.245]]}",
+			"annotationSortIndex": "00008|000147|00225",
+			"annotationText": "agenda",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-10T19:09:36Z",
+			"dateModified": "2025-03-10T19:09:56Z",
+			"itemType": "annotation",
+			"key": "GQMA9Z4B",
+			"parentItem": "55GP3F4K",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "",
+			"annotationPageLabel": "9",
+			"annotationPosition": "{\"pageIndex\":8,\"rects\":[[196.26,362.42,452.743,382.225]]}",
+			"annotationSortIndex": "00008|000022|00157",
+			"annotationText": "Meilleur d’abord (Best first)",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-10T19:08:31Z",
+			"dateModified": "2025-03-10T19:08:31Z",
+			"itemType": "annotation",
+			"key": "JXCBTNDT",
+			"parentItem": "55GP3F4K",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#e56eee",
+			"annotationComment": "oritentés, etc",
+			"annotationPageLabel": "3",
+			"annotationPosition": "{\"pageIndex\":2,\"rects\":[[377.232,444.092,527.928,479.02]]}",
+			"annotationSortIndex": "00002|000008|00060",
+			"annotationText": "Graphes",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-10T19:02:14Z",
+			"dateModified": "2025-03-10T19:02:29Z",
+			"itemType": "annotation",
+			"key": "RWLDBML9",
+			"parentItem": "55GP3F4K",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#e56eee",
+			"annotationComment": "fonction heuristique",
+			"annotationPageLabel": "7",
+			"annotationPosition": "{\"pageIndex\":6,\"rects\":[[394.94,261.995,647.42,285.784]]}",
+			"annotationSortIndex": "00006|000104|00254",
+			"annotationText": "fonction d’évaluation",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-10T19:06:37Z",
+			"dateModified": "2025-03-10T19:06:58Z",
+			"itemType": "annotation",
+			"key": "STTGAEQ8",
+			"parentItem": "55GP3F4K",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "queue: fifo",
+			"annotationPageLabel": "5",
+			"annotationPosition": "{\"pageIndex\":4,\"rects\":[[364.298,283.596,447.98,301.438]]}",
+			"annotationSortIndex": "00004|000064|00238",
+			"annotationText": "d’attente",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-10T19:03:56Z",
+			"dateModified": "2025-03-10T19:04:09Z",
+			"itemType": "annotation",
+			"key": "UR9VBI4N",
+			"parentItem": "55GP3F4K",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "on peut avoir un pool d'heurisitiques ou pafois il peut aller au hasard.",
+			"annotationPageLabel": "9",
+			"annotationPosition": "{\"pageIndex\":8,\"rects\":[[238.02,444.092,616.596,479.02]]}",
+			"annotationSortIndex": "00008|000000|00060",
+			"annotationText": "pproches heuristiques",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-10T19:17:19Z",
+			"dateModified": "2025-03-10T19:17:55Z",
+			"itemType": "annotation",
+			"key": "VML7KWK5",
+			"parentItem": "55GP3F4K",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CG99C4XW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-4129fa248c5781a8b348cb4251503ec2"
+			},
+			{
+				"annotationCount": 9,
+				"contentType": "application/pdf",
+				"filename": "Lounis - Algorithmes de recherche.pdf",
+				"files": [
+					{
+						"path": "attachments/55/55GP3F4K/Lounis - Algorithmes de recherche.pdf",
+						"size": 467372,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/55/55GP3F4K/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 4245,
+						"storage": "git"
+					}
+				],
+				"key": "55GP3F4K",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/9 mars"
+		],
+		"creators": [
+			"Lounis, Hakim"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmes de recherche",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/58RDPVG5"
+	},
+	"zotero": {
+		"citationKey": "lounisAlgorithmesRecherche",
+		"collections": [
+			"BF5SC5Q4",
+			"G4KBEA9A"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Hakim",
+				"lastName": "Lounis"
+			}
+		],
+		"dateAdded": "2025-03-10T19:00:34Z",
+		"dateModified": "2026-11-13T19:31:10Z",
+		"itemType": "journalArticle",
+		"key": "58RDPVG5",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/6D5P9J84",
+				"http://zotero.org/users/15425556/items/D476GPIU"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Algorithmes de recherche"
+	}
+}

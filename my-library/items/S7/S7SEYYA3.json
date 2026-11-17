@@ -1,0 +1,112 @@
+{
+	"children": [
+		{
+			"accessDate": "2024-11-23T19:20:07Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2024-11-23T19:20:07Z",
+			"dateModified": "2024-11-23T19:20:07Z",
+			"filename": "graph.html",
+			"itemType": "attachment",
+			"key": "5TY8X2H9",
+			"linkMode": "imported_url",
+			"parentItem": "S7SEYYA3",
+			"relations": {},
+			"tags": [],
+			"title": "XAI—Explainable artificial intelligence",
+			"url": "https://www.connectedpapers.com/main/f7774f83d0dca26b0403fc76912af3484eb6c4b7/XAI%E2%80%94Explainable-artificial-intelligence/graph"
+		},
+		{
+			"accessDate": "2025-12-05T22:24:15Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:15Z",
+			"dateModified": "2026-01-02T19:17:49Z",
+			"itemType": "attachment",
+			"key": "QZ42D2BM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:49 p.m.</p>",
+			"parentItem": "S7SEYYA3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/5FWTMU9Y"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/XAIExplainableArtificial-2c09fa248c5781cb9d30f0c32e2b0d88"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QZ42D2BM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/XAIExplainableArtificial-2c09fa248c5781cb9d30f0c32e2b0d88"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "graph.html",
+				"files": [
+					{
+						"path": "attachments/5T/5TY8X2H9/graph.html",
+						"size": 869037,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/5T/5TY8X2H9/graph (trashed 2025-11-24 15-34-16).html",
+						"size": 869037,
+						"storage": "git"
+					}
+				],
+				"key": "5TY8X2H9",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "XAI—Explainable artificial intelligence",
+				"url": "https://www.connectedpapers.com/main/f7774f83d0dca26b0403fc76912af3484eb6c4b7/XAI%E2%80%94Explainable-artificial-intelligence/graph"
+			}
+		],
+		"collections": [
+			"Ma thèse/Systematic review/XAI"
+		],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "XAI—Explainable artificial intelligence",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/S7SEYYA3"
+	},
+	"zotero": {
+		"accessDate": "2024-11-23T19:20:03Z",
+		"citationKey": "XAIExplainableArtificial",
+		"collections": [
+			"DSF6PKGR"
+		],
+		"creators": [],
+		"dateAdded": "2024-11-23T19:20:03Z",
+		"dateModified": "2025-12-05T22:24:15Z",
+		"itemType": "webpage",
+		"key": "S7SEYYA3",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/QIEPBU8G"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "XAI—Explainable artificial intelligence",
+		"url": "https://www.connectedpapers.com/main/f7774f83d0dca26b0403fc76912af3484eb6c4b7/XAI%E2%80%94Explainable-artificial-intelligence/graph"
+	}
+}

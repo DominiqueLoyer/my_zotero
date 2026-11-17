@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:24Z",
+			"dateModified": "2026-11-09T17:09:29Z",
+			"itemType": "attachment",
+			"key": "9BXTPNIY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:29 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "M4QKA6ZS",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/C8N8SBAZ",
+					"http://zotero.org/groups/6376680/items/WZ2QEUAG"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Liao-Q-Vera-and-Singh-Gagandeep-and-Aneja-Jyoti-and-Morris-John-D-2020-4129fa248c5781438e09e6abe657baef"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9BXTPNIY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Liao-Q-Vera-and-Singh-Gagandeep-and-Aneja-Jyoti-and-Morris-John-D-2020-4129fa248c5781438e09e6abe657baef"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Liao, Q. Vera and Singh, Gagandeep and Aneja, Jyoti and Morris, John D."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Human-Centered Explainable AI (XAI): From Algorithms to User Experiences",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/M4QKA6ZS"
+	},
+	"zotero": {
+		"DOI": "10.1145/3386296.3386302",
+		"citationKey": "liaoq.veraandsinghgagandeepandanejajyotiandmorrisjohnd.HumanCenteredExplainableAI2020",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Liao, Q. Vera and Singh, Gagandeep and Aneja, Jyoti and Morris, John D."
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-02-25T21:40:03Z",
+		"dateModified": "2026-03-25T21:29:43Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "M4QKA6ZS",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/VWCQDWY9",
+				"http://zotero.org/groups/6376680/items/YH29DCCD"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Human-Centered Explainable AI (XAI): From Algorithms to User Experiences"
+	}
+}

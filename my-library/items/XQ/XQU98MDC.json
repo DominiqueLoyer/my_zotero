@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:44:00Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:44:00Z",
+			"dateModified": "2026-11-08T16:44:00Z",
+			"filename": "Norori, Nelson and Hu, Qiyang and Aellen, Florian and Cieliebak, Mark and Senn, E. - 2019 - Explainable AI A Survey of the State-of-the-Art in Natural Language Generation.pdf",
+			"itemType": "attachment",
+			"key": "6I2M99QC",
+			"linkMode": "imported_url",
+			"parentItem": "XQU98MDC",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/W19-8402.pdf"
+		},
+		{
+			"accessDate": "2026-02-25T22:16:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:16:47Z",
+			"dateModified": "2026-11-09T17:08:47Z",
+			"itemType": "attachment",
+			"key": "SYC49V7N",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:47 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "XQU98MDC",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/CASICB9X",
+					"http://zotero.org/groups/6376680/items/YMIGCGXX"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Norori-Nelson-and-Hu-Qiyang-and-Aellen-Florian-and-Cieliebak-Mark-and-Senn-E-2019-4129fa248c578191894ce0f15ef6af7a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Norori, Nelson and Hu, Qiyang and Aellen, Florian and Cieliebak, Mark and Senn, E. - 2019 - Explainable AI A Survey of the State-of-the-Art in Natural Language Generation.pdf",
+				"files": [
+					{
+						"path": "attachments/6I/6I2M99QC/Norori, Nelson and Hu, Qiyang and Aellen, Florian and Cieliebak, Mark and Senn, E. - 2019 - Explainable AI A Survey of the State-of-the-Art in Natural Language Generation.pdf",
+						"size": 119534,
+						"storage": "git"
+					}
+				],
+				"key": "6I2M99QC",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/W19-8402.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SYC49V7N",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Norori-Nelson-and-Hu-Qiyang-and-Aellen-Florian-and-Cieliebak-Mark-and-Senn-E-2019-4129fa248c578191894ce0f15ef6af7a"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Norori, Nelson and Hu, Qiyang and Aellen, Florian and Cieliebak, Mark and Senn, E."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explainable AI: A Survey of the State-of-the-Art in Natural Language Generation",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/XQU98MDC"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/w19-8402",
+		"citationKey": "nororinelsonandhuqiyangandaellenflorianandcieliebakmarkandsenne.ExplainableAISurvey2019",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Norori, Nelson and Hu, Qiyang and Aellen, Florian and Cieliebak, Mark and Senn, E."
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-02-25T21:42:45Z",
+		"dateModified": "2026-03-25T21:29:40Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "XQU98MDC",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/IFZVBWP3",
+				"http://zotero.org/groups/6376680/items/KVENLZ6P"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable AI: A Survey of the State-of-the-Art in Natural Language Generation",
+		"url": "https://aclanthology.org/2021.emnlp-main.485/"
+	}
+}

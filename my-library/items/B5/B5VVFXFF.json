@@ -1,0 +1,129 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:26:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:26:47Z",
+			"dateModified": "2026-03-09T20:47:06Z",
+			"itemType": "attachment",
+			"key": "3V8HWI6A",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:06 p.m.</p>",
+			"parentItem": "B5VVFXFF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/06cd648c3b90aaa66305af9a41714aa5ded54dd8-2e29fa248c57812ebbcbd6691ee48319"
+		},
+		{
+			"accessDate": "2026-11-08T16:45:08Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:45:08Z",
+			"dateModified": "2026-11-08T16:45:08Z",
+			"filename": "Olejnik et al. - 2015 - The leaking battery - a privacy analysis of the HTML5 battery status API.pdf",
+			"itemType": "attachment",
+			"key": "T8CX3UUG",
+			"linkMode": "imported_url",
+			"parentItem": "B5VVFXFF",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://lirias.kuleuven.be/retrieve/b26ec89d-5636-4a67-b9dd-a6e7dcd0758f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3V8HWI6A",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/06cd648c3b90aaa66305af9a41714aa5ded54dd8-2e29fa248c57812ebbcbd6691ee48319"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Olejnik et al. - 2015 - The leaking battery - a privacy analysis of the HTML5 battery status API.pdf",
+				"files": [
+					{
+						"path": "attachments/T8/T8CX3UUG/Olejnik et al. - 2015 - The leaking battery - a privacy analysis of the HTML5 battery status API.pdf",
+						"size": 250409,
+						"storage": "git"
+					}
+				],
+				"key": "T8CX3UUG",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://lirias.kuleuven.be/retrieve/b26ec89d-5636-4a67-b9dd-a6e7dcd0758f"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Olejnik, Lukasz",
+			"Acar, Gunes",
+			"Castelluccia, C.",
+			"Díaz, Claudia"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The leaking battery - a privacy analysis of the HTML5 battery status API",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/B5VVFXFF"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-319-29883-2_18",
+		"abstractNote": "S2 TL;DR: This study shows that websites can discover the capacity of users’ batteries by exploiting the high precision readouts provided by Firefox on Linux, and highlights privacy risks associated with the HTML5 Battery Status API.",
+		"citationKey": "olejnikLeakingBatteryPrivacy2015",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Lukasz",
+				"lastName": "Olejnik"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gunes",
+				"lastName": "Acar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "C.",
+				"lastName": "Castelluccia"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Claudia",
+				"lastName": "Díaz"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-01-08T20:14:05Z",
+		"dateModified": "2026-03-25T21:30:02Z",
+		"extra": "abstractTranslation: S2 TL;DR: This study shows that websites can discover the capacity of users’ batteries by exploiting the high precision readouts provided by Firefox on Linux, and highlights privacy risks associated with the HTML5 Battery Status API.",
+		"itemType": "journalArticle",
+		"key": "B5VVFXFF",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The leaking battery - a privacy analysis of the HTML5 battery status API",
+		"url": "https://www.semanticscholar.org/paper/06cd648c3b90aaa66305af9a41714aa5ded54dd8"
+	}
+}

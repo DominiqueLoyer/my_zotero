@@ -1,0 +1,95 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "42J622G2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:46 p.m.</p>",
+			"parentItem": "228WMNUZ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Okura2017-2e29fa248c5781ad83e2c311e51b71b6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "42J622G2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Okura2017-2e29fa248c5781ad83e2c311e51b71b6"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Okura, Shumpei",
+			"Tagami, Yuki",
+			"Ono, Shota",
+			"Tajima, Akira"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Embedding-based news recommendation for millions of users",
+		"year": "2017",
+		"zoteroURI": "zotero://select/groups/6376680/items/228WMNUZ"
+	},
+	"zotero": {
+		"DOI": "10.1145/3097983.3098059",
+		"citationKey": "okuraEmbeddingbasedNewsRecommendation2017a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Shumpei",
+				"lastName": "Okura"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yuki",
+				"lastName": "Tagami"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Shota",
+				"lastName": "Ono"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Akira",
+				"lastName": "Tajima"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "228WMNUZ",
+		"language": "fr-CA",
+		"pages": "1933–1942",
+		"proceedingsTitle": "Proceedings of the 23rd ACM SIGKDD international conference on knowledge discovery and data mining",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Embedding-based news recommendation for millions of users"
+	}
+}

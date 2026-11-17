@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:14Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "UJPWL72P",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:49 p.m.</p>",
+			"parentItem": "7VEE7VF4",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/He2020-2e29fa248c57810db6ffc22532c31ba6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UJPWL72P",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/He2020-2e29fa248c57810db6ffc22532c31ba6"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"He, Xiangnan",
+			"Deng, Kuan",
+			"Wang, Xiang",
+			"Li, Yan",
+			"Zhang, Yongdong",
+			"Wang, Meng"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "LightGCN: Simplifying and powering graph convolution network for recommendation",
+		"year": "2020",
+		"zoteroURI": "zotero://select/groups/6376680/items/7VEE7VF4"
+	},
+	"zotero": {
+		"DOI": "10.1145/3397271.3401063",
+		"citationKey": "heLightGCNSimplifyingPowering2020a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xiangnan",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kuan",
+				"lastName": "Deng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiang",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yan",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yongdong",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Meng",
+				"lastName": "Wang"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "7VEE7VF4",
+		"language": "fr-CA",
+		"pages": "639–648",
+		"proceedingsTitle": "Proceedings of the 43rd international ACM SIGIR conference on research and development in information retrieval",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "LightGCN: Simplifying and powering graph convolution network for recommendation"
+	}
+}

@@ -1,0 +1,134 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-20T18:02:52Z",
+			"dateModified": "2025-03-20T18:02:58Z",
+			"filename": "Ballesteros et Croft - 1998 - Resolving ambiguity for cross-language retrieval.pdf",
+			"itemType": "attachment",
+			"key": "2746ZNZB",
+			"linkMode": "imported_file",
+			"parentItem": "485E3JMA",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:37:05Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:05Z",
+			"dateModified": "2026-01-02T19:16:12Z",
+			"itemType": "attachment",
+			"key": "652VE66C",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:12 p.m.</p>",
+			"parentItem": "485E3JMA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ballesterosResolvingAmbiguityCrosslanguage1998-2c09fa248c57811b816af96c0b20307a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "652VE66C",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ballesterosResolvingAmbiguityCrosslanguage1998-2c09fa248c57811b816af96c0b20307a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ballesteros et Croft - 1998 - Resolving ambiguity for cross-language retrieval.pdf",
+				"files": [
+					{
+						"path": "attachments/27/2746ZNZB/Ballesteros et Croft - 1998 - Resolving ambiguity for cross-language retrieval.pdf",
+						"size": 80648,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/27/2746ZNZB/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 47342,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/27/2746ZNZB/Ballesteros et Croft - 1998 - Resolving ambiguity for cross-language retrieval (trashed 2025-11-24 15-34-12).pdf",
+						"size": 80648,
+						"storage": "git"
+					}
+				],
+				"key": "2746ZNZB",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues",
+			"Cours H25/Traitement naturel des langues/rit 20 mars"
+		],
+		"creators": [
+			"Ballesteros, Lisa",
+			"Croft, W. Bruce"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Resolving ambiguity for cross-language retrieval",
+		"year": "1998",
+		"zoteroURI": "zotero://select/library/items/485E3JMA"
+	},
+	"zotero": {
+		"DOI": "10.1145/290941.290958",
+		"ISBN": "978-1-58113-015-7",
+		"abstractNote": "One of the main hurdles to improved CLIR effectiveness is resolving ambiguity associated with translation. Availability of resources is also a problem. First we present a technique based on co-occurrence statistics from unlinked corpora which can be used to reduce the ambiguity associated with phrasal and term translation. We then combine this method with other techniques for reducing ambiguity and achieve more than 90% monolingual effectiveness. Finally, we compare the co-occurrence method with parallel corpus and machine translation techniques and show that good retrieval effectiveness can be achieved without complex resources.",
+		"accessDate": "2025-03-20T18:02:57Z",
+		"citationKey": "ballesterosResolvingAmbiguityCrosslanguage1998",
+		"collections": [
+			"L7CZ8WGI",
+			"UELGWEXV"
+		],
+		"conferenceName": "SIGIR98: 21st Annual ACM/SIGIR International Conference on Research and Development in Information Retrieval",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Lisa",
+				"lastName": "Ballesteros"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "W. Bruce",
+				"lastName": "Croft"
+			}
+		],
+		"date": "08/1998",
+		"dateAdded": "2025-03-20T18:02:57Z",
+		"dateModified": "2025-12-05T22:37:05Z",
+		"itemType": "conferencePaper",
+		"key": "485E3JMA",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "64-71",
+		"place": "Melbourne Australia",
+		"proceedingsTitle": "Proceedings of the 21st annual international ACM SIGIR conference on Research and development in information retrieval",
+		"publisher": "ACM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Resolving ambiguity for cross-language retrieval",
+		"url": "https://dl.acm.org/doi/10.1145/290941.290958"
+	}
+}

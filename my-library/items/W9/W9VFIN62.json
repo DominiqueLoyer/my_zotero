@@ -1,0 +1,91 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:22Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:35:22Z",
+			"dateModified": "2026-11-09T17:08:32Z",
+			"itemType": "attachment",
+			"key": "TPV4MZQ4",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:32 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "W9VFIN62",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/IK4BR9UX"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ZZAFAIA7"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-Dominique-S-2018-4129fa248c578199be43c148877e11a4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TPV4MZQ4",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-Dominique-S-2018-4129fa248c578199be43c148877e11a4"
+			}
+		],
+		"collections": [
+			"_9335_all",
+			"_gs_080326"
+		],
+		"creators": [
+			"Loyer, Dominique S"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Evaluation of Information Retrieval Models and Query Expansion on",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/W9VFIN62"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-1-4614-8265-9_947",
+		"citationKey": "loyerdominiquesEvaluationInformationRetrieval2018",
+		"collections": [
+			"7XVYZYFG",
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Loyer, Dominique S"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-03-04T20:27:37Z",
+		"dateModified": "2026-11-09T15:03:07Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "W9VFIN62",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/SU8BVFXD"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/K5JXGAJ5"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Evaluation of Information Retrieval Models and Query Expansion on",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.22608.62721"
+	}
+}

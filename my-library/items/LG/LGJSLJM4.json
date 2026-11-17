@@ -1,0 +1,108 @@
+{
+	"children": [
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:20:33Z",
+			"dateModified": "2026-01-08T22:57:52Z",
+			"filename": "ConnectedPapers-for-The-Web-Never-Forgets%3A-Persistent-Tracking-Mechanisms-in-the-Wild.bib",
+			"itemType": "attachment",
+			"key": "NDFTS2GD",
+			"linkMode": "imported_file",
+			"parentItem": "LGJSLJM4",
+			"relations": {},
+			"tags": [],
+			"title": "ConnectedPapers-for-The-Web-Never-Forgets%3A-Persistent-Tracking-Mechanisms-in-the-Wild"
+		},
+		{
+			"accessDate": "2026-01-16T15:52:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:52:54Z",
+			"dateModified": "2026-11-09T17:06:34Z",
+			"itemType": "attachment",
+			"key": "R7RPQIGK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:34 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "LGJSLJM4",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/7QLNBQMD"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/ConnectedPapers-for-The-Web-Never-Forgets-3A-Persistent-Tracking-Mechanisms-in-the-Wild-4129fa248c57818d9cc4e7c0acbf770e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "ConnectedPapers-for-The-Web-Never-Forgets%3A-Persistent-Tracking-Mechanisms-in-the-Wild.bib",
+				"files": [
+					{
+						"path": "attachments/ND/NDFTS2GD/ConnectedPapers-for-The-Web-Never-Forgets%3A-Persistent-Tracking-Mechanisms-in-the-Wild.bib",
+						"size": 206,
+						"storage": "git"
+					}
+				],
+				"key": "NDFTS2GD",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "ConnectedPapers-for-The-Web-Never-Forgets%3A-Persistent-Tracking-Mechanisms-in-the-Wild",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "R7RPQIGK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/ConnectedPapers-for-The-Web-Never-Forgets-3A-Persistent-Tracking-Mechanisms-in-the-Wild-4129fa248c57818d9cc4e7c0acbf770e"
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "ConnectedPapers-for-The-Web-Never-Forgets%3A-Persistent-Tracking-Mechanisms-in-the-Wild",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/LGJSLJM4"
+	},
+	"zotero": {
+		"citationKey": "ConnectedPapersforTheWebNeverForgets3APersistentTrackingMechanismsintheWild",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:52Z",
+		"dateModified": "2026-11-13T19:34:48Z",
+		"itemType": "document",
+		"key": "LGJSLJM4",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/MHXDT2RW"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ConnectedPapers-for-The-Web-Never-Forgets%3A-Persistent-Tracking-Mechanisms-in-the-Wild"
+	}
+}

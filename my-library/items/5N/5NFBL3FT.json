@@ -1,0 +1,136 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:49:34Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:49:34Z",
+			"dateModified": "2026-01-01T23:49:34Z",
+			"filename": "Roehl and Conrad - 2023 - Algorithmic bureaucracy and its paradoxes A case study of the German public employment service.pdf",
+			"itemType": "attachment",
+			"key": "DYSS3VFG",
+			"linkMode": "imported_url",
+			"parentItem": "5NFBL3FT",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ntwe.12255"
+		},
+		{
+			"accessDate": "2025-12-05T22:26:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:53Z",
+			"dateModified": "2026-11-09T17:05:19Z",
+			"itemType": "attachment",
+			"key": "WIPMZBWI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:19 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "5NFBL3FT",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/8GQNQ8DT"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/KCBPJV9J"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Roehl-and-Conrad-2023-4129fa248c5781438e2fc7e39150c2ee"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Roehl and Conrad - 2023 - Algorithmic bureaucracy and its paradoxes A case study of the German public employment service.pdf",
+				"files": [
+					{
+						"path": "attachments/DY/DYSS3VFG/Roehl and Conrad - 2023 - Algorithmic bureaucracy and its paradoxes A case study of the German public employment service.pdf",
+						"size": 286664,
+						"storage": "git"
+					}
+				],
+				"key": "DYSS3VFG",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ntwe.12255"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WIPMZBWI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Roehl-and-Conrad-2023-4129fa248c5781438e2fc7e39150c2ee"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Roehl, Tobias",
+			"Conrad, Lilli"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmic bureaucracy and its paradoxes: A case study of the German public employment service",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/5NFBL3FT"
+	},
+	"zotero": {
+		"DOI": "10.1111/ntwe.12255",
+		"citationKey": "roehlAlgorithmicBureaucracyIts2023",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Tobias",
+				"lastName": "Roehl"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lilli",
+				"lastName": "Conrad"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-13T19:31:18Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"key": "5NFBL3FT",
+		"pages": "1–20",
+		"publicationTitle": "New Technology, Work and Employment",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/6IMBAMC5",
+				"http://zotero.org/users/15425556/items/CTHJGH5S"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/IWZK5HJ3"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmic bureaucracy and its paradoxes: A case study of the German public employment service",
+		"volume": "38"
+	}
+}

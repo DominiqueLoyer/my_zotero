@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:17Z",
+			"dateModified": "2026-01-08T22:57:43Z",
+			"filename": "custom 1.bib",
+			"itemType": "attachment",
+			"key": "NH67352F",
+			"linkMode": "imported_file",
+			"parentItem": "5GWCBYWP",
+			"relations": {},
+			"tags": [],
+			"title": "custom 1"
+		},
+		{
+			"accessDate": "2026-01-16T15:53:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:24Z",
+			"dateModified": "2026-11-09T17:06:52Z",
+			"itemType": "attachment",
+			"key": "TYF2Z798",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:52 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "5GWCBYWP",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LHF3JJUX"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/custom-1-4129fa248c5781829e21c8d314e1cf92"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "custom 1.bib",
+				"files": [
+					{
+						"path": "attachments/NH/NH67352F/custom 1.bib",
+						"size": 11024,
+						"storage": "git"
+					}
+				],
+				"key": "NH67352F",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "custom 1",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TYF2Z798",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/custom-1-4129fa248c5781829e21c8d314e1cf92"
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "custom 1",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/5GWCBYWP"
+	},
+	"zotero": {
+		"DOI": "10.5040/9781623562953.01927",
+		"citationKey": "Custom1",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:43Z",
+		"dateModified": "2026-11-13T19:35:15Z",
+		"itemType": "document",
+		"key": "5GWCBYWP",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/FFB7QLW9"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "custom 1"
+	}
+}

@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "LZ6DSDTW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:19 p.m.</p>",
+			"parentItem": "E2HBXPK6",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Kulynych2021-2e29fa248c5781328f4bdb436a88575f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LZ6DSDTW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Kulynych2021-2e29fa248c5781328f4bdb436a88575f"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Kulynych, Bogdan",
+			"Majo, Patrick",
+			"Posch, Moritz",
+			"Slish, Walter",
+			"Wieringa, Maranke"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Twitter's image cropping algorithm: A case study in algorithmic bias and accountability",
+		"year": "2021",
+		"zoteroURI": "zotero://select/groups/6376680/items/E2HBXPK6"
+	},
+	"zotero": {
+		"citationKey": "kulynychTwittersImageCropping2021a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Bogdan",
+				"lastName": "Kulynych"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Patrick",
+				"lastName": "Majo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Moritz",
+				"lastName": "Posch"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Walter",
+				"lastName": "Slish"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Maranke",
+				"lastName": "Wieringa"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:09Z",
+		"itemType": "journalArticle",
+		"key": "E2HBXPK6",
+		"publicationTitle": "arXiv preprint arXiv:2108.05283",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Twitter's image cropping algorithm: A case study in algorithmic bias and accountability",
+		"url": "https://arxiv.org/abs/2108.05283"
+	}
+}

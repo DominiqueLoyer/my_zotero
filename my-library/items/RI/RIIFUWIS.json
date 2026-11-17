@@ -1,0 +1,192 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:31:34Z",
+			"dateModified": "2026-03-14T17:39:24Z",
+			"itemType": "attachment",
+			"key": "4QXG8X9F",
+			"linkMode": "linked_file",
+			"parentItem": "RIIFUWIS",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401_ic_/PDFs/Cao et al. - 2023 - A Comprehensive Survey of AI-Generated Content (AIGC) A History of Generative AI from GAN to ChatGP.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-03-14T17:39:23Z",
+			"dateModified": "2026-03-14T17:39:23Z",
+			"itemType": "note",
+			"key": "M53Q2ZEC",
+			"note": "Comment: 44 pages, 15 figures",
+			"parentItem": "RIIFUWIS",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/77ZQDV6A"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-03-14T18:17:50Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:50Z",
+			"dateModified": "2026-11-09T17:04:31Z",
+			"itemType": "attachment",
+			"key": "N78NBVKA",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:31 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "RIIFUWIS",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/DGFN2PFX"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Cao-et-al-2023-4129fa248c57813a86f2e9b17b06fe42"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "N78NBVKA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Cao-et-al-2023-4129fa248c57813a86f2e9b17b06fe42"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Cao et al. - 2023 - A Comprehensive Survey of AI-Generated Content (AIGC) A History of Generative AI from GAN to ChatGP.pdf",
+				"files": [
+					{
+						"path": "attachments/4Q/4QXG8X9F/Cao et al. - 2023 - A Comprehensive Survey of AI-Generated Content (AIGC) A History of Generative AI from GAN to ChatGP.pdf",
+						"size": 2738271,
+						"storage": "git"
+					}
+				],
+				"key": "4QXG8X9F",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Cao, Yihan",
+			"Li, Siyu",
+			"Liu, Yixin",
+			"Yan, Zhiling",
+			"Dai, Yutong",
+			"Yu, Philip S.",
+			"Sun, Lichao"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "M53Q2ZEC",
+				"title": "Comment: 44 pages, 15 figures"
+			}
+		],
+		"title": "A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/RIIFUWIS"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2303.04226",
+		"abstractNote": "Recently, ChatGPT, along with DALL-E-2 and Codex,has been gaining significant attention from society. As a result, many individuals have become interested in related resources and are seeking to uncover the background and secrets behind its impressive performance. In fact, ChatGPT and other Generative AI (GAI) techniques belong to the category of Artificial Intelligence Generated Content (AIGC), which involves the creation of digital content, such as images, music, and natural language, through AI models. The goal of AIGC is to make the content creation process more efficient and accessible, allowing for the production of high-quality content at a faster pace. AIGC is achieved by extracting and understanding intent information from instructions provided by human, and generating the content according to its knowledge and the intent information. In recent years, large-scale models have become increasingly important in AIGC as they provide better intent extraction and thus, improved generation results. With the growth of data and the size of the models, the distribution that the model can learn becomes more comprehensive and closer to reality, leading to more realistic and high-quality content generation. This survey provides a comprehensive review on the history of generative models, and basic components, recent advances in AIGC from unimodal interaction and multimodal interaction. From the perspective of unimodality, we introduce the generation tasks and relative models of text and image. From the perspective of multimodality, we introduce the cross-application between the modalities mentioned above. Finally, we discuss the existing open problems and future challenges in AIGC.",
+		"accessDate": "2026-03-14T17:39:23Z",
+		"archiveID": "arXiv:2303.04226",
+		"citationKey": "caoComprehensiveSurveyAIGenerated2023",
+		"collections": [
+			"U5GGZRY8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Yihan",
+				"lastName": "Cao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Siyu",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yixin",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhiling",
+				"lastName": "Yan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yutong",
+				"lastName": "Dai"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Philip S.",
+				"lastName": "Yu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lichao",
+				"lastName": "Sun"
+			}
+		],
+		"date": "2023-03-07",
+		"dateAdded": "2026-03-14T17:39:23Z",
+		"dateModified": "2026-11-13T19:29:05Z",
+		"extra": "arXiv:2303.04226 [cs]",
+		"itemType": "preprint",
+		"key": "RIIFUWIS",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/B3XC85RY"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "A Comprehensive Survey of AI-Generated Content (AIGC)",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT",
+		"url": "http://arxiv.org/abs/2303.04226"
+	}
+}

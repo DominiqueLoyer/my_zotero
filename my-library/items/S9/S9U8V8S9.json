@@ -1,0 +1,144 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:31:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:31:21Z",
+			"dateModified": "2026-11-09T17:08:38Z",
+			"inPublications": true,
+			"itemType": "attachment",
+			"key": "AFNE49IT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:38 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "S9U8V8S9",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/EIMJ2R6S"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-4129fa248c57813da7eff477a695cb64"
+		},
+		{
+			"dateAdded": "2026-01-09T19:31:43Z",
+			"dateModified": "2026-01-09T19:31:43Z",
+			"itemType": "note",
+			"key": "D3FWZEFU",
+			"note": "",
+			"parentItem": "S9U8V8S9",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/RKLIC9YD"
+				]
+			},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-11-29T21:17:01Z",
+			"dateModified": "2025-11-29T21:17:07Z",
+			"filename": "Loyer - Examen général de doctorat en informatique cognitive (DIC-9401).pdf",
+			"inPublications": true,
+			"itemType": "attachment",
+			"key": "VNVTZP9T",
+			"linkMode": "imported_file",
+			"parentItem": "S9U8V8S9",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "AFNE49IT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-4129fa248c57813da7eff477a695cb64"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer - Examen général de doctorat en informatique cognitive (DIC-9401).pdf",
+				"files": [
+					{
+						"path": "attachments/VN/VNVTZP9T/Loyer - Examen général de doctorat en informatique cognitive (DIC-9401).pdf",
+						"size": 2191211,
+						"storage": "git"
+					}
+				],
+				"key": "VNVTZP9T",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/présentation 26nov 2025"
+		],
+		"creators": [
+			"Loyer, Dominique"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "D3FWZEFU",
+				"title": "Note"
+			}
+		],
+		"title": "Examen général de doctorat en informatique cognitive (DIC-9401)",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/S9U8V8S9"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.28011.20002",
+		"ISSN": "978-1-0699904-0-2",
+		"citationKey": "loyerExamenGeneralDoctorat2025",
+		"collections": [
+			"YVRY5A7K"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2025-11-29T21:17:06Z",
+		"dateModified": "2026-11-17T15:07:42Z",
+		"extra": "titleTranslation: Doctoral Comprehensive Examination in Cognitive Computing (DIC-9401)",
+		"inPublications": true,
+		"itemType": "journalArticle",
+		"key": "S9U8V8S9",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"pages": "64",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/9CWMGI5I"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Examen général de doctorat en informatique cognitive (DIC-9401)"
+	}
+}

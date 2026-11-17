@@ -1,0 +1,124 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:12:33Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:12:33Z",
+			"dateModified": "2026-11-09T15:03:45Z",
+			"filename": "Mikolov, Tomas and Chen, Kai and Corrado, Greg S. and Dean, Jeffrey - 2020 - Efficient Estimation of Word Representations in Vector Space.pdf",
+			"itemType": "attachment",
+			"key": "9USN3LKP",
+			"linkMode": "imported_url",
+			"parentItem": "KXJSCJPX",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/ABG2G5EE",
+					"http://zotero.org/users/15425556/items/E9GYEXMW",
+					"http://zotero.org/users/15425556/items/MMSEGNNR",
+					"http://zotero.org/users/15425556/items/ZZQC9CQG"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://www.nepjol.info/index.php/jiee/article/download/34327/26997"
+		},
+		{
+			"accessDate": "2026-11-08T16:12:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:12:42Z",
+			"dateModified": "2026-11-09T17:08:07Z",
+			"itemType": "attachment",
+			"key": "IQRDSYXT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:07 p.m.</p>",
+			"parentItem": "KXJSCJPX",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Mikolov-Tomas-and-Chen-Kai-and-Corrado-Greg-S-and-Dean-Jeffrey-2020-4129fa248c5781078828d5cf2c0691a4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Mikolov, Tomas and Chen, Kai and Corrado, Greg S. and Dean, Jeffrey - 2020 - Efficient Estimation of Word Representations in Vector Space.pdf",
+				"files": [
+					{
+						"path": "attachments/9U/9USN3LKP/Mikolov, Tomas and Chen, Kai and Corrado, Greg S. and Dean, Jeffrey - 2020 - Efficient Estimation of Word Representations in Vector Space.pdf",
+						"size": 566287,
+						"storage": "git"
+					}
+				],
+				"key": "9USN3LKP",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://www.nepjol.info/index.php/jiee/article/download/34327/26997"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IQRDSYXT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Mikolov-Tomas-and-Chen-Kai-and-Corrado-Greg-S-and-Dean-Jeffrey-2020-4129fa248c5781078828d5cf2c0691a4"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Mikolov, Tomas and Chen, Kai and Corrado, Greg S. and Dean, Jeffrey"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Efficient Estimation of Word Representations in Vector Space",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/KXJSCJPX"
+	},
+	"zotero": {
+		"DOI": "10.3126/jiee.v3i1.34327",
+		"citationKey": "mikolovtomasandchenkaiandcorradogregs.anddeanjeffreyEfficientEstimationWord2020",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Mikolov, Tomas and Chen, Kai and Corrado, Greg S. and Dean, Jeffrey"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-02-26T20:20:22Z",
+		"dateModified": "2026-11-09T15:03:45Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "KXJSCJPX",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/64ZQBSSD",
+				"http://zotero.org/users/15425556/items/F2UEJJNV",
+				"http://zotero.org/users/15425556/items/UVCBWG55",
+				"http://zotero.org/users/15425556/items/WZFTC9KI"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/62GEEQY3"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Efficient Estimation of Word Representations in Vector Space"
+	}
+}

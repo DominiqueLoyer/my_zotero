@@ -1,0 +1,131 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:43Z",
+			"dateModified": "2026-11-09T17:04:59Z",
+			"itemType": "attachment",
+			"key": "8IEEXZYC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:59 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VTFAEEUT",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/E8X6MLJA"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3AF5XQR4",
+					"http://zotero.org/groups/6376680/items/8WQ37B65",
+					"http://zotero.org/groups/6376680/items/QNPMYS9Y",
+					"http://zotero.org/groups/6376680/items/T8DDA7HD"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lundberg-Scott-M-and-Lee-Su-In-2023-4129fa248c5781e5b1f8ff56cc77d69e"
+		},
+		{
+			"accessDate": "2026-11-08T16:24:06Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:24:06Z",
+			"dateModified": "2026-11-09T15:06:58Z",
+			"filename": "Lundberg, Scott M. and Lee, Su-In - 2023 - A Unified Approach to Interpreting Model Predictions.pdf",
+			"itemType": "attachment",
+			"key": "S5JVFUC3",
+			"linkMode": "imported_url",
+			"parentItem": "VTFAEEUT",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/KIG4QCUJ"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/2023.findings-acl.286.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Lundberg, Scott M. and Lee, Su-In - 2023 - A Unified Approach to Interpreting Model Predictions.pdf",
+				"files": [
+					{
+						"path": "attachments/S5/S5JVFUC3/Lundberg, Scott M. and Lee, Su-In - 2023 - A Unified Approach to Interpreting Model Predictions.pdf",
+						"size": 1343672,
+						"storage": "git"
+					}
+				],
+				"key": "S5JVFUC3",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/2023.findings-acl.286.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8IEEXZYC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lundberg-Scott-M-and-Lee-Su-In-2023-4129fa248c5781e5b1f8ff56cc77d69e"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Lundberg, Scott M. and Lee, Su-In"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Unified Approach to Interpreting Model Predictions",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/VTFAEEUT"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2023.findings-acl.286",
+		"citationKey": "lundbergscottm.andleesu-inUnifiedApproachInterpreting2023",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lundberg, Scott M. and Lee, Su-In"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-02-25T20:55:03Z",
+		"dateModified": "2026-11-13T19:30:30Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "VTFAEEUT",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/8EFKIXDZ"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4S4ZH563",
+				"http://zotero.org/groups/6376680/items/9SVLXM6T",
+				"http://zotero.org/groups/6376680/items/IQG9THLB",
+				"http://zotero.org/groups/6376680/items/V8F72G33"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Unified Approach to Interpreting Model Predictions"
+	}
+}

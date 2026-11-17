@@ -1,0 +1,130 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-01-08T20:07:33Z",
+			"dateModified": "2026-01-08T20:07:33Z",
+			"itemType": "note",
+			"key": "AGISWV35",
+			"note": "Lien brisé. Consulté le 10 octobre 2025",
+			"parentItem": "5CQTVC5U",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6KKJKP7J"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-08T20:07:33Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:07:33Z",
+			"dateModified": "2026-01-08T20:07:33Z",
+			"itemType": "attachment",
+			"key": "GZ2FEHVA",
+			"linkMode": "linked_url",
+			"parentItem": "5CQTVC5U",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/MDR66XKG"
+				]
+			},
+			"tags": [],
+			"title": "archiveweb",
+			"url": "https://web.archive.org/web/20211010123456/https://virusland.org/colloque-2/"
+		},
+		{
+			"accessDate": "2026-01-08T20:36:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:36:48Z",
+			"dateModified": "2026-03-09T20:52:29Z",
+			"itemType": "attachment",
+			"key": "IAMR3VP3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:29 p.m.</p>",
+			"parentItem": "5CQTVC5U",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/8X59JUNL"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/rybn2021telecommuters-2e29fa248c5781a58ef1d7d93c60eaa6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GZ2FEHVA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "archiveweb",
+				"url": "https://web.archive.org/web/20211010123456/https://virusland.org/colloque-2/"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IAMR3VP3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/rybn2021telecommuters-2e29fa248c5781a58ef1d7d93c60eaa6"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"RYBN.ORG"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "AGISWV35",
+				"title": "Lien brisé. Consulté le 10 octobre 2025"
+			}
+		],
+		"title": "Telecommuters",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/5CQTVC5U"
+	},
+	"zotero": {
+		"citationKey": "rybn.orgTelecommuters2021a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "RYBN.ORG"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-01-08T20:07:33Z",
+		"dateModified": "2026-03-25T21:30:32Z",
+		"itemType": "document",
+		"key": "5CQTVC5U",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/56KIF969"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Telecommuters"
+	}
+}

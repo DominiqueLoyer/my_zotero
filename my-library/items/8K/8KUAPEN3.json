@@ -1,0 +1,167 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-01-08T20:07:34Z",
+			"dateModified": "2026-11-09T15:00:01Z",
+			"itemType": "note",
+			"key": "6N8MTSN4",
+			"note": "Publication originale en 1919",
+			"parentItem": "8KUAPEN3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/B6A6QI3T"
+				]
+			},
+			"tags": []
+		},
+		{
+			"dateAdded": "2026-01-08T20:10:54Z",
+			"dateModified": "2026-11-09T15:00:01Z",
+			"itemType": "note",
+			"key": "94ZBXF72",
+			"note": "Publication originale en 1919",
+			"parentItem": "8KUAPEN3",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"dateAdded": "2025-10-10T19:01:29Z",
+			"dateModified": "2025-10-10T19:01:29Z",
+			"itemType": "note",
+			"key": "N6J7YVAS",
+			"note": "<p>Publication originale en 1919</p>",
+			"parentItem": "8KUAPEN3",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:24:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:30Z",
+			"dateModified": "2026-11-09T15:00:01Z",
+			"itemType": "attachment",
+			"key": "U2LFL74Y",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:09:24 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-817d-a8ab-c871a1330420\",\"notes\":{\"N6J7YVAS\":{\"blockID\":\"2c09fa24-8c57-817f-8b49-c3c72da56f08\",\"syncedAt\":\"2025-12-05T22:38:30.345Z\"}}}</pre>",
+			"parentItem": "8KUAPEN3",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/YAJC2AEI"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/DKEVXEHG"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/weberSavantPolitique1959-2c09fa248c57817880d5c94b16d626ac"
+		},
+		{
+			"accessDate": "2026-01-08T20:33:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:33:54Z",
+			"dateModified": "2026-11-09T15:00:01Z",
+			"itemType": "attachment",
+			"key": "V5E7BPZZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:50:26 p.m.</p>",
+			"parentItem": "8KUAPEN3",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/weber1959savant-2e29fa248c578191abe9c3e0d2f7115a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "V5E7BPZZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/weber1959savant-2e29fa248c578191abe9c3e0d2f7115a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "U2LFL74Y",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/weberSavantPolitique1959-2c09fa248c57817880d5c94b16d626ac"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Weber, Max"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "94ZBXF72",
+				"title": "Publication originale en 1919"
+			},
+			{
+				"key": "6N8MTSN4",
+				"title": "Publication originale en 1919"
+			},
+			{
+				"key": "N6J7YVAS",
+				"title": "Publication originale en 1919"
+			}
+		],
+		"title": "Le Savant et le Politique",
+		"year": "1959",
+		"zoteroURI": "zotero://select/library/items/8KUAPEN3"
+	},
+	"zotero": {
+		"citationKey": "weberSavantPolitique1959",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Max",
+				"lastName": "Weber"
+			}
+		],
+		"date": "1959",
+		"dateAdded": "2025-10-10T19:01:29Z",
+		"dateModified": "2026-11-09T15:00:01Z",
+		"itemType": "book",
+		"key": "8KUAPEN3",
+		"publisher": "Plon",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/M5FYBDSP",
+				"http://zotero.org/users/15425556/items/Y7HXICXS"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/XEKPGXBH"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Le Savant et le Politique"
+	}
+}

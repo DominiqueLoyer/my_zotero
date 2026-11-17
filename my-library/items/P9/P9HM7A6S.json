@@ -1,0 +1,89 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:20Z",
+			"dateModified": "2026-01-02T19:14:02Z",
+			"itemType": "attachment",
+			"key": "38FX8K7P",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:14:02 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-81e1-99dd-f39cfffa77a2\",\"notes\":{\"UMNZPENU\":{\"blockID\":\"2c09fa24-8c57-8189-b0e8-fafa1a80b4bf\",\"syncedAt\":\"2025-12-05T22:38:48.566Z\"}}}</pre>",
+			"parentItem": "P9HM7A6S",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/towardsAI_NLP-2c09fa248c57818cb796d403ccc6a983"
+		},
+		{
+			"dateAdded": "2025-04-10T15:02:46Z",
+			"dateModified": "2025-04-10T15:02:46Z",
+			"itemType": "note",
+			"key": "UMNZPENU",
+			"note": "Accessed: 2025-04-09",
+			"parentItem": "P9HM7A6S",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "38FX8K7P",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/towardsAI_NLP-2c09fa248c57818cb796d403ccc6a983"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Anusha"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "UMNZPENU",
+				"title": "Accessed: 2025-04-09"
+			}
+		],
+		"title": "Natural language processing (NLP) with python – tutorial for beginners",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/P9HM7A6S"
+	},
+	"zotero": {
+		"citationKey": "anushaNaturalLanguageProcessing2021",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Anusha"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2025-04-10T15:02:46Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "document",
+		"key": "P9HM7A6S",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Natural language processing (NLP) with python – tutorial for beginners",
+		"url": "https://pub.towardsai.net/natural-language-processing-nlp-with-python-tutorial-for-beginners-1f54e610a1a0"
+	}
+}

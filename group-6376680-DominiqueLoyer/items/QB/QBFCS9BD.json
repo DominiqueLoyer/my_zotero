@@ -1,0 +1,73 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:35:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "EQFN59HG",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:22 p.m.</p>",
+			"parentItem": "QBFCS9BD",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Wiz2024-2e29fa248c5781b598f3f696e1eff0df"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EQFN59HG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Wiz2024-2e29fa248c5781b598f3f696e1eff0df"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Wiz"
+		],
+		"itemType": "document",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Data poisoning attacks explained",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/QBFCS9BD"
+	},
+	"zotero": {
+		"citationKey": "wizDataPoisoningAttacks2024a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Wiz"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "document",
+		"key": "QBFCS9BD",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Data poisoning attacks explained",
+		"url": "https://www.wiz.io/blog/data-poisoning-attacks-explained"
+	}
+}

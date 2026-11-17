@@ -1,0 +1,74 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:14Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-03-08T21:46:46Z",
+			"itemType": "attachment",
+			"key": "HXTS5TVB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:37:29 p.m.</p>",
+			"parentItem": "JUWVHMMW",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Schneider2019-3129fa248c578129888fe67a4a42c74c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HXTS5TVB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Schneider2019-3129fa248c578129888fe67a4a42c74c"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Schneider, Jan and Vlachos, Michalis"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Personalized Explanations for Machine Learning: A Conceptualization",
+		"year": "2019",
+		"zoteroURI": "zotero://select/groups/6376680/items/JUWVHMMW"
+	},
+	"zotero": {
+		"citationKey": "Schneider2019",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Schneider, Jan and Vlachos, Michalis"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-03-08T21:46:46Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "JUWVHMMW",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Personalized Explanations for Machine Learning: A Conceptualization",
+		"url": "https://aisel.aisnet.org/ecis2019_rp/156/"
+	}
+}

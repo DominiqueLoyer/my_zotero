@@ -1,0 +1,178 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:27:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:59Z",
+			"dateModified": "2026-01-02T19:18:20Z",
+			"itemType": "attachment",
+			"key": "JRU3QHDJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:20 p.m.</p>",
+			"parentItem": "PLME2FNH",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/22L6L67S"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/KKX78KCG"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/pasqualeBlackBoxSociety2015-2c09fa248c57812a8eaec5c22318f984"
+		},
+		{
+			"accessDate": "2024-11-02T18:44:38Z",
+			"charset": "",
+			"contentType": "text/html",
+			"dateAdded": "2024-11-02T18:44:38Z",
+			"dateModified": "2024-11-02T18:44:38Z",
+			"itemType": "attachment",
+			"key": "YHCVDMUU",
+			"linkMode": "linked_url",
+			"parentItem": "PLME2FNH",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LDDTXH9V"
+				]
+			},
+			"tags": [],
+			"title": "Google Books Link",
+			"url": "https://books.google.ca/books?id=TumaBQAAQBAJ"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": null,
+				"files": [],
+				"key": "YHCVDMUU",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Google Books Link",
+				"url": "https://books.google.ca/books?id=TumaBQAAQBAJ"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JRU3QHDJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/pasqualeBlackBoxSociety2015-2c09fa248c57812a8eaec5c22318f984"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"Examen doctoral 9401(été25)/littératures",
+			"Ma thèse",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Black-Box",
+			"Ma thèse/Systematic review/ébauche"
+		],
+		"creators": [
+			"Pasquale, Frank"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The Black Box Society: The Secret Algorithms That Control Money and Information",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/PLME2FNH"
+	},
+	"zotero": {
+		"ISBN": "978-0-674-36827-9",
+		"abstractNote": "Every day, corporations are connecting the dots about our personal behavior—silently scrutinizing clues left behind by our work habits and Internet use. The data compiled and portraits created are incredibly detailed, to the point of being invasive. But who connects the dots about what firms are doing with this information? The Black Box Society argues that we all need to be able to do so—and to set limits on how big data affects our lives.Hidden algorithms can make (or ruin) reputations, decide the destiny of entrepreneurs, or even devastate an entire economy. Shrouded in secrecy and complexity, decisions at major Silicon Valley and Wall Street firms were long assumed to be neutral and technical. But leaks, whistleblowers, and legal disputes have shed new light on automated judgment. Self-serving and reckless behavior is surprisingly common, and easy to hide in code protected by legal and real secrecy. Even after billions of dollars of fines have been levied, underfunded regulators may have only scratched the surface of this troubling behavior.Frank Pasquale exposes how powerful interests abuse secrecy for profit and explains ways to rein them in. Demanding transparency is only the first step. An intelligible society would assure that key decisions of its most important firms are fair, nondiscriminatory, and open to criticism. Silicon Valley and Wall Street need to accept as much accountability as they impose on others.",
+		"citationKey": "pasqualeBlackBoxSociety2015d",
+		"collections": [
+			"GK26NQRP",
+			"J4VTG4NB",
+			"KMK2RY9F",
+			"NKV86EAI",
+			"RG2GUIMI",
+			"UXNH7MFL"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Frank",
+				"lastName": "Pasquale"
+			}
+		],
+		"date": "2015-01-05",
+		"dateAdded": "2024-11-02T18:44:38Z",
+		"dateModified": "2025-03-21T21:39:45Z",
+		"extra": "Google-Books-ID: TumaBQAAQBAJ",
+		"itemType": "book",
+		"key": "PLME2FNH",
+		"language": "en",
+		"libraryCatalog": "Google Books",
+		"numPages": "320",
+		"publisher": "Harvard University Press",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/C2AENIF6",
+				"http://zotero.org/users/15425556/items/NVFDJ47S"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/LVMSAFKC"
+			]
+		},
+		"shortTitle": "The Black Box Society",
+		"tags": [
+			{
+				"tag": "Black boxe"
+			},
+			{
+				"tag": "Computers / General",
+				"type": 1
+			},
+			{
+				"tag": "Law / Computer & Internet",
+				"type": 1
+			},
+			{
+				"tag": "Law / General",
+				"type": 1
+			},
+			{
+				"tag": "Law / Privacy",
+				"type": 1
+			},
+			{
+				"tag": "Philosophy / Epistemology",
+				"type": 1
+			},
+			{
+				"tag": "Psychology / General",
+				"type": 1
+			},
+			{
+				"tag": "Social Science / General",
+				"type": 1
+			},
+			{
+				"tag": "Social Science / Social Classes & Economic Disparity",
+				"type": 1
+			},
+			{
+				"tag": "Social Science / Sociology / Social Theory",
+				"type": 1
+			},
+			{
+				"tag": "blackbox"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Black Box Society: The Secret Algorithms That Control Money and Information"
+	}
+}

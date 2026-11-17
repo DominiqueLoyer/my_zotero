@@ -1,0 +1,144 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-10-15T19:07:50Z",
+			"dateModified": "2024-10-15T19:07:57Z",
+			"filename": "Agarwal et al. - Deep Reinforcement Learning at the Edge of the Statistical Precipice.pdf",
+			"itemType": "attachment",
+			"key": "GRUIGK3E",
+			"linkMode": "imported_file",
+			"parentItem": "JBS6WS8Z",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:37:51Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:51Z",
+			"dateModified": "2026-11-09T17:07:17Z",
+			"itemType": "attachment",
+			"key": "JPGY9XQZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:17 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "JBS6WS8Z",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Agarwal-et-al-4129fa248c578122ae3bee056ee06a66"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JPGY9XQZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Agarwal-et-al-4129fa248c578122ae3bee056ee06a66"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Agarwal et al. - Deep Reinforcement Learning at the Edge of the Statistical Precipice.pdf",
+				"files": [
+					{
+						"path": "attachments/GR/GRUIGK3E/Agarwal et al. - Deep Reinforcement Learning at the Edge of the Statistical Precipice.pdf",
+						"size": 10255284,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/GR/GRUIGK3E/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 70388,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/GR/GRUIGK3E/Agarwal et al. - Deep Reinforcement Learning at the Edge of the Statistical Precipice (trashed 2025-11-24 15-34-11).pdf",
+						"size": 10255284,
+						"storage": "git"
+					}
+				],
+				"key": "GRUIGK3E",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9270(A24)"
+		],
+		"creators": [
+			"Agarwal, Rishabh",
+			"Schwarzer, Max",
+			"Castro, Pablo Samuel",
+			"Courville, Aaron",
+			"Bellemare, Marc G"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/JBS6WS8Z"
+	},
+	"zotero": {
+		"abstractNote": "Deep reinforcement learning (RL) algorithms are predominantly evaluated by comparing their relative performance on a large suite of tasks. Most published results on deep RL benchmarks compare point estimates of aggregate performance such as mean and median scores across tasks, ignoring the statistical uncertainty implied by the use of a ﬁnite number of training runs. Beginning with the Arcade Learning Environment (ALE), the shift towards computationally-demanding benchmarks has led to the practice of evaluating only a small number of runs per task, exacerbating the statistical uncertainty in point estimates. In this paper, we argue that reliable evaluation in the few-run deep RL regime cannot ignore the uncertainty in results without running the risk of slowing down progress in the ﬁeld. We illustrate this point using a case study on the Atari 100k benchmark, where we ﬁnd substantial discrepancies between conclusions drawn from point estimates alone versus a more thorough statistical analysis. With the aim of increasing the ﬁeld’s conﬁdence in reported results with a handful of runs, we advocate for reporting interval estimates of aggregate performance and propose performance proﬁles to account for the variability in results, as well as present more robust and efﬁcient aggregate metrics, such as interquartile mean scores, to achieve small uncertainty in results. Using such statistical tools, we scrutinize performance evaluations of existing algorithms on other widely used RL benchmarks including the ALE, Procgen, and the DeepMind Control Suite, again revealing discrepancies in prior comparisons. Our ﬁndings call for a change in how we evaluate performance in deep RL, for which we present a more rigorous evaluation methodology, accompanied with an open-source library rliable2, to prevent unreliable results from stagnating the ﬁeld.",
+		"citationKey": "agarwalDeepReinforcementLearning",
+		"collections": [
+			"MKJPXVYB"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Rishabh",
+				"lastName": "Agarwal"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Max",
+				"lastName": "Schwarzer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pablo Samuel",
+				"lastName": "Castro"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aaron",
+				"lastName": "Courville"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Marc G",
+				"lastName": "Bellemare"
+			}
+		],
+		"dateAdded": "2024-10-15T19:07:57Z",
+		"dateModified": "2025-12-29T23:57:38Z",
+		"itemType": "journalArticle",
+		"key": "JBS6WS8Z",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice"
+	}
+}

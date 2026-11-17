@@ -1,0 +1,129 @@
+{
+	"children": [
+		{
+			"dateAdded": "2025-10-10T19:01:27Z",
+			"dateModified": "2025-10-10T19:01:27Z",
+			"itemType": "note",
+			"key": "DYKDXQNR",
+			"note": "<p>Source non vérifiable</p>",
+			"parentItem": "IILHAR75",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"dateAdded": "2026-01-08T20:07:32Z",
+			"dateModified": "2026-11-09T15:07:39Z",
+			"itemType": "note",
+			"key": "UJCNQKV4",
+			"note": "Source non vérifiable",
+			"parentItem": "IILHAR75",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/KN7ZVVEA"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:28:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:30Z",
+			"dateModified": "2026-11-09T17:06:26Z",
+			"itemType": "attachment",
+			"key": "WTTJEKSY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:26 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "IILHAR75",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/QQUFITWG"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3TS65XZD"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/NCDD-2024-4129fa248c5781dc9056dd191ca0051d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WTTJEKSY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/NCDD-2024-4129fa248c5781dc9056dd191ca0051d"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"NCDD"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "UJCNQKV4",
+				"title": "Source non vérifiable"
+			},
+			{
+				"key": "DYKDXQNR",
+				"title": "Source non vérifiable"
+			}
+		],
+		"title": "Collective Constitutional AI: A new approach to AI alignment",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/IILHAR75"
+	},
+	"zotero": {
+		"citationKey": "ncddCollectiveConstitutionalAI2024",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "NCDD"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-13T19:34:32Z",
+		"itemType": "document",
+		"key": "IILHAR75",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/N4HHX2PI",
+				"http://zotero.org/users/15425556/items/Y3HZBZX5"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/MHTKQPUN"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Collective Constitutional AI: A new approach to AI alignment",
+		"url": "https://www.ncdd.org/"
+	}
+}

@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:53:08Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:08Z",
+			"dateModified": "2026-11-09T17:08:51Z",
+			"itemType": "attachment",
+			"key": "2UHT7QW5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:51 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "8NDW5W47",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/SX63RKNV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/exportTous_23nov24-1-4129fa248c57819788f6d915986a89f5"
+		},
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:11Z",
+			"dateModified": "2026-01-08T22:57:48Z",
+			"filename": "exportTous_23nov24 1.bib",
+			"itemType": "attachment",
+			"key": "P28J52E4",
+			"linkMode": "imported_file",
+			"parentItem": "8NDW5W47",
+			"relations": {},
+			"tags": [],
+			"title": "exportTous_23nov24 1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "exportTous_23nov24 1.bib",
+				"files": [
+					{
+						"path": "attachments/P2/P28J52E4/exportTous_23nov24 1.bib",
+						"size": 33203,
+						"storage": "git"
+					}
+				],
+				"key": "P28J52E4",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "exportTous_23nov24 1",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2UHT7QW5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/exportTous_23nov24-1-4129fa248c57819788f6d915986a89f5"
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "exportTous_23nov24 1",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/8NDW5W47"
+	},
+	"zotero": {
+		"citationKey": "ExportTous_23nov241",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:48Z",
+		"dateModified": "2026-01-16T15:53:08Z",
+		"itemType": "document",
+		"key": "8NDW5W47",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4LN6W7QA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "exportTous_23nov24 1"
+	}
+}

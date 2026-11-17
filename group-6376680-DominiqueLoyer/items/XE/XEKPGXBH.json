@@ -1,0 +1,90 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "note",
+			"key": "B6A6QI3T",
+			"note": "Publication originale en 1919",
+			"parentItem": "XEKPGXBH",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-08T20:35:44Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "DKEVXEHG",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:29 p.m.</p>",
+			"parentItem": "XEKPGXBH",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/weber1959savant-2e29fa248c5781dd948be78aeaf18859"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "DKEVXEHG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/weber1959savant-2e29fa248c5781dd948be78aeaf18859"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Weber, Max"
+		],
+		"itemType": "book",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "B6A6QI3T",
+				"title": "Publication originale en 1919"
+			}
+		],
+		"title": "Le savant et le politique",
+		"year": "1959",
+		"zoteroURI": "zotero://select/groups/6376680/items/XEKPGXBH"
+	},
+	"zotero": {
+		"citationKey": "weberSavantPolitique1959a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Max",
+				"lastName": "Weber"
+			}
+		],
+		"date": "1959",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "book",
+		"key": "XEKPGXBH",
+		"language": "fr-CA",
+		"publisher": "Plon",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Le savant et le politique"
+	}
+}

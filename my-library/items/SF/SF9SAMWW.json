@@ -1,0 +1,111 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-09T21:18:48Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2026-01-09T21:18:48Z",
+			"dateModified": "2026-01-09T21:18:48Z",
+			"filename": "vpn.html",
+			"itemType": "attachment",
+			"key": "4SWIMY5H",
+			"linkMode": "imported_url",
+			"parentItem": "SF9SAMWW",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://www.mozilla.org/en-US/products/vpn/"
+		},
+		{
+			"accessDate": "2026-01-16T15:52:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:52:06Z",
+			"dateModified": "2026-11-09T17:09:12Z",
+			"itemType": "attachment",
+			"key": "5VYH5U7C",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:12 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "SF9SAMWW",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/5DYNQ2F4"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Get-Mozilla-VPN-Mozilla-US-4129fa248c57811d85f6e711c4485a50"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5VYH5U7C",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Get-Mozilla-VPN-Mozilla-US-4129fa248c57811d85f6e711c4485a50"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "vpn.html",
+				"files": [
+					{
+						"path": "attachments/4S/4SWIMY5H/vpn.html",
+						"size": 559453,
+						"storage": "git"
+					}
+				],
+				"key": "4SWIMY5H",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://www.mozilla.org/en-US/products/vpn/"
+			}
+		],
+		"collections": [
+			"mes papiers et beamers"
+		],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Get Mozilla VPN — Mozilla (US)",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/SF9SAMWW"
+	},
+	"zotero": {
+		"abstractNote": "Use Mozilla VPN for full-device protection for all apps. With servers in 57+ countries, you can connect to anywhere, from anywhere.",
+		"accessDate": "2026-01-09T21:18:42Z",
+		"citationKey": "GetMozillaVPN",
+		"collections": [
+			"GXLPXWSC"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-09T21:18:42Z",
+		"dateModified": "2026-02-05T00:04:28Z",
+		"extra": "abstractTranslation: Use Mozilla VPN for full-device protection for all apps. With servers in 57+ countries, you can connect to anywhere, from anywhere.\ntitleTranslation: Get Mozilla VPN — Mozilla (US)",
+		"itemType": "webpage",
+		"key": "SF9SAMWW",
+		"language": "en",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4TFPMBK4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Get Mozilla VPN — Mozilla (US)",
+		"url": "https://www.mozilla.org/en-US/products/vpn/",
+		"websiteTitle": "Mozilla"
+	}
+}

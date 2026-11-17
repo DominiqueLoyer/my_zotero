@@ -1,0 +1,110 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:35:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "XV59IMUS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:34 p.m.</p>",
+			"parentItem": "GWQPJ72W",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Wang2024-2e29fa248c578147bd42daad146caf79"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XV59IMUS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Wang2024-2e29fa248c578147bd42daad146caf79"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Wang, Chen",
+			"Lim, Kian-Huat",
+			"Ng, See-Kiong",
+			"Wang, Yiling",
+			"Liu, Yang",
+			"Bhowmick, Sourav S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A survey on large language models for recommendation systems",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/GWQPJ72W"
+	},
+	"zotero": {
+		"citationKey": "wangSurveyLargeLanguage2024a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Chen",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kian-Huat",
+				"lastName": "Lim"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "See-Kiong",
+				"lastName": "Ng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yiling",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yang",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sourav S.",
+				"lastName": "Bhowmick"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:13Z",
+		"itemType": "journalArticle",
+		"key": "GWQPJ72W",
+		"language": "fr-CA",
+		"publicationTitle": "arXiv preprint arXiv:2402.01030",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "A survey on large language models for recommendation systems",
+		"url": "https://arxiv.org/abs/2402.01030"
+	}
+}

@@ -1,0 +1,114 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:30:44Z",
+			"dateModified": "2025-03-31T18:49:52Z",
+			"filename": "UC-detaille-ex-3.pdf",
+			"itemType": "attachment",
+			"key": "5PQXXXL5",
+			"linkMode": "imported_file",
+			"parentItem": "C5JCUSZC",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:25:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:11Z",
+			"dateModified": "2026-01-02T19:15:03Z",
+			"itemType": "attachment",
+			"key": "UUQ2LQWM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:03 p.m.</p>",
+			"parentItem": "C5JCUSZC",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/UCdetailleex3-2c09fa248c57811a82d3f4b027a92b6b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UUQ2LQWM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/UCdetailleex3-2c09fa248c57811a82d3f4b027a92b6b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "UC-detaille-ex-3.pdf",
+				"files": [
+					{
+						"path": "attachments/5P/5PQXXXL5/UC-detaille-ex-3.pdf",
+						"size": 124120,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/5P/5PQXXXL5/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 1420,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/5P/5PQXXXL5/UC-detaille-ex-3 (trashed 2025-11-24 15-34-09).pdf",
+						"size": 124120,
+						"storage": "git"
+					}
+				],
+				"key": "5PQXXXL5",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "UC-detaille-ex-3",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/C5JCUSZC"
+	},
+	"zotero": {
+		"citationKey": "lounishakimUCdetailleex3",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:49:49Z",
+		"dateModified": "2025-03-31T18:50:36Z",
+		"itemType": "document",
+		"key": "C5JCUSZC",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "UC-detaille-ex-3"
+	}
+}

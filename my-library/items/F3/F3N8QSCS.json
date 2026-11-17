@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:34:51Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:34:51Z",
+			"dateModified": "2026-03-09T20:34:51Z",
+			"itemType": "attachment",
+			"key": "6Z24R9AJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:34:51 p.m.</p>",
+			"parentItem": "F3N8QSCS",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/NLLB2025No-31e9fa248c57819a8cfafcd34a00252f"
+		},
+		{
+			"accessDate": "2026-11-08T16:16:29Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:16:29Z",
+			"dateModified": "2026-11-08T16:16:29Z",
+			"filename": "NLLB Team - 2025 - No Language Left Behind Scaling Human-Centered Machine Translation.pdf",
+			"itemType": "attachment",
+			"key": "SMBK5M5M",
+			"linkMode": "imported_url",
+			"parentItem": "F3N8QSCS",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://journal.lembagakita.com/ijsecs/article/download/4105/3361"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "NLLB Team - 2025 - No Language Left Behind Scaling Human-Centered Machine Translation.pdf",
+				"files": [
+					{
+						"path": "attachments/SM/SMBK5M5M/NLLB Team - 2025 - No Language Left Behind Scaling Human-Centered Machine Translation.pdf",
+						"size": 550213,
+						"storage": "git"
+					}
+				],
+				"key": "SMBK5M5M",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://journal.lembagakita.com/ijsecs/article/download/4105/3361"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "6Z24R9AJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/NLLB2025No-31e9fa248c57819a8cfafcd34a00252f"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"NLLB Team"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "No Language Left Behind: Scaling Human-Centered Machine Translation",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/F3N8QSCS"
+	},
+	"zotero": {
+		"DOI": "10.35870/ijsecs.v5i2.4105",
+		"citationKey": "nllbteamNoLanguageLeft2025",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "NLLB Team"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-03-05T00:55:24Z",
+		"dateModified": "2026-03-25T21:29:00Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "F3N8QSCS",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "No Language Left Behind: Scaling Human-Centered Machine Translation"
+	}
+}

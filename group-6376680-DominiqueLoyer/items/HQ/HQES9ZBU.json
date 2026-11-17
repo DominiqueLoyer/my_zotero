@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:23:32Z",
+			"dateModified": "2026-11-17T14:49:35Z",
+			"itemType": "attachment",
+			"key": "GM6H6D5C",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:29 p.m.</p>",
+			"parentItem": "HQES9ZBU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/DR7KJNBV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Sabou2020Semantics-31e9fa248c578121b512d71c9c9ba06c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GM6H6D5C",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Sabou2020Semantics-31e9fa248c578121b512d71c9c9ba06c"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Sabou, Marta and Biffl, Stefan and Einfalt, Andreas and Krammer, Lukas and Kastner, Wolfgang and Ekaputra, Fajar J."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Semantics for cyber-physical systems: A cross-domain perspective",
+		"year": "2020",
+		"zoteroURI": "zotero://select/groups/6376680/items/HQES9ZBU"
+	},
+	"zotero": {
+		"DOI": "10.3233/sw-190381",
+		"citationKey": "saboumartaandbifflstefanandeinfaltandreasandkrammerlukasandkastnerwolfgangandekaputrafajarj.SemanticsCyberphysicalSystems2020",
+		"collections": [
+			"JVLZZMAC"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Sabou, Marta and Biffl, Stefan and Einfalt, Andreas and Krammer, Lukas and Kastner, Wolfgang and Ekaputra, Fajar J."
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-04-17T21:23:32Z",
+		"dateModified": "2026-11-17T14:49:35Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "HQES9ZBU",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/LIUDUTKF"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Semantics for cyber-physical systems: A cross-domain perspective"
+	}
+}

@@ -1,0 +1,141 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:35:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:35:00Z",
+			"dateModified": "2026-11-09T17:07:50Z",
+			"itemType": "attachment",
+			"key": "IS9KCZZK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:50 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "DG8U8TA5",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/FQ5D4QIF"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3CSC88N7",
+					"http://zotero.org/groups/6376680/items/NGXGC8C8",
+					"http://zotero.org/groups/6376680/items/QRANEQA3"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Zuiderveen-Borgesius-and-others-2016-4129fa248c578155b0ded230a909d7b0"
+		},
+		{
+			"accessDate": "2026-11-08T16:12:23Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:12:23Z",
+			"dateModified": "2026-11-09T15:08:04Z",
+			"filename": "Zuiderveen Borgesius and others - 2016 - Discrimination, artificial intelligence, and algorithmic decision-making.pdf",
+			"itemType": "attachment",
+			"key": "RLDBEW33",
+			"linkMode": "imported_url",
+			"parentItem": "DG8U8TA5",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/5PEKPHFH"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://ora.ox.ac.uk/objects/uuid:684a91dd-faff-411a-8739-39d57734cab4/files/maef6c653b164b273c96b31731d245cce"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zuiderveen Borgesius and others - 2016 - Discrimination, artificial intelligence, and algorithmic decision-making.pdf",
+				"files": [
+					{
+						"path": "attachments/RL/RLDBEW33/Zuiderveen Borgesius and others - 2016 - Discrimination, artificial intelligence, and algorithmic decision-making.pdf",
+						"size": 278078,
+						"storage": "git"
+					}
+				],
+				"key": "RLDBEW33",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://ora.ox.ac.uk/objects/uuid:684a91dd-faff-411a-8739-39d57734cab4/files/maef6c653b164b273c96b31731d245cce"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IS9KCZZK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Zuiderveen-Borgesius-and-others-2016-4129fa248c578155b0ded230a909d7b0"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"references_dic9401"
+		],
+		"creators": [
+			"Zuiderveen Borgesius, Frederik",
+			"others"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Discrimination, artificial intelligence, and algorithmic decision-making",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/DG8U8TA5"
+	},
+	"zotero": {
+		"DOI": "10.1177/2053951716679679",
+		"citationKey": "zuiderveenborgesiusDiscriminationArtificialIntelligence2016",
+		"collections": [
+			"F9TGXIMY",
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Frederik",
+				"lastName": "Zuiderveen Borgesius"
+			},
+			{
+				"creatorType": "author",
+				"name": "others"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-01-08T20:07:34Z",
+		"dateModified": "2026-11-09T15:08:04Z",
+		"issue": "2",
+		"itemType": "journalArticle",
+		"key": "DG8U8TA5",
+		"language": "fr-CA",
+		"pages": "2053951716679679",
+		"publicationTitle": "Big Data & Society",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/PETZTDRN"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/BD882YYV",
+				"http://zotero.org/groups/6376680/items/I7QNKKKP",
+				"http://zotero.org/groups/6376680/items/MDDVZJ2S"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Discrimination, artificial intelligence, and algorithmic decision-making",
+		"volume": "3"
+	}
+}

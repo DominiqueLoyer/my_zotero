@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "6XXQLW7G",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:41 p.m.</p>",
+			"parentItem": "K25QX9DB",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerCogitoErgoEs2024-2e29fa248c5781caa700fd851784b1b8"
+		},
+		{
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "note",
+			"key": "DC8KKTC5",
+			"note": "Permission de récupération demandée au Professeur Serge Robert",
+			"parentItem": "K25QX9DB",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "6XXQLW7G",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerCogitoErgoEs2024-2e29fa248c5781caa700fd851784b1b8"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Loyer, Dominique"
+		],
+		"itemType": "report",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "DC8KKTC5",
+				"title": "Permission de récupération demandée au Professeur Serge Robert"
+			}
+		],
+		"title": "Cogito ergo es",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/K25QX9DB"
+	},
+	"zotero": {
+		"citationKey": "loyerCogitoErgoEs2024",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"institution": "UQAM",
+		"itemType": "report",
+		"key": "K25QX9DB",
+		"language": "fr-CA",
+		"place": "Montréal",
+		"relations": {},
+		"reportType": "Rapport de recherche",
+		"tags": [
+			{
+				"tag": "Cogito ergo sum"
+			},
+			{
+				"tag": "Descarte"
+			},
+			{
+				"tag": "Russell Stuart et Norvig Peter. (2015). Artificial"
+			},
+			{
+				"tag": "intelligence : A modern approach"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Cogito ergo es"
+	}
+}

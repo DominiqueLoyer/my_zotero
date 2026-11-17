@@ -1,0 +1,155 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:28:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "attachment",
+			"key": "9TT8TYQF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:53 p.m.</p>",
+			"parentItem": "77FACHIE",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/paganoBiasUnfairnessMachine2023-2c09fa248c5781068baafe0d8594cdb6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9TT8TYQF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/paganoBiasUnfairnessMachine2023-2c09fa248c5781068baafe0d8594cdb6"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Pagano, Tiago P.",
+			"Loureiro, Rafael B.",
+			"Lisboa, Fernanda V. N.",
+			"Peixoto, Rodrigo M.",
+			"Guimarães, Guilherme A. S.",
+			"Cruz, Gustavo O. R.",
+			"Araujo, Maira M.",
+			"Santos, Lucas L.",
+			"Cruz, Marco A. S.",
+			"Oliveira, Ewerton L. S.",
+			"Winkler, Ingrid",
+			"Nascimento, Erick G. S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Bias and Unfairness in Machine Learning Models: A Systematic Review on Datasets, Tools, Fairness Metrics, and Identification and Mitigation Methods",
+		"year": "2023",
+		"zoteroURI": "zotero://select/groups/6376680/items/77FACHIE"
+	},
+	"zotero": {
+		"DOI": "10.3390/bdcc7010015",
+		"ISSN": "2504-2289",
+		"abstractNote": "One of the difficulties of artificial intelligence is to ensure that model decisions are fair and free of bias. In research, datasets, metrics, techniques, and tools are applied to detect and mitigate algorithmic unfairness and bias. This study examines the current knowledge on bias and unfairness in machine learning models. The systematic review followed the PRISMA guidelines and is registered on OSF plataform. The search was carried out between 2021 and early 2022 in the Scopus, IEEE Xplore, Web of Science, and Google Scholar knowledge bases and found 128 articles published between 2017 and 2022, of which 45 were chosen based on search string optimization and inclusion and exclusion criteria. We discovered that the majority of retrieved works focus on bias and unfairness identification and mitigation techniques, offering tools, statistical approaches, important metrics, and datasets typically used for bias experiments. In terms of the primary forms of bias, data, algorithm, and user interaction were addressed in connection to the preprocessing, in-processing, and postprocessing mitigation methods. The use of Equalized Odds, Opportunity Equality, and Demographic Parity as primary fairness metrics emphasizes the crucial role of sensitive attributes in mitigating bias. The 25 datasets chosen span a wide range of areas, including criminal justice image enhancement, finance, education, product pricing, and health, with the majority including sensitive attributes. In terms of tools, Aequitas is the most often referenced, yet many of the tools were not employed in empirical experiments. A limitation of current research is the lack of multiclass and multimetric studies, which are found in just a few works and constrain the investigation to binary-focused method. Furthermore, the results indicate that different fairness metrics do not present uniform results for a given use case, and that more research with varied model architectures is necessary to standardize which ones are more appropriate for a given context. We also observed that all research addressed the transparency of the algorithm, or its capacity to explain how decisions are taken.",
+		"accessDate": "2024-11-23T17:49:55Z",
+		"citationKey": "paganoBiasUnfairnessMachine2023",
+		"collections": [
+			"J6WCHKF9",
+			"P9N6XDU8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Tiago P.",
+				"lastName": "Pagano"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Rafael B.",
+				"lastName": "Loureiro"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fernanda V. N.",
+				"lastName": "Lisboa"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Rodrigo M.",
+				"lastName": "Peixoto"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Guilherme A. S.",
+				"lastName": "Guimarães"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gustavo O. R.",
+				"lastName": "Cruz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Maira M.",
+				"lastName": "Araujo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lucas L.",
+				"lastName": "Santos"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Marco A. S.",
+				"lastName": "Cruz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ewerton L. S.",
+				"lastName": "Oliveira"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ingrid",
+				"lastName": "Winkler"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Erick G. S.",
+				"lastName": "Nascimento"
+			}
+		],
+		"date": "2023-01-13",
+		"dateAdded": "2026-04-17T21:21:41Z",
+		"dateModified": "2026-04-17T21:21:41Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "BDCC",
+		"key": "77FACHIE",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "15",
+		"publicationTitle": "Big Data and Cognitive Computing",
+		"relations": {},
+		"rights": "https://creativecommons.org/licenses/by/4.0/",
+		"shortTitle": "Bias and Unfairness in Machine Learning Models",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bias and Unfairness in Machine Learning Models: A Systematic Review on Datasets, Tools, Fairness Metrics, and Identification and Mitigation Methods",
+		"url": "https://www.mdpi.com/2504-2289/7/1/15",
+		"volume": "7"
+	}
+}

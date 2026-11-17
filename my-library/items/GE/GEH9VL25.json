@@ -1,0 +1,123 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-01-08T20:07:33Z",
+			"dateModified": "2026-11-09T14:58:05Z",
+			"itemType": "note",
+			"key": "82WRJTU7",
+			"note": "Lien original brisé. Consulté le 10 octobre 2025",
+			"parentItem": "GEH9VL25",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/R5E6K7T8"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:27:46Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:46Z",
+			"dateModified": "2026-11-09T14:58:05Z",
+			"itemType": "attachment",
+			"key": "KXHZ82X6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:10:18 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-81b2-841f-d186d1d0f693\",\"notes\":{\"N78WXSKK\":{\"blockID\":\"2c09fa24-8c57-816c-b461-c084246f1e0e\",\"syncedAt\":\"2025-12-05T22:39:51.171Z\"}}}</pre>",
+			"parentItem": "GEH9VL25",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/RTJ52UUX"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/CYCNHIQ8"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ponsPolicePredictiveCadre2019-2c09fa248c578130906df770141a6753"
+		},
+		{
+			"dateAdded": "2025-10-10T19:01:28Z",
+			"dateModified": "2025-10-10T19:01:28Z",
+			"itemType": "note",
+			"key": "N78WXSKK",
+			"note": "<p>Lien original brisé. Consulté le 10 octobre 2025</p>",
+			"parentItem": "GEH9VL25",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KXHZ82X6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ponsPolicePredictiveCadre2019-2c09fa248c578130906df770141a6753"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"Pons, Camille"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "82WRJTU7",
+				"title": "Lien original brisé. Consulté le 10 octobre 2025"
+			},
+			{
+				"key": "N78WXSKK",
+				"title": "Lien original brisé. Consulté le 10 octobre 2025"
+			}
+		],
+		"title": "Police prédictive: un cadre et une nécessaire transparence",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/GEH9VL25"
+	},
+	"zotero": {
+		"citationKey": "ponsPolicePredictiveCadre2019",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Camille",
+				"lastName": "Pons"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T14:58:05Z",
+		"extra": "Publication Title: Exploreur L'actualité de la recherche",
+		"itemType": "document",
+		"key": "GEH9VL25",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/C5WXEKEK"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/IKRGJCTJ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Police prédictive: un cadre et une nécessaire transparence"
+	}
+}

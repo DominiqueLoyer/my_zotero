@@ -1,0 +1,158 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-05-01T04:37:04Z",
+			"dateModified": "2026-01-16T18:03:16Z",
+			"filename": "Loyer - Développement et Évaluation d’un Système de Traduction Automatique Neuronale Anglais–Russe.pdf",
+			"itemType": "attachment",
+			"key": "B5NMU3Q9",
+			"linkMode": "imported_file",
+			"parentItem": "A2JVASAE",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-01-16T15:52:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:52:21Z",
+			"dateModified": "2026-11-09T17:07:40Z",
+			"itemType": "attachment",
+			"key": "J45XNUQ8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:40 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "A2JVASAE",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/TIS5RHLD"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/XT7C45IW"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-4129fa248c5781ef88b8e127524041c8"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-09T20:58:49Z",
+			"dateModified": "2026-01-09T20:59:10Z",
+			"filename": "Loyer - Développement et Évaluation d’un Système de Traduction Automatique Neuronale Anglais–Russe.pdf",
+			"itemType": "attachment",
+			"key": "VGKB8MSV",
+			"linkMode": "imported_file",
+			"parentItem": "A2JVASAE",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "J45XNUQ8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-4129fa248c5781ef88b8e127524041c8"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer - Développement et Évaluation d’un Système de Traduction Automatique Neuronale Anglais–Russe.pdf",
+				"files": [],
+				"key": "B5NMU3Q9",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer - Développement et Évaluation d’un Système de Traduction Automatique Neuronale Anglais–Russe.pdf",
+				"files": [
+					{
+						"path": "attachments/VG/VGKB8MSV/Loyer - Développement et Évaluation d’un Système de Traduction Automatique Neuronale Anglais–Russe.pdf",
+						"size": 86497,
+						"storage": "git"
+					}
+				],
+				"key": "VGKB8MSV",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/Projet RI et Projet Tan",
+			"GS_301225.bibtex",
+			"GoogleScholar_mypapers290925",
+			"mes papiers et beamers"
+		],
+		"creators": [
+			"Loyer, Dominique S"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Développement et Évaluation d’un Système de Traduction Automatique Neuronale Anglais–Russe",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/A2JVASAE"
+	},
+	"zotero": {
+		"abstractNote": "Ce rapport présente le développement et l’évaluation d’un système de traduction automatique neuronale (TAN) Anglais→Russe (EN→RU). En utilisant la bibliothèque Hugging Face Transformers(Wolf et al., 2020) et un modèle pré-entraîné Helsinki-NLP/opus-mt-en-ru(JunczysDowmunt and Grundkiewicz, 2018) basé sur l’architecture Transformer(Vaswani et al., 2017), nous avons fine-tuné le modèle sur un sous-ensemble de 10 000 paires de phrases du corpus parallèle opus_books(Tiedemann, 2012). Le système a été entraîné pendant 3 époques dans un environnement Kaggle (GPU T4). L’évaluation sur un jeu de test réservé du même corpus donne SacreBLEU 22.6 et chrF 48.5.",
+		"citationKey": "loyerDeveloppementEvaluationDun",
+		"collections": [
+			"8J6V7TQL",
+			"GXLPXWSC",
+			"H8Z7N6W8",
+			"UIV5JLK2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			}
+		],
+		"dateAdded": "2025-05-01T04:37:08Z",
+		"dateModified": "2026-03-08T21:43:24Z",
+		"extra": "abstractTranslation: This report presents the development and evaluation of an English–Russian neural machine translation (NMT) system (EN→RU). Using the Hugging Face Transformers library (Wolf et al., 2020) and a pre-trained Helsinki-NLP/opus-mt-en-ru model (JunczysDowmunt and Grundkiewicz, 2018) based on the Transformer architecture (Vaswani et al., 2017), we fine-tuned the model on a subset of 10,000 sentence pairs from the opus_books parallel corpus (Tiedemann, 2012). The system was trained for 3 epochs in a Kaggle environment (T4 GPU). Evaluation on a held-out test set from the same corpus yielded SacreBLEU 22.6 and chrF 48.5.",
+		"itemType": "journalArticle",
+		"key": "A2JVASAE",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/BZIEIB2J",
+				"http://zotero.org/users/15425556/items/GI5CV4D7",
+				"http://zotero.org/users/15425556/items/N783VPCM"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UD3H5WM6"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Développement et Évaluation d’un Système de Traduction Automatique Neuronale Anglais–Russe"
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:33Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:33Z",
+			"dateModified": "2026-11-09T17:08:06Z",
+			"itemType": "attachment",
+			"key": "ZL4QDVKW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:06 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VUJ87QW5",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/AYNFN29S"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/8HVPEJ7S",
+					"http://zotero.org/groups/6376680/items/CI4VSEPU",
+					"http://zotero.org/groups/6376680/items/FG5DK4D7",
+					"http://zotero.org/groups/6376680/items/KH9EJY56"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Weber-Max-2002-4129fa248c5781d59e78e23f240ba88c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZL4QDVKW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Weber-Max-2002-4129fa248c5781d59e78e23f240ba88c"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Weber, Max"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Economy and Society: An Outline of Interpretive Sociology",
+		"year": "2002",
+		"zoteroURI": "zotero://select/library/items/VUJ87QW5"
+	},
+	"zotero": {
+		"DOI": "10.1002/9780470755679.ch3",
+		"citationKey": "webermaxEconomySocietyOutline2002",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Weber, Max"
+			}
+		],
+		"date": "2002",
+		"dateAdded": "2026-02-25T21:56:42Z",
+		"dateModified": "2026-11-09T15:08:08Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "VUJ87QW5",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/ZFTB3M8F"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8M3AZGLL",
+				"http://zotero.org/groups/6376680/items/C2274MFR",
+				"http://zotero.org/groups/6376680/items/TPIW4HKC",
+				"http://zotero.org/groups/6376680/items/VJIYNW9H"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Economy and Society: An Outline of Interpretive Sociology"
+	}
+}

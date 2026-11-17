@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:32:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:54Z",
+			"dateModified": "2026-03-09T20:32:54Z",
+			"itemType": "attachment",
+			"key": "7T6YFYV3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:32:54 p.m.</p>",
+			"parentItem": "CGEF58ZX",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Hitzler2021Neurosymbolic-31e9fa248c57810b9907ef6de64dadbe"
+		},
+		{
+			"accessDate": "2026-11-08T16:16:17Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:16:17Z",
+			"dateModified": "2026-11-08T16:16:17Z",
+			"filename": "Hitzler, Pascal and Sarker, Md Kamruzzaman - 2021 - Neuro-symbolic artificial intelligence The state of the art.pdf",
+			"itemType": "attachment",
+			"key": "FNUPBV2W",
+			"linkMode": "imported_url",
+			"parentItem": "CGEF58ZX",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://www.gbv.de/dms/tib-ub-hannover/1786636506.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7T6YFYV3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Hitzler2021Neurosymbolic-31e9fa248c57810b9907ef6de64dadbe"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hitzler, Pascal and Sarker, Md Kamruzzaman - 2021 - Neuro-symbolic artificial intelligence The state of the art.pdf",
+				"files": [
+					{
+						"path": "attachments/FN/FNUPBV2W/Hitzler, Pascal and Sarker, Md Kamruzzaman - 2021 - Neuro-symbolic artificial intelligence The state of the art.pdf",
+						"size": 128195,
+						"storage": "git"
+					}
+				],
+				"key": "FNUPBV2W",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://www.gbv.de/dms/tib-ub-hannover/1786636506.pdf"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Hitzler, Pascal and Sarker, Md Kamruzzaman"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neuro-symbolic artificial intelligence: The state of the art",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/CGEF58ZX"
+	},
+	"zotero": {
+		"DOI": "10.3233/faia342",
+		"citationKey": "hitzlerpascalandsarkermdkamruzzamanNeurosymbolicArtificialIntelligence2021",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Hitzler, Pascal and Sarker, Md Kamruzzaman"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-03-08T21:22:58Z",
+		"dateModified": "2026-03-25T21:28:48Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "CGEF58ZX",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neuro-symbolic artificial intelligence: The state of the art"
+	}
+}

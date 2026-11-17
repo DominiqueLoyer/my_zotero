@@ -1,0 +1,123 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:16:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "VFGFFAZ2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:21:29 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-816b-96f2-e2887cfa078a\",\"notes\":{\"RTS9B5AI\":{\"blockID\":\"3239fa24-8c57-8167-bf31-c68f2977348a\",\"syncedAt\":\"2026-03-14T18:21:29.938Z\"}}}</pre>",
+			"parentItem": "G33HCZMP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/xuMultimodalFactCheckingAgentbased2026-3239fa248c578121ab88c9bb2d3a8939"
+		},
+		{
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "note",
+			"key": "Z77IIJNJ",
+			"note": "Comment: Code and dataset will be released at https://github.com/xudanni0927/AgentFact",
+			"parentItem": "G33HCZMP",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VFGFFAZ2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/xuMultimodalFactCheckingAgentbased2026-3239fa248c578121ab88c9bb2d3a8939"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Xu, Danni",
+			"Fan, Shaojing",
+			"Cheng, Harry",
+			"Kankanhalli, Mohan"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "Z77IIJNJ",
+				"title": "Comment: Code and dataset will be released at https://github.com/xudanni0927/AgentFact"
+			}
+		],
+		"title": "Multimodal Fact-Checking: An Agent-based Approach",
+		"year": "2026",
+		"zoteroURI": "zotero://select/groups/6376680/items/G33HCZMP"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2512.22933",
+		"abstractNote": "The rapid spread of multimodal misinformation poses a growing challenge for automated fact-checking systems. Existing approaches, including large vision language models (LVLMs) and deep multimodal fusion methods, often fall short due to limited reasoning and shallow evidence utilization. A key bottleneck is the lack of dedicated datasets that provide complete real-world multimodal misinformation instances accompanied by annotated reasoning processes and verifiable evidence. To address this limitation, we introduce RW-Post, a high-quality and explainable dataset for real-world multimodal fact-checking. RW-Post aligns real-world multimodal claims with their original social media posts, preserving the rich contextual information in which the claims are made. In addition, the dataset includes detailed reasoning and explicitly linked evidence, which are derived from human written fact-checking articles via a large language model assisted extraction pipeline, enabling comprehensive verification and explanation. Building upon RW-Post, we propose AgentFact, an agent-based multimodal fact-checking framework designed to emulate the human verification workflow. AgentFact consists of five specialized agents that collaboratively handle key fact-checking subtasks, including strategy planning, high-quality evidence retrieval, visual analysis, reasoning, and explanation generation. These agents are orchestrated through an iterative workflow that alternates between evidence searching and task-aware evidence filtering and reasoning, facilitating strategic decision-making and systematic evidence analysis. Extensive experimental results demonstrate that the synergy between RW-Post and AgentFact substantially improves both the accuracy and interpretability of multimodal fact-checking.",
+		"accessDate": "2026-03-14T17:41:01Z",
+		"archiveID": "arXiv:2512.22933",
+		"citationKey": "xuMultimodalFactCheckingAgentbased2026",
+		"collections": [
+			"PNZQF2WF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Danni",
+				"lastName": "Xu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Shaojing",
+				"lastName": "Fan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Harry",
+				"lastName": "Cheng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mohan",
+				"lastName": "Kankanhalli"
+			}
+		],
+		"date": "2026-01-04",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:2512.22933 [cs]",
+		"itemType": "preprint",
+		"key": "G33HCZMP",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"shortTitle": "Multimodal Fact-Checking",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Multimodal Fact-Checking: An Agent-based Approach",
+		"url": "http://arxiv.org/abs/2512.22933"
+	}
+}

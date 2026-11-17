@@ -1,0 +1,113 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:14Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:14Z",
+			"dateModified": "2026-11-09T17:05:46Z",
+			"itemType": "attachment",
+			"key": "TAQZCGZC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:46 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "V5R3U6FR",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/HU2YF935"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/PS74TE3C"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Sedhain-et-al-2015-4129fa248c5781c8b1bfef5bcb3585b5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TAQZCGZC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Sedhain-et-al-2015-4129fa248c5781c8b1bfef5bcb3585b5"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Sedhain, Suvash",
+			"Menon, Aditya Krishna",
+			"Sanner, Scott",
+			"Xie, Lexing"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Autorec: Autoencoders meet collaborative filtering",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/V5R3U6FR"
+	},
+	"zotero": {
+		"DOI": "10.1145/2740908.2742726",
+		"citationKey": "sedhainAutorecAutoencodersMeet2015",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Suvash",
+				"lastName": "Sedhain"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aditya Krishna",
+				"lastName": "Menon"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Scott",
+				"lastName": "Sanner"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lexing",
+				"lastName": "Xie"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-13T19:32:28Z",
+		"itemType": "conferencePaper",
+		"key": "V5R3U6FR",
+		"pages": "111–112",
+		"proceedingsTitle": "Proceedings of the 24th International Conference on World Wide Web",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/98825SFZ",
+				"http://zotero.org/users/15425556/items/PN37VY9L"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/92QQML3H"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Autorec: Autoencoders meet collaborative filtering"
+	}
+}

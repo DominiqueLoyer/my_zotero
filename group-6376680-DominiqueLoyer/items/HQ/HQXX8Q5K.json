@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T22:26:30Z",
+			"itemType": "attachment",
+			"key": "WYHHXUD4",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:39:33 p.m.</p>",
+			"parentItem": "HQXX8Q5K",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/TL6KYGZI"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Hugging2024The-3129fa248c5781cd8ea8e6e6de379a54"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WYHHXUD4",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Hugging2024The-3129fa248c5781cd8ea8e6e6de379a54"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Hugging Face"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "The EU AI Act",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/HQXX8Q5K"
+	},
+	"zotero": {
+		"DOI": "10.37307/j.2701-7605.2024.06.03",
+		"citationKey": "Hugging2024The",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Hugging Face"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T22:26:30Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "HQXX8Q5K",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/XC2GEHYM"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The EU AI Act"
+	}
+}

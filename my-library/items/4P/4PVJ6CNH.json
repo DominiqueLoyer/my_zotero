@@ -1,0 +1,129 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:25:51Z",
+			"dateModified": "2025-03-31T18:29:13Z",
+			"filename": "Lounis - Réductionnisme et holisme.pdf",
+			"itemType": "attachment",
+			"key": "DFMG76AP",
+			"linkMode": "imported_file",
+			"parentItem": "4PVJ6CNH",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/IBYUVLJ8"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:31:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:31:54Z",
+			"dateModified": "2026-01-02T19:16:24Z",
+			"itemType": "attachment",
+			"key": "IEMLH9TF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:24 p.m.</p>",
+			"parentItem": "4PVJ6CNH",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/lounisReductionnismeHolisme-2c09fa248c5781fe8821c97cce9ee2e8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IEMLH9TF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/lounisReductionnismeHolisme-2c09fa248c5781fe8821c97cce9ee2e8"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Lounis - Réductionnisme et holisme.pdf",
+				"files": [
+					{
+						"path": "attachments/DF/DFMG76AP/Lounis - Réductionnisme et holisme.pdf",
+						"size": 812157,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/DF/DFMG76AP/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 2011,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/DF/DFMG76AP/Lounis - Réductionnisme et holisme (trashed 2025-11-24 15-34-12).pdf",
+						"size": 812157,
+						"storage": "git"
+					}
+				],
+				"key": "DFMG76AP",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/semaine de relâches"
+		],
+		"creators": [
+			"Lounis, Hakim"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Réductionnisme et holisme",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/4PVJ6CNH"
+	},
+	"zotero": {
+		"citationKey": "lounisReductionnismeHolisme",
+		"collections": [
+			"G4KBEA9A",
+			"ND5TC8JC"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Hakim",
+				"lastName": "Lounis"
+			}
+		],
+		"dateAdded": "2025-03-17T17:25:54Z",
+		"dateModified": "2025-12-29T23:57:31Z",
+		"itemType": "journalArticle",
+		"key": "4PVJ6CNH",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/AB67QD86"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Réductionnisme et holisme"
+	}
+}

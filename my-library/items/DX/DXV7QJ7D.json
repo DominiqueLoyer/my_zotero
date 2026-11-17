@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:49Z",
+			"dateModified": "2026-11-09T17:08:40Z",
+			"itemType": "attachment",
+			"key": "7RI3NEVA",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:40 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "DXV7QJ7D",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c578187b82febf395529a47"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:32:37Z",
+			"dateModified": "2025-03-31T18:42:53Z",
+			"filename": "Exo-Instit-Financiere.pdf",
+			"itemType": "attachment",
+			"key": "GQ2DVB8T",
+			"linkMode": "imported_file",
+			"parentItem": "DXV7QJ7D",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7RI3NEVA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c578187b82febf395529a47"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Exo-Instit-Financiere.pdf",
+				"files": [
+					{
+						"path": "attachments/GQ/GQ2DVB8T/Exo-Instit-Financiere.pdf",
+						"size": 43403,
+						"storage": "git"
+					}
+				],
+				"key": "GQ2DVB8T",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Exo-Instit-Financiere",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/DXV7QJ7D"
+	},
+	"zotero": {
+		"citationKey": "lounishakimExoInstitFinanciere",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:42:52Z",
+		"dateModified": "2025-03-31T18:43:24Z",
+		"itemType": "document",
+		"key": "DXV7QJ7D",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Exo-Instit-Financiere"
+	}
+}

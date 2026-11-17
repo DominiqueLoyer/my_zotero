@@ -1,0 +1,85 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:20Z",
+			"dateModified": "2026-03-09T20:42:37Z",
+			"itemType": "attachment",
+			"key": "5XY3UFTF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:42:37 p.m.</p>",
+			"parentItem": "FJPSBTE7",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/U2H826AL",
+					"http://zotero.org/groups/6376680/items/YCZR366Y"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/La2018La-3129fa248c57815183bbc96e07b2c004"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5XY3UFTF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/La2018La-3129fa248c57815183bbc96e07b2c004"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"La Quadrature du Net"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "La police prédictive en France: contre l'opacité et les discriminations, la nécessité d'une interdiction",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/FJPSBTE7"
+	},
+	"zotero": {
+		"DOI": "10.4000/books.pur.146712",
+		"citationKey": "laquadraturedunetPolicePredictiveFrance2018",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "La Quadrature du Net"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-02-25T21:40:43Z",
+		"dateModified": "2026-03-25T21:29:43Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "FJPSBTE7",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/22MCRKCH",
+				"http://zotero.org/groups/6376680/items/LYFABA78"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "La police prédictive en France: contre l'opacité et les discriminations, la nécessité d'une interdiction",
+		"url": "https://www.laquadrature.net/2024/01/18/la-police-predictive-en-france-contre-lopacite-et-les-discriminations-la-necessite-dune-interdiction/"
+	}
+}

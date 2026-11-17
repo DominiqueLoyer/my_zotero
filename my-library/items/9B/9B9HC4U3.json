@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:27:20Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:27:20Z",
+			"dateModified": "2026-11-08T16:27:20Z",
+			"filename": "Krieger, Felix M. and Ziegele, Marc and Jackisch, Jannis and Jakobs, Isabelle - 2021 - DA-RoBERTa Domain-adaptive RoBERTa for detecting media bias.pdf",
+			"itemType": "attachment",
+			"key": "5JB5MU86",
+			"linkMode": "imported_url",
+			"parentItem": "9B9HC4U3",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/2021.eacl-main.232.pdf"
+		},
+		{
+			"accessDate": "2026-03-09T20:38:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:38:31Z",
+			"dateModified": "2026-11-09T17:06:54Z",
+			"itemType": "attachment",
+			"key": "T8ZEGTCA",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:54 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "9B9HC4U3",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Krieger-Felix-M-and-Ziegele-Marc-and-Jackisch-Jannis-and-Jakobs-Isabelle-2021-4129fa248c578188bdc5d928cad2be28"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Krieger, Felix M. and Ziegele, Marc and Jackisch, Jannis and Jakobs, Isabelle - 2021 - DA-RoBERTa Domain-adaptive RoBERTa for detecting media bias.pdf",
+				"files": [
+					{
+						"path": "attachments/5J/5JB5MU86/Krieger, Felix M. and Ziegele, Marc and Jackisch, Jannis and Jakobs, Isabelle - 2021 - DA-RoBERTa Domain-adaptive RoBERTa for detecting media bias.pdf",
+						"size": 268815,
+						"storage": "git"
+					}
+				],
+				"key": "5JB5MU86",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/2021.eacl-main.232.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "T8ZEGTCA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Krieger-Felix-M-and-Ziegele-Marc-and-Jackisch-Jannis-and-Jakobs-Isabelle-2021-4129fa248c578188bdc5d928cad2be28"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Krieger, Felix M. and Ziegele, Marc and Jackisch, Jannis and Jakobs, Isabelle"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DA-RoBERTa: Domain-adaptive RoBERTa for detecting media bias",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/9B9HC4U3"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2021.eacl-main.232",
+		"citationKey": "kriegerfelixm.andziegelemarcandjackischjannisandjakobsisabelleDARoBERTaDomainadaptiveRoBERTa2021",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Krieger, Felix M. and Ziegele, Marc and Jackisch, Jannis and Jakobs, Isabelle"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-03-03T23:17:42Z",
+		"dateModified": "2026-11-13T19:35:18Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "9B9HC4U3",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "DA-RoBERTa: Domain-adaptive RoBERTa for detecting media bias"
+	}
+}

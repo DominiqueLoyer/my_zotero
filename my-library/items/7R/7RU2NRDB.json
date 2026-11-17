@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:37:18Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:37:18Z",
+			"dateModified": "2026-11-08T16:37:18Z",
+			"filename": "Schwalbe, Gerrit and Schemmer, Michael and Trendafilov, Rumen and Gerstenberger, Thomas and Leimeister, Jan Marco - 2024 - Interactive and Conversational Explainable AI (ICXAI) A Research Agenda.pdf",
+			"itemType": "attachment",
+			"key": "I55ZLX6X",
+			"linkMode": "imported_url",
+			"parentItem": "7RU2NRDB",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://link.springer.com/content/pdf/10.1007%2Fs10462-024-10916-x.pdf"
+		},
+		{
+			"accessDate": "2026-02-25T22:16:13Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:16:13Z",
+			"dateModified": "2026-03-09T20:41:31Z",
+			"itemType": "attachment",
+			"key": "YATJXI26",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:41:31 p.m.</p>",
+			"parentItem": "7RU2NRDB",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/784G5FBZ",
+					"http://zotero.org/groups/6376680/items/L3PEB2AK"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Schwalbe2024Interactive-3129fa248c578181a5d6c5753250c04c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Schwalbe, Gerrit and Schemmer, Michael and Trendafilov, Rumen and Gerstenberger, Thomas and Leimeister, Jan Marco - 2024 - Interactive and Conversational Explainable AI (ICXAI) A Research Agenda.pdf",
+				"files": [
+					{
+						"path": "attachments/I5/I55ZLX6X/Schwalbe, Gerrit and Schemmer, Michael and Trendafilov, Rumen and Gerstenberger, Thomas and Leimeister, Jan Marco - 2024 - Interactive and Conversational Explainable AI (ICXAI) A Research Agenda.pdf",
+						"size": 1888517,
+						"storage": "git"
+					}
+				],
+				"key": "I55ZLX6X",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://link.springer.com/content/pdf/10.1007%2Fs10462-024-10916-x.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "YATJXI26",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Schwalbe2024Interactive-3129fa248c578181a5d6c5753250c04c"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Schwalbe, Gerrit and Schemmer, Michael and Trendafilov, Rumen and Gerstenberger, Thomas and Leimeister, Jan Marco"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Interactive and Conversational Explainable AI (ICXAI): A Research Agenda",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/7RU2NRDB"
+	},
+	"zotero": {
+		"DOI": "10.1007/s10462-024-10916-x",
+		"citationKey": "schwalbegerritandschemmermichaelandtrendafilovrumenandgerstenbergerthomasandleimeisterjanmarcoInteractiveConversationalExplainable2024",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Schwalbe, Gerrit and Schemmer, Michael and Trendafilov, Rumen and Gerstenberger, Thomas and Leimeister, Jan Marco"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:47:59Z",
+		"dateModified": "2026-03-25T21:29:37Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "7RU2NRDB",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8P7C6I9W",
+				"http://zotero.org/groups/6376680/items/DIKJQTHQ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Interactive and Conversational Explainable AI (ICXAI): A Research Agenda",
+		"url": "https://aisel.aisnet.org/ecis2023_rp/310/"
+	}
+}

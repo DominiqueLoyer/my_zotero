@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:26:38Z",
+			"dateModified": "2026-03-14T17:37:44Z",
+			"itemType": "attachment",
+			"key": "8BE9R5NK",
+			"linkMode": "linked_file",
+			"parentItem": "2SSKZ4JT",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/Beamer_LEVIATHAN_DIC9401_040326/Le_Léviathan_algorithmique__Beamer_26nov_2025_/Loyer - Le Léviathan algorithmique - Pouvoir, opacité et responsabilité à l'ère de l'IA.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:18:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:18:52Z",
+			"dateModified": "2026-03-14T18:18:52Z",
+			"itemType": "attachment",
+			"key": "QZMGEMC3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:18:52 p.m.</p>",
+			"parentItem": "2SSKZ4JT",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/84KGKYBU"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerLeviathanAlgorithmiquePouvoirs-3239fa248c578138bbedd360077de5c3"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QZMGEMC3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerLeviathanAlgorithmiquePouvoirs-3239fa248c578138bbedd360077de5c3"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer - Le Léviathan algorithmique - Pouvoir, opacité et responsabilité à l'ère de l'IA.pdf",
+				"files": [
+					{
+						"path": "attachments/8B/8BE9R5NK/Loyer - Le Léviathan algorithmique - Pouvoir, opacité et responsabilité à l'ère de l'IA.pdf",
+						"size": 347222,
+						"storage": "git"
+					}
+				],
+				"key": "8BE9R5NK",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/Beamer_LEVIATHAN_DIC9401_040326/Le_Léviathan_algorithmique__Beamer_26nov_2025_"
+		],
+		"creators": [
+			"Loyer, Dominique"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Le Léviathan algorithmique - Pouvoir, opacité et responsabilité à l'ère de l'IA",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/2SSKZ4JT"
+	},
+	"zotero": {
+		"citationKey": "loyerLeviathanAlgorithmiquePouvoiro",
+		"collections": [
+			"LXXETNAC"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"dateAdded": "2026-03-14T17:37:43Z",
+		"dateModified": "2026-03-25T21:28:33Z",
+		"itemType": "journalArticle",
+		"key": "2SSKZ4JT",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/TXMRQJYK"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Le Léviathan algorithmique - Pouvoir, opacité et responsabilité à l'ère de l'IA"
+	}
+}

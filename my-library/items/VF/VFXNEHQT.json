@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:35:59Z",
+			"dateModified": "2026-03-09T20:35:59Z",
+			"itemType": "attachment",
+			"key": "ELYMWJ5W",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:59 p.m.</p>",
+			"parentItem": "VFXNEHQT",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/T5PCDCEU"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/d-Amato2020Machine-31e9fa248c578157b319ca200dca951e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ELYMWJ5W",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/d-Amato2020Machine-31e9fa248c578157b319ca200dca951e"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"d'Amato, C."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Machine learning for the Semantic Web: Lessons learnt and next research directions",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/VFXNEHQT"
+	},
+	"zotero": {
+		"DOI": "10.3233/sw-200388",
+		"citationKey": "damatoc.MachineLearningSemantic2020",
+		"collections": [
+			"7XVYZYFG"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "d'Amato, C."
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-03-04T19:43:17Z",
+		"dateModified": "2026-03-25T21:29:06Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "VFXNEHQT",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/PE6W63B4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Machine learning for the Semantic Web: Lessons learnt and next research directions"
+	}
+}

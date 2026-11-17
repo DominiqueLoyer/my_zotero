@@ -1,0 +1,123 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:28:33Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:28:33Z",
+			"dateModified": "2026-01-16T18:05:05Z",
+			"itemType": "attachment",
+			"key": "37U5CE4D",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-16, 10:55:59 a.m.</p>",
+			"parentItem": "F3EBCXRH",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/6LU7WLLF"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/XKVWUQWX"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Microsoft2024a-2e29fa248c578125a36ef512d649170e"
+		},
+		{
+			"accessDate": "2026-01-08T20:37:51Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:37:51Z",
+			"dateModified": "2026-01-16T18:05:05Z",
+			"itemType": "attachment",
+			"key": "EMBR5V9E",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-16, 11:01:02 a.m.</p>",
+			"parentItem": "F3EBCXRH",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/XFL89V2S"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Microsoft2024a-2e29fa248c5781499b1cc650e1e058c2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "37U5CE4D",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Microsoft2024a-2e29fa248c578125a36ef512d649170e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EMBR5V9E",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Microsoft2024a-2e29fa248c5781499b1cc650e1e058c2"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Microsoft"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Responsible AI dashboard",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/F3EBCXRH"
+	},
+	"zotero": {
+		"citationKey": "microsoftResponsibleAIDashboard2024",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Microsoft"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-03-25T21:31:03Z",
+		"itemType": "document",
+		"key": "F3EBCXRH",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/B3YT7R33",
+				"http://zotero.org/users/15425556/items/IJWXEAIN"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/AFHFTTMQ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Responsible AI dashboard",
+		"url": "https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai-dashboard"
+	}
+}

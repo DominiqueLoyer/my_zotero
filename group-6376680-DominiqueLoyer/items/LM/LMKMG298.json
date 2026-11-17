@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:30:07Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "attachment",
+			"key": "HEUIW2WS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:44 p.m.</p>",
+			"parentItem": "LMKMG298",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyers-dominiqueAlgorithmes2021-ORCID-0009-0003-9713-7109-2c09fa248c5781c9a245dfe6312c3ba2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HEUIW2WS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyers-dominiqueAlgorithmes2021-ORCID-0009-0003-9713-7109-2c09fa248c5781c9a245dfe6312c3ba2"
+			}
+		],
+		"collections": [
+			"Ma thèse/Mes conférences données"
+		],
+		"creators": [
+			"Loyer S. Dominique",
+			"Loyer, Dominique"
+		],
+		"itemType": "presentation",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Les algorithmes",
+		"year": "2021",
+		"zoteroURI": "zotero://select/groups/6376680/items/LMKMG298"
+	},
+	"zotero": {
+		"abstractNote": "Un algorithme, c’est une suite d’instructions, qui une fois exécutée correctement, conduit à un résultat donné. Commençons par le code binaire puisque que c'est tout ce qu'un ordinateur comprend Une information binaire ne peut qu'avoir deux états (ouvert ou fermé) On le symbolise par 0 ou 1. Algorithme de classification. Naive Bayes Les domaines d'application du classifieur bayésien naïf sont les suivants : traitement automatique du langage naturel, détection de spams dans vos logiciels de courrier électronique, système de recommandation d'achat, et également analyse de sentiments dans les enquêtes ou dans les commentaires d'achat d'articles.",
+		"citationKey": "loyers.dominiqueAlgorithmes2021",
+		"collections": [
+			"NAYNJAZ5"
+		],
+		"creators": [
+			{
+				"creatorType": "presenter",
+				"name": "Loyer S. Dominique"
+			},
+			{
+				"creatorType": "presenter",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-04-17T21:21:41Z",
+		"dateModified": "2026-04-17T21:21:41Z",
+		"itemType": "presentation",
+		"key": "LMKMG298",
+		"language": "fr-CA",
+		"meetingName": "Les algorithmes",
+		"place": "Université de Sherbrooke",
+		"presentationType": "Diapositives",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "AI"
+			},
+			{
+				"tag": "Algorithm"
+			},
+			{
+				"tag": "Algorithmic accountability"
+			},
+			{
+				"tag": "Dominique Loyer"
+			},
+			{
+				"tag": "Transparence"
+			},
+			{
+				"tag": "algorithmes"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "transparency"
+			}
+		],
+		"title": "Les algorithmes"
+	}
+}

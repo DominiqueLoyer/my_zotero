@@ -1,0 +1,93 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:01:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:01:01Z",
+			"dateModified": "2026-11-09T17:04:47Z",
+			"itemType": "attachment",
+			"key": "4A39PP7T",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:47 p.m.</p>",
+			"parentItem": "P626ENAF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/researchgate-net-4129fa248c578100a52bf92399399c7c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "4A39PP7T",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/researchgate-net-4129fa248c578100a52bf92399399c7c"
+			}
+		],
+		"collections": [
+			"research rabbit_170426"
+		],
+		"creators": [
+			"researchgate.net, DS Loyer - 2025 -"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A survey and critical evaluation of yoav shoham's knowledge representation perspective",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/P626ENAF"
+	},
+	"zotero": {
+		"citationKey": "researchgate.netSurveyCriticalEvaluation",
+		"collections": [
+			"W2EHJZM4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "DS Loyer - 2025 -",
+				"lastName": "researchgate.net"
+			}
+		],
+		"dateAdded": "2026-04-17T21:00:09Z",
+		"dateModified": "2026-11-13T19:30:00Z",
+		"extra": "tex.researchrabbitid: d998da0b-dc78-43ee-b1ed-c27615166064",
+		"itemType": "journalArticle",
+		"key": "P626ENAF",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/4P2K78YB",
+				"http://zotero.org/users/15425556/items/8HUMG66P",
+				"http://zotero.org/users/15425556/items/95UJXNYB",
+				"http://zotero.org/users/15425556/items/APPDULXW",
+				"http://zotero.org/users/15425556/items/DF4TYPBC",
+				"http://zotero.org/users/15425556/items/GP9YKUF5",
+				"http://zotero.org/users/15425556/items/HJ7LFJJS",
+				"http://zotero.org/users/15425556/items/LDQ5429E",
+				"http://zotero.org/users/15425556/items/R9LE68KD"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "A survey and critical evaluation of yoav shoham's knowledge representation perspective"
+	}
+}

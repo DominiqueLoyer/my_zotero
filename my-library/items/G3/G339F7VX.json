@@ -1,0 +1,95 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:34:02Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:34:02Z",
+			"dateModified": "2026-03-09T20:50:41Z",
+			"itemType": "attachment",
+			"key": "BDQV4IJN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:50:41 p.m.</p>",
+			"parentItem": "G339F7VX",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Sarwar2001-2e29fa248c578167b5b5c84fa08f7768"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "BDQV4IJN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Sarwar2001-2e29fa248c578167b5b5c84fa08f7768"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"Sarwar, Badrul",
+			"Karypis, George",
+			"Konstan, Joseph A.",
+			"Riedl, John"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Item-based collaborative filtering recommendation algorithms",
+		"year": "2001",
+		"zoteroURI": "zotero://select/library/items/G339F7VX"
+	},
+	"zotero": {
+		"citationKey": "sarwarItembasedCollaborativeFiltering2001a",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Badrul",
+				"lastName": "Sarwar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "George",
+				"lastName": "Karypis"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joseph A.",
+				"lastName": "Konstan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John",
+				"lastName": "Riedl"
+			}
+		],
+		"date": "2001",
+		"dateAdded": "2026-01-08T20:10:54Z",
+		"dateModified": "2026-03-25T21:30:22Z",
+		"itemType": "conferencePaper",
+		"key": "G339F7VX",
+		"pages": "285–295",
+		"place": "New York, NY, USA",
+		"proceedingsTitle": "Proceedings of the 10th international conference on world wide web",
+		"publisher": "Association for Computing Machinery",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Item-based collaborative filtering recommendation algorithms"
+	}
+}

@@ -1,0 +1,387 @@
+{
+	"children": [
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "base de connaissaces doit etre simple\n\ne.g. si 10 regles simples\nvs  3 complexes, on priviligie 10 simples",
+			"annotationPageLabel": "3",
+			"annotationPosition": "{\"pageIndex\":2,\"rects\":[[231.6,598.537,238.608,609.696]]}",
+			"annotationSortIndex": "00002|000103|00108",
+			"annotationText": "~",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-17T18:01:25Z",
+			"dateModified": "2025-03-17T18:08:29Z",
+			"itemType": "annotation",
+			"key": "3B2I9A55",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "c.updateNumbering  apelle une méthode de la classe",
+			"annotationPageLabel": "8",
+			"annotationPosition": "{\"pageIndex\":7,\"rects\":[[161.896,126.007,183.896,148.007]]}",
+			"annotationSortIndex": "00007|000015|00569",
+			"annotationType": "note",
+			"dateAdded": "2025-03-17T19:05:40Z",
+			"dateModified": "2025-03-17T19:06:00Z",
+			"itemType": "annotation",
+			"key": "3KBEQ2DA",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "fireallrules  c'est une méthode le carré orange 'c eset si un on a une interface en java",
+			"annotationPageLabel": "11",
+			"annotationPosition": "{\"pageIndex\":10,\"rects\":[[412.094,466.809,434.094,488.809]]}",
+			"annotationSortIndex": "00010|000432|00229",
+			"annotationType": "note",
+			"dateAdded": "2025-03-17T19:14:41Z",
+			"dateModified": "2025-03-17T19:15:23Z",
+			"itemType": "annotation",
+			"key": "3RAI6JYI",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "c'es le ALORS",
+			"annotationPageLabel": "3",
+			"annotationPosition": "{\"pageIndex\":2,\"rects\":[[177.6,181.526,236.644,198.264]]}",
+			"annotationSortIndex": "00002|000245|00519",
+			"annotationText": "Actions",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-17T18:09:18Z",
+			"dateModified": "2025-03-17T18:09:27Z",
+			"itemType": "annotation",
+			"key": "3WV4R86S",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#f19837",
+			"annotationComment": "quel est le fait le plus rescent\nNous on écrit nos relge dans un fichier de regles\nA\nA->B\n\ngrapgh  reté (réseau)\nthèse Carnegie Mellon sur algortihme reté",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[188.1,198.037,294.16,207.354]]}",
+			"annotationSortIndex": "00000|000280|00510",
+			"annotationText": "Raisonnement temporel",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-17T17:44:23Z",
+			"dateModified": "2025-03-17T17:46:05Z",
+			"itemType": "annotation",
+			"key": "5CYDMZYW",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#a28ae5",
+			"annotationComment": "on rajoute un THEN",
+			"annotationPageLabel": "3",
+			"annotationPosition": "{\"pageIndex\":2,\"rects\":[[252.6,152.737,285.288,163.896]]}",
+			"annotationSortIndex": "00002|000252|00554",
+			"annotationText": "assert",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-17T18:09:45Z",
+			"dateModified": "2025-03-17T18:10:14Z",
+			"itemType": "annotation",
+			"key": "76V39MSL",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "regles peut appartenir a un packet: des divisions e.g prescription, labo, etc",
+			"annotationPageLabel": "7",
+			"annotationPosition": "{\"pageIndex\":6,\"rects\":[[136.951,618.417,158.951,640.417]]}",
+			"annotationSortIndex": "00006|000000|00077",
+			"annotationType": "note",
+			"dateAdded": "2025-03-17T18:35:57Z",
+			"dateModified": "2025-03-17T18:37:44Z",
+			"itemType": "annotation",
+			"key": "8LC65UGL",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "une seule regle , une fois compiler , nous donne 4 instaces de regles.  Il faut spécifier laquelle il va prendre en premier",
+			"annotationPageLabel": "6",
+			"annotationPosition": "{\"pageIndex\":5,\"rects\":[[327.206,666.651,349.206,688.651]]}",
+			"annotationSortIndex": "00005|000025|00029",
+			"annotationType": "note",
+			"dateAdded": "2025-03-17T18:32:19Z",
+			"dateModified": "2025-03-17T18:33:00Z",
+			"itemType": "annotation",
+			"key": "ADWTE9AW",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "réfracfiton, la regles s'applique si il y un eu un changement dans la WM(working mem)\nlexicography, (AA s'ésécupe avant AB)",
+			"annotationPageLabel": "6",
+			"annotationPosition": "{\"pageIndex\":5,\"rects\":[[367.788,144.661,389.788,166.661]]}",
+			"annotationSortIndex": "00005|000650|00551",
+			"annotationType": "note",
+			"dateAdded": "2025-03-17T18:33:15Z",
+			"dateModified": "2025-03-17T18:34:18Z",
+			"itemType": "annotation",
+			"key": "AYYFS7GJ",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "",
+			"annotationPageLabel": "4",
+			"annotationPosition": "{\"pageIndex\":3,\"rects\":[[321.84,553.129,332.489,560.55]]}",
+			"annotationSortIndex": "00003|000151|00157",
+			"annotationText": "?x:",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-17T18:13:20Z",
+			"dateModified": "2025-03-17T18:13:20Z",
+			"itemType": "annotation",
+			"key": "EFICHGUU",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ff6666",
+			"annotationComment": "form c'est le nom de la classe",
+			"annotationPageLabel": "3",
+			"annotationPosition": "{\"pageIndex\":2,\"rects\":[[222.6,652.537,250.603,663.696]]}",
+			"annotationSortIndex": "00002|000016|00054",
+			"annotationText": "Form",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-17T17:59:32Z",
+			"dateModified": "2025-03-17T17:59:45Z",
+			"itemType": "annotation",
+			"key": "EMP6HMCT",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#e56eee",
+			"annotationComment": ";  c'est un ET\nautre symbole pour OU",
+			"annotationPageLabel": "4",
+			"annotationPosition": "{\"pageIndex\":3,\"rects\":[[321.84,553.129,471.842,560.55]]}",
+			"annotationSortIndex": "00003|000151|00157",
+			"annotationText": "?x: Form(color==gray; shape==rectangle);",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-17T18:27:04Z",
+			"dateModified": "2025-03-17T18:27:21Z",
+			"itemType": "annotation",
+			"key": "FJX83JT9",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "entre gullemet pcq chaine de caractere \"history\"",
+			"annotationPageLabel": "8",
+			"annotationPosition": "{\"pageIndex\":7,\"rects\":[[235.243,223.555,257.243,245.555]]}",
+			"annotationSortIndex": "00007|000031|00472",
+			"annotationType": "note",
+			"dateAdded": "2025-03-17T19:01:18Z",
+			"dateModified": "2025-03-17T19:01:38Z",
+			"itemType": "annotation",
+			"key": "KLW7CJYY",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "nous on s'intéresse à comment écrire des regles dans une BC\nBC <--> Engine (le moteur est fourni) e.g. déducion->chainage avant, etc.\n Dans Jrules, contient des aximes, \n\nfaits connaissance facturelles (objets en java\n\nles regles, connaissances déductives (Base de règel Jrules (maintenant appartien IBM)\nune classe, chambre, une classe aspirateur\nensuite , les regles,",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[345.821,333.333,367.821,355.333]]}",
+			"annotationSortIndex": "00000|000100|00362",
+			"annotationType": "note",
+			"dateAdded": "2025-03-17T17:46:51Z",
+			"dateModified": "2025-03-17T17:55:32Z",
+			"itemType": "annotation",
+			"key": "M3NNUKZA",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:31:55Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:31:55Z",
+			"dateModified": "2026-01-02T19:16:26Z",
+			"itemType": "attachment",
+			"key": "PZYWU9L3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:26 p.m.</p>",
+			"parentItem": "V2H99ZQD",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/lounisIntroductionJrules-2c09fa248c578139abaae9670ec1f062"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:23:21Z",
+			"dateModified": "2025-03-31T18:29:21Z",
+			"filename": "Lounis - Une introduction à Jrules.pdf",
+			"itemType": "attachment",
+			"key": "SF2RTUAP",
+			"linkMode": "imported_file",
+			"parentItem": "V2H99ZQD",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/K3Z8ENRP"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "on peut rajouter un print(ln)  pour voir quand la regle est éxécuté et comprendre la simulation",
+			"annotationPageLabel": "8",
+			"annotationPosition": "{\"pageIndex\":7,\"rects\":[[404.648,641.668,426.648,663.668]]}",
+			"annotationSortIndex": "00007|000014|00054",
+			"annotationType": "note",
+			"dateAdded": "2025-03-17T18:39:02Z",
+			"dateModified": "2025-03-17T18:39:42Z",
+			"itemType": "annotation",
+			"key": "UK4826K8",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "en Java, les faits sont des objets\nJrules: bcp de doc sur le C: de l'école\n2 thèses sur Jrules\nselon le prof, on découple la bc et le systeme meme si Jrules le permet\non peut importer nos regles\nça utilise connecteur logiques\non peut avoir des pacquets de regles\ne.g. sys méde\n1 test labo\n2 prescription\n\ntms  un sys de maintient de la vérité . s'assure qu'il n'y a pas de contradiction\nraisonnement temporel",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[413.956,611.082,435.956,633.082]]}",
+			"annotationSortIndex": "00000|000030|00084",
+			"annotationType": "note",
+			"dateAdded": "2025-03-17T17:39:22Z",
+			"dateModified": "2025-03-17T17:44:01Z",
+			"itemType": "annotation",
+			"key": "YIBKQP8C",
+			"parentItem": "SF2RTUAP",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PZYWU9L3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/lounisIntroductionJrules-2c09fa248c578139abaae9670ec1f062"
+			},
+			{
+				"annotationCount": 16,
+				"contentType": "application/pdf",
+				"filename": "Lounis - Une introduction à Jrules.pdf",
+				"files": [
+					{
+						"path": "attachments/SF/SF2RTUAP/Lounis - Une introduction à Jrules.pdf",
+						"size": 167827,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/SF/SF2RTUAP/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 5634,
+						"storage": "git"
+					}
+				],
+				"key": "SF2RTUAP",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/16 mars"
+		],
+		"creators": [
+			"Lounis, H"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Une introduction à Jrules",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/V2H99ZQD"
+	},
+	"zotero": {
+		"citationKey": "lounisIntroductionJrules",
+		"collections": [
+			"G4KBEA9A",
+			"HHKJ4Q24"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "H",
+				"lastName": "Lounis"
+			}
+		],
+		"dateAdded": "2025-03-17T17:23:24Z",
+		"dateModified": "2025-12-29T23:57:24Z",
+		"itemType": "journalArticle",
+		"key": "V2H99ZQD",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/HZPBG8RS"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Une introduction à Jrules"
+	}
+}

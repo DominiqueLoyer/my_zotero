@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:38:49Z",
+			"dateModified": "2026-11-09T17:06:57Z",
+			"itemType": "attachment",
+			"key": "AU8AH7U3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:57 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "ZLDL4MMK",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/SHGVHEQ5"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Jonas-1979-4129fa248c5781beb4f7c61bd9ffce3b"
+		},
+		{
+			"dateAdded": "2026-01-08T20:07:32Z",
+			"dateModified": "2026-01-08T20:07:32Z",
+			"itemType": "note",
+			"key": "GMNRCCAL",
+			"note": "Traduction française : Le Principe Responsabilité : Une éthique pour la civilisation technologique, Éditions du Cerf, 1990",
+			"parentItem": "ZLDL4MMK",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/X53YNQXR"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "AU8AH7U3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Jonas-1979-4129fa248c5781beb4f7c61bd9ffce3b"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Jonas, Hans"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "GMNRCCAL",
+				"title": "Traduction française : Le Principe Responsabilité : Une éthique pour la civilisation technologique, Éditions du Cerf, 19"
+			}
+		],
+		"title": "Das prinzip verantwortung. Versuch einer ethik für die technologische zivilisation",
+		"year": "1979",
+		"zoteroURI": "zotero://select/library/items/ZLDL4MMK"
+	},
+	"zotero": {
+		"citationKey": "jonasPrinzipVerantwortungVersuch1979a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Hans",
+				"lastName": "Jonas"
+			}
+		],
+		"date": "1979",
+		"dateAdded": "2026-01-08T20:07:32Z",
+		"dateModified": "2026-11-13T19:35:20Z",
+		"itemType": "book",
+		"key": "ZLDL4MMK",
+		"language": "fr-CA",
+		"place": "Frankfurt am Main",
+		"publisher": "Insel Verlag",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8TNWJUP5"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Das prinzip verantwortung. Versuch einer ethik für die technologische zivilisation"
+	}
+}

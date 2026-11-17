@@ -1,0 +1,185 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "2PZVGMZB",
+			"note": "DIC-9251 Modeling Project 1",
+			"parentItem": "2649BCN7",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T22:31:08Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-11-17T14:50:56Z",
+			"itemType": "attachment",
+			"key": "IBXTLVA8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:42:37 a.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"41b9fa24-8c57-8125-9fde-ed5243e01a76\",\"notes\":{\"2PZVGMZB\":{\"blockID\":\"41b9fa24-8c57-81b7-b20a-fb099d609e97\",\"syncedAt\":\"2026-11-17T14:42:34.170Z\"},\"XHN9WY6B\":{\"blockID\":\"41b9fa24-8c57-819a-8d85-e21d35aa9a3a\",\"syncedAt\":\"2026-11-17T14:42:37.427Z\"}}}</pre>",
+			"parentItem": "2649BCN7",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/EZ3N6JFQ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c57816ca6ace8fb71c2749e"
+		},
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "XHN9WY6B",
+			"note": "DIC-9251 Modeling Project 1",
+			"parentItem": "2649BCN7",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T20:17:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "attachment",
+			"key": "ZA5IGZIQ",
+			"linkMode": "linked_url",
+			"parentItem": "2649BCN7",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IBXTLVA8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c57816ca6ace8fb71c2749e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZA5IGZIQ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"My papers (English)",
+			"_9335_all",
+			"completeLoyer_100126",
+			"mes papiers et beamers",
+			"myReferences"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "2PZVGMZB",
+				"title": "DIC-9251 Modeling Project 1"
+			},
+			{
+				"key": "XHN9WY6B",
+				"title": "DIC-9251 Modeling Project 1"
+			}
+		],
+		"title": "Modeling a hybrid system (predicate-logic-based + ML/AI) for verifying the credibility of information sources",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/2649BCN7"
+	},
+	"zotero": {
+		"DOI": "10.13140/rg.2.2.36348.24961",
+		"citationKey": "loyerModelingHybridSystem2025",
+		"collections": [
+			"86QJKFHN",
+			"JVLZZMAC",
+			"K5YZTBZN",
+			"RJVJKNN2",
+			"WASU97Q5"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-26T21:01:07Z",
+		"dateModified": "2026-11-17T14:50:56Z",
+		"extra": "ISBN: 978-1-0699945-0-9\ntitleTranslation: Modeling a hybrid system (predicate-logic-based + ML/AI) for verifying the credibility of information sources",
+		"itemType": "journalArticle",
+		"key": "2649BCN7",
+		"language": "fr-CA",
+		"pages": "33",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/2A8YDH7M"
+			]
+		},
+		"tags": [
+			{
+				"tag": "AI Transparency"
+			},
+			{
+				"tag": "AI accountability"
+			},
+			{
+				"tag": "Dominique Loyer"
+			},
+			{
+				"tag": "Fact Checker"
+			},
+			{
+				"tag": "Hybrid Systems"
+			},
+			{
+				"tag": "Information Credibility"
+			},
+			{
+				"tag": "Intelligence artificielle explicable"
+			},
+			{
+				"tag": "Machine Learning"
+			},
+			{
+				"tag": "Neuro-Symbolic AI"
+			},
+			{
+				"tag": "Predicate Logic"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "verificationSystem"
+			},
+			{
+				"tag": "xAI"
+			}
+		],
+		"title": "Modeling a hybrid system (predicate-logic-based + ML/AI) for verifying the credibility of information sources",
+		"url": "https://www.researchgate.net/doi/10.13140/rg.2.2.36348.24961"
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:32:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:59Z",
+			"dateModified": "2026-11-09T17:06:08Z",
+			"itemType": "attachment",
+			"key": "PDRC8ZHM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:08 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "QRAIVKFK",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Graeber-David-2018-4129fa248c5781d494acfeb948f5b35a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PDRC8ZHM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Graeber-David-2018-4129fa248c5781d494acfeb948f5b35a"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"_gs_080326"
+		],
+		"creators": [
+			"Graeber, David"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Bullshit Jobs",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/QRAIVKFK"
+	},
+	"zotero": {
+		"citationKey": "graeberdavidBullshitJobs2018",
+		"collections": [
+			"9ERXAIZK",
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Graeber, David"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-02-25T20:55:51Z",
+		"dateModified": "2026-11-13T19:33:24Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "QRAIVKFK",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/FZ5KE4DD",
+				"http://zotero.org/users/15425556/items/V7BGAXM9"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/27Z8BF5W",
+				"http://zotero.org/groups/6376680/items/B72UMFSB",
+				"http://zotero.org/groups/6376680/items/EZKM9G7W",
+				"http://zotero.org/groups/6376680/items/H526FF57"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bullshit Jobs"
+	}
+}

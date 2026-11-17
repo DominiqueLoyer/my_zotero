@@ -1,0 +1,95 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:36:44Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "A8WC7A63",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:28 p.m.</p>",
+			"parentItem": "CRB2RHFV",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Sanner2023-2e29fa248c5781188567f036783ebf68"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "A8WC7A63",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Sanner2023-2e29fa248c5781188567f036783ebf68"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Sanner, Scott",
+			"Wu, Ga",
+			"Bu, Jia",
+			"Coates, Martin"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Foundational models for recommender systems",
+		"year": "2023",
+		"zoteroURI": "zotero://select/groups/6376680/items/CRB2RHFV"
+	},
+	"zotero": {
+		"DOI": "10.1145/3604915.3610720",
+		"citationKey": "sannerFoundationalModelsRecommender2023a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Scott",
+				"lastName": "Sanner"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ga",
+				"lastName": "Wu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jia",
+				"lastName": "Bu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Martin",
+				"lastName": "Coates"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "CRB2RHFV",
+		"language": "fr-CA",
+		"pages": "1–5",
+		"proceedingsTitle": "Proceedings of the 17th ACM conference on recommender systems",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Foundational models for recommender systems"
+	}
+}

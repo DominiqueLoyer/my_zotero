@@ -1,0 +1,111 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-26T22:35:05Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T22:35:05Z",
+			"dateModified": "2026-11-09T17:06:55Z",
+			"itemType": "attachment",
+			"key": "U9M7JL3Z",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:55 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "HK3EVE2H",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Krieger-Felix-M-and-Ziegele-Marc-and-Jackisch-Johann-and-Jakobs-Isabelle-2021-4129fa248c5781b79c0aca4a8c3811ad"
+		},
+		{
+			"accessDate": "2026-11-08T16:48:24Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:48:24Z",
+			"dateModified": "2026-11-08T16:48:24Z",
+			"filename": "Krieger, Felix M. and Ziegele, Marc and Jackisch, Johann and Jakobs, Isabelle - 2021 - DA-RoBERTa Domain-adaptive RoBERTa for detecting media bias.pdf",
+			"itemType": "attachment",
+			"key": "ZMUA4ASQ",
+			"linkMode": "imported_url",
+			"parentItem": "HK3EVE2H",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/2021.eacl-main.232.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Krieger, Felix M. and Ziegele, Marc and Jackisch, Johann and Jakobs, Isabelle - 2021 - DA-RoBERTa Domain-adaptive RoBERTa for detecting media bias.pdf",
+				"files": [
+					{
+						"path": "attachments/ZM/ZMUA4ASQ/Krieger, Felix M. and Ziegele, Marc and Jackisch, Johann and Jakobs, Isabelle - 2021 - DA-RoBERTa Domain-adaptive RoBERTa for detecting media bias.pdf",
+						"size": 268815,
+						"storage": "git"
+					}
+				],
+				"key": "ZMUA4ASQ",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/2021.eacl-main.232.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "U9M7JL3Z",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Krieger-Felix-M-and-Ziegele-Marc-and-Jackisch-Johann-and-Jakobs-Isabelle-2021-4129fa248c5781b79c0aca4a8c3811ad"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Krieger, Felix M. and Ziegele, Marc and Jackisch, Johann and Jakobs, Isabelle"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DA-RoBERTa: Domain-adaptive RoBERTa for detecting media bias",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/HK3EVE2H"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2021.eacl-main.232",
+		"citationKey": "kriegerfelixm.andziegelemarcandjackischjohannandjakobsisabelleDARoBERTaDomainadaptiveRoBERTa2021",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Krieger, Felix M. and Ziegele, Marc and Jackisch, Johann and Jakobs, Isabelle"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-02-26T20:20:56Z",
+		"dateModified": "2026-11-13T19:35:18Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "HK3EVE2H",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/VT6NZB7Y"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "DA-RoBERTa: Domain-adaptive RoBERTa for detecting media bias"
+	}
+}

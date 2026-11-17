@@ -1,0 +1,125 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:27:14Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:27:14Z",
+			"dateModified": "2026-11-09T17:09:33Z",
+			"itemType": "attachment",
+			"key": "99UGJT6E",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:33 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "XMKJFQAQ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Englehardt-et-al-2018-4129fa248c5781d5bb4bff69d7989055"
+		},
+		{
+			"accessDate": "2026-11-08T16:37:15Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:37:15Z",
+			"dateModified": "2026-11-08T16:37:15Z",
+			"filename": "Englehardt et al. - 2018 - I never signed up for this! Privacy implications of email tracking.pdf",
+			"itemType": "attachment",
+			"key": "WNA4QWP8",
+			"linkMode": "imported_url",
+			"parentItem": "XMKJFQAQ",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://petsymposium.org/popets/2018/popets-2018-0006.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Englehardt et al. - 2018 - I never signed up for this! Privacy implications of email tracking.pdf",
+				"files": [
+					{
+						"path": "attachments/WN/WNA4QWP8/Englehardt et al. - 2018 - I never signed up for this! Privacy implications of email tracking.pdf",
+						"size": 435265,
+						"storage": "git"
+					}
+				],
+				"key": "WNA4QWP8",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://petsymposium.org/popets/2018/popets-2018-0006.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "99UGJT6E",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Englehardt-et-al-2018-4129fa248c5781d5bb4bff69d7989055"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Englehardt, Steven",
+			"Han, Jeffrey",
+			"Narayanan, Arvind"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "I never signed up for this! Privacy implications of email tracking",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/XMKJFQAQ"
+	},
+	"zotero": {
+		"DOI": "10.1515/popets-2018-0006",
+		"abstractNote": "Abstract We show that the simple act of viewing emails contains privacy pitfalls for the unwary. We assembled a corpus of commercial mailing-list emails, and find a network of hundreds of third parties that track email recipients via methods such as embedded pixels. About 30",
+		"citationKey": "englehardtNeverSignedThis2018",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Steven",
+				"lastName": "Englehardt"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jeffrey",
+				"lastName": "Han"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Arvind",
+				"lastName": "Narayanan"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-01-08T20:14:05Z",
+		"dateModified": "2026-03-25T21:30:05Z",
+		"itemType": "journalArticle",
+		"key": "XMKJFQAQ",
+		"language": "fr-CA",
+		"pages": "109 - 126",
+		"publicationTitle": "Proceedings on Privacy Enhancing Technologies",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "I never signed up for this! Privacy implications of email tracking",
+		"url": "https://www.semanticscholar.org/paper/03e08e206021afaf2e410273483bae133c938d9c",
+		"volume": "2018"
+	}
+}

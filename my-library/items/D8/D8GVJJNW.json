@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:27:38Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:27:38Z",
+			"dateModified": "2026-11-08T16:27:38Z",
+			"filename": "Tomas Mikolov and Ilya Sutskever and Kai Chen and Greg Corrado and Jeffrey Dean - 2015 - Distributed Representations of Words and Phrases and their Compositionality.pdf",
+			"itemType": "attachment",
+			"key": "8H45A7ZR",
+			"linkMode": "imported_url",
+			"parentItem": "D8GVJJNW",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/W15-1502.pdf"
+		},
+		{
+			"accessDate": "2026-03-09T20:37:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:37:25Z",
+			"dateModified": "2026-11-09T17:07:52Z",
+			"itemType": "attachment",
+			"key": "9E5YM297",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:52 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "D8GVJJNW",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Tomas-Mikolov-and-Ilya-Sutskever-and-Kai-Chen-and-Greg-Corrado-and-Jeffrey-Dean-2015-4129fa248c5781cbbf44fdc7a2e17a1d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Tomas Mikolov and Ilya Sutskever and Kai Chen and Greg Corrado and Jeffrey Dean - 2015 - Distributed Representations of Words and Phrases and their Compositionality.pdf",
+				"files": [
+					{
+						"path": "attachments/8H/8H45A7ZR/Tomas Mikolov and Ilya Sutskever and Kai Chen and Greg Corrado and Jeffrey Dean - 2015 - Distributed Representations of Words and Phrases and their Compositionality.pdf",
+						"size": 407809,
+						"storage": "git"
+					}
+				],
+				"key": "8H45A7ZR",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/W15-1502.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9E5YM297",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Tomas-Mikolov-and-Ilya-Sutskever-and-Kai-Chen-and-Greg-Corrado-and-Jeffrey-Dean-2015-4129fa248c5781cbbf44fdc7a2e17a1d"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Tomas Mikolov and Ilya Sutskever and Kai Chen and Greg Corrado and Jeffrey Dean"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Distributed Representations of Words and Phrases and their Compositionality",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/D8GVJJNW"
+	},
+	"zotero": {
+		"DOI": "10.3115/v1/w15-1502",
+		"citationKey": "tomasmikolovandilyasutskeverandkaichenandgregcorradoandjeffreydeanDistributedRepresentationsWords2015",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Tomas Mikolov and Ilya Sutskever and Kai Chen and Greg Corrado and Jeffrey Dean"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-03-03T23:33:03Z",
+		"dateModified": "2026-03-25T21:29:14Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "D8GVJJNW",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Distributed Representations of Words and Phrases and their Compositionality"
+	}
+}

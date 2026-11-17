@@ -1,0 +1,60 @@
+{
+	"children": [],
+	"meta": {
+		"attachments": [],
+		"collections": [
+			"completeLoyer_100126 2026-11-12, 5:14:18 p.m."
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "computerProgram",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "TREC competition: Information retrieval on AP 88-90",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/HHETNCP7"
+	},
+	"zotero": {
+		"DOI": "10.5281/zenodo.17943728",
+		"citationKey": "loyerTRECCompetitionInformation2025a",
+		"collections": [
+			"IE29Y4Q7"
+		],
+		"company": "Zenodo",
+		"creators": [
+			{
+				"creatorType": "programmer",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-12T22:14:19Z",
+		"extra": "tex.github: DominiqueLoyer/TREC_COMPETITION_88-90_AP",
+		"itemType": "computerProgram",
+		"key": "HHETNCP7",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "BM25"
+			},
+			{
+				"tag": "Information Retrieval"
+			},
+			{
+				"tag": "Python"
+			},
+			{
+				"tag": "TF-IDF"
+			},
+			{
+				"tag": "TREC"
+			}
+		],
+		"title": "TREC competition: Information retrieval on AP 88-90",
+		"url": "https://zenodo.org/record/17943728"
+	}
+}

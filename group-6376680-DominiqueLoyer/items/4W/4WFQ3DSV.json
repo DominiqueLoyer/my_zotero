@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:22:07Z",
+			"dateModified": "2026-04-17T21:22:07Z",
+			"itemType": "note",
+			"key": "D6NLMEGV",
+			"note": "Doctoral Synthesis Exam DIC-9401",
+			"parentItem": "4WFQ3DSV",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T20:17:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:07Z",
+			"dateModified": "2026-04-17T21:22:07Z",
+			"itemType": "attachment",
+			"key": "FVP9SFLH",
+			"linkMode": "linked_url",
+			"parentItem": "4WFQ3DSV",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"accessDate": "2026-01-10T22:31:10Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:07Z",
+			"dateModified": "2026-11-17T14:42:32Z",
+			"itemType": "attachment",
+			"key": "P3LA9RNW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:42:32 a.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"41b9fa24-8c57-8167-bea5-ce0de753972e\",\"notes\":{\"D6NLMEGV\":{\"blockID\":\"41b9fa24-8c57-81de-a864-cd26c1317b58\",\"syncedAt\":\"2026-11-17T14:42:32.923Z\"}}}</pre>",
+			"parentItem": "4WFQ3DSV",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c5781dc965cd8a8d0d964bd"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "P3LA9RNW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c5781dc965cd8a8d0d964bd"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FVP9SFLH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "document",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "D6NLMEGV",
+				"title": "Doctoral Synthesis Exam DIC-9401"
+			}
+		],
+		"title": "Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/4WFQ3DSV"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.28011.20002",
+		"citationKey": "loyerLeviathanAlgorithmiquePouvoir2025",
+		"collections": [
+			"RJVJKNN2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-04-17T21:22:07Z",
+		"dateModified": "2026-04-17T21:22:07Z",
+		"extra": "ISBN: 978-1-0699904-0-2\nPages: 64\ntitleTranslation: The Algorithmic Leviathan: Power, Opacity, and Responsibility in the Age of Artificial Intelligence",
+		"itemType": "document",
+		"key": "4WFQ3DSV",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.28011.20002"
+	}
+}

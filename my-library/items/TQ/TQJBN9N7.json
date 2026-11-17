@@ -1,0 +1,145 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:53Z",
+			"dateModified": "2026-11-09T17:06:25Z",
+			"itemType": "attachment",
+			"key": "CE8TMCTS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:25 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "TQJBN9N7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Koren-2009-4129fa248c57815a9132e92147cae13f"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-08-21T19:30:12Z",
+			"dateModified": "2025-08-21T19:38:19Z",
+			"filename": "Koren - 2009 - Collaborative filtering with temporal dynamics.pdf",
+			"itemType": "attachment",
+			"key": "T3FIZU26",
+			"linkMode": "imported_file",
+			"parentItem": "TQJBN9N7",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-05-06T20:11:44Z",
+			"dateModified": "2025-05-06T20:11:48Z",
+			"filename": "Koren - 2009 - Collaborative filtering with temporal dynamics.pdf",
+			"itemType": "attachment",
+			"key": "YD58J6JJ",
+			"linkMode": "imported_file",
+			"parentItem": "TQJBN9N7",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CE8TMCTS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Koren-2009-4129fa248c57815a9132e92147cae13f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Koren - 2009 - Collaborative filtering with temporal dynamics.pdf",
+				"files": [],
+				"key": "YD58J6JJ",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Koren - 2009 - Collaborative filtering with temporal dynamics.pdf",
+				"files": [
+					{
+						"path": "attachments/T3/T3FIZU26/Koren - 2009 - Collaborative filtering with temporal dynamics.pdf",
+						"size": 290134,
+						"storage": "git"
+					}
+				],
+				"key": "T3FIZU26",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)"
+		],
+		"creators": [
+			"Koren, Yehuda"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Collaborative filtering with temporal dynamics",
+		"year": "2009",
+		"zoteroURI": "zotero://select/library/items/TQJBN9N7"
+	},
+	"zotero": {
+		"DOI": "10.1145/1557019.1557072",
+		"ISBN": "978-1-60558-495-9",
+		"abstractNote": "The collaborative ﬁltering (CF) approach to recommenders has recently enjoyed much interest and progress. The fact that it played a central role within the recently completed Netﬂix competition has contributed to its popularity. This chapter surveys the recent progress in the ﬁeld. Matrix factorization techniques, which became a ﬁrst choice for implementing CF, are described together with recent innovations. We also describe several extensions that bring competitive accuracy into neighborhood methods, which used to dominate the ﬁeld. The chapter demonstrates how to utilize temporal models and implicit feedback to extend models accuracy. In passing, we include detailed descriptions of some the central methods developed for tackling the challenge of the Netﬂix Prize competition.",
+		"accessDate": "2025-05-06T20:11:47Z",
+		"citationKey": "korenCollaborativeFilteringTemporal2009",
+		"collections": [
+			"TFCUVACE"
+		],
+		"conferenceName": "KDD09: The 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Yehuda",
+				"lastName": "Koren"
+			}
+		],
+		"date": "2009-06-28",
+		"dateAdded": "2025-05-06T20:11:47Z",
+		"dateModified": "2025-12-05T22:32:53Z",
+		"itemType": "conferencePaper",
+		"key": "TQJBN9N7",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "447-456",
+		"place": "Paris France",
+		"proceedingsTitle": "Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining",
+		"publisher": "ACM",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/97AVIIFL"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Collaborative filtering with temporal dynamics",
+		"url": "https://dl.acm.org/doi/10.1145/1557019.1557072"
+	}
+}

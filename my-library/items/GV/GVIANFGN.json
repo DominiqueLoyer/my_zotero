@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:43Z",
+			"dateModified": "2026-03-09T20:43:12Z",
+			"itemType": "attachment",
+			"key": "ZBPB8PZ5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:43:12 p.m.</p>",
+			"parentItem": "GVIANFGN",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/WJ5HWCYN",
+					"http://zotero.org/groups/6376680/items/WYHHXUD4"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Hugging2024The-3129fa248c5781cd8ea8e6e6de379a54"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZBPB8PZ5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Hugging2024The-3129fa248c5781cd8ea8e6e6de379a54"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Hugging Face"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The EU AI Act",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/GVIANFGN"
+	},
+	"zotero": {
+		"DOI": "10.37307/j.2701-7605.2024.06.03",
+		"citationKey": "huggingfaceEUAIAct2024c",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Hugging Face"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:38:32Z",
+		"dateModified": "2026-03-25T21:29:46Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "GVIANFGN",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/HQXX8Q5K",
+				"http://zotero.org/groups/6376680/items/IZ9YFAGQ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The EU AI Act"
+	}
+}

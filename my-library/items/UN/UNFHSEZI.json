@@ -1,0 +1,108 @@
+{
+	"children": [
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:20:38Z",
+			"dateModified": "2026-01-08T22:57:50Z",
+			"filename": "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe.bib",
+			"itemType": "attachment",
+			"key": "8X8HTPXZ",
+			"linkMode": "imported_file",
+			"parentItem": "UNFHSEZI",
+			"relations": {},
+			"tags": [],
+			"title": "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		},
+		{
+			"accessDate": "2026-01-16T15:53:05Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:05Z",
+			"dateModified": "2026-11-09T17:06:34Z",
+			"itemType": "attachment",
+			"key": "ZN39W8XZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:34 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "UNFHSEZI",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/RFQ3SWAJ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe-4129fa248c5781e8aa66c01d84d17eeb"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe.bib",
+				"files": [
+					{
+						"path": "attachments/8X/8X8HTPXZ/ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe.bib",
+						"size": 56887,
+						"storage": "git"
+					}
+				],
+				"key": "8X8HTPXZ",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZN39W8XZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe-4129fa248c5781e8aa66c01d84d17eeb"
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/UNFHSEZI"
+	},
+	"zotero": {
+		"citationKey": "ConnectedPapersforTheWebNeverForgets_3APe",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:50Z",
+		"dateModified": "2026-11-13T19:34:47Z",
+		"itemType": "document",
+		"key": "UNFHSEZI",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/KVJEZU5F"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+	}
+}

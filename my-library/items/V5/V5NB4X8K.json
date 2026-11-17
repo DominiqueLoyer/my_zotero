@@ -1,0 +1,121 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:15:02Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:15:02Z",
+			"dateModified": "2026-11-09T15:00:39Z",
+			"filename": "Neuer, Laurence - 2024 - Le droit face aux algorithmes.pdf",
+			"itemType": "attachment",
+			"key": "9E6PSUYW",
+			"linkMode": "imported_url",
+			"parentItem": "V5NB4X8K",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/BY76N3SK",
+					"http://zotero.org/users/15425556/items/GN4JK8WM"
+				]
+			},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://www.has-sante.fr/upload/docs/application/pdf/2012-04/fiche11.pdf"
+		},
+		{
+			"accessDate": "2026-03-09T20:34:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:34:21Z",
+			"dateModified": "2026-11-09T15:00:39Z",
+			"itemType": "attachment",
+			"key": "KRT852GD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:34:22 p.m.</p>",
+			"parentItem": "V5NB4X8K",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/Q5ABBZEU"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Neuer2024Le-31e9fa248c57814dbbf4d2aa2c928200"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Neuer, Laurence - 2024 - Le droit face aux algorithmes.pdf",
+				"files": [
+					{
+						"path": "attachments/9E/9E6PSUYW/Neuer, Laurence - 2024 - Le droit face aux algorithmes.pdf",
+						"size": 123343,
+						"storage": "git"
+					}
+				],
+				"key": "9E6PSUYW",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://www.has-sante.fr/upload/docs/application/pdf/2012-04/fiche11.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KRT852GD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Neuer2024Le-31e9fa248c57814dbbf4d2aa2c928200"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Neuer, Laurence"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Le droit face aux algorithmes",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/V5NB4X8K"
+	},
+	"zotero": {
+		"DOI": "10.52497/revue-cmh.2915",
+		"citationKey": "neuerlaurenceDroitFaceAux2024",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Neuer, Laurence"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-05T01:00:10Z",
+		"dateModified": "2026-11-09T15:00:39Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "V5NB4X8K",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/98BJ5B7C",
+				"http://zotero.org/users/15425556/items/STHJIVT5"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Le droit face aux algorithmes"
+	}
+}

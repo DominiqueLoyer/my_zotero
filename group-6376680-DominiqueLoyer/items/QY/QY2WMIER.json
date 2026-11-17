@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "note",
+			"key": "85MVT86T",
+			"note": "Première édition",
+			"parentItem": "QY2WMIER",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-08T20:07:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "JPH4THEB",
+			"linkMode": "linked_url",
+			"parentItem": "QY2WMIER",
+			"relations": {},
+			"tags": [],
+			"title": "textenumerise",
+			"url": "https://gallica.bnf.fr/ark:/12148/bpt6k7356c.image"
+		},
+		{
+			"accessDate": "2026-01-08T20:40:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "ZS65JPGJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:21 p.m.</p>",
+			"parentItem": "QY2WMIER",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/descartes1637discours-2e29fa248c5781afb837d082695d2e6c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZS65JPGJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/descartes1637discours-2e29fa248c5781afb837d082695d2e6c"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JPH4THEB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "textenumerise",
+				"url": "https://gallica.bnf.fr/ark:/12148/bpt6k7356c.image"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Descartes, René"
+		],
+		"itemType": "book",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "85MVT86T",
+				"title": "Première édition"
+			}
+		],
+		"title": "Discours de la méthode pour bien conduire sa raison et chercher la vérité dans les sciences",
+		"year": "1637",
+		"zoteroURI": "zotero://select/groups/6376680/items/QY2WMIER"
+	},
+	"zotero": {
+		"citationKey": "descartesDiscoursMethodePour1637",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "René",
+				"lastName": "Descartes"
+			}
+		],
+		"date": "1637",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "book",
+		"key": "QY2WMIER",
+		"language": "fr-CA",
+		"place": "Leyde",
+		"publisher": "Jean Maire",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Discours de la méthode pour bien conduire sa raison et chercher la vérité dans les sciences"
+	}
+}

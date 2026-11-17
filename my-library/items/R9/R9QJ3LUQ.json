@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:37:53Z",
+			"dateModified": "2026-03-09T20:53:03Z",
+			"itemType": "attachment",
+			"key": "HQB2F2PZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:03 p.m.</p>",
+			"parentItem": "R9QJ3LUQ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/TUYN8R94"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Microsoft2024-2e29fa248c57813dbad9ea6da1ee6e51"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HQB2F2PZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Microsoft2024-2e29fa248c57813dbad9ea6da1ee6e51"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Microsoft"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Microsoft responsible AI standard, v2",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/R9QJ3LUQ"
+	},
+	"zotero": {
+		"citationKey": "microsoftMicrosoftResponsibleAI2024a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Microsoft"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-01-08T20:07:32Z",
+		"dateModified": "2026-03-25T21:30:35Z",
+		"itemType": "document",
+		"key": "R9QJ3LUQ",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/NV7VANBV"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Microsoft responsible AI standard, v2",
+		"url": "https://www.microsoft.com/en-us/ai/responsible-ai"
+	}
+}

@@ -1,0 +1,184 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:18:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:50:35Z",
+			"itemType": "attachment",
+			"key": "GZ43FV72",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:18:00 p.m.</p>",
+			"parentItem": "695GXCH9",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/hakimNeuroSymbolicAICybersecurity2025b-3239fa248c578194acdfc71b47b88ca7"
+		},
+		{
+			"accessDate": "2026-03-14T18:18:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:50:35Z",
+			"itemType": "attachment",
+			"key": "QSP3KZ5J",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:18:49 p.m.</p>",
+			"parentItem": "695GXCH9",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/MF8XH6ZW"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/hakimNeuroSymbolicAICybersecurity2025a-3239fa248c5781f7b8c1e43ce7968873"
+		},
+		{
+			"accessDate": "2026-03-14T18:16:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:50:35Z",
+			"itemType": "attachment",
+			"key": "YW4XJ6KK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:16:48 p.m.</p>",
+			"parentItem": "695GXCH9",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/hakimNeuroSymbolicAICybersecurity2025c-3239fa248c57818b95f4cdf28fd9ec97"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "YW4XJ6KK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/hakimNeuroSymbolicAICybersecurity2025c-3239fa248c57818b95f4cdf28fd9ec97"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QSP3KZ5J",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/hakimNeuroSymbolicAICybersecurity2025a-3239fa248c5781f7b8c1e43ce7968873"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GZ43FV72",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/hakimNeuroSymbolicAICybersecurity2025b-3239fa248c578194acdfc71b47b88ca7"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/230226_v1551/PDFs",
+			"_ALL_CIT_140326/240226_v2130/PDFs",
+			"_ALL_CIT_140326/Revue_de_litterature",
+			"_ALL_CIT_140326/sysCRED_240226/PDFs"
+		],
+		"creators": [
+			"Hakim, Safayat Bin",
+			"Adil, Muhammad",
+			"Velasquez, Alvaro",
+			"Xu, Shouhuai",
+			"Song, Houbing Herbert"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Neuro-Symbolic AI for Cybersecurity: State of the Art, Challenges, and Opportunities",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/695GXCH9"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2509.06921",
+		"abstractNote": "Traditional Artificial Intelligence (AI) approaches in cybersecurity exhibit fundamental limitations: inadequate conceptual grounding leading to non-robustness against novel attacks; limited instructibility impeding analyst-guided adaptation; and misalignment with cybersecurity objectives. Neuro-Symbolic (NeSy) AI has emerged with the potential to revolutionize cybersecurity AI. However, there is no systematic understanding of this emerging approach. These hybrid systems address critical cybersecurity challenges by combining neural pattern recognition with symbolic reasoning, enabling enhanced threat understanding while introducing concerning autonomous offensive capabilities that reshape threat landscapes. In this survey, we systematically characterize this field by analyzing 127 publications spanning 2019-July 2025. We introduce a Grounding-Instructibility-Alignment (G-I-A) framework to evaluate these systems, focusing on both cyber defense and cyber offense across network security, malware analysis, and cyber operations. Our analysis shows advantages of multi-agent NeSy architectures and identifies critical implementation challenges including standardization gaps, computational complexity, and human-AI collaboration requirements that constrain deployment. We show that causal reasoning integration is the most transformative advancement, enabling proactive defense beyond correlation-based approaches. Our findings highlight dual-use implications where autonomous systems demonstrate substantial capabilities in zero-day exploitation while achieving significant cost reductions, altering threat dynamics. We provide insights and future research directions, emphasizing the urgent need for community-driven standardization frameworks and responsible development practices that ensure advancement serves defensive cybersecurity objectives while maintaining societal alignment.",
+		"accessDate": "2026-03-14T17:37:49Z",
+		"archiveID": "arXiv:2509.06921",
+		"citationKey": "hakimNeuroSymbolicAICybersecurity2025b",
+		"collections": [
+			"3JUTVISD",
+			"7NU35ACK",
+			"9IXQQWAM",
+			"J5JBI8ZS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Safayat Bin",
+				"lastName": "Hakim"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Muhammad",
+				"lastName": "Adil"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alvaro",
+				"lastName": "Velasquez"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Shouhuai",
+				"lastName": "Xu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Houbing Herbert",
+				"lastName": "Song"
+			}
+		],
+		"date": "2025-09-08",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-11-17T14:50:35Z",
+		"extra": "arXiv:2509.06921 [cs]",
+		"itemType": "preprint",
+		"key": "695GXCH9",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/I4L8JCP8",
+				"http://zotero.org/groups/6376680/items/UAH6YKEN",
+				"http://zotero.org/groups/6376680/items/UKJBGVCN"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Neuro-Symbolic AI for Cybersecurity",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Cryptography and Security",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neuro-Symbolic AI for Cybersecurity: State of the Art, Challenges, and Opportunities",
+		"url": "http://arxiv.org/abs/2509.06921"
+	}
+}

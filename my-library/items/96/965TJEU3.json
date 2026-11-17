@@ -1,0 +1,108 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:33:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:33:52Z",
+			"dateModified": "2026-03-09T20:33:52Z",
+			"itemType": "attachment",
+			"key": "CBWJQQV6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:33:52 p.m.</p>",
+			"parentItem": "965TJEU3",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Bengio1987The-31e9fa248c57819aac62dcdbb90b1aa7"
+		},
+		{
+			"accessDate": "2026-11-08T16:39:27Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:39:27Z",
+			"dateModified": "2026-11-08T16:39:27Z",
+			"filename": "Bengio, Yoshua - 1987 - The Consciousness Prior.pdf",
+			"itemType": "attachment",
+			"key": "TI9UIPMD",
+			"linkMode": "imported_url",
+			"parentItem": "965TJEU3",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/1709.08568v2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CBWJQQV6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Bengio1987The-31e9fa248c57819aac62dcdbb90b1aa7"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Bengio, Yoshua - 1987 - The Consciousness Prior.pdf",
+				"files": [
+					{
+						"path": "attachments/TI/TI9UIPMD/Bengio, Yoshua - 1987 - The Consciousness Prior.pdf",
+						"size": 123000,
+						"storage": "git"
+					}
+				],
+				"key": "TI9UIPMD",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/1709.08568v2"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Bengio, Yoshua"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The Consciousness Prior",
+		"year": "1987",
+		"zoteroURI": "zotero://select/library/items/965TJEU3"
+	},
+	"zotero": {
+		"DOI": "10.1080/10862968709547614",
+		"citationKey": "bengioyoshuaConsciousnessPrior1987",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Bengio, Yoshua"
+			}
+		],
+		"date": "1987",
+		"dateAdded": "2026-03-05T01:12:12Z",
+		"dateModified": "2026-03-25T21:28:55Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "965TJEU3",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Consciousness Prior",
+		"url": "https://arxiv.org/abs/1709.08568"
+	}
+}

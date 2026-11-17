@@ -1,0 +1,137 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:27:46Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:46Z",
+			"dateModified": "2026-11-09T14:59:23Z",
+			"itemType": "attachment",
+			"key": "5G4DWZQC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:10:19 p.m.</p>",
+			"parentItem": "322ZRE9A",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/8FWXYRSL"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/UBE52MM6"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/plumbModelAgnosticSupervised2018-2c09fa248c5781bca71aceec0e0d9b9f"
+		},
+		{
+			"accessDate": "2026-01-08T20:31:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:31:24Z",
+			"dateModified": "2026-11-09T14:59:23Z",
+			"itemType": "attachment",
+			"key": "YUI6XYIK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:49:10 p.m.</p>",
+			"parentItem": "322ZRE9A",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Plumb2018-2e29fa248c5781eaa5a4f2c3e30c5391"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "YUI6XYIK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Plumb2018-2e29fa248c5781eaa5a4f2c3e30c5391"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5G4DWZQC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/plumbModelAgnosticSupervised2018-2c09fa248c5781bca71aceec0e0d9b9f"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Plumb, Gregory",
+			"Molitor, David",
+			"Talwalkar, Ameet S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Model Agnostic Supervised Local Explanations",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/322ZRE9A"
+	},
+	"zotero": {
+		"citationKey": "plumbModelAgnosticSupervised2018",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gregory",
+				"lastName": "Plumb"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Molitor"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ameet S.",
+				"lastName": "Talwalkar"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T14:59:23Z",
+		"itemType": "conferencePaper",
+		"key": "322ZRE9A",
+		"pages": "2515–2524",
+		"proceedingsTitle": "Advances in Neural Information Processing Systems 31",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/6QLIAAKK",
+				"http://zotero.org/users/15425556/items/UJQCYA5G"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/LLI3QIBJ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Model Agnostic Supervised Local Explanations"
+	}
+}

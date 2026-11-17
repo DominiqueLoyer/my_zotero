@@ -1,0 +1,122 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:25:47Z",
+			"dateModified": "2025-03-31T18:58:24Z",
+			"filename": "Ontologies et Web.pdf",
+			"itemType": "attachment",
+			"key": "DBM6ZWAL",
+			"linkMode": "imported_file",
+			"parentItem": "VFPQPZ5G",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/6SFJ8Z3E"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:28:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:06Z",
+			"dateModified": "2026-01-02T19:15:42Z",
+			"itemType": "attachment",
+			"key": "F9WVTYUE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:42 p.m.</p>",
+			"parentItem": "VFPQPZ5G",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/OntologiesWeb-2c09fa248c578189b1d7c823b827b7a1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "F9WVTYUE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/OntologiesWeb-2c09fa248c578189b1d7c823b827b7a1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ontologies et Web.pdf",
+				"files": [
+					{
+						"path": "attachments/DB/DBM6ZWAL/Ontologies et Web.pdf",
+						"size": 723737,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/DB/DBM6ZWAL/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 2898,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/DB/DBM6ZWAL/Ontologies et Web (trashed 2025-11-24 15-34-10).pdf",
+						"size": 723737,
+						"storage": "git"
+					}
+				],
+				"key": "DBM6ZWAL",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/semaine de relâches"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Ontologies et Web",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/VFPQPZ5G"
+	},
+	"zotero": {
+		"citationKey": "lounishakimOntologiesWeb",
+		"collections": [
+			"G4KBEA9A",
+			"ND5TC8JC"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:38:11Z",
+		"dateModified": "2025-03-31T18:58:24Z",
+		"itemType": "document",
+		"key": "VFPQPZ5G",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/N3CY7A9R"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Ontologies et Web"
+	}
+}

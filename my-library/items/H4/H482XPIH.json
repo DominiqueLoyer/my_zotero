@@ -1,0 +1,146 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:33:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:04Z",
+			"dateModified": "2026-01-02T19:17:37Z",
+			"itemType": "attachment",
+			"key": "F2GLVHCL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:37 p.m.</p>",
+			"parentItem": "H482XPIH",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/SPLDQFUS"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/kashinSystematicBiasNontransparency2015-2c09fa248c578105955ad7402191e222"
+		},
+		{
+			"accessDate": "2024-11-24T18:57:38Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-24T18:57:38Z",
+			"dateModified": "2024-11-24T18:57:43Z",
+			"filename": "Kashin et al. - 2015 - Systematic Bias and Nontransparency in US Social Security Administration Forecasts.pdf",
+			"itemType": "attachment",
+			"key": "FCLV5IP9",
+			"linkMode": "imported_url",
+			"parentItem": "H482XPIH",
+			"relations": {},
+			"tags": [],
+			"title": "PDF",
+			"url": "https://www.pp.u-tokyo.ac.jp/cregg/assets/img/program/expert/report-document-20230407_EN.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "F2GLVHCL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/kashinSystematicBiasNontransparency2015-2c09fa248c578105955ad7402191e222"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Kashin et al. - 2015 - Systematic Bias and Nontransparency in US Social Security Administration Forecasts.pdf",
+				"files": [
+					{
+						"path": "attachments/FC/FCLV5IP9/Kashin et al. - 2015 - Systematic Bias and Nontransparency in US Social Security Administration Forecasts.pdf",
+						"size": 833554,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/FC/FCLV5IP9/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 88516,
+						"storage": "git"
+					}
+				],
+				"key": "FCLV5IP9",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "PDF",
+				"url": "https://www.pp.u-tokyo.ac.jp/cregg/assets/img/program/expert/report-document-20230407_EN.pdf"
+			}
+		],
+		"collections": [
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Kashin, Konstantin",
+			"King, Gary",
+			"Soneji, Samir"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Systematic Bias and Nontransparency in US Social Security Administration Forecasts",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/H482XPIH"
+	},
+	"zotero": {
+		"DOI": "10.1257/jep.29.2.239",
+		"ISSN": "0895-3309",
+		"abstractNote": "To optimize the benefits of AI innovation, it is crucial to establish and manage a flexible technical, organizational, and social framework that allows stakeholders to acknowledge AI-related risks and adapt their interests accordingly—an agile governance system for AI. This paper addresses the complex and contentious issues surrounding AI governance, focusing on the organization of overarching and systematic approaches for the transparency of AI algorithms, and proposes a practical toolkit for implementation.",
+		"accessDate": "2024-11-24T18:57:42Z",
+		"citationKey": "kashinSystematicBiasNontransparency2015",
+		"collections": [
+			"NKV86EAI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Konstantin",
+				"lastName": "Kashin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gary",
+				"lastName": "King"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Samir",
+				"lastName": "Soneji"
+			}
+		],
+		"date": "2015-05-01",
+		"dateAdded": "2024-11-24T18:57:42Z",
+		"dateModified": "2025-12-05T22:33:04Z",
+		"issue": "2",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Journal of Economic Perspectives",
+		"key": "H482XPIH",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "239-258",
+		"publicationTitle": "Journal of Economic Perspectives",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/GY4DM78D"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "transparency tool"
+			}
+		],
+		"title": "Systematic Bias and Nontransparency in US Social Security Administration Forecasts",
+		"url": "https://pubs.aeaweb.org/doi/10.1257/jep.29.2.239",
+		"volume": "29"
+	}
+}

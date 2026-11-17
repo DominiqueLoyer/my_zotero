@@ -1,0 +1,108 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:28:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:45Z",
+			"dateModified": "2026-01-02T19:15:22Z",
+			"itemType": "attachment",
+			"key": "7Y9EP9A6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:22 p.m.</p>",
+			"parentItem": "KHVQAF3S",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Modelisationstatique-2c09fa248c57817b83c0d220ac289ecc"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-31T16:18:35Z",
+			"dateModified": "2025-03-31T18:58:19Z",
+			"filename": "modelisation-statique.pdf",
+			"itemType": "attachment",
+			"key": "T9L37G9V",
+			"linkMode": "imported_file",
+			"parentItem": "KHVQAF3S",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/GPLSK586"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7Y9EP9A6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Modelisationstatique-2c09fa248c57817b83c0d220ac289ecc"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "modelisation-statique.pdf",
+				"files": [],
+				"key": "T9L37G9V",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/4.0  modélisation statique",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "modelisation-statique",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/KHVQAF3S"
+	},
+	"zotero": {
+		"citationKey": "lounishakimModelisationstatique",
+		"collections": [
+			"G4KBEA9A",
+			"IVY9PBG4",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:45:52Z",
+		"dateModified": "2025-03-31T18:58:19Z",
+		"itemType": "document",
+		"key": "KHVQAF3S",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/IFNRIZP8"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "modelisation-statique"
+	}
+}

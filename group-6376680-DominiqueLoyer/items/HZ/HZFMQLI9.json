@@ -1,0 +1,152 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:18:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:46:29Z",
+			"itemType": "attachment",
+			"key": "H6NRDIUR",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:25:17 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-81c8-97a8-e2c037b8459b\",\"notes\":{\"VMCGAXMI\":{\"blockID\":\"3239fa24-8c57-81d2-a9cd-c1abf4157a42\",\"syncedAt\":\"2026-03-14T18:25:17.519Z\"}}}</pre>",
+			"parentItem": "HZFMQLI9",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/93ZS46PT"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/lanSemanticWebTechnology2022a-3239fa248c5781fb9785fed7f931e770"
+		},
+		{
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-11-17T14:46:29Z",
+			"itemType": "note",
+			"key": "LGXFA2EC",
+			"note": "Comment: 11 pages, four figures, 2 tables",
+			"parentItem": "HZFMQLI9",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "note",
+			"key": "V9NCV2XZ",
+			"note": "Comment: 11 pages, four figures, 2 tables",
+			"parentItem": "HZFMQLI9",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "H6NRDIUR",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/lanSemanticWebTechnology2022a-3239fa248c5781fb9785fed7f931e770"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/2eTP_dic9335_040326/AVEC SOURCES CUSTOM/PDFs",
+			"_ALL_CIT_140326/2eTP_dic9335_040326/PDFs"
+		],
+		"creators": [
+			"Lan, Gongjin",
+			"Liu, Ting",
+			"Wang, Xu",
+			"Pan, Xueli",
+			"Huang, Zhisheng"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "V9NCV2XZ",
+				"title": "Comment: 11 pages, four figures, 2 tables"
+			},
+			{
+				"key": "LGXFA2EC",
+				"title": "Comment: 11 pages, four figures, 2 tables"
+			}
+		],
+		"title": "A Semantic Web Technology Index",
+		"year": "2022",
+		"zoteroURI": "zotero://select/groups/6376680/items/HZFMQLI9"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2201.07034",
+		"abstractNote": "Semantic Web (SW) technology has been widely applied to many domains such as medicine, health care, finance, geology. At present, researchers mainly rely on their experience and preferences to develop and evaluate the work of SW technology. Although the general architecture (e.g., Tim Berners-Lee's Semantic Web Layer Cake) of SW technology was proposed many years ago and has been well-known, it still lacks a concrete guideline for standardizing the development of SW technology. In this paper, we propose an SW technology index to standardize the development for ensuring that the work of SW technology is designed well and to quantitatively evaluate the quality of the work in SW technology. This index consists of 10 criteria that quantify the quality as a score of 0 ~ 10. We address each criterion in detail for a clear explanation from three aspects: 1) what is the criterion? 2) why do we consider this criterion and 3) how do the current studies meet this criterion? Finally, we present the validation of this index by providing some examples of how to apply the index to the validation cases. We conclude that the index is a useful standard to guide and evaluate the work in SW technology.",
+		"accessDate": "2026-03-14T17:38:21Z",
+		"archiveID": "arXiv:2201.07034",
+		"citationKey": "lanSemanticWebTechnology2022",
+		"collections": [
+			"GBVEN8UM",
+			"ZUF52BR8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gongjin",
+				"lastName": "Lan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ting",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xu",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xueli",
+				"lastName": "Pan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhisheng",
+				"lastName": "Huang"
+			}
+		],
+		"date": "2022-01-14",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-11-17T14:46:29Z",
+		"extra": "arXiv:2201.07034 [cs]",
+		"itemType": "preprint",
+		"key": "HZFMQLI9",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/QR3SPKFM"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Software Engineering",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Semantic Web Technology Index",
+		"url": "http://arxiv.org/abs/2201.07034"
+	}
+}

@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:14:13Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:14:13Z",
+			"dateModified": "2026-11-08T16:14:13Z",
+			"filename": "Fan, Wenqi and Ma, Yao and Li, Qing and He, Yuan and Zhao, Eric and Tang, Jiliang and Yin, Dawei - 2019 - Graph Neural Networks for Social Recommendation.pdf",
+			"itemType": "attachment",
+			"key": "FFPJBV5V",
+			"linkMode": "imported_url",
+			"parentItem": "XPRMR9FQ",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1902.07243"
+		},
+		{
+			"accessDate": "2026-02-25T22:18:10Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:10Z",
+			"dateModified": "2026-11-09T17:09:23Z",
+			"itemType": "attachment",
+			"key": "NCUHI5C8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:23 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "XPRMR9FQ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/QJX3Y3IG",
+					"http://zotero.org/groups/6376680/items/UBYELF8N"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Fan-Wenqi-and-Ma-Yao-and-Li-Qing-and-He-Yuan-and-Zhao-Eric-and-Tang-Jiliang-and-Yin-Dawei-20-4129fa248c5781cc8e4dc97959e55b69"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NCUHI5C8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Fan-Wenqi-and-Ma-Yao-and-Li-Qing-and-He-Yuan-and-Zhao-Eric-and-Tang-Jiliang-and-Yin-Dawei-20-4129fa248c5781cc8e4dc97959e55b69"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Fan, Wenqi and Ma, Yao and Li, Qing and He, Yuan and Zhao, Eric and Tang, Jiliang and Yin, Dawei - 2019 - Graph Neural Networks for Social Recommendation.pdf",
+				"files": [
+					{
+						"path": "attachments/FF/FFPJBV5V/Fan, Wenqi and Ma, Yao and Li, Qing and He, Yuan and Zhao, Eric and Tang, Jiliang and Yin, Dawei - 2019 - Graph Neural Networks for Social Recommendation.pdf",
+						"size": 1340889,
+						"storage": "git"
+					}
+				],
+				"key": "FFPJBV5V",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1902.07243"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Fan, Wenqi and Ma, Yao and Li, Qing and He, Yuan and Zhao, Eric and Tang, Jiliang and Yin, Dawei"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Graph Neural Networks for Social Recommendation",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/XPRMR9FQ"
+	},
+	"zotero": {
+		"DOI": "10.1145/3308558.3313488",
+		"citationKey": "fanwenqiandmayaoandliqingandheyuanandzhaoericandtangjiliangandyindaweiGraphNeuralNetworks2019",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Fan, Wenqi and Ma, Yao and Li, Qing and He, Yuan and Zhao, Eric and Tang, Jiliang and Yin, Dawei"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-02-25T21:36:32Z",
+		"dateModified": "2026-03-25T21:29:48Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "XPRMR9FQ",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/IF5A4GZY",
+				"http://zotero.org/groups/6376680/items/P25GSHK6"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Graph Neural Networks for Social Recommendation"
+	}
+}

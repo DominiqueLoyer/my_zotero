@@ -1,0 +1,138 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:25:01Z",
+			"dateModified": "2026-03-14T17:36:29Z",
+			"itemType": "attachment",
+			"key": "47HC4QYT",
+			"linkMode": "linked_file",
+			"parentItem": "UBHBQCRP",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/trec_rapport1_030326/PDFs/Nogueira and Cho - 2020 - Passage Re-ranking with BERT.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:19:40Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:40Z",
+			"dateModified": "2026-03-14T18:19:40Z",
+			"itemType": "attachment",
+			"key": "P3Q6URVU",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:19:40 p.m.</p>",
+			"parentItem": "UBHBQCRP",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/5QQVQFD2"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/nogueiraPassageRerankingBERT2020-3239fa248c5781318410c71be1b84cb2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "P3Q6URVU",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/nogueiraPassageRerankingBERT2020-3239fa248c5781318410c71be1b84cb2"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Nogueira and Cho - 2020 - Passage Re-ranking with BERT.pdf",
+				"files": [
+					{
+						"path": "attachments/47/47HC4QYT/Nogueira and Cho - 2020 - Passage Re-ranking with BERT.pdf",
+						"size": 179659,
+						"storage": "git"
+					}
+				],
+				"key": "47HC4QYT",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/trec_rapport1_030326/PDFs"
+		],
+		"creators": [
+			"Nogueira, Rodrigo",
+			"Cho, Kyunghyun"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Passage Re-ranking with BERT",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/UBHBQCRP"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1901.04085",
+		"abstractNote": "Recently, neural models pretrained on a language modeling task, such as ELMo (Peters et al., 2017), OpenAI GPT (Radford et al., 2018), and BERT (Devlin et al., 2018), have achieved impressive results on various natural language processing tasks such as question-answering and natural language inference. In this paper, we describe a simple re-implementation of BERT for query-based passage re-ranking. Our system is the state of the art on the TREC-CAR dataset and the top entry in the leaderboard of the MS MARCO passage retrieval task, outperforming the previous state of the art by 27% (relative) in MRR@10. The code to reproduce our results is available at https://github.com/nyu-dl/dl4marco-bert",
+		"accessDate": "2026-03-14T17:36:28Z",
+		"archiveID": "arXiv:1901.04085",
+		"citationKey": "nogueiraPassageRerankingBERT2020",
+		"collections": [
+			"MISBU3F7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Rodrigo",
+				"lastName": "Nogueira"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kyunghyun",
+				"lastName": "Cho"
+			}
+		],
+		"date": "2020-04-14",
+		"dateAdded": "2026-03-14T17:36:28Z",
+		"dateModified": "2026-03-14T18:19:40Z",
+		"extra": "arXiv:1901.04085 [cs]",
+		"itemType": "preprint",
+		"key": "UBHBQCRP",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/G2IZ6ZBH"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Passage Re-ranking with BERT",
+		"url": "http://arxiv.org/abs/1901.04085"
+	}
+}

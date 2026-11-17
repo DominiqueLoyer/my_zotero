@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:53:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:11Z",
+			"dateModified": "2026-03-09T20:46:28Z",
+			"itemType": "attachment",
+			"key": "EWJ4DQUL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:46:28 p.m.</p>",
+			"parentItem": "C7VPFGCK",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/D4KF5GTW"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ReferencesInfo_2005-2ea9fa248c57816f901aeb0466ba5b6c"
+		},
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:13Z",
+			"dateModified": "2026-01-08T22:57:46Z",
+			"filename": "referencesInfo_2005.bib",
+			"itemType": "attachment",
+			"key": "QHWTZLN6",
+			"linkMode": "imported_file",
+			"parentItem": "C7VPFGCK",
+			"relations": {},
+			"tags": [],
+			"title": "referencesInfo_2005"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EWJ4DQUL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ReferencesInfo_2005-2ea9fa248c57816f901aeb0466ba5b6c"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "referencesInfo_2005.bib",
+				"files": [
+					{
+						"path": "attachments/QH/QHWTZLN6/referencesInfo_2005.bib",
+						"size": 3481,
+						"storage": "git"
+					}
+				],
+				"key": "QHWTZLN6",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "referencesInfo_2005",
+				"url": null
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "referencesInfo_2005",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/C7VPFGCK"
+	},
+	"zotero": {
+		"citationKey": "ReferencesInfo_2005",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:46Z",
+		"dateModified": "2026-02-05T00:08:27Z",
+		"itemType": "document",
+		"key": "C7VPFGCK",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UPABWJPX"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "referencesInfo_2005"
+	}
+}

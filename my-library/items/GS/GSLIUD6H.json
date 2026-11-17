@@ -1,0 +1,134 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:35:39Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:39Z",
+			"dateModified": "2026-11-09T17:05:27Z",
+			"itemType": "attachment",
+			"key": "9YRYRPPC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:27 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "GSLIUD6H",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/3BWYRYGL"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/JSTYZLMN"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Dawson-2024-4129fa248c57814d9cace9c6b35fe825"
+		},
+		{
+			"accessDate": "2026-01-01T23:52:03Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:52:03Z",
+			"dateModified": "2026-11-09T15:04:47Z",
+			"filename": "Dawson - 2024 - Algorithmic Governance and the Administrative State.pdf",
+			"itemType": "attachment",
+			"key": "H6MTEN2K",
+			"linkMode": "imported_url",
+			"parentItem": "GSLIUD6H",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/DECLDJF2"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://papers.ssrn.com/sol3/Delivery.cfm/94c96181-84dd-49cc-b79d-062e60a63080-MECA.pdf?abstractid=4705000&mirid=1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Dawson - 2024 - Algorithmic Governance and the Administrative State.pdf",
+				"files": [
+					{
+						"path": "attachments/H6/H6MTEN2K/Dawson - 2024 - Algorithmic Governance and the Administrative State.pdf",
+						"size": 2914765,
+						"storage": "git"
+					}
+				],
+				"key": "H6MTEN2K",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://papers.ssrn.com/sol3/Delivery.cfm/94c96181-84dd-49cc-b79d-062e60a63080-MECA.pdf?abstractid=4705000&mirid=1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9YRYRPPC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Dawson-2024-4129fa248c57814d9cace9c6b35fe825"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Dawson, April"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmic Governance and the Administrative State",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/GSLIUD6H"
+	},
+	"zotero": {
+		"citationKey": "dawsonAlgorithmicGovernanceAdministrative2024",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "April",
+				"lastName": "Dawson"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-13T19:31:26Z",
+		"itemType": "document",
+		"key": "GSLIUD6H",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/4XWNLBX5",
+				"http://zotero.org/users/15425556/items/F92J2RWJ"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8ZPKVTEC"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmic Governance and the Administrative State",
+		"url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4705000"
+	}
+}

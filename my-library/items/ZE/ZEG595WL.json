@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:40:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:40:59Z",
+			"dateModified": "2026-03-09T20:55:19Z",
+			"itemType": "attachment",
+			"key": "Q76DE85Z",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:55:19 p.m.</p>",
+			"parentItem": "ZEG595WL",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/FUXXP9KQ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/AmnestyInternational2021-2e29fa248c57817b8ecef7bfbadd0a20"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Q76DE85Z",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/AmnestyInternational2021-2e29fa248c57817b8ecef7bfbadd0a20"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Amnesty International"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Xenophobic machines: The Dutch childcare benefit scandal and the urgent need to ban racist algorithms",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/ZEG595WL"
+	},
+	"zotero": {
+		"citationKey": "amnestyinternationalXenophobicMachinesDutch2021c",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Amnesty International"
+			}
+		],
+		"date": "2021-10-26",
+		"dateAdded": "2026-01-08T20:07:30Z",
+		"dateModified": "2026-03-25T21:30:47Z",
+		"itemType": "document",
+		"key": "ZEG595WL",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/BMBNXAKE"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Xenophobic machines: The Dutch childcare benefit scandal and the urgent need to ban racist algorithms",
+		"url": "https://www.amnesty.org/en/latest/news/2021/10/xenophobic-machines-dutch-child-benefit-scandal/"
+	}
+}

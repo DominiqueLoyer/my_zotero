@@ -1,0 +1,127 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:30:38Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:30:38Z",
+			"dateModified": "2026-11-09T14:55:08Z",
+			"itemType": "attachment",
+			"key": "7B7SAPZ8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:48:41 p.m.</p>",
+			"parentItem": "65HWLE36",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Citron2008-2e29fa248c5781a985b9f22d6b6e1d5e"
+		},
+		{
+			"accessDate": "2025-12-05T22:35:58Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:58Z",
+			"dateModified": "2026-11-09T14:55:08Z",
+			"itemType": "attachment",
+			"key": "J3WMZSRU",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:12:14 p.m.</p>",
+			"parentItem": "65HWLE36",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/Z82GJ5ZJ"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6CV2CZ9T"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/citronTechnologicalDueProcess2008-2c09fa248c5781639806c15f9eb913c2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7B7SAPZ8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Citron2008-2e29fa248c5781a985b9f22d6b6e1d5e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "J3WMZSRU",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/citronTechnologicalDueProcess2008-2c09fa248c5781639806c15f9eb913c2"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Citron, Danielle Keats"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Technological Due Process",
+		"year": "2008",
+		"zoteroURI": "zotero://select/library/items/65HWLE36"
+	},
+	"zotero": {
+		"citationKey": "citronTechnologicalDueProcess2008",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Danielle Keats",
+				"lastName": "Citron"
+			}
+		],
+		"date": "2008",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-09T14:55:08Z",
+		"issue": "6",
+		"itemType": "journalArticle",
+		"key": "65HWLE36",
+		"pages": "1249–1313",
+		"publicationTitle": "Washington University Law Review",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/74EJLUF9",
+				"http://zotero.org/users/15425556/items/YSI2N7XE"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/NJK3H3VP"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Technological Due Process",
+		"volume": "85"
+	}
+}

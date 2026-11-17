@@ -1,0 +1,119 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:55:39Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:55:39Z",
+			"dateModified": "2026-01-01T23:55:39Z",
+			"filename": "Nogueira and Lin - 2019 - Passage re-ranking with BERT.pdf",
+			"itemType": "attachment",
+			"key": "4GRJB7TY",
+			"linkMode": "imported_url",
+			"parentItem": "K8IFFL8Q",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/1901.04085v5"
+		},
+		{
+			"accessDate": "2025-12-05T22:28:22Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:22Z",
+			"dateModified": "2026-01-02T19:13:47Z",
+			"itemType": "attachment",
+			"key": "H6W2RJ4T",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:47 p.m.</p>",
+			"parentItem": "K8IFFL8Q",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Nogueira2019BERTReRank-2c09fa248c5781a7acfcf1ec413812b3"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "H6W2RJ4T",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Nogueira2019BERTReRank-2c09fa248c5781a7acfcf1ec413812b3"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Nogueira and Lin - 2019 - Passage re-ranking with BERT.pdf",
+				"files": [
+					{
+						"path": "attachments/4G/4GRJB7TY/Nogueira and Lin - 2019 - Passage re-ranking with BERT.pdf",
+						"size": 179659,
+						"storage": "git"
+					}
+				],
+				"key": "4GRJB7TY",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/1901.04085v5"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Nogueira, Rodrigo",
+			"Lin, Jimmy"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Passage re-ranking with BERT",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/K8IFFL8Q"
+	},
+	"zotero": {
+		"citationKey": "nogueiraPassageRerankingBERT2019",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Rodrigo",
+				"lastName": "Nogueira"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jimmy",
+				"lastName": "Lin"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2025-04-10T15:02:46Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "journalArticle",
+		"key": "K8IFFL8Q",
+		"publicationTitle": "arXiv preprint arXiv:1901.04085",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Passage re-ranking with BERT",
+		"url": "https://arxiv.org/abs/1901.04085"
+	}
+}

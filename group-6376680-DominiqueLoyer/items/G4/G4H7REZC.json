@@ -1,0 +1,110 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:35:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "ZZMCY8EV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:16 p.m.</p>",
+			"parentItem": "G4H7REZC",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Zhao2023a-2e29fa248c5781da8f8cd520d4aee205"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZZMCY8EV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Zhao2023a-2e29fa248c5781da8f8cd520d4aee205"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Zhao, Yilong",
+			"Zhang, Ziqi",
+			"Liu, Yang",
+			"Liu, Zhaoning",
+			"Zhang, Yifei",
+			"Zhang, Jian"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Explainable AI for transformers: a survey",
+		"year": "2023",
+		"zoteroURI": "zotero://select/groups/6376680/items/G4H7REZC"
+	},
+	"zotero": {
+		"citationKey": "zhaoExplainableAITransformers2023a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Yilong",
+				"lastName": "Zhao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ziqi",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yang",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhaoning",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yifei",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jian",
+				"lastName": "Zhang"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:13Z",
+		"itemType": "journalArticle",
+		"key": "G4H7REZC",
+		"language": "fr-CA",
+		"publicationTitle": "arXiv preprint arXiv:2302.14543",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Explainable AI for transformers: a survey",
+		"url": "https://arxiv.org/abs/2302.14543"
+	}
+}

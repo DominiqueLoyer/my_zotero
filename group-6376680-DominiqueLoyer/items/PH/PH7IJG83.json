@@ -1,0 +1,145 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "6S454VVV",
+			"note": "Universite de Sherbrooke",
+			"parentItem": "PH7IJG83",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T22:31:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-11-17T14:42:14Z",
+			"itemType": "attachment",
+			"key": "7Z4WVG7S",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:42:14 a.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"41b9fa24-8c57-815d-be3f-c6f41ee016b7\",\"notes\":{\"6S454VVV\":{\"blockID\":\"41b9fa24-8c57-81f3-80ae-f45c0f586c82\",\"syncedAt\":\"2026-11-17T14:42:14.184Z\"},\"922KYZZP\":{\"blockID\":\"41b9fa24-8c57-81c7-a4c6-db85ca27c7a5\",\"syncedAt\":\"2026-11-17T14:42:14.872Z\"}}}</pre>",
+			"parentItem": "PH7IJG83",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c5781db820bf600e99c650f"
+		},
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "922KYZZP",
+			"note": "Universite de Sherbrooke",
+			"parentItem": "PH7IJG83",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T20:17:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "attachment",
+			"key": "CSKA3Q33",
+			"linkMode": "linked_url",
+			"parentItem": "PH7IJG83",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7Z4WVG7S",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c5781db820bf600e99c650f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CSKA3Q33",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "6S454VVV",
+				"title": "Universite de Sherbrooke"
+			},
+			{
+				"key": "922KYZZP",
+				"title": "Universite de Sherbrooke"
+			}
+		],
+		"title": "Enjeux de la confidentialite des donnees",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/PH7IJG83"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.29876.43200",
+		"ISBN": "978-1-0699945-3-0",
+		"citationKey": "loyerEnjeuxConfidentialiteDonnees2025",
+		"collections": [
+			"RJVJKNN2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-26T21:01:07Z",
+		"dateModified": "2026-02-26T21:01:07Z",
+		"extra": "titleTranslation: Data Privacy Issues",
+		"itemType": "conferencePaper",
+		"key": "PH7IJG83",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "Apprentissage Federe"
+			},
+			{
+				"tag": "Confidentialite des Donnees"
+			},
+			{
+				"tag": "Protection des Donnees"
+			},
+			{
+				"tag": "RGPD"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Enjeux de la confidentialite des donnees",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.29876.43200"
+	}
+}

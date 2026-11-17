@@ -1,0 +1,85 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:34Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:34Z",
+			"dateModified": "2026-11-09T17:04:53Z",
+			"itemType": "attachment",
+			"key": "ST6GAPH2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:53 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "JB7WWAX3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/W3LQIP8Z",
+					"http://zotero.org/groups/6376680/items/XY6IJFMY"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Wang-Chen-and-Lim-Kian-Huat-and-Ng-See-Kiong-and-Wang-Yiling-and-Liu-Yang-and-Bhowmick-Sourav--4129fa248c5781adbc50d0ac22cb9388"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ST6GAPH2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Wang-Chen-and-Lim-Kian-Huat-and-Ng-See-Kiong-and-Wang-Yiling-and-Liu-Yang-and-Bhowmick-Sourav--4129fa248c5781adbc50d0ac22cb9388"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Wang, Chen and Lim, Kian-Huat and Ng, See-Kiong and Wang, Yiling and Liu, Yang and Bhowmick, Sourav S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Survey on Large Language Models for Recommendation Systems",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/JB7WWAX3"
+	},
+	"zotero": {
+		"DOI": "10.36227/techrxiv.173272687.73188733/v2",
+		"citationKey": "wangchenandlimkian-huatandngsee-kiongandwangyilingandliuyangandbhowmicksouravs.SurveyLargeLanguage2024",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Wang, Chen and Lim, Kian-Huat and Ng, See-Kiong and Wang, Yiling and Liu, Yang and Bhowmick, Sourav S."
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:55:48Z",
+		"dateModified": "2026-11-13T19:30:13Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "JB7WWAX3",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/3FX6QLP3",
+				"http://zotero.org/groups/6376680/items/WF7ZHLZL"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey on Large Language Models for Recommendation Systems",
+		"url": "https://arxiv.org/abs/2402.01030"
+	}
+}

@@ -1,0 +1,130 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:25:35Z",
+			"dateModified": "2026-03-14T17:36:50Z",
+			"itemType": "attachment",
+			"key": "53E76HH4",
+			"linkMode": "linked_file",
+			"parentItem": "PJMPQIEI",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/ontoCRED_250226/PDFs/Hagag and Tsarfaty - 2023 - The Truth, The Whole Truth, and Nothing but the Truth A New Benchmark Dataset for Hebrew Text Credi.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:19:28Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:28Z",
+			"dateModified": "2026-03-14T18:19:28Z",
+			"itemType": "attachment",
+			"key": "L2AMMR2V",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:19:28 p.m.</p>",
+			"parentItem": "PJMPQIEI",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/NL3JEJTC"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/hagagTruthWholeTruth2023b-3239fa248c57811580e3e18dfb5185ae"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "L2AMMR2V",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/hagagTruthWholeTruth2023b-3239fa248c57811580e3e18dfb5185ae"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hagag and Tsarfaty - 2023 - The Truth, The Whole Truth, and Nothing but the Truth A New Benchmark Dataset for Hebrew Text Credi.pdf",
+				"files": [
+					{
+						"path": "attachments/53/53E76HH4/Hagag and Tsarfaty - 2023 - The Truth, The Whole Truth, and Nothing but the Truth A New Benchmark Dataset for Hebrew Text Credi.pdf",
+						"size": 282044,
+						"storage": "git"
+					}
+				],
+				"key": "53E76HH4",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/ontoCRED_250226/PDFs"
+		],
+		"creators": [
+			"Hagag, Ben",
+			"Tsarfaty, Reut"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The Truth, The Whole Truth, and Nothing but the Truth: A New Benchmark Dataset for Hebrew Text Credibility Assessment",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/PJMPQIEI"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2023.findings-emnlp.251",
+		"abstractNote": "In the age of information overload, it is more important than ever to discern fact from fiction. From the internet to traditional media, we are constantly confronted with a deluge of information, much of which comes from politicians and other public figures who wield significant influence. In this paper, we introduce HeTrue: a new, publicly available dataset for evaluating the credibility of statements made by Israeli public figures and politicians. This dataset consists of 1021 statements, manually annotated by Israeli professional journalists, for their credibility status. Using this corpus, we set out to assess whether the credibility of statements can be predicted based on the text alone. To establish a baseline, we compare text-only methods with others using additional data like metadata, context, and evidence. Furthermore, we develop several credibility assessment models, including a feature-based model that utilizes linguistic features, and state-of-theart transformer-based models with contextualized embeddings from a pre-trained encoder. Empirical results demonstrate improved performance when models integrate statement and context, outperforming those relying on the statement text alone. Our best model, which also integrates evidence, achieves a 48.3 F1 Score, suggesting that HeTrue is a challenging benchmark, calling for further work on this task.",
+		"accessDate": "2026-03-14T17:36:49Z",
+		"citationKey": "hagagTruthWholeTruth2023a",
+		"collections": [
+			"VET5I7ZN"
+		],
+		"conferenceName": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ben",
+				"lastName": "Hagag"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Reut",
+				"lastName": "Tsarfaty"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-03-14T17:36:49Z",
+		"dateModified": "2026-03-25T21:28:35Z",
+		"itemType": "conferencePaper",
+		"key": "PJMPQIEI",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "3850-3865",
+		"place": "Singapore",
+		"proceedingsTitle": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+		"publisher": "Association for Computational Linguistics",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/AZLB8328"
+			]
+		},
+		"shortTitle": "The Truth, The Whole Truth, and Nothing but the Truth",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Truth, The Whole Truth, and Nothing but the Truth: A New Benchmark Dataset for Hebrew Text Credibility Assessment",
+		"url": "https://aclanthology.org/2023.findings-emnlp.251"
+	}
+}

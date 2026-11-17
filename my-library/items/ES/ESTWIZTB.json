@@ -1,0 +1,129 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:19Z",
+			"dateModified": "2026-01-02T19:13:56Z",
+			"itemType": "attachment",
+			"key": "KZJG5883",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:56 p.m.</p>",
+			"parentItem": "ESTWIZTB",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Lin2021Pyserini-2c09fa248c5781ce98adffaa5233e86e"
+		},
+		{
+			"accessDate": "2026-01-01T23:52:54Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:52:54Z",
+			"dateModified": "2026-01-01T23:52:54Z",
+			"filename": "Lin et al. - 2021 - Pyserini a python toolkit for reproducible information retrieval research with sparse and dense rep.pdf",
+			"itemType": "attachment",
+			"key": "MABW2KTM",
+			"linkMode": "imported_url",
+			"parentItem": "ESTWIZTB",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://dl.acm.org/doi/pdf/10.1145/3404835.3463238"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Lin et al. - 2021 - Pyserini a python toolkit for reproducible information retrieval research with sparse and dense rep.pdf",
+				"files": [
+					{
+						"path": "attachments/MA/MABW2KTM/Lin et al. - 2021 - Pyserini a python toolkit for reproducible information retrieval research with sparse and dense rep.pdf",
+						"size": 1118689,
+						"storage": "git"
+					}
+				],
+				"key": "MABW2KTM",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://dl.acm.org/doi/pdf/10.1145/3404835.3463238"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KZJG5883",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Lin2021Pyserini-2c09fa248c5781ce98adffaa5233e86e"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Lin, Jimmy",
+			"Ma, Xueguang",
+			"Macdonald, Craig",
+			"Nogueira, Rodrigo"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Pyserini: a python toolkit for reproducible information retrieval research with sparse and dense representations",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/ESTWIZTB"
+	},
+	"zotero": {
+		"DOI": "10.1145/3404835.3463238",
+		"citationKey": "linPyseriniPythonToolkit2021",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jimmy",
+				"lastName": "Lin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xueguang",
+				"lastName": "Ma"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Craig",
+				"lastName": "Macdonald"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Rodrigo",
+				"lastName": "Nogueira"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2025-04-10T15:02:46Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "conferencePaper",
+		"key": "ESTWIZTB",
+		"pages": "2356–2360",
+		"proceedingsTitle": "Proceedings of the 44th international ACM SIGIR conference on research and development in information retrieval (SIGIR '21)",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Pyserini: a python toolkit for reproducible information retrieval research with sparse and dense representations",
+		"url": "https://doi.org/10.1145/3404835.3463238"
+	}
+}

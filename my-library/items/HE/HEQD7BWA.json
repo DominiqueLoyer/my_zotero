@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:33:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:33:21Z",
+			"dateModified": "2026-11-09T17:04:46Z",
+			"itemType": "attachment",
+			"key": "6GZAEND9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:46 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "HEQD7BWA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-Dominique-S-2024-4129fa248c5781498b40d736cb203c87"
+		},
+		{
+			"accessDate": "2026-11-08T16:07:30Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:07:30Z",
+			"dateModified": "2026-11-08T16:07:30Z",
+			"filename": "Loyer, Dominique S - 2024 - A Survey and Critical Evaluation of Yoav Shoham’s Knowledge Representation Perspective.pdf",
+			"itemType": "attachment",
+			"key": "S2WQKA6Y",
+			"linkMode": "imported_url",
+			"parentItem": "HEQD7BWA",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2211.03536"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "6GZAEND9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-Dominique-S-2024-4129fa248c5781498b40d736cb203c87"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer, Dominique S - 2024 - A Survey and Critical Evaluation of Yoav Shoham’s Knowledge Representation Perspective.pdf",
+				"files": [
+					{
+						"path": "attachments/S2/S2WQKA6Y/Loyer, Dominique S - 2024 - A Survey and Critical Evaluation of Yoav Shoham’s Knowledge Representation Perspective.pdf",
+						"size": 3857306,
+						"storage": "git"
+					}
+				],
+				"key": "S2WQKA6Y",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2211.03536"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Loyer, Dominique S"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Survey and Critical Evaluation of Yoav Shoham’s Knowledge Representation Perspective",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/HEQD7BWA"
+	},
+	"zotero": {
+		"DOI": "10.1145/3643806",
+		"citationKey": "loyerdominiquesSurveyCriticalEvaluation2024",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Loyer, Dominique S"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-08T21:20:21Z",
+		"dateModified": "2026-11-13T19:29:57Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "HEQD7BWA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey and Critical Evaluation of Yoav Shoham’s Knowledge Representation Perspective"
+	}
+}

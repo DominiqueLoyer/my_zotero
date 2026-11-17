@@ -1,0 +1,137 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:16:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:16:49Z",
+			"dateModified": "2026-03-14T18:16:49Z",
+			"itemType": "attachment",
+			"key": "3VPW4U8T",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:16:49 p.m.</p>",
+			"parentItem": "YTGHGMQE",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LAMBVWW5"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/doranWhatDoesExplainable2017f-3239fa248c578164ab19d14107a5a2c6"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:33:48Z",
+			"dateModified": "2026-03-14T17:41:09Z",
+			"itemType": "attachment",
+			"key": "JNF2B9H4",
+			"linkMode": "linked_file",
+			"parentItem": "YTGHGMQE",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401Beamer_130326/PDFs/Doran et al. - 2017 - What Does Explainable AI Really Mean A New Conceptualization of Perspectives.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3VPW4U8T",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/doranWhatDoesExplainable2017f-3239fa248c578164ab19d14107a5a2c6"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Doran et al. - 2017 - What Does Explainable AI Really Mean A New Conceptualization of Perspectives.pdf",
+				"files": [
+					{
+						"path": "attachments/JN/JNF2B9H4/Doran et al. - 2017 - What Does Explainable AI Really Mean A New Conceptualization of Perspectives.pdf",
+						"size": 1926855,
+						"storage": "git"
+					}
+				],
+				"key": "JNF2B9H4",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401Beamer_130326/PDFs"
+		],
+		"creators": [
+			"Doran, Derek",
+			"Schulz, Sarah",
+			"Besold, Tarek R."
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "What Does Explainable AI Really Mean? A New Conceptualization of Perspectives",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/YTGHGMQE"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1710.00794",
+		"abstractNote": "We characterize three notions of explainable AI that cut across research fields: opaque systems that offer no insight into its algo- rithmic mechanisms; interpretable systems where users can mathemat- ically analyze its algorithmic mechanisms; and comprehensible systems that emit symbols enabling user-driven explanations of how a conclusion is reached. The paper is motivated by a corpus analysis of NIPS, ACL, COGSCI, and ICCV/ECCV paper titles showing differences in how work on explainable AI is positioned in various fields. We close by introducing a fourth notion: truly explainable systems, where automated reasoning is central to output crafted explanations without requiring human post processing as final step of the generative process.",
+		"accessDate": "2026-03-14T17:41:08Z",
+		"archiveID": "arXiv:1710.00794",
+		"citationKey": "doranWhatDoesExplainable2017h",
+		"collections": [
+			"R52AE8PM"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Derek",
+				"lastName": "Doran"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sarah",
+				"lastName": "Schulz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tarek R.",
+				"lastName": "Besold"
+			}
+		],
+		"date": "2017-10-02",
+		"dateAdded": "2026-03-14T17:41:08Z",
+		"dateModified": "2026-03-25T21:28:23Z",
+		"extra": "arXiv:1710.00794 [cs]",
+		"itemType": "preprint",
+		"key": "YTGHGMQE",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/7AJWK4K5"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "What Does Explainable AI Really Mean?",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "What Does Explainable AI Really Mean? A New Conceptualization of Perspectives",
+		"url": "http://arxiv.org/abs/1710.00794"
+	}
+}

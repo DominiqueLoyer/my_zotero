@@ -1,0 +1,81 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:50Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:35:50Z",
+			"dateModified": "2026-03-09T20:35:50Z",
+			"itemType": "attachment",
+			"key": "GM4KVNNB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:50 p.m.</p>",
+			"parentItem": "EG5W5HTM",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/KXIRCR8T"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/jhyvs10-31e9fa248c5781d5a057df46d4a6546d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GM4KVNNB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/jhyvs10-31e9fa248c5781d5a057df46d4a6546d"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Jain, P. and Hitzler, P. and Yeh, P. Z. and Verma, K. and Sheth, A. P."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Linked Data Is Merely More Data",
+		"year": "2010",
+		"zoteroURI": "zotero://select/library/items/EG5W5HTM"
+	},
+	"zotero": {
+		"citationKey": "jainp.andhitzlerp.andyehp.z.andvermak.andshetha.p.LinkedDataMerely2010",
+		"collections": [
+			"7XVYZYFG"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Jain, P. and Hitzler, P. and Yeh, P. Z. and Verma, K. and Sheth, A. P."
+			}
+		],
+		"date": "2010",
+		"dateAdded": "2026-03-04T19:43:56Z",
+		"dateModified": "2026-03-25T21:29:06Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "EG5W5HTM",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/SSEXCVW6"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Linked Data Is Merely More Data"
+	}
+}

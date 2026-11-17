@@ -1,0 +1,91 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-04-07T18:34:05Z",
+			"dateModified": "2025-04-07T18:34:07Z",
+			"filename": "Validation, Vérification  et Test de SBC.pdf",
+			"itemType": "attachment",
+			"key": "GMIPDQ34",
+			"linkMode": "imported_file",
+			"parentItem": "HWTMNXCS",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:25:02Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:02Z",
+			"dateModified": "2026-01-02T19:14:14Z",
+			"itemType": "attachment",
+			"key": "IR4R2F69",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:14:14 p.m.</p>",
+			"parentItem": "HWTMNXCS",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ValidationVerificationTest-2c09fa248c5781638624c2cb1c61329d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IR4R2F69",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ValidationVerificationTest-2c09fa248c5781638624c2cb1c61329d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Validation, Vérification  et Test de SBC.pdf",
+				"files": [],
+				"key": "GMIPDQ34",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation/7 avril validation et vérification"
+		],
+		"creators": [],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Validation, Vérification  et Test de SBC",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/HWTMNXCS"
+	},
+	"zotero": {
+		"citationKey": "ValidationVerificationTest",
+		"collections": [
+			"SFPN6D6J"
+		],
+		"creators": [],
+		"dateAdded": "2025-04-07T18:34:06Z",
+		"dateModified": "2025-12-05T22:25:02Z",
+		"itemType": "journalArticle",
+		"key": "HWTMNXCS",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Validation, Vérification  et Test de SBC"
+	}
+}

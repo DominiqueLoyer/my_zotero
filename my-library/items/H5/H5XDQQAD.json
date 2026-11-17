@@ -1,0 +1,169 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-26T14:08:53Z",
+			"dateModified": "2025-03-26T14:08:56Z",
+			"filename": "Sahoo et al. - 2025 - A Systematic Survey of Prompt Engineering in Large Language Models Techniques and Applications.pdf",
+			"itemType": "attachment",
+			"key": "4HU9US3P",
+			"linkMode": "imported_file",
+			"parentItem": "H5XDQQAD",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:26:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:32Z",
+			"dateModified": "2026-11-09T17:04:58Z",
+			"itemType": "attachment",
+			"key": "687PYY77",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:58 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "H5XDQQAD",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Sahoo-et-al-2025-4129fa248c5781348a51fc1ae3ede616"
+		},
+		{
+			"dateAdded": "2025-03-26T14:08:56Z",
+			"dateModified": "2025-03-26T14:08:56Z",
+			"itemType": "note",
+			"key": "FWKJ32YH",
+			"note": "Comment: 12 pages, 2 figures",
+			"parentItem": "H5XDQQAD",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "687PYY77",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Sahoo-et-al-2025-4129fa248c5781348a51fc1ae3ede616"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Sahoo et al. - 2025 - A Systematic Survey of Prompt Engineering in Large Language Models Techniques and Applications.pdf",
+				"files": [],
+				"key": "4HU9US3P",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/9270 (H25)/27 mars Chirag Shah"
+		],
+		"creators": [
+			"Sahoo, Pranab",
+			"Singh, Ayush Kumar",
+			"Saha, Sriparna",
+			"Jain, Vinija",
+			"Mondal, Samrat",
+			"Chadha, Aman"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "FWKJ32YH",
+				"title": "Comment: 12 pages, 2 figures"
+			}
+		],
+		"title": "A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/H5XDQQAD"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2402.07927",
+		"abstractNote": "Prompt engineering has emerged as an indispensable technique for extending the capabilities of large language models (LLMs) and vision-language models (VLMs). This approach leverages task-specific instructions, known as prompts, to enhance model efficacy without modifying the core model parameters. Rather than updating the model parameters, prompts allow seamless integration of pre-trained models into downstream tasks by eliciting desired model behaviors solely based on the given prompt. Prompts can be natural language instructions that provide context to guide the model or learned vector representations that activate relevant knowledge. This burgeoning field has enabled success across various applications, from question-answering to commonsense reasoning. However, there remains a lack of systematic organization and understanding of the diverse prompt engineering methods and techniques. This survey paper addresses the gap by providing a structured overview of recent advancements in prompt engineering, categorized by application area. For each prompting approach, we provide a summary detailing the prompting methodology, its applications, the models involved, and the datasets utilized. We also delve into the strengths and limitations of each approach and include a taxonomy diagram and table summarizing datasets, models, and critical points of each prompting technique. This systematic analysis enables a better understanding of this rapidly developing field and facilitates future research by illuminating open challenges and opportunities for prompt engineering.",
+		"accessDate": "2025-03-26T14:08:56Z",
+		"archiveID": "arXiv:2402.07927",
+		"citationKey": "sahooSystematicSurveyPrompt2025",
+		"collections": [
+			"M2XX24Z9"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Pranab",
+				"lastName": "Sahoo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ayush Kumar",
+				"lastName": "Singh"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sriparna",
+				"lastName": "Saha"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Vinija",
+				"lastName": "Jain"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Samrat",
+				"lastName": "Mondal"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aman",
+				"lastName": "Chadha"
+			}
+		],
+		"date": "2025-03-16",
+		"dateAdded": "2025-03-26T14:08:56Z",
+		"dateModified": "2026-11-13T19:30:24Z",
+		"extra": "arXiv:2402.07927 [cs]",
+		"itemType": "preprint",
+		"key": "H5XDQQAD",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"shortTitle": "A Systematic Survey of Prompt Engineering in Large Language Models",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Human-Computer Interaction",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications",
+		"url": "http://arxiv.org/abs/2402.07927"
+	}
+}

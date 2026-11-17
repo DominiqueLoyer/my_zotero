@@ -1,0 +1,116 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:40Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:38:40Z",
+			"dateModified": "2026-11-09T17:05:06Z",
+			"itemType": "attachment",
+			"key": "YTWPZ7C7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:06 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "U37BXWYG",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/QNX594KX"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Koren-and-Bell-2011-4129fa248c5781989c50f4aec1223ac3"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "YTWPZ7C7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Koren-and-Bell-2011-4129fa248c5781989c50f4aec1223ac3"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Koren, Yehuda",
+			"Bell, Robert",
+			"Ricci, Francesco",
+			"Rokach, Lior",
+			"Shapira, Bracha",
+			"Kantor, Paul B."
+		],
+		"itemType": "bookSection",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Advances in collaborative filtering",
+		"year": "2011",
+		"zoteroURI": "zotero://select/library/items/U37BXWYG"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-0-387-85820-3_5",
+		"bookTitle": "Recommender systems handbook",
+		"citationKey": "korenAdvancesCollaborativeFiltering2011a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Yehuda",
+				"lastName": "Koren"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Robert",
+				"lastName": "Bell"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Francesco",
+				"lastName": "Ricci"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Lior",
+				"lastName": "Rokach"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Bracha",
+				"lastName": "Shapira"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Paul B.",
+				"lastName": "Kantor"
+			}
+		],
+		"date": "2011",
+		"dateAdded": "2026-01-08T20:07:32Z",
+		"dateModified": "2026-03-25T21:30:38Z",
+		"itemType": "bookSection",
+		"key": "U37BXWYG",
+		"language": "fr-CA",
+		"pages": "145–186",
+		"publisher": "Springer US",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/ECNW8IA6"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Advances in collaborative filtering"
+	}
+}

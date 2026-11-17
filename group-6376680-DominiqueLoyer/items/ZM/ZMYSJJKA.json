@@ -1,0 +1,101 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "attachment",
+			"key": "WLPBG2JL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:05 p.m.</p>",
+			"parentItem": "ZMYSJJKA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/haresamudramThreeLevelsAI2023-2c09fa248c5781d0a914dd66e7df306c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WLPBG2JL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/haresamudramThreeLevelsAI2023-2c09fa248c5781d0a914dd66e7df306c"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Transparency"
+		],
+		"creators": [
+			"Haresamudram, Kashyap",
+			"Larsson, Stefan",
+			"Heintz, Fredrik"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Three Levels of AI Transparency",
+		"year": "2023",
+		"zoteroURI": "zotero://select/groups/6376680/items/ZMYSJJKA"
+	},
+	"zotero": {
+		"DOI": "10.1109/MC.2022.3213181",
+		"ISSN": "0018-9162, 1558-0814",
+		"accessDate": "2024-11-21T22:05:53Z",
+		"citationKey": "haresamudramThreeLevelsAI2023",
+		"collections": [
+			"E5BC4NLR",
+			"J6WCHKF9",
+			"P9N6XDU8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Kashyap",
+				"lastName": "Haresamudram"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Stefan",
+				"lastName": "Larsson"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fredrik",
+				"lastName": "Heintz"
+			}
+		],
+		"date": "2/2023",
+		"dateAdded": "2026-04-17T21:21:41Z",
+		"dateModified": "2026-04-17T21:21:41Z",
+		"issue": "2",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Computer",
+		"key": "ZMYSJJKA",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "93-100",
+		"publicationTitle": "Computer",
+		"relations": {},
+		"rights": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Three Levels of AI Transparency",
+		"url": "https://ieeexplore.ieee.org/document/10042109/",
+		"volume": "56"
+	}
+}

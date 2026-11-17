@@ -1,0 +1,148 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:14:12Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:14:12Z",
+			"dateModified": "2026-11-08T16:14:12Z",
+			"filename": "Ying et al. - 2018 - Graph convolutional neural networks for web-scale recommender systems.pdf",
+			"itemType": "attachment",
+			"key": "GYZZWYYI",
+			"linkMode": "imported_url",
+			"parentItem": "KBVUXB9A",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1806.01973"
+		},
+		{
+			"accessDate": "2026-01-08T20:35:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:35:18Z",
+			"dateModified": "2026-11-09T17:09:20Z",
+			"itemType": "attachment",
+			"key": "TYHA7I4I",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:20 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "KBVUXB9A",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/79YI4EDK"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Ying-et-al-2018-4129fa248c5781f296fbc9293e4644c1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TYHA7I4I",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Ying-et-al-2018-4129fa248c5781f296fbc9293e4644c1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ying et al. - 2018 - Graph convolutional neural networks for web-scale recommender systems.pdf",
+				"files": [
+					{
+						"path": "attachments/GY/GYZZWYYI/Ying et al. - 2018 - Graph convolutional neural networks for web-scale recommender systems.pdf",
+						"size": 10322072,
+						"storage": "git"
+					}
+				],
+				"key": "GYZZWYYI",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1806.01973"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Ying, Rex",
+			"He, Ruining",
+			"Chen, Kaifeng",
+			"Eksombatchai, Pong",
+			"Hamilton, William L.",
+			"Leskovec, Jure"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Graph convolutional neural networks for web-scale recommender systems",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/KBVUXB9A"
+	},
+	"zotero": {
+		"DOI": "10.1145/3219819.3219890",
+		"citationKey": "yingGraphConvolutionalNeural2018a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Rex",
+				"lastName": "Ying"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ruining",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kaifeng",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pong",
+				"lastName": "Eksombatchai"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "William L.",
+				"lastName": "Hamilton"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jure",
+				"lastName": "Leskovec"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-01-08T20:07:34Z",
+		"dateModified": "2026-03-25T21:30:27Z",
+		"itemType": "conferencePaper",
+		"key": "KBVUXB9A",
+		"language": "fr-CA",
+		"pages": "974–983",
+		"proceedingsTitle": "Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/LL3M2ATS"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Graph convolutional neural networks for web-scale recommender systems"
+	}
+}

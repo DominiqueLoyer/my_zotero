@@ -1,0 +1,124 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:14:33Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:14:33Z",
+			"dateModified": "2026-11-09T17:08:54Z",
+			"itemType": "attachment",
+			"key": "9WMYA35A",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:54 p.m.</p>",
+			"parentItem": "RDT7CP2S",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Google-2026-4129fa248c578139b6d8e5e1d5bdaed0"
+		},
+		{
+			"accessDate": "2026-11-08T16:30:09Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:30:09Z",
+			"dateModified": "2026-11-09T15:01:53Z",
+			"filename": "Google - 2026 - Fact Check Tools API.pdf",
+			"itemType": "attachment",
+			"key": "SKZD6JBD",
+			"linkMode": "imported_url",
+			"parentItem": "RDT7CP2S",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/RUZXQCE6",
+					"http://zotero.org/users/15425556/items/VC4UYPYP",
+					"http://zotero.org/users/15425556/items/XJXG2VCE"
+				]
+			},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2402.13244"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9WMYA35A",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Google-2026-4129fa248c578139b6d8e5e1d5bdaed0"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Google - 2026 - Fact Check Tools API.pdf",
+				"files": [
+					{
+						"path": "attachments/SK/SKZD6JBD/Google - 2026 - Fact Check Tools API.pdf",
+						"size": 373714,
+						"storage": "git"
+					}
+				],
+				"key": "SKZD6JBD",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2402.13244"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Google"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Fact Check Tools API",
+		"year": "2026",
+		"zoteroURI": "zotero://select/library/items/RDT7CP2S"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-031-97352-9_7",
+		"citationKey": "googleFactCheckTools2026",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Google"
+			}
+		],
+		"date": "2026",
+		"dateAdded": "2026-02-26T20:21:00Z",
+		"dateModified": "2026-11-09T15:01:53Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "RDT7CP2S",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/AWRS267V",
+				"http://zotero.org/users/15425556/items/MS2V2BIW",
+				"http://zotero.org/users/15425556/items/QD7BHDUN",
+				"http://zotero.org/users/15425556/items/RNV83KUV"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/99HN7TQX"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Fact Check Tools API",
+		"url": "https://developers.google.com/fact-check/tools/api"
+	}
+}

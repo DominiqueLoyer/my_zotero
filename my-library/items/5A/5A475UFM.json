@@ -1,0 +1,154 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:32:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:18Z",
+			"dateModified": "2026-11-09T17:04:50Z",
+			"itemType": "attachment",
+			"key": "8DD8BCQ8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:50 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "5A475UFM",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/KVL4CB4T"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/IB73MMXC"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Ibrahim-Nourhan-and-Aboulela-Samar-and-Ibrahim-Ahmed-and-Kashef-Rasha-2024-4129fa248c5781f7b801da3880134f26"
+		},
+		{
+			"accessDate": "2026-11-08T16:22:57Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:22:57Z",
+			"dateModified": "2026-11-08T16:22:57Z",
+			"filename": "Ibrahim, Nourhan and Aboulela, Samar and Ibrahim, Ahmed and Kashef, Rasha - 2024 - A survey on augmenting knowledge graphs (KGs) with large language models (LLMs) models, evaluation.pdf",
+			"itemType": "attachment",
+			"key": "KYQ9DSZJ",
+			"linkMode": "imported_url",
+			"parentItem": "5A475UFM",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://link.springer.com/content/pdf/10.1007%2Fs44163-024-00175-8.pdf"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:33:14Z",
+			"dateModified": "2026-11-09T15:06:46Z",
+			"itemType": "attachment",
+			"key": "ZKD2V3BU",
+			"linkMode": "linked_file",
+			"parentItem": "5A475UFM",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Ibrahim et al. - 2024 - A survey on augmenting knowledge graphs (KGs) with large language models (LLMs) models, evaluation.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ibrahim, Nourhan and Aboulela, Samar and Ibrahim, Ahmed and Kashef, Rasha - 2024 - A survey on augmenting knowledge graphs (KGs) with large language models (LLMs) models, evaluation.pdf",
+				"files": [
+					{
+						"path": "attachments/KY/KYQ9DSZJ/Ibrahim, Nourhan and Aboulela, Samar and Ibrahim, Ahmed and Kashef, Rasha - 2024 - A survey on augmenting knowledge graphs (KGs) with large language models (LLMs) models, evaluation.pdf",
+						"size": 1380624,
+						"storage": "git"
+					}
+				],
+				"key": "KYQ9DSZJ",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://link.springer.com/content/pdf/10.1007%2Fs44163-024-00175-8.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8DD8BCQ8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Ibrahim-Nourhan-and-Aboulela-Samar-and-Ibrahim-Ahmed-and-Kashef-Rasha-2024-4129fa248c5781f7b801da3880134f26"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ibrahim et al. - 2024 - A survey on augmenting knowledge graphs (KGs) with large language models (LLMs) models, evaluation.pdf",
+				"files": [
+					{
+						"path": "attachments/ZK/ZKD2V3BU/Ibrahim et al. - 2024 - A survey on augmenting knowledge graphs (KGs) with large language models (LLMs) models, evaluation.pdf",
+						"size": 1380624,
+						"storage": "git"
+					}
+				],
+				"key": "ZKD2V3BU",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs",
+			"_gs_080326"
+		],
+		"creators": [
+			"Ibrahim, Nourhan and Aboulela, Samar and Ibrahim, Ahmed and Kashef, Rasha"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A survey on augmenting knowledge graphs (KGs) with large language models (LLMs): models, evaluation metrics, benchmarks, and challenges",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/5A475UFM"
+	},
+	"zotero": {
+		"DOI": "10.1007/s44163-024-00175-8",
+		"citationKey": "ibrahimnourhanandaboulelasamarandibrahimahmedandkashefrashaSurveyAugmentingKnowledge2024",
+		"collections": [
+			"9ERXAIZK",
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Ibrahim, Nourhan and Aboulela, Samar and Ibrahim, Ahmed and Kashef, Rasha"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-08T21:25:26Z",
+		"dateModified": "2026-11-09T15:06:46Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "5A475UFM",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/LA8NL3KM"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/PPJ27JPL"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A survey on augmenting knowledge graphs (KGs) with large language models (LLMs): models, evaluation metrics, benchmarks, and challenges"
+	}
+}

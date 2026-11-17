@@ -1,0 +1,99 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:28:17Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:17Z",
+			"dateModified": "2026-01-02T19:17:02Z",
+			"itemType": "attachment",
+			"key": "9Z5YY782",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:02 p.m.</p>",
+			"parentItem": "JU6CEJID",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/NotebookLM-2c09fa248c5781578188cd456e4a4fb5"
+		},
+		{
+			"accessDate": "2024-12-09T13:12:42Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2024-12-09T13:12:42Z",
+			"dateModified": "2024-12-09T13:12:42Z",
+			"filename": "notebooklm.google.com.html",
+			"itemType": "attachment",
+			"key": "MQ2IN7BE",
+			"linkMode": "imported_url",
+			"parentItem": "JU6CEJID",
+			"relations": {},
+			"tags": [],
+			"title": "NotebookLM",
+			"url": "https://notebooklm.google.com/"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "notebooklm.google.com.html",
+				"files": [
+					{
+						"path": "attachments/MQ/MQ2IN7BE/notebooklm.google.com.html",
+						"size": 1247918,
+						"storage": "git"
+					}
+				],
+				"key": "MQ2IN7BE",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "NotebookLM",
+				"url": "https://notebooklm.google.com/"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9Z5YY782",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/NotebookLM-2c09fa248c5781578188cd456e4a4fb5"
+			}
+		],
+		"collections": [
+			"Cours A24/Dic9150/Réseaux bayésiens"
+		],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "NotebookLM",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/JU6CEJID"
+	},
+	"zotero": {
+		"accessDate": "2024-12-09T13:12:40Z",
+		"citationKey": "NotebookLM",
+		"collections": [
+			"66GSBEIT"
+		],
+		"creators": [],
+		"dateAdded": "2024-12-09T13:12:40Z",
+		"dateModified": "2025-12-05T22:28:17Z",
+		"itemType": "webpage",
+		"key": "JU6CEJID",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "NotebookLM",
+		"url": "https://notebooklm.google.com/"
+	}
+}

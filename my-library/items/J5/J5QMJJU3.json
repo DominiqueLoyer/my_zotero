@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:32Z",
+			"dateModified": "2026-03-09T20:43:01Z",
+			"itemType": "attachment",
+			"key": "VJPWTXP8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:43:01 p.m.</p>",
+			"parentItem": "J5QMJJU3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/5AC2H5FD",
+					"http://zotero.org/groups/6376680/items/VNCMRX9X"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Katz2017-3129fa248c5781b7b144edd57834804c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VJPWTXP8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Katz2017-3129fa248c5781b7b144edd57834804c"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Katz, Guy and Barrett, Clark and Dill, David L. and Kochenderfer, Mykel and Platzer, Andre"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/J5QMJJU3"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-319-63387-9_5",
+		"citationKey": "katzguyandbarrettclarkanddilldavidl.andkochenderfermykelandplatzerandreReluplexEfficientSMT2017",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Katz, Guy and Barrett, Clark and Dill, David L. and Kochenderfer, Mykel and Platzer, Andre"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-02-25T21:39:11Z",
+		"dateModified": "2026-03-25T21:29:45Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "J5QMJJU3",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2NNT3XJ6",
+				"http://zotero.org/groups/6376680/items/6V7TVTBP"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks"
+	}
+}

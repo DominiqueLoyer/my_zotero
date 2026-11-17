@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:33:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:33:53Z",
+			"dateModified": "2026-03-09T20:33:53Z",
+			"itemType": "attachment",
+			"key": "B7K26GRY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:33:53 p.m.</p>",
+			"parentItem": "876UXKV6",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Kahneman2024Systme-31e9fa248c5781358248e6e34c961e41"
+		},
+		{
+			"accessDate": "2026-11-08T16:17:38Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:17:38Z",
+			"dateModified": "2026-11-08T16:17:38Z",
+			"filename": "Kahneman, Daniel - 2024 - Système 1  Système 2  Les deux vitesses de la pensée.pdf",
+			"itemType": "attachment",
+			"key": "NIIGVSAN",
+			"linkMode": "imported_url",
+			"parentItem": "876UXKV6",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://www.mainslibres.ch/ngsite/content/download/32645/336511/1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Kahneman, Daniel - 2024 - Système 1  Système 2  Les deux vitesses de la pensée.pdf",
+				"files": [
+					{
+						"path": "attachments/NI/NIIGVSAN/Kahneman, Daniel - 2024 - Système 1  Système 2  Les deux vitesses de la pensée.pdf",
+						"size": 9132749,
+						"storage": "git"
+					}
+				],
+				"key": "NIIGVSAN",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://www.mainslibres.ch/ngsite/content/download/32645/336511/1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "B7K26GRY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Kahneman2024Systme-31e9fa248c5781358248e6e34c961e41"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Kahneman, Daniel"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Système 1 / Système 2 : Les deux vitesses de la pensée",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/876UXKV6"
+	},
+	"zotero": {
+		"DOI": "10.55498/mainslibres.2024.12.3.216",
+		"citationKey": "kahnemandanielSysteme1Systeme2024",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Kahneman, Daniel"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-05T01:12:07Z",
+		"dateModified": "2026-03-25T21:28:55Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "876UXKV6",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Système 1 / Système 2 : Les deux vitesses de la pensée"
+	}
+}

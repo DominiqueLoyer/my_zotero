@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:35:45Z",
+			"dateModified": "2026-11-09T17:09:09Z",
+			"itemType": "attachment",
+			"key": "AABW79V4",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:09 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "CTCRTCZ8",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/N26QQJ7H"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Tanon-T-P-and-Vrandecic-D-and-Schaffert-S-and-Steiner-T-and-Pintscher-L-2016-4129fa248c5781588dc1dd16d6c182dd"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "AABW79V4",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Tanon-T-P-and-Vrandecic-D-and-Schaffert-S-and-Steiner-T-and-Pintscher-L-2016-4129fa248c5781588dc1dd16d6c182dd"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Tanon, T. P. and Vrandecic, D. and Schaffert, S. and Steiner, T. and Pintscher, L."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "From Freebase to Wikidata: The Great Migration",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/CTCRTCZ8"
+	},
+	"zotero": {
+		"DOI": "10.1145/2872427.2874809",
+		"citationKey": "tanont.p.andvrandecicd.andschafferts.andsteinert.andpintscherl.FreebaseWikidataGreat2016",
+		"collections": [
+			"7XVYZYFG"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Tanon, T. P. and Vrandecic, D. and Schaffert, S. and Steiner, T. and Pintscher, L."
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-03-04T19:44:35Z",
+		"dateModified": "2026-03-25T21:29:05Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "CTCRTCZ8",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/764GTU7D"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "From Freebase to Wikidata: The Great Migration"
+	}
+}

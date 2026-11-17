@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:55Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:55Z",
+			"dateModified": "2026-11-09T17:06:17Z",
+			"itemType": "attachment",
+			"key": "IE3RL6UT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:17 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "TVME589J",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/4FKTDUIH",
+					"http://zotero.org/groups/6376680/items/CHRA3NJC"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Beckers-Sander-2022-4129fa248c5781b38f97f293347431f6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IE3RL6UT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Beckers-Sander-2022-4129fa248c5781b38f97f293347431f6"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Beckers, Sander"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Causal Explanations and XAI",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/TVME589J"
+	},
+	"zotero": {
+		"DOI": "10.1145/3531146.3533112",
+		"citationKey": "beckerssanderCausalExplanationsXAI2022",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Beckers, Sander"
+			}
+		],
+		"date": "2022",
+		"dateAdded": "2026-02-25T21:32:51Z",
+		"dateModified": "2026-11-13T19:33:48Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "TVME589J",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8BQX92Z4",
+				"http://zotero.org/groups/6376680/items/Q6BZULNH"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Causal Explanations and XAI"
+	}
+}

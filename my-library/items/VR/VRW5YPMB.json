@@ -1,0 +1,167 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:20:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:20:00Z",
+			"dateModified": "2026-03-14T18:28:37Z",
+			"itemType": "attachment",
+			"key": "5QXVGDKR",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:28:37 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-8195-afcb-d09526f03b38\",\"notes\":{\"LMWRNBMJ\":{\"blockID\":\"3239fa24-8c57-817e-a859-de45a12e3e42\",\"syncedAt\":\"2026-03-14T18:28:37.510Z\"}}}</pre>",
+			"parentItem": "VRW5YPMB",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/9Q8IEX8Y"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/bahdanauNeuralMachineTranslation2016-3239fa248c5781c2a92be0701bc65db4"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:09Z",
+			"dateModified": "2026-03-14T17:35:53Z",
+			"itemType": "attachment",
+			"key": "96V8IJ29",
+			"linkMode": "linked_file",
+			"parentItem": "VRW5YPMB",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/NMT_en-ru_040326/PDFs/Bahdanau et al. - 2016 - Neural Machine Translation by Jointly Learning to Align and Translate.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-03-14T17:35:52Z",
+			"dateModified": "2026-03-14T17:35:52Z",
+			"itemType": "note",
+			"key": "LMWRNBMJ",
+			"note": "Comment: Accepted at ICLR 2015 as oral presentation",
+			"parentItem": "VRW5YPMB",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3KQUWXK6"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5QXVGDKR",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/bahdanauNeuralMachineTranslation2016-3239fa248c5781c2a92be0701bc65db4"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Bahdanau et al. - 2016 - Neural Machine Translation by Jointly Learning to Align and Translate.pdf",
+				"files": [
+					{
+						"path": "attachments/96/96V8IJ29/Bahdanau et al. - 2016 - Neural Machine Translation by Jointly Learning to Align and Translate.pdf",
+						"size": 444482,
+						"storage": "git"
+					}
+				],
+				"key": "96V8IJ29",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
+		],
+		"creators": [
+			"Bahdanau, Dzmitry",
+			"Cho, Kyunghyun",
+			"Bengio, Yoshua"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "LMWRNBMJ",
+				"title": "Comment: Accepted at ICLR 2015 as oral presentation"
+			}
+		],
+		"title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/VRW5YPMB"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1409.0473",
+		"abstractNote": "Neural machine translation is a recently proposed approach to machine translation. Unlike the traditional statistical machine translation, the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance. The models proposed recently for neural machine translation often belong to a family of encoder-decoders and consists of an encoder that encodes a source sentence into a fixed-length vector from which a decoder generates a translation. In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation. Furthermore, qualitative analysis reveals that the (soft-)alignments found by the model agree well with our intuition.",
+		"accessDate": "2026-03-14T17:35:52Z",
+		"archiveID": "arXiv:1409.0473",
+		"citationKey": "bahdanauNeuralMachineTranslation2016",
+		"collections": [
+			"VENCFFG7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dzmitry",
+				"lastName": "Bahdanau"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kyunghyun",
+				"lastName": "Cho"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yoshua",
+				"lastName": "Bengio"
+			}
+		],
+		"date": "2016-05-19",
+		"dateAdded": "2026-03-14T17:35:52Z",
+		"dateModified": "2026-03-14T18:20:00Z",
+		"extra": "arXiv:1409.0473 [cs]",
+		"itemType": "preprint",
+		"key": "VRW5YPMB",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/RQNY2SE8"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Neural and Evolutionary Computing",
+				"type": 1
+			},
+			{
+				"tag": "Statistics - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+		"url": "http://arxiv.org/abs/1409.0473"
+	}
+}

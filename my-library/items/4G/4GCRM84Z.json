@@ -1,0 +1,129 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:22:34Z",
+			"dateModified": "2026-03-14T17:34:53Z",
+			"itemType": "attachment",
+			"key": "PFR6FV95",
+			"linkMode": "linked_file",
+			"parentItem": "4GCRM84Z",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/beamer_modelisation_030326/PDFs/Li and Hovy - 2014 - A Model of Coherence Based on Distributed Sentence Representation.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:20:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:20:31Z",
+			"dateModified": "2026-11-09T17:04:35Z",
+			"itemType": "attachment",
+			"key": "U7Z6AR2W",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:35 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "4GCRM84Z",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/9FLJJGGQ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Li-and-Hovy-2014-4129fa248c5781308ab5d7129d0c0e32"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "U7Z6AR2W",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Li-and-Hovy-2014-4129fa248c5781308ab5d7129d0c0e32"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Li and Hovy - 2014 - A Model of Coherence Based on Distributed Sentence Representation.pdf",
+				"files": [
+					{
+						"path": "attachments/PF/PFR6FV95/Li and Hovy - 2014 - A Model of Coherence Based on Distributed Sentence Representation.pdf",
+						"size": 277962,
+						"storage": "git"
+					}
+				],
+				"key": "PFR6FV95",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/beamer_modelisation_030326/PDFs"
+		],
+		"creators": [
+			"Li, Jiwei",
+			"Hovy, Eduard"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Model of Coherence Based on Distributed Sentence Representation",
+		"year": "2014",
+		"zoteroURI": "zotero://select/library/items/4GCRM84Z"
+	},
+	"zotero": {
+		"DOI": "10.3115/v1/D14-1218",
+		"abstractNote": "Coherence is what makes a multi-sentence text meaningful, both logically and syntactically. To solve the challenge of ordering a set of sentences into coherent order, existing approaches focus mostly on deﬁning and using sophisticated features to capture the cross-sentence argumentation logic and syntactic relationships. But both argumentation semantics and crosssentence syntax (such as coreference and tense rules) are very hard to formalize. In this paper, we introduce a neural network model for the coherence task based on distributed sentence representation. The proposed approach learns a syntacticosemantic representation for sentences automatically, using either recurrent or recursive neural networks. The architecture obviated the need for feature engineering, and learns sentence representations, which are to some extent able to capture the ‘rules’ governing coherent sentence structure. The proposed approach outperforms existing baselines and generates the stateof-art performance in standard coherence evaluation tasks1.",
+		"accessDate": "2026-03-14T17:34:52Z",
+		"citationKey": "liModelCoherenceBased2014",
+		"collections": [
+			"JTRHBT4K"
+		],
+		"conferenceName": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jiwei",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Eduard",
+				"lastName": "Hovy"
+			}
+		],
+		"date": "2014",
+		"dateAdded": "2026-03-14T17:34:52Z",
+		"dateModified": "2026-03-25T21:28:39Z",
+		"itemType": "conferencePaper",
+		"key": "4GCRM84Z",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "2039-2048",
+		"place": "Doha, Qatar",
+		"proceedingsTitle": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+		"publisher": "Association for Computational Linguistics",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/F5WWAPSC"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Model of Coherence Based on Distributed Sentence Representation",
+		"url": "http://aclweb.org/anthology/D14-1218"
+	}
+}

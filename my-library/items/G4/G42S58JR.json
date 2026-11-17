@@ -1,0 +1,110 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:23Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:23Z",
+			"dateModified": "2026-11-09T17:08:20Z",
+			"itemType": "attachment",
+			"key": "USCFJPVU",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:20 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "G42S58JR",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/386SDJDB"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/G2QLMV5R"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Tjeng-et-al-2019-4129fa248c578171a095f0a4e5320196"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "USCFJPVU",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Tjeng-et-al-2019-4129fa248c578171a095f0a4e5320196"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Tjeng, Vincent",
+			"Xiao, Kai Y.",
+			"Tedrake, Russ"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Evaluating robustness of neural networks with mixed integer programming",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/G42S58JR"
+	},
+	"zotero": {
+		"citationKey": "tjengEvaluatingRobustnessNeural2019",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Vincent",
+				"lastName": "Tjeng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kai Y.",
+				"lastName": "Xiao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Russ",
+				"lastName": "Tedrake"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T15:03:13Z",
+		"itemType": "conferencePaper",
+		"key": "G42S58JR",
+		"proceedingsTitle": "International Conference on Learning Representations",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/IMIFCMEE",
+				"http://zotero.org/users/15425556/items/PBDVEGEH"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/HRZUURL2"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Evaluating robustness of neural networks with mixed integer programming",
+		"url": "https://openreview.net/forum?id=Hy-2x3x0F"
+	}
+}

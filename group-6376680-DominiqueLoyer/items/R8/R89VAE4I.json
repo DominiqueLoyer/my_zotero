@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:24:14Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "attachment",
+			"key": "8GBZGIES",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:27 p.m.</p>",
+			"parentItem": "R89VAE4I",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/yangRobustUtilityPreservingText2024-2c09fa248c5781fa83ddcae0aa180c24"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8GBZGIES",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/yangRobustUtilityPreservingText2024-2c09fa248c5781fa83ddcae0aa180c24"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Littérature donnée par Daniel",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/LLMs"
+		],
+		"creators": [
+			"Yang, Tianyu",
+			"Zhu, Xiaodan",
+			"Gurevych, Iryna"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Robust Utility-Preserving Text Anonymization Based on Large Language Models",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/R89VAE4I"
+	},
+	"zotero": {
+		"abstractNote": "Text anonymization is crucial for sharing sensitive data while maintaining privacy. Existing techniques face the emerging challenges of re-identification attack ability of Large Language Models (LLMs), which have shown advanced capability in memorizing detailed information and patterns as well as connecting disparate pieces of information. In defending against LLM-based re-identification attacks, anonymization could jeopardize the utility of the resulting anonymized data in downstream tasks -- the trade-off between privacy and data utility requires deeper understanding within the context of LLMs. This paper proposes a framework composed of three LLM-based components -- a privacy evaluator, a utility evaluator, and an optimization component, which work collaboratively to perform anonymization. To provide a practical model for large-scale and real-time environments, we distill the anonymization capabilities into a lightweight model using Direct Preference Optimization (DPO). Extensive experiments demonstrate that the proposed models outperform baseline models, showing robustness in reducing the risk of re-identification while preserving greater data utility in downstream tasks. Our code and dataset are available at https://github.com/UKPLab/arxiv2024-rupta.",
+		"accessDate": "2024-11-02T18:27:08Z",
+		"archiveID": "arXiv:2407.11770",
+		"citationKey": "yangRobustUtilityPreservingText2024",
+		"collections": [
+			"793BAPPW",
+			"J6WCHKF9",
+			"JEWFGUPM",
+			"P9N6XDU8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Tianyu",
+				"lastName": "Yang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiaodan",
+				"lastName": "Zhu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Iryna",
+				"lastName": "Gurevych"
+			}
+		],
+		"date": "2024-07-16",
+		"dateAdded": "2026-04-17T21:21:41Z",
+		"dateModified": "2026-04-17T21:21:41Z",
+		"extra": "arXiv:2407.11770 [cs]",
+		"itemType": "preprint",
+		"key": "R89VAE4I",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Robust Utility-Preserving Text Anonymization Based on Large Language Models",
+		"url": "http://arxiv.org/abs/2407.11770"
+	}
+}

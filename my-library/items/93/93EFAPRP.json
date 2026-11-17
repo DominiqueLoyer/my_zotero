@@ -1,0 +1,123 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:36:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:36:37Z",
+			"dateModified": "2026-11-09T17:06:45Z",
+			"itemType": "attachment",
+			"key": "KV5GN69F",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:45 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "93EFAPRP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Rieh-Soo-Young-2014-4129fa248c5781ae9a38ebb1b7295e28"
+		},
+		{
+			"accessDate": "2026-11-08T16:11:41Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:11:41Z",
+			"dateModified": "2026-11-09T15:03:59Z",
+			"filename": "Rieh, Soo Young - 2014 - Credibility assessment of online information in context.pdf",
+			"itemType": "attachment",
+			"key": "PQ53QGJA",
+			"linkMode": "imported_url",
+			"parentItem": "93EFAPRP",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/CJC5G6ED",
+					"http://zotero.org/users/15425556/items/NYISWZJP",
+					"http://zotero.org/users/15425556/items/P399648J"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://accesson.kr/jistap/assets/pdf/7311/journal-2-3-6.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Rieh, Soo Young - 2014 - Credibility assessment of online information in context.pdf",
+				"files": [
+					{
+						"path": "attachments/PQ/PQ53QGJA/Rieh, Soo Young - 2014 - Credibility assessment of online information in context.pdf",
+						"size": 246107,
+						"storage": "git"
+					}
+				],
+				"key": "PQ53QGJA",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://accesson.kr/jistap/assets/pdf/7311/journal-2-3-6.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KV5GN69F",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Rieh-Soo-Young-2014-4129fa248c5781ae9a38ebb1b7295e28"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Rieh, Soo Young"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Credibility assessment of online information in context",
+		"year": "2014",
+		"zoteroURI": "zotero://select/library/items/93EFAPRP"
+	},
+	"zotero": {
+		"DOI": "10.1633/jistap.2014.2.3.1",
+		"citationKey": "riehsooyoungCredibilityAssessmentOnline2014",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Rieh, Soo Young"
+			}
+		],
+		"date": "2014",
+		"dateAdded": "2026-02-26T20:19:37Z",
+		"dateModified": "2026-11-09T15:03:59Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "93EFAPRP",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/4UIRBR4G",
+				"http://zotero.org/users/15425556/items/GJDGE4GE",
+				"http://zotero.org/users/15425556/items/MWSBSXVD"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/T7VS84IK"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Credibility assessment of online information in context",
+		"url": "http://InformationR.net/ir/15-3/paper445.html"
+	}
+}

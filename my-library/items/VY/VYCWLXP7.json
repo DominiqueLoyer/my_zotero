@@ -1,0 +1,195 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:31Z",
+			"dateModified": "2026-11-09T17:08:14Z",
+			"itemType": "attachment",
+			"key": "3UP4ASAL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:14 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VYCWLXP7",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/467VXLGW"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Barbagallo-et-al-2026-4129fa248c5781d9a769c1fb9305bfe7"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:32:49Z",
+			"dateModified": "2026-03-14T17:40:19Z",
+			"itemType": "attachment",
+			"key": "Y9Y4YAKM",
+			"linkMode": "linked_file",
+			"parentItem": "VYCWLXP7",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Barbagallo et al. - 2026 - Ethical Considerations in the Context of AI-Driven Misinformation Detection.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3UP4ASAL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Barbagallo-et-al-2026-4129fa248c5781d9a769c1fb9305bfe7"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Barbagallo et al. - 2026 - Ethical Considerations in the Context of AI-Driven Misinformation Detection.pdf",
+				"files": [
+					{
+						"path": "attachments/Y9/Y9Y4YAKM/Barbagallo et al. - 2026 - Ethical Considerations in the Context of AI-Driven Misinformation Detection.pdf",
+						"size": 1539085,
+						"storage": "git"
+					}
+				],
+				"key": "Y9Y4YAKM",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Chetouani, Mohamed",
+			"Nowak, Andrzej",
+			"Lukowicz, Paul",
+			"Barbagallo, Ettore",
+			"Gadek, Guillaume",
+			"Faye, Géraud",
+			"Khairova, Nina",
+			"Arora, Chirag",
+			"Thilakarathne, Dilhan",
+			"Joisten, Karen",
+			"Teixeira, Sónia",
+			"Durán, Juan M.",
+			"Barrantes, Manuel"
+		],
+		"itemType": "bookSection",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Ethical Considerations in the Context of AI-Driven Misinformation Detection",
+		"year": "2026",
+		"zoteroURI": "zotero://select/library/items/VYCWLXP7"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-031-61050-9_31-1",
+		"ISBN": "978-3-031-61050-9",
+		"abstractNote": "Misinformation poses one of the most urgent challenges of our society and raises the question of how to deal with it and manage its rapid spread. To address this problem, a promising approach relies on AI-based misinformation detection. This chapter of the book offers a critical analysis of the ethical implications associated with the design, deployment, and use of misinformation detectors (MDs). Designing and deploying an MD—an AI system that automatically identiﬁes misinformation—is a complex undertaking that requires an interdisciplinary approach, as the challenges faced by MD designers and deployers encompass not only technical aspects, but also linguistic, sociological, political, and especially ethical dimensions. Our analysis is ethics-oriented and follows two main lines of inquiry: (1) Ethics by Design, which focuses on issues related to the design process of an MD, and (2) Ethics of Impact, which addresses the intended and unintended effects of MD deployment and use.",
+		"accessDate": "2026-03-14T17:40:18Z",
+		"bookTitle": "Handbook of Human-AI Collaboration",
+		"citationKey": "barbagalloEthicalConsiderationsContext2026",
+		"collections": [
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "editor",
+				"firstName": "Mohamed",
+				"lastName": "Chetouani"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Andrzej",
+				"lastName": "Nowak"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Paul",
+				"lastName": "Lukowicz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ettore",
+				"lastName": "Barbagallo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Guillaume",
+				"lastName": "Gadek"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Géraud",
+				"lastName": "Faye"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Nina",
+				"lastName": "Khairova"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Chirag",
+				"lastName": "Arora"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dilhan",
+				"lastName": "Thilakarathne"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Karen",
+				"lastName": "Joisten"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sónia",
+				"lastName": "Teixeira"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Juan M.",
+				"lastName": "Durán"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Manuel",
+				"lastName": "Barrantes"
+			}
+		],
+		"date": "2026",
+		"dateAdded": "2026-03-14T17:40:18Z",
+		"dateModified": "2026-03-14T18:17:31Z",
+		"itemType": "bookSection",
+		"key": "VYCWLXP7",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1-38",
+		"place": "Cham",
+		"publisher": "Springer Nature Switzerland",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/PXQA74MG"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Ethical Considerations in the Context of AI-Driven Misinformation Detection",
+		"url": "https://link.springer.com/10.1007/978-3-031-61050-9_31-1"
+	}
+}

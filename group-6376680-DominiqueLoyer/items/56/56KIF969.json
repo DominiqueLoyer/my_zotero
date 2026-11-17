@@ -1,0 +1,114 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "note",
+			"key": "6KKJKP7J",
+			"note": "Lien brisé. Consulté le 10 octobre 2025",
+			"parentItem": "56KIF969",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-08T20:36:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "8X59JUNL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:29 p.m.</p>",
+			"parentItem": "56KIF969",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/rybn2021telecommuters-2e29fa248c5781a58ef1d7d93c60eaa6"
+		},
+		{
+			"accessDate": "2026-01-08T20:07:33Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "MDR66XKG",
+			"linkMode": "linked_url",
+			"parentItem": "56KIF969",
+			"relations": {},
+			"tags": [],
+			"title": "archiveweb",
+			"url": "https://web.archive.org/web/20211010123456/https://virusland.org/colloque-2/"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "MDR66XKG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "archiveweb",
+				"url": "https://web.archive.org/web/20211010123456/https://virusland.org/colloque-2/"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8X59JUNL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/rybn2021telecommuters-2e29fa248c5781a58ef1d7d93c60eaa6"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"RYBN.ORG"
+		],
+		"itemType": "document",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "6KKJKP7J",
+				"title": "Lien brisé. Consulté le 10 octobre 2025"
+			}
+		],
+		"title": "Telecommuters",
+		"year": "2021",
+		"zoteroURI": "zotero://select/groups/6376680/items/56KIF969"
+	},
+	"zotero": {
+		"citationKey": "rybn.orgTelecommuters2021b",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "RYBN.ORG"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "document",
+		"key": "56KIF969",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Telecommuters"
+	}
+}

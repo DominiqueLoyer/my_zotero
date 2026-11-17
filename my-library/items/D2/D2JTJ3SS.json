@@ -1,0 +1,85 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:03Z",
+			"dateModified": "2026-11-09T17:04:41Z",
+			"itemType": "attachment",
+			"key": "LV772JVX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:41 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "D2JTJ3SS",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/494ZRXQC",
+					"http://zotero.org/groups/6376680/items/CAN2I7JB"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Goodman-Bryce-2005-4129fa248c57813682f3e6749bf6fc1a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LV772JVX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Goodman-Bryce-2005-4129fa248c57813682f3e6749bf6fc1a"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Goodman, Bryce"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Practical Guide to Algorithmic Auditing",
+		"year": "2005",
+		"zoteroURI": "zotero://select/library/items/D2JTJ3SS"
+	},
+	"zotero": {
+		"DOI": "10.1108/02686900510574610",
+		"citationKey": "goodmanbrycePracticalGuideAlgorithmic2005",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Goodman, Bryce"
+			}
+		],
+		"date": "2005",
+		"dateAdded": "2026-02-25T21:37:18Z",
+		"dateModified": "2026-11-13T19:29:27Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "D2JTJ3SS",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/N6ZW4XB4",
+				"http://zotero.org/groups/6376680/items/WCVJMGMF"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Practical Guide to Algorithmic Auditing",
+		"url": "https://www.oreilly.com/library/view/a-practical-guide/9781098133322/"
+	}
+}

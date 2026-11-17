@@ -1,0 +1,76 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:37:02Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:02Z",
+			"dateModified": "2026-11-09T17:06:15Z",
+			"itemType": "attachment",
+			"key": "MTWQ655Z",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:15 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "J9A3FCHY",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Beckers-2022-4129fa248c57816695b3f4bcc6884d17"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "MTWQ655Z",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Beckers-2022-4129fa248c57816695b3f4bcc6884d17"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Beckers, Sander"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Causal Explanations and XAI",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/J9A3FCHY"
+	},
+	"zotero": {
+		"DOI": "10.1145/3531146.3533112",
+		"citationKey": "beckersCausalExplanationsXAI2022",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Sander",
+				"lastName": "Beckers"
+			}
+		],
+		"date": "2022",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-13T19:33:45Z",
+		"itemType": "conferencePaper",
+		"key": "J9A3FCHY",
+		"pages": "69–78",
+		"proceedingsTitle": "Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Causal Explanations and XAI"
+	}
+}

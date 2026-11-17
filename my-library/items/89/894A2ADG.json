@@ -1,0 +1,154 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:19:44Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:44Z",
+			"dateModified": "2026-03-14T18:27:43Z",
+			"itemType": "attachment",
+			"key": "5NG6RACN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:27:43 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-8175-87d4-fdb75720db81\",\"notes\":{\"C6D3HZQA\":{\"blockID\":\"3239fa24-8c57-8175-8697-c24486aa89be\",\"syncedAt\":\"2026-03-14T18:27:43.393Z\"}}}</pre>",
+			"parentItem": "894A2ADG",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/NCRJDNZV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/garcezNeurosymbolicAI3rd2020a-3239fa248c57816c8250d0f0f3956311"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:34Z",
+			"dateModified": "2026-03-14T17:36:19Z",
+			"itemType": "attachment",
+			"key": "BZS65YM2",
+			"linkMode": "linked_file",
+			"parentItem": "894A2ADG",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9411_291225/PDFs/Garcez and Lamb - 2020 - Neurosymbolic AI The 3rd Wave.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-03-14T17:36:19Z",
+			"dateModified": "2026-03-14T17:36:19Z",
+			"itemType": "note",
+			"key": "C6D3HZQA",
+			"note": "Comment: 37 pages",
+			"parentItem": "894A2ADG",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/M2XPUQR2"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5NG6RACN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/garcezNeurosymbolicAI3rd2020a-3239fa248c57816c8250d0f0f3956311"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Garcez and Lamb - 2020 - Neurosymbolic AI The 3rd Wave.pdf",
+				"files": [
+					{
+						"path": "attachments/BZ/BZS65YM2/Garcez and Lamb - 2020 - Neurosymbolic AI The 3rd Wave.pdf",
+						"size": 316459,
+						"storage": "git"
+					}
+				],
+				"key": "BZS65YM2",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9411_291225/PDFs"
+		],
+		"creators": [
+			"Garcez, Artur d'Avila",
+			"Lamb, Luis C."
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "C6D3HZQA",
+				"title": "Comment: 37 pages"
+			}
+		],
+		"title": "Neurosymbolic AI: The 3rd Wave",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/894A2ADG"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2012.05876",
+		"abstractNote": "Current advances in Artificial Intelligence (AI) and Machine Learning (ML) have achieved unprecedented impact across research communities and industry. Nevertheless, concerns about trust, safety, interpretability and accountability of AI were raised by influential thinkers. Many have identified the need for well-founded knowledge representation and reasoning to be integrated with deep learning and for sound explainability. Neural-symbolic computing has been an active area of research for many years seeking to bring together robust learning in neural networks with reasoning and explainability via symbolic representations for network models. In this paper, we relate recent and early research results in neurosymbolic AI with the objective of identifying the key ingredients of the next wave of AI systems. We focus on research that integrates in a principled way neural network-based learning with symbolic knowledge representation and logical reasoning. The insights provided by 20 years of neural-symbolic computing are shown to shed new light onto the increasingly prominent role of trust, safety, interpretability and accountability of AI. We also identify promising directions and challenges for the next decade of AI research from the perspective of neural-symbolic systems.",
+		"accessDate": "2026-03-14T17:36:19Z",
+		"archiveID": "arXiv:2012.05876",
+		"citationKey": "garcezNeurosymbolicAI3rd2020a",
+		"collections": [
+			"IUJM2GD9"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Artur d'Avila",
+				"lastName": "Garcez"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Luis C.",
+				"lastName": "Lamb"
+			}
+		],
+		"date": "2020-12-16",
+		"dateAdded": "2026-03-14T17:36:19Z",
+		"dateModified": "2026-03-25T21:28:36Z",
+		"extra": "arXiv:2012.05876 [cs]",
+		"itemType": "preprint",
+		"key": "894A2ADG",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/NWMVQJLP"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Neurosymbolic AI",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neurosymbolic AI: The 3rd Wave",
+		"url": "http://arxiv.org/abs/2012.05876"
+	}
+}

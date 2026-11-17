@@ -1,0 +1,111 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:18:39Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "3T6J3UX2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:18:39 p.m.</p>",
+			"parentItem": "IFQCWYLL",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/jiRHOReducingHallucination-3239fa248c578166bce1c91e0f40a908"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3T6J3UX2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/jiRHOReducingHallucination-3239fa248c578166bce1c91e0f40a908"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/240226_v2130/PDFs"
+		],
+		"creators": [
+			"Ji, Ziwei",
+			"Liu, Zihan",
+			"Lee, Nayeon",
+			"Yu, Tiezheng",
+			"Wilie, Bryan",
+			"Zeng, Min",
+			"Fung, Pascale"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "RHO (ρ): Reducing Hallucination in Open-domain Dialogues with Knowledge Grounding",
+		"year": "",
+		"zoteroURI": "zotero://select/groups/6376680/items/IFQCWYLL"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2023.findings-acl.275",
+		"citationKey": "jiRHOReducingHallucination",
+		"collections": [
+			"9IXQQWAM"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ziwei",
+				"lastName": "Ji"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zihan",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Nayeon",
+				"lastName": "Lee"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tiezheng",
+				"lastName": "Yu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Bryan",
+				"lastName": "Wilie"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Min",
+				"lastName": "Zeng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pascale",
+				"lastName": "Fung"
+			}
+		],
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"itemType": "journalArticle",
+		"key": "IFQCWYLL",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "RHO (ρ): Reducing Hallucination in Open-domain Dialogues with Knowledge Grounding"
+	}
+}

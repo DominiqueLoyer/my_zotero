@@ -1,0 +1,127 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-01-09T19:26:53Z",
+			"dateModified": "2026-01-16T18:02:09Z",
+			"itemType": "note",
+			"key": "5EZMJSFH",
+			"note": "<div data-schema-version=\"9\"><pre><u><span style=\"color: rgb(0, 0, 0);\">@software</span></u><span style=\"color: rgb(0, 0, 0);\">{</span><u><span style=\"color: rgb(0, 0, 0);\">loyer2026_thesis_zenodo</span></u><span style=\"color: rgb(0, 0, 0);\">,</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;</span><u><span style=\"color: rgb(0, 0, 0);\">doi</span></u><span style=\"color: rgb(0, 0, 0);\"> = {10.5281/</span><u><span style=\"color: rgb(0, 0, 0);\">zenodo</span></u><span style=\"color: rgb(0, 0, 0);\">.17943227},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;title = {Doctoral Thesis Code: Hybrid System for Information Credibility},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;author = {</span><u><span style=\"color: rgb(0, 0, 0);\">Loyer</span></u><span style=\"color: rgb(0, 0, 0);\">, Dominique S.},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;year = {2026},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;publisher = {</span><u><span style=\"color: rgb(0, 0, 0);\">Zenodo</span></u><span style=\"color: rgb(0, 0, 0);\">},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;url = {</span><u><span style=\"color: rgb(0, 0, 0);\">https</span></u><span style=\"color: rgb(0, 0, 0);\">://</span><u><span style=\"color: rgb(0, 0, 0);\">zenodo</span></u><span style=\"color: rgb(0, 0, 0);\">.</span><u><span style=\"color: rgb(0, 0, 0);\">org</span></u><span style=\"color: rgb(0, 0, 0);\">/record/17943227},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;</span><u><span style=\"color: rgb(0, 0, 0);\">github</span></u><span style=\"color: rgb(0, 0, 0);\"> = {</span><u><span style=\"color: rgb(0, 0, 0);\">DominiqueLoyer</span></u><span style=\"color: rgb(0, 0, 0);\">/doctoral-thesis-code},</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\"> &nbsp;keywords = {</span><u><span style=\"color: rgb(0, 0, 0);\">Neuro</span></u><span style=\"color: rgb(0, 0, 0);\">-Symbolic AI, OWL, Ontology, Machine Learning}</span></pre>\n<pre><span style=\"color: rgb(0, 0, 0);\">}</span></pre>\n</div>",
+			"parentItem": "67692WEA",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/JAMGJFD6"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T22:31:05Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T22:31:05Z",
+			"dateModified": "2026-11-09T17:07:52Z",
+			"itemType": "attachment",
+			"key": "7R4HA4FP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:52 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "67692WEA",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/6EA2A7U8"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/WBKWG2K5"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2026-4129fa248c57817f9fc2e7ae5c2c3881"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7R4HA4FP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2026-4129fa248c57817f9fc2e7ae5c2c3881"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126",
+			"dominiqueloyer_060126",
+			"zenodoDOI_ISBN_dominiqueloyer_060126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "computerProgram",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "5EZMJSFH",
+				"title": "@software{loyer2026_thesis_zenodo,"
+			}
+		],
+		"title": "Doctoral thesis code: Hybrid system for information credibility",
+		"year": "2026",
+		"zoteroURI": "zotero://select/library/items/67692WEA"
+	},
+	"zotero": {
+		"DOI": "10.5281/zenodo.17943227",
+		"citationKey": "loyerDoctoralThesisCode2026",
+		"collections": [
+			"3Y34LLK8",
+			"8UCLQEMM",
+			"KKPWSFMI"
+		],
+		"company": "Zenodo",
+		"creators": [
+			{
+				"creatorType": "programmer",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2026",
+		"dateAdded": "2026-01-10T20:17:20Z",
+		"dateModified": "2026-01-16T18:02:09Z",
+		"extra": "tex.github: DominiqueLoyer/doctoral-thesis-code\ntitleTranslation: Doctoral thesis code: Hybrid system for information credibility",
+		"itemType": "computerProgram",
+		"key": "67692WEA",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/GS29IJ3T",
+				"http://zotero.org/users/15425556/items/KI4L2DLK"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/7UJX74H9"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Machine Learning"
+			},
+			{
+				"tag": "Neuro-Symbolic AI"
+			},
+			{
+				"tag": "OWL"
+			},
+			{
+				"tag": "Ontology"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Doctoral thesis code: Hybrid system for information credibility",
+		"url": "https://zenodo.org/record/17943227"
+	}
+}

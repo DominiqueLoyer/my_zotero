@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:14Z",
+			"dateModified": "2026-01-08T22:57:46Z",
+			"filename": "bibtex.bib",
+			"itemType": "attachment",
+			"key": "3VEDP3GG",
+			"linkMode": "imported_file",
+			"parentItem": "9DTFUFZC",
+			"relations": {},
+			"tags": [],
+			"title": "bibtex"
+		},
+		{
+			"accessDate": "2026-01-16T15:53:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:11Z",
+			"dateModified": "2026-11-09T17:05:55Z",
+			"itemType": "attachment",
+			"key": "I9C3HNV5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:55 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "9DTFUFZC",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/7YDBZ2E8"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/bibtex-4129fa248c5781b1bc93cb0cde437de0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "bibtex.bib",
+				"files": [
+					{
+						"path": "attachments/3V/3VEDP3GG/bibtex.bib",
+						"size": 6300,
+						"storage": "git"
+					}
+				],
+				"key": "3VEDP3GG",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "bibtex",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "I9C3HNV5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/bibtex-4129fa248c5781b1bc93cb0cde437de0"
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "bibtex",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/9DTFUFZC"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-031-55281-6_16",
+		"citationKey": "Bibtex",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:46Z",
+		"dateModified": "2026-11-13T19:32:43Z",
+		"itemType": "document",
+		"key": "9DTFUFZC",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/P63URE8I"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "bibtex"
+	}
+}

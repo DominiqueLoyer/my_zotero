@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:53:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:09Z",
+			"dateModified": "2026-11-09T17:08:13Z",
+			"itemType": "attachment",
+			"key": "6PJJZE5Q",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:13 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "42NE9DKZ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/832CW7ER"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/ete25SC-trashed-2025-05-28-14-38-07-1-4129fa248c57810da75ae7f4d793ebcc"
+		},
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:12Z",
+			"dateModified": "2026-01-08T22:57:48Z",
+			"filename": "ete25SC (trashed 2025-05-28 14-38-07) 1.bib",
+			"itemType": "attachment",
+			"key": "XTFKLUPR",
+			"linkMode": "imported_file",
+			"parentItem": "42NE9DKZ",
+			"relations": {},
+			"tags": [],
+			"title": "ete25SC (trashed 2025-05-28 14-38-07) 1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "ete25SC (trashed 2025-05-28 14-38-07) 1.bib",
+				"files": [
+					{
+						"path": "attachments/XT/XTFKLUPR/ete25SC (trashed 2025-05-28 14-38-07) 1.bib",
+						"size": 4398,
+						"storage": "git"
+					}
+				],
+				"key": "XTFKLUPR",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "ete25SC (trashed 2025-05-28 14-38-07) 1",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "6PJJZE5Q",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/ete25SC-trashed-2025-05-28-14-38-07-1-4129fa248c57810da75ae7f4d793ebcc"
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "ete25SC (trashed 2025-05-28 14-38-07) 1",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/42NE9DKZ"
+	},
+	"zotero": {
+		"citationKey": "Ete25SCTrashed20250528",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:48Z",
+		"dateModified": "2026-02-05T00:08:18Z",
+		"itemType": "document",
+		"key": "42NE9DKZ",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/N47QQM4E"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ete25SC (trashed 2025-05-28 14-38-07) 1"
+	}
+}

@@ -1,0 +1,124 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:37:48Z",
+			"dateModified": "2026-01-16T18:04:54Z",
+			"itemType": "attachment",
+			"key": "LZKLTZUM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-16, 11:00:59 a.m.</p>",
+			"parentItem": "4QMFVLM6",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/BQJZY4LV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Microsoft2024b-2e29fa248c578101b3ebf0a4c11f984a"
+		},
+		{
+			"accessDate": "2026-01-08T20:28:28Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:28:28Z",
+			"dateModified": "2026-01-16T18:04:54Z",
+			"itemType": "attachment",
+			"key": "UAL3RQES",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-16, 10:55:58 a.m.</p>",
+			"parentItem": "4QMFVLM6",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/4QNYIMI4"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/V58NHLL2"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Microsoft2025-2e29fa248c5781c59799e27f03401e94"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UAL3RQES",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Microsoft2025-2e29fa248c5781c59799e27f03401e94"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LZKLTZUM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Microsoft2024b-2e29fa248c578101b3ebf0a4c11f984a"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Microsoft"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The era of AI: How technology is transforming work",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/4QMFVLM6"
+	},
+	"zotero": {
+		"citationKey": "microsoftEraAIHow2025",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Microsoft"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-03-25T21:31:03Z",
+		"itemType": "document",
+		"key": "4QMFVLM6",
+		"language": "fr-CA",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/6Q73TPNA",
+				"http://zotero.org/users/15425556/items/X8JKSFWV"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/MHGJT6GP"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The era of AI: How technology is transforming work",
+		"url": "https://www.microsoft.com/en-us/worklab/work-trend-index/"
+	}
+}

@@ -1,0 +1,124 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T23:00:18Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-08T23:00:18Z",
+			"dateModified": "2026-01-08T23:00:18Z",
+			"filename": "Ribeiro et al. - 2016 - Why should I trust you Explaining the predictions of any classifier.pdf",
+			"itemType": "attachment",
+			"key": "89JEJPGB",
+			"linkMode": "imported_url",
+			"parentItem": "UG4VEKVM",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://dl.acm.org/doi/pdf/10.1145/2939672.2939778?download=true"
+		},
+		{
+			"accessDate": "2026-01-08T20:34:13Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:34:13Z",
+			"dateModified": "2026-03-09T20:50:44Z",
+			"itemType": "attachment",
+			"key": "I9D8VYVD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:50:44 p.m.</p>",
+			"parentItem": "UG4VEKVM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Ribeiro2016-2e29fa248c5781dba515d688cd902fe5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ribeiro et al. - 2016 - Why should I trust you Explaining the predictions of any classifier.pdf",
+				"files": [
+					{
+						"path": "attachments/89/89JEJPGB/Ribeiro et al. - 2016 - Why should I trust you Explaining the predictions of any classifier.pdf",
+						"size": 2036919,
+						"storage": "git"
+					}
+				],
+				"key": "89JEJPGB",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://dl.acm.org/doi/pdf/10.1145/2939672.2939778?download=true"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "I9D8VYVD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Ribeiro2016-2e29fa248c5781dba515d688cd902fe5"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"Ribeiro, Marco Tulio",
+			"Singh, Sameer",
+			"Guestrin, Carlos"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "\"Why should I trust you?\": Explaining the predictions of any classifier",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/UG4VEKVM"
+	},
+	"zotero": {
+		"DOI": "10.1145/2939672.2939778",
+		"citationKey": "ribeiroWhyShouldTrust2016b",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Marco Tulio",
+				"lastName": "Ribeiro"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sameer",
+				"lastName": "Singh"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Carlos",
+				"lastName": "Guestrin"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-01-08T20:10:54Z",
+		"dateModified": "2026-03-25T21:30:23Z",
+		"itemType": "conferencePaper",
+		"key": "UG4VEKVM",
+		"language": "fr-CA",
+		"pages": "1135–1144",
+		"place": "New York, NY, USA",
+		"proceedingsTitle": "Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining",
+		"publisher": "Association for Computing Machinery",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "\"Why should I trust you?\": Explaining the predictions of any classifier"
+	}
+}

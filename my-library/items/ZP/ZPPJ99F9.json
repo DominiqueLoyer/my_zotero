@@ -1,0 +1,122 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:07:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:07:32Z",
+			"dateModified": "2026-01-16T18:04:26Z",
+			"itemType": "attachment",
+			"key": "7PJBFJ83",
+			"linkMode": "linked_url",
+			"parentItem": "ZPPJ99F9",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/UE7FWWA5"
+				]
+			},
+			"tags": [],
+			"title": "decision",
+			"url": "https://law.justia.com/cases/wisconsin/supreme-court/2016/2011ap000020-ur.html"
+		},
+		{
+			"accessDate": "2026-01-08T20:37:35Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:37:35Z",
+			"dateModified": "2026-11-09T17:04:29Z",
+			"itemType": "attachment",
+			"key": "AGX72C6K",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:29 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "ZPPJ99F9",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/TR33VCDM"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/State-v-Loomis-2016-4129fa248c578129b6bdef86f09cd741"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7PJBFJ83",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "decision",
+				"url": "https://law.justia.com/cases/wisconsin/supreme-court/2016/2011ap000020-ur.html"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "AGX72C6K",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/State-v-Loomis-2016-4129fa248c578129b6bdef86f09cd741"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"State v. Loomis"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "881 n.w.2d 749 (wis. 2016)",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/ZPPJ99F9"
+	},
+	"zotero": {
+		"citationKey": "statev.loomis881Nw2d7492016",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "State v. Loomis"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-13T19:28:57Z",
+		"itemType": "document",
+		"key": "ZPPJ99F9",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/NLAYYSBV",
+				"http://zotero.org/users/15425556/items/XE7PPCDH"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/HWS8JKCI"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "881 n.w.2d 749 (wis. 2016)"
+	}
+}

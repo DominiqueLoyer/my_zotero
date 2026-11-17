@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:34:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:34:54Z",
+			"dateModified": "2026-03-09T20:34:54Z",
+			"itemType": "attachment",
+			"key": "8JQFDBVX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:34:54 p.m.</p>",
+			"parentItem": "JN3BDPBF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Junczys-Dowmunt2018Marian-31e9fa248c5781889e81d06569aa7c57"
+		},
+		{
+			"accessDate": "2026-11-08T16:37:59Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:37:59Z",
+			"dateModified": "2026-11-08T16:37:59Z",
+			"filename": "Junczys-Dowmunt, Marcin and Grundkiewicz, Roman - 2018 - Marian Fast Neural Machine Translation in C++.pdf",
+			"itemType": "attachment",
+			"key": "YGPD8TC7",
+			"linkMode": "imported_url",
+			"parentItem": "JN3BDPBF",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/P18-4020.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Junczys-Dowmunt, Marcin and Grundkiewicz, Roman - 2018 - Marian Fast Neural Machine Translation in C++.pdf",
+				"files": [
+					{
+						"path": "attachments/YG/YGPD8TC7/Junczys-Dowmunt, Marcin and Grundkiewicz, Roman - 2018 - Marian Fast Neural Machine Translation in C++.pdf",
+						"size": 315253,
+						"storage": "git"
+					}
+				],
+				"key": "YGPD8TC7",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/P18-4020.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8JQFDBVX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Junczys-Dowmunt2018Marian-31e9fa248c5781889e81d06569aa7c57"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Junczys-Dowmunt, Marcin and Grundkiewicz, Roman"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Marian: Fast Neural Machine Translation in C++",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/JN3BDPBF"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/p18-4020",
+		"citationKey": "junczys-dowmuntmarcinandgrundkiewiczromanMarianFastNeural2018",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Junczys-Dowmunt, Marcin and Grundkiewicz, Roman"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-03-05T00:54:46Z",
+		"dateModified": "2026-03-25T21:29:00Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "JN3BDPBF",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Marian: Fast Neural Machine Translation in C++"
+	}
+}

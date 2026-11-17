@@ -1,0 +1,180 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:21:01Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:21:01Z",
+			"dateModified": "2026-11-08T16:21:01Z",
+			"filename": "White et al. - 2023 - A prompt pattern catalog to enhance prompt engineering with chatgpt.pdf",
+			"itemType": "attachment",
+			"key": "IU6AFEQF",
+			"linkMode": "imported_url",
+			"parentItem": "TB4WNNK5",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2302.11382v1"
+		},
+		{
+			"accessDate": "2026-01-08T20:35:27Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:35:27Z",
+			"dateModified": "2026-11-09T17:04:42Z",
+			"itemType": "attachment",
+			"key": "U2CZ9Q78",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:42 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "TB4WNNK5",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/T5B6E8XW"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/White-et-al-2023-4129fa248c5781619185f09950915106"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "U2CZ9Q78",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/White-et-al-2023-4129fa248c5781619185f09950915106"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "White et al. - 2023 - A prompt pattern catalog to enhance prompt engineering with chatgpt.pdf",
+				"files": [
+					{
+						"path": "attachments/IU/IU6AFEQF/White et al. - 2023 - A prompt pattern catalog to enhance prompt engineering with chatgpt.pdf",
+						"size": 297795,
+						"storage": "git"
+					}
+				],
+				"key": "IU6AFEQF",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2302.11382v1"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"White, Jules",
+			"Fu, Q.",
+			"Hays, S.",
+			"Sandborn, M.",
+			"Olea, C.",
+			"Gilbert, H.",
+			"Elmore, A.",
+			"Barnes, J.",
+			"Sastry, C.",
+			"Yurkov, D.",
+			"others"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A prompt pattern catalog to enhance prompt engineering with chatgpt",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/TB4WNNK5"
+	},
+	"zotero": {
+		"citationKey": "whitePromptPatternCatalog2023a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jules",
+				"lastName": "White"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Q.",
+				"lastName": "Fu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "S.",
+				"lastName": "Hays"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "M.",
+				"lastName": "Sandborn"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "C.",
+				"lastName": "Olea"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "H.",
+				"lastName": "Gilbert"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "A.",
+				"lastName": "Elmore"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "J.",
+				"lastName": "Barnes"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "C.",
+				"lastName": "Sastry"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "D.",
+				"lastName": "Yurkov"
+			},
+			{
+				"creatorType": "author",
+				"name": "others"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-01-08T20:07:34Z",
+		"dateModified": "2026-11-13T19:29:33Z",
+		"itemType": "journalArticle",
+		"key": "TB4WNNK5",
+		"language": "fr-CA",
+		"publicationTitle": "arXiv preprint arXiv:2302.11382",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/5VZDV9IU"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A prompt pattern catalog to enhance prompt engineering with chatgpt",
+		"url": "https://arxiv.org/abs/2302.11382"
+	}
+}

@@ -1,0 +1,92 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:36:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "EKIF2RBY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:55 p.m.</p>",
+			"parentItem": "DHHN3PF4",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Siganos2017-2e29fa248c5781699046d8a852045355"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EKIF2RBY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Siganos2017-2e29fa248c5781699046d8a852045355"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Siganos, Georgios",
+			"Vlachos, Michalis",
+			"Gunopulos, Dimitrios"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Explaining and interpreting black-box models: a survey on the role of interaction",
+		"year": "2017",
+		"zoteroURI": "zotero://select/groups/6376680/items/DHHN3PF4"
+	},
+	"zotero": {
+		"citationKey": "siganosExplainingInterpretingBlackbox2017a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Georgios",
+				"lastName": "Siganos"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Michalis",
+				"lastName": "Vlachos"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dimitrios",
+				"lastName": "Gunopulos"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:12Z",
+		"itemType": "journalArticle",
+		"key": "DHHN3PF4",
+		"language": "fr-CA",
+		"publicationTitle": "arXiv preprint arXiv:1711.02222",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Explaining and interpreting black-box models: a survey on the role of interaction",
+		"url": "https://arxiv.org/abs/1711.02222"
+	}
+}

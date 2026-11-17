@@ -1,0 +1,74 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T21:46:58Z",
+			"itemType": "attachment",
+			"key": "3FU7D68D",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:41:49 p.m.</p>",
+			"parentItem": "8U98DNCL",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Chandra-81-3129fa248c5781c3ba7dce4db3ce27eb"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3FU7D68D",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Chandra-81-3129fa248c5781c3ba7dce4db3ce27eb"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Ashok K. Chandra and Dexter C. Kozen and Larry J. Stockmeyer"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Alternation",
+		"year": "1981",
+		"zoteroURI": "zotero://select/groups/6376680/items/8U98DNCL"
+	},
+	"zotero": {
+		"DOI": "10.1145/322234.322243",
+		"citationKey": "Chandra:81",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Ashok K. Chandra and Dexter C. Kozen and Larry J. Stockmeyer"
+			}
+		],
+		"date": "1981",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T21:46:58Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "8U98DNCL",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Alternation"
+	}
+}

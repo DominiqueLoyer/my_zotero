@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:31:06Z",
+			"dateModified": "2025-03-31T19:03:42Z",
+			"filename": "Cas-Utilisation.pdf",
+			"itemType": "attachment",
+			"key": "RNB9XEK2",
+			"linkMode": "imported_file",
+			"parentItem": "I9QN94WN",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:36:15Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:15Z",
+			"dateModified": "2026-11-09T17:06:14Z",
+			"itemType": "attachment",
+			"key": "XHE2QG3Q",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:14 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "I9QN94WN",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781dfb6b3dd97a3774586"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XHE2QG3Q",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781dfb6b3dd97a3774586"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Cas-Utilisation.pdf",
+				"files": [
+					{
+						"path": "attachments/RN/RNB9XEK2/Cas-Utilisation.pdf",
+						"size": 363473,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/RN/RNB9XEK2/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 7726,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/RN/RNB9XEK2/Cas-Utilisation (trashed 2025-11-24 15-34-07).pdf",
+						"size": 363473,
+						"storage": "git"
+					}
+				],
+				"key": "RNB9XEK2",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Cas-Utilisation",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/I9QN94WN"
+	},
+	"zotero": {
+		"citationKey": "lounishakimCasUtilisation",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T19:03:41Z",
+		"dateModified": "2026-11-13T19:33:38Z",
+		"itemType": "document",
+		"key": "I9QN94WN",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Cas-Utilisation"
+	}
+}

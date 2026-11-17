@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:08Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:08Z",
+			"dateModified": "2026-03-09T20:43:45Z",
+			"itemType": "attachment",
+			"key": "7DSYT822",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:43:45 p.m.</p>",
+			"parentItem": "KS3GVUG5",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/7MB5JHRU",
+					"http://zotero.org/groups/6376680/items/8X7IHJEG"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Foucault1977Surveiller-3129fa248c57811f92b1df6337438a6c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7DSYT822",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Foucault1977Surveiller-3129fa248c57811f92b1df6337438a6c"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Foucault, Michel"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Surveiller et punir : Naissance de la prison",
+		"year": "1977",
+		"zoteroURI": "zotero://select/library/items/KS3GVUG5"
+	},
+	"zotero": {
+		"DOI": "10.2307/1850892",
+		"citationKey": "foucaultmichelSurveillerPunirNaissance1977",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Foucault, Michel"
+			}
+		],
+		"date": "1977",
+		"dateAdded": "2026-02-25T21:36:41Z",
+		"dateModified": "2026-03-25T21:29:48Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "KS3GVUG5",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/BCX55XQQ",
+				"http://zotero.org/groups/6376680/items/HCA95IWF"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Surveiller et punir : Naissance de la prison"
+	}
+}

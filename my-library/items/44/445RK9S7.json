@@ -1,0 +1,87 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:48Z",
+			"dateModified": "2026-11-09T17:05:29Z",
+			"itemType": "attachment",
+			"key": "K6B2BUJL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:29 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "445RK9S7",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LRT3V6JQ",
+					"http://zotero.org/groups/6376680/items/TKAJUCB8"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/HIIG-2024-4129fa248c57814ca05ec4073aa74a73"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "K6B2BUJL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/HIIG-2024-4129fa248c57814ca05ec4073aa74a73"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"HIIG"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmic Resistance",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/445RK9S7"
+	},
+	"zotero": {
+		"citationKey": "hiigAlgorithmicResistance2024b",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "HIIG"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:38:20Z",
+		"dateModified": "2026-11-13T19:31:35Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "445RK9S7",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/5SR5SRRB",
+				"http://zotero.org/groups/6376680/items/MCKSNESV"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmic Resistance"
+	}
+}

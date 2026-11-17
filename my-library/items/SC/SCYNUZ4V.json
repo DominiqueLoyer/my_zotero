@@ -1,0 +1,68 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-27T16:52:03Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2026-03-27T16:52:03Z",
+			"dateModified": "2026-03-27T16:52:03Z",
+			"filename": "wikidata-taxonomy.html",
+			"itemType": "attachment",
+			"key": "GYW2CBM2",
+			"linkMode": "imported_url",
+			"parentItem": "SCYNUZ4V",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://www.npmjs.com/package/wikidata-taxonomy"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "wikidata-taxonomy.html",
+				"files": [
+					{
+						"path": "attachments/GY/GYW2CBM2/wikidata-taxonomy.html",
+						"size": 470458,
+						"storage": "git"
+					}
+				],
+				"key": "GYW2CBM2",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://www.npmjs.com/package/wikidata-taxonomy"
+			}
+		],
+		"collections": [],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "wikidata-taxonomy",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/SCYNUZ4V"
+	},
+	"zotero": {
+		"abstractNote": "command line tool to extract taxonomies from Wikidata. Latest version: 0.6.7, last published: 7 years ago. Start using wikidata-taxonomy in your project by running `npm i wikidata-taxonomy`. There are no other projects in the npm registry using wikidata-taxonomy.",
+		"accessDate": "2026-03-27T16:51:47Z",
+		"citationKey": "Wikidatataxonomy2019",
+		"collections": [],
+		"creators": [],
+		"date": "2019-06-19",
+		"dateAdded": "2026-03-27T16:51:47Z",
+		"dateModified": "2026-03-27T16:51:48Z",
+		"itemType": "webpage",
+		"key": "SCYNUZ4V",
+		"language": "en",
+		"relations": {},
+		"tags": [],
+		"title": "wikidata-taxonomy",
+		"url": "https://www.npmjs.com/package/wikidata-taxonomy",
+		"websiteTitle": "npm"
+	}
+}

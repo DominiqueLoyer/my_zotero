@@ -1,0 +1,125 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:36:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:03Z",
+			"dateModified": "2026-11-09T17:05:52Z",
+			"itemType": "attachment",
+			"key": "55BKT8K7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:52 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "CT7XESQ2",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/IUPVUX26"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/PS7CFMXR"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Chen-et-al-2023-4129fa248c57818f85a5c5a739d4cf81"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "55BKT8K7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Chen-et-al-2023-4129fa248c57818f85a5c5a739d4cf81"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"Chen, Jiancan",
+			"Dong, Haoru",
+			"Wang, Xiang",
+			"Feng, Fuli",
+			"Wang, Meng",
+			"He, Xiangnan"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Bias and Debias in Recommender System: A Survey and Future Directions",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/CT7XESQ2"
+	},
+	"zotero": {
+		"DOI": "10.1145/3564284",
+		"citationKey": "chenBiasDebiasRecommender2023",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jiancan",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Haoru",
+				"lastName": "Dong"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiang",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fuli",
+				"lastName": "Feng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Meng",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiangnan",
+				"lastName": "He"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-13T19:32:33Z",
+		"extra": "DOI Fix previous DOI: 10.1145/3564292",
+		"issue": "3",
+		"itemType": "journalArticle",
+		"key": "CT7XESQ2",
+		"pages": "1–45",
+		"publicationTitle": "ACM Transactions on Information Systems",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/78W5ZQ5R"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/GEJRIDGS"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bias and Debias in Recommender System: A Survey and Future Directions",
+		"volume": "41"
+	}
+}

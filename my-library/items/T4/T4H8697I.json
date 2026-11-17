@@ -1,0 +1,122 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:15:14Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:15:14Z",
+			"dateModified": "2026-11-09T17:09:18Z",
+			"itemType": "attachment",
+			"key": "8RQ3GY9B",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:18 p.m.</p>",
+			"parentItem": "T4H8697I",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Achiam-Josh-and-Adler-Steven-and-Agarwal-Sandhini-and-Ahmad-Lama-and-Akkaya-Ilge-and-Aleman-Fl-4129fa248c578113807ecd66f52f9b86"
+		},
+		{
+			"accessDate": "2026-11-08T16:36:27Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:36:27Z",
+			"dateModified": "2026-11-09T15:01:38Z",
+			"filename": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and An, Shyamal and others - 2024 - GPT-4 Technical Report.pdf",
+			"itemType": "attachment",
+			"key": "S7YUTWSB",
+			"linkMode": "imported_url",
+			"parentItem": "T4H8697I",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/S5AB5AXR",
+					"http://zotero.org/users/15425556/items/UVW3E276"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://journals.plos.org/digitalhealth/article/file?id=10.1371/journal.pdig.0000417&type=printable"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and An, Shyamal and others - 2024 - GPT-4 Technical Report.pdf",
+				"files": [
+					{
+						"path": "attachments/S7/S7YUTWSB/Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and An, Shyamal and others - 2024 - GPT-4 Technical Report.pdf",
+						"size": 380312,
+						"storage": "git"
+					}
+				],
+				"key": "S7YUTWSB",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://journals.plos.org/digitalhealth/article/file?id=10.1371/journal.pdig.0000417&type=printable"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8RQ3GY9B",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Achiam-Josh-and-Adler-Steven-and-Agarwal-Sandhini-and-Ahmad-Lama-and-Akkaya-Ilge-and-Aleman-Fl-4129fa248c578113807ecd66f52f9b86"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and An, Shyamal and others"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "GPT-4 Technical Report",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/T4H8697I"
+	},
+	"zotero": {
+		"DOI": "10.1371/journal.pdig.0000417",
+		"citationKey": "achiamjoshandadlerstevenandagarwalsandhiniandahmadlamaandakkayailgeandalemanflorencialeoniandalmeidadiogoandaltenschmidtjankoandaltmansamandanshyamalandothersGPT4TechnicalReport2024",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and An, Shyamal and others"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:32:08Z",
+		"dateModified": "2026-11-09T15:01:38Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "T4H8697I",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/DV4JHBW4",
+				"http://zotero.org/users/15425556/items/E2GKNAWK"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/M2NFZ63I",
+				"http://zotero.org/groups/6376680/items/WNATWFVR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "GPT-4 Technical Report",
+		"url": "https://arxiv.org/abs/2303.08774"
+	}
+}

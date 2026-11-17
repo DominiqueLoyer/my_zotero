@@ -1,0 +1,110 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:29:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:29:45Z",
+			"dateModified": "2026-11-09T17:04:59Z",
+			"itemType": "attachment",
+			"key": "HSZH2FNM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:59 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "FJVY8PHU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/X7D8539T"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/SHFM27G5"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lundberg-and-Lee-2017-4129fa248c5781468db9f88f3e0b54ba"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HSZH2FNM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lundberg-and-Lee-2017-4129fa248c5781468db9f88f3e0b54ba"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Lundberg, Scott M.",
+			"Lee, Su-In"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Unified Approach to Interpreting Model Predictions",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/FJVY8PHU"
+	},
+	"zotero": {
+		"citationKey": "lundbergUnifiedApproachInterpreting2017",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Scott M.",
+				"lastName": "Lundberg"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Su-In",
+				"lastName": "Lee"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-13T19:30:30Z",
+		"itemType": "conferencePaper",
+		"key": "FJVY8PHU",
+		"pages": "4765–4774",
+		"proceedingsTitle": "Advances in Neural Information Processing Systems 30 (NIPS 2017)",
+		"publisher": "Curran Associates, Inc.",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/43RUIEEU",
+				"http://zotero.org/users/15425556/items/USFQKKMQ"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/GW9JFKHY"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "A Unified Approach to Interpreting Model Predictions",
+		"url": "https://proceedings.neurips.cc/paper/2017/file/8a3363abe792db2d8761d6403605aeb7-Paper.pdf"
+	}
+}

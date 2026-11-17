@@ -1,0 +1,111 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:35:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:35:48Z",
+			"dateModified": "2026-03-09T20:51:31Z",
+			"itemType": "attachment",
+			"key": "FE8RFYNC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:31 p.m.</p>",
+			"parentItem": "T3K7UT3R",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/49RWWMPU"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Wang2015-2e29fa248c5781f6a1acd3fa6dd290da"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FE8RFYNC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Wang2015-2e29fa248c5781f6a1acd3fa6dd290da"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Wang, Xiang",
+			"He, Xia",
+			"Cao, Tao",
+			"Liu, Meng",
+			"Chua, Tat-Seng"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Session-based recommendation with recurrent neural networks",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/T3K7UT3R"
+	},
+	"zotero": {
+		"DOI": "10.1145/2806416.2806551",
+		"citationKey": "wangSessionbasedRecommendationRecurrent2015",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xiang",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xia",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tao",
+				"lastName": "Cao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Meng",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tat-Seng",
+				"lastName": "Chua"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-01-08T20:07:34Z",
+		"dateModified": "2026-03-25T21:30:28Z",
+		"itemType": "conferencePaper",
+		"key": "T3K7UT3R",
+		"language": "fr-CA",
+		"pages": "101–110",
+		"place": "New York, NY, USA",
+		"proceedingsTitle": "Proceedings of the 25th ACM international on conference on information and knowledge management",
+		"publisher": "Association for Computing Machinery",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/7P8SN3WI"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Session-based recommendation with recurrent neural networks"
+	}
+}

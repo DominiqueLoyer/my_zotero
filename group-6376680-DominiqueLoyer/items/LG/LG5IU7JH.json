@@ -1,0 +1,83 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:17Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T22:26:26Z",
+			"itemType": "attachment",
+			"key": "CWPCDRQN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:40:28 p.m.</p>",
+			"parentItem": "LG5IU7JH",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/V8S9NERN"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Doran2002What-3129fa248c57810e90d5cea626275054"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CWPCDRQN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Doran2002What-3129fa248c57810e90d5cea626275054"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Doran, Derek and Schulz, Sarah and Besold, Tarek R."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "What Does Explainable AI Really Mean? A New Conceptualization of Perspectives",
+		"year": "2002",
+		"zoteroURI": "zotero://select/groups/6376680/items/LG5IU7JH"
+	},
+	"zotero": {
+		"DOI": "10.2307/3621137",
+		"citationKey": "Doran2002What",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Doran, Derek and Schulz, Sarah and Besold, Tarek R."
+			}
+		],
+		"date": "2002",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T22:26:26Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "LG5IU7JH",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/M9ZSJMP7"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "What Does Explainable AI Really Mean? A New Conceptualization of Perspectives",
+		"url": "https://arxiv.org/abs/1710.00794"
+	}
+}

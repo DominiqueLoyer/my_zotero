@@ -1,0 +1,87 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:40Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:40Z",
+			"dateModified": "2026-11-09T17:05:54Z",
+			"itemType": "attachment",
+			"key": "SW8N2EJ9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:54 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "FZEQS7FW",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/4HIZ6T7S",
+					"http://zotero.org/groups/6376680/items/UJLH3PDS"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Wagner-Patrick-2021-4129fa248c57811bb4e7da0f1b19d6fa"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SW8N2EJ9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Wagner-Patrick-2021-4129fa248c57811bb4e7da0f1b19d6fa"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Wagner, Patrick"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Bias bounty hunters find that Twitter’s image-cropping algorithm is biased",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/FZEQS7FW"
+	},
+	"zotero": {
+		"citationKey": "wagnerpatrickBiasBountyHunters2021",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Wagner, Patrick"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-02-25T21:54:44Z",
+		"dateModified": "2026-11-13T19:32:39Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "FZEQS7FW",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/ANTPXKA5",
+				"http://zotero.org/groups/6376680/items/V79HZCYS"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bias bounty hunters find that Twitter’s image-cropping algorithm is biased"
+	}
+}

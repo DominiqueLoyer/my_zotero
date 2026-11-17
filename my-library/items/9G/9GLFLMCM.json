@@ -1,0 +1,174 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:59Z",
+			"dateModified": "2026-11-09T17:04:58Z",
+			"itemType": "attachment",
+			"key": "ALEBQ2IF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:58 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "9GLFLMCM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Kim-et-al-2022-4129fa248c5781b49a0bdfc4f52305c9"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-02-28T17:56:48Z",
+			"dateModified": "2025-02-28T17:56:52Z",
+			"filename": "Kim et al. - 2022 - A Theoretical Study on Solving Continual Learning.pdf",
+			"itemType": "attachment",
+			"key": "RPRTQHAJ",
+			"linkMode": "imported_file",
+			"parentItem": "9GLFLMCM",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2025-02-28T17:56:52Z",
+			"dateModified": "2025-02-28T17:56:52Z",
+			"itemType": "note",
+			"key": "TKFA8WZM",
+			"note": "Comment: NeurIPS 2022",
+			"parentItem": "9GLFLMCM",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ALEBQ2IF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Kim-et-al-2022-4129fa248c5781b49a0bdfc4f52305c9"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Kim et al. - 2022 - A Theoretical Study on Solving Continual Learning.pdf",
+				"files": [
+					{
+						"path": "attachments/RP/RPRTQHAJ/Kim et al. - 2022 - A Theoretical Study on Solving Continual Learning.pdf",
+						"size": 580579,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/RP/RPRTQHAJ/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 92292,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/RP/RPRTQHAJ/Kim et al. - 2022 - A Theoretical Study on Solving Continual Learning (trashed 2025-11-24 15-34-08).pdf",
+						"size": 580579,
+						"storage": "git"
+					}
+				],
+				"key": "RPRTQHAJ",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/9270 (H25)/Liu 27 fév"
+		],
+		"creators": [
+			"Kim, Gyuhak",
+			"Xiao, Changnan",
+			"Konishi, Tatsuya",
+			"Ke, Zixuan",
+			"Liu, Bing"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "TKFA8WZM",
+				"title": "Comment: NeurIPS 2022"
+			}
+		],
+		"title": "A Theoretical Study on Solving Continual Learning",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/9GLFLMCM"
+	},
+	"zotero": {
+		"DOI": "10.52202/068431-0366",
+		"abstractNote": "Continual learning (CL) learns a sequence of tasks incrementally. There are two popular CL settings, class incremental learning (CIL) and task incremental learning (TIL). A major challenge of CL is catastrophic forgetting (CF). While a number of techniques are already available to effectively overcome CF for TIL, CIL remains to be highly challenging. So far, little theoretical study has been done to provide a principled guidance on how to solve the CIL problem. This paper performs such a study. It first shows that probabilistically, the CIL problem can be decomposed into two sub-problems: Within-task Prediction (WP) and Task-id Prediction (TP). It further proves that TP is correlated with out-of-distribution (OOD) detection, which connects CIL and OOD detection. The key conclusion of this study is that regardless of whether WP and TP or OOD detection are defined explicitly or implicitly by a CIL algorithm, good WP and good TP or OOD detection are necessary and sufficient for good CIL performances. Additionally, TIL is simply WP. Based on the theoretical result, new CIL methods are also designed, which outperform strong baselines in both CIL and TIL settings by a large margin.",
+		"accessDate": "2025-02-28T17:56:52Z",
+		"archiveID": "arXiv:2211.02633",
+		"citationKey": "kimTheoreticalStudySolving2022",
+		"collections": [
+			"SXNXAMTK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gyuhak",
+				"lastName": "Kim"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Changnan",
+				"lastName": "Xiao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tatsuya",
+				"lastName": "Konishi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zixuan",
+				"lastName": "Ke"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Bing",
+				"lastName": "Liu"
+			}
+		],
+		"date": "2022-11-04",
+		"dateAdded": "2025-02-28T17:56:52Z",
+		"dateModified": "2026-11-13T19:30:24Z",
+		"extra": "arXiv:2211.02633 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2211.02633",
+		"itemType": "preprint",
+		"key": "9GLFLMCM",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computer Vision and Pattern Recognition",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Theoretical Study on Solving Continual Learning",
+		"url": "http://arxiv.org/abs/2211.02633"
+	}
+}

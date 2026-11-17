@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:29:57Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:29:57Z",
+			"dateModified": "2026-11-08T16:29:57Z",
+			"filename": "Meske, Christian and Bunde, Eric and Schneider, Jan and Gnewuch, Ulrike - 2025 - Explainable AI A review of the state-of-the-art and a research agenda.pdf",
+			"itemType": "attachment",
+			"key": "6DUEN2F2",
+			"linkMode": "imported_url",
+			"parentItem": "VENJFZJK",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://scholarlysummit.com/download/article/a-systematic-review-of-state-of-the-art-explainable-ai-in-education"
+		},
+		{
+			"accessDate": "2026-02-25T22:17:13Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:13Z",
+			"dateModified": "2026-11-09T17:08:45Z",
+			"itemType": "attachment",
+			"key": "HV4STDFN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:45 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VENJFZJK",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/9FG7WA3E",
+					"http://zotero.org/groups/6376680/items/IP57QPAR"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Meske-Christian-and-Bunde-Eric-and-Schneider-Jan-and-Gnewuch-Ulrike-2025-4129fa248c5781a6a9def7e54d9665f1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Meske, Christian and Bunde, Eric and Schneider, Jan and Gnewuch, Ulrike - 2025 - Explainable AI A review of the state-of-the-art and a research agenda.pdf",
+				"files": [
+					{
+						"path": "attachments/6D/6DUEN2F2/Meske, Christian and Bunde, Eric and Schneider, Jan and Gnewuch, Ulrike - 2025 - Explainable AI A review of the state-of-the-art and a research agenda.pdf",
+						"size": 317379,
+						"storage": "git"
+					}
+				],
+				"key": "6DUEN2F2",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://scholarlysummit.com/download/article/a-systematic-review-of-state-of-the-art-explainable-ai-in-education"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HV4STDFN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Meske-Christian-and-Bunde-Eric-and-Schneider-Jan-and-Gnewuch-Ulrike-2025-4129fa248c5781a6a9def7e54d9665f1"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Meske, Christian and Bunde, Eric and Schneider, Jan and Gnewuch, Ulrike"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explainable AI: A review of the state-of-the-art and a research agenda",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/VENJFZJK"
+	},
+	"zotero": {
+		"DOI": "10.64220/amla.v1i1.005",
+		"citationKey": "meskechristianandbundeericandschneiderjanandgnewuchulrikeExplainableAIReview2025",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Meske, Christian and Bunde, Eric and Schneider, Jan and Gnewuch, Ulrike"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-25T21:41:32Z",
+		"dateModified": "2026-03-25T21:29:42Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "VENJFZJK",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/9T7932KU",
+				"http://zotero.org/groups/6376680/items/N5KJRUID"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable AI: A review of the state-of-the-art and a research agenda"
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:22Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-11-17T14:48:55Z",
+			"itemType": "attachment",
+			"key": "TJAW37R6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:39:08 p.m.</p>",
+			"parentItem": "8AMRSLSU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/3PU7HEUF"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Lipton2018-3129fa248c5781658585fb6e6b820666"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TJAW37R6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Lipton2018-3129fa248c5781658585fb6e6b820666"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"references_dic9401"
+		],
+		"creators": [
+			"Lipton, Zachary C."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "The Mythos of Model Interpretability",
+		"year": "2018",
+		"zoteroURI": "zotero://select/groups/6376680/items/8AMRSLSU"
+	},
+	"zotero": {
+		"DOI": "10.1145/3236386.3241340",
+		"citationKey": "Lipton2018",
+		"collections": [
+			"KRMD3KDT",
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lipton, Zachary C."
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-11-17T14:48:55Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "8AMRSLSU",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/RDKPJGA8"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Mythos of Model Interpretability"
+	}
+}

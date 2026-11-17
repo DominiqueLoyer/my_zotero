@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:37:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:37:25Z",
+			"dateModified": "2026-03-09T20:37:25Z",
+			"itemType": "attachment",
+			"key": "8KUHEI4Q",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:37:25 p.m.</p>",
+			"parentItem": "6FRIUW98",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Nogueira2019BERTReRank-31e9fa248c578136a33ff745889c8c4d"
+		},
+		{
+			"accessDate": "2026-11-08T16:38:32Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:38:32Z",
+			"dateModified": "2026-11-08T16:38:32Z",
+			"filename": "Rodrigo Nogueira and Jimmy Lin - 2019 - Passage Re-ranking with BERT.pdf",
+			"itemType": "attachment",
+			"key": "E5KXH7NU",
+			"linkMode": "imported_url",
+			"parentItem": "6FRIUW98",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/1901.04085v5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8KUHEI4Q",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Nogueira2019BERTReRank-31e9fa248c578136a33ff745889c8c4d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Rodrigo Nogueira and Jimmy Lin - 2019 - Passage Re-ranking with BERT.pdf",
+				"files": [
+					{
+						"path": "attachments/E5/E5KXH7NU/Rodrigo Nogueira and Jimmy Lin - 2019 - Passage Re-ranking with BERT.pdf",
+						"size": 179659,
+						"storage": "git"
+					}
+				],
+				"key": "E5KXH7NU",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/1901.04085v5"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Rodrigo Nogueira and Jimmy Lin"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Passage Re-ranking with BERT",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/6FRIUW98"
+	},
+	"zotero": {
+		"citationKey": "rodrigonogueiraandjimmylinPassageRerankingBERT2019",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Rodrigo Nogueira and Jimmy Lin"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-03-03T23:33:06Z",
+		"dateModified": "2026-03-25T21:29:14Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "6FRIUW98",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Passage Re-ranking with BERT",
+		"url": "https://arxiv.org/abs/1901.04085"
+	}
+}

@@ -1,0 +1,171 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:29:12Z",
+			"dateModified": "2026-03-14T17:38:55Z",
+			"itemType": "attachment",
+			"key": "LC7ANFA3",
+			"linkMode": "linked_file",
+			"parentItem": "GQC52ICZ",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/ontoCRED_030326/PDFs/Sharma et al. - 2019 - Combating Fake News A Survey on Identification and Mitigation Techniques.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:18:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:18:06Z",
+			"dateModified": "2026-11-09T17:06:27Z",
+			"itemType": "attachment",
+			"key": "NJ59KEG8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:27 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "GQC52ICZ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6EUP3667"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Sharma-et-al-2019-4129fa248c5781de9b14cfb8708f9e5a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NJ59KEG8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Sharma-et-al-2019-4129fa248c5781de9b14cfb8708f9e5a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Sharma et al. - 2019 - Combating Fake News A Survey on Identification and Mitigation Techniques.pdf",
+				"files": [
+					{
+						"path": "attachments/LC/LC7ANFA3/Sharma et al. - 2019 - Combating Fake News A Survey on Identification and Mitigation Techniques.pdf",
+						"size": 2188950,
+						"storage": "git"
+					}
+				],
+				"key": "LC7ANFA3",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/ontoCRED_030326/PDFs"
+		],
+		"creators": [
+			"Sharma, Karishma",
+			"Qian, Feng",
+			"Jiang, He",
+			"Ruchansky, Natali",
+			"Zhang, Ming",
+			"Liu, Yan"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Combating Fake News: A Survey on Identification and Mitigation Techniques",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/GQC52ICZ"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1901.06437",
+		"abstractNote": "The proliferation of fake news on social media has opened up new directions of research for timely identification and containment of fake news, and mitigation of its widespread impact on public opinion. While much of the earlier research was focused on identification of fake news based on its contents or by exploiting users' engagements with the news on social media, there has been a rising interest in proactive intervention strategies to counter the spread of misinformation and its impact on society. In this survey, we describe the modern-day problem of fake news and, in particular, highlight the technical challenges associated with it. We discuss existing methods and techniques applicable to both identification and mitigation, with a focus on the significant advances in each method and their advantages and limitations. In addition, research has often been limited by the quality of existing datasets and their specific application contexts. To alleviate this problem, we comprehensively compile and summarize characteristic features of available datasets. Furthermore, we outline new directions of research to facilitate future development of effective and interdisciplinary solutions.",
+		"accessDate": "2026-03-14T17:38:55Z",
+		"archiveID": "arXiv:1901.06437",
+		"citationKey": "sharmaCombatingFakeNews2019a",
+		"collections": [
+			"EJNXQCUQ"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Karishma",
+				"lastName": "Sharma"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Feng",
+				"lastName": "Qian"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "He",
+				"lastName": "Jiang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Natali",
+				"lastName": "Ruchansky"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ming",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yan",
+				"lastName": "Liu"
+			}
+		],
+		"date": "2019-01-18",
+		"dateAdded": "2026-03-14T17:38:55Z",
+		"dateModified": "2026-11-13T19:34:36Z",
+		"extra": "arXiv:1901.06437 [cs]",
+		"itemType": "preprint",
+		"key": "GQC52ICZ",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/CDNPF7C6"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Combating Fake News",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Social and Information Networks",
+				"type": 1
+			},
+			{
+				"tag": "Statistics - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Combating Fake News: A Survey on Identification and Mitigation Techniques",
+		"url": "http://arxiv.org/abs/1901.06437"
+	}
+}

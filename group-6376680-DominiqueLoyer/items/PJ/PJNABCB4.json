@@ -1,0 +1,116 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "PTQQ3GIH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:02 p.m.</p>",
+			"parentItem": "PJNABCB4",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Geng2022-2e29fa248c578135a570d528899f3dae"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PTQQ3GIH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Geng2022-2e29fa248c578135a570d528899f3dae"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Geng, Xingcan",
+			"Chen, Yihong",
+			"Yuan, Fajie",
+			"He, Xiang-Nan",
+			"Zhang, Kun-He",
+			"Ren, Zhaochun",
+			"Chua, Tat-Seng"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Recommendation as language processing (RLP): a unified pretrain, personalized prompt & predict paradigm (P5)",
+		"year": "2022",
+		"zoteroURI": "zotero://select/groups/6376680/items/PJNABCB4"
+	},
+	"zotero": {
+		"citationKey": "gengRecommendationLanguageProcessing2022a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xingcan",
+				"lastName": "Geng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yihong",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fajie",
+				"lastName": "Yuan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiang-Nan",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kun-He",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhaochun",
+				"lastName": "Ren"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tat-Seng",
+				"lastName": "Chua"
+			}
+		],
+		"date": "2022",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:08Z",
+		"itemType": "journalArticle",
+		"key": "PJNABCB4",
+		"language": "fr-CA",
+		"publicationTitle": "arXiv preprint arXiv:2203.13366",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Recommendation as language processing (RLP): a unified pretrain, personalized prompt & predict paradigm (P5)",
+		"url": "https://arxiv.org/abs/2203.13366"
+	}
+}

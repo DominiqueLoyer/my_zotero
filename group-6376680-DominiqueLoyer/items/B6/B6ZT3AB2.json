@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-03-08T22:26:13Z",
+			"itemType": "attachment",
+			"key": "4KJPRFF2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:39:15 p.m.</p>",
+			"parentItem": "B6ZT3AB2",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/HXXDBEVL"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Koren2009Matrix-3129fa248c5781acafc6d6940982f5a9"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "4KJPRFF2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Koren2009Matrix-3129fa248c5781acafc6d6940982f5a9"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Koren, Yehuda and Bell, Robert and Volinsky, Chris"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Matrix Factorization Techniques for Recommender Systems",
+		"year": "2009",
+		"zoteroURI": "zotero://select/groups/6376680/items/B6ZT3AB2"
+	},
+	"zotero": {
+		"DOI": "10.1109/mc.2009.263",
+		"citationKey": "Koren2009Matrix",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Koren, Yehuda and Bell, Robert and Volinsky, Chris"
+			}
+		],
+		"date": "2009",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-03-08T22:26:13Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "B6ZT3AB2",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/R7TVILAR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Matrix Factorization Techniques for Recommender Systems"
+	}
+}

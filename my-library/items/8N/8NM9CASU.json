@@ -1,0 +1,109 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:28Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:28Z",
+			"dateModified": "2026-01-02T19:15:05Z",
+			"itemType": "attachment",
+			"key": "UA95Y27P",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:05 p.m.</p>",
+			"parentItem": "8NM9CASU",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/SystFormelAuto-2c09fa248c5781aeb2bac3d64cd11117"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:33:26Z",
+			"dateModified": "2025-03-31T18:49:51Z",
+			"filename": "SystFormelAuto.pdf",
+			"itemType": "attachment",
+			"key": "XQZK4MRW",
+			"linkMode": "imported_file",
+			"parentItem": "8NM9CASU",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UA95Y27P",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/SystFormelAuto-2c09fa248c5781aeb2bac3d64cd11117"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "SystFormelAuto.pdf",
+				"files": [
+					{
+						"path": "attachments/XQ/XQZK4MRW/SystFormelAuto.pdf",
+						"size": 12868955,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/XQ/XQZK4MRW/SystFormelAuto (trashed 2025-11-24 15-34-11).pdf",
+						"size": 12868955,
+						"storage": "git"
+					}
+				],
+				"key": "XQZK4MRW",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/cours 2 Agent intelligent"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "SystFormelAuto",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/8NM9CASU"
+	},
+	"zotero": {
+		"citationKey": "lounishakimSystFormelAuto",
+		"collections": [
+			"G4KBEA9A",
+			"WMWH26HK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:49:46Z",
+		"dateModified": "2025-03-31T18:50:16Z",
+		"itemType": "document",
+		"key": "8NM9CASU",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "SystFormelAuto"
+	}
+}

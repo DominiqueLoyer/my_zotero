@@ -1,0 +1,105 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:40:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "7MDT9PQ9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:51 p.m.</p>",
+			"parentItem": "XTQMGCWR",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Bunel2018-2e29fa248c5781029117daeb5c3d2b73"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7MDT9PQ9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Bunel2018-2e29fa248c5781029117daeb5c3d2b73"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Bunel, Rudy",
+			"Turkaslan, Ilge",
+			"Torr, Philip H. S.",
+			"Kohli, Pushmeet",
+			"Kumar, M. Pawan"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A unified view of piecewise linear neural network verification",
+		"year": "2018",
+		"zoteroURI": "zotero://select/groups/6376680/items/XTQMGCWR"
+	},
+	"zotero": {
+		"citationKey": "bunelUnifiedViewPiecewise2018a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Rudy",
+				"lastName": "Bunel"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ilge",
+				"lastName": "Turkaslan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Philip H. S.",
+				"lastName": "Torr"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pushmeet",
+				"lastName": "Kohli"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "M. Pawan",
+				"lastName": "Kumar"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:08Z",
+		"itemType": "conferencePaper",
+		"key": "XTQMGCWR",
+		"language": "fr-CA",
+		"pages": "4795–4804",
+		"proceedingsTitle": "Advances in neural information processing systems 31",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "A unified view of piecewise linear neural network verification",
+		"url": "https://papers.nips.cc/paper/2018/file/3b0807444f3b3799c7adf603c3c97307-Paper.pdf"
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:27:27Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:27:27Z",
+			"dateModified": "2026-03-09T20:47:28Z",
+			"itemType": "attachment",
+			"key": "77XYI9EL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:28 p.m.</p>",
+			"parentItem": "FSSHS7QD",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/13c1fb050c42d6cb2f3974fd3bb70357ada9881c-2e29fa248c57818299c8fd866184aef1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "77XYI9EL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/13c1fb050c42d6cb2f3974fd3bb70357ada9881c-2e29fa248c57818299c8fd866184aef1"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Bashir, M.",
+			"Arshad, Sajjad",
+			"Robertson, William K.",
+			"Wilson, Christo"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Tracing information flows between ad exchanges using retargeted ads",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/FSSHS7QD"
+	},
+	"zotero": {
+		"abstractNote": "Numerous surveys have shown that Web users are concerned about the loss of privacy associated with online tracking. Alarmingly, these surveys also reveal that people are also unaware of the amount of data sharing that occurs between ad exchanges, and thus underestimate the privacy risks associated with online tracking. In reality, the modern ad ecosystem is fueled by a flow of user data between trackers and ad exchanges. Although recent work has shown that ad exchanges routinely perform cookie matching with other exchanges, these studies are based on brittle heuristics that cannot detect all forms of information sharing, especially under adversarial conditions. In this study, we develop a methodology that is able to detect client- and server-side flows of information between arbitrary ad exchanges. Our key insight is to leverage retargeted ads as a tool for identifying information flows. Intuitively, our methodology works because it relies on the semantics of how exchanges serve ads, rather than focusing on specific cookie matching mechanisms. Using crawled data on 35,448 ad impressions, we show that our methodology can successfully categorize four different kinds of information sharing behavior between ad exchanges, including cases where existing heuristic methods fail. We conclude with a discussion of how our findings and methodologies can be leveraged to give users more control over what kind of ads they see and how their information is shared between ad exchanges.",
+		"citationKey": "bashirTracingInformationFlows2018",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "M.",
+				"lastName": "Bashir"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sajjad",
+				"lastName": "Arshad"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "William K.",
+				"lastName": "Robertson"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Christo",
+				"lastName": "Wilson"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-01-08T20:14:05Z",
+		"dateModified": "2026-03-25T21:30:05Z",
+		"extra": "tex.arxivid: 1811.00920",
+		"itemType": "journalArticle",
+		"key": "FSSHS7QD",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Tracing information flows between ad exchanges using retargeted ads",
+		"url": "https://www.semanticscholar.org/paper/13c1fb050c42d6cb2f3974fd3bb70357ada9881c"
+	}
+}

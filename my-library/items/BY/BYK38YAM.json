@@ -1,0 +1,112 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:33:38Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:33:38Z",
+			"dateModified": "2026-11-09T17:09:22Z",
+			"itemType": "attachment",
+			"key": "FX8T392S",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:22 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "BYK38YAM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Fan-et-al-2019-4129fa248c5781b7bdb8c7540b4dc500"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FX8T392S",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Fan-et-al-2019-4129fa248c5781b7bdb8c7540b4dc500"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"Fan, Wenqi",
+			"Ma, Yao",
+			"Li, Qing",
+			"He, Yuan",
+			"Zhao, Eric",
+			"Tang, Jiliang",
+			"Yin, Dawei"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Graph neural networks for social recommendation",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/BYK38YAM"
+	},
+	"zotero": {
+		"citationKey": "fanGraphNeuralNetworks2019b",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Wenqi",
+				"lastName": "Fan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yao",
+				"lastName": "Ma"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Qing",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yuan",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Eric",
+				"lastName": "Zhao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jiliang",
+				"lastName": "Tang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dawei",
+				"lastName": "Yin"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-01-08T20:10:55Z",
+		"dateModified": "2026-03-25T21:30:21Z",
+		"itemType": "conferencePaper",
+		"key": "BYK38YAM",
+		"language": "fr-CA",
+		"pages": "417–426",
+		"proceedingsTitle": "The world wide web conference",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Graph neural networks for social recommendation"
+	}
+}

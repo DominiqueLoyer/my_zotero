@@ -1,0 +1,106 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-31T16:07:48Z",
+			"dateModified": "2025-03-31T18:58:17Z",
+			"filename": "modele_dyn2.pdf",
+			"itemType": "attachment",
+			"key": "DL6RLUE6",
+			"linkMode": "imported_file",
+			"parentItem": "3P4HPLF6",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/U5PJWUGH"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:28:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:47Z",
+			"dateModified": "2026-01-02T19:15:44Z",
+			"itemType": "attachment",
+			"key": "X8RMLFCB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:44 p.m.</p>",
+			"parentItem": "3P4HPLF6",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Modele_dyn2a-2c09fa248c578116bbedeac696312b68"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "X8RMLFCB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Modele_dyn2a-2c09fa248c578116bbedeac696312b68"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "modele_dyn2.pdf",
+				"files": [],
+				"key": "DL6RLUE6",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/cours 4.1 dynamique"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "modele_dyn2",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/3P4HPLF6"
+	},
+	"zotero": {
+		"citationKey": "lounishakimModele_dyn2",
+		"collections": [
+			"G4KBEA9A",
+			"JBEL9UJJ"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:37:30Z",
+		"dateModified": "2025-03-31T18:58:17Z",
+		"itemType": "document",
+		"key": "3P4HPLF6",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/9U67JDJ4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "modele_dyn2"
+	}
+}

@@ -1,0 +1,142 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:37:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:21Z",
+			"dateModified": "2026-11-09T14:57:04Z",
+			"itemType": "attachment",
+			"key": "FNTNJD4T",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:12:41 p.m.</p>",
+			"parentItem": "CFEURMK6",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/A5T8M459"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/73A92GCP"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/alrefaiDutchChildcareAllowance2023-2c09fa248c5781618295fcffd0c635aa"
+		},
+		{
+			"accessDate": "2026-01-08T20:30:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:30:48Z",
+			"dateModified": "2026-11-09T14:57:04Z",
+			"itemType": "attachment",
+			"key": "H28PZ32I",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:48:44 p.m.</p>",
+			"parentItem": "CFEURMK6",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Alrefai2023-2e29fa248c57811db528c381e59147c2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "H28PZ32I",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Alrefai2023-2e29fa248c57811db528c381e59147c2"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FNTNJD4T",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/alrefaiDutchChildcareAllowance2023-2c09fa248c5781618295fcffd0c635aa"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Alrefai, A.",
+			"Van der Meulen, R.",
+			"Kunneman, M.",
+			"Van der Zee, T."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The Dutch childcare allowance scandal: A case study of algorithmic discrimination",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/CFEURMK6"
+	},
+	"zotero": {
+		"DOI": "10.1007/s00146-023-01636-z",
+		"citationKey": "alrefaiDutchChildcareAllowance2023",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "A.",
+				"lastName": "Alrefai"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "R.",
+				"lastName": "Van der Meulen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "M.",
+				"lastName": "Kunneman"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "T.",
+				"lastName": "Van der Zee"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-09T14:57:04Z",
+		"issue": "2",
+		"itemType": "journalArticle",
+		"key": "CFEURMK6",
+		"pages": "1047–1059",
+		"publicationTitle": "AI & Society",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/B3CYGUU2",
+				"http://zotero.org/users/15425556/items/QDKCYAK3"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/LRD4ZYHX"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Dutch childcare allowance scandal: A case study of algorithmic discrimination",
+		"volume": "39"
+	}
+}

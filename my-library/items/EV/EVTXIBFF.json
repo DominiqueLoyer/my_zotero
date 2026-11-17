@@ -1,0 +1,108 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:37:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:04Z",
+			"dateModified": "2026-11-09T17:05:47Z",
+			"itemType": "attachment",
+			"key": "JXVEUXUF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:47 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "EVTXIBFF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781db90c6d65d0a7e896c"
+		},
+		{
+			"charset": "",
+			"contentType": "image/jpeg",
+			"dateAdded": "2025-03-17T17:31:40Z",
+			"dateModified": "2025-03-31T19:09:51Z",
+			"filename": "Banque.jpg",
+			"itemType": "attachment",
+			"key": "KB47V5HY",
+			"linkMode": "imported_file",
+			"parentItem": "EVTXIBFF",
+			"relations": {},
+			"tags": [],
+			"title": "Image"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "image/jpeg",
+				"filename": "Banque.jpg",
+				"files": [
+					{
+						"path": "attachments/KB/KB47V5HY/Banque.jpg",
+						"size": 2564222,
+						"storage": "git"
+					}
+				],
+				"key": "KB47V5HY",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Image",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JXVEUXUF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781db90c6d65d0a7e896c"
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Banque",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/EVTXIBFF"
+	},
+	"zotero": {
+		"citationKey": "lounishakimBanque",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T19:09:50Z",
+		"dateModified": "2026-11-13T19:32:28Z",
+		"itemType": "document",
+		"key": "EVTXIBFF",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Banque"
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "KTDPX66H",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:03 p.m.</p>",
+			"parentItem": "YTWPCP7P",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/obikeNeuroSymbolicReasoningPerformance2025-3239fa248c57812f9c28d9122ce02e65"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KTDPX66H",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/obikeNeuroSymbolicReasoningPerformance2025-3239fa248c57812f9c28d9122ce02e65"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Obike, Peter Godfrey",
+			"Usip, Patience Usoro",
+			"Udo, Edward Ndarake",
+			"Ananga, Aniekan Joe"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Neuro-Symbolic Reasoning: Performance, Challenges, and Benchmarks: A Systematic Literature Review",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/YTWPCP7P"
+	},
+	"zotero": {
+		"DOI": "10.53982/ajeas.2025.0301.05-j",
+		"ISSN": "2992-5584",
+		"abstractNote": "Traditional AI struggles with interpretability and generalisation in complex reasoning tasks, limiting its effectiveness in domains like healthcare and robotics. This systematic review aims to evaluate Neuro-Symbolic Reasoning (NeSy) frameworks, which integrate symbolic reasoning with neural networks to address these challenges. 28 empirical studies (2017–2024) were analysed from arXiv, IEEE Xplore, PubMed, and conferences, using a PRISMA-guided methodology with inclusion criteria focusing on NeSy frameworks, performance, and scalability. Results show NeSy systems achieve a mean accuracy of 93.00% (SD 5.35%) across visual reasoning, NLP, robotics, and healthcare, outperforming neural baselines by 26.00% on average (SD 18.29%). Methodologies like pLogicNet, DiffLogic, and NSFR enhance generalisation, e.g., in spatial reasoning tasks. However, computational inefficiencies and explainability gaps persist (mean quality score 7.53/9, SD 1.04). NeSyBench, using datasets like MIMIC-III and CLEVR, and NeSyEval for standardised metrics (accuracy, F1-score, interpretability), was proposed to refine NeSy systems. This review provides a roadmap for developing interpretable, scalable AI, advancing applications in diagnostics and autonomous systems.",
+		"accessDate": "2026-03-14T17:40:48Z",
+		"citationKey": "obikeNeuroSymbolicReasoningPerformance2025",
+		"collections": [
+			"PNZQF2WF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Peter Godfrey",
+				"lastName": "Obike"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Patience Usoro",
+				"lastName": "Usip"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Edward Ndarake",
+				"lastName": "Udo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aniekan Joe",
+				"lastName": "Ananga"
+			}
+		],
+		"date": "2025-06-30",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "AJEAS",
+		"key": "YTWPCP7P",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "36-47",
+		"publicationTitle": "ABUAD Journal of Engineering and Applied Sciences",
+		"relations": {},
+		"shortTitle": "Neuro-Symbolic Reasoning",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neuro-Symbolic Reasoning: Performance, Challenges, and Benchmarks: A Systematic Literature Review",
+		"url": "https://journals.abuad.edu.ng/index.php/ajeas/article/view/1367",
+		"volume": "3"
+	}
+}

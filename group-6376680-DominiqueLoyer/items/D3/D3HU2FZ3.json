@@ -1,0 +1,75 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-03-08T21:46:46Z",
+			"itemType": "attachment",
+			"key": "A6BT74VL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:38:52 p.m.</p>",
+			"parentItem": "D3HU2FZ3",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Luo2024A-3129fa248c5781f78f70c19939be370b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "A6BT74VL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Luo2024A-3129fa248c5781f78f70c19939be370b"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Luo, Z., and Chen, Z., and Wang, Y., and Cheng, P., and Zhang, J."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A Survey on Explainability of Large Language Models",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/D3HU2FZ3"
+	},
+	"zotero": {
+		"DOI": "10.1145/3639372",
+		"citationKey": "Luo2024A",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Luo, Z., and Chen, Z., and Wang, Y., and Cheng, P., and Zhang, J."
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-03-08T21:46:46Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "D3HU2FZ3",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Survey on Explainability of Large Language Models",
+		"url": "https://arxiv.org/abs/2402.16029"
+	}
+}

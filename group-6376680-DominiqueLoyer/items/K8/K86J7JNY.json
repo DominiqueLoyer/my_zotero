@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-14T00:32:34Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-14T00:32:34Z",
+			"dateModified": "2026-02-14T00:32:34Z",
+			"itemType": "attachment",
+			"key": "XAFQB4IF",
+			"linkMode": "linked_url",
+			"parentItem": "K86J7JNY",
+			"relations": {},
+			"tags": [],
+			"title": "Zenodo version",
+			"url": "https://zenodo.org/records/18436691"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XAFQB4IF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Zenodo version",
+				"url": "https://zenodo.org/records/18436691"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"D o m i n i q u e"
+		],
+		"itemType": "computerProgram",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "DominiqueLoyer/systemFactChecking:  v2.2.1 - PyPI Publication",
+		"year": "2026",
+		"zoteroURI": "zotero://select/groups/6376680/items/K86J7JNY"
+	},
+	"zotero": {
+		"DOI": "10.5281/ZENODO.18436691",
+		"abstractNote": "🚀 Release v2.2.1\n\nNew Features\n\n\n\nPublished to PyPI: pip install syscred==2.2.1\n\nUpdated README with badges (PyPI, License, Python versions)\n\nAdded comprehensive usage examples\n\nEnhanced documentation\n\n\nInstallation\n\npip install syscred==2.2.1",
+		"accessDate": "2026-02-14T00:25:41Z",
+		"citationKey": "loyer2025syscred",
+		"collections": [],
+		"company": "Zenodo",
+		"creators": [
+			{
+				"creatorType": "programmer",
+				"firstName": "",
+				"lastName": "D o m i n i q u e"
+			}
+		],
+		"date": "2026-01-30",
+		"dateAdded": "2026-02-14T00:25:41Z",
+		"dateModified": "2026-02-26T21:06:55Z",
+		"extra": "@software{loyer2025syscred,\n  author = {Loyer, Dominique S.},\n  title = {SysCRED: Neuro-Symbolic System for Information Credibility Verification},\n  year = {2026},\n  publisher = {GitHub},\n  url = {https://github.com/DominiqueLoyer/systemFactChecking}\n}",
+		"itemType": "computerProgram",
+		"key": "K86J7JNY",
+		"libraryCatalog": "DOI.org (Datacite)",
+		"relations": {},
+		"rights": "Creative Commons Attribution 4.0 International",
+		"shortTitle": "DominiqueLoyer/systemFactChecking",
+		"tags": [
+			{
+				"tag": "FackChecker"
+			},
+			{
+				"tag": "Fact Checker, xAI, AI Transparency, AI accountability, Intelligence artificielle explicable"
+			},
+			{
+				"tag": "sysCRED"
+			}
+		],
+		"title": "DominiqueLoyer/systemFactChecking:  v2.2.1 - PyPI Publication",
+		"url": "https://zenodo.org/doi/10.5281/zenodo.18436691",
+		"versionNumber": "v2.2.1"
+	}
+}

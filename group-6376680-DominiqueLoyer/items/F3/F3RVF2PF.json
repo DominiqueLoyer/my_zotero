@@ -1,0 +1,110 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:18:27Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "86EJ8QPZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:18:27 p.m.</p>",
+			"parentItem": "F3RVF2PF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/momeniContinualLearningUsing2024a-3239fa248c5781cf8ef4c4993eaed98e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "86EJ8QPZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/momeniContinualLearningUsing2024a-3239fa248c5781cf8ef4c4993eaed98e"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/2eTP_dic9335_040326/AVEC SOURCES CUSTOM/PDFs"
+		],
+		"creators": [
+			"Momeni, Saleh",
+			"Mazumder, Sahisnu",
+			"Liu, Bing"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Continual Learning Using a Kernel-Based Method Over Foundation Models",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/F3RVF2PF"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2412.15571",
+		"abstractNote": "Continual learning (CL) learns a sequence of tasks incrementally. This paper studies the challenging CL setting of class-incremental learning (CIL). CIL has two key challenges: catastrophic forgetting (CF) and inter-task class separation (ICS). Despite numerous proposed methods, these issues remain persistent obstacles. This paper proposes a novel CIL method, called Kernel Linear Discriminant Analysis (KLDA), that can effectively avoid CF and ICS problems. It leverages only the powerful features learned in a foundation model (FM). However, directly using these features proves suboptimal. To address this, KLDA incorporates the Radial Basis Function (RBF) kernel and its Random Fourier Features (RFF) to enhance the feature representations from the FM, leading to improved performance. When a new task arrives, KLDA computes only the mean for each class in the task and updates a shared covariance matrix for all learned classes based on the kernelized features. Classification is performed using Linear Discriminant Analysis. Our empirical evaluation using text and image classification datasets demonstrates that KLDA significantly outperforms baselines. Remarkably, without relying on replay data, KLDA achieves accuracy comparable to joint training of all classes, which is considered the upper bound for CIL performance. The KLDA code is available at https://github.com/salehmomeni/klda.",
+		"accessDate": "2026-03-14T17:38:19Z",
+		"archiveID": "arXiv:2412.15571",
+		"citationKey": "momeniContinualLearningUsing2024",
+		"collections": [
+			"GBVEN8UM"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Saleh",
+				"lastName": "Momeni"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sahisnu",
+				"lastName": "Mazumder"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Bing",
+				"lastName": "Liu"
+			}
+		],
+		"date": "2024-12-20",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:2412.15571 [cs]",
+		"itemType": "preprint",
+		"key": "F3RVF2PF",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computer Vision and Pattern Recognition",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Continual Learning Using a Kernel-Based Method Over Foundation Models",
+		"url": "http://arxiv.org/abs/2412.15571"
+	}
+}

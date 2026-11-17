@@ -1,0 +1,151 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:14Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:14Z",
+			"dateModified": "2026-03-14T18:17:14Z",
+			"itemType": "attachment",
+			"key": "35CUVMJ3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:14 p.m.</p>",
+			"parentItem": "9AEHL6G8",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/DW6EQW4B"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/leiteLLMBasedAdversarialPersuasion2026-3239fa248c5781b29331c9b012a5d69a"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:33:16Z",
+			"dateModified": "2026-03-14T17:40:43Z",
+			"itemType": "attachment",
+			"key": "65M5LS6E",
+			"linkMode": "linked_file",
+			"parentItem": "9AEHL6G8",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Leite et al. - 2026 - LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "35CUVMJ3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/leiteLLMBasedAdversarialPersuasion2026-3239fa248c5781b29331c9b012a5d69a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Leite et al. - 2026 - LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems.pdf",
+				"files": [
+					{
+						"path": "attachments/65/65M5LS6E/Leite et al. - 2026 - LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems.pdf",
+						"size": 888020,
+						"storage": "git"
+					}
+				],
+				"key": "65M5LS6E",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Leite, João A.",
+			"Razuvayevskaya, Olesya",
+			"Bontcheva, Kalina",
+			"Scarton, Carolina"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems",
+		"year": "2026",
+		"zoteroURI": "zotero://select/library/items/9AEHL6G8"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2601.16890",
+		"abstractNote": "Automated fact-checking (AFC) systems are susceptible to adversarial attacks, enabling false claims to evade detection. Existing adversarial frameworks typically rely on injecting noise or altering semantics, yet no existing framework exploits the adversarial potential of persuasion techniques, which are widely used in disinformation campaigns to manipulate audiences. In this paper, we introduce a novel class of persuasive adversarial attacks on AFCs by employing a generative LLM to rephrase claims using persuasion techniques. Considering 15 techniques grouped into 6 categories, we study the effects of persuasion on both claim verification and evidence retrieval using a decoupled evaluation strategy. Experiments on the FEVER and FEVEROUS benchmarks show that persuasion attacks can substantially degrade both verification performance and evidence retrieval. Our analysis identifies persuasion techniques as a potent class of adversarial attacks, highlighting the need for more robust AFC systems.",
+		"accessDate": "2026-03-14T17:40:43Z",
+		"archiveID": "arXiv:2601.16890",
+		"citationKey": "leiteLLMBasedAdversarialPersuasion2026",
+		"collections": [
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "João A.",
+				"lastName": "Leite"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Olesya",
+				"lastName": "Razuvayevskaya"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kalina",
+				"lastName": "Bontcheva"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Carolina",
+				"lastName": "Scarton"
+			}
+		],
+		"date": "2026-01-23",
+		"dateAdded": "2026-03-14T17:40:43Z",
+		"dateModified": "2026-03-14T18:17:14Z",
+		"extra": "arXiv:2601.16890 [cs]",
+		"itemType": "preprint",
+		"key": "9AEHL6G8",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/MWTU8CNK"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems",
+		"url": "http://arxiv.org/abs/2601.16890"
+	}
+}

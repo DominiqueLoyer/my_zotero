@@ -1,0 +1,85 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:36:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:36:06Z",
+			"dateModified": "2026-11-09T17:06:38Z",
+			"itemType": "attachment",
+			"key": "WUA9U8SR",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:38 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "BE8BFRJG",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Kedzie-Christopher-and-McKeown-Kathleen-and-Diaz-Fernando-2018-4129fa248c5781169e23fe4b310d340e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WUA9U8SR",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Kedzie-Christopher-and-McKeown-Kathleen-and-Diaz-Fernando-2018-4129fa248c5781169e23fe4b310d340e"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Kedzie, Christopher and McKeown, Kathleen and Diaz, Fernando"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Content-Driven Detection of False News",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/BE8BFRJG"
+	},
+	"zotero": {
+		"citationKey": "kedziechristopherandmckeownkathleenanddiazfernandoContentDrivenDetectionFalse2018",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Kedzie, Christopher and McKeown, Kathleen and Diaz, Fernando"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-02-26T20:21:46Z",
+		"dateModified": "2026-11-13T19:35:03Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "BE8BFRJG",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/3UT4I9MM",
+				"http://zotero.org/users/15425556/items/SPFGJWFS"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/GXMWYIV2"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Content-Driven Detection of False News"
+	}
+}

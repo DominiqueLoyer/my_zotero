@@ -1,0 +1,75 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:34:55Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:34:55Z",
+			"dateModified": "2026-03-09T20:51:13Z",
+			"itemType": "attachment",
+			"key": "E57KU6VS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:13 p.m.</p>",
+			"parentItem": "JWBXKT29",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/brodeur2010policing-2e29fa248c5781d28c93f1e1f2d9c6c8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "E57KU6VS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/brodeur2010policing-2e29fa248c5781d28c93f1e1f2d9c6c8"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"Brodeur, Jean-Paul"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The policing web",
+		"year": "2010",
+		"zoteroURI": "zotero://select/library/items/JWBXKT29"
+	},
+	"zotero": {
+		"citationKey": "brodeurPolicingWeb2010b",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jean-Paul",
+				"lastName": "Brodeur"
+			}
+		],
+		"date": "2010",
+		"dateAdded": "2026-01-08T20:10:53Z",
+		"dateModified": "2026-03-25T21:30:26Z",
+		"itemType": "book",
+		"key": "JWBXKT29",
+		"place": "Oxford",
+		"publisher": "Oxford University Press",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The policing web"
+	}
+}

@@ -1,0 +1,215 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-10-14T20:30:19Z",
+			"dateModified": "2026-01-16T18:04:43Z",
+			"filename": "Cogito ergo es (Loyer 2024).pdf",
+			"itemType": "attachment",
+			"key": "6WQIU3IE",
+			"linkMode": "imported_file",
+			"parentItem": "H6R7JW9J",
+			"relations": {},
+			"tags": [],
+			"title": "Cogito ergo es (Loyer 2024)"
+		},
+		{
+			"dateAdded": "2026-01-08T20:07:32Z",
+			"dateModified": "2026-01-16T18:04:43Z",
+			"itemType": "note",
+			"key": "AE7A45ID",
+			"note": "Permission de récupération demandée au Professeur Serge Robert",
+			"parentItem": "H6R7JW9J",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/DC8KKTC5"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-08T20:38:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:38:21Z",
+			"dateModified": "2026-11-09T17:06:23Z",
+			"itemType": "attachment",
+			"key": "FMS7HRKL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:23 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "H6R7JW9J",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6XXQLW7G"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2024-4129fa248c578135bf01f0b5d904f4f7"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-10-14T20:30:00Z",
+			"dateModified": "2026-01-16T18:04:43Z",
+			"itemType": "attachment",
+			"key": "V339SZMR",
+			"linkMode": "linked_file",
+			"parentItem": "H6R7JW9J",
+			"path": "/Users/bk280625/Desktop/Cogito ergo es (Loyer 2024).pdf",
+			"relations": {},
+			"tags": [],
+			"title": "Cogito ergo es (Loyer 2024)"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-10-14T20:32:28Z",
+			"dateModified": "2026-01-16T18:04:43Z",
+			"filename": "Cogito ergo es (Loyer 2024).pdf",
+			"itemType": "attachment",
+			"key": "VMMW7LI3",
+			"linkMode": "imported_file",
+			"parentItem": "H6R7JW9J",
+			"relations": {},
+			"tags": [],
+			"title": "Cogito ergo es (Loyer 2024)"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Cogito ergo es (Loyer 2024).pdf",
+				"files": [
+					{
+						"path": "attachments/VM/VMMW7LI3/Cogito ergo es (Loyer 2024).pdf",
+						"size": 278530,
+						"storage": "git"
+					}
+				],
+				"key": "VMMW7LI3",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Cogito ergo es (Loyer 2024)",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Cogito ergo es (Loyer 2024).pdf",
+				"files": [
+					{
+						"path": "attachments/6W/6WQIU3IE/Cogito ergo es (Loyer 2024).pdf",
+						"size": 278530,
+						"storage": "git"
+					}
+				],
+				"key": "6WQIU3IE",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Cogito ergo es (Loyer 2024)",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Cogito ergo es (Loyer 2024).pdf",
+				"files": [],
+				"key": "V339SZMR",
+				"linkMode": "linked_file",
+				"status": "missing",
+				"title": "Cogito ergo es (Loyer 2024)",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FMS7HRKL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2024-4129fa248c578135bf01f0b5d904f4f7"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Loyer, Dominique"
+		],
+		"itemType": "report",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "AE7A45ID",
+				"title": "Permission de récupération demandée au Professeur Serge Robert"
+			}
+		],
+		"title": "Cogito ergo es",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/H6R7JW9J"
+	},
+	"zotero": {
+		"citationKey": "loyerCogitoErgoEs2024",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-01-08T20:10:58Z",
+		"dateModified": "2026-11-13T19:34:24Z",
+		"institution": "UQAM",
+		"itemType": "report",
+		"key": "H6R7JW9J",
+		"language": "fr-CA",
+		"place": "Montréal",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/EG8MRGDN",
+				"http://zotero.org/users/15425556/items/KG2LM5BN"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/K25QX9DB"
+			]
+		},
+		"reportType": "Rapport de recherche",
+		"tags": [
+			{
+				"tag": "Cogito ergo sum"
+			},
+			{
+				"tag": "Descarte"
+			},
+			{
+				"tag": "Russell Stuart et Norvig Peter. (2015). Artificial"
+			},
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
+			{
+				"tag": "intelligence : A modern approach"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Cogito ergo es"
+	}
+}

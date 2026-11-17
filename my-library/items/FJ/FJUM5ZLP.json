@@ -1,0 +1,126 @@
+{
+	"children": [
+		{
+			"accessDate": "2024-11-02T17:45:07Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2024-11-02T17:45:07Z",
+			"dateModified": "2024-11-02T17:45:07Z",
+			"filename": "une-solution-mille-interrogations.html",
+			"itemType": "attachment",
+			"key": "7AZSG8T7",
+			"linkMode": "imported_url",
+			"parentItem": "FJUM5ZLP",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://www.lapresse.ca/contexte/2022-11-20/identite-numerique/une-solution-mille-interrogations.php"
+		},
+		{
+			"accessDate": "2025-12-05T22:36:58Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:58Z",
+			"dateModified": "2026-11-09T17:09:34Z",
+			"itemType": "attachment",
+			"key": "DV79FT5B",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:34 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "FJUM5ZLP",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3C7F7699"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/B-rub-2022-4129fa248c5781b782ddeb07175fe62a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "DV79FT5B",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/B-rub-2022-4129fa248c5781b782ddeb07175fe62a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "une-solution-mille-interrogations.html",
+				"files": [
+					{
+						"path": "attachments/7A/7AZSG8T7/une-solution-mille-interrogations.html",
+						"size": 1896957,
+						"storage": "git"
+					}
+				],
+				"key": "7AZSG8T7",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://www.lapresse.ca/contexte/2022-11-20/identite-numerique/une-solution-mille-interrogations.php"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Littérature donnée par Daniel",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Bérubé, Nicolas"
+		],
+		"itemType": "newspaperArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Identité numérique: Une solution, mille interrogations",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/FJUM5ZLP"
+	},
+	"zotero": {
+		"abstractNote": "L’usurpation d’identité touche des centaines de milliers de Canadiens par année, et le Québec est la province où le plus grand nombre de cas sont rapportés. Une des solutions au fléau : l’identité numérique, un projet qui pourrait voir le jour dès 2025 et qui soulève des questions inédites sur la propriété des renseignements personnels des Québécois.",
+		"accessDate": "2024-11-02T17:44:59Z",
+		"citationKey": "berubeIdentiteNumeriqueSolution2022",
+		"collections": [
+			"ENT9VKF6",
+			"J4VTG4NB",
+			"NKV86EAI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Nicolas",
+				"lastName": "Bérubé"
+			}
+		],
+		"date": "2022-11-20T05:00:00-05:00",
+		"dateAdded": "2024-11-02T17:44:59Z",
+		"dateModified": "2025-12-05T22:36:58Z",
+		"itemType": "newspaperArticle",
+		"key": "FJUM5ZLP",
+		"language": "fr-CA",
+		"libraryCatalog": "www.lapresse.ca",
+		"publicationTitle": "La Presse",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/JNPP3Z68"
+			]
+		},
+		"section": "Contexte",
+		"shortTitle": "Identité numérique",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Identité numérique: Une solution, mille interrogations",
+		"url": "https://www.lapresse.ca/contexte/2022-11-20/identite-numerique/une-solution-mille-interrogations.php"
+	}
+}

@@ -1,0 +1,176 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-10T20:17:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T20:17:21Z",
+			"dateModified": "2026-01-16T18:01:04Z",
+			"itemType": "attachment",
+			"key": "2W4V4UM5",
+			"linkMode": "linked_url",
+			"parentItem": "RC9MJ5VM",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/Q6LIYJWG"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/CSKA3Q33"
+				]
+			},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"dateAdded": "2026-01-08T20:00:28Z",
+			"dateModified": "2026-01-16T18:01:04Z",
+			"itemType": "note",
+			"key": "A7IHMMBU",
+			"note": "Universite de Sherbrooke",
+			"parentItem": "RC9MJ5VM",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6S454VVV"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T22:31:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T22:31:01Z",
+			"dateModified": "2026-11-09T17:08:12Z",
+			"itemType": "attachment",
+			"key": "NRQYMRD3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:12 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "RC9MJ5VM",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/J56SDSMT"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/7Z4WVG7S"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-4129fa248c57812e9547c65df4aed766"
+		},
+		{
+			"dateAdded": "2026-01-10T20:17:21Z",
+			"dateModified": "2026-01-10T20:17:21Z",
+			"itemType": "note",
+			"key": "VJME79PS",
+			"note": "Universite de Sherbrooke",
+			"parentItem": "RC9MJ5VM",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/922KYZZP"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NRQYMRD3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-4129fa248c57812e9547c65df4aed766"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2W4V4UM5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126",
+			"zenodoDOI_ISBN_dominiqueloyer_060126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "A7IHMMBU",
+				"title": "Universite de Sherbrooke"
+			},
+			{
+				"key": "VJME79PS",
+				"title": "Universite de Sherbrooke"
+			}
+		],
+		"title": "Enjeux de la confidentialite des donnees",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/RC9MJ5VM"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.29876.43200",
+		"ISBN": "978-1-0699945-3-0",
+		"citationKey": "loyerEnjeuxConfidentialiteDonnees2025",
+		"collections": [
+			"8UCLQEMM",
+			"KKPWSFMI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-10T20:17:21Z",
+		"dateModified": "2026-01-16T18:01:04Z",
+		"extra": "titleTranslation: Data Privacy Issues",
+		"itemType": "conferencePaper",
+		"key": "RC9MJ5VM",
+		"language": "fr-CA",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/93CL6AC6"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/PH7IJG83"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Apprentissage Federe"
+			},
+			{
+				"tag": "Confidentialite des Donnees"
+			},
+			{
+				"tag": "Protection des Donnees"
+			},
+			{
+				"tag": "RGPD"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Enjeux de la confidentialite des donnees",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.29876.43200"
+	}
+}

@@ -1,0 +1,77 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-02T19:07:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-02T19:07:59Z",
+			"dateModified": "2026-11-09T17:08:22Z",
+			"itemType": "attachment",
+			"key": "PU6429LS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:22 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "6AARFDJ9",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-4129fa248c57817dafd0d5b475721e4f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PU6429LS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-4129fa248c57817dafd0d5b475721e4f"
+			}
+		],
+		"collections": [
+			"GS_301225.bibtex"
+		],
+		"creators": [
+			"Loyer, Dominique S"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Évaluation de modèles de pondération pour la recherche d’information sur TREC AP 88-90",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/6AARFDJ9"
+	},
+	"zotero": {
+		"citationKey": "loyerEvaluationModelesPonderation2025",
+		"collections": [
+			"H8Z7N6W8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2025-12-30T21:49:10Z",
+		"dateModified": "2026-01-09T19:16:33Z",
+		"itemType": "journalArticle",
+		"key": "6AARFDJ9",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Évaluation de modèles de pondération pour la recherche d’information sur TREC AP 88-90"
+	}
+}

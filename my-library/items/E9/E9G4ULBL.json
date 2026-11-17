@@ -1,0 +1,124 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-09-08T12:06:39Z",
+			"dateModified": "2025-09-08T12:07:08Z",
+			"filename": "Cogito ergo es.docx.pdf",
+			"itemType": "attachment",
+			"key": "PYX3BVDE",
+			"linkMode": "imported_file",
+			"parentItem": "E9G4ULBL",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:31:36Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:31:36Z",
+			"dateModified": "2026-11-09T17:06:24Z",
+			"itemType": "attachment",
+			"key": "QNE5WTJV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:24 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "E9G4ULBL",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2024-4129fa248c5781c6bbafd3891cc670f5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QNE5WTJV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2024-4129fa248c5781c6bbafd3891cc670f5"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Cogito ergo es.docx.pdf",
+				"files": [
+					{
+						"path": "attachments/PY/PYX3BVDE/Cogito ergo es.docx.pdf",
+						"size": 275569,
+						"storage": "git"
+					}
+				],
+				"key": "PYX3BVDE",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Russell"
+		],
+		"creators": [
+			"Loyer, Dominique"
+		],
+		"itemType": "report",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Cogito ergo es.docx",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/E9G4ULBL"
+	},
+	"zotero": {
+		"citationKey": "loyerCogitoErgoEsdocx2024",
+		"collections": [
+			"3JEI6M6Q"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "Automne 2024",
+		"dateAdded": "2025-09-08T12:07:08Z",
+		"dateModified": "2026-11-13T19:34:25Z",
+		"institution": "UQAM",
+		"itemType": "report",
+		"key": "E9G4ULBL",
+		"language": "fr-CA",
+		"pages": "8",
+		"place": "Montreal",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "Cogito ergo sum"
+			},
+			{
+				"tag": "Descarte"
+			},
+			{
+				"tag": "Discours de la méthode"
+			},
+			{
+				"tag": "Russell"
+			},
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Cogito ergo es.docx"
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:54Z",
+			"dateModified": "2026-11-09T17:05:06Z",
+			"itemType": "attachment",
+			"key": "W5TK26U6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:06 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "X2LJ62X4",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Koren-and-Bell-2011-4129fa248c5781c1a214fe5e23f0c2cf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "W5TK26U6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Koren-and-Bell-2011-4129fa248c5781c1a214fe5e23f0c2cf"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Koren, Yehuda",
+			"Bell, Robert",
+			"Ricci, Francesco",
+			"Rokach, Lior",
+			"Shapira, Bracha",
+			"Kantor, Paul B."
+		],
+		"itemType": "bookSection",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Advances in Collaborative Filtering",
+		"year": "2011",
+		"zoteroURI": "zotero://select/library/items/X2LJ62X4"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-0-387-85820-3_5",
+		"bookTitle": "Recommender Systems Handbook",
+		"citationKey": "korenAdvancesCollaborativeFiltering2011",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Yehuda",
+				"lastName": "Koren"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Robert",
+				"lastName": "Bell"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Francesco",
+				"lastName": "Ricci"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Lior",
+				"lastName": "Rokach"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Bracha",
+				"lastName": "Shapira"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Paul B.",
+				"lastName": "Kantor"
+			}
+		],
+		"date": "2011",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-03-25T21:31:06Z",
+		"itemType": "bookSection",
+		"key": "X2LJ62X4",
+		"pages": "145–186",
+		"publisher": "Springer US",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Advances in Collaborative Filtering"
+	}
+}

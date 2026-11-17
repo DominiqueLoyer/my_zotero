@@ -1,0 +1,81 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:40:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:40:11Z",
+			"dateModified": "2026-03-09T20:54:29Z",
+			"itemType": "attachment",
+			"key": "TP6M3DPH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:29 p.m.</p>",
+			"parentItem": "MJE5745G",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/54CVNNET"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/CrowdStrike2024-2e29fa248c5781e78f99ce4cec77dec8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TP6M3DPH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/CrowdStrike2024-2e29fa248c5781e78f99ce4cec77dec8"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"CrowdStrike"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "What is data poisoning?",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/MJE5745G"
+	},
+	"zotero": {
+		"citationKey": "crowdstrikeWhatDataPoisoning2024b",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "CrowdStrike"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-01-08T20:07:30Z",
+		"dateModified": "2026-03-25T21:30:44Z",
+		"itemType": "document",
+		"key": "MJE5745G",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/RAVF53L2"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "What is data poisoning?",
+		"url": "https://www.crowdstrike.com/cybersecurity-101/data-security/data-poisoning/"
+	}
+}

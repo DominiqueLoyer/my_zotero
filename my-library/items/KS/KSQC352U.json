@@ -1,0 +1,85 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:01Z",
+			"dateModified": "2026-03-09T20:44:25Z",
+			"itemType": "attachment",
+			"key": "ZLZXCUM7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:25 p.m.</p>",
+			"parentItem": "KSQC352U",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6EWW4KNV",
+					"http://zotero.org/groups/6376680/items/S9QLE89H"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Alvarez-Melis2021On-3129fa248c578131893ee4253f4d156a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZLZXCUM7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Alvarez-Melis2021On-3129fa248c578131893ee4253f4d156a"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Alvarez-Melis, David and Jaakkola, Tommi S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "On the Robustness of Interpretability Methods",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/KSQC352U"
+	},
+	"zotero": {
+		"DOI": "10.1109/ivmem53963.2021.00007",
+		"citationKey": "alvarez-melisdavidandjaakkolatommis.RobustnessInterpretabilityMethods2021",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Alvarez-Melis, David and Jaakkola, Tommi S."
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-02-25T21:32:22Z",
+		"dateModified": "2026-03-25T21:29:54Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "KSQC352U",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/HRXULTZW",
+				"http://zotero.org/groups/6376680/items/HTTDU9SY"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "On the Robustness of Interpretability Methods",
+		"url": "https://arxiv.org/abs/1806.08049"
+	}
+}

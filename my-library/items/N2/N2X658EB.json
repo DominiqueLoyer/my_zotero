@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:14Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:14Z",
+			"dateModified": "2026-11-09T17:09:14Z",
+			"itemType": "attachment",
+			"key": "4FG8IEFP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:14 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "N2X658EB",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Google-Gemini-4129fa248c57817e8ccddcf142b4fc0f"
+		},
+		{
+			"accessDate": "2025-09-15T17:38:18Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2025-09-15T17:38:18Z",
+			"dateModified": "2025-09-15T17:38:18Z",
+			"filename": "gemini.google.com.html",
+			"itemType": "attachment",
+			"key": "8DH6DCII",
+			"linkMode": "imported_url",
+			"parentItem": "N2X658EB",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://gemini.google.com"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "4FG8IEFP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Google-Gemini-4129fa248c57817e8ccddcf142b4fc0f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "gemini.google.com.html",
+				"files": [
+					{
+						"path": "attachments/8D/8DH6DCII/gemini.google.com.html",
+						"size": 2306699,
+						"storage": "git"
+					}
+				],
+				"key": "8DH6DCII",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Snapshot",
+				"url": "https://gemini.google.com"
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Russell"
+		],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "‎Google Gemini",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/N2X658EB"
+	},
+	"zotero": {
+		"abstractNote": "Voici Gemini, l'assistant IA de Google. Obtenez de l'aide pour la rédaction de contenu, la planification, le remue-méninges et plus encore. Découvrez la puissance de l'IA générative.",
+		"accessDate": "2025-09-15T17:38:11Z",
+		"citationKey": "GoogleGemini",
+		"collections": [
+			"3JEI6M6Q"
+		],
+		"creators": [],
+		"dateAdded": "2025-09-15T17:38:11Z",
+		"dateModified": "2026-01-27T00:39:44Z",
+		"extra": "abstractTranslation: Here is Gemini, Google's AI assistant. Get help with content writing, planning, brainstorming, and more. Discover the power of generative AI.",
+		"itemType": "webpage",
+		"key": "N2X658EB",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "‎Google Gemini",
+		"url": "https://gemini.google.com",
+		"websiteTitle": "Gemini"
+	}
+}

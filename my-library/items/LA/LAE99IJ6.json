@@ -1,0 +1,123 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:26:44Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:26:44Z",
+			"dateModified": "2026-11-09T17:09:07Z",
+			"itemType": "attachment",
+			"key": "Q25VY3XC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:07 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "LAE99IJ6",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Torres-et-al-2015-4129fa248c57811fa4f7c308f2de85fb"
+		},
+		{
+			"accessDate": "2026-11-08T16:30:15Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:30:15Z",
+			"dateModified": "2026-11-08T16:30:15Z",
+			"filename": "Torres et al. - 2015 - FP-block Usable web privacy by controlling browser fingerprinting.pdf",
+			"itemType": "attachment",
+			"key": "W4QDZWI4",
+			"linkMode": "imported_url",
+			"parentItem": "LAE99IJ6",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://link.springer.com/content/pdf/10.1007%2F978-3-319-24177-7_1.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Torres et al. - 2015 - FP-block Usable web privacy by controlling browser fingerprinting.pdf",
+				"files": [
+					{
+						"path": "attachments/W4/W4QDZWI4/Torres et al. - 2015 - FP-block Usable web privacy by controlling browser fingerprinting.pdf",
+						"size": 829202,
+						"storage": "git"
+					}
+				],
+				"key": "W4QDZWI4",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://link.springer.com/content/pdf/10.1007%2F978-3-319-24177-7_1.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Q25VY3XC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Torres-et-al-2015-4129fa248c57811fa4f7c308f2de85fb"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Torres, C. F.",
+			"Jonker, H.",
+			"Mauw, S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "FP-block: Usable web privacy by controlling browser fingerprinting",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/LAE99IJ6"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-319-24177-7_1",
+		"abstractNote": "S2 TL;DR: It is posited that for non-oppressed users, tracking within one website does not have a substantial negative impact on privacy, while it enables legitimate benefits, and cross-domain tracking negatively impacts user privacy while being of little benefit to the user.",
+		"citationKey": "torresFPblockUsableWeb2015",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "C. F.",
+				"lastName": "Torres"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "H.",
+				"lastName": "Jonker"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "S.",
+				"lastName": "Mauw"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-01-08T20:14:05Z",
+		"dateModified": "2026-03-25T21:30:02Z",
+		"extra": "abstractTranslation: S2 TL;DR: It is posited that for non-oppressed users, tracking within one website does not have a substantial negative impact on privacy, while it enables legitimate benefits, and cross-domain tracking negatively impacts user privacy while being of little benefit to the user.",
+		"itemType": "journalArticle",
+		"key": "LAE99IJ6",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "FP-block: Usable web privacy by controlling browser fingerprinting",
+		"url": "https://www.semanticscholar.org/paper/64636610404013914bc73ae4ae9d057e6835c4b4"
+	}
+}

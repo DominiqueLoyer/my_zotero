@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:28:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:26Z",
+			"dateModified": "2026-01-02T19:14:20Z",
+			"itemType": "attachment",
+			"key": "GG6L662I",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:14:20 p.m.</p>",
+			"parentItem": "VE7TJE54",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/nieDomaineRechercheDinformation-2c09fa248c5781aebd96e89c81bc67ea"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-04-03T07:41:40Z",
+			"dateModified": "2025-04-03T07:41:43Z",
+			"filename": "Nie - Le domaine de recherche d’information – Un survol d’une longue histoire.pdf",
+			"itemType": "attachment",
+			"key": "RFW8HLB6",
+			"linkMode": "imported_file",
+			"parentItem": "VE7TJE54",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GG6L662I",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/nieDomaineRechercheDinformation-2c09fa248c5781aebd96e89c81bc67ea"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Nie - Le domaine de recherche d’information – Un survol d’une longue histoire.pdf",
+				"files": [],
+				"key": "RFW8HLB6",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/cours 3-4 RI"
+		],
+		"creators": [
+			"Nie, Jian-Yun"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Le domaine de recherche d’information – Un survol d’une longue histoire",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/VE7TJE54"
+	},
+	"zotero": {
+		"citationKey": "nieDomaineRechercheDinformation",
+		"collections": [
+			"RZX7UAY3"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jian-Yun",
+				"lastName": "Nie"
+			}
+		],
+		"dateAdded": "2025-04-03T07:41:43Z",
+		"dateModified": "2025-12-29T23:57:32Z",
+		"itemType": "journalArticle",
+		"key": "VE7TJE54",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Le domaine de recherche d’information – Un survol d’une longue histoire"
+	}
+}

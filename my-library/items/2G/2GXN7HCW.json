@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:49Z",
+			"dateModified": "2026-11-09T17:07:02Z",
+			"itemType": "attachment",
+			"key": "276J29GH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:02 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "2GXN7HCW",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/9UCCXGVF",
+					"http://zotero.org/groups/6376680/items/I479558D"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Topbots-2023-4129fa248c5781bf9023e962ad514553"
+		},
+		{
+			"accessDate": "2026-11-08T16:12:03Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:12:03Z",
+			"dateModified": "2026-11-08T16:12:03Z",
+			"filename": "Topbots - 2023 - Data Poisoning The New Frontier of AI-Powered Cyber Attacks.pdf",
+			"itemType": "attachment",
+			"key": "FV5H7UCS",
+			"linkMode": "imported_url",
+			"parentItem": "2GXN7HCW",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://sjmars.com/index.php/sjmars/article/download/95/95"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Topbots - 2023 - Data Poisoning The New Frontier of AI-Powered Cyber Attacks.pdf",
+				"files": [
+					{
+						"path": "attachments/FV/FV5H7UCS/Topbots - 2023 - Data Poisoning The New Frontier of AI-Powered Cyber Attacks.pdf",
+						"size": 493411,
+						"storage": "git"
+					}
+				],
+				"key": "FV5H7UCS",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://sjmars.com/index.php/sjmars/article/download/95/95"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "276J29GH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Topbots-2023-4129fa248c5781bf9023e962ad514553"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Topbots"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Data Poisoning: The New Frontier of AI-Powered Cyber Attacks",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/2GXN7HCW"
+	},
+	"zotero": {
+		"DOI": "10.55544/sjmars.2.4.4",
+		"citationKey": "topbotsDataPoisoningNew2023",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Topbots"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-02-25T21:52:23Z",
+		"dateModified": "2026-11-13T19:35:43Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "2GXN7HCW",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/67K99MYZ",
+				"http://zotero.org/groups/6376680/items/DINGB7FX"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Data Poisoning: The New Frontier of AI-Powered Cyber Attacks"
+	}
+}

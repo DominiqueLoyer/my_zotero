@@ -1,0 +1,134 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:41:27Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:41:27Z",
+			"dateModified": "2026-03-09T20:55:29Z",
+			"itemType": "attachment",
+			"key": "CUHZRKY5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:55:29 p.m.</p>",
+			"parentItem": "Y76SW5HS",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/UHQGRIAI"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerLeviathanAlgorithmiquePouvoir2025b-2e29fa248c57811facbecf824a375ad0"
+		},
+		{
+			"dateAdded": "2026-01-08T20:00:27Z",
+			"dateModified": "2026-01-08T20:00:27Z",
+			"itemType": "note",
+			"key": "DQUJ5STP",
+			"note": "Doctoral Synthesis Exam DIC-9401",
+			"parentItem": "Y76SW5HS",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/FMADI7I5"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-08T20:00:27Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:00:27Z",
+			"dateModified": "2026-01-08T20:00:27Z",
+			"itemType": "attachment",
+			"key": "LA99TQHM",
+			"linkMode": "linked_url",
+			"parentItem": "Y76SW5HS",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/WVSAJ5BS"
+				]
+			},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CUHZRKY5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerLeviathanAlgorithmiquePouvoir2025b-2e29fa248c57811facbecf824a375ad0"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LA99TQHM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"zenodoDOI_ISBN_dominiqueloyer_060126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "DQUJ5STP",
+				"title": "Doctoral Synthesis Exam DIC-9401"
+			}
+		],
+		"title": "Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/Y76SW5HS"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.28011.20002",
+		"citationKey": "loyerLeviathanAlgorithmiquePouvoir2025h",
+		"collections": [
+			"KKPWSFMI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-08T20:00:27Z",
+		"dateModified": "2026-03-25T21:30:48Z",
+		"extra": "ISBN: 978-1-0699904-0-2\nPages: 64",
+		"itemType": "document",
+		"key": "Y76SW5HS",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/NEATXQ4M"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.28011.20002"
+	}
+}

@@ -1,0 +1,137 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:25:50Z",
+			"dateModified": "2026-03-14T17:37:13Z",
+			"itemType": "attachment",
+			"key": "2F97AZGK",
+			"linkMode": "linked_file",
+			"parentItem": "DLIGB7EH",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/ontoCRED_250226/PDFs/Chidara et al. - 2025 - Ontology-Based Modelling and Analysis of Sustainable Polymer Systems PVC Comparative Polymer and Im.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:19:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:09Z",
+			"dateModified": "2026-03-14T18:19:09Z",
+			"itemType": "attachment",
+			"key": "9M3L6FQW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:19:09 p.m.</p>",
+			"parentItem": "DLIGB7EH",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LDGCRXMP"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/chidaraOntologyBasedModellingAnalysis2025-3239fa248c5781349567fbd03c15242f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9M3L6FQW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/chidaraOntologyBasedModellingAnalysis2025-3239fa248c5781349567fbd03c15242f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Chidara et al. - 2025 - Ontology-Based Modelling and Analysis of Sustainable Polymer Systems PVC Comparative Polymer and Im.pdf",
+				"files": [
+					{
+						"path": "attachments/2F/2F97AZGK/Chidara et al. - 2025 - Ontology-Based Modelling and Analysis of Sustainable Polymer Systems PVC Comparative Polymer and Im.pdf",
+						"size": 3260635,
+						"storage": "git"
+					}
+				],
+				"key": "2F97AZGK",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/ontoCRED_250226/PDFs"
+		],
+		"creators": [
+			"Chidara, Alexander",
+			"Cheng, Kai",
+			"Gallear, David"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Ontology-Based Modelling and Analysis of Sustainable Polymer Systems: PVC Comparative Polymer and Implementation Perspectives",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/DLIGB7EH"
+	},
+	"zotero": {
+		"DOI": "10.3390/polym17192612",
+		"ISSN": "2073-4360",
+		"abstractNote": "This study develops an ontology-based decision support framework to enhance sustainable polymer recycling within the circular economy. The framework, constructed in Protégé (OWL 2), systematically captures polymer categories with emphasis on polyethylene terephthalate (PET), polylactic acid (PLA), and rigid polyvinyl chloride (PVC) as well as recycling processes, waste classifications, and sustainability indicators such as carbon footprint. Semantic reasoning was implemented using the Semantic Web Rule Language (SWRL) and SPARQL Protocol and RDF Query Language (SPARQL) to infer optimal material flows and sustainable pathways. Validation through a UK industrial case study confirmed both the framework’s applicability and highlighted barriers to large-scale recycling, including performance gaps between virgin and recycled polymers. The comparative analysis showed carbon footprints of 2.8 kg CO2/kg for virgin PET, 1.5 kg CO2/kg for PLA, and 2.1 kg CO2/kg for PVC, underscoring material-specific sustainability challenges. Validation through a UK industrial case study further highlighted additive complexity in PVC as a major barrier to large scale recycling. Bibliometric and thematic analyses conducted in this study revealed persistent gaps in sustainability metrics, lifecycle assessment, and semantic support for circular polymer systems. By integrating these insights, the proposed framework provides a scalable, data-driven tool for evaluating and optimising polymer lifecycles, supporting industry transitions toward resilient, circular, and net-zero material systems.",
+		"accessDate": "2026-03-14T17:37:12Z",
+		"citationKey": "chidaraOntologyBasedModellingAnalysis2025",
+		"collections": [
+			"VET5I7ZN"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Alexander",
+				"lastName": "Chidara"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kai",
+				"lastName": "Cheng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "David",
+				"lastName": "Gallear"
+			}
+		],
+		"date": "2025-09-26",
+		"dateAdded": "2026-03-14T17:37:12Z",
+		"dateModified": "2026-03-14T18:19:09Z",
+		"issue": "19",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Polymers",
+		"key": "DLIGB7EH",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "2612",
+		"publicationTitle": "Polymers",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/J6NK4QEZ"
+			]
+		},
+		"shortTitle": "Ontology-Based Modelling and Analysis of Sustainable Polymer Systems",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Ontology-Based Modelling and Analysis of Sustainable Polymer Systems: PVC Comparative Polymer and Implementation Perspectives",
+		"url": "https://www.mdpi.com/2073-4360/17/19/2612",
+		"volume": "17"
+	}
+}

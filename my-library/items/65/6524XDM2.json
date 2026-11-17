@@ -1,0 +1,134 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:36:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:42Z",
+			"dateModified": "2026-01-02T19:16:41Z",
+			"itemType": "attachment",
+			"key": "R9VFEX9E",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:41 p.m.</p>",
+			"parentItem": "6524XDM2",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/brinReprintAnatomyLargescale2012-2c09fa248c5781e989ebd7617ec03cbb"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-02-01T22:02:54Z",
+			"dateModified": "2025-02-01T22:03:01Z",
+			"filename": "Brin et Page - 2012 - Reprint of The anatomy of a large-scale hypertextual web search engine.pdf",
+			"itemType": "attachment",
+			"key": "YJK4ZRQH",
+			"linkMode": "imported_file",
+			"parentItem": "6524XDM2",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "R9VFEX9E",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/brinReprintAnatomyLargescale2012-2c09fa248c5781e989ebd7617ec03cbb"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Brin et Page - 2012 - Reprint of The anatomy of a large-scale hypertextual web search engine.pdf",
+				"files": [
+					{
+						"path": "attachments/YJ/YJK4ZRQH/Brin et Page - 2012 - Reprint of The anatomy of a large-scale hypertextual web search engine.pdf",
+						"size": 850211,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/YJ/YJK4ZRQH/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 48709,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/YJ/YJK4ZRQH/Brin et Page - 2012 - Reprint of The anatomy of a large-scale hypertextual web search engine (trashed 2025-11-24 15-34-12).pdf",
+						"size": 850211,
+						"storage": "git"
+					}
+				],
+				"key": "YJK4ZRQH",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/science du web"
+		],
+		"creators": [
+			"Brin, Sergey",
+			"Page, Lawrence"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Reprint of: The anatomy of a large-scale hypertextual web search engine",
+		"year": "2012",
+		"zoteroURI": "zotero://select/library/items/6524XDM2"
+	},
+	"zotero": {
+		"DOI": "10.1016/j.comnet.2012.10.007",
+		"ISSN": "13891286",
+		"abstractNote": "In this paper, we present Google, a prototype of a large-scale search engine which makes heavy use of the structure present in hypertext. Google is designed to crawl and index the Web efﬁciently and produce much more satisfying search results than existing systems. The prototype with a full text and hyperlink database of at least 24 million pages is available at http://google.stanford.edu/ To engineer a search engine is a challenging task. Search engines index tens to hundreds of millions of web pages involving a comparable number of distinct terms. They answer tens of millions of queries every day. Despite the importance of large-scale search engines on the web, very little academic research has been done on them. Furthermore, due to rapid advance in technology and web proliferation, creating a web search engine today is very different from 3 years ago. This paper provides an in-depth description of our large-scale web search engine – the ﬁrst such detailed public description we know of to date.",
+		"accessDate": "2025-02-01T22:03:01Z",
+		"citationKey": "brinReprintAnatomyLargescale2012",
+		"collections": [
+			"W7937JUV"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Sergey",
+				"lastName": "Brin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lawrence",
+				"lastName": "Page"
+			}
+		],
+		"date": "12/2012",
+		"dateAdded": "2025-02-01T22:03:01Z",
+		"dateModified": "2025-12-05T22:36:42Z",
+		"issue": "18",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Computer Networks",
+		"key": "6524XDM2",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "3825-3833",
+		"publicationTitle": "Computer Networks",
+		"relations": {},
+		"rights": "https://www.elsevier.com/tdm/userlicense/1.0/",
+		"shortTitle": "Reprint of",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Reprint of: The anatomy of a large-scale hypertextual web search engine",
+		"url": "https://linkinghub.elsevier.com/retrieve/pii/S1389128612003611",
+		"volume": "56"
+	}
+}

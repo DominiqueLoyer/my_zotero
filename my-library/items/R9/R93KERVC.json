@@ -1,0 +1,129 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:48:30Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:48:30Z",
+			"dateModified": "2026-01-01T23:48:30Z",
+			"filename": "Zhang et al. - 2019 - Deep learning based recommender system A survey and new perspectives.pdf",
+			"itemType": "attachment",
+			"key": "NKDMDIPE",
+			"linkMode": "imported_url",
+			"parentItem": "R93KERVC",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1707.07435"
+		},
+		{
+			"accessDate": "2025-12-05T22:23:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:23:57Z",
+			"dateModified": "2026-11-09T17:07:15Z",
+			"itemType": "attachment",
+			"key": "NSN9VZK5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:15 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "R93KERVC",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Zhang-et-al-2019-4129fa248c578149960ff7727beb56c0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NSN9VZK5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Zhang-et-al-2019-4129fa248c578149960ff7727beb56c0"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zhang et al. - 2019 - Deep learning based recommender system A survey and new perspectives.pdf",
+				"files": [
+					{
+						"path": "attachments/NK/NKDMDIPE/Zhang et al. - 2019 - Deep learning based recommender system A survey and new perspectives.pdf",
+						"size": 1761312,
+						"storage": "git"
+					}
+				],
+				"key": "NKDMDIPE",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1707.07435"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Zhang, Shuai",
+			"Yao, Lina",
+			"Sun, Aixin",
+			"Tay, Yi"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Deep learning based recommender system: A survey and new perspectives",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/R93KERVC"
+	},
+	"zotero": {
+		"DOI": "10.1145/3285029",
+		"citationKey": "zhangDeepLearningBased2019",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Shuai",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lina",
+				"lastName": "Yao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aixin",
+				"lastName": "Sun"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yi",
+				"lastName": "Tay"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2025-10-10T19:01:29Z",
+		"dateModified": "2026-03-25T21:30:55Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"key": "R93KERVC",
+		"pages": "1–38",
+		"publicationTitle": "ACM Computing Surveys (CSUR)",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Deep learning based recommender system: A survey and new perspectives",
+		"volume": "52"
+	}
+}

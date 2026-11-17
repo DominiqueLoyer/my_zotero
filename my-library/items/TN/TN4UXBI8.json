@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:16:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:16:53Z",
+			"dateModified": "2026-11-09T17:07:48Z",
+			"itemType": "attachment",
+			"key": "8EYBJ7E6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:48 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "TN4UXBI8",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/D4R5Z3Y4",
+					"http://zotero.org/groups/6376680/items/ICJ9KWPE"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Muellerleile-Chris-and-Robertson-Susan-L-2018-4129fa248c57810d927ad0523c21b97f"
+		},
+		{
+			"accessDate": "2026-11-08T16:49:07Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:49:07Z",
+			"dateModified": "2026-11-08T16:49:07Z",
+			"filename": "Muellerleile, Chris and Robertson, Susan L. - 2018 - Digital Weberianism Bureaucracy, Information, and the Techno-rationality of Neoliberal Capitalism.pdf",
+			"itemType": "attachment",
+			"key": "8UGJKABL",
+			"linkMode": "imported_url",
+			"parentItem": "TN4UXBI8",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://scholarworks.iu.edu/journals/index.php/ijgls/article/download/52554/53394"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8EYBJ7E6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Muellerleile-Chris-and-Robertson-Susan-L-2018-4129fa248c57810d927ad0523c21b97f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Muellerleile, Chris and Robertson, Susan L. - 2018 - Digital Weberianism Bureaucracy, Information, and the Techno-rationality of Neoliberal Capitalism.pdf",
+				"files": [
+					{
+						"path": "attachments/8U/8UGJKABL/Muellerleile, Chris and Robertson, Susan L. - 2018 - Digital Weberianism Bureaucracy, Information, and the Techno-rationality of Neoliberal Capitalism.pdf",
+						"size": 1852486,
+						"storage": "git"
+					}
+				],
+				"key": "8UGJKABL",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://scholarworks.iu.edu/journals/index.php/ijgls/article/download/52554/53394"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Muellerleile, Chris and Robertson, Susan L."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Digital Weberianism: Bureaucracy, Information, and the Techno-rationality of Neoliberal Capitalism",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/TN4UXBI8"
+	},
+	"zotero": {
+		"DOI": "10.2979/indjglolegstu.25.1.0187",
+		"citationKey": "muellerleilechrisandrobertsonsusanl.DigitalWeberianismBureaucracy2018",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Muellerleile, Chris and Robertson, Susan L."
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-02-25T21:42:21Z",
+		"dateModified": "2026-03-25T21:29:41Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "TN4UXBI8",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/4XYVB4K6",
+				"http://zotero.org/groups/6376680/items/XV68YP6S"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Digital Weberianism: Bureaucracy, Information, and the Techno-rationality of Neoliberal Capitalism"
+	}
+}

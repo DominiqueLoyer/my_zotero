@@ -1,0 +1,134 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:22:07Z",
+			"dateModified": "2026-04-17T21:22:07Z",
+			"itemType": "note",
+			"key": "D2WCWT7P",
+			"note": "DIC-9345 TALN",
+			"parentItem": "7NG87U4V",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T20:17:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:07Z",
+			"dateModified": "2026-04-17T21:22:07Z",
+			"itemType": "attachment",
+			"key": "RSGRWS8E",
+			"linkMode": "linked_url",
+			"parentItem": "7NG87U4V",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"accessDate": "2026-01-10T22:30:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:07Z",
+			"dateModified": "2026-11-17T14:42:39Z",
+			"itemType": "attachment",
+			"key": "S6QF53XJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:42:39 a.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"41b9fa24-8c57-81df-9544-c3c210e836e8\",\"notes\":{\"D2WCWT7P\":{\"blockID\":\"41b9fa24-8c57-8166-afba-f58fea7c3c08\",\"syncedAt\":\"2026-11-17T14:42:39.986Z\"}}}</pre>",
+			"parentItem": "7NG87U4V",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c5781de8e48c854faa01d7a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "S6QF53XJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-2025-41b9fa248c5781de8e48c854faa01d7a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RSGRWS8E",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "D2WCWT7P",
+				"title": "DIC-9345 TALN"
+			}
+		],
+		"title": "Systeme de traduction automatique neuronal du russe vers l'anglais",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/7NG87U4V"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.21668.18563",
+		"ISBN": "978-1-0699904-9-5",
+		"citationKey": "loyerSystemeTraductionAutomatique2025",
+		"collections": [
+			"RJVJKNN2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-04-17T21:22:07Z",
+		"dateModified": "2026-04-17T21:22:07Z",
+		"extra": "titleTranslation: Neural machine translation system from Russian to English",
+		"itemType": "conferencePaper",
+		"key": "7NG87U4V",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "RU-EN"
+			},
+			{
+				"tag": "Reseaux Neuronaux"
+			},
+			{
+				"tag": "Sequence-a-Sequence"
+			},
+			{
+				"tag": "TAL"
+			},
+			{
+				"tag": "Traduction Automatique"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Systeme de traduction automatique neuronal du russe vers l'anglais",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.21668.18563"
+	}
+}

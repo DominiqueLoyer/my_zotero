@@ -1,0 +1,112 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-06-12T18:04:19Z",
+			"dateModified": "2025-06-12T18:08:58Z",
+			"filename": "Final project SIO-6051DM.pdf",
+			"itemType": "attachment",
+			"key": "4YEEXXJQ",
+			"linkMode": "imported_file",
+			"parentItem": "K8L4YAL2",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-10-30T21:00:36Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-10-30T21:00:36Z",
+			"dateModified": "2026-11-09T17:08:59Z",
+			"itemType": "attachment",
+			"key": "VMQM4LZV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:59 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "K8L4YAL2",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/GD3GEVEE"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-Dominique-Loyer-Mahmoud-Mohanna-Isabelle-Rochette-Ratiaray-Romeo-Ravelonjanahary-2014-4129fa248c57816ea631e5984d9ac01b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VMQM4LZV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-Dominique-Loyer-Mahmoud-Mohanna-Isabelle-Rochette-Ratiaray-Romeo-Ravelonjanahary-2014-4129fa248c57816ea631e5984d9ac01b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Final project SIO-6051DM.pdf",
+				"files": [],
+				"key": "4YEEXXJQ",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"mes papiers et beamers",
+			"zenodoDOI_ISBN_dominiqueloyer_060126"
+		],
+		"creators": [
+			"Loyer Dominique Loyer, Mahmoud Mohanna,Isabelle Rochette, Ratiaray Romeo Ravelonjanahary"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Final project for Master degree : Data mining on census bureau dataset",
+		"year": "2014",
+		"zoteroURI": "zotero://select/library/items/K8L4YAL2"
+	},
+	"zotero": {
+		"citationKey": "loyerdominiqueloyermahmoudmohannaisabellerochetteratiarayromeoravelonjanaharyFinalProjectMaster2014",
+		"collections": [
+			"GXLPXWSC",
+			"KKPWSFMI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Loyer Dominique Loyer, Mahmoud Mohanna,Isabelle Rochette, Ratiaray Romeo Ravelonjanahary"
+			}
+		],
+		"date": "2014",
+		"dateAdded": "2025-06-12T18:08:57Z",
+		"dateModified": "2025-06-12T18:16:28Z",
+		"extra": "ORCID=\"0009-0003-9713-7109\"",
+		"itemType": "document",
+		"key": "K8L4YAL2",
+		"language": "English (US)",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/RP8VCT6W"
+			]
+		},
+		"tags": [
+			{
+				"tag": "censusBureau_dataset"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Final project for Master degree : Data mining on census bureau dataset"
+	}
+}

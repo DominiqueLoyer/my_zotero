@@ -1,0 +1,114 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:27:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:12Z",
+			"dateModified": "2026-01-02T19:17:25Z",
+			"itemType": "attachment",
+			"key": "QLJW29AX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:25 p.m.</p>",
+			"parentItem": "GQW8UIIP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/robertMemoireCategorisationDans-2c09fa248c5781078aece465e9e6716f"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-01T03:38:16Z",
+			"dateModified": "2024-12-01T03:38:18Z",
+			"filename": "Robert - Mémoire et catégorisation dans la cognition.pdf",
+			"itemType": "attachment",
+			"key": "RMSIQXYR",
+			"linkMode": "imported_file",
+			"parentItem": "GQW8UIIP",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "QLJW29AX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/robertMemoireCategorisationDans-2c09fa248c5781078aece465e9e6716f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Robert - Mémoire et catégorisation dans la cognition.pdf",
+				"files": [
+					{
+						"path": "attachments/RM/RMSIQXYR/Robert - Mémoire et catégorisation dans la cognition.pdf",
+						"size": 902187,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/RM/RMSIQXYR/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 14537,
+						"storage": "git"
+					}
+				],
+				"key": "RMSIQXYR",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/papier sur Mémoire Taconnah"
+		],
+		"creators": [
+			"Robert, Par Serge"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Mémoire et catégorisation dans la cognition",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/GQW8UIIP"
+	},
+	"zotero": {
+		"citationKey": "robertMemoireCategorisationDans",
+		"collections": [
+			"WCNN4PWZ"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Par Serge",
+				"lastName": "Robert"
+			}
+		],
+		"dateAdded": "2024-12-01T03:38:18Z",
+		"dateModified": "2025-12-29T23:57:36Z",
+		"itemType": "journalArticle",
+		"key": "GQW8UIIP",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Mémoire et catégorisation dans la cognition"
+	}
+}

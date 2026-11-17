@@ -1,0 +1,106 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:26Z",
+			"dateModified": "2026-11-09T17:09:12Z",
+			"itemType": "attachment",
+			"key": "5EA97MXN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:12 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VQJHT53Y",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781c0a7dae706309e16de"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:32:26Z",
+			"dateModified": "2025-03-17T17:32:28Z",
+			"filename": "Gestion d’un centre de formation.pdf",
+			"itemType": "attachment",
+			"key": "AV5D5Y2N",
+			"linkMode": "imported_file",
+			"parentItem": "VQJHT53Y",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5EA97MXN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781c0a7dae706309e16de"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Gestion d’un centre de formation.pdf",
+				"files": [
+					{
+						"path": "attachments/AV/AV5D5Y2N/Gestion d’un centre de formation.pdf",
+						"size": 51458,
+						"storage": "git"
+					}
+				],
+				"key": "AV5D5Y2N",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Gestion d’un centre de formation",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/VQJHT53Y"
+	},
+	"zotero": {
+		"citationKey": "lounishakimGestionDunCentre",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-17T17:32:28Z",
+		"dateModified": "2025-03-31T18:43:50Z",
+		"itemType": "journalArticle",
+		"key": "VQJHT53Y",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Gestion d’un centre de formation"
+	}
+}

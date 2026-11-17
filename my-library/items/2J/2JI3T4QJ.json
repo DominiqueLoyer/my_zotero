@@ -1,0 +1,131 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:24:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:49Z",
+			"dateModified": "2026-11-09T17:06:25Z",
+			"itemType": "attachment",
+			"key": "7NXMLTEP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:25 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "2JI3T4QJ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/VTAG8KBL"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Wang-et-al-2015-4129fa248c5781018586df137e6e46a7"
+		},
+		{
+			"accessDate": "2026-01-01T23:48:55Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:48:55Z",
+			"dateModified": "2026-01-01T23:48:55Z",
+			"filename": "Wang et al. - 2015 - Collaborative deep learning for recommender systems.pdf",
+			"itemType": "attachment",
+			"key": "AVDQWX59",
+			"linkMode": "imported_url",
+			"parentItem": "2JI3T4QJ",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1409.2944.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7NXMLTEP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Wang-et-al-2015-4129fa248c5781018586df137e6e46a7"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wang et al. - 2015 - Collaborative deep learning for recommender systems.pdf",
+				"files": [
+					{
+						"path": "attachments/AV/AVDQWX59/Wang et al. - 2015 - Collaborative deep learning for recommender systems.pdf",
+						"size": 1572359,
+						"storage": "git"
+					}
+				],
+				"key": "AVDQWX59",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1409.2944.pdf"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references"
+		],
+		"creators": [
+			"Wang, Hao",
+			"Wang, Naiyan",
+			"Yeung, Dit-Yan"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Collaborative deep learning for recommender systems",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/2JI3T4QJ"
+	},
+	"zotero": {
+		"DOI": "10.1145/2783258.2783273",
+		"citationKey": "wangCollaborativeDeepLearning2015",
+		"collections": [
+			"7PN5IQY2",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Hao",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Naiyan",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dit-Yan",
+				"lastName": "Yeung"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2025-10-10T19:01:29Z",
+		"dateModified": "2026-11-09T15:07:38Z",
+		"itemType": "conferencePaper",
+		"key": "2JI3T4QJ",
+		"pages": "1235–1244",
+		"proceedingsTitle": "Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/BL2AWZ2H"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Collaborative deep learning for recommender systems"
+	}
+}

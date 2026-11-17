@@ -1,0 +1,116 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:27:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:27:31Z",
+			"dateModified": "2026-11-09T17:09:08Z",
+			"itemType": "attachment",
+			"key": "PPBIEVCX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:08 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "SRL32GWT",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Acar-et-al-2013-4129fa248c578100a8e2db45965d1356"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PPBIEVCX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Acar-et-al-2013-4129fa248c578100a8e2db45965d1356"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Acar, Gunes",
+			"Juárez, Marc",
+			"Nikiforakis, Nick",
+			"Díaz, Claudia",
+			"Gürses, Seda F.",
+			"Piessens, Frank",
+			"Preneel, B."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "FPDetective: dusting the web for fingerprinters",
+		"year": "2013",
+		"zoteroURI": "zotero://select/library/items/SRL32GWT"
+	},
+	"zotero": {
+		"DOI": "10.1145/2508859.2516674",
+		"abstractNote": "In the modern web, the browser has emerged as the vehicle of choice, which users are to trust, customize, and use, to access a wealth of information and online services. However, recent studies show that the browser can also be used to invisibly fingerprint the user: a practice that may have serious privacy and security implications. In this paper, we report on the design, implementation and deployment of FPDetective, a framework for the detection and analysis of web-based fingerprinters. Instead of relying on information about known fingerprinters or third-party-tracking blacklists, FPDetective focuses on the detection of the fingerprinting itself. By applying our framework with a focus on font detection practices, we were able to conduct a large scale analysis of the million most popular websites of the Internet, and discovered that the adoption of fingerprinting is much higher than previous studies had estimated. Moreover, we analyze two countermeasures that have been proposed to defend against fingerprinting and find weaknesses in them that might be exploited to bypass their protection. Finally, based on our findings, we discuss the current understanding of fingerprinting and how it is related to Personally Identifiable Information, showing that there needs to be a change in the way users, companies and legislators engage with fingerprinting.",
+		"citationKey": "acarFPDetectiveDustingWeb2013",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gunes",
+				"lastName": "Acar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Marc",
+				"lastName": "Juárez"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Nick",
+				"lastName": "Nikiforakis"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Claudia",
+				"lastName": "Díaz"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Seda F.",
+				"lastName": "Gürses"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Frank",
+				"lastName": "Piessens"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "B.",
+				"lastName": "Preneel"
+			}
+		],
+		"date": "2013",
+		"dateAdded": "2026-01-08T20:14:05Z",
+		"dateModified": "2026-03-25T21:30:06Z",
+		"itemType": "journalArticle",
+		"key": "SRL32GWT",
+		"language": "fr-CA",
+		"pages": "null",
+		"publicationTitle": "Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "FPDetective: dusting the web for fingerprinters",
+		"url": "https://www.semanticscholar.org/paper/9c8f102e4cffc105fd054a1fd09f0bacb9dbeafc",
+		"volume": "null"
+	}
+}

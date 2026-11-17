@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:27:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:19Z",
+			"dateModified": "2026-01-02T19:18:09Z",
+			"itemType": "attachment",
+			"key": "PH89N9VC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:09 p.m.</p>",
+			"parentItem": "V4C3642F",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/robertConceptionNaturalisteEvolutionnaire2024-2c09fa248c5781e49747eec24a20e8da"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-15T17:50:28Z",
+			"dateModified": "2024-11-15T17:50:30Z",
+			"filename": "Robert - La conception naturaliste, évolutionnaire et sociale de l’esprit  le cerveau moral.pdf",
+			"itemType": "attachment",
+			"key": "WQHG983J",
+			"linkMode": "imported_file",
+			"parentItem": "V4C3642F",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PH89N9VC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/robertConceptionNaturalisteEvolutionnaire2024-2c09fa248c5781e49747eec24a20e8da"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Robert - La conception naturaliste, évolutionnaire et sociale de l’esprit  le cerveau moral.pdf",
+				"files": [
+					{
+						"path": "attachments/WQ/WQHG983J/Robert - La conception naturaliste, évolutionnaire et sociale de l’esprit  le cerveau moral.pdf",
+						"size": 324181,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/WQ/WQHG983J/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 13192,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/WQ/WQHG983J/Robert - La conception naturaliste, évolutionnaire et sociale de l’esprit  le cerveau moral (trashed 2025-11-24 15-34-16).pdf",
+						"size": 324181,
+						"storage": "git"
+					}
+				],
+				"key": "WQHG983J",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Papier sur Searle (Naturalisme et étique)"
+		],
+		"creators": [
+			"Robert, Serge"
+		],
+		"itemType": "presentation",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "La conception naturaliste, évolutionnaire et sociale de l’esprit : le cerveau moral",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/V4C3642F"
+	},
+	"zotero": {
+		"citationKey": "robertConceptionNaturalisteEvolutionnaire2024",
+		"collections": [
+			"LWXGCZB4"
+		],
+		"creators": [
+			{
+				"creatorType": "presenter",
+				"firstName": "Serge",
+				"lastName": "Robert"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2024-11-15T17:50:30Z",
+		"dateModified": "2025-12-05T22:27:19Z",
+		"itemType": "presentation",
+		"key": "V4C3642F",
+		"language": "fr",
+		"place": "UQAM",
+		"presentationType": "Diapositives",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "La conception naturaliste, évolutionnaire et sociale de l’esprit : le cerveau moral"
+	}
+}

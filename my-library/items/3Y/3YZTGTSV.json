@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:39:43Z",
+			"dateModified": "2026-03-09T20:54:10Z",
+			"itemType": "attachment",
+			"key": "7FQ5FRQ3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:10 p.m.</p>",
+			"parentItem": "3YZTGTSV",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/9GGPNQFB"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/EuropeanCommission2024-2e29fa248c57813d966ec3b0dcf5fa50"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7FQ5FRQ3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/EuropeanCommission2024-2e29fa248c57813d966ec3b0dcf5fa50"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"European Commission"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The AI act",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/3YZTGTSV"
+	},
+	"zotero": {
+		"citationKey": "europeancommissionAIAct2024a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "European Commission"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-01-08T20:07:31Z",
+		"dateModified": "2026-03-25T21:30:42Z",
+		"itemType": "document",
+		"key": "3YZTGTSV",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/RQUVQAGC"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The AI act",
+		"url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+	}
+}

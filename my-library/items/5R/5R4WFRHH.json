@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:18Z",
+			"dateModified": "2026-03-09T20:43:51Z",
+			"itemType": "attachment",
+			"key": "FUI723DX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:43:51 p.m.</p>",
+			"parentItem": "5R4WFRHH",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/DQHE5RRW",
+					"http://zotero.org/groups/6376680/items/MC2SBSMF"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Digital2025The-3129fa248c5781e69e4ec54e32b6793d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FUI723DX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Digital2025The-3129fa248c5781e69e4ec54e32b6793d"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Digital SME Alliance"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The AI Act: A Guide for SMEs",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/5R4WFRHH"
+	},
+	"zotero": {
+		"DOI": "10.2139/ssrn.5373345",
+		"citationKey": "digitalsmeallianceAIActGuide2025",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Digital SME Alliance"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-25T21:35:52Z",
+		"dateModified": "2026-03-25T21:29:49Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "5R4WFRHH",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/685D2FHU",
+				"http://zotero.org/groups/6376680/items/UVTVCMMC"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The AI Act: A Guide for SMEs"
+	}
+}

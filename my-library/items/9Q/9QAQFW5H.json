@@ -1,0 +1,93 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:35:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:35:01Z",
+			"dateModified": "2026-11-09T14:57:41Z",
+			"itemType": "attachment",
+			"key": "SGBDQPDC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:16 p.m.</p>",
+			"parentItem": "9QAQFW5H",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/5EXRJ9T3"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/KPZEQ659"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Zuboff2019-2e29fa248c5781eaafd4c6cba9a35272"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SGBDQPDC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Zuboff2019-2e29fa248c5781eaafd4c6cba9a35272"
+			}
+		],
+		"collections": [
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Zuboff, Shoshana"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The age of surveillance capitalism: The fight for a human future at the new frontier of power",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/9QAQFW5H"
+	},
+	"zotero": {
+		"ISBN": "978-1-5417-5800-1",
+		"citationKey": "zuboffAgeSurveillanceCapitalism2019",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Shoshana",
+				"lastName": "Zuboff"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-01-08T20:07:34Z",
+		"dateModified": "2026-11-09T14:57:41Z",
+		"itemType": "book",
+		"key": "9QAQFW5H",
+		"language": "fr-CA",
+		"place": "New York",
+		"publisher": "PublicAffairs",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/QRTU642Y"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/EG6LZVC2"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The age of surveillance capitalism: The fight for a human future at the new frontier of power"
+	}
+}

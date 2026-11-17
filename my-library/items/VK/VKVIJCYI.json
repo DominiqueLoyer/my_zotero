@@ -1,0 +1,167 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:32:12Z",
+			"dateModified": "2026-03-14T17:40:14Z",
+			"itemType": "attachment",
+			"key": "92M86SKG",
+			"linkMode": "linked_file",
+			"parentItem": "VKVIJCYI",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401_ic_/PDFs/Zhang et al. - 2020 - Deep Learning based Recommender System A Survey and New Perspectives.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:17:32Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:32Z",
+			"dateModified": "2026-11-09T17:07:15Z",
+			"itemType": "attachment",
+			"key": "EEGDUT9F",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:15 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VKVIJCYI",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/CWFVZQN2"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Zhang-et-al-2020-4129fa248c57813db018d5a3b243202d"
+		},
+		{
+			"dateAdded": "2026-03-14T17:40:13Z",
+			"dateModified": "2026-03-14T17:40:13Z",
+			"itemType": "note",
+			"key": "G3XF6ZU8",
+			"note": "Comment: The paper has been accepted by ACM Computing Surveys. https://doi.acm.org/10.1145/3285029",
+			"parentItem": "VKVIJCYI",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LPWCIA2A"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EEGDUT9F",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Zhang-et-al-2020-4129fa248c57813db018d5a3b243202d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zhang et al. - 2020 - Deep Learning based Recommender System A Survey and New Perspectives.pdf",
+				"files": [
+					{
+						"path": "attachments/92/92M86SKG/Zhang et al. - 2020 - Deep Learning based Recommender System A Survey and New Perspectives.pdf",
+						"size": 1761312,
+						"storage": "git"
+					}
+				],
+				"key": "92M86SKG",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Zhang, Shuai",
+			"Yao, Lina",
+			"Sun, Aixin",
+			"Tay, Yi"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "G3XF6ZU8",
+				"title": "Comment: The paper has been accepted by ACM Computing Surveys. https://doi.acm.org/10.1145/3285029"
+			}
+		],
+		"title": "Deep Learning based Recommender System: A Survey and New Perspectives",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/VKVIJCYI"
+	},
+	"zotero": {
+		"DOI": "10.1145/3285029",
+		"ISSN": "0360-0300, 1557-7341",
+		"abstractNote": "With the ever-growing volume of online information, recommender systems have been an effective strategy to overcome such information overload. The utility of recommender systems cannot be overstated, given its widespread adoption in many web applications, along with its potential impact to ameliorate many problems related to over-choice. In recent years, deep learning has garnered considerable interest in many research fields such as computer vision and natural language processing, owing not only to stellar performance but also the attractive property of learning feature representations from scratch. The influence of deep learning is also pervasive, recently demonstrating its effectiveness when applied to information retrieval and recommender systems research. Evidently, the field of deep learning in recommender system is flourishing. This article aims to provide a comprehensive review of recent research efforts on deep learning based recommender systems. More concretely, we provide and devise a taxonomy of deep learning based recommendation models, along with providing a comprehensive summary of the state-of-the-art. Finally, we expand on current trends and provide new perspectives pertaining to this new exciting development of the field.",
+		"accessDate": "2026-03-14T17:40:13Z",
+		"citationKey": "zhangDeepLearningBased2020",
+		"collections": [
+			"U5GGZRY8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Shuai",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lina",
+				"lastName": "Yao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aixin",
+				"lastName": "Sun"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yi",
+				"lastName": "Tay"
+			}
+		],
+		"date": "2020-01-31",
+		"dateAdded": "2026-03-14T17:40:13Z",
+		"dateModified": "2026-03-14T18:17:32Z",
+		"extra": "arXiv:1707.07435 [cs]",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "ACM Comput. Surv.",
+		"key": "VKVIJCYI",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"pages": "1-38",
+		"publicationTitle": "ACM Computing Surveys",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UU22YQQ4"
+			]
+		},
+		"shortTitle": "Deep Learning based Recommender System",
+		"tags": [
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Deep Learning based Recommender System: A Survey and New Perspectives",
+		"url": "http://arxiv.org/abs/1707.07435",
+		"volume": "52"
+	}
+}

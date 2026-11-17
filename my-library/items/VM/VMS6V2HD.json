@@ -1,0 +1,131 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:36:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:25Z",
+			"dateModified": "2026-01-02T19:18:06Z",
+			"itemType": "attachment",
+			"key": "GA7GJJLX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:06 p.m.</p>",
+			"parentItem": "VMS6V2HD",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/burnettSignallingGamesSociolinguistic2019-2c09fa248c5781d4b062d749577e329d"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-20T14:46:29Z",
+			"dateModified": "2024-12-01T16:08:48Z",
+			"filename": "Burnett - 2019 - Signalling games, sociolinguistic variation and the construction of style.pdf",
+			"itemType": "attachment",
+			"key": "PIQ2BTWK",
+			"linkMode": "imported_file",
+			"parentItem": "VMS6V2HD",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/725KQTPF",
+					"http://zotero.org/users/15425556/items/XL2G7TSP"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GA7GJJLX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/burnettSignallingGamesSociolinguistic2019-2c09fa248c5781d4b062d749577e329d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Burnett - 2019 - Signalling games, sociolinguistic variation and the construction of style.pdf",
+				"files": [
+					{
+						"path": "attachments/PI/PIQ2BTWK/Burnett - 2019 - Signalling games, sociolinguistic variation and the construction of style.pdf",
+						"size": 497072,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/PI/PIQ2BTWK/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 118736,
+						"storage": "git"
+					}
+				],
+				"key": "PIQ2BTWK",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/théorie des jeux 20v"
+		],
+		"creators": [
+			"Burnett, Heather"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Signalling games, sociolinguistic variation and the construction of style",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/VMS6V2HD"
+	},
+	"zotero": {
+		"DOI": "10.1007/s10988-018-9254-y",
+		"ISSN": "0165-0157, 1573-0549",
+		"abstractNote": "This paper develops a formal model of the subtle meaning diﬀerences that exist between grammatical alternatives in socially conditioned variation (called variants) and how these variants can be used by speakers as resources for constructing personal linguistic styles. More speciﬁcally, this paper introduces a new formal system, called social meaning games (SMGs), which allows for the uniﬁcation of variationist sociolinguistics and game-theoretic pragmatics, two ﬁelds that have had very little interaction in the past. Although remarks have been made concerning the possible usefulness of game-theoretic tools in the analysis of certain kinds of socially conditioned variable linguistic phenomena (Clark, 2014; Dror et al., 2013), a general framework uniting game-theoretic pragmatics and quantitative sociolinguistics has yet to be developed. This paper constructs such a framework through giving a formalization of the Third Wave approach to the meaning of variation (see Eckert, 2012, for a review) using (modiﬁed) signalling games (Lewis, 1969) and a probabilistic approach to speaker/listener beliefs of the kind commonly used in the probabilistic pragmatics framework (see Goodman and Lassiter, 2014; Franke and J¨ager, 2016, for recent overviews).",
+		"accessDate": "2024-11-20T14:46:36Z",
+		"citationKey": "burnettSignallingGamesSociolinguistic2019",
+		"collections": [
+			"7KULLQWK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Heather",
+				"lastName": "Burnett"
+			}
+		],
+		"date": "10/2019",
+		"dateAdded": "2024-11-20T14:46:36Z",
+		"dateModified": "2025-12-05T22:36:25Z",
+		"issue": "5",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Linguist and Philos",
+		"key": "VMS6V2HD",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "419-450",
+		"publicationTitle": "Linguistics and Philosophy",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/CGTTBQGG",
+				"http://zotero.org/users/15425556/items/WJHUIZUP"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Signalling games, sociolinguistic variation and the construction of style",
+		"url": "http://link.springer.com/10.1007/s10988-018-9254-y",
+		"volume": "42"
+	}
+}

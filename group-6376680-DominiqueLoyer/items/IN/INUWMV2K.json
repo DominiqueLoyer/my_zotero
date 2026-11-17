@@ -1,0 +1,105 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:37:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "TU8ZXNKK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:47 p.m.</p>",
+			"parentItem": "INUWMV2K",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Norori2021-2e29fa248c5781e791aacaad7a9e26ed"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TU8ZXNKK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Norori2021-2e29fa248c5781e791aacaad7a9e26ed"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Norori, Nelson",
+			"Hu, Qiyang",
+			"Aellen, Florian",
+			"Cieliebak, Mark",
+			"Senn, E."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Explainable AI: a survey of the state-of-the-art in natural language generation",
+		"year": "2021",
+		"zoteroURI": "zotero://select/groups/6376680/items/INUWMV2K"
+	},
+	"zotero": {
+		"citationKey": "nororiExplainableAISurvey2021a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Nelson",
+				"lastName": "Norori"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Qiyang",
+				"lastName": "Hu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Florian",
+				"lastName": "Aellen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mark",
+				"lastName": "Cieliebak"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "E.",
+				"lastName": "Senn"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:12Z",
+		"itemType": "conferencePaper",
+		"key": "INUWMV2K",
+		"language": "fr-CA",
+		"pages": "1–11",
+		"proceedingsTitle": "Proceedings of the 2021 conference on empirical methods in natural language processing",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Explainable AI: a survey of the state-of-the-art in natural language generation",
+		"url": "https://aclanthology.org/2021.emnlp-main.485/"
+	}
+}

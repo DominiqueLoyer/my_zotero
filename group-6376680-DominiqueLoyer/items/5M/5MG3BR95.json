@@ -1,0 +1,92 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:23Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "attachment",
+			"key": "G8NKQ92J",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:05 p.m.</p>",
+			"parentItem": "5MG3BR95",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/liaoAITransparencyAge2024-2c09fa248c5781598ea2fc678ff423df"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "G8NKQ92J",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/liaoAITransparencyAge2024-2c09fa248c5781598ea2fc678ff423df"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Transparency"
+		],
+		"creators": [
+			"Liao, Q. Vera",
+			"Wortman Vaughan, Jennifer"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "AI Transparency in the Age of LLMs: A Human-Centered Research Roadmap",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/5MG3BR95"
+	},
+	"zotero": {
+		"DOI": "10.1162/99608f92.8036d03b",
+		"abstractNote": "The rise of powerful large language models (LLMs) brings about tremendous opportunities for innovation but also looming risks for individuals and society at large. We have reached a pivotal moment for ensuring that LLMs and LLM-infused applications are developed and deployed responsibly. It is paramount to pursue new approaches to provide transparency—a central pillar of responsible artificial intelligence (AI)—for LLMs, and years of research at the intersection of AI and human–computer interaction (HCI) highlight that we must do so with a human-centered perspective: Transparency is fundamentally about supporting appropriate human understanding, and this understanding is sought by different stakeholders with different goals in different contexts. In this new era of LLMs, we must develop and design approaches to transparency by considering the needs of stakeholders in the emerging LLM ecosystem, the novel types of LLM-infused applications being built, and the new usage patterns and challenges around LLMs, all while building on lessons learned about how people process, interact with, and make use of information. We reflect on the unique challenges that arise in providing transparency for LLMs, along with lessons learned from HCI and responsible AI research that has taken a human-centered perspective on AI transparency. We then lay out four common approaches that the community has taken to achieve transparency—model reporting, publishing evaluation results, providing explanations, and communicating uncertainty—and call out open questions around how these approaches may or may not be applied to LLMs. We hope this provides a starting point for discussion and a useful roadmap for future research.",
+		"accessDate": "2024-11-21T21:51:27Z",
+		"citationKey": "liaoAITransparencyAge2024",
+		"collections": [
+			"E5BC4NLR",
+			"J6WCHKF9",
+			"P9N6XDU8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Q. Vera",
+				"lastName": "Liao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jennifer",
+				"lastName": "Wortman Vaughan"
+			}
+		],
+		"date": "2024-02-29",
+		"dateAdded": "2026-04-17T21:21:41Z",
+		"dateModified": "2026-04-17T21:21:41Z",
+		"issue": "Special Issue 5",
+		"itemType": "journalArticle",
+		"key": "5MG3BR95",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"publicationTitle": "Harvard Data Science Review",
+		"relations": {},
+		"shortTitle": "AI Transparency in the Age of LLMs",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "AI Transparency in the Age of LLMs: A Human-Centered Research Roadmap",
+		"url": "https://hdsr.mitpress.mit.edu/pub/aelql9qy"
+	}
+}

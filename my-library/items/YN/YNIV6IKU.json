@@ -1,0 +1,133 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:06Z",
+			"dateModified": "2026-11-09T17:07:17Z",
+			"itemType": "attachment",
+			"key": "4BG8HQI8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:17 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "YNIV6IKU",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Guo-et-al-2017-4129fa248c5781b69557fa266588e3aa"
+		},
+		{
+			"accessDate": "2026-01-01T23:51:02Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:51:02Z",
+			"dateModified": "2026-01-01T23:51:02Z",
+			"filename": "Guo et al. - 2017 - DeepFM a factorization-machine based neural network for CTR prediction.pdf",
+			"itemType": "attachment",
+			"key": "7MCPGZ5W",
+			"linkMode": "imported_url",
+			"parentItem": "YNIV6IKU",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://www.ijcai.org/proceedings/2017/0239.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Guo et al. - 2017 - DeepFM a factorization-machine based neural network for CTR prediction.pdf",
+				"files": [
+					{
+						"path": "attachments/7M/7MCPGZ5W/Guo et al. - 2017 - DeepFM a factorization-machine based neural network for CTR prediction.pdf",
+						"size": 833960,
+						"storage": "git"
+					}
+				],
+				"key": "7MCPGZ5W",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://www.ijcai.org/proceedings/2017/0239.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "4BG8HQI8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Guo-et-al-2017-4129fa248c5781b69557fa266588e3aa"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Guo, Huifeng",
+			"Tang, Ruiming",
+			"Ye, Yunming",
+			"Li, Zhenguo",
+			"He, Xiuqiang"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DeepFM: a factorization-machine based neural network for CTR prediction",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/YNIV6IKU"
+	},
+	"zotero": {
+		"DOI": "10.24963/ijcai.2017/239",
+		"citationKey": "guoDeepFMFactorizationmachineBased2017",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Huifeng",
+				"lastName": "Guo"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ruiming",
+				"lastName": "Tang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yunming",
+				"lastName": "Ye"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zhenguo",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiuqiang",
+				"lastName": "He"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-03-25T21:31:08Z",
+		"itemType": "conferencePaper",
+		"key": "YNIV6IKU",
+		"pages": "1725–1731",
+		"proceedingsTitle": "Proceedings of the 26th International Joint Conference on Artificial Intelligence",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "DeepFM: a factorization-machine based neural network for CTR prediction"
+	}
+}

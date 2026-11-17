@@ -1,0 +1,141 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:35:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:35:47Z",
+			"dateModified": "2026-03-09T20:51:30Z",
+			"itemType": "attachment",
+			"key": "49QGGTZI",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:30 p.m.</p>",
+			"parentItem": "8NSAVGF9",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/W5VLMPS6"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Wang2019-2e29fa248c5781539747c6751af1ae07"
+		},
+		{
+			"accessDate": "2026-11-08T16:16:05Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:16:05Z",
+			"dateModified": "2026-11-08T16:16:05Z",
+			"filename": "Wang et al. - 2019 - Neural graph collaborative filtering.pdf",
+			"itemType": "attachment",
+			"key": "628XB2F9",
+			"linkMode": "imported_url",
+			"parentItem": "8NSAVGF9",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1905.08108"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "49QGGTZI",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Wang2019-2e29fa248c5781539747c6751af1ae07"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wang et al. - 2019 - Neural graph collaborative filtering.pdf",
+				"files": [
+					{
+						"path": "attachments/62/628XB2F9/Wang et al. - 2019 - Neural graph collaborative filtering.pdf",
+						"size": 2645821,
+						"storage": "git"
+					}
+				],
+				"key": "628XB2F9",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1905.08108"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Wang, Xiang",
+			"He, Xiangnan",
+			"Wang, Meng",
+			"Feng, Fuli",
+			"Chua, Tat-Seng"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neural graph collaborative filtering",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/8NSAVGF9"
+	},
+	"zotero": {
+		"DOI": "10.1145/3331184.3331267",
+		"citationKey": "wangNeuralGraphCollaborative2019a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xiang",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiangnan",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Meng",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fuli",
+				"lastName": "Feng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tat-Seng",
+				"lastName": "Chua"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-01-08T20:07:34Z",
+		"dateModified": "2026-03-25T21:30:28Z",
+		"itemType": "conferencePaper",
+		"key": "8NSAVGF9",
+		"pages": "165–174",
+		"proceedingsTitle": "Proceedings of the 42nd international ACM SIGIR conference on research and development in information retrieval",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UZZ4QESR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural graph collaborative filtering"
+	}
+}

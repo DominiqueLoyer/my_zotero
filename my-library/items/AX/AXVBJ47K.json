@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:52Z",
+			"dateModified": "2026-03-09T20:41:13Z",
+			"itemType": "attachment",
+			"key": "KCKBZMD4",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:41:13 p.m.</p>",
+			"parentItem": "AXVBJ47K",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/784E6FXJ",
+					"http://zotero.org/groups/6376680/items/AL93VANE"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Taylor1993The-3129fa248c57818e8f98df73d5210fa8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KCKBZMD4",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Taylor1993The-3129fa248c57818e8f98df73d5210fa8"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Taylor, Frederick Winslow"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The Principles of Scientific Management",
+		"year": "1993",
+		"zoteroURI": "zotero://select/library/items/AXVBJ47K"
+	},
+	"zotero": {
+		"DOI": "10.1096/fasebj.7.9.8330677",
+		"citationKey": "taylorfrederickwinslowPrinciplesScientificManagement1993",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Taylor, Frederick Winslow"
+			}
+		],
+		"date": "1993",
+		"dateAdded": "2026-02-25T21:51:49Z",
+		"dateModified": "2026-03-25T21:29:36Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "AXVBJ47K",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/K3L3Z8Z6",
+				"http://zotero.org/groups/6376680/items/WJ2IVEVA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Principles of Scientific Management"
+	}
+}

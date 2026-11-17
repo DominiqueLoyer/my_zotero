@@ -1,0 +1,135 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-24T19:03:56Z",
+			"dateModified": "2024-11-24T19:04:03Z",
+			"filename": "Cheong - 2024 - Transparency and accountability in AI systems safeguarding wellbeing in the age of algorithmic deci.pdf",
+			"itemType": "attachment",
+			"key": "DKJWF9IY",
+			"linkMode": "imported_file",
+			"parentItem": "8AUNVAFM",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:36:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:01Z",
+			"dateModified": "2026-01-02T19:17:36Z",
+			"itemType": "attachment",
+			"key": "WI9ZFVMA",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:36 p.m.</p>",
+			"parentItem": "8AUNVAFM",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/JFYLHW8A"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/cheongTransparencyAccountabilityAI2024-2c09fa248c5781f4adfbe0a09ae41b0e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WI9ZFVMA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/cheongTransparencyAccountabilityAI2024-2c09fa248c5781f4adfbe0a09ae41b0e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Cheong - 2024 - Transparency and accountability in AI systems safeguarding wellbeing in the age of algorithmic deci.pdf",
+				"files": [
+					{
+						"path": "attachments/DK/DKJWF9IY/Cheong - 2024 - Transparency and accountability in AI systems safeguarding wellbeing in the age of algorithmic deci.pdf",
+						"size": 291460,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/DK/DKJWF9IY/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 69310,
+						"storage": "git"
+					}
+				],
+				"key": "DKJWF9IY",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Cheong, Ben Chester"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Transparency and accountability in AI systems: safeguarding wellbeing in the age of algorithmic decision-making",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/8AUNVAFM"
+	},
+	"zotero": {
+		"DOI": "10.3389/fhumd.2024.1421273",
+		"ISSN": "2673-2726",
+		"abstractNote": "The rapid integration of artificial intelligence (AI) systems into various domains has raised concerns about their impact on individual and societal wellbeing, particularly due to the lack of transparency and accountability in their decision-making processes. This review aims to provide an overview of the key legal and ethical challenges associated with implementing transparency and accountability in AI systems. The review identifies four main thematic areas: technical approaches, legal and regulatory frameworks, ethical and societal considerations, and interdisciplinary and multi-stakeholder approaches. By synthesizing the current state of research and proposing key strategies for policymakers, this review contributes to the ongoing discourse on responsible AI governance and lays the foundation for future research in this critical area. Ultimately, the goal is to promote individual and societal wellbeing by ensuring that AI systems are developed and deployed in a transparent, accountable, and ethical manner.",
+		"accessDate": "2024-11-24T19:04:02Z",
+		"citationKey": "cheongTransparencyAccountabilityAI2024",
+		"collections": [
+			"NKV86EAI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ben Chester",
+				"lastName": "Cheong"
+			}
+		],
+		"date": "2024-7-3",
+		"dateAdded": "2024-11-24T19:04:02Z",
+		"dateModified": "2025-12-05T22:36:01Z",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Front. Hum. Dyn.",
+		"key": "8AUNVAFM",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1421273",
+		"publicationTitle": "Frontiers in Human Dynamics",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/RBBHWESZ"
+			]
+		},
+		"shortTitle": "Transparency and accountability in AI systems",
+		"tags": [
+			{
+				"tag": "algorithm transparency"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "transparency"
+			}
+		],
+		"title": "Transparency and accountability in AI systems: safeguarding wellbeing in the age of algorithmic decision-making",
+		"url": "https://www.frontiersin.org/articles/10.3389/fhumd.2024.1421273/full",
+		"volume": "6"
+	}
+}

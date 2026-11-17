@@ -1,0 +1,164 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:23:13Z",
+			"dateModified": "2026-03-14T17:35:22Z",
+			"itemType": "attachment",
+			"key": "37QI4J5R",
+			"linkMode": "linked_file",
+			"parentItem": "7P2AKBA6",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/dic9401/PDFs/Ribeiro et al. - ``Why Should I Trust You'' Explaining the Predictions of Any Classifier.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T17:35:22Z",
+			"charset": "",
+			"contentType": "text/html",
+			"dateAdded": "2026-03-14T17:35:22Z",
+			"dateModified": "2026-03-14T17:35:22Z",
+			"itemType": "attachment",
+			"key": "J3KWX8BA",
+			"linkMode": "linked_url",
+			"parentItem": "7P2AKBA6",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/7DVZ3F8A"
+				]
+			},
+			"tags": [],
+			"title": "Multiple DOIs found",
+			"url": "https://www.crossref.org/openurl?pid=zoteroDOI@wiernik.org&url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzotero.org%3A2&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.atitle=%60%60Why%20Should%20I%20Trust%20You%3F''%3A%20Explaining%20the%20Predictions%20of%20Any%20Classifier&rft.aufirst=Marco&rft.aulast=Ribeiro&rft.au=Marco%20Ribeiro&rft.au=Sameer%20Singh&rft.au=Carlos%20Guestrin&rft.language=en"
+		},
+		{
+			"accessDate": "2026-03-14T18:20:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:20:19Z",
+			"dateModified": "2026-11-09T17:04:27Z",
+			"itemType": "attachment",
+			"key": "XBWYS8FB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:27 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "7P2AKBA6",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/68FFA8S7"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Ribeiro-et-al-4129fa248c5781bdbd12c2aebeb49dc8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": null,
+				"files": [],
+				"key": "J3KWX8BA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Multiple DOIs found",
+				"url": "https://www.crossref.org/openurl?pid=zoteroDOI@wiernik.org&url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&rfr_id=info%3Asid%2Fzotero.org%3A2&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.atitle=%60%60Why%20Should%20I%20Trust%20You%3F''%3A%20Explaining%20the%20Predictions%20of%20Any%20Classifier&rft.aufirst=Marco&rft.aulast=Ribeiro&rft.au=Marco%20Ribeiro&rft.au=Sameer%20Singh&rft.au=Carlos%20Guestrin&rft.language=en"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XBWYS8FB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Ribeiro-et-al-4129fa248c5781bdbd12c2aebeb49dc8"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ribeiro et al. - ``Why Should I Trust You'' Explaining the Predictions of Any Classifier.pdf",
+				"files": [
+					{
+						"path": "attachments/37/37QI4J5R/Ribeiro et al. - ``Why Should I Trust You'' Explaining the Predictions of Any Classifier.pdf",
+						"size": 235200,
+						"storage": "git"
+					}
+				],
+				"key": "37QI4J5R",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/dic9401/PDFs"
+		],
+		"creators": [
+			"Ribeiro, Marco",
+			"Singh, Sameer",
+			"Guestrin, Carlos"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "``Why Should I Trust You?'': Explaining the Predictions of Any Classifier",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/7P2AKBA6"
+	},
+	"zotero": {
+		"abstractNote": "Despite widespread adoption in NLP, machine learning models remain mostly black boxes. Understanding the reasons behind predictions is, however, quite important in assessing trust in a model. Trust is fundamental if one plans to take action based on a prediction, or when choosing whether or not to deploy a new model. In this work, we describe LIME, a novel explanation technique that explains the predictions of any classiﬁer in an interpretable and faithful manner. We further present a method to explain models by presenting representative individual predictions and their explanations in a non-redundant manner. We propose a demonstration of these ideas on different NLP tasks such as document classiﬁcation, politeness detection, and sentiment analysis, with classiﬁers like neural networks and SVMs. The user interactions include explanations of free-form text, challenging users to identify the better classiﬁer from a pair, and perform basic feature engineering to improve the classiﬁers.",
+		"citationKey": "ribeiroWhyShouldTrust",
+		"collections": [
+			"F54I2M9J"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Marco",
+				"lastName": "Ribeiro"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sameer",
+				"lastName": "Singh"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Carlos",
+				"lastName": "Guestrin"
+			}
+		],
+		"dateAdded": "2026-03-14T17:35:21Z",
+		"dateModified": "2026-11-13T19:28:48Z",
+		"itemType": "journalArticle",
+		"key": "7P2AKBA6",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/EQEJUWN9"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:multiple-candidates",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "❓ Multiple DOI",
+				"type": 1
+			}
+		],
+		"title": "``Why Should I Trust You?'': Explaining the Predictions of Any Classifier"
+	}
+}

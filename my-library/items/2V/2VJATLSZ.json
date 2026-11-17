@@ -1,0 +1,93 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:37:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:57Z",
+			"dateModified": "2026-11-09T17:05:03Z",
+			"itemType": "attachment",
+			"key": "EL8PRMWA",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:03 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "2VJATLSZ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Association-for-Computational-Linguistics-2025-4129fa248c57811cae94f269735c25bd"
+		},
+		{
+			"dateAdded": "2025-04-10T15:02:46Z",
+			"dateModified": "2025-04-10T15:02:46Z",
+			"itemType": "note",
+			"key": "XM9XXAP7",
+			"note": "Accessed: 2025-04-09",
+			"parentItem": "2VJATLSZ",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EL8PRMWA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Association-for-Computational-Linguistics-2025-4129fa248c57811cae94f269735c25bd"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Association for Computational Linguistics"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "XM9XXAP7",
+				"title": "Accessed: 2025-04-09"
+			}
+		],
+		"title": "ACL anthology",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/2VJATLSZ"
+	},
+	"zotero": {
+		"citationKey": "associationforcomputationallinguisticsACLAnthology2025",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Association for Computational Linguistics"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2026-11-13T19:30:35Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "document",
+		"key": "2VJATLSZ",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ACL anthology",
+		"url": "https://aclanthology.org"
+	}
+}

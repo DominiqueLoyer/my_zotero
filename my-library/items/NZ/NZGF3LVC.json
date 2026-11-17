@@ -1,0 +1,134 @@
+{
+	"children": [
+		{
+			"accessDate": "2024-11-02T18:31:40Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2024-11-02T18:31:40Z",
+			"dateModified": "2024-11-23T17:21:26Z",
+			"filename": "FAT ML.html",
+			"itemType": "attachment",
+			"key": "YXDBZ5IQ",
+			"linkMode": "imported_url",
+			"parentItem": "NZGF3LVC",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "FAT ML"
+				},
+				{
+					"tag": "accountability"
+				},
+				{
+					"tag": "fairness"
+				},
+				{
+					"tag": "transparency"
+				}
+			],
+			"title": "2014 :: FAT ML",
+			"url": "https://www.fatml.org/schedule/2014"
+		},
+		{
+			"accessDate": "2025-12-05T22:38:08Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:38:08Z",
+			"dateModified": "2026-11-09T17:04:30Z",
+			"itemType": "attachment",
+			"key": "ZBP24GQC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:30 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "NZGF3LVC",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6JCJU26I"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/2014-FAT-ML-4129fa248c5781e6910af797689394d7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "FAT ML.html",
+				"files": [
+					{
+						"path": "attachments/YX/YXDBZ5IQ/FAT ML.html",
+						"size": 354015,
+						"storage": "git"
+					}
+				],
+				"key": "YXDBZ5IQ",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "2014 :: FAT ML",
+				"url": "https://www.fatml.org/schedule/2014"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZBP24GQC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/2014-FAT-ML-4129fa248c5781e6910af797689394d7"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Transparency"
+		],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "2014 :: FAT ML",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/NZGF3LVC"
+	},
+	"zotero": {
+		"accessDate": "2024-11-02T18:31:39Z",
+		"citationKey": "2014FATMLa",
+		"collections": [
+			"J4VTG4NB",
+			"NKV86EAI",
+			"YTIIWDKF"
+		],
+		"creators": [],
+		"dateAdded": "2024-11-02T18:31:39Z",
+		"dateModified": "2026-11-13T19:29:01Z",
+		"itemType": "webpage",
+		"key": "NZGF3LVC",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/3TYI8GBT"
+			]
+		},
+		"tags": [
+			{
+				"tag": "algorithm transparency"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "transparency"
+			}
+		],
+		"title": "2014 :: FAT ML",
+		"url": "https://www.fatml.org/schedule/2014"
+	}
+}

@@ -1,0 +1,135 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:16:58Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:16:58Z",
+			"dateModified": "2026-03-14T18:16:58Z",
+			"itemType": "attachment",
+			"key": "28TSC8QK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:16:58 p.m.</p>",
+			"parentItem": "4Q6JHM4T",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/8RVJFWG6"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/zhangNeuroSymbolicAIExplainability2024-3239fa248c578123aa5adc5b3240a97c"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:33:31Z",
+			"dateModified": "2026-03-14T17:41:03Z",
+			"itemType": "attachment",
+			"key": "7A8ZZCTI",
+			"linkMode": "linked_file",
+			"parentItem": "4Q6JHM4T",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Zhang and Sheng - 2024 - Neuro-Symbolic AI Explainability, Challenges, and Future Trends.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "28TSC8QK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/zhangNeuroSymbolicAIExplainability2024-3239fa248c578123aa5adc5b3240a97c"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zhang and Sheng - 2024 - Neuro-Symbolic AI Explainability, Challenges, and Future Trends.pdf",
+				"files": [
+					{
+						"path": "attachments/7A/7A8ZZCTI/Zhang and Sheng - 2024 - Neuro-Symbolic AI Explainability, Challenges, and Future Trends.pdf",
+						"size": 679173,
+						"storage": "git"
+					}
+				],
+				"key": "7A8ZZCTI",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Zhang, Xin",
+			"Sheng, Victor S."
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neuro-Symbolic AI: Explainability, Challenges, and Future Trends",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/4Q6JHM4T"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2411.04383",
+		"abstractNote": "Explainability is an essential reason limiting the application of neural networks in many vital fields. Although neuro-symbolic AI hopes to enhance the overall explainability by leveraging the transparency of symbolic learning, the results are less evident than imagined. This article proposes a classification for explainability by considering both model design and behavior of 191 studies from 2013, focusing on neuro-symbolic AI, hoping to inspire scholars who want to understand the explainability of neuro-symbolic AI. Precisely, we classify them into five categories by considering whether the form of bridging the representation differences is readable as their design factor, if there are representation differences between neural networks and symbolic logic learning, and whether a model decision or prediction process is understandable as their behavior factor: implicit intermediate representations and implicit prediction, partially explicit intermediate representations and partially explicit prediction, explicit intermediate representations or explicit prediction, explicit intermediate representation and explicit prediction, unified representation and explicit prediction. We also analyzed the research trends and three significant challenges: unified representations, explainability and transparency, and sufficient cooperation from neural networks and symbolic learning. Finally, we put forward suggestions for future research in three aspects: unified representations, enhancing model explainability, ethical considerations, and social impact.",
+		"accessDate": "2026-03-14T17:41:03Z",
+		"archiveID": "arXiv:2411.04383",
+		"citationKey": "zhangNeuroSymbolicAIExplainability2024",
+		"collections": [
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xin",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Victor S.",
+				"lastName": "Sheng"
+			}
+		],
+		"date": "2024-11-07",
+		"dateAdded": "2026-03-14T17:41:03Z",
+		"dateModified": "2026-03-14T18:16:58Z",
+		"extra": "arXiv:2411.04383 [cs]",
+		"itemType": "preprint",
+		"key": "4Q6JHM4T",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/NBGIJG5E"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Neuro-Symbolic AI",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neuro-Symbolic AI: Explainability, Challenges, and Future Trends",
+		"url": "http://arxiv.org/abs/2411.04383"
+	}
+}

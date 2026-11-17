@@ -1,0 +1,137 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-10-30T21:00:36Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "attachment",
+			"key": "FV55QZ9D",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:12:54 p.m.</p>",
+			"parentItem": "ZZFU94QD",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerLeviathanAlgorithmiquePouvoir2025-29c9fa248c5781a89b97e8371818ed43"
+		},
+		{
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "note",
+			"key": "PC2PRQJ9",
+			"note": "",
+			"parentItem": "ZZFU94QD",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FV55QZ9D",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerLeviathanAlgorithmiquePouvoir2025-29c9fa248c5781a89b97e8371818ed43"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"mes papiers et beamers"
+		],
+		"creators": [
+			"Loyer, Dominique",
+			"Loyer, Dominique S"
+		],
+		"itemType": "report",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "PC2PRQJ9",
+				"title": "Note"
+			}
+		],
+		"title": "Le Léviathan algorithmique : pouvoir, opacité et responsabilité à l’ère  de l’intelligence artificielle",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/ZZFU94QD"
+	},
+	"zotero": {
+		"abstractNote": "Ce rapport d’examen doctoral analyse la crise de redevabilité (accountability) engendrée par l’opacité des\nsystèmes d’intelligence artificielle modernes. Il soutient que ces systèmes ne représentent pas une rupture, mais\nl’intensification et l’automatisation d’une logique de pouvoir ancienne : la bureaucratie. Ainsi, le document\ns’ouvre sur une investigation du concept d’interprétabilité des modèles d’apprentissage automatique. Alors que\nles algorithmes de type «boîtes noires» gagnent en complexité et en influence, leur lisibilité cesse d’être une\nsimple option pour devenir une nécessité impérieuse, notamment dans des secteurs aussi critiques que la santé ou\nla justice. En nous appuyant sur les cadres théoriques de Doran et al. (2017) ainsi que de Burkart and Huber\n(2021), nous proposons une définition multidimensionnelle de l’interprétabilité, avant d’en disséquer les enjeux\néthiques et pratiques. L’analyse met en lumière les forces, mais aussi les angles morts, des méthodes techniques\ndominantes comme LIME et SHAP, révélant ainsi les tensions et les compromis inévitables entre la fidélité d’un\nmodèle, son intelligibilité pour l’humain et sa complexité intrinsèque.\nLe deuxième axe de notre recherche se concentre sur les systèmes de recommandation, désormais au cœur de\nl’écosystème numérique et cela depuis le filtrage collaboratif classique jusqu’aux architectures d’apprentissage\nprofond de pointe comme celles de YouTube, les réseaux de neurones sur graphes (GNNs) et les grands modèles\nde langage (LLMs). Cette trajectoire révèle une transformation conceptuelle de la personnalisation, passant d’un\nproblème de prédiction statistique à un enjeu de représentation structurelle, puis de raisonnement sémantique,\nsoulevant des défis d’opacité croissants. En nous appuyant sur les recherches pionnières de Ko et al. (2022)\net Koren and Bell (2011), nous élaborons d’abord une taxonomie rigoureuse des techniques existantes. Cette\nclassification sert de prélude à une comparaison approfondie de deux approches paradigmatiques fondamentales :\nle filtrage basé sur le contenu Pariser (2011) et le filtrage collaboratif par factorisation de matrices. Koren\net al. (2009) L’analyse met en lumière leur complémentarité, le premier o!rant l’explicabilité et une solution au\ndémarrage à froid des items, le second une précision et une capacité de découverte supérieures, au prix d’une\nopacité accrue et d’une sensibilité au manque de données.\nEnsuite, nous abordons une question cognitive fondamentale en établissant un parallèle critique entre les\nalgorithmes de personnalisation et le phénomène bureaucratique. En mobilisant les théories de Max Weber sur la\nrationalité et la «cage de fer» (Weber, 1922; Serpa and Ferreira, 2019) et la critique de David Graeber sur la\n«stupidité structurelle» et la violence symbolique (Graeber, 2015), nous soutenons que les algorithmes ne sont pas\nune rupture mais une intensification, une privatisation et une automatisation de la logique bureaucratique. La\n«cage de fer» wébérienne se métamorphose en une «boîte noire» algorithmique, dont le scandale des allocations\nfamiliales aux Pays-Bas (Toeslagena!aire) illustre les dangers concrets et posant ainsi, une crise de redevabilité\net reconfigurant les dynamiques de pouvoir et de contrôle social.\nPar ailleurs, le rapport aborde l’impératif de l’IA explicable (XAI). Au-delà d’une description des méthodes\npost-hoc comme LIME et SHAP, il intègre une critique académique fondamentale de leur instabilité et de\nleur manque de fidélité. Basé sur les arguments de Rudin (2019) contre l’explication des «boîtes noires» et la\nperspective de Judea Pearl sur la nécessité d’une inférence causale, nous mettons en lumière un paradoxe central :\nle «déplacement de la confiance» de l’algorithme opaque vers son explication, tout aussi opaque. Ensuite, nous\nnuancerons cette analyse par les travaux de Béatrice Hibou sur la «bureaucratisation néolibérale».\nEnfin, la quatrième partie propose des cadres d’action pour répandre la responsabilité dans la pratique. Face\naux logiques prédatrices que ces systèmes peuvent engendrer, nous esquissons une méthodologie d’intervention\néthique pour leur modification, ancrée dans les principes de la Déclaration de Montréal pour une IA responsable.\nPuis, inspirés par le processus collaboratif du Biosphere Code (Biosphere, 2015),nous esquissons une méthodologie\nd’intervention éthique pour modifier les systèmes prédateurs et les principes d’un code de déontologie pour les\nconcepteurs. Ce code est conçu comme un artefact culturel visant à cultiver une responsabilité partagée, en\nréponse aux cadres réglementaires émergents comme l’AI Act européen et aux nouvelles formes de gouvernance\nparticipative. En conclusion, cette thèse soutient que les défis posés par l’IA moderne exigent une gouvernance\ndémocratique pour s’assurer que ce nouveau Léviathan algorithmique serve le bien-être collectif, au-delà de la\nseule imputabilité individuelle (Neuer, 2018).",
+		"citationKey": "loyerLeviathanAlgorithmiquePouvoir2025b",
+		"collections": [
+			"86QJKFHN",
+			"J6WCHKF9"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "5 septembre 2025",
+		"dateAdded": "2026-02-26T21:01:07Z",
+		"dateModified": "2026-02-26T21:06:55Z",
+		"extra": "ORCID=\"0009-0003-9713-7109\"\nabstractTranslation: This doctoral examination report analyzes the accountability crisis engendered by the opacity of modern artificial intelligence systems. It argues that these systems do not represent a rupture, but rather an intensification and automation of an old power logic: bureaucracy. Thus, the document opens with an investigation into the concept of interpretability of machine learning models. As \"black box\" algorithms gain complexity and influence, their readability ceases to be a mere option and becomes an imperative necessity, particularly in sectors as critical as healthcare or justice. Drawing on the theoretical frameworks of Doran et al. (2017) and Burkart and Huber (2021), we propose a multidimensional definition of interpretability, before dissecting its ethical and practical stakes. The analysis highlights the strengths, as well as the blind spots, of dominant technical methods like LIME and SHAP, thereby revealing the unavoidable tensions and compromises between model fidelity, human intelligibility, and intrinsic complexity.\n\nThe second focus of our research centres on recommendation systems, which are now at the heart of the digital ecosystem, from classic collaborative filtering to cutting-edge deep learning architectures like those used by YouTube, Graph Neural Networks (GNNs), and Large Language Models (LLMs). This trajectory reveals a conceptual transformation of personalization, moving from a statistical prediction problem to an issue of structural representation, and then to semantic reasoning, raising increasing opacity challenges. Drawing on the pioneering research of Ko et al. (2022) and Koren and Bell (2011), we first develop a rigorous taxonomy of existing techniques. This classification serves as a prelude to an in-depth comparison of two fundamental paradigmatic approaches: content-based filtering by Pariser (2011) and matrix factorization collaborative filtering by Koren et al. (2009). The analysis highlights their complementarity, with the former offering explainability and a solution to the item cold-start problem, and the latter providing superior accuracy and discovery capabilities, at the cost of increased opacity and sensitivity to data scarcity.\n\nNext, we address a fundamental cognitive question by drawing a critical parallel between personalization algorithms and the bureaucratic phenomenon. Mobilizing Max Weber's theories on rationality and the \"iron cage\" (Weber, 1922; Serpa and Ferreira, 2019) and David Graeber's critique of \"structural stupidity\" and symbolic violence (Graeber, 2015), we argue that algorithms are not a rupture but an intensification, privatization, and automation of bureaucratic logic. The Weberian \"iron cage\" metamorphoses into an algorithmic \"black box,\" the concrete dangers of which are illustrated by the Dutch child welfare benefits scandal (Toeslagenaffaire), thus posing an accountability crisis and reconfiguring power dynamics and social control.\n\nFurthermore, the report addresses the imperative of Explainable AI (XAI). Beyond a description of post-hoc methods like LIME and SHAP, it incorporates a fundamental academic critique of their instability and lack of fidelity. Based on Rudin's (2019) arguments against explaining \"black boxes\" and Judea Pearl's perspective on the necessity of causal inference, we highlight a central paradox: the \"displacement of trust\" from the opaque algorithm to its equally opaque explanation. Subsequently, we will nuance this analysis with Beatrice Hibou's work on \"neoliberal bureaucratization.\"\n\nFinally, the fourth part proposes action frameworks for disseminating responsibility in practice. Faced with the predatory logics these systems can engender, we outline a methodology for ethical intervention to modify them, rooted in the principles of the Montreal Declaration for Responsible AI. Then, inspired by the collaborative process of the Biosphere Code (Biosphere, 2015), we sketch a methodology for ethical intervention to modify predatory systems and the principles of a code of ethics for designers. This code is conceived as a cultural artifact aimed at cultivating shared responsibility, in response to emerging regulatory frameworks like the European AI Act and new forms of participatory governance. In conclusion, this thesis maintains that the challenges posed by modern AI demand democratic governance to ensure that this new algorithmic Leviathan serves the collective well-being, beyond mere individual accountability (Neuer, 2018).",
+		"institution": "UQAM",
+		"itemType": "report",
+		"key": "ZZFU94QD",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"pages": "64",
+		"place": "Montreal",
+		"relations": {},
+		"reportType": "Examen général de doctorat en informatique cognitive (DIC-9401)",
+		"tags": [
+			{
+				"tag": "Apprentissage profond"
+			},
+			{
+				"tag": "Bureaucraphie algorithmique"
+			},
+			{
+				"tag": "Béatrice Hibou"
+			},
+			{
+				"tag": "Cynthia Rudin"
+			},
+			{
+				"tag": "Davide Graeber"
+			},
+			{
+				"tag": "Gouvernance de l'IA"
+			},
+			{
+				"tag": "Informatique cognitive"
+			},
+			{
+				"tag": "Max Weber"
+			},
+			{
+				"tag": "Systèmes de recommandation"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "xAI"
+			},
+			{
+				"tag": "Éthique de l'intelligence artificielle"
+			}
+		],
+		"title": "Le Léviathan algorithmique : pouvoir, opacité et responsabilité à l’ère  de l’intelligence artificielle"
+	}
+}

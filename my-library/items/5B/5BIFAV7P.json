@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:34:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:34:45Z",
+			"dateModified": "2026-03-09T20:34:45Z",
+			"itemType": "attachment",
+			"key": "FMD4TMPX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:34:45 p.m.</p>",
+			"parentItem": "5BIFAV7P",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Sennrich2016Improving-31e9fa248c57814ba840fd34bdcd1ec4"
+		},
+		{
+			"accessDate": "2026-11-08T16:37:16Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:37:16Z",
+			"dateModified": "2026-11-08T16:37:16Z",
+			"filename": "Sennrich, Rico and Haddow, Barry and Birch, Alexandra - 2016 - Improving Neural Machine Translation Models with Monolingual Data.pdf",
+			"itemType": "attachment",
+			"key": "T6FSKF9E",
+			"linkMode": "imported_url",
+			"parentItem": "5BIFAV7P",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/P16-1009.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Sennrich, Rico and Haddow, Barry and Birch, Alexandra - 2016 - Improving Neural Machine Translation Models with Monolingual Data.pdf",
+				"files": [
+					{
+						"path": "attachments/T6/T6FSKF9E/Sennrich, Rico and Haddow, Barry and Birch, Alexandra - 2016 - Improving Neural Machine Translation Models with Monolingual Data.pdf",
+						"size": 172932,
+						"storage": "git"
+					}
+				],
+				"key": "T6FSKF9E",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/P16-1009.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FMD4TMPX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Sennrich2016Improving-31e9fa248c57814ba840fd34bdcd1ec4"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Sennrich, Rico and Haddow, Barry and Birch, Alexandra"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Improving Neural Machine Translation Models with Monolingual Data",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/5BIFAV7P"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/p16-1009",
+		"citationKey": "sennrichricoandhaddowbarryandbirchalexandraImprovingNeuralMachine2016",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Sennrich, Rico and Haddow, Barry and Birch, Alexandra"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-03-05T00:55:43Z",
+		"dateModified": "2026-03-25T21:28:59Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "5BIFAV7P",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Improving Neural Machine Translation Models with Monolingual Data"
+	}
+}

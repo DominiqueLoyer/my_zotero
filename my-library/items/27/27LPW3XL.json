@@ -1,0 +1,119 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:39:56Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:39:56Z",
+			"dateModified": "2026-11-08T16:39:56Z",
+			"filename": "Mayer and Mitchell - 2012 - Third-party web tracking Policy and technology.pdf",
+			"itemType": "attachment",
+			"key": "V9ZEXI4M",
+			"linkMode": "imported_url",
+			"parentItem": "27LPW3XL",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=6234427&ref="
+		},
+		{
+			"accessDate": "2026-01-08T20:27:36Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:27:36Z",
+			"dateModified": "2026-03-09T20:47:34Z",
+			"itemType": "attachment",
+			"key": "XJEGG3XB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:34 p.m.</p>",
+			"parentItem": "27LPW3XL",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/5c15f96d5085153b5bfc8e4d5aa8e55153f4def9-2e29fa248c578152841bd39f9381fceb"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Mayer and Mitchell - 2012 - Third-party web tracking Policy and technology.pdf",
+				"files": [
+					{
+						"path": "attachments/V9/V9ZEXI4M/Mayer and Mitchell - 2012 - Third-party web tracking Policy and technology.pdf",
+						"size": 1128727,
+						"storage": "git"
+					}
+				],
+				"key": "V9ZEXI4M",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=6234427&ref="
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XJEGG3XB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/5c15f96d5085153b5bfc8e4d5aa8e55153f4def9-2e29fa248c578152841bd39f9381fceb"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Mayer, Jonathan R.",
+			"Mitchell, John C."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Third-party web tracking: Policy and technology",
+		"year": "2012",
+		"zoteroURI": "zotero://select/library/items/27LPW3XL"
+	},
+	"zotero": {
+		"DOI": "10.1109/SP.2012.47",
+		"abstractNote": "In the early days of the web, content was designed and hosted by a single person, group, or organization. No longer. Webpages are increasingly composed of content from myriad unrelated \"third-party\" websites in the business of advertising, analytics, social networking, and more. Third-party services have tremendous value: they support free content and facilitate web innovation. But third-party services come at a privacy cost: researchers, civil society organizations, and policymakers have increasingly called attention to how third parties can track a user's browsing activities across websites. This paper surveys the current policy debate surrounding third-party web tracking and explains the relevant technology. It also presents the FourthParty web measurement platform and studies we have conducted with it. Our aim is to inform researchers with essential background and tools for contributing to public understanding and policy debates about web tracking.",
+		"citationKey": "mayerThirdpartyWebTracking2012",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jonathan R.",
+				"lastName": "Mayer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John C.",
+				"lastName": "Mitchell"
+			}
+		],
+		"date": "2012",
+		"dateAdded": "2026-01-08T20:14:04Z",
+		"dateModified": "2026-03-25T21:30:06Z",
+		"itemType": "journalArticle",
+		"key": "27LPW3XL",
+		"language": "fr-CA",
+		"pages": "413-427",
+		"publicationTitle": "2012 IEEE Symposium on Security and Privacy",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Third-party web tracking: Policy and technology",
+		"url": "https://www.semanticscholar.org/paper/5c15f96d5085153b5bfc8e4d5aa8e55153f4def9",
+		"volume": "null"
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:50Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:50Z",
+			"dateModified": "2026-03-09T20:44:15Z",
+			"itemType": "attachment",
+			"key": "NM5IR556",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:15 p.m.</p>",
+			"parentItem": "SXQ3FNJC",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/53C8Y9GA",
+					"http://zotero.org/groups/6376680/items/ZMZFTPYR"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Brodeur2010The-3129fa248c57816ebfd6f6c78d204447"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NM5IR556",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Brodeur2010The-3129fa248c57816ebfd6f6c78d204447"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Brodeur, Jean-Paul"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The Policing Web",
+		"year": "2010",
+		"zoteroURI": "zotero://select/library/items/SXQ3FNJC"
+	},
+	"zotero": {
+		"DOI": "10.1093/acprof:oso/9780199740598.001.0001",
+		"citationKey": "brodeurjean-paulPolicingWeb2010",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Brodeur, Jean-Paul"
+			}
+		],
+		"date": "2010",
+		"dateAdded": "2026-02-25T21:33:32Z",
+		"dateModified": "2026-03-25T21:29:53Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "SXQ3FNJC",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/6FI4NBJH",
+				"http://zotero.org/groups/6376680/items/U7YSHRZC"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Policing Web"
+	}
+}

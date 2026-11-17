@@ -1,0 +1,94 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:11Z",
+			"dateModified": "2026-11-09T15:00:26Z",
+			"itemType": "attachment",
+			"key": "NWI7XE9H",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:34 p.m.</p>",
+			"parentItem": "7PVNQCSG",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/M6P5SXQM"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/5EKYF4GV",
+					"http://zotero.org/groups/6376680/items/M3A2L6GC",
+					"http://zotero.org/groups/6376680/items/QZ5RNAIW",
+					"http://zotero.org/groups/6376680/items/Y29Y87KW"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Hibou2012La-3129fa248c578107b558c05e87c37ac6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NWI7XE9H",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Hibou2012La-3129fa248c578107b558c05e87c37ac6"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Hibou, B{\\'e}atrice"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "La bureaucratisation du monde {\\`a} l'{\\`e}re n{\\'e}olib{\\'e}rale",
+		"year": "2012",
+		"zoteroURI": "zotero://select/library/items/7PVNQCSG"
+	},
+	"zotero": {
+		"DOI": "10.4000/lectures.9684",
+		"citationKey": "hiboubeatriceBureaucratisationMondeL`ere2012",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Hibou, B{\\'e}atrice"
+			}
+		],
+		"date": "2012",
+		"dateAdded": "2026-02-25T20:56:01Z",
+		"dateModified": "2026-11-09T15:00:26Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "7PVNQCSG",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/4K78WE2T"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2LM6NCX5",
+				"http://zotero.org/groups/6376680/items/CREKSGZQ",
+				"http://zotero.org/groups/6376680/items/DABHDZU6",
+				"http://zotero.org/groups/6376680/items/DP6QZSGD"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "La bureaucratisation du monde {\\`a} l'{\\`e}re n{\\'e}olib{\\'e}rale"
+	}
+}

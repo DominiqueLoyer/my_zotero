@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:30:31Z",
+			"dateModified": "2025-03-31T18:42:53Z",
+			"filename": "Exemple2-dic9251.pdf",
+			"itemType": "attachment",
+			"key": "RBEYQGXG",
+			"linkMode": "imported_file",
+			"parentItem": "CSPVEXAL",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:34:50Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:50Z",
+			"dateModified": "2026-11-09T17:08:39Z",
+			"itemType": "attachment",
+			"key": "WA3HVM7V",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:39 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "CSPVEXAL",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c578135a42ecd87c8d8f072"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WA3HVM7V",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c578135a42ecd87c8d8f072"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Exemple2-dic9251.pdf",
+				"files": [
+					{
+						"path": "attachments/RB/RBEYQGXG/Exemple2-dic9251.pdf",
+						"size": 146113,
+						"storage": "git"
+					}
+				],
+				"key": "RBEYQGXG",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Exemple2-dic9251",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/CSPVEXAL"
+	},
+	"zotero": {
+		"citationKey": "lounishakimExemple2dic9251",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:42:51Z",
+		"dateModified": "2025-03-31T18:43:07Z",
+		"itemType": "document",
+		"key": "CSPVEXAL",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Exemple2-dic9251"
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-26T22:35:07Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T22:35:07Z",
+			"dateModified": "2026-11-09T17:05:55Z",
+			"itemType": "attachment",
+			"key": "U8DDYWVV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:55 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "EWQH78HB",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/7URZKPXS"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Menzner-Philipp-and-Leidner-Jochen-L-2018-4129fa248c5781409d96dddb3e5c2154"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "U8DDYWVV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Menzner-Philipp-and-Leidner-Jochen-L-2018-4129fa248c5781409d96dddb3e5c2154"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Menzner, Philipp and Leidner, Jochen L."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "BiasScanner: Detecting Biased Statements in News Articles",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/EWQH78HB"
+	},
+	"zotero": {
+		"DOI": "10.1145/3184558.3191640",
+		"citationKey": "menznerphilippandleidnerjochenl.BiasScannerDetectingBiased2018",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Menzner, Philipp and Leidner, Jochen L."
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-02-26T20:20:44Z",
+		"dateModified": "2026-11-13T19:32:40Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "EWQH78HB",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/8NWZWBWK"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/CKBJLFJK"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "BiasScanner: Detecting Biased Statements in News Articles"
+	}
+}

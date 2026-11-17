@@ -1,0 +1,91 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:10:22Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:10:22Z",
+			"dateModified": "2026-11-09T17:06:53Z",
+			"itemType": "attachment",
+			"key": "PISU47YS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:53 p.m.</p>",
+			"parentItem": "7UX63P84",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Google-2025-4129fa248c578196a129c863f0543dd4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PISU47YS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Google-2025-4129fa248c578196a129c863f0543dd4"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226",
+			"_gs_080326"
+		],
+		"creators": [
+			"Google"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Custom Search JSON API",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/7UX63P84"
+	},
+	"zotero": {
+		"citationKey": "googleCustomSearchJSON2025",
+		"collections": [
+			"9ERXAIZK",
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Google"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-26T20:21:16Z",
+		"dateModified": "2026-11-13T19:35:18Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "7UX63P84",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/2J9WZUQF",
+				"http://zotero.org/users/15425556/items/6Z7Z26J9",
+				"http://zotero.org/users/15425556/items/8TFBD6JA",
+				"http://zotero.org/users/15425556/items/8V2H8GBU",
+				"http://zotero.org/users/15425556/items/HXD6XCC7"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/VJKZWACC"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Custom Search JSON API",
+		"url": "https://developers.google.com/custom-search/v1/overview"
+	}
+}

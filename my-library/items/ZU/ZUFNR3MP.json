@@ -1,0 +1,141 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:25:40Z",
+			"dateModified": "2026-03-14T17:36:55Z",
+			"itemType": "attachment",
+			"key": "AKJYBFDR",
+			"linkMode": "linked_file",
+			"parentItem": "ZUFNR3MP",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/ontoCRED_250226/PDFs/Li et al. - 2014 - Major Life Event Extraction from Twitter based on CongratulationsCondolences Speech Acts.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:19:27Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:27Z",
+			"dateModified": "2026-03-14T18:19:27Z",
+			"itemType": "attachment",
+			"key": "EB6I5PJG",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:19:27 p.m.</p>",
+			"parentItem": "ZUFNR3MP",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/QZNB5C7C"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/liMajorLifeEvent2014-3239fa248c5781f29115ddc273ffeec1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EB6I5PJG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/liMajorLifeEvent2014-3239fa248c5781f29115ddc273ffeec1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Li et al. - 2014 - Major Life Event Extraction from Twitter based on CongratulationsCondolences Speech Acts.pdf",
+				"files": [
+					{
+						"path": "attachments/AK/AKJYBFDR/Li et al. - 2014 - Major Life Event Extraction from Twitter based on CongratulationsCondolences Speech Acts.pdf",
+						"size": 386111,
+						"storage": "git"
+					}
+				],
+				"key": "AKJYBFDR",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/ontoCRED_250226/PDFs"
+		],
+		"creators": [
+			"Li, Jiwei",
+			"Ritter, Alan",
+			"Cardie, Claire",
+			"Hovy, Eduard"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Major Life Event Extraction from Twitter based on Congratulations/Condolences Speech Acts",
+		"year": "2014",
+		"zoteroURI": "zotero://select/library/items/ZUFNR3MP"
+	},
+	"zotero": {
+		"DOI": "10.3115/v1/D14-1214",
+		"abstractNote": "Social media websites provide a platform for anyone to describe signiﬁcant events taking place in their lives in realtime. Currently, the majority of personal news and life events are published in a textual format, motivating information extraction systems that can provide a structured representations of major life events (weddings, graduation, etc. . . ). This paper demonstrates the feasibility of accurately extracting major life events. Our system extracts a ﬁne-grained description of users’ life events based on their published tweets. We are optimistic that our system can help Twitter users more easily grasp information from users they take interest in following and also facilitate many downstream applications, for example realtime friend recommendation.",
+		"accessDate": "2026-03-14T17:36:54Z",
+		"citationKey": "liMajorLifeEvent2014",
+		"collections": [
+			"VET5I7ZN"
+		],
+		"conferenceName": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jiwei",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alan",
+				"lastName": "Ritter"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Claire",
+				"lastName": "Cardie"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Eduard",
+				"lastName": "Hovy"
+			}
+		],
+		"date": "2014",
+		"dateAdded": "2026-03-14T17:36:54Z",
+		"dateModified": "2026-03-14T18:19:27Z",
+		"itemType": "conferencePaper",
+		"key": "ZUFNR3MP",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1997-2007",
+		"place": "Doha, Qatar",
+		"proceedingsTitle": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+		"publisher": "Association for Computational Linguistics",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8Y6JJ2FR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Major Life Event Extraction from Twitter based on Congratulations/Condolences Speech Acts",
+		"url": "http://aclweb.org/anthology/D14-1214"
+	}
+}

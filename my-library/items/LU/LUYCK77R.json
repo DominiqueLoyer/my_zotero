@@ -1,0 +1,126 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:54Z",
+			"dateModified": "2026-01-02T19:14:14Z",
+			"itemType": "attachment",
+			"key": "62BNAHMY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:14:14 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-81d4-a39c-d4855663f80f\",\"notes\":{\"U8JHYFZB\":{\"blockID\":\"2c09fa24-8c57-81bf-80bd-d3450a454d69\",\"syncedAt\":\"2025-12-05T22:39:47.250Z\"}}}</pre>",
+			"parentItem": "LUYCK77R",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Robertson1995Okapi-2c09fa248c578162bbaae833ea4df560"
+		},
+		{
+			"dateAdded": "2025-04-10T15:02:45Z",
+			"dateModified": "2025-04-10T15:02:45Z",
+			"itemType": "note",
+			"key": "U8JHYFZB",
+			"note": "NIST Special Publication 500-225",
+			"parentItem": "LUYCK77R",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "62BNAHMY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Robertson1995Okapi-2c09fa248c578162bbaae833ea4df560"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Robertson, Stephen E.",
+			"Walker, Steve",
+			"Jones, Susan",
+			"Hancock-Beaulieu, Micheline",
+			"Gatford, Mike",
+			"Harman, Donna K."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "U8JHYFZB",
+				"title": "NIST Special Publication 500-225"
+			}
+		],
+		"title": "Okapi at TREC-3",
+		"year": "1995",
+		"zoteroURI": "zotero://select/library/items/LUYCK77R"
+	},
+	"zotero": {
+		"citationKey": "robertsonOkapiTREC31995",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Stephen E.",
+				"lastName": "Robertson"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Steve",
+				"lastName": "Walker"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Susan",
+				"lastName": "Jones"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Micheline",
+				"lastName": "Hancock-Beaulieu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mike",
+				"lastName": "Gatford"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Donna K.",
+				"lastName": "Harman"
+			}
+		],
+		"date": "1995",
+		"dateAdded": "2025-04-10T15:02:45Z",
+		"dateModified": "2025-04-10T15:02:45Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "conferencePaper",
+		"key": "LUYCK77R",
+		"pages": "109–126",
+		"place": "Gaithersburg, USA",
+		"proceedingsTitle": "Proceedings of the third text retrieval conference (TREC-3)",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Okapi at TREC-3"
+	}
+}

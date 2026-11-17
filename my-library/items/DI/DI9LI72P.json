@@ -1,0 +1,120 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:38:23Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:38:23Z",
+			"dateModified": "2026-03-09T20:53:13Z",
+			"itemType": "attachment",
+			"key": "SFSQXBYP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:13 p.m.</p>",
+			"parentItem": "DI9LI72P",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3PU7HEUF"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Lipton2018-2e29fa248c5781558b9de0f8366335a9"
+		},
+		{
+			"accessDate": "2026-11-08T16:20:02Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:20:02Z",
+			"dateModified": "2026-11-08T16:20:02Z",
+			"filename": "Lipton - 2018 - The mythos of model interpretability.pdf",
+			"itemType": "attachment",
+			"key": "WFCIZ73Y",
+			"linkMode": "imported_url",
+			"parentItem": "DI9LI72P",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1606.03490"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SFSQXBYP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Lipton2018-2e29fa248c5781558b9de0f8366335a9"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Lipton - 2018 - The mythos of model interpretability.pdf",
+				"files": [
+					{
+						"path": "attachments/WF/WFCIZ73Y/Lipton - 2018 - The mythos of model interpretability.pdf",
+						"size": 367847,
+						"storage": "git"
+					}
+				],
+				"key": "WFCIZ73Y",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1606.03490"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Lipton, Zachary C."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The mythos of model interpretability",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/DI9LI72P"
+	},
+	"zotero": {
+		"DOI": "10.1145/3236386.3241340",
+		"citationKey": "liptonMythosModelInterpretability2018a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Zachary C.",
+				"lastName": "Lipton"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-01-08T20:07:32Z",
+		"dateModified": "2026-03-25T21:30:37Z",
+		"issue": "3",
+		"itemType": "journalArticle",
+		"key": "DI9LI72P",
+		"language": "fr-CA",
+		"pages": "31–57",
+		"publicationTitle": "Queue",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/RDKPJGA8"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The mythos of model interpretability",
+		"volume": "16"
+	}
+}

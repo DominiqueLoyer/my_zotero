@@ -1,0 +1,96 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:40:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "9UKTJVKV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:48 p.m.</p>",
+			"parentItem": "DA5H63NR",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Bussmann2020a-2e29fa248c5781bcab0bfe55d3459582"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9UKTJVKV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Bussmann2020a-2e29fa248c5781bcab0bfe55d3459582"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Bussmann, Niklas",
+			"Giudici, Paolo",
+			"Marinelli, Daniele",
+			"Papenbrock, Jochen"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Explainable AI in credit risk management",
+		"year": "2021",
+		"zoteroURI": "zotero://select/groups/6376680/items/DA5H63NR"
+	},
+	"zotero": {
+		"DOI": "10.1007/s10614-020-10042-0",
+		"citationKey": "bussmannExplainableAICredit2021a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Niklas",
+				"lastName": "Bussmann"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Paolo",
+				"lastName": "Giudici"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Daniele",
+				"lastName": "Marinelli"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jochen",
+				"lastName": "Papenbrock"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "DA5H63NR",
+		"language": "fr-CA",
+		"pages": "203–216",
+		"proceedingsTitle": "Computational economics",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable AI in credit risk management",
+		"volume": "57"
+	}
+}

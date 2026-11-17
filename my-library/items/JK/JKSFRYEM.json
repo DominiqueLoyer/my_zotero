@@ -1,0 +1,121 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:35:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:52Z",
+			"dateModified": "2026-11-09T17:07:16Z",
+			"itemType": "attachment",
+			"key": "UAM34LEM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:16 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "JKSFRYEM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Covington-et-al-2016-4129fa248c5781529c47ef68220dbafa"
+		},
+		{
+			"accessDate": "2026-01-01T23:52:07Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:52:07Z",
+			"dateModified": "2026-01-01T23:52:07Z",
+			"filename": "Covington et al. - 2016 - Deep Neural Networks for YouTube Recommendations.pdf",
+			"itemType": "attachment",
+			"key": "VZFE3IJB",
+			"linkMode": "imported_url",
+			"parentItem": "JKSFRYEM",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://dl.acm.org/ft_gateway.cfm?id=2959190&type=pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Covington et al. - 2016 - Deep Neural Networks for YouTube Recommendations.pdf",
+				"files": [
+					{
+						"path": "attachments/VZ/VZFE3IJB/Covington et al. - 2016 - Deep Neural Networks for YouTube Recommendations.pdf",
+						"size": 1300979,
+						"storage": "git"
+					}
+				],
+				"key": "VZFE3IJB",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://dl.acm.org/ft_gateway.cfm?id=2959190&type=pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UAM34LEM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Covington-et-al-2016-4129fa248c5781529c47ef68220dbafa"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Covington, Paul",
+			"Adams, Jay",
+			"Sargin, Emre"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Deep Neural Networks for YouTube Recommendations",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/JKSFRYEM"
+	},
+	"zotero": {
+		"DOI": "10.1145/2959100.2959190",
+		"citationKey": "covingtonDeepNeuralNetworks2016",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Paul",
+				"lastName": "Covington"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jay",
+				"lastName": "Adams"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Emre",
+				"lastName": "Sargin"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-03-25T21:31:12Z",
+		"itemType": "conferencePaper",
+		"key": "JKSFRYEM",
+		"pages": "191–198",
+		"proceedingsTitle": "Proceedings of the 10th ACM Conference on Recommender Systems",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Deep Neural Networks for YouTube Recommendations"
+	}
+}

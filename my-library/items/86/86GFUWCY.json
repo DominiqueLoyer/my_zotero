@@ -1,0 +1,59 @@
+{
+	"children": [],
+	"meta": {
+		"attachments": [],
+		"collections": [
+			"works-ris-mLe7JLvNH2FvzENyBfxeRk"
+		],
+		"creators": [
+			"Loyer, Dominique"
+		],
+		"itemType": "dataset",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "opus-mt-fr-en-finetuned-fr-to-en",
+		"year": "2026",
+		"zoteroURI": "zotero://select/library/items/86GFUWCY"
+	},
+	"zotero": {
+		"DOI": "10.5281/zenodo.19411256",
+		"abstractNote": "Modèle de traduction automatique neuronale (NMT) français → anglais, fine-tuné à partir du modèle de base Helsinki-NLP/opus-mt-fr-en dans le cadre des recherches doctorales en IA hybride neuro-symbolique à l'UQAM. Model Description Ce modèle est basé sur l'architecture MarianMT (Marian NMT converti en PyTorch via 🤗 Transformers). Il a été fine-tuné pour améliorer la traduction de textes académiques et informationnels du français vers l'anglais, avec un focus sur des corpus spécialisés liés à la vérification de la crédibilité de l'information. Architecture : MarianMTModel (Encoder-Decoder) Modèle de base : Helsinki-NLP/opus-mt-fr-en Tâche : Traduction automatique (fr → en) Langue source : Français (fr) Langue cible : Anglais (en) Framework : 🤗 Transformers / PyTorch Intended Uses & Limitations Utilisations prévues Traduction de textes académiques et journalistiques du français vers l'anglais Composant NLP dans des pipelines de vérification de la crédibilité de l'information Recherche en traduction automatique neuronale Limitations Performances réduites sur des textes très spécialisés hors domaine d'entraînement Ne gère pas les dialectes régionaux du français Longueur maximale recommandée : 512 tokens par segment",
+		"citationKey": "loyerOpusmtfrenfinetunedfrtoen2026a",
+		"collections": [
+			"G6LALIVT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2026-04-04",
+		"dateAdded": "2026-04-17T20:25:49Z",
+		"dateModified": "2026-04-17T20:25:53Z",
+		"extra": "Publication Title: Zenodo (CERN European Organization for Nuclear Research)",
+		"itemType": "dataset",
+		"key": "86GFUWCY",
+		"language": "en",
+		"relations": {},
+		"repository": "European Organization for Nuclear Research",
+		"tags": [
+			{
+				"tag": "Focus (optics)"
+			},
+			{
+				"tag": "Stylistics"
+			},
+			{
+				"tag": "Transformer"
+			},
+			{
+				"tag": "Transliteration"
+			}
+		],
+		"title": "opus-mt-fr-en-finetuned-fr-to-en",
+		"url": "https://doi.org/10.5281/zenodo.19411256"
+	}
+}

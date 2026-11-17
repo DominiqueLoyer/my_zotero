@@ -1,0 +1,223 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-03-14T17:40:36Z",
+			"dateModified": "2026-03-14T17:40:36Z",
+			"itemType": "note",
+			"key": "6CBIRY4N",
+			"note": "Comment: 58 pages, work in progress",
+			"parentItem": "DSUVUU97",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LEJARL6K"
+				]
+			},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:33:10Z",
+			"dateModified": "2026-03-14T17:40:36Z",
+			"itemType": "attachment",
+			"key": "BLTSG9C9",
+			"linkMode": "linked_file",
+			"parentItem": "DSUVUU97",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Besold et al. - 2017 - Neural-Symbolic Learning and Reasoning A Survey and Interpretation.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:17:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:18Z",
+			"dateModified": "2026-03-14T18:21:52Z",
+			"itemType": "attachment",
+			"key": "Y7TTJJHS",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:21:52 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-813b-9f01-cbab3e6dea21\",\"notes\":{\"6CBIRY4N\":{\"blockID\":\"3239fa24-8c57-818f-b64e-ff6c9e7602bd\",\"syncedAt\":\"2026-03-14T18:21:52.953Z\"}}}</pre>",
+			"parentItem": "DSUVUU97",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/SNM2TQA8"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/besoldNeuralSymbolicLearningReasoning2017-3239fa248c5781eaa1afed8a45cd1a87"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Y7TTJJHS",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/besoldNeuralSymbolicLearningReasoning2017-3239fa248c5781eaa1afed8a45cd1a87"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Besold et al. - 2017 - Neural-Symbolic Learning and Reasoning A Survey and Interpretation.pdf",
+				"files": [
+					{
+						"path": "attachments/BL/BLTSG9C9/Besold et al. - 2017 - Neural-Symbolic Learning and Reasoning A Survey and Interpretation.pdf",
+						"size": 650502,
+						"storage": "git"
+					}
+				],
+				"key": "BLTSG9C9",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Besold, Tarek R.",
+			"Garcez, Artur d'Avila",
+			"Bader, Sebastian",
+			"Bowman, Howard",
+			"Domingos, Pedro",
+			"Hitzler, Pascal",
+			"Kuehnberger, Kai-Uwe",
+			"Lamb, Luis C.",
+			"Lowd, Daniel",
+			"Lima, Priscila Machado Vieira",
+			"Penning, Leo de",
+			"Pinkas, Gadi",
+			"Poon, Hoifung",
+			"Zaverucha, Gerson"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "6CBIRY4N",
+				"title": "Comment: 58 pages, work in progress"
+			}
+		],
+		"title": "Neural-Symbolic Learning and Reasoning: A Survey and Interpretation",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/DSUVUU97"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1711.03902",
+		"abstractNote": "The study and understanding of human behaviour is relevant to computer science, artificial intelligence, neural computation, cognitive science, philosophy, psychology, and several other areas. Presupposing cognition as basis of behaviour, among the most prominent tools in the modelling of behaviour are computational-logic systems, connectionist models of cognition, and models of uncertainty. Recent studies in cognitive science, artificial intelligence, and psychology have produced a number of cognitive models of reasoning, learning, and language that are underpinned by computation. In addition, efforts in computer science research have led to the development of cognitive computational systems integrating machine learning and automated reasoning. Such systems have shown promise in a range of applications, including computational biology, fault diagnosis, training and assessment in simulators, and software verification. This joint survey reviews the personal ideas and views of several researchers on neural-symbolic learning and reasoning. The article is organised in three parts: Firstly, we frame the scope and goals of neural-symbolic computation and have a look at the theoretical foundations. We then proceed to describe the realisations of neural-symbolic computation, systems, and applications. Finally we present the challenges facing the area and avenues for further research.",
+		"accessDate": "2026-03-14T17:40:36Z",
+		"archiveID": "arXiv:1711.03902",
+		"citationKey": "besoldNeuralSymbolicLearningReasoning2017",
+		"collections": [
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Tarek R.",
+				"lastName": "Besold"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Artur d'Avila",
+				"lastName": "Garcez"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sebastian",
+				"lastName": "Bader"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Howard",
+				"lastName": "Bowman"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pedro",
+				"lastName": "Domingos"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pascal",
+				"lastName": "Hitzler"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kai-Uwe",
+				"lastName": "Kuehnberger"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Luis C.",
+				"lastName": "Lamb"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Daniel",
+				"lastName": "Lowd"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Priscila Machado Vieira",
+				"lastName": "Lima"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Leo de",
+				"lastName": "Penning"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gadi",
+				"lastName": "Pinkas"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hoifung",
+				"lastName": "Poon"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gerson",
+				"lastName": "Zaverucha"
+			}
+		],
+		"date": "2017-11-10",
+		"dateAdded": "2026-03-14T17:40:36Z",
+		"dateModified": "2026-03-14T18:17:18Z",
+		"extra": "arXiv:1711.03902 [cs]",
+		"itemType": "preprint",
+		"key": "DSUVUU97",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UG4ZPKMS"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "Neural-Symbolic Learning and Reasoning",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural-Symbolic Learning and Reasoning: A Survey and Interpretation",
+		"url": "http://arxiv.org/abs/1711.03902"
+	}
+}

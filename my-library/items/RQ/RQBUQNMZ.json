@@ -1,0 +1,116 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:36:02Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:36:02Z",
+			"dateModified": "2026-11-09T17:06:38Z",
+			"itemType": "attachment",
+			"key": "RZZ75MFP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:38 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "RQBUQNMZ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/GFEH93GK"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Momeni-Saleh-and-Mazumder-Sahisnu-and-Liu-Bing-2025-4129fa248c57817b85aad08eb8c1bf89"
+		},
+		{
+			"accessDate": "2026-11-08T16:26:50Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:26:50Z",
+			"dateModified": "2026-11-08T16:26:50Z",
+			"filename": "Momeni, Saleh and Mazumder, Sahisnu and Liu, Bing - 2025 - Continual {{Learning Using}} a {{Kernel-Based Method Over Foundation Models.pdf",
+			"itemType": "attachment",
+			"key": "TIMX5NIX",
+			"linkMode": "imported_url",
+			"parentItem": "RQBUQNMZ",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2412.15571v1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RZZ75MFP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Momeni-Saleh-and-Mazumder-Sahisnu-and-Liu-Bing-2025-4129fa248c57817b85aad08eb8c1bf89"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Momeni, Saleh and Mazumder, Sahisnu and Liu, Bing - 2025 - Continual {{Learning Using}} a {{Kernel-Based Method Over Foundation Models.pdf",
+				"files": [
+					{
+						"path": "attachments/TI/TIMX5NIX/Momeni, Saleh and Mazumder, Sahisnu and Liu, Bing - 2025 - Continual {{Learning Using}} a {{Kernel-Based Method Over Foundation Models.pdf",
+						"size": 399991,
+						"storage": "git"
+					}
+				],
+				"key": "TIMX5NIX",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2412.15571v1"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Momeni, Saleh and Mazumder, Sahisnu and Liu, Bing"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Continual {{Learning Using}} a {{Kernel-Based Method Over Foundation Models",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/RQBUQNMZ"
+	},
+	"zotero": {
+		"DOI": "10.1609/aaai.v39i18.34150",
+		"citationKey": "momenisalehandmazumdersahisnuandliubingContinualLearningUsing2025",
+		"collections": [
+			"7XVYZYFG"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Momeni, Saleh and Mazumder, Sahisnu and Liu, Bing"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-03-04T19:42:52Z",
+		"dateModified": "2026-03-25T21:29:07Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "RQBUQNMZ",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/XYR9G7WZ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Continual {{Learning Using}} a {{Kernel-Based Method Over Foundation Models",
+		"url": "http://arxiv.org/abs/2412.15571"
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:34:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:34:52Z",
+			"dateModified": "2026-03-09T20:34:52Z",
+			"itemType": "attachment",
+			"key": "FPGQ9PBV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:34:52 p.m.</p>",
+			"parentItem": "TPTXAI4F",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Wolf2020Transformers-31e9fa248c57815693b7d7e6fb05ca38"
+		},
+		{
+			"accessDate": "2026-11-08T16:40:00Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:40:00Z",
+			"dateModified": "2026-11-08T16:40:00Z",
+			"filename": "Wolf, Thomas and Debut, Lysandre and Sanh, Victor and et al. - 2020 - Transformers State-of-the-Art Natural Language Processing.pdf",
+			"itemType": "attachment",
+			"key": "IKVSRL5L",
+			"linkMode": "imported_url",
+			"parentItem": "TPTXAI4F",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/2020.emnlp-demos.6.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wolf, Thomas and Debut, Lysandre and Sanh, Victor and et al. - 2020 - Transformers State-of-the-Art Natural Language Processing.pdf",
+				"files": [
+					{
+						"path": "attachments/IK/IKVSRL5L/Wolf, Thomas and Debut, Lysandre and Sanh, Victor and et al. - 2020 - Transformers State-of-the-Art Natural Language Processing.pdf",
+						"size": 544260,
+						"storage": "git"
+					}
+				],
+				"key": "IKVSRL5L",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/2020.emnlp-demos.6.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FPGQ9PBV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Wolf2020Transformers-31e9fa248c57815693b7d7e6fb05ca38"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Wolf, Thomas and Debut, Lysandre and Sanh, Victor and et al."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Transformers: State-of-the-Art Natural Language Processing",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/TPTXAI4F"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2020.emnlp-demos.6",
+		"citationKey": "wolfthomasanddebutlysandreandsanhvictorandetal.TransformersStateoftheArtNatural2020",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Wolf, Thomas and Debut, Lysandre and Sanh, Victor and et al."
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-03-05T00:54:56Z",
+		"dateModified": "2026-03-25T21:29:00Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "TPTXAI4F",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Transformers: State-of-the-Art Natural Language Processing"
+	}
+}

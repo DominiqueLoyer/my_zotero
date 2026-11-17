@@ -1,0 +1,81 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-10-30T21:00:38Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T21:01:07Z",
+			"dateModified": "2026-02-26T21:01:07Z",
+			"itemType": "attachment",
+			"key": "9TUHESIF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:15 p.m.</p>",
+			"parentItem": "7ACYIYSC",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyers-dominiqueTAN2025-29c9fa248c57818394f3e35e718d1c22"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9TUHESIF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyers-dominiqueTAN2025-29c9fa248c57818394f3e35e718d1c22"
+			}
+		],
+		"collections": [
+			"mes papiers et beamers"
+		],
+		"creators": [
+			"Loyer S. Dominique"
+		],
+		"itemType": "presentation",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "TAN",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/7ACYIYSC"
+	},
+	"zotero": {
+		"abstractNote": "Système de traduction automatique neuronal du russe vers l'anglais. Importance croissante de la traduction automatique (contenu multilingue).Révolution de la TAN vs approches précédentes (SMT).Architecture dominante : Transformer (Vaswani et al., 2017).Objectifs du Projet :1 Développer un système TAN pour Anglais -> Russe.2 Utiliser des outils open-source (Hugging Face) et données publiques (opus_books).3 Affiner un modèle préentraîıné (Helsinki-NLP). 14 ́Evaluer (BLEU, chrF) et comparer `a l’ ́etat de l’art.1. Ce mod`ele est bas ́e sur l’architecture Transformer et impl ́ement ́e `a l’aide duframework MarianMT Passage SMT -> TAN (RNNs (Bahdanau et al., 2015) ->Transformer (Vaswani et al., 2017)).Importance des données parallèles (WMT (Ng et al., 2019),OPUS (Tiedemann, 2012)).Modèles préentraîınés bilingues : MarianMT (Helsinki-NLP) 2(Junczys-Dowmunt et al., 2018) sur OPUS. Base solide pour affinage. Modèles multilingues massifs : NLLB (Costa-Juss`a et al., 2022)domine souvent, scores BLEU EN-RU > 40 sur benchmarksWMT (Ng et al., 2019; Costa-Juss`a et al., 2022).2. Helsinki-NLP/opus-mt-en-ru est un modèle préentraîıné spécifiquement pour la traduction de l’anglais vers le russe",
+		"citationKey": "loyers.dominiqueTAN2025",
+		"collections": [
+			"86QJKFHN"
+		],
+		"creators": [
+			{
+				"creatorType": "presenter",
+				"name": "Loyer S. Dominique"
+			}
+		],
+		"date": "24 avril 2025",
+		"dateAdded": "2026-02-26T21:01:07Z",
+		"dateModified": "2026-02-26T21:01:07Z",
+		"extra": "ORCID=\"0009-0003-9713-7109\"",
+		"itemType": "presentation",
+		"key": "7ACYIYSC",
+		"language": "fr",
+		"place": "UQAM",
+		"presentationType": "Diapositives",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "TALN;TREC;NLP;Information Retrieval;TALN; Recherche information; RM3;"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "TAN",
+		"url": "10.13140/RG.2.2.21668.18563"
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:21Z",
+			"dateModified": "2026-01-08T22:57:39Z",
+			"filename": "referencesVF-at-2025-07-05T22_35_09.123Z-pinned.bib",
+			"itemType": "attachment",
+			"key": "6WIRZW7F",
+			"linkMode": "imported_file",
+			"parentItem": "3E8RMF6T",
+			"relations": {},
+			"tags": [],
+			"title": "referencesVF-at-2025-07-05T22_35_09.123Z-pinned"
+		},
+		{
+			"accessDate": "2026-01-16T15:53:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:31Z",
+			"dateModified": "2026-03-09T20:46:49Z",
+			"itemType": "attachment",
+			"key": "DZ74DKSH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:46:49 p.m.</p>",
+			"parentItem": "3E8RMF6T",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/PCXHUBYE"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ReferencesVFat20250705T22_35_09123Zpinned-2ea9fa248c578110ab5fcfbb26d3a9d5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "DZ74DKSH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ReferencesVFat20250705T22_35_09123Zpinned-2ea9fa248c578110ab5fcfbb26d3a9d5"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "referencesVF-at-2025-07-05T22_35_09.123Z-pinned.bib",
+				"files": [
+					{
+						"path": "attachments/6W/6WIRZW7F/referencesVF-at-2025-07-05T22_35_09.123Z-pinned.bib",
+						"size": 333,
+						"storage": "git"
+					}
+				],
+				"key": "6WIRZW7F",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "referencesVF-at-2025-07-05T22_35_09.123Z-pinned",
+				"url": null
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "referencesVF-at-2025-07-05T22_35_09.123Z-pinned",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/3E8RMF6T"
+	},
+	"zotero": {
+		"citationKey": "ReferencesVFat20250705T22_35_09123Zpinned",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:39Z",
+		"dateModified": "2026-02-05T00:09:16Z",
+		"itemType": "document",
+		"key": "3E8RMF6T",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/SVZ9Q5GW"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "referencesVF-at-2025-07-05T22_35_09.123Z-pinned"
+	}
+}

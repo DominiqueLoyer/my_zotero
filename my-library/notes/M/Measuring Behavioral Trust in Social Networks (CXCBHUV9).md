@@ -1,0 +1,32 @@
+---
+title: "Measuring Behavioral Trust in Social Networks"
+item-type: "journalArticle"
+authors:
+  - "Adali, Sibel and Escriva, Roger and Goldberg, Mark K. and Magdon-Ismail, Malik and Szymanski, Boleslaw K. and Wallace, William A. and Williams, George"
+date: "2010"
+year: "2010"
+doi: "10.1109/isi.2010.5484757"
+tags:
+  - "notion"
+zotero-key: "CXCBHUV9"
+zotero-library: 1
+zotero-uri: "zotero://select/library/items/CXCBHUV9"
+date-added: "2026-03-03 23:19:52"
+date-modified: "2026-03-25 21:29:18"
+---
+
+# Measuring Behavioral Trust in Social Networks
+
+**Adali, Sibel and Escriva, Roger and Goldberg, Mark K. and Magdon-Ismail, Malik and Szymanski, Boleslaw K. and Wallace, William A. and Williams, George**
+
+## Extra
+
+Importé via SysCRED.
+
+## Attachments
+
+- [Notion](notion://www.notion.so/Adali2010Measuring-31e9fa248c57815fb2a3d24a3f0aff3c)
+
+---
+
+[Open in Zotero](zotero://select/library/items/CXCBHUV9)

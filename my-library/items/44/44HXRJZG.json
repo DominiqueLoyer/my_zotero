@@ -1,0 +1,121 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:35:33Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:33Z",
+			"dateModified": "2026-11-09T17:08:50Z",
+			"itemType": "attachment",
+			"key": "3KWTV6EK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:50 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "44HXRJZG",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Aklah-4129fa248c5781b5be50e072ceb4d58a"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:30:27Z",
+			"dateModified": "2025-03-17T17:30:30Z",
+			"filename": "de et Aklah - “EXPLORATION DE TECHNOLOGIES POUR DOTER UN AGENT INTELLIGENT D’UNE BASE DE COMPÉTENCES ”  APPLICATI.pdf",
+			"itemType": "attachment",
+			"key": "7N6R89C9",
+			"linkMode": "imported_file",
+			"parentItem": "44HXRJZG",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3KWTV6EK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Aklah-4129fa248c5781b5be50e072ceb4d58a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "de et Aklah - “EXPLORATION DE TECHNOLOGIES POUR DOTER UN AGENT INTELLIGENT D’UNE BASE DE COMPÉTENCES ”  APPLICATI.pdf",
+				"files": [
+					{
+						"path": "attachments/7N/7N6R89C9/de et Aklah - “EXPLORATION DE TECHNOLOGIES POUR DOTER UN AGENT INTELLIGENT D’UNE BASE DE COMPÉTENCES ”  APPLICATI.pdf",
+						"size": 586219,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/7N/7N6R89C9/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 1733,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/7N/7N6R89C9/de et Aklah - “EXPLORATION DE TECHNOLOGIES POUR DOTER UN AGENT INTELLIGENT D’UNE BASE DE COMPÉTENCES ”  APPLICATI (trashed 2025-11-24 15-34-15).pdf",
+						"size": 586219,
+						"storage": "git"
+					}
+				],
+				"key": "7N6R89C9",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Aklah, Kodjo Jean-Pierre"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "“EXPLORATION DE TECHNOLOGIES POUR DOTER UN AGENT INTELLIGENT D’UNE BASE DE COMPÉTENCES ” : APPLICATION AU DOMAINE FINANCIER",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/44HXRJZG"
+	},
+	"zotero": {
+		"citationKey": "aklahEXPLORATIONTECHNOLOGIESPOUR",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Kodjo Jean-Pierre",
+				"lastName": "Aklah"
+			}
+		],
+		"dateAdded": "2025-03-17T17:30:29Z",
+		"dateModified": "2025-03-31T18:44:11Z",
+		"itemType": "journalArticle",
+		"key": "44HXRJZG",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "“EXPLORATION DE TECHNOLOGIES POUR DOTER UN AGENT INTELLIGENT D’UNE BASE DE COMPÉTENCES ” : APPLICATION AU DOMAINE FINANCIER"
+	}
+}

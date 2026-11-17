@@ -1,0 +1,87 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:26:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:26:56Z",
+			"dateModified": "2026-03-09T20:47:15Z",
+			"itemType": "attachment",
+			"key": "DCS3WLM9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:15 p.m.</p>",
+			"parentItem": "JTV645E4",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/4fac387adaea8c31d5064c80291a640bf075955f-2e29fa248c5781cb89e5c0fec6d8cae3"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "DCS3WLM9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/4fac387adaea8c31d5064c80291a640bf075955f-2e29fa248c5781cb89e5c0fec6d8cae3"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Li, Song",
+			"Cao, Yinzhi"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Who touched my browser fingerprint?: a large-scale measurement study and classification of fingerprint dynamics",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/JTV645E4"
+	},
+	"zotero": {
+		"DOI": "10.1145/3419394.3423614",
+		"abstractNote": "Browser fingerprints are dynamic, evolving with feature values changed over time. Previous fingerprinting datasets are either small-scale with only thousands of browser instances or without considering fingerprint dynamics. Thus, it remains unclear how an evolution-aware fingerprinting tool behaves in a real-world setting, e.g., on a website with millions of browser instances, let alone how fingerprint dynamics implicate privacy and security. In this paper, we perform the first, large-scale study of millions of fingerprints to analyze fingerprint dynamics in a real-world website. Our measurement study answers the question of how and why fingerprints change over time by classifying fingerprint dynamics into three categories based on their causes. We also observed several insights from our measurement, e.g., we show that state-of-the-art fingerprinting tool performs poorly in terms of F1-Score and matching speed in this real-world setting.",
+		"citationKey": "liWhoTouchedMy2020",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Song",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yinzhi",
+				"lastName": "Cao"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-01-08T20:14:05Z",
+		"dateModified": "2026-03-25T21:30:03Z",
+		"extra": "abstractTranslation: Browser fingerprints are dynamic, evolving with feature values changed over time. Previous fingerprinting datasets are either small-scale with only thousands of browser instances or without considering fingerprint dynamics. Thus, it remains unclear how an evolution-aware fingerprinting tool behaves in a real-world setting, e.g., on a website with millions of browser instances, let alone how fingerprint dynamics implicate privacy and security. In this paper, we perform the first, large-scale study of millions of fingerprints to analyze fingerprint dynamics in a real-world website. Our measurement study answers the question of how and why fingerprints change over time by classifying fingerprint dynamics into three categories based on their causes. We also observed several insights from our measurement, e.g., we show that state-of-the-art fingerprinting tool performs poorly in terms of F1-Score and matching speed in this real-world setting.",
+		"itemType": "journalArticle",
+		"key": "JTV645E4",
+		"language": "fr-CA",
+		"pages": "null",
+		"publicationTitle": "Proceedings of the ACM Internet Measurement Conference",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Who touched my browser fingerprint?: a large-scale measurement study and classification of fingerprint dynamics",
+		"url": "https://www.semanticscholar.org/paper/4fac387adaea8c31d5064c80291a640bf075955f",
+		"volume": "null"
+	}
+}

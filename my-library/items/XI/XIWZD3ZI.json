@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:27:35Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:27:35Z",
+			"dateModified": "2026-11-08T16:27:35Z",
+			"filename": "Loyer, Dominique S - 2020 - Development and Evaluation of an English-to-Russian Neural Machine Translation System.pdf",
+			"itemType": "attachment",
+			"key": "JD7D27IW",
+			"linkMode": "imported_url",
+			"parentItem": "XIWZD3ZI",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/2020.wmt-1.35.pdf"
+		},
+		{
+			"accessDate": "2026-03-09T20:33:22Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:33:22Z",
+			"dateModified": "2026-11-09T17:07:28Z",
+			"itemType": "attachment",
+			"key": "X2N5XTXX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:28 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "XIWZD3ZI",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-Dominique-S-2020-4129fa248c57816a9669c7adc9aeb2a1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer, Dominique S - 2020 - Development and Evaluation of an English-to-Russian Neural Machine Translation System.pdf",
+				"files": [
+					{
+						"path": "attachments/JD/JD7D27IW/Loyer, Dominique S - 2020 - Development and Evaluation of an English-to-Russian Neural Machine Translation System.pdf",
+						"size": 248227,
+						"storage": "git"
+					}
+				],
+				"key": "JD7D27IW",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/2020.wmt-1.35.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "X2N5XTXX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-Dominique-S-2020-4129fa248c57816a9669c7adc9aeb2a1"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Loyer, Dominique S"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Development and Evaluation of an English-to-Russian Neural Machine Translation System",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/XIWZD3ZI"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2020.wmt-1.35",
+		"citationKey": "loyerdominiquesDevelopmentEvaluationEnglishtoRussian2020",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Loyer, Dominique S"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-03-08T21:20:16Z",
+		"dateModified": "2026-03-25T21:28:50Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "XIWZD3ZI",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Development and Evaluation of an English-to-Russian Neural Machine Translation System"
+	}
+}

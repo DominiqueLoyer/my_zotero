@@ -1,0 +1,89 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:00Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "AH7YRDUK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:53:35 p.m.</p>",
+			"parentItem": "6R4REXLE",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Holzinger2020-2e29fa248c5781669be4c9a278f74a20"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "AH7YRDUK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Holzinger2020-2e29fa248c5781669be4c9a278f74a20"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Holzinger, Andreas",
+			"Carrington, Adam",
+			"Müller, Heimo"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Measuring the quality of explanations: The system causability scale (SCS)",
+		"year": "2020",
+		"zoteroURI": "zotero://select/groups/6376680/items/6R4REXLE"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-030-57321-8_1",
+		"citationKey": "holzingerMeasuringQualityExplanations2020a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Andreas",
+				"lastName": "Holzinger"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Adam",
+				"lastName": "Carrington"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Heimo",
+				"lastName": "Müller"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "6R4REXLE",
+		"language": "fr-CA",
+		"pages": "1–19",
+		"proceedingsTitle": "International cross-domain conference for machine learning and knowledge extraction",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Measuring the quality of explanations: The system causability scale (SCS)"
+	}
+}

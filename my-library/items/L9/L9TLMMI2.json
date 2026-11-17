@@ -1,0 +1,113 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:25Z",
+			"dateModified": "2026-11-09T17:09:06Z",
+			"itemType": "attachment",
+			"key": "JS7XDVR6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:06 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "L9TLMMI2",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/ALI3BTZY"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/A8WC7A63"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Sanner-et-al-2023-4129fa248c57811ba49be350e015d731"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JS7XDVR6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Sanner-et-al-2023-4129fa248c57811ba49be350e015d731"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Sanner, Scott",
+			"Wu, Ga",
+			"Bu, Jia",
+			"Coates, Martin"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Foundational Models for Recommender Systems",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/L9TLMMI2"
+	},
+	"zotero": {
+		"DOI": "10.1145/3604915.3610720",
+		"citationKey": "sannerFoundationalModelsRecommender2023",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Scott",
+				"lastName": "Sanner"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ga",
+				"lastName": "Wu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jia",
+				"lastName": "Bu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Martin",
+				"lastName": "Coates"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T15:01:57Z",
+		"itemType": "conferencePaper",
+		"key": "L9TLMMI2",
+		"pages": "1–5",
+		"proceedingsTitle": "Proceedings of the 17th ACM Conference on Recommender Systems",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/9NYV4FQ3",
+				"http://zotero.org/users/15425556/items/SFEN5KL9"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/CRB2RHFV"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Foundational Models for Recommender Systems"
+	}
+}

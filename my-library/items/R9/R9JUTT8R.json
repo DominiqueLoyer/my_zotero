@@ -1,0 +1,100 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:27:38Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:38Z",
+			"dateModified": "2026-01-02T19:14:17Z",
+			"itemType": "attachment",
+			"key": "CFGALUXZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:14:17 p.m.</p>",
+			"parentItem": "R9JUTT8R",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ReconnaissanceDentitesNommees2024-2c09fa248c57813a8213e61a34590697"
+		},
+		{
+			"accessDate": "2025-04-03T09:13:51Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2025-04-03T09:13:51Z",
+			"dateModified": "2025-04-03T09:13:51Z",
+			"filename": "Reconnaissance_d'entités_nommées.html",
+			"itemType": "attachment",
+			"key": "T9Z3CCSL",
+			"linkMode": "imported_url",
+			"parentItem": "R9JUTT8R",
+			"relations": {},
+			"tags": [],
+			"title": "Snapshot",
+			"url": "https://fr.wikipedia.org/wiki/Reconnaissance_d%27entit%C3%A9s_nomm%C3%A9es"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CFGALUXZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ReconnaissanceDentitesNommees2024-2c09fa248c57813a8213e61a34590697"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "Reconnaissance_d'entités_nommées.html",
+				"files": [],
+				"key": "T9Z3CCSL",
+				"linkMode": "imported_url",
+				"status": "missing",
+				"title": "Snapshot",
+				"url": "https://fr.wikipedia.org/wiki/Reconnaissance_d%27entit%C3%A9s_nomm%C3%A9es"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/cours 3-4 RI"
+		],
+		"creators": [],
+		"itemType": "encyclopediaArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Reconnaissance d'entités nommées",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/R9JUTT8R"
+	},
+	"zotero": {
+		"abstractNote": "La reconnaissance d'entités nommées est une sous-tâche de l'activité d'extraction d'information dans des corpus documentaires. Elle consiste à rechercher des objets textuels (c'est-à-dire un mot, ou un groupe de mots) catégorisables dans des classes telles que noms de personnes, noms d'organisations ou d'entreprises, noms de lieux, quantités, distances, valeurs, dates, etc.",
+		"accessDate": "2025-04-03T09:13:46Z",
+		"citationKey": "ReconnaissanceDentitesNommees2024",
+		"collections": [
+			"RZX7UAY3"
+		],
+		"creators": [],
+		"date": "2024-11-24T15:44:52Z",
+		"dateAdded": "2025-04-03T09:13:46Z",
+		"dateModified": "2025-12-05T22:27:38Z",
+		"encyclopediaTitle": "Wikipédia",
+		"extra": "Page Version ID: 220572048",
+		"itemType": "encyclopediaArticle",
+		"key": "R9JUTT8R",
+		"language": "fr",
+		"libraryCatalog": "Wikipedia",
+		"relations": {},
+		"rights": "Creative Commons Attribution-ShareAlike License",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Reconnaissance d'entités nommées",
+		"url": "https://fr.wikipedia.org/w/index.php?title=Reconnaissance_d%27entit%C3%A9s_nomm%C3%A9es&oldid=220572048"
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:36:34Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "PS74TE3C",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:00 p.m.</p>",
+			"parentItem": "92QQML3H",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Sedhain2015-2e29fa248c578146b94ef98b0ab69d1d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PS74TE3C",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Sedhain2015-2e29fa248c578146b94ef98b0ab69d1d"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Sedhain, Suvash",
+			"Menon, Aditya Krishna",
+			"Sanner, Scott",
+			"Xie, Lexing"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Autorec: Autoencoders meet collaborative filtering",
+		"year": "2015",
+		"zoteroURI": "zotero://select/groups/6376680/items/92QQML3H"
+	},
+	"zotero": {
+		"DOI": "10.1145/2740908.2742726",
+		"citationKey": "sedhainAutorecAutoencodersMeet2015a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Suvash",
+				"lastName": "Sedhain"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aditya Krishna",
+				"lastName": "Menon"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Scott",
+				"lastName": "Sanner"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lexing",
+				"lastName": "Xie"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "92QQML3H",
+		"language": "fr-CA",
+		"pages": "111–112",
+		"proceedingsTitle": "Proceedings of the 24th international conference on world wide web",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Autorec: Autoencoders meet collaborative filtering"
+	}
+}

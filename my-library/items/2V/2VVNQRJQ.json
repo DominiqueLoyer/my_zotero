@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:44:35Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:44:35Z",
+			"dateModified": "2026-11-08T16:44:35Z",
+			"filename": "Gilmer, Justin and Schoenholz, Samuel S. and Riley, Patrick F. and Vinyals, Oriol and Dahl, George E. - 2020 - Neural Message Passing for Quantum Chemistry.pdf",
+			"itemType": "attachment",
+			"key": "V82EREBP",
+			"linkMode": "imported_url",
+			"parentItem": "2VVNQRJQ",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "http://proceedings.mlr.press/v70/gilmer17a/gilmer17a.pdf"
+		},
+		{
+			"accessDate": "2026-02-25T22:18:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:04Z",
+			"dateModified": "2026-03-09T20:43:38Z",
+			"itemType": "attachment",
+			"key": "VZ7V4TZD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:43:38 p.m.</p>",
+			"parentItem": "2VVNQRJQ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/K733ZZLN",
+					"http://zotero.org/groups/6376680/items/XPEVCPQ7"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Gilmer2020Neural-3129fa248c57819cb76cebc0b78cfbdd"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Gilmer, Justin and Schoenholz, Samuel S. and Riley, Patrick F. and Vinyals, Oriol and Dahl, George E. - 2020 - Neural Message Passing for Quantum Chemistry.pdf",
+				"files": [
+					{
+						"path": "attachments/V8/V82EREBP/Gilmer, Justin and Schoenholz, Samuel S. and Riley, Patrick F. and Vinyals, Oriol and Dahl, George E. - 2020 - Neural Message Passing for Quantum Chemistry.pdf",
+						"size": 409424,
+						"storage": "git"
+					}
+				],
+				"key": "V82EREBP",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "http://proceedings.mlr.press/v70/gilmer17a/gilmer17a.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VZ7V4TZD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Gilmer2020Neural-3129fa248c57819cb76cebc0b78cfbdd"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Gilmer, Justin and Schoenholz, Samuel S. and Riley, Patrick F. and Vinyals, Oriol and Dahl, George E."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Neural Message Passing for Quantum Chemistry",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/2VVNQRJQ"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-030-40245-7_10",
+		"citationKey": "gilmerjustinandschoenholzsamuels.andrileypatrickf.andvinyalsoriolanddahlgeorgee.NeuralMessagePassing2020",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Gilmer, Justin and Schoenholz, Samuel S. and Riley, Patrick F. and Vinyals, Oriol and Dahl, George E."
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-02-25T21:37:08Z",
+		"dateModified": "2026-03-25T21:29:48Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "2VVNQRJQ",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/BS83FI3K",
+				"http://zotero.org/groups/6376680/items/DWZNXCAV"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural Message Passing for Quantum Chemistry",
+		"url": "https://proceedings.mlr.press/v70/gilmer17a.html"
+	}
+}

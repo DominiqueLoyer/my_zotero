@@ -1,0 +1,102 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:33:38Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:38Z",
+			"dateModified": "2026-11-09T17:09:30Z",
+			"itemType": "attachment",
+			"key": "JXKPV3YH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:30 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "J54DNT2I",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Human-level-intelligence-or-animal-like-abilities-4129fa248c57810d8d41f385e29d5905"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-08T17:44:42Z",
+			"dateModified": "2024-12-08T17:44:48Z",
+			"filename": "Human-level intelligence or animal-like abilities.pdf",
+			"itemType": "attachment",
+			"key": "LNHSAJP6",
+			"linkMode": "imported_file",
+			"parentItem": "J54DNT2I",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JXKPV3YH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Human-level-intelligence-or-animal-like-abilities-4129fa248c57810d8d41f385e29d5905"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Human-level intelligence or animal-like abilities.pdf",
+				"files": [
+					{
+						"path": "attachments/LN/LNHSAJP6/Human-level intelligence or animal-like abilities.pdf",
+						"size": 2649656,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/LN/LNHSAJP6/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 57405,
+						"storage": "git"
+					}
+				],
+				"key": "LNHSAJP6",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/Dic9150/cours 12 RN, génétiques, sys dynaique"
+		],
+		"creators": [],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Human-level intelligence or animal-like abilities?",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/J54DNT2I"
+	},
+	"zotero": {
+		"citationKey": "HumanlevelIntelligenceAnimallike",
+		"collections": [
+			"QVLHRN5B"
+		],
+		"creators": [],
+		"dateAdded": "2024-12-08T17:44:48Z",
+		"dateModified": "2025-12-05T22:33:38Z",
+		"itemType": "journalArticle",
+		"key": "J54DNT2I",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Human-level intelligence or animal-like abilities?"
+	}
+}

@@ -1,0 +1,126 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:45Z",
+			"dateModified": "2026-11-09T17:05:39Z",
+			"itemType": "attachment",
+			"key": "BQGFSAEN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:39 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "N4XZSSRR",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Russell-and-Norvig-2016-4129fa248c57819c8074ec7a04f66bc9"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-08T17:47:28Z",
+			"dateModified": "2024-12-08T17:47:42Z",
+			"filename": "Russell et Norvig - 2016 - Artificial intelligence a modern approach.pdf",
+			"itemType": "attachment",
+			"key": "SF2J3G97",
+			"linkMode": "imported_file",
+			"parentItem": "N4XZSSRR",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "BQGFSAEN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Russell-and-Norvig-2016-4129fa248c57819c8074ec7a04f66bc9"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Russell et Norvig - 2016 - Artificial intelligence a modern approach.pdf",
+				"files": [],
+				"key": "SF2J3G97",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/Dic9150"
+		],
+		"creators": [
+			"Russell, Stuart J.",
+			"Norvig, Peter",
+			"Davis, Ernest",
+			"Edwards, Douglas"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Artificial intelligence: a modern approach",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/N4XZSSRR"
+	},
+	"zotero": {
+		"DOI": "10.1093/oso/9780190905033.003.0012",
+		"ISBN": "978-0-13-604259-4 978-1-292-15397-1",
+		"citationKey": "russellArtificialIntelligenceModern2016",
+		"collections": [
+			"77BIVK4E"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Stuart J.",
+				"lastName": "Russell"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Peter",
+				"lastName": "Norvig"
+			},
+			{
+				"creatorType": "contributor",
+				"firstName": "Ernest",
+				"lastName": "Davis"
+			},
+			{
+				"creatorType": "contributor",
+				"firstName": "Douglas",
+				"lastName": "Edwards"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2024-12-08T17:47:41Z",
+		"dateModified": "2026-11-13T19:32:07Z",
+		"edition": "Third edition, Global edition",
+		"itemType": "book",
+		"key": "N4XZSSRR",
+		"language": "en",
+		"libraryCatalog": "K10plus ISBN",
+		"numPages": "1",
+		"place": "Boston Columbus Indianapolis",
+		"publisher": "Pearson",
+		"relations": {},
+		"series": "Prentice Hall series in artificial intelligence",
+		"shortTitle": "Artificial intelligence",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Artificial intelligence: a modern approach"
+	}
+}

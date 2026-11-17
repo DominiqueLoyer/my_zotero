@@ -1,0 +1,94 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:57Z",
+			"dateModified": "2026-11-09T14:56:24Z",
+			"itemType": "attachment",
+			"key": "PWMC7679",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:44:52 p.m.</p>",
+			"parentItem": "T9P8E7TT",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/QBNLV9GB"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3G5T6UXE",
+					"http://zotero.org/groups/6376680/items/GBWAFYIV",
+					"http://zotero.org/groups/6376680/items/GHB7JQXP",
+					"http://zotero.org/groups/6376680/items/WC6SE822"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Weber1927Wirtschaft-3129fa248c5781eba911dbdecceefc58"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PWMC7679",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Weber1927Wirtschaft-3129fa248c5781eba911dbdecceefc58"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Weber, Max"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Wirtschaft und Gesellschaft",
+		"year": "1927",
+		"zoteroURI": "zotero://select/library/items/T9P8E7TT"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-7091-5913-2_5",
+		"citationKey": "webermaxWirtschaftUndGesellschaft1927",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Weber, Max"
+			}
+		],
+		"date": "1927",
+		"dateAdded": "2026-02-25T20:54:38Z",
+		"dateModified": "2026-11-09T14:56:24Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "T9P8E7TT",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/HCPNX4B3"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/54ZFM7WU",
+				"http://zotero.org/groups/6376680/items/CXAG5V8G",
+				"http://zotero.org/groups/6376680/items/DAGD3E9J",
+				"http://zotero.org/groups/6376680/items/LETRBSF8"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Wirtschaft und Gesellschaft"
+	}
+}

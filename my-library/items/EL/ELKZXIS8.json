@@ -1,0 +1,88 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:26:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:26:29Z",
+			"dateModified": "2026-11-09T17:07:24Z",
+			"itemType": "attachment",
+			"key": "IJCRLNE7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:24 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "ELKZXIS8",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Roesner-et-al-2012-4129fa248c5781a09001da809445aa53"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IJCRLNE7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Roesner-et-al-2012-4129fa248c5781a09001da809445aa53"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Roesner, Franziska",
+			"Kohno, Tadayoshi",
+			"Wetherall, D."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Detecting and defending against third-party tracking on the web",
+		"year": "2012",
+		"zoteroURI": "zotero://select/library/items/ELKZXIS8"
+	},
+	"zotero": {
+		"abstractNote": "While third-party tracking on the web has garnered much attention, its workings remain poorly understood. Our goal is to dissect how mainstream web tracking occurs in the wild. We develop a client-side method for detecting and classifying five kinds of third-party trackers based on how they manipulate browser state. We run our detection system while browsing the web and observe a rich ecosystem, with over 500 unique trackers in our measurements alone. We find that most commercial pages are tracked by multiple parties, trackers vary widely in their coverage with a small number being widely deployed, and many trackers exhibit a combination of tracking behaviors. Based on web search traces taken from AOL data, we estimate that several trackers can each capture more than 20",
+		"citationKey": "roesnerDetectingDefendingThirdparty2012",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Franziska",
+				"lastName": "Roesner"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tadayoshi",
+				"lastName": "Kohno"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "D.",
+				"lastName": "Wetherall"
+			}
+		],
+		"date": "2012",
+		"dateAdded": "2026-01-08T20:14:06Z",
+		"dateModified": "2026-03-25T21:30:01Z",
+		"itemType": "journalArticle",
+		"key": "ELKZXIS8",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Detecting and defending against third-party tracking on the web",
+		"url": "https://www.semanticscholar.org/paper/96df51029b8f6c936c9909bd45a9b0b8498d1ffa"
+	}
+}

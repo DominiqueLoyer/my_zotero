@@ -1,0 +1,122 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-05T00:47:06Z",
+			"dateModified": "2024-11-05T00:47:09Z",
+			"filename": "Miller - 2003 - The cognitive revolution a historical perspective.pdf",
+			"itemType": "attachment",
+			"key": "F6SUDK28",
+			"linkMode": "imported_file",
+			"parentItem": "2F32NJMT",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:28:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:53Z",
+			"dateModified": "2026-01-02T19:18:16Z",
+			"itemType": "attachment",
+			"key": "XUHFSVWH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:16 p.m.</p>",
+			"parentItem": "2F32NJMT",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/millerCognitiveRevolutionHistorical2003-2c09fa248c578131a2a6d1391a91cd9b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XUHFSVWH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/millerCognitiveRevolutionHistorical2003-2c09fa248c578131a2a6d1391a91cd9b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Miller - 2003 - The cognitive revolution a historical perspective.pdf",
+				"files": [
+					{
+						"path": "attachments/F6/F6SUDK28/Miller - 2003 - The cognitive revolution a historical perspective.pdf",
+						"size": 78543,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/F6/F6SUDK28/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 18825,
+						"storage": "git"
+					}
+				],
+				"key": "F6SUDK28",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Miller"
+		],
+		"creators": [
+			"Miller, George A"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The cognitive revolution: a historical perspective",
+		"year": "2003",
+		"zoteroURI": "zotero://select/library/items/2F32NJMT"
+	},
+	"zotero": {
+		"DOI": "10.1016/S1364-6613(03)00029-9",
+		"ISSN": "13646613",
+		"accessDate": "2024-11-05T00:47:08Z",
+		"citationKey": "millerCognitiveRevolutionHistorical2003",
+		"collections": [
+			"VWJRTXG9"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "George A",
+				"lastName": "Miller"
+			}
+		],
+		"date": "3/2003",
+		"dateAdded": "2024-11-05T00:47:08Z",
+		"dateModified": "2025-12-05T22:28:53Z",
+		"issue": "3",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Trends in Cognitive Sciences",
+		"key": "2F32NJMT",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "141-144",
+		"publicationTitle": "Trends in Cognitive Sciences",
+		"relations": {},
+		"rights": "https://www.elsevier.com/tdm/userlicense/1.0/",
+		"shortTitle": "The cognitive revolution",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The cognitive revolution: a historical perspective",
+		"url": "https://linkinghub.elsevier.com/retrieve/pii/S1364661303000299",
+		"volume": "7"
+	}
+}

@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-09T20:58:49Z",
+			"dateModified": "2026-01-09T20:59:12Z",
+			"filename": "Loyer - Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC A.pdf",
+			"itemType": "attachment",
+			"key": "5ESUUXGD",
+			"linkMode": "imported_file",
+			"parentItem": "PS559QHT",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-01-16T15:52:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:52:19Z",
+			"dateModified": "2026-11-09T17:08:29Z",
+			"itemType": "attachment",
+			"key": "IIVDFFAB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:29 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "PS559QHT",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/WTRRSNJH"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-4129fa248c5781cc9d51d92c74a1a357"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IIVDFFAB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-4129fa248c5781cc9d51d92c74a1a357"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Loyer - Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC A.pdf",
+				"files": [
+					{
+						"path": "attachments/5E/5ESUUXGD/Loyer - Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC A.pdf",
+						"size": 559746,
+						"storage": "git"
+					}
+				],
+				"key": "5ESUUXGD",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"mes papiers et beamers"
+		],
+		"creators": [
+			"Loyer, Dominique S"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC AP 88-90",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/PS559QHT"
+	},
+	"zotero": {
+		"citationKey": "loyerEvaluationModelesRecherchec",
+		"collections": [
+			"GXLPXWSC"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			}
+		],
+		"dateAdded": "2026-01-09T20:59:11Z",
+		"dateModified": "2026-03-08T21:43:25Z",
+		"itemType": "journalArticle",
+		"key": "PS559QHT",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/G2ZABHFG"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC AP 88-90"
+	}
+}

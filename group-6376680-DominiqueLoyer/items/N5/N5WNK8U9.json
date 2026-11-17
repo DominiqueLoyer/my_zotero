@@ -1,0 +1,149 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-10-30T21:00:34Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-09T20:19:09Z",
+			"dateModified": "2026-11-17T14:41:59Z",
+			"itemType": "attachment",
+			"key": "3FQAALXC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:41:59 a.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "N5WNK8U9",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-and-Loyer-2025-41b9fa248c5781fabde4ccf0a03089c7"
+		},
+		{
+			"accessDate": "2025-10-05T19:11:17Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-09T20:19:09Z",
+			"dateModified": "2026-01-09T20:19:09Z",
+			"itemType": "attachment",
+			"key": "J5A8KR9H",
+			"linkMode": "linked_url",
+			"parentItem": "N5WNK8U9",
+			"relations": {},
+			"tags": [],
+			"title": "Evaluation of Information Retrieval Models and Query Expansion on the TREC AP 88-90 Collection",
+			"url": "https://www.researchgate.net/publication/392713465_Evaluation_of_Information_Retrieval_Models_and_Query_Expansion_on_the_TREC_AP_88-90_Collection?channel=doi&linkId=684f1e8c26f43051a580af80&showFulltext=true"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "J5A8KR9H",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Evaluation of Information Retrieval Models and Query Expansion on the TREC AP 88-90 Collection",
+				"url": "https://www.researchgate.net/publication/392713465_Evaluation_of_Information_Retrieval_Models_and_Query_Expansion_on_the_TREC_AP_88-90_Collection?channel=doi&linkId=684f1e8c26f43051a580af80&showFulltext=true"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "3FQAALXC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-and-Loyer-2025-41b9fa248c5781fabde4ccf0a03089c7"
+			}
+		],
+		"collections": [
+			"My papers (English)",
+			"completeLoyer_100126",
+			"mes papiers et beamers",
+			"myReferences"
+		],
+		"creators": [
+			"Loyer, Dominique S",
+			"Loyer, Dominique"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Evaluation of Information Retrieval Models and Query Expansion on the TREC AP 88-90 Collection",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/N5WNK8U9"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.22608.62721",
+		"ISSN": "978-1-0699904-5-7",
+		"abstractNote": "This report details the implementation and\ncomparative evaluation of a monolingual in-\nformation retrieval (IR) system on the standard\nTREC Associated Press (AP) 88-90 collection.\nWe studied the influence of text preprocessing\n(Porter stemming vs. baseline), query length\n(short vs. long), and the weighting model\n(QLD vs. BM25). The system was devel-\noped in Python with Pyserini under Java 21.\nThe best-identified base configuration (Base-\nline, Long Queries, BM25) achieved a MAP of\n0.2205. Stemming proved to be less effective\nthan the baseline (max MAP of 0.1778). An en-\nhancement technique using pseudo-relevance\nfeedback, RM3, applied to the best baseline\nconfiguration, achieved a final MAP of 0.2948,\ndemonstrating a significant relative improve-\nment (+34)",
+		"citationKey": "loyerEvaluationInformationRetrieval2025",
+		"collections": [
+			"86QJKFHN",
+			"K5YZTBZN",
+			"RJVJKNN2",
+			"WASU97Q5"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "april 2025",
+		"dateAdded": "2026-01-09T20:19:09Z",
+		"dateModified": "2026-01-09T20:19:09Z",
+		"extra": "ORCID=\"0009-0003-9713-7109\"",
+		"itemType": "journalArticle",
+		"key": "N5WNK8U9",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"pages": "7",
+		"relations": {},
+		"rights": "Licence Creative Commons Attribution - Pas d’utilisation commerciale - Pas de modification 4.0 International",
+		"tags": [
+			{
+				"tag": "BM25"
+			},
+			{
+				"tag": "BM25;QLD;Stemming;Query Expansion;RM3."
+			},
+			{
+				"tag": "Information Retrieval"
+			},
+			{
+				"tag": "Information Retrieval;TREC;Pyserini;"
+			},
+			{
+				"tag": "Pyserini"
+			},
+			{
+				"tag": "QLD"
+			},
+			{
+				"tag": "Query Expansion"
+			},
+			{
+				"tag": "RM3."
+			},
+			{
+				"tag": "Stemming"
+			},
+			{
+				"tag": "TREC"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Evaluation of Information Retrieval Models and Query Expansion on the TREC AP 88-90 Collection"
+	}
+}

@@ -1,0 +1,92 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:36:08Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "G2QLMV5R",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:48 p.m.</p>",
+			"parentItem": "HRZUURL2",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Tjeng2019-2e29fa248c5781ebbc0deddbf3cf3660"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "G2QLMV5R",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Tjeng2019-2e29fa248c5781ebbc0deddbf3cf3660"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Tjeng, Vincent",
+			"Xiao, Kai Y.",
+			"Tedrake, Russ"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Evaluating robustness of neural networks with mixed integer programming",
+		"year": "2019",
+		"zoteroURI": "zotero://select/groups/6376680/items/HRZUURL2"
+	},
+	"zotero": {
+		"citationKey": "tjengEvaluatingRobustnessNeural2019a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Vincent",
+				"lastName": "Tjeng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kai Y.",
+				"lastName": "Xiao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Russ",
+				"lastName": "Tedrake"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:20:12Z",
+		"itemType": "conferencePaper",
+		"key": "HRZUURL2",
+		"language": "fr-CA",
+		"proceedingsTitle": "International conference on learning representations",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Evaluating robustness of neural networks with mixed integer programming",
+		"url": "https://openreview.net/forum?id=Hy-2x3x0F"
+	}
+}

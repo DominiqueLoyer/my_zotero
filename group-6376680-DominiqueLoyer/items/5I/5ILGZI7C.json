@@ -1,0 +1,119 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "note",
+			"key": "G2UKQJHE",
+			"note": "Comment: 57 pages",
+			"parentItem": "5ILGZI7C",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-03-14T18:17:21Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "WAYFIFPZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:21:58 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-8180-a023-c02106d76eb5\",\"notes\":{\"KZQAQ9R7\":{\"blockID\":\"3239fa24-8c57-8139-8c71-c1518a1dbc7c\",\"syncedAt\":\"2026-03-14T18:21:58.008Z\"}}}</pre>",
+			"parentItem": "5ILGZI7C",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/feldsteinMappingNeuroSymbolicAI2024-3239fa248c57818bb706fecc52628da0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WAYFIFPZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/feldsteinMappingNeuroSymbolicAI2024-3239fa248c57818bb706fecc52628da0"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Feldstein, Jonathan",
+			"Dilkas, Paulius",
+			"Belle, Vaishak",
+			"Tsamoura, Efthymia"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "G2UKQJHE",
+				"title": "Comment: 57 pages"
+			}
+		],
+		"title": "Mapping the Neuro-Symbolic AI Landscape by Architectures: A Handbook on Augmenting Deep Learning Through Symbolic Reasoning",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/5ILGZI7C"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2410.22077",
+		"abstractNote": "Integrating symbolic techniques with statistical ones is a long-standing problem in artificial intelligence. The motivation is that the strengths of either area match the weaknesses of the other, and $\\unicode{x2013}$ by combining the two $\\unicode{x2013}$ the weaknesses of either method can be limited. Neuro-symbolic AI focuses on this integration where the statistical methods are in particular neural networks. In recent years, there has been significant progress in this research field, where neuro-symbolic systems outperformed logical or neural models alone. Yet, neuro-symbolic AI is, comparatively speaking, still in its infancy and has not been widely adopted by machine learning practitioners. In this survey, we present the first mapping of neuro-symbolic techniques into families of frameworks based on their architectures, with several benefits: Firstly, it allows us to link different strengths of frameworks to their respective architectures. Secondly, it allows us to illustrate how engineers can augment their neural networks while treating the symbolic methods as black-boxes. Thirdly, it allows us to map most of the field so that future researchers can identify closely related frameworks.",
+		"accessDate": "2026-03-14T17:40:30Z",
+		"archiveID": "arXiv:2410.22077",
+		"citationKey": "feldsteinMappingNeuroSymbolicAI2024",
+		"collections": [
+			"PNZQF2WF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jonathan",
+				"lastName": "Feldstein"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Paulius",
+				"lastName": "Dilkas"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Vaishak",
+				"lastName": "Belle"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Efthymia",
+				"lastName": "Tsamoura"
+			}
+		],
+		"date": "2024-10-29",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:2410.22077 [cs]",
+		"itemType": "preprint",
+		"key": "5ILGZI7C",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"shortTitle": "Mapping the Neuro-Symbolic AI Landscape by Architectures",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Mapping the Neuro-Symbolic AI Landscape by Architectures: A Handbook on Augmenting Deep Learning Through Symbolic Reasoning",
+		"url": "http://arxiv.org/abs/2410.22077"
+	}
+}

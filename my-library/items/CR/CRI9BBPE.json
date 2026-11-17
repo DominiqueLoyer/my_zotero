@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:11:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:11:06Z",
+			"dateModified": "2026-11-09T17:07:09Z",
+			"itemType": "attachment",
+			"key": "H8MTXHMB",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:09 p.m.</p>",
+			"parentItem": "CRI9BBPE",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Bhavya-Shah-and-Daksh-Shah-and-Vandan-Attar-2024-4129fa248c5781a98a88da08c66d89ab"
+		},
+		{
+			"accessDate": "2026-11-08T16:27:30Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:27:30Z",
+			"dateModified": "2026-11-08T16:27:30Z",
+			"filename": "Bhavya Shah and Daksh Shah and Vandan Attar - 2024 - Decoding News Bias Multi Bias Detection in News Articles.pdf",
+			"itemType": "attachment",
+			"key": "LG9RA3BC",
+			"linkMode": "imported_url",
+			"parentItem": "CRI9BBPE",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2501.02482"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "H8MTXHMB",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Bhavya-Shah-and-Daksh-Shah-and-Vandan-Attar-2024-4129fa248c5781a98a88da08c66d89ab"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Bhavya Shah and Daksh Shah and Vandan Attar - 2024 - Decoding News Bias Multi Bias Detection in News Articles.pdf",
+				"files": [
+					{
+						"path": "attachments/LG/LG9RA3BC/Bhavya Shah and Daksh Shah and Vandan Attar - 2024 - Decoding News Bias Multi Bias Detection in News Articles.pdf",
+						"size": 1687179,
+						"storage": "git"
+					}
+				],
+				"key": "LG9RA3BC",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2501.02482"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Bhavya Shah and Daksh Shah and Vandan Attar"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Decoding News Bias: Multi Bias Detection in News Articles",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/CRI9BBPE"
+	},
+	"zotero": {
+		"DOI": "10.1145/3711542.3711601",
+		"citationKey": "bhavyashahanddakshshahandvandanattarDecodingNewsBias2024a",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Bhavya Shah and Daksh Shah and Vandan Attar"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-04-24T21:28:58Z",
+		"dateModified": "2026-11-08T16:11:06Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "CRI9BBPE",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Decoding News Bias: Multi Bias Detection in News Articles"
+	}
+}

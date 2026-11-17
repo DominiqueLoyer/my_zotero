@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:36:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:36:42Z",
+			"dateModified": "2026-03-09T20:52:27Z",
+			"itemType": "attachment",
+			"key": "5G8FZJD9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:27 p.m.</p>",
+			"parentItem": "D87N8NY8",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/TRT6SL6L"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Sarwar2001-2e29fa248c578164917ee6d12f9c9e20"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5G8FZJD9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Sarwar2001-2e29fa248c578164917ee6d12f9c9e20"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Sarwar, Badrul",
+			"Karypis, George",
+			"Konstan, Joseph A.",
+			"Riedl, John"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Item-based collaborative filtering recommendation algorithms",
+		"year": "2001",
+		"zoteroURI": "zotero://select/library/items/D87N8NY8"
+	},
+	"zotero": {
+		"DOI": "10.1145/371920.372071",
+		"citationKey": "sarwarItembasedCollaborativeFiltering2001",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Badrul",
+				"lastName": "Sarwar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "George",
+				"lastName": "Karypis"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joseph A.",
+				"lastName": "Konstan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John",
+				"lastName": "Riedl"
+			}
+		],
+		"date": "2001",
+		"dateAdded": "2026-01-08T20:07:33Z",
+		"dateModified": "2026-03-25T21:30:32Z",
+		"itemType": "conferencePaper",
+		"key": "D87N8NY8",
+		"pages": "285–295",
+		"place": "New York, NY, USA",
+		"proceedingsTitle": "Proceedings of the 10th international conference on world wide web",
+		"publisher": "Association for Computing Machinery",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/5UAML3X4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Item-based collaborative filtering recommendation algorithms"
+	}
+}

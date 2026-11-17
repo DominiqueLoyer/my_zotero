@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:33Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-11-17T14:46:35Z",
+			"itemType": "attachment",
+			"key": "C34NNN5U",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:39:21 p.m.</p>",
+			"parentItem": "EQEBTXRQ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/2F3RSURT"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Karimi2021-3129fa248c5781d1b7f8e7edd4b720fe"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "C34NNN5U",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Karimi2021-3129fa248c5781d1b7f8e7edd4b720fe"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"references_dic9401"
+		],
+		"creators": [
+			"Karimi, Amir-Hossein and Barthe, Gilles and Balle, Borja and Valera, Isabel"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A survey of algorithmic recourse: definitions, formulations, and empirical evaluation",
+		"year": "2021",
+		"zoteroURI": "zotero://select/groups/6376680/items/EQEBTXRQ"
+	},
+	"zotero": {
+		"DOI": "10.1145/3446342",
+		"citationKey": "Karimi2021",
+		"collections": [
+			"KRMD3KDT",
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Karimi, Amir-Hossein and Barthe, Gilles and Balle, Borja and Valera, Isabel"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-11-17T14:46:35Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "EQEBTXRQ",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/I4955NR6"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A survey of algorithmic recourse: definitions, formulations, and empirical evaluation"
+	}
+}

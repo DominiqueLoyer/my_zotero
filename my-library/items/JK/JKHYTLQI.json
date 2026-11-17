@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:18Z",
+			"dateModified": "2026-01-08T22:57:41Z",
+			"filename": "resume29335 copie.bib",
+			"itemType": "attachment",
+			"key": "HQPNH99T",
+			"linkMode": "imported_file",
+			"parentItem": "JKHYTLQI",
+			"relations": {},
+			"tags": [],
+			"title": "resume29335 copie"
+		},
+		{
+			"accessDate": "2026-01-16T15:53:28Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:28Z",
+			"dateModified": "2026-03-09T20:46:44Z",
+			"itemType": "attachment",
+			"key": "TEK383NU",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:46:44 p.m.</p>",
+			"parentItem": "JKHYTLQI",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/VU7Q54YZ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Resume29335Copie-2ea9fa248c5781bd937af0b0c029e2fc"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TEK383NU",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Resume29335Copie-2ea9fa248c5781bd937af0b0c029e2fc"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "resume29335 copie.bib",
+				"files": [
+					{
+						"path": "attachments/HQ/HQPNH99T/resume29335 copie.bib",
+						"size": 2820,
+						"storage": "git"
+					}
+				],
+				"key": "HQPNH99T",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "resume29335 copie",
+				"url": null
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "resume29335 copie",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/JKHYTLQI"
+	},
+	"zotero": {
+		"citationKey": "Resume29335Copie",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:41Z",
+		"dateModified": "2026-01-16T15:53:28Z",
+		"itemType": "document",
+		"key": "JKHYTLQI",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/TI3MD9RR"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "resume29335 copie"
+	}
+}

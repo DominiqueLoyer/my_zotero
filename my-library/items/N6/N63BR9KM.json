@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:19:41Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:41Z",
+			"dateModified": "2026-03-14T18:19:41Z",
+			"itemType": "attachment",
+			"key": "E2WEAWQW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:19:41 p.m.</p>",
+			"parentItem": "N63BR9KM",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/DU9WA2QH"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/harmanOverviewThirdText-3239fa248c578188ac09c8ceeb643ef2"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:54Z",
+			"dateModified": "2026-03-14T17:36:25Z",
+			"itemType": "attachment",
+			"key": "ZPEGTXXE",
+			"linkMode": "linked_file",
+			"parentItem": "N63BR9KM",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/trec_rapport1_030326/PDFs/Harman - Overview of the third text Retrieval conference (TREC-3).pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "E2WEAWQW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/harmanOverviewThirdText-3239fa248c578188ac09c8ceeb643ef2"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Harman - Overview of the third text Retrieval conference (TREC-3).pdf",
+				"files": [],
+				"key": "ZPEGTXXE",
+				"linkMode": "linked_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/trec_rapport1_030326/PDFs"
+		],
+		"creators": [
+			"Harman, D K"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Overview of the third text Retrieval conference (TREC-3)",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/N63BR9KM"
+	},
+	"zotero": {
+		"citationKey": "harmanOverviewThirdText",
+		"collections": [
+			"MISBU3F7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "D K",
+				"lastName": "Harman"
+			}
+		],
+		"dateAdded": "2026-03-14T17:36:24Z",
+		"dateModified": "2026-03-14T18:19:41Z",
+		"itemType": "journalArticle",
+		"key": "N63BR9KM",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/K7RH2Y7W"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Overview of the third text Retrieval conference (TREC-3)"
+	}
+}

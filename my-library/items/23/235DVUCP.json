@@ -1,0 +1,275 @@
+{
+	"children": [
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[62.362,681.548,175.446,689.555]]}",
+			"annotationSortIndex": "00000|000208|00152",
+			"annotationText": "Faust and Hugo Larochelle",
+			"annotationType": "highlight",
+			"dateAdded": "2024-10-15T19:13:49Z",
+			"dateModified": "2024-10-15T19:13:49Z",
+			"itemType": "annotation",
+			"key": "2TPP4RH3",
+			"parentItem": "ZIUNVABB",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:37:46Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:46Z",
+			"dateModified": "2026-01-02T19:18:35Z",
+			"itemType": "attachment",
+			"key": "HTGX22T6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:35 p.m.</p>",
+			"parentItem": "235DVUCP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/agarwalManyShotInContextLearning2024-2c09fa248c5781969bc4fa7dc0d10a54"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[54.58,235.123,544.526,441.954]]}",
+			"annotationSortIndex": "00000|001372|00399",
+			"annotationType": "image",
+			"dateAdded": "2024-10-15T19:14:23Z",
+			"dateModified": "2024-10-15T19:14:23Z",
+			"itemType": "annotation",
+			"key": "TKC5LYAI",
+			"parentItem": "ZIUNVABB",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-10-15T19:08:06Z",
+			"dateModified": "2024-11-08T14:27:14Z",
+			"filename": "Agarwal et al. - 2024 - Many-Shot In-Context Learning.pdf",
+			"itemType": "attachment",
+			"key": "ZIUNVABB",
+			"linkMode": "imported_file",
+			"parentItem": "235DVUCP",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "few shots learning"
+				},
+				{
+					"tag": "méta-apprentissage"
+				}
+			],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ff6666",
+			"annotationComment": "",
+			"annotationPageLabel": "1",
+			"annotationPosition": "{\"pageIndex\":0,\"rects\":[[136.294,632.269,204.997,641.166]]}",
+			"annotationSortIndex": "00000|000279|00200",
+			"annotationText": "models (LLMs)",
+			"annotationType": "highlight",
+			"dateAdded": "2024-10-15T19:14:01Z",
+			"dateModified": "2024-10-15T19:14:01Z",
+			"itemType": "annotation",
+			"key": "ZXPQ724W",
+			"parentItem": "ZIUNVABB",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HTGX22T6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/agarwalManyShotInContextLearning2024-2c09fa248c5781969bc4fa7dc0d10a54"
+			},
+			{
+				"annotationCount": 3,
+				"contentType": "application/pdf",
+				"filename": "Agarwal et al. - 2024 - Many-Shot In-Context Learning.pdf",
+				"files": [
+					{
+						"path": "attachments/ZI/ZIUNVABB/Agarwal et al. - 2024 - Many-Shot In-Context Learning.pdf",
+						"size": 1128792,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/ZI/ZIUNVABB/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 95584,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/ZI/ZIUNVABB/Agarwal et al. - 2024 - Many-Shot In-Context Learning (trashed 2025-11-25 17-09-15).pdf",
+						"size": 1128792,
+						"storage": "git"
+					}
+				],
+				"key": "ZIUNVABB",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9270(A24)"
+		],
+		"creators": [
+			"Agarwal, Rishabh",
+			"Singh, Avi",
+			"Zhang, Lei M.",
+			"Bohnet, Bernd",
+			"Rosias, Luis",
+			"Chan, Stephanie",
+			"Zhang, Biao",
+			"Anand, Ankesh",
+			"Abbas, Zaheer",
+			"Nova, Azade",
+			"Co-Reyes, John D.",
+			"Chu, Eric",
+			"Behbahani, Feryal",
+			"Faust, Aleksandra",
+			"Larochelle, Hugo"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Many-Shot In-Context Learning",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/235DVUCP"
+	},
+	"zotero": {
+		"abstractNote": "Large language models (LLMs) excel at few-shot in-context learning (ICL) -- learning from a few examples provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples -- the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated examples. To mitigate this limitation, we explore two new settings: Reinforced and Unsupervised ICL. Reinforced ICL uses model-generated chain-of-thought rationales in place of human examples. Unsupervised ICL removes rationales from the prompt altogether, and prompts the model only with domain-specific questions. We find that both Reinforced and Unsupervised ICL can be quite effective in the many-shot regime, particularly on complex reasoning tasks. Finally, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning. Our analysis also reveals the limitations of next-token prediction loss as an indicator of downstream ICL performance.",
+		"accessDate": "2024-10-15T19:08:11Z",
+		"archiveID": "arXiv:2404.11018",
+		"citationKey": "agarwalManyShotInContextLearning2024",
+		"collections": [
+			"MKJPXVYB"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Rishabh",
+				"lastName": "Agarwal"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Avi",
+				"lastName": "Singh"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lei M.",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Bernd",
+				"lastName": "Bohnet"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Luis",
+				"lastName": "Rosias"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Stephanie",
+				"lastName": "Chan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Biao",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ankesh",
+				"lastName": "Anand"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Zaheer",
+				"lastName": "Abbas"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Azade",
+				"lastName": "Nova"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "John D.",
+				"lastName": "Co-Reyes"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Eric",
+				"lastName": "Chu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Feryal",
+				"lastName": "Behbahani"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aleksandra",
+				"lastName": "Faust"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Hugo",
+				"lastName": "Larochelle"
+			}
+		],
+		"date": "2024-05-22",
+		"dateAdded": "2024-10-15T19:08:11Z",
+		"dateModified": "2025-12-05T22:37:46Z",
+		"extra": "arXiv:2404.11018 [cs]",
+		"itemType": "preprint",
+		"key": "235DVUCP",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Many-Shot In-Context Learning",
+		"url": "http://arxiv.org/abs/2404.11018"
+	}
+}

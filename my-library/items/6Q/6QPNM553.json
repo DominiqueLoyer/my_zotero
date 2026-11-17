@@ -1,0 +1,126 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-05-06T20:15:33Z",
+			"dateModified": "2025-05-06T20:15:36Z",
+			"filename": "EXTRAIT DE LA PROCÉDURE POUR L’EXAMEN GÉNÉRAL DIC9401.pdf",
+			"itemType": "attachment",
+			"key": "67A32MHC",
+			"linkMode": "imported_file",
+			"parentItem": "6QPNM553",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-08-21T19:24:06Z",
+			"dateModified": "2025-08-21T19:38:24Z",
+			"filename": "EXTRAIT DE LA PROCÉDURE POUR L’EXAMEN GÉNÉRAL DIC9401.pdf",
+			"itemType": "attachment",
+			"key": "BDAT2KCM",
+			"linkMode": "imported_file",
+			"parentItem": "6QPNM553",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:34:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:49Z",
+			"dateModified": "2026-11-09T17:08:52Z",
+			"itemType": "attachment",
+			"key": "ZDBZP56H",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:52 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "6QPNM553",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/EXTRAIT-DE-LA-PROC-DURE-POUR-L-EXAMEN-G-N-RAL-DIC9401-4129fa248c5781749e0ffc270bf36c07"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZDBZP56H",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/EXTRAIT-DE-LA-PROC-DURE-POUR-L-EXAMEN-G-N-RAL-DIC9401-4129fa248c5781749e0ffc270bf36c07"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "EXTRAIT DE LA PROCÉDURE POUR L’EXAMEN GÉNÉRAL DIC9401.pdf",
+				"files": [],
+				"key": "67A32MHC",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "EXTRAIT DE LA PROCÉDURE POUR L’EXAMEN GÉNÉRAL DIC9401.pdf",
+				"files": [
+					{
+						"path": "attachments/BD/BDAT2KCM/EXTRAIT DE LA PROCÉDURE POUR L’EXAMEN GÉNÉRAL DIC9401.pdf",
+						"size": 135648,
+						"storage": "git"
+					}
+				],
+				"key": "BDAT2KCM",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)"
+		],
+		"creators": [],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "EXTRAIT DE LA PROCÉDURE POUR L’EXAMEN GÉNÉRAL DIC9401",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/6QPNM553"
+	},
+	"zotero": {
+		"citationKey": "EXTRAITPROCEDUREPOUR",
+		"collections": [
+			"TFCUVACE"
+		],
+		"creators": [],
+		"dateAdded": "2025-05-06T20:15:35Z",
+		"dateModified": "2025-12-05T22:34:49Z",
+		"itemType": "journalArticle",
+		"key": "6QPNM553",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/NCLVY6EQ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "EXTRAIT DE LA PROCÉDURE POUR L’EXAMEN GÉNÉRAL DIC9401"
+	}
+}

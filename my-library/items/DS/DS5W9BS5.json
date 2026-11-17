@@ -1,0 +1,233 @@
+{
+	"children": [
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#e56eee",
+			"annotationComment": "",
+			"annotationPageLabel": "4",
+			"annotationPosition": "{\"pageIndex\":3,\"rects\":[[50.165,180.295,323.296,192.046],[50.165,168.34,111.081,178.431],[61.77,155.59,310.129,166.679],[83.945,142.851,280.015,151.145],[93.801,131.892,321.18,140.186],[93.801,120.933,215.78,129.227],[61.77,107.77,249.027,118.858],[83.945,94.463,306.067,103.324],[83.945,84.071,293.748,92.365],[83.945,73.112,321.358,81.406]]}",
+			"annotationSortIndex": "00003|000023|00080",
+			"annotationText": "Apprentissage machine par la détermination de poids de connexions : ● détermination de la représentation à partir d’exemples ● usage d’ensembles de données correctes pour l’entraînement (détermination des poids), puis application sur des données quelconques. ● Abstraitement, déterminer une fonction f ● à partir de valeurs correctes f (x1) = y1, . . . , f (xn) = yn, ● usage de f pour prédire de nouvelles valeurs f (x). ● La fonction f est déterminée par le poids des connexions.",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-10T01:22:57Z",
+			"dateModified": "2024-12-10T01:22:57Z",
+			"itemType": "annotation",
+			"key": "5HBTR5ZS",
+			"parentItem": "AXYRIWQK",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#e56eee",
+			"annotationComment": "",
+			"annotationPageLabel": "20",
+			"annotationPosition": "{\"pageIndex\":19,\"rects\":[[50.165,156.473,331.369,168.224],[50.165,144.517,272.393,154.608],[61.77,130.772,247.773,141.86],[61.77,118.817,332.106,129.905],[61.77,106.861,235.27,117.95]]}",
+			"annotationSortIndex": "00019|000154|00142",
+			"annotationText": "Lorsqu’il y a peu de données étiquetées, on peut utiliser la validation croissée (10 folds cross-validation) : ● diviser les données en 10 partie égales, ● entraîner sur les 9 dixièmes et valider sur la dixième partie, ● recommencer avec un autre dixième.",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-10T08:48:01Z",
+			"dateModified": "2024-12-10T08:48:01Z",
+			"itemType": "annotation",
+			"key": "8PU6I7VK",
+			"parentItem": "AXYRIWQK",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-08T17:44:22Z",
+			"dateModified": "2024-12-08T17:44:24Z",
+			"filename": "Villemaire - DIC9150 Concepts fondamentaux de l'informatique cognitive - Réseaux Neuronaux Artificiels (RNA).pdf",
+			"itemType": "attachment",
+			"key": "AXYRIWQK",
+			"linkMode": "imported_file",
+			"parentItem": "DS5W9BS5",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#e56eee",
+			"annotationComment": "",
+			"annotationPageLabel": "17",
+			"annotationPosition": "{\"pageIndex\":16,\"rects\":[[50.165,199.719,296.742,211.47],[50.165,186.17,330.298,196.261],[50.165,172.621,321.834,182.712],[50.165,159.071,83.35,169.162]]}",
+			"annotationSortIndex": "00016|000060|00075",
+			"annotationText": "L’apprentissage consiste à déterminer, à l’aide d’un ensemble d’entraînement contenant des valeurs correctes de la fonction, des valeurs adéquates pour les poids des arêtes.",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-10T08:22:56Z",
+			"dateModified": "2024-12-10T08:22:56Z",
+			"itemType": "annotation",
+			"key": "JKN4WVW4",
+			"parentItem": "AXYRIWQK",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "",
+			"annotationPageLabel": "19",
+			"annotationPosition": "{\"pageIndex\":18,\"rects\":[[50.165,168.344,310.17,180.095],[50.165,154.795,289.672,164.886],[50.165,141.246,122.209,151.337],[39.499,126.302,132.027,138.053],[61.77,112.556,268.236,123.644],[61.77,100.601,280.749,111.689],[61.77,88.646,178.284,99.734]]}",
+			"annotationSortIndex": "00018|000025|00092",
+			"annotationText": "Pour ne pas biaiser les résultats, il faut valider sur des données de test distinctes de celles utilisées pour l’entraînement. ● Il s’agit donc de : ● obtenir un ensemble de données étiquetées, ● en prendre une partie pour faire l’entraînement, ● valider sur l’autre partie.",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-10T08:46:59Z",
+			"dateModified": "2024-12-10T08:46:59Z",
+			"itemType": "annotation",
+			"key": "QKTHB3AZ",
+			"parentItem": "AXYRIWQK",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "",
+			"annotationPageLabel": "22",
+			"annotationPosition": "{\"pageIndex\":21,\"rects\":[[50.165,179.634,290.558,191.386],[50.165,167.679,110.58,177.77],[61.77,153.933,222.618,165.022],[61.77,141.978,333.172,153.067],[61.77,131.019,231.056,142.108],[83.945,118.28,253.591,126.574],[39.499,101.328,323.373,113.079],[50.165,87.779,289.587,97.87],[50.165,74.23,156.769,84.321]]}",
+			"annotationSortIndex": "00021|000108|00119",
+			"annotationText": "D’énormes quantités de données sont aujourd’hui disponibles : ● en entreprise : bases de données, ● par la contribution en ligne : Google, Facebook, Twitter, etc.  ● par des projets ciblés, par exemple : ● ImageNet https ://www.kaggle.com/, etc.  ● Idée : L’intelligence humaine sera reproductible bien plus avec d’énormes quantités de données qu’avec de nouveaux algorithmes",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-10T08:50:35Z",
+			"dateModified": "2024-12-10T08:50:35Z",
+			"itemType": "annotation",
+			"key": "RQT62QAQ",
+			"parentItem": "AXYRIWQK",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:24:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:54Z",
+			"dateModified": "2026-11-09T17:07:45Z",
+			"itemType": "attachment",
+			"key": "TRLGDMQ8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:45 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "DS5W9BS5",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Villemaire-4129fa248c578145890fc1ab6ee7a5d1"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "",
+			"annotationPageLabel": "18",
+			"annotationPosition": "{\"pageIndex\":17,\"rects\":[[50.165,81.279,329.471,93.03],[50.165,67.73,334.489,77.821],[50.165,54.181,119.176,64.272]]}",
+			"annotationSortIndex": "00017|000475|00194",
+			"annotationText": "On teste la qualité (erreur) sur un ensemble de test qui ne sert pas à déterminer les poids et est donc indépendant de l’entraînement",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-10T08:28:32Z",
+			"dateModified": "2024-12-10T08:28:32Z",
+			"itemType": "annotation",
+			"key": "XVUY63QV",
+			"parentItem": "AXYRIWQK",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "",
+			"annotationPageLabel": "17",
+			"annotationPosition": "{\"pageIndex\":16,\"rects\":[[50.165,142.533,302.678,154.285],[50.165,128.984,326.947,139.075],[50.165,115.435,293.307,125.526],[50.165,101.886,125.852,111.977],[39.499,85.348,318.114,97.099],[50.165,71.799,236.525,81.89],[39.499,55.261,284.089,67.012],[50.165,41.712,164.033,51.803]]}",
+			"annotationSortIndex": "00016|000210|00133",
+			"annotationText": "Au niveau computationnel il s’agit de déterminer des valeurs des poids qui minimisent l’erreur (différence entre la valeur obtenue et celle désirée) pour l’ensemble d’entraînement,  ● cette erreur est calculée à partir d’une fonction de perte (loss function) spécifique au problème.  ● En termes statistiques, il s’agit d’un problème de régression non-linéaire.",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-10T08:42:30Z",
+			"dateModified": "2024-12-10T08:42:30Z",
+			"itemType": "annotation",
+			"key": "Z2DU2KQC",
+			"parentItem": "AXYRIWQK",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TRLGDMQ8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Villemaire-4129fa248c578145890fc1ab6ee7a5d1"
+			},
+			{
+				"annotationCount": 7,
+				"contentType": "application/pdf",
+				"filename": "Villemaire - DIC9150 Concepts fondamentaux de l'informatique cognitive - Réseaux Neuronaux Artificiels (RNA).pdf",
+				"files": [
+					{
+						"path": "attachments/AX/AXYRIWQK/Villemaire - DIC9150 Concepts fondamentaux de l'informatique cognitive - Réseaux Neuronaux Artificiels (RNA).pdf",
+						"size": 464979,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/AX/AXYRIWQK/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 12805,
+						"storage": "git"
+					}
+				],
+				"key": "AXYRIWQK",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/Dic9150/cours 12 RN, génétiques, sys dynaique"
+		],
+		"creators": [
+			"Villemaire, Roger"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DIC9150 Concepts fondamentaux de l'informatique cognitive - Réseaux Neuronaux Artificiels (RNA)",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/DS5W9BS5"
+	},
+	"zotero": {
+		"citationKey": "villemaireDIC9150ConceptsFondamentauxa",
+		"collections": [
+			"QVLHRN5B"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Roger",
+				"lastName": "Villemaire"
+			}
+		],
+		"dateAdded": "2024-12-08T17:44:24Z",
+		"dateModified": "2025-12-29T23:57:34Z",
+		"itemType": "journalArticle",
+		"key": "DS5W9BS5",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "DIC9150 Concepts fondamentaux de l'informatique cognitive - Réseaux Neuronaux Artificiels (RNA)"
+	}
+}

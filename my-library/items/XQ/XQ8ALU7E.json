@@ -1,0 +1,95 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-10-28T18:13:38Z",
+			"dateModified": "2024-11-22T16:31:24Z",
+			"filename": "fodor-pylyshyn.pdf",
+			"itemType": "attachment",
+			"key": "GJAJLZ44",
+			"linkMode": "imported_file",
+			"parentItem": "XQ8ALU7E",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:34:35Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:35Z",
+			"dateModified": "2026-11-09T17:09:05Z",
+			"itemType": "attachment",
+			"key": "PQERH8WX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:05 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "XQ8ALU7E",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/fodor-pylyshyn-4129fa248c57818d8862e6dd8a96787a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PQERH8WX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/fodor-pylyshyn-4129fa248c57818d8862e6dd8a96787a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "fodor-pylyshyn.pdf",
+				"files": [
+					{
+						"path": "attachments/GJ/GJAJLZ44/fodor-pylyshyn.pdf",
+						"size": 3775126,
+						"storage": "git"
+					}
+				],
+				"key": "GJAJLZ44",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "fodor-pylyshyn",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/XQ8ALU7E"
+	},
+	"zotero": {
+		"citationKey": "Fodorpylyshyn",
+		"collections": [
+			"ACPRN45Y"
+		],
+		"creators": [],
+		"dateAdded": "2024-11-22T16:31:23Z",
+		"dateModified": "2025-12-05T22:34:35Z",
+		"itemType": "document",
+		"key": "XQ8ALU7E",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "fodor-pylyshyn"
+	}
+}

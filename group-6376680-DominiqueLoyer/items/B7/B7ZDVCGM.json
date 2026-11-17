@@ -1,0 +1,85 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:35:07Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "RH2UN55N",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:51:19 p.m.</p>",
+			"parentItem": "B7ZDVCGM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Zhang2017-2e29fa248c578157a75ee46decbe29a5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RH2UN55N",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Zhang2017-2e29fa248c578157a75ee46decbe29a5"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Zhang, Dong",
+			"Li, Wu-Jun"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A deep neural network for semi-supervised aspect-based sentiment analysis",
+		"year": "2017",
+		"zoteroURI": "zotero://select/groups/6376680/items/B7ZDVCGM"
+	},
+	"zotero": {
+		"DOI": "10.1145/3041021.3054174",
+		"citationKey": "zhangDeepNeuralNetwork2017a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dong",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Wu-Jun",
+				"lastName": "Li"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "conferencePaper",
+		"key": "B7ZDVCGM",
+		"language": "fr-CA",
+		"pages": "1303–1304",
+		"place": "Republic and Canton of Geneva, CHE",
+		"proceedingsTitle": "Proceedings of the 26th international conference on world wide web companion (WWW '17 companion)",
+		"publisher": "International World Wide Web Conferences Steering Committee",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A deep neural network for semi-supervised aspect-based sentiment analysis"
+	}
+}

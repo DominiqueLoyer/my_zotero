@@ -1,0 +1,78 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:28:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:28:25Z",
+			"dateModified": "2026-11-09T17:05:10Z",
+			"itemType": "attachment",
+			"key": "K4SBKR47",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:10 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "I6TV2V8Z",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/NIST-2023-4129fa248c5781508de3eb089eff33db"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "K4SBKR47",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/NIST-2023-4129fa248c5781508de3eb089eff33db"
+			}
+		],
+		"collections": [
+			"references"
+		],
+		"creators": [
+			"NIST"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "AI risk management framework",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/I6TV2V8Z"
+	},
+	"zotero": {
+		"citationKey": "nistAIRiskManagement2023b",
+		"collections": [
+			"7PN5IQY2"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "NIST"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-01-08T20:10:57Z",
+		"dateModified": "2026-11-13T19:31:06Z",
+		"itemType": "document",
+		"key": "I6TV2V8Z",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "AI risk management framework",
+		"url": "https://www.nist.gov/itl/ai-risk-management-framework"
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T15:59:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T15:59:49Z",
+			"dateModified": "2026-11-09T17:04:35Z",
+			"itemType": "attachment",
+			"key": "2UTCIP3V",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:35 p.m.</p>",
+			"parentItem": "6QCMKBTP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Thibault-Camille-and-Tian-Jacob-Junqi-and-Peloquin-Skulski-Gabrielle-and-Curtis-Taylor-Lynn-and--4129fa248c578143a9f5d074d4fa3e69"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2UTCIP3V",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Thibault-Camille-and-Tian-Jacob-Junqi-and-Peloquin-Skulski-Gabrielle-and-Curtis-Taylor-Lynn-and--4129fa248c578143a9f5d074d4fa3e69"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Thibault, Camille and Tian, Jacob-Junqi and Peloquin-Skulski, Gabrielle and Curtis, Taylor Lynn and Zhou, James and Laflamme, Florence and Guan, Yuxiang and Rabbany, Reihaneh and Godbout, Jean-Fran{\\c{c}}ois and Pelrine, Kellin"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A Guide to Misinformation Detection Data and Evaluation",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/6QCMKBTP"
+	},
+	"zotero": {
+		"DOI": "10.1145/3711896.3737437",
+		"citationKey": "thibaultcamilleandtianjacob-junqiandpeloquin-skulskigabrielleandcurtistaylorlynnandzhoujamesandlaflammeflorenceandguanyuxiangandrabbanyreihanehandgodboutjean-franccoisandpelrinekellinGuideMisinformationDetection2025",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Thibault, Camille and Tian, Jacob-Junqi and Peloquin-Skulski, Gabrielle and Curtis, Taylor Lynn and Zhou, James and Laflamme, Florence and Guan, Yuxiang and Rabbany, Reihaneh and Godbout, Jean-Fran{\\c{c}}ois and Pelrine, Kellin"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-26T20:18:55Z",
+		"dateModified": "2026-11-09T15:05:57Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "6QCMKBTP",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/BDGXPID2",
+				"http://zotero.org/users/15425556/items/N8W642U4",
+				"http://zotero.org/users/15425556/items/REHWP78F"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/DNECCWWM"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Guide to Misinformation Detection Data and Evaluation"
+	}
+}

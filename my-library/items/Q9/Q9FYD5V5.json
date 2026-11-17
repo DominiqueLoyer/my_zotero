@@ -1,0 +1,136 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:33:34Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:34Z",
+			"dateModified": "2026-11-09T14:55:22Z",
+			"itemType": "attachment",
+			"key": "DLRIJ6BJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:11:16 p.m.</p>",
+			"parentItem": "Q9FYD5V5",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/SLZ935D5"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/9VE5HAH7"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/isinkayeRecommendationSystemsPrinciples2015-2c09fa248c578146a0fae4ef7344fbf9"
+		},
+		{
+			"accessDate": "2026-01-08T20:33:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:33:18Z",
+			"dateModified": "2026-11-09T14:55:22Z",
+			"itemType": "attachment",
+			"key": "WFSKR92B",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:50:11 p.m.</p>",
+			"parentItem": "Q9FYD5V5",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Isinkaye2015-2e29fa248c5781818fb2da2f180e47e9"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WFSKR92B",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Isinkaye2015-2e29fa248c5781818fb2da2f180e47e9"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "DLRIJ6BJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/isinkayeRecommendationSystemsPrinciples2015-2c09fa248c578146a0fae4ef7344fbf9"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Isinkaye, F. O.",
+			"Folajimi, Y. O.",
+			"Ojokoh, B. A."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Recommendation systems: Principles, methods and evaluation",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/Q9FYD5V5"
+	},
+	"zotero": {
+		"DOI": "10.1016/j.eij.2015.06.001",
+		"citationKey": "isinkayeRecommendationSystemsPrinciples2015",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "F. O.",
+				"lastName": "Isinkaye"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Y. O.",
+				"lastName": "Folajimi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "B. A.",
+				"lastName": "Ojokoh"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-09T14:55:22Z",
+		"issue": "3",
+		"itemType": "journalArticle",
+		"key": "Q9FYD5V5",
+		"pages": "261–273",
+		"publicationTitle": "Egyptian Informatics Journal",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/DJ29EDQD",
+				"http://zotero.org/users/15425556/items/HDGJM2D8"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UKAG7I65"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Recommendation systems: Principles, methods and evaluation",
+		"volume": "16"
+	}
+}

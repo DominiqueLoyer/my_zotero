@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:41Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:46Z",
+			"dateModified": "2026-11-17T14:49:19Z",
+			"itemType": "attachment",
+			"key": "5BRLYAVM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:36:37 p.m.</p>",
+			"parentItem": "488GE4WG",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/EC3WQI7A"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Vogl2020-3129fa248c5781b2b6aed34f98b44c78"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "5BRLYAVM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Vogl2020-3129fa248c5781b2b6aed34f98b44c78"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"references_dic9401"
+		],
+		"creators": [
+			"Vogl, T. M. and Rieder, G. and Schendl, T."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "The Algorithmic Bureaucracy: The new material basis of the state",
+		"year": "2020",
+		"zoteroURI": "zotero://select/groups/6376680/items/488GE4WG"
+	},
+	"zotero": {
+		"DOI": "10.1080/1369118X.2020.1726493",
+		"citationKey": "Vogl2020",
+		"collections": [
+			"KRMD3KDT",
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Vogl, T. M. and Rieder, G. and Schendl, T."
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-03-08T21:46:46Z",
+		"dateModified": "2026-11-17T14:49:19Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "488GE4WG",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/ZENDSXSQ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Algorithmic Bureaucracy: The new material basis of the state"
+	}
+}

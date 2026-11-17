@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:10:57Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:10:57Z",
+			"dateModified": "2026-11-08T16:10:57Z",
+			"filename": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and et al. - 2017 - Attention Is All You Need.pdf",
+			"itemType": "attachment",
+			"key": "5B8E52ZW",
+			"linkMode": "imported_url",
+			"parentItem": "463W9XB7",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1706.03762"
+		},
+		{
+			"accessDate": "2026-03-09T20:34:55Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:34:55Z",
+			"dateModified": "2026-11-09T17:05:40Z",
+			"itemType": "attachment",
+			"key": "REVX38GV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:40 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "463W9XB7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Vaswani-Ashish-and-Shazeer-Noam-and-Parmar-Niki-and-et-al-2017-4129fa248c57816bb0c9e379cf4ffb7a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "REVX38GV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Vaswani-Ashish-and-Shazeer-Noam-and-Parmar-Niki-and-et-al-2017-4129fa248c57816bb0c9e379cf4ffb7a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and et al. - 2017 - Attention Is All You Need.pdf",
+				"files": [
+					{
+						"path": "attachments/5B/5B8E52ZW/Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and et al. - 2017 - Attention Is All You Need.pdf",
+						"size": 2215244,
+						"storage": "git"
+					}
+				],
+				"key": "5B8E52ZW",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1706.03762"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and et al."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Attention Is All You Need",
+		"year": "2017",
+		"zoteroURI": "zotero://select/library/items/463W9XB7"
+	},
+	"zotero": {
+		"DOI": "10.65215/nxvz2v36",
+		"citationKey": "vaswaniashishandshazeernoamandparmarnikiandetal.AttentionAllYou2017",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and et al."
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-03-05T00:54:39Z",
+		"dateModified": "2026-03-25T21:29:00Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "463W9XB7",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Attention Is All You Need"
+	}
+}

@@ -1,0 +1,157 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-08-23T17:35:03Z",
+			"dateModified": "2025-08-23T17:35:10Z",
+			"filename": "Larrinaga - 2016 - The utopia of rules. On technology, stupidity, and the secret joys of bureaucracy.pdf",
+			"itemType": "attachment",
+			"key": "7N5D96PJ",
+			"linkMode": "imported_file",
+			"parentItem": "SIGULKBY",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "",
+			"annotationPageLabel": "27",
+			"annotationPosition": "{\"pageIndex\":26,\"rects\":[[119.503,653.888,504.528,677.443],[99.213,628.982,313.834,652.537]]}",
+			"annotationSortIndex": "00026|000002|00114",
+			"annotationText": "Dead Zones of the Imagination: An Essay on Structural Stupidity",
+			"annotationType": "highlight",
+			"dateAdded": "2025-08-23T17:50:22Z",
+			"dateModified": "2025-08-23T17:50:33Z",
+			"itemType": "annotation",
+			"key": "943PWUCR",
+			"parentItem": "7N5D96PJ",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "Dead Zones of the Imagination"
+				}
+			]
+		},
+		{
+			"accessDate": "2025-12-05T22:32:27Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:27Z",
+			"dateModified": "2026-01-02T19:13:00Z",
+			"itemType": "attachment",
+			"key": "JINSG8JP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:00 p.m.</p>",
+			"parentItem": "SIGULKBY",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/larrinagaUtopiaRulesTechnology2016-2c09fa248c578128aadcf9dde8caf563"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "",
+			"annotationPageLabel": "59",
+			"annotationPosition": "{\"pageIndex\":58,\"rects\":[[99.213,590.414,524.406,602.851],[99.213,576.865,374.242,589.302]]}",
+			"annotationSortIndex": "00058|000669|00189",
+			"annotationText": "There are dead zones that riddle our lives, areas so devoid of any possibility of interpretive depth that they repel every attempt to give them value or meaning.",
+			"annotationType": "highlight",
+			"dateAdded": "2025-08-23T17:42:10Z",
+			"dateModified": "2025-08-23T17:44:04Z",
+			"itemType": "annotation",
+			"key": "YD2NVGYM",
+			"parentItem": "7N5D96PJ",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "death zone"
+				}
+			]
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JINSG8JP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/larrinagaUtopiaRulesTechnology2016-2c09fa248c578128aadcf9dde8caf563"
+			},
+			{
+				"annotationCount": 2,
+				"contentType": "application/pdf",
+				"filename": "Larrinaga - 2016 - The utopia of rules. On technology, stupidity, and the secret joys of bureaucracy.pdf",
+				"files": [
+					{
+						"path": "attachments/7N/7N5D96PJ/Larrinaga - 2016 - The utopia of rules. On technology, stupidity, and the secret joys of bureaucracy.pdf",
+						"size": 1524000,
+						"storage": "git"
+					}
+				],
+				"key": "7N5D96PJ",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/littératures"
+		],
+		"creators": [
+			"Larrinaga, Carlos"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The utopia of rules. On technology, stupidity, and the secret joys of bureaucracy",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/SIGULKBY"
+	},
+	"zotero": {
+		"DOI": "10.1080/0969160X.2016.1235401",
+		"ISSN": "0969-160X, 2156-2245",
+		"accessDate": "2025-08-23T17:35:10Z",
+		"citationKey": "larrinagaUtopiaRulesTechnology2016",
+		"collections": [
+			"UXNH7MFL"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Carlos",
+				"lastName": "Larrinaga"
+			}
+		],
+		"date": "09/2016",
+		"dateAdded": "2025-08-23T17:35:10Z",
+		"dateModified": "2025-12-05T22:32:27Z",
+		"issue": "3",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Social and Environmental Accountability Journal",
+		"key": "SIGULKBY",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "209-210",
+		"publicationTitle": "Social and Environmental Accountability Journal",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The utopia of rules. On technology, stupidity, and the secret joys of bureaucracy",
+		"url": "https://www.tandfonline.com/doi/full/10.1080/0969160X.2016.1235401",
+		"volume": "36"
+	}
+}

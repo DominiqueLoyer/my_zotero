@@ -1,0 +1,90 @@
+{
+	"children": [
+		{
+			"dateAdded": "2025-04-10T15:02:46Z",
+			"dateModified": "2025-04-10T15:02:46Z",
+			"itemType": "note",
+			"key": "M5JVLMA9",
+			"note": "Accessed: 2025-04-09",
+			"parentItem": "XMTLVYZC",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:28:25Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:25Z",
+			"dateModified": "2026-01-02T19:13:50Z",
+			"itemType": "attachment",
+			"key": "V3BWHR9Z",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:50 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-81c0-89a7-e9491b544555\",\"notes\":{\"M5JVLMA9\":{\"blockID\":\"2c09fa24-8c57-8142-9dbc-c3b798e85ae6\",\"syncedAt\":\"2025-12-05T22:39:55.421Z\"}}}</pre>",
+			"parentItem": "XMTLVYZC",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/nieIRBook-2c09fa248c578194815bee2937b6cb8c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "V3BWHR9Z",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/nieIRBook-2c09fa248c578194815bee2937b6cb8c"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Nie, Jian-Yun"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "M5JVLMA9",
+				"title": "Accessed: 2025-04-09"
+			}
+		],
+		"title": "Information retrieval: Implementing and evaluating search engines (online material)",
+		"year": "2010",
+		"zoteroURI": "zotero://select/library/items/XMTLVYZC"
+	},
+	"zotero": {
+		"citationKey": "nieInformationRetrievalImplementing2010",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jian-Yun",
+				"lastName": "Nie"
+			}
+		],
+		"date": "2010",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2025-04-10T15:02:46Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "document",
+		"key": "XMTLVYZC",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Information retrieval: Implementing and evaluating search engines (online material)",
+		"url": "https://www.iro.umontreal.ca/~nie/IR-book/Preface.html"
+	}
+}

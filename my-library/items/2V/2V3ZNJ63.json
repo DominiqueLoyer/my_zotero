@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:14:15Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:14:15Z",
+			"dateModified": "2026-11-08T16:14:15Z",
+			"filename": "Zhu, Zulun and Huang, Tiancheng and Wang, Kai and Ye, Junda and Chen, Xinghe and Luo, Siqiang - 2026 - Graph-based approaches and functionalities in retrieval-augmented generation A comprehensive survey.pdf",
+			"itemType": "attachment",
+			"key": "GRAPZJY2",
+			"linkMode": "imported_url",
+			"parentItem": "2V3ZNJ63",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2504.10499"
+		},
+		{
+			"accessDate": "2026-03-09T20:32:18Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:18Z",
+			"dateModified": "2026-11-09T17:09:24Z",
+			"itemType": "attachment",
+			"key": "VYMNN4H2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:24 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "2V3ZNJ63",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Zhu-Zulun-and-Huang-Tiancheng-and-Wang-Kai-and-Ye-Junda-and-Chen-Xinghe-and-Luo-Siqiang-2026-4129fa248c5781579ebbc14f6dd20516"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VYMNN4H2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Zhu-Zulun-and-Huang-Tiancheng-and-Wang-Kai-and-Ye-Junda-and-Chen-Xinghe-and-Luo-Siqiang-2026-4129fa248c5781579ebbc14f6dd20516"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Zhu, Zulun and Huang, Tiancheng and Wang, Kai and Ye, Junda and Chen, Xinghe and Luo, Siqiang - 2026 - Graph-based approaches and functionalities in retrieval-augmented generation A comprehensive survey.pdf",
+				"files": [
+					{
+						"path": "attachments/GR/GRAPZJY2/Zhu, Zulun and Huang, Tiancheng and Wang, Kai and Ye, Junda and Chen, Xinghe and Luo, Siqiang - 2026 - Graph-based approaches and functionalities in retrieval-augmented generation A comprehensive survey.pdf",
+						"size": 3461598,
+						"storage": "git"
+					}
+				],
+				"key": "GRAPZJY2",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2504.10499"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Zhu, Zulun and Huang, Tiancheng and Wang, Kai and Ye, Junda and Chen, Xinghe and Luo, Siqiang"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Graph-based approaches and functionalities in retrieval-augmented generation: A comprehensive survey",
+		"year": "2026",
+		"zoteroURI": "zotero://select/library/items/2V3ZNJ63"
+	},
+	"zotero": {
+		"DOI": "10.1145/3795880",
+		"citationKey": "zhuzulunandhuangtianchengandwangkaiandyejundaandchenxingheandluosiqiangGraphbasedApproachesFunctionalities2026",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Zhu, Zulun and Huang, Tiancheng and Wang, Kai and Ye, Junda and Chen, Xinghe and Luo, Siqiang"
+			}
+		],
+		"date": "2026",
+		"dateAdded": "2026-03-08T21:25:17Z",
+		"dateModified": "2026-03-25T21:28:45Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "2V3ZNJ63",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Graph-based approaches and functionalities in retrieval-augmented generation: A comprehensive survey"
+	}
+}

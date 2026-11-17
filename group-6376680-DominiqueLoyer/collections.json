@@ -1,0 +1,716 @@
+[
+	{
+		"key": "RAMFQZBQ",
+		"name": "9251_modelisation_ALL_260226",
+		"parentKey": null,
+		"path": "9251_modelisation_ALL_260226",
+		"relations": {}
+	},
+	{
+		"key": "KRMD3KDT",
+		"name": "9401_bibtex_all_250226",
+		"parentKey": null,
+		"path": "9401_bibtex_all_250226",
+		"relations": {}
+	},
+	{
+		"key": "J6WCHKF9",
+		"name": "Ma thèse",
+		"parentKey": null,
+		"path": "Ma thèse",
+		"relations": {}
+	},
+	{
+		"key": "J7MJX45B",
+		"name": "Encyclopédie Sc cognitives MIT",
+		"parentKey": "J6WCHKF9",
+		"path": "Ma thèse/Encyclopédie Sc cognitives MIT",
+		"relations": {}
+	},
+	{
+		"key": "JEWFGUPM",
+		"name": "Littérature donnée par Daniel",
+		"parentKey": "J6WCHKF9",
+		"path": "Ma thèse/Littérature donnée par Daniel",
+		"relations": {}
+	},
+	{
+		"key": "NAYNJAZ5",
+		"name": "Mes conférences données",
+		"parentKey": "J6WCHKF9",
+		"path": "Ma thèse/Mes conférences données",
+		"relations": {}
+	},
+	{
+		"key": "DZ6LGK9V",
+		"name": "Mon ébauche donné lors de l'admission",
+		"parentKey": "J6WCHKF9",
+		"path": "Ma thèse/Mon ébauche donné lors de l'admission",
+		"relations": {}
+	},
+	{
+		"key": "P9N6XDU8",
+		"name": "Systematic review",
+		"parentKey": "J6WCHKF9",
+		"path": "Ma thèse/Systematic review",
+		"relations": {}
+	},
+	{
+		"key": "RQQMU94I",
+		"name": "Acccountability",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Acccountability",
+		"relations": {}
+	},
+	{
+		"key": "2NEUA8FL",
+		"name": "Anonymation",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Anonymation",
+		"relations": {}
+	},
+	{
+		"key": "7UAAGWNB",
+		"name": "Biais and discrimination",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Biais and discrimination",
+		"relations": {}
+	},
+	{
+		"key": "S8G6JEJ8",
+		"name": "Black-Box",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Black-Box",
+		"relations": {}
+	},
+	{
+		"key": "N8CP8IZ2",
+		"name": "Daniel Lemire",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Daniel Lemire",
+		"relations": {}
+	},
+	{
+		"key": "YJC2HUFI",
+		"name": "Désinformation",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Désinformation",
+		"relations": {}
+	},
+	{
+		"key": "YUUGJ2VN",
+		"name": "Ethics",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Ethics",
+		"relations": {}
+	},
+	{
+		"key": "FH9NX663",
+		"name": "Identity theft",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Identity theft",
+		"relations": {}
+	},
+	{
+		"key": "6V9V9G9R",
+		"name": "Justice and Fairness",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Justice and Fairness",
+		"relations": {}
+	},
+	{
+		"key": "793BAPPW",
+		"name": "LLMs",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/LLMs",
+		"relations": {}
+	},
+	{
+		"key": "ZUAR53YN",
+		"name": "Non-malificience",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Non-malificience",
+		"relations": {}
+	},
+	{
+		"key": "DNWHSRLQ",
+		"name": "Privacy",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Privacy",
+		"relations": {}
+	},
+	{
+		"key": "4HX8AT68",
+		"name": "Representation Engeneering",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Representation Engeneering",
+		"relations": {}
+	},
+	{
+		"key": "RY62YWEP",
+		"name": "Responsability",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Responsability",
+		"relations": {}
+	},
+	{
+		"key": "E5BC4NLR",
+		"name": "Transparency",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/Transparency",
+		"relations": {}
+	},
+	{
+		"key": "ZE8SVKI5",
+		"name": "XAI",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/XAI",
+		"relations": {}
+	},
+	{
+		"key": "LQ89T6W8",
+		"name": "fairness",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/fairness",
+		"relations": {}
+	},
+	{
+		"key": "9KHJ8V7C",
+		"name": "fake-news",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/fake-news",
+		"relations": {}
+	},
+	{
+		"key": "DID8UYAM",
+		"name": "genXAI",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/genXAI",
+		"relations": {}
+	},
+	{
+		"key": "WGWFFTX3",
+		"name": "géolocalisaton",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/géolocalisaton",
+		"relations": {}
+	},
+	{
+		"key": "MMNIKLTI",
+		"name": "loi, réglements",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/loi, réglements",
+		"relations": {}
+	},
+	{
+		"key": "S3H4TBEX",
+		"name": "profiling",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/profiling",
+		"relations": {}
+	},
+	{
+		"key": "PAHWVFEF",
+		"name": "ébauche",
+		"parentKey": "P9N6XDU8",
+		"path": "Ma thèse/Systematic review/ébauche",
+		"relations": {}
+	},
+	{
+		"key": "WASU97Q5",
+		"name": "My papers (English)",
+		"parentKey": null,
+		"path": "My papers (English)",
+		"relations": {}
+	},
+	{
+		"key": "JVLZZMAC",
+		"name": "_9335_all",
+		"parentKey": null,
+		"path": "_9335_all",
+		"relations": {}
+	},
+	{
+		"key": "L4Y27KF6",
+		"name": "_ALL_CIT_140326",
+		"parentKey": null,
+		"path": "_ALL_CIT_140326",
+		"relations": {}
+	},
+	{
+		"key": "FLWDNZ66",
+		"name": "220226",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/220226",
+		"relations": {}
+	},
+	{
+		"key": "CANKDU2W",
+		"name": "PDFs",
+		"parentKey": "FLWDNZ66",
+		"path": "_ALL_CIT_140326/220226/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "HTQAEIVG",
+		"name": "230226",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/230226",
+		"relations": {}
+	},
+	{
+		"key": "5DGHH68B",
+		"name": "230226_v1551",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/230226_v1551",
+		"relations": {}
+	},
+	{
+		"key": "3JUTVISD",
+		"name": "PDFs",
+		"parentKey": "5DGHH68B",
+		"path": "_ALL_CIT_140326/230226_v1551/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "UZ8I3W4M",
+		"name": "240226",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/240226",
+		"relations": {}
+	},
+	{
+		"key": "VSQXX5BR",
+		"name": "PDFs",
+		"parentKey": "UZ8I3W4M",
+		"path": "_ALL_CIT_140326/240226/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "WN7AV2YE",
+		"name": "240226_v2130",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/240226_v2130",
+		"relations": {}
+	},
+	{
+		"key": "9IXQQWAM",
+		"name": "PDFs",
+		"parentKey": "WN7AV2YE",
+		"path": "_ALL_CIT_140326/240226_v2130/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "5Y8929GH",
+		"name": "2eTP_dic9335_040326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/2eTP_dic9335_040326",
+		"relations": {}
+	},
+	{
+		"key": "LM58ZY3H",
+		"name": "AVEC SOURCES CUSTOM",
+		"parentKey": "5Y8929GH",
+		"path": "_ALL_CIT_140326/2eTP_dic9335_040326/AVEC SOURCES CUSTOM",
+		"relations": {}
+	},
+	{
+		"key": "GBVEN8UM",
+		"name": "PDFs",
+		"parentKey": "LM58ZY3H",
+		"path": "_ALL_CIT_140326/2eTP_dic9335_040326/AVEC SOURCES CUSTOM/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "ZUF52BR8",
+		"name": "PDFs",
+		"parentKey": "5Y8929GH",
+		"path": "_ALL_CIT_140326/2eTP_dic9335_040326/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "HIP7RRI8",
+		"name": "deuxième_résumé_DIC_9335_30mars",
+		"parentKey": "5Y8929GH",
+		"path": "_ALL_CIT_140326/2eTP_dic9335_040326/deuxième_résumé_DIC_9335_30mars",
+		"relations": {}
+	},
+	{
+		"key": "4E6UQQD4",
+		"name": "legacy-styles",
+		"parentKey": "HIP7RRI8",
+		"path": "_ALL_CIT_140326/2eTP_dic9335_040326/deuxième_résumé_DIC_9335_30mars/legacy-styles",
+		"relations": {}
+	},
+	{
+		"key": "DUBA9KUN",
+		"name": "4questions_dic9401_040326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/4questions_dic9401_040326",
+		"relations": {}
+	},
+	{
+		"key": "LPKD8QIU",
+		"name": "PDFs",
+		"parentKey": "DUBA9KUN",
+		"path": "_ALL_CIT_140326/4questions_dic9401_040326/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "78QQVSMY",
+		"name": "9401Beamer_130326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/9401Beamer_130326",
+		"relations": {}
+	},
+	{
+		"key": "RIQVF6LF",
+		"name": "PDFs",
+		"parentKey": "78QQVSMY",
+		"path": "_ALL_CIT_140326/9401Beamer_130326/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "3GMIYHI7",
+		"name": "9401_ic_",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/9401_ic_",
+		"relations": {}
+	},
+	{
+		"key": "HXLA8A4T",
+		"name": "PDFs",
+		"parentKey": "3GMIYHI7",
+		"path": "_ALL_CIT_140326/9401_ic_/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "FG3YY9TF",
+		"name": "latex",
+		"parentKey": "3GMIYHI7",
+		"path": "_ALL_CIT_140326/9401_ic_/latex",
+		"relations": {}
+	},
+	{
+		"key": "Y6JXWHRW",
+		"name": "9411_291225",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/9411_291225",
+		"relations": {}
+	},
+	{
+		"key": "XFNALMCJ",
+		"name": "PDFs",
+		"parentKey": "Y6JXWHRW",
+		"path": "_ALL_CIT_140326/9411_291225/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "D29J88WC",
+		"name": "Beamer_LEVIATHAN_DIC9401_040326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/Beamer_LEVIATHAN_DIC9401_040326",
+		"relations": {}
+	},
+	{
+		"key": "2PTG4XCD",
+		"name": "Le_Léviathan_algorithmique__Beamer_26nov_2025_",
+		"parentKey": "D29J88WC",
+		"path": "_ALL_CIT_140326/Beamer_LEVIATHAN_DIC9401_040326/Le_Léviathan_algorithmique__Beamer_26nov_2025_",
+		"relations": {}
+	},
+	{
+		"key": "7LBVYV2K",
+		"name": "PDFs",
+		"parentKey": "D29J88WC",
+		"path": "_ALL_CIT_140326/Beamer_LEVIATHAN_DIC9401_040326/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "45BJV36G",
+		"name": "NMT_en-ru_040326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/NMT_en-ru_040326",
+		"relations": {}
+	},
+	{
+		"key": "RC5X3JTZ",
+		"name": "PDFs",
+		"parentKey": "45BJV36G",
+		"path": "_ALL_CIT_140326/NMT_en-ru_040326/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "9NJU75ME",
+		"name": "rapport projet 2 TAlN_20avril25",
+		"parentKey": "45BJV36G",
+		"path": "_ALL_CIT_140326/NMT_en-ru_040326/rapport projet 2 TAlN_20avril25",
+		"relations": {}
+	},
+	{
+		"key": "9TGCSLJ5",
+		"name": "images du site gitlab a╠Ç inse╠ürer dans le Tex du projet 1 final",
+		"parentKey": "9NJU75ME",
+		"path": "_ALL_CIT_140326/NMT_en-ru_040326/rapport projet 2 TAlN_20avril25/images du site gitlab a╠Ç inse╠ürer dans le Tex du projet 1 final",
+		"relations": {}
+	},
+	{
+		"key": "7NU35ACK",
+		"name": "Revue_de_litterature",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/Revue_de_litterature",
+		"relations": {}
+	},
+	{
+		"key": "MSV5WKI2",
+		"name": "beamer_modelisation_030326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/beamer_modelisation_030326",
+		"relations": {}
+	},
+	{
+		"key": "4RRISJKY",
+		"name": "PDFs",
+		"parentKey": "MSV5WKI2",
+		"path": "_ALL_CIT_140326/beamer_modelisation_030326/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "Q6H2XDJ4",
+		"name": "tp1_modelisation_beamer",
+		"parentKey": "MSV5WKI2",
+		"path": "_ALL_CIT_140326/beamer_modelisation_030326/tp1_modelisation_beamer",
+		"relations": {}
+	},
+	{
+		"key": "EVM99EUW",
+		"name": "dic9401",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/dic9401",
+		"relations": {}
+	},
+	{
+		"key": "NY3HGKS9",
+		"name": "PDFs",
+		"parentKey": "EVM99EUW",
+		"path": "_ALL_CIT_140326/dic9401/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "2NQQHGGQ",
+		"name": "dominigo_test",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/dominigo_test",
+		"relations": {}
+	},
+	{
+		"key": "TQQQ6IGD",
+		"name": "dominingos_060326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/dominingos_060326",
+		"relations": {}
+	},
+	{
+		"key": "XZ8YFSJ8",
+		"name": "factChecking_rajout_050326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/factChecking_rajout_050326",
+		"relations": {}
+	},
+	{
+		"key": "AMU5K9TQ",
+		"name": "gs_080326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/gs_080326",
+		"relations": {}
+	},
+	{
+		"key": "PNZQF2WF",
+		"name": "PDFs",
+		"parentKey": "AMU5K9TQ",
+		"path": "_ALL_CIT_140326/gs_080326/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "FIWS95HQ",
+		"name": "mod_lisation_260226",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/mod_lisation_260226",
+		"relations": {}
+	},
+	{
+		"key": "YXDWMKHA",
+		"name": "PDFs",
+		"parentKey": "FIWS95HQ",
+		"path": "_ALL_CIT_140326/mod_lisation_260226/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "RSSWSYQL",
+		"name": "latex",
+		"parentKey": "FIWS95HQ",
+		"path": "_ALL_CIT_140326/mod_lisation_260226/latex",
+		"relations": {}
+	},
+	{
+		"key": "MISBSUWV",
+		"name": "monBitex_050326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/monBitex_050326",
+		"relations": {}
+	},
+	{
+		"key": "WVUK9LSX",
+		"name": "myWorkTest",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/myWorkTest",
+		"relations": {}
+	},
+	{
+		"key": "KVAVRYXJ",
+		"name": "ontoCRED_030326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/ontoCRED_030326",
+		"relations": {}
+	},
+	{
+		"key": "XF9R8VJ6",
+		"name": "PDFs",
+		"parentKey": "KVAVRYXJ",
+		"path": "_ALL_CIT_140326/ontoCRED_030326/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "JUELYF3C",
+		"name": "rapport Onto cred 2mai25-5",
+		"parentKey": "KVAVRYXJ",
+		"path": "_ALL_CIT_140326/ontoCRED_030326/rapport Onto cred 2mai25-5",
+		"relations": {}
+	},
+	{
+		"key": "SD5ADF9W",
+		"name": "images OntoCRED_VF",
+		"parentKey": "JUELYF3C",
+		"path": "_ALL_CIT_140326/ontoCRED_030326/rapport Onto cred 2mai25-5/images OntoCRED_VF",
+		"relations": {}
+	},
+	{
+		"key": "8ZCNNA6I",
+		"name": "legacy-styles",
+		"parentKey": "JUELYF3C",
+		"path": "_ALL_CIT_140326/ontoCRED_030326/rapport Onto cred 2mai25-5/legacy-styles",
+		"relations": {}
+	},
+	{
+		"key": "SW9ZIAT9",
+		"name": "ontoCRED_250226",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/ontoCRED_250226",
+		"relations": {}
+	},
+	{
+		"key": "Q9WGFC6X",
+		"name": "PDFs",
+		"parentKey": "SW9ZIAT9",
+		"path": "_ALL_CIT_140326/ontoCRED_250226/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "PEDSR5VB",
+		"name": "sysCRED_230226",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/sysCRED_230226",
+		"relations": {}
+	},
+	{
+		"key": "GHFKT7VR",
+		"name": "sysCRED_240226",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/sysCRED_240226",
+		"relations": {}
+	},
+	{
+		"key": "J5JBI8ZS",
+		"name": "PDFs",
+		"parentKey": "GHFKT7VR",
+		"path": "_ALL_CIT_140326/sysCRED_240226/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "2NH9ELL9",
+		"name": "sysCRED_presentation_280126",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/sysCRED_presentation_280126",
+		"relations": {}
+	},
+	{
+		"key": "LAKZSBX2",
+		"name": "test130326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/test130326",
+		"relations": {}
+	},
+	{
+		"key": "2QHHLY5Q",
+		"name": "trec_rapport1_030326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/trec_rapport1_030326",
+		"relations": {}
+	},
+	{
+		"key": "M554FTW4",
+		"name": "PDFs",
+		"parentKey": "2QHHLY5Q",
+		"path": "_ALL_CIT_140326/trec_rapport1_030326/PDFs",
+		"relations": {}
+	},
+	{
+		"key": "7K8K76F5",
+		"name": "rapport1_RI_TALN",
+		"parentKey": "2QHHLY5Q",
+		"path": "_ALL_CIT_140326/trec_rapport1_030326/rapport1_RI_TALN",
+		"relations": {}
+	},
+	{
+		"key": "M4NYAD5P",
+		"name": "yoahShoam_040326",
+		"parentKey": "L4Y27KF6",
+		"path": "_ALL_CIT_140326/yoahShoam_040326",
+		"relations": {}
+	},
+	{
+		"key": "6ADD6TFH",
+		"name": "3electureModelisation",
+		"parentKey": "M4NYAD5P",
+		"path": "_ALL_CIT_140326/yoahShoam_040326/3electureModelisation",
+		"relations": {}
+	},
+	{
+		"key": "RJVJKNN2",
+		"name": "completeLoyer_100126",
+		"parentKey": null,
+		"path": "completeLoyer_100126",
+		"relations": {}
+	},
+	{
+		"key": "86QJKFHN",
+		"name": "mes papiers et beamers",
+		"parentKey": null,
+		"path": "mes papiers et beamers",
+		"relations": {}
+	},
+	{
+		"key": "K5YZTBZN",
+		"name": "myReferences",
+		"parentKey": null,
+		"path": "myReferences",
+		"relations": {}
+	},
+	{
+		"key": "QWNSFW73",
+		"name": "references_dic9401",
+		"parentKey": null,
+		"path": "references_dic9401",
+		"relations": {}
+	}
+]

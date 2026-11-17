@@ -1,0 +1,145 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-10-15T19:06:33Z",
+			"dateModified": "2024-10-15T19:06:39Z",
+			"filename": "Kuhail et al. - 2023 - Interacting with educational chatbots A systematic review.pdf",
+			"itemType": "attachment",
+			"key": "5KHG25IX",
+			"linkMode": "imported_file",
+			"parentItem": "GZFHUPE6",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:32:46Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:46Z",
+			"dateModified": "2026-01-02T19:18:37Z",
+			"itemType": "attachment",
+			"key": "CQUDZB3P",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:37 p.m.</p>",
+			"parentItem": "GZFHUPE6",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/kuhailInteractingEducationalChatbots2023-2c09fa248c5781ca8f9cde735d9755ce"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CQUDZB3P",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/kuhailInteractingEducationalChatbots2023-2c09fa248c5781ca8f9cde735d9755ce"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Kuhail et al. - 2023 - Interacting with educational chatbots A systematic review.pdf",
+				"files": [
+					{
+						"path": "attachments/5K/5KHG25IX/Kuhail et al. - 2023 - Interacting with educational chatbots A systematic review.pdf",
+						"size": 2062813,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/5K/5KHG25IX/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 127484,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/5K/5KHG25IX/Kuhail et al. - 2023 - Interacting with educational chatbots A systematic review (trashed 2025-11-24 15-34-08).pdf",
+						"size": 2062813,
+						"storage": "git"
+					}
+				],
+				"key": "5KHG25IX",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9270(A24)"
+		],
+		"creators": [
+			"Kuhail, Mohammad Amin",
+			"Alturki, Nazik",
+			"Alramlawi, Salwa",
+			"Alhejori, Kholood"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Interacting with educational chatbots: A systematic review",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/GZFHUPE6"
+	},
+	"zotero": {
+		"DOI": "10.1007/s10639-022-11177-3",
+		"ISSN": "1360-2357, 1573-7608",
+		"abstractNote": "Chatbots hold the promise of revolutionizing education by engaging learners, personalizing learning activities, supporting educators, and developing deep insight into learners’ behavior. However, there is a lack of studies that analyze the recent evidence-based chatbot-learner interaction design techniques applied in education. This study presents a systematic review of 36 papers to understand, compare, and reflect on recent attempts to utilize chatbots in education using seven dimensions: educational field, platform, design principles, the role of chatbots, interaction styles, evidence, and limitations. The results show that the chatbots were mainly designed on a web platform to teach computer science, language, general education, and a few other fields such as engineering and mathematics. Further, more than half of the chatbots were used as teaching agents, while more than a third were peer agents. Most of the chatbots used a predetermined conversational path, and more than a quarter utilized a personalized learning approach that catered to students’ learning needs, while other chatbots used experiential and collaborative learning besides other design principles. Moreover, more than a third of the chatbots were evaluated with experiments, and the results primarily point to improved learning and subjective satisfaction. Challenges and limitations include inadequate or insufficient dataset training and a lack of reliance on usability heuristics. Future studies should explore the effect of chatbot personality and localization on subjective satisfaction and learning effectiveness.",
+		"accessDate": "2024-10-15T19:06:39Z",
+		"citationKey": "kuhailInteractingEducationalChatbots2023",
+		"collections": [
+			"MKJPXVYB"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Mohammad Amin",
+				"lastName": "Kuhail"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Nazik",
+				"lastName": "Alturki"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Salwa",
+				"lastName": "Alramlawi"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kholood",
+				"lastName": "Alhejori"
+			}
+		],
+		"date": "01/2023",
+		"dateAdded": "2024-10-15T19:06:39Z",
+		"dateModified": "2025-12-05T22:32:46Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Educ Inf Technol",
+		"key": "GZFHUPE6",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "973-1018",
+		"publicationTitle": "Education and Information Technologies",
+		"relations": {},
+		"shortTitle": "Interacting with educational chatbots",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Interacting with educational chatbots: A systematic review",
+		"url": "https://link.springer.com/10.1007/s10639-022-11177-3",
+		"volume": "28"
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:16Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:16Z",
+			"dateModified": "2026-11-09T17:05:50Z",
+			"itemType": "attachment",
+			"key": "I9JHHNQ7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:50 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "U6I2QKPP",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/BHAL584R",
+					"http://zotero.org/groups/6376680/items/TW5AUXTC"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/McNee-Sean-M-and-Riedl-John-and-Konstan-Joseph-A-2016-4129fa248c578122ab98df51a8858816"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "I9JHHNQ7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/McNee-Sean-M-and-Riedl-John-and-Konstan-Joseph-A-2016-4129fa248c578122ab98df51a8858816"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"McNee, Sean M. and Riedl, John and Konstan, Joseph A."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Being accurate is not enough: how accuracy metrics have hurt recommender systems",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/U6I2QKPP"
+	},
+	"zotero": {
+		"DOI": "10.1109/SRDS.2016.019",
+		"citationKey": "mcneeseanm.andriedljohnandkonstanjosepha.BeingAccurateNot2016",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "McNee, Sean M. and Riedl, John and Konstan, Joseph A."
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-02-25T21:41:22Z",
+		"dateModified": "2026-11-13T19:32:30Z",
+		"extra": "Importé via SysCRED.\nDOI Fix previous DOI: 10.1109/srds.2016.019",
+		"itemType": "journalArticle",
+		"key": "U6I2QKPP",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2D69HI6K",
+				"http://zotero.org/groups/6376680/items/JEU8FVQ4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Being accurate is not enough: how accuracy metrics have hurt recommender systems"
+	}
+}

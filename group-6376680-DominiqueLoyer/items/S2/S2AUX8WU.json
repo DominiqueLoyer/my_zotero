@@ -1,0 +1,154 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-10-30T21:01:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-09T20:19:09Z",
+			"dateModified": "2026-11-17T14:47:50Z",
+			"itemType": "attachment",
+			"key": "6YC9MSWX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-17, 9:41:54 a.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "S2AUX8WU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/LAPVRQ2J"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Loyer-and-Loyer-2025-41b9fa248c5781789454f779aef4a1a4"
+		},
+		{
+			"accessDate": "2025-10-05T19:14:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-09T20:19:09Z",
+			"dateModified": "2026-01-09T20:19:09Z",
+			"itemType": "attachment",
+			"key": "XTUYLLAC",
+			"linkMode": "linked_url",
+			"parentItem": "S2AUX8WU",
+			"relations": {},
+			"tags": [],
+			"title": "Development and Evaluation of an English-to-Russian Neural Machine Translation System",
+			"url": "https://rgdoi.net/10.13140/RG.2.2.17980.55687"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XTUYLLAC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Development and Evaluation of an English-to-Russian Neural Machine Translation System",
+				"url": "https://rgdoi.net/10.13140/RG.2.2.17980.55687"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "6YC9MSWX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Loyer-and-Loyer-2025-41b9fa248c5781789454f779aef4a1a4"
+			}
+		],
+		"collections": [
+			"My papers (English)",
+			"_9335_all",
+			"completeLoyer_100126",
+			"mes papiers et beamers",
+			"myReferences"
+		],
+		"creators": [
+			"Loyer, Dominique S",
+			"Loyer, Dominique"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Development and Evaluation of an English-to-Russian Neural Machine Translation System",
+		"year": "2025",
+		"zoteroURI": "zotero://select/groups/6376680/items/S2AUX8WU"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.17980.55687",
+		"ISSN": "978-1-0699904-4-0",
+		"abstractNote": "This report presents the development and\nevaluation of an English-to-Russian (EN→RU)\nNeural Machine Translation (NMT) system.\nUsing the Hugging Face Transformers library\n(Wolf et al., 2020) and a pre-trained model,\nHelsinki-NLP/opus-mt-en-ru\n(Junczys-Dowmunt et al., 2018), based on\nthe Transformer architecture (Vaswani et al.,\n2017), we fine-tuned the model on a subset of\n10,000 sentence pairs from the opus_books\nparallel corpus (Tiedemann, 2012). The\nsystem was trained for 3 epochs in a Kaggle\nenvironment (T4 GPU). Evaluation on a\nheld-out test set from the same corpus yields a\nSacreBLEU score of 22.6 and a chrF score of\n48.5.",
+		"accessDate": "2025-10-05T18:56:32Z",
+		"citationKey": "loyerDevelopmentEvaluationEnglishtoRussian2025",
+		"collections": [
+			"86QJKFHN",
+			"JVLZZMAC",
+			"K5YZTBZN",
+			"RJVJKNN2",
+			"WASU97Q5"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S",
+				"lastName": "Loyer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-09T20:19:09Z",
+		"dateModified": "2026-11-17T14:47:50Z",
+		"extra": "ORCID=\"0009-0003-9713-7109\"",
+		"itemType": "journalArticle",
+		"key": "S2AUX8WU",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Datacite)",
+		"pages": "4",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/SK4VDKAY"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Fine-tuning"
+			},
+			{
+				"tag": "Neural Machine"
+			},
+			{
+				"tag": "Neural Machine;Translation ENRU;"
+			},
+			{
+				"tag": "SacreBLEU"
+			},
+			{
+				"tag": "Transformer"
+			},
+			{
+				"tag": "Transformer;Fine-tuning;SacreBLEU;chrF"
+			},
+			{
+				"tag": "Translation ENRU"
+			},
+			{
+				"tag": "chrF"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Development and Evaluation of an English-to-Russian Neural Machine Translation System",
+		"url": "https://rgdoi.net/10.13140/RG.2.2.17980.55687"
+	}
+}

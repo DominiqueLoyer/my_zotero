@@ -1,0 +1,122 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:30:48Z",
+			"dateModified": "2025-03-31T18:59:09Z",
+			"filename": "use-cases-exemple.pdf",
+			"itemType": "attachment",
+			"key": "9MT6PVFE",
+			"linkMode": "imported_file",
+			"parentItem": "L8I76K8S",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/GG3WEXFE"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:25:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:03Z",
+			"dateModified": "2026-01-02T19:15:36Z",
+			"itemType": "attachment",
+			"key": "BWDD8X85",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:36 p.m.</p>",
+			"parentItem": "L8I76K8S",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Usecasesexemple-2c09fa248c5781a890d0c035e1ac2bdb"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "BWDD8X85",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Usecasesexemple-2c09fa248c5781a890d0c035e1ac2bdb"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "use-cases-exemple.pdf",
+				"files": [
+					{
+						"path": "attachments/9M/9MT6PVFE/use-cases-exemple.pdf",
+						"size": 15428,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/9M/9MT6PVFE/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 3338,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/9M/9MT6PVFE/use-cases-exemple (trashed 2025-11-24 15-34-12).pdf",
+						"size": 15428,
+						"storage": "git"
+					}
+				],
+				"key": "9MT6PVFE",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/USE cases"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "use-cases-exemple",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/L8I76K8S"
+	},
+	"zotero": {
+		"citationKey": "lounishakimUsecasesexemple",
+		"collections": [
+			"G4KBEA9A",
+			"SDUMCET4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:39:16Z",
+		"dateModified": "2025-03-31T18:59:09Z",
+		"itemType": "document",
+		"key": "L8I76K8S",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/7VLQA73Q"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "use-cases-exemple"
+	}
+}

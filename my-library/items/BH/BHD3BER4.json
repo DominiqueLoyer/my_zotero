@@ -1,0 +1,130 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:31:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:31:54Z",
+			"dateModified": "2026-11-09T14:57:28Z",
+			"itemType": "attachment",
+			"key": "HKSNHSW3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:49:21 p.m.</p>",
+			"parentItem": "BHD3BER4",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Fest2023-2e29fa248c578121becdc30b94101915"
+		},
+		{
+			"accessDate": "2025-12-05T22:34:36Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:36Z",
+			"dateModified": "2026-11-09T14:57:28Z",
+			"itemType": "attachment",
+			"key": "KTEE2M6E",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:11:51 p.m.</p>",
+			"parentItem": "BHD3BER4",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/FY8FZD2I"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/XV33EKJR"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/festAlgorithmicBureaucratRole2023-2c09fa248c57814ebd40d8de75d69f32"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HKSNHSW3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Fest2023-2e29fa248c578121becdc30b94101915"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KTEE2M6E",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/festAlgorithmicBureaucratRole2023-2c09fa248c57814ebd40d8de75d69f32"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Fest, F.",
+			"Klievink, B."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The algorithmic bureaucrat: The role of data professionals in public sector algorithmic decision-making",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/BHD3BER4"
+	},
+	"zotero": {
+		"DOI": "10.1111/puar.13562",
+		"citationKey": "festAlgorithmicBureaucratRole2023",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "F.",
+				"lastName": "Fest"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "B.",
+				"lastName": "Klievink"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-09T14:57:28Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"key": "BHD3BER4",
+		"pages": "1–12",
+		"publicationTitle": "Public Administration Review",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/FJ92ETNQ",
+				"http://zotero.org/users/15425556/items/U6VZ7MXH"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/5MRZ65XV"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The algorithmic bureaucrat: The role of data professionals in public sector algorithmic decision-making",
+		"volume": "83"
+	}
+}

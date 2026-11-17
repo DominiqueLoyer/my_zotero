@@ -1,0 +1,146 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "note",
+			"key": "5BHTSULC",
+			"note": "Comment: 15 pages, 5 figures",
+			"parentItem": "PTMX4CG7",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-03-14T18:19:50Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "V2JRECXD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:28:01 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-81b6-9b3e-caf513aa1f62\",\"notes\":{\"Y83XXQLG\":{\"blockID\":\"3239fa24-8c57-8199-b03b-e90c0c08ffb8\",\"syncedAt\":\"2026-03-14T18:28:01.624Z\"}}}</pre>",
+			"parentItem": "PTMX4CG7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/vaswaniAttentionAllYou2023a-3239fa248c5781b19295dea1351ebf7f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "V2JRECXD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/vaswaniAttentionAllYou2023a-3239fa248c5781b19295dea1351ebf7f"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
+		],
+		"creators": [
+			"Vaswani, Ashish",
+			"Shazeer, Noam",
+			"Parmar, Niki",
+			"Uszkoreit, Jakob",
+			"Jones, Llion",
+			"Gomez, Aidan N.",
+			"Kaiser, Lukasz",
+			"Polosukhin, Illia"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "5BHTSULC",
+				"title": "Comment: 15 pages, 5 figures"
+			}
+		],
+		"title": "Attention Is All You Need",
+		"year": "2023",
+		"zoteroURI": "zotero://select/groups/6376680/items/PTMX4CG7"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.1706.03762",
+		"abstractNote": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+		"accessDate": "2026-03-14T17:36:06Z",
+		"archiveID": "arXiv:1706.03762",
+		"citationKey": "vaswaniAttentionAllYou2023",
+		"collections": [
+			"RC5X3JTZ"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ashish",
+				"lastName": "Vaswani"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Noam",
+				"lastName": "Shazeer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Niki",
+				"lastName": "Parmar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jakob",
+				"lastName": "Uszkoreit"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Llion",
+				"lastName": "Jones"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aidan N.",
+				"lastName": "Gomez"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lukasz",
+				"lastName": "Kaiser"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Illia",
+				"lastName": "Polosukhin"
+			}
+		],
+		"date": "2023-08-02",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:1706.03762 [cs]",
+		"itemType": "preprint",
+		"key": "PTMX4CG7",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Attention Is All You Need",
+		"url": "http://arxiv.org/abs/1706.03762"
+	}
+}

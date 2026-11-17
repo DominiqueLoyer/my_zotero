@@ -1,0 +1,103 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-12T22:14:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-12T22:14:19Z",
+			"dateModified": "2026-11-12T22:14:19Z",
+			"itemType": "attachment",
+			"key": "DVDN7CXQ",
+			"linkMode": "linked_url",
+			"parentItem": "3ED2M4F8",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"dateAdded": "2026-11-12T22:14:19Z",
+			"dateModified": "2026-11-12T22:14:19Z",
+			"itemType": "note",
+			"key": "JJW63S5A",
+			"note": "DIC-9335 Sciences du Web - Final Project",
+			"parentItem": "3ED2M4F8",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "DVDN7CXQ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126 2026-11-12, 5:14:18 p.m."
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "JJW63S5A",
+				"title": "DIC-9335 Sciences du Web - Final Project"
+			}
+		],
+		"title": "Hybrid system ontology for information source verification: An OWL-based knowledge representation",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/3ED2M4F8"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.22926.47680",
+		"citationKey": "loyerHybridSystemOntology2025a",
+		"collections": [
+			"IE29Y4Q7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-12T22:14:19Z",
+		"extra": "ISBN: 978-1-0699945-1-6",
+		"itemType": "journalArticle",
+		"key": "3ED2M4F8",
+		"pages": "22",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "Information Verification"
+			},
+			{
+				"tag": "Knowledge Representation"
+			},
+			{
+				"tag": "OWL Ontology"
+			},
+			{
+				"tag": "RDF"
+			},
+			{
+				"tag": "Web Science"
+			}
+		],
+		"title": "Hybrid system ontology for information source verification: An OWL-based knowledge representation",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.22926.47680"
+	}
+}

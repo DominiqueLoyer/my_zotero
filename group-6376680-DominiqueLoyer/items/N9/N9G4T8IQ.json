@@ -1,0 +1,124 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:28:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "attachment",
+			"key": "ZCM54Y4X",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:42 p.m.</p>",
+			"parentItem": "N9G4T8IQ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/nikiforakisCookielessMonsterExploring2013-2c09fa248c57819a9379d6999960df94"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZCM54Y4X",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/nikiforakisCookielessMonsterExploring2013-2c09fa248c57819a9379d6999960df94"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Nikiforakis, N.",
+			"Kapravelos, A.",
+			"Joosen, W.",
+			"Kruegel, C.",
+			"Piessens, F.",
+			"Vigna, G."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Cookieless Monster: Exploring the Ecosystem of Web-Based Device Fingerprinting",
+		"year": "2013",
+		"zoteroURI": "zotero://select/groups/6376680/items/N9G4T8IQ"
+	},
+	"zotero": {
+		"DOI": "10.1109/SP.2013.43",
+		"ISBN": "978-0-7695-4977-4 978-1-4673-6166-8",
+		"abstractNote": "The web has become an essential part of our society and is currently the main medium of information delivery. Billions of users browse the web on a daily basis, and there are single websites that have reached over one billion user accounts. In this environment, the ability to track users and their online habits can be very lucrative for advertising companies, yet very intrusive for the privacy of users.",
+		"accessDate": "2024-11-24T15:22:56Z",
+		"citationKey": "nikiforakisCookielessMonsterExploring2013a",
+		"collections": [
+			"J6WCHKF9",
+			"P9N6XDU8"
+		],
+		"conferenceName": "2013 IEEE Symposium on Security and Privacy (SP) Conference",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "N.",
+				"lastName": "Nikiforakis"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "A.",
+				"lastName": "Kapravelos"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "W.",
+				"lastName": "Joosen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "C.",
+				"lastName": "Kruegel"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "F.",
+				"lastName": "Piessens"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "G.",
+				"lastName": "Vigna"
+			}
+		],
+		"date": "5/2013",
+		"dateAdded": "2026-04-17T21:21:41Z",
+		"dateModified": "2026-04-17T21:21:41Z",
+		"itemType": "conferencePaper",
+		"key": "N9G4T8IQ",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "541-555",
+		"place": "Berkeley, CA",
+		"proceedingsTitle": "2013 IEEE Symposium on Security and Privacy",
+		"publisher": "IEEE",
+		"relations": {},
+		"shortTitle": "Cookieless Monster",
+		"tags": [
+			{
+				"tag": "browsing cookies"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "privacy"
+			}
+		],
+		"title": "Cookieless Monster: Exploring the Ecosystem of Web-Based Device Fingerprinting",
+		"url": "http://ieeexplore.ieee.org/document/6547132/"
+	}
+}

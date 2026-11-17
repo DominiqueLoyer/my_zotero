@@ -1,0 +1,105 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-31T16:16:54Z",
+			"dateModified": "2025-03-31T16:16:58Z",
+			"filename": "Muller - Modélisation objet avec UML.pdf",
+			"itemType": "attachment",
+			"key": "PN3MTRFQ",
+			"linkMode": "imported_file",
+			"parentItem": "GSAZIRCX",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:28:38Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:38Z",
+			"dateModified": "2026-01-02T19:16:01Z",
+			"itemType": "attachment",
+			"key": "V6C9JAZ4",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:01 p.m.</p>",
+			"parentItem": "GSAZIRCX",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/mullerModelisationObjetAvec-2c09fa248c578142b74ffe37c9bb83b6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "V6C9JAZ4",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/mullerModelisationObjetAvec-2c09fa248c578142b74ffe37c9bb83b6"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Muller - Modélisation objet avec UML.pdf",
+				"files": [],
+				"key": "PN3MTRFQ",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/livres recommandés"
+		],
+		"creators": [
+			"Muller, Pierre-Alain"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Modélisation objet avec UML",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/GSAZIRCX"
+	},
+	"zotero": {
+		"citationKey": "mullerModelisationObjetAvec",
+		"collections": [
+			"FXNUHXF7",
+			"G4KBEA9A"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Pierre-Alain",
+				"lastName": "Muller"
+			}
+		],
+		"dateAdded": "2025-03-31T16:16:58Z",
+		"dateModified": "2025-12-29T23:57:32Z",
+		"itemType": "journalArticle",
+		"key": "GSAZIRCX",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Modélisation objet avec UML"
+	}
+}

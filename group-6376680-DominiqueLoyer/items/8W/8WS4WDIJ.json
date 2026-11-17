@@ -1,0 +1,74 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:28Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T21:46:58Z",
+			"itemType": "attachment",
+			"key": "E5YHA372",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:40:47 p.m.</p>",
+			"parentItem": "8WS4WDIJ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Chen2023Bias-3129fa248c578165a046ce73d33de1fd"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "E5YHA372",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Chen2023Bias-3129fa248c578165a046ce73d33de1fd"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Chen, Jiancan and Dong, Haoru and Wang, Xiang and Feng, Fuli and Wang, Meng and He, Xiangnan"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Bias and Debias in Recommender System: A Survey and Future Directions",
+		"year": "2023",
+		"zoteroURI": "zotero://select/groups/6376680/items/8WS4WDIJ"
+	},
+	"zotero": {
+		"DOI": "10.1145/3564284",
+		"citationKey": "Chen2023Bias",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Chen, Jiancan and Dong, Haoru and Wang, Xiang and Feng, Fuli and Wang, Meng and He, Xiangnan"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T21:46:58Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "8WS4WDIJ",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bias and Debias in Recommender System: A Survey and Future Directions"
+	}
+}

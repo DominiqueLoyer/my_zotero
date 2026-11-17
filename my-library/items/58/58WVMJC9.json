@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:57Z",
+			"dateModified": "2026-11-09T17:05:23Z",
+			"itemType": "attachment",
+			"key": "8FS6VGCQ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:23 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "58WVMJC9",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6MIXYSDW",
+					"http://zotero.org/groups/6376680/items/TGMN5PIM"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Aviram-Hadar-and-Cohen-N-2023-4129fa248c578114be9dd0c1341b141c"
+		},
+		{
+			"accessDate": "2026-11-08T16:24:55Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:24:55Z",
+			"dateModified": "2026-11-08T16:24:55Z",
+			"filename": "Aviram, Hadar and Cohen, N. - 2023 - Algorithmic discretion The case of predictive policing.pdf",
+			"itemType": "attachment",
+			"key": "QCW4ELFD",
+			"linkMode": "imported_url",
+			"parentItem": "58WVMJC9",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://link.springer.com/content/pdf/10.1007%2Fs11229-023-04189-0.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Aviram, Hadar and Cohen, N. - 2023 - Algorithmic discretion The case of predictive policing.pdf",
+				"files": [
+					{
+						"path": "attachments/QC/QCW4ELFD/Aviram, Hadar and Cohen, N. - 2023 - Algorithmic discretion The case of predictive policing.pdf",
+						"size": 562442,
+						"storage": "git"
+					}
+				],
+				"key": "QCW4ELFD",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://link.springer.com/content/pdf/10.1007%2Fs11229-023-04189-0.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8FS6VGCQ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Aviram-Hadar-and-Cohen-N-2023-4129fa248c578114be9dd0c1341b141c"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Aviram, Hadar and Cohen, N."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmic discretion: The case of predictive policing",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/58WVMJC9"
+	},
+	"zotero": {
+		"DOI": "10.1007/s11229-023-04189-0",
+		"citationKey": "aviramhadarandcohenn.AlgorithmicDiscretionCase2023",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Aviram, Hadar and Cohen, N."
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-02-25T21:32:41Z",
+		"dateModified": "2026-11-13T19:31:18Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "58WVMJC9",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/D6VKQZNI",
+				"http://zotero.org/groups/6376680/items/HL6529KL"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmic discretion: The case of predictive policing",
+		"url": "https://onlinelibrary.wiley.com/doi/10.1111/rego.12596"
+	}
+}

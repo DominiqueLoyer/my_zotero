@@ -1,0 +1,75 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T21:46:58Z",
+			"itemType": "attachment",
+			"key": "P97IV3EL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:41:17 p.m.</p>",
+			"parentItem": "BSG8HVFJ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Betker2024Improving-3129fa248c578176a9a8c7ba9c1028cc"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "P97IV3EL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Betker2024Improving-3129fa248c578176a9a8c7ba9c1028cc"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Betker, James and Goh, Gabriel and Jing, Li and Tan, Tim and Yu, Advay"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Improving Image Generation with Better Captions",
+		"year": "2024",
+		"zoteroURI": "zotero://select/groups/6376680/items/BSG8HVFJ"
+	},
+	"zotero": {
+		"DOI": "10.52202/079017-0614",
+		"citationKey": "Betker2024Improving",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Betker, James and Goh, Gabriel and Jing, Li and Tan, Tim and Yu, Advay"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T21:46:58Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "BSG8HVFJ",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Improving Image Generation with Better Captions",
+		"url": "https://openai.com/research/improving-image-generation-with-better-captions"
+	}
+}

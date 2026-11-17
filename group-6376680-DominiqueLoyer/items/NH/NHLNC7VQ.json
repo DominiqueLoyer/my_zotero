@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:23:32Z",
+			"dateModified": "2026-11-17T14:48:21Z",
+			"itemType": "attachment",
+			"key": "SVDUTHUT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:30 p.m.</p>",
+			"parentItem": "NHLNC7VQ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/Q95QD9JY"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Noy2019Industryscale-31e9fa248c578147944fdb244229cce0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SVDUTHUT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Noy2019Industryscale-31e9fa248c578147944fdb244229cce0"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Noy, Natasha and Gao, Yu and Jain, Anshu and Narayanan, Anant and Patterson, Alan and Taylor, Jamie"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Industry-scale knowledge graphs: lessons and challenges",
+		"year": "2019",
+		"zoteroURI": "zotero://select/groups/6376680/items/NHLNC7VQ"
+	},
+	"zotero": {
+		"DOI": "10.1145/3329781.3332266",
+		"citationKey": "noynatashaandgaoyuandjainanshuandnarayanananantandpattersonalanandtaylorjamieIndustryscaleKnowledgeGraphs2019",
+		"collections": [
+			"JVLZZMAC"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Noy, Natasha and Gao, Yu and Jain, Anshu and Narayanan, Anant and Patterson, Alan and Taylor, Jamie"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-04-17T21:23:32Z",
+		"dateModified": "2026-11-17T14:48:21Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "NHLNC7VQ",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/52VWV8JZ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Industry-scale knowledge graphs: lessons and challenges"
+	}
+}

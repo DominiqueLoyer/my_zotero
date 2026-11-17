@@ -1,0 +1,89 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:07:36Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:07:36Z",
+			"dateModified": "2026-11-09T17:06:13Z",
+			"itemType": "attachment",
+			"key": "HSM8CJCM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:13 p.m.</p>",
+			"parentItem": "RVBU5A8A",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Graeber-David-2015-4129fa248c57813f9ed1e8232afe8d2a"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HSM8CJCM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Graeber-David-2015-4129fa248c57813f9ed1e8232afe8d2a"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"_gs_080326"
+		],
+		"creators": [
+			"Graeber, David"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Bureaucratie. L'utopie des règles",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/RVBU5A8A"
+	},
+	"zotero": {
+		"citationKey": "graeberdavidBureaucratieLutopieRegles2015",
+		"collections": [
+			"9ERXAIZK",
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Graeber, David"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-02-25T21:37:27Z",
+		"dateModified": "2026-11-13T19:33:31Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "RVBU5A8A",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/852HSFAS",
+				"http://zotero.org/users/15425556/items/D2VC7E3T",
+				"http://zotero.org/users/15425556/items/F6EMJ34K"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/SA6RUYHI",
+				"http://zotero.org/groups/6376680/items/XB6KCHH3"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bureaucratie. L'utopie des règles"
+	}
+}

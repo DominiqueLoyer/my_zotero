@@ -1,0 +1,123 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:55:46Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:55:46Z",
+			"dateModified": "2026-01-01T23:55:46Z",
+			"filename": "Meyer - 2011 - L'éthique selon la vertu  d'Aristote à Comte-Sponville.pdf",
+			"itemType": "attachment",
+			"key": "UNSRWAHD",
+			"linkMode": "imported_url",
+			"parentItem": "79WT9EDI",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://shs.cairn.info/article/RIP_258_0057/pdf?lang=fr"
+		},
+		{
+			"accessDate": "2025-12-05T22:29:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:29:06Z",
+			"dateModified": "2026-01-02T19:17:18Z",
+			"itemType": "attachment",
+			"key": "YMWN7FI4",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:18 p.m.</p>",
+			"parentItem": "79WT9EDI",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/meyerLethiqueSelonVertu2011-2c09fa248c578118a666c27d96d17247"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Meyer - 2011 - L'éthique selon la vertu  d'Aristote à Comte-Sponville.pdf",
+				"files": [
+					{
+						"path": "attachments/UN/UNSRWAHD/Meyer - 2011 - L'éthique selon la vertu  d'Aristote à Comte-Sponville.pdf",
+						"size": 210511,
+						"storage": "git"
+					}
+				],
+				"key": "UNSRWAHD",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://shs.cairn.info/article/RIP_258_0057/pdf?lang=fr"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "YMWN7FI4",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/meyerLethiqueSelonVertu2011-2c09fa248c578118a666c27d96d17247"
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Papier sur Searle (Naturalisme et étique)"
+		],
+		"creators": [
+			"Meyer, Michel"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "L'éthique selon la vertu : d'Aristote à Comte-Sponville:",
+		"year": "2011",
+		"zoteroURI": "zotero://select/library/items/79WT9EDI"
+	},
+	"zotero": {
+		"DOI": "10.3917/rip.258.0057",
+		"ISSN": "0048-8143",
+		"abstractNote": "Dans cet article, il s’agit de comparer l’œuvre de Comte-Sponville sur les vertus à la virtue-ethics en vogue dans les pays anglo-saxons. On y reprend l’analyse des vertues cardinales, développée par Aristote, consacrée à la justice, à la tempérance, au courage, à la prudence (sagesse). Quel est le point commun entre toutes ces théories ? Probablement, le fait que les vertus sont des modulations de la distance entre les êtres, à laquelle elle répond. Ce sont des dispositions de l’individu, mais aussi des jugements sur autrui et son action.",
+		"accessDate": "2024-12-03T19:38:42Z",
+		"citationKey": "meyerLethiqueSelonVertu2011",
+		"collections": [
+			"LWXGCZB4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Michel",
+				"lastName": "Meyer"
+			}
+		],
+		"date": "2011-12-1",
+		"dateAdded": "2024-12-03T19:38:42Z",
+		"dateModified": "2025-12-05T22:29:06Z",
+		"issue": "4",
+		"itemType": "journalArticle",
+		"key": "79WT9EDI",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "57-66",
+		"publicationTitle": "Revue internationale de philosophie",
+		"relations": {},
+		"shortTitle": "L'éthique selon la vertu",
+		"tags": [
+			{
+				"tag": "Aristote"
+			},
+			{
+				"tag": "morale"
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "L'éthique selon la vertu : d'Aristote à Comte-Sponville:",
+		"url": "https://www.cairn.info/revue-internationale-de-philosophie-2011-4-page-57.htm?ref=doi",
+		"volume": "n° 258"
+	}
+}

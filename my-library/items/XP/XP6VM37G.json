@@ -1,0 +1,142 @@
+{
+	"children": [
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "imcoplétude",
+			"annotationPageLabel": "2",
+			"annotationPosition": "{\"pageIndex\":1,\"fontSize\":14,\"rotation\":0,\"rects\":[[586.9023679525222,537.7131810089021,676.9023679525222,554.7131810089021]]}",
+			"annotationSortIndex": "00001|000000|00057",
+			"annotationType": "text",
+			"dateAdded": "2025-04-07T19:08:30Z",
+			"dateModified": "2025-04-07T19:08:45Z",
+			"itemType": "annotation",
+			"key": "2IXPRJ5U",
+			"parentItem": "XP6VM37G",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "une contraite d'intégrité\nmodèle de cohérence (dedans\nune contrainte ex prédicat incompatible oiseau et mammifère\ndans une BC on peut avoir des règles, une ontologies, des règles d'intégrité , on a des exemples (des cas)\nles cas vopnt servir a voir si notre bc a des problémes-> incompléde,  eg. notre sys trouve pas que baleine est mammifère\nincohérence: notre systeme nous prouve que chauve souris est oiserau et non un mammifère. on doit lui dire que même sis c'est incohérent",
+			"annotationPageLabel": "2",
+			"annotationPosition": "{\"pageIndex\":1,\"rects\":[[668.255,186.947,690.255,208.947]]}",
+			"annotationSortIndex": "00001|000000|00403",
+			"annotationType": "note",
+			"dateAdded": "2025-04-07T18:57:46Z",
+			"dateModified": "2025-04-07T19:02:00Z",
+			"itemType": "annotation",
+			"key": "HMXRRFKG",
+			"parentItem": "XP6VM37G",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "ex animaux qui on pas placenta e.g marsupiaux (kangorou, chauve-souris)\nça des exemples placentaire pos\non donne nég (donc qui sont placentaires comme chat, baleine,etc)",
+			"annotationPageLabel": "7",
+			"annotationPosition": "{\"pageIndex\":6,\"rects\":[[264.341,291.55,286.341,313.55]]}",
+			"annotationSortIndex": "00006|000000|00298",
+			"annotationType": "note",
+			"dateAdded": "2025-04-07T19:21:09Z",
+			"dateModified": "2025-04-07T19:21:14Z",
+			"itemType": "annotation",
+			"key": "M4WA5CNZ",
+			"parentItem": "XP6VM37G",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "foil et kgb sont 2 algorithmes différencts\nun a une règles dijonctive\net l'autre a conjonctive\non peut rajouter à notre réseau sémantique )notres sys profond (notre expression de la connaissance)",
+			"annotationPageLabel": "5",
+			"annotationPosition": "{\"pageIndex\":4,\"rects\":[[337.648,271.936,359.648,293.936]]}",
+			"annotationSortIndex": "00004|000000|00318",
+			"annotationType": "note",
+			"dateAdded": "2025-04-07T19:14:42Z",
+			"dateModified": "2025-04-07T19:17:38Z",
+			"itemType": "annotation",
+			"key": "N4R9FIHW",
+			"parentItem": "XP6VM37G",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#2ea8e5",
+			"annotationComment": "",
+			"annotationPageLabel": "2",
+			"annotationPosition": "{\"pageIndex\":1,\"width\":2,\"paths\":[[614.13,185.276]]}",
+			"annotationSortIndex": "00001|000000|00426",
+			"annotationType": "ink",
+			"dateAdded": "2025-04-07T18:57:30Z",
+			"dateModified": "2025-04-07T18:57:30Z",
+			"itemType": "annotation",
+			"key": "VF7QBGZA",
+			"parentItem": "XP6VM37G",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "incohérence",
+			"annotationPageLabel": "3",
+			"annotationPosition": "{\"pageIndex\":2,\"fontSize\":14,\"rotation\":0,\"rects\":[[232.9894866468843,555.1467982195845,320.9894866468843,572.1467982195845]]}",
+			"annotationSortIndex": "00002|000000|00039",
+			"annotationType": "text",
+			"dateAdded": "2025-04-07T19:07:54Z",
+			"dateModified": "2025-04-07T19:08:11Z",
+			"itemType": "annotation",
+			"key": "VMA6S5KP",
+			"parentItem": "XP6VM37G",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 6,
+				"contentType": "application/pdf",
+				"filename": "Revision-Connaissances.pdf",
+				"files": [],
+				"key": "XP6VM37G",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "Revision-Connaissances",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation/7 avril validation et vérification"
+		],
+		"creators": [],
+		"itemType": "attachment",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Revision-Connaissances",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/XP6VM37G"
+	},
+	"zotero": {
+		"charset": "",
+		"collections": [
+			"SFPN6D6J"
+		],
+		"contentType": "application/pdf",
+		"dateAdded": "2025-04-07T18:34:09Z",
+		"dateModified": "2025-04-07T18:34:09Z",
+		"filename": "Revision-Connaissances.pdf",
+		"itemType": "attachment",
+		"key": "XP6VM37G",
+		"linkMode": "imported_file",
+		"relations": {},
+		"tags": [],
+		"title": "Revision-Connaissances"
+	}
+}

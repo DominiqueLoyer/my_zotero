@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:53:13Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:13Z",
+			"dateModified": "2026-03-09T20:46:33Z",
+			"itemType": "attachment",
+			"key": "L7UNJE5Y",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:46:33 p.m.</p>",
+			"parentItem": "N3ENWPL7",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6EJ29M8J"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/RefCopie-2ea9fa248c578109a369c856683b519e"
+		},
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:14Z",
+			"dateModified": "2026-01-08T22:57:45Z",
+			"filename": "ref copie.bib",
+			"itemType": "attachment",
+			"key": "LXWW4CQ9",
+			"linkMode": "imported_file",
+			"parentItem": "N3ENWPL7",
+			"relations": {},
+			"tags": [],
+			"title": "ref copie"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "L7UNJE5Y",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/RefCopie-2ea9fa248c578109a369c856683b519e"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "ref copie.bib",
+				"files": [
+					{
+						"path": "attachments/LX/LXWW4CQ9/ref copie.bib",
+						"size": 8166,
+						"storage": "git"
+					}
+				],
+				"key": "LXWW4CQ9",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "ref copie",
+				"url": null
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "ref copie",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/N3ENWPL7"
+	},
+	"zotero": {
+		"citationKey": "RefCopie",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:45Z",
+		"dateModified": "2026-02-05T00:08:33Z",
+		"itemType": "document",
+		"key": "N3ENWPL7",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/ZPR7NFP6"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ref copie"
+	}
+}

@@ -1,0 +1,155 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-18T22:00:44Z",
+			"dateModified": "2025-03-18T22:00:48Z",
+			"filename": "White et al. - 2023 - ChatGPT Prompt Patterns for Improving Code Quality, Refactoring, Requirements Elicitation, and Softw.pdf",
+			"itemType": "attachment",
+			"key": "3SCX4GB8",
+			"linkMode": "imported_file",
+			"parentItem": "5TXQ8XTI",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:24:23Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:23Z",
+			"dateModified": "2026-11-09T17:06:20Z",
+			"itemType": "attachment",
+			"key": "X4SGDDY9",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:20 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "5TXQ8XTI",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/White-et-al-2023-4129fa248c5781078f6dc4a831737907"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "X4SGDDY9",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/White-et-al-2023-4129fa248c5781078f6dc4a831737907"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "White et al. - 2023 - ChatGPT Prompt Patterns for Improving Code Quality, Refactoring, Requirements Elicitation, and Softw.pdf",
+				"files": [
+					{
+						"path": "attachments/3S/3SCX4GB8/White et al. - 2023 - ChatGPT Prompt Patterns for Improving Code Quality, Refactoring, Requirements Elicitation, and Softw.pdf",
+						"size": 1018203,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/3S/3SCX4GB8/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 75534,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/3S/3SCX4GB8/White et al. - 2023 - ChatGPT Prompt Patterns for Improving Code Quality, Refactoring, Requirements Elicitation, and Softw (trashed 2025-11-24 15-34-10).pdf",
+						"size": 1018203,
+						"storage": "git"
+					}
+				],
+				"key": "3SCX4GB8",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/9270 (H25)/JULE WHITE 20MARS25"
+		],
+		"creators": [
+			"White, Jules",
+			"Hays, Sam",
+			"Fu, Quchen",
+			"Spencer-Smith, Jesse",
+			"Schmidt, Douglas C."
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "ChatGPT Prompt Patterns for Improving Code Quality, Refactoring, Requirements Elicitation, and Software Design",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/5TXQ8XTI"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-3-031-55642-5_4",
+		"abstractNote": "This paper presents prompt design techniques for software engineering, in the form of patterns, to solve common problems when using large language models (LLMs), such as ChatGPT to automate common software engineering activities, such as ensuring code is decoupled from third-party libraries and creating an API speciﬁcation from a requirements list. This paper provides two contributions to research on using LLMs for software engineering. First, it provides a catalog of patterns for software engineering that classiﬁes patterns according to the types of problems they solve. Second, it explores several prompt patterns that have been applied to improve requirements elicitation, rapid prototyping, code quality, deployment, and testing.",
+		"accessDate": "2025-03-18T22:00:47Z",
+		"archiveID": "arXiv:2303.07839",
+		"citationKey": "whiteChatGPTPromptPatterns2023",
+		"collections": [
+			"3WAAZFWA"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Jules",
+				"lastName": "White"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sam",
+				"lastName": "Hays"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Quchen",
+				"lastName": "Fu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jesse",
+				"lastName": "Spencer-Smith"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Douglas C.",
+				"lastName": "Schmidt"
+			}
+		],
+		"date": "2023-03-11",
+		"dateAdded": "2025-03-18T22:00:47Z",
+		"dateModified": "2026-11-13T19:34:13Z",
+		"extra": "arXiv:2303.07839 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2303.07839",
+		"itemType": "preprint",
+		"key": "5TXQ8XTI",
+		"language": "en",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Software Engineering",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ChatGPT Prompt Patterns for Improving Code Quality, Refactoring, Requirements Elicitation, and Software Design",
+		"url": "http://arxiv.org/abs/2303.07839"
+	}
+}

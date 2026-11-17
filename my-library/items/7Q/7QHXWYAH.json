@@ -1,0 +1,145 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:41Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:41Z",
+			"dateModified": "2026-11-09T17:05:56Z",
+			"itemType": "attachment",
+			"key": "GDHSIXI7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:56 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "7QHXWYAH",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/FQJ8W7K7"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Favaretto-et-al-2019-4129fa248c5781cdb120cb0bbbf6b289"
+		},
+		{
+			"accessDate": "2024-11-23T17:50:14Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-23T17:50:14Z",
+			"dateModified": "2024-11-23T17:50:14Z",
+			"filename": "Favaretto et al. - 2019 - Big Data and discrimination perils, promises and solutions. A systematic review.pdf",
+			"itemType": "attachment",
+			"key": "P6LCBXPR",
+			"linkMode": "imported_url",
+			"parentItem": "7QHXWYAH",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-019-0177-4"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Favaretto et al. - 2019 - Big Data and discrimination perils, promises and solutions. A systematic review.pdf",
+				"files": [
+					{
+						"path": "attachments/P6/P6LCBXPR/Favaretto et al. - 2019 - Big Data and discrimination perils, promises and solutions. A systematic review.pdf",
+						"size": 996815,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/P6/P6LCBXPR/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 90111,
+						"storage": "git"
+					}
+				],
+				"key": "P6LCBXPR",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-019-0177-4"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GDHSIXI7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Favaretto-et-al-2019-4129fa248c5781cdb120cb0bbbf6b289"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Favaretto, Maddalena",
+			"De Clercq, Eva",
+			"Elger, Bernice Simone"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Big Data and discrimination: perils, promises and solutions. A systematic review",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/7QHXWYAH"
+	},
+	"zotero": {
+		"DOI": "10.1186/s40537-019-0177-4",
+		"ISSN": "2196-1115",
+		"accessDate": "2024-11-23T17:49:55Z",
+		"citationKey": "favarettoBigDataDiscrimination2019",
+		"collections": [
+			"J4VTG4NB",
+			"NKV86EAI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Maddalena",
+				"lastName": "Favaretto"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Eva",
+				"lastName": "De Clercq"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Bernice Simone",
+				"lastName": "Elger"
+			}
+		],
+		"date": "12/2019",
+		"dateAdded": "2024-11-23T17:49:56Z",
+		"dateModified": "2025-12-05T22:34:41Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "J Big Data",
+		"key": "7QHXWYAH",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "12",
+		"publicationTitle": "Journal of Big Data",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/59YTLVE7"
+			]
+		},
+		"shortTitle": "Big Data and discrimination",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Big Data and discrimination: perils, promises and solutions. A systematic review",
+		"url": "https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0177-4",
+		"volume": "6"
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:53:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:53:12Z",
+			"dateModified": "2026-03-09T20:46:30Z",
+			"itemType": "attachment",
+			"key": "6RCMCQYP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:46:30 p.m.</p>",
+			"parentItem": "D9Z2EQV9",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3W8W5BT6"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/References1-2ea9fa248c578100bf16c05fcb656a99"
+		},
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:24:14Z",
+			"dateModified": "2026-01-08T22:57:45Z",
+			"filename": "references 1.bib",
+			"itemType": "attachment",
+			"key": "EVWCYSQK",
+			"linkMode": "imported_file",
+			"parentItem": "D9Z2EQV9",
+			"relations": {},
+			"tags": [],
+			"title": "references 1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "6RCMCQYP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/References1-2ea9fa248c578100bf16c05fcb656a99"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "references 1.bib",
+				"files": [
+					{
+						"path": "attachments/EV/EVWCYSQK/references 1.bib",
+						"size": 14716,
+						"storage": "git"
+					}
+				],
+				"key": "EVWCYSQK",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "references 1",
+				"url": null
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "references 1",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/D9Z2EQV9"
+	},
+	"zotero": {
+		"citationKey": "References1",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:45Z",
+		"dateModified": "2026-02-05T00:08:31Z",
+		"itemType": "document",
+		"key": "D9Z2EQV9",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/PWU7PYER"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "references 1"
+	}
+}

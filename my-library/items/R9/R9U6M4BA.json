@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-16T15:52:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-16T15:52:59Z",
+			"dateModified": "2026-03-09T20:46:14Z",
+			"itemType": "attachment",
+			"key": "KME2B7ZU",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:46:14 p.m.</p>",
+			"parentItem": "R9U6M4BA",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/FF2BZJ6P"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Papers-2ea9fa248c5781dd854cdeef75d81eb1"
+		},
+		{
+			"charset": "windows-1252",
+			"contentType": "text/plain",
+			"dateAdded": "2026-01-08T20:20:37Z",
+			"dateModified": "2026-01-08T22:57:51Z",
+			"filename": "papers.bib",
+			"itemType": "attachment",
+			"key": "NKIBMCC3",
+			"linkMode": "imported_file",
+			"parentItem": "R9U6M4BA",
+			"relations": {},
+			"tags": [],
+			"title": "papers"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "KME2B7ZU",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Papers-2ea9fa248c5781dd854cdeef75d81eb1"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "text/plain",
+				"filename": "papers.bib",
+				"files": [
+					{
+						"path": "attachments/NK/NKIBMCC3/papers.bib",
+						"size": 680,
+						"storage": "git"
+					}
+				],
+				"key": "NKIBMCC3",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "papers",
+				"url": null
+			}
+		],
+		"collections": [
+			"myReferences"
+		],
+		"creators": [],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "papers",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/R9U6M4BA"
+	},
+	"zotero": {
+		"citationKey": "Papers",
+		"collections": [
+			"6IRQRQI8"
+		],
+		"creators": [],
+		"dateAdded": "2026-01-08T22:57:51Z",
+		"dateModified": "2026-02-05T00:07:54Z",
+		"itemType": "document",
+		"key": "R9U6M4BA",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/XYVWP9E7"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "papers"
+	}
+}

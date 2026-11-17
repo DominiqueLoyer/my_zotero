@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T22:27:01Z",
+			"itemType": "attachment",
+			"key": "MPKP8GK3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:42:14 p.m.</p>",
+			"parentItem": "337LGTDV",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/8J2JGX2C"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Adomavicius2005Toward-3129fa248c578124a561ff6df9464b12"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "MPKP8GK3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Adomavicius2005Toward-3129fa248c578124a561ff6df9464b12"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Adomavicius, Gediminas and Tuzhilin, Alexander"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Toward the Next Generation of Recommender Systems: A Survey of the State-of-the-Art and Possible Extensions",
+		"year": "2005",
+		"zoteroURI": "zotero://select/groups/6376680/items/337LGTDV"
+	},
+	"zotero": {
+		"DOI": "10.1109/tkde.2005.99",
+		"citationKey": "Adomavicius2005Toward",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Adomavicius, Gediminas and Tuzhilin, Alexander"
+			}
+		],
+		"date": "2005",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T22:27:01Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "337LGTDV",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/FBV9KUU8"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Toward the Next Generation of Recommender Systems: A Survey of the State-of-the-Art and Possible Extensions"
+	}
+}

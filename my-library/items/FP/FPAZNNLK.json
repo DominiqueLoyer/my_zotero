@@ -1,0 +1,175 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:39Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:39Z",
+			"dateModified": "2026-03-14T18:22:48Z",
+			"itemType": "attachment",
+			"key": "HUUCI7NN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:22:48 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-813d-a0fc-e771436b72c1\",\"notes\":{\"W74XIUI9\":{\"blockID\":\"3239fa24-8c57-814b-95e6-d030df6349e0\",\"syncedAt\":\"2026-03-14T18:22:48.623Z\"}}}</pre>",
+			"parentItem": "FPAZNNLK",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/7SJ5VPKI"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/wangNeuralGraphCollaborative2019a-3239fa248c5781a6bbb0d4e427890f28"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:32:05Z",
+			"dateModified": "2026-03-14T17:40:03Z",
+			"itemType": "attachment",
+			"key": "SRM2QWIP",
+			"linkMode": "linked_file",
+			"parentItem": "FPAZNNLK",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/9401_ic_/PDFs/Wang et al. - 2019 - Neural Graph Collaborative Filtering.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"dateAdded": "2026-03-14T17:40:02Z",
+			"dateModified": "2026-03-14T17:40:02Z",
+			"itemType": "note",
+			"key": "W74XIUI9",
+			"note": "Comment: SIGIR 2019; the latest version of NGCF paper, which is distinct from the version published in ACM Digital Library",
+			"parentItem": "FPAZNNLK",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HSEK73K3"
+				]
+			},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HUUCI7NN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/wangNeuralGraphCollaborative2019a-3239fa248c5781a6bbb0d4e427890f28"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wang et al. - 2019 - Neural Graph Collaborative Filtering.pdf",
+				"files": [
+					{
+						"path": "attachments/SR/SRM2QWIP/Wang et al. - 2019 - Neural Graph Collaborative Filtering.pdf",
+						"size": 2645821,
+						"storage": "git"
+					}
+				],
+				"key": "SRM2QWIP",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/9401_ic_/PDFs"
+		],
+		"creators": [
+			"Wang, Xiang",
+			"He, Xiangnan",
+			"Wang, Meng",
+			"Feng, Fuli",
+			"Chua, Tat-Seng"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "W74XIUI9",
+				"title": "Comment: SIGIR 2019; the latest version of NGCF paper, which is distinct from the version published in ACM Digital Libra"
+			}
+		],
+		"title": "Neural Graph Collaborative Filtering",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/FPAZNNLK"
+	},
+	"zotero": {
+		"DOI": "10.1145/3331184.3331267",
+		"abstractNote": "Learning vector representations (aka. embeddings) of users and items lies at the core of modern recommender systems. Ranging from early matrix factorization to recently emerged deep learning based methods, existing efforts typically obtain a user's (or an item's) embedding by mapping from pre-existing features that describe the user (or the item), such as ID and attributes. We argue that an inherent drawback of such methods is that, the collaborative signal, which is latent in user-item interactions, is not encoded in the embedding process. As such, the resultant embeddings may not be sufficient to capture the collaborative filtering effect. In this work, we propose to integrate the user-item interactions -- more specifically the bipartite graph structure -- into the embedding process. We develop a new recommendation framework Neural Graph Collaborative Filtering (NGCF), which exploits the user-item graph structure by propagating embeddings on it. This leads to the expressive modeling of high-order connectivity in user-item graph, effectively injecting the collaborative signal into the embedding process in an explicit manner. We conduct extensive experiments on three public benchmarks, demonstrating significant improvements over several state-of-the-art models like HOP-Rec and Collaborative Memory Network. Further analysis verifies the importance of embedding propagation for learning better user and item representations, justifying the rationality and effectiveness of NGCF. Codes are available at https://github.com/xiangwang1223/neural_graph_collaborative_filtering.",
+		"accessDate": "2026-03-14T17:40:02Z",
+		"citationKey": "wangNeuralGraphCollaborative2019c",
+		"collections": [
+			"U5GGZRY8"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xiang",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiangnan",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Meng",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Fuli",
+				"lastName": "Feng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tat-Seng",
+				"lastName": "Chua"
+			}
+		],
+		"date": "2019-07-18",
+		"dateAdded": "2026-03-14T17:40:02Z",
+		"dateModified": "2026-03-25T21:28:25Z",
+		"extra": "arXiv:1905.08108 [cs]",
+		"itemType": "conferencePaper",
+		"key": "FPAZNNLK",
+		"libraryCatalog": "arXiv.org",
+		"pages": "165-174",
+		"proceedingsTitle": "Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UMPJ2WBF"
+			]
+		},
+		"tags": [
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Social and Information Networks",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Neural Graph Collaborative Filtering",
+		"url": "http://arxiv.org/abs/1905.08108"
+	}
+}

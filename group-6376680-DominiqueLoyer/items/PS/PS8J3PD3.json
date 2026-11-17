@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:35:47Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:23:32Z",
+			"dateModified": "2026-11-17T14:48:23Z",
+			"itemType": "attachment",
+			"key": "Y8JQBXLZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:35:47 p.m.</p>",
+			"parentItem": "PS8J3PD3",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/groups/6376680/items/92USG96S"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Martinez-Rodriguez2020Information-31e9fa248c5781da8815cb5b431244e2"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Y8JQBXLZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Martinez-Rodriguez2020Information-31e9fa248c5781da8815cb5b431244e2"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Martinez-Rodriguez, J. L. and Hogan, A. and Lopez-Arevalo, I."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Information extraction meets the Semantic Web: A survey",
+		"year": "2020",
+		"zoteroURI": "zotero://select/groups/6376680/items/PS8J3PD3"
+	},
+	"zotero": {
+		"DOI": "10.3233/sw-180333",
+		"citationKey": "martinez-rodriguezj.l.andhogana.andlopez-arevaloi.InformationExtractionMeets2020",
+		"collections": [
+			"JVLZZMAC"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Martinez-Rodriguez, J. L. and Hogan, A. and Lopez-Arevalo, I."
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-04-17T21:23:32Z",
+		"dateModified": "2026-11-17T14:48:23Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "PS8J3PD3",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/groups/6376680/items/B6VB6Y83"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Information extraction meets the Semantic Web: A survey"
+	}
+}

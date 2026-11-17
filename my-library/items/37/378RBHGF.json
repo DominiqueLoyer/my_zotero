@@ -1,0 +1,92 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-06T23:40:22Z",
+			"dateModified": "2026-01-06T23:40:22Z",
+			"filename": "_.pdf",
+			"itemType": "attachment",
+			"key": "3ZCXW7D4",
+			"linkMode": "imported_file",
+			"parentItem": "378RBHGF",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-01-07T01:49:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-07T01:49:11Z",
+			"dateModified": "2026-03-09T20:55:32Z",
+			"itemType": "attachment",
+			"key": "I67CU7VY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:55:32 p.m.</p>",
+			"parentItem": "378RBHGF",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/SkinnerCourseNotes-2e19fa248c57813faf10fd3920551ea6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "I67CU7VY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/SkinnerCourseNotes-2e19fa248c57813faf10fd3920551ea6"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "_.pdf",
+				"files": [
+					{
+						"path": "attachments/3Z/3ZCXW7D4/_.pdf",
+						"size": 4037857,
+						"storage": "git"
+					}
+				],
+				"key": "3ZCXW7D4",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [],
+		"creators": [],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Skinner course notes",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/378RBHGF"
+	},
+	"zotero": {
+		"citationKey": "SkinnerCourseNotes",
+		"collections": [],
+		"creators": [],
+		"dateAdded": "2026-01-06T23:39:59Z",
+		"dateModified": "2026-02-05T00:23:08Z",
+		"itemType": "book",
+		"key": "378RBHGF",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Skinner course notes"
+	}
+}

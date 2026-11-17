@@ -1,0 +1,185 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:19:52Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:19:52Z",
+			"dateModified": "2026-03-14T18:28:14Z",
+			"itemType": "attachment",
+			"key": "2L3Q75HT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:28:14 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-8193-b364-d296d739b4ee\",\"notes\":{\"HV3WZ8DI\":{\"blockID\":\"3239fa24-8c57-81a7-a4e5-da1cd48a4db3\",\"syncedAt\":\"2026-03-14T18:28:14.657Z\"}}}</pre>",
+			"parentItem": "3YJE9H3L",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/GN2GU74C"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/liuMultilingualDenoisingPretraining2020-3239fa248c57811c9a5ffac2490ff8d8"
+		},
+		{
+			"dateAdded": "2026-03-14T17:36:00Z",
+			"dateModified": "2026-03-14T17:36:00Z",
+			"itemType": "note",
+			"key": "HV3WZ8DI",
+			"note": "Comment: Work in progress",
+			"parentItem": "3YJE9H3L",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/8A2IDS2S"
+				]
+			},
+			"tags": []
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:24:12Z",
+			"dateModified": "2026-03-14T17:36:01Z",
+			"itemType": "attachment",
+			"key": "KFIE7XZF",
+			"linkMode": "linked_file",
+			"parentItem": "3YJE9H3L",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/NMT_en-ru_040326/PDFs/Liu et al. - 2020 - Multilingual Denoising Pre-training for Neural Machine Translation.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "2L3Q75HT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/liuMultilingualDenoisingPretraining2020-3239fa248c57811c9a5ffac2490ff8d8"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Liu et al. - 2020 - Multilingual Denoising Pre-training for Neural Machine Translation.pdf",
+				"files": [
+					{
+						"path": "attachments/KF/KFIE7XZF/Liu et al. - 2020 - Multilingual Denoising Pre-training for Neural Machine Translation.pdf",
+						"size": 1583986,
+						"storage": "git"
+					}
+				],
+				"key": "KFIE7XZF",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
+		],
+		"creators": [
+			"Liu, Yinhan",
+			"Gu, Jiatao",
+			"Goyal, Naman",
+			"Li, Xian",
+			"Edunov, Sergey",
+			"Ghazvininejad, Marjan",
+			"Lewis, Mike",
+			"Zettlemoyer, Luke"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "HV3WZ8DI",
+				"title": "Comment: Work in progress"
+			}
+		],
+		"title": "Multilingual Denoising Pre-training for Neural Machine Translation",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/3YJE9H3L"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2001.08210",
+		"abstractNote": "This paper demonstrates that multilingual denoising pre-training produces significant performance gains across a wide variety of machine translation (MT) tasks. We present mBART -- a sequence-to-sequence denoising auto-encoder pre-trained on large-scale monolingual corpora in many languages using the BART objective. mBART is one of the first methods for pre-training a complete sequence-to-sequence model by denoising full texts in multiple languages, while previous approaches have focused only on the encoder, decoder, or reconstructing parts of the text. Pre-training a complete model allows it to be directly fine tuned for supervised (both sentence-level and document-level) and unsupervised machine translation, with no task-specific modifications. We demonstrate that adding mBART initialization produces performance gains in all but the highest-resource settings, including up to 12 BLEU points for low resource MT and over 5 BLEU points for many document-level and unsupervised models. We also show it also enables new types of transfer to language pairs with no bi-text or that were not in the pre-training corpus, and present extensive analysis of which factors contribute the most to effective pre-training.",
+		"accessDate": "2026-03-14T17:36:00Z",
+		"archiveID": "arXiv:2001.08210",
+		"citationKey": "liuMultilingualDenoisingPretraining2020",
+		"collections": [
+			"VENCFFG7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Yinhan",
+				"lastName": "Liu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jiatao",
+				"lastName": "Gu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Naman",
+				"lastName": "Goyal"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xian",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sergey",
+				"lastName": "Edunov"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Marjan",
+				"lastName": "Ghazvininejad"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mike",
+				"lastName": "Lewis"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Luke",
+				"lastName": "Zettlemoyer"
+			}
+		],
+		"date": "2020-01-23",
+		"dateAdded": "2026-03-14T17:36:00Z",
+		"dateModified": "2026-03-14T18:19:52Z",
+		"extra": "arXiv:2001.08210 [cs]",
+		"itemType": "preprint",
+		"key": "3YJE9H3L",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/VIX3DFS8"
+			]
+		},
+		"repository": "arXiv",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Multilingual Denoising Pre-training for Neural Machine Translation",
+		"url": "http://arxiv.org/abs/2001.08210"
+	}
+}

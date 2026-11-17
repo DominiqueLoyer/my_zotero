@@ -1,0 +1,189 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:33:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:33:29Z",
+			"dateModified": "2026-11-09T14:59:57Z",
+			"itemType": "attachment",
+			"key": "EXIQXLYC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:50:15 p.m.</p>",
+			"parentItem": "XIR5ZRYA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/He2020-2e29fa248c5781529abfe1f3583091d8"
+		},
+		{
+			"accessDate": "2025-12-05T22:33:55Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:55Z",
+			"dateModified": "2026-11-09T14:59:57Z",
+			"itemType": "attachment",
+			"key": "LZ35RAQ7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:11:28 p.m.</p>",
+			"parentItem": "XIR5ZRYA",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/QDGLCLNH"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/UJPWL72P"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/heLightGCNSimplifyingPowering2020-2c09fa248c5781e4bae3c2c7dcb63f2a"
+		},
+		{
+			"accessDate": "2026-11-08T16:15:08Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:15:08Z",
+			"dateModified": "2026-11-09T14:59:57Z",
+			"filename": "He et al. - 2020 - LightGCN Simplifying and Powering Graph Convolution Network for Recommendation.pdf",
+			"itemType": "attachment",
+			"key": "XPNVWX44",
+			"linkMode": "imported_url",
+			"parentItem": "XIR5ZRYA",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/VWYD5PZ2"
+				]
+			},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2002.02126"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EXIQXLYC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/He2020-2e29fa248c5781529abfe1f3583091d8"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LZ35RAQ7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/heLightGCNSimplifyingPowering2020-2c09fa248c5781e4bae3c2c7dcb63f2a"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "He et al. - 2020 - LightGCN Simplifying and Powering Graph Convolution Network for Recommendation.pdf",
+				"files": [
+					{
+						"path": "attachments/XP/XPNVWX44/He et al. - 2020 - LightGCN Simplifying and Powering Graph Convolution Network for Recommendation.pdf",
+						"size": 1294898,
+						"storage": "git"
+					}
+				],
+				"key": "XPNVWX44",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2002.02126"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"He, Xiangnan",
+			"Deng, Kuan",
+			"Wang, Xiang",
+			"Li, Yan",
+			"Zhang, Yongdong",
+			"Wang, Meng"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/XIR5ZRYA"
+	},
+	"zotero": {
+		"DOI": "10.1145/3397271.3401063",
+		"citationKey": "heLightGCNSimplifyingPowering2020",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Xiangnan",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kuan",
+				"lastName": "Deng"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiang",
+				"lastName": "Wang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yan",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yongdong",
+				"lastName": "Zhang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Meng",
+				"lastName": "Wang"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-09T14:59:57Z",
+		"itemType": "conferencePaper",
+		"key": "XIR5ZRYA",
+		"pages": "639–648",
+		"proceedingsTitle": "Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/CFIXI2PQ",
+				"http://zotero.org/users/15425556/items/Y2RBV2JB"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/7VEE7VF4"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation"
+	}
+}

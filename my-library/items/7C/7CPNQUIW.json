@@ -1,0 +1,157 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-05-06T20:11:26Z",
+			"dateModified": "2025-05-06T20:11:30Z",
+			"filename": "Solomonoff - 2009 - Algorithmic Probability Theory and Applications.pdf",
+			"itemType": "attachment",
+			"key": "DJZQLSSP",
+			"linkMode": "imported_file",
+			"parentItem": "7CPNQUIW",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-08-21T19:30:09Z",
+			"dateModified": "2025-08-21T19:37:59Z",
+			"filename": "Solomonoff - 2009 - Algorithmic Probability Theory and Applications.pdf",
+			"itemType": "attachment",
+			"key": "GD72EEHR",
+			"linkMode": "imported_file",
+			"parentItem": "7CPNQUIW",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:25:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:43Z",
+			"dateModified": "2026-11-09T17:05:28Z",
+			"itemType": "attachment",
+			"key": "XNIZUX8I",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:28 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "7CPNQUIW",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Solomonoff-2009-4129fa248c5781ec9253d45c6670e8bb"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XNIZUX8I",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Solomonoff-2009-4129fa248c5781ec9253d45c6670e8bb"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Solomonoff - 2009 - Algorithmic Probability Theory and Applications.pdf",
+				"files": [],
+				"key": "DJZQLSSP",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Solomonoff - 2009 - Algorithmic Probability Theory and Applications.pdf",
+				"files": [
+					{
+						"path": "attachments/GD/GD72EEHR/Solomonoff - 2009 - Algorithmic Probability Theory and Applications.pdf",
+						"size": 209709,
+						"storage": "git"
+					}
+				],
+				"key": "GD72EEHR",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)"
+		],
+		"creators": [
+			"Emmert-Streib, Frank",
+			"Dehmer, Matthias",
+			"Solomonoff, Ray J."
+		],
+		"itemType": "bookSection",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmic Probability: Theory and Applications",
+		"year": "2009",
+		"zoteroURI": "zotero://select/library/items/7CPNQUIW"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-0-387-84816-7_1",
+		"ISBN": "978-0-387-84815-0 978-0-387-84816-7",
+		"abstractNote": "We ﬁrst deﬁne Algorithmic Probability, an extremely powerful method of inductive inference. We discuss its completeness, incomputability, diversity and subjectivity and show that its incomputability in no way inhibits its use for practical prediction. Applications to Bernoulli sequence prediction and grammar discovery are described. We conclude with a note on its employment in a very strong AI system for very general problem solving.",
+		"accessDate": "2025-05-06T20:11:29Z",
+		"bookTitle": "Information Theory and Statistical Learning",
+		"citationKey": "solomonoffAlgorithmicProbabilityTheory2009",
+		"collections": [
+			"TFCUVACE"
+		],
+		"creators": [
+			{
+				"creatorType": "editor",
+				"firstName": "Frank",
+				"lastName": "Emmert-Streib"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Matthias",
+				"lastName": "Dehmer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ray J.",
+				"lastName": "Solomonoff"
+			}
+		],
+		"date": "2009",
+		"dateAdded": "2025-05-06T20:11:29Z",
+		"dateModified": "2025-12-05T22:25:43Z",
+		"itemType": "bookSection",
+		"key": "7CPNQUIW",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "1-23",
+		"place": "Boston, MA",
+		"publisher": "Springer US",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/337YD9G8"
+			]
+		},
+		"shortTitle": "Algorithmic Probability",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmic Probability: Theory and Applications",
+		"url": "http://link.springer.com/10.1007/978-0-387-84816-7_1"
+	}
+}

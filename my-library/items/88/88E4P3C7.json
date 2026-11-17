@@ -1,0 +1,83 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:12Z",
+			"dateModified": "2026-03-09T20:42:10Z",
+			"itemType": "attachment",
+			"key": "RKSID9J3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:42:10 p.m.</p>",
+			"parentItem": "88E4P3C7",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/DCT4X3ZN",
+					"http://zotero.org/groups/6376680/items/HMLSAH74"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Microsoft2024-3129fa248c5781c98d11e94bfbed0a93"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RKSID9J3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Microsoft2024-3129fa248c5781c98d11e94bfbed0a93"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Microsoft"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Microsoft Responsible AI Standard, v2",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/88E4P3C7"
+	},
+	"zotero": {
+		"citationKey": "microsoftMicrosoftResponsibleAI2024c",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Microsoft"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-25T21:41:45Z",
+		"dateModified": "2026-03-25T21:29:41Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "88E4P3C7",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/UMZSIGLK",
+				"http://zotero.org/groups/6376680/items/VRWFLEI7"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Microsoft Responsible AI Standard, v2"
+	}
+}

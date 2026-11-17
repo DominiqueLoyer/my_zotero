@@ -1,0 +1,132 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:37Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:37Z",
+			"dateModified": "2026-01-02T19:13:01Z",
+			"itemType": "attachment",
+			"key": "HU2G6G2F",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:13:01 p.m.</p>",
+			"parentItem": "A82VLKRU",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ferreiraRATIONALIZATIONBUREAUCRACYIDEALTYPE2019-2c09fa248c5781728c1df0e9a3fe67c6"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-08-21T19:20:54Z",
+			"dateModified": "2025-08-21T19:38:35Z",
+			"filename": "Ferreira et Serpa - 2019 - RATIONALIZATION AND BUREAUCRACY IDEAL-TYPE BUREAUCRACY BY MAX WEBER.pdf",
+			"itemType": "attachment",
+			"key": "KJXY58EF",
+			"linkMode": "imported_file",
+			"parentItem": "A82VLKRU",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/EIIWCW8R"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HU2G6G2F",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ferreiraRATIONALIZATIONBUREAUCRACYIDEALTYPE2019-2c09fa248c5781728c1df0e9a3fe67c6"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ferreira et Serpa - 2019 - RATIONALIZATION AND BUREAUCRACY IDEAL-TYPE BUREAUCRACY BY MAX WEBER.pdf",
+				"files": [
+					{
+						"path": "attachments/KJ/KJXY58EF/Ferreira et Serpa - 2019 - RATIONALIZATION AND BUREAUCRACY IDEAL-TYPE BUREAUCRACY BY MAX WEBER.pdf",
+						"size": 342444,
+						"storage": "git"
+					}
+				],
+				"key": "KJXY58EF",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)"
+		],
+		"creators": [
+			"Ferreira, Carlos Miguel",
+			"Serpa, Sandro"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "RATIONALIZATION AND BUREAUCRACY: IDEAL-TYPE BUREAUCRACY BY MAX WEBER",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/A82VLKRU"
+	},
+	"zotero": {
+		"DOI": "10.18510/hssr.2019.7220",
+		"ISSN": "2395-6518",
+		"abstractNote": "Purpose of this study: This article intends to contribute to the discussion of the heuristic and analytical potentialities of the ideal type of bureaucracy proposed by Max Weber for the analysis of contemporary organizations.",
+		"accessDate": "2025-08-21T19:21:41Z",
+		"citationKey": "ferreiraRATIONALIZATIONBUREAUCRACYIDEALTYPE2019",
+		"collections": [
+			"TFCUVACE"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Carlos Miguel",
+				"lastName": "Ferreira"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sandro",
+				"lastName": "Serpa"
+			}
+		],
+		"date": "2019-03-19",
+		"dateAdded": "2025-08-21T19:21:41Z",
+		"dateModified": "2026-01-27T00:39:46Z",
+		"extra": "abstractTranslation: Purpose of this study: This article intends to contribute to the discussion of the heuristic and analytical potentialities of the ideal type of bureaucracy proposed by Max Weber for the analysis of contemporary organizations.",
+		"issue": "2",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "HSSR",
+		"key": "A82VLKRU",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "187-195",
+		"publicationTitle": "Humanities & Social Sciences Reviews",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/M9U52SD3"
+			]
+		},
+		"shortTitle": "RATIONALIZATION AND BUREAUCRACY",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "RATIONALIZATION AND BUREAUCRACY: IDEAL-TYPE BUREAUCRACY BY MAX WEBER",
+		"url": "https://mgesjournals.com/hssr/article/view/hssr.2019.7220",
+		"volume": "7"
+	}
+}

@@ -1,0 +1,93 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:25:38Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:38Z",
+			"dateModified": "2026-11-09T17:06:51Z",
+			"itemType": "attachment",
+			"key": "UR2WNQZL",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:51 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "TVDQJBSM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Stanford-University-2016-4129fa248c57813db76cc51c86047f37"
+		},
+		{
+			"dateAdded": "2025-04-10T15:02:46Z",
+			"dateModified": "2025-04-10T15:02:46Z",
+			"itemType": "note",
+			"key": "ZWF6RAPI",
+			"note": "Accessed: 2025-04-09",
+			"parentItem": "TVDQJBSM",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UR2WNQZL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Stanford-University-2016-4129fa248c57813db76cc51c86047f37"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Stanford University"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "ZWF6RAPI",
+				"title": "Accessed: 2025-04-09"
+			}
+		],
+		"title": "CS224n: Natural language processing with deep learning - syllabus",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/TVDQJBSM"
+	},
+	"zotero": {
+		"citationKey": "stanforduniversityCS224nNaturalLanguage2016",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Stanford University"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2026-11-13T19:35:14Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "document",
+		"key": "TVDQJBSM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "CS224n: Natural language processing with deep learning - syllabus",
+		"url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1162/syllabus.shtml"
+	}
+}

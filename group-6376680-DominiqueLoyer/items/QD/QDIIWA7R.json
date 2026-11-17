@@ -1,0 +1,287 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:19:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "P3Y8X42M",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:28:18 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"3239fa24-8c57-8191-bbd5-fcc6141fd83c\",\"notes\":{\"GII4SCYZ\":{\"blockID\":\"3239fa24-8c57-818f-9826-dfbc27171dd4\",\"syncedAt\":\"2026-03-14T18:28:18.004Z\"}}}</pre>",
+			"parentItem": "QDIIWA7R",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/lhoestDatasetsCommunityLibrary2021-3239fa248c578147b1bbce4425f606ec"
+		},
+		{
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "note",
+			"key": "QDGRBHVF",
+			"note": "Comment: EMNLP Demo 2021",
+			"parentItem": "QDIIWA7R",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "P3Y8X42M",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/lhoestDatasetsCommunityLibrary2021-3239fa248c578147b1bbce4425f606ec"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
+		],
+		"creators": [
+			"Lhoest, Quentin",
+			"Moral, Albert Villanova del",
+			"Jernite, Yacine",
+			"Thakur, Abhishek",
+			"Platen, Patrick von",
+			"Patil, Suraj",
+			"Chaumond, Julien",
+			"Drame, Mariama",
+			"Plu, Julien",
+			"Tunstall, Lewis",
+			"Davison, Joe",
+			"Šaško, Mario",
+			"Chhablani, Gunjan",
+			"Malik, Bhavitvya",
+			"Brandeis, Simon",
+			"Scao, Teven Le",
+			"Sanh, Victor",
+			"Xu, Canwen",
+			"Patry, Nicolas",
+			"McMillan-Major, Angelina",
+			"Schmid, Philipp",
+			"Gugger, Sylvain",
+			"Delangue, Clément",
+			"Matussière, Théo",
+			"Debut, Lysandre",
+			"Bekman, Stas",
+			"Cistac, Pierric",
+			"Goehringer, Thibault",
+			"Mustar, Victor",
+			"Lagunas, François",
+			"Rush, Alexander M.",
+			"Wolf, Thomas"
+		],
+		"itemType": "preprint",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "QDGRBHVF",
+				"title": "Comment: EMNLP Demo 2021"
+			}
+		],
+		"title": "Datasets: A Community Library for Natural Language Processing",
+		"year": "2021",
+		"zoteroURI": "zotero://select/groups/6376680/items/QDIIWA7R"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2109.02846",
+		"abstractNote": "The scale, variety, and quantity of publicly-available NLP datasets has grown rapidly as researchers propose new tasks, larger models, and novel benchmarks. Datasets is a community library for contemporary NLP designed to support this ecosystem. Datasets aims to standardize end-user interfaces, versioning, and documentation, while providing a lightweight front-end that behaves similarly for small datasets as for internet-scale corpora. The design of the library incorporates a distributed, community-driven approach to adding datasets and documenting usage. After a year of development, the library now includes more than 650 unique datasets, has more than 250 contributors, and has helped support a variety of novel cross-dataset research projects and shared tasks. The library is available at https://github.com/huggingface/datasets.",
+		"accessDate": "2026-03-14T17:35:58Z",
+		"archiveID": "arXiv:2109.02846",
+		"citationKey": "lhoestDatasetsCommunityLibrary2021",
+		"collections": [
+			"RC5X3JTZ"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Quentin",
+				"lastName": "Lhoest"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Albert Villanova del",
+				"lastName": "Moral"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yacine",
+				"lastName": "Jernite"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Abhishek",
+				"lastName": "Thakur"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Patrick von",
+				"lastName": "Platen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Suraj",
+				"lastName": "Patil"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Julien",
+				"lastName": "Chaumond"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mariama",
+				"lastName": "Drame"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Julien",
+				"lastName": "Plu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lewis",
+				"lastName": "Tunstall"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Joe",
+				"lastName": "Davison"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Mario",
+				"lastName": "Šaško"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Gunjan",
+				"lastName": "Chhablani"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Bhavitvya",
+				"lastName": "Malik"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Simon",
+				"lastName": "Brandeis"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Teven Le",
+				"lastName": "Scao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Victor",
+				"lastName": "Sanh"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Canwen",
+				"lastName": "Xu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Nicolas",
+				"lastName": "Patry"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Angelina",
+				"lastName": "McMillan-Major"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Philipp",
+				"lastName": "Schmid"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Sylvain",
+				"lastName": "Gugger"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Clément",
+				"lastName": "Delangue"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Théo",
+				"lastName": "Matussière"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Lysandre",
+				"lastName": "Debut"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Stas",
+				"lastName": "Bekman"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pierric",
+				"lastName": "Cistac"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Thibault",
+				"lastName": "Goehringer"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Victor",
+				"lastName": "Mustar"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "François",
+				"lastName": "Lagunas"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alexander M.",
+				"lastName": "Rush"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Thomas",
+				"lastName": "Wolf"
+			}
+		],
+		"date": "2021-09-07",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"extra": "arXiv:2109.02846 [cs]",
+		"itemType": "preprint",
+		"key": "QDIIWA7R",
+		"libraryCatalog": "arXiv.org",
+		"relations": {},
+		"repository": "arXiv",
+		"shortTitle": "Datasets",
+		"tags": [
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Datasets: A Community Library for Natural Language Processing",
+		"url": "http://arxiv.org/abs/2109.02846"
+	}
+}

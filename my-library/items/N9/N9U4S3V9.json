@@ -1,0 +1,145 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:51:39Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:51:39Z",
+			"dateModified": "2026-01-01T23:51:39Z",
+			"filename": "Fan et al. - 2019 - Graph Neural Networks for Social Recommendation.pdf",
+			"itemType": "attachment",
+			"key": "GF8QYBBB",
+			"linkMode": "imported_url",
+			"parentItem": "N9U4S3V9",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://ira.lib.polyu.edu.hk/bitstream/10397/81232/1/Fan_Graph_neural_networks.pdf"
+		},
+		{
+			"accessDate": "2025-12-05T22:34:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:45Z",
+			"dateModified": "2026-11-09T17:09:22Z",
+			"itemType": "attachment",
+			"key": "ZXRQGEMD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:22 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "N9U4S3V9",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Fan-et-al-2019-4129fa248c5781f49743c940e7d1df2b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Fan et al. - 2019 - Graph Neural Networks for Social Recommendation.pdf",
+				"files": [
+					{
+						"path": "attachments/GF/GF8QYBBB/Fan et al. - 2019 - Graph Neural Networks for Social Recommendation.pdf",
+						"size": 4276680,
+						"storage": "git"
+					}
+				],
+				"key": "GF8QYBBB",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://ira.lib.polyu.edu.hk/bitstream/10397/81232/1/Fan_Graph_neural_networks.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZXRQGEMD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Fan-et-al-2019-4129fa248c5781f49743c940e7d1df2b"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Fan, Wenqi",
+			"Ma, Yao",
+			"Li, Qing",
+			"He, Yuan",
+			"Zhao, Eric",
+			"Tang, Jiliang",
+			"Yin, Dawei"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Graph Neural Networks for Social Recommendation",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/N9U4S3V9"
+	},
+	"zotero": {
+		"DOI": "10.1145/3308558.3313488",
+		"citationKey": "fanGraphNeuralNetworks2019",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Wenqi",
+				"lastName": "Fan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yao",
+				"lastName": "Ma"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Qing",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yuan",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Eric",
+				"lastName": "Zhao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jiliang",
+				"lastName": "Tang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dawei",
+				"lastName": "Yin"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-03-25T21:31:10Z",
+		"itemType": "conferencePaper",
+		"key": "N9U4S3V9",
+		"pages": "417–426",
+		"proceedingsTitle": "The World Wide Web Conference",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Graph Neural Networks for Social Recommendation"
+	}
+}

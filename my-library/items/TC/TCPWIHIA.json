@@ -1,0 +1,85 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:39Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:39Z",
+			"dateModified": "2026-03-09T20:43:09Z",
+			"itemType": "attachment",
+			"key": "PTF7HP72",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:43:09 p.m.</p>",
+			"parentItem": "TCPWIHIA",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/CILGKTVM",
+					"http://zotero.org/groups/6376680/items/FVWRSQQH"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Institut2019La-3129fa248c578114b85bf1bbc85111e0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "PTF7HP72",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Institut2019La-3129fa248c578114b85bf1bbc85111e0"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Institut Paris Region"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "La police prédictive. Enjeux soulevés par l'usage des algorithmes prédictifs en matière de sécurité publique",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/TCPWIHIA"
+	},
+	"zotero": {
+		"DOI": "10.64628/aak.n9ymswkgc",
+		"citationKey": "institutparisregionPolicePredictiveEnjeux2019c",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Institut Paris Region"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-02-25T21:38:43Z",
+		"dateModified": "2026-03-25T21:29:45Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "TCPWIHIA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/3Q7872PQ",
+				"http://zotero.org/groups/6376680/items/X9H8GVBH"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "La police prédictive. Enjeux soulevés par l'usage des algorithmes prédictifs en matière de sécurité publique",
+		"url": "https://www.institutparisregion.fr/nos-travaux/publications/la-police-predictive/"
+	}
+}

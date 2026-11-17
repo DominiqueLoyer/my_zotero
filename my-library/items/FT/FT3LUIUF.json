@@ -1,0 +1,132 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:21:00Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:21:00Z",
+			"dateModified": "2026-11-08T16:21:00Z",
+			"filename": "Elkahky et al. - 2015 - A multi-view deep learning approach for cross domain user modeling in recommendation systems.pdf",
+			"itemType": "attachment",
+			"key": "84RBHIYC",
+			"linkMode": "imported_url",
+			"parentItem": "FT3LUIUF",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/1511.06939v4"
+		},
+		{
+			"accessDate": "2026-01-08T20:39:46Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:39:46Z",
+			"dateModified": "2026-11-09T17:04:38Z",
+			"itemType": "attachment",
+			"key": "I2GZ8GQX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:38 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "FT3LUIUF",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ASPCJ29J"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Elkahky-et-al-2015-4129fa248c578191991efc77358f17ff"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "I2GZ8GQX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Elkahky-et-al-2015-4129fa248c578191991efc77358f17ff"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Elkahky et al. - 2015 - A multi-view deep learning approach for cross domain user modeling in recommendation systems.pdf",
+				"files": [
+					{
+						"path": "attachments/84/84RBHIYC/Elkahky et al. - 2015 - A multi-view deep learning approach for cross domain user modeling in recommendation systems.pdf",
+						"size": 311412,
+						"storage": "git"
+					}
+				],
+				"key": "84RBHIYC",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/1511.06939v4"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Elkahky, Ali Mamdouh",
+			"Song, Yang",
+			"He, Xiaodong"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A multi-view deep learning approach for cross domain user modeling in recommendation systems",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/FT3LUIUF"
+	},
+	"zotero": {
+		"DOI": "10.1145/2736277.2741667",
+		"citationKey": "elkahkyMultiviewDeepLearning2015",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Ali Mamdouh",
+				"lastName": "Elkahky"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yang",
+				"lastName": "Song"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Xiaodong",
+				"lastName": "He"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-01-08T20:07:31Z",
+		"dateModified": "2026-03-25T21:30:43Z",
+		"itemType": "conferencePaper",
+		"key": "FT3LUIUF",
+		"pages": "278–288",
+		"place": "New York, NY, USA",
+		"proceedingsTitle": "Proceedings of the 24th international conference on world wide web (WWW '15)",
+		"publisher": "Association for Computing Machinery",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/TJRFAAS7"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A multi-view deep learning approach for cross domain user modeling in recommendation systems",
+		"url": "https://arxiv.org/abs/1511.06939"
+	}
+}

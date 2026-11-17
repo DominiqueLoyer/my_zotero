@@ -1,0 +1,136 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:39:23Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:39:23Z",
+			"dateModified": "2026-11-09T14:57:34Z",
+			"filename": "Busuioc - 2020 - The algorithmic professional The new rules of the game.pdf",
+			"itemType": "attachment",
+			"key": "DD7NNC8A",
+			"linkMode": "imported_url",
+			"parentItem": "8X3ZKNGQ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/RE44SXYD"
+				]
+			},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://repository.ubn.ru.nl/bitstream/2066/219246/1/219246.pdf"
+		},
+		{
+			"accessDate": "2026-01-08T20:40:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:40:24Z",
+			"dateModified": "2026-11-09T14:57:34Z",
+			"itemType": "attachment",
+			"key": "VQK9A6UH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:54:46 p.m.</p>",
+			"parentItem": "8X3ZKNGQ",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/JDU2DYVC"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/G92MC7K2",
+					"http://zotero.org/groups/6376680/items/N4DUGBE8",
+					"http://zotero.org/groups/6376680/items/WCPPWBL9"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Busuioc2020-2e29fa248c5781adab76d3c1629874e0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Busuioc - 2020 - The algorithmic professional The new rules of the game.pdf",
+				"files": [
+					{
+						"path": "attachments/DD/DD7NNC8A/Busuioc - 2020 - The algorithmic professional The new rules of the game.pdf",
+						"size": 1309433,
+						"storage": "git"
+					}
+				],
+				"key": "DD7NNC8A",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://repository.ubn.ru.nl/bitstream/2066/219246/1/219246.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VQK9A6UH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Busuioc2020-2e29fa248c5781adab76d3c1629874e0"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226",
+			"references_dic9401"
+		],
+		"creators": [
+			"Busuioc, Mădălina"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The algorithmic professional: The new rules of the game",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/8X3ZKNGQ"
+	},
+	"zotero": {
+		"DOI": "10.1111/puar.13258",
+		"citationKey": "busuiocAlgorithmicProfessionalNew2020a",
+		"collections": [
+			"F9TGXIMY",
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Mădălina",
+				"lastName": "Busuioc"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-01-08T20:07:30Z",
+		"dateModified": "2026-11-09T14:57:34Z",
+		"issue": "6",
+		"itemType": "journalArticle",
+		"key": "8X3ZKNGQ",
+		"language": "fr-CA",
+		"pages": "1066–1071",
+		"publicationTitle": "Public Administration Review",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/GPRM5ECS"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/SMBLW6FK",
+				"http://zotero.org/groups/6376680/items/WBUSDR4U",
+				"http://zotero.org/groups/6376680/items/WQ9S7MQ9"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The algorithmic professional: The new rules of the game",
+		"volume": "80"
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:34:14Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:14Z",
+			"dateModified": "2026-11-09T17:09:14Z",
+			"itemType": "attachment",
+			"key": "DKMBE9FH",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:14 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "8NBIPZ26",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Google-Gemini-4129fa248c57811f9f21f227828fc4a7"
+		},
+		{
+			"accessDate": "2025-11-22T01:39:19Z",
+			"charset": "utf-8",
+			"contentType": "text/html",
+			"dateAdded": "2025-11-22T01:39:19Z",
+			"dateModified": "2025-11-22T01:39:19Z",
+			"filename": "665dba6ad67626d6.html",
+			"itemType": "attachment",
+			"key": "K9HKILX9",
+			"linkMode": "imported_url",
+			"parentItem": "8NBIPZ26",
+			"relations": {},
+			"tags": [],
+			"title": "Google Gemini",
+			"url": "https://gemini.google.com/app/665dba6ad67626d6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "text/html",
+				"filename": "665dba6ad67626d6.html",
+				"files": [
+					{
+						"path": "attachments/K9/K9HKILX9/665dba6ad67626d6.html",
+						"size": 2186907,
+						"storage": "git"
+					}
+				],
+				"key": "K9HKILX9",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Google Gemini",
+				"url": "https://gemini.google.com/app/665dba6ad67626d6"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "DKMBE9FH",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Google-Gemini-4129fa248c57811f9f21f227828fc4a7"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/Beamer_18-19nov25_dic9401"
+		],
+		"creators": [],
+		"itemType": "webpage",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Google Gemini",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/8NBIPZ26"
+	},
+	"zotero": {
+		"accessDate": "2025-11-22T01:39:14Z",
+		"citationKey": "GoogleGeminia",
+		"collections": [
+			"U4LWGVFE"
+		],
+		"creators": [],
+		"dateAdded": "2025-11-22T01:39:14Z",
+		"dateModified": "2025-12-05T22:34:13Z",
+		"itemType": "webpage",
+		"key": "8NBIPZ26",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Google Gemini",
+		"url": "https://gemini.google.com/app/665dba6ad67626d6"
+	}
+}

@@ -1,0 +1,106 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:20Z",
+			"dateModified": "2026-11-09T17:08:53Z",
+			"itemType": "attachment",
+			"key": "Y2UKHDZ7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:53 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "74EHYPJR",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/ISB9MJMF"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/K2JZ8QNQ"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lika-et-al-2014-4129fa248c5781148eb6c7ddc6c8b4c1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Y2UKHDZ7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lika-et-al-2014-4129fa248c5781148eb6c7ddc6c8b4c1"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Lika, Blerina",
+			"Kolomvatsos, Kostas",
+			"Hadjiefthymiades, Stathes"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Facing the cold start problem in recommender systems",
+		"year": "2014",
+		"zoteroURI": "zotero://select/library/items/74EHYPJR"
+	},
+	"zotero": {
+		"DOI": "10.1145/2645791.2645811",
+		"citationKey": "likaFacingColdStart2014",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Blerina",
+				"lastName": "Lika"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kostas",
+				"lastName": "Kolomvatsos"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Stathes",
+				"lastName": "Hadjiefthymiades"
+			}
+		],
+		"date": "2014",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-09T15:01:46Z",
+		"itemType": "conferencePaper",
+		"key": "74EHYPJR",
+		"proceedingsTitle": "Proceedings of the 8th Hellenic Conference on Artificial Intelligence",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/CBTPTDEQ",
+				"http://zotero.org/users/15425556/items/HP99GA5M"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/AVABEWNN"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Facing the cold start problem in recommender systems"
+	}
+}

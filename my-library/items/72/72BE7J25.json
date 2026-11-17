@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:38:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:38:01Z",
+			"dateModified": "2026-11-09T17:06:50Z",
+			"itemType": "attachment",
+			"key": "JWSASQA6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:50 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "72BE7J25",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/SNUSCCKA"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/W3C-Credibility-Community-Group-2018-4129fa248c5781a69a45e3c9a95d6d80"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "JWSASQA6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/W3C-Credibility-Community-Group-2018-4129fa248c5781a69a45e3c9a95d6d80"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"W3C Credibility Community Group"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Credibility Signals (Draft Community Group Report)",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/72BE7J25"
+	},
+	"zotero": {
+		"citationKey": "w3ccredibilitycommunitygroupCredibilitySignalsDraft2018a",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "W3C Credibility Community Group"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-03-03T23:19:45Z",
+		"dateModified": "2026-11-13T19:35:12Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "72BE7J25",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/7H9ZKRFW"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Credibility Signals (Draft Community Group Report)",
+		"url": "https://www.w3.org/2018/10/credibility-tech/"
+	}
+}

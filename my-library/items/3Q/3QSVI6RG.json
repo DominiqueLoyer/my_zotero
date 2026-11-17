@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:33:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:33:09Z",
+			"dateModified": "2026-11-09T17:06:01Z",
+			"itemType": "attachment",
+			"key": "M2K7RCBA",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:01 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "3QSVI6RG",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Pasquale-Franck-2016-4129fa248c57816eba2ff81ac9a080f9"
+		},
+		{
+			"accessDate": "2026-11-08T16:25:45Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:25:45Z",
+			"dateModified": "2026-11-08T16:25:45Z",
+			"filename": "Pasquale, Franck - 2016 - Black Box Society. Les algorithmes secrets qui contr{^o}lent l'{'e}conomie et l'information.pdf",
+			"itemType": "attachment",
+			"key": "NRUVUZ7J",
+			"linkMode": "imported_url",
+			"parentItem": "3QSVI6RG",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://shs.cairn.info/article/PRO_351_0092/pdf?lang=fr"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Pasquale, Franck - 2016 - Black Box Society. Les algorithmes secrets qui contr{^o}lent l'{'e}conomie et l'information.pdf",
+				"files": [
+					{
+						"path": "attachments/NR/NRUVUZ7J/Pasquale, Franck - 2016 - Black Box Society. Les algorithmes secrets qui contr{^o}lent l'{'e}conomie et l'information.pdf",
+						"size": 1107515,
+						"storage": "git"
+					}
+				],
+				"key": "NRUVUZ7J",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://shs.cairn.info/article/PRO_351_0092/pdf?lang=fr"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "M2K7RCBA",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Pasquale-Franck-2016-4129fa248c57816eba2ff81ac9a080f9"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Pasquale, Franck"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Black Box Society. Les algorithmes secrets qui contr{\\^o}lent l'{\\'e}conomie et l'information",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/3QSVI6RG"
+	},
+	"zotero": {
+		"DOI": "10.3917/pro.351.0092",
+		"citationKey": "pasqualefranckBlackBoxSociety2016",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Pasquale, Franck"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-03-08T21:21:37Z",
+		"dateModified": "2026-11-13T19:32:55Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "3QSVI6RG",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Black Box Society. Les algorithmes secrets qui contr{\\^o}lent l'{\\'e}conomie et l'information"
+	}
+}

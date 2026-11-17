@@ -1,0 +1,109 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "attachment",
+			"key": "U9ACSJCC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:43 p.m.</p>",
+			"parentItem": "ASMQBJ9J",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/laperdrixBeautyBeastDiverting2016-2c09fa248c5781f7bf7df501633cf7d5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "U9ACSJCC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/laperdrixBeautyBeastDiverting2016-2c09fa248c5781f7bf7df501633cf7d5"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Laperdrix, Pierre",
+			"Rudametkin, Walter",
+			"Baudry, Benoit"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Beauty and the Beast: Diverting Modern Web Browsers to Build Unique Browser Fingerprints",
+		"year": "2016",
+		"zoteroURI": "zotero://select/groups/6376680/items/ASMQBJ9J"
+	},
+	"zotero": {
+		"DOI": "10.1109/SP.2016.57",
+		"ISBN": "978-1-5090-0824-7",
+		"abstractNote": "Worldwide, the number of people and the time spent browsing the web keeps increasing. Accordingly, the technologies to enrich the user experience are evolving at an amazing pace. Many of these evolutions provide for a more interactive web (e.g., boom of JavaScript libraries, weekly innovations in HTML5), a more available web (e.g., explosion of mobile devices), a more secure web (e.g., Flash is disappearing, NPAPI plugins are being deprecated), and a more private web (e.g., increased legislation against cookies, huge success of extensions such as Ghostery and AdBlock).",
+		"accessDate": "2024-11-24T15:20:55Z",
+		"citationKey": "laperdrixBeautyBeastDiverting2016a",
+		"collections": [
+			"J6WCHKF9",
+			"P9N6XDU8"
+		],
+		"conferenceName": "2016 IEEE Symposium on Security and Privacy (SP)",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Pierre",
+				"lastName": "Laperdrix"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Walter",
+				"lastName": "Rudametkin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Benoit",
+				"lastName": "Baudry"
+			}
+		],
+		"date": "5/2016",
+		"dateAdded": "2026-04-17T21:21:41Z",
+		"dateModified": "2026-04-17T21:21:41Z",
+		"itemType": "conferencePaper",
+		"key": "ASMQBJ9J",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "878-894",
+		"place": "San Jose, CA",
+		"proceedingsTitle": "2016 IEEE Symposium on Security and Privacy (SP)",
+		"publisher": "IEEE",
+		"relations": {},
+		"shortTitle": "Beauty and the Beast",
+		"tags": [
+			{
+				"tag": "browsing cookies"
+			},
+			{
+				"tag": "fingerprinting"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "privacy"
+			}
+		],
+		"title": "Beauty and the Beast: Diverting Modern Web Browsers to Build Unique Browser Fingerprints",
+		"url": "http://ieeexplore.ieee.org/document/7546540/"
+	}
+}

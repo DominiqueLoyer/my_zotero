@@ -1,0 +1,138 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:33:20Z",
+			"dateModified": "2026-03-14T17:40:47Z",
+			"itemType": "attachment",
+			"key": "3IMRAUEN",
+			"linkMode": "linked_file",
+			"parentItem": "J65KEQMG",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Ma et al. - Large Language Models Meet Knowledge Graphs for Question Answering Synthesis and Opportunities.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2026-03-14T18:17:12Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:12Z",
+			"dateModified": "2026-03-14T18:17:12Z",
+			"itemType": "attachment",
+			"key": "SUPDL6MC",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:12 p.m.</p>",
+			"parentItem": "J65KEQMG",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3GXMLDB4"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/maLargeLanguageModels-3239fa248c57812f9a82fea6a76f4311"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "SUPDL6MC",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/maLargeLanguageModels-3239fa248c57812f9a82fea6a76f4311"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ma et al. - Large Language Models Meet Knowledge Graphs for Question Answering Synthesis and Opportunities.pdf",
+				"files": [
+					{
+						"path": "attachments/3I/3IMRAUEN/Ma et al. - Large Language Models Meet Knowledge Graphs for Question Answering Synthesis and Opportunities.pdf",
+						"size": 1270413,
+						"storage": "git"
+					}
+				],
+				"key": "3IMRAUEN",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Ma, Chuangtao",
+			"Chen, Yongrui",
+			"Wu, Tianxing",
+			"Khan, Arijit",
+			"Wang, Haofen"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Large Language Models Meet Knowledge Graphs for Question Answering: Synthesis and Opportunities",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/J65KEQMG"
+	},
+	"zotero": {
+		"abstractNote": "Large language models (LLMs) have demonstrated remarkable performance on questionanswering (QA) tasks because of their superior capabilities in natural language understanding and generation. However, LLM-based QA struggles with complex QA tasks due to poor reasoning capacity, outdated knowledge, and hallucinations. Several recent works synthesize LLMs and knowledge graphs (KGs) for QA to address the above challenges. In this survey, we propose a new structured taxonomy that categorizes the methodology of synthesizing LLMs and KGs for QA according to the categories of QA and the KG’s role when integrating with LLMs. We systematically survey state-of-theart methods in synthesizing LLMs and KGs for QA and compare and analyze these approaches in terms of strength, limitations, and KG requirements. We then align the approaches with QA and discuss how these approaches address the main challenges of different complex QA. Finally, we summarize the advancements, evaluation metrics, and benchmark datasets and highlight open challenges and opportunities.",
+		"citationKey": "maLargeLanguageModels",
+		"collections": [
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Chuangtao",
+				"lastName": "Ma"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yongrui",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Tianxing",
+				"lastName": "Wu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Arijit",
+				"lastName": "Khan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Haofen",
+				"lastName": "Wang"
+			}
+		],
+		"dateAdded": "2026-03-14T17:40:46Z",
+		"dateModified": "2026-03-14T18:17:12Z",
+		"itemType": "journalArticle",
+		"key": "J65KEQMG",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/PZANJZHK"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Large Language Models Meet Knowledge Graphs for Question Answering: Synthesis and Opportunities"
+	}
+}

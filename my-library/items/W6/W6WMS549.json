@@ -1,0 +1,118 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:18:51Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:51Z",
+			"dateModified": "2026-11-09T17:08:12Z",
+			"itemType": "attachment",
+			"key": "N383NTF6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:12 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "W6WMS549",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LPV4KA4A",
+					"http://zotero.org/groups/6376680/items/XN8FBAQW"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Breese-John-S-and-Heckerman-David-and-Kadie-Carl-2002-4129fa248c5781c9a993c02a5fd19c19"
+		},
+		{
+			"accessDate": "2026-11-08T16:27:46Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:27:46Z",
+			"dateModified": "2026-11-08T16:27:46Z",
+			"filename": "Breese, John S. and Heckerman, David and Kadie, Carl - 2002 - Empirical analysis of predictive algorithms for collaborative filtering.pdf",
+			"itemType": "attachment",
+			"key": "X5JUCG7Y",
+			"linkMode": "imported_url",
+			"parentItem": "W6WMS549",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://link.springer.com/content/pdf/10.1023%2FA%3A1020443909834.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Breese, John S. and Heckerman, David and Kadie, Carl - 2002 - Empirical analysis of predictive algorithms for collaborative filtering.pdf",
+				"files": [
+					{
+						"path": "attachments/X5/X5JUCG7Y/Breese, John S. and Heckerman, David and Kadie, Carl - 2002 - Empirical analysis of predictive algorithms for collaborative filtering.pdf",
+						"size": 139631,
+						"storage": "git"
+					}
+				],
+				"key": "X5JUCG7Y",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://link.springer.com/content/pdf/10.1023%2FA%3A1020443909834.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "N383NTF6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Breese-John-S-and-Heckerman-David-and-Kadie-Carl-2002-4129fa248c5781c9a993c02a5fd19c19"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Breese, John S. and Heckerman, David and Kadie, Carl"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Empirical analysis of predictive algorithms for collaborative filtering",
+		"year": "2002",
+		"zoteroURI": "zotero://select/library/items/W6WMS549"
+	},
+	"zotero": {
+		"DOI": "10.1023/a:1020443909834",
+		"citationKey": "breesejohns.andheckermandavidandkadiecarlEmpiricalAnalysisPredictive2002",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Breese, John S. and Heckerman, David and Kadie, Carl"
+			}
+		],
+		"date": "2002",
+		"dateAdded": "2026-02-25T21:33:27Z",
+		"dateModified": "2026-03-25T21:29:53Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "W6WMS549",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/HGAESYDE",
+				"http://zotero.org/groups/6376680/items/KS79FP77"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Empirical analysis of predictive algorithms for collaborative filtering",
+		"url": "https://people.eecs.berkeley.edu/~jordan/papers/98-UAI-collab-filtering.pdf"
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:34:36Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:34:36Z",
+			"dateModified": "2026-03-09T20:34:36Z",
+			"itemType": "attachment",
+			"key": "GU9NVTTT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:34:36 p.m.</p>",
+			"parentItem": "EISGCH5E",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Kudo2018Sentencepiece-31e9fa248c57818b986dc40c8d76300a"
+		},
+		{
+			"accessDate": "2026-11-08T16:39:01Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:39:01Z",
+			"dateModified": "2026-11-08T16:39:01Z",
+			"filename": "Kudo, Taku and Richardson, John - 2018 - SentencePiece A simple and language independent subword tokenizer and detokenizer for Neural Text P.pdf",
+			"itemType": "attachment",
+			"key": "NUZLCKQP",
+			"linkMode": "imported_url",
+			"parentItem": "EISGCH5E",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/D18-2012.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Kudo, Taku and Richardson, John - 2018 - SentencePiece A simple and language independent subword tokenizer and detokenizer for Neural Text P.pdf",
+				"files": [
+					{
+						"path": "attachments/NU/NUZLCKQP/Kudo, Taku and Richardson, John - 2018 - SentencePiece A simple and language independent subword tokenizer and detokenizer for Neural Text P.pdf",
+						"size": 110911,
+						"storage": "git"
+					}
+				],
+				"key": "NUZLCKQP",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/D18-2012.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "GU9NVTTT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Kudo2018Sentencepiece-31e9fa248c57818b986dc40c8d76300a"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Kudo, Taku and Richardson, John"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/EISGCH5E"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/d18-2012",
+		"citationKey": "kudotakuandrichardsonjohnSentencePieceSimpleLanguage2018",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Kudo, Taku and Richardson, John"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-03-05T00:56:11Z",
+		"dateModified": "2026-03-25T21:28:59Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "EISGCH5E",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing"
+	}
+}

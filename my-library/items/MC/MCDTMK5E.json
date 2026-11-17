@@ -1,0 +1,93 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:26:50Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:26:50Z",
+			"dateModified": "2026-03-09T20:47:08Z",
+			"itemType": "attachment",
+			"key": "VTTDHYP5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:47:08 p.m.</p>",
+			"parentItem": "MCDTMK5E",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/9eabfa31d96989f7e7611d0f0ac0915c907f09d5-2e29fa248c578101b959d74e9a8f9bed"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VTTDHYP5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/9eabfa31d96989f7e7611d0f0ac0915c907f09d5-2e29fa248c578101b959d74e9a8f9bed"
+			}
+		],
+		"collections": [
+			"ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
+		],
+		"creators": [
+			"Nikiforakis, Nick",
+			"Joosen, W.",
+			"Livshits, B."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "PriVaricator: Deceiving fingerprinters with little white lies",
+		"year": "2015",
+		"zoteroURI": "zotero://select/library/items/MCDTMK5E"
+	},
+	"zotero": {
+		"DOI": "10.1145/2736277.2741090",
+		"abstractNote": "Researchers have shown that, in recent years, unwanted web tracking is on the rise, with browser-based fingerprinting being adopted by more and more websites as a viable alternative to third-party cookies. In this paper we propose PriVaricator, a solution to the problem of browser-based fingerprinting. A key insight is that when it comes to web tracking, the real problem with fingerprinting is not uniqueness of a fingerprint, it is linkability, i.e., the ability to connect the same fingerprint across multiple visits. Thus, making fingerprints non-deterministic also makes them hard to link across browsing sessions. In PriVaricator we use the power of randomization to \"break\" linkability by exploring a space of parameterized randomization policies. We evaluate our techniques in terms of being able to prevent fingerprinting and not breaking existing (benign) sites. The best of our randomization policies renders all the fingerprinters we tested ineffective, while causing minimal damage on a set of 1000 Alexa sites on which we tested, with no noticeable performance overhead.",
+		"citationKey": "nikiforakisPriVaricatorDeceivingFingerprinters2015",
+		"collections": [
+			"9MGWDJSS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Nick",
+				"lastName": "Nikiforakis"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "W.",
+				"lastName": "Joosen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "B.",
+				"lastName": "Livshits"
+			}
+		],
+		"date": "2015",
+		"dateAdded": "2026-01-08T20:14:05Z",
+		"dateModified": "2026-03-25T21:30:02Z",
+		"extra": "abstractTranslation: Researchers have shown that, in recent years, unwanted web tracking is on the rise, with browser-based fingerprinting being adopted by more and more websites as a viable alternative to third-party cookies. In this paper we propose PriVaricator, a solution to the problem of browser-based fingerprinting. A key insight is that when it comes to web tracking, the real problem with fingerprinting is not uniqueness of a fingerprint, it is linkability, i.e., the ability to connect the same fingerprint across multiple visits. Thus, making fingerprints non-deterministic also makes them hard to link across browsing sessions. In PriVaricator we use the power of randomization to \"break\" linkability by exploring a space of parameterized randomization policies. We evaluate our techniques in terms of being able to prevent fingerprinting and not breaking existing (benign) sites. The best of our randomization policies renders all the fingerprinters we tested ineffective, while causing minimal damage on a set of 1000 Alexa sites on which we tested, with no noticeable performance overhead.",
+		"itemType": "journalArticle",
+		"key": "MCDTMK5E",
+		"language": "fr-CA",
+		"pages": "null",
+		"publicationTitle": "Proceedings of the 24th International Conference on World Wide Web",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "PriVaricator: Deceiving fingerprinters with little white lies",
+		"url": "https://www.semanticscholar.org/paper/9eabfa31d96989f7e7611d0f0ac0915c907f09d5",
+		"volume": "null"
+	}
+}

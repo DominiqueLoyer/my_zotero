@@ -1,0 +1,111 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:40:11Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:40:11Z",
+			"dateModified": "2026-11-08T16:40:11Z",
+			"filename": "Baly, Ramy and Da San Martino, Giovanni and Glass, James and Nakov, Preslav - 2020 - We Can Detect Your Bias Predicting the Political Ideology of News Articles.pdf",
+			"itemType": "attachment",
+			"key": "9CXPAPM3",
+			"linkMode": "imported_url",
+			"parentItem": "TS9NFNVC",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/2020.emnlp-main.404.pdf"
+		},
+		{
+			"accessDate": "2026-02-26T22:35:06Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-26T22:35:06Z",
+			"dateModified": "2026-03-09T20:39:45Z",
+			"itemType": "attachment",
+			"key": "CNGFY55E",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:39:45 p.m.</p>",
+			"parentItem": "TS9NFNVC",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Baly2020We-3139fa248c5781ba979de2a367da9701"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Baly, Ramy and Da San Martino, Giovanni and Glass, James and Nakov, Preslav - 2020 - We Can Detect Your Bias Predicting the Political Ideology of News Articles.pdf",
+				"files": [
+					{
+						"path": "attachments/9C/9CXPAPM3/Baly, Ramy and Da San Martino, Giovanni and Glass, James and Nakov, Preslav - 2020 - We Can Detect Your Bias Predicting the Political Ideology of News Articles.pdf",
+						"size": 1337896,
+						"storage": "git"
+					}
+				],
+				"key": "9CXPAPM3",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/2020.emnlp-main.404.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "CNGFY55E",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Baly2020We-3139fa248c5781ba979de2a367da9701"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Baly, Ramy and Da San Martino, Giovanni and Glass, James and Nakov, Preslav"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "We Can Detect Your Bias: Predicting the Political Ideology of News Articles",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/TS9NFNVC"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2020.emnlp-main.404",
+		"citationKey": "balyramyanddasanmartinogiovanniandglassjamesandnakovpreslavWeCanDetect2020",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Baly, Ramy and Da San Martino, Giovanni and Glass, James and Nakov, Preslav"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2026-02-26T20:20:51Z",
+		"dateModified": "2026-03-25T21:29:28Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "TS9NFNVC",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/7S96TE4Q"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "We Can Detect Your Bias: Predicting the Political Ideology of News Articles"
+	}
+}

@@ -1,0 +1,121 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:28:00Z",
+			"dateModified": "2025-03-31T18:57:48Z",
+			"filename": "collab-diag-pret.pdf",
+			"itemType": "attachment",
+			"key": "26I9Y9R9",
+			"linkMode": "imported_file",
+			"parentItem": "5AF5DES7",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/3GYZ5UGM"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:35:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:57Z",
+			"dateModified": "2026-11-09T17:06:24Z",
+			"itemType": "attachment",
+			"key": "TSCSJFPJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:24 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "5AF5DES7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781fd8e7ee40e12fdeae0"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TSCSJFPJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781fd8e7ee40e12fdeae0"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "collab-diag-pret.pdf",
+				"files": [
+					{
+						"path": "attachments/26/26I9Y9R9/collab-diag-pret.pdf",
+						"size": 4022,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/26/26I9Y9R9/collab-diag-pret (trashed 2025-11-24 15-34-12).pdf",
+						"size": 4022,
+						"storage": "git"
+					}
+				],
+				"key": "26I9Y9R9",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/cours 4.1 dynamique"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "collab-diag-pret",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/5AF5DES7"
+	},
+	"zotero": {
+		"citationKey": "lounishakimCollabdiagpret",
+		"collections": [
+			"G4KBEA9A",
+			"JBEL9UJJ"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:36:09Z",
+		"dateModified": "2026-11-13T19:34:29Z",
+		"itemType": "document",
+		"key": "5AF5DES7",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/74HCCVE2"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "collab-diag-pret"
+	}
+}

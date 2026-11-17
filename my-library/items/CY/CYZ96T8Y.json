@@ -1,0 +1,108 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:36:14Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:36:14Z",
+			"dateModified": "2026-11-09T17:06:18Z",
+			"itemType": "attachment",
+			"key": "G72X2UEY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:18 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "CYZ96T8Y",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781d89420cdf74a0bb48d"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-17T17:29:30Z",
+			"dateModified": "2025-03-31T19:04:01Z",
+			"filename": "CD-hotel.pdf",
+			"itemType": "attachment",
+			"key": "GCW68YXU",
+			"linkMode": "imported_file",
+			"parentItem": "CYZ96T8Y",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "G72X2UEY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-Hakim-4129fa248c5781d89420cdf74a0bb48d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "CD-hotel.pdf",
+				"files": [
+					{
+						"path": "attachments/GC/GCW68YXU/CD-hotel.pdf",
+						"size": 9012,
+						"storage": "git"
+					}
+				],
+				"key": "GCW68YXU",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/4.0  modélisation statique"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "CD-hotel",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/CYZ96T8Y"
+	},
+	"zotero": {
+		"citationKey": "lounishakimCDhotel",
+		"collections": [
+			"G4KBEA9A",
+			"IVY9PBG4"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T19:04:00Z",
+		"dateModified": "2026-11-13T19:33:57Z",
+		"itemType": "document",
+		"key": "CYZ96T8Y",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "CD-hotel"
+	}
+}

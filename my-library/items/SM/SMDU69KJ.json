@@ -1,0 +1,184 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+			"dateAdded": "2024-12-15T16:39:16Z",
+			"dateModified": "2025-03-14T15:54:33Z",
+			"filename": "cours3.pptx",
+			"itemType": "attachment",
+			"key": "8G3E4BFQ",
+			"linkMode": "imported_file",
+			"parentItem": "SMDU69KJ",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "Algorithm"
+				},
+				{
+					"tag": "Dominique Loyer"
+				},
+				{
+					"tag": "algorithm transparency"
+				}
+			],
+			"title": "cours3"
+		},
+		{
+			"accessDate": "2025-12-05T22:30:07Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:30:07Z",
+			"dateModified": "2026-01-02T19:16:44Z",
+			"itemType": "attachment",
+			"key": "R2HBBTNE",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:44 p.m.</p>",
+			"parentItem": "SMDU69KJ",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HEUIW2WS"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyers-dominiqueAlgorithmes2021-ORCID-0009-0003-9713-7109-2c09fa248c5781c9a245dfe6312c3ba2"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-11-03T16:54:13Z",
+			"dateModified": "2025-11-03T16:54:13Z",
+			"filename": "algorithmes.pdf",
+			"itemType": "attachment",
+			"key": "T4R6LI6I",
+			"linkMode": "imported_file",
+			"parentItem": "SMDU69KJ",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+				"filename": "cours3.pptx",
+				"files": [
+					{
+						"path": "attachments/8G/8G3E4BFQ/cours3.pptx",
+						"size": 308655,
+						"storage": "git"
+					}
+				],
+				"key": "8G3E4BFQ",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "cours3",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "R2HBBTNE",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyers-dominiqueAlgorithmes2021-ORCID-0009-0003-9713-7109-2c09fa248c5781c9a245dfe6312c3ba2"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "algorithmes.pdf",
+				"files": [
+					{
+						"path": "attachments/T4/T4R6LI6I/algorithmes.pdf",
+						"size": 423998,
+						"storage": "git"
+					}
+				],
+				"key": "T4R6LI6I",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Ma thèse/Mes conférences données"
+		],
+		"creators": [
+			"Loyer S. Dominique",
+			"Loyer, Dominique"
+		],
+		"itemType": "presentation",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Les algorithmes",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/SMDU69KJ"
+	},
+	"zotero": {
+		"abstractNote": "Un algorithme, c’est une suite d’instructions, qui une fois exécutée correctement, conduit à un résultat donné. Commençons par le code binaire puisque que c'est tout ce qu'un ordinateur comprend Une information binaire ne peut qu'avoir deux états (ouvert ou fermé) On le symbolise par 0 ou 1. Algorithme de classification. Naive Bayes Les domaines d'application du classifieur bayésien naïf sont les suivants : traitement automatique du langage naturel, détection de spams dans vos logiciels de courrier électronique, système de recommandation d'achat, et également analyse de sentiments dans les enquêtes ou dans les commentaires d'achat d'articles.",
+		"citationKey": "loyers.dominiqueAlgorithmes2021",
+		"collections": [
+			"5ZW34MGC"
+		],
+		"creators": [
+			{
+				"creatorType": "presenter",
+				"name": "Loyer S. Dominique"
+			},
+			{
+				"creatorType": "presenter",
+				"firstName": "Dominique",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2024-12-15T16:40:17Z",
+		"dateModified": "2026-01-09T19:17:43Z",
+		"itemType": "presentation",
+		"key": "SMDU69KJ",
+		"language": "fr-CA",
+		"meetingName": "Les algorithmes",
+		"place": "Université de Sherbrooke",
+		"presentationType": "Diapositives",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/LMKMG298"
+			]
+		},
+		"tags": [
+			{
+				"tag": "AI"
+			},
+			{
+				"tag": "Algorithm"
+			},
+			{
+				"tag": "Algorithmic accountability"
+			},
+			{
+				"tag": "Dominique Loyer"
+			},
+			{
+				"tag": "Transparence"
+			},
+			{
+				"tag": "algorithmes"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "transparency"
+			}
+		],
+		"title": "Les algorithmes"
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:05:16Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:05:16Z",
+			"dateModified": "2026-11-09T17:05:35Z",
+			"itemType": "attachment",
+			"key": "59I53FHD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:35 p.m.</p>",
+			"parentItem": "4ZB9FE2H",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Larman-Craig-2004-4129fa248c57818589cadcc821d39590"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "59I53FHD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Larman-Craig-2004-4129fa248c57818589cadcc821d39590"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Larman, Craig"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development",
+		"year": "2004",
+		"zoteroURI": "zotero://select/library/items/4ZB9FE2H"
+	},
+	"zotero": {
+		"DOI": "10.1007/978-1-4302-0712-2_1",
+		"citationKey": "larmancraigApplyingUMLPatterns2004",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Larman, Craig"
+			}
+		],
+		"date": "2004",
+		"dateAdded": "2026-02-26T20:18:30Z",
+		"dateModified": "2026-11-13T19:31:43Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "4ZB9FE2H",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/2IWJKFPM",
+				"http://zotero.org/users/15425556/items/E6SIEMUV",
+				"http://zotero.org/users/15425556/items/Q7Z2VVBZ",
+				"http://zotero.org/users/15425556/items/RGXMZCVV"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/X5BHYQ9S"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development"
+	}
+}

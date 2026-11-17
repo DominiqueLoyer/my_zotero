@@ -1,0 +1,96 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-31T16:08:47Z",
+			"dateModified": "2025-03-31T18:47:26Z",
+			"filename": "ReseauxNeurones.pdf",
+			"itemType": "attachment",
+			"key": "7WVRXAR7",
+			"linkMode": "imported_file",
+			"parentItem": "G6HWWFFV",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:27:30Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:30Z",
+			"dateModified": "2026-01-02T19:15:17Z",
+			"itemType": "attachment",
+			"key": "VI753H89",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:15:17 p.m.</p>",
+			"parentItem": "G6HWWFFV",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/ReseauxNeurones-2c09fa248c5781ceb0b2f5c8b7fde57f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "VI753H89",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/ReseauxNeurones-2c09fa248c5781ceb0b2f5c8b7fde57f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "ReseauxNeurones.pdf",
+				"files": [],
+				"key": "7WVRXAR7",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation"
+		],
+		"creators": [
+			"Lounis Hakim"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "ReseauxNeurones",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/G6HWWFFV"
+	},
+	"zotero": {
+		"citationKey": "lounishakimReseauxNeurones",
+		"collections": [
+			"G4KBEA9A"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Lounis Hakim"
+			}
+		],
+		"dateAdded": "2025-03-31T18:47:25Z",
+		"dateModified": "2025-03-31T18:47:29Z",
+		"itemType": "document",
+		"key": "G6HWWFFV",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "ReseauxNeurones"
+	}
+}

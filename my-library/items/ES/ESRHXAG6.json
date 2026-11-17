@@ -1,0 +1,84 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:15:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:45Z",
+			"dateModified": "2026-11-09T17:05:37Z",
+			"itemType": "attachment",
+			"key": "WKIMIM3U",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:37 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "ESRHXAG6",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/8S5EWGW5",
+					"http://zotero.org/groups/6376680/items/MM9M3IB5"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/van-Noordt-Colin-and-Misuraca-Gianluca-2022-4129fa248c5781ba9bfeeaf6a66b049d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WKIMIM3U",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/van-Noordt-Colin-and-Misuraca-Gianluca-2022-4129fa248c5781ba9bfeeaf6a66b049d"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"van Noordt, Colin and Misuraca, Gianluca"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Artificial intelligence for the public sector: a structured literature review",
+		"year": "2022",
+		"zoteroURI": "zotero://select/library/items/ESRHXAG6"
+	},
+	"zotero": {
+		"DOI": "10.1080/09540962.2022.2066356",
+		"citationKey": "vannoordtcolinandmisuracagianlucaArtificialIntelligencePublic2022",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "van Noordt, Colin and Misuraca, Gianluca"
+			}
+		],
+		"date": "2022",
+		"dateAdded": "2026-02-25T21:53:01Z",
+		"dateModified": "2026-11-13T19:31:54Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "ESRHXAG6",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/486HWHYE",
+				"http://zotero.org/groups/6376680/items/8UFSQTJL"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Artificial intelligence for the public sector: a structured literature review"
+	}
+}

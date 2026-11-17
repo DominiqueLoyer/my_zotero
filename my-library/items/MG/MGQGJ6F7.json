@@ -1,0 +1,127 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:57Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:57Z",
+			"dateModified": "2026-11-09T17:07:44Z",
+			"itemType": "attachment",
+			"key": "7C7T4WXX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:44 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "MGQGJ6F7",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Robert-Serge-2024-4129fa248c57817cb16de1139a657a34"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-01T03:30:40Z",
+			"dateModified": "2024-12-11T19:48:05Z",
+			"filename": "DIC9001 texte 1 sem 1,2 Robert 2009 2016 naturalisation.pdf",
+			"itemType": "attachment",
+			"key": "B5BZS37T",
+			"linkMode": "imported_file",
+			"parentItem": "MGQGJ6F7",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "7C7T4WXX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Robert-Serge-2024-4129fa248c57817cb16de1139a657a34"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "DIC9001 texte 1 sem 1,2 Robert 2009 2016 naturalisation.pdf",
+				"files": [
+					{
+						"path": "attachments/B5/B5BZS37T/DIC9001 texte 1 sem 1,2 Robert 2009 2016 naturalisation.pdf",
+						"size": 454933,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/B5/B5BZS37T/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 85126,
+						"storage": "git"
+					}
+				],
+				"key": "B5BZS37T",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/papier de Serge Robert (tp1)"
+		],
+		"creators": [
+			"Robert Serge"
+		],
+		"itemType": "presentation",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DIC9001 texte 1 sem 1,2 Robert 2009 2016 naturalisation",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/MGQGJ6F7"
+	},
+	"zotero": {
+		"citationKey": "robertsergeDIC9001Texte12024",
+		"collections": [
+			"VF8YCY8R"
+		],
+		"creators": [
+			{
+				"creatorType": "presenter",
+				"name": "Robert Serge"
+			}
+		],
+		"date": "Automne 2024",
+		"dateAdded": "2024-12-11T19:48:05Z",
+		"dateModified": "2025-12-05T22:26:57Z",
+		"itemType": "presentation",
+		"key": "MGQGJ6F7",
+		"place": "UQAM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "Lakatos"
+			},
+			{
+				"tag": "Robert Serge"
+			},
+			{
+				"tag": "connaissance"
+			},
+			{
+				"tag": "découverte"
+			},
+			{
+				"tag": "naturalisation"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "épistémologie"
+			}
+		],
+		"title": "DIC9001 texte 1 sem 1,2 Robert 2009 2016 naturalisation"
+	}
+}

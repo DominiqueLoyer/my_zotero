@@ -1,0 +1,120 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-04T18:53:58Z",
+			"dateModified": "2024-11-04T18:58:10Z",
+			"filename": "Kuhn - 1994 - The structure of scientific revolutions.pdf",
+			"itemType": "attachment",
+			"key": "7KXN6JJ2",
+			"linkMode": "imported_file",
+			"parentItem": "BKLCYHRA",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "Thomas Kuhn"
+				},
+				{
+					"tag": "paradigme"
+				}
+			],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:32:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:45Z",
+			"dateModified": "2026-01-02T19:18:16Z",
+			"itemType": "attachment",
+			"key": "HANYY7JY",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:18:16 p.m.</p>",
+			"parentItem": "BKLCYHRA",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/kuhnStructureScientificRevolutions1994-2c09fa248c57811db25be69d08bbed8d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HANYY7JY",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/kuhnStructureScientificRevolutions1994-2c09fa248c57811db25be69d08bbed8d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Kuhn - 1994 - The structure of scientific revolutions.pdf",
+				"files": [
+					{
+						"path": "attachments/7K/7KXN6JJ2/Kuhn - 1994 - The structure of scientific revolutions.pdf",
+						"size": 854019,
+						"storage": "git"
+					}
+				],
+				"key": "7KXN6JJ2",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/papier de Serge Robert (tp1)"
+		],
+		"creators": [
+			"Kuhn, Thomas S."
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The structure of scientific revolutions",
+		"year": "1994",
+		"zoteroURI": "zotero://select/library/items/BKLCYHRA"
+	},
+	"zotero": {
+		"ISBN": "978-0-226-45803-8 978-0-226-45804-5",
+		"citationKey": "kuhnStructureScientificRevolutions1994",
+		"collections": [
+			"VF8YCY8R"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Thomas S.",
+				"lastName": "Kuhn"
+			}
+		],
+		"date": "1994",
+		"dateAdded": "2024-11-04T18:58:10Z",
+		"dateModified": "2025-12-05T22:32:45Z",
+		"edition": "2. ed., enlarged, 21. print",
+		"itemType": "book",
+		"key": "BKLCYHRA",
+		"language": "eng",
+		"libraryCatalog": "K10plus ISBN",
+		"numPages": "210",
+		"place": "Chicago",
+		"publisher": "Univ. of Chicago Press",
+		"relations": {},
+		"series": "International encyclopedia of unified science",
+		"seriesNumber": "2,2",
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The structure of scientific revolutions"
+	}
+}

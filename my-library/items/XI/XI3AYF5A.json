@@ -1,0 +1,106 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-12T22:14:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-12T22:14:19Z",
+			"dateModified": "2026-11-12T22:14:19Z",
+			"itemType": "attachment",
+			"key": "T2A9PDLL",
+			"linkMode": "linked_url",
+			"parentItem": "XI3AYF5A",
+			"relations": {},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		},
+		{
+			"dateAdded": "2026-11-12T22:14:19Z",
+			"dateModified": "2026-11-12T22:14:19Z",
+			"itemType": "note",
+			"key": "YJSJQ4EX",
+			"note": "Technical Report",
+			"parentItem": "XI3AYF5A",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "T2A9PDLL",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126 2026-11-12, 5:14:18 p.m."
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "YJSJQ4EX",
+				"title": "Technical Report"
+			}
+		],
+		"title": "Evaluation de modeles de recherche d'Information et d'Expansion de requetes sur la collection TREC AP 88-90",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/XI3AYF5A"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.23572.00647",
+		"citationKey": "loyerEvaluationModelesRecherche2025f",
+		"collections": [
+			"IE29Y4Q7"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-12T22:14:19Z",
+		"extra": "ISBN: 978-1-0699945-5-4",
+		"itemType": "journalArticle",
+		"key": "XI3AYF5A",
+		"pages": "7",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "BM25"
+			},
+			{
+				"tag": "Expansion"
+			},
+			{
+				"tag": "Modeles Vectoriels"
+			},
+			{
+				"tag": "Recherche d'Information"
+			},
+			{
+				"tag": "TF-IDF"
+			},
+			{
+				"tag": "TREC"
+			}
+		],
+		"title": "Evaluation de modeles de recherche d'Information et d'Expansion de requetes sur la collection TREC AP 88-90",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.23572.00647"
+	}
+}

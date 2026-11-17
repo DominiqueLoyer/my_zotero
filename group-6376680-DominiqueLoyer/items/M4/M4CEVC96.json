@@ -1,0 +1,85 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-14T18:17:22Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:22:52Z",
+			"dateModified": "2026-04-17T21:22:52Z",
+			"itemType": "attachment",
+			"key": "8ZZKI3A6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-14, 2:17:22 p.m.</p>",
+			"parentItem": "M4CEVC96",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/domingosFewUsefulThings2012a-3239fa248c5781a9ba2bf220b5757c6f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8ZZKI3A6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/domingosFewUsefulThings2012a-3239fa248c5781a9ba2bf220b5757c6f"
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Domingos, Pedro"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "A few useful things to know about machine learning",
+		"year": "2012",
+		"zoteroURI": "zotero://select/groups/6376680/items/M4CEVC96"
+	},
+	"zotero": {
+		"DOI": "10.1145/2347736.2347755",
+		"ISSN": "0001-0782, 1557-7317",
+		"abstractNote": "Tapping into the \"folk knowledge\" needed to advance machine learning applications.",
+		"accessDate": "2026-03-14T17:40:28Z",
+		"citationKey": "domingosFewUsefulThings2012",
+		"collections": [
+			"PNZQF2WF"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Pedro",
+				"lastName": "Domingos"
+			}
+		],
+		"date": "10/2012",
+		"dateAdded": "2026-04-17T21:22:52Z",
+		"dateModified": "2026-04-17T21:22:52Z",
+		"issue": "10",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Commun. ACM",
+		"key": "M4CEVC96",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "78-87",
+		"publicationTitle": "Communications of the ACM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A few useful things to know about machine learning",
+		"url": "https://dl.acm.org/doi/10.1145/2347736.2347755",
+		"volume": "55"
+	}
+}

@@ -1,0 +1,115 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:36:03Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:36:03Z",
+			"dateModified": "2026-11-09T17:09:25Z",
+			"itemType": "attachment",
+			"key": "FKN7XQJR",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:25 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "IBCCQ4RC",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/FYN5VQSH"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Liu-Bing-4129fa248c57814ab63ecad8d32444f7"
+		},
+		{
+			"accessDate": "2026-11-08T16:36:30Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:36:30Z",
+			"dateModified": "2026-11-08T16:36:30Z",
+			"filename": "Liu, Bing - Grounding for {{Artificial Intelligence.pdf",
+			"itemType": "attachment",
+			"key": "KD5QX3K9",
+			"linkMode": "imported_url",
+			"parentItem": "IBCCQ4RC",
+			"relations": {},
+			"tags": [],
+			"title": "Preprint PDF",
+			"url": "http://arxiv.org/pdf/2312.09532v1"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "FKN7XQJR",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Liu-Bing-4129fa248c57814ab63ecad8d32444f7"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Liu, Bing - Grounding for {{Artificial Intelligence.pdf",
+				"files": [
+					{
+						"path": "attachments/KD/KD5QX3K9/Liu, Bing - Grounding for {{Artificial Intelligence.pdf",
+						"size": 271352,
+						"storage": "git"
+					}
+				],
+				"key": "KD5QX3K9",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Preprint PDF",
+				"url": "http://arxiv.org/pdf/2312.09532v1"
+			}
+		],
+		"collections": [
+			"_9335_all"
+		],
+		"creators": [
+			"Liu, Bing"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Grounding for {{Artificial Intelligence",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/IBCCQ4RC"
+	},
+	"zotero": {
+		"DOI": "10.48550/arXiv.2312.09532",
+		"citationKey": "liubingGroundingArtificialIntelligence",
+		"collections": [
+			"7XVYZYFG"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Liu, Bing"
+			}
+		],
+		"dateAdded": "2026-03-04T19:42:46Z",
+		"dateModified": "2026-03-25T21:29:07Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "IBCCQ4RC",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2CKDLXGG"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Grounding for {{Artificial Intelligence",
+		"url": "http://arxiv.org/abs/2312.09532"
+	}
+}

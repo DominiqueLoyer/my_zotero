@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-31T16:17:23Z",
+			"dateModified": "2025-03-31T19:05:20Z",
+			"filename": "applying-uml-and-patterns.pdf",
+			"itemType": "attachment",
+			"key": "93GMNXSH",
+			"linkMode": "imported_file",
+			"parentItem": "PLM3535B",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:37:16Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:37:16Z",
+			"dateModified": "2026-11-09T17:05:35Z",
+			"itemType": "attachment",
+			"key": "LZ8PJ79W",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:35 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "PLM3535B",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Larman-Craig-4129fa248c5781e18a7fd9b89dfc677b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "LZ8PJ79W",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Larman-Craig-4129fa248c5781e18a7fd9b89dfc677b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "applying-uml-and-patterns.pdf",
+				"files": [],
+				"key": "93GMNXSH",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/livres recommandés"
+		],
+		"creators": [
+			"Larman Craig"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "applying-uml-and-patterns",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/PLM3535B"
+	},
+	"zotero": {
+		"citationKey": "larmancraigApplyingumlandpatterns",
+		"collections": [
+			"FXNUHXF7",
+			"G4KBEA9A"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Larman Craig"
+			}
+		],
+		"dateAdded": "2025-03-31T19:05:19Z",
+		"dateModified": "2026-11-13T19:31:47Z",
+		"edition": "2nd edition",
+		"itemType": "book",
+		"key": "PLM3535B",
+		"numPages": "616",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "applying-uml-and-patterns"
+	}
+}

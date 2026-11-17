@@ -1,0 +1,119 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-03-09T20:32:53Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:32:53Z",
+			"dateModified": "2026-11-09T14:55:40Z",
+			"itemType": "attachment",
+			"key": "RPM75SK2",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:32:53 p.m.</p>",
+			"parentItem": "4X2MCM4N",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/RM44XNDV"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Wang2025Towards-31e9fa248c578167b311f289aeed88dd"
+		},
+		{
+			"accessDate": "2026-11-08T16:55:31Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:55:31Z",
+			"dateModified": "2026-11-09T14:55:40Z",
+			"filename": "Wang, Wenguan and Yang, Yi and Wu, Fei - 2025 - Towards data-and knowledge-driven AI a survey on neuro-symbolic computing.pdf",
+			"itemType": "attachment",
+			"key": "VWYYBHJ9",
+			"linkMode": "imported_url",
+			"parentItem": "4X2MCM4N",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/42A5YL83"
+				]
+			},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2210.15889"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "RPM75SK2",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Wang2025Towards-31e9fa248c578167b311f289aeed88dd"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wang, Wenguan and Yang, Yi and Wu, Fei - 2025 - Towards data-and knowledge-driven AI a survey on neuro-symbolic computing.pdf",
+				"files": [
+					{
+						"path": "attachments/VW/VWYYBHJ9/Wang, Wenguan and Yang, Yi and Wu, Fei - 2025 - Towards data-and knowledge-driven AI a survey on neuro-symbolic computing.pdf",
+						"size": 2388043,
+						"storage": "git"
+					}
+				],
+				"key": "VWYYBHJ9",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2210.15889"
+			}
+		],
+		"collections": [
+			"_gs_080326"
+		],
+		"creators": [
+			"Wang, Wenguan and Yang, Yi and Wu, Fei"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Towards data-and knowledge-driven AI: a survey on neuro-symbolic computing",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/4X2MCM4N"
+	},
+	"zotero": {
+		"DOI": "10.1109/tpami.2024.3483273",
+		"citationKey": "wangwenguanandyangyiandwufeiDataandKnowledgedrivenAI2025",
+		"collections": [
+			"9ERXAIZK"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Wang, Wenguan and Yang, Yi and Wu, Fei"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-03-08T21:23:04Z",
+		"dateModified": "2026-11-09T14:55:40Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "4X2MCM4N",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/I2JQMTU7"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Towards data-and knowledge-driven AI: a survey on neuro-symbolic computing"
+	}
+}

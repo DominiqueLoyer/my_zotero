@@ -1,0 +1,90 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "note",
+			"key": "46LLLNF5",
+			"note": "Consulté le 10 octobre 2025",
+			"parentItem": "HLUDMA63",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-08T20:37:28Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "64UW2K4V",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:52:50 p.m.</p>",
+			"parentItem": "HLUDMA63",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Neuer2018-2e29fa248c5781408635e6ab45a6b38f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "64UW2K4V",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Neuer2018-2e29fa248c5781408635e6ab45a6b38f"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Neuer, Laurence"
+		],
+		"itemType": "document",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [
+			{
+				"key": "46LLLNF5",
+				"title": "Consulté le 10 octobre 2025"
+			}
+		],
+		"title": "Algorithmes: ce sont les individus qu'il faut responsabiliser",
+		"year": "2018",
+		"zoteroURI": "zotero://select/groups/6376680/items/HLUDMA63"
+	},
+	"zotero": {
+		"citationKey": "neuerAlgorithmesCeSont2018a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Laurence",
+				"lastName": "Neuer"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"itemType": "document",
+		"key": "HLUDMA63",
+		"language": "fr-CA",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmes: ce sont les individus qu'il faut responsabiliser",
+		"url": "https://www.lepoint.fr/editos-du-point/laurence-neuer/algorithmes-ce-sont-les-individus-qu-il-faut-responsabiliser-29-01-2018-2190382_56.php"
+	}
+}

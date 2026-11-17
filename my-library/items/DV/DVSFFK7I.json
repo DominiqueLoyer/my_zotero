@@ -1,0 +1,89 @@
+{
+	"children": [
+		{
+			"dateAdded": "2025-04-10T15:02:46Z",
+			"dateModified": "2025-04-10T15:02:46Z",
+			"itemType": "note",
+			"key": "29LKT4JN",
+			"note": "Accessed: 2025-04-09",
+			"parentItem": "DVSFFK7I",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:35:45Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:45Z",
+			"dateModified": "2026-01-02T19:14:00Z",
+			"itemType": "attachment",
+			"key": "9KJTPV8U",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:14:00 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2c09fa24-8c57-819b-984c-e5a0384a32a4\",\"notes\":{\"29LKT4JN\":{\"blockID\":\"2c09fa24-8c57-8134-a4e8-eb9629897520\",\"syncedAt\":\"2025-12-05T22:41:09.836Z\"}}}</pre>",
+			"parentItem": "DVSFFK7I",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/dataCampStemLemma-2c09fa248c5781599ce3c7a67d64ab45"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9KJTPV8U",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/dataCampStemLemma-2c09fa248c5781599ce3c7a67d64ab45"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"DataCamp"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "29LKT4JN",
+				"title": "Accessed: 2025-04-09"
+			}
+		],
+		"title": "Stemming and lemmatization in python",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/DVSFFK7I"
+	},
+	"zotero": {
+		"citationKey": "datacampStemmingLemmatizationPython2023",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "DataCamp"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2025-04-10T15:02:46Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "document",
+		"key": "DVSFFK7I",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Stemming and lemmatization in python",
+		"url": "https://www.datacamp.com/tutorial/stemming-lemmatization-python"
+	}
+}

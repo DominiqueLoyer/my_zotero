@@ -1,0 +1,104 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:39:47Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:39:47Z",
+			"dateModified": "2026-11-08T16:39:47Z",
+			"filename": "Hagag, Barel and Tsarfaty, Reut - 2023 - The Truth, The Whole Truth, and Nothing but the Truth A New Benchmark Dataset for Hebrew Text Credi.pdf",
+			"itemType": "attachment",
+			"key": "DPYXWA6G",
+			"linkMode": "imported_url",
+			"parentItem": "3DVFGG58",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://aclanthology.org/2023.findings-emnlp.251v2.pdf"
+		},
+		{
+			"accessDate": "2026-03-09T20:39:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:39:09Z",
+			"dateModified": "2026-03-09T20:39:09Z",
+			"itemType": "attachment",
+			"key": "IDILUFJD",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:39:09 p.m.</p>",
+			"parentItem": "3DVFGG58",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Hagag2023The-31e9fa248c5781c5afedfae39cfcf3c8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hagag, Barel and Tsarfaty, Reut - 2023 - The Truth, The Whole Truth, and Nothing but the Truth A New Benchmark Dataset for Hebrew Text Credi.pdf",
+				"files": [
+					{
+						"path": "attachments/DP/DPYXWA6G/Hagag, Barel and Tsarfaty, Reut - 2023 - The Truth, The Whole Truth, and Nothing but the Truth A New Benchmark Dataset for Hebrew Text Credi.pdf",
+						"size": 282044,
+						"storage": "git"
+					}
+				],
+				"key": "DPYXWA6G",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://aclanthology.org/2023.findings-emnlp.251v2.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IDILUFJD",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Hagag2023The-31e9fa248c5781c5afedfae39cfcf3c8"
+			}
+		],
+		"collections": [],
+		"creators": [
+			"Hagag, Barel and Tsarfaty, Reut"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The Truth, The Whole Truth, and Nothing but the Truth: A New Benchmark Dataset for Hebrew Text Credibility Assessment",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/3DVFGG58"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/2023.findings-emnlp.251",
+		"citationKey": "hagagbarelandtsarfatyreutTruthWholeTruth2023",
+		"collections": [],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Hagag, Barel and Tsarfaty, Reut"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-03-03T23:15:39Z",
+		"dateModified": "2026-03-25T21:29:25Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "3DVFGG58",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The Truth, The Whole Truth, and Nothing but the Truth: A New Benchmark Dataset for Hebrew Text Credibility Assessment",
+		"url": "https://aclanthology.org/2023.findings-emnlp.251"
+	}
+}

@@ -1,0 +1,182 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:31:58Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:31:58Z",
+			"dateModified": "2026-11-09T17:07:52Z",
+			"itemType": "attachment",
+			"key": "929FR7AG",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:52 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "V37ICDU4",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Lounis-4129fa248c5781e38525f1703491ec20"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-10T20:02:50Z",
+			"dateModified": "2025-03-31T18:29:08Z",
+			"filename": "Lounis - - Distribution de l’expertise sur un ensemble d’agents opérant collectivement et de façon décentrali.pdf",
+			"itemType": "attachment",
+			"key": "B24R58IW",
+			"linkMode": "imported_file",
+			"parentItem": "V37ICDU4",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/9R5QQARD",
+					"http://zotero.org/users/15425556/items/P3J5BI2S",
+					"http://zotero.org/users/15425556/items/P9R3ZNFE"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "la connection est très importante",
+			"annotationPageLabel": "5",
+			"annotationPosition": "{\"pageIndex\":4,\"rects\":[[487.113,490.743,509.113,512.743]]}",
+			"annotationSortIndex": "00004|000016|00027",
+			"annotationType": "note",
+			"dateAdded": "2025-03-10T20:07:00Z",
+			"dateModified": "2025-03-10T20:07:14Z",
+			"itemType": "annotation",
+			"key": "PKN4G7PE",
+			"parentItem": "B24R58IW",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#ffd400",
+			"annotationComment": "théorie des systeme complexe adaptatif",
+			"annotationPageLabel": "5",
+			"annotationPosition": "{\"pageIndex\":4,\"rects\":[[427.01,237.158,449.01,259.158]]}",
+			"annotationSortIndex": "00004|000549|00280",
+			"annotationType": "note",
+			"dateAdded": "2025-03-10T20:08:19Z",
+			"dateModified": "2025-03-10T20:08:38Z",
+			"itemType": "annotation",
+			"key": "SHTWH7CF",
+			"parentItem": "B24R58IW",
+			"relations": {},
+			"tags": []
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "",
+			"annotationPageLabel": "3",
+			"annotationPosition": "{\"pageIndex\":2,\"rects\":[[528.611,148.77,597.984,164.81]]}",
+			"annotationSortIndex": "00002|000370|00375",
+			"annotationText": "émergents",
+			"annotationType": "highlight",
+			"dateAdded": "2025-03-10T20:04:00Z",
+			"dateModified": "2025-03-10T20:04:00Z",
+			"itemType": "annotation",
+			"key": "SKBVQ9HE",
+			"parentItem": "B24R58IW",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "929FR7AG",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Lounis-4129fa248c5781e38525f1703491ec20"
+			},
+			{
+				"annotationCount": 3,
+				"contentType": "application/pdf",
+				"filename": "Lounis - - Distribution de l’expertise sur un ensemble d’agents opérant collectivement et de façon décentrali.pdf",
+				"files": [
+					{
+						"path": "attachments/B2/B24R58IW/Lounis - - Distribution de l’expertise sur un ensemble d’agents opérant collectivement et de façon décentrali.pdf",
+						"size": 1725393,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/B2/B24R58IW/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 8844,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/B2/B24R58IW/Lounis - - Distribution de l’expertise sur un ensemble d’agents opérant collectivement et de façon décentrali (trashed 2025-11-24 15-34-12).pdf",
+						"size": 1725393,
+						"storage": "git"
+					}
+				],
+				"key": "B24R58IW",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/9 mars"
+		],
+		"creators": [
+			"Lounis, H"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "- Distribution de l’expertise sur un ensemble d’agents opérant collectivement et de façon décentralisée pour atteindre un objectif global ;",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/V37ICDU4"
+	},
+	"zotero": {
+		"citationKey": "lounisDistributionLexpertiseEnsemble",
+		"collections": [
+			"BF5SC5Q4",
+			"G4KBEA9A"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "H",
+				"lastName": "Lounis"
+			}
+		],
+		"dateAdded": "2025-03-10T20:02:53Z",
+		"dateModified": "2025-12-29T23:57:35Z",
+		"itemType": "journalArticle",
+		"key": "V37ICDU4",
+		"language": "fr",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/97IBR7FK",
+				"http://zotero.org/users/15425556/items/9FY4L4YW",
+				"http://zotero.org/users/15425556/items/B3LKW9IZ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "- Distribution de l’expertise sur un ensemble d’agents opérant collectivement et de façon décentralisée pour atteindre un objectif global ;"
+	}
+}

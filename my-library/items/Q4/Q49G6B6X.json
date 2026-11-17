@@ -1,0 +1,119 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:28:19Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:28:19Z",
+			"dateModified": "2026-11-09T15:09:00Z",
+			"itemType": "attachment",
+			"key": "8XKVSLBZ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:48:04 p.m.</p>",
+			"parentItem": "Q49G6B6X",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/TaxAdminAI2021-2e29fa248c57819b8e72d2c3bf9476e5"
+		},
+		{
+			"accessDate": "2025-12-05T22:25:26Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:25:26Z",
+			"dateModified": "2026-11-09T15:09:00Z",
+			"itemType": "attachment",
+			"key": "EBUCZYK3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:09:51 p.m.</p>",
+			"parentItem": "Q49G6B6X",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/ZFHRVNLC"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/HXTID49Z"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/taxadmin-aiToeslagenaffaireDutchChildcare2021-2c09fa248c578109ab30c3e85336186e"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8XKVSLBZ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/TaxAdminAI2021-2e29fa248c57819b8e72d2c3bf9476e5"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EBUCZYK3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/taxadmin-aiToeslagenaffaireDutchChildcare2021-2c09fa248c578109ab30c3e85336186e"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"TaxAdmin.ai"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The toeslagenaffaire (Dutch Childcare Allowance Scandal)",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/Q49G6B6X"
+	},
+	"zotero": {
+		"citationKey": "taxadmin.aiToeslagenaffaireDutchChildcare2021",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "TaxAdmin.ai"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-09T15:09:00Z",
+		"itemType": "document",
+		"key": "Q49G6B6X",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/3WTWQR8R",
+				"http://zotero.org/users/15425556/items/E7XZFHNJ"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/FA9RYGT7"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The toeslagenaffaire (Dutch Childcare Allowance Scandal)",
+		"url": "https://taxadmin.ai/taxadminai-toeslagenaffaire/"
+	}
+}

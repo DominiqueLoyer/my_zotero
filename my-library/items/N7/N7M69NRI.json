@@ -1,0 +1,129 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:27:15Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:15Z",
+			"dateModified": "2026-11-09T17:07:44Z",
+			"itemType": "attachment",
+			"key": "B3H2BDGK",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:44 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "N7M69NRI",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Robert-2024-4129fa248c57813083fef901f5352ea7"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-29T17:43:12Z",
+			"dateModified": "2024-11-29T17:43:27Z",
+			"filename": "DIC-9150 PPT semaine 14.pdf",
+			"itemType": "attachment",
+			"key": "C3C4UEFH",
+			"linkMode": "imported_file",
+			"parentItem": "N7M69NRI",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"annotationAuthorName": "",
+			"annotationColor": "#5fb236",
+			"annotationComment": "",
+			"annotationPageLabel": "14",
+			"annotationPosition": "{\"pageIndex\":13,\"rects\":[[121.08,356.495,248.131,374.89]]}",
+			"annotationSortIndex": "00013|000020|00165",
+			"annotationText": "Chris Eliasmith",
+			"annotationType": "highlight",
+			"dateAdded": "2024-12-04T20:44:36Z",
+			"dateModified": "2024-12-04T20:44:36Z",
+			"itemType": "annotation",
+			"key": "CRTU6GLH",
+			"parentItem": "C3C4UEFH",
+			"relations": {},
+			"tags": []
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "B3H2BDGK",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Robert-2024-4129fa248c57813083fef901f5352ea7"
+			},
+			{
+				"annotationCount": 1,
+				"contentType": "application/pdf",
+				"filename": "DIC-9150 PPT semaine 14.pdf",
+				"files": [
+					{
+						"path": "attachments/C3/C3C4UEFH/DIC-9150 PPT semaine 14.pdf",
+						"size": 692359,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/C3/C3C4UEFH/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 13090,
+						"storage": "git"
+					}
+				],
+				"key": "C3C4UEFH",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Papier sur Searle (Naturalisme et étique)"
+		],
+		"creators": [
+			"Robert, Serge"
+		],
+		"itemType": "presentation",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "DIC-9150 PPT semaine 14",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/N7M69NRI"
+	},
+	"zotero": {
+		"citationKey": "robertDIC9150PPTSemaine2024",
+		"collections": [
+			"LWXGCZB4"
+		],
+		"creators": [
+			{
+				"creatorType": "presenter",
+				"firstName": "Serge",
+				"lastName": "Robert"
+			}
+		],
+		"date": "3 décembre 2024",
+		"dateAdded": "2024-11-29T17:43:27Z",
+		"dateModified": "2025-12-05T22:27:15Z",
+		"itemType": "presentation",
+		"key": "N7M69NRI",
+		"meetingName": "Architectures cognitives",
+		"place": "UQAM",
+		"presentationType": "Diapositives",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "DIC-9150 PPT semaine 14"
+	}
+}

@@ -1,0 +1,152 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-11-22T18:40:07Z",
+			"dateModified": "2024-11-22T19:19:13Z",
+			"filename": "Jobin et al. - Artificial Intelligence the global landscape of ethics guidelines.pdf",
+			"itemType": "attachment",
+			"key": "SLHKRGTC",
+			"linkMode": "imported_file",
+			"parentItem": "TEX7MBVI",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/UBHKUWKY"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:33:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:24Z",
+			"dateModified": "2026-11-09T17:05:39Z",
+			"itemType": "attachment",
+			"key": "XXZN5WED",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:39 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "TEX7MBVI",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/CNDKKB67"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Jobin-et-al-4129fa248c5781b38e74e852d7478b9d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XXZN5WED",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Jobin-et-al-4129fa248c5781b38e74e852d7478b9d"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Jobin et al. - Artificial Intelligence the global landscape of ethics guidelines.pdf",
+				"files": [
+					{
+						"path": "attachments/SL/SLHKRGTC/Jobin et al. - Artificial Intelligence the global landscape of ethics guidelines.pdf",
+						"size": 1067114,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/SL/SLHKRGTC/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 94201,
+						"storage": "git"
+					}
+				],
+				"key": "SLHKRGTC",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Littérature donnée par Daniel",
+			"Ma thèse/Systematic review",
+			"Ma thèse/Systematic review/Acccountability"
+		],
+		"creators": [
+			"Jobin, Anna",
+			"Ienca, Marcello",
+			"Vayena, Effy"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Artificial Intelligence: the global landscape of ethics guidelines",
+		"year": "",
+		"zoteroURI": "zotero://select/library/items/TEX7MBVI"
+	},
+	"zotero": {
+		"abstractNote": "In the last five years, private companies, research institutions as well as public sector organisations have issued principles and guidelines for ethical AI, yet there is debate about both what constitutes “ethical AI” and which ethical requirements, technical standards and best practices are needed for its realization. To investigate whether a global agreement on these questions is emerging, we mapped and analyzed the current corpus of principles and guidelines on ethical AI. Our results reveal a global convergence emerging around five ethical principles (transparency, justice and fairness, non-maleficence, responsibility and privacy), with substantive divergence in relation to how these principles are interpreted; why they are deemed important; what issue, domain or actors they pertain to; and how they should be implemented. Our findings highlight the importance of integrating guidelinedevelopment efforts with substantive ethical analysis and adequate implementation strategies.",
+		"citationKey": "jobinArtificialIntelligenceGlobal",
+		"collections": [
+			"4IANSE73",
+			"ENT9VKF6",
+			"J4VTG4NB",
+			"NKV86EAI"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Anna",
+				"lastName": "Jobin"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Marcello",
+				"lastName": "Ienca"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Effy",
+				"lastName": "Vayena"
+			}
+		],
+		"dateAdded": "2024-11-22T18:40:11Z",
+		"dateModified": "2026-11-13T19:32:08Z",
+		"itemType": "journalArticle",
+		"key": "TEX7MBVI",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/DVDHMGTK"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/3TWMFK4Y"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Artificial Intelligence: the global landscape of ethics guidelines"
+	}
+}

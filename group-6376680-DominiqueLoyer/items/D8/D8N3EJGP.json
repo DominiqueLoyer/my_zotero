@@ -1,0 +1,85 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:41:09Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:19:41Z",
+			"dateModified": "2026-04-17T21:19:41Z",
+			"itemType": "attachment",
+			"key": "IZY4I4V3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:55:25 p.m.</p>",
+			"parentItem": "D8N3EJGP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Adomavicius2005-2e29fa248c5781888d95f53d1f97c4ff"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "IZY4I4V3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Adomavicius2005-2e29fa248c5781888d95f53d1f97c4ff"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Adomavicius, Gediminas",
+			"Tuzhilin, Alexander"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions",
+		"year": "2005",
+		"zoteroURI": "zotero://select/groups/6376680/items/D8N3EJGP"
+	},
+	"zotero": {
+		"DOI": "10.1109/TKDE.2005.99",
+		"citationKey": "adomaviciusNextGenerationRecommender2005a",
+		"collections": [
+			"QWNSFW73"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Gediminas",
+				"lastName": "Adomavicius"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alexander",
+				"lastName": "Tuzhilin"
+			}
+		],
+		"date": "2005",
+		"dateAdded": "2026-04-17T21:19:41Z",
+		"dateModified": "2026-04-17T21:19:41Z",
+		"issue": "6",
+		"itemType": "journalArticle",
+		"key": "D8N3EJGP",
+		"language": "fr-CA",
+		"pages": "734–749",
+		"publicationTitle": "IEEE Transactions on Knowledge and Data Engineering",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions",
+		"volume": "17"
+	}
+}

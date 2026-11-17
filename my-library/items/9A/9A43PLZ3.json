@@ -1,0 +1,136 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-01-10T20:17:20Z",
+			"dateModified": "2026-01-10T20:17:20Z",
+			"itemType": "note",
+			"key": "68VR4VBQ",
+			"note": "Beamer Presentation - Doctoral Synthesis Exam UQAM",
+			"parentItem": "9A43PLZ3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/LAYIM2AQ"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-01-10T22:31:11Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T22:31:11Z",
+			"dateModified": "2026-03-09T20:45:27Z",
+			"itemType": "attachment",
+			"key": "ALL94PSJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:45:27 p.m.</p>\n<pre id=\"notero-synced-notes\">{\"containerBlockID\":\"2e49fa24-8c57-81ef-b062-d7ca8de6baac\",\"notes\":{\"68VR4VBQ\":{\"blockID\":\"2e49fa24-8c57-810c-ba0c-c54221c88d50\",\"syncedAt\":\"2026-01-10T22:32:23.121Z\"}}}</pre>",
+			"parentItem": "9A43PLZ3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/FKC6A2RM"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/loyerLeviathanAlgorithmiquePouvoir2025j-2e49fa248c5781bcbf70d93f7bd006a7"
+		},
+		{
+			"accessDate": "2026-01-10T20:17:20Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-10T20:17:20Z",
+			"dateModified": "2026-01-10T20:17:20Z",
+			"itemType": "attachment",
+			"key": "BDHBMCIP",
+			"linkMode": "linked_url",
+			"parentItem": "9A43PLZ3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/EFRJW2VC"
+				]
+			},
+			"tags": [],
+			"title": "orcid",
+			"url": "https://orcid.org/0009-0003-9713-7109"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ALL94PSJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/loyerLeviathanAlgorithmiquePouvoir2025j-2e49fa248c5781bcbf70d93f7bd006a7"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "BDHBMCIP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "orcid",
+				"url": "https://orcid.org/0009-0003-9713-7109"
+			}
+		],
+		"collections": [
+			"completeLoyer_100126"
+		],
+		"creators": [
+			"Loyer, Dominique S."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "68VR4VBQ",
+				"title": "Beamer Presentation - Doctoral Synthesis Exam UQAM"
+			}
+		],
+		"title": "Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/9A43PLZ3"
+	},
+	"zotero": {
+		"DOI": "10.13140/RG.2.2.19196.60806",
+		"ISBN": "978-1-0699904-7-1",
+		"citationKey": "loyerLeviathanAlgorithmiquePouvoir2025i",
+		"collections": [
+			"8UCLQEMM"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Dominique S.",
+				"lastName": "Loyer"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-01-10T20:17:20Z",
+		"dateModified": "2026-03-25T21:29:59Z",
+		"extra": "titleTranslation: The Algorithmic Leviathan: Power, Opacity, and Responsibility in the Age of Artificial Intelligence",
+		"itemType": "conferencePaper",
+		"key": "9A43PLZ3",
+		"language": "fr-CA",
+		"pages": "64",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/I3VI5JAJ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle",
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.19196.60806"
+	}
+}

@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:04Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:04Z",
+			"dateModified": "2026-11-09T17:08:41Z",
+			"itemType": "attachment",
+			"key": "B7C7TQGN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:41 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "2QPKMTZC",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/WEJEL3YB",
+					"http://zotero.org/groups/6376680/items/YF9S2TA2"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Misheva-Branka-and-Anevska-Katerina-and-Gjorgjevikj-Dejan-and-Vodenska-Irena-2025-4129fa248c5781878ef0d1904e502acc"
+		},
+		{
+			"accessDate": "2026-11-08T16:29:14Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:29:14Z",
+			"dateModified": "2026-11-08T16:29:14Z",
+			"filename": "Misheva, Branka and Anevska, Katerina and Gjorgjevikj, Dejan and Vodenska, Irena - 2025 - Explainable AI for financial services a survey.pdf",
+			"itemType": "attachment",
+			"key": "GI5BES7X",
+			"linkMode": "imported_url",
+			"parentItem": "2QPKMTZC",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://link.springer.com/content/pdf/10.1007%2Fs00146-025-02315-9.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Misheva, Branka and Anevska, Katerina and Gjorgjevikj, Dejan and Vodenska, Irena - 2025 - Explainable AI for financial services a survey.pdf",
+				"files": [
+					{
+						"path": "attachments/GI/GI5BES7X/Misheva, Branka and Anevska, Katerina and Gjorgjevikj, Dejan and Vodenska, Irena - 2025 - Explainable AI for financial services a survey.pdf",
+						"size": 387175,
+						"storage": "git"
+					}
+				],
+				"key": "GI5BES7X",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://link.springer.com/content/pdf/10.1007%2Fs00146-025-02315-9.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "B7C7TQGN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Misheva-Branka-and-Anevska-Katerina-and-Gjorgjevikj-Dejan-and-Vodenska-Irena-2025-4129fa248c5781878ef0d1904e502acc"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Misheva, Branka and Anevska, Katerina and Gjorgjevikj, Dejan and Vodenska, Irena"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Explainable AI for financial services: a survey",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/2QPKMTZC"
+	},
+	"zotero": {
+		"DOI": "10.1007/s00146-025-02315-9",
+		"citationKey": "mishevabrankaandanevskakaterinaandgjorgjevikjdejanandvodenskairenaExplainableAIFinancial2025",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Misheva, Branka and Anevska, Katerina and Gjorgjevikj, Dejan and Vodenska, Irena"
+			}
+		],
+		"date": "2025",
+		"dateAdded": "2026-02-25T21:42:06Z",
+		"dateModified": "2026-03-25T21:29:41Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "2QPKMTZC",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8X9FVZR8",
+				"http://zotero.org/groups/6376680/items/DSUJ7MT7"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Explainable AI for financial services: a survey"
+	}
+}

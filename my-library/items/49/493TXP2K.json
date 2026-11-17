@@ -1,0 +1,122 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:11:26Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:11:26Z",
+			"dateModified": "2026-11-09T15:07:50Z",
+			"filename": "Chen, Kai and Shu, Kai - 2024 - Combating Misinformation in the Age of LLMs Opportunities and Challenges.pdf",
+			"itemType": "attachment",
+			"key": "N4YF4AB4",
+			"linkMode": "imported_url",
+			"parentItem": "493TXP2K",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/CAFNGUCM",
+					"http://zotero.org/users/15425556/items/F748LYQL",
+					"http://zotero.org/users/15425556/items/GVNNQT8C"
+				]
+			},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2311.05656"
+		},
+		{
+			"accessDate": "2026-03-09T20:36:08Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-09T20:36:08Z",
+			"dateModified": "2026-11-09T17:06:29Z",
+			"itemType": "attachment",
+			"key": "WL75P6AP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:29 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "493TXP2K",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Chen-Kai-and-Shu-Kai-2024-4129fa248c578145a5e0e245f00529a7"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "WL75P6AP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Chen-Kai-and-Shu-Kai-2024-4129fa248c578145a5e0e245f00529a7"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Chen, Kai and Shu, Kai - 2024 - Combating Misinformation in the Age of LLMs Opportunities and Challenges.pdf",
+				"files": [
+					{
+						"path": "attachments/N4/N4YF4AB4/Chen, Kai and Shu, Kai - 2024 - Combating Misinformation in the Age of LLMs Opportunities and Challenges.pdf",
+						"size": 2749591,
+						"storage": "git"
+					}
+				],
+				"key": "N4YF4AB4",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2311.05656"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Chen, Kai and Shu, Kai"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Combating Misinformation in the Age of LLMs: Opportunities and Challenges",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/493TXP2K"
+	},
+	"zotero": {
+		"DOI": "10.1002/aaai.12188",
+		"citationKey": "chenkaiandshukaiCombatingMisinformationAge2024",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Chen, Kai and Shu, Kai"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-02-26T20:21:29Z",
+		"dateModified": "2026-11-09T15:07:50Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "493TXP2K",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/PBFIZK84",
+				"http://zotero.org/users/15425556/items/SDKW6UN3",
+				"http://zotero.org/users/15425556/items/X7MJK2JB"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/6DHX5VJK"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Combating Misinformation in the Age of LLMs: Opportunities and Challenges"
+	}
+}

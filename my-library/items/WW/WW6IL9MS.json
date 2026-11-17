@@ -1,0 +1,107 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:26:27Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:26:27Z",
+			"dateModified": "2026-11-09T17:04:39Z",
+			"itemType": "attachment",
+			"key": "HVHZ6WAM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:39 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "WW6IL9MS",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/7AQBLTL4"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/D5CWPUZ9"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Sankarapu-and-B-2024-4129fa248c57817a8afece86577bcb9c"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "HVHZ6WAM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Sankarapu-and-B-2024-4129fa248c57817a8afece86577bcb9c"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Sankarapu, Sanyasi",
+			"B, V. P."
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A novel hybrid optimization model for intrusion detection system in software defined networks",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/WW6IL9MS"
+	},
+	"zotero": {
+		"DOI": "10.1007/s11042-023-15798-y",
+		"citationKey": "sankarapuNovelHybridOptimization2024",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Sanyasi",
+				"lastName": "Sankarapu"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "V. P.",
+				"lastName": "B"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2025-10-10T19:01:28Z",
+		"dateModified": "2026-11-13T19:29:17Z",
+		"issue": "1",
+		"itemType": "journalArticle",
+		"key": "WW6IL9MS",
+		"pages": "2537–2556",
+		"publicationTitle": "Multimedia Tools and Applications",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/5RRWFD6K",
+				"http://zotero.org/users/15425556/items/A9XDKQAL"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/6TV5FZ9Y"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A novel hybrid optimization model for intrusion detection system in software defined networks",
+		"volume": "83"
+	}
+}

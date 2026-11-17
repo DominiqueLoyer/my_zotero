@@ -1,0 +1,87 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:22Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:17:22Z",
+			"dateModified": "2026-11-09T17:04:29Z",
+			"itemType": "attachment",
+			"key": "68C8QHRM",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:29 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "JFA7SFD3",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/DZFWP8VH",
+					"http://zotero.org/groups/6376680/items/IXZJZRF3"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/State-v-Loomis-2016-4129fa248c5781fe94a6c684f79d4104"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "68C8QHRM",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/State-v-Loomis-2016-4129fa248c5781fe94a6c684f79d4104"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"State v. Loomis"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "881 N.W.2d 749 (Wis. 2016)",
+		"year": "2016",
+		"zoteroURI": "zotero://select/library/items/JFA7SFD3"
+	},
+	"zotero": {
+		"citationKey": "statev.loomis881NW2d7492016",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "State v. Loomis"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-02-25T21:40:26Z",
+		"dateModified": "2026-11-13T19:29:00Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "JFA7SFD3",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/EZ3YV46P",
+				"http://zotero.org/groups/6376680/items/JBCWR5Q6"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "881 N.W.2d 749 (Wis. 2016)"
+	}
+}

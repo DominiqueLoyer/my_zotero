@@ -1,0 +1,93 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:33:43Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:43Z",
+			"dateModified": "2026-11-09T17:05:28Z",
+			"itemType": "attachment",
+			"key": "XC75YDAX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:28 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "P6853S3U",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/BMPHVNEJ"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/SWPQFXHY"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/HIIG-2024-4129fa248c578121983ae4dea985049d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "XC75YDAX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/HIIG-2024-4129fa248c578121983ae4dea985049d"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"HIIG"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmic Resistance",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/P6853S3U"
+	},
+	"zotero": {
+		"citationKey": "hiigAlgorithmicResistance2024",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "HIIG"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2025-10-10T19:01:26Z",
+		"dateModified": "2026-11-13T19:31:27Z",
+		"itemType": "document",
+		"key": "P6853S3U",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/D2DGCFUC"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8VJG5JX3"
+			]
+		},
+		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmic Resistance",
+		"url": "https://www.hiig.de/en/algorithmic-resistance/"
+	}
+}

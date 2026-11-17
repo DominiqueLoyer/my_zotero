@@ -1,0 +1,119 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:28:36Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:28:36Z",
+			"dateModified": "2026-11-09T14:55:28Z",
+			"itemType": "attachment",
+			"key": "95MKSHTT",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-03-09, 4:48:15 p.m.</p>",
+			"parentItem": "RIWJYLSM",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Microsoft2021-2e29fa248c57814c8b83db4b1387a8e6"
+		},
+		{
+			"accessDate": "2025-12-05T22:28:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:56Z",
+			"dateModified": "2026-11-09T14:55:28Z",
+			"itemType": "attachment",
+			"key": "TGVGD5UV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:10:44 p.m.</p>",
+			"parentItem": "RIWJYLSM",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/BG6B5DZB"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/TZC2BYJ6"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/microsoftResponsibleAIPractice2021-2c09fa248c5781e79a0ef6561426be56"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "95MKSHTT",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Microsoft2021-2e29fa248c57814c8b83db4b1387a8e6"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TGVGD5UV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/microsoftResponsibleAIPractice2021-2c09fa248c5781e79a0ef6561426be56"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Microsoft"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Responsible AI in practice",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/RIWJYLSM"
+	},
+	"zotero": {
+		"citationKey": "microsoftResponsibleAIPractice2021",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Microsoft"
+			}
+		],
+		"date": "2021",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-09T14:55:28Z",
+		"itemType": "document",
+		"key": "RIWJYLSM",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/MKJZAHHH",
+				"http://zotero.org/users/15425556/items/ZDN7YEGB"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/B6RQZ3FD"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Responsible AI in practice",
+		"url": "https://blogs.microsoft.com/on-the-issues/2021/02/25/responsible-ai-in-practice/"
+	}
+}

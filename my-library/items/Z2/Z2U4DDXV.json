@@ -1,0 +1,91 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:35:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:49Z",
+			"dateModified": "2026-11-09T15:00:10Z",
+			"itemType": "attachment",
+			"key": "B4F8BPA3",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:12:11 p.m.</p>",
+			"parentItem": "Z2U4DDXV",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/4R7PSVE3"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/4M4PZKDN"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/crozierPhenomeneBureaucratique1963-2c09fa248c578142bd32f1221d437ca6"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "B4F8BPA3",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/crozierPhenomeneBureaucratique1963-2c09fa248c578142bd32f1221d437ca6"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"Crozier, Michel"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Le Phénomène Bureaucratique",
+		"year": "1963",
+		"zoteroURI": "zotero://select/library/items/Z2U4DDXV"
+	},
+	"zotero": {
+		"citationKey": "crozierPhenomeneBureaucratique1963",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Michel",
+				"lastName": "Crozier"
+			}
+		],
+		"date": "1963",
+		"dateAdded": "2025-10-10T19:01:25Z",
+		"dateModified": "2026-11-09T15:00:10Z",
+		"itemType": "book",
+		"key": "Z2U4DDXV",
+		"place": "Paris",
+		"publisher": "Éditions du Seuil",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/77PGYBGU"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/NCX93ZLZ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Le Phénomène Bureaucratique"
+	}
+}

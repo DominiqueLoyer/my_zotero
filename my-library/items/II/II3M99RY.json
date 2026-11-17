@@ -1,0 +1,78 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:27:51Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:27:51Z",
+			"dateModified": "2026-01-02T19:10:25Z",
+			"itemType": "attachment",
+			"key": "4R42KALV",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:10:25 p.m.</p>",
+			"parentItem": "II3M99RY",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/pearlSevenToolsCausal2019-2c09fa248c5781a68cbbc31bea2fbd1b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "4R42KALV",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/pearlSevenToolsCausal2019-2c09fa248c5781a68cbbc31bea2fbd1b"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Pearl, Judea"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The seven tools of causal inference, with reflections on machine learning",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/II3M99RY"
+	},
+	"zotero": {
+		"DOI": "10.1145/3241334",
+		"citationKey": "pearlSevenToolsCausal2019",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Judea",
+				"lastName": "Pearl"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-03-25T21:31:02Z",
+		"issue": "3",
+		"itemType": "journalArticle",
+		"key": "II3M99RY",
+		"pages": "54–60",
+		"publicationTitle": "Communications of the ACM",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The seven tools of causal inference, with reflections on machine learning",
+		"volume": "62"
+	}
+}

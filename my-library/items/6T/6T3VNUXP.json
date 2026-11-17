@@ -1,0 +1,154 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:36:30Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:36:30Z",
+			"dateModified": "2026-11-08T16:36:30Z",
+			"filename": "Fan et al. - 2019 - Graph neural networks for social recommendation.pdf",
+			"itemType": "attachment",
+			"key": "2NJTC2YG",
+			"linkMode": "imported_url",
+			"parentItem": "6T3VNUXP",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1902.07243"
+		},
+		{
+			"accessDate": "2026-01-08T20:39:40Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:39:40Z",
+			"dateModified": "2026-11-09T17:09:22Z",
+			"itemType": "attachment",
+			"key": "NQ7X4LL8",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:22 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "6T3VNUXP",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ICGRPNZF"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Fan-et-al-2019-4129fa248c57819eba84f06d2e2c9918"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "NQ7X4LL8",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Fan-et-al-2019-4129fa248c57819eba84f06d2e2c9918"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Fan et al. - 2019 - Graph neural networks for social recommendation.pdf",
+				"files": [
+					{
+						"path": "attachments/2N/2NJTC2YG/Fan et al. - 2019 - Graph neural networks for social recommendation.pdf",
+						"size": 1340889,
+						"storage": "git"
+					}
+				],
+				"key": "2NJTC2YG",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1902.07243"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"Fan, Wenqi",
+			"Ma, Yao",
+			"Li, Qing",
+			"He, Yuan",
+			"Zhao, Eric",
+			"Tang, Jiliang",
+			"Yin, Dawei"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Graph neural networks for social recommendation",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/6T3VNUXP"
+	},
+	"zotero": {
+		"DOI": "10.1145/3308558.3313488",
+		"citationKey": "fanGraphNeuralNetworks2019a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Wenqi",
+				"lastName": "Fan"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yao",
+				"lastName": "Ma"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Qing",
+				"lastName": "Li"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yuan",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Eric",
+				"lastName": "Zhao"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jiliang",
+				"lastName": "Tang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Dawei",
+				"lastName": "Yin"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-01-08T20:07:31Z",
+		"dateModified": "2026-03-25T21:30:42Z",
+		"itemType": "conferencePaper",
+		"key": "6T3VNUXP",
+		"language": "fr-CA",
+		"pages": "417–426",
+		"proceedingsTitle": "The world wide web conference",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2VBV8KNZ"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Graph neural networks for social recommendation"
+	}
+}

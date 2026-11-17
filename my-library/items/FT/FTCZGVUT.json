@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:11:07Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:11:07Z",
+			"dateModified": "2026-11-08T16:11:07Z",
+			"filename": "Chen, Jiancan and Dong, Haoru and Wang, Xiang and Feng, Fuli and Wang, Meng and He, Xiangnan - 2023 - Bias and Debias in Recommender System A Survey and Future Directions.pdf",
+			"itemType": "attachment",
+			"key": "6AI8FTXW",
+			"linkMode": "imported_url",
+			"parentItem": "FTCZGVUT",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2010.03240"
+		},
+		{
+			"accessDate": "2026-02-25T22:18:28Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:18:28Z",
+			"dateModified": "2026-11-09T17:05:53Z",
+			"itemType": "attachment",
+			"key": "EKIVZY7G",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:53 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "FTCZGVUT",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/E5YHA372",
+					"http://zotero.org/groups/6376680/items/U9V9N3LI"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Chen-Jiancan-and-Dong-Haoru-and-Wang-Xiang-and-Feng-Fuli-and-Wang-Meng-and-He-Xiangnan-2023-4129fa248c57813291cdc67afca59ca8"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EKIVZY7G",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Chen-Jiancan-and-Dong-Haoru-and-Wang-Xiang-and-Feng-Fuli-and-Wang-Meng-and-He-Xiangnan-2023-4129fa248c57813291cdc67afca59ca8"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Chen, Jiancan and Dong, Haoru and Wang, Xiang and Feng, Fuli and Wang, Meng and He, Xiangnan - 2023 - Bias and Debias in Recommender System A Survey and Future Directions.pdf",
+				"files": [
+					{
+						"path": "attachments/6A/6AI8FTXW/Chen, Jiancan and Dong, Haoru and Wang, Xiang and Feng, Fuli and Wang, Meng and He, Xiangnan - 2023 - Bias and Debias in Recommender System A Survey and Future Directions.pdf",
+						"size": 1793185,
+						"storage": "git"
+					}
+				],
+				"key": "6AI8FTXW",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2010.03240"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Chen, Jiancan and Dong, Haoru and Wang, Xiang and Feng, Fuli and Wang, Meng and He, Xiangnan"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Bias and Debias in Recommender System: A Survey and Future Directions",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/FTCZGVUT"
+	},
+	"zotero": {
+		"DOI": "10.1145/3564284",
+		"citationKey": "chenjiancananddonghaoruandwangxiangandfengfuliandwangmengandhexiangnanBiasDebiasRecommender2023",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Chen, Jiancan and Dong, Haoru and Wang, Xiang and Feng, Fuli and Wang, Meng and He, Xiangnan"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-02-25T21:34:40Z",
+		"dateModified": "2026-03-25T21:29:51Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "FTCZGVUT",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/8WS4WDIJ",
+				"http://zotero.org/groups/6376680/items/RH7NFJMD"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Bias and Debias in Recommender System: A Survey and Future Directions"
+	}
+}

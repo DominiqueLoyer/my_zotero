@@ -1,0 +1,124 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:09:48Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-11-08T16:09:48Z",
+			"dateModified": "2026-11-09T17:06:44Z",
+			"itemType": "attachment",
+			"key": "J54VM2MJ",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:44 p.m.</p>",
+			"parentItem": "DCFPICI2",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Garg-Sahaj-and-Perot-Vincent-and-Limtiaco-Nicole-and-Taly-Ankur-and-D-Amour-Alexander-and-Hooke-4129fa248c578117ac34d46321dd5d36"
+		},
+		{
+			"accessDate": "2026-11-08T16:11:34Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:11:34Z",
+			"dateModified": "2026-11-09T15:03:57Z",
+			"filename": "Garg, Sahaj and Perot, Vincent and Limtiaco, Nicole and Taly, Ankur and D'Amour, Alexander and Hooker, Steve - 2019 - Counterfactual Fairness in Text Classification through Robustness.pdf",
+			"itemType": "attachment",
+			"key": "KIYR347V",
+			"linkMode": "imported_url",
+			"parentItem": "DCFPICI2",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/EKS6FSBL",
+					"http://zotero.org/users/15425556/items/KGQ8URQ7",
+					"http://zotero.org/users/15425556/items/NYAHG68U",
+					"http://zotero.org/users/15425556/items/SWNQFQCQ"
+				]
+			},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1809.10610"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "J54VM2MJ",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Garg-Sahaj-and-Perot-Vincent-and-Limtiaco-Nicole-and-Taly-Ankur-and-D-Amour-Alexander-and-Hooke-4129fa248c578117ac34d46321dd5d36"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Garg, Sahaj and Perot, Vincent and Limtiaco, Nicole and Taly, Ankur and D'Amour, Alexander and Hooker, Steve - 2019 - Counterfactual Fairness in Text Classification through Robustness.pdf",
+				"files": [
+					{
+						"path": "attachments/KI/KIYR347V/Garg, Sahaj and Perot, Vincent and Limtiaco, Nicole and Taly, Ankur and D'Amour, Alexander and Hooker, Steve - 2019 - Counterfactual Fairness in Text Classification through Robustness.pdf",
+						"size": 242698,
+						"storage": "git"
+					}
+				],
+				"key": "KIYR347V",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1809.10610"
+			}
+		],
+		"collections": [
+			"9251_modelisation_ALL_260226"
+		],
+		"creators": [
+			"Garg, Sahaj and Perot, Vincent and Limtiaco, Nicole and Taly, Ankur and D'Amour, Alexander and Hooker, Steve"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Counterfactual Fairness in Text Classification through Robustness",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/DCFPICI2"
+	},
+	"zotero": {
+		"DOI": "10.1145/3306618.3317950",
+		"citationKey": "gargsahajandperotvincentandlimtiaconicoleandtalyankuranddamouralexanderandhookersteveCounterfactualFairnessText2019",
+		"collections": [
+			"TFD2PMBS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Garg, Sahaj and Perot, Vincent and Limtiaco, Nicole and Taly, Ankur and D'Amour, Alexander and Hooker, Steve"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-02-26T20:20:01Z",
+		"dateModified": "2026-11-09T15:03:57Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "DCFPICI2",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/7GDF7SGV",
+				"http://zotero.org/users/15425556/items/DT8ID8NE",
+				"http://zotero.org/users/15425556/items/PG35A9TK",
+				"http://zotero.org/users/15425556/items/ZAHX4AK7"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/TI8SM3IC"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Counterfactual Fairness in Text Classification through Robustness"
+	}
+}

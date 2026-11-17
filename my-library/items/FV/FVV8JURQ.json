@@ -1,0 +1,127 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2024-12-01T03:36:34Z",
+			"dateModified": "2024-12-04T13:40:36Z",
+			"filename": "Texte 5  Evans,, Newstead  Byrne (1993).pdf",
+			"itemType": "attachment",
+			"key": "AFK9P727",
+			"linkMode": "imported_file",
+			"parentItem": "FVV8JURQ",
+			"relations": {},
+			"tags": [
+				{
+					"tag": "Logique"
+				},
+				{
+					"tag": "déduction"
+				},
+				{
+					"tag": "raisonning"
+				},
+				{
+					"tag": "raissonnement"
+				}
+			],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:34:54Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:34:54Z",
+			"dateModified": "2026-01-02T19:17:14Z",
+			"itemType": "attachment",
+			"key": "EDJH9ACW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:14 p.m.</p>",
+			"parentItem": "FVV8JURQ",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/evansCognitivePsychologyDeductive1993-2c09fa248c578117a97dff9074546b2b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "EDJH9ACW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/evansCognitivePsychologyDeductive1993-2c09fa248c578117a97dff9074546b2b"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Texte 5  Evans,, Newstead  Byrne (1993).pdf",
+				"files": [
+					{
+						"path": "attachments/AF/AFK9P727/Texte 5  Evans,, Newstead  Byrne (1993).pdf",
+						"size": 11108446,
+						"storage": "git"
+					}
+				],
+				"key": "AFK9P727",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours A24/DIC9001/Papier sur Evans (Raissonning)"
+		],
+		"creators": [
+			"Evans",
+			"Newstead",
+			"Byrne"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "The cognitive psychology of deductive reasoning",
+		"year": "1993",
+		"zoteroURI": "zotero://select/library/items/FVV8JURQ"
+	},
+	"zotero": {
+		"citationKey": "evansCognitivePsychologyDeductive1993",
+		"collections": [
+			"VVY733TS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Evans"
+			},
+			{
+				"creatorType": "author",
+				"name": "Newstead"
+			},
+			{
+				"creatorType": "author",
+				"name": "Byrne"
+			}
+		],
+		"date": "1993",
+		"dateAdded": "2024-12-04T13:40:34Z",
+		"dateModified": "2025-12-05T22:34:54Z",
+		"itemType": "journalArticle",
+		"key": "FVV8JURQ",
+		"pages": "27",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "The cognitive psychology of deductive reasoning"
+	}
+}

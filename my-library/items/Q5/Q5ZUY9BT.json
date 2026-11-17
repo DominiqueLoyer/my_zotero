@@ -1,0 +1,138 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:32:56Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:32:56Z",
+			"dateModified": "2026-11-09T17:06:32Z",
+			"itemType": "attachment",
+			"key": "43BLGZPW",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:06:32 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "Q5ZUY9BT",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/INWB9R6D"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/FQMARLW5"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Koh-et-al-2020-4129fa248c5781b9acf3e367fbd55f9b"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "43BLGZPW",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Koh-et-al-2020-4129fa248c5781b9acf3e367fbd55f9b"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references_dic9401"
+		],
+		"creators": [
+			"Koh, Pang Wei",
+			"Nguyen, Thao",
+			"Tang, Yew Siang",
+			"Mussmann, Stephen",
+			"Pierson, Emma",
+			"Kim, Been",
+			"Liang, Percy"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Concept Bottleneck Models",
+		"year": "2020",
+		"zoteroURI": "zotero://select/library/items/Q5ZUY9BT"
+	},
+	"zotero": {
+		"citationKey": "kohConceptBottleneckModels2020",
+		"collections": [
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Pang Wei",
+				"lastName": "Koh"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Thao",
+				"lastName": "Nguyen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Yew Siang",
+				"lastName": "Tang"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Stephen",
+				"lastName": "Mussmann"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Emma",
+				"lastName": "Pierson"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Been",
+				"lastName": "Kim"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Percy",
+				"lastName": "Liang"
+			}
+		],
+		"date": "2020",
+		"dateAdded": "2025-10-10T19:01:27Z",
+		"dateModified": "2026-11-13T19:34:44Z",
+		"itemType": "conferencePaper",
+		"key": "Q5ZUY9BT",
+		"pages": "5338–5348",
+		"proceedingsTitle": "Proceedings of the 37th International Conference on Machine Learning, ICML 2020",
+		"publisher": "PMLR",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/5TBPEYRL"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/J23YEU3P"
+			]
+		},
+		"series": "Proceedings of Machine Learning Research",
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Concept Bottleneck Models",
+		"volume": "119"
+	}
+}

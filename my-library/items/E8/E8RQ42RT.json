@@ -1,0 +1,139 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-01T23:48:44Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:48:44Z",
+			"dateModified": "2026-01-01T23:48:44Z",
+			"filename": "Ying et al. - 2018 - Graph Convolutional Neural Networks for Web-Scale Recommender Systems.pdf",
+			"itemType": "attachment",
+			"key": "3GXB3N2G",
+			"linkMode": "imported_url",
+			"parentItem": "E8RQ42RT",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1806.01973"
+		},
+		{
+			"accessDate": "2025-12-05T22:24:01Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:01Z",
+			"dateModified": "2026-11-09T17:09:19Z",
+			"itemType": "attachment",
+			"key": "L8QNKVV5",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:19 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "E8RQ42RT",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Ying-et-al-2018-4129fa248c5781a8a4f0d84b54a3c061"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "L8QNKVV5",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Ying-et-al-2018-4129fa248c5781a8a4f0d84b54a3c061"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Ying et al. - 2018 - Graph Convolutional Neural Networks for Web-Scale Recommender Systems.pdf",
+				"files": [
+					{
+						"path": "attachments/3G/3GXB3N2G/Ying et al. - 2018 - Graph Convolutional Neural Networks for Web-Scale Recommender Systems.pdf",
+						"size": 10322072,
+						"storage": "git"
+					}
+				],
+				"key": "3GXB3N2G",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1806.01973"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025"
+		],
+		"creators": [
+			"Ying, Rex",
+			"He, Ruining",
+			"Chen, Kaifeng",
+			"Eksombatchai, Pong",
+			"Hamilton, William L.",
+			"Leskovec, Jure"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+		"year": "2018",
+		"zoteroURI": "zotero://select/library/items/E8RQ42RT"
+	},
+	"zotero": {
+		"DOI": "10.1145/3219819.3219890",
+		"citationKey": "yingGraphConvolutionalNeural2018",
+		"collections": [
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Rex",
+				"lastName": "Ying"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ruining",
+				"lastName": "He"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kaifeng",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Pong",
+				"lastName": "Eksombatchai"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "William L.",
+				"lastName": "Hamilton"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jure",
+				"lastName": "Leskovec"
+			}
+		],
+		"date": "2018",
+		"dateAdded": "2025-10-10T19:01:29Z",
+		"dateModified": "2026-03-25T21:30:55Z",
+		"itemType": "conferencePaper",
+		"key": "E8RQ42RT",
+		"pages": "974–983",
+		"proceedingsTitle": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems"
+	}
+}

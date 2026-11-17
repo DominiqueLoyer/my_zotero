@@ -1,0 +1,148 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-02-04T20:33:27Z",
+			"dateModified": "2025-03-31T18:29:27Z",
+			"filename": "Davis et al. - What Is a Knowledge Representation.pdf",
+			"itemType": "attachment",
+			"key": "2Y2QBTFV",
+			"linkMode": "imported_file",
+			"parentItem": "FKT9UWQP",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/II67WPT3",
+					"http://zotero.org/users/15425556/items/Y95ECZTP"
+				]
+			},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:35:44Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:35:44Z",
+			"dateModified": "2026-01-02T19:16:39Z",
+			"itemType": "attachment",
+			"key": "UZ7Q79KF",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:16:39 p.m.</p>",
+			"parentItem": "FKT9UWQP",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/davisWhatKnowledgeRepresentation1993-2c09fa248c5781afbc95e7f73f026ed5"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "UZ7Q79KF",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/davisWhatKnowledgeRepresentation1993-2c09fa248c5781afbc95e7f73f026ed5"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Davis et al. - What Is a Knowledge Representation.pdf",
+				"files": [
+					{
+						"path": "attachments/2Y/2Y2QBTFV/Davis et al. - What Is a Knowledge Representation.pdf",
+						"size": 213703,
+						"storage": "git"
+					},
+					{
+						"path": "attachments/2Y/2Y2QBTFV/ (Sherbrooke-Informatique-2103.local's conflicted copy 2026-07-09).zotero-ft-cache",
+						"size": 80201,
+						"storage": "git"
+					}
+				],
+				"key": "2Y2QBTFV",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/Modélisation",
+			"Cours H25/Modélisation/cours 5",
+			"Cours H25/Modélisation/représentation de la connaissance"
+		],
+		"creators": [
+			"Davis, Randall",
+			"Shrobe, Howard",
+			"Szolovits, Peter"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "What Is a Knowledge Representation?",
+		"year": "1993",
+		"zoteroURI": "zotero://select/library/items/FKT9UWQP"
+	},
+	"zotero": {
+		"citationKey": "davisWhatKnowledgeRepresentation1993",
+		"collections": [
+			"2DDWX2KR",
+			"G4KBEA9A",
+			"MCWSJY5G"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Randall",
+				"lastName": "Davis"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Howard",
+				"lastName": "Shrobe"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Peter",
+				"lastName": "Szolovits"
+			}
+		],
+		"date": "1993",
+		"dateAdded": "2025-02-04T20:33:36Z",
+		"dateModified": "2025-12-29T23:57:34Z",
+		"itemType": "journalArticle",
+		"key": "FKT9UWQP",
+		"language": "en",
+		"libraryCatalog": "Zotero",
+		"pages": "17",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/5YPHCEHY",
+				"http://zotero.org/users/15425556/items/F9S7FZ2F"
+			]
+		},
+		"tags": [
+			{
+				"tag": "knowledge representation"
+			},
+			{
+				"tag": "modélisation"
+			},
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "What Is a Knowledge Representation?"
+	}
+}

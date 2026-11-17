@@ -1,0 +1,112 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-01-08T20:07:34Z",
+			"dateModified": "2026-11-09T15:08:07Z",
+			"itemType": "note",
+			"key": "Q2KIPWX8",
+			"note": "Corrections éditoriales ainsi qu’une introduction plus complète de Guenther Roth et Claus Wittich",
+			"parentItem": "JAF7TKWL",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/Q5N2EPAN"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2025-12-05T22:24:31Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:24:31Z",
+			"dateModified": "2026-11-09T17:08:06Z",
+			"itemType": "attachment",
+			"key": "V73IB73Y",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:06 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "JAF7TKWL",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/6ERXC4T7"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/6AR8EQI5"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Weber-1978-4129fa248c57813ea043c1da1632f59d"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "V73IB73Y",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Weber-1978-4129fa248c57813ea043c1da1632f59d"
+			}
+		],
+		"collections": [
+			"Examen doctoral 9401(été25)/9401_101025",
+			"references",
+			"references_dic9401"
+		],
+		"creators": [
+			"Weber, Max"
+		],
+		"itemType": "book",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "Q2KIPWX8",
+				"title": "Corrections éditoriales ainsi qu’une introduction plus complète de Guenther Roth et Claus Wittich"
+			}
+		],
+		"title": "Economy and Society: An Outline of Interpretive Sociology",
+		"year": "1978",
+		"zoteroURI": "zotero://select/library/items/JAF7TKWL"
+	},
+	"zotero": {
+		"citationKey": "weberEconomySocietyOutline1978",
+		"collections": [
+			"7PN5IQY2",
+			"F9TGXIMY",
+			"KMK2RY9F"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Max",
+				"lastName": "Weber"
+			}
+		],
+		"date": "1978",
+		"dateAdded": "2025-10-10T19:01:29Z",
+		"dateModified": "2026-11-09T15:08:07Z",
+		"itemType": "book",
+		"key": "JAF7TKWL",
+		"publisher": "University of California Press",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/3KHV6RAE",
+				"http://zotero.org/users/15425556/items/MDZ2RY4E"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/SPM2FDXN"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Economy and Society: An Outline of Interpretive Sociology"
+	}
+}

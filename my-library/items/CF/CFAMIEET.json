@@ -1,0 +1,188 @@
+{
+	"children": [
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-04-16T19:26:24Z",
+			"dateModified": "2025-08-21T19:37:27Z",
+			"filename": "Hitzler - 2021 - A review of the semantic web field.pdf",
+			"itemType": "attachment",
+			"key": "5APQ72MW",
+			"linkMode": "imported_file",
+			"parentItem": "CFAMIEET",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2025-03-30T18:14:57Z",
+			"dateModified": "2025-03-30T18:15:04Z",
+			"filename": "Hitzler - 2021 - A review of the semantic web field.pdf",
+			"itemType": "attachment",
+			"key": "QB8LYLB8",
+			"linkMode": "imported_file",
+			"parentItem": "CFAMIEET",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:27:55Z",
+			"dateModified": "2026-11-09T15:06:21Z",
+			"itemType": "attachment",
+			"key": "UBF6DJG6",
+			"linkMode": "linked_file",
+			"parentItem": "CFAMIEET",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/2eTP_dic9335_040326/PDFs/Hitzler - 2021 - A review of the semantic web field.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		},
+		{
+			"accessDate": "2025-12-05T22:33:42Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:33:42Z",
+			"dateModified": "2026-11-09T17:04:44Z",
+			"itemType": "attachment",
+			"key": "ZNXXVC4H",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:44 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "CFAMIEET",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/JF7SEB5L"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Hitzler-2021-4129fa248c57815a9486c601adf4dc6f"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZNXXVC4H",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Hitzler-2021-4129fa248c57815a9486c601adf4dc6f"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hitzler - 2021 - A review of the semantic web field.pdf",
+				"files": [],
+				"key": "QB8LYLB8",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hitzler - 2021 - A review of the semantic web field.pdf",
+				"files": [],
+				"key": "5APQ72MW",
+				"linkMode": "imported_file",
+				"status": "missing",
+				"title": "PDF",
+				"url": null
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hitzler - 2021 - A review of the semantic web field.pdf",
+				"files": [
+					{
+						"path": "attachments/UB/UBF6DJG6/Hitzler - 2021 - A review of the semantic web field.pdf",
+						"size": 1738136,
+						"storage": "git"
+					}
+				],
+				"key": "UBF6DJG6",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"Cours H25/science du web",
+			"Cours H25/science du web/2e résumé dic9335",
+			"_9335_all",
+			"_ALL_CIT_140326/2eTP_dic9335_040326/PDFs"
+		],
+		"creators": [
+			"Hitzler, Pascal"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "A review of the semantic web field",
+		"year": "2021",
+		"zoteroURI": "zotero://select/library/items/CFAMIEET"
+	},
+	"zotero": {
+		"DOI": "10.1145/3397512",
+		"ISSN": "0001-0782, 1557-7317",
+		"abstractNote": "Tracing the triumphs and challenges of two decades of Semantic Web research and applications.",
+		"accessDate": "2025-03-30T18:15:04Z",
+		"citationKey": "hitzlerReviewSemanticWeb2021",
+		"collections": [
+			"7XVYZYFG",
+			"GPJSTWDS",
+			"UJT7XNX7",
+			"W7937JUV"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Pascal",
+				"lastName": "Hitzler"
+			}
+		],
+		"date": "2021-01-25",
+		"dateAdded": "2025-03-30T18:15:04Z",
+		"dateModified": "2026-11-09T15:06:21Z",
+		"issue": "2",
+		"itemType": "journalArticle",
+		"journalAbbreviation": "Commun. ACM",
+		"key": "CFAMIEET",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "76-83",
+		"publicationTitle": "Communications of the ACM",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/ASNY69BB",
+				"http://zotero.org/users/15425556/items/G9RIFNGD",
+				"http://zotero.org/users/15425556/items/UJHJ9SYG",
+				"http://zotero.org/users/15425556/items/WVN6XXE8"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/3T6WL3RF",
+				"http://zotero.org/groups/6376680/items/EYCJVECU",
+				"http://zotero.org/groups/6376680/items/QZS7JJIA"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A review of the semantic web field",
+		"url": "https://dl.acm.org/doi/10.1145/3397512",
+		"volume": "64"
+	}
+}

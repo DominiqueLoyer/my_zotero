@@ -1,0 +1,94 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:19:59Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:19:59Z",
+			"dateModified": "2026-11-09T17:05:16Z",
+			"itemType": "attachment",
+			"key": "T5KJGBX7",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:05:16 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "VQWAEM7V",
+			"relations": {
+				"dc:replaces": [
+					"http://zotero.org/users/15425556/items/4YSBDN8U"
+				],
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/3FJYGLHZ",
+					"http://zotero.org/groups/6376680/items/7L3C7F9C",
+					"http://zotero.org/groups/6376680/items/BHSMTIJA",
+					"http://zotero.org/groups/6376680/items/TTXYWMWI"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Neuer-Laurence-2019-4129fa248c5781fcb428c5e62856b742"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "T5KJGBX7",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Neuer-Laurence-2019-4129fa248c5781fcb428c5e62856b742"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Neuer, Laurence"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Algorithmes: ce sont les individus qu'il faut responsabiliser",
+		"year": "2019",
+		"zoteroURI": "zotero://select/library/items/VQWAEM7V"
+	},
+	"zotero": {
+		"DOI": "10.3917/ae.389.0030",
+		"citationKey": "neuerlaurenceAlgorithmesCeSont2019",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Neuer, Laurence"
+			}
+		],
+		"date": "2019",
+		"dateAdded": "2026-02-25T20:54:28Z",
+		"dateModified": "2026-11-13T19:31:15Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "VQWAEM7V",
+		"relations": {
+			"dc:replaces": [
+				"http://zotero.org/users/15425556/items/MJDDPZPJ"
+			],
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/2LCGLDEB",
+				"http://zotero.org/groups/6376680/items/2UPRJTUE",
+				"http://zotero.org/groups/6376680/items/EFJJ6VCL",
+				"http://zotero.org/groups/6376680/items/TKQWCYUS"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Algorithmes: ce sont les individus qu'il faut responsabiliser"
+	}
+}

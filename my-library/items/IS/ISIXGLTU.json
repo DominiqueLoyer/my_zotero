@@ -1,0 +1,168 @@
+{
+	"children": [
+		{
+			"dateAdded": "2026-03-14T17:40:22Z",
+			"dateModified": "2026-03-14T17:40:22Z",
+			"itemType": "note",
+			"key": "E36D2ILV",
+			"note": "Comment: 58 page",
+			"parentItem": "ISIXGLTU",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/K9L78G96"
+				]
+			},
+			"tags": []
+		},
+		{
+			"accessDate": "2026-03-14T18:17:29Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-14T18:17:29Z",
+			"dateModified": "2026-11-09T17:04:57Z",
+			"itemType": "attachment",
+			"key": "TX7ZDMC6",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:04:57 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "ISIXGLTU",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/586RHN6Y"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Brown-et-al-2025-4129fa248c57816e957def47ee89e0c4"
+		},
+		{
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-03-14T17:32:54Z",
+			"dateModified": "2026-03-14T17:40:23Z",
+			"itemType": "attachment",
+			"key": "VLN3IN4A",
+			"linkMode": "linked_file",
+			"parentItem": "ISIXGLTU",
+			"path": "/Users/bk280625/Desktop/Revue litterature toutes/gs_080326/PDFs/Brown et al. - 2025 - A Systematic Literature Review of Retrieval-Augmented Generation Techniques, Metrics, and Challenge.pdf",
+			"relations": {},
+			"tags": [],
+			"title": "PDF"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "TX7ZDMC6",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Brown-et-al-2025-4129fa248c57816e957def47ee89e0c4"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Brown et al. - 2025 - A Systematic Literature Review of Retrieval-Augmented Generation Techniques, Metrics, and Challenge.pdf",
+				"files": [
+					{
+						"path": "attachments/VL/VLN3IN4A/Brown et al. - 2025 - A Systematic Literature Review of Retrieval-Augmented Generation Techniques, Metrics, and Challenge.pdf",
+						"size": 2037808,
+						"storage": "git"
+					}
+				],
+				"key": "VLN3IN4A",
+				"linkMode": "linked_file",
+				"status": "ok",
+				"title": "PDF",
+				"url": null
+			}
+		],
+		"collections": [
+			"_ALL_CIT_140326/gs_080326/PDFs"
+		],
+		"creators": [
+			"Brown, Andrew",
+			"Roman, Muhammad",
+			"Devereux, Barry"
+		],
+		"itemType": "preprint",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [
+			{
+				"key": "E36D2ILV",
+				"title": "Comment: 58 page"
+			}
+		],
+		"title": "A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges",
+		"year": "2025",
+		"zoteroURI": "zotero://select/library/items/ISIXGLTU"
+	},
+	"zotero": {
+		"DOI": "10.3390/bdcc9120320",
+		"abstractNote": "This systematic review of the research literature on retrieval-augmented generation (RAG) provides a focused analysis of the most highly cited studies published between 2020 and May 2025. A total of 128 articles met our inclusion criteria. The records were retrieved from ACM Digital Library, IEEE Xplore, Scopus, ScienceDirect, and the Digital Bibliography and Library Project (DBLP). RAG couples a neural retriever with a generative language model, grounding output in up-to-date, non-parametric memory while retaining the semantic generalisation stored in model weights. Guided by the PRISMA 2020 framework, we (i) specify explicit inclusion and exclusion criteria based on citation count and research questions, (ii) catalogue datasets, architectures, and evaluation practices, and (iii) synthesise empirical evidence on the effectiveness and limitations of RAG. To mitigate citation-lag bias, we applied a lower citation-count threshold to papers published in 2025 so that emerging breakthroughs with naturally fewer citations were still captured. This review clarifies the current research landscape, highlights methodological gaps, and charts priority directions for future research.",
+		"accessDate": "2026-03-14T17:40:22Z",
+		"archiveID": "arXiv:2508.06401",
+		"citationKey": "brownSystematicLiteratureReview2025",
+		"collections": [
+			"Y8TQQBY3"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Andrew",
+				"lastName": "Brown"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Muhammad",
+				"lastName": "Roman"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Barry",
+				"lastName": "Devereux"
+			}
+		],
+		"date": "2025-09-09",
+		"dateAdded": "2026-03-14T17:40:22Z",
+		"dateModified": "2026-11-13T19:30:20Z",
+		"extra": "arXiv:2508.06401 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2508.06401",
+		"itemType": "preprint",
+		"key": "ISIXGLTU",
+		"libraryCatalog": "arXiv.org",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/L4SML8ET"
+			]
+		},
+		"repository": "arXiv",
+		"shortTitle": "A Systematic Literature Review of Retrieval-Augmented Generation",
+		"tags": [
+			{
+				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Digital Libraries",
+				"type": 1
+			},
+			{
+				"tag": "Computer Science - Information Retrieval",
+				"type": 1
+			},
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges",
+		"url": "http://arxiv.org/abs/2508.06401"
+	}
+}

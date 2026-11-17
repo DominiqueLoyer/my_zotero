@@ -1,0 +1,117 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-11-08T16:36:30Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-08T16:36:30Z",
+			"dateModified": "2026-11-08T16:36:30Z",
+			"filename": "Wu, Shiwen and Sun, Fei and Zhang, Wentao and Xu, Xin and Cui, Bin - 2023 - Graph neural networks for recommender systems a survey.pdf",
+			"itemType": "attachment",
+			"key": "LJ8A6LIT",
+			"linkMode": "imported_url",
+			"parentItem": "PRXZH86C",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/2011.02260"
+		},
+		{
+			"accessDate": "2026-02-25T22:15:24Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-02-25T22:15:24Z",
+			"dateModified": "2026-11-09T17:09:21Z",
+			"itemType": "attachment",
+			"key": "ZI4UTQNN",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:09:21 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "PRXZH86C",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/2K8QAR9X",
+					"http://zotero.org/groups/6376680/items/URWNL5C7"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Wu-Shiwen-and-Sun-Fei-and-Zhang-Wentao-and-Xu-Xin-and-Cui-Bin-2023-4129fa248c57812d86abc4c8a54ab736"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZI4UTQNN",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Wu-Shiwen-and-Sun-Fei-and-Zhang-Wentao-and-Xu-Xin-and-Cui-Bin-2023-4129fa248c57812d86abc4c8a54ab736"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wu, Shiwen and Sun, Fei and Zhang, Wentao and Xu, Xin and Cui, Bin - 2023 - Graph neural networks for recommender systems a survey.pdf",
+				"files": [
+					{
+						"path": "attachments/LJ/LJ8A6LIT/Wu, Shiwen and Sun, Fei and Zhang, Wentao and Xu, Xin and Cui, Bin - 2023 - Graph neural networks for recommender systems a survey.pdf",
+						"size": 999987,
+						"storage": "git"
+					}
+				],
+				"key": "LJ8A6LIT",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/2011.02260"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Wu, Shiwen and Sun, Fei and Zhang, Wentao and Xu, Xin and Cui, Bin"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Graph neural networks for recommender systems: a survey",
+		"year": "2023",
+		"zoteroURI": "zotero://select/library/items/PRXZH86C"
+	},
+	"zotero": {
+		"DOI": "10.1145/3535101",
+		"citationKey": "wushiwenandsunfeiandzhangwentaoandxuxinandcuibinGraphNeuralNetworks2023",
+		"collections": [
+			"N7XK7RGS"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Wu, Shiwen and Sun, Fei and Zhang, Wentao and Xu, Xin and Cui, Bin"
+			}
+		],
+		"date": "2023",
+		"dateAdded": "2026-02-25T21:58:12Z",
+		"dateModified": "2026-03-25T21:29:33Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "PRXZH86C",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/CIBX7749",
+				"http://zotero.org/groups/6376680/items/QRESELGP"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Graph neural networks for recommender systems: a survey"
+	}
+}

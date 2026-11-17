@@ -1,0 +1,75 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-02-25T22:17:49Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-03-08T21:46:58Z",
+			"dateModified": "2026-03-08T21:46:58Z",
+			"itemType": "attachment",
+			"key": "ZGXMK5BX",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-02-26, 5:39:38 p.m.</p>",
+			"parentItem": "WGKMX9UN",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/Hidasi2016Sessionbased-3129fa248c57814a9770f62c801b8e30"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "ZGXMK5BX",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/Hidasi2016Sessionbased-3129fa248c57814a9770f62c801b8e30"
+			}
+		],
+		"collections": [
+			"9401_bibtex_all_250226"
+		],
+		"creators": [
+			"Hidasi, Balazs and Karatzoglou, Alexandros and Baltrunas, Linas and Tikk, Domonkos"
+		],
+		"itemType": "journalArticle",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Session-based recommendations with recurrent neural networks",
+		"year": "2016",
+		"zoteroURI": "zotero://select/groups/6376680/items/WGKMX9UN"
+	},
+	"zotero": {
+		"DOI": "10.1145/2988450.2988452",
+		"citationKey": "Hidasi2016Sessionbased",
+		"collections": [
+			"KRMD3KDT"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "Hidasi, Balazs and Karatzoglou, Alexandros and Baltrunas, Linas and Tikk, Domonkos"
+			}
+		],
+		"date": "2016",
+		"dateAdded": "2026-03-08T21:46:58Z",
+		"dateModified": "2026-03-08T21:46:58Z",
+		"extra": "Importé via SysCRED.",
+		"itemType": "journalArticle",
+		"key": "WGKMX9UN",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Session-based recommendations with recurrent neural networks",
+		"url": "https://arxiv.org/abs/1511.06939"
+	}
+}

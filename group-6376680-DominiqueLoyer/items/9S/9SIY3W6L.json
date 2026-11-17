@@ -1,0 +1,109 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:29:34Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-04-17T21:21:41Z",
+			"dateModified": "2026-04-17T21:21:41Z",
+			"itemType": "attachment",
+			"key": "Q3JPY9HU",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-01-02, 2:17:54 p.m.</p>",
+			"parentItem": "9SIY3W6L",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "notion://www.notion.so/madnaniBuildingBetterOpenSource2017-2c09fa248c578184a316e184fdf15a47"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "Q3JPY9HU",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "notion://www.notion.so/madnaniBuildingBetterOpenSource2017-2c09fa248c578184a316e184fdf15a47"
+			}
+		],
+		"collections": [
+			"Ma thèse",
+			"Ma thèse/Systematic review"
+		],
+		"creators": [
+			"Madnani, Nitin",
+			"Loukina, Anastassia",
+			"Von Davier, Alina",
+			"Burstein, Jill",
+			"Cahill, Aoife"
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 2,
+		"libraryName": "DominiqueLoyer",
+		"notes": [],
+		"title": "Building Better Open-Source Tools to Support Fairness in Automated Scoring",
+		"year": "2017",
+		"zoteroURI": "zotero://select/groups/6376680/items/9SIY3W6L"
+	},
+	"zotero": {
+		"DOI": "10.18653/v1/W17-1605",
+		"accessDate": "2024-11-23T17:49:55Z",
+		"citationKey": "madnaniBuildingBetterOpenSource2017",
+		"collections": [
+			"J6WCHKF9",
+			"P9N6XDU8"
+		],
+		"conferenceName": "Proceedings of the First ACL Workshop on Ethics in Natural Language Processing",
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Nitin",
+				"lastName": "Madnani"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Anastassia",
+				"lastName": "Loukina"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Alina",
+				"lastName": "Von Davier"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jill",
+				"lastName": "Burstein"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Aoife",
+				"lastName": "Cahill"
+			}
+		],
+		"date": "2017",
+		"dateAdded": "2026-04-17T21:21:41Z",
+		"dateModified": "2026-04-17T21:21:41Z",
+		"itemType": "conferencePaper",
+		"key": "9SIY3W6L",
+		"language": "en",
+		"libraryCatalog": "DOI.org (Crossref)",
+		"pages": "41-52",
+		"place": "Valencia, Spain",
+		"proceedingsTitle": "Proceedings of the First ACL Workshop on Ethics in Natural Language Processing",
+		"publisher": "Association for Computational Linguistics",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "Building Better Open-Source Tools to Support Fairness in Automated Scoring",
+		"url": "http://aclweb.org/anthology/W17-1605"
+	}
+}

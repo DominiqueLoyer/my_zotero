@@ -1,0 +1,82 @@
+{
+	"children": [
+		{
+			"accessDate": "2026-01-08T20:39:41Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2026-01-08T20:39:41Z",
+			"dateModified": "2026-11-09T17:08:16Z",
+			"itemType": "attachment",
+			"key": "8AHBA23X",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:08:16 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "HQMK5TRV",
+			"relations": {
+				"owl:sameAs": [
+					"http://zotero.org/groups/6376680/items/ID4LR6G6"
+				]
+			},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/European-Parliament-2024-4129fa248c57814ca0cdccdd951f3101"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "8AHBA23X",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/European-Parliament-2024-4129fa248c57814ca0cdccdd951f3101"
+			}
+		],
+		"collections": [
+			"references_dic9401"
+		],
+		"creators": [
+			"European Parliament"
+		],
+		"itemType": "document",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "EU AI Act: first regulation on artificial intelligence",
+		"year": "2024",
+		"zoteroURI": "zotero://select/library/items/HQMK5TRV"
+	},
+	"zotero": {
+		"citationKey": "europeanparliamentEUAIAct2024a",
+		"collections": [
+			"F9TGXIMY"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"name": "European Parliament"
+			}
+		],
+		"date": "2024",
+		"dateAdded": "2026-01-08T20:07:31Z",
+		"dateModified": "2026-03-25T21:30:42Z",
+		"itemType": "document",
+		"key": "HQMK5TRV",
+		"language": "fr-CA",
+		"relations": {
+			"owl:sameAs": [
+				"http://zotero.org/groups/6376680/items/KQAQ2CRD"
+			]
+		},
+		"tags": [
+			{
+				"tag": "notion"
+			}
+		],
+		"title": "EU AI Act: first regulation on artificial intelligence",
+		"url": "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence"
+	}
+}

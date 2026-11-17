@@ -1,0 +1,168 @@
+{
+	"children": [
+		{
+			"accessDate": "2025-12-05T22:28:55Z",
+			"charset": "",
+			"contentType": "",
+			"dateAdded": "2025-12-05T22:28:55Z",
+			"dateModified": "2026-11-09T17:07:51Z",
+			"itemType": "attachment",
+			"key": "9YI8QTBP",
+			"linkMode": "linked_url",
+			"note": "<h2 style=\"background-color: #ff666680;\">Do not modify or delete!</h2>\n<p>This link attachment serves as a reference for\n<a href=\"https://github.com/dvanoni/notero\">Notero</a>\nso that it can properly update the Notion page for this item.</p>\n<p>Last synced: 2026-11-09, 12:07:51 p.m.</p>\n<pre id=\"notero-synced-notes\">{}</pre>",
+			"parentItem": "EWW2LD5B",
+			"relations": {},
+			"tags": [],
+			"title": "Notion",
+			"url": "https://app.notion.com/p/Mikolov-et-al-2013-4129fa248c578194954dd37932f4dff9"
+		},
+		{
+			"accessDate": "2026-01-01T23:52:49Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-01-01T23:52:49Z",
+			"dateModified": "2026-01-01T23:52:49Z",
+			"filename": "Mikolov et al. - 2013 - Distributed representations of words and phrases and their compositionality.pdf",
+			"itemType": "attachment",
+			"key": "KVRFLZJG",
+			"linkMode": "imported_url",
+			"parentItem": "EWW2LD5B",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://papers.nips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf"
+		}
+	],
+	"meta": {
+		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Mikolov et al. - 2013 - Distributed representations of words and phrases and their compositionality.pdf",
+				"files": [
+					{
+						"path": "attachments/KV/KVRFLZJG/Mikolov et al. - 2013 - Distributed representations of words and phrases and their compositionality.pdf",
+						"size": 111997,
+						"storage": "git"
+					}
+				],
+				"key": "KVRFLZJG",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://papers.nips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": null,
+				"filename": null,
+				"files": [],
+				"key": "9YI8QTBP",
+				"linkMode": "linked_url",
+				"status": "no-file",
+				"title": "Notion",
+				"url": "https://app.notion.com/p/Mikolov-et-al-2013-4129fa248c578194954dd37932f4dff9"
+			}
+		],
+		"collections": [
+			"Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
+		],
+		"creators": [
+			"Mikolov, Tomas",
+			"Sutskever, Ilya",
+			"Chen, Kai",
+			"Corrado, Greg",
+			"Dean, Jeffrey",
+			"Burges, C. J. C.",
+			"Bottou, L.",
+			"Welling, M.",
+			"Ghahramani, Z.",
+			"Weinberger, K. Q."
+		],
+		"itemType": "conferencePaper",
+		"libraryID": 1,
+		"libraryName": "My Library",
+		"notes": [],
+		"title": "Distributed representations of words and phrases and their compositionality",
+		"year": "2013",
+		"zoteroURI": "zotero://select/library/items/EWW2LD5B"
+	},
+	"zotero": {
+		"citationKey": "mikolovDistributedRepresentationsWords2013",
+		"collections": [
+			"BPTAHI4D"
+		],
+		"creators": [
+			{
+				"creatorType": "author",
+				"firstName": "Tomas",
+				"lastName": "Mikolov"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Ilya",
+				"lastName": "Sutskever"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Kai",
+				"lastName": "Chen"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Greg",
+				"lastName": "Corrado"
+			},
+			{
+				"creatorType": "author",
+				"firstName": "Jeffrey",
+				"lastName": "Dean"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "C. J. C.",
+				"lastName": "Burges"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "L.",
+				"lastName": "Bottou"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "M.",
+				"lastName": "Welling"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "Z.",
+				"lastName": "Ghahramani"
+			},
+			{
+				"creatorType": "editor",
+				"firstName": "K. Q.",
+				"lastName": "Weinberger"
+			}
+		],
+		"date": "2013",
+		"dateAdded": "2025-04-10T15:02:46Z",
+		"dateModified": "2025-04-10T15:02:46Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"itemType": "conferencePaper",
+		"key": "EWW2LD5B",
+		"pages": "3111–3119",
+		"proceedingsTitle": "Advances in neural information processing systems 26 (NIPS 2013)",
+		"relations": {},
+		"tags": [
+			{
+				"tag": "notion"
+			},
+			{
+				"tag": "⛔ No DOI found",
+				"type": 1
+			}
+		],
+		"title": "Distributed representations of words and phrases and their compositionality",
+		"url": "https://papers.nips.cc/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html"
+	}
+}
