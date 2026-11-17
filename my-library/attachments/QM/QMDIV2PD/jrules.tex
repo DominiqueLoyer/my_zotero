@@ -1,0 +1,594 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fichier .tex Principal pour le Rapport de Projet RI
+% Style NAACL 2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper]{article}
+\usepackage{naacl2016} % Assurez-vous d'avoir ce fichier .sty
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[utf8]{inputenc} % Encodage UTF-8 pour les caractères français
+\usepackage[T1]{fontenc}    % Encodage des fontes
+\usepackage[french]{babel}  % Langue française (si nécessaire pour césures etc.)
+\usepackage{url}
+\usepackage{graphicx}       % Pour inclure des images/graphiques
+\usepackage{amsmath}        % Packages mathématiques
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}       % Pour de jolis tableaux (\toprule, \midrule, \bottomrule)
+\usepackage{multirow}       % Pour fusionner des cellules dans les tableaux
+\usepackage{natbib}         % Pour la bibliographie style auteur-date
+\usepackage{microtype}      % Améliore la typographie et les coupures de mots
+\usepackage{float}          % Pour mieux contrôler le placement des flottants si 
+\newcommand{\inlinecite}[1]{%
+  \{\citeauthor{#1},\, \citeyear{#1},\, \citetitle{#1}\}%
+}
+
+
+
+\naaclfinalcopy % À décommenter pour la version finale
+\usepackage{listings}
+
+% Définir le chemin vers le fichier .bib (si différent du dossier courant)
+% Assurez-vous que le fichier references.bib est dans le même dossier ou spécifiez le chemin
+% \bibliography{references}
+
+\title{Analyse d'un Système à Base de Règles pour la Gestion de Bornes Automatisées : Implémentation et Évaluation JRules} % Titre suggéré, adaptez si besoin
+
+% Mettez vos noms et affiliations ici
+\author{Dominique S. Loyer\\
+  Travail présenté le 30 avril 2025 \\
+  à Hakim Lounis, dans le cadre d'un \\
+  cours de doctorat, Modélisation des problèmes complexes, DIC-9251, à l'UQAM \\
+  loyer.dominique@courrier.uqam.ca \\}
+
+\date{today}
+\lstset{
+  language=Java,
+  basicstyle=\ttfamily\small,
+  numbers=left,
+  frame=single,
+  breaklines=true,
+}
+\sloppy
+\setlength\emergencystretch{3em}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Ce rapport fournit une évaluation technique d'un système basé sur des règles, créé avec JRules pour gérer les bornes automatiques d'un aéroport, conformément aux spécifications décrites dans le travail no.2. Le système simule des bornes de location de voitures et de paiement de stationnement, ainsi que les agents (techniciens et représentants) chargés de leur maintenance, ce qui inclut la résolution des bourrages papier et le réapprovisionnement en papier. L'analyse se concentre sur le modèle de classe, d'un exemple la base de règles JRules fournie \footnote{e.g.  The graphic shapes demo} et deux séries de cas de test pour valider le modèle. (voir Annexe) La méthodologie consiste à examiner le code, à simuler l'exécution des règles pour les cas de test et à comparer les résultats avec les exigences et les exemples fournis dans les spécifications. Les résultats montrent que la solution implémente avec précision la logique fondamentale des scénarios testés, notamment la priorisation des tâches de maintenance. Cependant, plusieurs limitations importantes sont constatées, principalement liées à la simplification excessive de la modélisation des agents et des erreurs, ainsi qu'à des problèmes de robustesse et d'évolutivité. Le rapport conclut en affirmant la validité de l’approche visant à démontrer les principes de base des systèmes basés sur des règles, tout en soulignant les améliorations nécessaires à la mise en œuvre dans le monde réel et en proposant des orientations pour les travaux futurs, telles que l’amélioration du modèle, l’intégration du système et l’utilisation des fonctionnalités avancées des systèmes de gestion des règles(BRMS).
+\end{abstract}
+
+\section{Introduction}
+
+La gestion efficace des points de service automatisés, tels que les bornes interactives dans les aéroports, est devenue un défi opérationnel majeur. Ces systèmes fournissent une gamme de services, notamment la location de voitures et le paiement du stationnement, et nécessitent une surveillance et une maintenance continues pour garantir une disponibilité optimale et une expérience utilisateur positive. Le projet « Job 2 » s'inscrit dans ce contexte, car il implique la conception et la modélisation d'un système de gestion pour ces bornes, utilisant le paradigme des systèmes à base de règles (RBS), notamment la technologie JRules, désormais intégrée à la suite IBM Operational Decision Manager (ODM).[1, 2]
+
+L'objectif principal est de modéliser le fonctionnement des bornes en prenant en compte leurs conditions critiques : les niveaux de papier (élevé, bas ou vide) et la survenue potentielle d'un bourrage papier. Deux types d'agents sont identifiés : les techniciens, chargés de résoudre les problèmes techniques et de débloquer les bourrages, et les représentants, chargés du réapprovisionnement en papier. Le système doit être capable de lancer les actions appropriées pour maintenir ou rétablir l'état opérationnel des bornes. Le principal défi réside dans la nécessité de réagir à des événements discrets (comme un changement d'état d'une borne) et de prendre des décisions basées sur des critères spécifiques (par exemple, en cas de bourrage, un technicien doit être envoyé ; en cas de faible niveau de papier, un représentant doit être appelé). Cet aspect dynamique et conditionnel justifie l'étude d'une approche basée sur des règles. Les règles basées sur l'état (SBR) sont particulièrement adaptées à la formalisation d'une logique explicite et à la réponse aux changements d'état dans un contexte opérationnel.[3, 4]
+
+Une solution JRules, comprenant un modèle de classes (`Borne`, `Agent`), une base de règles (`CorrigerBourrage`, `ReapprovisionnerPapierEpuise`, `ReapprovisionnerPapierBas`) et deux jeux de tests, a été proposée pour répondre à cette demande. Ce rapport a pour objectif d'évaluer de manière critique cette solution. Il s'agit d'analyser sa conformité aux exigences du "Travail 2", d'évaluer la pertinence et la correction du code JRules, d'examiner l'efficacité des règles et de leur priorisation, et de vérifier la couverture des scénarios par les jeux de tests fournis. L'analyse mettra en lumière les points forts de l'implémentation mais aussi ses limitations intrinsèques et celles liées aux choix de conception. Le choix d'une technologie comme JRules/ODM apporte des avantages en termes de transparence et d'explicabilité de la logique de décision, un atout majeur pour les systèmes opérationnels où la traçabilité des actions est souvent requise.[5, 6, 7] Contrairement aux approches basées sur l'apprentissage automatique qui excellent dans la détection de motifs complexes à partir de données, les SBR offrent une modélisation directe et compréhensible des politiques établies.[3, 8]
+
+Ce rapport est structuré comme suit : la section \ref{sec:etat_art} présente un état de l'art sur les systèmes à base de règles, leurs avantages, inconvénients, et la technologie JRules/ODM. La section \ref{sec:methodologie} détaille la méthodologie adoptée dans la solution fournie (modèle de classes, règles, tests). La section \ref{sec:resultats_limitations} analyse les résultats de l'exécution des tests et discute les forces et limitations de la solution. La section \ref{sec:perspective} propose des pistes d'amélioration et des travaux futurs. Enfin, la section \ref{sec:conclusion} synthétise les conclusions de l'évaluation.
+
+\section{État de l'art}
+\label{sec:etat_art}
+
+Pour évaluer la solution proposée, il est essentiel de la situer dans le contexte des systèmes à base de règles (SBR) et des technologies associées comme JRules/IBM ODM.
+
+\subsection{Systèmes à Base de Règles (SBR) et Systèmes Experts}
+
+Les SBR constituent une branche fondamentale de l'intelligence artificielle, conçue pour capturer et appliquer des connaissances afin de résoudre des problèmes ou de prendre des décisions.[5, 8] Ils opèrent sur un ensemble de règles prédéfinies, typiquement sous la forme "SI <condition> ALORS <action>" (IF-THEN).[7] Ces règles représentent la connaissance du domaine, souvent acquise auprès d'experts humains.[9, 10]
+
+Un SBR classique se compose de trois éléments principaux [3, 7, 8] :
+\begin{enumerate}
+    \item \textbf{La Base de Connaissances (Knowledge Base):} Contient la connaissance spécifique au domaine, principalement sous forme de règles (Base de Règles ou Rule Base) et parfois de faits initiaux.
+    \item \textbf{La Mémoire de Travail (Working Memory):} Stocke les faits spécifiques au problème courant, c'est-à-dire les données sur lesquelles les règles vont raisonner. Ces faits peuvent être les données d'entrée ou des faits déduits par le système.
+    \item \textbf{Le Moteur d'Inférence (Inference Engine):} C'est le "cerveau" du système. Il sélectionne les règles applicables en comparant les conditions des règles aux faits présents en mémoire de travail, choisit la règle à exécuter (selon une stratégie de résolution de conflits, souvent basée sur des priorités), et exécute l'action de la règle choisie. Ce cycle (comparaison, sélection, exécution) se répète jusqu'à ce qu'aucun fait nouveau ne puisse être déduit ou qu'un objectif soit atteint.
+\end{enumerate}
+
+Deux stratégies principales de raisonnement existent [5] :
+\begin{itemize}
+    \item \textbf{Le Chaînage Avant (Forward Chaining):} Part des faits initiaux et applique les règles pour déduire de nouveaux faits, jusqu'à atteindre un état final ou une conclusion. C'est une approche pilotée par les données, adaptée aux problèmes de surveillance, de diagnostic ou de configuration où l'on cherche à déterminer les conséquences d'une situation donnée. Le système de gestion de bornes semble opérer selon ce mode.
+    \item \textbf{Le Chaînage Arrière (Backward Chaining):} Part d'un but ou d'une hypothèse et cherche à vérifier si les faits et les règles permettent de le confirmer, en remontant la chaîne des déductions. C'est une approche pilotée par le but, souvent utilisée dans les systèmes de diagnostic où l'on cherche à expliquer un symptôme observé.
+\end{itemize}
+
+Les SBR sont souvent utilisés pour construire des systèmes experts, qui visent à émuler les capacités de raisonnement d'un expert humain dans un domaine spécifique.[5, 9]
+
+\subsection{Avantages des SBR}
+
+Les SBR offrent plusieurs avantages significatifs [3, 5, 6, 7] :
+\begin{itemize}
+    \item \textbf{Transparence et Explicabilité:} La logique de décision est encodée dans des règles explicites et souvent compréhensibles par des non-informaticiens (avec les outils adéquats), facilitant la validation, le débogage et la justification des décisions prises par le système.[3, 7]
+    \item \textbf{Consistance:} Les règles sont appliquées de manière uniforme et répétable, garantissant la cohérence des décisions pour des situations similaires.[5, 6]
+    \item \textbf{Modularité (théorique):} Les règles peuvent souvent être ajoutées, modifiées ou supprimées de manière indépendante, permettant une maintenance et une évolution plus aisées, surtout pour des systèmes de taille modeste.[3, 6] Les plateformes modernes permettent souvent aux experts de gérer directement certaines règles.[11, 12]
+    \item \textbf{Capture de Connaissances:} Ils permettent de formaliser et de préserver l'expertise humaine, souvent heuristique ou fragmentaire.[7, 8, 9]
+\end{itemize}
+Cette transparence est un atout majeur dans des domaines comme la gestion opérationnelle, où il est crucial de comprendre pourquoi une certaine action (comme l'envoi d'un technicien) a été déclenchée.
+
+\subsection{Inconvénients et Limitations des SBR}
+
+Malgré leurs atouts, les SBR présentent des limitations [5, 6, 9, 13] :
+\begin{itemize}
+    \item \textbf{Problèmes de Passage à l'Échelle (Scalability):} La gestion d'un grand nombre de règles (centaines ou milliers) devient complexe. Les interactions et dépendances entre règles peuvent être difficiles à prévoir, entraînant des conflits, des boucles infinies ou une dégradation des performances du moteur d'inférence.[5, 13] La maintenance devient ardue.[6, 13]
+    \item \textbf{Manque d'Adaptabilité et Rigidité:} Les SBR ne peuvent pas apprendre de l'expérience ou s'adapter automatiquement à des situations nouvelles ou imprévues non couvertes par les règles existantes. Ils gèrent difficilement l'ambiguïté ou l'incertitude si elles ne sont pas explicitement modélisées.[3, 6, 13] Contrairement aux systèmes d'apprentissage automatique, ils ne peuvent pas découvrir de nouveaux motifs dans les données.[3, 8]
+    \item \textbf{Goulot d'Étranglement de l'Acquisition des Connaissances:} Définir un ensemble de règles complet, précis et cohérent demande une expertise de domaine approfondie et un effort de formalisation considérable.[3, 8]
+    \item \textbf{Difficulté à Gérer la Complexité:} Pour les problèmes très complexes avec de nombreuses interactions subtiles, la modélisation par règles peut s'avérer insuffisante ou trop lourde.[5, 6]
+\end{itemize}
+La question du passage à l'échelle est particulièrement pertinente pour le problème des bornes. Si le nombre de bornes, de types d'erreurs ou d'agents augmentait significativement, la complexité de la base de règles pourrait rapidement dépasser ce qui est gérable avec une approche simple.
+
+\subsection{JRules et IBM Operational Decision Manager (ODM)}
+
+ILOG JRules était l'un des systèmes de gestion de règles (BRMS - Business Rule Management System) les plus reconnus sur le marché, acquis par IBM et intégré dans la suite IBM Operational Decision Manager (ODM).[1, 2] ODM est une plateforme complète pour le développement, le déploiement, l'exécution et la gestion de la logique décisionnelle.[1, 12, 14]
+
+Les fonctionnalités clés d'ODM incluent [1, 11, 12, 14, 15, 16, 17, 18] :
+\begin{itemize}
+    \item \textbf{Environnements d'Authoring:} Rule Designer (basé sur Eclipse, pour les développeurs) et Decision Center (interfaces web pour les experts et les analystes, permettant la gestion collaborative des règles).
+    \item \textbf{Serveur d'Exécution:} Rule Execution Server (RES) ou zRule Execution Server (zRES) pour les environnements mainframe, optimisés pour l'exécution performante des règles déployées comme des services de décision.
+    \item \textbf{Référentiel Centralisé (Decision Center):} Pour stocker, versionner, et gérer les règles et la logique décisionnelle.
+    \item \textbf{Gouvernance et Cycle de Vie:} Outils pour gérer les changements, les approbations, les déploiements et l'auditabilité des règles (Decision Governance Framework).
+    \item \textbf{Simulation et Test:} Fonctionnalités pour tester l'impact des modifications de règles avant leur mise en production.
+    \item \textbf{Intégration:} Capacités d'intégration avec d'autres systèmes, notamment les plateformes de gestion de processus (BPM) et les applications Java/.NET.[12, 19, 20]
+\end{itemize}
+L'évolution de JRules vers ODM montre une tendance vers des plateformes de décision plus intégrées, offrant non seulement un moteur de règles mais aussi des outils complets pour la gestion et la gouvernance du cycle de vie des décisions.[12, 15]
+
+\subsection{Applications des Moteurs de Règles}
+
+Les moteurs de règles sont utilisés dans une multitude de domaines pour automatiser les décisions et les processus [4, 5, 21, 22, 23, 24] :
+\begin{itemize}
+    \item \textbf{Services Financiers:} Évaluation de crédit, détection de fraude, conformité réglementaire.
+    \item \textbf{Assurance:} Souscription, tarification, gestion des sinistres.
+    \item \textbf{Santé:} Aide au diagnostic, vérification de protocoles, alertes cliniques.
+    \item \textbf{E-commerce:} Personnalisation, recommandations, gestion des promotions.
+    \item \textbf{Logistique et Transport:} Optimisation d'itinéraires, planification.
+    \item \textbf{Industrie et Maintenance:} Diagnostic de pannes, planification de maintenance préventive, contrôle qualité.[25]
+    \item \textbf{Automatisation des Processus (BPA/RPA):} Orchestration de workflows, validation de données, routage de tâches.[26, 27, 28]
+\end{itemize}
+Le problème de la gestion des bornes automatisées s'inscrit clairement dans le cadre de l'automatisation des processus opérationnels et de la maintenance assistée par règles.[4, 25]
+
+\section{Méthodologie de la Solution Proposée}
+\label{sec:methodologie}
+
+Cette section détaille l'approche adoptée dans la solution JRules fournie pour répondre aux exigences du "Travail 2". Elle se base sur l'analyse du code `.ilr` (modèle objet et règles) et des jeux de tests.
+
+\subsection{Modèle de Classes (Orienté Objet)}
+
+La solution définit un modèle objet simple pour représenter les entités clés du problème. En terminologie JRules/ODM, cela correspondrait à la base du Modèle Objet (BOM - Business Object Model), qui est souvent dérivé d'un Modèle Objet d'Exécution (XOM - eXecutable Object Model), ici implicitement défini par les classes Java.[19]
+
+\paragraph{Classe `Borne`:} Représente une borne automatisée. Ses attributs sont :
+\begin{itemize}
+    \item `type` (String): Identifie le type de borne ("LocationAuto" ou "Stationnement"). L'utilisation d'une chaîne de caractères est simple mais potentiellement source d'erreurs de saisie ou d'incohérences. Une énumération (Enum) Java serait plus robuste.
+    \item `niveauPapier` (String): Indique le niveau de papier ("Élevé", "Bas", "Aucun"). Les mêmes remarques sur la robustesse s'appliquent ici. Une énumération garantirait que seules les valeurs valides sont utilisées.
+    \item `bourrage` (boolean): Indique si un bourrage papier est présent (`true`) ou non (`false`). Ce type est approprié pour un état binaire.
+    \item `operationnelle` (boolean): Indique si la borne est en état de fonctionner (`true`) ou non (`false`). Cet attribut semble redondant ou du moins dérivable des autres états (une borne avec bourrage ou sans papier n'est pas opérationnelle), mais sa présence peut simplifier certaines logiques ou requêtes.
+\end{itemize}
+Ce modèle capture les informations essentielles sur l'état de la borne mentionnées dans l'énoncé.
+
+\paragraph{Classe `Agent`:} Représente un agent de maintenance. Son unique attribut est :
+\begin{itemize}
+    \item `type` (String): Définit le rôle de l'agent ("Technicien" ou "Représentant"). Encore une fois, une énumération serait préférable.
+\end{itemize}
+Ce modèle est très simplifié. Il ne capture pas l'état de l'agent (par exemple, 'disponible', 'occupé', 'en déplacement'), sa localisation, ses compétences spécifiques, ni son identifiant unique. L'hypothèse implicite est qu'il existe une réserve illimitée et toujours disponible d'agents de chaque type, ce qui est une simplification majeure par rapport à une situation réelle. La condition `exists(Agent(type == "..."))` dans les règles reflète cette abstraction : elle vérifie seulement la présence conceptuelle d'un type d'agent dans le système, sans modéliser l'assignation ou la disponibilité d'un individu spécifique.
+
+\subsection{Base de Règles}
+
+Trois règles JRules sont définies pour gérer les interventions sur les bornes. Elles utilisent la syntaxe IRL (ILOG Rule Language). Ces règles opèrent selon un mécanisme de chaînage avant [5], réagissant aux états des objets `Borne` présents en mémoire de travail.
+
+\paragraph{Règle `CorrigerBourrage`:}
+\begin{itemize}
+    \item \textbf{Objectif:} Résoudre un bourrage papier.
+    \item \textbf{Condition (`when`):} Se déclenche si une borne (`?b`) a son attribut `bourrage` à `true` ET s'il existe au moins un agent de type "Technicien" en mémoire de travail.
+    \item \textbf{Action (`then`):} Modifie la borne `?b` en mettant `bourrage` à `false`. Elle met également à jour l'attribut `operationnelle` en fonction du niveau de papier (`true` si `niveauPapier` n'est pas "Aucun", `false` sinon).
+    \item \textbf{Priorité:} 10 (la plus élevée).
+\end{itemize}
+Cette règle implémente la nécessité de traiter les bourrages en priorité, car ils rendent la borne inopérante. L'action met à jour l'état de la borne, ce qui peut ensuite permettre à d'autres règles (liées au papier) de s'appliquer.[3, 7]
+
+\paragraph{Règle `ReapprovisionnerPapierEpuise`:}
+\begin{itemize}
+    \item \textbf{Objectif:} Réapprovisionner une borne qui n'a plus de papier.
+    \item \textbf{Condition (`when`):} Se déclenche si une borne (`?b`) n'a pas de bourrage (`bourrage == false`) ET que son `niveauPapier` est "Aucun" ET s'il existe au moins un agent de type "Représentant".
+    \item \textbf{Action (`then`):} Modifie la borne `?b` en mettant `niveauPapier` à "Élevé" et `operationnelle` à `true`.
+    \item \textbf{Priorité:} 5 (intermédiaire).
+\end{itemize}
+Cette règle gère le cas critique où la borne est inopérante faute de papier. Sa priorité est inférieure à celle de la correction du bourrage, mais supérieure à celle du réapprovisionnement préventif.
+
+\paragraph{Règle `ReapprovisionnerPapierBas`:}
+\begin{itemize}
+    \item \textbf{Objectif:} Réapprovisionner une borne dont le niveau de papier est bas.
+    \item \textbf{Condition (`when`):} Se déclenche si une borne (`?b`) n'a pas de bourrage (`bourrage == false`) ET que son `niveauPapier` est "Bas" ET s'il existe au moins un agent de type "Représentant".
+    \item \textbf{Action (`then`):} Modifie la borne `?b` en mettant `niveauPapier` à "Élevé". L'état `operationnelle` n'est pas modifié car la borne était déjà fonctionnelle.
+    \item \textbf{Priorité:} 3 (la plus basse).
+\end{itemize}
+Cette règle correspond à une maintenance préventive pour éviter une interruption de service future. Sa faible priorité assure qu'elle ne s'exécute que si aucun problème plus urgent (bourrage, papier épuisé) n'est présent pour la même borne ou si les règles correspondantes ne peuvent s'activer (par exemple, absence de l'agent requis, bien que ce ne soit pas le cas ici avec la condition `exists`).
+
+L'utilisation explicite des priorités (`priority`) est un mécanisme standard des moteurs de règles pour gérer l'ordre d'exécution lorsque plusieurs règles sont activées simultanément.[3] La hiérarchie définie (10 > 5 > 3) correspond bien à la logique décrite dans "Travail 2" : résoudre les pannes bloquantes (bourrage) d'abord, puis les pannes non bloquantes mais critiques (papier épuisé), et enfin les actions préventives (papier bas).
+
+\subsection{Jeux de Test}
+
+Deux jeux de tests sont fournis sous forme d'instanciation d'objets `Borne` et `Agent` en syntaxe Java/JRules. Ils visent à simuler des états initiaux spécifiques du système pour vérifier le comportement des règles.
+
+\begin{itemize}
+    \item \textbf{Test 1:} Simule l'Exemple 1 de "Travail 2". Borne 1 (LocationAuto, Bas, Bourrage, Op=false), Borne 2 (Stationnement, Bas, Pas de Bourrage, Op=true), 1 Technicien, 1 Représentant.
+    \item \textbf{Test 2:} Simule l'Exemple 2 de "Travail 2". Borne 1 (LocationAuto, Bas, Bourrage, Op=false), Borne 2 (Stationnement, Aucun papier, Pas de Bourrage, Op=false), 1 Technicien, 1 Représentant.
+\end{itemize}
+Ces tests permettent de vérifier si les règles se déclenchent correctement et dans le bon ordre (selon les priorités) pour atteindre un état final attendu.
+
+\subsection{Approche Globale et Traçabilité}
+
+La solution adopte une approche directe, traduisant les exigences fonctionnelles en classes et règles JRules. Elle utilise les mécanismes fondamentaux des SBR (objets en mémoire de travail, règles conditionnelles, modification d'état, priorités) pour modéliser le comportement souhaité. Le tableau \ref{tab:mapping} résume la correspondance entre les exigences principales et les éléments de la solution.
+
+\begin{table*}[ht]
+  \centering
+  \caption{Tableau de correspondance entre les exigences de "Travail 2" et l’implémentation JRules.}
+  \label{tab:mapping}
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}lll@{}}
+      \toprule
+      \textbf{Exigence} & \textbf{Implémenté par} & \textbf{Détails} \\
+      \midrule
+      Modéliser 2 types de bornes 
+        & `Borne.type` (String) 
+        & Valeurs “LocationAuto”, “Stationnement”. \\
+      Gérer états papier (fini, bas, élevé) 
+        & `Borne.niveauPapier` (String) 
+        & Valeurs “Aucun”, “Bas”, “Élevé”. \\
+      Gérer bourrage papier 
+        & `Borne.bourrage` (boolean)  
+        & `true` si bourrage, `false` sinon. \\
+      Déterminer état opérationnel 
+        & `Borne.operationnelle` (boolean) 
+        & Mis à jour par les règles (dépend de `bourrage` et `niveauPapier`). \\
+      Modéliser 2 types d’agents 
+        & `Agent.type` (String) 
+        & Valeurs “Technicien”, “Représentant”. \\
+      Technicien résout bourrage 
+        & Règle `CorrigerBourrage` 
+        & Condition : `bourrage == true`, `exists(Technicien)`. Action : `bourrage = false`. \\
+      Représentant ajoute papier (si fini) 
+        & Règle `ReapprovisionnerPapierEpuise` 
+        & Condition : `niveauPapier == "Aucun"`, `bourrage == false`, `exists(Représentant)`. Action : `niveauPapier = "Élevé"`. \\
+      Représentant ajoute papier (si bas) 
+        & Règle `ReapprovisionnerPapierBas` 
+        & Condition : `niveauPapier == "Bas"`, `bourrage == false`, `exists(Représentant)`. Action : `niveauPapier = "Élevé"`. \\
+      Prioriser les interventions 
+        & Attribut `priority` des règles 
+        & `CorrigerBourrage` (10) > `ReapprovisionnerPapierEpuise` (5) > `ReapprovisionnerPapierBas` (3). \\
+      Fournir jeux de test (au moins 2) 
+        & Fichiers de test `.ilr` 
+        & Instanciation d’objets pour 2 scénarios distincts. \\
+      \bottomrule
+    \end{tabular}%
+  }
+\end{table*}
+
+
+Cette approche démontre une compréhension des concepts de base de la modélisation par règles pour résoudre le problème posé.
+
+\section{Résultats et Limitations}
+\label{sec:resultats_limitations}
+
+L'évaluation de la solution JRules proposée repose sur l'analyse de l'exécution des règles pour les jeux de tests fournis et l'identification des limitations par rapport aux exigences et à une potentielle application réelle.
+
+\subsection{Analyse de l'Exécution des Règles (Cas de Test)}
+
+Le comportement du système a été simulé mentalement en appliquant le cycle du moteur d'inférence (évaluation des conditions, sélection basée sur la priorité, exécution de l'action) pour chaque cas de test.
+
+\paragraph{Cas de Test 1:}
+\begin{itemize}
+    \item \textbf{État Initial:} B1(Loc, Bas, Jam, Op=F), B2(Stat, Bas, NoJam, Op=T), Ag1(Tech), Ag2(Rep).
+    \item \textbf{Cycle 1:}
+        \begin{itemize}
+            \item Règles candidates: `CorrigerBourrage` (pour B1, prio 10), `ReapprovisionnerPapierBas` (pour B2, prio 3).
+            \item Sélection: `CorrigerBourrage` (pour B1) car priorité la plus haute.
+            \item Action: `modify B1 { bourrage = false; operationnelle = (niveauPapier!= "Aucun") -> true; }`.
+            \item Nouvel état (partiel): B1(Loc, Bas, NoJam, Op=T).
+        \end{itemize}
+    \item \textbf{Cycle 2:}
+        \begin{itemize}
+            \item Règles candidates: `ReapprovisionnerPapierBas` (pour B1, prio 3), `ReapprovisionnerPapierBas` (pour B2, prio 3).
+            \item Sélection: Indéterminée par la priorité seule. Supposons que le moteur choisisse B1.
+            \item Action: `modify B1 { niveauPapier = "Élevé"; }`.
+            \item Nouvel état (partiel): B1(Loc, Élevé, NoJam, Op=T).
+        \end{itemize}
+    \item \textbf{Cycle 3:}
+        \begin{itemize}
+            \item Règles candidates: `ReapprovisionnerPapierBas` (pour B2, prio 3).
+            \item Sélection: `ReapprovisionnerPapierBas` (pour B2).
+            \item Action: `modify B2 { niveauPapier = "Élevé"; }`.
+            \item Nouvel état (partiel): B2(Stat, Élevé, NoJam, Op=T).
+        \end{itemize}
+    \item \textbf{État Final:} B1(Loc, Élevé, NoJam, Op=T), B2(Stat, Élevé, NoJam, Op=T).
+    \item \textbf{Comparaison avec "Solution" Exemple 1:} L'état final est cohérent (les deux bornes sont opérationnelles et réapprovisionnées). Cependant, la séquence d'exécution simulée par les règles diffère de la narration de l'exemple ("Technicien enlève bourrage B1", "B1 devient dispo", "Représentant ajoute papier B1", "Représentant ajoute papier B2"). Les règles modélisent les transitions d'état nécessaires, mais pas le flux de travail séquentiel des agents tel que décrit narrativement.
+\end{itemize}
+
+\paragraph{Cas de Test 2:}
+\begin{itemize}
+    \item \textbf{État Initial:} B1(Loc, Bas, Jam, Op=F), B2(Stat, Aucun, NoJam, Op=F), Ag1(Tech), Ag2(Rep).
+    \item \textbf{Cycle 1:}
+        \begin{itemize}
+            \item Règles candidates: `CorrigerBourrage` (pour B1, prio 10), `ReapprovisionnerPapierEpuise` (pour B2, prio 5).
+            \item Sélection: `CorrigerBourrage` (pour B1).
+            \item Action: `modify B1 { bourrage = false; operationnelle = (niveauPapier!= "Aucun") -> true; }`.
+            \item Nouvel état (partiel): B1(Loc, Bas, NoJam, Op=T).
+        \end{itemize}
+    \item \textbf{Cycle 2:}
+        \begin{itemize}
+            \item Règles candidates: `ReapprovisionnerPapierEpuise` (pour B2, prio 5), `ReapprovisionnerPapierBas` (pour B1, prio 3).
+            \item Sélection: `ReapprovisionnerPapierEpuise` (pour B2).
+            \item Action: `modify B2 { niveauPapier = "Élevé"; operationnelle = true; }`.
+            \item Nouvel état (partiel): B2(Stat, Élevé, NoJam, Op=T).
+        \end{itemize}
+    \item \textbf{Cycle 3:}
+        \begin{itemize}
+            \item Règles candidates: `ReapprovisionnerPapierBas` (pour B1, prio 3).
+            \item Sélection: `ReapprovisionnerPapierBas` (pour B1).
+            \item Action: `modify B1 { niveauPapier = "Élevé"; }`.
+            \item Nouvel état (partiel): B1(Loc, Élevé, NoJam, Op=T).
+        \end{itemize}
+    \item \textbf{État Final:} B1(Loc, Élevé, NoJam, Op=T), B2(Stat, Élevé, NoJam, Op=T).
+    \item \textbf{Comparaison avec "Solution" Exemple 2:} L'état final est à nouveau cohérent. La séquence d'exécution (Bourrage B1 -> Papier B2 -> Papier B1) est logiquement correcte selon les priorités, mais diffère de la narration de l'exemple ("Technicien enlève bourrage B1", "B1 devient dispo", "Représentant ajoute papier B1", "Représentant ajoute papier B2", "B2 devient dispo").
+\end{itemize}
+
+Ces analyses montrent que les règles fonctionnent correctement pour atteindre l'état final souhaité dans les scénarios testés, et que les priorités sont respectées. L'écart observé entre la trace d'exécution des règles et la narration des "Solutions" dans les exemples illustre une distinction importante : les règles modélisent les conditions de changement d'état et les priorités logiques entre actions, mais pas nécessairement le déroulement temporel ou l'allocation des ressources d'un processus réel impliquant des agents physiques.
+
+\subsection{Évaluation de la Correction et de la Complétude}
+
+La solution implémente correctement la logique de base spécifiée :
+\begin{itemize}
+    \item La gestion des états (bourrage, niveau papier) et leur impact sur l'opérabilité sont modélisés.
+    \item Les interventions des agents appropriés sont déclenchées par les règles correspondantes.
+    \item La priorisation demandée (bourrage > papier épuisé > papier bas) est effectivement mise en œuvre via l'attribut `priority`.
+\end{itemize}
+En ce sens, la solution répond aux exigences fondamentales du "Travail 2" pour les aspects couverts. Cependant, elle présente plusieurs simplifications et limitations qui la rendent incomplète par rapport à un système opérationnel réaliste.
+
+\subsection{Limitations Identifiées}
+
+Plusieurs limitations ressortent de l'analyse de la solution et des principes généraux des SBR.
+
+\begin{table*}[ht]
+\centering
+\caption{Analyse de l'exécution des cas de test.}
+\label{tab:test_analysis}
+\resizebox{\textwidth}{!}{% Resize table to fit within text width
+\begin{tabular}{@{}llllll@{}}
+\toprule
+\textbf{Cas} & \textbf{État Initial (Simplifié)} & \textbf{Séquence Attendue (Narratif)} & \textbf{Séquence Règles (Trace)} & \textbf{État Final (Atteint)} & \textbf{Conformité} \\
+\midrule
+Test 1 & B1(Jam), B2(Low) & Tech fixe B1; Rep remplit B1; Rep remplit B2 & CorrigerBourrage(B1); ReappPapierBas(B1); ReappPapierBas(B2) & B1(OK), B2(OK) & Partielle (État final OK, séquence diffère) \\
+Test 2 & B1(Jam), B2(None) & Tech fixe B1; Rep remplit B1; Rep remplit B2 & CorrigerBourrage(B1); ReappPapierEpuise(B2); ReappPapierBas(B1) & B1(OK), B2(OK) & Partielle (État final OK, séquence diffère) \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+
+\begin{table*}[ht]
+\centering
+\caption{Résumé des limitations identifiées de la solution JRules.}
+\label{tab:limitations}
+\resizebox{\textwidth}{!}{% Resize table to fit within text width
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Catégorie} & \textbf{Description} & \textbf{Impact Potentiel} & \textbf{Faiblesse SBR Associée} \\
+\midrule
+Modélisation Agent & Pas d'état (dispo/occupé), pas d'assignation, pas de localisation. & Irréalisme, incapacité à gérer ressources limitées. & Difficulté à modéliser états complexes/dynamiques. \\
+Granularité Erreurs & Seul le bourrage est géré. & Non applicable à d'autres pannes (réseau, imprimante...). & Nécessité d'ajouter de nombreuses règles spécifiques. \\
+Robustesse Données & Utilisation de Strings pour états (`niveauPapier`, `type`). & Fragilité aux erreurs de saisie, variations. & Dépendance à une correspondance exacte des conditions. \\
+Passage à l'échelle & Modèle simple, peu de règles. & Gestion complexe si N bornes/règles augmente. Performance? & Complexité de gestion des bases de règles étendues.[5, 13] \\
+Concurrence/Ressources & `exists` ne gère pas l'allocation d'agents uniques. & Comportement imprévisible/irréaliste avec plusieurs agents/tâches. & Gestion implicite de la concurrence. \\
+Apprentissage/Adaptation & Logique fixe, pas d'apprentissage. & Incapacité à optimiser ou s'adapter à de nouveaux motifs. & Manque intrinsèque de capacité d'apprentissage.[6, 13] \\
+Modélisation Actions & Actions supposées instantanées et réussies. & Irréalisme, pas de gestion des échecs ou durées. & Rigidité face à l'incertitude/variabilité.[5, 6] \\
+Historique/Audit & Pas de journalisation des actions effectuées. & Manque de traçabilité pour analyse/audit. & Fonctionnalité non incluse dans le modèle de base. \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+
+Les limitations principales sont détaillées ci-dessous et résumées dans le tableau \ref{tab:limitations}.
+
+\begin{itemize}
+    \item \textbf{Modélisation Simpliste des Agents:} Comme mentionné, l'absence d'état individuel pour les agents empêche une simulation réaliste de l'allocation des ressources. Le système ne peut pas savoir si un technicien est déjà occupé ou lequel est le plus proche.
+    \item \textbf{Gestion Limitée des Erreurs:} Le système ne gère qu'un seul type de problème technique (bourrage). Un système réel devrait traiter une gamme plus large d'erreurs (pannes matérielles, logicielles, réseau, etc.), ce qui nécessiterait d'étendre considérablement le modèle objet et la base de règles.
+    \item \textbf{Manque de Robustesse (Brittleness):} L'utilisation de chaînes de caractères littérales ("Bas", "Aucun", "Élevé") pour les états rend les conditions des règles sensibles à la casse et aux variations orthographiques. Une faute de frappe dans les données d'entrée ou une nouvelle désignation d'état non prévue empêcherait les règles correspondantes de se déclencher, sans mécanisme d'erreur explicite. L'utilisation d'énumérations ou de types plus structurés améliorerait grandement la robustesse.[19]
+    \item \textbf{Problèmes Potentiels de Passage à l'Échelle:} Bien que fonctionnelle pour deux bornes et trois règles, l'approche pourrait devenir difficile à gérer avec des centaines de bornes et potentiellement des dizaines ou centaines de règles couvrant divers scénarios. La maintenance et la vérification de la cohérence de la base de règles deviendraient complexes.[8, 13] Les performances pourraient également se dégrader.[13]
+    \item \textbf{Gestion de la Concurrence et des Ressources:} Les règles actuelles ne modélisent pas l'assignation exclusive d'un agent à une tâche. Si plusieurs bornes nécessitent le même type d'agent et qu'un seul est disponible, le modèle ne décrit pas comment cette contention est résolue.
+    \item \textbf{Absence d'Adaptation Dynamique:} Le système suit strictement les règles prédéfinies. Il ne peut pas apprendre des pannes passées pour anticiper des problèmes futurs ou optimiser les stratégies de maintenance en fonction de l'historique.[3, 6]
+    \item \textbf{Hypothèses Implicites sur les Actions:} Les actions des règles (`modify`) sont considérées comme instantanées et toujours réussies. Le temps nécessaire pour qu'un agent intervienne et la possibilité d'un échec de l'intervention ne sont pas modélisés, ce qui limite le réalisme de la simulation.[5]
+    \item \textbf{Manque de Traçabilité des Actions:} La solution ne prévoit pas de mécanisme pour enregistrer quelle règle s'est déclenchée, quand, et potentiellement par quel agent (si le modèle était plus détaillé). Cette journalisation est cruciale pour l'audit, le suivi des performances et le débogage dans un système opérationnel.[7]
+\end{itemize}
+
+En résumé, la solution démontre une application correcte des principes de base de JRules pour le problème défini, mais elle reste une modélisation idéalisée qui nécessiterait des enrichissements substantiels pour faire face à la complexité du monde réel.
+
+\section{Perspective et Travaux Futurs}
+\label{sec:perspective}
+
+En se basant sur les limitations identifiées, plusieurs pistes d'amélioration et d'extension peuvent être envisagées pour faire évoluer la solution vers un système plus robuste, réaliste et complet.
+
+\subsection{Enrichissement du Modèle Orienté Objet}
+
+Une première étape consisterait à affiner le modèle de classes pour mieux représenter la réalité opérationnelle :
+\begin{itemize}
+  \item \textbf{Modélisation des Tâches/Interventions :}
+    Introduire une classe \texttt{Tache} ou \texttt{Intervention}
+    pour représenter une demande de maintenance spécifique
+    (par exemple, \texttt{“Corriger bourrage sur Borne B123”}).
+    Cette tâche aurait un état
+    (\texttt{PENDING}, \texttt{ASSIGNED}, \texttt{IN\_PROGRESS},
+    \texttt{COMPLETED}, \texttt{FAILED}), serait assignée à un agent
+    spécifique et pourrait avoir une durée estimée et réelle.
+  \item \textbf{Modélisation des Actions :}
+    Représenter les actions de maintenance
+    (\emph{corriger bourrage}, \emph{réapprovisionner}) comme des
+    entités pouvant avoir une durée et un résultat (succès/échec).
+\end{itemize}
+
+
+\subsection{Développement de Règles Plus Sophistiquées}
+
+Avec un modèle objet enrichi, des règles plus complexes et réalistes pourraient être développées :
+\begin{itemize}
+    \item \textbf{Règles d'Assignation d'Agents:} Au lieu de simplement vérifier l'`exists`, des règles pourraient sélectionner et assigner l'agent le plus approprié (par exemple, l'agent `IDLE` le plus proche de la borne en panne, possédant les compétences requises).
+    \item \textbf{Règles de Gestion des Échecs:} Définir des règles pour gérer les cas où une intervention échoue (par exemple, si `Tache.etat == FAILED`, créer une nouvelle tâche d'escalade ou assigner un agent plus expérimenté).
+    \item \textbf{Règles Temporelles:} Intégrer des notions de temps, par exemple, pour déclencher des alertes si une tâche dépasse une durée maximale prévue, ou pour planifier des maintenances préventives basées sur des seuils de temps ou d'utilisation.
+    \item \textbf{Gestion Étendue des Erreurs:} Ajouter des règles pour diagnostiquer et déclencher des interventions pour d'autres types de pannes (en ajoutant les attributs correspondants à la classe `Borne`).
+\end{itemize}
+
+\subsection{Intégration avec d'Autres Systèmes}
+
+Un système de gestion de bornes ne fonctionne généralement pas en isolation. Des intégrations seraient nécessaires pour une solution complète :
+\begin{itemize}
+    \item \textbf{Système d'Inventaire:} Connexion à un système de gestion des stocks pour vérifier la disponibilité des consommables (rouleaux de papier) avant d'envoyer un représentant.
+    \item \textbf{Système de Gestion des Interventions / Workflow (BPM):} L'intégration avec un moteur de workflow ou une plateforme BPM permettrait de gérer le cycle de vie complet des tâches de maintenance (création, assignation, suivi, clôture), l'orchestration pouvant être déclenchée par le moteur de règles.[4, 12, 20] Cela permettrait de passer d'une simple modification d'état à une véritable automatisation de processus.
+    \item \textbf{Tableaux de Bord et Monitoring:} Exposer les données d'état des bornes et les indicateurs de performance (temps moyen de résolution, taux de disponibilité) à des outils de supervision.[11, 17]
+\end{itemize}
+
+\subsection{Exploitation des Fonctionnalités Avancées des BRMS}
+
+L'utilisation d'une plateforme BRMS complète comme IBM ODM offrirait des capacités allant au-delà du simple moteur de règles :
+\begin{itemize}
+    \item \textbf{Gestion Collaborative des Règles (Decision Center):} Permettre aux experts de visualiser, modifier et valider les règles via une interface web, réduisant la dépendance vis-à-vis des équipes IT.[12, 15]
+    \item \textbf{Simulation et Test:} Utiliser les outils de simulation pour évaluer l'impact de nouvelles règles ou de modifications de priorités sur le comportement global du système (par exemple, sur le taux de disponibilité moyen des bornes) avant le déploiement en production.[11, 17] Cette capacité de tester des scénarios "what-if" est cruciale pour éviter des conséquences imprévues dans un système opérationnel.
+    \item \textbf{Gouvernance des Décisions:} Mettre en place des processus de validation, de déploiement et d'audit pour les règles, assurant la traçabilité et la conformité.[12, 15]
+\end{itemize}
+
+\subsection{Approches Hybrides (À base de règles+ AI)}\footnote{Tel que proposé et présenté par \citep{loyerProjet1Modelisation2025}}
+
+Pour des aspects prédictifs, une approche hybride pourrait être envisagée. Tandis que les SBR gèrent les réponses déterministes aux états actuels, des modèles d'apprentissage automatique (ML) pourraient être entraînés sur des données historiques pour :
+\begin{itemize}
+    \item \textbf{Prédire les Pannes:} Anticiper les bourrages ou l'épuisement du papier en fonction des schémas d'utilisation, permettant une maintenance prédictive.
+    \item \textbf{Optimiser l'Affectation:} Suggérer des affectations d'agents optimales basées sur des prévisions de charge de travail ou des temps de trajet estimés.
+\end{itemize}
+Le SBR resterait maître de la décision finale, éventuellement en intégrant les prédictions du ML comme des faits supplémentaires dans sa mémoire de travail.[3, 8, 16] L'analyse de données historiques pourrait également servir à affiner les seuils et les logiques des règles existantes par les experts humains, améliorant ainsi la base de connaissances sans sacrifier la transparence du SBR.
+
+Ces perspectives montrent comment la solution initiale, bien que simple, pourrait servir de fondation à un système de gestion de bornes beaucoup plus sophistiqué et adapté aux exigences d'un environnement aéroportuaire complexe.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+L'évaluation de la solution JRules proposée pour la gestion des bornes automatisées, telle que décrite dans le travail 2, démontre une implémentation qui aborde efficacement les éléments clés du problème en utilisant les principes fondamentaux des systèmes à base de règles. Le modèle de classe, bien que simple, représente avec précision les entités essentielles (bornes et agents) ainsi que leurs états respectifs (type, niveau de papier, bourrage et opérabilité). Les règles JRules établies transmettent efficacement la logique définie pour les interventions de maintenance, notamment l'ordre de priorité pour la résolution des bourrages, le réapprovisionnement en cas de rupture de papier et le réapprovisionnement préventif en cas de faible niveau de papier. Les cas de test fournis permettent de vérifier que les règles fonctionnent comme prévu pour les scénarios illustrés dans les exemples, ce qui permet d'obtenir les états finaux attendus.
+
+L'analyse révèle des limitations importantes qui entravent l'applicabilité de la solution dans des scénarios réels. L'un des principaux défauts réside dans la simplification excessive du modèle, notamment l'absence d'états et de gestion individuelle des agents, ce qui nuit à la représentation réaliste d'une allocation de ressources limitée. De plus, la gestion des erreurs se limite aux situations de bourrage papier, et la robustesse du système est compromise par le recours à des comparaisons de chaînes littérales pour les états. D'autres limitations notables concernent les défis liés à l'évolutivité, à la gestion de la concurrence et à l'absence de modélisation de la durée ou de l'échec des actions. Enfin, l'incohérence observée entre la séquence d'exécution des règles et la description du processus dans les exemples souligne que la solution se concentre sur les transitions d'état logiques plutôt que sur la progression temporelle d'un processus impliquant des agents physiques.
+
+Pour dépasser ces limitations, plusieurs axes d'amélioration ont été proposés. L'enrichissement du modèle objet pour inclure des détails sur l'état et la localisation des agents et des bornes, ainsi que la modélisation explicite des tâches et des actions, est une première étape essentielle. Le développement de règles plus sophistiquées pour l'assignation des agents, la gestion des échecs et l'intégration de contraintes temporelles permettrait d'accroître le réalisme. L'intégration avec d'autres systèmes (inventaire, BPM) et l'exploitation des fonctionnalités avancées des plateformes BRMS modernes (simulation, gouvernance, gestion collaborative) transformeraient la solution en un outil opérationnel plus puissant. Enfin, des approches hybrides combinant la logique déterministe des règles avec les capacités prédictives de l'apprentissage automatique pourraient être explorées pour optimiser davantage la maintenance.
+
+En conclusion, la solution JRules fournie constitue une réponse correcte et pédagogiquement valable aux exigences de base du "Travail 2". Elle démontre une compréhension des principes fondamentaux de la modélisation par règles et de l'utilisation des priorités pour contrôler le flux d'exécution. Néanmoins, elle représente une abstraction significative de la réalité et nécessiterait des développements substantiels, tels que ceux esquissés dans les travaux futurs, pour devenir une application robuste et déployable dans un environnement opérationnel complexe comme celui d'un aéroport.
+\clearpage
+\nocite{*}
+\bibliographystyle{acl}
+\bibliography{referencesVF}
+\tableofcontents
+\clearpage
+\tiny
+\section{Annexes (Le Code JAVA $+$ règles .ilr)}
+\begin{lstlisting}[language=JAVA,basicstyle=\ttfamily\small,frame=single]
+// Les regles en JAVA (desole pour les accents aigus et graves manquants)
+// Je sais comment le corriger en LATEX et en Python mais pas en JAVA (-_0)
+//
+class Borne {
+    String type;               // "LocationAuto" ou "Stationnement"
+    String niveauPapier;       // "Eleve", "Bas", "Aucun"
+    boolean bourrage;          // true/false
+    boolean operationnelle;    // true/false
+}
+
+class Agent {
+    String type;               // "Technicien" ou "Representant"
+}
+
+// Regles de gestion des bornes automatisees
+rule CorrigerBourrage {
+    priority = 10;
+    when {
+        ?b: Borne(bourrage == true);
+        exists(Agent(type == "Technicien"));
+    }
+    then {
+        modify ?b {
+            bourrage = false;
+            operationnelle = (niveauPapier != "Aucun");
+        };
+    }
+}
+
+\end{lstlisting}
+\vspace{17.7em}
+\begin{lstlisting}[language=JAVA,basicstyle=\ttfamily\small,frame=single]
+// Code JAVA suite...
+//
+rule ReapprovisionnerPapierEpuise {
+    priority = 5;
+    when {
+        ?b: Borne(bourrage == false, niveauPapier == "Aucun");
+        exists(Agent(type == "Representant"));
+    }
+    then {
+        modify ?b {
+            niveauPapier = "Eleve";
+            operationnelle = true;
+        };
+    }
+}
+
+rule ReapprovisionnerPapierBas {
+    priority = 3;
+    when {
+        ?b: Borne(bourrage == false, niveauPapier == "Bas");
+        exists(Agent(type == "Representant"));
+    }
+    then {
+        modify ?b {
+            niveauPapier = "Eleve";
+        };
+    }
+}
+\end{lstlisting}
+\clearpage
+\begin{lstlisting}[language=ILR,basicstyle=\ttfamily\small,frame=single]
+// TEST NUMERO 1 DE LA BORNE 1 
+//
+Borne Borne1 = new Borne();
+Borne1.type = "LocationAuto";
+Borne1.niveauPapier = "Bas";
+Borne1.bourrage = true;
+Borne1.operationnelle = false;
+
+Borne Borne2 = new Borne();
+Borne2.type = "Stationnement";
+Borne2.niveauPapier = "Bas";
+Borne2.bourrage = false;
+Borne2.operationnelle = true;
+
+// Agents
+Agent Agent1 = new Agent();
+Agent1.type = "Technicien";
+
+Agent Agent2 = new Agent();
+Agent2.type = "Representant";
+\end{lstlisting}
+
+\vspace{70em}
+\begin{lstlisting}[language=ILR,basicstyle=\ttfamily\small,frame=single]
+//  TEST NUMERO 2 DE LA BORNE 2
+//
+Borne Borne1 = new Borne();
+Borne1.type = "LocationAuto";
+Borne1.niveauPapier = "Bas";
+Borne1.bourrage = true;
+Borne1.operationnelle = false;
+
+Borne Borne2 = new Borne();
+Borne2.type = "Stationnement";
+Borne2.niveauPapier = "Aucun";
+Borne2.bourrage = false;
+Borne2.operationnelle = false;
+
+// Agents
+Agent Agent1 = new Agent();
+Agent1.type = "Technicien";
+
+Agent Agent2 = new Agent();
+Agent2.type = "Representant";
+\end{lstlisting}
+\texttt{Résultat attendu du test 2 :Borne1 : bourrage=false, niveauPapier=Élevé, operationnelle=true et Borne2 : niveauPapier=Élevé, operationnelle=true --
+----------------------  Résultat attendu du test 1 : Borne1 : bourrage=false, niveauPapier=Élevé, operationnelle=true et Borne2 : niveauPapier=Élevé}
+
+\end{document}

@@ -1,0 +1,98 @@
+L’apprentissage automatique (Machine Learning, ML) a connu une progression fulgu-
+rante, menant `a des mod`eles d’une performance remarquable, souvent sup´erieure `a celle
+de l’humain dans des tˆaches sp´ecifiques. Les r´eseaux de neurones profonds (Deep Neural
+Networks, DNN), en particulier, ont r´evolutionn´e des domaines comme la vision par or-
+dinateur, le traitement du langage naturel et la reconnaissance vocale. Cependant, cette
+performance s’accompagne d’un coˆut significatif : une complexit´e interne croissante qui
+rend leurs m´ecanismes de d´ecision extrˆemement difficiles, voire impossibles, `a comprendre
+pour un observateur humain. Ces mod`eles sont fr´equemment qualifi´es de ”boˆıtes noires”
+(black boxes), des syst`emes dont les rouages internes, qui transforment une entr´ee en une
+sortie, sont opaques et inaccessibles `a l’analyse directe [1, 2].
+
+
+Cette opacit´e, bien que tol´erable dans des applications `a faible enjeu comme la recom-
+mandation de publicit´es en ligne, devient une pr´eoccupation majeure lorsque ces syst`emes
+sont d´eploy´es dans des domaines sensibles o`u les d´ecisions ont des cons´equences financi`eres,
+l´egales, ou vitales. Des secteurs comme la sant´e, la finance, la justice p´enale ou les v´ehicules
+autonomes exigent un niveau ´elev´e de confiance, de responsabilit´e et de transparence [1, 2].
+
+C’est dans ce contexte qu’a ´emerg´e le domaine de l’Intelligence Artificielle Explicable
+(Explainable AI, XAI). L’objectif de l’XAI n’est pas de sacrifier la performance au profit de
+la simplicit´e, mais de d´evelopper des m´ethodes et des techniques permettant de rendre les
+d´ecisions des mod`eles complexes plus transparentes, compr´ehensibles et justifiables pour
+les humains [1]. La demande pour l’XAI n’est donc pas une simple curiosit´e acad´emique ;
+elle est une cons´equence directe du succ`es et de l’int´egration croissante de l’IA dans des
+syst`emes socio-techniques critiques. Plus l’impact et l’autonomie de l’IA augmentent, plus
+son opacit´e devient intol´erable. Le probl`eme n’est pas tant que le mod`ele est une boˆıte
+noire, mais que la soci´et´e, `a juste titre, lui demande des comptes pour des d´ecisions qui,
+par nature, exigent une justification.
+
+
+Confiance et Adoption : Les utilisateurs, en parti-
+culier dans les domaines critiques, hésitent à faire
+confiance à des décisions qu’ils ne comprennent pas.
+— Débogage et Amélioration : Sans compréhension
+du fonctionnement interne, il est difficile d’identifier
+et de corriger les erreurs du modèle.
+— Équité et Biais : Les modèles peuvent apprendre
+et perpétuer des biais présents dans les données,
+conduisant à des décisions discriminatoires. L’inter-
+prétabilité est essentielle pour détecter et atténuer ces
+biais.
+— Responsabilité et Réglementation : En cas d’er-
+reur du modèle ayant des conséquences graves, il est
+crucial de pouvoir déterminer la responsabilité. Des
+réglementations comme le RGPD en Europe intro-
+duisent un "droit à l’explication".
+
+ Découverte Scientifique : Dans des domaines
+comme la biologie ou la médecine, l’interprétabilité
+peut aider à découvrir de nouvelles connaissances à
+partir des patterns identifiés par le modèle.
+La "découverte" dans ce contexte se réfère à la prise de
+conscience progressive de ces enjeux et à l’émergence de
+l’interprétabilité (ou XAI - Explainable Artificial Intelli-
+gence) comme un champ de recherche majeur.
+
+
+analyse les principales méthodes d’interprétabilité,
+leur fonctionnement, leurs applications, forces et limita-
+tions, en s’appuyant notamment sur les travaux de Doran
+et al. (2017) et Burkart Huber (2021). La seconde par-
+tie introduit les systèmes de recommandation, leurs tech-
+niques fondamentales, et propose une comparaison dé-
+taillée de deux approches majeures, en se référant aux sur-
+veys comme celui de Ko et al. et aux avancées en filtrage
+collaboratif décrites par Koren Bell.
+
+
+Doran et al. (2017) proposent une conceptualisation de
+l’explicabilité en IA qui distingue différentes perspectives.
+Ils soulignent que ce qui constitue une "bonne" explication
+peut varier considérablement en fonction de l’audience
+(par exemple, un développeur de modèles vs un utilisateur
+final non expert) et du but de l’explication. Ils identifient
+des facettes telles que la transparence du modèle, la justi-
+fication post-hoc, et la simulation du raisonnement.
+Burkart and Huber (2021) offrent un survey complet sur
+l’explicabilité des modèles d’apprentissage supervisé. Ils
+classifient les méthodes d’explicabilité selon plusieurs di-
+mensions :
+— Intrinsèque vs. Post-hoc : L’interprétabilité intrin-
+sèque est obtenue avec des modèles simples par
+conception (ex : arbres de décision, régression li-
+néaire). Les méthodes post-hoc sont appliquées à des
+modèles déjà entraînés, souvent complexes.
+— Spécifique au modèle vs. Agnostique au modèle :
+Les méthodes spécifiques ne fonctionnent qu’avec
+certains types de modèles (ex : attention pour les
+réseaux de neurones). Les méthodes agnostiques
+peuvent être appliquées à n’importe quel modèle (ex :
+LIME, SHAP).
+— Locale vs. Globale : Les explications locales se
+concentrent sur une prédiction individuelle. Les ex-
+plications globales visent à comprendre le comporte-
+ment général du modèle.
+Ils discutent également des différentes formes que peuvent
+prendre les explications (règles, caractéristiques impor-
+tantes, exemples prototypiques, etc.).

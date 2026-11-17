@@ -1,0 +1,192 @@
+\appendix
+
+\chapter{Formules mathématiques pour sysRec et filtres collaboratifs}
+\label{annexe:formules_liste}
+Cette section fournit une liste de toutes les formules mathématiques présentées dans le rapport.
+
+\begin{enumerate}
+    \item \textbf{Coefficient de Corrélation de Pearson (PCC)}
+    \[
+    \resizebox{0.9\columnwidth}{!}{$
+    sim(u, v) = \frac{\sum_{i \in I_{uv}} (r_{u,i} - \bar{r}_u) (r_{v,i} - \bar{r}_v)}{\sqrt{\sum_{i \in I_{uv}} (r_{u,i} - \bar{r}_u)^2} \sqrt{\sum_{i \in I_{uv}} (r_{v,i} - \bar{r}_v)^2}}
+    $}
+    \]
+
+    \item \textbf{Similarité Cosinus}
+    \[
+    sim(\mathbf{x}, \mathbf{y}) = \frac{\sum x_i y_i}{\sqrt{\sum x_i^2} \sqrt{\sum y_i^2}}
+    \]
+
+    \item \textbf{Prédiction de Note (Basée Utilisateur)}
+    \[
+    \hat{r}_{u,i} = \bar{r}_u + \frac{\sum_{v \in N(u)} \text{sim}(u, v) \cdot (r_{v,i} - \bar{r}_v)}{\sum_{v \in N(u)} |\text{sim}(u, v)|}
+    \]
+
+    \item \textbf{Factorisation de Matrice (avec Biais)}
+    \[ \hat{r}_{ui} = \mu + b_u + b_i + q_i^T p_u \]
+
+    \item \textbf{Fonction de Coût (Erreur Quadratique Régularisée)}
+    \[
+    \begin{split}
+    \min_{p_*, q_*, b_*} \sum_{(u,i) \in \mathcal{K}} (r_{ui} - \hat{r}_{ui})^2 \\
+    + \lambda \left( \sum_u \|p_u\|^2 + \sum_i \|q_i\|^2 + \sum_u b_u^2 + \sum_i b_i^2 \right)
+    \end{split}
+    \]
+
+    \item \textbf{Root Mean Squared Error (RMSE)}
+    \[ \text{RMSE} = \sqrt{\frac{1}{|\mathcal{T}|} \sum_{(u,i) \in \mathcal{T}} (r_{ui} - \hat{r}_{ui})^2} \]
+
+    \item \textbf{Mean Absolute Error (MAE)}
+    \[ \text{MAE} = \frac{1}{|\mathcal{T}|} \sum_{(u,i) \in \mathcal{T}} |r_{ui} - \hat{r}_{ui}| \]
+\end{enumerate}
+
+
+\chapter{Fondements mathématiques du filtrage collaboratif}
+\label{annexe:formules_maths}
+
+\section{Explications détaillées des formules mathématiques}
+
+\subsection{Fondement mathématique des filtrages collaboratifs}
+Cette annexe fournit une compilation exhaustive et une analyse détaillée des formules fondamentales qui sous-tendent les techniques de filtrage collaboratif. Elle s'adresse à un public technique souhaitant approfondir les fondements mathématiques des méthodes discutées dans la Partie III. L'objectif est non seulement de présenter les équations clés, mais aussi de les contextualiser en définissant leurs composantes et en expliquant leur intuition sous-jacente.
+
+\subsection{Structure de cette annexe}
+Le contenu est structuré de manière à suivre une progression logique, des méthodes les plus simples (basées sur la mémoire) aux modèles plus complexes (basés sur la factorisation de matrices). Nous aborderons successivement le calcul de similarité, la prédiction de notes, l'apprentissage des paramètres du modèle et enfin les métriques d'évaluation.
+
+Pour une référence rapide, le Tableau \ref{tab:synthese_annexe} résume les formules clés détaillées dans cette annexe.
+
+\begin{table*}[ht]
+\centering
+\renewcommand{\tablename}{Tableau} 
+\small
+\begin{tabular}{@{}p{0.15\textwidth}p{0.25\textwidth}p{0.35\textwidth}p{0.2\textwidth}@{}}
+\toprule
+\textbf{Catégorie} & \textbf{Description} & \textbf{Formule} & \textbf{Application principale} \\
+\midrule
+Similarité & Coefficient de corrélation de Pearson (Utilisateur-Utilisateur) & \resizebox{0.9\hsize}{!}{$sim(u, v) = \frac{\sum_{i \in I_{uv}} (r_{u,i} - \bar{r}_u) (r_{v,i} - \bar{r}_v)}{\sqrt{\sum_{i \in I_{uv}} (r_{u,i} - \bar{r}_u)^2} \sqrt{\sum_{i \in I_{uv}} (r_{v,i} - \bar{r}_v)^2}}$} & Mesurer la similarité linéaire des tendances de notation entre deux utilisateurs. \\
+\addlinespace
+Prédiction (basée mémoire) & Prédiction de note pour filtrage basé utilisateur & \resizebox{0.9\hsize}{!}{$\hat{r}_{u,i} = \bar{r}_u + \frac{\sum_{v \in N(u)} \text{sim}(u, v) \cdot (r_{v,i} - \bar{r}_v)}{\sum_{v \in N(u)} |\text{sim}(u, v)|}$} & Estimer une note manquante en se basant sur les voisins similaires. \\
+\addlinespace
+Prédiction (fact. matrice) & Modèle de base de factorisation de matrice & $\hat{r}_{ui} = q_i^T p_u$ & Modéliser les interactions utilisateur-item via des facteurs latents. \\
+\addlinespace
+Prédiction (fact. matrice) & Modèle de factorisation de matrice avec biais & $\hat{r}_{ui} = \mu + b_u + b_i + q_i^T p_u$ & Améliorer la précision en modélisant les biais intrinsèques des utilisateurs et des items. \\
+\addlinespace
+Optimisation & Fonction de coût avec régularisation L2 & \resizebox{0.9\hsize}{!}{$\min_{p_*, q_*, b_*} \sum_{(u,i) \in \mathcal{K}} (r_{ui} - \hat{r}_{ui})^2 + \lambda \left( \|p_u\|^2 + \|q_i\|^2 + b_u^2 + b_i^2 \right)$} & Apprendre les paramètres du modèle en évitant le surapprentissage. \\
+\addlinespace
+Évaluation & Erreur quadratique moyenne (RMSE) & $\text{RMSE} = \sqrt{\frac{1}{|\mathcal{T}|} \sum_{(u,i) \in \mathcal{T}} (r_{ui} - \hat{r}_{ui})^2}$ & Mesurer la précision des prédictions de notes en pénalisant fortement les grandes erreurs. \\
+\addlinespace
+Évaluation & Erreur absolue moyenne (MAE) & $\text{MAE} = \frac{1}{|\mathcal{T}|} \sum_{(u,i) \in \mathcal{T}} |r_{ui} - \hat{r}_{ui}|$ & Mesurer la précision moyenne des prédictions de notes, de manière robuste aux valeurs extrêmes. \\
+\bottomrule
+\end{tabular}
+\caption{Synthèse des formules clés du filtrage collaboratif.}
+\label{tab:synthese_annexe}
+\end{table*}
+
+\section{Méthodes basées sur la mémoire (Memory-Based)}
+
+\subsection{Introduction aux méthodes basées sur la mémoire}
+Les méthodes de filtrage collaboratif basées sur la mémoire, également connues sous le nom de méthodes de voisinage (neighborhood-based), constituent la première génération d'algorithmes de recommandation et restent fondamentales pour leur simplicité et leur interprétabilité \citep{Adomavicius2005}. L'idée centrale est que les meilleures recommandations proviennent de personnes ayant des goûts similaires ou d'items similaires à ceux qu'un utilisateur a déjà appréciés. Ces approches opèrent directement sur l'ensemble des données d'interactions utilisateur-item (la matrice de notes) pour faire des prédictions, sans apprendre un modèle paramétrique compact \citep{Ricci2011}.
+
+Elles se divisent en deux catégories principales :
+\begin{enumerate}
+    \item \textbf{Filtrage collaboratif basé sur l'utilisateur (User-Based CF)} : Cette approche recommande des items en identifiant des utilisateurs aux goûts similaires à ceux de l'utilisateur cible. La logique sous-jacente est que si deux utilisateurs ont eu des opinions similaires par le passé, ils sont susceptibles d'être d'accord à l'avenir \citep{Adomavicius2005}.
+    \item \textbf{Filtrage collaboratif basé sur l'item (Item-Based CF)} : Développée pour surmonter certains problèmes d'échelle des approches basées sur l'utilisateur, cette méthode recommande des items similaires à ceux que l'utilisateur cible a déjà évalués positivement. La logique est que si un utilisateur a aimé un item, il aimera probablement des items similaires \citep{Sarwar2001}.
+\end{enumerate}
+Le succès de ces deux approches dépend de manière critique de la capacité à quantifier la «similarité» entre les utilisateurs ou les items.
+
+\subsection{Métrique de similarité}
+La quantification de la similarité est la pierre angulaire des méthodes basées sur la mémoire.
+
+\subsubsection{Coefficient de Corrélation de Pearson (PCC)}
+Le coefficient de corrélation de Pearson (PCC) est l'une des métriques de similarité les plus populaires pour le filtrage collaboratif. Il mesure la force et la direction d'une relation \textit{linéaire} entre deux variables. La formule pour calculer la similarité de Pearson entre un utilisateur actif $u$ et un autre utilisateur $v$ est la suivante :
+\begin{equation}
+\label{eq:pcc_annexe}
+\resizebox{0.9\columnwidth}{!}{$
+sim(u, v) = \frac{\sum_{i \in I_{uv}} (r_{u,i} - \bar{r}_u) (r_{v,i} - \bar{r}_v)}{\sqrt{\sum_{i \in I_{uv}} (r_{u,i} - \bar{r}_u)^2} \sqrt{\sum_{i \in I_{uv}} (r_{v,i} - \bar{r}_v)^2}}
+$}
+\end{equation}
+où $I_{uv}$ est l'ensemble des items notés à la fois par $u$ et $v$, $r_{u,i}$ est la note de $u$ pour $i$, et $\bar{r}_u$ est la note moyenne de $u$.
+
+\subsubsection{Similarité Cosinus}
+La similarité cosinus mesure le cosinus de l'angle entre deux vecteurs de notes $\mathbf{x}$ et $\mathbf{y}$ :
+\begin{equation}
+\label{eq:cosine_annexe}
+sim(\mathbf{x}, \mathbf{y}) = \frac{\mathbf{x} \cdot \mathbf{y}}{\|\mathbf{x}\| \|\mathbf{y}\|} = \frac{\sum_{i=1}^{n} x_i y_i}{\sqrt{\sum_{i=1}^{n} x_i^2} \sqrt{\sum_{i=1}^{n} y_i^2}}
+\end{equation}
+
+\subsection{Prédiction de notes}
+Une fois les similarités calculées, l'étape suivante consiste à prédire la note.
+
+\subsubsection{Approche basée sur l'utilisateur (User-Based CF)}
+Pour prédire la note $\hat{r}_{u,i}$ que l'utilisateur $u$ donnerait à l'item $i$, on utilise une moyenne pondérée des notes des voisins $N(u)$ :
+\begin{equation}
+\label{eq:user_pred_annexe}
+\hat{r}_{u,i} = \bar{r}_u + \frac{\sum_{v \in N(u)} \text{sim}(u, v) \cdot (r_{v,i} - \bar{r}_v)}{\sum_{v \in N(u)} |\text{sim}(u, v)|}
+\end{equation}
+
+\subsubsection{Approche basée sur l'item (Item-Based CF)}
+Dans l'approche basée sur l'item, la prédiction est calculée en considérant les items similaires à $i$ que l'utilisateur $u$ a déjà notés \citep{Sarwar2001} :
+\begin{equation}
+\label{eq:item_pred_annexe}
+\hat{r}_{u,i} = \frac{\sum_{j \in N(i)} \text{sim}(i, j) \cdot r_{u,j}}{\sum_{j \in N(i)} |\text{sim}(i, j)|}
+\end{equation}
+
+\section{Méthodes basées sur des modèles : la factorisation de matrices}
+
+\subsection{Le principe fondamental : découverte de facteurs latents}
+Les méthodes basées sur des modèles tentent de construire un modèle compact qui explique les notes observées \citep{Ricci2011}. La famille de modèles la plus influente est la factorisation de matrices (MF) \citep{Koren2009}. L'idée est de décomposer la matrice de notes $R$ en deux matrices de plus faible dimensionnalité, $P$ et $Q$. Chaque utilisateur $u$ est représenté par un vecteur de facteurs latents $p_u \in \mathbb{R}^k$, et chaque item $i$ par un vecteur $q_i \in \mathbb{R}^k$.
+
+\subsection{Le modèle de base de factorisation de matrice}
+La prédiction de note $\hat{r}_{ui}$ est le produit scalaire des vecteurs de facteurs latents :
+\begin{equation}
+\label{eq:mf_base_annexe}
+\hat{r}_{ui} = q_i^T p_u = \sum_{f=1}^{k} q_{if} \cdot p_{uf}
+\end{equation}
+
+\subsection{Intégration des biais : un modèle plus réaliste}
+Une grande partie de la variance des notes est due à des effets qui sont indépendants de l'interaction. Pour capturer ces effets, le modèle est enrichi avec des termes de biais \citep{Koren2009}.
+\begin{equation}
+\label{eq:mf_biais_annexe}
+\hat{r}_{ui} = \mu + b_u + b_i + q_i^T p_u
+\end{equation}
+où $\mu$ est la note moyenne globale, $b_u$ est le biais de l'utilisateur $u$, et $b_i$ est le biais de l'item $i$.
+
+\section{Apprentissage des paramètres du modèle}
+
+\subsection{La fonction objectif : minimisation de l'erreur régularisée}
+Pour trouver les paramètres optimaux, on minimise une fonction de coût qui pénalise l'erreur de prédiction sur les notes connues, tout en ajoutant un terme de régularisation L2 pour éviter le surapprentissage \citep{Koren2009}.
+\begin{equation}
+\label{eq:cost_annexe}
+\begin{split}
+\min_{p_*, q_*, b_*} \sum_{(u,i) \in \mathcal{K}} (r_{ui} - \hat{r}_{ui})^2 \\
++ \lambda \left( \sum_u \|p_u\|^2 + \sum_i \|q_i\|^2 + \sum_u b_u^2 + \sum_i b_i^2 \right)
+\end{split}
+\end{equation}
+où $\mathcal{K}$ est l'ensemble des notes d'entraînement et $\lambda$ est l'hyperparamètre de régularisation.
+
+\subsection{Optimisation par descente de gradient stochastique (SGD)}
+La descente de gradient stochastique (SGD) est une méthode populaire pour optimiser cette fonction. Pour chaque note $r_{ui}$, l'erreur $e_{ui} = r_{ui} - \hat{r}_{ui}$ est calculée et les paramètres sont mis à jour :
+\begin{align}
+b_u &\leftarrow b_u + \gamma \cdot (e_{ui} - \lambda \cdot b_u) \label{eq:sgd_bu_annexe} \\
+b_i &\leftarrow b_i + \gamma \cdot (e_{ui} - \lambda \cdot b_i) \label{eq:sgd_bi_annexe} \\
+p_u &\leftarrow p_u + \gamma \cdot (e_{ui} \cdot q_i - \lambda \cdot p_u) \label{eq:sgd_pu_annexe} \\
+q_i &\leftarrow q_i + \gamma \cdot (e_{ui} \cdot p_u - \lambda \cdot q_i) \label{eq:sgd_qi_annexe}
+\end{align}
+où $\gamma$ est le taux d'apprentissage.
+
+\section{Évaluation des modèles de prédiction de notes}
+
+\subsection{Root Mean Squared Error (RMSE)}
+L'erreur quadratique moyenne (RMSE) est la métrique la plus courante, popularisée par le concours Netflix Prize.
+\begin{equation}
+\label{eq:rmse_annexe}
+\text{RMSE} = \sqrt{\frac{1}{|\mathcal{T}|} \sum_{(u,i) \in \mathcal{T}} (r_{ui} - \hat{r}_{ui})^2}
+\end{equation}
+où $\mathcal{T}$ est l'ensemble de test. L'RMSE pénalise fortement les grandes erreurs.
+
+\subsection{Mean Absolute Error (MAE)}
+L'erreur absolue moyenne (MAE) est une alternative moins sensible aux valeurs extrêmes.
+\begin{equation}
+\label{eq:mae_annexe}
+\text{MAE} = \frac{1}{|\mathcal{T}|} \sum_{(u,i) \in \mathcal{T}} |r_{ui} - \hat{r}_{ui}|
+\end{equation}
+

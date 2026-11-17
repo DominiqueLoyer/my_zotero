@@ -1,0 +1,317 @@
+Mes notes du cours dic9150 symboles à u6liser: "$¬ÈÇÉÙÚÜ
+Lab Sa6sfac6on de contrainte (cours 4 donné au cours 2 à la place)
+Disposi6on des invités ch pers peuvent s'assoir dans le même domaine {0,1,2,3,4,5}
+acé suiv on essaie de réduire le nombre de variable
+acé suiv Albert en 0 -> donc on a enlever la variable d'albert = A
+acé suiv Réseau binaire entre 2 variables 2 types de contrainte -> être côte à côte ->être différents
+acé suiv on essaie de développer un modèle qui se généralise
+acé suiv prob SAT 1990-2010 -> aug efficacité de 100x ->grande avancé algorithmique
+logique proposi6onnelle disjonc6on = V È ideé -> les 2 sont vrai Conjon6on = et , Ç ou V en l'envers
+acé suiv ->FNC ¬R = R avec barre dessus
+acé suiv ->propaga6on d'unité
+acé suiv ->Algo DPLL ->Lire associa6on computer machines (60 ou 62)
+1990 -> on prend 2 variables , ensuite 3 Maintenant -> on cherche pas 2 var -> on infère des clauses = 2000
+
+
+ ex: DPLL 2^3 =8noeuds complexité exponen6elle dans le pire des cas -> algo polynomiale P=NP
+* trouve pour SAT un polynomiale -> concours 1973 1M$
+**On cherche à résoudre + vite dans notre doc en gén
+acé recherche locale
+acé Heuris6que Stocas6que -> on u6lise le hasard
+Cours 2 au lieu de cours 3 le 17 sept acé2 Symboliste représen6onniste 70-80 connec6onniste -> naturaliste 90-2024
+on se représente par symbole on trouve les lois causales
+symboliste s'inspire par maths 80-85 UQAM -> Il y avait une fusion maths et info -> ensuite ce fût 2 départements dis6ncts
+On a basé ensuite l'intelligence sur bio plus que maths ensuite -> approche naturaliste -> nombre de neurones
+on regarde l'organisa6on des neurones -> Cogni6on incarnée -> notre corps est dans notre cerveau -> Ex Rep6le voit pas en avant (vision convergente)
+-> notre cogni6ion est déterminé par la configur6on de notre corps ->Notre rapport à l'environnment -> Ex Crocodile Dundee
+->On commence notre contribu6on à la connaissance dans notre environnement avec notre doctorat
+Empirisme Logique (ace3) -> connaitre c'est faire des liens pour Emp Log Carnap Reicheback?? (dans l'empire naziste) -> linguiste FURN?
+analyse à priori -> sans passer par l'expérience
+
+
+ à postéori ->après observa6ons ->synthèse entre concepts ex: célibataire == malheurseux
+dic6onnaire -> analy6que Encyclopédie -> synthé6que
+-emp log -> on applique des maths dans ce qu'on observe dans le monde
+->connaitre le monde -> c'est limité le monde -> modèle logico-mathéma6ques
+acé3 1950 -> ordi -> cerveau électronique Triangle Rymawion? -> entre 180 et 270 degrés vs triangle euclidien -> 180
+Emp log pensaient s'entendre sur les défini6ons mais ce n'est jamais arrivé
+acé4 référence -> Ayer , Troct and logic -> donné une série de conférence à la BBC
+acé4 Aristote -> pendant 2000 ans -> Transi6vité ->tous les A = B -> (connaissance empirique) -> synthé6que -> à postéori ->Tous les B = C -> (connaissance empirique) -> synthé6que -> à postéori -> tous les A sont dont C (déduc6on logique) -> Analy6que -> à priopri alors " (A(x) > B(x) ) -> logique symbolique " (B(x) > C(x))
+logique classique -> asser6ve -> Il est possible que $ -> pas ça dans la logique classique -> Exten6onnelle -> on compare des quan6tés d'objet -> bivalente -> Vrai ou Faux vs. polyvalente (est nécessairement vrai -> on met 2 comme probabilité vs. on peut metre moins que 1 -> vérifica6onelle -> A et B -> faut que les deux soient vrai
+A Ç B -> conjonc6on -> faut que les 2 soient vrai V V -> on commence par vrai VF F V -> on est en logique postéori FF
+
+
+ (A Ç B) > A A:Il pleut B Serge a son parapluie alors il peut V V V-> V V F V->V TOUS VRAI F V F->V F F F->V
+acé5 **Rarement on raisonne en logique classique
+2 linguistes -> approche symbolique représenta6onniste -> Fodor -> On ne peut rentrer dans la tête des gens -> Chomsky (roi de la pensée humaine) -> Mentalise -> trouve grammaire de la pensée -> penser c'est trouver les liens entre les symboles
+séman6que -> le sens
+acé5 Chomsky -> grammaire universelle -> innée -> Fonc6on prédica6ve -> f(x) -> le f -> groupe verbale -> ce qui arrive -> le (x) -> le sujet
+Fodor -> mental peut être représenté par des fonc6ons de x -> f(x)
+-> Avant on pensait qu'il y avait un processeur central qui gouvernait notre cerveau-> modularité faible -> Chomsky et Fodor
+-> Aujourd'hui -> modularité forte
+-> Nudge? -> ça prend un déclencheur pour y penser -> les modules s'ignorent les uns les autres (aide mémoire)
+->Darwin -> chacun varie quand il nait -> sélec6on naturelle -> Contraintes sur varia6ons -> ex homme + femme 1 animal
+Fodor -> Darwin got it wrong
+
+
+ acé6 psychologie jusqu'à années 50 -> behaviorisme -> centré sur théraphie -> centré sur s6mulus et comportements mais pas centré pour comprendre
+Pavlov -> réflex condi6onné pour freiner la réponse
+Skinner -> Beyond freedom and dignity
+1950 -> influence des symbolistes -> 1ère généra6on basée sur cogni6ve
+Braine et OBrien -> Structures logiques et structures mentales
+Modus Ponen -> (P>Q) & P > Q -> JE METS (Pluie >parapluie) & il pleut donc j'amène mon parapluie
+Modus Tolens -> J'ENLÈVE
+erreur logique -> règle n'existe pas -> on ne reconnait pas la règle
+Symboliste !Classique -> logique flou
+Connec6onnisme -> on injecte des symboles
+trouver moyen par représenta6on -> règle sur les symboles ->réu6bilité mul6ple
+->réu6bilité unique -> IF THEN rules -> on est pas certain qu'il y a autre chose que neurones pour manibiler symboles
+acé8 Les systèmes experts (livre Nignevitsky Ar6ficial intelligence, chap 2) -> human problem solving 1 -> à base de règles -> l'expert possède les règles -> règle A>B IF A THEN B -> (A> B) & A -> MODUS PONENS
+2 -> SYS EXPERT à base d'objet ( chap 5)
+synthe6c rules synthe6c facts (reasonning) -> analyser
+
+
+ base de règles -> Forward -> déduc6f -> modus ponens (P > Q ) & P ) > Q condi6ons & work mémory
+Backward (Police, médical) -> abduc6f -> on rajoute des règles -> ça évolue -> on part de la solu6on et remonte vers la source->basé sur le but -> on regarde les effets et remontre vers les causes Q & (P>Q) > P? -> est-ce que j'ai mon paraplui pcq il peut ou pour autre chose? -> recours à l'explica6on la plus probable -> pas de cer6tude
+Inconvénients des sys experts -> apprend pas de lui-même -> ne peut être automa6sé ->présuppose qu'on a les règles
+acé12 -> si incer6tude dans nos règles -> Bayésien ou probabiliste -> sys expert flou -> situa6on incertaine -> règles d'exper6ses floues
+sys expert objet (frames) -> Minsky , Framework for represen6ng knowledge -> basé sur la logique des classes ex: plomberie , quincaillerie, sports , meubles (Canadian Tire)
+Classifier -> on associe
+approche symboliste -> -> sys expert -> sa6sfac6on des contraintes -> arbres décisionnels
+24 sept (semaine 3 après la semaine 4 lab -> qui a eu lieu à la sem 2)
+Emp logique -> Swan song Quine -> Cri6que des em logique (Chomsky et Fodor)
+Holimisme? linguis6que
+emp logique (1ère généra6on de AI) -> énoncé analy6que a priori -> je donne des défini6ons de ce que je perçois pour connaitre le monde -> manier des symboles vs. énoncé synthé6que à postéori -> déféni6on de ce que je connais du monde -> capteurs sensoriels
+
+
+ Quine -> ça fonc6onne pas comme ça a priorie et à postéori s'influence et transforme l'un l'autre
+ace2 -> l'humain n'a pas le language en dedans de lui (pas innée)
+® Nous appartenons au monde (Quine) ® pas de dépendance l'un l'autre (priori et postérori)
+® Quine cr6ques -> Neurath? ® bateau® on apprend à construire notre bateau avec notre expérience en mer
+®s'oppose à l'inéisme de Chomsky et Fodor ®l'humain se contruise language dans leur environnment ® e.g. Masai®pas un language logico-mathéma6ques mais leur serve pour chasser lions
+®diversité des cultures et languages ®amène la no6on de context
+®Maintenant on fait des systèmes contextuelle ®e.g. ChatGPT ®s'addapte à nous
+Ontologie 1 logique Ontologie selon Quine ® ameublement du monde ® ensemble de concepts pour comprendre le monde
+Acé2 Quine holisme épistémologique ® Thèse de Duhaim-Quine
+Quand j'ai une théorie ®je peux toujours dire si une nouvelle théorie doit être modifiée avec contre-exemple qui invalide notre théorie ® on change alors notre théorie
+Catégorisa6on ®Emp logique ® j'applique mes concepts
+®sc. cogni6ves®disent plus compliqué que ça ®catégorie + compliqué que concepts® ex: déf du dictonnaire®c'est discutable®ex. genre H et F mais maintenant il y a non-genré ®défini6on= def à peu près
+Théorie medir?? Tuesky Kaheman? ® prix nobel économie ® on apprend par exemples, par comparaison® ex un enfant voit une grosse barbe ® alors il se dit que ce n'est pas une maman
+
+
+ ANN ® on montre des photos de lions pour qu'il aprenne ® apprend sa manière de classifier ®si ça correspond à notre manière de classifier ®on prend méthode des symbolistes
+acé3 Rosch-Lakoff ®On se construit des pe6ts shémas (prototype)
+Maschery?? ®pe6te théorie des théories (+ abstrait)
+Emp logique ®avec le concepts® encore plus abstrait
+Catégorisa6on ® parfait®1 concept®1 exemplaire (ex plomberie) ® 1 prototype®1 pe6te théorie (ex. Universitaire)
+Nos changements de croyances viennent de nos changement de catégorisa6ons
+Emp log ®trop théorique ®le plombier apprend par exemple
+acé4 fin de l'hégémonie de la logique classique® V ou F
+Théorie de bodie? = limita6on à synthé6ser
+Théorie de Tarsky = limitaton sémen6que (language, V ou F, noms des formules ((P>Q) & P) > donc Q ® (pluie paraplui) il pleu > on prend notre paraplui
+ex : la neige est blanche ® la séman6que est V si et seulement si ® la neige est blanche
+Nuances des logiques classiques classique 1asserta6ve 2exten6onnelle 3bivalence 4vérifica6onnelle
+Non-classique 1 modale ® modules les asser6ons ® il est nécessaire que la neige soit blanche ® ex 2=très vrai , 1 3/4 1/2 0, -1=très faux 2 polyvalent
+
+
+ 3probabiliste ®bayésien 4floues
+logique ® non amplia6ve ® on ajoute pas des connaissances nouvelles ®certaine ®monotone ® pas d'infos nouvelles
+l'humain raissonne de façon non-logique souvent ® e.g. si P/Q ® p> Q ® on crée une nouvelle règle
+l'humain sort très souvent de la logique ® appren6ssage 1 logique classique
+induc6on ® généralisa6on e.g. j'ai vu 50 corbeaux noirs ® donc les corbeaux sont noirs
+abduc6on ® se référer à la cause qu'on croit® remontrer aux causes à par6r des effets que j'aie
+acé5 Chambre chinoise (chinese room) John Searle? début 80's ® jamais de AI ® penser l'intelligence autrement
+acé6 80's 1 cerveau cause l'esprit 2 syntaxe est insuffissant pour la séman6que
+chambre chinoise catégorisa6on ® bcp + intui6ve ® raissonnement souvent avec logiques autre que classique ® notre percep6on modifie notre language et vice-versa ®cogni6on c'est pas juste de la manipula6on de symboles et se modifie con6nuellement
+sem 5 Arbres décisionnels sem 6 Symbolisme sophis6qué
+acé7 Indians Hopi ® vivent autour du Grand Canyon
+Sapir? - Whorf ® bcp de grammaire1 et bcp de manière de penser VS Grammaire Universelle
+le contexte fait varier nos pensées
+
+
+ ex:P le temps ® Les Hopi voient le temps ®Nous on voit le présent , passé et futur consta6f ® la neige est blanche performer une acton ® jugement au tribunal
+même phase dans un contexte! = sens!
+faut associer symboles et dépend du contexte en plus
+acè8 biais de croyances ®on croit se à qu'oi on croit ®sophismes ® carte wason? 4 cartes A D 4 7 modus ponens tolendo si on a un A ® on a un 4 P/Q ® P>Q ® règle c'est pas monotone
+Herbert Simon (prix nobel en économie)® injecte des sc.cogni6ves
+Max bayésien de l'u6lité préférences = désir x probabilité désicions ra6onnelles compromis®***Simon dit qu'on ne décide pas comme ça
+Kahneman? prix nobel économie ® Linda problems une Linda avec Bac en phylo et féministe probabilité qu'elle soit commis de librairie et féministe et revendique des tables de bébé dans les toiletes des femmes
+Simon ® Économie du sa6sfying ® un certain degré de sa6sfac6on
+® développe Ai basé sur le sa6sfying
+acé9 animaux ® intelligence même u6lisent pas des symboles
+on pensait avant qu,il y avait un module central qui gouvernait la pensée ® aujourd'hui ® plusieurs modules qui ne communniquent pas ensemble
+1- modularité faible(Pinker?)® différents modules qui s'ignorent les uns et les autres
+2- forte(Fodor)® Il y a un processeur central mais il accepte modularité faible
+
+
+ acé9 Dennet? sur les dendrites qui recoivent l'infor envoie au neurone et les axotes retournent info
+Les Darwiniens ® sys assez passif
+Les Skinnerriens ®certaine plas6cité ®pas juste innée comme Darwin mais je me sa6sfait®j'apprend par condi6onnement
+Les Popperiens ® test de comportements ®j'essaie même si je ne connais pas
+Les Grégoriens ® minds tool ®je créer des artéfacts(technologies)®tous les artéfacts qu'on a créés pour modifier notre monde
+acé10 2e paradygme (années 80's)®percep6on pensée language ®les 3 se modulent les uns vers les autres
+®notre contexte est très déterminant
+®la mission des AI maintenant® tenir compte du contexte
+les neurones ar6ficielles ® unité d'informa6on
+Depuis Darwin® générer la différence et sélec6on 1 généra6on de varia6ons 2 sélec6on des meilleurs
+algo géné6que ® bcp de possibilité , contraintes iden6fiées mais j'ai pas de solu6on ®idéale pour Schedule
+réseaux bayosive ?® sys dynamique ® sor6es qui affectent les entrées
+emp logique ® intelligent si manipule des symboles ® ra6onnalisme fort maintenant ® pas aussi fort que Chomsky
+acé11 IA® béquille pour prendre des décisions plus intelligentes??
+
+
+ ®Les Symbolistes 1 sys expert 2 sa6sfac6on des contraintes 3 arbres décisionnels
+semaines 6 et 7 (systèmes symboliques sophis6qués) Non classique®floues, modales , etc Systèmes mul6agents
+semaine 8® 1 déduc6ons® on connait les causes et déduit les effets ®On se projète dans le passé de ce qu'on connait ®U6le si on fait du prédic6f
+2-Abduc6ons®Pour trouver la conclusion® Recherche causes si on a les effets ®pas certain mais probable ®le passé explique le présent
+dernière séance ® Architectures de la cogni6ons® plusieurs ou6ls de la programma6on
+languages, maths, etc ® mieux avec symbolisme idées complexes ® mieux avec connec6onnisme
+Séance 5 (lab le 1 oct)
+Modèles de langues Appren6ssage machine® on addi6onne des données
+prédicteur de mot ® Chat GPT ® recherche pas de l'informa6on
+Plannifica6on ® IA symbolique ® maths , symboles
+Concepts symboliques par V ou F But® condi6on sur les objec6fs qu'on a
+Système de transi6ons
+précondi6ons ® ce que ça prend avant l'ac6on
+
+
+ postcondi6ons ®ce que ça prend pour arriver
+Planner 1971 ® STRIPS (Standford Univ.)
+PDDL (version étendue) ®Planning domain defini6on nodes ?? domain®descrip6on générale du déplacement nodes ® problems qui nous intéresse e.g. l'endroit est la classe ou on a notre cours , plus par6culièrement les tuiles à terres et on connait le nombre de tuiles
+Solver PDDL en entré® descrip6on du problème en sor6e®produit un plan
+LISP (70's) ® language principal de l'AI (années 70 et 80) FORTRANT®Scien6fique (fin années 50) Cobol®commercial (fin années 50)
+Domain PDDL Robot ;; commentaires (define (domain domainrobot) (:constants Porte (:predicates (posi6onRobot ?p) précondi6ons®(:ac6on AllerPorte postcondi6ons®(:effet (posi6onRobot Porte)
+en6tés fixes ® objets n'est pas dans le problème contante ®est dans le problème? Effet® postcondi6ons ® posi6on de départ porte
+posi6on robot (p) à gauche ® but : posi6on Robot porte
+aller porte
+posi6on robot porte
+
+
+ SaaS ® htps://planning.domains define (domain domaineRobot (: types , posi6on robot
+Robot posi6on (r, p1) voisine (p0,p1)
+but robotposi6on (r, p0)
+robot posi6on (?r, ?pd), voisines (?pd, ?pa) ou voisines(?pa,?pd)
+robot posi6on (?r,?pa) (r, p0)
+rajoute
+(or(voisine ?pd, ?pa) ?pa,?pd)
+arbres de décisions ® appren6ssage machine symbolique®représenta6on de fonc6ons feuilles ® but Noeuds® variables
+le point le + crucial® discriminer sur ça
+acé sur la méthodologie est très importante *****
+Symbolique pcq qu'on peut l'expliquer et appren6ssage machine car pas besoin de faire à la main
+intra 6 ques6ons à dévellopement sur ch semaines 3q infor 3q cogni6f
+
+
+ séance6 8oct
+Flexibilité du symbolisme
+Approches non-classiques -probabilité -flou
+Classique ® if then rules
+symbolisme ® transformateur de V et F on ac6onne le si alors et ça donne V ou F
+modula6on asser6on ® il est possible que
+déduc6on
+((A>B) & A | > B
+pleut >serge paraplui et il pleut donc serge à son paraplui
+abduc6on
+(A>B) & B) > A?
+SIpleut , serge amene son paraplui et serge à paraplui > alors il doit pleuvoir
+prémisse inférence conclusion proposi6on de départ logique modus ponens maths 2+2=4 abduc6ve il pleut sûrement
+
+
+ Raissonements
+b
+--logique® A b c
+1non-amplia6f ® 2monotone ® TOUS les A sont des B et tous les B sont des C donc tous les A sont des C (pas de nouvelle idée ® même si A sont des B? ça affecte pas les prémisses 3trut preserva6ve
+--Créa6f ® créer des idées nouvelles non monotone ® nouvelle info me fait réviser mes croyances
+induc6on ® généralisa6on si on corrige notre info ®non monotone
+logique classique ® logique de l'indica6f présent® assertorique et bivalente ®les sa6sfac6ons de contraintes et les arbres de décisions ***si la logique classique peut faire la job; on ne se casse pas le bycicle
+logique modale ® impéra6f ® je vous ordonne de sor6r de la classe
+avec Da Costa du Brésil ®para consistante ® un peu de V et un peu de F
+polyvalente ® plus que deux valeurs de vérité module®j'ai l'impression qu'il fait beau
+c
+bbbbb b
+a b
+
+
+ équivalence o c'est l'inverse de la disjonc6on exclusive
+barre de Shefford
+P | Q Faux si les 2 sont faux
+informa6on ® exclure des possibilité
+treillis de Boole
++informa6on +probabilité
+aller dans le sens contraire des flèches vertes ® raissonnement créa6fi
+équivalence ® même table de vérité
+Le signe = ® valeur en arithmé6que (c'est une mesure)
+disjonc6on entre 2 compléments ® toujours faux conjonc6on entre 2 compléments ® toujours vrai
+distribu6vité A & (BuC) o (( A&B) u (A&C ))
+probabilité ® limite de nos connaissances du monde floue ® limite ontologique (incer6tude de l'état du monde)
+Prog exp base règles exper6se souvent probabiliste ref: Hacking , intro to probability and induc6ve logic
+
+
+ P(B|A) Quelle est la probabilité que B se passe étant donné A
+Non-classique 2 disjonc6ons dis6nctes 2 conjonc6ons dis6nctes
+implica6on probabilité condi6onnelle absolue = 1
+loi de probabilité condi6onnelle ® bayésien (la base)
+P (A|B) = P(AÇB) (P(B)) Loi Bayes = on modifie , on augmente ou on diminue
+P(H|E) = P(H) X P (E|H) / P(E)
+vraisemblance
+treillis de Boole brisé par la distribu6vité
+logique des probabilités ® toutes les fonc6ons sont calculables chambre chinoise ® pas toutes les fonc6ons
+Negnewinsky ® chap 5
+Réseaux bayésien avec Roger séance 11
+oasksford & chater ?® la mémoire et les règles sont pas mal ensembles
+sophisme ® affirma6ons des conséquents ® dénis des antécédents
+bayésien ® garder un système de logique classique en tenant compte du dynamisme du monde
+Zaddy (60's) ® theorie des emsembles flous
+
+
+ classique ® imprési6on épistémique x
+floue ® imprési6on ontologiqye .75
+ref : Klir gy & Yuan ?? et Negnewinsky ® chap 4 AI fuzzy
+max®l'emporte min disjonc6on conj
+15 oct
+mul$agent
+language netlogo ou6l ® netlogo
+ex envolé d'oiseaux, fourmis, changement de température® on voit les tempêtes (molécule oxygene , azote® déplacement de par6cules en collec6f
+ex social® les foules, les gens vivent de façon collec6ve, peuples nomades en foret vivent de façon très organisé et ils vivent en groupes, chassent en groupe
+leader (parfois) et interac$ons entre les individus qui compte le plus
+même dans les mouv fachiste ® le leader était pas aussi important qu'on pense
+peut-on u6liser l'intelligence collec6ve en AI®donc décentraliser®
+Phénomène d'émergence® en6té simples au niveau du comportement mais en étant ensemble ça devient compliqué (bcp plus complexe) ®ensemble plus que les par6es ®dans la nature, en sc sociales, en physique (par6cules, gaz)
+c
+c
+bbbbb b
+x
+x
+
+
+ bonne référence ® Wilensky and Rand ®®An intro to agent-based modeling
+agent ® en6té indépendante ® on donne des règles l'ensemble des agents et de l'environnement (système), évolue au cours du temps on prend un temps discrait pour notre modèle
+agents ® en6tés simples
+modèle® 6rer des conclusions de la réaliaté® modélisa6on®modèle conceptuel vers un modèle computa6onnel
+Plusieurs adéqua6ons 1 vérifica6on ®souvent vérifier par quelqu'un d'autre 2 valida6on® est-ce que ça correspond au réel 3-reproduc6on® peut être reproduit par d'autres qui sont indépendants®en sciences il y a une crise de la reproduciton ® plusieurs choses ne peut être reproduits
+La simula6on®éxécuter notre modèle e.g. modèles de climats (comment va être le climats dans 10 ans à grande échelle)
+e.g. fournis ar6ficielles avec une solu6on par6elle si on a une bonne idée ; on peut même s'en servir en résolu6on de contraintes sans avoir a modéliser
+épidéminolgie® covid19 ® comment le virus se propage® on veut prédir l'avenir pcq si ça con6nue dans un certain sens, on aura pas assez de lits à l'hôpital
+fractals (populaire 80's)®peut importe l'échelle, on voit toujours la même chose
+Méthodes d'op6sa6on ¬ Swarm intelligence 1 Dorigo Colonie de fourmis 2 en essaim
+Language Logo (1967) ® introduit à des fins pédagoiques®logique et graphique Piaget voulait en faire des ou6ls pédagogiques pour ini6er les enfants au language LISP
+Wilensky 99, NetLogo, phénomene en 2 ou 3 dimension®temps discret
+NETLOGO 3 types en6tés
+
+
+ 1environnement (patches en 2 d) 2les turtles se déplacant dans l'enviromment (représenté en triangle forme de flèche 3liens entre les tortues
+tuiles, tortues et liens sont des agents
+Observateur global ® hors de l'environnement
+Wolfram voulait expliquer toute la physique avec règle très simple
+--------------------------------------synthèse des notes par chatGPT 18 oct24
+Here's a short synthesis of your notes on constraint sa6sfac6on, logic, AI paradigms, and decision-making, along with some correc6ons:
+### **Constraint Sa6sfac6on and Logic (SAT Problems)** - **Constraint Sa6sfac6on**: Reducing variables in a binary network (e.g., sea6ng guests sideby-side). Two key constraints: variables being adjacent or different. - **SAT Problem**: SAT problem efficiency increased by 100x between 1990-2010 due to algorithmic advancements. - **Logical Opera6ons**: - Disjunc6on (∨, ∪) means "or". - Conjunc6on (∧, ∩) means "and". - **DPLL Algorithm**: Efficient for solving SAT problems, exploring exponen6al complexity in the worst case. You also men6oned **P = NP**, a famous unsolved problem in computer science.
+### **Historical Context in AI Development** - **Symbolism and Connec6onism**: - **1970-1980s**: AI was largely **symbolist** (math-inspired). - **1990s-present**: AI adopted more **naturalist** approaches, emphasizing biological structures like neurons and cogni6on. - **Connec6onism**: Emphasis on how the brain works (e.g., cogni6on is shaped by body configura6on and interac6on with the environment). AI shi ed towards models inspired by biological systems.
+### **Logical Paradigms** - **Proposi6onal Logic**:
+
+
+ - **Modus Ponens**: (P > Q) and P → Q. If it rains, you bring an umbrella. - **Modus Tollens**: (P > Q) and ¬Q → ¬P. If you didn’t bring an umbrella, it didn’t rain. - **Empiricism vs Ra6onalism**: - **Empirical Logic**: Knowledge is based on observa6on (à posteriori) versus analy6c defini6ons (à priori). - **Quine’s Cri6que**: He cri6ques classical AI's reliance on pre-defined knowledge structures and emphasizes learning from environmental contexts (like ChatGPT adap6ng).
+### **AI Decision-Making Systems** - **Expert Systems**: Rule-based systems solving problems using **modus ponens**. Notable limita6ons include the inability to learn independently. - **Heuris6cs**: Using probabilis6c methods to handle uncertainty (e.g., Bayesian systems). - **Non-classical logics**: You covered **fuzzy logic**, **Bayesian networks**, and decisionmaking under uncertainty, cri6cal for modern AI.
+### **Ar6ficial Intelligence Paradigms** - **Classical AI**: Logic-based, opera6ng with strict truth-values (true/false). - **Connec6onist AI**: Neural networks imitate brain func6oning. **Modularity** has evolved from weak (many independent processes) to strong (centralized processing). - **Machine Learning**: Models train using data (e.g., language models like ChatGPT) without needing predefined rules.
+### **Mul6-agent Systems and Emergent Phenomena** - Mul6-agent modeling explains phenomena like bird flocking, where simple agent rules result in complex group behaviors (emergence). Tools like **NetLogo** model these systems. You note AI applica6ons in simula6ons like predic6ng COVID-19 spread.
+### **Notable Mistakes and Correc6ons**: 1. **SAT Problem Descrip6on**: The SAT efficiency increase of 100x between 1990-2010 may not be universally true across all SAT instances. It’s beter to phrase it as "algorithms saw significant improvement during this period." 2. **Modus Tollens Clarifica6on**: You correctly describe **modus tollens** in parts, but it should be clarified that ¬Q implies ¬P, not the other way around. 3. **Holis6c Linguis6cs and Quine**: Ensure the dis6nc6on between **holism** and **holism in AI** is clear. Holism in Quine’s work refers to the interconnectedness of knowledge systems, not solely linguis6cs. 4. **AI vs. Expert Systems**: Your notes might overstate the capabili6es of expert systems. They don’t learn from new data independently but require input rules from experts, which isn’t the same as modern adap6ve AI systems.
+Let me know if you’d like further clarifica6ons or correc6ons!

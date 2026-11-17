@@ -1,0 +1,278 @@
+DIC-9150
+Introduction aux architectures
+cognitives
+Semaine 14
+PAR SERGE ROBERT
+UNIVERSITÉ DU QUÉBEC À MONTRÉAL
+1
+
+
+ La succession des principales architectures
+ 1) ACT-R
+ 2) Soar
+ 3) CLARION
+ 4) SPAUN
+ 5) LEABRA
+2
+
+
+ Les principes des architectures cognitives
+ Réactiver le vieux rêve d’une IA forte
+ Intégrer différents résultats des sciences cognitives (d’abord) et des neurosciences (ensuite) dans un langage (ou des langages) de programmation
+ Évolution générale de la plausibilité cognitive à la plausibilité neuronale
+ Évolution d’une perspective symbolique à l’intégration progressive du sous-symbolique (ACT-R, Soar), à une approche d’entrée de jeu hybride (CLARION, SPAUN et LEABRA)
+ Chaque comportement cognitif est simulable par une succession d’opérations discrètes
+ Chaque succession d’opérations mène à une action, qui devrait correspondre à un but
+ Viser des performances comparables à celles de l’humain du point de vue de la stratégie d’exécution de la tâche, du temps d’exécution et de ses résultats
+3
+
+
+ Les composantes d’ACT-R (J. R. Anderson,1973...)
+(Adaptive Control of Thought-Rational)
+ Structure inspirée de la théorie de la cognition de Newell et langage inspiré de LISP
+ 1) Des modules
+ Perceptuels et moteurs : responsables de l’interaction avec l’environnement (visuel et manuel)
+ De mémoire
+ Mémoire déclarative (relative aux connaissance discursives, mais pas épisodique)
+ Mémoire procédurale (relative aux manières de faire)
+ 2) Des buffers
+ Des tampons comme interfaces avec les modules (sauf pour mémoire procédurale)
+ 3) Des pattern matchers
+ Association entre état du buffer et production (en série, peut produire un feedback sur le buffer)
+ Structure hybride
+ D’abord : structure symbolique : système de production sériel
+ Ensuite (la dernière version) : structure sous-symbolique : processus parallèles : sensibles au contexte,
+aux coûts et bénéfices, déterminants sur l’apprentissage, sur la mémoire déclarative et sur le niveau
+symbolique
+4
+
+
+ L’architecture d’ACT-R
+5
+
+
+ Les principales réussites d’ACT-R
+ Dans les activités cognitives suivantes
+ Apprentissage
+ Mémoire
+ Résolution de problèmes et prise de décision
+ Langage et communication
+ Perception et attention
+ Développement cognitif (et différences interindividuelles)
+ Dans les applications suivantes
+ L’interaction humain-ordinateur
+ Éducation : les systèmes tutoriels intelligents (enseignement des
+mathématiques)
+ L’interprétation des données en imagerie cérébrale
+6
+
+
+ Les principes de base de Soar
+(State, Operator And Result)
+(J. Laird, A. Newell, P. Rosenbloom, 1983...)
+ Basé aussi sur la théorie de la cognition de Newell
+ un système intelligent requiert la représentation par des symboles (physical symbols system theory)
+ Récemment (Laird 2008) : représentations non symboliques
+ Création de représentations (apprentissage) par des chunks
+ Différentes formes de connaissances et de mémoires : procédurale, sémantique (déclarative), épisodique
+ Fonctionne avec des « if..., then » rules
+ Définition d’un comportement cognitif :
+ possède un but et un environnement complexe
+ requiert des connaissances, des symboles et des abstractions, de la flexibilité relative à l’environnement, de l’apprentissage relatif à l’environnement
+7
+
+
+ Les composantes de Soar
+ Des buts
+ La perception des situations
+ La mémoire de travail : fait le lien entre but, perception de la situation, mémoire à long terme, action : c’est l’espace de travail
+ Mémoire à long terme : un dépôt d’associations entre situations et actions, fait une association entre ces associations et un nouveau contexte fourni par la mémoire de travail
+ L’interface perception/action : le lien perception/action par l’intermédiaire de la mémoire de travail
+ Des décisions d’actions basées sur un système d’associations
+ Des impasses sont possibles
+ De l’apprentissage est possible par chunking (nouvelles associations)
+8
+
+
+ L’architecture Soar
+9
+
+
+ Les gains de Soar
+ Prise en compte de la mémoire de travail et de la mémoire épisodique et de leurs liens avec les autres mémoires
+ Meilleure intégration des différents types de mémoires et de leurs fonctions respectives
+10
+
+
+ Les principes de base de CLARION (Ron Sun, 1994...)
+(Connectionist Learning with Adaptive Rule Induction
+ON-line)
+ Une approche d’entrée de jeu mixte :
+ symboliste et connexionniste
+ bottom-up et top-down
+ Centrée sur l’apprentissage et performante dans ce type de tâches
+ Importance de la représentation sous-symbolique
+ Distinction fondamentale et originale (vs ACT-R ou Soar) entre
+ comportements implicites process-based
+ comportements explicites rule-based
+11
+
+
+ La structure de CLARION
+ 4 sous-systèmes
+ Le sous-système action-centered (contient la mémoire procédurale) :
+ des réseaux de neurones pour l’action au niveau implicite
+ des règles d’action pour le niveau explicite
+ Le sous-système non-action-centered : gère le maintien des connaissances générales (contient la mémoire déclarative)
+ des réseaux de neurones associatifs pour le niveau implicite
+ des règles associatives pour le niveau explicite
+ Le sous-système motivationnel : motivations sous-jacentes pour perception, cognition et action
+ Des drives (low level et high level) avec des forces variables
+ Le sous-système métacognitif : gère et modifie les autres systèmes
+ Établit les buts (pour les action-centered)
+ Établit les paramètres pour les systèmes action-centered et non-action-centered et peut changer leurs procédures
+12
+
+
+ L’architecture CLARION 13
+
+
+ L’architecture SPAUN
+ Chris Eliasmith : Semantic Pointer Architecture Unified Network (2013)
+ Rendre l’architecture la plus conforme possible à notre connaissance
+de la nature et du fonctionnement d’un cerveau
+ Un cerveau artificiel : avec potentiels d’action et neurotransmetteurs
+ Un cerveau est un organe sensorimoteur qui fait le lien entre le sensoriel
+et le moteur par le pointage sémantique (intègre les différents types de
+catégorisations)
+ Approche hybride : naturaliste et symboliste
+ 2,5 millions de neurones organisés en groupes fonctionnels
+ Mais lenteur : chaque seconde biologique requiert 2 heures de
+traitement informatique
+ SPAUN simule bien le traitement humain de l’information (y compris les
+faiblesses), mais est faible pour l’apprentissage
+14
+
+
+ L’architecture du semantic pointer
+15
+
+
+ L’architecture LEABRA
+ Learning, error-based and associative, biologically-realistic algorithm
+ Développée à University of Colorado par l’équipe de O’Reilly,
+Munakata, Frank & Hazy (2016)
+ Se veut conforme à l’état de nos connaissances en neuroscience
+ 3 niveaux de structuration relativement conforme à nos connaissances
+neuroscientifiques :
+ Niveau micro : poids pour les connexions entre neurones et fonctions
+d’activation au sein de chaque neurone
+ Niveau méso : équilibre entre apprentissage associatif hebbien et
+apprentissage symbolique par essais et erreurs
+ Apprentissage par inhibition ou renforcement de connexions
+ Niveau macro : interactions entre cortex postérieur (sensation), hippocampe
+(mémoire épisodique), ganglions de la base (émotion dans l’amygdale...)
+et frontal (moteur, décision)
+16
+
+
+ La structure macro de LEABRA
+17
+
+
+ Principaux avantages de LEABRA
+ Meilleure implémentation des rôles respectifs des différentes mémoires à long
+terme et de leur fonctionnement :
+ Procédurale, épisodique et sémantique
+ Procédurale : savoir-faire, modale, apprentissage graduel par conditionnement et
+habituation, habituellement inconsciente
+ Épisodique : savoir déclaratif d’événements, modale, apprentissage instantané par
+associations, habituellement consciente
+ Sémantique : savoir déclaratif de faits et de connaissances, amodale, apprentissage
+graduel propositionnel, consciente
+ Meilleure implémentation des différentes procédures d’apprentissage
+ Hippocampe : apprentissage rapide automatique par association par réseaux de
+neurones
+ Néocortex : apprentissage lent, séquentiel, error-based, avec raisonnement, par
+système de symboles
+18
+
+
+ Quelques distinctions fondamentales entre les
+architectures
+ ACT-R
+ Différence entre mémoires procédurales et déclaratives
+ Soar
+ Mémoire sémantique et mémoire épisodique distinctes
+ Mémoire de travail comme espace d’interaction entre les modules
+ CLARION vs ACT-R ou Soar
+ Architecture d’emblée hybride
+ Dualité de l’esprit : différence entre procédures implicites (réseaux de neurones) et règles explicites (programmes
+symboliques) et entre action et acquisition de connaissances
+ Une troisième dualité : un module motivationnel et un module métacognitif
+ SPAUN vs les précédents
+ Architecture nettement inspirée du cerveau humain
+ Le pointage sémantique comme traitement de l’information entre la perception et l’action
+ LEABRA vs les précédents
+ Vraisemblance micro, méso et macro
+ Implémentation des différentes mémoires et des différents types d’apprentissages qui leur sont associés
+19
+
+
+ Conclusions sur les architectures cognitives
+ Implémentation progressive des résultats des sciences cognitives et, ensuite, des neurosciences
+ La mémoire et le raisonnement ont été implémentés en premier (symbolique), l’apprentissage a suivi
+ Quelques composantes plus difficiles à implémenter
+ 1) L’émotion et 2) la créativité
+ Toutes les deux sont davantage prises en considération par CLARION (module motivationnel et module métacognitif, dualité action et acquisition de connaissances) SPAUN et LEABRA
+ 3) Le réalisme biologique, mais assumé un peu par CLARION et davantage par SPAUN et LEABRA
+ Les architectures cognitives permettent de
+ Raviver le rêve de l’IA forte
+ Tester les théories cognitives en les implémentant (sans les problèmes éthiques de l’expérimentation avec des sujets humains)
+ Rapprocher la programmation des résultats des neurosciences (CLARION, SPAUN et LEABRA)
+ Aider à voir les limites des approches symbolistes et des approches naturalistes et à dépasser cette opposition (du sensoriel au symbolique au moteur, avec feedback, CLARION, SPAUN et LEABRA)
+ Améliorer l’intelligence artificielle (la rendre plus proche des performances humaines) en comprenant de mieux en mieux les composantes de la cognition, leur fonctionnement et leurs interactions
+20
+
+
+ Conclusions générales sur les sciences
+cognitives et l’intelligence artificielle
+ La 1ère génération
+ La cognition est symbolique et ne représente pas le sub-symbolique
+ Tout le traitement des symboles est explicite (par la catégorisation et le raisonnement)
+ Le système a une productivité infinie, mais faible pour l’apprentissage (apprentissage restreint par
+des règles d’inférence non monotones)
+ Améliorations progressives par flexibilisations : 1) logique classique ; 2) le raisonnement non
+monotone (créatif) 3) les logiques non classiques (voir logiques floues ou probabilitaires)
+ La 2e génération
+ La cognition est d’abord sensori-motrice (sub-symbolique) et, par émergence, elle peut devenir
+symbolique
+ Réseaux de neurones : beaucoup du traitement de l’information est inaccessible (couches
+cachées) ; peut apprendre par petites modifications des poids des connexions (avec beaucoup de
+flexibilité, mais absence de représentation des mécanismes de cet apprentissage)
+ D’autres approches naturalistes : algorithmes génétiques, systèmes dynamiques, systèmes multi
+agents
+ L’avenir des SC et de l’IA est dans le dépassement de l’opposition entre les approches
+symbolistes et les approches naturalistes (voir les premiers efforts en ce sens dans CLARION,
+SPAUN et LEABRA)
+21
+
+
+ Références de base sur les architectures
+ Pour ACT-R :
+ Anderson, J. R. (2007) How Can the Human Mind Occur in the Physical Universe?, Oxford University
+Press.
+ Pour Soar :
+ Newell, A. (1990) Unified Theories of Cognition, Harvard University Press.
+ Laird, J. E. (2012) The Soar Cognitive Architecture, MIT Press.
+ Pour Clarion :
+ Sun, R. (2002) Duality of the Mind, Lawrence Erlbaum Associates.
+ Sun, R. (2016) Anatomy of the Mind: Exploring Psychological Mechanisms and Processes with the
+Clarion Cognitive Architecture, Oxford University Press.
+ Pour SPAUN :
+ Eliasmith, C. (2013) How to Build a Brain: A Neural Architecture for Biological Cognition, Oxford
+University Press.
+ Pour LEABRA :
+ O’Reilly, R. C., Munakata, Y., Frank, M. J. & Hazy, T. E. (2016) Computational Cognitive Neuroscience,
+Wiki Book.
+22

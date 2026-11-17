@@ -1,0 +1,121 @@
+Cette thèse de doctorat aborde des enjeux fondamen-
+taux à l’intersection de l’intelligence artificielle, de la
+société et de l’éthique, en examinant quatre questions
+structurantes.
+Premièrement, elle explore le concept
+d’**interprétabilité des modèles d’apprentissage
+automatique**. Face à la complexité croissante des
+algorithmes dits "boîtes noires", l’interprétabilité n’est
+plus une option mais une nécessité, particulièrement
+dans des domaines sensibles comme la santé ou la
+justice. En nous basant sur les travaux de Doran et al.
+(2017) et Burkart and Huber (2021), nous définissons
+ce concept multidimensionnel, analysons ses enjeux
+éthiques et pratiques, et disséquons les forces et
+faiblesses des principales méthodes techniques (e.g.,
+LIME, SHAP), soulignant les compromis inhérents
+entre fidélité, intelligibilité et complexité.
+Deuxièmement, la thèse se penche sur les **systèmes
+de recommandation**, devenus omniprésents dans
+l’écosystème numérique. À partir des études de Ko et al.
+(2022) et Koren and Bell (2011), nous présentons une
+taxonomie des techniques existantes avant de comparer
+en profondeur deux approches paradigmatiques : le fil-
+trage basé sur le contenu et le filtrage collaboratif par
+factorisation de matrices. L’analyse met en lumière leur
+complémentarité, le premier offrant l’explicabilité et
+une solution au démarrage à froid des items, le second
+une précision et une capacité de découverte supérieures,
+au prix d’une opacité accrue et d’une sensibilité au
+manque de données.
+Troisièmement, nous abordons une question cognitive
+fondamentale en établissant un parallèle critique entre
+les **algorithmes de personnalisation et le phénomène
+bureaucratique**. En mobilisant les théories de Max
+Weber sur la rationalité et la "cage de fer" (Weber,
+1922; Serpa and Ferreira, 2019) et la critique de Da-
+vid Graeber sur la "stupidité structurelle" et la violence
+symbolique (Graeber, 2015), nous soutenons que les
+algorithmes ne sont pas une rupture mais une intensi-
+fication, une privatisation et une automatisation de la
+logique bureaucratique. La "cage de fer" wébérienne
+se métamorphose en une "boîte noire" algorithmique,
+posant une crise de redevabilité (*accountability*) et
+reconfigurant les dynamiques de pouvoir et de contrôle
+social.
+Enfin, la quatrième partie propose des cadres d’action
+pour instiller la **responsabilité dans la pratique**.
+Face aux logiques prédatrices que ces systèmes peuvent
+engendrer, nous esquissons une méthodologie d’inter-
+vention éthique pour leur modification, ancrée dans les
+principes de la Déclaration de Montréal pour une IA
+responsable. Puis, inspirés par le processus collabo-
+ratif du Biosphere Code (Bio, 2015), nous formulons
+les principes et la structure d’un code de déontologie
+pour les concepteurs, conçu comme un outil culturel
+pour naviguer les rapports de force organisationnels et
+cultiver une responsabilité partagée, au-delà de la seule
+imputabilité individuelle (Neuer, 2018).
+En conclusion, cette thèse soutient que les défis po-
+sés par l’IA moderne sont de nature socio-technique et
+exigent des réponses qui transcendent la seule ingénierie. 
+Elle appelle à une gouvernance plus démocratique
+et éthique de ces nouvelles formes de pouvoir algorith-
+mique.
+Mots-clés : Interprétabilité de l’IA (XAI), Systèmes de
+Recommandation, Filtrage Collaboratif, Bureaucratie
+Algorithmique, Max Weber, David Graeber, Éthique de
+l’IA, Responsabilité Algorithmique, Code de Déontolo-
+gie.
+
+
+Première partie
+Introduction et Contexte
+Général
+Introduction Générale
+1 La Révolution Silencieuse de
+l’Apprentissage Automatique
+L’aube du XXIe siècle est marquée par une transformation
+technologique aussi profonde que silencieuse : l’avènement
+de l’apprentissage automatique (AA) comme force motrice
+de l’innovation et de l’organisation sociale. Des diagnostics
+médicaux assistés par ordinateur à la gestion des chaînes lo-
+gistiques mondiales, de la conduite de véhicules autonomes
+à la curation personnalisée de nos flux d’information, les
+algorithmes d’AA ne sont plus des curiosités de laboratoire.
+Ils constituent une nouvelle infrastructure invisible qui mé-
+diatise une part croissante de nos interactions avec le monde,
+nos institutions et autrui.
+Cette révolution repose sur une idée d’une simplicité trom-
+peuse : la capacité des machines à apprendre des patterns
+à partir de données, sans être explicitement programmées
+pour chaque tâche spécifique. Cette capacité a débloqué des
+performances prédictives et décisionnelles sans précédent,
+en particulier avec l’émergence des modèles d’apprentissage
+profond (deep learning). Cependant, cette puissance s’est
+acquise au prix d’une complexité exponentielle. Les architec-
+tures de réseaux de neurones profonds, avec leurs millions,
+voire milliards de paramètres, fonctionnent souvent comme
+des boîtes noires (black boxes) : leurs mécanismes internes,
+qui transforment une entrée (par exemple, une image) en
+une sortie (par exemple, un diagnostic), sont si complexes
+qu’ils défient l’intuition et l’analyse humaine directe.
+2 La Crise de la Boîte Noire : Confiance,
+Responsabilité et Pouvoir
+Cette opacité n’est pas un simple défi technique; elle
+engendre une véritable crise conceptuelle et sociétale. Com-
+ment pouvons-nous faire confiance à un système dont nous
+ne comprenons pas le raisonnement ? Comment attribuer la
+responsabilité en cas d’erreur ou de décision préjudiciable ?
+Comment s’assurer que ces systèmes, déployés à grande
+échelle, ne perpétuent pas ou n’amplifient pas les biais et les
+injustices existants dans nos sociétés ?
+Ces questions sont au cœur de cette thèse. Elles nous
+obligent à dépasser une vision purement instrumentaliste
+de la technologie pour l’examiner comme un phénomène
+social et politique, porteur de nouvelles logiques de pouvoir
+et de contrôle. La "boîte noire" n’est pas seulement opaque,
+elle est puissante. Elle classifie, elle trie, elle recommande,
+elle décide et, qui plus est, l’un des enjeux cen-
+traux de notre époque est qu’il devient « impossible pour un
+individu de mettre en doute une décision automatique prise

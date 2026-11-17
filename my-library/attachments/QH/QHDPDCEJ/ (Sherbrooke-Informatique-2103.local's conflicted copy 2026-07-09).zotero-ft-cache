@@ -1,0 +1,551 @@
+DIC-9001
+Semaines 12 et 13
+La modélisation de la signification
+sociale par la théorie des
+jeux/processus bayésiens
+PAR ELIZABETH SMITH
+UNIVERSITÉ DU QUÉBEC À MONTRÉAL
+
+
+ DIAPOSITIVES D’UN COURS DONNÉ CONJOINTEMENT AVEC HEATHER
+BURNETT LORS DE L’ÉCOLE D’ÉTÉ EN LOGIQUE, LANGAGE, ET
+INFORMATIQUE (ESSLLI, 2018)
+
+
+ What is Game Theory?
+Game theory is a mathematical formalism for describing situations of strategic interaction.
+I Since at least the late 1970s it has been possible to say with confidence that game theory is the most important and useful tool in the analyst’s kit whenever she confronts situations in which what counts as one agent’s best action (for her) depends on expectations about what one or more other agents [might] do, and what counts as their best actions (for them) similarly depend on expectations about her.
+Ross, Don. (2016, Winter update) “Game Theory.” The Stanford Encyclopedia of Philosophy. Edward N. Zalta (ed.) http://plato.stanford.edu/entries/game-theory/.
+
+
+ Game Theory Basics
+Basic components of a game (see Osborne and Rubinstein, 1994)
+I There are (at least) two players.
+I The players interact and the interaction results in a particular outcome.
+I The outcome of the interaction depends on the choice of strategy of each player.
+I Each player has a preference ordering over outcomes.
+I Preferences are usually encoded as numerical values (utilities or payoffs) that are assigned to possible outcomes (u).
+
+
+ Game theory and sociolinguistics
+Social Meaning Games (SMGs)
+A new framework for the analysis of the social/strategic aspect of sociolinguistic variation.
+I Remarks have been made (eg. Goffman (1967); Clark (2014); Dror et al. (2013)) about the potential usefulness of game theory in the analysis of the meaning of variable linguistic phenomena.
+I A general framework uniting quantitative variationist sociolinguistics and game theoretic pragmatics has yet to be developed.
+
+
+ Prisoner’s dilemma
+I Two suspects in a major crime are held in separate cells. There is enough evidence to convict each of them of a minor offense, but not enough evidence to convict either of them of the major crime unless one of them acts as an informer against the other (confess).
+I If they both stay quiet (deny), each will be convicted of the minor offense and spend one year in prison.
+I If one and only one of them confesses, she will be freed and used as a witness against the other, who will spend four years in prison. If they both confess, each will spend three years in prison.
+
+
+ Strategic game (with ordinal preferences)
+1. a set of players (N = {p1, . . . pn}).
+2. for each player, a set of actions (hA1, . . . Ani).
+3. for each player, preferences over the set of action profiles (A1 ⇥ . . . ⇥ An).
+Action profiles
+Tuples of all possible combinations of individual choices.
+I For two players i, j, with two sets of actions Ai , Aj , this games action profiles are Ai ⇥ Aj .
+I So u(hai , aj i) = n for some n 2 N.
+
+
+ Strategic game
+I Players: N = {player 1, player 2}
+I A = {confess, deny}
+I Preferences over action profiles: {u1, u2}
+(16) Constraints on us
+a. u1(confess, deny) > u1(deny, deny) > u1(confess, confess) > u1(deny, confess) b. u2(deny, confess) > u2(deny, deny) > u2(confess, confess) > u2(confess, deny)
+
+
+ Solution Concept
+This game is really just a model of the situation and does not specify what the agents in fact do, (or should do, if we are being prescriptive).
+Solution concept
+An algorithm that specifies how the game is/should be played.
+I Specifies the idealized behavior of agents in the situation that is modelled by the game.
+
+
+ Nash equilibrium
+An action profile a* with the property that no player i can do better by choosing an action different from ai⇤ , given that every
+other player j adheres to aj⇤.
+(17) an action profile a⇤ such that for all i 2 N there is no ai 2 Ai for which
+(a⇤ i , ai ) i a⇤)
+(a⇤ i , ai ) is the tuple that results from replacing the i-th
+component of a⇤ with ai .
+
+
+ Prisoner’s Dilemma
+The action pair (confess, confess) is a Nash equilibrium because
+I given that player 2 chooses confess, player 1 is better off choosing confess than deny.
+I given that player 1 chooses confess, player 2 is better off choosing confess than deny.
+No other action profile is a Nash equilibrium.
+
+
+ Beyond sounds (code switching)
+Woolard (1989, 2009); Woolard and Gahng (1990)
+The social meaning of Catalan vs Castilian in Barcelona (1983-2007).
+I Under Franco, the Catalan language was repressed in Catalonia, with Castilian being the sole language of government and education.
+I After Franco’s death, Catalonia became autonomous and officially bilingual.
+I Aggressive policies making Catalan the language of government and education.
+
+
+ Meaning and change
+Change in meaning correlates with change in use
+I Habitual use of Catalan by native born Catalonians rises to 65.3% in 2012 (Gov. Catalonia, 2013).
+I Much more use by young native Castilian speakers (Woolard, 2009, 2016).
+I ‘Severing’ of the link between language and ethnicity in Catalonia.
+
+
+ Social meaning and code-switching
+(Woolard and Gahng, 1990): Ethnically (bilingual) Castilian speakers in 1980s Catalonia.
+I Players = {Castilian speaker 1, Castilian speaker 2}
+I A = {speak Castilian, speak Catalan}
+I Preferences over action profiles = {u1, u2}
+
+
+ Payoff functions for 1980s Catalonia
+For Castilian speakers speaking to Castilian speakers:
+I Speaking Catalan makes you sound more intelligent, competent etc. than speaking Castilian. I +1 for Catalan; -1 for Castilian.
+I Speaking Catalan makes you sound less likeable, attractive etc. than speaking Castilian. I -1 for Catalan; +1 for Castilian.
+
+
+ Sample payoff functions
+Catalan Castilian Catalan 0,0 0,0 Castilian 0,0 0,0
+4 equilibria
+If you grew up speaking Castilian, there is no motivation to change.
+
+
+ Payoff functions for 2000s Catalonia
+For Castilian speakers speaking to Castilian speakers:
+I Speaking Catalan makes you sound more intelligent, competent etc. than speaking Castilian. I +1 for Catalan; -1 for Castilian.
+I No difference in solidarity/likeability for speaking Castilian/Catalan.
+
+
+ Sample payoff functions
+Catalan Castilian Catalan 1,1 1,0 Castilian 0,1 0,0
+1 equilibrium: Catalan
+Switching to Catalan is always the best strategy.
+I Beginning of a meaning-based model of the spread of Catalan in Barcelona.
+
+
+ Iterated Best Response Models
+A family of similar approaches which formalize Gricean reasoning (Grice, 1975) (particularly quantity and quality) using signalling games and a solution concept based on iterated reasoning (Franke, 2009; Frank and Goodman, 2012; Goodman and Stuhlmüller, 2013; Lassiter and Goodman, 2015; Degen et al., 2015; Bergen et al., 2016; Franke and Jäger, 2016, among many others).
+Today’s presentation
+Following the Rational Speech Act model (Frank and Goodman, 2012).
+
+
+ Quantity implicatures
+(3) a. Mary ate some of the cookies. b. ; Mary did not eat all of the cookies.
+Reasons to think that (3-b) is not encoded into the meaning of some
+(4) a. If you eat some of the cookies, I’ll be angry. 6; If you eat some but not all of the cookies, I’ll be angry.
+b. Did you eat some of the cookies? 6; Did you eat some but not all of the cookies?
+
+
+ Signalling game (RSA-style)
+An RSA-style signalling game is a tuple h{S, L}, W, M, J·K, C, Pr i:
+1. S, L are the players.
+2. W is a set of possible worlds.
+3. M is the set of messages.
+4. J·K is an interpretation function assigning a set of possible worlds to each message.
+5. C is the set of message costs.
+6. Pr is a probability distribution over worlds representing the listener’s prior beliefs before hearing a message.
+
+
+ Models of what?
+If we are modelling listener behaviour (Interpretation):
+I Pr represents L’s beliefs.
+If we are modelling speaker behaviour (Production):
+I Pr represents S’s hypothesis concerning L’s prior beliefs.
+If we are modelling interaction (Evolution):
+I Pr represents L’s prior beliefs and is usually common knowledge.
+
+
+ The scenario
+S and L baked three cookies, and then, while L was out, Mary stopped by and possibly ate some of them. Suppose that L calls the house and wants to know how many of the cookies Mary ate. What should S say and how should L understand what S says to them?
+Possible World Description w0 Mary ate 0 cookies w1 Mary ate 1 cookie w2 Mary ate 2 cookies w3 Mary ate 3 cookies
+Table: Universe (W) in cookie example
+
+
+ Messages
+Short name message JmessageK NONE Mary ate none of the cookies {w0} SOME Mary ate some of the cookies {w1, w2, w3} ALL Mary ate all of the cookies {w3}
+Table: Messages in cookie example
+
+
+ Prior beliefs
+Suppose L has no prior expectations about how many cookies Mary ate.
+I Pr is uniform over the set of possible worlds.
+w0 w1 w2 w3 0.25 0.25 0.25 0.25
+Table: L has uniform prior beliefs (Pr(w)).
+
+
+ Formalization of Quality Maxim
+When they hears a message m, L restricts their attention to the worlds in which m is true.
+I L conditions on JmK: intersection followed by renormalization of the measure.
+Message w0 w1 w2 w3 NONE 1 0 0 0 ALL 0 0 0 1 SOME 0 0.  ̇3 0.  ̇3 0.  ̇3
+Table: L’s beliefs immediately after hearing m (Pr(w|m)).
+
+
+ Formalization of Quantity Maxim
+Coordination (i.e. communication) occurs because speakers try to say the most informative statement possible. And listeners know this.
+I Informativity is encoded as part of speaker’s utility function (US).
+I (Frank and Goodman, 2012, et seq.): The informativity of m is its negative surprisal (positive natural log probability (Shannon, 1948)) of the prior conditioned on the truth of the message.
+(6) US(m, w) = ln(Pr (w|m)) C(m)
+Costs as linguistic factors
+Costs can encode grammatical/psychological constraints on utterances (length, markedness etc.).
+I We will ignore C(m) in this quick demonstration.
+
+
+ Speaker Utility
+Message w0 w1 w2 w3 NONE 0 • • • ALL • • • 0 SOME • 0.108 0.108 0.108
+Table: S’s utility for m for communicating w (US(w, m)).
+If we are in w2 (two of three cookies eaten):
+(7) a. US(w2, SOME) = ln(0.  ̇3) = 0.1081748095 b. US(w2, NONE) = ln(0) = • c. US(w2, ALL) = ln(0) = •
+
+
+ Predicting linguistic production
+Hypothesis: Agents are approximately rational
+1. Rationality: They are trying to maximize utility.
+2. Approximately: They may not always pick the optimal action.
+I Computation can be impeded by time/resource constraints.
+To account for variability in action selection:
+Soft-Max Choice (Luce, 1959; Sutton and Barto, 1998)
+For a world w, a message m and a value a (the temperature).
+PS(m|w ) = exp(a ⇥ US(w , m))
+Âm02M exp(a ⇥ US(w , m0))
+I a introduces some non-determinacy into the model.
+
+
+ Quantitative predictions for language use
+When a = •, S picks the message with the highest utility 100% of the time. Anything lower will predict some variability.
+I When modelling actual quantitative studies, the value for a that best fits the observed data can be estimated (as in Goodman and Stuhlmüller, 2013; Franke and Degen, 2016).
+Figure: Predictions for ALL, SOME, NONE communicating w3, by a
+
+
+ Quantitative Predictions for Language Use
+Message w0 w1 w2 w3 NONE 1 0 0 0 ALL 0 0 0 0.99 SOME 0 1 1 0.01 Prediction Cat. NONE Cat. SOME Cat. SOME Favored ALL
+Table: S’s predicted use of m, given w with a = 10 (PS(m|w)).
+
+
+ Fundamental Interpretation Rule: Bayesian inference
+Humans draw a conclusion B after having observed event A (P(B|A)) through combining:
+1. How likely they think A is to indicate B (P(A|B)).
+2. How likely they thought B was to begin with (Pr(B)).
+Bayes rule
+(8) P(Bi |A) = Pr(Bi )⇥P(A|Bi )
+Â|B|
+j=1 Pr (Bj )⇥P(A|Bj )
+(9) P(B|A) μ Pr (B) ⇥ P(A|B)
+
+
+ Quantitative Predictions for Language Interpretation
+Interpretation as Bayesian Inference
+PL(w |m) = Pr (w)⇥PS(m|w)
+Âw0 Pr (m|w 0)⇥PS (m|w 0)
+Message w0 w1 w2 w3 PREDICTION NONE 1 0 0 0 Categorical w0 ALL 0 0 0 1 Categorical w3 SOME 0 0.498 0.498 0.005 Favoured w1, w2
+Table: L’s predicted interpretation of w, given m (PL(w|m)).
+
+
+ Heavily Weighted Priors
+Suppose that L knows that Mary usually likes to have two cookies for her dessert.
+w0 w1 w2 w3 0.1 0.1 0.7 0.1
+Table: L’s priors heavily weighted on w2.
+Prior beliefs influence interpretation
+L’s interpretation probabilities change.
+I L’s probability of interpreting w2 after SOME is now 0.87 from 0.498.
+
+
+ Summary
+Bayesian game-theoretic models provide a framework for:
+1. Formalizing pragmatic theories (in this case Gricean pragmatics).
+2. Making both qualitative and quantitative predictions about (possibly variable) language use and interpretation.
+3. Capturing interactive co-construction of meaning (in this case truth-conditional).
+I The inference (10-b) arises as a product of coordination between the speaker and listener.
+(10) a. Mary ate some of the cookies. b. ; Mary didn’t eat all of the cookies.
+4. Capturing the contribution that speaker/listener prior beliefs make to pragmatic interpretation.
+
+
+ Perspective of this course
+Given that game theoretic models already exist for some kinds of pragmatic phenomena, we ask:
+What if social meaning and pragmatic meaning involve the same inference-making process?
+There exist fundamental similarities between (14) and (15).
+(14) I’m work[in] on my paper. ; The speaker is friendly. Social implicature
+(15) Milou ate some of the cookies. ; Milou ate some but not all of the cookies. Quantity implicature
+
+
+ What is social meaning?
+A first definition. . .
+Information encoded in pronunciations, morphemes, words or constructions that expresses aspects of the speakers’ properties, stances and identities.
+
+
+ First examples: Expressives
+(1) T-V distinction
+a. Je peux vous aider? b. Je peux t’aider? ‘Can I help you?’ (also honorifics)
+(2) Swear words
+a. Mike Tyson won another fight. (McCready, 2012) b. Fucking Mike Tyson won another fight. He’s wonderful. c. Fucking Mike Tyson got arrested again for domestic violence.
+
+
+ First examples: Discourse particles
+(3) Terms of address
+a. What are we doing tonight? (Kiesling, 2004) b. Dude, what are we doing tonight? c. Babe, what are we doing tonight?
+(4) Discourse like
+a. What are we doing tonight? b. Like, what are we doing tonight?
+
+
+ Functional categories
+(5) Optional determiners (Acton, 2014)
+a. Americans love cars. b. The Americans love cars.
+(6) Grammatical gender (Burnett and Bonami, 2017)
+a. La parole est à Madame le ministre. Masculine b. La parole est à Madame la ministre. Feminine
+(7) Intensifiers (Beltrama and Staum Casasanto, 2017)
+a. John is really tall. b. John is totally tall.
+
+
+ First examples: Sociophonetic variables
+(8) (ING)
+a. I’m working on my paper. [i ] b. I’m workin’ on my paper. [in]
+(9) /t/ release
+a. We should mee[th]. released ‘t’ b. We should mee[t]. unreleased ‘t’
+(10) Creaky voice
+a. Oh my god. modal voice b. Oh my god. . . creak
+
+
+ Social Meaning as Pragmatic Enrichment
+(11) (ING)
+a. I’m working on my paper. [i ] b. I’m workin’ on my paper. [in]
+I From (11-a), we conclude the speaker is working on their paper. I We infer something additional. . .
+I From (11-b), we conclude the speaker is working on their paper. I We infer something additional. . .
+
+
+ Social meaning has been extensively studied:
+I In linguistic anthropology and socio-cultural linguistics (see Bucholtz and Hall, 2005, 2008, for reviews).
+I In variationist (quantitative) sociolinguistics (Labov, 1963), especially within the Third Wave approach (Eckert, 2000, 2012).
+I In formal semantics/pragmatics (Kaplan, 1999; Potts, 2005; McCready, 2004; Smith et al., 2010; Acton, 2014; Beltrama, 2016; Burnett, 2017) (also: the papers at the IASM workshop next week!).
+
+
+ Diagnosing social meaning: variation
+We can also observe social meaning differences through studies of socially conditioned variation:
+1. Style shifting: Intra-speaker differences in use based on social situation.
+2. Social stratification: Inter-speaker differences in use based on social group.
+If we find differences in how people in different social contexts and of different social groups use variants, there must be some (possibly slight) meaning difference between them that makes speakers in one context/social group to prefer one variant over another.
+
+
+ Style Shifting (Intra-Speaker Variation)
+(Labov, 2012, 22) finds significant differences in President Obama’s use of (ING) across three contexts.
+I Casual: BBQing at a Father’s Day BBQ on the White House lawn (72% -in’).
+I Careful: Answering political questions after the BBQ (33% -in’).
+I Formal: Scripted acceptance speech at the DNC (3% -in’).
+
+
+ Obama’s Use of (ING) (Labov, 2012)
+
+
+ Summary
+I Listeners draw inferences about the properties that characterize the speaker based on their language use. I These inferences play a role in determining which variants speakers’ chose. I Phonological variants have identity constructing functions. I Morpho-syntactic and lexical variants also have identity constructing functions.
+
+
+ Social meaning games (Burnett, 2017b)
+1. The speaker (S) has a persona (an identity/social type) that they wish to communicate to the listener (L). (Where does the persona come from?)
+2. S chooses a variant with which to signal their persona to L.
+3. Variants are related to indexical fields (sets of properties).
+4. L chooses a persona to attribute to S based on their prior beliefs about S and the variants’ indexical field.
+
+
+ Social Meaning Game
+I S and L are the players.
+I P = {p1, . . . , pn} is a finite set of properties.
+I > is a relation on P that encodes antonymy.
+Example: Obama across 3 contexts
+P = {competent, incompetent, friendly, aloof}
+(11) a. competent > incompetent b. friendly > aloof
+I The universe could be enriched with additional ideological structure. . .
+
+
+ Personae
+Third Wave Variation Theory focuses on how variants combine together (styles), which construct particular social types (personae) (see Podesva, 2004; Eckert, 2008; Zhang, 2008, among many others).
+I Possible personae are collections of properties that go together.
+The personae are the set of largest consistent sets of properties.
+Persona Nickname {competent, friendly} ‘cool guy/gal’ {competent, aloof} ‘stern leader’ {incompetent, friendly} ‘doofus’ {incomptent, aloof} ‘arrogant asshole’
+Table: Universe in Obama example
+
+
+ Messages
+I M = {m1, . . . , mn} is the set of messages (i.e. variants) that S can pick from.
+Today’s Example
+M = {-ing, -in’}
+
+
+ Indexation and Indexical Fields
+In Third Wave variation theory, individual variants have meaning that goes beyond their truth conditional meaning.
+I Variants index sets of properties, called their indexical field (Eckert, 2008).
+Variant Eckert field -ing {competent, aloof} -in’ {incompetent, friendly}
+
+
+ Eckert-Montague Fields
+I In the spirit of Montague (1973), we can also look at indexical fields through the personae that they have the potential to construct.
+Variant Eckert field Eckert-Montague field -ing {competent, aloof} {comp., aloof}, {comp., friend.}, {incomp., aloof} -in’ {incompetent, friendly} {incomp., friend}, {comp., friend}, {incomp., aloof}
+Table: Messages in Obama example
+
+
+ Obama at the BBQ
+Suppose Obama wants to be perceived as the cool guy at the barbecue.
+I He wants to construct the {competent, friendly} persona.
+
+
+ Listener prior beliefs
+Obama at the BBQ
+Obama is worried about coming off as too aloof (since he is the president).
+stern leader cool guy asshole doofus {comp, aloof} {comp, friend} {incomp, aloof} {incomp, friend} 0.30 0.20 0.30 0.20
+Table: Obama worries about seeming aloof.
+
+
+ Contribution of Indexical Fields
+When they hear a variant, L focuses their attention to the personae in the (Eckert-Montague) fields.
+I L conditions on JmK: intersection followed by renormalization of the measure.
+stern leader cool guy asshole doofus m {comp, aloof} {comp, frien} {incomp, aloof} {incomp, frien} -ing 0.375 0.25 0.375 0 -in’ 0 0.286 0.428 0.286
+Table: L’s beliefs immediately after hearing m (Pr(P|m)).
+
+
+ Speaker Utility as Informativity - Costs
+(12) US(m, P) = ln(Pr (P|m)) Cost(m) RSA utility function
+In a nutshell
+1. The speaker tries to give the listener the most information possible about their persona.
+2. The listener assumes that the speaker is (un)intentionally giving them the most information possible about S’s persona.
+
+
+ Obama at the BBQ (predictions)
+I We obtain the speaker’s probability distribution over variants through the Soft-max choice rule (based on US and a).
+Suppose a = 6.
+I PObama(-ing| {competent, friendly}) ⇡ 0.31.
+I PObama(-in’| {competent, friendly}) ⇡ 0.69.
+
+
+ Obama after the BBQ
+Suppose Obama is worried about coming off as incompetent when answering questions after the BBQ.
+stern leader cool guy/gal asshole doofus {comp, aloof} {comp, friend} {incomp, aloof} {incomp, friend} 0.20 0.20 0.30 0.30
+Table: Obama worries about seeming incompetent.
+
+
+ Obama after the BBQ (predictions)
+Suppose a = 6.
+I PObama(-ing| {competent, friendly}) ⇡ 0.69.
+I PObama(-in’| {competent, friendly}) ⇡ 0.31.
+
+
+ Obama in front of Congress
+Suppose Obama wants to be perceived as the stern leader in front of Congress.
+I He wants to construct the {competent, aloof} persona.
+Predictions I PObama(-ing| {competent, aloof}) = 1.
+I PObama(-in’| {competent, aloof}) = 0.
+
+
+ Summary
+Bayesian game-theoretic models provide a framework for:
+1. Formalizing sociolinguistic theories (in this case Third Wave variation theory (Eckert, 2000, 2008, 2012)).
+2. Making both qualitative and quantitative predictions about (possibly variable) language use and interpretation.
+3. Capturing interactive co-construction of meaning (in this case social).
+I The inference (13-b) arises as a product of coordination between the speaker and listener.
+(13) a. I have been work[in] on my paper. b. ; The speaker is friendly.
+4. Capturing the contribution that speaker/listener prior beliefs make to social interpretation.
+
+
+ Bibliographie 1
+u Acton, E. K. (2014). Pragmatics and the social meaning of determiners. PhD thesis, Stanford University.
+u Bell, A. (1984). Language style as audience design. Language in society, 13(02):145–204.
+u Beltrama, A. (2016). Bridging the gap. Intensifiers between semantic and social meaning. PhD thesis, University of Chicago.
+u Beltrama, A. and Staum Casasanto, L. (2017). Totally tall sounds totally younger: Intensification at thesocio-semantics interface. Journal of Sociolinguistics, 21(2):154–182.
+u Bergen, L., Levy, R., and Goodman, N. D. (2016). Pragmatic reasoning through semantic inference. Semantics &Pragmatics.
+u Bourdieu, P. (1979). La distinction: critique sociale du jugement. Les éditions de minuit, Paris.
+u Bourdieu, P. and Passeron, J.-C. (1970). La reproduction: Éléments pour une théorie du système d’enseignement. Les éditions de minuit, Paris.
+u Bucholtz, M. (1996). Geek the girl: Language, femininity, and female nerds. Gender and belief systems, pages 119–132.
+u Bucholtz, M. and Hall, K. (2005). Identity and interaction: A sociocultural linguistic approach. Discourse studies, 7(4-5):585–614.
+u Bucholtz, M. and Hall, K. (2008). All of the above: New coalitions in sociocultural linguistics. Journal of Sociolinguistics, 12(4):401–431.
+u Bunin Benor, S. (2001). The learned /t/: phonological variation in orthodox jewish english. University of Pennsylvania Working Papers in Linguistics, 7(3):2.
+
+
+ Bibliographie 2
+u Burnett, H. (2018). Signalling games, sociolinguistic variation and the construction of style. Linguistics & Philosophy.
+u Burnett, H. (2017a). Sociolinguistic interaction and identity construction: The view from game-theoretic pragmatics. Journal of Sociolinguistics, 21(2):238–271.
+u Butler, J. (1990). Gender trouble: Feminism and the subversion of identity. Routledge.
+u Campbell-Kibler, K. (2006). Listener perceptions of sociolinguistic variables: The case of (ING). PhD thesis, Stanford University.
+u Campbell-Kibler, K. (2007). Accent,(ing), and the social logic of listener perceptions. American speech, 82(1):32–64. Cheshire, J. (1982). Variation in an english dialect: A sociolinguistic study. Cambridge Studies in Linguistics, London, 37.
+u Clark, R. L. (2014). Meaningful games: Exploring language with game theory. MIT Press.
+u D’Arcy, A. F. (2005). Like: Syntax and development. PhD thesis, University of Toronto.
+u Degen, J. (2015). Investigating the distribution of some (but not all) implicatures using corpora and webbased methods. Semantics and Pragmatics, 8(11):1–55.
+u Degen, J. and Tanenhaus, M. K. (2015b). Processing scalar implicature: A constraint-based approach. Cognitive science, 39(4):667–710.
+u Degen, J., Tessler, M. H., and Goodman, N. D. (2015). Wonky worlds: Listeners revise world knowledge when utterances are odd. Proceedings of CogSci37.
+u Dror, M., Granot, D., and Yaeger-Dror, M. (2013). Speech variation, utility, and game theory. Language and Linguistics Compass, 7(11):561–579.
+
+
+ Bibliographie 3
+u Eckert, P. (1989). The whole woman: Sex and gender differences in variation. Language variation and change, 1(03):245–267.
+u Eckert, P. (2000). Language variation as social practice: The linguistic construction of identity in Belten High. Wiley-Blackwell.
+u Eckert, P. (2008). Variation and the indexical field. Journal of sociolinguistics, 12(4):453–476.
+u Eckert, P. (2012). Three waves of variation study: The emergence of meaning in the study of sociolinguistic variation. Annual review of Anthropology, 41:87–100.
+u Frank, M. C. and Goodman, N. D. (2012). Predicting pragmatic reasoning in language games. Science, 336(6084):998–998.
+u Franke, M. (2009). Signal to act: Game theory in pragmatics. PhD thesis, Institute for Logic, Language and Computation.
+u Franke, M. and Degen, J. (2016). Reasoning in reference games: Individual-vs. population-level probabilistic modeling. PloS one, 11(5).
+u Franke, M. and Jäger, G. (2016). Probabilistic pragmatics, or why bayes’ rule is probably important for pragmatics. Zeitschrift für Sprachwissenschaft, 35:3–44.
+u Goffman, E. (1967). Interaction ritual: essays on face-to-face interaction. Aldine.
+u Goodman, N. D. and Stuhlmüller, A. (2013). Knowledge and implicature: Modeling language understanding as social cognition. Topics in cognitive science, 5(1):173–184.
+u Gov. Catalonia (2013). Language Use of the Population of Catalonia. Catalonia Ministry of culture.
+
+
+ Bibliographie 4
+u Gratton, C. (2015). Indexin’ gender: variable (ING) and the creation of non-binary trans identities. New Ways of Analyzing Variation, 44.
+u Grice, P. (1975). Logic and conversation. Syntax and Semantics, 3:41–58.
+u van Hofwegen, J. (2017). Everyday styles: Investigating the full scope of variation in the life of an individual speaker. PhD thesis, Stanford University.
+u Houston, A. (1985). Continuity and change in English morphology: The variable (ING). PhD thesis, University of Pennsylvania.
+u Kaplan, D. (1999). The meaning of ouch and oops: Explorations in the theory of meaning as use. Manuscript, UCLA. Kiesling, S. F. (2004). Dude. American Speech, 79(3):281–305.
+u Kiesling, S. F. (2009). Style as stance. Stance: sociolinguistic perspectives, 171.
+u Labov, W. (1963). The social motivation of a sound change. Word, 19(3):273–309.
+u Labov, W. (1966). The social stratification of English in New York city. Center for Applied Linguistics.
+u Labov, W. (1972). Sociolinguistic patterns. University of Pennsylvania Press.
+u Labov, W. (2012). Dialect diversity in America: The politics of language change. University of Virginia Press.
+u Lambert, W. E. (1967). A social psychology of bilingualism. Journal of social issues, 23(2):91–109.
+u Lasersohn, P. (1999). Pragmatic halos. Language, pages 522–551.
+
+
+ Bibliographie 5
+u Lassiter, D. and Goodman, N. D. (2015). Adjectival vagueness in a bayesian model of interpretation. Synthese, pages 1–36.
+u Levinson, S. (2000). Presumptive meanings: The theory of generalized conversational implicature. MIT Press. Levon, E. (2014). Categories, stereotypes, and the linguistic perception of sexuality. Language in Society, 43(05):539–566.
+u Luce, R. D. (1959). On the possible psychophysical laws. Psychological review, 66(2):81.
+u Maddeaux, R. and Dinkin, A. (2017). Is like like like?: Evaluating the same variant across multiple variables. Linguistics Vanguard, 3(1).
+u McCready, E. (2004). Two japanese adverbials and expressive content. In Semantics and Linguistic Theory, volume 14, pages 163–178.
+u McCready, E. (2012). Emotive equilibria. Linguistics and Philosophy, pages 1–41.
+u Montague, R. (1973). The proper treatment of quantification in ordinary english. In Approaches to natural language, pages 221–242. Springer.
+u Ochs, E. (1992). Indexing gender. Rethinking context: Language as an interactive phenomenon, 11:335.
+u Ochs, E. (1993). Constructing social identity: a language socialization perspective. Research on Language and Social Interaction, 26:287–306.
+u Osborne, M. J. and Rubinstein, A. (1994). A course in game theory. MIT press.
+u Podesva, R. (2004). On constructing social meaning with stop release bursts. In Sociolinguistics Symposium, volume 15.
+
+
+ Bibliographie 6
+u Podesva, R. (2006). Phonetic detail in sociolinguistic variation: Its linguistic significance and role in the
+construction of social meaning. PhD thesis, Stanford University.
+u Podesva, R. (2007). Phonation type as a stylistic variable: The use of falsetto in constructing a persona. Journal of sociolinguistics, 11(4):478–504.
+u Podesva, R. J., Reynolds, J., Callier, P., and Baptiste, J. (2015). Constraints on the social meaning of
+released/t: A production and perception study of us politicians. Language Variation and Change,
+27(01):59–87.
+u Potts, C. (2005). The logic of conventional implicatures.
+u Shannon, C. (1948). A mathematical theory of communication. Bell System Technical Journal, 27:379
+423.
+u Siegel, M. E. (2002). Like: The discourse particle and semantics. Journal of Semantics, 19(1):35–71.
+u Silverstein, M. (1979). Language structure and linguistic ideology. The elements: A parasession on
+linguistic units and levels, pages 193–247.
+u Silverstein, M. (2003). Indexical order and the dialectics of sociolinguistic life. Language &
+Communication, 23(3):193–229.
+u Smith, E., Hall, K. C., and Munson, B. (2010). Bringing semantics to sociophonetics: Social variables and secondary entailments. Laboratory Phonology, 1(1):121–155.
+u Sperber, D. and Wilson, D. (1986). Relevance: Communication and cognition. Blackwell, Oxford.
+
+
+ Bibliographie 7
+u Sutton, R. S. and Barto, A. G. (1998). Reinforcement learning: An introduction. MIT press.
+u Tamminga, M. (2014). Persistence in the production of linguistic variation. PhD thesis, University of Pennsylvania.
+u Woolard, K. A. (1989). Double talk: Bilingualism and the politics of ethnicity in Catalonia. Stanford University Press. Woolard, K. A. (2009). Linguistic consciousness among adolescents in catalonia: A case
+study from the barcelona
+u urban area in longitudinal perspective. Zeitschrift für Katalanistik, 22.
+u Woolard, K. A. (2016). Singular and plural: Ideologies of linguistic authority in 21st century Catalonia.
+Oxford University Press.
+u Woolard, K. A. and Gahng, T.-J. (1990). Changing language policies and attitudes in autonomous
+catalonia. Language in Society, 19(3):311–330.
+u Zhang, Q. (2008). Rhotacization and the ‘beijing smooth operator’: the social meaning of a linguistic variable. Journal of Sociolinguistics, 12(2):201–222.

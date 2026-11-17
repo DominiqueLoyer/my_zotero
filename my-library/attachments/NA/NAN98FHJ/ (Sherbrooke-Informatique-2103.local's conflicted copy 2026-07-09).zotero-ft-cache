@@ -1,0 +1,1601 @@
+Algorithmes de Personnalisation, Bureaucratie Moderne et
+Encadrement Éthique : Une Analyse Socio-Technique
+(Rapport de Recherche)
+Résumé
+Ce rapport explore les intersections complexes entre les algorithmes
+de personnalisation, les théories de la bureaucratie et les impératifs
+éthiques contemporains. Face à la prolifération de systèmes
+algorithmiques qui façonnent l'expérience individuelle en ligne, cette
+analyse examine leur fonctionnement à travers le prisme de la
+bureaucratie, telle que théorisée par Max Weber et critiquée par
+David Graeber. Il est démontré que ces algorithmes incarnent une
+forme de "bureaucratie algorithmique", caractérisée par la
+rationalisation, l'application de règles impersonnelles, la
+classification à grande échelle et des mécanismes de pouvoir et
+d'opacité spécifiques. Les implications pour l'autonomie individuelle,
+l'équité et la transparence sont discutées. Face aux potentiels effets
+prédateurs de ces systèmes, le rapport propose une démarche
+méthodologique et éthique structurée pour leur modification,
+s'inspirant des principes de la Déclaration de Montréal pour une IA
+responsable. Cette démarche intègre l'identification des préjudices,
+l'analyse causale via l'explicabilité (XAI), l'évaluation éthique
+multi-principes, la conception technique de la modification, les tests
+et le suivi. Enfin, confronté aux défis de la responsabilité dans des
+systèmes complexes ("accountability gap"), le rapport esquisse les
+fondements d'un code de déontologie pour les développeurs
+d'algorithmes de personnalisation. S'inspirant du processus
+collaboratif du Biosphere Code et des cadres éthiques
+internationaux (UNESCO, OCDE), il propose une méthodologie
+d'élaboration et huit principes directeurs axés sur le bien-être,
+
+
+ l'équité, la transparence, le respect de l'autonomie et de la vie
+privée, la responsabilité, la prudence, la surveillance humaine et le
+développement professionnel continu. Le rapport conclut sur la
+nécessité d'une approche critique, réflexive et multipartite pour
+assurer une gouvernance algorithmique alignée sur les valeurs
+humaines et le bien commun.
+Table des Matières
+● (Générée automatiquement par LaTeX/Markdown)
+○ Résumé
+○ Table des Matières
+○ Introduction
+○ Problématique et Intérêt de la Recherche
+■ Justification de la Pertinence
+■ Identification des Lacunes ("Knowledge Gaps")
+■ Formulation de la Question de Recherche Globale
+○ Méthodologie : Synthèse Qualitative de la Littérature
+■ Description de l'Approche
+■ Cadres Théoriques Mobilisés
+■ Démarche d'Analyse des Sources
+○ Données : Sources Utilisées
+■ Sources Primaires (Corpus Principal)
+■ Sources Secondaires
+○ Résultats et Discussion
+■ Partie 1 : La Bureaucratie Algorithmique : Pouvoir,
+Opacité et Contrôle (Réponse Q1)
+■ 1.1. Le Modèle Wébérien de la Bureaucratie :
+Rationalité, Règles et Domination
+■ 1.2. La Critique Graebérienne : L'Utopie des Règles et
+la Violence Structurelle
+■ 1.3. Les Algorithmes de Personnalisation comme
+
+
+ Dispositifs de Contrôle
+■ 1.4. Analyse : Convergences et Divergences entre
+Bureaucratie Classique et Algorithmique
+■ 1.5. Implications pour l'Individu : Pouvoir et Opacité à
+l'Ère Algorithmique
+■ Partie 2 : Intervenir sur les Algorithmes Prédateurs :
+Cadres Méthodologiques et Éthiques (Réponse Q2)
+■ 2.1. Identifier et Évaluer les Préjudices Algorithmiques
+■ 2.2. Méthodes d'Audit et de Modification : Biais,
+Explicabilité (XAI) et Intervention
+■ 2.3. Le Cadre de la Déclaration de Montréal pour une
+Intervention Responsable
+■ 2.4. Vers une Démarche Structurée : Étapes Clés pour
+la Modification Éthique
+■ Partie 3 : Élaborer un Code de Déontologie pour les
+Développeurs d'Algorithmes (Réponse Q3)
+■ 3.1. Le Biosphere Code : Inspiration Processuelle et
+Principes Fondamentaux
+■ 3.2. Responsabilité en IA : Naviguer entre Individus et
+Organisations (Analyse des "Accountability Gaps")
+■ 3.3. Apports des Cadres Éthiques Existants (UNESCO,
+OCDE)
+■ 3.4. Proposition d'une Méthodologie Collaborative
+pour l'Élaboration du Code
+■ 3.5. Principes Directeurs pour un Code de
+Déontologie des Développeurs d'Algorithmes de
+Personnalisation
+○ Limitations de la Recherche
+○ Travaux Futurs et Perspectives
+○ Conclusion
+
+
+ ○ Bibliographie
+○ Annexes (Optionnel)
+Introduction
+L'avènement de l'ère numérique a profondément transformé les
+sociétés contemporaines, notamment par l'intégration croissante de
+systèmes algorithmiques dans de multiples sphères de la vie
+quotidienne et institutionnelle. Parmi ces systèmes, les algorithmes
+de personnalisation occupent une place prépondérante. Qu'il
+s'agisse de recommander des contenus culturels, de cibler des
+publicités, d'ajuster dynamiquement des prix ou de filtrer
+l'information, ces technologies façonnent de manière omniprésente
+notre environnement numérique et nos interactions.1 Reposant
+souvent sur des techniques d'intelligence artificielle (IA) et
+d'apprentissage automatique (machine learning, ML), ces
+algorithmes fonctionnent par la collecte massive et l'analyse de
+données personnelles, visant à construire des profils détaillés des
+individus afin de prédire ou d'influencer leurs comportements,
+préférences et décisions.1
+Cette capacité inédite de traitement de l'information et
+d'intervention individualisée à grande échelle soulève des
+interrogations fondamentales d'ordre sociétal, éthique et politique.6
+Les enjeux concernent notamment les dynamiques de pouvoir et de
+contrôle qui s'instaurent entre les plateformes et leurs utilisateurs,
+les risques de biais et de discrimination systémique, les menaces sur
+l'autonomie individuelle et la vie privée, ainsi que les défis posés par
+l'opacité fréquente de ces systèmes complexes.5
+Ce rapport s'inscrit dans une démarche de réflexion critique sur ces
+implications, considérant les algorithmes de personnalisation non
+
+
+ pas comme de simples outils techniques neutres, mais comme des
+artefacts socio-techniques complexes, porteurs de logiques
+organisationnelles, de rationalités spécifiques et de formes de
+pouvoir.5 Il propose d'explorer trois axes de recherche
+interdépendants :
+1. Le lien entre algorithmes de personnalisation et
+bureaucratie : En mobilisant les analyses fondatrices de Max
+Weber sur la rationalisation et la domination bureaucratique,
+ainsi que la critique contemporaine de David Graeber sur
+"l'utopie des règles" et la violence structurelle, cet axe vise à
+analyser dans quelle mesure les algorithmes de personnalisation
+peuvent être compris comme une nouvelle forme de
+bureaucratie – une "bureaucratie algorithmique" – et quelles en
+sont les conséquences en termes de pouvoir et d'opacité pour
+les individus.
+2. La modification éthique des algorithmes prédateurs :
+Reconnaissant que ces systèmes peuvent générer des effets
+néfastes, voire prédateurs, cet axe cherche à définir une
+démarche méthodologique et éthique rigoureuse pour intervenir
+sur leur fonctionnement. Il s'appuiera notamment sur les
+principes de la Déclaration de Montréal pour une IA responsable
+et explorera les méthodes d'audit, de mitigation des biais et
+d'explicabilité (XAI).
+3. L'élaboration d'un code de déontologie pour les
+développeurs : Face aux enjeux de responsabilité soulevés par
+la conception et le déploiement de ces algorithmes, cet axe
+propose d'esquisser les bases d'un code de déontologie pour
+les professionnels impliqués. Il s'inspirera du processus
+collaboratif et des principes du Biosphere Code, tout en
+intégrant les débats actuels sur la responsabilité individuelle et
+
+
+ organisationnelle en matière d'IA.
+Ce rapport adoptera une structure académique classique. Après
+avoir justifié la problématique et l'intérêt de la recherche, il
+présentera la méthodologie adoptée (synthèse qualitative de la
+littérature) et les sources mobilisées. La section principale
+développera les résultats et la discussion en répondant
+successivement aux trois questions de recherche. Enfin, le rapport
+abordera les limitations de l'étude, proposera des pistes pour des
+travaux futurs et conclura sur les principaux enseignements et
+implications de l'analyse.
+Problématique et Intérêt de la Recherche
+Justification de la Pertinence
+La pertinence de cette recherche se manifeste à plusieurs niveaux,
+tant sur le plan scientifique que sociétal.14
+● Pertinence Scientifique : L'étude des systèmes algorithmiques
+et de leurs impacts est un champ de recherche en pleine
+expansion, mais qui nécessite une approche résolument
+interdisciplinaire pour en saisir toute la complexité. Ce rapport
+contribue à cet effort en tissant des liens explicites entre des
+corpus théoriques souvent traités séparément : la sociologie
+classique de la bureaucratie (Weber, Graeber), les études des
+sciences et technologies (STS) appliquées aux algorithmes, et
+l'éthique de l'IA.14 En appliquant les cadres wébérien et
+graebérien à l'analyse spécifique des algorithmes de
+personnalisation, cette recherche propose une lecture originale
+de ces dispositifs comme formes de pouvoir et de contrôle
+modernes. De plus, en s'attaquant aux questions concrètes de
+l'intervention éthique (Q2) et de la déontologie professionnelle
+
+
+ (Q3), elle vise à combler une lacune en proposant des cadres
+d'action fondés sur une analyse théorique approfondie.17
+L'originalité réside dans cette articulation entre analyse critique
+des fondements socio-techniques et proposition de solutions
+normatives et méthodologiques.
+● Pertinence Sociétale : Les algorithmes de personnalisation ne
+sont pas des abstractions techniques ; ils constituent une
+infrastructure invisible mais puissante qui médiatise une part
+croissante de nos vies sociales, économiques et politiques.1 Ils
+influencent nos choix de consommation, nos lectures, nos
+relations sociales, notre accès à l'information, et potentiellement
+notre accès à des opportunités cruciales comme l'emploi ou le
+crédit.2 Comprendre leur fonctionnement non seulement
+technique mais aussi "bureaucratique" – c'est-à-dire leurs
+logiques internes de classification, de régulation et de contrôle 
+est essentiel pour évaluer leurs impacts réels sur les individus et
+la société.13 L'identification de leurs potentiels effets prédateurs
+(manipulation, discrimination, enfermement dans des "bulles de
+filtres") 2 est une étape nécessaire à la protection des droits
+fondamentaux tels que l'autonomie, la vie privée, l'équité et la
+liberté d'opinion.8 De plus, l'opacité de ces systèmes pose un
+défi démocratique majeur, limitant la capacité des citoyens et
+des régulateurs à exercer un contrôle significatif.1 Cette
+recherche vise donc à éclairer le débat public et à fournir des
+outils conceptuels et pratiques pour une meilleure gouvernance
+de ces technologies.6
+Au-delà de la simple critique, l'intérêt de ce travail réside également
+dans sa dimension constructive. En explorant les voies d'une
+modification éthique des algorithmes (Q2) et en esquissant les
+contours d'un code de déontologie pour leurs concepteurs (Q3), le
+
+
+ rapport cherche à ouvrir des perspectives pour un développement
+technologique plus aligné sur les valeurs humaines et le bien
+commun. Il ne s'agit pas seulement de dénoncer les dérives
+potentielles, mais aussi d'imaginer et de structurer des mécanismes
+concrets pour les prévenir et les corriger, impliquant une réflexion
+sur la responsabilité des acteurs impliqués.14
+Identification des Lacunes ("Knowledge Gaps")
+Malgré l'abondance croissante de travaux sur l'IA et ses impacts,
+plusieurs lacunes subsistent dans la littérature, que cette recherche
+entend contribuer à combler 14 :
+1. Intégration insuffisante des théories sociologiques
+classiques : Si la notion de "bureaucratie algorithmique"
+émerge 22, l'analyse systématique des algorithmes de
+personnalisation à travers les lentilles combinées de Weber
+(rationalité, pouvoir par le savoir, cage de fer) et de Graeber
+(utopie des règles, violence structurelle, technologies de
+contrôle) reste peu explorée. Il manque une articulation fine
+entre ces cadres théoriques et le fonctionnement concret de la
+personnalisation.
+2. Manque de méthodologies d'intervention éthique intégrées
+: Les discussions sur la correction des biais algorithmiques ou
+l'amélioration de la transparence (XAI) sont souvent très
+techniques.24 Il existe un besoin de développer des démarches
+d'intervention plus holistiques, qui intègrent explicitement les
+principes éthiques (comme ceux de la Déclaration de Montréal)
+et les considérations sociales dès le départ, et qui proposent
+des étapes claires allant de l'identification du préjudice à la
+validation de la solution.5 L'articulation entre diagnostic
+technique et remédiation éthique doit être renforcée.
+
+
+ 3. Flou persistant autour de la responsabilité : Les
+"accountability gaps" liés à la complexité et à l'opacité des
+systèmes d'IA sont largement reconnus.27 Cependant, la
+traduction de ces constats en cadres de responsabilité clairs et
+opérationnels pour les différents acteurs (développeurs,
+entreprises, utilisateurs) reste un défi majeur.30 Il manque
+notamment des réflexions approfondies sur la manière de
+formuler des codes de déontologie qui soient à la fois exigeants
+éthiquement et réalistes face aux contraintes professionnelles et
+organisationnelles.32
+Formulation de la Question de Recherche Globale
+Au vu de ce contexte et de ces lacunes, la question de recherche
+centrale qui guide ce rapport peut être formulée comme suit 18 :
+● Comment les logiques bureaucratiques de rationalisation,
+de pouvoir et de contrôle, telles qu'analysées par Weber et
+Graeber, se manifestent-elles spécifiquement dans la
+conception et le fonctionnement des algorithmes de
+personnalisation, et quelles approches méthodologiques
+(audit, XAI, intervention), éthiques (principes de Montréal)
+et déontologiques (code pour les développeurs inspiré du
+Biosphere Code et des cadres internationaux) peuvent être
+structurées et mobilisées pour encadrer leur
+développement et leur modification, afin d'atténuer leurs
+potentiels effets prédateurs et de renforcer la responsabilité
+de leurs concepteurs face aux enjeux d'opacité, d'équité et
+d'autonomie individuelle?
+Cette question complexe appelle une analyse multidimensionnelle,
+articulant théorie sociologique, analyse socio-technique, réflexion
+
+
+ éthique et propositions normatives.
+Méthodologie : Synthèse Qualitative de la Littérature
+Description de l'Approche
+La présente recherche adopte une méthodologie qualitative, fondée
+sur une synthèse et une analyse critique approfondies de la
+littérature existante.36 L'objectif n'est pas de produire de nouvelles
+données empiriques primaires, mais d'exploiter, de confronter et
+d'intégrer les connaissances disponibles (issues des sources
+fournies et des cadres théoriques pertinents) pour répondre de
+manière structurée et argumentée aux trois questions de recherche
+posées.40
+L'approche est intrinsèquement interdisciplinaire. Elle mobilise des
+concepts, des théories et des cadres d'analyse provenant de
+plusieurs champs :
+● Sociologie : Principalement les théories de la bureaucratie de
+Max Weber et David Graeber, ainsi que des concepts liés à la
+rationalisation, au pouvoir, au contrôle social et à l'organisation.
+● Science and Technology Studies (STS) : Analyse de la
+dimension socio-technique des algorithmes, refusant de les voir
+comme de pures entités techniques et soulignant leur
+encastrement social, politique et culturel. Étude des processus
+de conception et des implications de l'opacité ("black box").
+● Éthique de l'IA : Mobilisation des principes et cadres normatifs
+développés pour guider le développement et le déploiement
+responsables de l'IA (Déclaration de Montréal, Biosphere Code,
+principes UNESCO/OCDE, etc.). Analyse des enjeux spécifiques
+comme l'équité, la transparence, la vie privée, l'autonomie et la
+responsabilité.
+
+
+ ● (Potentiellement) Droit et Gouvernance : Références aux
+notions de responsabilité légale, de régulation (RGPD, AI Act), et
+de gouvernance algorithmique.
+La démarche s'apparente à une revue systématique narrative ou à
+une synthèse thématique.40 Elle implique :
+1. L'identification des sources pertinentes (principalement les
+snippets fournis).
+2. L'évaluation de la pertinence et de la contribution de chaque
+source par rapport aux questions de recherche.
+3. L'extraction systématique des informations clés (concepts,
+arguments, données factuelles, principes, méthodes).
+4. La synthèse et l'intégration de ces informations au sein d'une
+structure argumentative cohérente, organisée autour des trois
+axes principaux du rapport.40
+Cadres Théoriques Mobilisés
+Les cadres théoriques suivants constituent l'armature conceptuelle
+de l'analyse :
+● Max Weber : Sa théorie de la bureaucratie comme "ideal type" 46
+est centrale pour analyser les dimensions de rationalité
+(formelle/substantielle) 49, de hiérarchie 47, de règles formelles 47,
+d'impersonnalité 47, de pouvoir légal-rationnel 46 et du rôle du
+savoir technique.56 Sa notion de "cage de fer" 48 est également
+mobilisée pour penser les conséquences de la rationalisation
+algorithmique.
+● David Graeber : Sa critique radicale de la bureaucratie dans
+"L'utopie des règles" 58 fournit un contrepoint essentiel à Weber.
+Ses concepts de "stupidité structurelle" 59, de lien entre
+bureaucratie et violence (structurelle) 58, de "loi d'airain du
+
+
+ libéralisme" 59, de critique des "technologies bureaucratiques" 59
+et de l'étouffement de l'imagination 62 sont utilisés pour analyser
+les logiques de contrôle et les effets potentiellement absurdes
+ou aliénants des algorithmes.
+● Déclaration de Montréal pour une IA responsable : Ses dix
+principes (Bien-être, Autonomie, Vie privée, Solidarité,
+Participation démocratique, Équité, Diversité, Prudence,
+Responsabilité, Développement soutenable) 19 servent de grille
+d'analyse éthique et de fondement pour la proposition de
+méthodologie d'intervention (Q2). Son processus d'élaboration
+inclusif 69 est également une source d'inspiration.
+● Biosphere Code : Ses sept principes (Responsabilité, Service,
+Équité, Adaptabilité, Anticipation, Ouverture, Inspiration) 71 et
+surtout son processus de création collaboratif et
+interdisciplinaire 71 informent la démarche proposée pour
+l'élaboration du code de déontologie (Q3).
+● Autres Cadres Éthiques et Concepts Pertinents : Les
+principes de l'OCDE 73 et de l'UNESCO 8 sur l'IA complètent
+l'analyse des fondements éthiques. Les concepts d'audit
+algorithmique 25, de mitigation des biais 25, d'explicabilité (XAI) 24,
+de responsabilité distribuée 30, d'"accountability gap" 27, de
+"bureaucratie algorithmique" 22 et de design participatif/éthique 6
+sont mobilisés tout au long du rapport.
+Démarche d'Analyse des Sources
+L'analyse des sources fournies (snippets S_R* et S_S*) suit une
+démarche structurée :
+1. Lecture et Codage Thématique : Chaque snippet est lu
+attentivement pour identifier les informations pertinentes
+relatives aux trois questions de recherche. Les concepts clés,
+
+
+ arguments, exemples, méthodes et principes sont codés selon
+des thèmes prédéfinis (ex: "Weber-Règles", "Graeber-Contrôle",
+"Montréal-Équité", "Audit-Biais", "Responsabilité-Individuelle",
+"Code-Processus", etc.).36
+2. Extraction et Organisation : Les informations codées sont
+extraites et organisées de manière systématique, en les
+regroupant par question de recherche et par sous-thème défini
+dans le plan détaillé.
+3. Analyse Comparative et Critique : Les informations et
+arguments issus des différentes sources sont comparés et
+confrontés. Les convergences (ex: accord sur l'importance de la
+transparence), les divergences (ex: vision wébérienne vs
+graebérienne de la bureaucratie), les tensions (ex: transparence
+vs vie privée 8) et les contradictions apparentes sont identifiées
+et analysées.14 La fiabilité et la nature des sources (académique,
+rapport institutionnel, article de blog, etc.) sont prises en
+compte de manière implicite dans la pondération des
+arguments.
+4. Synthèse et Intégration : Les résultats de l'analyse sont
+synthétisés et intégrés dans une argumentation fluide et
+logique, en respectant la structure du plan. L'objectif est de
+construire un propos cohérent qui ne se contente pas de
+juxtaposer les informations mais les met en perspective, les relie
+aux cadres théoriques et en dégage des conclusions
+nuancées.40 Les citations (via les ID de snippets) sont utilisées
+pour appuyer les affirmations et garantir la traçabilité de
+l'analyse.
+Données : Sources Utilisées
+La présente recherche s'appuie exclusivement sur les matériaux
+
+
+ fournis sous forme d'extraits (snippets), complétés par les cadres
+théoriques et éthiques fondamentaux mentionnés dans la requête et
+l'analyse préliminaire.
+Sources Primaires (Corpus Principal)
+● L'ensemble des 144 snippets S_R* et des 120 snippets S_S*
+constitue le corpus principal de données textuelles analysées.
+Ces extraits couvrent une vaste gamme de thématiques
+directement ou indirectement liées aux questions de recherche,
+incluant :
+○ Méthodologies de recherche scientifique (qualitative,
+quantitative, revue systématique, justification,
+problématique) 14
+○ Théorie de la bureaucratie de Max Weber (principes, pouvoir,
+rationalité, savoir technique) 46 et rationalisation 50
+○ Critique de la bureaucratie par David Graeber (utopie des
+règles, technologie, contrôle, stupidité structurelle) 58
+○ Algorithmes de personnalisation (fonctionnement, collecte
+de données, profilage, décision) 1
+○ Bureaucratie algorithmique / Algocratie (définition,
+caractéristiques, pouvoir, opacité) 13
+○ Éthique de l'IA (principes généraux, cadres, enjeux) 4
+○ Déclaration de Montréal pour une IA responsable (principes,
+processus) 19
+○ Modification, audit, intervention algorithmique (biais, XAI,
+évaluation d'impact) 10
+○ Méthodes participatives et co-design en IA/technologie 6
+○ Responsabilité en IA (individuelle, organisationnelle,
+distribuée, "accountability gap") 5
+○ Codes de déontologie / éthique (processus d'élaboration,
+principes) 193
+
+
+ ○ Biosphere Code (principes, processus) 71
+○ Cadres éthiques internationaux (OCDE, UNESCO) 8
+○ Sources spécifiques mentionnées (Praxis, L. Neuer) - bien
+qu'inaccessibles directement.178
+● Les textes de référence explicitement mentionnés et accessibles
+via les snippets, tels que la Déclaration de Montréal pour une
+IA responsable 19 et le Biosphere Code 71, sont considérés
+comme des données primaires structurantes pour les parties 2
+et 3 du rapport.
+Sources Secondaires
+● Les travaux académiques et les cadres théoriques de Max
+Weber 46 et David Graeber 58 sont mobilisés comme sources
+secondaires fondamentales pour l'analyse de la question 1, tels
+qu'ils sont présentés et interprétés dans les snippets pertinents.
+● La littérature académique sur la bureaucratie algorithmique 22,
+l'éthique de l'IA 4, l'audit et la mitigation des biais 25,
+l'explicabilité (XAI) 24, la responsabilité en IA 5 et les
+méthodes participatives 79 est utilisée telle qu'elle est reflétée
+et synthétisée dans les snippets.
+● Les cadres éthiques internationaux de l'OCDE 73 et de l'UNESCO
+8 servent de référence normative, principalement via les snippets
+qui les décrivent.
+L'analyse repose donc sur l'interprétation et la mise en relation de
+ces différentes sources, en reconnaissant que l'accès direct à
+l'intégralité des documents originaux n'est pas possible dans le
+cadre de cette simulation, à l'exception des principes de la
+Déclaration de Montréal et du Biosphere Code qui sont bien
+documentés dans les extraits.
+
+
+ Résultats et Discussion
+Cette section présente l'analyse approfondie et la discussion des
+trois questions de recherche, en s'appuyant sur les cadres
+théoriques et les sources documentaires identifiés précédemment.
+Partie 1 : La Bureaucratie Algorithmique : Pouvoir, Opacité et
+Contrôle (Réponse Q1)
+Cette première partie explore la nature bureaucratique des
+algorithmes de personnalisation en confrontant leur fonctionnement
+aux théories de Max Weber et de David Graeber.
+1.1. Le Modèle Wébérien de la Bureaucratie : Rationalité, Règles
+et Domination
+Max Weber, l'un des fondateurs de la sociologie moderne, a analysé
+la bureaucratie non pas (seulement) comme une source de lourdeur
+administrative, mais comme un "type idéal" d'organisation
+caractérisé par sa rationalité et son efficacité technique dans la
+gestion des sociétés complexes.48 Pour Weber, la bureaucratie
+repose sur plusieurs piliers 47 :
+● Structure hiérarchique formelle : Une chaîne de
+commandement claire où chaque niveau contrôle celui qui lui est
+inférieur et est supervisé par celui qui lui est supérieur.52
+● Division du travail par spécialisation : Les tâches sont
+décomposées et assignées à des experts en fonction de leurs
+compétences techniques spécifiques.52
+● Gestion par des règles écrites : Des règles et procédures
+formelles, stables et impersonnelles gouvernent le
+fonctionnement de l'organisation, assurant la cohérence et la
+prévisibilité des décisions.46
+
+
+ ● Impersonnalité : Les relations professionnelles et les décisions
+sont fondées sur des critères objectifs et des règles, et non sur
+des relations personnelles, des émotions ou des préférences,
+afin de garantir l'équité et d'éviter le favoritisme.47
+● Sélection et carrière basées sur la compétence : Le
+recrutement et la promotion dépendent des qualifications
+techniques (diplômes, expérience) et de l'ancienneté, favorisant
+une logique de carrière au sein de l'organisation.47
+Au cœur de ce modèle se trouve la rationalité. Weber distingue la
+rationalité formelle (l'adéquation calculée des moyens aux fins,
+l'efficacité procédurale) de la rationalité substantielle (l'alignement
+des actions sur des valeurs ultimes).49 La bureaucratie incarne la
+rationalité formelle, visant l'efficacité, la calculabilité et la
+prévisibilité.49 Cette rationalité est le fondement de la domination
+légale-rationnelle, où l'autorité ne découle ni de la tradition ni du
+charisme personnel du leader, mais de la légitimité des règles
+établies et de la position occupée dans la hiérarchie.46 L'obéissance
+est due à "l'ordre impersonnel".100
+Un aspect crucial du pouvoir bureaucratique, selon Weber, réside
+dans le savoir technique ("Herrschaft durch Wissen").56 La
+compétence spécialisée des fonctionnaires leur confère un avantage
+informationnel et une maîtrise des procédures qui les rendent
+indispensables et leur donnent un pouvoir propre, potentiellement
+indépendant du pouvoir politique qui est censé les contrôler.56 Cette
+maîtrise du savoir et des règles est la source principale de la
+supériorité technique et de l'efficacité de l'administration
+bureaucratique.56
+Cependant, Weber n'était pas un apologiste aveugle de la
+bureaucratie. Il percevait avec acuité l'ambivalence de ce processus
+
+
+ de rationalisation. Tout en reconnaissant son efficacité technique, il
+craignait qu'elle n'enferme les individus dans une "cage de fer" ("iron
+cage") 48, un système de règles et de contrôle impersonnels étouffant
+l'autonomie, la créativité et les valeurs humaines, menant à un
+"désenchantement du monde".56 Cette tension fondamentale entre
+l'efficacité rationnelle et le risque de déshumanisation est
+particulièrement pertinente pour analyser les systèmes
+algorithmiques actuels. En effet, les algorithmes, en tant
+qu'incarnations poussées de la rationalité formelle et de l'application
+systématique de règles 49, semblent réaliser l'idéal d'efficacité
+wébérien tout en exacerbant potentiellement les dangers de la "cage
+de fer" par leur opacité et leur capacité de contrôle étendue.5
+1.2. La Critique Graebérienne : L'Utopie des Règles et la
+Violence Structurelle
+David Graeber, anthropologue et penseur anarchiste, propose une
+critique radicale de la bureaucratie qui complète et conteste la vision
+wébérienne.58 Pour Graeber, la bureaucratie n'est pas seulement une
+question d'organisation rationnelle ; elle est profondément liée aux
+structures de pouvoir, à la violence et à ce qu'il nomme la "stupidité
+structurelle".59
+● La Stupidé Structurelle et la Violence : Graeber soutient que
+les procédures bureaucratiques impersonnelles sont souvent
+des moyens de gérer des situations sociales intrinsèquement
+"stupides" car fondées sur des inégalités de pouvoir extrêmes.61
+Ces inégalités reposent, en dernière instance, sur la menace de
+la violence physique ou coercitive (incarnée par l'État, la police,
+les systèmes légaux).58 Les règles bureaucratiques permettent
+aux détenteurs du pouvoir d'interagir avec les autres sans avoir à
+comprendre leur point de vue ou leur situation spécifique (un
+
+
+ "travail interprétatif" coûteux en énergie), car leur position est
+garantie par la force.62
+● L'Utopie des Règles : Graeber critique l'idée que des règles
+claires, formelles et impersonnelles constituent une solution
+idéale aux problèmes sociaux.58 Il suggère que nous avons une
+relation ambivalente, voire un "amour secret" 58, pour la
+bureaucratie, car elle offre une illusion de simplicité, d'équité et
+de prévisibilité dans un monde complexe. Cependant, cette
+"utopie" se révèle souvent contre-productive, générant
+davantage de paperasse, de complexité, de frustration et
+d'absurdités.58
+● Technologie et Contrôle Social : Graeber établit un lien entre
+l'évolution de la bureaucratie et celle de la technologie.59 Il
+postule un glissement historique, notamment à partir des
+années 1970, où les investissements technologiques se seraient
+détournés des projets "poétiques" (visant des futurs alternatifs,
+comme les voitures volantes) au profit de "technologies
+bureaucratiques".59 Ces dernières, notamment les technologies
+de l'information et de la communication, serviraient
+principalement à renforcer la discipline du travail et le contrôle
+social, plutôt qu'à libérer l'humanité.59 Les ordinateurs et les
+systèmes numériques deviendraient ainsi les instruments par
+excellence de cette bureaucratisation étendue.63
+● La Bureaucratisation Totale : Graeber observe une extension
+sans précédent des logiques bureaucratiques à toutes les
+sphères de l'existence, y compris la vie privée, l'éducation, la
+recherche et même les loisirs.59 Il nomme "Loi d'Airain du
+Libéralisme" le paradoxe selon lequel les politiques visant à
+réduire la bureaucratie et à promouvoir le marché finissent
+invariablement par augmenter la quantité totale de règlements,
+
+
+ de paperasse et de fonctionnaires.59 Cette bureaucratisation
+généralisée se manifeste par la multiplication des formulaires,
+des procédures d'évaluation, des indicateurs de performance,
+souvent sous couvert d'efficacité ou de modernisation.59
+● L'Étouffement de l'Imagination : Enfin, Graeber voit dans la
+bureaucratie une force profondément conservatrice qui entrave
+l'imagination, le jeu et la créativité.61 L'obsession pour les règles,
+les procédures et la prévisibilité rend difficile, voire impossible,
+d'imaginer et d'expérimenter des manières alternatives
+d'organiser la vie sociale et politique.65
+La critique de Graeber offre une perspective particulièrement
+éclairante pour analyser les algorithmes de personnalisation. Loin
+d'être une rupture avec les logiques bureaucratiques, ces systèmes
+pourraient en représenter l'aboutissement ultime. Ils étendent le
+contrôle procédural et la rationalité instrumentale à l'échelle
+microscopique des préférences et des comportements individuels,
+souvent de manière invisible et sous couvert de "service
+personnalisé" ou d'"expérience utilisateur optimisée". Cette
+micro-gestion algorithmique 1 applique des "règles" de profilage et
+de classification 1 pour atteindre des objectifs prédéfinis
+(engagement, vente), potentiellement au détriment de la diversité,
+de l'autonomie ou de la réflexion critique 19, incarnant ainsi la
+"stupidité structurelle" (au sens graebérien d'incapacité à voir
+au-delà des objectifs immédiats) 59 et la logique de contrôle 59 qu'il
+dénonce. La nature numérique de cette bureaucratie la rend
+d'autant plus pervasive et difficile à percevoir.63
+1.3. Les Algorithmes de Personnalisation comme Dispositifs de
+Contrôle
+Pour comprendre le lien avec la bureaucratie, il est essentiel de saisir
+
+
+ le fonctionnement général des algorithmes de personnalisation 1 :
+1. Collecte de Données : Ils collectent massivement des données
+sur les utilisateurs : historique de navigation, clics, temps passé,
+achats, interactions sociales, localisation, informations
+déclarées, etc. Ces "traces numériques" constituent la matière
+première de la personnalisation.1
+2. Profilage : À partir de ces données, des profils sont créés, soit
+individuellement, soit par regroupement d'utilisateurs aux
+caractéristiques similaires. Ces profils visent à évaluer les
+aspects personnels, prédire les comportements futurs, les
+préférences, les intérêts, voire la personnalité ou la situation
+financière.1
+3. Classification/Catégorisation : Les utilisateurs sont classés
+dans diverses catégories, souvent multidimensionnelles et
+dynamiques, qui déterminent le type de contenu ou d'offre qui
+leur sera présenté. Ces catégories peuvent être opaques, même
+pour les concepteurs dans le cas du ML.13
+4. Décision/Recommandation : Sur la base du profil et de la
+classification, l'algorithme prend des décisions (souvent
+entièrement automatisées) pour sélectionner et afficher des
+contenus spécifiques : articles, vidéos, publicités, produits, prix,
+etc., jugés les plus "pertinents" ou les plus susceptibles
+d'atteindre l'objectif fixé (ex: maximiser le temps de visionnage,
+déclencher un achat).1
+5. Modèles d'Interaction : Les interfaces utilisateur sont souvent
+conçues pour encourager certains comportements (clics,
+partages, achats impulsifs) et maximiser la collecte de données
+et l'engagement, créant des boucles de rétroaction qui affinent
+continuellement les profils.20
+Les finalités de ces systèmes sont variées mais convergent souvent
+
+
+ vers des objectifs d'optimisation économique (maximiser
+l'engagement, les revenus publicitaires, les ventes) ou d'influence
+comportementale (orienter les choix, les opinions).2
+Il est crucial de noter que ces algorithmes ne se contentent pas de
+refléter passivement les préférences préexistantes des utilisateurs.
+Par le biais de la sélection, du filtrage et de la recommandation, ils
+participent activement à la construction et à l'orientation de ces
+préférences.1 En façonnant l'environnement informationnel et
+commercial de l'individu, ils exercent une forme subtile de
+gouvernance comportementale, un "nudge" algorithmique
+permanent qui vise à aligner le comportement de l'utilisateur sur les
+objectifs de la plateforme.3 Cette capacité à façonner les désirs et
+les choix, souvent sans que l'utilisateur en ait pleinement
+conscience, constitue une forme de pouvoir significative.
+1.4. Analyse : Convergences et Divergences entre Bureaucratie
+Classique et Algorithmique
+L'analyse comparée révèle des points de convergence frappants
+mais aussi des différences notables entre la bureaucratie
+wébérienne/graebérienne et la "bureaucratie algorithmique"
+incarnée par les systèmes de personnalisation.
+Convergences (L'Algorithme comme Bureaucratie) :
+● Rationalité Instrumentale : Les deux systèmes sont
+fondamentalement orientés vers l'optimisation des moyens pour
+atteindre des fins prédéfinies, qu'il s'agisse de l'efficacité
+administrative ou de la maximisation de l'engagement/profit.5 La
+calculabilité et la prévisibilité sont des objectifs centraux.
+● Application de Règles : Les algorithmes sont, par définition,
+des ensembles de règles et de procédures opératoires
+
+
+ appliquées de manière systématique et répétitive.20 Ils incarnent
+la "gestion par les règles" chère à Weber.46
+● Impersonnalité : Le traitement algorithmique se base sur des
+données quantifiables et des profils abstraits, ignorant
+largement les nuances contextuelles, les situations personnelles
+ou l'empathie humaine.20 L'individu est traité comme une
+instance d'une catégorie.54
+● Hiérarchie et Contrôle : Bien que la structure soit différente,
+une forme de hiérarchie et de contrôle existe : les concepteurs
+définissent les règles et objectifs, l'algorithme les exécute, et
+l'utilisateur est soumis aux décisions et à l'environnement créés
+par le système.13 Le pouvoir réside dans la maîtrise du code, des
+données et de l'infrastructure (le "savoir technique" wébérien).48
+● Classification : Les deux sont des "machines à classifier".13 La
+bureaucratie classe les citoyens, les dossiers, les demandes ; les
+algorithmes classifient les utilisateurs, les contenus, les
+comportements.49
+● Opacité : La complexité des algorithmes modernes, notamment
+ceux basés sur le ML, les rend souvent opaques ("black boxes"),
+même pour leurs créateurs.3 Cette opacité fait écho aux critiques
+récurrentes sur l'impénétrabilité des procédures
+bureaucratiques pour les usagers.20
+Divergences (Spécificités Algorithmiques) :
+● Vitesse et Échelle : La capacité des algorithmes à traiter des
+volumes massifs de données et à prendre des décisions en
+temps réel dépasse de loin celle de n'importe quelle
+bureaucratie humaine.5
+● Adaptabilité et Apprentissage : Contrairement à la rigidité
+supposée des règles bureaucratiques, les algorithmes de ML
+peuvent apprendre et adapter leurs propres règles en fonction
+
+
+ des données.13 Cela introduit un dynamisme mais peut aussi
+renforcer l'opacité et la difficulté de contrôle.13
+● Nature du Contrôle : Le contrôle algorithmique est souvent
+moins visible et moins direct que la discipline hiérarchique
+bureaucratique. Il opère par la conception de l'environnement
+numérique (interfaces, choix proposés), la collecte de données
+souvent invisible, et l'influence comportementale ("nudging")
+plutôt que par des ordres explicites.13
+● Personnalisation vs Standardisation : Alors que la
+bureaucratie tend à appliquer des règles standardisées à des
+catégories larges, les algorithmes de personnalisation visent
+précisément à différencier les individus et à leur offrir des
+expériences sur mesure.13 Cependant, cette personnalisation
+peut paradoxalement conduire à un enfermement dans des
+profils et à une forme de fragmentation sociale 6, là où la
+bureaucratie visait (idéalement) un traitement égalitaire.55
+● Locus de la Discrétion : Le pouvoir discrétionnaire,
+traditionnellement exercé par les fonctionnaires de "guichet"
+("street-level bureaucrats") pour adapter les règles aux cas
+particuliers, se déplace en amont, vers les concepteurs
+d'algorithmes (choix des variables, des objectifs, des données
+d'entraînement) et vers les données elles-mêmes.122
+Ces convergences et divergences dessinent les contours de la
+"Bureaucratie Algorithmique" 20 ou de l'"Algocratie" 20, une forme
+d'organisation et de pouvoir qui combine la rationalité instrumentale
+et les logiques de classification bureaucratiques avec la puissance
+de calcul, l'adaptabilité et les modes de contrôle spécifiques aux
+technologies numériques.
+Cette bureaucratie algorithmique apparaît comme une réalisation
+
+
+ paradoxale des tendances analysées par Weber et Graeber. D'une
+part, elle pousse à son paroxysme l'idéal wébérien d'une
+administration parfaitement rationnelle, rapide, impersonnelle et
+basée sur des règles explicites (le code), semblant éliminer les
+"frictions" et les subjectivités humaines.48 D'autre part, elle incarne
+simultanément les pires craintes de Weber concernant la "cage de
+fer" 48, par son potentiel de contrôle omniprésent et son opacité 20, et
+celles de Graeber concernant la "stupidité structurelle" 59, en
+appliquant aveuglément des règles (potentiellement basées sur des
+données biaisées 4) sans capacité d'empathie, de jugement
+contextuel ou de remise en question des finalités.20
+1.5. Implications pour l'Individu : Pouvoir et Opacité à l'Ère
+Algorithmique
+L'émergence de cette bureaucratie algorithmique a des
+conséquences directes et profondes pour les individus :
+● Perte d'Autonomie et de Contrôle : Les utilisateurs sont
+constamment soumis à des influences algorithmiques qui
+orientent leurs choix, leurs opinions et leurs comportements,
+souvent de manière non transparente.1 L'enfermement dans des
+"bulles de filtres" ou des profils prédéfinis limite l'exposition à la
+diversité et la capacité à exercer un jugement autonome.8 La
+difficulté à comprendre et à contester les décisions
+algorithmiques renforce ce sentiment de perte de contrôle.2
+● Opacité et Manque de Recours : Face à une décision
+algorithmique défavorable (ex: refus de prêt, contenu non
+visible, prix élevé) ou simplement incompréhensible (ex:
+recommandation étrange), l'individu se heurte souvent à une
+"boîte noire".3 Obtenir une explication claire de la logique
+sous-jacente ou contester efficacement la décision s'avère
+
+
+ difficile, faute de mécanismes de transparence et de recours
+adaptés.1 Cette opacité n'est pas seulement une caractéristique
+technique ; elle est aussi un instrument de pouvoir, car elle rend
+la critique et la résistance difficiles, consolidant l'autorité du
+système et de ceux qui le contrôlent.20 L'incapacité à
+comprendre les règles du jeu place l'individu en position de
+faiblesse.
+● Risques de Discrimination et d'Inéquité : Les algorithmes, loin
+d'être neutres, peuvent intégrer et même amplifier les biais
+présents dans les données sur lesquelles ils sont entraînés ou
+dans les choix de conception faits par les développeurs.4 Cela
+peut conduire à des discriminations systémiques fondées sur le
+genre, l'origine ethnique, l'âge, la localisation ou d'autres
+caractéristiques, affectant l'accès à l'information, aux services, à
+l'emploi ou au crédit de manière inéquitable.19
+● Surveillance et Atteinte à la Vie Privée : Le fonctionnement
+même des algorithmes de personnalisation repose sur la
+collecte et l'analyse continues de grandes quantités de données
+personnelles, souvent sensibles.1 Cela crée un environnement de
+surveillance potentiellement permanent, soulevant des
+préoccupations majeures pour le droit à la vie privée et à
+l'intimité.9
+● Conditionnement de l'Utilisateur ("Algorithmic User") :
+L'interaction constante avec des interfaces et des processus
+algorithmiques standardisés peut conduire à un
+conditionnement comportemental.20 L'utilisateur apprend à
+naviguer dans le système selon les règles implicites ou explicites
+définies par l'algorithme, adoptant un comportement
+d'"utilisateur algorithmique" qui se conforme aux procédures
+sans nécessairement en questionner les fondements ou les
+
+
+ implications.20
+En somme, la bureaucratie algorithmique, telle qu'elle se manifeste
+dans les systèmes de personnalisation, redéfinit les rapports de
+pouvoir entre les individus et les organisations (publiques ou privées)
+qui les déploient. Elle tend à accroître l'asymétrie d'information et de
+contrôle au détriment de l'utilisateur, tout en présentant des défis
+inédits en matière d'équité et de protection des droits
+fondamentaux.
+Partie 2 : Intervenir sur les Algorithmes Prédateurs : Cadres
+Méthodologiques et Éthiques (Réponse Q2)
+Si les algorithmes de personnalisation peuvent être analysés comme
+une forme de bureaucratie potentiellement opaque et contraignante,
+la question se pose de savoir comment intervenir lorsque leurs effets
+deviennent manifestement négatifs ou "prédateurs". Cette partie
+explore les cadres méthodologiques et éthiques pour identifier,
+évaluer et modifier de tels algorithmes.
+2.1. Identifier et Évaluer les Préjudices Algorithmiques
+La première étape de toute intervention consiste à identifier et à
+caractériser précisément le préjudice causé par un algorithme. Les
+"effets prédateurs" peuvent prendre diverses formes :
+● Exploitation de vulnérabilités : Ciblage agressif de
+populations fragiles (ex: addiction au jeu, endettement).5
+● Manipulation comportementale : Utilisation de techniques de
+"nudge" ou de design persuasif pour inciter à des actions
+contraires aux intérêts de l'utilisateur (achats impulsifs, partage
+excessif d'informations).32
+● Discrimination systémique : Traitement différencié et injustifié
+
+
+ de certains groupes, conduisant à des inégalités d'accès, de prix
+ou d'opportunités.2
+● Atteinte à l'autonomie et au bien-être : Enfermement dans
+des bulles informationnelles, exposition à des contenus toxiques
+ou anxiogènes, création de dépendance.2
+● Conséquences financières injustes : Tarification
+discriminatoire, refus de crédit ou d'assurance basé sur des
+critères opaques ou biaisés.2
+L'identification de ces préjudices ne doit pas être seulement
+réactive, mais aussi proactive. Le principe de Prudence de la
+Déclaration de Montréal 19 et les approches comme la Privacy by
+Design 171 insistent sur la nécessité d'anticiper les risques potentiels
+dès la phase de conception et de développement de l'algorithme.
+Plusieurs méthodes d'évaluation peuvent être mobilisées pour
+détecter et mesurer ces préjudices :
+● Audits de biais et d'équité : Analyse quantitative pour détecter
+si l'algorithme produit des résultats différents pour des groupes
+protégés (voir section 2.2).25
+● Évaluation d'Impact sur les Droits Fondamentaux (EIDF) /
+Évaluation d'Impact relative à la Protection des Données
+(EIPD/DPIA) : Analyse des risques potentiels pour les droits et
+libertés des personnes (vie privée, non-discrimination, etc.).158
+● Évaluation d'Impact Éthique (EIE) : Processus structuré pour
+identifier et évaluer les impacts éthiques potentiels d'un système
+d'IA, souvent en collaboration avec les parties prenantes.75
+● Algorithmic Impact Assessment (AIA) : Questionnaire ou
+cadre d'évaluation (souvent utilisé dans le secteur public) pour
+évaluer les risques associés à un système de décision
+automatisé.158
+
+
+ Un élément crucial de l'évaluation est la participation des parties
+prenantes.6 Les utilisateurs finaux, les communautés affectées et les
+experts de domaines variés (sociologie, éthique, droit) apportent
+des perspectives essentielles pour comprendre les impacts réels et
+vécus des algorithmes, qui peuvent échapper à une analyse
+purement technique ou quantitative.173 L'identification des préjudices
+doit donc intégrer une dimension qualitative et contextuelle forte 36,
+car un algorithme peut être "performant" selon des métriques
+internes tout en générant des externalités négatives importantes.5
+2.2. Méthodes d'Audit et de Modification : Biais, Explicabilité
+(XAI) et Intervention
+Une fois un préjudice identifié, plusieurs approches techniques et
+méthodologiques peuvent être employées pour comprendre ses
+causes et le corriger :
+● Audit Algorithmique : Il s'agit d'un examen systématique et
+indépendant (idéalement) des composants d'un système
+algorithmique : les données d'entrée et d'entraînement, le code
+de l'algorithme lui-même, les processus de décision, et les
+résultats produits.25 L'objectif est d'identifier les erreurs, les
+vulnérabilités, les biais potentiels, et de vérifier la conformité à
+des normes éthiques ou réglementaires.25 Les méthodes incluent
+l'analyse statistique des performances par groupe
+démographique (ex: taux de faux positifs/négatifs), l'utilisation
+de métriques spécifiques de biais (ex: impact disparate,
+différence de précision), les tests de sensibilité (modifier
+légèrement les entrées pour voir l'impact sur la sortie), la
+simulation de scénarios variés, et l'audit par des tiers externes.76
+● Détection et Mitigation des Biais : Un objectif fréquent de
+l'audit est de détecter les biais discriminatoires.4 Ces biais
+
+
+ peuvent provenir des données (si elles reflètent des inégalités
+historiques ou sont non représentatives) ou de la conception
+même de l'algorithme (choix des variables, fonction objectif).9
+Les stratégies de mitigation 25 incluent le prétraitement des
+données (ré-échantillonnage, augmentation de données pour
+les groupes sous-représentés), la modification de l'algorithme
+pendant l'apprentissage (ajout de contraintes d'équité) ou le
+post-traitement des résultats (ajustement des seuils de
+décision).77 La définition de ce qu'est l'"équité" algorithmique est
+elle-même complexe et dépend du contexte.9
+● Explicabilité (Explainable AI - XAI) : Face à l'opacité des
+"boîtes noires" algorithmiques, les techniques XAI visent à
+rendre leurs décisions plus compréhensibles pour les humains.24
+Des méthodes comme LIME (explications locales agnostiques au
+modèle) ou DeepLIFT (traçabilité des activations neuronales)
+tentent d'identifier les facteurs qui ont le plus contribué à une
+décision spécifique.24 L'explicabilité poursuit plusieurs buts :
+renforcer la confiance des utilisateurs et des développeurs,
+faciliter le débogage et l'amélioration des modèles, permettre la
+vérification de la conformité réglementaire, et surtout, fournir
+une base pour contester une décision jugée injuste.8 Il est
+important de comprendre que l'explicabilité n'est pas une
+solution miracle en soi, mais plutôt un outil essentiel pour
+permettre d'autres processus éthiques comme l'audit, la
+détection des biais, la contestation et la modification éclairée.8
+Sans comprendre pourquoi un algorithme dysfonctionne, il est
+difficile de savoir comment le corriger efficacement.
+● Méthodes d'Intervention et de Modification : Sur la base des
+résultats de l'audit et de l'analyse causale (facilitée par XAI),
+différentes interventions techniques peuvent être envisagées 77 :
+
+
+ ○ Ajustement des paramètres : Modifier les seuils de
+décision, les poids accordés à certaines variables.
+○ Modification des données : Nettoyer, enrichir ou
+rééquilibrer les jeux de données d'entraînement.
+○ Re-conception de l'algorithme : Changer la fonction
+objectif (ex: intégrer une mesure d'équité), modifier
+l'architecture du modèle, supprimer des variables
+problématiques.
+○ Ajout de règles explicites : Superposer des règles métiers
+ou éthiques pour contraindre le comportement de
+l'algorithme.
+○ Mise en place de mécanismes de supervision : Intégrer
+une validation humaine pour certaines décisions
+("human-in-the-loop").8
+○ Création de voies de recours : Développer des interfaces
+et des processus permettant aux utilisateurs de signaler des
+problèmes, de demander une révision ou de contester une
+décision.73
+2.3. Le Cadre de la Déclaration de Montréal pour une
+Intervention Responsable
+La modification d'un algorithme prédateur ne saurait être une simple
+opération technique. Elle doit être guidée par un cadre éthique
+robuste. La Déclaration de Montréal pour une IA responsable 19 offre
+un ensemble de principes pertinents pour encadrer cette démarche :
+● Principe 1 : Bien-être. L'objectif premier de la modification doit
+être de cesser le préjudice et de restaurer ou promouvoir le
+bien-être des personnes affectées. L'algorithme modifié ne doit
+pas devenir une nouvelle source de mal-être.19
+● Principe 2 : Respect de l'autonomie. L'intervention doit viser à
+
+
+ réduire la capacité de l'algorithme à manipuler ou à contraindre
+les choix des utilisateurs, en leur redonnant du contrôle sur leur
+expérience et leurs données.19
+● Principe 3 : Protection de la vie privée et de l'intimité. Si le
+préjudice est lié à une collecte ou une utilisation abusive des
+données, la modification doit intégrer des mesures de protection
+renforcées (minimisation, anonymisation, contrôle utilisateur).19
+● Principe 4 : Solidarité. La modification doit éviter de créer de
+nouvelles fractures sociales ou d'isoler certains groupes. Elle
+peut viser à renforcer la collaboration ou à réduire les
+vulnérabilités.19
+● Principe 5 : Participation démocratique. Idéalement, le
+processus de décision concernant la modification d'algorithmes
+à fort impact devrait être ouvert au débat et au contrôle
+démocratique ou, à tout le moins, à la participation des parties
+prenantes.19 Les critères d'intelligibilité et de justifiabilité des
+algorithmes (modifiés ou non) sont essentiels pour permettre
+cet exercice.19
+● Principe 6 : Équité. C'est un principe central pour la
+modification des algorithmes prédateurs, qui sont souvent
+biaisés ou discriminatoires. L'intervention doit activement viser à
+corriger ces biais et à promouvoir des résultats justes et
+équitables pour tous.19
+● Principe 7 : Inclusion de la diversité. La modification doit
+veiller à ne pas conduire à une uniformisation et à respecter la
+diversité des expériences et des choix de vie, en évitant
+d'enfermer les utilisateurs dans des profils rigides.19
+● Principe 8 : Prudence. Le fait même d'identifier un algorithme
+comme prédateur et de décider d'intervenir relève de ce
+principe. La modification elle-même doit être menée avec
+
+
+ prudence, en anticipant les effets secondaires potentiels.19
+● Principe 9 : Responsabilité. La nécessité de modifier un
+algorithme défaillant engage la responsabilité de ses
+concepteurs et/ou déployeurs. Le processus de modification
+doit viser à clarifier ou à renforcer les mécanismes de
+responsabilité humaine pour les décisions futures.19
+● Principe 10 : Développement soutenable. Bien que moins
+directement lié, la modification peut être l'occasion d'optimiser
+l'efficacité énergétique de l'algorithme.19
+L'apport majeur de la Déclaration de Montréal est de proposer un
+cadre holistique. Elle rappelle que la correction technique d'un
+algorithme ne suffit pas ; l'intervention doit être pensée à travers le
+prisme d'un ensemble de valeurs sociales, éthiques et
+démocratiques interconnectées.68 Modifier un algorithme pour
+améliorer l'équité (P6) peut nécessiter d'accroître sa transparence
+(lié à P5), ce qui peut soulever des questions de vie privée (P3). La
+Déclaration invite à une réflexion systémique, cherchant un équilibre
+entre les principes pour promouvoir le bien-être général (P1) dans un
+cadre démocratique et respectueux des droits (P2, P3, P5). Elle
+pousse ainsi à une intervention qui vise non seulement à corriger un
+défaut, mais à réaligner l'algorithme sur une vision plus responsable
+et bénéfique pour la société.
+2.4. Vers une Démarche Structurée : Étapes Clés pour la
+Modification Éthique
+En combinant les méthodes techniques (audit, XAI, mitigation) et le
+cadre éthique (Déclaration de Montréal), il est possible de proposer
+une démarche structurée en plusieurs étapes pour la modification
+responsable d'un algorithme jugé prédateur :
+
+
+ Tableau 1 : Synthèse des Étapes de Modification Éthique d'un
+Algorithme Prédateur
+Étape Descripti on de l'Étape
+Objectifs Clés
+Méthode s/Outils Suggérés
+Principes Éthiques Mobilisés (Ex: Montréal )
+Rôle de la Participa tion
+1. Identific ation & Caractéri sation du Préjudice
+Définir la nature, l'étendue, la gravité du préjudice et les populatio ns affectées.
+Compren dre le problème concret.
+Audits (biais, impact), retours utilisateur s, recherche qualitativ
+e 36 /
+quantitati ve 87, analyse de plaintes, AIA 158, EIE.75
+Bien-être (P1), Équité (P6), Autonomi e (P2), Prudence (P8).
+Essentiell e pour identifier les préjudice s vécus, définir les priorités.79
+2. Analyse Causale
+Identifier les causes technique s
+(données, code,
+Compren dre
+pourquoi l'algorith me cause le
+Analyse de code, analyse des données d'entraîne ment,
+Transpare nce (implicite via XAI), Responsa bilité (P9 
+Consultati on d'experts, potentiell ement des développ
+
+
+ modèle) et/ou contextue lles du préjudice.
+préjudice. technique s XAI (LIME, SHAP, etc.) 24, entretiens avec les développ eurs.26
+compren dre pour agir).
+eurs initiaux.
+3. Évaluatio n Éthique &
+Définitio n des Objectifs
+Analyser le préjudice et ses causes à la lumière des principes éthiques. Définir les objectifs éthiques de la modificati on.
+Établir les critères de succès éthiques de l'intervent ion.
+Grilles d'analyse éthique (basées sur Montréal
+19,
+UNESCO 8, OCDE
+73),
+délibérati on éthique 70, définition de métriques d'équité.
+Tous les principes de Montréal pertinent s (P1, P2, P3, P5, P6, P7, P8, P9).
+Cruciale pour définir ce qui est considéré comme "juste" ou "accepta ble" par les parties prenantes
+.79
+Délibérati on sur les compromi s.
+4. Concepti on de la Modifica tion Techniqu
+Développ er des solutions technique s
+(ajusteme nt,
+Proposer une solution technique alignée sur
+Techniqu es de mitigation de biais
+25,
+re-progra mmation,
+Prudence (P8 choix de la solution), Équité (P6),
+Implicatio n des développ eurs et data scientists. Tests
+
+
+ e re-conce ption, etc.) pour atteindre les objectifs éthiques définis.
+l'éthique. ajusteme nt de paramètr es, ajout de règles, design d'interfac es de contrôle utilisateur .
+Autonomi e (P2), Vie privée (P3).
+utilisateur s
+précoces possibles.
+5. Tests &
+Validatio n
+(Techniq ue & Éthique)
+Vérifier que la modificati on réduit le préjudice sans créer de nouveaux problème s. Évaluer l'atteinte des objectifs éthiques.
+Assurer l'efficacit é et l'innocuit é de la modificati on.
+Tests A/B, simulation s, audits post-mod ification
+76,
+évaluatio ns qualitativ es 37, tests utilisateur
+s 165,
+validation par comité d'éthique.
+Bien-être (P1), Équité (P6), Sûreté/Sé curité (implicite) ,
+Responsa bilité (P9).
+Implicatio n des utilisateur s/commu nautés affectées dans les tests et la validation des résultats perçus.165
+6. Déploiem ent & Suivi Post-Mo dificatio
+Mettre en œuvre l'algorith me modifié. Mettre en
+Assurer la durabilité de la solution et la détection
+Monitorin g de performa nce et d'équité en
+Prudence (P8), Responsa bilité (P9), Développ ement
+Mise en place de canaux de feedback clairs
+
+
+ n place un suivi continu pour surveiller les effets à long terme.
+précoce de nouveaux problème s.
+continu 77, mécanism es de feedback utilisateur , audits périodiqu es 27, plan de ré-évalua tion.
+soutenabl e (P10 - si optimisati on).
+pour les utilisateur s. Reporting transpare nt sur le suivi.
+Cette démarche, bien que présentée séquentiellement, implique
+souvent des itérations et des retours en arrière. L'intégration de la
+participation des parties prenantes, bien que complexe à mettre en
+œuvre, est un gage de pertinence et de légitimité pour l'intervention
+éthique.6
+Partie 3 : Élaborer un Code de Déontologie pour les
+Développeurs d'Algorithmes (Réponse Q3)
+La modification ponctuelle d'algorithmes prédateurs est nécessaire
+mais insuffisante. Une approche plus systémique implique de guider
+les pratiques des concepteurs et développeurs en amont,
+notamment par l'élaboration et l'adoption d'un code de déontologie
+adapté aux enjeux spécifiques des algorithmes de personnalisation.
+3.1. Le Biosphere Code : Inspiration Processuelle et Principes
+Fondamentaux
+Le Biosphere Code 71 offre une source d'inspiration précieuse, non
+seulement par ses principes, mais aussi par son processus
+d'élaboration. Conçu en 2015 pour guider le développement
+d'algorithmes ayant un impact sur la biosphère et l'humanité, il
+
+
+ repose sur sept principes clés :
+1. Responsabilité : Reconnaître et assumer les impacts des
+algorithmes.
+2. Service : Les algorithmes doivent servir l'humanité et la
+biosphère.
+3. Équité : Les bénéfices et les risques doivent être distribués
+équitablement.
+4. Adaptabilité : Les algorithmes doivent être flexibles, adaptatifs
+et conscients du contexte.
+5. Anticipation : Aider à prévoir et gérer l'inattendu, favoriser la
+résilience.
+6. Ouverture : Promouvoir la transparence, l'open source et la
+validation des données.
+7. Inspiration : Utiliser les algorithmes pour la créativité,
+l'éducation et l'esthétique.
+Au-delà de ces principes, le processus de création du Biosphere
+Code est particulièrement pertinent.71 Il a émergé d'un atelier intensif
+réunissant une diversité remarquable d'expertises : philosophes,
+hackers, artistes, data scientists, experts en durabilité. Cette
+approche collaborative et interdisciplinaire a permis de croiser les
+regards, de confronter les perspectives et de parvenir à un ensemble
+de principes robustes et largement pertinents. Ce mode
+d'élaboration constitue un modèle intéressant pour construire un
+code de déontologie pour les développeurs d'IA.197 En effet, la
+complexité technique et éthique de l'IA rend indispensable la
+mobilisation d'une intelligence collective, incluant les développeurs
+eux-mêmes, mais aussi des éthiciens, des juristes, des sociologues,
+des designers et des représentants des utilisateurs finaux.233 Un tel
+processus participatif augmente non seulement la qualité et la
+pertinence du code, mais aussi sa légitimité et ses chances
+
+
+ d'adoption par la communauté concernée.197
+3.2. Responsabilité en IA : Naviguer entre Individus et
+Organisations (Analyse des "Accountability Gaps")
+L'un des défis majeurs pour l'élaboration d'un code de déontologie
+est la question de la responsabilité.5 La nature complexe, souvent
+opaque, et parfois autonome des systèmes d'IA rend difficile
+l'attribution claire de la responsabilité en cas de défaillance ou de
+préjudice.27 Ce phénomène est souvent désigné comme un
+"accountability gap" (déficit de redevabilité).27
+La responsabilité dans les systèmes algorithmiques est
+intrinsèquement distribuée.30 Elle implique une chaîne d'acteurs : les
+concepteurs qui définissent les objectifs et l'architecture, les
+développeurs qui écrivent le code et entraînent les modèles, les
+entreprises qui déploient les systèmes et définissent les conditions
+d'utilisation, les utilisateurs qui interagissent avec le système, et
+potentiellement les fournisseurs de données et les régulateurs.5
+● Responsabilité individuelle du développeur : Le développeur
+a une responsabilité morale et professionnelle directe dans la
+qualité, la sûreté et l'éthique du code qu'il produit.32 Cela inclut
+l'obligation de se former, d'appliquer les bonnes pratiques,
+d'anticiper les risques prévisibles (biais, sécurité), de
+documenter son travail pour la transparence, et potentiellement
+de refuser de participer à des projets manifestement non
+éthiques ou de signaler des préoccupations ("whistleblowing").32
+● Responsabilité organisationnelle : L'entreprise ou
+l'organisation qui emploie le développeur et/ou déploie
+l'algorithme porte une responsabilité majeure.27 Elle doit établir
+une gouvernance claire de l'IA, fournir les ressources et la
+
+
+ formation nécessaires, mettre en place des processus d'audit et
+de gestion des risques, définir des politiques d'utilisation
+éthique, et créer une culture où les préoccupations éthiques
+peuvent être exprimées et traitées.27 Elle est également soumise
+à la responsabilité légale et engage sa réputation.12
+La tension entre ces deux niveaux est palpable.32 Un développeur
+peut se trouver pris entre des exigences éthiques personnelles ou
+professionnelles et des pressions organisationnelles (délais,
+objectifs commerciaux, ressources limitées). Un code de déontologie
+qui ignorerait cette réalité en faisant peser toute la charge morale
+sur l'individu serait irréaliste et potentiellement injuste.32 Bien que
+l'article spécifique de Laurence Neuer sur la responsabilisation des
+individus 226 soit inaccessible, les mentions indirectes 179 suggèrent
+une volonté d'appliquer les règles de droit existantes et de ne pas
+déresponsabiliser les acteurs humains face à la machine.
+Par conséquent, un code de déontologie efficace doit s'adresser
+prioritairement aux développeurs en définissant leurs devoirs
+individuels, mais il doit aussi reconnaître le contexte organisationnel
+et systémique.27 Il devrait encourager les organisations à créer les
+conditions favorables à une pratique éthique, promouvant ainsi une
+culture de responsabilité partagée et contribuant à combler les
+"accountability gaps".28
+3.3. Apports des Cadres Éthiques Existants (UNESCO, OCDE)
+Les cadres éthiques internationaux développés par des
+organisations comme l'UNESCO et l'OCDE fournissent une base
+solide de valeurs et de principes pour l'élaboration d'un code de
+déontologie spécifique.
+● Recommandation de l'UNESCO sur l'éthique de l'IA : Adoptée
+
+
+ en 2021, elle est le premier instrument normatif mondial dans ce
+domaine.8 Elle repose sur quatre valeurs fondamentales (Droits
+humains et dignité, Vivre ensemble en paix, Diversité et
+inclusion, Environnement) et dix principes directeurs :
+Proportionnalité/Innocuité, Sûreté/Sécurité, Vie privée/Protection
+des données, Gouvernance multipartite,
+Responsabilité/Redevabilité, Transparence/Explicabilité,
+Surveillance/Décision humaine, Durabilité,
+Sensibilisation/Éducation, Équité/Non-discrimination.8 Elle insiste
+sur l'importance de l'évaluation d'impact éthique.75
+● Principes de l'OCDE sur l'IA : Adoptés en 2019 et mis à jour en
+2024, ils visent à promouvoir une IA innovante et digne de
+confiance.73 Ils comprennent cinq principes fondés sur des
+valeurs (Croissance inclusive/Développement durable/Bien-être,
+Valeurs humaines/Équité, Transparence/Explicabilité,
+Robustesse/Sûreté/Sécurité, Responsabilité) et cinq
+recommandations pour les politiques publiques.73
+Ces cadres, largement reconnus et adoptés par de nombreux pays,
+offrent une légitimité et une base consensuelle.202 Plutôt que de
+réinventer des principes fondamentaux, un code de déontologie
+pour les développeurs d'algorithmes de personnalisation peut
+s'ancrer dans ces travaux.135 Sa valeur ajoutée sera alors de traduire
+ces principes généraux en lignes directrices concrètes et
+opérationnelles, adaptées aux défis spécifiques de la
+personnalisation (manipulation, bulles de filtres, biais dans les
+recommandations, etc.) et au contexte professionnel des
+développeurs. Cet ancrage facilite également l'alignement avec les
+réglementations émergentes, comme l'AI Act européen, qui
+s'inspirent souvent de ces mêmes principes.193
+
+
+ 3.4. Proposition d'une Méthodologie Collaborative pour
+l'Élaboration du Code
+S'inspirant du processus du Biosphere Code 71 et des bonnes
+pratiques en matière d'élaboration de codes éthiques
+organisationnels 197, la méthodologie suivante est proposée :
+1. Cadrage et Identification des Parties Prenantes : Délimiter
+précisément le champ d'application (ex: algorithmes de
+personnalisation dans le e-commerce, les médias, etc.).
+Identifier tous les acteurs concernés par la conception, le
+déploiement et l'impact de ces algorithmes : développeurs
+(front-end, back-end, ML), data scientists, chefs de produit,
+designers UX/UI, responsables éthique/conformité, juristes,
+chercheurs en sciences sociales, représentants d'associations
+d'utilisateurs, experts du domaine d'application.197
+2. Diagnostic et Identification des Enjeux Spécifiques : Mener
+une phase de consultation (entretiens, questionnaires, analyse
+documentaire) pour comprendre les pratiques actuelles, les
+défis éthiques concrets rencontrés par les développeurs dans le
+domaine de la personnalisation (gestion des biais, pression
+commerciale vs bien-être utilisateur, transparence des
+recommandations, etc.), et les valeurs perçues comme
+importantes par la communauté.32
+3. Ateliers Collaboratifs de Co-création : Organiser des ateliers
+structurés, intensifs et interdisciplinaires (sur le modèle du
+Biosphere Code 71) pour :
+○ Discuter et prioriser les enjeux éthiques identifiés.
+○ S'accorder sur les valeurs fondamentales et les principes
+directeurs du code, en s'appuyant sur les cadres existants
+(Montréal, UNESCO, OCDE, Belmont 30, etc.).
+○ Traduire ces principes en règles de conduite concrètes,
+
+
+ illustrées par des exemples et des cas d'usage pertinents
+pour la personnalisation.197
+○ Réfléchir aux mécanismes de soutien, de mise en œuvre et
+de suivi du code.
+4. Rédaction et Raffinement Itératif : Un comité de rédaction
+synthétise les travaux des ateliers en une première version du
+code. Cette version est ensuite soumise à plusieurs cycles de
+relecture, de feedback et d'amendement par l'ensemble des
+parties prenantes impliquées, jusqu'à l'obtention d'un
+consensus.197
+5. Diffusion, Formation et Intégration : Une fois finalisé, le code
+doit être largement diffusé au sein de la communauté
+professionnelle et des organisations concernées. Son adoption
+doit être soutenue par des actions de formation et de
+sensibilisation. Il doit être intégré aux processus RH
+(recrutement, évaluation), aux méthodologies de
+développement (ex: Agile éthique) et aux structures de
+gouvernance de l'IA.194
+6. Révision Périodique et Adaptation : Prévoir un mécanisme
+formel de révision et de mise à jour régulière du code (ex: tous
+les 2-3 ans) pour tenir compte des évolutions rapides de la
+technologie, des nouveaux enjeux éthiques, des retours
+d'expérience et des changements réglementaires.193
+Ce processus participatif 79 n'est pas seulement un moyen d'aboutir à
+un code pertinent et légitime ; il constitue en lui-même un puissant
+levier de sensibilisation et de construction d'une culture éthique
+partagée.201 En impliquant les développeurs et les autres acteurs
+dans la réflexion sur les enjeux et la définition des règles 71, on
+favorise une appropriation des principes éthiques et un engagement
+
+
+ collectif en faveur de pratiques plus responsables.136
+3.5. Principes Directeurs pour un Code de Déontologie des
+Développeurs d'Algorithmes de Personnalisation
+Sur la base de l'analyse des enjeux spécifiques à la personnalisation
+et des cadres éthiques existants, les principes directeurs suivants
+pourraient structurer un code de déontologie pour les développeurs
+dans ce domaine :
+Tableau 2 : Principes Clés du Code de Déontologie pour les
+Développeurs d'Algorithmes de Personnalisation
+Principe Énoncé du Principe Implications Pratiques pour le Développeur (Exemples)
+1. Bien-être & Non-Maleficence 19
+Concevoir et développer des systèmes de personnalisation qui visent à améliorer l'expérience utilisateur de manière positive et à éviter de causer des préjudices psychologiques, financiers ou sociaux.
+- Évaluer les risques d'addiction, d'anxiété, de manipulation ou d'exploitation des vulnérabilités. <br> Éviter les "dark patterns" et les techniques de conception prédatrices. <br> Privilégier les recommandations qui favorisent le bien-être à long terme plutôt que l'engagement à court
+
+
+ terme.
+2. Équité & Non-Discrimination 8
+S'engager activement à identifier, mesurer et atténuer les biais injustes dans les données et les algorithmes afin de prévenir toute discrimination dans les résultats de la personnalisation.
+- Auditer régulièrement les données et les modèles pour détecter les biais.25 <br> Utiliser des métriques d'équité adaptées au contexte. <br> - Mettre en œuvre des techniques de mitigation des biais.25 <br> - Assurer une représentation équitable des différents groupes dans les données d'entraînement.
+3. Transparence & Explicabilité 8
+Rendre les mécanismes de personnalisation aussi transparents et explicables que possible, en fonction du contexte et des parties prenantes (pairs, auditeurs, utilisateurs).
+- Documenter clairement les choix de conception, les données utilisées, les modèles et leurs limites.137 <br> - Utiliser des techniques XAI pour comprendre les facteurs influençant les recommandations.24 <br> - Fournir aux utilisateurs des informations claires sur le fonctionnement de la personnalisation.73
+
+
+ 4. Respect de l'Autonomie & Vie Privée 8
+Concevoir des systèmes qui respectent l'autonomie de décision des utilisateurs et protègent rigoureusement leurs données personnelles et leur vie privée.
+- Appliquer les principes de minimisation des données et de "Privacy by Design".171 <br> Obtenir un consentement éclairé, spécifique et granulaire.232 <br> Offrir aux utilisateurs un contrôle significatif sur leurs données et les paramètres de personnalisation.232 <br> - Mettre en œuvre des mesures de sécurité robustes.194
+5. Responsabilité & Redevabilité 8
+Assumer la responsabilité professionnelle pour la qualité, la sûreté et les impacts éthiques des algorithmes développés. Coopérer aux processus d'audit et de remédiation.
+- Tester rigoureusement les algorithmes pour la robustesse et la sécurité.135 <br> Participer de bonne foi aux audits internes ou externes.190 <br> Documenter les décisions et les processus pour assurer la traçabilité.8 <br> - Signaler les risques éthiques ou les défaillances potentielles
+
+
+ identifiées.32
+6. Prudence & Anticipation des Risques 8
+Adopter une approche proactive pour anticiper les conséquences potentiellement négatives (biais, manipulation, sécurité, impacts sociaux imprévus) et intégrer des mesures d'atténuation dès la conception.
+- Réaliser des évaluations d'impact éthique ou des analyses de risques en amont.75 <br> Considérer les scénarios d'abus ou de détournement possibles. <br> Mettre en place des mécanismes de surveillance continue.77
+7. Surveillance & Intervention Humaine
+8
+Concevoir les systèmes de manière à permettre une supervision et une intervention humaines appropriées, en particulier pour les décisions ayant un impact significatif sur les utilisateurs.
+- Intégrer des points de contrôle humain pour les recommandations sensibles. <br> Développer des interfaces permettant aux superviseurs de comprendre et d'outrepasser les décisions algorithmiques si nécessaire. <br> Prévoir des mécanismes clairs de contestation et de révision humaine pour les utilisateurs.73
+8. Développement S'engager à maintenir - Suivre des formations
+
+
+ Professionnel Continu 32
+et à développer ses compétences techniques et sa compréhension des enjeux éthiques, sociaux et réglementaires liés à l'IA et à la personnalisation.
+continues sur l'éthique de l'IA, la protection des données, les techniques de mitigation des biais. <br> - Se tenir informé des évolutions technologiques et réglementaires. <br> Participer aux discussions professionnelles sur les bonnes pratiques éthiques.
+Ces principes, intégrés dans un code de déontologie co-construit et
+soutenu par les organisations, peuvent contribuer à orienter les
+pratiques des développeurs vers une personnalisation plus
+responsable, équitable et respectueuse des individus.
+Limitations de la Recherche
+Plusieurs limitations doivent être prises en compte lors de
+l'interprétation des résultats de ce rapport :
+● Accès Limité aux Sources Spécifiques : Comme mentionné
+précédemment, certaines sources clés citées dans la requête
+initiale n'étaient pas accessibles (notamment l'article de
+Laurence Neuer du 29 janvier 2018 sur la responsabilité
+individuelle 226, les détails sur la méthodologie de Praxis En
+Commun 225, et l'article spécifique de l'International Journal of
+Social Science Studies sur Weber datant d'avant 2019 102).
+L'analyse a dû contourner ces manques en s'appuyant sur
+d'autres snippets pertinents et sur les concepts généraux
+
+
+ évoqués, ce qui peut limiter la profondeur ou la précision sur ces
+points spécifiques.
+● Dépendance aux Extraits Fournis : La recherche repose
+intégralement sur l'analyse des snippets S_R* et S_S*. La qualité,
+la représentativité et l'exhaustivité de ce corpus initial
+conditionnent directement la portée et la validité des
+conclusions. Des aspects importants ou des nuances présentes
+dans les documents originaux complets pourraient avoir été
+omis.
+● Absence de Données Empiriques Primaires : L'analyse est de
+nature théorique et conceptuelle, basée sur une synthèse de
+littérature secondaire (telle que présentée dans les snippets).
+Elle ne s'appuie pas sur des données empiriques collectées
+spécifiquement pour cette étude (ex: entretiens avec des
+développeurs, analyse de code d'algorithmes de
+personnalisation réels, observation de processus d'audit).36 Une
+telle investigation de terrain permettrait d'affiner, de valider ou
+de nuancer les arguments développés ici.
+● Dynamisme et Complexité du Domaine : L'intelligence
+artificielle, les techniques de personnalisation, les cadres
+éthiques et les réglementations sont en évolution extrêmement
+rapide.193 Les sources utilisées, même récentes, peuvent
+rapidement devenir partiellement obsolètes. De plus, la
+complexité intrinsèque des systèmes algorithmiques et de leurs
+interactions sociales rend toute analyse nécessairement
+simplificatrice.
+● Généralisabilité Contextuelle : Bien que le rapport vise à
+dégager des principes et des méthodologies d'application
+générale, leur mise en œuvre concrète dépendra fortement des
+contextes spécifiques : type d'algorithme de personnalisation,
+
+
+ secteur d'activité (média, e-commerce, finance, etc.), culture
+organisationnelle, cadre réglementaire national ou régional.
+Travaux Futurs et Perspectives
+Les limitations actuelles ouvrent plusieurs pistes prometteuses pour
+des recherches futures :
+● Recherches Empiriques Approfondies :
+○ Mener des études de cas détaillées sur la manière dont la
+"bureaucratie algorithmique" se manifeste concrètement
+dans différentes organisations utilisant la personnalisation
+(ex: plateformes de streaming, réseaux sociaux, sites de
+e-commerce, services publics numériques).84 Cela
+permettrait de mieux comprendre les mécanismes de
+pouvoir, les formes d'opacité et les stratégies de résistance
+des utilisateurs.
+○ Réaliser des enquêtes qualitatives (entretiens, focus
+groups) auprès des développeurs, data scientists et chefs de
+produit impliqués dans la création d'algorithmes de
+personnalisation.36 L'objectif serait d'explorer leurs pratiques
+quotidiennes, les dilemmes éthiques qu'ils rencontrent, leur
+perception de la responsabilité, et leur réception des codes
+de déontologie ou des principes éthiques.26
+○ Conduire des évaluations empiriques comparatives de
+l'efficacité des différentes méthodes d'audit algorithmique et
+de mitigation des biais (techniques, organisationnelles,
+participatives) dans des contextes réels de
+personnalisation.87
+● Développement d'Outils et de Méthodes Participatives :
+○ Concevoir et tester des méthodologies d'audit et de
+conception participatives qui intègrent de manière
+
+
+ significative les perspectives et les valeurs des utilisateurs
+finaux et des communautés potentiellement affectées par les
+algorithmes de personnalisation.6
+○ Développer des outils open-source pour améliorer la
+transparence et l'explicabilité des systèmes de
+personnalisation, permettant aux chercheurs, aux
+régulateurs et aux citoyens de mieux les comprendre et les
+contrôler.71
+● Articulation entre Éthique, Déontologie et Réglementation :
+○ Analyser en profondeur l'interaction entre les codes de
+déontologie volontaires (comme celui proposé ici) et les
+cadres réglementaires contraignants (ex: RGPD, AI Act
+européen 193), en étudiant comment ils peuvent se renforcer
+mutuellement ou entrer en tension.
+○ Explorer des modèles de gouvernance algorithmique
+multi-niveaux, combinant l'autorégulation des entreprises,
+la régulation sectorielle, l'intervention étatique et la
+coopération internationale, pour assurer un encadrement
+cohérent et efficace de l'IA responsable.8
+● Approfondissement des Cadres Théoriques :
+○ Poursuivre l'exploration des parallèles et des tensions entre
+la rationalisation wébérienne et les logiques
+d'optimisation algorithmique, en examinant comment les
+différentes formes de rationalité (formelle, substantielle,
+pratique, théorique 106) sont mobilisées ou transformées par
+l'IA.50
+○ Développer la critique graebérienne des "technologies
+bureaucratiques" 63 en l'appliquant spécifiquement aux
+plateformes numériques et aux algorithmes de
+personnalisation, en analysant comment ils reconfigurent le
+
+
+ contrôle social, la violence structurelle et l'imagination
+politique.
+Conclusion
+Ce rapport a entrepris une analyse socio-technique des algorithmes
+de personnalisation, en les examinant à travers le prisme des
+théories de la bureaucratie et des cadres éthiques contemporains.
+L'analyse a révélé que ces systèmes, loin d'être de simples outils
+neutres, peuvent être compris comme une forme émergente de
+"bureaucratie algorithmique". Ils partagent avec la bureaucratie
+classique des logiques de rationalisation, d'application de règles
+impersonnelles, de classification et de pouvoir basé sur le savoir
+technique, tout en présentant des spécificités liées à la technologie
+numérique : une vitesse et une échelle démultipliées, une opacité
+accrue, des formes de contrôle plus subtiles et diffuses, et une
+capacité d'adaptation par l'apprentissage.
+Cette bureaucratie algorithmique, incarnant à la fois l'idéal
+d'efficacité wébérien et les craintes de la "cage de fer" et de la
+"stupidité structurelle" graebérienne, pose des défis considérables
+pour l'autonomie individuelle, l'équité et la transparence. Les
+risques de manipulation, de discrimination, d'enfermement
+informationnel et d'atteinte à la vie privée sont réels et nécessitent
+une vigilance accrue.
+Face à ces constats, et en reconnaissant la possibilité d'effets
+prédateurs, le rapport a plaidé pour la nécessité et la faisabilité
+d'une intervention éthique sur ces algorithmes. Une démarche
+structurée, combinant audit technique (biais, performance),
+analyse causale (via l'explicabilité - XAI), évaluation éthique
+fondée sur des principes robustes (comme ceux de la Déclaration de
+
+
+ Montréal) et participation des parties prenantes, a été proposée
+comme voie pour une modification responsable.
+Enfin, considérant les difficultés d'attribution de la responsabilité
+dans des systèmes complexes (les "accountability gaps"),
+l'élaboration d'un code de déontologie pour les développeurs
+d'algorithmes de personnalisation apparaît comme un levier
+essentiel. Inspiré par des processus collaboratifs (comme celui du
+Biosphere Code) et ancré dans des principes éthiques
+internationaux (UNESCO, OCDE), un tel code devrait guider les
+pratiques individuelles tout en reconnaissant les contraintes
+organisationnelles et en promouvant une culture de responsabilité
+partagée. Les principes directeurs esquissés (bien-être, équité,
+transparence, autonomie/vie privée, responsabilité, prudence,
+surveillance humaine, développement professionnel) visent à fournir
+une boussole éthique concrète.
+En définitive, cette recherche souligne l'urgence d'adopter une
+approche critique et réflexive vis-à-vis des algorithmes de
+personnalisation.5 Leur conception et leur déploiement ne peuvent
+se limiter à une quête d'optimisation technique ; ils doivent être
+constamment évalués à l'aune de leurs impacts humains et
+sociétaux. Cela requiert des mécanismes de gouvernance
+algorithmique robustes, incluant la transparence, l'auditabilité, des
+voies de recours effectives et une clarification des responsabilités.27
+Le rôle de l'éthique et de la déontologie dans la formation et la
+pratique quotidienne des professionnels de l'IA est, dans ce
+contexte, absolument central.137
+La régulation des algorithmes de personnalisation et, plus
+largement, de l'intelligence artificielle, constitue l'un des défis
+majeurs de notre temps. Assurer que ces puissantes technologies
+
+
+ restent au service de l'humain, de la justice sociale et du bien
+commun exige un dialogue soutenu et inclusif entre chercheurs,
+concepteurs, entreprises, citoyens et pouvoirs publics.6 C'est à cette
+condition que nous pourrons espérer naviguer la transition
+numérique de manière véritablement responsable et démocratique.
+Bibliographie
+(Cette section serait normalement remplie avec les entrées BibTeX
+correspondant aux sources citées dans le texte, formatées selon un
+style académique standard. Pour cette simulation, elle reste vide,
+mais les sources sont traçables via les identifiants de snippets
+utilisés tout au long du rapport.)
+Annexes
+(Optionnel. Pourrait inclure des textes de référence, des détails
+méthodologiques supplémentaires, etc.)
+Ouvrages cités
+1. Profilage et décision entièrement automatisée - CNIL, dernier accès : avril 29, 2025, https://www.cnil.fr/fr/profilage-et-decision-entierement-automatisee 2. Vos droits à l'intervention humaine face à votre profilage ou à une décision automatisée, dernier accès : avril 29, 2025, https://www.cnil.fr/fr/vos-droits-lintervention-humaine-face-votre-profilage-ou-u ne-decision-automatisee 3. La protection des données personnelles face aux algorithmes prédictifs, dernier accès : avril 29, 2025, https://revuedlf.com/droit-ue/la-protection-des-donnees-personnelles-face-auxalgorithmes-predictifs/ 4. AI Ethics - Challenges and State of the Art - Kaggle, dernier accès : avril 29, 2025, https://www.kaggle.com/code/danikagupta/ai-ethics-challenges-and-state-of-th e-art/code 5. (PDF) Ethical Implications and Accountability of Algorithms - ResearchGate, dernier accès : avril 29, 2025, https://www.researchgate.net/publication/324896361_Ethical_Implications_and_A ccountability_of_Algorithms 6. Comment permettre à l'Homme de garder la main ? Rapport sur les enjeux
+
+
+ éthiques des algorithmes et de l'intelligence artificielle | CNIL, dernier accès : avril 29, 2025, https://www.cnil.fr/fr/comment-permettre-lhomme-de-garder-la-main-rapport-s ur-les-enjeux-ethiques-des-algorithmes-et-de 7. IA éthique et inclusive : quels enjeux et défis pour les entreprises ? | Big média Bpifrance, dernier accès : avril 29, 2025, https://bigmedia.bpifrance.fr/nos-dossiers/ia-ethique-et-inclusive-quels-enjeux-e t-defis-pour-les-entreprises 8. Ethics of Artificial Intelligence | UNESCO, dernier accès : avril 29, 2025, https://www.unesco.org/en/artificial-intelligence/recommendation-ethics 9. (PDF) A Review of the Ethics of Artificial Intelligence and Its ..., dernier accès : avril 29, 2025, https://www.researchgate.net/publication/374441173_A_REVIEW_OF_THE_ETHICS _OF_ARTIFICIAL_INTELLIGENCE_AND_ITS_APPLICATIONS_IN_THE_UNITED_STATE S
+10. Ethical and societal implications of algorithms, data, and artificial intelligence: a roadmap for research - Nuffield Foundation, dernier accès : avril 29, 2025, https://www.nuffieldfoundation.org/sites/default/files/files/Ethical-and-Societal-Im plications-of-Data-and-AI-report-Nuffield-Foundat.pdf 11. AI Ethics: What It Is, Why It Matters, and More | Coursera, dernier accès : avril 29, 2025, https://www.coursera.org/articles/ai-ethics 12. The Ethical Considerations of Artificial Intelligence | Capitol Technology University, dernier accès : avril 29, 2025, https://www.captechu.edu/blog/ethical-considerations-of-artificial-intelligence 13. The Moral Economy of High-Tech Modernism | American Academy ..., dernier accès : avril 29, 2025, https://www.amacad.org/publication/daedalus/moral-economy-high-tech-moder nism 14. Justification du choix du sujet de recherche En 7 étapes - Sylla Académie, dernier accès : avril 29, 2025, https://syllaacademie.com/justification-du-choix-du-sujet-de-recherche/ 15. Justification de la recherche : conseils de rédaction et exemples - Editverse, dernier accès : avril 29, 2025, https://www.editverse.com/fr/justification-de-la-recherche-conseils-pour-la-r%C 3%A9daction-exemples/ 16. La pertinence de votre sujet de mémoire - Mon sujet est-il pertinent ? - Scribbr, dernier accès : avril 29, 2025, https://www.scribbr.fr/memoire/pertinence-du-sujet/ 17. Comment justifier une recherche : Une vue d'ensemble - Mind the Graph, dernier accès : avril 29, 2025, https://mindthegraph.com/blog/fr/comment-justifier-la-recherche/ 18. Comment élaborer une problématique pertinente - Expertmemoire, dernier accès : avril 29, 2025, https://expertmemoire.com/comment-elaborer-une-problematique-pertinente/ 19. Montréal Declaration for a Responsible Development of Artificial ..., dernier accès
+
+
+ : avril 29, 2025, https://montrealdeclaration-responsibleai.com/the-declaration/ 20. Fill In, Accept, Submit, and Prove that You Are not a Robot: Ubiquity as the Power of the Algorithmic Bureaucracy - PhilArchive, dernier accès : avril 29, 2025, https://philarchive.org/archive/BUKFIA 21. Comment trouver une problématique de recherche, dernier accès : avril 29, 2025, https://methodorecherche.com/comment-trouver-problematique-recherche/ 22. Algorithmic Bureaucracy | Request PDF - ResearchGate, dernier accès : avril 29, 2025, https://www.researchgate.net/publication/333790491_Algorithmic_Bureaucracy 23. philarchive.org, dernier accès : avril 29, 2025, https://philarchive.org/archive/BUKFIA#:~:text=According%20to%20them%2C%2 0algorithmic%20bureaucracy,analysis%20(Vogl%2C%202019). 24. Qu'est-ce que l'IA explicable (XAI) ? | IBM, dernier accès : avril 29, 2025, https://www.ibm.com/fr-fr/think/topics/explainable-ai 25. Comprendre les biais algorithmiques : un défi majeur pour l'IA - BinAIntelligence, dernier accès : avril 29, 2025, https://binaintelligence.com/fr/comprendre-les-biais-algorithmiques-un-defi-criti que-pour-lia/ 26. Academic machine learning researchers' ethical perspectives on algorithm development for health care: a qualitative study, dernier accès : avril 29, 2025, https://academic.oup.com/jamia/article/31/3/563/7464003 27. Inside the AI Accountability Gap: Why Enterprises Are Building Their Own Rules, dernier accès : avril 29, 2025, https://www.vktr.com/digital-workplace/inside-the-ai-accountability-gap-why-en terprises-are-building-their-own-rules/ 28. Investigating accountability for Artificial Intelligence through risk governance: A workshop-based exploratory study - PMC, dernier accès : avril 29, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC9905430/ 29. Lechterman, Theodore M. (Forthcoming). The concept of accountability in ai ethics and - PhilArchive, dernier accès : avril 29, 2025, https://philarchive.org/archive/LECTCO-8 30. What is AI Ethics? | IBM, dernier accès : avril 29, 2025, https://www.ibm.com/think/topics/ai-ethics 31. (PDF) Distributed responsibility in human–machine interactions - ResearchGate, dernier accès : avril 29, 2025, https://www.researchgate.net/publication/355393000_Distributed_responsibility_i n_human-machine_interactions 32. Ethical Issues in Software Development: Balancing Technical and Moral Responsibility, dernier accès : avril 29, 2025, https://fullscale.io/blog/ethical-issues-in-software-development/ 33. La question de recherche d'un article scientifique : nos conseils et exemples Scribbr, dernier accès : avril 29, 2025, https://www.scribbr.fr/article-scientifique/question-de-recherche/ 34. Définir une problématique de recherche - Université de Moncton, dernier accès : avril 29, 2025,
+
+
+ https://www.umoncton.ca/boursesderecherche/sites/boursesderecherche.prod.u moncton.ca/files/wf/probleme.pdf 35. expertmemoire.com, dernier accès : avril 29, 2025, https://expertmemoire.com/comment-elaborer-une-problematique-pertinente/#: ~:text=Une%20probl%C3%A9matique%20doit%20%C3%AAtre%20claire,%C3%A 0%20diff%C3%A9rentes%20perspectives%20et%20approches. 36. RÉALISER UNE ÉTUDE QUALITATIVE EN SANTÉ - F2RSM Psy, dernier accès : avril 29, 2025, https://www.f2rsmpsy.fr/fichs/30731.pdf 37. Étude qualitative : définition, techniques, étapes et analyse - Scribbr, dernier accès : avril 29, 2025, https://www.scribbr.fr/methodologie/etude-qualitative/ 38. Recherche qualitative : le guide ultime - Qualtrics, dernier accès : avril 29, 2025, https://www.qualtrics.com/fr/gestion-de-l-experience/etude-marche/recherche-q ualitative/ 39. 29. L'approche qualitative et ses principales stratégies d'enquête, dernier accès : avril 29, 2025, https://scienceetbiencommun.pressbooks.pub/projetthese/chapter/methodes-qu alitatives-de-recherche/ 40. Réaliser une revue systématique - bibliothèques UdeM - Université de Montréal, dernier accès : avril 29, 2025, https://bib.umontreal.ca/en/evaluer-analyser-rediger/syntheses-connaissances/re diger-revue-systematique 41. Revue des données probantes –l'utilitéet les limites des différentes approches LES REVUES SYSTÉMATIQUES, dernier accès : avril 29, 2025, https://ccnpps-ncchpp.ca/docs/Ciliska_revue_sys_FRpdf.pdf 42. La revue systématique - Fondation pour la recherche sur la biodiversité, dernier accès : avril 29, 2025, https://www.fondationbiodiversite.fr/wp-content/uploads/2019/03/Revue-syste% CC%81matique-web.pdf 43. Les étapes d'une revue systématique - Revues systématiques et autres synthèses de connaissances, dernier accès : avril 29, 2025, https://uqam-ca.libguides.com/revues-systematiques/etapes 44. Etapes clés de la réalisation d'une revue systématique de la littérature : application à la logopédie - ORBi, dernier accès : avril 29, 2025, https://orbi.uliege.be/bitstream/2268/237984/1/EcoleEteLogo_2019_SystematicRe view_DurieuxN.pdf 45. Revue systématique de la littérature en pratique - YouTube, dernier accès : avril 29, 2025, https://www.youtube.com/watch?v=3TGxJBposbw 46. Compréhension de la théorie de la bureaucratie de Max Weber en gestion organisationnelle - Nutshell Summaries, dernier accès : avril 29, 2025, https://www.nutshellapp.com/publicsummaries/compr%C3%A9hension-de-la-th %C3%A9orie-de-la-bureaucratie-de-max-weber-en-gestion-organisationnelle 47. Le modèle bureaucratique et les fondements de l'autorité : Max Weber, dernier accès : avril 29, 2025, https://www.droit-compta-gestion.fr/management/la-theorie-des-organisations/l es-premices-de-lanalyse-des-organisations/le-modele-bureaucratique-et-les-fo
+
+
+ ndements-de-autorite-max-weber/ 48. An Analysis of Bureaucratic Theory by Max Weber - AJHSSR, dernier accès : avril 29, 2025, https://www.ajhssr.com/wp-content/uploads/2021/01/ZU21501374381.pdf 49. IDEAL-TYPE BUREAUCRACY BY MAX WEBER, dernier accès : avril 29, 2025, https://mgesjournals.com/hssr/article/download/hssr.2019.7220/944/2401 50. Rationalization | Encyclopedia MDPI, dernier accès : avril 29, 2025, https://encyclopedia.pub/entry/54106 51. The Theory of Rationalization of Max Weber as a Methodology for Understanding Modern Sociocultural Processes, dernier accès : avril 29, 2025, https://www.socis.isras.ru/en/article/8178 52. Bureaucratie - Wikipédia, dernier accès : avril 29, 2025, https://fr.wikipedia.org/wiki/Bureaucratie 53. Bureaucracy - Six Principles Of Max Weber | Think Insights, dernier accès : avril 29, 2025, https://thinkinsights.net/strategy/bureaucracy-six-principles-max-weber 54. Max Weber's Bureaucratic Theory - Features & Rules - Vedantu, dernier accès : avril 29, 2025, https://www.vedantu.com/commerce/bureaucratic-theory-by-max-weber 55. Bureaucratic Management Theory of Max Weber - Simply Psychology, dernier accès : avril 29, 2025, https://www.simplypsychology.org/bureaucratic-theory-weber.html 56. (PDF) The Concept of Bureaucracy by Max Weber - ResearchGate, dernier accès : avril 29, 2025, https://www.researchgate.net/publication/330474921_The_Concept_of_Bureaucra cy_by_Max_Weber 57. Max Weber et la bureaucratie - OpenEdition Journals, dernier accès : avril 29, 2025, https://journals.openedition.org/trivium/pdf/3757 58. The Utopia of Rules: On Technology, Stupidity, and the Secret Joys of Bureaucracy: Graeber, David: 9781612193748 - Amazon.com, dernier accès : avril 29, 2025, https://www.amazon.com/Utopia-Rules-Technology-Stupidity-Bureaucracy/dp/16 12193749 59. The Utopia of Rules - The Anarchist Library, dernier accès : avril 29, 2025, https://theanarchistlibrary.org/library/david-graeber-the-utopia-of-rules 60. Bureaucratie, l'utopie des règles - Wikipédia, dernier accès : avril 29, 2025, https://fr.wikipedia.org/wiki/Bureaucratie,_l%27utopie_des_r%C3%A8gles 61. Regarding Graeber's “The Utopia of Rules: On Technology, Stupidity, and the Secret Joys of Bureaucracy” [Originally posted in 2015] - UPRIVER, dernier accès : avril 29, 2025, https://michaelfbrown.net/2015/04/05/reflections-on-graebers-the-utopia-of-rul es-on-technology-stupidity-and-the-secret-joys-of-bureaucracy/ 62. Book Report: David Graeber — The Utopia of Rules - Christoph Labacher, dernier accès : avril 29, 2025, https://christophlabacher.com/notes/book-report-david-graeber-the-utopia-of-r ules
+
+
+ 63. The Utopia of Rules - David Graeber - the libarynth, dernier accès : avril 29, 2025, https://libarynth.org/utopia_of_rules 64. Bureaucratic technology and the limits of solutionism at Cop26 - The Cookie, dernier accès : avril 29, 2025, https://thecookiemag.com/bureaucratic-technology-and-the-limits-of-solutionis m-at-cop26/ 65. David Graeber's The Utopia of Rules, a critique of bureaucracy, reviewed., dernier accès : avril 29, 2025, https://slate.com/business/2015/03/david-graebers-the-utopia-of-rules-a-critiqu e-of-bureaucracy-reviewed.html 66. fr.wikipedia.org, dernier accès : avril 29, 2025, https://fr.wikipedia.org/wiki/D%C3%A9claration_de_Montr%C3%A9al_pour_un_d %C3%A9veloppement_responsable_de_l%27intelligence_artificielle#:~:text=La%2 0d%C3%A9claration%20%C3%A9nonce%20dix%20principes,responsabilit%C3% A9%20et%20le%20d%C3%A9veloppement%20soutenable. 67. Guide des principes d'innovation et d'intelligence artificielle responsables en santé, dernier accès : avril 29, 2025, https://eiaschum.ca/formations/guide-des-principes-d-innovation-et-d-intelligen ce-artificielle/ 68. Déclaration de Montréal IA responsable, dernier accès : avril 29, 2025, https://declarationmontreal-iaresponsable.com 69. About the Montréal Declaration on Responsible AI, dernier accès : avril 29, 2025, https://montrealdeclaration-responsibleai.com/about/ 70. L'éthique au cœur de l'IA - Groupe Philia, dernier accès : avril 29, 2025, https://groupephilia.com/wp-content/uploads/Ethique-au-coeur-de-lIA_brochure FR26oct.pdf 71. The Biosphere Code — Dark Machines, dernier accès : avril 29, 2025, https://darkmachines.earth/blog/the-biosphere-code#:~:text=The%20Biosphere %20Code%20were%20essentially,for%20both%20peopl%20e%20and%20planet 72. The Biosphere Code — Dark Machines, dernier accès : avril 29, 2025, https://darkmachines.earth/blog/the-biosphere-code#:~:text=The%20Biosphere %20Code%20were%20essentially,for%20both%20people%20and%20planet 73. AI principles | OECD, dernier accès : avril 29, 2025, https://www.oecd.org/en/topics/ai-principles.html 74. Présentation des Principes sur l'IA - OECD.AI, dernier accès : avril 29, 2025, https://oecd.ai/fr/ai-principles 75. Éthique de l'intelligence artificielle - UNESCO, dernier accès : avril 29, 2025, https://www.unesco.org/fr/artificial-intelligence/recommendation-ethics 76. Biais en Machine Learning : identification et réduction - Innovatiana, dernier accès : avril 29, 2025, https://www.innovatiana.com/post/bias-estimation-in-machine-learning 77. Ethical algorithm design should guide technology regulation, dernier accès : avril 29, 2025, https://www.brookings.edu/articles/ethical-algorithm-design-should-guide-techn ology-regulation/
+
+
+ 78. Le guide incontournable de l'IA explicable (XAI) - Alteryx, dernier accès : avril 29, 2025, https://www.alteryx.com/fr/resources/whitepaper/essential-guide-to-explainableai 79. Responsible design of an AI system for health behavior change—an ethics perspective on the participatory design process of the STAR-C digital coach, dernier accès : avril 29, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11934961/ 80. Algorithms and Ethics: A Systematic Review of the Implications of Data Democratization in Decision Making - ARTEII, dernier accès : avril 29, 2025, https://journal.arteii.or.id/index.php/Neptunus/article/download/706/958/3811 81. 5 méthodes d'analyse des données qualitatives - Hotjar, dernier accès : avril 29, 2025, https://www.hotjar.com/fr/analyse-donnees-qualitatives/methodes/ 82. Démarrer le processus de recherche - Recherche pour la rédaction technique et scientifique, dernier accès : avril 29, 2025, https://uottawa.libguides.com/redaction_technique_scientifique/demarrer_proces sus_recherche 83. Méthodologie - Scribbr, dernier accès : avril 29, 2025, https://www.scribbr.fr/category/methodologie/ 84. Recherche qualitative : Définition, types, méthodes et exemples - QuestionPro, dernier accès : avril 29, 2025, https://www.questionpro.com/blog/fr/methodes-de-recherche-qualitative/ 85. Comment faire une étude quantitative - Drag'n Survey, dernier accès : avril 29, 2025, https://www.dragnsurvey.com/blog/comment-faire-une-etude-quantitative/ 86. Méthodologie - Comprendre la recherche, dernier accès : avril 29, 2025, https://www.comprendrelarecherche.ca/methodologie/ 87. Étude quantitative : définition, techniques, étapes et analyse - Scribbr, dernier accès : avril 29, 2025, https://www.scribbr.fr/methodologie/etude-quantitative/ 88. La méthodologie quantitative : le guide ultime pour mesurer et analyser, dernier accès : avril 29, 2025, https://ouabouch.uiz.ac.ma/blog/m%C3%A9thodes-de-recherche/la-m%C3%A9t hodologie-quantitative-le-guide-ultime-pour-mesurer-et-analyser 89. Méthodologies de recherche académique : les 9 méthodes à connaître Compilatio, dernier accès : avril 29, 2025, https://www.compilatio.net/blog/methode-recherche-academique 90. Étude quantitative : définition, méthodes, conception et analyse - Compilatio, dernier accès : avril 29, 2025, https://www.compilatio.net/blog/etude-quantitative 91. Étude Quantitative: Définition, Méthodologie et Analyse - SurveyMonkey, dernier accès : avril 29, 2025, https://fr.surveymonkey.com/mp/etude-quantitative/ 92. Qu'est-ce que la recherche quantitative ? Définition, exemples, avantages clés, méthodes et bonnes pratiques - IdeaScale, dernier accès : avril 29, 2025, https://ideascale.com/fr/blogues/quest-ce-que-la-recherche-quantitative/ 93. Étude qualitative : le guide complet - SurveyMonkey, dernier accès : avril 29, 2025, https://fr.surveymonkey.com/mp/etude-qualitative/ 94. 22 Différentes Méthodes de Recherche et Collecte de Données - Scribbr, dernier
+
+
+ accès : avril 29, 2025, https://www.scribbr.fr/methodologie/differentes-methodes-de-recherche/ 95. Qu'est-ce qu'une bonne recherche? - IDRC, dernier accès : avril 29, 2025, https://idrc-crdi.ca/sites/default/files/2021-04/Lit-review-Final-French.pdf 96. Comment formuler sa problématique de mémoire ?, dernier accès : avril 29, 2025, https://fac.umc.edu.dz/fst/fichiers/Cours%205-La%20r%C3%A9daction%20de%2 0la%20problematique%20dun%20travail%20de%20recherche%20Mme%20Belh annachi.pdf 97. Les méthodes d'analyse en recherche quantitative: une introduction aux principaux outils disponibles pour le chercheur, dernier accès : avril 29, 2025, https://www.rfre.org/article/download/4981/4435/9184 98. Rédiger une problématique de recherche | Cegep de Sherbrooke, dernier accès : avril 29, 2025, https://cegepsherbrooke.qc.ca/wp-content/uploads/2024/09/x-2023-10-27_probl ematique_de_recherche.pdf 99. 2.2 : Quatre approches de recherche - Global - LibreTexts, dernier accès : avril 29, 2025, https://query.libretexts.org/Francais/Introduction_au_gouvernement_et_%C3%A0 _la_politique_compar%C3%A9s_(Bozonelos_et_al.)/02%3A_Comment_%C3%A9t udier_la_politique_compar%C3%A9e_%C3%A0_l'aide_de_m%C3%A9thodes_co mparatives/2.02%3A_Quatre_approches_de_recherche 100. (PDF) RATIONALIZATION AND BUREAUCRACY: IDEAL-TYPE BUREAUCRACY BY MAX WEBER - ResearchGate, dernier accès : avril 29, 2025, https://www.researchgate.net/publication/333928444_RATIONALIZATION_AND_B UREAUCRACY_IDEAL-TYPE_BUREAUCRACY_BY_MAX_WEBER 101. The Concept of Bureaucracy by Max Weber | Serpa | International Journal of Social Science Studies - Redfame Publishing, dernier accès : avril 29, 2025, https://redfame.com/journal/index.php/ijsss/article/view/3979/0 102. International Journal of Social Science Studies - Redfame Publishing, dernier accès : avril 29, 2025, http://ijsss.redfame.com 103. Bureaucratic Theory of Management by Max Weber - Toolshero, dernier accès : avril 29, 2025, https://www.toolshero.com/management/bureaucratic-theory-weber/ 104. Max Weber Bureaucracy Theory: Concept, Principles, and Forms, dernier accès : avril 29, 2025, https://www.toppr.com/guides/fundamentals-of-economics-and-management/ev olution-of-management-thought/bureaucratic-theory-by-max-weber/ 105. Max Weber's Views on Bureaucracy - Easy Sociology, dernier accès : avril 29, 2025, https://easysociology.com/general-sociology/max-webers-views-on-bureaucracy /
+106. Max Weber's Types of Rationality: Cornerstones for the Analysis of Rationalization Processes in History | American Journal of Sociology: Vol 85, No 5, dernier accès : avril 29, 2025, https://www.journals.uchicago.edu/doi/abs/10.1086/227128
+
+
+ 107. Max Weber and the Cultural Evolution, dernier accès : avril 29, 2025, https://karolinum.cz/data/clanek/12763/HS_16_1_0029.pdf 108. Artificial intelligence, rationalization, and the limits of control in the public sector: the case of tax policy optimization - ResearchGate, dernier accès : avril 29, 2025, https://www.researchgate.net/publication/382080008_Artificial_intelligence_ratio nalization_and_the_limits_of_control_in_the_public_sector_the_case_of_tax_polic y_optimization 109. The Utopia of Rules - Wikipedia, dernier accès : avril 29, 2025, https://en.wikipedia.org/wiki/The_Utopia_of_Rules 110. Review and Summary: The Utopia of Rules - Sekar Writes, dernier accès : avril 29, 2025, https://sekarwrites.com/review-and-summary-the-utopia-of-rules/ 111. The Utopia of Rules, David Graeber Interview, dernier accès : avril 29, 2025, https://davidgraeber.org/interviews/the-utopia-of-rules-david-graeber-interview/ 112. David Graeber: On Bureaucratic Technologies and the Future as Dream-Time YouTube, dernier accès : avril 29, 2025, https://www.youtube.com/watch?v=4Q84ar89Oxo 113. David Graeber - Tous les livres - Librairie Eyrolles, dernier accès : avril 29, 2025, https://www.eyrolles.com/Accueil/Auteur/david-graeber-121562/ 114. The utopia of rules: on technology, stupidity, and the secret joys of bureaucracy - David Graeber | libcom.org, dernier accès : avril 29, 2025, https://libcom.org/article/utopia-rules-technology-stupidity-and-secret-joys-bur eaucracy-david-graeber 115. Une critique de « Au commencement était... » (D. Graeber et D. Wengrow) par Axel Paul, dernier accès : avril 29, 2025, https://www.lahuttedesclasses.net/2023/11/nouvelles-idees-pour-une-histoire.ht ml 116. On Bureaucratic Technologies & the Future as Dream-Time - David Graeber, dernier accès : avril 29, 2025, https://davidgraeber.org/videos/on-bureaucratic-technologies-the-future-as-dre am-time/ 117. (PDF) Face à l'automatisation des bureaucraties d'État, l'accommodement ou le refus ?, dernier accès : avril 29, 2025, https://www.researchgate.net/publication/356414981_Face_a_l'automatisation_de s_bureaucraties_d'Etat_l'accommodement_ou_le_refus 118. University Bureaucracies as the Death of Play: The 1968 Strax Affair and the Arts of Discombobulation - Érudit, dernier accès : avril 29, 2025, https://www.erudit.org/en/journals/criticaled/2025-v16-n1-criticaled09900/111674 4ar.pdf 119. University Bureaucracies as the Death of Play - UBC Library, dernier accès : avril 29, 2025, https://ices.library.ubc.ca/index.php/criticaled/article/view/186926/185726 120. RGPD profilage et prise de décision automatisée - Data Legal Drive, dernier accès : avril 29, 2025, https://datalegaldrive.com/rgpd-profilage-prise-de-decision-automatisee/
+
+
+ 121. 2024 ATPS A state-of-the-art report of algorithmic transparency instruments.docx - OECD.AI, dernier accès : avril 29, 2025, https://wp.oecd.ai/app/uploads/2024/12/14-Algorithmic-Transparency-in-the-Publ ic-Sector-A-state-of-the-art-report-of-algorithmic-transparency-instruments.p df 122. Full article: AI and bureaucratic discretion - Taylor & Francis Online, dernier accès : avril 29, 2025, https://www.tandfonline.com/doi/full/10.1080/0020174X.2023.2261468 123. Algorithmic Accountability in the Administrative State - Yale Law School Legal Scholarship Repository, dernier accès : avril 29, 2025, https://openyls.law.yale.edu/bitstream/handle/20.500.13051/8311/03_Engstrom__ Ho_Article._Final.pdf?isAllowed=y&sequence=2 124. Impoverished Publicness of Algorithmic Decision Making | Oxford Journal of Legal Studies, dernier accès : avril 29, 2025, https://academic.oup.com/ojls/article/44/4/780/7731417 125. From Bureaucratic to Algorithmic Governance: The Case of the AMS-Algorithm Master Thesis - ULB : Dok - Universität Innsbruck, dernier accès : avril 29, 2025, https://ulb-dok.uibk.ac.at/ulbtirolhs/download/pdf/4800137 126. Intelligence is not Artificial - Piero Scaruffi, dernier accès : avril 29, 2025, https://www.scaruffi.com/singular/sin273.html 127. French Translations Archives - FreshEd Podcast, dernier accès : avril 29, 2025, https://freshedpodcast.com/category/translations/french-translations/ 128. Canadian Political Science Association, dernier accès : avril 29, 2025, https://cpsaconference.ca/cfp_2024/pdf 129. Cours D'Analyse Des Organisations: Promotion: L1 Informatique | PDF | Business | Bureaucratie - Scribd, dernier accès : avril 29, 2025, https://fr.scribd.com/presentation/636358063/Untitled 130. (PDF) Pouvoir régalien et algorithmes, vers l' algocratie ? - ResearchGate, dernier accès : avril 29, 2025, https://www.researchgate.net/publication/323966761_Pouvoir_regalien_et_algorit hmes_vers_l'_algocratie 131. La logique de l'intervention au risque de la demande des acteurs | Cairn.info, dernier accès : avril 29, 2025, https://shs.cairn.info/revue-cahiers-de-l-actif-2023-5-page-215?lang=fr 132. Trivium, 28 - OpenEdition Journals, dernier accès : avril 29, 2025, https://journals.openedition.org/trivium/pdf/5658 133. Ethics and AI: State of the art and perspectives - IARIA, dernier accès : avril 29, 2025, https://www.iaria.org/conferences2019/filesCOGNITIVE19/NadiaAbchicheMimoun i_Tutorial_Ethics_AI.pdf 134. Ethical and Responsible Use of AI for Students - CSU AI Commons, dernier accès : avril 29, 2025, https://genai.calstate.edu/communities/students/ethical-and-responsible-use-ai-s tudents 135. Éthique de l'intelligence artificielle : principes, exemples et solutions, dernier
+
+
+ accès : avril 29, 2025, https://pernot-leplay.com/fr/ethique-intelligence-artificielle-principes/ 136. The Ethical Implications of AI in Development Environments - Scalable Human Blog, dernier accès : avril 29, 2025, https://scalablehuman.com/2024/01/20/the-ethical-implications-of-ai-in-develop ment-environments/ 137. Ethics: How Far Have We Come? - IEEE Computer Society, dernier accès : avril 29, 2025, https://www.computer.org/csdl/magazine/so/2025/03/10953352/25ICFONUXnO 138. Ethical Responsibility of the Software Engineer - CEUR-WS.org, dernier accès : avril 29, 2025, https://ceur-ws.org/Vol-240/paper4.pdf 139. Montréal Declaration on Responsible AI, dernier accès : avril 29, 2025, https://montrealdeclaration-responsibleai.com/ 140. Navigating Responsible AI - UN Statistics Division, dernier accès : avril 29, 2025, https://unstats.un.org/bigdata/events/2025/ai-data-science/webinar2/presentatio ns/Christos_Sarakinos_Navigating_Responsible_AI.pdf 141. Integrating the Ethics of Artificial Intelligence in Higher Education, dernier accès : avril 29, 2025, https://poleia.quebec/wp-content/uploads/2022/04/F05_Toolkit_AI_EN.pdf 142. David Kuan-Wei Chen Space Law meets the Montreal Declaration for a Responsible Development of Artificial Intelligence - McGill University, dernier accès : avril 29, 2025, https://www.mcgill.ca/iasl/files/iasl/state_responsibility_and_ai_helsinki_workshop_ final.pdf 143. Being AIware - Canada - ECNL.org, dernier accès : avril 29, 2025, https://ecnl.org/sites/default/files/2021-04/ECNL%20ICNL%20NAIS%20Canada%2 0Apr%202021.pdf 144. Montreal Declaration for a Responsible Development of Artificial Intelligence La recherche - Université de Montréal, dernier accès : avril 29, 2025, https://recherche.umontreal.ca/english/strategic-initiatives/montreal-declarationfor-a-responsible-ai/ 145. Issues and Discussion Paper / Best practices for the responsible use of AI Autorité des marchés financiers, dernier accès : avril 29, 2025, https://lautorite.qc.ca/fileadmin/lautorite/grand_public/publications/professionnels /tous-les-pros/IssuesDiscussion_PaperAI_2024.pdf 146. Yves Jaques, Chief Frontier Data Technology Unit - UN Statistics Division, dernier accès : avril 29, 2025, https://unstats.un.org/bigdata/events/2025/ai-data-science/symposium/presentati ons/Day%203%20-%20Governance%20and%20Change%20Management%20%20Yves%20Jaques.pdf 147. Montreal Declaration for Responsible AI: 10 Principles and 59 Recommendations - OSF, dernier accès : avril 29, 2025, https://osf.io/sj2z5_v1/ 148. Responsible Artificial Intelligence: a guide for deliberation, dernier accès : avril 29, 2025,
+
+
+ https://na.eventscloud.com/file_uploads/3791cf7b32eb26534bc48f2724d017ee_G uideDeliberation_ENGpdf.pdf 149. Montreal Declaration for Responsible AI: 10 Principles and 59 Recommendations, dernier accès : avril 29, 2025, https://www.researchgate.net/publication/374029076_Montreal_Declaration_for_ Responsible_AI_10_Principles_and_59_Recommendations 150. Montreal Declaration for Responsible AI: 10 Principles and 59 Recommendations 1 - OSF, dernier accès : avril 29, 2025, https://osf.io/sj2z5/download 151. Learning Together for Responsible Artificial Intelligence, dernier accès : avril 29, 2025, https://ised-isde.canada.ca/site/advisory-council-artificial-intelligence/sites/defaul t/files/attachments/2023/learning_together_for_responsible_artificial_intelligence _minisi_approved_20230303.pdf 152. Health Professionals and AI - Déclaration de Montréal, dernier accès : avril 29, 2025, https://declarationmontreal-iaresponsable.com/wp-content/uploads/2023/10/Co deDeDeontologieSante-ANG-OCT2023.pdf 153. La Déclaration de Montréal IA responsable, dernier accès : avril 29, 2025, https://declarationmontreal-iaresponsable.com/la-declaration/ 154. Full article: Algorithms for Ethical Decision-Making in the Clinic: A Proof of Concept, dernier accès : avril 29, 2025, https://www.tandfonline.com/doi/full/10.1080/15265161.2022.2040647 155. Designing Ethical Algorithms - MIS Quarterly Executive - AIS eLibrary, dernier accès : avril 29, 2025, https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1437&context=misqe 156. Ethical concerns mount as AI takes bigger decision-making role - Harvard Gazette, dernier accès : avril 29, 2025, https://news.harvard.edu/gazette/story/2020/10/ethical-concerns-mount-as-ai-ta kes-bigger-decision-making-role/ 157. Addressing equity and ethics in artificial intelligence - American Psychological Association, dernier accès : avril 29, 2025, https://www.apa.org/monitor/2024/04/addressing-equity-ethics-artificial-intellige nce 158. Study to Support an Impact Assessment of Regulatory Requirements for Artificial Intelligence in Europe, dernier accès : avril 29, 2025, https://artificialintelligenceact.eu/wp-content/uploads/2022/06/AIA-COM-Impact -Assessment-3-21-April.pdf 159. Attached is a draft version of the forthcoming report, A Northern Spark? AI Governance in Canada (2011 to 2021). The edited repo - Algorithmic Media Observatory, dernier accès : avril 29, 2025, https://www.amo-oma.ca/wp-content/uploads/2024/03/ORA_Policy_Report_IND U.pdf 160. Réunion du Conseil au niveau des Ministres, 2-3 mai 2024 RAPPORT SUR LA MISE EN ŒUVRE DE LA RECOMMANDATION DE L'OCDE SUR L - OECD, dernier
+
+
+ accès : avril 29, 2025, https://one.oecd.org/document/C/MIN(2024)17/fr 161. La transparence des algorithmes publics - DataGrandEst, dernier accès : avril 29, 2025, https://www.datagrandest.fr/public/juridique/GUIDES_RAPPORTS/Guides_Genera ux/Transparence_algorithmes_publics_Septembre_2023.pdf 162. (PDF) Guide pratique pour l'évaluation éthique de projets de recherche collégiaux impliquant l'intelligence artificielle et l'utilisation de données numériques personnelles - ResearchGate, dernier accès : avril 29, 2025, https://www.researchgate.net/publication/389237326_Guide_pratique_pour_l'eval uation_ethique_de_projets_de_recherche_collegiaux_impliquant_l'intelligence_art ificielle_et_l'utilisation_de_donnees_numeriques_personnelles 163. Cadre éthique et méthodologique pour le suivi et l'analyse des données de sources ouvertes - Global Affairs Canada, dernier accès : avril 29, 2025, https://www.international.gc.ca/transparency-transparence/rapid-response-mec hanism-mecanisme-reponse-rapide/ethical-ethique.aspx?lang=fra 164. Intelligence artificielle, algorithmes, éthique : de la juste coopération entre IA et intelligence humaine - SKEMA PUBLIKA, dernier accès : avril 29, 2025, https://publika.skema.edu/fr/intelligence-artificielle-algorithmes-ethique-de-la-ju ste-cooperation-en-ia-et-intelligence-humaine/ 165. Participatory AI: a method for integrating inclusive and ethical design considerations into autonomous system development, dernier accès : avril 29, 2025, https://eprints.whiterose.ac.uk/224153/7/Participatory_AI-A_Method_for_integratin g-2024%20%281%29.pdf 166. Participatory Design, AI, and Research Ethics: Dr. Quran Karriem on Inequality in Research - The Samuel DuBois Cook Center on Social Equity at Duke University, dernier accès : avril 29, 2025, https://socialequity.duke.edu/recent-news/participatory-design-ai-and-researchethics-dr-quran-karriem-on-inequality-in-research/ 167. The ethics of using artificial intelligence in medical research - Kosin Medical Journal, dernier accès : avril 29, 2025, https://www.kosinmedj.org/journal/view.php?doi=10.7180/kmj.24.140 168. Challenges and Facilitation Approaches for the Participatory Design of AI-Based Clinical Decision Support Systems: Protocol for a Scoping Review PMC, dernier accès : avril 29, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11413541/ 169. Ethical considerations in IT Systems Design: A review of principles and best practices, dernier accès : avril 29, 2025, https://wjarr.com/sites/default/files/WJARR-2024-1115.pdf 170. Full article: The Value-Sensitive Conversational Agent Co-Design Framework, dernier accès : avril 29, 2025, https://www.tandfonline.com/doi/full/10.1080/10447318.2024.2426737 171. From What to How: An Initial Review of Publicly Available AI Ethics Tools, Methods and Research to Translate Principles into Practices - PMC - PubMed Central, dernier accès : avril 29, 2025,
+
+
+ https://pmc.ncbi.nlm.nih.gov/articles/PMC7417387/ 172. [2310.11848] The Value-Sensitive Conversational Agent Co-Design Framework - ar5iv, dernier accès : avril 29, 2025, https://ar5iv.labs.arxiv.org/html/2310.11848 173. Artificial Intelligence and Community-Based Participatory Research onEvidence, dernier accès : avril 29, 2025, https://onevidence.co.uk/2025/01/03/artificial-intelligence-and-community-based -participatory-research/ 174. Community-engaged artificial intelligence: an upstream, participatory design, development, testing, validation, use and monitori - Frontiers, dernier accès : avril 29, 2025, https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.202 5.1568886/pdf 175. Community-based Participatory Research (CBPR): Towards Equitable Involvement of Community in Psychology Research - PMC - PubMed Central, dernier accès : avril 29, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC6054913/ 176. Full article: The Ethics of Engagement and Representation in Community-based Participatory Research - Taylor & Francis Online, dernier accès : avril 29, 2025, https://www.tandfonline.com/doi/full/10.1080/17496535.2023.2211756 177. The Ethics of Engagement and Representation in Community-based Participatory Research, dernier accès : avril 29, 2025, https://www.tandfonline.com/doi/abs/10.1080/17496535.2023.2211756 178. Intelligence artificielle en droit : derrière la "hype", la réalité - Precisement.org, dernier accès : avril 29, 2025, https://www.precisement.org/blog/Intelligence-artificielle-en-droit-derriere-la-hy pe-la-realite.html 179. Le clonage vocal : quels enjeux, quels risques ? - Le magazine, dernier accès : avril 29, 2025, https://www.didaktic.fr/experiences-virtuelles/le-clonage-vocal-quels-enjeux-que ls-risques/ 180. ENJEUX DE LA PRISE EN COMPTE DE LA RUMEUR DANS LA COMMUNICATION DE CRISE - IHEMI, dernier accès : avril 29, 2025, https://www.ihemi.fr/sites/default/files/inline-files/INHESJ_RC_etude_rumeur_com munication_crise_rapport.pdf 181. ouverture des données - Droit & Croissance, dernier accès : avril 29, 2025, https://droitetcroissance.fr/wp-content/uploads/2015/01/Droit-Croissance-ouvert ure-des-donne%CC%81es.pdf 182. L'intelligence artificielle et la responsabilité civile délictuelle, dernier accès : avril 29, 2025, http://dspa.ul.edu.lb/static/uploads/files/master-thesis/2017/m-0016-2017.pdf 183. Chapitre 3. Le numérique transforme le monde | Cairn.info, dernier accès : avril 29, 2025, https://shs.cairn.info/pour-un-numerique-au-service-du-bien-commun--9782415 001063-page-67?lang=fr 184. sabine.desvaux - Université Angers, dernier accès : avril 29, 2025,
+
+
+ https://www.univ-angers.fr/fr/acces-directs/annuaire-2/d/e/uduser-sabine-desvau x-fr.html 185. Catherine Puigelier - Portail Universitaire du droit, dernier accès : avril 29, 2025, https://univ-droit.fr/universitaires/20248-puigelier-catherine 186. quelle place réserver à l'algorithme dans le processus décisionnel en matière DIAL@UCLouvain, dernier accès : avril 29, 2025, https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A26502&data stream=PDF_01&cover=cover-mem 187. Algorithmic trust and regulation: Governance, ethics, legal, and social implications blueprint for Indonesia's central banking - Sussex Figshare, dernier accès : avril 29, 2025, https://sussex.figshare.com/ndownloader/files/52692083/1 188. Common ethical challenges in AI - Human Rights and Biomedicine - The Council of Europe, dernier accès : avril 29, 2025, https://www.coe.int/en/web/human-rights-and-biomedicine/common-ethical-cha llenges-in-ai 189. (PDF) Journalism Ethics for the Algorithmic Era - ResearchGate, dernier accès : avril 29, 2025, https://www.researchgate.net/publication/370479672_Journalism_Ethics_for_the_ Algorithmic_Era 190. Closing the AI accountability gap: defining an end-to-end framework for internal algorithmic auditing - Digital Government Hub, dernier accès : avril 29, 2025, https://digitalgovernmenthub.org/library/closing-the-ai-accountability-gap-defini ng-an-end-to-end-framework-for-internal-algorithmic-auditing/ 191. Critical Issues About A.I. Accountability Answered - California Management Review, dernier accès : avril 29, 2025, https://cmr.berkeley.edu/2023/11/critical-issues-about-a-i-accountability-answere d/ 192. Moral Responsibility and Autonomous Technologies (Chapter 5) - The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence, dernier accès : avril 29, 2025, https://www.cambridge.org/core/books/cambridge-handbook-of-the-law-ethics -and-policy-of-artificial-intelligence/moral-responsibility-and-autonomous-tech nologies/B1A3D780C0C5364245198190AE134525 193. Le troisième projet de Code de bonnes pratiques pour l'IA à usage général : objectifs et perspectives d'avenir - cabinet Dreyfus., dernier accès : avril 29, 2025, https://www.dreyfus.fr/2025/04/02/le-troisieme-projet-de-code-de-bonnes-prati ques-pour-lia-a-usage-general-objectifs-et-perspectives-davenir/ 194. Ethique IA : Les bonnes pratiques - Data Legal Drive, dernier accès : avril 29, 2025, https://datalegaldrive.com/ia-ethique-bonnes-pratiques/ 195. Charte éthique et IA en entreprise : un document pour cadrer les pratiques en interne en constante évolution, dernier accès : avril 29, 2025, https://www.lamy-liaisons.fr/eclaireurs-du-droit/charte-ethique-et-ia-en-entrepri se-un-document-pour-cadrer-les-pratiques-en-interne-en-constante-evolution/ 196. Le code de déontologie à l'ère des nouvelles technologies et de l'IA - Assises
+
+
+ CNCC 2024, dernier accès : avril 29, 2025, https://www.assises-cncc-2024.fr/sites/default/files/2024-07/ACT0116_asssises24 _code_de%CC%81ontologique_IA.pdf 197. Le code de conduite d'une entreprise : un outil pour se dépasser - MNP, dernier accès : avril 29, 2025, https://www.mnp.ca/fr/points-de-vue/bibliotheque/le-code-de-conduite-d-une-e ntreprise-un-outil-pour-se-depasser 198. Code d'éthique, valeurs et lignes directrices - Canadian Association of Social Workers |, dernier accès : avril 29, 2025, https://www.casw-acts.ca/files/attachements/ACTS_-_Code_dethique_valeurs_et _lignes_directrices_-_2024.pdf 199. Code d'éthique, valeurs et lignes directrices de l'ACTS 2024, dernier accès : avril 29, 2025, https://www.casw-acts.ca/fr/ressources/code-dethique-valeurs-et-lignes-directri ces-de-lacts-2024 200. Charte éthique - GTT, dernier accès : avril 29, 2025, https://gtt.fr/sites/default/files/CONF-DVR-001000_Charte%20Ethique_FR.pdf 201. GUIDE PRATIQUE POUR DES IA ÉTHIQUES - Ethical AI, dernier accès : avril 29, 2025, https://ai-ethical.com/wp-content/uploads/2021/09/2021-SN-Guide-Me%CC%81t hodo-IA-Ethiques-version-imprime%CC%81e.pdf 202. L'éthique de l'intelligence artificielle : les principes et les mesures qui pourraient inspirer l'élaboration d'un cad - Espace ENAP, dernier accès : avril 29, 2025, https://espace.enap.ca/id/eprint/351/1/Silvestre%20Pinheiro%20Daniela_sta_2022 0408.pdf 203. Journal | JEUNES COMMISSAIRES, dernier accès : avril 29, 2025, https://www.jeunescommissaires.de/journal/ 204. OPEN DATA DES DECISIONS DE JUSTICE 2016-2019 : UNE MISE EN ŒUVRE PROBLEMATIQUE - Juriconnexion, dernier accès : avril 29, 2025, https://www.juriconnexion.fr/wp-content/uploads/2019/05/Bibliographie-OpenDat a.pdf 205. Intelligence artificielle et infractions pénales - Les Temps Électriques, dernier accès : avril 29, 2025, https://lestempselectriques.net/index.php/2018/08/01/intelligence-artificielle-et-i nfractions-penales/ 206. Doing Research - Gender Campus, dernier accès : avril 29, 2025, https://www.gendercampus.ch/fr/doing-research 207. Le champ pénal et ses hybridations « en actes » Continuités et ruptures Das Feld des Strafrechts und seine Hybridisierung in - Seismo Verlag, dernier accès : avril 29, 2025, https://www.seismoverlag.ch/site/assets/files/16356/oa_9783037778258.pdf 208. Alain Bensoussan 1. Professional Activity 2. Education 3. Practice Areas, dernier accès : avril 29, 2025, https://www.uianet.org/sites/default/files/crm/Contacts/71625/BENSOUSSAN_Alai
+
+
+ n_CV_EN.pdf 209. La création artistique générée par traitement algorithmique, une œuvre comme les autres ? - LaBRI, dernier accès : avril 29, 2025, https://www.labri.fr/perso/pelegrin/papers/CHEVALIER%20Le%CC%81a%20-%20 M2%20DTNSI%20Nanterre%20-%20Me%CC%81moire%20traitements%20algori thmiques%20et%20droit%20d'auteur.pdf 210. Justice - faut-il faire confiance au verdict des algorithmes ? - Le Point - https: //rm. coe. int, dernier accès : avril 29, 2025, https://rm.coe.int/justice-faut-il-faire-confiance-au-verdict-des-algorithmes-le-p oint/168092d051 211. Enjeux numériques – N°3 – septembre 2018 - Les Annales des Mines, dernier accès : avril 29, 2025, https://www.annales.org/enjeux-numeriques/2018/en-03-09-18.pdf 212. L'État de droit, - European Union, dernier accès : avril 29, 2025, https://www.europarl.europa.eu/RegData/etudes/STUD/2023/745684/EPRS_STU(2 023)745684_FR.pdf 213. Relato integral dos debates - Quarta-feira, 12 de Fevereiro de 2025 - European Parliament, dernier accès : avril 29, 2025, https://www.europarl.europa.eu/doceo/document/CRE-10-2025-02-12_PT.html 214. Appels à communications | Centre Etude de la Traduction, dernier accès : avril 29, 2025, http://www.centre-d-etudes-de-la-traduction.univ-paris-diderot.fr/taxonomy/ter m/27/all 215. analyse des incidents: Topics by Science.gov, dernier accès : avril 29, 2025, https://www.science.gov/topicpages/a/analyse+des+incidents 216. Les meilleurs cabinets d'avocats de France - Racine, dernier accès : avril 29, 2025, https://www.racine.eu/wp-content/uploads/2021/04/le-point_-les-meilleurs-cabin ets-d-avocats-de-france-2021-04-01.pdf 217. FRENCH JOURNAL OF LEGAL POLICY, dernier accès : avril 29, 2025, https://fjlp.assas-universite.fr/sites/default/files/fjlp/4957importuk_ep4_2.pdf 218. Steps to an Ecology of Algorithms - Annual Reviews, dernier accès : avril 29, 2025, https://www.annualreviews.org/doi/abs/10.1146/annurev-anthro-052721-041547 219. PRAXIS: Brent's algorithm for function minimization - SciSpace, dernier accès : avril 29, 2025, https://scispace.com/pdf/praxis-brent-s-algorithm-for-function-minimization-3oi 0xixpov.pdf 220. https://doc.rero.ch/oai2d/?verb=ListRecords&metadataPrefix=oai_dc&set=rep ort, dernier accès : avril 29, 2025, https://doc.rero.ch/oai2d/?verb=ListRecords&metadataPrefix=oai_dc&set=report 221. NLopt algorithms - NLopt Documentation, dernier accès : avril 29, 2025, https://nlopt.readthedocs.io/en/latest/NLopt_Algorithms/ 222. The PRAXIS® Study Companion - Elementary Education: Multiple Subjects (5001), dernier accès : avril 29, 2025,
+
+
+ https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/defa ult/pdfs/5001.pdf 223. COMPUTER SCIENCE PRAXIS PART 2 Flashcards | Quizlet, dernier accès : avril 29, 2025, https://quizlet.com/633153629/computer-science-praxis-part-2-flash-cards/ 224. Praxis Middle School Science Study Companion, dernier accès : avril 29, 2025, https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/defa ult/pdfs/5442.pdf 225. dernier accès : décembre 31, 1969, https://praxis.encommun.io/n/AaUTp0ESz0A0_0zW4VVLjRO-zwA/ 226. dernier accès : décembre 31, 1969, https://www.lepoint.fr/editos-du-point/laurence-neuer/algorithmes-ce-sont-les-in dividus-qu-il-faut-responsabiliser-29-01-2018-2190382_56.php#11 227. The PRAXIS® Study Companion - Computer Science (5652), dernier accès : avril 29, 2025, https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/defa ult/pdfs/5652.pdf 228. The PRAXIS® Study Companion - Elementary Education: Teaching Reading, Mathematics, Social Studies, and Science (7001), dernier accès : avril 29, 2025, https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/defa ult/pdfs/7001.pdf 229. crosswalk-5652.docx - ETS Praxis, dernier accès : avril 29, 2025, https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/defa ult/pdfs/crosswalk-5652.docx 230. WHEN MACHINES DECIDE: CREATING JUSTICE.EXE - cloudfront.net, dernier accès : avril 29, 2025, https://d2vxd53ymoe6ju.cloudfront.net/wp-content/uploads/sites/16/202004060 72259/2017-Praxis-Lab-Report.pdf 231. How to Use the Management Theory of Max Weber - Business.com, dernier accès : avril 29, 2025, https://www.business.com/articles/management-theory-of-max-weber/ 232. Ethical Practices in Custom Software Development Insights | MoldStud, dernier accès : avril 29, 2025, https://moldstud.com/articles/p-ethical-considerations-in-custom-software-deve lopment 233. Software Development Ethics and Best Practices - BetterSoftware, dernier accès : avril 29, 2025, https://www.bettersoftware.dev/blog/software-development-ethics/ 234. Managing Stakeholder-Driven Changes in Software Requirements - QAT Global, dernier accès : avril 29, 2025, https://qat.com/managing-stakeholder-driven-changes-srs/
