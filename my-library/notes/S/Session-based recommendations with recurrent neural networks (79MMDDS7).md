@@ -18,16 +18,21 @@ zotero-key: "79MMDDS7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/79MMDDS7"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-03-25 21:30:20"
+date-modified: "2026-11-17 18:04:06"
 ---
 
 # Session-based recommendations with recurrent neural networks
 
 **Hidasi, Balazs; Karatzoglou, Alexandros; Baltrunas, Linas; Tikk, Domonkos**
 
+## Extra
+
+OpenAlex: W2262817822
+
 ## Attachments
 
 - [Notion](notion://www.notion.so/Hidasi2016-2e29fa248c578117bf7ad6d2e9f1cf60)
+- [Hidasi et al. - 2016 - Session-based recommendations with recurrent neural networks.pdf](../../attachments/KM/KMK6PKHU/Hidasi%20et%20al.%20-%202016%20-%20Session-based%20recommendations%20with%20recurrent%20neural%20networks.pdf)
 
 ---
 

@@ -14,7 +14,7 @@ zotero-key: "4UDZ5XZN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4UDZ5XZN"
 date-added: "2026-03-04 19:44:30"
-date-modified: "2026-11-09 14:57:53"
+date-modified: "2026-11-17 18:04:04"
 ---
 
 # Semantic web cyber-physical systems: A cross-domain perspective
@@ -24,6 +24,7 @@ date-modified: "2026-11-09 14:57:53"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2996079257
 
 ## Attachments
 

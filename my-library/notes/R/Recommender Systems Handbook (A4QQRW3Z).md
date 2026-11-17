@@ -20,12 +20,16 @@ zotero-key: "A4QQRW3Z"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/A4QQRW3Z"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-09 14:54:40"
+date-modified: "2026-11-17 18:03:48"
 ---
 
 # Recommender Systems Handbook
 
 **Ricci, Francesco; Rokach, Lior; Shapira, Bracha; Kantor, Paul B.**
+
+## Extra
+
+OpenAlex: W1690919088
 
 ## Attachments
 

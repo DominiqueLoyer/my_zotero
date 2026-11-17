@@ -13,7 +13,7 @@ zotero-key: "N3EE5JIE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/N3EE5JIE"
 date-added: "2026-03-03 23:34:28"
-date-modified: "2026-03-25 21:29:13"
+date-modified: "2026-11-17 18:04:11"
 ---
 
 # Speech and Language Processing
@@ -23,6 +23,7 @@ date-modified: "2026-03-25 21:29:13"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4400586249
 
 ## Attachments
 

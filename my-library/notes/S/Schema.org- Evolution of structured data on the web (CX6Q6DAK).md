@@ -14,7 +14,7 @@ zotero-key: "CX6Q6DAK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/CX6Q6DAK"
 date-added: "2026-03-04 19:43:31"
-date-modified: "2026-11-09 15:08:55"
+date-modified: "2026-11-17 18:04:04"
 ---
 
 # Schema.org: Evolution of structured data on the web
@@ -24,6 +24,7 @@ date-modified: "2026-11-09 15:08:55"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2134013421
 
 ## Attachments
 

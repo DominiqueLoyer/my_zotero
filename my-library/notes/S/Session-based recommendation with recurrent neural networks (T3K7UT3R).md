@@ -22,12 +22,16 @@ zotero-key: "T3K7UT3R"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/T3K7UT3R"
 date-added: "2026-01-08 20:07:34"
-date-modified: "2026-03-25 21:30:28"
+date-modified: "2026-11-17 18:04:05"
 ---
 
 # Session-based recommendation with recurrent neural networks
 
 **Wang, Xiang; He, Xia; Cao, Tao; Liu, Meng; Chua, Tat-Seng**
+
+## Extra
+
+OpenAlex: W1968234402
 
 ## Attachments
 

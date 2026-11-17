@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T18:04:06Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:04:06Z",
+			"dateModified": "2026-11-17T18:04:06Z",
+			"filename": "Hidasi et al. - 2016 - Session-based recommendations with recurrent neural networks.pdf",
+			"itemType": "attachment",
+			"key": "KMK6PKHU",
+			"linkMode": "imported_url",
+			"parentItem": "79MMDDS7",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1511.06939"
+		},
+		{
 			"accessDate": "2026-01-08T20:33:19Z",
 			"charset": "",
 			"contentType": "",
@@ -29,6 +45,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "notion://www.notion.so/Hidasi2016-2e29fa248c578117bf7ad6d2e9f1cf60"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Hidasi et al. - 2016 - Session-based recommendations with recurrent neural networks.pdf",
+				"files": [
+					{
+						"path": "attachments/KM/KMK6PKHU/Hidasi et al. - 2016 - Session-based recommendations with recurrent neural networks.pdf",
+						"size": 311412,
+						"storage": "git"
+					}
+				],
+				"key": "KMK6PKHU",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1511.06939"
 			}
 		],
 		"collections": [
@@ -49,7 +82,7 @@
 		"zoteroURI": "zotero://select/library/items/79MMDDS7"
 	},
 	"zotero": {
-		"citationKey": "hidasiSessionbasedRecommendationsRecurrent2016b",
+		"citationKey": "hidasiSessionbasedRecommendationsRecurrent2016d",
 		"collections": [
 			"7PN5IQY2"
 		],
@@ -77,7 +110,8 @@
 		],
 		"date": "2016",
 		"dateAdded": "2026-01-08T20:10:55Z",
-		"dateModified": "2026-03-25T21:30:20Z",
+		"dateModified": "2026-11-17T18:04:06Z",
+		"extra": "OpenAlex: W2262817822",
 		"itemType": "conferencePaper",
 		"key": "79MMDDS7",
 		"language": "fr-CA",

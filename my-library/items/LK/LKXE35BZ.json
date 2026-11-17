@@ -19,10 +19,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "notion://www.notion.so/Katz2017-2e29fa248c57813cba99fbac2ae5faa7"
+		},
+		{
+			"accessDate": "2026-11-17T18:03:54Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:03:54Z",
+			"dateModified": "2026-11-17T18:03:54Z",
+			"filename": "Katz et al. - 2017 - Reluplex An efficient SMT solver for verifying deep neural networks.pdf",
+			"itemType": "attachment",
+			"key": "TWNGGU78",
+			"linkMode": "imported_url",
+			"parentItem": "LKXE35BZ",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text PDF",
+			"url": "https://link.springer.com/content/pdf/10.1007%2F978-3-319-63387-9_5.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Katz et al. - 2017 - Reluplex An efficient SMT solver for verifying deep neural networks.pdf",
+				"files": [
+					{
+						"path": "attachments/TW/TWNGGU78/Katz et al. - 2017 - Reluplex An efficient SMT solver for verifying deep neural networks.pdf",
+						"size": 578407,
+						"storage": "git"
+					}
+				],
+				"key": "TWNGGU78",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Full Text PDF",
+				"url": "https://link.springer.com/content/pdf/10.1007%2F978-3-319-63387-9_5.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -55,7 +88,7 @@
 	},
 	"zotero": {
 		"DOI": "10.1007/978-3-319-63387-9_5",
-		"citationKey": "katzReluplexEfficientSMT2017a",
+		"citationKey": "katzReluplexEfficientSMT2017c",
 		"collections": [
 			"F9TGXIMY"
 		],
@@ -88,7 +121,8 @@
 		],
 		"date": "2017",
 		"dateAdded": "2026-01-08T20:07:32Z",
-		"dateModified": "2026-03-25T21:30:38Z",
+		"dateModified": "2026-11-17T18:03:54Z",
+		"extra": "OpenAlex: W2594877703",
 		"itemType": "conferencePaper",
 		"key": "LKXE35BZ",
 		"language": "fr-CA",

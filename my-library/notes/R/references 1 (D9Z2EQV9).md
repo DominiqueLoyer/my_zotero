@@ -10,10 +10,14 @@ zotero-key: "D9Z2EQV9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/D9Z2EQV9"
 date-added: "2026-01-08 22:57:45"
-date-modified: "2026-02-05 00:08:31"
+date-modified: "2026-11-17 18:03:52"
 ---
 
 # references 1
+
+## Extra
+
+OpenAlex: W4249652418
 
 ## Attachments
 

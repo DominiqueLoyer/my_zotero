@@ -14,7 +14,7 @@ zotero-key: "TGPTNPA6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TGPTNPA6"
 date-added: "2026-02-26 20:19:23"
-date-modified: "2026-11-09 14:54:51"
+date-modified: "2026-11-17 18:04:10"
 ---
 
 # Social and Heuristic Approaches to Credibility Evaluation Online
@@ -24,6 +24,7 @@ date-modified: "2026-11-09 14:54:51"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2147329770
 
 ## Attachments
 

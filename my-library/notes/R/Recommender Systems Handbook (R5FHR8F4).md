@@ -12,7 +12,7 @@ zotero-key: "R5FHR8F4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/R5FHR8F4"
 date-added: "2026-02-25 21:45:12"
-date-modified: "2026-11-09 14:58:24"
+date-modified: "2026-11-17 18:03:51"
 ---
 
 # Recommender Systems Handbook
@@ -20,6 +20,7 @@ date-modified: "2026-11-09 14:58:24"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4226280022
 
 ## Attachments
 

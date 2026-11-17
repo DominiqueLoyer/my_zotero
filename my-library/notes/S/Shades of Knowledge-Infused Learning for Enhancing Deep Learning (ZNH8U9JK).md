@@ -14,7 +14,7 @@ zotero-key: "ZNH8U9JK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZNH8U9JK"
 date-added: "2026-03-05 01:12:31"
-date-modified: "2026-03-25 21:28:54"
+date-modified: "2026-11-17 18:04:07"
 ---
 
 # Shades of Knowledge-Infused Learning for Enhancing Deep Learning
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:54"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3003973800
 
 ## Attachments
 

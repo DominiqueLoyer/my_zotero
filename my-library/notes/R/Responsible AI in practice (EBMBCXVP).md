@@ -14,7 +14,7 @@ zotero-key: "EBMBCXVP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EBMBCXVP"
 date-added: "2026-02-25 21:41:40"
-date-modified: "2026-03-25 21:29:42"
+date-modified: "2026-11-17 18:04:00"
 ---
 
 # Responsible AI in practice
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:42"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4406806806
 
 ## Attachments
 

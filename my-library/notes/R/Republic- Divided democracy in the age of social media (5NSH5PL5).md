@@ -16,12 +16,16 @@ zotero-key: "5NSH5PL5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5NSH5PL5"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-09 14:54:33"
+date-modified: "2026-11-17 18:03:57"
 ---
 
 # Republic: Divided democracy in the age of social media
 
 **Sunstein, Cass R.**
+
+## Extra
+
+OpenAlex: W4245999774
 
 ## Attachments
 

@@ -19,12 +19,16 @@ zotero-key: "ZPLHC86T"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZPLHC86T"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-04-17 20:25:52"
+date-modified: "2026-11-17 18:04:15"
 ---
 
 # syscred: Présentation prévue pour mon projet de doctorat devant jury et public. (DIC-9411) ISBN : 978-1-0699945-8-5
 
 **Loyer, Dominique**
+
+## Extra
+
+OpenAlex: W7138949068
 
 ---
 
