@@ -14,7 +14,7 @@ zotero-key: "T6PA7C4X"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/T6PA7C4X"
 date-added: "2026-02-25 21:38:48"
-date-modified: "2026-03-25 21:29:45"
+date-modified: "2026-11-17 18:02:12"
 ---
 
 # Recommendation systems: Principles, methods and evaluation
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:45"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1139185857
 
 ## Attachments
 

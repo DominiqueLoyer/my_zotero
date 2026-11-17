@@ -24,6 +24,22 @@
 			"url": "notion://www.notion.so/isinkayeRecommendationSystemsPrinciples2015-2c09fa248c578146a0fae4ef7344fbf9"
 		},
 		{
+			"accessDate": "2026-11-17T18:02:11Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T18:02:11Z",
+			"dateModified": "2026-11-17T18:02:11Z",
+			"filename": "Isinkaye et al. - 2015 - Recommendation systems Principles, methods and evaluation.pdf",
+			"itemType": "attachment",
+			"key": "GSPLA4JI",
+			"linkMode": "imported_file",
+			"parentItem": "Q9FYD5V5",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W755167968.pdf"
+		},
+		{
 			"accessDate": "2026-01-08T20:33:18Z",
 			"charset": "",
 			"contentType": "",
@@ -42,6 +58,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Isinkaye et al. - 2015 - Recommendation systems Principles, methods and evaluation.pdf",
+				"files": [
+					{
+						"path": "attachments/GS/GSPLA4JI/Isinkaye et al. - 2015 - Recommendation systems Principles, methods and evaluation.pdf",
+						"size": 1727400,
+						"storage": "git"
+					}
+				],
+				"key": "GSPLA4JI",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W755167968.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -110,7 +143,8 @@
 		],
 		"date": "2015",
 		"dateAdded": "2025-10-10T19:01:26Z",
-		"dateModified": "2026-11-09T14:55:22Z",
+		"dateModified": "2026-11-17T18:02:11Z",
+		"extra": "OpenAlex: W755167968",
 		"issue": "3",
 		"itemType": "journalArticle",
 		"key": "Q9FYD5V5",
