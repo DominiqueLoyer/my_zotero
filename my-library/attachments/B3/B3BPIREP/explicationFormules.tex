@@ -1,0 +1,442 @@
+\begin{document}
+\maketitle
+\section{Introduction}
+
+Explication Simplifiée des Formules Mathématiques du Rapport
+Bonjour ! Mettons nos casquettes de détective et décortiquons ensemble les formules mathématiques de votre rapport. L'idée est de comprendre l'intuition derrière chaque équation, sans se perdre dans un jargon trop complexe.
+
+Partie I : Interprétabilité (Pas de formules complexes dans les sections citées)
+Dans la partie sur l'interprétabilité que vous avez sélectionnée, les concepts sont davantage qualitatifs et ne présentent pas de formules mathématiques denses à expliquer pour un grand public dans cette section. Les méthodes comme LIME et SHAP ont des fondements mathématiques, mais le document les décrit conceptuellement.
+
+Partie II : Systèmes de Recommandation
+C'est ici que nous rencontrons quelques formules intéressantes ! Elles nous aident à comprendre comment les systèmes devinent ce que vous pourriez aimer.
+
+1. Similarité par Corrélation de Pearson (Pour le Filtrage Collaboratif User-Based)
+La formule :
+
+
+sim(a,u) = \frac{\sum_{j \in I_{au}} (r_{aj} - \bar{r}{uj} - \bar{r}{j \in I_{au}} (r_{aj} - \bar{r}{j \in I_{au}} (r_{uj} - \bar{r}_u)^2}}
+À quoi ça sert ?
+Imaginez que vous voulez savoir si deux personnes, Alice (a) et Paul (u), ont des goûts similaires en matière de films. Cette formule calcule un score de similarité entre eux, allant de -1 (goûts totalement opposés) à +1 (goûts parfaitement identiques). Un score proche de 0 signifie qu'il n'y a pas vraiment de lien clair.
+
+Décortiquons les symboles :
+
+sim(a,u) : C'est le score de similarité entre Alice (a) et Paul (u).
+
+j : Représente un film.
+
+I_{au} : C'est la liste de tous les films qu'Alice ET Paul ont notés en commun. On ne compare que ce qu'ils connaissent tous les deux.
+
+r_{aj} : La note qu'Alice a donnée au film j. (Ex: 4 étoiles sur 5).
+
+\bar{r}_a : La note moyenne qu'Alice donne à tous les films qu'elle a vus. (Ex: si Alice note souvent sévèrement, sa moyenne sera basse).
+
+r_{uj} et \bar{r}_u : Pareil, mais pour Paul.
+
+(r_{aj} - \bar{r}_a) : De combien la note d'Alice pour le film j s'écarte de sa propre moyenne. Si Alice donne 4 étoiles et que sa moyenne est de 3, cet écart est de +1. Elle a aimé ce film plus que d'habitude.
+
+\sum : Le grand symbole Sigma. Il veut dire "additionne tout ce qui suit".
+
+\sqrt{} : La racine carrée.
+
+Comment ça marche, pas à pas ?
+
+Écarts à la moyenne : Pour chaque film j noté en commun par Alice et Paul :
+
+On calcule l'écart entre la note d'Alice pour ce film et sa note moyenne personnelle : (r_{aj} - \bar{r}_a).
+
+On fait de même pour Paul : (r_{uj} - \bar{r}_u).
+
+Produit des écarts (le numérateur en haut) :
+
+On multiplie ces deux écarts : (r_{aj} - \bar{r}_a) \times (r_{uj} - \bar{r}_u).
+
+Si Alice et Paul ont tous les deux aimé un film plus que leur moyenne (deux écarts positifs), le produit est positif.
+
+S'ils l'ont tous les deux moins aimé (deux écarts négatifs), le produit est aussi positif (moins par moins = plus).
+
+Si l'un a aimé plus et l'autre moins (un positif, un négatif), le produit est négatif.
+
+On fait cette multiplication pour CHAQUE film qu'ils ont en commun, puis on additionne (\sum) tous ces résultats. Un grand total positif suggère qu'ils ont des tendances similaires.
+
+Normalisation (le dénominateur en bas) :
+
+Les deux termes avec les racines carrées servent à "normaliser" le score. C'est un peu technique, mais l'idée est de s'assurer que le score final reste bien entre -1 et +1, peu importe si Alice et Paul sont des noteurs exubérants ou très constants. Ça mesure en quelque sorte la "force" de leurs tendances individuelles à s'écarter de leur moyenne.
+
+\sqrt{\sum_{j \in I_{au}} (r_{aj} - \bar{r}_a)^2} : C'est une mesure de la variabilité globale des notes d'Alice pour les films communs.
+
+L'autre racine carrée fait la même chose pour Paul.
+
+Figure à imaginer :
+Pensez à un graphique. Sur l'axe horizontal, les films communs. Sur l'axe vertical, les notes.
+
+Tracez la ligne de la note moyenne d'Alice.
+
+Tracez la ligne de la note moyenne de Paul.
+
+Pour chaque film, marquez la note d'Alice et celle de Paul.
+La formule regarde si, lorsque la note d'Alice est au-dessus de sa moyenne, celle de Paul a aussi tendance à être au-dessus de la sienne (et vice-versa). Si leurs "vagues" de notes (par rapport à leurs moyennes) se suivent, ils sont similaires.
+
+2. Prédiction de Note pour le Filtrage Collaboratif User-Based
+La formule :
+
+
+r
+^
+ uj= 
+r
+ˉ
+ u+ 
+∑v∈N 
+u
+​
+ ∣sim(u,v)∣
+∑v∈N 
+u
+​
+ sim(u,v)⋅(rvj− 
+r
+ˉ
+ v)
+​
+ 
+À quoi ça sert ?
+Maintenant qu'on sait trouver des utilisateurs similaires, on veut prédire la note \hat{r}_{uj} qu'un utilisateur u (par exemple, vous) donnerait à un film j qu'il n'a pas encore vu.
+
+Décortiquons les symboles :
+
+\hat{r}_{uj} : La note qu'on essaie de prédire pour vous (u) pour le film j. Le chapeau ^ signifie "estimation" ou "prédiction".
+
+\bar{r}_u : Votre note moyenne habituelle. C'est notre point de départ.
+
+v : Représente un "voisin", c'est-à-dire un autre utilisateur qui vous ressemble (on a calculé ça avec la formule précédente, par exemple).
+
+N_u : L'ensemble de vos voisins qui ont, eux, déjà noté le film j.
+
+sim(u,v) : Le score de similarité entre vous (u) et un voisin v.
+
+r_{vj} : La note que le voisin v a donnée au film j.
+
+\bar{r}_v : La note moyenne habituelle du voisin v.
+
+(r_{vj} - \bar{r}_v) : De combien la note du voisin v pour le film j s'écarte de sa propre moyenne.
+
+|\text{sim}(u, v)| : La valeur absolue du score de similarité (on ignore le signe négatif s'il y en a pour la pondération au dénominateur).
+
+Comment ça marche, pas à pas ?
+
+Point de départ : On commence avec votre note moyenne, \bar{r}_u.
+
+Avis des voisins : Pour chaque voisin v qui a vu le film j :
+
+On regarde de combien sa note pour ce film j (r_{vj}) s'écarte de sa propre moyenne (\bar{r}_v). Cet écart (r_{vj} - \bar{r}_v) nous dit si le voisin a aimé ce film plus ou moins que d'habitude.
+
+On pondère cet écart par votre similarité avec ce voisin : sim(u,v) \cdot (r_{vj} - \bar{r}_v). L'avis d'un voisin très similaire comptera plus.
+
+Somme pondérée des avis (le numérateur de la fraction) : On additionne tous ces écarts pondérés de tous les voisins concernés.
+
+Normalisation (le dénominateur de la fraction) : On additionne toutes les similarités (en valeur absolue) avec ces voisins. Ça sert à faire une sorte de "moyenne pondérée correcte".
+
+Ajustement final : On ajoute le résultat de la fraction (l'ajustement basé sur les voisins) à votre note moyenne \bar{r}_u.
+
+En résumé : On estime votre note pour un film en partant de votre tendance générale, puis on l'ajuste en fonction de ce qu'ont pensé vos "âmes sœurs cinéphiles", en donnant plus de poids à ceux qui vous ressemblent le plus.
+
+Figure à imaginer :
+Vous êtes au centre. Autour de vous, des bulles représentant vos amis (voisins) qui ont vu le film en question. Chaque bulle a une taille proportionnelle à votre similarité avec cet ami. À l'intérieur de la bulle, un "+2" ou "-1" indiquant combien cet ami a aimé le film par rapport à sa moyenne. La formule combine ces "+2" et "-1" en tenant compte de la taille des bulles pour deviner votre propre réaction.
+
+3. Prédiction de Note par Factorisation de Matrices (MF)
+La formule :
+
+
+r
+^
+ ui=p 
+u
+T
+​
+ q 
+i
+​
+ =∑k=1 
+K
+ p 
+uk
+​
+ q 
+ik
+​
+ 
+À quoi ça sert ?
+C'est une autre façon de prédire la note \hat{r}_{ui} que l'utilisateur u donnerait à l'item i (film, produit, etc.). Ici, l'idée est de découvrir des "caractéristiques cachées" (facteurs latents) qui expliquent les goûts.
+
+Décortiquons les symboles :
+
+\hat{r}_{ui} : La note prédite pour l'utilisateur u et l'item i.
+
+p_u : C'est un "profil" de l'utilisateur u, représenté par une liste de nombres (un vecteur). Chaque nombre p_{uk} correspond à l'intensité de son intérêt pour une k-ième caractéristique cachée.
+
+Exemple : p_u = [3.2, -1.5, 0.8] pourrait signifier que l'utilisateur u aime beaucoup la caractéristique 1 (ex: "action"), n'aime pas trop la caractéristique 2 (ex: "drame romantique"), et aime un peu la caractéristique 3 (ex: "humour décalé").
+
+q_i : C'est un "profil" de l'item i, aussi un vecteur. Chaque nombre q_{ik} correspond à l'intensité avec laquelle l'item i possède cette k-ième caractéristique cachée.
+
+Exemple : q_i = [2.8, 0.5, 1.1] pourrait signifier que le film i a beaucoup d'action, un peu de drame romantique, et pas mal d'humour décalé.
+
+K : Le nombre total de caractéristiques cachées qu'on utilise (ex: 10, 50, ou 100).
+
+p_u^T q_i ou \sum_{k=1}^K p_{uk} q_{ik} : C'est le "produit scalaire". On multiplie les scores correspondants de l'utilisateur et de l'item pour chaque caractéristique cachée, puis on additionne tous ces résultats.
+
+Comment ça marche, pas à pas ?
+
+Découverte des profils : Le système doit d'abord "apprendre" les vecteurs p_u et q_i pour tous les utilisateurs et tous les items en analysant les notes existantes (c'est l'objet de la formule suivante).
+
+Alignement des profils : Pour prédire une note :
+
+On prend le premier score du profil de l'utilisateur (p_{u1}) et on le multiplie par le premier score du profil de l'item (q_{i1}).
+
+On fait pareil pour le deuxième score (p_{u2} \times q_{i2}), et ainsi de suite pour toutes les K caractéristiques cachées.
+
+On additionne tous ces produits.
+
+Si les "goûts" de l'utilisateur (ses p_{uk}) correspondent bien aux "attributs" de l'item (ses `q_{ik}$) pour de nombreuses caractéristiques, les produits seront élevés et la somme (la note prédite) sera élevée.
+
+En résumé : C'est comme un "matching" sophistiqué. Si un film est très "action" et que vous adorez l'"action", cette dimension contribuera positivement à la note. Si le film est très "romantique" et que vous détestez ça, cette dimension tirera la note vers le bas.
+
+Figure à imaginer :
+Deux tableaux de bord.
+
+Tableau de bord de l'Utilisateur : des jauges pour "Goût pour l'Action", "Goût pour la Comédie", "Goût pour la SF", etc.
+
+Tableau de bord du Film : des jauges pour "Niveau d'Action", "Niveau de Comédie", "Niveau de SF", etc.
+Pour prédire, on regarde chaque paire de jauges correspondantes. On multiplie leurs valeurs. On additionne tout.
+
+4. Fonction de Coût pour la Factorisation de Matrices
+La formule :
+
+
+P,Q
+min
+​
+  
+(u,i)∈K
+∑
+​
+ (r 
+ui
+​
+ −p 
+u
+T
+​
+ q 
+i
+​
+ ) 
+2
+ +λ(∣∣p 
+u
+​
+ ∣∣ 
+2
+ +∣∣q 
+i
+​
+ ∣∣ 
+2
+ )
+À quoi ça sert ?
+Cette formule ne prédit pas une note, mais elle est cruciale pour que la méthode de Factorisation de Matrices (MF) apprenne les fameux profils p_u et q_i de la formule précédente. Elle définit ce que signifie "bien apprendre". On veut trouver les profils P (ensemble de tous les p_u) et Q (ensemble de tous les q_i) qui rendent cette expression la plus petite possible (\min).
+
+Décortiquons les symboles :
+
+\min_{P,Q} : Signifie "trouver les valeurs de P et Q qui minimisent ce qui suit".
+
+\sum_{(u,i) \in \mathcal{K}} : On va faire une somme sur toutes les paires (utilisateur u, item i) pour lesquelles on connaît la vraie note r_{ui} (l'ensemble \mathcal{K}).
+
+r_{ui} : La vraie note que l'utilisateur u a donnée à l'item i.
+
+p_u^T q_i : La note prédite par notre modèle MF (comme vu dans la formule précédente).
+
+(r_{ui} - p_u^T q_i)^2 : C'est l'erreur de prédiction au carré.
+
+On calcule la différence entre la vraie note et notre prédiction.
+
+On met cette différence au carré. Cela a deux effets : l'erreur est toujours positive, et les grosses erreurs sont pénalisées beaucoup plus lourdement.
+
+\lambda (||p_u||^2 + ||q_i||^2) : C'est le terme de "régularisation".
+
+||p_u||^2 et ||q_i||^2 : Mesurent la "taille" ou la "complexité" des profils de l'utilisateur et de l'item. Des profils avec de très grands nombres sont considérés plus complexes.
+
+\lambda (lambda) : C'est un nombre qui contrôle l'importance de cette régularisation.
+
+Comment ça marche, pas à pas ?
+L'ordinateur essaie de trouver les meilleurs profils p_u et q_i en minimisant deux choses à la fois :
+
+L'erreur de prédiction (première partie de la somme) : On veut que les notes prédites par le modèle (p_u^T q_i) soient aussi proches que possible des vraies notes (r_{ui}). Plus elles sont proches, plus (r_{ui} - p_u^T q_i)^2 est petit.
+
+La complexité des profils (deuxième partie, avec \lambda) : On veut éviter que les profils p_u et q_i aient des valeurs numériques gigantesques. Pourquoi ? Parce que cela pourrait signifier que le modèle "sur-apprend" les données d'entraînement (il devient trop spécifique à ces données et ne généralise pas bien à de nouveaux items ou utilisateurs). Ce terme de régularisation pénalise les profils trop "extrêmes".
+
+En résumé : Le système cherche le meilleur compromis. Il veut des profils qui expliquent bien les notes existantes (minimiser l'erreur) SANS devenir absurdement compliqués (contrôler la régularisation). C'est comme chercher la théorie la plus simple qui explique le mieux les faits.
+
+Figure à imaginer :
+Une balance.
+
+Sur un plateau : "Bien prédire les notes que je connais".
+
+Sur l'autre plateau : "Garder les profils simples et pas trop bizarres".
+Le \lambda est comme un curseur qui ajuste l'importance relative de ces deux objectifs. La formule cherche à équilibrer la balance.
+
+5. Prédiction de Note par Factorisation de Matrices (avec Biais)
+La formule :
+
+
+r
+^
+  
+ui
+​
+ =μ+b 
+u
+​
+ +b 
+i
+​
+ +p 
+u
+T
+​
+ q 
+i
+​
+ 
+À quoi ça sert ?
+C'est une version améliorée de la prédiction par Factorisation de Matrices. Elle prend en compte des tendances générales (les "biais") en plus de l'interaction spécifique utilisateur-item.
+
+Décortiquons les symboles :
+
+\hat{r}_{ui} : La note prédite (toujours).
+
+\mu (mu) : La note moyenne globale sur tous les items et tous les utilisateurs. C'est la note "par défaut" si on ne sait rien d'autre.
+
+b_u : Le "biais" de l'utilisateur u.
+
+Si b_u est positif, cela signifie que l'utilisateur u a tendance à donner des notes plus élevées que la moyenne générale \mu.
+
+Si b_u est négatif, il note plus sévèrement.
+
+b_i : Le "biais" de l'item i.
+
+Si b_i est positif, cet item a tendance à recevoir des notes plus élevées que la moyenne \mu (c'est peut-être un film très populaire).
+
+Si b_i est négatif, il est généralement moins bien noté.
+
+p_u^T q_i : L'interaction spécifique entre l'utilisateur u et l'item i via leurs facteurs latents (comme dans la formule MF de base). C'est la partie qui capture les goûts plus fins, au-delà des tendances générales.
+
+Comment ça marche, pas à pas ?
+Pour prédire une note :
+
+On part de la base : La note moyenne générale \mu.
+
+Ajustement pour l'utilisateur : On ajoute le biais b_u de cet utilisateur.
+
+Ajustement pour l'item : On ajoute le biais b_i de cet item.
+
+Interaction spécifique : On ajoute le terme p_u^T q_i qui reflète l'adéquation unique entre cet utilisateur et cet item.
+
+En résumé : La prédiction est une combinaison de :
+
+La popularité générale (\mu).
+
+La tendance de l'utilisateur à être généreux ou sévère (b_u).
+
+La tendance de l'item à être aimé ou détesté (b_i).
+
+Et enfin, l'affinité particulière entre l'utilisateur et l'item (p_u^T q_i).
+Cela rend souvent les prédictions plus précises.
+
+Figure à imaginer :
+Une recette de cuisine pour la "Note Parfaite" :
+
+Base : 1 louche de "Moyenne Générale des Notes".
+
+Ajouter : 1 pincée de "Tendance de l'Utilisateur" (peut être + ou -).
+
+Incorporer : 1 cuillère de "Popularité de l'Item" (peut être + ou -).
+
+Mélanger avec : L'ingrédient secret "Alchimie Utilisateur-Item".
+
+6. RMSE (Root Mean Squared Error) - Erreur Quadratique Moyenne Racine
+La formule :
+
+
+RMSE= 
+∣T∣
+1
+​
+  
+(u,i)∈T
+∑
+​
+ (r 
+ui
+​
+ − 
+r
+^
+  
+ui
+​
+ ) 
+2
+ 
+​
+ 
+À quoi ça sert ?
+C'est une des façons les plus courantes de mesurer à quel point un système de recommandation fait de bonnes (ou mauvaises) prédictions en moyenne. Plus le RMSE est petit, meilleur est le système.
+
+Décortiquons les symboles :
+
+RMSE : Le nom de la mesure.
+
+\mathcal{T} : L'ensemble de "test". Ce sont des notes réelles que le système n'a pas vues pendant son apprentissage, et qu'on utilise pour l'évaluer.
+
+|\mathcal{T}| : Le nombre total de notes dans cet ensemble de test.
+
+r_{ui} : La vraie note que l'utilisateur u a donnée à l'item i (dans l'ensemble de test).
+
+\hat{r}_{ui} : La note que le système a prédite pour cette même paire (utilisateur u, item i).
+
+(r_{ui} - \hat{r}_{ui}) : La différence entre la vraie note et la prédiction. C'est l'erreur pour cette prédiction.
+
+(r_{ui} - \hat{r}_{ui})^2 : L'erreur au carré. (Toujours positif, pénalise plus les grosses erreurs).
+
+\sum_{(u,i) \in \mathcal{T}} : On additionne ces erreurs au carré pour toutes les notes de l'ensemble de test.
+
+\frac{1}{|\mathcal{T}|} : On divise par le nombre de notes, pour faire la moyenne des erreurs au carré.
+
+\sqrt{} : On prend la racine carrée de cette moyenne.
+
+Comment ça marche, pas à pas ?
+
+Calculer les erreurs individuelles : Pour chaque note dans l'ensemble de test, on regarde l'écart entre la prédiction du système et la réalité.
+
+Mettre au carré : On élève chaque écart au carré.
+
+Faire la moyenne : On additionne tous ces carrés d'erreurs et on divise par le nombre de notes testées. On obtient l'"Erreur Quadratique Moyenne" (MSE).
+
+Prendre la racine : On prend la racine carrée du MSE pour obtenir le RMSE. L'avantage de la racine carrée est que le RMSE est exprimé dans la même unité que les notes originales (par exemple, si les notes sont de 1 à 5 étoiles, un RMSE de 0.8 signifie qu'en moyenne, les prédictions sont à 0.8 étoile de la vérité).
+
+En résumé : Le RMSE nous donne une idée de l'ampleur typique des erreurs de prédiction du système. Un RMSE de 0 serait parfait (aucune erreur), mais c'est irréaliste. On cherche à avoir le RMSE le plus bas possible.
+
+Figure à imaginer :
+Imaginez un jeu de fléchettes.
+
+Le centre de la cible est la "vraie note".
+
+Chaque fléchette que vous lancez est une "prédiction du système".
+
+La distance entre votre fléchette et le centre est l'erreur.
+Le RMSE est comme une mesure moyenne de la distance de toutes vos fléchettes par rapport au centre de la cible. Vous voulez que cette distance moyenne soit la plus petite possible !
+
+J'espère que ces explications rendent les formules beaucoup plus claires ! N'hésitez pas si vous avez d'autres questions.
+
+\end{document}

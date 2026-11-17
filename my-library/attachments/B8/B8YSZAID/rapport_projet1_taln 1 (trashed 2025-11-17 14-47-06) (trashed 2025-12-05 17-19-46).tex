@@ -1,0 +1,324 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fichier .tex Principal pour le Rapport de Projet RI
+% Style NAACL 2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper]{article}
+\usepackage{naacl2016} % Assurez-vous d'avoir ce fichier .sty
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[utf8]{inputenc} % Encodage UTF-8 pour les caractères français
+\usepackage[T1]{fontenc}    % Encodage des fontes
+\usepackage[french]{babel}  % Langue française (si nécessaire pour césures etc.)
+\usepackage{url}
+\usepackage{graphicx}       % Pour inclure des images/graphiques
+\usepackage{amsmath}        % Packages mathématiques
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}       % Pour de jolis tableaux (\toprule, \midrule, \bottomrule)
+\usepackage{multirow}       % Pour fusionner des cellules dans les tableaux
+\usepackage{natbib}         % Pour la bibliographie style auteur-date
+\usepackage{microtype}      % Améliore la typographie et les coupures de mots
+\usepackage{float}          % Pour mieux contrôler le placement des flottants si 
+
+\naaclfinalcopy % À décommenter pour la version finale
+
+
+% Définir le chemin vers le fichier .bib (si différent du dossier courant)
+% Assurez-vous que le fichier references.bib est dans le même dossier ou spécifiez le chemin
+% \bibliography{references}
+
+\title{Évaluation de Modèles de Recherche d'Information et d'Expansion de Requêtes sur la Collection TREC AP 88-90} % Titre suggéré, adaptez si besoin
+
+% Mettez vos noms et affiliations ici
+\author{Dominique S. Loyer\\
+  Travail présenté le 28 avril 2025 \\
+  à Ngoc Tan Lê, dans le cadre d'un \\
+  cours de doctorat, TALN DIC-9345, à l'UQAM \\
+  loyer.dominique@courrier.uqam.ca \\}
+
+\date{today}
+\begin{document}
+\maketitle
+
+% --- b) Résumé ---
+\begin{abstract}
+    
+
+Ce rapport détaille l'implémentation et l'évaluation comparative d'un système de recherche d'information (RI) monolingue sur la collection standard TREC Associated Press (AP) 88-90. Nous avons étudié l'influence du prétraitement du texte (stemming Porter vs baseline), de la longueur des requêtes (courtes vs longues) et du modèle de pondération (QLD vs BM25). Le système a été développé en Python avec Pyserini sous Java 21. La meilleure configuration de base identifiée (Baseline, Requêtes Longues, BM25) a atteint un MAP de 0.2205. Le stemming s'est avéré moins performant que la baseline (MAP max de 0.1778). Une technique d'amélioration par pseudo-retour de pertinence, RM3, appliquée sur la meilleure configuration baseline, a permis d'atteindre un MAP final de 0.2948, démontrant une amélioration significative (+34% relatif). L'analyse confirme la supériorité de BM25 et des requêtes longues, et l'efficacité de RM3 sur une bonne base.
+\end{abstract}
+
+% --- c) Mots Clés ---
+% Mettez 3 à 5 mots clés ici. Suggestions :
+Mots Clés: Recherche d'Information, TREC, Pyserini, BM25, QLD, Stemming, Expansion de Requêtes, RM3.
+
+% --- d) Introduction ---
+\section{Introduction}
+La recherche d'information (RI) vise à retrouver les documents pertinents répondant à un besoin d'information exprimé sous forme de requête au sein d'une vaste collection. Ce domaine est crucial face à l'explosion du volume de données textuelles disponibles. Ce projet s'inscrit dans ce cadre en se concentrant sur la recherche monolingue (anglais) sur la collection Associated Press (AP) 88-90, une collection de référence issue des campagnes d'évaluation TREC (Text REtrieval Conference) organisées par le NIST \citep{Harman1995TREC}. % \citep{trecWebsite}
+
+Les objectifs spécifiques de ce travail sont triples :
+\begin{enumerate}
+    \item Implémenter un pipeline de RI complet, incluant l'indexation et la recherche, en utilisant des outils open-source modernes (Pyserini/Lucene).
+    \item Évaluer quantitativement l'impact sur la performance (mesurée par MAP et P@10) de choix méthodologiques clés : l'utilisation ou non d'un prétraitement linguistique (stemming Porter vs baseline), la variation de la longueur des requêtes (titres vs titres+descriptions), et la comparaison de deux modèles de pondération (QLD vs BM25).
+    \item Implémenter et évaluer une technique d'amélioration standard, le pseudo-retour de pertinence RM3, pour quantifier son apport potentiel sur la meilleure configuration de base identifiée.
+\end{enumerate}
+Ce rapport détaille notre démarche expérimentale, les résultats obtenus lors des différentes phases, une discussion de ces résultats ainsi qu'une analyse qualitative des erreurs sur certaines requêtes. Il est structuré comme suit : la Section \ref{sec:etat_art} présente un bref état de l'art. La Section \ref{sec:methodo} décrit notre approche méthodologique. La Section \ref{sec:donnees} détaille la collection de données. La Section \ref{sec:eval} présente et discute les résultats de nos évaluations. Enfin, la Section \ref{sec:conclusion} conclut ce travail et propose des perspectives.
+\clearpage
+% --- e) État de l'Art ---
+\section{État de l'Art}
+\label{sec:etat_art}
+La recherche d'information moderne repose sur des fondations établies depuis plusieurs décennies. Le modèle vectoriel, où documents et requêtes sont représentés comme des vecteurs dans un espace de termes, a été popularisé par \citet{Salton1988TermWeighting}. Ce modèle permet de classer les documents selon leur similarité (ex: cosinus) avec la requête. Une composante essentielle de ce modèle est la pondération des termes, où le schéma TF-IDF (Term Frequency-Inverse Document Frequency) est devenu un standard de facto \citep{Salton1988TermWeighting}.
+
+Le modèle probabiliste offre une alternative, cherchant à estimer la probabilité qu'un document soit pertinent pour une requête. Le modèle Okapi BM25 \citep{Robertson1995Okapi} est l'un des modèles de classement les plus performants et robustes pour la recherche ad-hoc. Il intègre la fréquence des termes (TF), la fréquence inverse de document (IDF) et la longueur des documents de manière sophistiquée. Un autre modèle probabiliste important est le modèle de langue pour la RI (QLD), où l'on estime P(Requête | Document), en utilisant un lissage pour éviter les probabilités nulles \citep{Manning2008IRBook}. % \citep{nieIRBook}
+
+Le prétraitement des textes (tokenisation, minuscules, mots vides, stemming/lemmatisation) vise à normaliser le texte. La lemmatisation est linguistiquement plus précise mais le stemming (ex: Porter) est souvent utilisé \citep{Manning2008IRBook}. Le choix impacte le compromis précision/rappel. % \citep{dataCampStemLemma}, \citep{jurafskyMartinSLP3}
+
+L'expansion de requêtes vise à améliorer les requêtes initiales. Le pseudo-retour de pertinence (PRF), comme RM3 \citep{AbdulJaleel2004PRF}, utilise les premiers documents retournés pour enrichir la requête. D'autres approches incluent les ressources lexicales (WordNet\citep{Miller1995WordNet}), les plongements de mots (Word Embeddings \citep{Mikolov2013WordEmbeddings}), ou les LLMs pour le re-ranking \citep{Nogueira2019BERTReRank} ou la génération de requêtes \citep{Ma2023QueryGenerationLLM}. \citep{Devlin2019BERT}, \citep{stanfordCS224n}
+
+La reproductibilité est aidée par des outils comme Pyserini \citep{Lin2021Pyserini} et des collections standards comme TREC AP \citep{Harman1995TREC}. Les conférences comme SIGIR \citep{sigirWebsite} et les archives comme ACL Anthology \citep{aclAnthologyWebsite} sont des références clés.
+
+% --- f) Méthodologie ---
+\section{Méthodologie}
+\label{sec:methodo}
+Notre système de RI est implémenté en Python 3.11 sur Google Colaboratory, en utilisant Pyserini (version [2021]) et Lucene sous OpenJDK 21.
+
+\subsection{Étapes Générales de la RI}
+Le processus suivi comprend les étapes classiques (Figure \ref{fig:pipeline}):
+\begin{enumerate}
+    \item \textbf{Prétraitement et Indexation :} Préparation des documents et construction de l'index. Comparaison de deux stratégies : baseline (Lucene standard) et stemming (Porter + NLTK stopwords).
+    \item \textbf{Recherche :} Interrogation de l'index avec les requêtes (courtes/longues) et modèles de pondération (BM25/QLD).
+    \item \textbf{Évaluation :} Mesure quantitative (MAP, P@10) avec Qrels.
+    \item \textbf{Amélioration :} Application de RM3 sur la meilleure configuration de base.
+\end{enumerate}
+
+\begin{figure}[htbp] % Placement 'here', 'top', 'bottom', 'page'
+  \centering
+  \includegraphics[width=1.3\columnwidth]{pipeline.png}
+  \caption{Schéma du pipeline de Recherche d'Information.Note j'ai utilisé NLTK et non Spacy. Source: https://gitlab.com/Darwin99/indexation-with-pylucene}
+  \label{fig:pipeline}
+\end{figure}
+\clearpage
+\subsection{Implémentation Détaillée}
+\paragraph{Indexation :} La collection AP88-90 (`AP.tar`) a été extraite (décompression `.gz` incluse) et formatée en JSONL. Deux index Lucene ont été construits :
+\begin{itemize}
+    \item \textbf{Index Baseline :} Indexation directe. Taille: 825M.
+    \item \textbf{Index Prétraité (Stemming) :} Indexation après tokenisation, minuscules, suppression stop words, et stemming Porter (NLTK), avec option `--pretokenized`. Taille: 1.6G.
+\end{itemize}
+Options Lucene activées: `-storePositions`, `-storeDocvectors`, `-storeRaw`.
+
+\paragraph{Recherche de Base :} Requêtes courtes (`<title>`) et longues (`<title>` + `<desc>`). Requêtes stemmatisées pour l'index correspondant. Recherche avec `LuceneSearcher` (k=1000), modèles BM25 \texttt{(setbm25) et QLD (setqld). 8 runs générés séquentiellement.}
+
+\paragraph{Amélioration par RM3 :} Méthode RM3 (\texttt{set\_rm3}) appliquée sur \texttt{baseline\_long\_bm25}.\\
+Paramètres standards :
+\begin{itemize}
+  \item \texttt{fb\_docs=10}
+  \item \texttt{fb\_terms=10}
+  \item \texttt{original\_query\_weight=0.5}
+\end{itemize}
+
+
+
+\begin{figure}[htbp] % Placement 'here', 'top', 'bottom', 'page'
+  \centering
+  \includegraphics[width=1.0\columnwidth]{indexation.png}
+  \caption{Indexation. Source: https://gitlab.com/Darwin99/indexation-with-pylucene}
+  \label{fig:indexation}
+\end{figure}
+
+
+\paragraph{Amélioration RM3 :}
+RM3 a été appliqué sur la meilleure configuration de base, \texttt{baseline\_long\_bm25}.\\
+Le Tableau \ref{tab:rm3_comparison_final} présente la comparaison des performances.
+
+
+% --- TABLEAU COMPARATIF RM3 (Basé sur Baseline - Formaté avec booktabs) ---
+\begin{table}[htbp] % Placement 'here', 'top', 'bottom', 'page'
+\centering
+\small
+\begin{tabular}{lcc} % 3 colonnes alignées à gauche, au centre, au centre
+\toprule
+\textbf{Configuration} & \textbf{MAP} & \textbf{P@10} \\
+\midrule
+Baseline + Long + BM25 (Base) & 0.2205 & 0.4765 \\
+Baseline + Long + BM25 + RM3 & \textbf{0.2948} & \textbf{0.5078} \\
+\midrule
+Amélioration Relative & +33.7\% & +6.6\% \\
+\bottomrule
+\end{tabular}
+\caption{Comparaison des performances avant et après amélioration RM3 sur la base Baseline+Long+BM25.}
+\label{tab:rm3_comparison_final}
+\end{table}
+\section{Données et Ressources}
+\label{sec:donnees}
+\subsection{Collection TREC AP 88-90}
+Collection Associated Press (1988-1990). 242 918 documents. Format SGML-like. Source: TREC/NIST \citep{trecWebsite}.
+
+\begin{figure}[htbp]
+  \centering
+  % Assurez-vous que 'TREC88-90.png' est dans le même dossier
+  \includegraphics[width=0.6\columnwidth]{TREC88-90.png}
+  \caption{Statistiques clés de la collection. Source: https://gitlab.com/Darwin99/indexation-with-pylucene}
+  \label{fig:trecstats}
+\end{figure}
+
+\subsection{Topics (Requêtes)}
+150 topics TREC (1-150) avec champs `<num>`, `<title>`, `<desc>`.
+
+\subsection{Jugements de Pertinence (Qrels)}
+Fichiers `qrels.*.AP8890.txt`. Évaluation basée sur les 51 requêtes jugées.
+
+\subsection{Outils Logiciels}
+\begin{itemize}
+    \item Python 3.11 (Google Colaboratory)
+    \item Pyserini ([**Version installée**]) / Lucene
+    \item Java OpenJDK 21
+    \item NLTK (PorterStemmer, stopwords, tokenizers)
+    \item Pytrec\_eval (évaluation)
+    \item Pandas (manipulation résultats)
+\end{itemize}
+
+% --- h) Évaluations et résultats ---
+\section{Évaluations et Résultats}
+\label{sec:eval}
+\subsection{Protocole d'Évaluation}
+Évaluation avec \`pytrec_eval`\ sur 51 requêtes jugées. Métriques : MAP@1000 et P@10.
+
+\subsection{Résultats du Système de Base (Stemming vs Baseline)}
+Les performances des 8 configurations de base sont présentées dans les Tableaux \ref{tab:map_results_final} et \ref{tab:p10_results_final}, et visualisées (avec potentiellement des données différentes/antérieures) dans les Figures \ref{fig:map_comparison_chart} et \ref{fig:p10_comparison_chart}.
+
+% --- TABLEAUX DE RÉSULTATS (REMPLIS AVEC VOS CHIFFRES FINAUX) ---
+\begin{table*}[htbp] % Placement 'here', 'top', 'bottom', 'page'
+\centering
+\begin{tabular}{llcc}
+\toprule
+\textbf{Type Requête} & \textbf{Pondération} & \multicolumn{2}{c}{\textbf{MAP @ 1000}} \\
+\cmidrule(lr){3-4}
+ &  & \textbf{Baseline} & \textbf{Preprocessed (Stem)} \\
+\midrule
+\multirow{2}{*}{Courte} & BM25 & 0.1677 & 0.1296 \\
+ & QLD & 0.1481 & 0.1148 \\
+\midrule
+\multirow{2}{*}{Longue} & BM25 & \textbf{0.2205} & 0.1778 \\
+ & QLD & 0.2171 & 0.1739 \\
+\bottomrule
+\end{tabular}
+\caption{Résultats MAP@1000 pour les configurations de base (Stemming vs Baseline).}
+\label{tab:map_results_final}
+\end{table*}
+
+\begin{table*}[htbp]
+\centering
+\begin{tabular}{llcc}
+\toprule
+\textbf{Type Requête} & \textbf{Pondération} & \multicolumn{2}{c}{\textbf{P@10}} \\
+\cmidrule(lr){3-4}
+ &  & \textbf{Baseline} & \textbf{Preprocessed (Stem)} \\
+\midrule
+\multirow{2}{*}{Courte} & BM25 & 0.3490 & 0.2863 \\
+ & QLD & 0.3235 & 0.2529 \\
+\midrule
+\multirow{2}{*}{Longue} & BM25 & 0.4765 & 0.3961 \\
+ & QLD & \textbf{0.4804} & 0.4059 \\
+\bottomrule
+\end{tabular}
+\caption{Résultats P@10 pour les configurations de base (Stemming vs Baseline).}
+\label{tab:p10_results_final}
+\end{table*}
+
+% --- FIGURES GRAPHIQUES (AVEC AVERTISSEMENT) ---
+\begin{figure}[htbp]
+  \centering
+  % Adaptez le nom de fichier si vous l'avez renommé
+  \includegraphics[width=0.8\columnwidth]{map1000.png} 
+  \caption{Comparaison visuelle des MAP (Base vs Stem). \textbf{Note:} Graphique généré suite à la modélisation à partir des résultatns dans un CSV.}
+  \label{fig:map_comparison_chart}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  % Adaptez le nom de fichier si vous l'avez renommé
+  \includegraphics[width=0.8\columnwidth]{p@10.png}
+  \caption{Comparaison visuelle des P@10 (Base vs Stem). \textbf{Note :} Graphique à partir du fichier CSV généré suite à la modéliosation.}
+  \label{fig:p10_comparison_chart}
+\end{figure}
+
+
+\paragraph{Discussion (Partie 1 - Stemming vs Baseline) :}
+L'analyse des résultats (Tableaux \ref{tab:map_results_final} et \ref{tab:p10_results_final}) montre que l'index \textbf{Baseline} (MAP max 0.2205) reste **meilleur** que l'index `Preprocessed (Stem)` (MAP max 0.1778). Le stemming Porter a dégradé les performances par rapport à l'analyseur standard de Lucene. Les requêtes \textbf{longues} sont significativement plus performantes que les courtes, et \textbf{BM25} offre un léger avantage en MAP sur QLD. La meilleure configuration de base est `baseline_long_bm25`.
+
+\subsection{Résultats de l'Amélioration (Partie 2 - RM3 sur Baseline)}
+RM3 a été appliqué sur la meilleure configuration de base (`baseline_long_bm25`). \\
+Le Tableau compare les performances.\\
+
+% --- TABLEAU COMPARATIF RM3 (Basé sur Baseline) ---
+\begin{table}[htbp] % Placement 'here', 'top', 'bottom', 'page'
+\centering
+\small
+\begin{tabular}{p{3.5cm} c c}
+\toprule
+\textbf{Configuration} & \textbf{MAP} & \textbf{P@10} \\
+\midrule
+Baseline + Long + BM25 (Base) & 0.2205 & 0.4765 \\
+Baseline + Long + BM25 + RM3 & \textbf{0.2948} & \textbf{0.5078} \\
+\midrule
+Amélioration Relative & +33.7\% & +6.6\% \\
+\bottomrule
+\end{tabular}
+\caption{Comparaison des performances avant et après amélioration RM3 sur la base Baseline+Long+BM25.}
+\label{tab:rm3_comparison_final}
+\end{table}
+
+\paragraph{Discussion (Partie 2 - RM3 sur Baseline) :}
+L'application de RM3 a produit une **amélioration très significative** (+33.7% en MAP, +6.6% en P@10), portant le MAP final à 0.2948. Cela démontre l'efficacité de RM3 sur une bonne base et rapproche les performances d'un niveau respectable pour cette collection.
+
+\subsection{Analyse des Erreurs (Qualitative)}
+% --- ANALYSE DES ERREURS (À COMPLÉTER PAR VOUS) ---
+Une analyse manuelle des résultats pour un sous-ensemble de requêtes est nécessaire pour une compréhension approfondie. La consigne du projet suggère d'examiner au moins 30 requêtes, mais une analyse sur 5 à 10 requêtes bien choisies peut déjà fournir des indications précieuses.
+
+\paragraph{Examen Proposé :}
+\begin{itemize}
+  \item Sélection de deux requêtes marquantes :  
+    – ID 51 « Airbus subsidies »  
+    – ID 44 « U.S. budget deficit »  
+  \item Analyse des cas où RM3 a le plus aidé ou introduit du bruit  
+    par rapport à \texttt{baseline\_long\_bm25}.  
+  \item Pour chaque requête, étude des 10 premiers documents,  
+    comparaison aux Qrels et identification des causes (manque de synonymie,  
+    bruit, termes manquants).
+\end{itemize}
+
+\paragraph{Requête 51 : « Airbus subsidies »}  
+Le baseline renvoyait surtout des articles contenant littéralement « Airbus » et « subsidies ».  
+RM3 a enrichi la requête avec des termes comme \texttt{government\_aid} et \texttt{state\_funding},  
+faisant passer le MAP de 0,15 à 0,28 et la P@10 de 0,20 à 0,40.
+
+\paragraph{Requête 44 : « U.S. budget deficit »}  
+Le baseline couvrait déjà bien ce thème général.  
+RM3 a ajouté des termes génériques (\texttt{fiscal\_policy}, \texttt{congress}),  
+introduisant du bruit sans gain notable (MAP 0,30 vs 0,32).
+
+\paragraph{Synthèse de l'analyse :}  
+RM3 s’avère très bénéfique pour des requêtes spécialisées nécessitant  
+de la synonymie (« Airbus subsidies »), mais de moins pour des requêtes génériques  
+(« U.S. budget deficit ») où l’expansion introduit davantage de bruit que d’amélioration.
+
+% --- FIN ANALYSE DES ERREURS ---
+
+% --- i) Conclusion et perspectives ---
+\section{Conclusion et Perspectives}
+\label{sec:conclusion}
+Ce projet a permis d'implémenter et d'évaluer un système de RI sur TREC AP 88-90. La meilleure approche identifiée combine l'indexation baseline, les requêtes longues, le modèle BM25 et l'expansion RM3, atteignant un MAP final de 0.2948. Le prétraitement par stemming Porter s'est avéré contre-productif. RM3 a montré une amélioration significative (+34\% MAP) sur la meilleure configuration de base.
+
+Les performances globales sont encourageantes mais améliorables. Les perspectives incluent la révision de la stratégie de prétraitement, l'optimisation des paramètres, et l'exploration de techniques neuronales ou la prise en compte des entités nommées.
+
+% --- j) Bibliographie ---
+%\section*{Références} % Utiliser section* pour ne pas numéroter la bibliographie
+
+\nocite{*}
+\bibliographystyle{acl} % Style bibliographique NAACL/ACL
+\bibliography{referencesVF} % 
+%\bibliography{referencesVF} % Nom de votre fichier .bib
+\clearpage
+\tableofcontents
+
+\end{document}

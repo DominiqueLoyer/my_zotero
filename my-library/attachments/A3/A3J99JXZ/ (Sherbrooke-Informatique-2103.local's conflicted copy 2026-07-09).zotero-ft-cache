@@ -1,0 +1,207 @@
+Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Traduction Automatique Neuronale (TAN)
+Anglais-Russe
+Projet 2 pr ́esent ́e a` Ngoc Tan Lˆe
+Dominique S. Loyer (TALN, DIC-9345)
+Universite ́ du Que ́bec `a Montr ́eal
+24 Avril 2025
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Plan
+1 Introduction
+2  ́Etat de l’Art
+3 M ́ethodologie
+4 R ́esultats et Discussion
+5 Conclusion
+6 Bibliographie
+7 Discussion
+8 Quelques de ́finitions
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Introduction : Traduction Automatique Neuronale (TAN)
+Importance croissante de la traduction automatique (contenu multilingue).
+R ́evolution de la TAN vs approches pr ́ec ́edentes (SMT).
+Architecture dominante : Transformer (Vaswani et al., 2017).
+1. Ce mod`ele est bas ́e sur l’architecture Transformer et impl ́emente ́ `a l’aide du framework MarianMT
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Introduction : Traduction Automatique Neuronale (TAN)
+Importance croissante de la traduction automatique (contenu multilingue).
+R ́evolution de la TAN vs approches pr ́ec ́edentes (SMT).
+Architecture dominante : Transformer (Vaswani et al., 2017).
+Objectifs du Projet :
+1 D ́evelopper un syst`eme TAN pour Anglais -> Russe.
+2 Utiliser des outils open-source (Hugging Face) et donn ́ees publiques (opus_books).
+3 Affiner un mod`ele pr ́e-entraıˆne ́ (Helsinki-NLP). 1
+4  ́Evaluer (BLEU, chrF) et comparer a` l’e ́tat de l’art.
+1. Ce mod`ele est bas ́e sur l’architecture Transformer et impl ́emente ́ `a l’aide du framework MarianMT
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+ ́Etat de l’Art Des Mod`eles Cl ́es
+Passage SMT -> TAN (RNNs (Bahdanau et al., 2015) -> Transformer (Vaswani et al., 2017)).
+Importance des donn ́ees parall`eles (WMT (Ng et al., 2019), OPUS (Tiedemann, 2012)).
+Mod`eles pre ́-entraıˆn ́es bilingues : MarianMT (Helsinki-NLP) 2 (Junczys-Dowmunt et al., 2018) sur OPUS. Base solide pour affinage.
+Mod`eles multilingues massifs : NLLB (Costa-Jussa` et al., 2022) domine souvent, scores BLEU EN-RU > 40 sur benchmarks WMT (Ng et al., 2019; Costa-Juss`a et al., 2022).
+2. Helsinki-NLP/opus-mt-en-ru est un mode`le pre ́-entraˆın ́e sp ́ecifiquement pour la traduction de l’anglais vers le russe
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Tendances R ́ecentes et Positionnement
+GML pour la traduction : Certains GMM affin ́es rivalisent/d ́epassent TAN d ́edi ́es (Xu et al., 2023).
+Campagnes WMT : Utilisation de r ́etro-traduction 3, assemblage 4, etc. pour l’ ́etat de l’art (Molchanov et al., 2023; Barrault et al., 2020).
+3. traduire un grand corpus de texte monolingue dans la langue cible vers la langue source `a l’aide d’un mode`le de TA, cr ́eant ainsi des donne ́es paralle`les synth ́etiques. 4. combiner les pr ́edictions de plusieurs mode`les diffe ́rents pour obtenir un re ́sultat final plus robuste
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Tendances R ́ecentes et Positionnement
+GML pour la traduction : Certains GMM affin ́es rivalisent/d ́epassent TAN d ́edi ́es (Xu et al., 2023).
+Campagnes WMT : Utilisation de r ́etro-traduction 3, assemblage 4, etc. pour l’ ́etat de l’art (Molchanov et al., 2023; Barrault et al., 2020).
+Notre approche : Affinage (Fine-tuning) pragmatique de MarianMT sur l’ensemble d’opus_books.
+Attentes : Performances inf ́erieures a` l’ ́etat de l’art mais approche accessible et reproductible.
+3. traduire un grand corpus de texte monolingue dans la langue cible vers la langue source `a l’aide d’un mode`le de TA, cr ́eant ainsi des donne ́es paralle`les synth ́etiques. 4. combiner les pr ́edictions de plusieurs mode`les diffe ́rents pour obtenir un re ́sultat final plus robuste
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Outils et Param`etres Finaux
+Mod`ele : Helsinki-NLP/opus-mt-en-ru (MarianMT/Transformer) (University of Helsinki, 2020). Donn ́ees : opus_books EN-RU (Tiedemann, 2012). Split Train/Val/Test ( 16k / 0.8k / 0.9k). Utilisation de l’ensemble des donn ́ees disponibles.
+Outils : Python, PyTorch, Hugging Face (‘transformers‘, ‘datasets‘, ‘evaluate‘). Pr ́etraitement : Tokenisation (MarianTokenizer), s ́equences max 128. Fine-tuning (Final) : ‘Seq2SeqTrainer‘. 5  ́epoques, batch size 8, lr 2e-5, AdamW, fp16. Environnement : Kaggle GPU T4 et GPU P100 (TPU quelques instants...).
+ ́Evaluation : SacreBLEU , chrF (standard).
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Le Pipeline
+Donn ́ees Brutes (opus_books EN-RU)
+Pr ́etraitement (Split, Tokenize)
+Mod`ele Pr ́eentraıˆne ́ (Helsinki-NLP)
+Fine-tuning (Trainer, 5  ́epoques)
+ ́Evaluation (Test Set, BLEU/chrF)
+Inf ́erence (Exemples)
+Figure – Sch ́ema simplifie ́ du pipeline de traduction impl ́ement ́e.
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Parcours It ́eratif et Rationnel
+Configuration Rationnel / Donne ́es /  ́Epoques BLEU chrF
+Test Initial (Helsinki) Validation pipeline rapide / 1k / 1  ́ep.
+0.0 
+Augment ́e (Helsinki) 1er r ́esultat significatif / 10k / 3 e ́p.
+22.6 48.5
+Tentative NLLB Test mod`ele + puissant / full / 5 e ́p.
+22.4* 46.9*
+Final (Helsinki) Maximiser Helsinki / full / 5 e ́p. 24.6 50.2
+Validation progressive du pipeline.
+Confirmation de l’impact des donne ́es et des  ́epoques.
+Mod`ele Helsinki-NLP plus performant/stable que NLLB-600M sur ce jeu de donn ́ees/configuration.
+(*) Ex ́ecution NLLB instable (trop massif pour ma configuration).
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Performances Finales (Helsinki-NLP, opus_books
+complet)
+Entraıˆnement sur 16k exemples, 5 e ́poques ( 17 minutes sur T4).
+Perte finale (train loss) : 1.5029.
+
+SacreBLEU : 24.6
+chrF : 50.2
+Note : Am ́elioration par rapport aux tests initiaux, mais toujours inf ́erieur `a l” ́etat de l’art.
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Positionnement par rapport a` la litte ́rature (EN->RU)
+Syst`eme / Re ́f. Dataset Eval. BLEU chrF
+Facebook WMT19 (Ng et al., 2019) WMT19 newstest 45.3* NLLB-200 (Costa-Juss`a et al., 2022) FLORES-200 39-40** PROMT WMT23 (Molchanov et al., 2023) WMT23 test 38*** 
+Notre Mode`le (Final) opus_books (full) 24.6 50.2
+Scores  ́Etats de l’ART (WMT, NLLB) souvent > 35-40 BLEU.
+Diff ́erences dues a` : taille des donn ́ees, taille mod`ele, techniques (r ́etro-traduction...).
+Notre approche = compromis pragmatique ressources/performance sur opus_books.
+(* Ng et al. (2019) ; ** Costa-Jussa` et al. (2022) ; *** Molchanov et al. (2023))
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Exemples de Traduction (Mode`le Final)
+1
+EN : Machine translation is fascinating. RU (Mode`le) : Машинный перевод увлекателен. (Traduction correcte et fluide)
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Exemples de Traduction (Mode`le Final)
+1
+EN : Machine translation is fascinating. RU (Mode`le) : Машинный перевод увлекателен. (Traduction correcte et fluide)
+2
+EN : This model was trained on the full dataset for more epochs. RU (Mode`le) : Эта модель была натренирована по всему массиву данных для новых эпох. (Traduction globalement correcte, l ́eg`ere maladresse ?)
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Conclusion et Perspectives
+Conclusion : Impl ́ementation r ́eussie d’un pipeline TAN EN->RU (Helsinki-NLP fine-tun ́e).  ́Evaluation finale (opus_books complet, 5  ́ep.) : BLEU=24.6, chrF=50.2. Am ́elioration notable par rapport aux tests initiaux (+2 points BLEU).  ́Ecart avec EA demeure (attendu vu les donn ́ees/mod`ele).
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Conclusion et Perspectives
+Conclusion : Impl ́ementation r ́eussie d’un pipeline TAN EN->RU (Helsinki-NLP fine-tun ́e).  ́Evaluation finale (opus_books complet, 5  ́ep.) : BLEU=24.6, chrF=50.2. Am ́elioration notable par rapport aux tests initiaux (+2 points BLEU).  ́Ecart avec EA demeure (attendu vu les donn ́ees/mod`ele).
+Perspectives (Projet Actuel) : Affiner mon mod`ele davantage sur WMT19.
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Conclusion et Perspectives
+Conclusion : Impl ́ementation r ́eussie d’un pipeline TAN EN->RU (Helsinki-NLP fine-tun ́e).  ́Evaluation finale (opus_books complet, 5  ́ep.) : BLEU=24.6, chrF=50.2. Am ́elioration notable par rapport aux tests initiaux (+2 points BLEU).  ́Ecart avec EA demeure (attendu vu les donn ́ees/mod`ele).
+Perspectives (Projet Actuel) : Affiner mon mod`ele davantage sur WMT19.
+Perspectives (Futures Exp ́eriences) : Utiliser WMT19 + GPU P100 et TPU pour viser BLEU ∼ 40. Tester NLLB sur WMT19. Explorer optimisation hyperparam`etres.
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Re ́fe ́rences I
+Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. 2015. Neural machine translation by jointly learning to align and translate. In 3rd International Conference on Learning Representations (ICLR).
+Lo ̈ıc Barrault, Ondrˇej Bojar, Christian Federmann, Yvette Graham, Barry Haddow, Chris Hokamp, Philipp Koehn, Christof Monz, Lucia Specia, and Antonio Toral. 2020. Findings of the 2020 conference on machine translation (wmt20). In Proceedings of the Fifth Conference on Machine Translation, WMT20, pages 1–55. Association for Computational Linguistics.
+Marta R. Costa-Juss`a, James Cross, Onur  ̧Celebi, Maha Elbayad, Kenneth Heafield, Kevin Heffernan, Ela Licht, Xutai Ma, Jean Maillard, and NLLB Team. 2022. No language left behind: Scaling human-centered machine translation. In Findings of the Association for Computational Linguistics : ACL 2022. Association for Computational Linguistics.
+Marcin Junczys-Dowmunt, Roman Grundkiewicz, Tomasz Dwojak, Hieu Hoang, Kenneth Heafield, Tom Neckermann, Frank Seide, Ulrich Germann, Alham Fikri Aji, Nikolay Bogoychev, et al. 2018. Marian: Fast neural machine translation in c++. In Proceedings of ACL 2018, System Demonstrations, pages 116–121, Melbourne, Australia. Association for Computational Linguistics.
+Vladislav Molchanov, Valery Solovyev, Vasily Gerasimov, and Maria Shmatova. 2023. Promt systems for wmt23 shared general translation task. In Proceedings of the Eighth Conference on Machine Translation, WMT23, pages 125–130, Singapore. Association for Computational Linguistics.
+Nathan Ng, Kyra Yee, Alexei Baevski, Myle Ott, Michael Auli, Sergey Edunov, David Grangier, and Marc' Aurelio Ranzato. 2019. Facebook fair’s wmt19 news translation task submission. In Proceedings of the Fourth Conference on Machine Translation, volume 1 of WMT19, pages 300–309, Florence, Italy. Association for Computational Linguistics.
+J ̈org Tiedemann. 2012. OPUS – a collection of parallel corpora for machine translation. In Proceedings of the 8th International Conference on Language Resources and Evaluation, LREC 2012, pages 2214–2218, Istanbul, Turkey. European Language Resources Association.
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Re ́fe ́rences II
+University of Helsinki. 2020. Helsinki-nlp / opus-mt models. https://huggingface.co/Helsinki- NLP. Accessed : 2025-04-23.
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. G ́omez, Łukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. In Advances in Neural Information Processing Systems, NeurIPS 30, pages 5998–6008.
+Felix Fischer Xu, Orhan Firat, Ankur Bapna, Mona Diab, Colin Cherry, Noah Constant, and Xavier Garcia. 2023. ALMA: Advanced language model-based machine translation assistant. arXiv preprint, arXiv :2309.11674.
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Discussion
+Merci !
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU
+
+
+ Introduction  ́Etat de l’Art M ́ethodologie R ́esultats et Discussion Conclusion Bibliographie R ́efe ́rences Discussion Quelques d ́efinitions
+Quelques de ́finitions
+SacreBleu : Comparer la traduction machine `a plusieurs traductions «humaines» de re ́f ́erence et en
+mesurer le chevauchement des n-grammes
+ChrF : Mesure la similarite ́ entre la traduction machine et les r ́efe ́rences en se basant sur les
+n-grammes de caract`eres plutoˆt que de mots
+MarianMT : framework de Traduction Automatique Neuronale (TAN) rapide et efficace,
+principalement connu pour eˆtre  ́ecrit en C++
+Dominique S. Loyer (TALN, DIC-9345) Projet 2 Traduction EN-RU

@@ -1,0 +1,91 @@
+Exemple de diagrammes d’interaction acteurs-système
+SGC pour
+Client Système Fournisseur
+Id. client
+rejet
+fin
+ou
+OK
+#prod, quantité
+OK
+fin
+# commande, total
+#prod, quantité
+SGLC
+info livraison
+nouveau client, coordonnées ?
+coordonnées
+OK, #client
+ou
+SGC pour
+Client Système
+Id. client
+rejet
+fin ou
+OK
+#prod, quantité
+OK
+fin
+# commande, total
+SGLC
+info livraison
+EXEMPLE DE TRACE D’UN SCÉNARIO : MODIFICATION DE S INFORMATIONS D’UN CLIENT
+1. Le client se présente au comptoir.
+2. Il avertit le préposé d’une modification.
+3. Le préposé active l’écran de gestion de client.
+4. Il demande au client sa carte afin d’avoir son numéro ou son nom.
+5. Le préposé inscrit le nom ou le numéro.
+6. Le système amène le présent dossier.
+7. Si le dossier n’est pas présent, on refuse la demande.
+8. Le préposé demande les modifications au client.
+9. Le client fournit les informations au préposé.
+10. Le préposé les inscrit dans le système.
+11. Le préposé demande au système de sauvegarder les informations.
+12. S’il y a des erreurs, le préposé redemande au client les informations
+erronées.
+13. Le préposé ferme l’application.
+14. Le préposé avertit le client que les modifications sont apportées.
+15. Le préposé ferme l’application.
+
+
+ Documentation des cas d'utilisation
+Identité :
+- nom, No du cas d'utilisation
+Résumé :
+- description sommaire
+Acteurs impliqués :
+- primaires/secondaires
+Préconditions :
+- règles d'initiation ou d'activation
+Description détaillée :
+- règles internes
+Exceptions :
+- cas particuliers
+Post conditions :
+- règles de terminaison
+Exemple de documentation d'un cas d'utilisation
+Cas d'utilisation
+Traitement d'une commande-client, C.U. No 22.
+Description sommaire
+La commande d'un client est enregistrée avec l'ensemble des lignes-commande correspondantes.
+Acteurs
+Client (primaire), service de gestion des livraisons clients SGLC,
+service de gestion de la clientèle SGC.
+Préconditions Aucune.
+Description
+Un client passe une commande (par téléphone, télécopie, internet,
+courrier). Il y a vérification de son identité et de son statut. [Exception: il s'agit d'un nouveau client] Si le client est classé comme mauvais client, la demande est
+rejetée. Sinon, créer une commande-client et remplir les lignes
+correspondantes: le numéro et la quantité commandée pour chaque produit sont entrés successivement (si le numéro ou la quantité commandée ne sont pas conformes, en redemander la saisie). Si la
+quantité en stock est supérieure à la quantité commandée, le stock est décrémenté et la ligne -commande est satisfaite sinon elle est
+mise à l'état "en attente".
+[Exception: rupture de stock].
+A la fin de la commande, le système confirme au client le numéro de sa commande. Les informations sont transmises au service de
+gestion des livraisons clients.
+
+
+ Exceptions
+Nouveau client : utiliser le cas "enregistrer un nouveau client". Rupture de stock : (lorsque la quantité en stock d'un produit passe en dessous du seuil minimum) utiliser le cas "commande de réapprovisionnement".
+Postconditions
+Une commande client est créée avec les lignes correspondantes (si la client n'est pas classé comme un mauvais client). Le service de gestion des livraisons clients reçoit les informations nécessaires à
+la livraison.

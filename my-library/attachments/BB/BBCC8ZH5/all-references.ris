@@ -1,0 +1,221 @@
+TY  - UNPB
+AB  - This document accompanies the OWL 2 DL ontology created to model the domain of evaluating the credibility
+of information on the Internet, based on a prior UML modeling Loyer2025Rapport and inspired by recognized
+structures from a grant management ontology Loyer2025OntoSubv. The ontology, developed in Turtle syntax and
+designed for use with tools such as Protégé Protege2025, aims to capture the essential concepts (information, source,
+query, report, evaluation methods, criteria, credibility levels), their interrelationships, and some fundamental
+axioms for consistency and possible inference. This text provides an in-depth explanation of the modeled domain,
+an inventory of classes and properties, as well as an evaluation of the modeling choices regarding the types of
+properties, restrictions, and OWL axioms chosen, including how the structure facilitates the categorization of
+information according to its inferred credibility level. The objective is to record the structure and reasoning of the
+ontology created for the credibility assessment system
+AD  - loyer.dominique@uqam.ca
+AU  - Loyer, Dominique S. Loyer; Dominique
+DA  - 2025
+DO  - https://doi.org/10.13140/RG.2.2.22926.47680
+KW  - Ontology; knowkeldge representation;;Fact Checker, xAI, AI Transparency, AI accountability, Intelligence artificielle explicable
+LA  - English
+LB  - Fack Checker, xAI, AI Transparency
+PB  - UQAM
+PY  - 2025
+SP  - 17
+ST  - Hybrid System for Verifying the Credibility of Information Sources: An Ontology
+T3  - Informatique Cognitive
+TA  - Loyer, Dominique S. Loyer; Dominique
+TI  - Hybrid System for Verifying the Credibility of Information Sources: An Ontology
+TT  - Système hybride de vérification de crédibilité des sources de l'information, une ontologie
+UR  - https://www.researchgate.net/publication/392329827_Hybrid_System_for_Verifying_the_Credibility_of_Information_Sources_An_Ontology?channel=doi&linkId=683de9296a754f72b58ff2f5&showFulltext=true
+ID  - 
+ER  - 
+
+TY  - UNPB
+AB  - This report details the implementation and
+comparative evaluation of a monolingual in-
+formation retrieval (IR) system on the standard
+TREC Associated Press (AP) 88-90 collection.
+We studied the influence of text preprocessing
+(Porter stemming vs. baseline), query length
+(short vs. long), and the weighting model
+(QLD vs. BM25). The system was devel-
+oped in Python with Pyserini under Java 21.
+The best-identified base configuration (Base-
+line, Long Queries, BM25) achieved a MAP of
+0.2205. Stemming proved to be less effective
+than the baseline (max MAP of 0.1778). An en-
+hancement technique using pseudo-relevance
+feedback, RM3, applied to the best baseline
+configuration, achieved a final MAP of 0.2948,
+demonstrating a significant relative improve-
+ment (+34)
+AD  - loyer.dominique@uqam.ca
+AU  - Loyer, Dominique S. Loyer; Dominique
+DA  - 2025
+DO  - https://doi.org/10.13140/RG.2.2.22608.62721
+KW  - Information Retrieval;TREC;Pyserini;
+BM25;QLD;Stemming;Query Expansion;RM3.
+LA  - English
+LB  - NLP
+PB  - UQAM
+PY  - 2025
+SP  - 7
+ST  - Evaluation of Information Retrieval Models and Query Expansion on the
+TREC AP 88-90 Collection
+T3  - Informatique Cognitive
+TA  - Loyer, Dominique S. Loyer; Dominique
+TI  - Evaluation of Information Retrieval Models and Query Expansion on the
+TREC AP 88-90 Collection
+TT  - Évaluation de Modèles de Recherche d'Information et d'Expansion de Requêtes sur la Collection TREC AP 88-90
+UR  - https://www.researchgate.net/publication/392713465_Evaluation_of_Information_Retrieval_Models_and_Query_Expansion_on_the_TREC_AP_88-90_Collection?channel=doi&linkId=684f1e8c26f43051a580af80&showFulltext=true
+ID  - 
+ER  - 
+
+TY  - UNPB
+AB  - This report presents the development and
+evaluation of an English-to-Russian (EN→RU)
+Neural Machine Translation (NMT) system.
+Using the Hugging Face Transformers library
+(Wolf et al., 2020) and a pre-trained model,
+Helsinki-NLP/opus-mt-en-ru
+(Junczys-Dowmunt et al., 2018), based on
+the Transformer architecture (Vaswani et al.,
+2017), we fine-tuned the model on a subset of
+10,000 sentence pairs from the opus_books
+parallel corpus (Tiedemann, 2012). The
+system was trained for 3 epochs in a Kaggle
+environment (T4 GPU). Evaluation on a
+held-out test set from the same corpus yields a
+SacreBLEU score of 22.6 and a chrF score of
+48.5.
+AD  - loyer.dominique@uqam.ca
+AU  - S, Dominique Loyer
+DA  - 2025
+DO  - 10.13140/RG.2.2.17980.55687
+KW  - Neural Machine;Translation ENRU;
+Transformer;Fine-tuning;SacreBLEU;chrF
+LA  - English
+LB  - NLP
+PB  - UQAM
+PY  - 2025
+SP  - 4
+ST  - Development and Evaluation of an English-to-Russian Neural Machine Translation System
+T3  - Informatique Cognitive
+TA  - Loyer, Dominique S.
+TI  - Development and Evaluation of an English-to-Russian Neural Machine Translation System
+TT  - Développement et Évaluation d’un Système de Traduction Automatique
+Neuronale Anglais–Russe
+UR  - https://rgdoi.net/10.13140/RG.2.2.17980.55687
+ID  - 
+ER  - 
+
+TY  - UNPB
+AB  - Faced with growing information overload ("infobesity"), distinguishing reliable information has become a major
+challenge for digital citizens. The polarization of opinions, often fueled by the rapid dissemination of unverified or
+even false information on digital platforms, exacerbates this complex problem . This project aims to design
+a system capable of assessing the credibility of information and its sources (websites, articles, responses from
+large language models). The objective is to provide the user with clear and interpretable metrics (credibility score,
+source analysis, identification of divergent opinions) to help them develop critical thinking and make informed
+decisions. The envisioned system is based on a hybrid approach, combining predefined predicate logic rules and
+machine learning techniques (natural language processing, sentiment analysis, coherence analysis, bias detection)
+to analyze content and evaluate its sources . This approach is motivated by the recognized limitations of fully
+automated systems, particularly in complex domains where human judgment remains crucial but difficult to
+scale. This report presents the initial UML modeling of this system, detailing its envisioned static
+structure and dynamic behavior.
+AU  - Loyer, Dominique S. Loyer; Dominique
+DA  - 2025
+DO  - https://doi.org/10.13140/RG.2.2.36348.24961
+KW  - Fact Checker, xAI, AI Transparency, AI accountability, Intelligence artificielle explicable
+LA  - English
+LB  - FactChecker, xAI, AI transparency
+PB  - UQAM
+PY  - 2025
+SP  - 26
+ST  - Modeling an Hybrid System (predicate-logic-based +
+ML/AI) for Verifying the Credibility of Information
+Sources
+T3  - Informatique Cognitive
+TA  - Loyer, Dominique S. Loyer; Dominique
+TI  - Modeling an Hybrid System (predicate-logic-based +
+ML/AI) for Verifying the Credibility of Information
+Sources
+TT  - Modélisation d'un système hybride (logique des prédicats + AI) pour vérifier la crédibilité des sources d'information.
+UR  - https://www.researchgate.net/publication/392330231_Modeling_an_Hybrid_System_predicate-logic-based_MLAI_for_Verifying_the_Credibility_of_Information_Sources?channel=doi&linkId=683de9d36a754f72b58ff307&showFulltext=true
+ID  - 
+ER  - 
+
+TY  - CPAPER
+AB  - Augmentation massive de l’information ("infobésité").
+Diﬃculté croissante à distinguer l’information ﬁable.
+Polarisation des opinions alimentée par la désinformation. Metzger et al.
+Nécessité d’outils pour aider à l’évaluation critique.
+Prolifération de désinformation, mésinformation et "fake news". Oshikawa et al. ; Zhou and Zafarani ; Pescuma et al. 
+Impact négatif sur l’opinion publique, la conﬁance et la démocratie. Loth et al. ; Zhou and Zafarani 
+Illustration tragique lors de la pandémie de COVID-19. Loth et al.
+); Chen and Shu  Metzger et al.
+AU  - Loyer, Dominique S.
+CY  - Montréal, Québec, Canada
+DA  - 2025
+DO  - https://doi.org/10.13140/RG.2.2.18312.74244
+KW  - Modélisation, Système hybride, Crédibilité de l'information,  intelligence artificielle explicable; vérification des faits
+LA  - Français
+M3  - conférence doctorale
+PB  - UQAM
+PY  - 2025
+SP  - 33
+TI  - Modélisation d'un système hybride d'évaluation de crédibilité des sources d'information (système AI/NLP et système à base de règles logiques)
+UR  - https://www.researchgate.net/publication/392330408_Modelisation_d%27un_systeme_hybride_d%27evaluation_de_credibilite_des_sources_d%27information_systeme_AINLP_et_systeme_a_base_de_regles_logiques?channel=doi&linkId=683df5ab6b5a287c3048cb20&showFulltext=true
+ID  - 
+ER  - 
+
+TY  - CPAPER
+AB  - Prolifération exponentielle de l’information en ligne (Zhou et Zafarani 2020;
+Viviani et Pasi 2017).
+Difficulté croissante pour les utilisateurs à évaluer la fiabilité des sources et des
+contenus (Metzger, Flanagin et Medders 2010; Rieh 2010).
+Impact sociétal majeur de la désinformation (mésinformation, fake news)
+(Sharma et al. 2019; Souza et al. 2020; Oshikawa, Qian et Wang 2020).
+Complexité accrue par l’IA générative (GenAI) capable de créer des contenus
+synthétiques réalistes (K. Chen et Shu 2023; Loth, Kappes et Pahl 2024).
+Besoin de transparence et d’explicabilité des systèmes IA, notamment les LLMs
+(Liao2024; Mahari2023; Zou2023; Chaudhary2024; DiakopoulosND).
+AU  - Loyer, Dominique S.
+CY  - Montréal, Québec, Canada
+DA  - 2025
+DO  - https://doi.org/10.13140/RG.2.2.25249.72807
+KW  - Fact Checker, xAI, AI Transparency, AI accountability, Intelligence artificielle explicable
+LB  - Ontologie
+PB  - UQAM
+PY  - 2025
+SP  - 22
+TI  - Ontologie - Sys. de Vérification de la Crédibilité de l’Information
+UR  - https://www.researchgate.net/publication/392626777_Ontologie_-_Sys_de_Verification_de_la_Credibilite_de_l%27Information_Projet_Final_presente_a_Petko_Valchev_DIC-9335_Sciences_du_Web?channel=doi&linkId=684b2d39e7be56124ab5fd82&showFulltext=true
+ID  - 
+ER  - 
+
+TY  - CPAPER
+AB  - Recherche d’Information (RI) : Trouver l’information pertinente
+dans la vaste collection TREC AP 88-90.
+Défi : 243k documents compressés individuellement en
+GunZip->.gz dans un fichier->.tar les englobants. Traitement
+séquentiel long vs. en parralèle. Le type d’encodage du fichier
+XML n’est pas pris en charge par Python -> conversion en .JSON
+Objectif Principal : Implémenter et évaluer un système RI
+monolingue (Anglais) sur la collection.
+Pertinence Cours : Application pratique des concepts de TALN
+vus dans le cours DIC-9345 tels que : (modèles RI, indexation,
+évaluation, amélioration).
+AU  - Loyer, Dominique S.
+CY  - Montréal, Québec, Canada
+DA  - 2025
+DO  - https://doi.org/10.13140/RG.2.2.21668.18563
+KW  - TALN;TREC;NLP;Information Retrieval;TALN; Recherche information; RM3; 
+LA  - Français
+LB  - TALN
+M3  - preprint version
+PB  - UQAM
+PY  - 2025
+SP  - 21
+TI  - Évaluation de modèles de pondération pour la recherche d’information sur TREC AP 88-90
+UR  - https://www.researchgate.net/publication/392329863_Traduction_automatique_neuronal_du_Russe-Anglais?channel=doi&linkId=683df6c86a754f72b58ff628&showFulltext=true
+ID  - 
+ER  - 
+

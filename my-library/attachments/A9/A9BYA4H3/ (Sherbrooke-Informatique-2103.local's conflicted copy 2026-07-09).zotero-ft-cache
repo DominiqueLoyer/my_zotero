@@ -1,0 +1,258 @@
+Principe de résolution
+
+
+ Résolution 2
+Historique
+450 av.J.C. Stoïcistes logique propositionnelle, inférence
+322 av.J.C. Aristote "syllogismes" (règles d'inférence),
+quantificateurs
+1565 Cardano théorie des probabilités (logique des propositions &
+incertitude)
+1847 Boole logique des propositions (de nouveau)
+1879 Frege logique du 1er ordre
+1922 Wittgenstein preuve par tables de vérité
+1930 Gödel ∃ algorithme complet pour logique 1er ordre
+1931 Gödel ¬∃ algorithme complet pour l'arithmétique
+1960 Davis/Putnam algorithme "utile" pour la logique propositionnelle
+1965 Robinson algorithme "utile" pour la logique 1er ordre &
+résolution
+
+
+ Résolution 3
+Motivations
+Étapes du processus d'inférence (ex. chaînage avant)
+– 1. définir un ensemble de règles d'inférence,
+– 2. définir un ensemble d'axiomes
+– 3. Répétitivement choisir une règles d'inférence & un ou
+plusieurs axiomes (ou prémisses) pour dériver de nouvelles
+phrases jusqu'à ce que la phrase de conclusion soit formée.
+Contrainte de base :
+– Règles + axiomes doivent constituer un système de preuve
+complet.
+Observation : l'inférence automatique serait beaucoup plus
+efficace et plus facile à réaliser s'il n'y avait qu'une seule règle
+dans le système de preuve!
+
+
+ Résolution 4
+Principe
+Résolution (Robinson, 1965) : une forme d'inférence reposant
+sur une seule règle et capable de prouver si des phrases
+logiques sont vraies ou fausses
+Grâce à sa simplicité, à son efficacité et à ses propriétés de
+complétude, la résolution est le principe de choix pour le
+raisonnement automatique.
+Caractéristiques principales :
+– la résolution produit des preuves par réfutation :
+• “Pour prouver quelque chose, supposer que la négation
+de cette chose est vraie et essayer d'obtenir une
+contradiction”
+– la simplicité est obtenue en appliquant la règle d'inférence
+sur une forme spéciale de phrases appelée Forme Normale
+Conjonctive (FNC)
+– la complétude est due au fait que n'importe quelle phrase
+logique peut être mise sous la forme clausale FNC.
+
+
+ Résolution 5
+Règles de résolution
+La résolution repose sur la règle suivante :
+¬ α ⇒ β, β ⇒ γ Règle de résolution
+¬α⇒γ
+ou de manière équivalente :
+α ∨ β, ¬ β ∨ γ Règle de résolution
+α∨γ
+
+
+ Résolution 6
+Application
+1. Trouver deux phrases qui contiennent le même littéral,
+une fois dans sa forme positive et une fois dans sa forme
+négative
+été ∨ hiver , ¬ hiver ∨ froid
+2. Appliquer la règle de résolution pour éliminer le littéral
+des deux phrases
+été ∨ froid
+
+
+ Résolution 7
+Application –suite
+- Exemple 1
+• clauses parents : àLaMaison ¬ àLaMaison
+• résolvent : ∅
+clause vide
+(faux, contradiction)
+- Exemple 2
+àLaMaison ∨ auTravail ¬ àLaMaison
+auTravail
+
+
+ Résolution 8
+Application –suite
+La résolution diminue la longueur des clauses
+parents d'un littéral ;
+La résolution s'applique après avoir mis
+toutes les phrases en formes FNC, chaque
+clause est constituée de :
+– disjonctions uniquement
+– négations sur des atomes uniquement
+
+
+ Résolution 9
+Résolution en logique des propositions
+Étapes pour prouver une proposition S :
+1. Convertir toutes les prémisses en FNC :
+pp p
+(p ∧ q) ⇒ r ¬(p ∧ q) ∨ r ¬ p ∨ ¬ q ∨ r
+(s ∨ t) ⇒ q ¬(s ∨ t) ∨ q ¬ s ∨ q
+¬ t ∨ q FNC
+2. Nier S & convertir le résultat en FNC
+3. Ajouter la négation de S aux prémisses
+4. Répéter jusqu'à ce qu'une contradiction apparaisse ou qu'aucun
+progrès ne soit plus réalisé:
+a. sélectionner 2 clauses (appelées clauses parents),
+b. les résoudre mutuellement,
+c. si le résolvent est la clause vide, une contradiction a été
+trouvée (S découle des prémisses),
+d. sinon ajouter le résolvent aux prémisses.
+
+
+ Résolution 10
+Un exemple
+Prémisses : p p
+(p ∧ q) ⇒ r ¬ p ∨ ¬ q ∨ r
+(s ∨ t) ⇒ q ¬ s ∨ q
+¬ t ∨ q FNC
+tt
+Preuve par résolution de r :
+¬p∨¬q∨r ¬r
+¬p∨¬q p
+¬q ¬t∨q
+¬t t
+Ø
+
+
+ Résolution 11
+Résolution en logique des prédicats
+En logique propositionnelle : àLaMaison ∨ auTravail ¬ àLaMaison
+auTravail
+En logique du 1er ordre :
+∀x àLaMaison(x) ∨ auTravail(x) ¬ àLaMaison(y)
+?
+Pour généraliser la preuve par résolution à la logique du
+1er ordre il faut prendre en compte :
+– prédicats
+– variables non-liées
+– quantificateurs existentiels & universels
+
+
+ Résolution 12
+FNC
+littéral = (évent. nié) phrase atomique, ex : ¬ Riche(Moi)
+clause = disjonction de littéraux, ex : ¬ Riche(Moi) ∨
+Mécontent(Moi)
+Base de connaissances (BC) est une conjonction de clauses
+Toute BC en logique du 1er ordre peut être convertie en FNC en
+appliquant les règles de réécriture suivantes :
+1. remplacer P ⇒ Q par ¬ P ∨ Q
+2. déplacer ¬ à l'intérieur, ex: ¬ ∀x P devient ∃x ¬ P
+3. standardiser les variables, ex : ∀x P ∨ ∃x Q devient ∀x P ∨ ∃y Q
+4. déplacer les quantificateurs à gauche dans l'ordre, ex : ∀x P ∨ ∃x Q
+devient ∀x ∃y P ∨ Q
+5. éliminer ∃ par Skolémisation
+6. laisser tomber les quantificateurs universels
+7. distribuer ∧ par rapport à ∨, ex: ( P ∧ Q) ∨ R devient ( P ∨ R) ∧ ( Q ∨ R)
+
+
+ Résolution 13
+Skolémisation
+∃x Riche( x) devient Riche( G1) où G1 est une « constante de Skolem » ;
+C’est plus délicat quand ∃ est à l'intérieur de ∀, exemple : "Chaque
+personne possède un coeur"
+∀ x Personne (x) ⇒ ∃ y Coeur ( y) ∧ Possède ( x, y)
+solution incorrecte :
+∀ x Personne (x) ⇒ Coeur ( H1) ∧ Possède ( x, H1)
+solution correcte :
+∀ x Personne ( x) ⇒ Coeur (H( x)) ∧ Possède (x, H( x))
+où H est un nouveau symbole ("fonction de Skolem")
+- Arguments d'une fonction de Skolem: toutes les variables
+universellement quantifiées
+
+
+ Résolution 14
+Exemples de conversion en FNC
+Forme clausale
+P(A) rien P(A)
+¬¬Q(A,B) élimination ¬¬ Q(A,B)
+¬(P(A) ∧ Q(B,C)) De Morgan ¬P(A) ∨ ¬Q(B,C)
+¬(P(A) ∨ Q(B,C)) De Morgan ¬P(A) , ¬Q(B,C)
+drop ∧
+P(A) ⇒ Q(B,C) élimination ⇒ ¬P(A) ∨ Q(B,C)
+¬(P(A) ⇒ Q(B,C)) élimination ⇒ P(A), ¬Q(B,C)
+drop ∧ De Morgan
+
+
+ Résolution 15
+Exemples de conversion en FNC –suite
+P(A) ∧ (Q(B,C) ∨ R(D)) drop ∧ P(A), Q(B,C) ∨ R(D)
+P(A) ∨ (Q(B,C) ∧ R(D)) drop ∧ P(A) ∨ Q(B,C),
+distribution ∨ P(A) ∨ R(D)
+∀x P(x) drop ∀ P(x)
+∀x P(x) ⇒ Q(x,A) élimination ⇒ ¬P(x) ∨ Q(x,A)
+drop ∀
+∃x P(x) skolémisation P(E), où E est une
+nouvelle constante
+P(A) ⇒ ∃x Q(x) élimination ⇒ ¬P(A) ∨ Q(F)
+skolémisation
+
+
+ Résolution 16
+Exemples de conversion en FNC –suite
+¬∀x P(x) De Morgan
+∃x ¬P(x) skolémisation ¬P(G)
+¬∃x P(x) De Morgan
+∀x ¬P(x) drop ∀ ¬P(x)
+¬(∃x P(x) ∧ ∀x Q(x))
+renommer variables ¬(∃x P(x) ∧ ∀y Q(y))
+De Morgan ¬∃x P(x) ∨ ¬∀y Q(y)
+De Morgan ∀x ¬P(x) ∨ ∃y ¬Q(y)
+drop ∀
+Skolémisation ¬P(x) ∨ ¬Q(H)
+
+
+ Résolution 17
+Exemples de conversion en FNC –suite
+∀x∃y P(x,y)
+Skolémisation ∀x P(x,K(x))
+drop ∀ P(x,K(x))
+∀x∀y∃z P(x,y,z) skolémisation et drop ∀ P(x,y,L(x,y))
+(∀x P(x)) ⇒ ∃y P(y) élimination ⇒ (¬∀x P(x)) ∨ ∃y P(y)
+De Morgan ∃x ¬P(x) ∨ ∃y P(y)
+Skolémisation ¬P(N) ∨ P(O)
+
+
+ Résolution 18
+Preuve par résolution
+Pour prouver α :
+– nier α,
+– convertir en FNC,
+– ajouter ce fait à la BC,
+– inférer une contradiction.
+Exemple : pour prouver Riche(Moi), ajouter ¬ Riche(Moi) à la BC
+en forme FNC. Soit la BC suivante (déjà en FNC) :
+¬ PhD( x) ∨ HautementQualifié( x)
+PhD( x) ∨ SalairePrécoce( x)
+¬ HautementQualifié(x) ∨ Riche( x)
+¬ SalairePrécoce(x) ∨ Riche( x)
+
+
+ Résolution 19
+Exemple
+¬ PhD(x) ∨ HQ(x) ¬ HQ(x) ∨ Riche(x)
+¬ PhD(x) ∨ Riche(x) PhD(x) ∨ SP(x)
+Riche(x) ∨ SP(x) ¬ SP(x) ∨ Riche(x)
+¬ Riche(Moi) Riche(x)
+{x/Moi}
+Ø
+contradiction
+Riche(Moi)

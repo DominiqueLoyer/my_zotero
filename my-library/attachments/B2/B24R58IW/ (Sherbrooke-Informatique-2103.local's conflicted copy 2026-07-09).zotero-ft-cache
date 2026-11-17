@@ -1,0 +1,218 @@
+Agents, Intelligence Collective et Simulation
+
+
+ Intelligence collective
+- Limites d’une l’approche classique fondée sur une centralisation de l’expertise au sein d’un seul et unique agent « intelligent » ; intelligence individuelle Versus collective ;
+- Surtout dans des domaines complexes et hétérogènes :
+◦ Aide à la décision dans des situations complexes : réseaux, télécommunications, Internet et commerce électronique, robots (y compris logiciels), etc.
+◦ Reconnaissance et compréhension de formes dans des environnements mouvants ;
+◦ Conduite/surveillance de processus industriels ;
+◦ Optimisation de systèmes de transports ;
+◦ Simulation de phénomènes sociaux ;
+◦ Gestion et simulation de ressources ;
+◦ Etc.
+- Distribution de l’expertise sur un ensemble d’agents opérant collectivement et de façon décentralisée pour atteindre un objectif global ;
+H. LOUNIS 2
+
+
+ Caractéristiques de cette intelligence collective
+-Autonomie ;
+-Adaptabilité et robustesse ;
+-Décentralisation ;
+-Distribution : traitements, données, compétences, rôles et buts, etc.
+-Hétérogénéité des agents (y compris humains) ;
+-Contrôle : agents autonomes, utilisateur humain fait partie du système (en tant qu’agent), mécanismes de résolution de conflits, ...
+- Perte délibérée du contrôle pour l’observation de phénomènes émergents
+H. LOUNIS 3
+Comportement intelligent résultant de l’activité de coopération de plusieurs agents
+Challenge : Modéliser les comportements individuels, l’environnement et la dynamique du système !
+
+
+ Origines : réductionnisme et holisme
+Le réductionnisme approche les problèmes :
+◦ réduisant le tout (système) à ces parties constituantes
+◦ déduisant le comportement global du système de l’étude de chaque partie prise isolément
+H. LOUNIS 4
+Système linéaires, déterministe, et avec un contrôle centrale
+On doit parler de systèmes compliqués: un
+système composé d’un grand nombre de soussystèmes, eux-mêmes composés de sous systèmes et ainsi de suite... jusqu’au composantes élémentaires
+Le holisme approche les problèmes :
+◦ considérant un système comme un tout non sécable (dans sons entièreté) ‘le tout est plus que la somme des parties’
+◦ Donnant une importance élevée aux relations
+(interactions-rétroactions) entre les composants du système
+Imprévisibilité, absence d’un contrôle central, autoorganisation et émergence de phénomènes
+On parle de systèmes complexes: constitués de composants (agents) qui interagissent, s'adaptent (en évoluant dans le temps) et s’auto-organisent donnant lieu à l’émergence de phénomènes surprenants (grâce à des règles simples)
+
+
+ Systèmes complexes
+Pensée holistique/systémique
+•Approche philosophique
+Théorie des systèmes complexes
+Paradigme des systèmes complexes adaptatifs
+•Complex Adaptive Systems (CAS) l'Institut de Santa Fe, John H. Holland et Murray Gell-Mann
+Modélisation et simulation à base d’agents
+•Agent-based Modeling and Simulation » (ABMS)
+H. LOUNIS 5
+La théorie des systèmes complexes est un cadre
+théorique multidisciplinaire qui se retrouve à
+l’intersection de plusieurs disciplines:
+◦ Systémique (Ludwig von Bertalanffi)
+◦ Cybernétique (Norbert Wiener)
+◦ Intelligence artificielle (W. Ross Ashby)
+◦ Théorie de l’information (Claude Shannon)
+◦ Théorie des jeux (John van Neumann)
+◦ Etc.
+Elle évoque :
+◦ Auto-organisation (Erich Jantsch)
+◦ Émergence (John Holland)
+◦ Modélisation multi-agents (Robert Axelrod)
+◦ Etc.
+« Complexe » vs. « Compliqué » (Jones 2003)
+
+
+ From analytical-based resolution to emergence-based resolution
+H. LOUNIS 6
+« Simulation models provide virtually unlimited
+power; or rather, they provide unlimited virtual power. If you
+can think of something, you can simulate it. Experimenting in a simulated world, you can change
+anything, in any way, at any time - even change time itself. ». (Schruben, 2012)
+Finding innovative solutions by
+exploiting multi-agent simulations,
+taking place in an artificial world, and taking advantage of the computing power of current computers
+Chaos
+Input
+Adaptation
+Interactions
+Emergence
+Self-organization
+Equilibrium
+Output
+Complex System
+
+
+ Case Study : Schema Matching (thèseDI,H.Assoudi)
+H. LOUNIS 7
+ERP
+(destination)
+Middleware
+(Transformation Process)
+Design-time Run-time
+Source Schema Destination Schema
+Schema Matching Process
+Transformation Rules
+« Schema Mapping » (XSL)
+(XSD)
+(XML)
+Legacy (source)
+(XSD)
+(XML)
+
+
+ Schema Matching Automation Problem (thèse DI, H. Assoudi)
+H. LOUNIS 8
+Manuel
+Automatic Schema Matching Process
+Automatique
+Post-Matching (validation)
+Pre-Matching (Configuration/ Optimisation)
+Schema Matching Manual Process
+Tedious and costly Task
+Semi-automatic
+Problem : The vision of a complete automation of the matching process of schemes is compromised by a human involvement
+Similarity Measures (Textual, Structural)
+
+
+ Existing Approaches Analysis
+H. LOUNIS 9
+Manuel /automatic selection
+sequential/ parallel Execution
+(i) Linear (analytical, deterministic and predictable) and not non-linear, (ii) Centralized rather than decentralized (parallelism and emerging solutions), (iii) Configurable and not adaptable (self-configuration, self-optimization) (iv) Complicated and not complex.
+
+
+ From analytical-based resolution to emergence-based resolution
+H. LOUNIS 10
+Finding innovative solutions, for the challenges of automatic matching, by
+exploiting multi-agent simulations, taking place in an artificial world, and taking advantage of the computing power of current computers
+Chaos
+Input Schemas
+Adaptation
+Interactions
+Emergence
+Self-organization
+Equilibrium
+Alignement
+Schema Matching as Complex System
+
+
+ Conceptual Model
+Schema Matching as Multi-Agents Simulation (SMAS-Reflex ) conceptual model main concepts:
+◦ Schema Element Agent (SE-Agent)
+◦ Stochasticity and Adaptation
+◦ Consensual Matching
+◦ Self-organization and Matchings emergence
+◦ Multiple simulations (batch) and statistical analysis (uncertainty quantification)
+H. LOUNIS 11
+Emergence-based resolution
+Collective intelligence (result of non-linear
+interactions and self-organization of the system)
+
+
+ Prototype Reflex-SMAS (thèse DI, H. Assoudi)
+H. LOUNIS 12
+Prototype Implementation
+◦ Repast Simphony (2.1): multi-agents simulation plateform (java)
+◦ DkPro Similarity (2.1.0) : Similarity Measures framework (java)
+◦ R language (R 3.1.0) : Statistical analysis (native integration with Repast Simphony)
+ABMS tools to support modeling and simulation:
+◦ Netlogo
+◦ Flame
+◦ Anylogic
+◦ Jason/AgentSpeak
+
+
+ COMA vs. Reflex-SMAS (Synthetic scenarios)
+H. LOUNIS 13
+Synthetic scenarios, with different sizes, exhibiting different levels of lexical heterogeneity
+Finding 100% correct matchings:
+◦ A prototype with very simple rules (logic) and with very few lines of code (very simple to understand)
+◦ No human involvement (configuration / optimization)
+Effectiveness vs. Efficiency
+• Reduction of uncertainty and complexity
+Response time
+• Obtaining a final noninstantaneous result
+(i) Effectiveness: increasing the quality of the alignment, (ii) Efficiency: reducing the effort required for this effectiveness.
+
+
+ Vers un agent rationnel
+- Pour dépasser les limites d’un comportement purement réflexe, possibilité de faire évoluer l’agent
+réflexe vers un agent rationnel ayant un comportement basé sur le raisonnement et la délibération
+quant au choix des actions à prendre.
+- On parle d’agents intentionnels, délibératifs ou cognitifs car ils possèdent des représentations
+explicites de leurs buts sur lesquels ils sont capables de raisonner afin de produire des plans d’actions.
+- La phase de perception de l’agent rationnel, devrait inclure :
+◦ Le calcul de similarité sémantique;
+◦ Le calcul des attributs de classification pour la prédiction
+du meilleur appariement (apparieur prédictif);
+◦ La mise à jour de la mémoire (représentant les connaissances de l’agent
+sur les agents de la population opposée).
+- La phase de décision de l’agent rationnel :
+◦ Un modèle d’aide à la décision en contexte d’incertitude ;
+◦ Choisir l’action maximisant une mesure de satisfaction.
+H. LOUNIS 14
+Rational-SMAS
+Predictive Matching
+• Bayes Matcher (ML Classifier)
+Bayesian Decision Network
+Reflex-SMAS
+Stochastic Languistic Matching
+• Lexical Matching • Semantic Matching
+Consensual Matching Selection
+Multi-run Simulations Statistical Analysis
+
+
+ Conclusion
+o SMA pour représenter, simuler et/ou résoudre des problèmes ;
+o C’est un changement de paradigme ;
+o Changement de paradigmes pour mener à bien des simulations : rôle de l’IA ;
+o Réingénierie de programmes existants : y injecter de l’IA ;
+H. LOUNIS 15
