@@ -1,0 +1,139 @@
+Siamese Convolutional Neural Network and FewShot Learning for Embedded Gesture Recognition
+1
+3, Benoit Gosselin
+2, Alexandre Campeau-Lecours
+1, Mounir Boukadoum
+Simon Tam
+1Electrical and Computer Engineering Department, Laval University, Quebec City, QC, Canada 2Computer Science Department, UQAM, Montreal, QC, Canada 3Mechanical Engineering Department, Laval University, Quebec City, QC, Canada
+Abstract—This work proposes a framework to train and deploy neural network-based gesture recognition algorithms in wearable devices. The approach is demonstrated for a highdensity electromyography (HD-EMG) gesture recognition system, where a Siamese convolution neural network (SCNN) learns to associate and dissociate muscle activity patterns from the same or distinct gesture classes. This optimizes learning in low-data environments such as gesture recognition and myoelectric control, where training data must be provided by the end user. Then, using a cosine similarity-based few-shot classifier and inter-sessionintra-user transfer of the SCNN’s learning, the proposed model is intended to achieve state-of-the-art results in a framework that is realistically applicable in wearable devices. For an experimented myoelectric interface user, the proposed model achieved 86.49 % accuracy in 6-class gesture recognition, using inter-session-intrauser transfer learning by the SCNN. Few-shot learning demonstrates convergence to this accuracy within 20 shots with the cosine similarity classifier. Across a group of 13 able-bodied participants, 90.66 % and 97.34 % mean and median accuracy were obtained from the 6-way 20-shot learning approach with a majority vote (100 votes) over time-distributed inferences.
+Keywords—myoelectric control, electromyography, hand gesture, recognition, deep learning, body-machine interface, signal processing
+I. INTRODUCTION
+Artificial intelligence (AI) has propelled many fields of research in the last decade. Traditionally, the machine learning algorithms at the core of AI-based systems have relied on substantial datasets and high-performance computing to achieve ground-breaking results. This is especially true of modern deep neural network architectures with millions of trainable parameters that need to be stored and processed efficiently during training and inference. While tempting, the state-of-theart neural network architectures are not always compatible with applications such as wearable devices or other edge computing use cases with hardware-constrained resources and often few training data, notwithstanding real-time operation. In this paper, we tackle this issue for wearable gesture recognition systems where a fully embedded deployment is desirable for applications such as myoelectric prostheses. These devices need to operate with minimal latency in a real-time response, and they often require periodic calibration to maintain functionality and adapt to contextual changes. While deep learning-based classification of electromyography (EMG) signals has been successfully demonstrated in the literature [1]
+[6], the conducted studies generally forgo deployability in embedded systems and other applicability concerns in the realworld, such as data availability. The typical supervised learning processes are designed to learn from large training datasets and are thus not optimal in the limited data environments of myoelectric control, where the end users need to contribute at least part of the training data. Few-shot learning is a machine learning paradigm that addresses learning with small datasets, by turning the learning process into a similarity comparison with one or more reference prototypes and aggregating the know-how of tasks that address the same abstract meta-problem [7], [8]. Over the past few years, it has been investigated from various perspectives, with the goal to learn from less and more general data [9]. This work’s motivation is two-fold, as there is the need in our target application for both streamlined embedded integration and optimization for small amounts of data. Addressing the latter, Rahimian et al. [10] propose an EMG time-series fewshot learning framework to optimize deep neural network training for small amounts of data. The approach uses temporal convolutions and attention mechanisms trained on sequences of labelled examples to infer on following unlabelled data. The study reports a promising 83.99 % 5-shot learning classification accuracy on a 5-class problem with data from the benchmark NinaPro dataset [11]. However, it does not consider real-time and embedded deployment. In prior work, we have demonstrated real-time gesture recognition from high-density electromyography (HD-EMG) signals using a standard convolutional neural network (CNN) architecture [2]. While transfer learning has been used to facilitate the calibration
+This work was supported, in part, by the Microsystems Strategic Alliance of Québec (ReSMiQ), the Natural Sciences and Engineering Research Council of Canada (NSERC), and the Canada Research Chair in Smart Biomedical Microsystems.
+Fig. 1. HD-EMG sensor system overview with an integrated prosthesis concept (a), a flexible PCB dry-electrodes array (b), and wearable HD-EMG sensor data representation (c).
+a)
+b) c)
+(a)
+(b)
+(c)
+978-1-6654-0105-0/22/$31.00 ©2022 IEEE
+114
+2022 20th IEEE Interregional NEWCAS Conference (NEWCAS) | 978-1-6654-0105-0/22/$31.00 ©2022 IEEE | DOI: 10.1109/NEWCAS52662.2022.9901391
+Authorized licensed use limited to: BIBLIOTHEQUE DE L'UNIVERSITE LAVAL. Downloaded on September 18,2024 at 00:24:06 UTC from IEEE Xplore. Restrictions apply.
+
+
+ process, further minimizing its duration and data load would directly benefit end users and potentially enable continuous or seamless periodic reinforcement. In this paper, we propose a Siamese convolutional neural network (SCNN) architecture [12], [13] to optimize a hand gesture recognition system’s performance in a limited data environment. This model is an alternative to the meta-learning approach of Rahimian et al. [10] where we can process 2dimensional muscle activity maps from HD-EMG signals [2], [3]. Siamese or twin networks are used in comparison and verification tasks where they are trained to learn the differences and similarities between input pairs or sets. Rather than being trained to learn a broad range of class-defining features like a traditional single input channel neural network, the siamese architecture learning process focuses on a subset of features that specifically serve discriminant purposes for each data context. Thus, if the dataset is too small to provide learnable generalizable features from each represented class without considerable risks of overfitting, the available examples may still show enough consistent inter-class differences and intraclass similarities for them to be compared and consequently inferred upon. Features extracted in such manner are then used in a cosine similarity few-shot learning approach. As opposed to [10], processing the meta-learning and few-shot classification in two phases allows us to alleviate the training process for embedded deployment and prompt calibration. While traditional deep learning-based classifiers typically use trainable neuron layers requiring re-training or fine-tuning for calibration purposes, the cosine similarity classifier proposes a simpler attention process based on similarity, as provided by a Euclidian or cosine distance, or a vector dot product. Circumventing the use of a resource-expensive backpropagation learning algorithm for the final classifier at the calibration phase, the resulting system is an upper limb electromyography control interface that, once trained, can be deployed and calibrated using only feedforward flows in the neural network and few-shot vector accumulation and averaging.
+II. METHOD
+A. Sensor and HD-EMG Data
+This work builds on wearable gesture recognition systems using HD-EMG to extract the spatial mapping of muscle activity
+in the forearm, as displayed on Fig. 1 [14]-[16]. At a given sampling period, the individual samples of each channel of a 32electrode array are mapped to a corresponding 4 by 8 numerical array to produce an image of the spatial distribution of the motor unit action potentials (MUAP). An HD-EMG data point thus consists of a 2D array representing a muscle activity heatmap at a given moment as pictured on Fig. 1c. Hand gestures then generate a variety of muscle activity patterns from which spatial features can be extracted and learned by a neural network [2]. This approach is intended to be more robust to electrode position shifting than traditional lower electrode count and timefrequency domain processing methods [17]. Before the 2D sample mapping, the signal from each channel is filtered and preprocessed as described in [15] by analog band-pass filtering from 20 to 500 Hz, digital rectification and envelope detection/extraction with a moving average on 15 samples.
+B. Siamese Convolutional Neural Network
+The Siamese neural network has parallel inputs that go through three convolution layers with shared parameters as illustrated in Fig. 2. These layers extract features from the 2dimensional arrays representing the HD-EMG muscle activity maps. Each convolution block transforms its input data into a feature vector, often called embedding. The same convolution layer structure is used as in [14], with the 32 3x3 convolution kernels looking at finer details than the final 32 5x5 filters. Each convolution layer applies zero-padding to maintain input size throughout the network and is followed by a batch normalization layer and a leaky ReLU activation function with a negative slope of 0.01. The output is flattened to produce the feature vector embedding. In the siamese architecture, two input samples are fed in the twin blocks and their respective embedding can then be compared with a difference/similarity cost function. The proposed approach uses a triplet loss function [12] that takes three embeddings. An anchor embedding is produced from a given example, a positive embedding is produced from a distinct but similar example, and a negative embedding is produced from a dissimilar example. Analogous to the mean squared error (MSE), the proposed framework computes the triplet loss using a mean squared difference as a distance between 2 given embedding vectors a and b:
+Fig. 2. Siamese convolutional neural network architecture. Duplicate 2D convolution filters extract spatial features from 2 HD-EMG activation maps for comparison of the resulting feature embeddings.
+Loss / Distance Function
+Shared Parameters
+1. Conv. 2D (32, 3x3, 0-padding)
+2. Conv. 2D (32, 3x3, 0-padding)
+3. Conv. 2D (32, 5x5, 0-padding)
+4. Flatten
+Input Data 1
+Input Data 2
+Feature Embeddings
+115
+Authorized licensed use limited to: BIBLIOTHEQUE DE L'UNIVERSITE LAVAL. Downloaded on September 18,2024 at 00:24:06 UTC from IEEE Xplore. Restrictions apply.
+
+
+ (1)
+To train the network in producing feature embeddings that are closer together if they’re similar, and farther apart if dissimilar, the triplet loss considers the difference between the distances from the anchor to the positive and negative embeddings, with an enforceable margin parameter a as in:
+(2)
+Once trained, two input data to be compared are fed forward in the twin convolution block, producing embeddings which are then sent to a similarity or distance function. The output distance may be used for binary classification via thresholding or comparison within a set of data.
+C. Cosine Similarity Classifier
+The classifier employed in the proposed model is based on cosine similarity. First, the siamese network is used to produce the feature embeddings of a given input data and representative data from each class. Then, the inferred class is the one deemed the closest to the input data by the cosine similarity function as displayed in the simplified 2-dimensional plane in Fig. 3. While this would conceptually call for a multi-channel Siamese network or an ensemble of 2-channel networks as pictured by Fig 2., it can be implemented efficiently by pre-computing classrepresentative embeddings from the training dataset. For each class, a mean embedding or prototype is produced from a training dataset by averaging the resulting vectors of the convolution layers block. At inference time, a single input data X is fedforward through the network, embedded into Xemb, and then compared with the pre-computed mean embeddings via the cosine similarity. This can be implemented mathematically as a dot product for a 1-to-1 comparison. For classification purposes, the mean class embeddings are transformed to unit vectors and put together in a matrix M. The product of M with the unit vector of Xemb yields a vector of distances where an argmax function is applied to infer a class belonging C as in:
+(3)
+Since the cosine classifier’s training only consists of defining the mean embeddings by data accumulation and
+averaging, it can be calibrated subsequently in the same manner. In practice, a given user initially trains the Siamese neural network and is then able to train and subsequently calibrate the classifier promptly and without resorting to resource intensive backpropagation. While the initial training session may need to be executed on a server or computer, the feedforward network can then be implemented on a more resource-efficient embedded platform that implements the classifier training and calibration.
+D. Experiments and Datasets
+The employed HD-EMG dataset was collected among 13 able-bodied male and female participants, most of which during a prior study [2]. New data was gathered using the same protocol. Participants were aged from 24 to 44 years old with no known medical condition, with a mix of both left and righthanded individuals. All measurements were performed on the right-hand limb. Informed consent was obtained from all participants and protocols were approved by the Comité plurifacultaire d’éthique de la recherche de l’Université Laval under approbation number 2019-268 phase 1 R-2 / 14-10-2021. One participant was familiar with EMG control interfaces and the sensor used, while the 12 others had little to no experience with such system. The dataset consists of forearm HD-EMG data collected while participants were holding the 6 hand gestures depicted in Fig. 4. A first dataset was collected from each participant where they would hold each gesture for 5 seconds one after the other with 5 seconds rest time in-between. This was then repeated 5 times with a 2-minute break between the 3rd and 4th repetitions. A second dataset was then collected during a different session to provide inter-session data for each user. This dataset is a shortened version of the first one where each gesture is held for 2 seconds and only repeated 3 times. The second dataset was recorded from 1 day to 6 months apart depending on the participant. To train the SCNN, we used a 5-fold cross-validation on the first dataset, splitting the shuffled set at 80% for training and 20% for validation on each iteration. Within the training subset, 8,500 triplets were formed for each class (1 reference data point, 1 other from the same class, and 1 randomly picked from a different class). For validation, 2,000 triplets per class were formed from the respective split. There is no test split yet at this stage since testing will be performed with the second dataset when the cosine classifier is appended to the SCNN. We used the ADAM optimizer with a learning rate of 0.01, a batch size of 64, and an alpha margin parameter of 0.2 for the triplet loss. Training was stopped after 5 epochs where the validation loss did not improve for more than 0.001, after which the best weights were restored. To evaluate the model’s ability to provide effective intersession, intra-user transfer learning capabilities, the cosine similarity classifier was evaluated with data from the second
+dMSE = ∑N−1
+i=0 ( f (ai) − f (bi))2 N
+l osstriplet = m a x (dpositive − dnegative + α,0)
+C = argmax
+M0
+.MM. 15.
+× Xemb
+| | Xemb | |
+T
+Fig. 3. Graph representation of cosine similarity. For inference, the input data embedding is associated to the closest embedding’s class for classification purposes. In this example, since cos(q0) is higher than cos(q1), Xemb is deemed to belong to class C0.
+Input data embedding
+Xemb
+Class 0 mean embedding C0
+Class 1 mean embedding C1
+Xemb · C0
+|| Xemb || || C0 ||
+Xemb · C1
+|| Xemb || || C1 ||
+= cos( θ0 ) > cos( θ1 ) =
+θ0
+θ1 Fig. 4. Gesture set of common functional prosthesis modes: 1) closed, 2) thumb up/hook grip, 3) tripod pinch, 4) open/neutral, 5) fine pinch, 6) pointed index.
+12345678
+123456
+116
+Authorized licensed use limited to: BIBLIOTHEQUE DE L'UNIVERSITE LAVAL. Downloaded on September 18,2024 at 00:24:06 UTC from IEEE Xplore. Restrictions apply.
+
+
+ session and reused the SCNN trained from the first session asis. For each user, the second dataset was split with 80 % data for training and 20 % for testing, shuffled differently on each of the 5 SCNN cross-validation iterations. The 6-way/class accuracy was first evaluated using all the training subset to generate each class’ mean embedding. We then evaluated the few-shot accuracy using only 0 to 20 data points per class.
+III. RESULTS
+A. Siamese Convolutional Neural Network
+Table I displays the number of epochs trained, triplet loss, and accuracy for each user. The triplet loss accuracy consists of evaluating whether the SCNN effectively produces a closer embedding for the same class data point using cosine similarity. With a mean and median triplet accuracy of 88.72 % and 93.35 % across all users on the validation set, the Siamese model demonstrates its ability to effectively discern whether two inputs are issued from the same gesture or not.
+B. Cosine Similarity Classification Accuracy
+Table II summarizes the accuracy of the cosine similarity classifier trained on new session data for all participants. The results show that the full set training accuracy (all-shot) can be reached within a 20-shot training process. Fig. 5 displays the convergence of n-shot accuracy for the 0-20 range where most users reach a plateau between 5 and 10 shots. For an experimented user, results are highly conclusive as the singlevote 86.49 % (all-shot) and 85.96 % (20-shot) are in-line with previous transfer learning convolutional neural network results of 84.03 %, which employed a more conventional architecture and framework that is not as deployment-friendly [2]. While single-vote results across unexperimented users are not as promising, leveraging time-distributed inferences with majority voting yields actionable results for real-time myoelectric control. As in [2], majority voting can be employed in real-time gesture recognition to smooth out the results and improve reliability. With HD-EMG data being sampled every 1 ms and the model inferring on each sample, there is headroom for postprocessing relative to the optimal controller delay of 100-150 ms [18]. Thus, we evaluated the majority vote accuracy for 1 to 100 votes using the 6-way 20-shot classifier. A median majority-vote accuracy of 97.34 % demonstrates near perfect performance for at least half of participants, while the mean is dragged slightly lower due to two outliers as observed in Fig. 6. In this figure,
+convergence to 90-100% accuracy within 0 to 20 votes for most users can be observed.
+IV. DISCUSSION AND CONCLUSION
+The gesture recognition results of the proposed method are highly conclusive for an experimented user, and for naive users with the aid of majority vote inference to achieve state-of-theart results nearing 100% [19]. This demonstration is however limited to offline classification, which does not necessarily translate to equal real-time performance [20]. Thus, we interpret the results of this study as a proof of concept for the Siamese neural network and few-shot learning framework that enables further research and real-time integration of the approach. In future work, we aim to deploy and evaluate the proposed method with real-time performance metrics and real-world task completion exercises. We also aim to improve the individual performance of the SCNN and cosine similarity framework without majority voting across all users, which will consequently improve the downstream post-processing and system output performance and reliability. This contribution proposes a HD-EMG-based Siamese convolutional neural network and cosine similarity few-shot learning framework for embedded gesture recognition. With improvements in low-data performance and simplified efficient training/calibration, we aim to make deep learning-based solutions realistically applicable in wearable systems.
+Fig. 5. 6-way classification accuracy for n-shot learning where n = [0, 20]. Fig. 6. 6-way 20-shot majority vote accuracy for 1 to 100 votes.
+TABLE I. SIAMESE CONVOLUTIONAL NEURAL NETWORK TRAINING
+Aggregated Participants Results
+SCNN Training Results on Validation Set Epochs Triplet
+Loss
+Triplet Accuracy
+Mean 17.95 0.0520 88.72 %
+Median 17 0.0336 93.35 %
+TABLE II. COSINE SIMILARITY CLASSIFICATION
+User(s)
+SCNN + Cosine Similarity Classification Accuracy
+All-shot Accuracy
+Best within 0-20 shots 20-shot 100
+majority vote accuracy
+Nb. of shots Accuracy
+Exp. user 86.49 % 19 85.96 % 99.97 % All
+(Mean) 69.10 % 18.08 66.70 % 90.66 %
+All
+(Median) 71.67 % 18 68.31 % 97.34 %
+117
+Authorized licensed use limited to: BIBLIOTHEQUE DE L'UNIVERSITE LAVAL. Downloaded on September 18,2024 at 00:24:06 UTC from IEEE Xplore. Restrictions apply.
+
+
+ REFERENCES
+[1] U. Côté-Allard et al., “Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 27, no. 4, pp. 760–771, Apr. 2019, doi: 10.1109/TNSRE.2019.2896269.
+[2] S. Tam, M. Boukadoum, A. Campeau-Lecours, and B. Gosselin, “Intuitive real-time control strategy for high-density myoelectric hand prosthesis using deep and transfer learning,” Sci Rep, vol. 11, no. 1, p. 11275, Dec. 2021, doi: 10.1038/s41598-021-90688-4.
+[3] M. Rojas-Martínez, M. A. Mañanas, and J. F. Alonso, “High-density surface EMG maps from upper-arm and forearm muscles,” Journal of NeuroEngineering and Rehabilitation, vol. 9, no. 1, p. 85, 2012, doi: 10.1186/1743-0003-9-85.
+[4] Y. Du, W. Jin, W. Wei, Y. Hu, and W. Geng, “Surface EMG-Based InterSession Gesture Recognition Enhanced by Deep Domain Adaptation,” Sensors, vol. 17, no. 3, p. 458, Feb. 2017, doi: 10.3390/s17030458.
+[5] Y. Hu, Y. Wong, W. Wei, Y. Du, M. Kankanhalli, and W. Geng, “A novel attention-based hybrid CNN-RNN architecture for sEMG-based gesture recognition,” PLoS ONE, vol. 13, no. 10, p. e0206049, Oct. 2018, doi: 10.1371/journal.pone.0206049.
+[6] N. Nazmi, M. Abdul Rahman, S.-I. Yamamoto, S. Ahmad, H. Zamzuri, and S. Mazlan, “A Review of Classification Techniques of EMG Signals during Isotonic and Isometric Contractions,” Sensors, vol. 16, no. 8, p. 1304, Aug. 2016, doi: 10.3390/s16081304.
+[7] L. Fe-Fei, Fergus, and Perona, “A Bayesian approach to unsupervised one-shot learning of object categories,” in Proceedings Ninth IEEE International Conference on Computer Vision, Oct. 2003, pp. 1134–1141 vol.2. doi: 10.1109/ICCV.2003.1238476.
+[8] G. Koch, R. Zemel and R. Salakhutdinov., ‘‘Siamese Neural Networks for One-shot Image Recognition,” ICML deep learning workshop, Lille, France, vol. 2, 2015.
+[9] S. Kadam and V. Vaidya, “Review and Analysis of Zero, One and Few Shot Learning Approaches,” in Intelligent Systems Design and Applications, Cham, 2020, pp. 100–112. doi: 10.1007/978-3-030-166571_10.
+[10] E. Rahimian, S. Zabihi, A. Asif, S. F. Atashzar, and A. Mohammadi, “Few-Shot Learning for Decoding Surface Electromyography for Hand Gesture Recognition,” in ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Jun. 2021, pp. 1300–1304. doi: 10.1109/ICASSP39728.2021.9413582.
+[11] M. Atzori et al., “Electromyography data for non-invasive naturallycontrolled robotic hand prostheses,” Sci Data, vol. 1, no. 1, p. 140053, Dec. 2014, doi: 10.1038/sdata.2014.53.
+[12] F. Schroff, D. Kalenichenko, and J. Philbin, “FaceNet: A Unified Embedding for Face Recognition and Clustering,” 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 815–823, Jun. 2015, doi: 10.1109/CVPR.2015.7298682.
+[13] Y. Taigman, M. Yang, M. Ranzato, and L. Wolf, “DeepFace: Closing the Gap to Human-Level Performance in Face Verification,” in 2014 IEEE Conference on Computer Vision and Pattern Recognition, Columbus, OH, USA, Jun. 2014, pp. 1701–1708. doi: 10.1109/CVPR.2014.220.
+[14] S. Tam, M. Boukadoum, A. Campeau-Lecours, and B. Gosselin, “A Fully Embedded Adaptive Real-Time Hand Gesture Classifier Leveraging HDsEMG Deep Learning,” IEEE Transactions on Biomedical Circuits and Systems, pp. 1–1, 2019, doi: 10.1109/TBCAS.2019.2955641.
+[15] S. Tam, M. Boukadoum, A. Campeau-Lecours, and B. Gosselin, “Forearm High-Density Electromyography Data Visualization and Classification with Machine Learning for Hand Prosthesis Control,” in 2020 42nd Annual International Conference of the IEEE Engineering in Medicine Biology Society (EMBC), Jul. 2020, pp. 722–727. doi: 10.1109/EMBC44109.2020.9175865.
+[16] S. Tam, G. Bilodeau, J. Brown, G. Gagnon-Turcotte, A. CampeauLecours, and B. Gosselin, “A Wearable Wireless Armband Sensor for High-Density Surface Electromyography Recording,” in 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Jul. 2019, pp. 6040–6044. doi: 10.1109/EMBC.2019.8857750.
+[17] A. Stango, F. Negro, and D. Farina, “Spatial Correlation of High Density EMG Signals Provides Features Robust to Electrode Number and Shift in Pattern Recognition for Myocontrol,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 23, no. 2, pp. 189–198, Mar. 2015, doi: 10.1109/TNSRE.2014.2366752.
+[18] T. R. Farrell and R. F. Weir, “The Optimal Controller Delay for Myoelectric Prostheses,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 15, no. 1, pp. 111–118, Mar. 2007, doi: 10.1109/TNSRE.2007.891391.
+[19] A. Jaramillo-Yánez, M. E. Benalcázar, and E. Mena-Maldonado, “Realtime hand gesture recognition using surface electromyography and machine learning: A systematic literature review,” Sensors (Switzerland), vol. 20, no. 9, Art. no. 9, 2020, doi: 10.3390/s20092467.
+[20] A. D. Roche, H. Rehbaum, D. Farina, and O. C. Aszmann, “Prosthetic Myoelectric Control Strategies: A Clinical Perspective,” Curr Surg Rep, vol. 2, no. 3, p. 44, Mar. 2014, doi: 10.1007/s40137-013-0044-8.
+118
+Authorized licensed use limited to: BIBLIOTHEQUE DE L'UNIVERSITE LAVAL. Downloaded on September 18,2024 at 00:24:06 UTC from IEEE Xplore. Restrictions apply.

@@ -1,0 +1,305 @@
+Modèle dynamique
+
+
+ H. Lounis
+Introduction
+aC’est une nouveauté apportée par
+les méthodes objet par rapport aux
+autres méthodes ;
+aCela concerne l’étude du cycle de
+vie des entités en cours de
+déroulement de l’application ;
+
+
+ H. Lounis
+Pourquoi ?
+a Décrire les relations temporelles et événementielles entre les objets du système décrites dans les modèles statiques ;
+a Décrire les états des objets, c’est à dire leurs modifications internes au cours du déroulement de l’application et en fonction des options choisies par les utilisateurs ;
+a Décrire les actions effectuées par les objets dans un contexte donné ;
+a Décrire les actions des systèmes extérieurs sur les objets du système étudié ainsi que les réactions de ces objets.
+
+
+ H. Lounis
+Dynamique ...
+aLa modélisation dynamique se base sur plusieurs modèles :
+`Décrire les interactions entre les objets du système et les systèmes extérieurs ;
+`D’étudier l’évolution interne des objets ;
+aComme l’analyse statique, l’analyse dynamique ne doit s’intéresser qu’aux objets strictement rattachés au domaine. Pas de considérations techniques !
+aDurant la conception, les considérations techniques entrent en jeu.
+
+
+ H. Lounis
+Sa place dans le processus
+de développement
+a Après l’analyse statique, mais plus difficile ;
+a Elle s’appuie sur les objets décrits dans les
+modèles statiques, ainsi que sur les événements
+provenant de l’extérieur du système (dans les
+Ucs) ;
+a C’est un support indispensable pour :
+` Le passage à la conception, car elle permet de décrire les enchaînements des méthodes ;
+` Faire des tests et de la maintenance, car elle permet de faire de l’analyse d’impacts lors de la modification d’un objet.
+Ucs
+Modèles
+dynamiques
+Spécs Modèles objet
+Conception Tests Maintenance
+
+
+ H. Lounis
+Concepts de base
+a La notion d’état d’un objet : défini à la fois par les valeurs de ses attributs et les valeurs de ses liens avec d’autres objets. L’état représente une durée, un intervalle de temps quantifiable, séparé par deux événements ;
+a Les notions d’événements et de messages : stimulus pouvant transporter des infos sous forme de paramètres. Un événement n’a pas de durée ;
+a La notion de transition : c’est le changement d’état d’un objet causé par un événement.
+
+
+ H. Lounis
+État
+Personne
+-nom : chaîne -prénom : chaîne -profession : chaîne
+Proposition Entreprise
+*
+*
+contacterPour
+0..1
+*
+travillerPour
+a 3 états d’un objet Personne, dépendant
+d’une part de la valeur de l’attribut
+profession et d’autre part des liens de cet
+objet avec un objet Entreprise et avec un
+ou plusieurs objets Proposition :
+` état employé ;
+` état demandeur d’emploi ;
+` état en phase d’embauche.
+
+
+ H. Lounis
+Événement et message
+a Peut-être émis par un objet du système ou par un objet externe ;
+a Peut provenir de l’interface du système (clic de souris, sélection d’un item de menu, ...) ;
+a Peut-être dirigé vers un ou plusieurs objets du système ;
+a La réponse d’un objet à un événement dépend de l’état dans lequel se trouve l’objet qui le reçoit ;
+a Message = événement issu de l’interaction entre 2 objets ;
+a Un événement n’est pas forcément un message émis par un objet ;
+a Exemples :
+` Licenciement effectué par une entreprise ;
+` Arrivée d’une proposition en provenance d’un organisme ;
+` Attribution d’un poste dans une entreprise ;
+` Démission décidée par l’employé.
+
+
+ H. Lounis
+Transition
+aElles sont notées par des flèches
+portant le nom et les paramètres
+des événements associés ;
+Embauché
+Demandeur
+emploi
+En phase
+d’embauche
+attributionPoste
+arrivéeProposition
+licenciement
+Personne
+arrivéeProposition
+démission
+refusAffectation
+
+
+ H. Lounis
+Diagrammes d’interaction
+a Ce sont des modèles décrivant la
+coopération ou collaboration entre
+groupes d’objets, durant certain
+comportement ;
+a Typiquement, un diagramme
+d’interaction capture le scénario d’un UC,
+en montrant les objets et les messages
+échangés pour instancier le UC ;
+a Il y a 2 sortes de diagramme
+d’interaction :
+`Le diagramme de séquence ;
+`Le diagramme de collaboration.
+
+
+ H. Lounis
+Diagramme de
+séquence
+a Il représente un scénario, cad, une série d’événements ordonnés dans le temps, simulant une exécution particulière du système ;
+a Il utilise 2 types de concepts :
+` Les objets : faisant la plupart du temps partie du système, ainsi que des objets externes au système et en interaction avec celui-ci ;
+` Les événements émis et reçus par les objets impliqués dans le scénario ;
+a Les scénarios apportent une meilleure compréhension de l’enchaînement des événements et des messages ;
+a Comprendre les rôles joués par les objets du système vis-à-vis des autres objets ;
+a Très utiles pour les phases de tests et de maintenance ;
+a On peut considérer que certains scénarios sont des instances de Ucs.
+
+
+ H. Lounis
+Diagramme de
+séquence
+a Barre verticale : ligne de vie de l’objet ;
+a Flèche : message entre deux lignes de
+vie de deux objets ;
+a Ordre : de haut en bas`;
+a Possibilité de messages récursifs ;
+a Ex : scénario 1 RH Canada Normand :
+Personne
+Object inc. : Entreprise
+demande programmeur C++
+proposition poste
+demande entrevue
+convocation
+entrevue
+bilan
+attribution du poste
+notification d'embauche
+
+
+ H. Lounis
+Diagramme de
+séquence
+a Scénario 2 : Romuald :
+Personne
+Conseil recrutement
+OOSoft inc. : Entrepri se
+proposer poste consultant objet
+convocation
+entrevue
+bilan
+refus attribution du poste
+proposit ion CV Romuald pour le post e
+notification du refus
+
+
+ H. Lounis
+Diagramme de
+collaboration
+a Il vise à représenter du point de vue
+dynamique les objets impliqués dans la
+mise en place d’une fonctionnalité ;
+a La granularité est plus ou moins fine,
+selon qu’il décrit une simple opération
+définie dans une classe ou bien un
+ensemble d’opérations utilisées dans
+l’exécution d’une fonction ;
+a Numérotation des messages pour
+indiquer la séquence ; disposition
+différente du diagramme de séquence ;
+
+
+ H. Lounis
+Diagramme de
+collaboration
+Laurent :
+Personne Conseil recrutement :
+CabinetRecrutement
+OOSoft : Entrepri se
+ct1 : Contrat Travail
+création
+2: rechercheCandidats(unPoste)
+est-candidat
+est-client
+1: proposerPos te(unPoste)
+3: proposerCandidat s(desCandidats, unP ost e)
+4: convoquer(unPoste)
+5: passerEntrevue()
+6: effectuerBilan()
+signer
+7: embaucher(unPoste)
+signer
+
+
+ H. Lounis
+Comparaison
+a Diagramme de séquence : met l’accent
+sur l’ordre d’apparition des événements ;
+a Diagramme de collaboration : fait bien le
+lien avec le modèle statique de classes ;
+a À utiliser quand on veut modéliser le
+comportement de plusieurs objets.
+a Le comportement d’un seul objet est
+donné par le diagramme d’états.
+
+
+ H. Lounis
+Diagramme de
+séquence
+RH Canada Normand : Personne
+Object inc. : Entreprise
+demande programmeur C++
+proposition poste
+demande entrevue
+convocation
+entrevue
+bilan
+attribution du poste
+notification d'embauche
+Activation avec une durée (exécution d’une opération)
+
+
+ H. Lounis
+Diagramme de
+séquence : messages
+Message asynchrone
+:User :GUI :OS : CPU : Carte Vidéo :Moniteur
+touche appuyée
+notificat ion
+notification
+modifie notifie
+informe feedback
+
+
+ H. Lounis
+Diagramme de
+séquence : suite
+unefenêtrede uneCommande Comm ande
+unelignede Commande
+unItemenStock une Commandeitem
+unelivraison item
+prépare() * prépare() estenStock := vérifier()
+[ est en s tock] enlever()
+recommander := besoindeRecommander()
+[ recommander] new
+return
+[estenstock] new
+
+
+ H. Lounis
+Diagramme de
+séquence
+a Possibilité de montrer, des fois, les états d’un
+objet (ou de plusieurs), au sein du diagramme de
+séquence ;
+
+
+ H. Lounis
+Diagramme de
+collaboration
+a Créer un objet :
+a Objets (receveurs) multiples :
+:Proposition
+:Consultant
+« create » 6: créerfichier()
+:Professeur :Étudiant
+*[all] 1: remettre(devoir)
+
+
+ H. Lounis
+Diagramme de
+collaboration
+a Synchronisation de message :
+VP Senior Marketing
+VP ventes
+Directeur ventes
+vendeur
+client
+Responsable Pub
+journal
+1: créer (campagne, produit)
+2: affecte (campagne, produit)
+3: vend (produit, campagne)
+*[clients visés] 4: appelVente (produit, campagne)
+2,3 / publicité (produit, Campagne)

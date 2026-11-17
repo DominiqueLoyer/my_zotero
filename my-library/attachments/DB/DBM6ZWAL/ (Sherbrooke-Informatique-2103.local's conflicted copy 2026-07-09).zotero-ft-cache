@@ -1,0 +1,99 @@
+Ontologies et Web
+• Le Web : Passer d’une vision de parcours de documents à celle de recherche d’une information et d’exécution d’actions ;
+• Avoir un modèle qui permette à la machine d’aider l’utilisateur à réaliser sa tâche ;
+• La machine doit « comprendre » le sens des données, accéder à la sémantique des données, pour proposer des actions « intelligentes » :
+– Très facile chez les humains ;
+– Très difficile pour une machine ;
+• Se baser sur une ontologie du « monde » sur lequel on veut travailler : une vision de ce « monde » et des catégories qui organisent ce « monde » ;
+• Une ontologie doit permettre le raisonnement et doit être partageable :
+– Elle sera formalisée (graphes, arbres, ...) pour permettre de faire des inférences : plusieurs langages ont été proposés pour cela : frames, logiques de description, graphes conceptuels, ...
+• Avec la WEB : RDF/RDFS
+(Thèse DIC T. Fares, 2016)
+
+
+ Linked Data and Semantic Web
+Classical way to publish document on the web
+BC
+HTML HTML
+HTML
+Web Browsers
+Search Engines
+hyperlinks
+A
+Web Aspects :
+• URL
+• HTTP
+• HTML
+hyperlinks
+
+
+ • Before 2006, most of ontologies are published in dump
+files and most of them are not interlinked.
+• 2006 : Tim Berners-Lee underlined set of rules to follow
+(Guidelines) for publishing data on the web inspired from
+the same principles of web aspects.
+• Rules are :
+• Use URIs as names for things.
+• Use HTTP as universal access mechanism.
+• Include RDF statements that link to other URIs.
+• A query Language SPARQL can be used to provide
+and query the represented data.
+Before and after 2006
+Linked Data and Semantic Web
+
+
+ How this can be realized ?
+• URL
+• HTTP
+• HTML
+BC
+RDF
+RDF link
+A DE
+RDF links
+RDF links
+RDF links
+RDF
+RDF
+RDF
+RDF
+RDF RDF
+RDF
+RDF
+RDF
+• URI
+• HTTP
+• RDF
++ SPARQL
++
++
+Linked Data and Semantic Web
+
+
+ Linked Data and Semantic Web
+Linked Open Data
+• Linked Open Data (LOD) Project : is the most visible
+project using the LDP (URLs, HTTP, and RDF).
+• This project created a shift in the community of research
+and development of the semantic web.
+• Nowadays, the web is not just concentrated for the
+interrelation between web documents but also between the
+raw data within these documents.
+• Today, the semantic web is a web of data
+
+
+ • Oct 2007, The LOD Project has been started.
+Emerging of Linked Opened Data (LOD),
+Linked Data and Semantic Web
+
+
+ Linked Data and Semantic Web
+Resource Description Framework Schema (RDFS)
+• RDF provides the model and syntax for describing resources, but it
+does not define the meaning of those resources.
+•RDFS comes in place by adding vocabulary and associated semantics
+to RDF data model
+• Classes and sub-classes
+• Properties and sub-properties
+•RDFS used to describe simple ontology (lightweight language), with
+some primitives from OWL

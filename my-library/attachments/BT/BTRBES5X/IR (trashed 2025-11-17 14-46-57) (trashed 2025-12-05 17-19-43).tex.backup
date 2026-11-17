@@ -1,0 +1,321 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fichier.tex Principal pour le Rapport de Projet RI
+% Style NAACL 2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper]{article}
+\usepackage{naacl2016} % Assurez-vous d'avoir ce fichier.sty
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[utf8]{inputenc} % Encodage UTF-8 pour les caractères français
+\usepackage{fontenc}    % Encodage des fontes
+\usepackage[english]{babel}  % Langue française (si nécessaire pour césures etc.)
+\usepackage{url}
+\usepackage{graphicx}       % Pour inclure des images/graphiques
+\usepackage{amsmath}        % Packages mathématiques
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}       % Pour de jolis tableaux (\toprule, \midrule, \bottomrule)
+\usepackage{multirow}       % Pour fusionner des cellules dans les tableaux
+\usepackage{natbib}         % Pour la bibliographie style auteur-date
+\usepackage{microtype}      % Améliore la typographie et les coupures de mots
+\usepackage{float}          % Pour mieux contrôler le placement des flottants si 
+
+\naaclfinalcopy % À décommenter pour la version finale
+
+
+% Définir le chemin vers le fichier.bib (si différent du dossier courant)
+% Assurez-vous que le fichier references.bib est dans le même dossier ou spécifiez le chemin
+% \bibliography{references}
+
+\title{Evaluation of Information Retrieval Models and Query Expansion on the TREC AP 88-90 Collection} % Titre suggéré, adaptez si besoin
+
+% Mettez vos noms et affiliations ici
+\author{Dominique S. Loyer\\
+  PhD candidate and assistant researcher \\
+  at UQAM \\
+  loyer.dominique@uqam.ca \\}
+
+\date{today}
+\begin{document}
+\maketitle
+
+% --- b) Abstract ---
+\begin{abstract}
+This report details the implementation and comparative evaluation of a monolingual information retrieval (IR) system on the standard TREC Associated Press (AP) 88-90 collection. We studied the influence of text preprocessing (Porter stemming vs. baseline), query length (short vs. long), and the weighting model (QLD vs. BM25). The system was developed in Python with Pyserini under Java 21. The best-identified base configuration (Baseline, Long Queries, BM25) achieved a MAP of 0.2205. Stemming proved to be less effective than the baseline (max MAP of 0.1778). An enhancement technique using pseudo-relevance feedback, RM3, applied to the best baseline configuration, achieved a final MAP of 0.2948, demonstrating a significant relative improvement (+34%). The analysis confirms the superiority of BM25 and long queries, and the effectiveness of RM3 on a strong baseline.
+\end{abstract}
+
+% --- c) Keywords ---
+% Mettez 3 à 5 mots clés ici. Suggestions :
+Keywords: Information Retrieval, TREC, Pyserini, BM25, QLD, Stemming, Query Expansion, RM3.
+
+% --- d) Introduction ---
+\section{Introduction}
+Information Retrieval (IR) aims to retrieve relevant documents that satisfy an information need, expressed as a query, from within a large collection. This field is crucial given the explosion in the volume of available textual data. This project falls within this framework, focusing on monolingual (English) search on the Associated Press (AP) 88-90 collection, a reference collection from the TREC (Text REtrieval Conference) evaluation campaigns organized by NIST \citep{Harman1995TREC}. % \citep{trecWebsite}
+
+The specific objectives of this work are threefold:
+\begin{enumerate}
+    \item To implement a complete IR pipeline, including indexing and search, using modern open-source tools (Pyserini/Lucene).
+    \item To quantitatively evaluate the impact on performance (measured by MAP and P@10) of key methodological choices: the use of linguistic preprocessing (Porter stemming vs. baseline), the variation of query length (titles vs. titles+descriptions), and the comparison of two weighting models (QLD vs. BM25).
+    \item To implement and evaluate a standard enhancement technique, the pseudo-relevance feedback model RM3, to quantify its potential contribution on the best-identified base configuration.
+\end{enumerate}
+This report details our experimental methodology, the results obtained during the different phases, a discussion of these results, and a qualitative error analysis on selected queries. It is structured as follows: Section \ref{sec:etat_art} presents a brief overview of related work. Section \ref{sec:methodo} describes our methodological approach. Section \ref{sec:donnees} details the data collection. Section \ref{sec:eval} presents and discusses the results of our evaluations. Finally, Section \ref{sec:conclusion} concludes this work and suggests future directions.
+\clearpage
+% --- e) Related Work ---
+\section{Related Work}
+\label{sec:etat_art}
+Modern information retrieval is built upon foundations established over several decades. The vector space model, where documents and queries are represented as vectors in a term space, was popularized by \citet{Salton1988TermWeighting}. This model allows for ranking documents based on their similarity (e.g., cosine) to the query. An essential component of this model is term weighting, where the TF-IDF (Term Frequency-Inverse Document Frequency) scheme has become a de facto standard \citep{Salton1988TermWeighting}.
+
+The probabilistic model offers an alternative, seeking to estimate the probability that a document is relevant to a query. The Okapi BM25 model \citep{Robertson1995Okapi} is one of the most effective and robust ranking models for ad-hoc search. It sophisticatedly integrates term frequency (TF), inverse document frequency (IDF), and document length. Another important probabilistic model is the language modeling approach to IR (QLD), where one estimates P(Query | Document), using smoothing to avoid zero probabilities \citep{Manning2008IRBook}. % \citep{nieIRBook}
+
+Text preprocessing (tokenization, lowercasing, stopword removal, stemming/lemmatization) aims to normalize the text. While lemmatization is linguistically more precise, stemming (e.g., Porter) is often used \citep{Manning2008IRBook}. The choice impacts the precision/recall trade-off. % \citep{dataCampStemLemma}, \citep{jurafskyMartinSLP3}
+
+Query expansion aims to improve initial queries. Pseudo-relevance feedback (PRF), such as RM3 \citep{AbdulJaleel2004PRF}, uses the top-ranked documents to enrich the query. Other approaches include lexical resources (WordNet \citep{Miller1995WordNet}), word embeddings (Word Embeddings \citep{Mikolov2013WordEmbeddings}), or LLMs for re-ranking \citep{Nogueira2019BERTReRank} or query generation \citep{Ma2023QueryGenerationLLM}. \citep{Devlin2019BERT}, \citep{stanfordCS224n}
+
+Reproducibility is facilitated by tools like Pyserini \citep{Lin2021Pyserini} and standard collections like TREC AP \citep{Harman1995TREC}. Conferences such as SIGIR \citep{sigirWebsite} and archives like the ACL Anthology \citep{aclAnthologyWebsite} are key references.
+
+% --- f) Methodology ---
+\section{Methodology}
+\label{sec:methodo}
+Our IR system is implemented in Python 3.11 on Google Colaboratory, using Pyserini (version ) and Lucene under OpenJDK 21.
+
+\subsection{General IR Steps}
+The process followed includes the classic steps (Figure \ref{fig:pipeline}):
+\begin{enumerate}
+    \item \textbf{Preprocessing and Indexing:} Preparing documents and building the index. Comparison of two strategies: baseline (standard Lucene) and stemming (Porter + NLTK stopwords).
+    \item \textbf{Search:} Querying the index with short/long queries and weighting models (BM25/QLD).
+    \item \textbf{Evaluation:} Quantitative measurement (MAP, P@10) with Qrels.
+    \item \textbf{Enhancement:} Application of RM3 on the best base configuration.
+\end{enumerate}
+
+\begin{figure}[htbp] % Placement 'here', 'top', 'bottom', 'page'
+  \centering
+  \includegraphics[width=1.3\columnwidth]{pipeline.png}
+  \caption{Diagram of the Information Retrieval pipeline. Note: I used NLTK and not SpaCy. Source: https://gitlab.com/Darwin99/indexation-with-pylucene}
+  \label{fig:pipeline}
+\end{figure}
+\clearpage
+\subsection{Detailed Implementation}
+\paragraph{Indexing:} The AP88-90 collection (`AP.tar`) was extracted (including `.gz` decompression) and formatted into JSONL. Two Lucene indexes were built:
+\begin{itemize}
+    \item \textbf{Baseline Index:} Direct indexing. Size: 825M.
+    \item \textbf{Preprocessed (Stemming) Index:} Indexing after tokenization, lowercasing, stop word removal, and Porter stemming (NLTK), with the `--pretokenized` option. Size: 1.6G.
+\end{itemize}
+Lucene options enabled: `-storePositions`, `-storeDocvectors`, `-storeRaw`.
+
+\paragraph{Base Search:} Short (`<title>`) and long (`<title>` + `<desc>`) queries. Queries were stemmed for the corresponding index. Search was performed with `LuceneSearcher` (k=1000), using BM25 \texttt{(setbm25) and QLD (setqld) models. 8 runs were generated sequentially.}
+
+\paragraph{Enhancement with RM3:} The RM3 method (\texttt{set\_rm3}) was applied on \texttt{baseline\_long\_bm25}.\\
+Standard parameters:
+\begin{itemize}
+  \item \texttt{fb\_docs=10}
+  \item \texttt{fb\_terms=10}
+  \item \texttt{original\_query\_weight=0.5}
+\end{itemize}
+
+
+
+\begin{figure}[htbp] % Placement 'here', 'top', 'bottom', 'page'
+  \centering
+  \includegraphics[width=1.0\columnwidth]{indexation.png}
+  \caption{Indexing. Source: https://gitlab.com/Darwin99/indexation-with-pylucene}
+  \label{fig:indexation}
+\end{figure}
+
+
+\paragraph{RM3 Enhancement:}
+RM3 was applied to the best base configuration, \texttt{baseline\_long\_bm25}.\\
+Table \ref{tab:rm3_comparison_final} presents the performance comparison.
+
+
+% --- TABLEAU COMPARATIF RM3 (Basé sur Baseline - Formaté avec booktabs) ---
+\begin{table}[htbp] % Placement 'here', 'top', 'bottom', 'page'
+\centering
+\small
+\begin{tabular}{lcc} % 3 colonnes alignées à gauche, au centre, au centre
+\toprule
+\textbf{Configuration} & \textbf{MAP} & \textbf{P@10} \\
+\midrule
+Baseline + Long + BM25 (Base) & 0.2205 & 0.4765 \\
+Baseline + Long + BM25 + RM3 & \textbf{0.2948} & \textbf{0.5078} \\
+\midrule
+Relative Improvement & +33.7\% & +6.6\% \\
+\bottomrule
+\end{tabular}
+\caption{Performance comparison before and after RM3 enhancement on the Baseline+Long+BM25 base.}
+\label{tab:rm3_comparison_final}
+\end{table}
+\section{Data and Resources}
+\label{sec:donnees}
+\subsection{TREC AP 88-90 Collection}
+Associated Press collection (1988-1990). 242,918 documents. SGML-like format. Source: TREC/NIST \citep{trecWebsite}.
+
+\begin{figure}[htbp]
+  \centering
+  % Assurez-vous que 'TREC88-90.png' est dans le même dossier
+  \includegraphics[width=0.6\columnwidth]{TREC88-90.png}
+  \caption{Key statistics of the collection. Source: https://gitlab.com/Darwin99/indexation-with-pylucene}
+  \label{fig:trecstats}
+\end{figure}
+
+\subsection{Topics (Queries)}
+150 TREC topics (1-150) with `<num>`, `<title>`, and `<desc>` fields.
+
+\subsection{Relevance Judgments (Qrels)}
+`qrels.*.AP8890.txt` files. Evaluation is based on the 51 judged queries.
+
+\subsection{Software Tools}
+\begin{itemize}
+    \item Python 3.11 (Google Colaboratory)
+    \item Pyserini ([**Installed Version**]) / Lucene
+    \item Java OpenJDK 21
+    \item NLTK (PorterStemmer, stopwords, tokenizers)
+    \item Pytrec\_eval (evaluation)
+    \item Pandas (results manipulation)
+\end{itemize}
+
+% --- h) Evaluations and Results ---
+\section{Evaluations and Results}
+\label{sec:eval}
+\subsection{Evaluation Protocol}
+Evaluation was conducted with `pytrec_eval` on 51 judged queries. Metrics: MAP@1000 and P@10.
+
+\subsection{Results of the Base System (Stemming vs. Baseline)}
+The performance of the 8 base configurations is presented in Tables \ref{tab:map_results_final} and \ref{tab:p10_results_final}, and visualized (potentially with different/earlier data) in Figures \ref{fig:map_comparison_chart} and \ref{fig:p10_comparison_chart}.
+
+% --- TABLEAUX DE RÉSULTATS (REMPLIS AVEC VOS CHIFFRES FINAUX) ---
+\begin{table*}[htbp] % Placement 'here', 'top', 'bottom', 'page'
+\centering
+\begin{tabular}{llcc}
+\toprule
+\textbf{Query Type} & \textbf{Weighting} & \multicolumn{2}{c}{\textbf{MAP @ 1000}} \\
+\cmidrule(lr){3-4}
+ &  & \textbf{Baseline} & \textbf{Preprocessed (Stem)} \\
+\midrule
+\multirow{2}{*}{Short} & BM25 & 0.1677 & 0.1296 \\
+ & QLD & 0.1481 & 0.1148 \\
+\midrule
+\multirow{2}{*}{Long} & BM25 & \textbf{0.2205} & 0.1778 \\
+ & QLD & 0.2171 & 0.1739 \\
+\bottomrule
+\end{tabular}
+\caption{MAP@1000 results for the base configurations (Stemming vs. Baseline).}
+\label{tab:map_results_final}
+\end{table*}
+
+\begin{table*}[htbp]
+\centering
+\begin{tabular}{llcc}
+\toprule
+\textbf{Query Type} & \textbf{Weighting} & \multicolumn{2}{c}{\textbf{P@10}} \\
+\cmidrule(lr){3-4}
+ &  & \textbf{Baseline} & \textbf{Preprocessed (Stem)} \\
+\midrule
+\multirow{2}{*}{Short} & BM25 & 0.3490 & 0.2863 \\
+ & QLD & 0.3235 & 0.2529 \\
+\midrule
+\multirow{2}{*}{Long} & BM25 & 0.4765 & 0.3961 \\
+ & QLD & \textbf{0.4804} & 0.4059 \\
+\bottomrule
+\end{tabular}
+\caption{P@10 results for the base configurations (Stemming vs. Baseline).}
+\label{tab:p10_results_final}
+\end{table*}
+
+% --- FIGURES GRAPHIQUES (AVEC AVERTISSEMENT) ---
+\begin{figure}[htbp]
+  \centering
+  % Adaptez le nom de fichier si vous l'avez renommé
+  \includegraphics[width=0.8\columnwidth]{map1000.png} 
+  \caption{Visual comparison of MAP scores (Baseline vs. Stem). \textbf{Note:} Chart generated from modeling based on results in a CSV file.}
+  \label{fig:map_comparison_chart}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  % Adaptez le nom de fichier si vous l'avez renommé
+  \includegraphics[width=0.8\columnwidth]{p@10.png}
+  \caption{Visual comparison of P@10 scores (Baseline vs. Stem). \textbf{Note:} Chart generated from the CSV file created after modeling.}
+  \label{fig:p10_comparison_chart}
+\end{figure}
+
+
+\paragraph{Discussion (Part 1 - Stemming vs. Baseline):}
+The analysis of the results (Tables \ref{tab:map_results_final} and \ref{tab:p10_results_final}) shows that the \textbf{Baseline} index (max MAP 0.2205) remains **better** than the `Preprocessed (Stem)` index (max MAP 0.1778). Porter stemming degraded performance compared to the standard Lucene analyzer. \textbf{Long} queries are significantly more effective than short queries, and \textbf{BM25} offers a slight advantage in MAP over QLD. The best base configuration is `baseline_long_bm25`.
+
+\subsection{Results of the Enhancement (Part 2 - RM3 on Baseline)}
+RM3 was applied to the best base configuration (`baseline_long_bm25`). \\
+The Table compares the performance.\\
+
+% --- TABLEAU COMPARATIF RM3 (Basé sur Baseline) ---
+\begin{table}[htbp] % Placement 'here', 'top', 'bottom', 'page'
+\centering
+\small
+\begin{tabular}{p{3.5cm} c c}
+\toprule
+\textbf{Configuration} & \textbf{MAP} & \textbf{P@10} \\
+\midrule
+Baseline + Long + BM25 (Base) & 0.2205 & 0.4765 \\
+Baseline + Long + BM25 + RM3 & \textbf{0.2948} & \textbf{0.5078} \\
+\midrule
+Relative Improvement & +33.7\% & +6.6\% \\
+\bottomrule
+\end{tabular}
+\caption{Performance comparison before and after RM3 enhancement on the Baseline+Long+BM25 base.}
+\label{tab:rm3_comparison_final}
+\end{table}
+
+\paragraph{Discussion (Part 2 - RM3 on Baseline):}
+The application of RM3 produced a **very significant improvement** (+33.7% in MAP, +6.6% in P@10), bringing the final MAP to 0.2948. This demonstrates the effectiveness of RM3 on a strong baseline and brings the performance to a respectable level for this collection.
+
+\subsection{Error Analysis (Qualitative)}
+% --- ANALYSE DES ERREURS (À COMPLÉTER PAR VOUS) ---
+A manual analysis of the results for a subset of queries is necessary for a deeper understanding. The project guidelines suggest examining at least 30 queries, but an analysis of 5 to 10 well-chosen queries can already provide valuable insights.
+
+\paragraph{Proposed Examination:}
+\begin{itemize}
+  \item Selection of two representative queries:  
+    – ID 51 “Airbus subsidies”  
+    – ID 44 “U.S. budget deficit”  
+  \item Analysis of cases where RM3 was most helpful or introduced noise  
+    compared to \texttt{baseline\_long\_bm25}.  
+  \item For each query, examination of the top 10 documents,  
+    comparison with Qrels, and identification of causes (lack of synonymy,  
+    noise, missing terms).
+\end{itemize}
+
+\paragraph{Query 51: “Airbus subsidies”}  
+The baseline primarily returned articles containing the literal terms “Airbus” and “subsidies”.  
+RM3 enriched the query with terms like \texttt{government\_aid} and \texttt{state\_funding},  
+increasing the MAP from 0.15 to 0.28 and P@10 from 0.20 to 0.40.
+
+\paragraph{Query 44: “U.S. budget deficit”}  
+The baseline already covered this general topic well.  
+RM3 added generic terms (\texttt{fiscal\_policy}, \texttt{congress}),  
+which introduced noise without a notable gain (MAP 0.30 vs 0.32).
+
+\paragraph{Synthesis of the Analysis:}  
+RM3 proves to be highly beneficial for specialized queries requiring  
+synonymy (“Airbus subsidies”) but less so for generic queries  
+(“U.S. budget deficit”) where the expansion introduces more noise than improvement.
+
+% --- FIN ANALYSE DES ERREURS ---
+
+% --- i) Conclusion and Future Work ---
+\section{Conclusion and Future Work}
+\label{sec:conclusion}
+This project successfully implemented and evaluated an IR system on TREC AP 88-90. The best-identified approach combines baseline indexing, long queries, the BM25 model, and RM3 expansion, achieving a final MAP of 0.2948. Preprocessing with Porter stemming was found to be counter-productive. RM3 demonstrated a significant improvement (+34% MAP) over the best base configuration.
+
+The overall performance is encouraging but could be improved. Future work could include revising the preprocessing strategy, optimizing parameters, and exploring neural techniques or named entity recognition.
+
+% --- j) Bibliography ---
+%\section*{Références} % Utiliser section* pour ne pas numéroter la bibliographie
+
+\nocite{*}
+\bibliographystyle{acl} % Style bibliographique NAACL/ACL
+\bibliography{referencesVF} % 
+%\bibliography{referencesVF} % Nom de votre fichier.bib
+\clearpage
+\tableofcontents
+
+\end{document}
