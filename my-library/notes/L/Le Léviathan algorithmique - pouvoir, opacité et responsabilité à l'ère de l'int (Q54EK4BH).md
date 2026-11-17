@@ -16,7 +16,7 @@ zotero-key: "Q54EK4BH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Q54EK4BH"
 date-added: "2026-01-09 19:13:09"
-date-modified: "2026-03-25 21:30:00"
+date-modified: "2026-11-17 17:57:40"
 ---
 
 # Le Léviathan algorithmique : pouvoir, opacité et responsabilité à l'ère de l'intelligence artificielle
@@ -42,6 +42,7 @@ The second axis of our research focuses on recommendation systems, which have be
 Furthermore, the report addresses the imperative of Explainable AI (XAI). Beyond a description of post-hoc methods like LIME and SHAP, it integrates a fundamental academic critique of their instability and lack of fidelity. Based on Rudin's (2019) arguments against explaining "black boxes" and Judea Pearl's perspective on the necessity of "causal inference" (Pearl, 2009), we highlight a central paradox: the "displacement of trust" from the opaque algorithm to its equally opaque explanation. We then nuance this analysis with Béatrice Hibou's work on "neoliberal bureaucratization" (Hibou, 2012).
 In conclusion, the ideological positions we take in this report argue that the challenges posed by modern AI require democratic governance to ensure that this new algorithmic Leviathan serves the collective well-being, beyond mere individual accountability as suggested by the article from Le Point provided as a reference for the question concerning a code of ethics. (Neuer, 2018) ISBN: 978-1-0699904-0-2
 titleTranslation: The Algorithmic Leviathan: Power, Opacity, and Responsibility in the Age of Artificial Intelligence
+OpenAlex: W7108209568
 
 ## Attachments
 

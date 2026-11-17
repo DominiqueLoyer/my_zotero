@@ -11,6 +11,22 @@
 			"tags": []
 		},
 		{
+			"accessDate": "2026-11-17T17:57:36Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:57:35Z",
+			"dateModified": "2026-11-17T17:57:36Z",
+			"filename": "La Quadrature du Net - 2024 - La police prédictive en france contre l'opacité et les discriminations, la nécessité d'une interdic.pdf",
+			"itemType": "attachment",
+			"key": "B587DVDE",
+			"linkMode": "imported_file",
+			"parentItem": "YDQ2D88R",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4296790950.pdf"
+		},
+		{
 			"accessDate": "2026-01-08T20:34:26Z",
 			"charset": "",
 			"contentType": "",
@@ -29,6 +45,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "La Quadrature du Net - 2024 - La police prédictive en france contre l'opacité et les discriminations, la nécessité d'une interdic.pdf",
+				"files": [
+					{
+						"path": "attachments/B5/B587DVDE/La Quadrature du Net - 2024 - La police prédictive en france contre l'opacité et les discriminations, la nécessité d'une interdic.pdf",
+						"size": 2528693,
+						"storage": "git"
+					}
+				],
+				"key": "B587DVDE",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4296790950.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -73,7 +106,8 @@
 		],
 		"date": "2024",
 		"dateAdded": "2026-01-08T20:10:54Z",
-		"dateModified": "2026-03-25T21:30:24Z",
+		"dateModified": "2026-11-17T17:57:36Z",
+		"extra": "OpenAlex: W4296790950",
 		"institution": "La Quadrature du Net",
 		"itemType": "report",
 		"key": "YDQ2D88R",

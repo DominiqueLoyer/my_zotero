@@ -16,12 +16,16 @@ zotero-key: "8KUAPEN3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8KUAPEN3"
 date-added: "2025-10-10 19:01:29"
-date-modified: "2026-11-09 15:00:01"
+date-modified: "2026-11-17 17:57:48"
 ---
 
 # Le Savant et le Politique
 
 **Weber, Max**
+
+## Extra
+
+OpenAlex: W3171214682
 
 ## Notes
 

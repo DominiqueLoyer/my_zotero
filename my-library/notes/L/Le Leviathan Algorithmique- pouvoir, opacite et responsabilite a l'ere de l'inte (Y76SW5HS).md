@@ -16,7 +16,7 @@ zotero-key: "Y76SW5HS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Y76SW5HS"
 date-added: "2026-01-08 20:00:27"
-date-modified: "2026-03-25 21:30:48"
+date-modified: "2026-11-17 17:57:42"
 ---
 
 # Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle
@@ -27,6 +27,7 @@ date-modified: "2026-03-25 21:30:48"
 
 ISBN: 978-1-0699904-0-2
 Pages: 64
+OpenAlex: W7108209568
 
 ## Notes
 

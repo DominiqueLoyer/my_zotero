@@ -16,7 +16,7 @@ zotero-key: "3HR59KPR"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3HR59KPR"
 date-added: "2026-01-09 18:32:29"
-date-modified: "2026-03-25 21:30:00"
+date-modified: "2026-11-17 17:57:39"
 ---
 
 # Le Léviathan algorithmique : pouvoir, opacité et responsabilité à l'ère de l'intelligence artificielle
@@ -30,6 +30,7 @@ Ce rapport d’examen doctoral analyse la crise de redevabilité (accountability
 ## Extra
 
 ORCID="0009-0003-9713-7109"
+OpenAlex: W7108209568
 
 ## Attachments
 

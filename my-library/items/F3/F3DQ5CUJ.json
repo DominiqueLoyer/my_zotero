@@ -17,6 +17,22 @@
 			"url": "notion://www.notion.so/laquadraturedunetPolicePredictiveFrance2024-2c09fa248c57818083d8e168753aa4fc"
 		},
 		{
+			"accessDate": "2026-11-17T17:57:33Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:57:33Z",
+			"dateModified": "2026-11-17T17:57:33Z",
+			"filename": "La Quadrature du Net - 2024 - La police prédictive en France contre l'opacité et les discriminations, la nécessité d'une interdic.pdf",
+			"itemType": "attachment",
+			"key": "TMYDGME5",
+			"linkMode": "imported_file",
+			"parentItem": "F3DQ5CUJ",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4296790950.pdf"
+		},
+		{
 			"dateAdded": "2025-10-10T19:01:27Z",
 			"dateModified": "2025-10-10T19:01:27Z",
 			"itemType": "note",
@@ -29,6 +45,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "La Quadrature du Net - 2024 - La police prédictive en France contre l'opacité et les discriminations, la nécessité d'une interdic.pdf",
+				"files": [
+					{
+						"path": "attachments/TM/TMYDGME5/La Quadrature du Net - 2024 - La police prédictive en France contre l'opacité et les discriminations, la nécessité d'une interdic.pdf",
+						"size": 2528693,
+						"storage": "git"
+					}
+				],
+				"key": "TMYDGME5",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4296790950.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -73,7 +106,8 @@
 		],
 		"date": "2024",
 		"dateAdded": "2025-10-10T19:01:27Z",
-		"dateModified": "2026-03-25T21:31:05Z",
+		"dateModified": "2026-11-17T17:57:33Z",
+		"extra": "OpenAlex: W4296790950",
 		"itemType": "document",
 		"key": "F3DQ5CUJ",
 		"publisher": "La Quadrature du Net",

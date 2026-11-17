@@ -16,7 +16,7 @@ zotero-key: "4RMR2RD3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4RMR2RD3"
 date-added: "2026-01-10 20:17:20"
-date-modified: "2026-03-25 21:29:59"
+date-modified: "2026-11-17 17:57:43"
 ---
 
 # Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle
@@ -28,6 +28,7 @@ date-modified: "2026-03-25 21:29:59"
 ISBN: 978-1-0699904-0-2
 Pages: 64
 titleTranslation: The Algorithmic Leviathan: Power, Opacity, and Responsibility in the Age of Artificial Intelligence
+OpenAlex: W7108209568
 
 ## Notes
 

@@ -15,6 +15,22 @@
 			"tags": []
 		},
 		{
+			"accessDate": "2026-11-17T17:57:34Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:57:34Z",
+			"dateModified": "2026-11-17T17:57:34Z",
+			"filename": "La Quadrature du Net - 2024 - La police prédictive en France contre l'opacité et les discriminations, la nécessité d'une interdic.pdf",
+			"itemType": "attachment",
+			"key": "JIEHMYY3",
+			"linkMode": "imported_file",
+			"parentItem": "BM7A356B",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4296790950.pdf"
+		},
+		{
 			"accessDate": "2026-01-08T20:38:34Z",
 			"charset": "",
 			"contentType": "",
@@ -37,6 +53,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "La Quadrature du Net - 2024 - La police prédictive en France contre l'opacité et les discriminations, la nécessité d'une interdic.pdf",
+				"files": [
+					{
+						"path": "attachments/JI/JIEHMYY3/La Quadrature du Net - 2024 - La police prédictive en France contre l'opacité et les discriminations, la nécessité d'une interdic.pdf",
+						"size": 2528693,
+						"storage": "git"
+					}
+				],
+				"key": "JIEHMYY3",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4296790950.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -69,7 +102,7 @@
 		"zoteroURI": "zotero://select/library/items/BM7A356B"
 	},
 	"zotero": {
-		"citationKey": "laquadraturedunetPolicePredictiveFrance2024a",
+		"citationKey": "laquadraturedunetPolicePredictiveFrance2024c",
 		"collections": [
 			"F9TGXIMY"
 		],
@@ -81,7 +114,8 @@
 		],
 		"date": "2024",
 		"dateAdded": "2026-01-08T20:07:32Z",
-		"dateModified": "2026-03-25T21:30:37Z",
+		"dateModified": "2026-11-17T17:57:34Z",
+		"extra": "OpenAlex: W4296790950",
 		"itemType": "document",
 		"key": "BM7A356B",
 		"language": "fr-CA",

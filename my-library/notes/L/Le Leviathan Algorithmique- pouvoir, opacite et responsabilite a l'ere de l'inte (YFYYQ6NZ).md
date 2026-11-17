@@ -13,7 +13,7 @@ zotero-key: "YFYYQ6NZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/YFYYQ6NZ"
 date-added: "2026-11-12 22:14:19"
-date-modified: "2026-11-12 22:14:19"
+date-modified: "2026-11-17 17:57:43"
 ---
 
 # Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle
@@ -24,6 +24,7 @@ date-modified: "2026-11-12 22:14:19"
 
 ISBN: 978-1-0699904-0-2
 Pages: 64
+OpenAlex: W7108209568
 
 ## Notes
 

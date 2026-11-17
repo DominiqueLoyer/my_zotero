@@ -15,7 +15,7 @@ zotero-key: "J83JBACD"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/J83JBACD"
 date-added: "2026-02-25 21:56:13"
-date-modified: "2026-11-09 15:08:27"
+date-modified: "2026-11-17 17:57:49"
 ---
 
 # Le Savant et le Politique
@@ -25,6 +25,7 @@ date-modified: "2026-11-09 15:08:27"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W3171214682
 
 ## Attachments
 

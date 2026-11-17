@@ -15,7 +15,7 @@ zotero-key: "65D2RN22"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/65D2RN22"
 date-added: "2026-03-06 17:06:43"
-date-modified: "2026-03-25 21:28:53"
+date-modified: "2026-11-17 17:57:37"
 ---
 
 # Le {L\'eviathan} algorithmique : pouvoir, opacit\'e
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:28:53"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W7108209568
 
 ## Attachments
 

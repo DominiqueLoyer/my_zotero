@@ -15,12 +15,16 @@ zotero-key: "RTF9JRTK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RTF9JRTK"
 date-added: "2026-11-12 22:14:19"
-date-modified: "2026-11-12 22:14:19"
+date-modified: "2026-11-17 17:57:44"
 ---
 
 # Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle
 
 **Loyer, Dominique S.**
+
+## Extra
+
+OpenAlex: W7109779957
 
 ## Notes
 

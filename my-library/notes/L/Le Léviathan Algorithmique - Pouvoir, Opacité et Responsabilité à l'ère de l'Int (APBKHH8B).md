@@ -14,7 +14,7 @@ zotero-key: "APBKHH8B"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/APBKHH8B"
 date-added: "2026-03-05 01:13:32"
-date-modified: "2026-03-25 21:28:54"
+date-modified: "2026-11-17 17:57:41"
 ---
 
 # Le Léviathan Algorithmique : Pouvoir, Opacité et Responsabilité à l'ère de l'Intelligence Artificielle
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:54"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4404835843
 
 ## Attachments
 

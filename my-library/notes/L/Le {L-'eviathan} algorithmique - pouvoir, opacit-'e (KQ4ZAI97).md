@@ -15,7 +15,7 @@ zotero-key: "KQ4ZAI97"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KQ4ZAI97"
 date-added: "2026-03-06 17:06:47"
-date-modified: "2026-03-25 21:28:53"
+date-modified: "2026-11-17 17:57:38"
 ---
 
 # Le {L\'eviathan} algorithmique : pouvoir, opacit\'e
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:28:53"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W7109779957
 
 ## Attachments
 

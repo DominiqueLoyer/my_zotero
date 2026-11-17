@@ -14,7 +14,7 @@ zotero-key: "35J5VAA2"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/35J5VAA2"
 date-added: "2026-02-25 21:35:05"
-date-modified: "2026-03-25 21:29:50"
+date-modified: "2026-11-17 17:57:47"
 ---
 
 # Le Phénomène Bureaucratique
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:50"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2321471801
 
 ## Attachments
 

@@ -18,12 +18,16 @@ zotero-key: "GAL4UPUP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GAL4UPUP"
 date-added: "2026-01-08 20:00:27"
-date-modified: "2026-03-25 21:30:49"
+date-modified: "2026-11-17 17:57:41"
 ---
 
 # Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle
 
 **Loyer, Dominique S.**
+
+## Extra
+
+OpenAlex: W7109779957
 
 ## Notes
 

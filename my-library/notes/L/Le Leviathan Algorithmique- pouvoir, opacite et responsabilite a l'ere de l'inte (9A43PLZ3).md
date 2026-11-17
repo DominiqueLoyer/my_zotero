@@ -18,7 +18,7 @@ zotero-key: "9A43PLZ3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9A43PLZ3"
 date-added: "2026-01-10 20:17:20"
-date-modified: "2026-03-25 21:29:59"
+date-modified: "2026-11-17 17:57:42"
 ---
 
 # Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle
@@ -28,6 +28,7 @@ date-modified: "2026-03-25 21:29:59"
 ## Extra
 
 titleTranslation: The Algorithmic Leviathan: Power, Opacity, and Responsibility in the Age of Artificial Intelligence
+OpenAlex: W7109779957
 
 ## Notes
 

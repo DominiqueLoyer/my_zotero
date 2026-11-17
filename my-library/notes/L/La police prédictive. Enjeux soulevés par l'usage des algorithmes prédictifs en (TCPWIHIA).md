@@ -15,7 +15,7 @@ zotero-key: "TCPWIHIA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TCPWIHIA"
 date-added: "2026-02-25 21:38:43"
-date-modified: "2026-03-25 21:29:45"
+date-modified: "2026-11-17 17:57:36"
 ---
 
 # La police prédictive. Enjeux soulevés par l'usage des algorithmes prédictifs en matière de sécurité publique
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:29:45"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4413722063
 
 ## Attachments
 

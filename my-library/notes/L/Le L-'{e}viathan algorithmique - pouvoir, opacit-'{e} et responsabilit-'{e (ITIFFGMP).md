@@ -15,7 +15,7 @@ zotero-key: "ITIFFGMP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ITIFFGMP"
 date-added: "2026-03-04 20:27:15"
-date-modified: "2026-03-25 21:29:03"
+date-modified: "2026-11-17 17:57:38"
 ---
 
 # Le L\'{e}viathan algorithmique : pouvoir, opacit\'{e} et responsabilit\'{e
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:29:03"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W7108209568
 
 ## Attachments
 
