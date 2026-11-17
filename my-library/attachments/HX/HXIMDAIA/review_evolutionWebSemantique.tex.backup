@@ -1,0 +1,228 @@
+\documentclass[9pt,twocolumn,twoside,french]{opticajnl}
+%\journal{opticajournal} % use for journal or Optica Open submissions
+
+% See template introduction for guidance on setting shortarticle option
+\setboolean{shortarticle}{false}
+% true = letter/tutorial
+% false = research/review article
+
+% ONLY applicable for journal submission shortarticle types:
+% When \setboolean{shortarticle}{true}
+% then \setboolean{memo}{true} will print "Memorandum" on title page header
+% Otherwise header will remain as "Letter"
+% \setboolean{memo}{true}
+
+%\usepackage{lineno}
+%\linenumbers % Turn off line numbering for Optica Open preprint submissions.
+% Standard package includes
+% --- Packages ---
+
+\usepackage[french]{babel} % French language support (hyphenation, typography rules, names like "Tableau")
+%\usepackage{geometry} % For page margins
+\usepackage{amsmath, amssymb} % Math symbols (though not strictly needed here)
+\usepackage{graphicx} % For images (though not needed here)
+\usepackage{booktabs} % For professional quality tables (\toprule, \midrule, \bottomrule)
+\usepackage{array} % For advanced table column specifications (like p{width})
+\usepackage{hyperref} % For hyperlinks (optional, useful if URLs were present)
+\usepackage{ragged2e} % For better justification in p columns (\RaggedRight)
+\usepackage{microtype} % Improves typography subtly
+\usepackage{natbib} % Required for apalike style
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% For Vietnamese characters
+\usepackage{latexsym}
+
+
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+\usepackage{times}
+\date{15 avril 2025}
+
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+%\usepackage{microtype}
+
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%\setlength\titlebox{<dim>}
+%
+% and set <dim> to something 5cm or larger.
+
+\title{Article de synthèse: évolution et défis du Web sémantique}
+
+\author{Dominique S. Loyer}
+
+\affil[UQAM]{Résumé de la 2è lecture présenté au Professeur Petko Valtchev, dans le cadre d'un cours de doctorat, sciences du web, DIC-9335}
+\affil[@]{loyer.dominique@courrier.uqam.ca}
+\begin{abstract}
+Cette revue de l'article (A Review of the Semantic Web Field,\citet{Hitzler2021}) examine l'évolution du domaine de la recherche sur le Web sémantique au cours des deux dernières décennies, de sa conceptualisation initiale \citep{BernersLee2001} à son état actuel. Elle résume les recherches clés, le développement des standards, les applications notables et les défis persistants qui ont marqué ce domaine interdisciplinaire. En adoptant une approche de synthèse historique et thématique, cette revue analyse les travaux fondateurs et les études contemporaines (i.e., \citealp{Hitzler2021}) pour tracer l'évolution du domaine à travers trois phases principales : l'ère des Ontologies, celle des Données Liées, et celle des Graphes de Connaissances. Les découvertes majeures incluent l'établissement de standards fondamentaux par le W3C (RDF, OWL, SPARQL) qui ont favorisé l'interopérabilité technique, le développement de grandes ressources de connaissances (DBpedia, Wikidata), et l'adoption significative des graphes de connaissances par l'industrie (Google, Microsoft, Schema.org). Cependant, le domaine reste marqué par des phases aux priorités changeantes et des défis persistants qui entravent la pleine réalisation de sa vision initiale. Parmi ces défis figurent les difficultés liées à l'intégration de données hétérogènes et à la réutilisation des ontologies (\citealp{Gruber1993}; \citealp{Hitzler2021}), la fragmentation des outils et des méthodologies, les problèmes de qualité des données \citep{Jain2010}, ainsi qu'une divergence fondamentale entre l'idéal académique des données ouvertes et le besoin industriel de graphes de connaissances contrôlés et de haute qualité (\citealp{Noy2019}; \citealp{Hitzler2021}). Le futur du Web sémantique dépendra de sa capacité à consolider ses outils et méthodologies, à améliorer l'assurance qualité des données, à favoriser une plus grande synergie entre les mondes académique et industriel, et à intégrer efficacement ses technologies avec les avancées de l'intelligence artificielle (IA), notamment pour la complétion de graphes et l'explicabilité (\citealp{dAmato2020}; \citealp{Hitzler2021}).
+
+
+
+\end{abstract}
+
+\setboolean{displaycopyright}{false} % Do not include copyright or licensing information in submission.
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Le Web sémantique a émergé au début des années 2000 comme une extension visionnaire du World Wide Web existant, avec pour ambition de transformer un Web principalement conçu pour la consommation humaine en un espace où l'information serait également compréhensible et exploitable par les machines. L'article fondateur de \citet{BernersLee2001} a articulé cette vision, proposant un "Web de données" où des agents logiciels intelligents pourraient naviguer, traiter et intégrer des informations issues de sources diverses pour accomplir des tâches complexes au nom des utilisateurs. Ce projet repose sur l'enrichissement des données Web existantes avec des métadonnées formelles, structurées selon des modèles logiques, permettant ainsi une interprétation sémantique par les machines.
+
+Le Web sémantique ne constitue pas un domaine de recherche monolithique, mais se situe à l'intersection de plusieurs disciplines informatiques. Il emprunte massivement à l'intelligence artificielle, notamment à la représentation des connaissances et au raisonnement automatique (Knowledge representation and raisonning) pour la modélisation sémantique (via les ontologies et les logiques formelles), aux bases de données pour la gestion, le stockage et l'interrogation de données structurées (souvent sous forme de graphes), et au Traitement Automatique du Langage Naturel (TALN) pour l'extraction d'informations structurées à partir de textes non structurés. Comme le souligne \citet{Hitzler2021}, la définition même du "Web sémantique" fait l'objet de débats : s'agit-il d'un domaine de recherche, d'un ensemble de technologies spécifiques, ou d'un artefact futur (le "Web Sémantique" avec majuscules) encore à construire?
+
+Malgré des progrès techniques indéniables, tels que la standardisation par le W3C de technologies clés (RDF 1997, OWL 2004, SPARQL 2008), la création de vastes bases de connaissances comme DBpedia et Wikidata \citet{Lehmann2015}, et l'adoption de concepts similaires sous la forme de graphes de connaissances par des acteurs industriels majeurs, la vision initiale d'un Web de données universel et fluide reste largement inachevée. Des obstacles persistants, tels que la complexité de l'intégration de données sémantiquement hétérogènes, la fragmentation des outils et des approches, et des objectifs parfois divergents entre les communautés académiques (privilégiant l'ouverture et le partage) et industrielles (axées sur le contrôle et la valeur applicative), continuent de freiner sa progression (\citealp{Noy2019}; \citealp{Hitzler2021}). Cette tension entre la promesse ambitieuse et la réalité complexe de la mise en œuvre constitue un fil directeur essentiel pour comprendre l'évolution du domaine.
+
+Cette revue se propose de retracer cette évolution en examinant de manière critique les différentes phases qui ont marqué le développement du Web sémantique. Elle commencera par une présentation détaillée de la problématique centrale et de ses différentes facettes. Ensuite, la méthodologie adoptée pour cette synthèse sera explicitée. La section suivante présentera les principales découvertes et limitations identifiées, en structurant l'analyse autour des étapes évolutives (ontologies, données liées, graphes de connaissances), des technologies fondamentales et des applications marquantes. Une discussion approfondie abordera les travaux futurs, les défis actuels et les perspectives, notamment l'intégration avec l'IA et la nécessité de consolidation. Enfin, une conclusion résumera les points clés et l'état actuel du domaine.
+
+\section{Problématique}
+La réalisation de la vision du Web sémantique se heurte à plusieurs défis fondamentaux et interconnectés, qui ont évolué au fil du temps mais demeurent au cœur des préoccupations du domaine. Le défi central reste celui de l'\textit{interopérabilité sémantique}. Si les standards comme RDF et OWL fournissent une base technique commune pour la syntaxe et une sémantique formelle de base, ils ne résolvent pas intrinsèquement la difficulté d'intégrer des données provenant de sources hétérogènes qui utilisent des modèles conceptuels, des terminologies et des niveaux de granularité différents (\citealp{Hitzler2021}, citant implicitement des travaux antérieurs comme \citealp{Hitzler2009}). L'alignement et la mise en correspondance de ces schémas et ontologies distincts pour permettre une véritable compréhension et intégration des données à travers les sources restent une tâche complexe et souvent manuelle, limitant la fluidité promise du "Web de données".
+
+Un deuxième défi majeur, particulièrement prégnant durant la première phase du Web sémantique, concerne la \textit{réutilisabilité et le coût} associés aux ontologies. Définies comme des "spécifications formelles et explicites d'une conceptualisation partagée" \citep{Gruber1993}, les ontologies devaient servir de fondement réutilisable pour l'intégration de données. Cependant, leur création s'est avérée coûteuse en temps et en expertise, et leur maintenance et leur adaptation à de nouveaux besoins ou domaines se sont révélées complexes \citep{Hitzler2021}. Cette difficulté à créer et réutiliser efficacement des ontologies riches a limité la scalabilité des approches purement ontologiques et a contribué à un déplacement de l'attention vers des méthodes jugées plus pragmatiques.
+
+L'avènement des données liées (Linked Data) s'est efforcé de relever ces défis en encourageant une approche plus légère, centrée sur la publication et l'interconnexion de données RDF. Néanmoins, cette étape a engendré de nouveaux problèmes relatifs à l'\textit{évolutivité et à la qualité}. La nature décentralisée et vaste du nuage de données liées ouvertes (LOD Cloud) a rendu ardue la garantie de la qualité, de la cohérence et de la fiabilité des données et des liens publiés (\citealp{Jain2010}; \citealp{Tanon2018}). \citet{Hitzler2021} remarque aussi que l'utilisation fréquente de schémas peu expressifs dans ce cadre a pu constituer un frein à une réutilisabilité sémantique profonde, limitant ainsi l'étendue de l'intégration au-delà de la simple connectivité.
+
+Un autre obstacle transverse est la \textit{fragmentation des outils et des méthodologies}. Malgré la disponibilité d'outils puissants pour des tâches spécifiques (par exemple, l'éditeur d'ontologies Protégé, l'API OWL, le moteur de raisonnement ELK), il manque souvent des chaînes d'outils intégrées et conviviales couvrant l'ensemble du cycle de vie des données sémantiques (modélisation, peuplement, interrogation, raisonnement, maintenance). \citet{Hitzler2021} identifie cette lacune en matière de consolidation comme un obstacle majeur, rendant la courbe d'apprentissage raide pour les nouveaux utilisateurs et compliquant la mise en œuvre de solutions complètes.
+
+Enfin, une \textit{tension fondamentale persiste entre les objectifs divergents des communautés académiques et industrielles}. La recherche académique a souvent privilégié l'ouverture, la décentralisation et le partage des données (l'idéal du Linked Open Data \footnote{1,4 milliard de triplets en 2015} mais aussi de la volonté AAA \footnote{Anyone can say Anything Anytime} tant chérie du début du Web) ainsi que l'exploration de fondements logiques complexes. L'industrie, quant à elle, s'est largement orientée vers la création de graphes de connaissances (Knowledge Graphs) plus contrôlés, souvent propriétaires, optimisés pour des applications spécifiques et mettant l'accent sur la qualité, la fiabilité et la valeur ajoutée directe (\citealp{Noy2019}; \citealp{Hitzler2021}). Cette divergence influence non seulement les priorités de recherche et de développement, mais aussi la disponibilité des données et des outils, créant des écosystèmes parfois clos. Elle représente une barrière pratique à la réalisation de la vision unifiée initiale et peut ralentir la pollinisation croisée des meilleures pratiques entre ces deux sphères.
+
+Il apparaît donc que les défis du Web sémantique ne sont pas statiques mais ont évolué en réponse aux tentatives de surmonter les limitations des approches antérieures. La complexité des ontologies (Phase 1) a conduit à la simplification apparente des données liées (Phase 2), qui ont à leur tour soulevé des questions de qualité et d'intégration, favorisant l'émergence des graphes de connaissances plus contrôlés (Phase 3). Ces derniers réintroduisent cependant des préoccupations concernant l'ouverture et la centralisation, illustrant la nature dynamique et interconnectée des problèmes rencontrés par le domaine.
+
+
+
+
+\section{Méthodologie}
+Cette revue adopte une méthodologie de synthèse qualitative, basée sur une analyse concentrée sur l'article mais aussi de la littérature scientifique et technique relative au Web sémantique. Elle ne repose pas sur la conduite de recherches empiriques primaires mais vise à examiner et intégrer de façon critique les connaissances existantes pour fournir une vue d'ensemble structurée du domaine.
+
+Le corpus littéraire analysé comprend des publications pionnières qui ont défini les concepts et les phases clés du Web sémantique (par exemple, \citealp{BernersLee2001} pour la vision initiale; \citealp{Gruber1993} pour la définition des ontologies; \citealp{Bizer2009} pour la formalisation des principes des données liées). Il inclut également la documentation relative aux standards fondamentaux émis par le W3C, tels que RDF (Resource Description Framework), OWL (Web Ontology Language) et SPARQL (SPARQL Protocol and RDF Query Language), qui forment la base technique du domaine. Des rapports décrivant des projets et applications majeurs, comme DBpedia \citep{Lehmann2015} et Schema.org \citep{Guha2016}, ont également été pris en compte pour illustrer les réalisations concrètes. Enfin, des revues et analyses contemporaines évaluant l'état du domaine, ses succès et ses défis persistants (i.e., \citealp{Noy2019} sur les graphes de connaissances industriels; \citealp{Hitzler2021} pour une revue récente générale) ont été utilisées pour contextualiser l'analyse. Cette revue de littérature a servi de base pour intégrer des éléments enrichis et mis en perspective à l'aide de la revue détaillée de l'article \citet{Hitzler2021}.
+
+L'analyse est structurée selon un cadre chronologique qui suit les trois grandes phases évolutives identifiées notamment par \citet{Hitzler2021} : l'ère des ontologies (approximativement du début au milieu des années 2000), l'ère des données liées (du milieu des années 2000 au début des années 2010), et l'ère des graphes de connaissances (environ depuis 2012). Pour chaque phase, la revue identifie les concepts centraux, les technologies et standards facilitants, les applications représentatives et les défis associés qui ont marqué cette période et potentiellement déclenché la transition vers la phase suivante.
+
+L'objectif final de cette synthèse est de construire un récit cohérent de l'évolution du Web sémantique, en mettant en lumière les réalisations majeures, les difficultés persistantes (telles que définies dans la section Problématique), et les tendances émergentes. En explicitant la méthodologie comme une synthèse de l'article, cette revue clarifie sa nature et souligne que ses découvertes proviennent de l'analyse critique des travaux existants, conférant ainsi une rigueur académique à la démarche. Elle vise à offrir une perspective synthétique sur la trajectoire du domaine et ses perspectives d'avenir.
+
+
+
+\section{Résultats et limitations}
+
+L'intégration de la complexité des données demeurait un défi en 2001 ainsi que le manque de consolidation des outils. Aussi, le papier relate les divergences de visions académiques et industrielles. 
+
+
+\section{Futures considérations}
+L'analyse de la littérature révèle une évolution significative du Web sémantique, marquée par des avancées technologiques, des applications réussies, mais aussi des limitations persistantes. Cette section détaille ces découvertes en examinant les phases évolutives, les technologies fondamentales, les applications notables et les limitations identifiées.
+
+\subsection{Les phases évolutives du Web sémantique}
+L'histoire du Web sémantique peut être comprise comme une succession de phases, chacune caractérisée par un accent conceptuel et technologique distinct, souvent en réaction aux limitations de la phase précédente \citep{Hitzler2021}.
+
+\subsubsection{Phase 1: L'ère des ontologies (vers 2000-2005)}
+\textbf{Objectif :} Cette phase initiale se concentrait sur la représentation structurée des connaissances via des ontologies, définies comme des "spécifications formelles et explicites d'une conceptualisation partagée" \citep{Gruber1993}. Le but principal était de permettre le raisonnement logique sur les données et de faciliter leur intégration sémantique par le biais de modèles détaillés et expressifs. \\
+\textbf{Technologies clés :} Les efforts se portaient sur le développement de langages de représentation. Des initiatives comme le programme DAML (DARPA Agent Markup Language) et le projet européen On-To-Knowledge ont conduit à la standardisation par le W3C du Web Ontology Language (OWL) en 2004 \citep{Hitzler2021}. Basé sur les logiques de description (une famille de logiques formelles et décidables), OWL est devenu le langage prédominant pour la création d'ontologies formelles \citep{Hitzler2009}. RDF était déjà en cours de développement comme format de base pour représenter les données sous forme de graphes. \\
+\textbf{Applications :} Les applications venaient principalement du monde académique. L'industrie montrait un intérêt naissant pour ces technologies dans des tâches d'intégration d'information \citep{Hitzler2021}. Des travaux fondamentaux ont été réalisés pour de grandes ontologies biomédicales telles que la Gene Ontology et SNOMED CT, qui, bien que leurs racines remontent à une période antérieure, ont été formalisées et enrichies durant cette phase \citep{Hitzler2021}. \\
+\textbf{Déclencheur de transition :} La transition vers la phase suivante a été motivée par les difficultés pratiques rencontrées : le coût élevé et la complexité de l'ingénierie, de la maintenance et de la réutilisation des ontologies ont constitué des obstacles significatifs \citep{Hitzler2021}. La quête pour des approches plus simples et plus évolutives s'est intensifiée.
+
+\subsubsection{Phase 2: L'ère des données liées (Linked Data) (vers 2006-2012)}
+\textbf{Objectif :} Émergée vers 2006, cette phase a redirigé l'attention vers la publication et l'interconnexion de jeux de données structurées sur le Web. Suivant les principes popularisés par \citet{Bizer2009}, l'accent était mis sur l'utilisation d'identifiants URI HTTP pour nommer les entités et sur les liens RDF pour connecter les données, créant ainsi un "Web de Données". La connectivité et la disponibilité des données étaient privilégiées par rapport à la richesse sémantique formelle. \\
+\textbf{Technologies clés :} RDF est devenu le format central, et SPARQL (standardisé en 2008) le langage d'interrogation associé. Les URI HTTP étaient essentielles pour l'identification et la liaison des données. Les ontologies continuaient d'être utilisées, mais souvent sous des formes plus légères comme RDF Schema (RDFS) ou SKOS (Simple Knowledge Organization System), servant de vocabulaires ou de schémas de base plutôt que de modèles logiques complexes pour le raisonnement \citep{Hitzler2021}. \\
+\textbf{Applications :} Cette période a vu une croissance rapide du nuage de Données Liées Ouvertes (LOD Cloud), visualisant l'interconnexion de nombreux ensembles de données publics (\citealp{Hitzler2021}, Table 1). Des ensembles de données emblématiques comme DBpedia, extrait de Wikipedia, ont émergé et sont devenus des hubs centraux dans ce nuage (\citealp{Lehmann2015}; \citealp{Hitzler2021}). Des organisations comme la BBC et le New York Times ont adopté ces technologies, souvent pour l'intégration de données internes \citep{Hitzler2021}. \\
+\textbf{Déclencheur de transition :} En dépit du succès en termes de volume de données publiées, des préoccupations ont émergé concernant la qualité inégale des données et des liens, la difficulté de maintenance de ces liens, et la limitation de la profondeur sémantique due à l'utilisation de schémas souvent peu complexes ("schémas superficiels"). La réutilisabilité pratique de cet ensemble hétérogène de données restait un défi (\citealp{Jain2010}; \citealp{Hitzler2021}), poussant vers des approches plus contrôlées et centrées sur la qualité.
+
+\subsubsection{Phase 3: L'ère des graphes de connaissances (Knowledge Graphs) (vers 2012-Présent)}
+\textbf{Objectif :} Popularisé par le lancement du Knowledge Graph de Google en 2012, ce terme désigne la création de bases de connaissances à grande échelle, intégrées et souvent structurées sous forme de graphes. L'accent est mis sur la curation, la qualité, la cohérence interne et l'intégration de données issues de sources multiples (structurées et non structurées). L'objectif est de fournir une base de connaissances fiable pour alimenter des applications spécifiques, notamment dans un contexte industriel. \\
+\textbf{Technologies clés :} Les standards RDF, OWL et SPARQL continuent d'être utilisés, mais souvent dans des environnements plus contrôlés et parfois combinés avec d'autres technologies de bases de données graphe. Des plateformes comme Wikidata, une base de connaissances collaborative éditée par des humains et des bots, ont pris de l'importance (\citealp{Hitzler2021}, référence implicite à Vrandečić \& Krötzsch, 2014). L'initiative Schema.org, supportée par les moteurs de recherche, a promu l'annotation sémantique des pages web avec un vocabulaire commun \citep{Guha2016}. L'intégration avec l'apprentissage automatique (Machine Learning) est devenue cruciale pour la construction, l'enrichissement et l'utilisation des graphes de connaissances (\citealp{dAmato2020}; \citealp{Hitzler2021}). \\
+\textbf{Caractéristiques :} Cette phase est caractérisée par une forte adoption industrielle (Google, Microsoft, Facebook, eBay, etc.) (\citealp{Noy2019}; \citealp{Hitzler2021}). La priorité est mise sur la qualité et la cohérence des données, souvent au détriment de l'ouverture et de la décentralisation prônées par le mouvement Linked Open Data. Cette tendance reflète une transition d'un effort principalement académique (Linked Data) à une utilisation industrielle pragmatique \citep{Hitzler2021}.
+
+% --- Table Start ---
+\begin{table*}[htbp] % [htbp] = placement hint: here, top, bottom, page
+    \centering % Center the table on the page
+    \caption{Synthèse des Phases Évolutives du Web Sémantique}
+    \label{tab:phases} % Label for cross-referencing
+    \resizebox{\textwidth}{!}{% Make table width equal to text width
+        \begin{tabular}{
+            >{\RaggedRight}p{0.16\linewidth} % Phase (wider for wrapping)
+            >{\RaggedRight}p{0.12\linewidth} % Période (can be narrower)
+            >{\RaggedRight}p{0.16\linewidth} % Concept Clé
+            >{\RaggedRight}p{0.18\linewidth} % Technologies
+            >{\RaggedRight}p{0.18\linewidth} % Exemples
+            >{\RaggedRight\arraybackslash}p{0.20\linewidth} % Défis/Focus (last column)
+        }
+            \toprule
+            \textbf{Phase} & \textbf{Période Approximative} & \textbf{Concept Clé} & \textbf{Technologies/Standards Dominants} & \textbf{Exemples Majeurs} & \textbf{Défis Principaux / Focus} \\
+            \midrule
+            1: Ontologies & c. 2000-2005 & Conceptualisation Formelle & OWL, Logiques de Description, RDF & Projets DAML+OIL, Ontologies biomédicales précoces & Complexité, Réutilisabilité, Coût \\
+            \addlinespace % Add a bit of space between rows
+            2: Données Liées (Linked Data) & c. 2006-2012 & Interconnexion \& Publication de Données & RDF, SPARQL, URI HTTP, RDFS/SKOS & LOD Cloud, DBpedia, Données Liées de la BBC & Qualité des données, Maintenance des liens, Profondeur sémantique, Scalabilité \\
+            \addlinespace
+            3: Graphes de Connaissances (Knowledge Graphs) & c. 2012-Présent & Bases de Connaissances Intégrées \& Curées & RDF/OWL/SPARQL (souvent internes), Schema.org, Intégration ML & Google KG, Wikidata, KGs industriels, Schema.org & Contrôle Qualité, Scalabilité, Ouverture vs. Contrôle, Intégration avec l'IA \\
+            \bottomrule
+        \end{tabular}%
+    } % End resizebox
+\end{table*}
+% --- Table End ---
+
+\subsection{Technologies fondamentales et normes}
+Au centre de l’évolution du Web sémantique se trouvent trois normes essentielles élaborées sous la direction du W3C, lesquelles ont assuré une base technique stable et un langage commun, bien que leur utilisation et l’accent mis sur chacune aient varié au cours des différentes phases du développement. \\
+\textbf{RDF (Resource Description Framework) :} RDF constitue le modèle de données fondamental. Il permet de représenter l’information sous forme de triplets (sujet, prédicat, objet), construisant ainsi des graphes orientés et étiquetés. Standardisé initialement autour de 2004 (avec des brouillons dès 1997) et révisé en 2014 (RDF 1.1), RDF fournit une structure de base pour l’échange de données sur le Web \citep{Hitzler2021}. Sa flexibilité syntaxique (sérialisations en XML, Turtle, JSON-LD, etc.) a facilité son adoption. Il est la pierre angulaire de l’interopérabilité technique au sein de l’écosystème du Web sémantique. \\
+\textbf{OWL (Web Ontology Language) :} Standardisé en 2004 (OWL 1) et révisé en 2012 (OWL 2), OWL est le langage principal pour définir des ontologies avancées, c'est-à-dire des schémas formels décrivant les concepts et les relations dans un domaine \citep{Hitzler2021}. Basé sur les logiques de description, OWL offre une sémantique formelle permettant le raisonnement automatique (par exemple, vérifier la cohérence d’une ontologie, déduire de nouvelles informations implicites). Divers "profils" OWL offrent des compromis variés entre expressivité et complexité de calcul \citep{Hitzler2009}. Bien que robuste pour l’intégration sémantique profonde, sa complexité a aussi limité son adoption généralisée. \\
+\textbf{SPARQL (SPARQL Protocol and RDF Query Language) :} Standardisé en 2008 et mis à jour en 2013, SPARQL est le langage d’interrogation standard pour les données RDF \citep{Hitzler2021}. Il permet de formuler des requêtes complexes basées sur des motifs de graphes afin d’extraire des informations spécifiques à partir de jeux de données RDF ou de graphes de connaissances. SPARQL est incontournable pour exploiter les données représentées en RDF, que ce soit via des points d’accès publics ("SPARQL endpoints") ou au sein de systèmes internes.
+Ces normes ont joué un rôle crucial en fournissant une infrastructure technique commune qui a perduré à travers les différentes phases. Cependant, la manière dont elles ont été appliquées reflète les priorités changeantes : l'accent mis sur la logique formelle et les ontologies OWL complexes durant la première phase a laissé place à une utilisation plus large de RDF pour la simple liaison de données dans la deuxième phase, tandis que la troisième phase voit une utilisation combinée de ces technologies (souvent RDF et SPARQL, avec OWL pour le schéma sous-jacent) dans le cadre plus contrôlé des graphes de connaissances, en intégrant de plus en plus des techniques d’apprentissage automatique.
+
+\subsection{Applications notables et réussites}
+En dépit des obstacles, le Web sémantique a produit des applications et des ressources significatives démontrant sa valeur pratique. \\
+\textbf{Bases de connaissances à grande échelle :} Des projets comme DBpedia, qui extrait des données structurées de Wikipédia \citep{Lehmann2015}, et Wikidata, une base de connaissances collaborative, multilingue et modifiable par tous (mentionnée par \citealp{Hitzler2021}), illustrent la faisabilité de la création et de la gestion de vastes graphes de connaissances accessibles publiquement. Ces ressources servent de fondation à de nombreuses autres applications et recherches. \\
+\textbf{Annotation sémantique du Web :} L’initiative Schema.org, lancée par une coalition de moteurs de recherche (Google, Bing, Yahoo!, Yandex), représente un succès majeur de collaboration industrielle (\citealp{Guha2016}; \citealp{Hitzler2021}). En fournissant un vocabulaire simple pour annoter le contenu des pages web, Schema.org a encouragé l’adoption de métadonnées structurées à grande échelle (plus de 30\% des pages analysées en 2015 selon \citealp{Guha2016}), permettant aux moteurs de recherche de mieux comprendre le contenu et d’améliorer les résultats (par exemple, via les "rich snippets" ou les "infoboxes" du Knowledge Graph de Google). \\ % Note: Escaped %
+\textbf{Graphes de connaissances industriels :} L’adoption des technologies de graphes de connaissances par des entreprises technologiques majeures (Google, Microsoft, Facebook, eBay, Amazon, IBM, etc.) pour des usages internes variés (intégration de données hétérogènes, amélioration de la recherche, systèmes de recommandation, assistants virtuels, etc.) témoigne de la valeur commerciale perçue de ces approches (\citealp{Noy2019}; \citealp{Hitzler2021}). Bien que les détails techniques et les graphes eux-mêmes soient souvent propriétaires, leur existence et leur utilisation croissante sont un indicateur fort de réussite pratique. \\
+\textbf{Applications spécifiques à des domaines :} Le Web sémantique a trouvé un terrain d’application fertile dans des domaines où la complexité et l’hétérogénéité des données sont particulièrement élevées. Les sciences de la vie en sont un exemple notable, avec l’utilisation généralisée d’ontologies comme SNOMED CT pour les dossiers médicaux électroniques ou la Gene Ontology pour l’annotation fonctionnelle des gènes \citep{Hitzler2021}. Le développement de la classification internationale des maladies ICD-11 a également été fortement influencé par les technologies sémantiques \citep{Hitzler2021}. D'autres domaines comme l’Internet des Objets (IoT), la gestion de l’énergie (smart grids), l’industrie manufacturière (Industrie 4.0), les géosciences ou les humanités numériques explorent également activement l’utilisation de ces technologies (\citealp{Sabou2020}; \citealp{Hitzler2021}).
+\clearpage
+\subsection{Limitations identifiées}
+En dépit des succès, plusieurs limitations fondamentales persistent et continuent de freiner le plein potentiel du Web sémantique. Nombre de ces limitations transcendent les différentes phases, suggérant qu'elles touchent à des difficultés inhérentes à la gestion des connaissances à grande échelle. \\
+\textbf{Fragmentation des outils :} Comme souligné précédemment et fortement mis en avant par \citet{Hitzler2021}, le manque de chaînes d’outils intégrées, couvrant l’ensemble du cycle de vie (de la modélisation à la maintenance en passant par le peuplement et l’interrogation), reste une limitation majeure. Les outils existants sont souvent puissants mais isolés, rendant le développement et le déploiement de solutions complètes laborieux et nécessitant une expertise pointue. \\
+\textbf{Qualité des données :} La qualité, la cohérence, l’actualité et la provenance des données demeurent des préoccupations majeures, notamment dans les environnements ouverts et décentralisés comme le LOD Cloud (\citealp{Jain2010}; \citealp{Tanon2018}). Des erreurs dans les données ou les liens, des informations obsolètes ou contradictoires peuvent saper la confiance et l’utilité des ressources sémantiques. Si les graphes de connaissances industriels tentent de pallier ce problème par un contrôle plus strict \citep{Noy2019}, la gestion de la qualité à grande échelle demeure un défi technique et organisationnel complexe. \\
+\textbf{Complexité et accessibilité :} La pile technologique du Web sémantique, en particulier des langages expressifs comme OWL et les subtilités du raisonnement logique, présente une courbe d’apprentissage abrupte. Cette complexité intrinsèque peut constituer une barrière à l’adoption pour les développeurs et les organisations qui ne disposent pas d’une expertise dédiée, limitant ainsi la diffusion plus large des technologies sémantiques au-delà des cercles spécialisés. \\
+\textbf{Vision incomplète :} La vision originelle d'un "Web de données" universel, où l’information circulerait et s’intégrerait de manière transparente grâce à une sémantique partagée, reste largement une utopie. Le paysage actuel est plus fragmenté, constitué d’îlots de données sémantiques (qu'ils soient ouverts ou propriétaires) dont l’intégration globale reste difficile. La divergence entre les écosystèmes ouverts et fermés contribue à cette fragmentation \citep{Hitzler2021}.
+Ces limitations persistantes indiquent que, si des progrès techniques considérables ont été réalisés, les défis fondamentaux liés à la représentation, à l’intégration, à la gestion de la qualité et à la facilité d’utilisation des connaissances à l’échelle du Web (ou même à l’échelle d’une grande organisation) sont loin d’être entièrement résolus.
+
+\section{Travaux futurs et perspectives}
+Le statut actuel du Web sémantique présente une contradiction : d'une part, on constate des succès techniques indéniables avec des standards bien établis, des outils performants pour certaines tâches, et des applications de grande envergure ayant démontré leur valeur ; d'autre part, des défis fondamentaux persistent, ainsi qu'une fragmentation qui empêche la concrétisation complète de la vision initiale \citep{Hitzler2021}. Le débat sur l'avenir de ce domaine s'articule autour de la manière de naviguer à travers cette contradiction et de surmonter les obstacles restants. Il s'agit de savoir si la vision initiale d'un Web sémantique unifié est toujours pertinente ou si le domaine a évolué vers un ensemble plus pragmatique de technologies et d'approches visant à résoudre des problèmes spécifiques d'intégration et de gestion de connaissances dans divers contextes.
+
+Une tension clé à analyser est celle entre \textit{ouverture et contrôle}. L'idéal du Linked Open Data, qui prône un partage décentralisé et libre des données, contraste avec l'approche dominante dans l'industrie, qui privilégie les graphes de connaissance centralisés, contrôlés et souvent propriétaires afin de garantir la qualité et de protéger la valeur commerciale (\citealp{Noy2019}; \citealp{Hitzler2021}). Cette divergence soulève des questions importantes sur les compromis entre l'innovation ouverte et la fiabilité contrôlée, entre l'accessibilité universelle et la création de valeur économique. L'avenir nécessitera probablement de trouver des modèles hybrides ou des mécanismes de collaboration permettant de bénéficier des avantages des deux approches, par exemple en partageant des schémas, des bonnes pratiques, ou des données non sensibles, tout en respectant les impératifs commerciaux et de propriété intellectuelle.
+
+L'\textit{intégration avec l'intelligence artificielle (IA)}, et plus particulièrement l'apprentissage automatique (Machine Learning), est une autre direction majeure. Cette intégration est bidirectionnelle. D'une part, les techniques d'IA/ML, notamment l'apprentissage profond sur graphes (Graph Neural Networks) et les embeddings (plongements lexicaux), offrent des solutions prometteuses pour relever des défis historiques du Web sémantique, tels que la construction et la complétion automatique de graphes de connaissances à partir de données brutes ou textuelles, la prédiction de liens manquants, l'apprentissage d'ontologies, et la gestion du bruit ou de l'incomplétude des données (\citealp{dAmato2020}; \citealp{Hitzler2021}). D'autre part, les technologies du Web sémantique (ontologies, graphes de connaissances, raisonnement logique) peuvent apporter une contribution significative à l'IA, notamment dans le domaine de l'IA Explicable (XAI). En fournissant des structures de connaissances explicites, des sémantiques formelles et des capacités de raisonnement déductif, elles peuvent aider à rendre les systèmes d'IA plus transparents, interprétables et fiables (\citealp{Liebig2020}; \citealp{Hitzler2021}). Cependant, cette synergie potentielle comporte aussi un risque : la puissance et la popularité des approches purement statistiques et basées sur les données pourraient marginaliser les approches symboliques, faisant perdre les bénéfices de la représentation explicite des connaissances. L'avenir réside probablement dans des approches hybrides ("neuro-symboliques"), mais trouver le bon équilibre et les architectures efficaces reste un défi de recherche majeur.
+
+Face à la fragmentation et à la complexité persistantes, un besoin impératif de \textit{consolidation} se fait sentir, comme le souligne \citet{Hitzler2021}. Cette consolidation doit se faire à plusieurs niveaux : \\
+\textbf{Consolidation des outils :} Le développement de pipelines intégrés, robustes et plus faciles à utiliser est essentiel pour abaisser la barrière à l'entrée et faciliter le déploiement de solutions sémantiques complètes. Cela implique une meilleure interopérabilité entre les composants existants (éditeurs, moteurs de raisonnement, bases de données graphe, outils de validation, etc.). \\
+\textbf{Amélioration de la qualité :} La recherche doit continuer à développer des méthodes plus automatisées, évolutives et fiables pour la validation des données, l'alignement d'ontologies, la vérification des liens, et le suivi de la provenance, afin de garantir la fiabilité des ressources sémantiques \citep{MartinezRodriguez2020}. \\
+\textbf{Méthodologies et bonnes pratiques :} L'établissement et la diffusion de méthodologies claires et de bonnes pratiques pour la conception d'ontologies, la construction de graphes de connaissances, et la publication de données sémantiques de qualité sont nécessaires pour guider les praticiens et assurer une certaine cohérence dans le domaine.
+
+Enfin, une collaboration accrue entre le monde académique et l'industrie est indispensable pour l'avenir du Web sémantique (\citealp{Noy2019}; \citealp{Hitzler2021}). Les chercheurs académiques peuvent fournir des fondements théoriques solides et explorer de nouvelles approches, tandis que l'industrie est confrontée à des problèmes concrets à grande échelle et peut offrir des retours d'expérience précieux, des cas d'usage pertinents, et potentiellement des données ou des bancs d'essai. Mettre en place des mécanismes efficaces pour partager les défis, les solutions (même partielles), et les données (tout en respectant la confidentialité et la propriété intellectuelle) est crucial pour accélérer l'innovation et assurer la pertinence pratique des recherches.
+
+En somme, l'avenir du Web sémantique semble moins orienté vers la poursuite d'une vision unique grandiose que vers la navigation pragmatique d'un paysage technologique complexe. Il s'agira d'intégrer plus efficacement ses diverses composantes (logique symbolique, données graphe, apprentissage automatique) et de construire des ponts entre les idéaux scientifiques d'ouverture et les impératifs des applications industrielles. La consolidation, sous toutes ses formes, apparaît comme la clé pour progresser dans cet écosystème diversifié et réaliser la valeur potentielle des technologies sémantiques.
+\section{Conclusion}
+Au cours des deux dernières décennies, le domaine du Web sémantique a parcouru un chemin significatif, transformant en partie la manière dont les données sont gérées, partagées et intégrées. Ses réalisations majeures incluent l'établissement de standards techniques fondamentaux (RDF, OWL, SPARQL) qui ont jeté les bases de l'interopérabilité, la création de ressources de connaissances à très grande échelle (comme DBpedia, Wikidata, et de nombreuses ontologies biomédicales) qui servent de piliers à de multiples applications, et une adoption croissante par l'industrie, notamment à travers l'initiative Schema.org et le développement de graphes de connaissances propriétaires par des acteurs économiques majeurs. Ces succès démontrent l'impact tangible du domaine sur les pratiques de gestion de l'information et sa capacité à apporter une valeur ajoutée dans divers contextes.
+
+Cependant, cette revue a également mis en évidence la persistance de défis majeurs qui continuent d'entraver la pleine réalisation de la vision originelle d'un Web de données intelligent et transparent. L'atteinte d'une interopérabilité sémantique profonde au-delà de la compatibilité technique, la garantie de la qualité et de la réutilisabilité des données et des modèles à grande échelle, la réduction de la complexité et de la fragmentation des outils et des méthodologies, ainsi que la réconciliation des objectifs parfois divergents entre les communautés académiques et industrielles restent des obstacles significatifs. La vision initiale demeure, à bien des égards, un travail en cours.
+
+L'avenir du Web sémantique dépendra de sa capacité à relever ces défis. Plusieurs facteurs clés semblent déterminants pour les progrès futurs. Premièrement, une \textit{consolidation} efficace des outils, des méthodologies et des bonnes pratiques est indispensable pour améliorer l'accessibilité, la robustesse et l'efficacité des solutions sémantiques \citep{Hitzler2021}. Deuxièmement, l'exploitation des \textit{synergies entre les approches symboliques} (issues du Web sémantique traditionnel) et les \textit{approches sub-symboliques} (issues de l'IA et du Machine Learning) est cruciale pour combiner les avantages de la représentation explicite des connaissances avec la puissance de l'apprentissage à partir des données.Troisièmement, il est impératif de renforcer la \textit{synergie entre les établissements académiques et l'industrie} afin de synchroniser les initiatives de recherche avec les besoins pragmatiques, de faciliter le transfert technologique et de permettre un partage des connaissances et des ressources avantageux pour les deux parties \citep{Noy2019}. Enfin, maintenir une attention soutenue sur la résolution des problématiques concrètes d'intégration, de qualité et d'usage des données dans divers domaines d'application demeurera un facteur primordial pour l'évolution du domaine.
+
+En conclusion, malgré le parcours du Web sémantique, jalonné par des changements de direction et des défis récurrents, ses objectifs principaux – rendre l'information plus accessible, intégrable et exploitable par les machines – restent d'une importance cruciale dans un monde de données de plus en plus prolifique. La réalisation complète du potentiel du Web sémantique nécessitera un effort persistant et coopératif des communautés qui le composent pour surmonter les obstacles présents et continuer à innover à l'intersection de la représentation des connaissances, de la gestion des données et de l'intelligence artificielle.
+\newline
+% Bibliography
+\bibliographystyle{apalike} 
+\bibliography{sample}
+
+% Full bibliography added automatically for Optics Letters submissions; the following line will simply be ignored if submitting to other journals.
+% Note that this extra page will not count against page length
+%\bibliographyfullrefs{sample}
+
+%Manual citation list
+%\begin{thebibliography}{1}
+%\newline
+
+%\end{thebibliography}
+\end{document}
+

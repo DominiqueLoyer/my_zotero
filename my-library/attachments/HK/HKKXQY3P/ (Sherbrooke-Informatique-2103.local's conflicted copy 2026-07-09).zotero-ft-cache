@@ -1,0 +1,97 @@
+Les Use-Cases ou Cas
+d’Utilisation – suite 
+
+
+ H. Lounis
+Sommaire
+aRelations entre UCs
+aExemples
+
+
+ H. Lounis
+Extend ou Étend
+aPour structurer et relier les descriptions de cas
+d'utilisation
+- association étend (extend)
+=> utilisée pour modéliser l'extension d'un cas
+d'utilisation déjà complet
+=> décrire dans le scénario du cas d'utilisation inséré où
+doit se faire l'insertion dans le cas d'utilisation original
+=> le mode opératoire est :
+- le scénario du cas d'utilisation d'origine se déroule jusqu'au
+point d'insertion
+- le scénario du cas d'utilisation d'extension se déroule
+- le scénario original reprend comme si de rien n'était
+
+
+ H. Lounis
+Extend
+réserver un séjour
+étend
+organiser un voyage
+- L'organisation d'un voyage est plus
+complexe et "étend" la réservation
+d'un séjour ;
+S’utilise quand :
+- différentes possibilités sont offertes ;
+- des erreurs peuvent survenir dans le
+cas de base.
+
+
+ H. Lounis
+Use ou Utilise
+aassociation utilise
+=> pour isoler les parties semblables de cas d'utilisation
+=> toute modification de l'une des parties a un impact
+immédiat sur tous les cas d'utilisation partageant cette
+partie
+=> un tel cas d'utilisation commun est dit abstrait, car
+non instanciable en tant que tel
+=> les autres cas d'utilisation sont dits concrets
+=> le mode opératoire est :
+- le scénario d'un cas d'utilisation concret se déroule jusqu'à un
+certain point
+- le scénario du cas d'utilisation abstrait s’enchaîne
+
+
+ H. Lounis
+Use
+générer un rapport
+journalier
+imprimer un document
+utilise utilise
+éditer un document
+Le cas d'utilisation "générer un rapport
+journalier" entrelace les autres cas
+d'utilisation.
+Les cas d'utilisations "éditer un document"
+et "imprimer un document" sont abstraits.
+
+
+ H. Lounis
+Acteur abstrait
+aActeur abstrait :
+- décrit un rôle commun à d'autres acteurs, décrit un
+comportement commun entre plusieurs acteurs
+- peut permettre de spécifier différents niveaux de
+privilèges dans le système
+Directeur
+Responsable secteur
+hérite
+Le directeur peut jouer le rôle du responsable de secteur
+mais peut en plus avoir d'autres actions dans d'autres
+scénarios (ex : modifier les séjours, proposer des prix
+promotionnels, etc.)
+
+
+ H. Lounis
+Généralisation
+Représentant Acheter une
+boisson
+Acheter un verre
+de boisson
+Restockeur Collecteur
+
+
+ H. Lounis
+Groupe de Ucs : package
