@@ -19,12 +19,16 @@ zotero-key: "5W96HUTF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5W96HUTF"
 date-added: "2026-01-08 20:07:30"
-date-modified: "2026-03-25 21:30:46"
+date-modified: "2026-11-17 18:05:30"
 ---
 
 # The human touch: The importance of human discretion in an automated world
 
 **Bullock, Justin B.**
+
+## Extra
+
+OpenAlex: W4245020707
 
 ## Attachments
 
