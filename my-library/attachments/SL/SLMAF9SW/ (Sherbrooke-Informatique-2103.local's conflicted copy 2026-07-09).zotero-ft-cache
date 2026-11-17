@@ -1,0 +1,543 @@
+Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 1 of 13
+IEEE.org IEEE
+Xplore
+IEEE
+SA
+IEEE
+Spectrum
+More
+Sites
+Conferences > 2024 IEEE 15th Latin America ... 
+Light Siamese Neural Network Architecture for Image Comparison
+Publisher: IEEE Cite This  PDF
+Fathi Souaker ; Mounir Boukadoum All Authors 
+43 Full Text Views
+Donate Cart 
+Create
+Account
+®© 
+Alerts
+Manage Content Alerts
+Add to Citation Alerts
+
+Abstract
+Document Sections
+I. Introduction
+II. Related Work
+III. Methodological
+Background
+IV. Proposed
+Architecture
+V. Validation
+Show Full Outline 
+Authors
+
+Download
+PDF
+®
+Download
+References
+©
+Request
+Permissions
+
+Alerts
+Abstract:
+Deep neural networks typically require large training sets and powerful processing hardware, thus
+making their use difficult in training data or processing resource-limit... View more
+ Metadata
+
+ADVANCED SEARCH
+All 
+ Browse  My Settings  Help  Access provided by:
+BIBLIOTHEQUE DE L'UNIVERSITE LAVAL
+Sign Out
+Access provided by: BIBLIOTHEQUE DE L'UNIVERSITE LAVAL
+Sign Out
+
+Personal Sign
+In
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 2 of 13
+Authors
+Figures
+References
+Keywords
+Metrics
+More Like This
+Abstract:
+Deep neural networks typically require large training sets and powerful processing hardware, thus
+making their use difficult in training data or processing resource-limited systems. Siamese neural
+networks use few-shot learning to address this problem. However, their twins are typically
+implemented with standard multilayered perceptrons (MLP) or convolutional neural networks
+(CNN), which still require large training sets and powerful processing hardware. We propose a
+simplified Siamese model that uses a single Inception module for the twins instead of a full
+Inception CNN, for 20 times less parameters to learn and an easier implementation. Our validation
+experiments to assess whether the image of a molecular structure bears similarity with a reference
+shows 95.6% average accuracy for three different reference molecules, using training sets of just
+25 randomly selected pairs of positive and negative examples for the twins. The training took 43
+minutes to complete on an Intel I5-based PC station with no GPU acceleration.
+Published in: 2024 IEEE 15th Latin America Symposium on Circuits and Systems (LASCAS)
+Date of Conference: 27 February 2024 - 01
+March 2024
+Date Added to IEEE Xplore: 26 April 2024
+ ISBN Information:
+ ISSN Information:
+DOI: 10.1109/LASCAS60203.2024.10506129
+Publisher: IEEE
+Conference Location: Punta del Este, Uruguay
+
+
+SECTION I.
+Introduction
+Training a neural network with a small set of examples has always been a
+challenge, since the number of trainable parameters follows a power law with
+respect to the number of neurons per layer. This quickly leads to parameter
+explosion in deep neural networks, with the concomitant requirement of even
+more training examples to drive the learning process. Unfortunately, this is an
+impeding constraint in many applications where the example data are either
+scarce or hard to collect. Few-shot learning [1] [2] is a promising approach to
+such problems, by building prediction models based on meta-learning principles.
+Moreover, new classes can be learned without retraining, as it inherently uses
+transfer learning, and verification instead of discrimination at the end. Siamese
+neural networks [3] [4] have been a popular neural architecture for few-shot
+learning. Still, using them also requires training, with the training data size
+depending on the twin networks' complexity, and a concomitant challenge in
+terms of processing resources.
+In this work, we describe a Siamese neural network architecture that handles both
+the network complexity and the paucity of training data, and we validate it on
+molecular screening to show its performance. The next section provides a
+summary of related work, Section III provides methodological background on
+few-shot techniques and on the Inception neural architecture, Section IV
+describes our model, section V our validation experiments, and Section VI
+discusses and concludes the paper.
+Contents
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 3 of 13
+SECTION II.
+Related Work
+Several approaches have been proposed to address the training of deep neural
+networks with small training sets. Aside from helper techniques such as data
+augmentation and dropout [5], there have also been efforts to create adapted
+models. A summary survey follows.
+Santoro et al. [6] showed that memory-augmented neural networks such as the
+Neural Turing Machine [7] can learn to classify unseen before data with only a
+few training examples. Using the Omniglot dataset of hand-drawn character
+images [8], they show that after training by groups of five random classes, the
+network could classify new data with 82.8% accuracy.
+Zakharov et al. [9] perform meta-learning on a large video dataset to perform one
+and few-shot learning (defined in Section III) of neural talking head models.
+Using a generative adversarial network (GAN) architecture, their approach
+reaches 62% prediction accuracy.
+Vinyals et al. [10] develop the Matching Networks architecture to classify data
+based on attention. Using the mini-ImageNet dataset, a subset of ImageNet
+consisting of 60,000 color images of 100 classes, they achieve a 5-class accuracy
+of 46.6% and 60% in the 1 and 5 training examples per class settings.
+Gidaris and Komodakis [11] use a visual system to learn novel categories from a
+few training data. They propose an attention-based classification weight generator
+and redesign the CNN architecture [12], with a resulting classification accuracy of
+56.20% and 73.00% on the Mini-ImageNet data set for 1 and 5 training examples
+per class-shot settings.
+Koch et al. [3] develop the Siamese neural network to assess the similarity
+between input pairs based on distance. They generalize the predictive power of
+the model to both new data and new classes from unknown distributions, leading
+to 92% accuracy on the Omniglot dataset.
+Puzanov and Cohen [13] propose a deep reinforcement one-shot learning
+algorithm for classification. Testing it on Omniglot and on a real-world dataset for
+intrusion detection led to 94% accuracy on Omniglot, and 99% for malicious
+intrusion.
+Altae-Tran et al. [14] combine the iterative refinement Long Short-Term Memory
+(LSTM) network with graph convolutional neural networks for molecule behavior
+prediction. Using three different datasets related to drug effects, they achieve
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 4 of 13
+ROC-AUC scores from 0,479 to 0.827 depending on the quantity and type of
+training data, with the lowest value obtained by using one positive and one
+negative training example.
+Unsupervised methods have also been used, for example using a Bayesian
+approach in the one-shot learning of object categories [1], but their error rate has
+not been encouraging.
+The previous works' results have typically been obtained with relatively large
+training sets, with the prediction accuracy considerably decreasing when limited
+training data is available [14]. However, the primary goal of few-shot learning is
+not classification, but to verify the closeness of an unknown input to a reference.
+This problem is computationally simpler, and its main challenge is the projection
+of the input and reference to an appropriate embedding space for comparison.
+In this work, we present a simplified Siamese neural network with less
+computational complexity and low parameter count, which should enable it to
+learn from fewer examples and make an embedded system implementation easier.
+SECTION III.
+Methodological Background
+Few-shot learning addresses the problem of identifying the class of a query
+after seeing as few examples as possible. Given classes, each one represented
+by a labeled set of examples , where is the example of
+class and its label, the resulting support set of examples is used to
+learn how a new may be similar to one of class examples stored in memory.
+The approach is called N-shot, K-way learning for arbitrary values ofr and
+or more typically one-shot learning when .
+Siamese neural networks [3] [4] are an instantiation of few-shot learning which,
+after learning from the support set, makes inferences by encoding an unknown
+input
+and the
+representative of each of the
+classes and searching for a match between the encoded
+pairs. The Euclidian distance is used in [3]. Thus, if
+is encoded as
+and
+as
+, the distance between the two is:
+yx
+K
+{(xki′yki)}i=1...S xki ith
+k yki K ⋅ s
+xN
+NK
+N =1
+x
+xk
+K
+(xrxk)
+x
+f(x)
+xk
+f(xk)
+D = ∥f(x) − f(xk)∥2 (2)
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 5 of 13
+View Source
+Equation 2 expresses a simple way to compare network outputs. If f(x) and
+are of unit norms, it reduces essentially to a cosine distance. In this respect, the
+distance metric it represents may be considered an elementary form of attention
+as used in the matching networks model [10]. We selected the Siamese networks
+approach in this work due to its relative computational simplicity in comparison.
+Equation 2 also shows that the distance computation uses the embeddings of
+and created by the twins. Therefore. must be known, and trained CNNs
+have been typically used for the purpose. However, doing so brings back the size
+problem for the training set, unless a simpler twin architecture is used as
+described in this work.
+f(xk)
+x
+χk f
+SECTION IV.
+Proposed Architecture
+Fig. 1 shows the block diagram of the proposed Siamese architecture. It combines
+two basic Inception modules [15] for the twin encoders-as opposed to using two
+full Inception CNN networks-, a Euclidian distance computation unit and an
+output classifier. The model operates in three steps: 1) The unknown input and
+the class reference , both 2D images in this work, are respectively processed by
+the twins to create two embedding vectors and the Euclidian
+distance between the two vectors is calculated; 3) a sigmoid function converts the
+obtained distance to a binary prediction: 1 if the two inputs are similar and 0
+otherwise. Since a differentiable path exists between the inputs and the output
+prediction, gradient descent can be used for learning the network parameters as
+done for feedforward networks [12].
+1) Inception Module
+Fig. 2 shows the structure of each Inception encoder. The 1 x 1 convolution blocks
+and the pooling block perform input space reduction and the remaining two
+convolution blocks extract spatial features from the input. The convolution
+mask focuses on finer-grained features in comparison to the mask. The
+ReLU activation function is used at the outputs. The bypass bloc at the left of the
+figure was eliminated in this work since it had no impact on the results during
+our preliminary experiments, leading to an even simpler architecture.
+The Inception network inputs are pixel color images, with their red, green
+and blue components matrices processed according to the four parallel paths
+shown in Fig. 2. Then, the results are concatenated to produce the module's
+x
+χk
+J (x) f(xk); 2)
+3x3 5x5
+nxn
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 6 of 13
+output. The inputs are normalized before processing.
+In this work, the image size was set to pixels in each color plane, as these
+dimensions were sufficient to obtain the reported performance in the validation
+section. This results in 291,467 trainable parameters in the proposed Siamese
+model's twins, nearly 20 times less in comparison to using one of the state-of
+the-art CNN architectures, not to mention the recent Transformer architecture.
+2) Network Training
+The model is trained on both positive image pairs at the input (i.e., having
+structural similarities) and negative image pairs (i.e., having few or no structural
+similarities). To illustrate the procedure, consider the molecular structure of the
+penicillin antibiotic shown in Fig. 3. It consists of a core structure and a free
+radical representing the proteins that can bind to it to create variants, hence
+potentially widening the penicillin's therapeutic spectrum. This includes the
+and A variants shown in Fig. 3, as well as unknown useful variants to be
+discovered.
+Two other molecular examples considered in this work are sulconazole and
+mycophenolate. The derivatives of each one are obtained by changing one or more
+atoms in the core structure. For example, Fig. 4 illustrates the structural similarity
+between the mycophenolate molecule and its mycophenolate mofetil derivative.
+32x32
+Fig. 1.
+Proposed Siamese neural network architecture.
+
+Fig. 2.
+Inception encoder module (from [31]).
+
+G, V
+Fig. 3.
+Molecular structure of penicillin
+
+Fig. 4.
+Example of a positive training pair using the mycophenolate molecule
+
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 7 of 13
+On the other hand, negative training examples are obtained by pairing
+substantially different molecular structures. For example, the penicillin and
+mycophenolate sodium molecules have significant structural differences as Fig. 5
+shows.
+The loss function for training the network combines the contrastive and cross
+entropy loss functions as done in [16]. In this work, the contrastive loss function
+is defined as:
+View Source
+where
+is the binary network output,
+is the Euclidian distance between the twins' outputs. When
+, the loss is zero if
+goes down to zero and when
+, the loss is zero if
+goes up to 1. Hence, the goal is to either minimize or maximize the distance
+between the twins' outputs.
+The cross-entropy loss function is defined as:
+View Source
+where
+is the binary label of an element in the support set and
+is the desired network output when
+(left) and the mycophenolate mofetil molecule (right)
+G
+Fig. 5.
+Example of a negative training pair using the mycophenolate sodium molecule (right) and the penicillin G molecule(left)
+
+LS(D, γ) = (1 − γ) + y {max( 1 − D }
+1
+2 D2 1
+2 0r )2 (3)
+y
+D
+y=0
+D
+y=1
+D
+LC(y) = − ∑ log(P ( )) + (1 − )log(1 − P ( )) i=1
+N
+yi yi yi yi (4)
+yi
+P (yi)
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 8 of 13
+. When the network output matches the class label, the loss is zero; else,
+the loss deviates from zero with a rapid increase towards infinity due to the
+terms. Hence, minimizing this loss function maximizes the probability of true
+predictions.
+We used a weighted sum of the two functions, defined as:
+View Source
+where
+is a weight parameter to be determined.
+yi = 1
+log
+L = LS + λLC (5)
+λ
+SECTION V.
+Validation
+We tested the model's efficiency with three different types of images, each one
+represented by a reference. The goal was to assess the performance of the
+simplified Siamese network to determine if an unseen before image bears
+similarity with a reference, after training the network twins with as few examples
+as possible. This is an important problem in fields such as drug discovery, where
+only a few known examples are available to help the search for new drugs.
+We applied our model to three arbitrarily chosen molecules from the public access
+PubChem database [17], which contains more than 16 million core molecular
+structures and their derivatives. The molecules were those of penicillin, the well
+known antibiotic against microbial infections, sulconazole, a popular remedy for
+fungal skin infections, and mycophenolate which helps prevent transplanted
+organ rejection. Each of these core molecules has the potential of leading to new
+therapeutic drugs by modifying it.
+The images of the three molecules were used as references in the Siamese
+network, and each one was paired with similar and dissimilar molecules to form
+positive and negative training pairs for the twins. Thus, pairing one with its
+derivatives led to positive pairs, and pairing it with one of the other two and their
+derivatives led to negative pairs. We used batches of 5, 10, 25 and 50 pairs of each
+kind to assess the impact of batch size on the learning process, and the data was
+split 80% for training and 20% for testing. The batches were randomly shuffled
+three times and the test results were averaged.
+The model was simulated by code written in the python language with the
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 9 of 13
+TensorFlow and Keras libraries. After creation of the positive and negative image
+pairs, each color plane is converted to normalized floating point matrices
+by dividing the 8-bit pixel values by 255. Then, the obtained matrices are used by
+the Inception twins to supply arguments to the Euclidian distance, before the
+final prediction by the sigmoid function as illustrated in Fig. 1. During the
+learning stage, the model was trained by gradient descent using the combined
+contrastive and binary loss function described earlier, with parameter in
+equation (5) set to 0.3 by trial and error. The weight initialization vector was
+randomly set to very small values and the learning was stopped at less
+than 1000 iterations as the output stabilized then.
+The simulation hardware was an entry-level PC station with an Intel i5 processor
+clocked at 2.5 GHz, 8 Gb of RAM, and 64-bit Windows. No GPU accelerator was
+used.
+A. Results
+Table 1 summarizes the obtained results. The training time varied from 9 and 86
+minutes depending on batch size, with a convergence to a loss of 0.03 or less, and
+an average test set prediction accuracy 95.7% for the 25-pair batch size. The
+accuracy was defined as the fraction of correct predictions that a candidate
+molecule is similar or dissimilar to the reference molecule. Table 1 also shows that
+the results for the 5 and 10 pairs training sets were unstable. The loss function for
+both cases was between 0.028 and 0.035, and the accuracy varied from 62% to
+98%, possibly because of overfitting. It is also interesting to note that doubling the
+batch size from 25 to 50 pairs lowered the training loss at the expense of
+generalization, which usually signals overfitting.
+B. Cnn Comparison
+Since most reported Siamese network implementations are based on multilayer
+CNNs for the twins, we also assessed the use of such networks for comparison. We
+started from the VGG-16 model [18] and investigated several configurations by
+changing the number and type of layers. Fig. 6 shows the one that provided the
+best results, shown in Table 2. As can be seen, a lower prediction accuracy is
+obtained with this network, with a higher computational cost.
+32x32
+λ
+(∼ 10−4)
+Table 1: Simulation results
+
+Fig. 6.
+CNN Structure for the CNN-based Siamese neural network |
+
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 10 of 13
+C. Comparison To Other Works
+We only found one other work in the literature that affords a close comparison
+with our validation problem [14], but Siamese networks have been used in
+multiple areas. Table 3 compares the performances of different works, showing
+substantially better results by our model for training set size and prediction error.
+Table 2. Simulation results with the cnn-based siamese neural network
+
+Table 3. Comparison to other works using siamese networks (best results)
+
+SECTION VI.
+Discussion and Conclusion
+Our results show that, using training sets for the twins as small as 25 positive and
+negative image pairs, the proposed one-shot learning method can predict the
+similarity between an unknown input and a reference with over 95% average
+accuracy, at par with neural architectures that typically require much larger
+training sets. We did notice, however, a degraded performance by our model when
+the inputs from the test set are very different from the references. In this case, it
+may be appropriate to create a new reference to compare to, instead of having to
+retrain the Siamese as would be with a classical neural network architecture.
+The obtained results confirm the idea that the Siamese network's twins only need
+to create relevant embeddings of the input data for efficient few-shot learning,
+hence mitigating the need to use complex neural networks to implement them.
+The Inception module shown in Figure 2 may also undergo further simplification
+for black and white images. In this case, the 1 x 1 convolution blocks can be
+eliminated for even faster processing and lighter model implementation. Finally,
+our model's relative simplicity makes it fit for many edge-computing applications,
+including fine tuning in real time. In a previous work [25], an earlier model with
+CNN twins was used to tune the prediction of hand gestures from
+electromyographic measurements for different users. A GPU accelerator was used
+to implement the model, but the light architecture described here can be
+implemented with an ARM or RISC-V CPU for better energy consumption and
+lower cost. A custom RISK-V-based embedded system is under development.
+In summary, we presented a one-shot learning solution to classification problems
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 11 of 13
+More Like This
+Automated generation of convolutional neural network training data using video sources 2017 IEEE Applied Imagery Pattern Recognition Workshop (AIPR) Published: 2017
+Image-Classifier Deep Convolutional Neural Network Training by 9-bit Dedicated Hardware to Realize Validation Accuracy and Energy Efficiency Superior to the Half Precision Floating... 2018 IEEE International Symposium on Circuits and Systems (ISCAS) Published: 2018
+Show More
+Authors 
+Figures 
+References 
+Keywords 
+Metrics 
+where the lack of training data prevents the use of regular neural network
+architectures and where powerful processing resources are missing. The model
+was validated on molecular images, but it is generic in scope and can be applied to
+arbitrary problems.
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 12 of 13
+IIIEEEEEEEEE PPPeeerrrsssooonnnaaalll AAAccccccooouuunnnttt
+CHANGE
+USERNAME/PASSWORD
+PPPuuurrrccchhhaaassseee DDDeeetttaaaiiilllsss
+PAYMENT
+OPTIONS
+VIEW
+PURCHASED
+DOCUMENTS
+PPPrrrooofififillleee IIInnnfffooorrrmmmaaatttiiiooonnn
+COMMUNICATIONS
+PREFERENCES
+PROFESSION AND
+EDUCATION
+TECHNICAL
+INTERESTS
+NNNeeeeeeddd HHHeeelllppp???
+US & CANADA:
++1 800 678 4333
+WORLDWIDE: +1
+732 981 0060
+CONTACT &
+SUPPORT
+FFFooollllllooowww
+
+About IEEE Xplore | Contact Us | Help | Accessibility | Terms of Use | Nondiscrimination Policy | IEEE Ethics Reporting
+ | Sitemap | IEEE Privacy Policy
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing
+technology for the benefit of humanity.
+© Copyright 2024 IEEE - All rights reserved, including rights for text and data mining and training of artificial intelligence
+and similar technologies.
+IEEE Account
+» Change Username/Password
+» Update Address
+Purchase Details
+» Payment Options
+» Order History
+» View Purchased Documents
+Profile Information
+» Communications Preferences
+» Profession and Education
+» Technical Interests
+Need Help?
+» US & Canada: +1 800 678 4333
+» Worldwide: +1 732 981 0060
+» Contact & Support
+
+
+ Light Siamese Neural Network Architecture for Image Comparison | IEEE Conference Publication | IEEE Xplore 2024-09-17, 21:51
+https://ieeexplore.ieee.org/abstract/document/10506129 Page 13 of 13
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology
+for the benefit of humanity.
+© Copyright 2024 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+About IEEE Xplore Contact Us
+| Help
+| Accessibility
+| Terms of Use
+| Nondiscrimination Policy
+| Sitemap
+|
+Privacy & Opting Out of Cookies
+|

@@ -1,0 +1,59 @@
+Les Use-Cases ou Cas d’Utilisation
+– un temps d’arrêt 
+
+
+ H. Lounis
+Sommaire
+aRappels
+aExemples
+
+
+ H. Lounis
+Rappels
+a Les use cases permettent de structurer les besoins des utilisateurs et
+les objectifs correspondants d'un système ;
+a Ils centrent l'expression des exigences du système sur ses
+utilisateurs : ils partent du principe que les objectifs du système sont
+tous motivés ;
+a Ils se limitent aux préoccupations "réelles" des utilisateurs ; ils ne
+présentent pas de solutions d'implémentation ;
+a Ils permettent de classer les acteurs et structurer les objectifs du
+système.
+a Ils servent de base à la traçabilité des exigences d'un système dans
+un processus de développement intégrant UML.
+
+
+ H. Lounis
+Rappels
+a La détermination et la compréhension des besoins sont souvent difficiles
+car les intervenants sont noyés sous de trop grandes quantités
+d'informations ;
+a Conclusion : il faut clarifier et organiser les besoins des clients (les
+modéliser).
+a Un modèle est une simplification de la réalité. Il permet de mieux
+comprendre le système qu'on doit développer. Les meilleurs modèles sont
+proches de la réalité.
+a Le bénéfice de cette démarche simplificatrice est double. D'une part, tous
+les acteurs du projet ont une meilleure compréhension du système à
+développer, d'autre part, les besoins des utilisateurs, une fois clarifiés,
+serviront de fil rouge, tout au long du cycle de développement.
+a A chaque itération de la phase d'analyse, on clarifie, affine et valide les
+besoins des utilisateurs ; à chaque itération de la phase de conception et
+de réalisation, on veille à la prise en compte des besoins des utilisateurs et
+à chaque itération de la phase de test, on vérifie que les besoins des
+utilisateurs sont satisfaits.
+
+
+ H. Lounis
+Éléments de base des UCs
+a Acteur : entité externe qui agit sur le système (opérateur, autre
+système...).
+` L'acteur peut consulter ou modifier l'état du système.
+` En réponse à l'action d'un acteur, le système fournit un service qui
+correspond à son besoin.
+` Les acteurs peuvent être classés (hiérarchisés).
+a Use case : ensemble d'actions réalisées par le système, en réponse
+à une action d'un acteur.
+` Les uses cases peuvent être structurés.
+` Les uses cases peuvent être organisés en paquetages (packages).
+` L'ensemble des use cases décrit les objectifs (le but) du système.

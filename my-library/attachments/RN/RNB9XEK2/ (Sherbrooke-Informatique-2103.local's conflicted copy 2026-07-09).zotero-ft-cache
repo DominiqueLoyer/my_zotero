@@ -1,0 +1,295 @@
+Les Use-Cases ou Cas
+d’Utilisation – suite 
+
+
+ H. Lounis
+Sommaire
+a Notion de modèle
+a Rôle et intérêt des UC
+a Acteurs et UC : décrire le système
+a Description d’un UC
+
+
+ H. Lounis
+Notion de modèle
+aProblème complexe, difficile à comprendre et à
+exprimer ;
+aDossier de spécification : en simplifier la vue ;
+aUn modèle est une représentation abstraite d’une
+réalité ; c’est une simplification qui doit être juste ;
+aTous les éléments du modèle doivent être
+impliqués dans le domaine d’application ; le
+contraire n’est pas vrai ! Seuls les éléments
+intéressants pour la mise en ouvre du système
+doivent être représentés dans le modèle ;
+aExemple de la médiathèque.
+
+
+ H. Lounis
+Rôle et intérêt des UCs
+a Concept principal de la méthode OOSE de Jacobson ;
+a Repris dans UML pour effectuer une bonne délimitation
+du système et aussi pour améliorer son fonctionnement ;
+a Servent à décrire le caractère fonctionnel des objets
+La dynamique : états, événements, ...
+La description : propriétés, associations, ...
+Les UC : le savoir-faire
+
+
+ H. Lounis
+Rôle et intérêt des UC
+a Les UCs sont le premier modèle du système à concevoir ;
+a Ils s’appuient sur les spécifications mais aussi sur la
+connaissance du domaine que l’on a au préalable ;
+a Les UCs permettent de modéliser les attentes des
+utilisateurs ;
+a Les UCs sont importants avant l’analyse objet qui va
+permettre de dégager les classes du système ;
+a Ils peuvent aussi servir à la constitution de jeux de tests.
+
+
+ H. Lounis
+Rôle et intérêt des UC
+Spécifications
+UC
+Analyse Tests
+aRemarque : différence avec OMT, sur le
+« quand » de la prise en compte de l’aspect
+fonctionnel des objets.
+
+
+ H. Lounis
+Acteurs et UC
+a2 concepts fondamentaux dans la
+modélisation par les UCs :
+`Les acteurs qui utilisent le système ;
+`Les UCs qui représentent l’utilisation du
+système par les acteurs
+
+
+ H. Lounis
+Les acteurs, utilisateurs
+du système
+aCe sont des éléments extérieurs au système ; ils
+représentent la frontière ;
+aCe sont des utilisateurs extérieurs au système
+qui ont une bonne connaissance des
+fonctionnalités du système ;
+aCette connaissance n’est pas reliée à la
+structure du système, mais à son interface
+d’utilisation ;
+aIls peuvent être de 3 types :
+`Humains, via l’interface graphique par exemple ;
+`Logiciels, via une API par exemple ;
+`Matériels, robots et automates, pilotés par le système ou
+exploitant des données du système.
+
+
+ H. Lounis
+Les acteurs, utilisateurs
+du système
+aDu point de vue du système, il existe 2 types
+d’acteurs :
+`Acteurs primaires : « à qui va servir le système que
+nous allons développer ? ». Ce sont les plus faciles à
+déterminer. Ils se différencient par le rôle qu’ils
+jouent vis à vis du système.
+`Acteurs secondaires : ont des rôles d’administration
+et de maintenance. Ils paramètrent le système et lui
+fournissent toutes les infos nécessaires à son bon
+fonctionnement pour les acteurs primaires ;
+
+
+ H. Lounis
+Exemple d’acteurs et
+notation
+Guichetier
+Directeur
+Responsable devises
+Application bancaire (système) Les acteurs
+permettent de :
+-délimiter le
+système ;
+-Avoir une vue
+orientée utilisateur
+du système
+Il faut compléter cette description par les fonctionnalités
+dont ont besoin les acteurs pour manipuler le système. Ce sont
+Les UCs ! La réponse à un stimuli d’un acteur !
+
+
+ H. Lounis
+Les UCs : éléments de
+l’interface d’utilisation
+aCe sont les éléments constitutifs du
+système, d’un point de vue fonctionnel ;
+aUn UC est la vue qu’a un acteur, du
+système ; c’est une suite d’événements,
+souvent initié par l’un des acteurs. C’est
+une manière spécifique d’utiliser le
+système ;
+
+
+ H. Lounis
+Description d’un UC
+aTextuelle, mais structurée et concise ;
+aDiagrammes ;
+aSuccession d’écrans ;
+aPseudo-code.
+
+
+ H. Lounis
+Les UC : éléments de
+l’interface d’utilisation
+aOn peut trouver comme UC :
+`Les principales tâches de chaque acteur ;
+`Les fonctionnalités mal décrites dans les spécs ;
+`Les modifications des données du système
+(lecture ou écriture) ;
+`Les cas d’anomalie ;
+
+
+ H. Lounis
+Exemple de UC
+a UC : retrait d’espèces sur un compte client
+a Acteur(s) : primaire/secondaire
+a Description (sommaire) :
+a Pré-conditions :
+a Scénario :
+a Post-conditions :
+a Ucs utilisés :
+a Exceptions :
+a Contraintes :
+
+
+ H. Lounis
+Diagramme de UC
+Guichetier
+Retrait espèces
+Application bancaire (système)
+
+
+ Use-Cases : conseils &
+après ...
+
+
+ H. Lounis
+Sommaire
+aConseils ;
+aIdentifier des Ucs ;
+aDes Ucs vers les objets.
+
+
+ H. Lounis
+Fil conducteur de
+l ’ensemble du projet
+Analyste
+Ut ilisateur
+Programmeur Testeur
+Architecte
+UseCase
+
+
+ H. Lounis
+Conseils
+a Commencer par des Ucs décrit à haut niveau
+d ’abstraction, afin d ’obtenir une compréhension rapide
+du problème à modéliser ;
+a Les Ucs peuvent être exprimés avec différents degrés de
+détail et selon différents formats ;
+a Passer ensuite à des Ucs étendus, c ’est à dire décrit plus
+en détails ;
+a Dans un UC il y a un acteur primaire, initiateur du UC, et
+des acteurs secondaires. Les indiquer ;
+a Un UC modélise un processus assez large, incluant
+plusieurs étapes ; ce n ’est pas une activité élémentaire ;
+
+
+ H. Lounis
+Méthodes d ’identification
+des UCs
+a Basée sur les acteurs :
+`Identifier les acteurs du système ;
+`Pour chaque acteur, identifier les processus qu ’ils initient et
+ceux auxquels ils participent ;
+a Basée sur les événements :
+`Identifier les événements extérieurs auxquels le système doit
+répondre ;
+`Relier ces événements aux acteurs et Ucs ;
+
+
+ H. Lounis
+Conseils - suite 
+aLes fonctions d ’un système sont associés à des
+Ucs ; toutes les fonctions doivent se retrouver
+au sein de Ucs ;
+aL ’ordre de mise en œuvre des Ucs suit le degré
+d ’importance des Ucs ;
+aNommer un Uc en commençant par un verbe
+afin de souligner que c ’est un processus ;
+aLe choix des frontières du système est
+important. Il implique quels seront les acteurs ;
+
+
+ H. Lounis
+Une méthode
+a Après avoir identifier les fonctions du système, définir
+ses frontières et identifier les acteurs et Ucs ;
+a Élaborer une description de haut niveau des Ucs ;
+a Proposer un diagramme de Ucs ;
+a Identifier les relations entre Ucs ;
+a Proposer une description détaillée des Ucs les plus
+« importants » ou « critiques » ;
+a Ordonner les Ucs selon la priorité qu’on leur confère :
+`impact significatif sur l ’architecture ;
+`critiques (temps), risqués & reliés à des fonctions simples ;
+`très informatifs.
+
+
+ H. Lounis
+Un UC décrit plusieurs
+scénarios
+Cas d ’utilisation
+
+
+ H. Lounis
+Quelques règles de mise
+en œuvre de UCs
+a Bien identifier le début du UC ;
+a Bien identifier la fin du UC ;
+a Bien mettre en relief l ’interaction entre acteurs et UC ;
+a Mettre en évidence les échanges d ’information ; la
+chronologie et l ’origine des informations ;
+a Préciser les répétitions de comportement ;
+a Préciser les situations optionnelles ;
+
+
+ H. Lounis
+La transition vers les objets
+Cas d'utilisation
+Objet Objet
+Collaborat ion
+Réalise
+Objet
+Participe
+•UC : centre le développement sur les
+besoins de l ’user. Il ne définit pas la
+bonne manière de faire le système !
+•C ’est une description fonctionnelle des
+besoins. Le passage à l ’objet se fait en
+associant une collaboration à chaque cas ;
+•Une collaboration décrit les objets du
+domaine, les connexions entre ces objets
+et les messages échangés par les objets ;
+•Diagrammes de collaboration et de
+séquence.
+
+
+ H. Lounis
+Des Ucs vers les objets
+Act eur A
+Acteur B
+Cas 3
+Cas 2
+Cas 1
+Utilise

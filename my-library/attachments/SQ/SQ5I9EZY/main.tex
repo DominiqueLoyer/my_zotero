@@ -1,0 +1,109 @@
+\documentclass{memoireuqamV2}
+% --- PRÉAMBULE ---
+\usepackage{times}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[scaled=0.90]{helvet} % Police équivalente à Arial Narrow
+\renewcommand{\familydefault}{\sfdefault} % Définit la police sans-serif par défaut
+\usepackage{natbib}
+\usepackage[french]{babel}
+%\usepackage{csquotes}
+\renewcommand{\tablename}{Tableau}
+\usepackage{url}
+\usepackage{xcolor}
+
+\makeatletter
+\g@addto@macro{\UrlBreaks}{\do\/\do\-\do\.}
+\makeatother
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{array} 
+\usepackage{ragged2e} 
+\usepackage{multirow}
+
+
+\usepackage{microtype}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{float}  
+\usepackage{tocloft}
+
+\usepackage[breaklinks=true]{hyperref} 
+
+% --- CONFIGURATIONS ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+    citecolor=black,
+}
+
+
+
+
+% --- MÉTA-DONNÉES DU DOCUMENT ---
+\title{Examen général de doctorat en informatique cognitive (DIC-9401) \\ 
+ \vspace{6em}
+Le Léviathan algorithmique : pouvoir, opacité et responsabilité à l'ère de l'intelligence artificielle \\ \vspace{6em}}
+\author{Dominique Loyer}
+\uqamrapport
+\matiere{informatique cognitive}
+
+
+% --- DÉBUT DU DOCUMENT ---
+\begin{document}
+
+\onehalfspacing
+\maketitle
+%\clearpage
+\chapter*{Résumé}
+\addcontentsline{toc}{chapter}{Résumé}
+\input{resume.tex}
+
+
+% --- TABLE DES MATIÈRES ---
+\onecolumn
+\small
+\tableofcontents
+\newpage
+
+% --- CORPS DU RAPPORT ---
+\setlength{\parskip}{1em}
+
+\input{introduction.tex}
+\input{chapitre1.tex}
+\input{chapitre2.tex}
+\input{chapitre3.tex}
+\input{chapitre4.tex}
+\input{chapitre5.tex}
+\input{chapitre6.tex}
+\input{chapitre7.tex}
+\input{conclusion.tex}
+
+% --- BiIBLIOGRAPHIE ---
+
+
+\bibliographystyle{apalike-uqam}
+\bibliography{refI}
+
+
+% --- UTILISATION DE L'IA ---
+\chapter*{Utilisation de l'IA pour la rédaction de ce rapport}
+\addcontentsline{toc}{chapter}{Utilisation de l'IA pour la rédaction de ce rapport}
+\input{utilisation_ia.tex}
+% --- ANNEXES ---
+\clearpage
+\appendix
+\input{annexe.tex}
+
+
+
+\end{document}

@@ -1,0 +1,1321 @@
+Synthèse des Enjeux Éthiques, Sociaux et de Gouvernance de
+la Civilisation Technologique en vue de l'Examen Doctoral
+Introduction
+Objectif et Contexte de la Synthèse
+Ce rapport vise à fournir une synthèse analytique des références
+bibliographiques proposées, dans le but de préparer de manière
+approfondie votre examen doctoral. Il s'agit de dépasser le simple
+résumé pour identifier les arguments centraux, les articulations
+conceptuelles, les tensions et les implications des travaux étudiés.
+Le fil conducteur de cette analyse est l'examen des défis éthiques,
+sociaux, techniques et de gouvernance posés par l'avènement et
+l'omniprésence de la civilisation technologique, avec une attention
+particulière portée aux systèmes algorithmiques et à l'intelligence
+artificielle (IA). Nous chercherons à comprendre comment ces
+technologies transforment notre rapport au monde, au pouvoir, à la
+décision et à la responsabilité.
+Annonce de la Structure du Rapport
+Le rapport s'articulera en plusieurs parties thématiques, allant des
+fondements éthiques classiques et contemporains à l'analyse
+critique de la bureaucratie et de son extension algorithmique, en
+passant par les enjeux techniques de l'IA (notamment l'explicabilité),
+ses impacts sociétaux (biais, manipulation), les cadres de
+gouvernance proposés, et enfin les défis juridiques et
+réglementaires. Une section de synthèse et de recommandations
+conclura ce travail, spécifiquement orientée vers votre examen.
+Partie I : Fondements Éthiques pour la Civilisation Technologique
+A. Hans Jonas et le Principe Responsabilité : Une Éthique pour l'Avenir
+L'œuvre de Hans Jonas, notamment Das Prinzip Verantwortung
+
+
+ [Jonas1979] et sa traduction Le Principe Responsabilité
+[Jonas1990], s'impose comme une référence incontournable pour
+penser l'éthique à l'ère de la puissance technologique. Jonas
+soutient que la portée inédite de l'action humaine, amplifiée par la
+technologie, exige une refondation éthique. Les cadres moraux
+traditionnels, conçus pour des interactions interpersonnelles de
+proximité, s'avèrent inadaptés face à des actions dont les
+conséquences peuvent être planétaires, irréversibles et impacter des
+générations futures très éloignées.1 Il reformule ainsi l'impératif
+catégorique kantien : "Agis de façon que les effets de ton action
+soient compatibles avec la permanence d'une vie authentiquement
+humaine sur Terre".1 Cet impératif est fondamentalement tourné vers
+l'avenir et la sauvegarde des conditions d'existence des générations
+à venir.
+Au cœur de la pensée jonassienne se trouve l'« heuristique de la
+peur ». Face au décalage grandissant entre notre capacité d'agir,
+notamment sur le plan technologique, et notre faculté d'en anticiper
+toutes les conséquences à long terme, Jonas propose cette
+heuristique non comme une incitation à un pessimisme stérile, mais
+comme une méthode prudentielle. Elle enjoint de "prêter davantage
+attention à la prophétie de malheur qu'à la prophétie de bonheur"
+("in dubio pro malo").1 Cette approche méthodologique inverse la
+charge de la preuve : il incombe à l'innovation technologique de
+démontrer son innocuité à long terme. L'œuvre de Jonas, influencée
+par des événements tels que la course aux armements nucléaires et
+la montée des préoccupations écologiques 1, insiste sur une
+responsabilité anthropocentrique qui intègre explicitement la
+vulnérabilité des générations futures.1 Cette pensée a profondément
+marqué l'éthique environnementale, inspiré des mouvements
+écologistes, notamment en Allemagne avec la formation du Parti
+
+
+ Vert, et irrigué les concepts fondateurs du développement durable,
+tels qu'exprimés dans les rapports des commissions Brandt et
+Brundtland.1
+L'heuristique de la peur, telle que théorisée par Jonas, peut être
+considérée comme un fondement méthodologique pour la gestion
+des risques technologiques contemporains. En effet, l'insistance sur
+le principe "in dubio pro malo" face à l'incertitude des conséquences
+technologiques à long terme 1 n'est pas une simple posture
+émotionnelle, mais une règle de décision pratique face à l'asymétrie
+entre la puissance d'agir et la capacité de savoir. Les cadres
+modernes de gestion des risques en IA, tels que le NIST AI Risk
+Management Framework (AI RMF) 3 ou le Secure AI Framework (SAIF)
+de Google 4, mettent l'accent sur l'identification, l'analyse et
+l'atténuation proactives des risques potentiels avant le déploiement
+à grande échelle. L'heuristique de la peur de Jonas fournit ainsi une
+justification éthique profonde à ces démarches : il s'agit de prendre
+au sérieux les "prophéties de malheur" non par alarmisme, mais par
+responsabilité envers la "permanence d'une vie authentiquement
+humaine". Il existe donc une filiation manifeste entre l'éthique de la
+responsabilité de Jonas et les principes de précaution et de
+prévention qui animent aujourd'hui la gouvernance de l'IA. La "peur"
+devient alors un instrument cognitif pour anticiper et prévenir les
+dommages irréversibles.
+B. Élargissements Contemporains : Le "Biosphere Code" et la Durabilité Algorithmique
+Dans le prolongement de cette réflexion éthique, The Biosphere
+Code v1.0 5 propose un ensemble de principes directeurs pour un
+développement des algorithmes qui soit responsable tant envers les
+individus qu'envers la planète. Ce code part du constat que les
+
+
+ algorithmes ne se contentent pas de transformer nos sociétés, mais
+façonnent activement la biosphère, notamment en sous-tendant les
+logiques d'extraction des ressources, le commerce mondial, les
+systèmes de surveillance environnementale et en influençant les
+comportements de consommation.5
+Plusieurs principes clés émergent de ce manifeste. Le Principe 1
+souligne la responsabilité incombant aux acteurs du domaine
+algorithmique quant aux impacts présents et futurs de leurs
+créations sur la biosphère.5 Le Principe 2 stipule que les algorithmes
+doivent être au service de l'humanité et de la biosphère dans son
+ensemble, en facilitant les transitions vers la durabilité et en
+encourageant une "innovation écologiquement responsable".5 Le
+Principe 3 insiste sur la distribution équitable des bénéfices et des
+risques, reconnaissant que les effets négatifs peuvent être
+involontaires et affecter de manière disproportionnée ceux qui ne
+bénéficient pas directement de la technologie. Il appelle à une juste
+compréhension de l'équilibre entre l'utilité attendue et la probabilité
+de conséquences désastreuses.5 Le Principe 4 met en avant la
+nécessité de flexibilité, d'adaptabilité et de conscience du contexte
+pour les algorithmes, qui doivent pouvoir être reprogrammés et
+transparents afin de permettre la correction des erreurs.5 Enfin, le
+Principe 6 plaide pour l'ouverture et la signification des données,
+suggérant que les algorithmes ayant un impact sur la biosphère ou la
+vie privée devraient être open source, accompagnés d'une
+information claire sur la collecte et l'utilisation des données.5
+Ce code actualise l'éthique de la responsabilité en l'appliquant
+spécifiquement au domaine algorithmique et à ses impacts
+écologiques, soulignant l'interdépendance cruciale entre la sphère
+technologique et la biosphère. La "responsabilité algorithmique"
+
+
+ prônée par le Biosphere Code apparaît ainsi comme une extension
+directe du "Principe Responsabilité" de Jonas, adaptée aux défis de
+l'ère numérique et écologique. Jonas établit une responsabilité
+humaine fondamentale face aux conséquences à long terme de la
+technologie sur la "permanence d'une vie authentiquement
+humaine".1 Le Biosphere Code transpose cette exigence au domaine
+spécifique des algorithmes, en soulignant leur rôle croissant dans le
+façonnement – et potentiellement la dégradation – de la biosphère.
+Des principes tels que "les algorithmes doivent servir l'humanité et la
+biosphère" et la nécessité d'une "innovation écologiquement
+responsable" 5 font directement écho à l'impératif jonassien. La
+reconnaissance des "effets distributifs négatifs" et des "risques
+systémiques" des algorithmes 5 rejoint la préoccupation de Jonas
+pour les conséquences imprévues et potentiellement
+catastrophiques. Ainsi, le Biosphere Code n'est pas seulement un
+ensemble de lignes directrices techniques, mais une manifestation
+contemporaine de l'éthique de la responsabilité, adaptée aux défis
+spécifiques posés par la puissance transformative des algorithmes
+sur les systèmes écologiques et sociaux. Il appelle à une
+"responsabilité explicite" 5 des concepteurs et utilisateurs
+d'algorithmes.
+Partie II : Bureaucratie, Pouvoir et Algorithmes
+A. La Bureaucratie Classique selon Max Weber : Rationalisation et Domination
+L'œuvre de Max Weber, et plus particulièrement Wirtschaft und
+Gesellschaft [Weber1922, Weber2019], demeure fondamentale pour
+appréhender les formes d'organisation et de domination
+caractéristiques des sociétés modernes.6 Weber y développe son
+célèbre idéal-type de la bureaucratie rationnelle, définie par un
+ensemble de traits distinctifs : une structure hiérarchique claire, une
+
+
+ division du travail fondée sur des compétences spécialisées, des
+procédures encadrées par des règles écrites et formelles,
+l'impersonnalité dans l'application de ces règles et le traitement des
+cas, un mode de recrutement et de promotion basé sur la
+qualification et le mérite (attestés par des examens ou des
+diplômes), une stricte séparation entre la fonction et l'individu qui
+l'occupe, et enfin, l'existence de fonctionnaires professionnels,
+employés à plein temps, bénéficiant d'une carrière structurée et
+d'une rémunération fixe.7
+Pour Weber, la bureaucratie est l'incarnation même du processus de
+rationalisation qui caractérise les sociétés occidentales.7 Elle
+constitue le principal instrument de la domination légale-rationnelle,
+l'un des trois types purs de domination légitime qu'il distingue, aux
+côtés de la domination traditionnelle et de la domination
+charismatique.7 Cette forme de domination s'appuie sur la croyance
+en la légalité des règlements établis et du droit de donner des
+directives détenu par ceux qui sont appelés à exercer la domination
+en vertu de ces règles. Si Weber reconnaît la supériorité technique
+de la bureaucratie en termes d'efficacité et de prévisibilité, il n'en
+perçoit pas moins le risque d'une "cage d'acier" ("stahlhartes
+Gehäuse"), où la rationalisation bureaucratique, poussée à l'extrême,
+pourrait finir par étouffer la liberté individuelle et la créativité.
+B. Critique de la Bureaucratie Moderne : L'Utopie des Règles et la Violence Structurelle selon David Graeber
+L'anthropologue David Graeber, dans son ouvrage Bureaucratie:
+L'utopie des règles [Graeber2015] (titre original The Utopia of Rules),
+propose une critique incisive de la bureaucratie contemporaine,
+adoptant une perspective anarchiste.9 Graeber conteste l'idée reçue
+selon laquelle la bureaucratie serait principalement l'apanage des
+
+
+ régimes autoritaires. Il soutient au contraire que les sociétés
+libérales et néolibérales sont de grandes productrices de
+procédures, de formulaires et de règlements, conduisant à une
+"bureaucratisation totale".10 Cette "utopie bureaucratique", selon lui,
+servirait avant tout les intérêts des puissants et entraverait le
+véritable développement technologique.10
+Graeber explore également la manière dont les procédures
+bureaucratiques peuvent engendrer une forme de "stupidité
+structurelle", où des individus par ailleurs intelligents sont amenés à
+se comporter de manière irrationnelle en se conformant à des règles
+perçues comme absurdes.11 Ces systèmes créent ce qu'il nomme des
+"zones mortes de l'imagination".13 Un des aspects centraux de sa
+critique est le lien qu'il établit entre bureaucratie et violence. Il
+affirme que les procédures bureaucratiques sont des "manières de
+gérer des situations sociales qui sont déjà stupides parce qu'elles
+sont fondées sur la violence structurelle".13 Cette violence
+structurelle se définit comme un système qui "repose en dernière
+instance sur la menace de la force" (incarnée par la police, l'armée,
+etc.).15 Ainsi, bien que les structures bureaucratiques opèrent
+souvent par des moyens formellement pacifiques, leur institution et
+leur maintien ne seraient possibles que par la menace, implicite ou
+explicite, de la violence ou de la coercition.9 Cette violence
+sous-jacente génère des "structures asymétriques de l'imagination" :
+la charge du "travail interprétatif" – c'est-à-dire l'effort de
+comprendre et de naviguer le système – incombe aux dominés,
+permettant aux puissants d'opérer dans une relative ignorance des
+réalités vécues par les autres.13
+La "rationalité impersonnelle" de la bureaucratie wébérienne peut
+être vue comme un précurseur et un facilitateur de la "violence
+
+
+ structurelle" et de la "stupidité organisée" que dénonce Graeber,
+avec des implications directes pour la gouvernance algorithmique.
+Weber 7 considère l'impersonnalité et la stricte adhésion aux règles
+comme des caractéristiques essentielles de l'efficacité et de la
+rationalité bureaucratiques, visant à éliminer l'arbitraire. Graeber 9,
+pour sa part, soutient que ces mêmes règles et procédures,
+lorsqu'elles encadrent des inégalités structurelles, deviennent des
+instruments de violence et de coercition, souvent masqués par une
+façade de rationalité. L'impersonnalité peut alors se traduire par une
+indifférence aux conséquences humaines. L'"utopie des règles"
+[Graeber2015] suggère que la croyance en la perfection et la
+neutralité des règles peut elle-même devenir une forme
+d'oppression, en particulier lorsque ces règles sont complexes,
+opaques ou appliquées de manière rigide sans discernement. Les
+systèmes algorithmiques, qui sont par nature des ensembles de
+règles formelles appliquées de manière impersonnelle et à grande
+échelle, risquent d'exacerber ces dynamiques. Si les règles
+encodées dans un algorithme reflètent ou gèrent des "situations
+sociales déjà stupides ou violentes" (inégalités, biais), l'algorithme
+les perpétuera et les amplifiera sous couvert d'objectivité et
+d'efficacité. La "stupidité structurelle" 13 peut alors se manifester
+lorsque les individus sont contraints de se conformer à des décisions
+algorithmiques qu'ils ne comprennent pas ou qu'ils jugent injustes, le
+"travail interprétatif" consistant à essayer de déchiffrer la logique de
+la "boîte noire". La rationalité instrumentale de l'algorithme peut ainsi
+masquer une profonde irrationalité humaine ou une injustice
+systémique.
+C. La Gouvernance Algorithmique : Nouvelles Formes de Pouvoir
+Le concept de "Rule by Nobody", exploré par Pasquinelli 17, décrit une
+forme de pouvoir où les décisions et le contrôle sont exercés par des
+
+
+ systèmes – qu'ils soient algorithmiques ou bureaucratiques – d'une
+manière si diffuse ou opaque que la responsabilité devient
+insaisissable. Cette notion fait écho à la critique d'Hannah Arendt sur
+la "domination par personne" inhérente à la bureaucratie, qui, loin
+d'être une absence de domination, en est une forme particulière.17
+Les algorithmes, en automatisant la prise de décision et en
+fonctionnant souvent comme des "boîtes noires", peuvent incarner
+cette "domination par personne". Les individus se retrouvent alors
+soumis à des règles et des logiques qu'ils ne peuvent ni comprendre
+pleinement ni contester efficacement. La pression à la conformité et
+l'autocensure peuvent découler de cette surveillance implicite et de
+la difficulté à discerner les mécanismes de pouvoir à l'œuvre.17
+Parallèlement, le concept d'"algorithmic gaze" (regard
+algorithmique), développé par Katz [Katz2017], désigne la manière
+dont les algorithmes observent, classifient et influencent les
+individus et la société. Ce regard n'est jamais neutre ; il est façonné
+par les données sur lesquelles les algorithmes sont entraînés, les
+objectifs de leurs concepteurs et les logiques de pouvoir qu'ils
+servent. Ce concept étend les notions foucaldiennes de surveillance
+et de pouvoir disciplinaire à l'ère numérique. Le regard n'est plus
+seulement celui du panoptique, mais celui, omniprésent et souvent
+invisible, des systèmes algorithmiques.
+La gouvernance algorithmique peut ainsi être interprétée comme
+l'apogée de la "cage d'acier" wébérienne. Weber 7 craignait que la
+rationalisation bureaucratique ne mène à une limitation de la liberté
+individuelle. Les algorithmes, en tant qu'outils de rationalisation par
+excellence, automatisent et optimisent les processus décisionnels à
+une échelle et une vitesse sans précédent. Cette
+hyper-rationalisation peut conduire à ce que Pasquinelli 17 nomme
+
+
+ "Rule by Nobody" : les décisions sont prises par des systèmes
+opaques, la responsabilité est difficile à attribuer, et les individus se
+sentent régis par une logique impersonnelle et inéluctable. Le
+"regard algorithmique" [Katz2017] devient l'œil de cette nouvelle
+cage, surveillant, classifiant et influençant les comportements de
+manière subtile mais puissante. Ainsi, la promesse d'efficacité et
+d'objectivité de la gouvernance algorithmique peut masquer une
+forme de déresponsabilisation et une concentration du pouvoir entre
+les mains de ceux qui conçoivent et contrôlent les algorithmes, tout
+en rendant ce pouvoir moins visible et plus difficile à contester pour
+le citoyen ordinaire. Cela rejoint la critique de Graeber sur la manière
+dont la bureaucratie (ici, algorithmique) peut servir les puissants tout
+en paraissant neutre.
+Partie III : L'Intelligence Artificielle : Explicabilité, Transparence et
+Enjeux Techniques
+A. Le Défi de la "Boîte Noire" : Nécessité, Conceptualisations et Méthodes de l'IA Explicable (XAI)
+De nombreux systèmes d'intelligence artificielle, en particulier ceux
+fondés sur l'apprentissage profond comme les réseaux de neurones,
+sont souvent qualifiés de "boîtes noires". Bien qu'ils puissent
+atteindre une précision remarquable dans leurs prédictions, les
+processus décisionnels internes qui mènent à ces résultats
+demeurent largement opaques pour les observateurs humains.18
+Cette opacité constitue un obstacle majeur, notamment dans les
+secteurs sensibles tels que la santé, la finance ou la justice, où la
+compréhension des mécanismes décisionnels, la capacité à attribuer
+des responsabilités et la confiance dans les systèmes sont des
+impératifs non négociables.18
+Pour aborder ce défi, le champ de l'IA explicable (XAI) s'est
+
+
+ développé. Il convient de distinguer plusieurs concepts clés 18 :
+l'interprétabilité se réfère à la capacité de comprendre les
+processus internes par lesquels un système transforme les entrées
+en sorties, tandis que l'explicabilité concerne la compréhension de
+la manière dont le modèle apprend durant son entraînement et la
+capacité à rendre la sortie d'un modèle intelligible pour un humain.
+La justification, quant à elle, peut être produite pour un modèle
+boîte noire et vise à décrire pourquoi une décision spécifique est
+pertinente. L'XAI, de manière générale, cherche à rendre les
+processus de prise de décision plus transparents afin de favoriser
+une confiance appropriée et de permettre l'imputabilité.21
+Doran et al. 21 proposent une conceptualisation élargie de l'XAI, qui
+ne se limite pas à expliquer comment l'IA fonctionne, mais inclut
+également pourquoi son utilisation est justifiée ou bénéfique. Ils
+distinguent les systèmes opaques, interprétables et
+compréhensibles, et suggèrent d'envisager l'explication comme une
+forme d'argumentation rhétorique (mobilisant logos, ethos et
+pathos) destinée à façonner la perception de l'utilisateur quant à
+l'utilité, la crédibilité et la confiance qu'il peut accorder au système.21
+L'XAI est ainsi jugée nécessaire pour une compréhension
+approfondie des algorithmes, pour la conception de systèmes qui les
+emploient judicieusement, pour l'identification des caractéristiques
+déterminantes dans une classification, et pour l'analyse des erreurs
+de détection ou de classification.22
+Burkart et Huber 18 classifient les approches d'XAI en apprentissage
+supervisé (SML) en trois grandes catégories : les modèles
+interprétables (intrinsèquement compréhensibles, comme les
+arbres de décision simples), l'ajustement de modèles substituts
+(où un modèle simple et interprétable est entraîné pour mimer le
+
+
+ comportement d'une boîte noire complexe) et la génération
+d'explications post-hoc (méthodes qui expliquent les décisions
+d'un modèle déjà entraîné sans le modifier, comme LIME ou SHAP).
+Ces méthodes peuvent viser à expliquer des prédictions spécifiques
+(locales) ou le comportement général du modèle. L'importance de
+l'XAI se manifeste lorsqu'il y a un décalage entre l'objectif initial de
+conception du modèle et son usage réel, ou lorsque des modèles
+globalement performants commettent des erreurs sur des cas
+particuliers.18 Elle est cruciale pour le débogage, l'identification des
+biais, la construction de la confiance, et l'évaluation de la sécurité et
+de la responsabilité des systèmes.21 Des réglementations comme le
+RGPD de l'Union Européenne pourraient d'ailleurs exiger des
+fournisseurs d'IA qu'ils soient en mesure d'expliquer les décisions
+automatisées.18
+L'explicabilité (XAI) transcende ainsi le simple enjeu technique pour
+devenir une condition nécessaire à la réalisation de principes
+éthiques fondamentaux tels que la responsabilité, la justice et
+l'autonomie dans une société de plus en plus gouvernée par les
+algorithmes. Elle constitue le pont entre la puissance technique de
+l'IA et sa légitimité sociétale. En effet, les principes éthiques comme
+la responsabilité 1, la justice et l'équité 24, et le respect de l'autonomie
+25 exigent que les décisions affectant les individus soient
+compréhensibles et contestables. L'opacité des "boîtes noires"
+algorithmiques 18 rend difficile, voire impossible, de vérifier si ces
+principes sont respectés. Comment peut-on être responsable d'une
+décision dont on ne comprend pas la logique sous-jacente?
+Comment s'assurer de la justice si les critères d'évaluation
+demeurent cachés? Comment un individu peut-il exercer son
+autonomie face à une influence opaque? L'XAI, en cherchant à
+rendre les décisions algorithmiques transparentes et intelligibles 18,
+
+
+ fournit les moyens techniques pour évaluer la conformité des
+systèmes d'IA avec ces impératifs éthiques. Par exemple, l'XAI peut
+aider à identifier les biais discriminatoires 26 et donc à promouvoir la
+justice. Elle peut permettre aux utilisateurs de comprendre pourquoi
+une recommandation leur est faite 27 et ainsi de mieux exercer leur
+autonomie. Par conséquent, l'XAI n'est pas une simple "option"
+technique, mais une composante essentielle de l'IA "responsable" ou
+"éthique". Sans un certain degré d'explicabilité, la confiance dans les
+systèmes d'IA 21 ne peut être établie de manière justifiée, et leur
+acceptation sociale restera problématique, surtout dans les
+domaines à fort enjeu.
+B. Modèles et Techniques en IA : Pertinence pour la Compréhension des Enjeux Éthiques
+La compréhension des enjeux éthiques soulevés par l'IA nécessite
+une familiarité avec certains modèles et techniques sous-jacents.
+Les systèmes de recommandation, par exemple, sont
+omniprésents. Ko et al. 27 distinguent principalement le filtrage basé
+sur le contenu (CBF), le filtrage collaboratif (CF) – le plus utilisé mais
+sujet aux problèmes de sparsité et de démarrage à froid – et les
+systèmes hybrides, qui gagnent en popularité pour pallier ces
+limites. Ces systèmes, qui emploient des techniques variées comme
+le text mining, la SVD, les réseaux de neurones ou le clustering,
+trouvent des applications dans des domaines aussi divers que le
+streaming, les réseaux sociaux, le tourisme, l'e-commerce, la santé,
+l'éducation et l'information académique.28 Les enjeux éthiques
+associés sont nombreux : création de bulles de filtres 29, manque de
+diversité des recommandations, manipulation des préférences, et
+équité des recommandations.27
+Le principe du rasoir d'Occam, qui enjoint de privilégier les
+
+
+ hypothèses les plus simples toutes choses égales par ailleurs, trouve
+une application en apprentissage automatique.31 Domingos 33
+distingue deux interprétations : la première, largement acceptée,
+veut que si deux hypothèses ont la même erreur de généralisation, la
+plus simple est préférable car la simplicité est intrinsèquement
+désirable ; la seconde, généralement considérée comme incorrecte,
+stipule que si deux hypothèses ont la même erreur d'entraînement, la
+plus simple est susceptible de mieux généraliser.34 Pour l'XAI et la
+question des biais, le choix de modèles plus simples peut favoriser
+l'interprétabilité. Cependant, une simplification excessive risque
+d'omettre des variables cruciales, conduisant à des biais (biais
+d'omission de variable 26). La justification de la simplicité n'est donc
+pas purement épistémique mais aussi pragmatique.31
+Les approches de sélection de modèles bayésiens et de
+moyennage de modèles 35 offrent des outils pour gérer l'incertitude.
+La sélection de modèles vise à choisir le modèle le plus probable
+étant donné les données, en utilisant les probabilités a posteriori
+P(Mj∣Data) et les Facteurs de Bayes pour quantifier la force de la
+preuve en faveur d'un modèle par rapport à un autre.35 Le
+moyennage de modèles, au lieu de sélectionner un unique modèle,
+combine les prédictions de plusieurs modèles, pondérées par leurs
+probabilités a posteriori. Son avantage réside dans le fait d'éviter un
+choix unique et potentiellement erroné, ce qui peut améliorer la
+robustesse et la précision des prédictions.35 Ces approches illustrent
+une forme d'humilité épistémique, reconnaissant qu'aucun modèle
+unique n'est parfaitement "vrai", ce qui a des implications pour la
+confiance et la robustesse des systèmes d'IA.
+Enfin, le bagging 37 est une technique d'ensemble qui consiste à
+apprendre plusieurs modèles à partir d'échantillons bootstrap de la
+
+
+ base de données et à combiner leurs prédictions, souvent par un
+vote uniforme. L'explication bayésienne de son succès est qu'il
+constitue une approximation de la procédure optimale de
+moyennage de modèles bayésiens, permettant de réduire la variance
+sans altérer significativement le biais.37 Cette technique illustre
+comment des méthodes d'ensemble peuvent améliorer la
+performance et la robustesse, et comment une perspective
+bayésienne peut éclairer le fonctionnement de méthodes
+d'apprentissage qui peuvent sembler purement heuristiques.
+Il apparaît clairement que les choix techniques en IA – qu'il s'agisse
+des modèles utilisés, des méthodes d'apprentissage ou des critères
+de sélection – ne sont jamais neutres et comportent des implications
+éthiques directes, notamment en termes de transparence, de
+robustesse et d'équité. Une compréhension de ces aspects
+techniques est donc indispensable pour mener une analyse éthique
+informée. Les systèmes de recommandation 27, par leur nature même
+(filtrage, personnalisation), soulèvent intrinsèquement des questions
+d'enfermement informationnel 29 et d'équité.27 Le choix entre
+différentes approches de filtrage et les données utilisées affectent
+directement ce que l'utilisateur voit et ne voit pas. De même, le
+principe du rasoir d'Occam 31, s'il peut favoriser des modèles plus
+interprétables, peut aussi, s'il est mal appliqué, conduire à des
+simplifications excessives qui masquent des biais ou des
+complexités réelles, impactant l'équité et la précision pour certains
+groupes. Les approches bayésiennes de sélection ou de moyennage
+de modèles 35, en gérant l'incertitude du modèle, peuvent conduire à
+des systèmes plus robustes. Le moyennage de modèles, en
+particulier, peut être vu comme une forme de prudence, évitant de
+se fier à un unique modèle potentiellement faillible, ce qui rejoint
+l'esprit de l'heuristique de la peur de Jonas. Le bagging 37 est une
+
+
+ application pratique de cette idée. Ces choix techniques influencent
+la facilité avec laquelle un système peut être expliqué (XAI), la
+probabilité qu'il manifeste des biais 26, et sa fiabilité générale. Par
+conséquent, une discussion sur l'éthique de l'IA ne peut faire
+l'économie d'une compréhension minimale des mécanismes
+techniques sous-jacents, car c'est souvent au niveau de ces choix de
+conception que se nichent les potentiels éthiques ou les risques de
+dérive.
+Partie IV : Impacts Sociétaux des Algorithmes : Biais,
+Discrimination et Manipulation
+A. Biais et Équité en Apprentissage Automatique
+L'un des impacts sociétaux les plus débattus des algorithmes
+concerne les biais et l'équité en apprentissage automatique. Les
+algorithmes, par définition, apprennent à partir des données qui leur
+sont fournies. Si ces données reflètent des préjugés sociétaux
+existants, ou si elles sont collectées ou représentées de manière
+inadéquate, l'algorithme est susceptible de perpétuer, voire
+d'amplifier, ces biais.38 Mehrabi et al. 26 ont identifié une multitude de
+sources de biais. Les biais dans les données incluent le biais de
+mesure (lié au choix et à la mesure des caractéristiques), le biais
+d'omission de variable, le biais de représentation (comme la
+surreprésentation des cultures occidentales dans ImageNet), le biais
+d'agrégation (dont le paradoxe de Simpson est un exemple), le biais
+d'échantillonnage, le biais historique (reflétant les inégalités
+passées, par exemple dans la représentation des femmes PDG), le
+biais de population, le biais d'auto-sélection, le biais social, le biais
+comportemental, le biais temporel et le biais de production de
+contenu. Des biais peuvent également être introduits par
+l'algorithme lui-même, en raison de choix de conception (fonction
+
+
+ d'optimisation, régularisation). D'autres biais peuvent émerger de
+l'interaction avec l'utilisateur (influencée par l'interface, le
+classement, la popularité), ou encore être liés à l'évaluation du
+modèle (biais émergent et biais d'évaluation).
+Face à cette complexité, la notion d'équité elle-même est plurielle et
+son application dépend fortement du contexte. Mehrabi et al. 26
+proposent une taxonomie des définitions de l'équité, distinguant :
+● L'équité individuelle, qui vise à traiter de manière similaire des
+individus similaires (par exemple, l'équité par la conscience 
+fairness through awareness – ou l'équité contrefactuelle).
+● L'équité de groupe, qui cherche à assurer des résultats
+équivalents entre différents groupes protégés (par exemple, la
+parité démographique ou statistique, l'égalité des chances,
+l'égalité des odds, l'égalité de traitement, l'équité du test ou
+calibration).
+● L'équité de sous-groupe, qui tente de combiner les propriétés
+des deux précédentes. Il est crucial de noter qu'il est souvent
+impossible de satisfaire simultanément toutes ces définitions de
+l'équité.26
+Barocas et Selbst 38 ont analysé en détail les mécanismes par
+lesquels le data mining peut conduire à un impact disparate,
+c'est-à-dire à des résultats disproportionnellement négatifs pour
+des classes protégées, même en l'absence d'intention
+discriminatoire. Ils identifient cinq mécanismes principaux : (1) la
+définition de la "variable cible" et des "étiquettes de classe", dont la
+subjectivité peut intrinsèquement désavantager certains groupes ;
+(2) les données d'entraînement biaisées, que ce soit par un
+étiquetage reflétant des préjugés antérieurs ou par une collecte de
+données non représentative ou erronée ; (3) la sélection des
+
+
+ caractéristiques (features), où l'omission de facteurs importants
+pour certains groupes peut nuire à la justesse des prédictions les
+concernant ; (4) l'utilisation de "proxies", c'est-à-dire de critères
+pertinents pour la tâche mais fortement corrélés à l'appartenance à
+une classe protégée ; et (5) le masquage (masking), qui correspond
+à une dissimulation intentionnelle de la discrimination. Ces
+mécanismes illustrent comment une IA, même se voulant "objective",
+peut hériter et amplifier les biais sociaux si les données ou les
+définitions initiales sur lesquelles elle se fonde sont elles-mêmes
+biaisées.38
+L'omniprésence et la diversité des sources de biais, telles que
+détaillées par Mehrabi et al., combinées aux mécanismes subtils de
+l'impact disparate mis en lumière par Barocas et Selbst, rendent la
+discrimination algorithmique particulièrement insidieuse et difficile à
+éradiquer. La neutralité technique apparente des algorithmes peut
+en réalité masquer de profondes injustices systémiques. L'inventaire
+exhaustif des multiples façons dont le biais peut s'infiltrer dans les
+systèmes d'IA – depuis la collecte des données (biais de
+représentation, historique) jusqu'à la conception de l'algorithme et
+l'interaction avec l'utilisateur 26 – et la démonstration par Barocas et
+Selbst 38 de la manière dont des processus apparemment neutres de
+data mining peuvent avoir des conséquences discriminatoires non
+intentionnelles mais systémiques, révèlent conjointement que la
+discrimination algorithmique n'est pas un simple "bug" technique
+facile à corriger. Il s'agit plutôt d'un problème profondément
+enraciné dans les données (qui sont le reflet de la société) et dans
+les méthodologies mêmes de l'apprentissage automatique. L'idée
+que les algorithmes sont "objectifs" parce qu'ils sont basés sur des
+mathématiques est un leurre si les données d'entrée sont le produit
+d'inégalités historiques ou si les objectifs assignés aux algorithmes
+
+
+ (par exemple, maximiser les clics, prédire la récidive sur la base de
+données passées) incorporent implicitement ces inégalités. Par
+conséquent, la lutte contre la discrimination algorithmique exige plus
+que des ajustements techniques ; elle nécessite une réflexion
+critique sur les données utilisées, les objectifs des systèmes, et les
+définitions de l'équité que nous souhaitons promouvoir, tout en
+reconnaissant qu'il n'y a pas de solution unique ou parfaite, comme
+en témoigne la multiplicité des définitions de l'équité.26
+Le tableau suivant récapitule certaines sources de biais et stratégies
+d'atténuation :
+Tableau 3 : Tableau Récapitulatif des Sources de Biais et des
+Stratégies d'Atténuation en Apprentissage Automatique
+Source de Biais (Mehrabi et al. )
+Description Brève du Biais
+Exemple Illustratif
+Phase d'Atténuati on (Pré-, Pendant, Post-traite ment)
+Exemples de Méthodes d'Atténuati on (Mehrabi et al. )
+Biais de Mesure
+Erreurs systématiqu es dans la façon dont les données sont mesurées ou générées.
+Utiliser les arrestations antérieures comme proxy de la "dangerosité "
+(COMPAS).26
+Pré-traiteme nt
+Amélioration des protocoles de collecte, choix de variables moins sujettes aux biais.
+
+
+ Biais de Représentati on
+Échantillon d'entraînem ent ne reflétant pas la diversité de la population cible.
+Surreprésen tation des cultures occidentales dans ImageNet.26
+Pré-traiteme nt
+Rééchantillo nnage, augmentatio n de données pour les groupes sous-représ entés, collecte de données plus diversifiées.
+Biais Historique
+Perpétuatio n des inégalités sociétales passées encodées dans les données.
+Moins d'images de femmes PDG dans les résultats de recherche, reflétant la réalité historique.26
+Pré-traiteme nt, Pendant le traitement
+Réétiquetag e des données, techniques de débiaisemen t des représentati ons (word embeddings ), ajustement des algorithmes.
+Biais Algorithmiqu e
+Biais introduit par l'algorithme lui-même (ex: fonction d'optimisatio
+Un algorithme favorisant la simplicité peut ignorer des nuances
+Pendant le traitement
+Modification de la fonction de coût, ajout de contraintes
+
+
+ n). importantes pour certains groupes.
+d'équité, régularisatio n.
+Biais d'Interaction Utilisateur (ex: Biais de Classement)
+Les utilisateurs interagissen t davantage avec les éléments mieux classés, renforçant leur popularité.
+Les premiers résultats de recherche reçoivent plus de clics, indépendam ment de leur pertinence absolue.26
+Pendant le traitement, Post-traitem ent
+Diversificati on des résultats présentés, techniques de réordonnanc ement pour l'équité.
+Biais d'Agrégation (Paradoxe de Simpson)
+Une tendance observée dans les données agrégées disparaît ou s'inverse dans les sous-groupe s.
+Apparente discriminatio nà l'embauche au niveau global qui disparaît par départemen
+t.26
+Pré-traiteme nt
+Analyse désagrégée des données, modélisation spécifique aux sous-groupe s.
+B. Bulles de Filtres et "Dark Patterns" : Isolement Informationnel et Manipulation
+Au-delà des biais discriminatoires, les algorithmes peuvent
+également façonner notre environnement informationnel et
+influencer nos comportements de manière problématique. Eli Pariser
+29 a popularisé le concept de "bulle de filtres". Selon lui, la
+
+
+ personnalisation algorithmique du contenu en ligne (résultats de
+recherche, fils d'actualité) conduit à la création d'un "écosystème
+personnel d'information" qui isole intellectuellement les internautes
+en réduisant la diversité des informations et des points de vue
+auxquels ils sont exposés.29 Le mécanisme est simple : les
+algorithmes identifient les préférences des utilisateurs et leur
+proposent un contenu qui y correspond, créant ainsi une forme
+d'"auto-propagande invisible, nous endoctrinant avec nos propres
+idées".30 Ce phénomène peut se produire à l'insu des utilisateurs 30 et
+avoir des conséquences néfastes telles que l'appauvrissement du
+débat civique, une vulnérabilité accrue à la propagande et à la
+manipulation, et une fragmentation sociale pouvant mener à un
+"splinternet" ou une "cyberbalkanisation".30 Bien que la référence à
+Nguyen [Nguyen2020] soit conceptuelle, elle suggère l'impact
+potentiel des algorithmes de plateformes comme YouTube sur ces
+dynamiques.
+Parallèlement, les "dark patterns" (schémas obscurs ou trompeurs)
+désignent des interfaces utilisateur délibérément conçues pour
+tromper, manipuler ou contraindre les utilisateurs à prendre des
+décisions qu'ils n'auraient pas prises autrement, privilégiant souvent
+la valeur pour l'actionnaire au détriment de celle pour l'utilisateur.44
+Ces pratiques peuvent prendre diverses formes : forcer une
+inscription, rendre complexe l'annulation d'un service, utiliser des
+options par défaut intrusives pour la vie privée, ou encore créer un
+sentiment de fausse urgence.45 Elles exploitent fréquemment des
+biais cognitifs 45 et ont été identifiées sur de nombreux sites de
+commerce électronique, applications mobiles, et dans les bannières
+de consentement aux cookies.45 Les implications éthiques sont
+sérieuses, soulevant des questions sur la complicité des concepteurs
+UX dans des pratiques manipulatrices, la subversion de l'autonomie
+
+
+ de l'utilisateur et la validité du consentement éclairé.44
+Les bulles de filtres et les "dark patterns" représentent ainsi deux
+facettes de la manipulation algorithmique qui, ensemble, érodent
+l'autonomie informationnelle et décisionnelle des individus,
+transformant l'environnement numérique en un espace
+potentiellement moins diversifié et plus coercitif. Les bulles de filtres
+29 agissent sur le contenu de l'information : elles limitent passivement
+l'exposition à des perspectives diverses, façonnant la vision du
+monde de l'utilisateur à son insu. Les "dark patterns" 44 agissent sur
+les interactions et les choix : ils manipulent activement le
+comportement de l'utilisateur pour l'orienter vers des actions
+spécifiques, souvent contre ses propres intérêts. Bien que distincts,
+ces deux phénomènes convergent vers un même résultat : une
+réduction de l'agentivité de l'utilisateur dans l'espace numérique.
+L'un en contrôlant ce qu'il voit (et donc ce qu'il pense ou sait), l'autre
+en contrôlant ce qu'il fait. Cette érosion de l'autonomie est d'autant
+plus préoccupante qu'elle est souvent invisible ou subtile, exploitant
+les biais cognitifs 45 et le manque de conscience des mécanismes
+algorithmiques.30 L'enjeu dépasse donc la simple "mauvaise
+conception" d'interface ou la "personnalisation excessive" ; il touche
+à la capacité des individus à prendre des décisions éclairées et à
+participer de manière significative à une société de plus en plus
+médiatisée par les algorithmes. Cela a des implications directes pour
+la démocratie (qualité du débat public) et le bien-être individuel
+(exposition à la manipulation).
+C. Risques de Prédation et de Collusion Algorithmique
+Ezrachi et Stucke 47 explorent comment des algorithmes autonomes
+peuvent s'engager dans des comportements prédateurs ou
+manipulateurs. L'extrait 47, en particulier, met en évidence le risque
+
+
+ de collusion algorithmique : des agents d'IA basés sur
+l'apprentissage par renforcement (RL) peuvent converger vers des
+états collusoires, par exemple en fixant des prix
+supra-concurrentiels, et ce, sans nécessiter de communication
+explicite entre eux. Ces travaux soulignent que les algorithmes ne
+sont pas de simples outils passifs ; ils peuvent devenir des acteurs
+quasi-autonomes capables de développer des stratégies complexes
+ayant des conséquences économiques et sociales négatives,
+souvent difficiles à anticiper ou à réguler par les cadres traditionnels.
+Cela pose des défis considérables aux autorités de la concurrence et
+aux régulateurs.
+Partie V : Cadres Éthiques et de Gouvernance pour une IA
+Responsable
+A. Principes Éthiques Globaux
+Face aux défis posés par l'IA, de nombreuses initiatives ont cherché
+à établir des principes éthiques directeurs. Mittelstadt et al. 48 ont
+cartographié ce débat, soulignant que la délégation croissante de
+décisions aux algorithmes a des conséquences éthiques majeures.
+Ils proposent une carte prescriptive pour organiser la discussion et
+identifier les domaines nécessitant une réflexion approfondie. Floridi
+et al. 24, dans le cadre de l'initiative AI4People, ont proposé un cadre
+pour une "bonne société IA". Ce cadre identifie les opportunités et
+les risques, et énonce cinq principes éthiques fondamentaux : la
+Bienfaisance, la Non-malfaisance, l'Autonomie, la Justice, et un
+nouveau principe crucial, l'Explicabilité, considérée comme
+essentielle pour la réalisation des quatre autres.24
+La Déclaration de Montréal pour un Développement
+Responsable de l'IA 25, issue d'un large forum participatif, énonce
+dix principes et cinquante-neuf recommandations visant à guider le
+
+
+ développement de l'IA dans le respect de la dignité humaine, de
+l'autonomie, de la justice et de la démocratie. Parmi ses principes
+clés figurent le bien-être, le respect de l'autonomie, la protection de
+la vie privée, la solidarité, la participation démocratique, l'équité,
+l'inclusion et la diversité, la prudence et la prévention, la
+responsabilité, et la durabilité.25
+Jobin, Ienca et Vayena 49, en analysant un vaste corpus de lignes
+directrices sur l'IA éthique, ont constaté une convergence mondiale
+autour de cinq principes cardinaux : la transparence, la justice et
+l'équité, la non-malfaisance, la responsabilité et la protection de la
+vie privée.49 Cependant, leur analyse révèle également une
+divergence substantielle quant à l'interprétation de ces principes,
+leur importance relative, les problèmes, domaines ou acteurs
+spécifiques auxquels ils s'appliquent, et surtout, les stratégies
+concrètes de mise en œuvre.49
+Le tableau suivant offre une comparaison des principes éthiques
+issus de différentes sources majeures :
+Tableau 2 : Tableau Comparatif des Principes Éthiques de l'IA
+Principe Floridi et al. 2018
+Déclaration de Montréal 2018
+Jobin et al. 2019 (Convergen ce)
+Biosphere Code 2015
+Bienfaisanc e/ Bien-être
+Oui (Promouvoir le bien-être, préserver la dignité)
+Oui (Principe du bien-être de tous les êtres
+Oui (implicite dans non-malfais ance et
+Oui (Servir l'humanité et la biosphère, innovation
+
+
+ vivants) bénéfices) écologique ment responsable )
+Non-malfai sance / Sécurité / Prévention
+Oui (Vie privée, sécurité, "capability caution")
+Oui (Prudence et prévention)
+Oui (Non-malfai sance)
+Oui (Responsabi lité des impacts, distribution équitable des risques)
+Autonomie Oui (Pouvoir de décider)
+Oui (Respect de l'autonomie)
+Justice / Équité
+Oui (Promouvoir la prospérité, préserver la solidarité)
+Oui (Équité) Oui (Justice et équité)
+Oui (Distribution équitable des bénéfices et des risques)
+Explicabilit é/ Transparen ce
+Oui (Explicabilité :
+intelligibilité et imputabilité)
+Oui (Participatio n
+démocratiqu e inclut intelligibilité, justification)
+Oui (Transparen ce)
+Oui (Algorithmes ouverts, données ouvertes et significative s, transparenc e des opérations)
+
+
+ Responsabi lité / Imputabilit é
+Oui (implicite dans Explicabilité)
+Oui (Responsabi lité)
+Oui (Responsabi lité)
+Oui (Avec de grands pouvoirs viennent de grandes responsabilit és)
+Vie Privée Oui (partie de Non-malfais ance)
+Oui (Protection de la vie privée et de l'intimité)
+Oui (Vie privée)
+Oui (Données personnelles , information sur la collecte)
+Durabilité Oui
+(Soutenir la planète, partie de Bienfaisance )
+Oui (Durabilité)
+Oui (Primordial : transformati ons vers la durabilité, innovation écologique ment responsable )
+Solidarité Oui (partie de Justice)
+Oui (Solidarité)
+Participatio n
+Démocratiq ue
+Oui (Participatio n
+démocratiqu e, examen et contrôle
+
+
+ démocratiqu es)
+Diversité / Inclusion
+Oui (Inclusion et diversité)
+Flexibilité / Adaptabilit é
+Oui (Flexibles, adaptatifs, conscients du contexte)
+Malgré une convergence apparente autour de principes éthiques
+clés pour l'IA (transparence, justice, non-malfaisance, responsabilité,
+vie privée), leur opérationnalisation concrète reste un défi majeur en
+raison des divergences d'interprétation et de l'absence de
+mécanismes de mise en œuvre contraignants. Cela souligne le
+passage difficile de l'éthique "sur papier" à l'éthique "en pratique".
+Plusieurs initiatives identifient un ensemble commun de valeurs ou
+de principes éthiques souhaitables pour l'IA.24 Jobin et al. 49
+confirment cette convergence mais soulignent une "divergence
+substantielle" dans l'interprétation et l'application. Par exemple, que
+signifie concrètement la "justice" algorithmique? Comment la
+mesurer? Qui est "responsable" en cas de défaillance d'un système
+complexe? La plupart de ces lignes directrices sont des instruments
+de "soft law" 51, non contraignants légalement, ce qui pose la
+question de leur effectivité. La Déclaration de Montréal 25 est par
+ailleurs critiquée pour ne pas aborder les usages malveillants de l'IA
+(comme dans la guerre ou la surveillance) et pour manquer de
+directives spécifiques pour son application et son contrôle. Par
+conséquent, le défi actuel n'est plus tant de définir quels principes
+
+
+ éthiques devraient guider l'IA, mais comment les traduire en
+pratiques de conception, en normes techniques, en cadres
+réglementaires et en mécanismes de surveillance et de recours
+efficaces. Sans cela, les principes risquent de rester des déclarations
+d'intention louables mais sans impact réel sur le développement et le
+déploiement de l'IA.
+B. Codes de Conduite Professionnels
+Les organisations professionnelles ont également élaboré des codes
+d'éthique pour guider la pratique de leurs membres. Le "Software
+Engineering Code of Ethics and Professional Practice", adopté
+conjointement par l'ACM et l'IEEE-CS 53, vise à assurer une
+expérience équitable et inclusive, libre de harcèlement et de
+discrimination pour tous les utilisateurs de logiciels.53 Il s'articule
+autour de huit principes fondamentaux : l'Intérêt public, le Client et
+l'Employeur, le Produit, le Jugement, la Gestion, la Profession, les
+Collègues, et le Soi-même (développement personnel continu).54
+L'intérêt public, englobant la santé, la sécurité et le bien-être, y est
+considéré comme la préoccupation primordiale.54 De même, le Code
+d'Éthique de l'IEEE 55 encourage ses membres à éviter les actions
+qui pourraient nuire à la société, particulièrement dans le contexte
+des technologies émergentes, et insiste sur le traitement
+respectueux et digne de tous les individus, ainsi que sur la promotion
+de l'inclusivité et de la diversité dans les environnements
+professionnels.55 Ces codes fournissent des cadres déontologiques
+importants pour les professionnels impliqués dans la conception et
+le développement de systèmes d'IA, les incitant à une pratique
+responsable.
+C. Cadres de Gestion des Risques en IA
+Pour traduire les principes éthiques en actions concrètes, divers
+
+
+ cadres de gestion des risques spécifiques à l'IA ont été développés.
+Le site Engineering.com 56 identifie des risques courants dans les
+projets d'IA, tels qu'un énoncé d'opportunité inexact, des données
+insuffisantes ou de mauvaise qualité, une mauvaise utilisation de la
+technologie IA, ou une estimation floue des bénéfices, et propose
+des mesures d'atténuation pour chacun.
+Le NIST AI Risk Management Framework (AI RMF) 3 est un cadre
+volontaire conçu pour aider les organisations à identifier, analyser et
+atténuer les risques associés au déploiement et à l'exploitation des
+systèmes d'IA. Son objectif est de protéger les individus et les
+organisations, d'assurer un développement éthique et responsable,
+de bâtir la confiance, de faciliter la conformité aux réglementations
+émergentes, et de maximiser les bénéfices de l'IA tout en minimisant
+ses impacts négatifs.3 Ses composantes clés incluent l'identification
+et l'évaluation des risques sous leurs diverses formes (techniques,
+éthiques, sociaux, légaux). Il s'agit d'une approche structurée mais
+adaptable, de nature non réglementaire, applicable globalement, et
+qui met l'accent sur l'engagement des parties prenantes.3
+De son côté, Google a développé son Secure AI Framework
+(SAIF) 4, un cadre conceptuel visant à sécuriser les systèmes d'IA, en
+particulier l'IA générative. Le SAIF repose sur six éléments centraux :
+étendre les fondations de sécurité existantes à l'écosystème IA ;
+étendre les capacités de détection et de réponse aux menaces ;
+automatiser les défenses ; harmoniser les contrôles au niveau de la
+plateforme ; adapter les contrôles pour permettre des boucles de
+rétroaction rapides ; et contextualiser les risques liés à l'IA au sein
+des processus métier environnants.4 L'objectif est d'intégrer la
+sécurité et la protection de la vie privée dès la phase de conception
+(security and privacy by design).4
+
+
+ Ces cadres offrent des approches méthodologiques pour passer des
+principes éthiques abstraits à une gestion concrète des risques tout
+au long du cycle de vie de l'IA. Ils sont essentiels pour
+l'opérationnalisation d'une IA responsable. Le tableau suivant, basé
+sur les informations de 3, compare certains de ces cadres :
+Tableau 1 : Tableau Comparatif des Cadres de Gestion des
+Risques en IA
+Caractéri stique
+NIST AI RMF
+EU AI Act IEEE EAD MITRE ATLAS
+Google SAIF
+Portée Guide
+volontaire pour les organisati ons, gestion pratique des risques sur le cycle de vie de l'IA.
+Loi visant à
+protéger les citoyens de l'UE et les droits fondamen taux.
+Lignes directrice s
+éthiques à portée mondiale, accent sur les impacts sociétaux à long terme.
+Suggestio n de cadre réglement aire et matrice des menaces de sécurité pour les systèmes d'IA.
+Cadre pratique de sécurité pour le développ ement et le déploiem ent de l'IA.
+Catégori sation des Risques
+Cadre flexible sans catégoris ation explicite.
+Catégoris ation explicite des risques (inaccept able,
+Se concentre sur les risques éthiques dans divers
+Catégoris ation détaillée des menaces de sécurité
+Catégoris e
+implicite ment les risques à travers les
+
+
+ élevé, limité, minime).
+domaines .
+de l'IA dans la matrice ATLAS.
+phases de développ ement, déploiem ent, exécution et surveillan ce.
+Approch e
+d'Implém entation
+Processu s
+structuré mais adaptable .
+Prescrit des exigences spécifiqu es basées sur le niveau de risque.
+Offre des principes, laissant les détails d'implém entation aux praticiens .
+Suggère des approche s
+réglement aires et fournit des guides d'implém entation de sécurité détaillés.
+Approche pratique, étape par étape, autour de piliers clés.
+Nature Régleme ntaire
+Non réglement aire, guide volontaire .
+Cadre réglement aire avec implicatio ns légales.
+Lignes directrice s
+éthiques non réglement aires.
+Suggère un cadre réglement aire mais n'est pas une réglement ation en
+Cadre de bonnes pratiques non réglement aire.
+
+
+ soi.
+Focus Géograp hique
+Développ é aux États-Uni s mais applicabl e
+mondiale ment.
+Centré sur l'UE mais avec un impact mondial potentiel.
+Explicite ment de portée mondiale.
+Développ é aux États-Uni s mais applicabl e
+mondiale ment.
+Développ é par une entrepris e
+mondiale, applicabl e
+internatio nalement.
+Engagem ent des Parties Prenante s
+Met l'accent sur l'implicati on des parties prenantes .
+Implique diverses parties prenantes dans le processu s
+réglement aire.
+Met un accent particulier sur les diverses perspecti ves mondiale s.
+Encourag e la collaborat ion entre gouverne ment, industrie et université s.
+Principale ment axé sur l'impléme ntation organisati onnelle.
+Les cadres de gestion des risques en IA, tels que ceux du NIST et de
+Google, tentent d'opérationnaliser l'"heuristique de la peur" de
+Jonas et les principes de prudence en fournissant des
+méthodologies structurées pour anticiper et atténuer les dommages
+potentiels. Jonas 1 préconise de donner la priorité à la "prophétie de
+malheur" face à l'incertitude technologique, et la Déclaration de
+Montréal 25 insiste sur la prudence et la prévention (Principe 8). Les
+cadres comme le NIST AI RMF 3 et Google SAIF 4 visent explicitement
+à "identifier, analyser et atténuer les risques" et à "sécuriser les
+systèmes d'IA" en amont et tout au long de leur cycle de vie. Leurs
+composantes (identification des risques, évaluation des impacts,
+
+
+ automatisation des défenses, etc.) sont des tentatives de
+systématiser une approche prudentielle. Par exemple, le NIST RMF
+cherche à "maximiser les bénéfices de l'IA tout en minimisant les
+impacts négatifs".3 Cependant, beaucoup de ces cadres sont
+"volontaires".3 Leur impact réel dépend donc de la volonté des
+organisations de les adopter et de les appliquer rigoureusement. De
+plus, l'IA, en particulier l'IA générative 57, évolue très rapidement. Ces
+cadres doivent donc être dynamiques et adaptables ("adapter les
+contrôles pour des boucles de rétroaction rapides"4) pour rester
+pertinents face à de nouvelles menaces et capacités émergentes.
+L'enjeu est de savoir si cette "course" entre l'innovation et la gestion
+des risques peut être gagnée par des approches largement
+volontaires.
+Partie VI : Enjeux Juridiques et Réglementaires à l'Ère
+Algorithmique
+A. Réguler par Robot : La Prise de Décision Administrative Automatisée
+L'utilisation croissante d'algorithmes d'apprentissage machine par
+les agences gouvernementales pour orienter ou prendre des
+décisions en matière de réglementation et d'adjudication soulève
+d'importantes questions juridiques.59 Coglianese et Lehr 59 ont
+examiné l'adéquation de cette "régulation par robot" avec les
+doctrines établies du droit administratif et constitutionnel américain.
+Concernant la non-délégation, ils estiment que l'utilisation
+d'algorithmes par les agences peut être conforme si le Congrès
+fournit un "principe intelligible" guidant leur action et si les
+fonctionnaires humains conservent un contrôle ultime sur le
+processus.59 Les algorithmes sont alors perçus comme des outils de
+mesure au service de l'administration. Pour ce qui est du due
+process (droit à une procédure équitable), l'adjudication
+
+
+ algorithmique est analysée à l'aune du test de Mathews v. Eldridge.
+Si les algorithmes peuvent réduire les erreurs humaines et les coûts
+administratifs, leur nature de "boîte noire" pose des défis
+significatifs au droit à la contradiction et au contre-interrogatoire
+des preuves ou des logiques décisionnelles. La mise en place
+d'experts neutres ou de processus de validation en amont pourrait
+s'avérer nécessaire.59 En matière d'égalité de protection et de
+non-discrimination, Coglianese et Lehr suggèrent que l'inclusion de
+variables démographiques dans les algorithmes ne déclencherait
+pas nécessairement un contrôle juridictionnel strict (heightened
+scrutiny), car les effets de ces variables ne seraient pas
+uniformément avantageux ou désavantageux pour une classe entière
+d'individus. L'intention discriminatoire serait également difficile à
+prouver. La révision se ferait probablement sous le standard plus
+souple de la "base rationnelle" (rational basis review).59 Enfin, en ce
+qui concerne la transparence, bien que les agences puissent
+expliquer comment les algorithmes optimisent leurs fonctions
+objectives, des exemptions au Freedom of Information Act (FOIA)
+(par exemple, pour secret commercial ou pour des raisons
+d'application de la loi) pourraient s'appliquer. Néanmoins, de bonnes
+pratiques de divulgation sont encouragées.59 Coglianese et Lehr
+concluent avec un "optimisme mesuré", estimant que l'utilisation
+gouvernementale de l'apprentissage machine peut s'inscrire dans
+les paramètres légaux conventionnels et offrir des avantages en
+termes d'efficacité et de justice, à condition que des garanties
+adéquates soient mises en place.59
+L'analyse de Coglianese et Lehr sur la compatibilité de la "régulation
+par robot" avec le droit administratif existant, bien qu'optimiste,
+sous-estime potentiellement la rupture introduite par l'opacité et
+l'autonomie adaptative des algorithmes d'apprentissage machine, en
+
+
+ particulier au regard des exigences de motivation des décisions et
+du droit à une contestation effective pour les citoyens. Leur
+argumentation repose souvent sur l'idée que les algorithmes sont
+des "outils de mesure" ou que les fonctionnaires humains "gardent le
+contrôle ultime".59 Cette vision peut être mise à l'épreuve par la
+nature même de certains algorithmes d'apprentissage machine,
+notamment l'apprentissage profond. L'opacité de la "boîte noire",
+même si l'on peut expliquer comment l'algorithme optimise une
+fonction, rend souvent impossible d'expliquer pourquoi une décision
+spécifique a été prise pour un cas individuel en termes de causalité
+compréhensible par un humain. Cela rend la "motivation" de la
+décision administrative très différente de celle d'une décision
+humaine. De plus, l'autonomie adaptative des modèles, qui peuvent
+évoluer avec de nouvelles données, signifie que si le modèle change
+de manière significative après sa validation initiale, le "contrôle
+ultime" des humains peut devenir illusoire si ces changements ne
+sont pas constamment surveillés et compris. Le droit à une
+procédure équitable (due process), notamment le droit de
+comprendre les raisons d'une décision défavorable et de la contester
+efficacement, est fondamental. Si la logique de la décision est
+inaccessible ou incompréhensible, ce droit est vidé de sa substance.
+L'idée d'experts statistiques neutres 59 est une piste, mais sa mise en
+œuvre à grande échelle est complexe. Par conséquent, plutôt qu'une
+simple adaptation, la "régulation par robot" pourrait nécessiter une
+révision plus profonde des doctrines du droit administratif pour
+garantir que les principes de responsabilité, de transparence et de
+contestabilité ne soient pas érodés par la complexité technique.
+B. Défis Probatoires et Systèmes de Justice
+L'intégration de l'IA dans le système judiciaire soulève également des
+défis spécifiques. L'article de Silverman 6262 aborde la question de
+
+
+ l'accès public aux archives judiciaires via Internet dans le contexte
+des systèmes d'information de la justice, soulevant des enjeux de vie
+privée, de sécurité et d'équité dans l'accès à l'information judiciaire.
+De son côté, Sites 63 analyse les défis posés par les "accusateurs
+robotiques" et la preuve générée par machine aux règles de la
+preuve en matière pénale. Il souligne que les machines sont faillibles
+– sujettes à des erreurs de conception, des erreurs d'opération ou
+des manipulations – et ne méritent donc pas une confiance
+aveugle.63 Les questions clés qu'il soulève concernent les droits de
+l'accusé face à un "accusateur robotique", les modalités
+d'authentification de la preuve générée par machine, et les
+conséquences de la qualification de ces "déclarations" de machines
+comme étant non assujetties aux règles sur le ouï-dire
+(non-Hearsay).63
+L'intégration de l'IA dans le système judiciaire, que ce soit pour la
+gestion des informations ou comme source de preuve, crée une
+tension entre la promesse d'efficacité et le risque d'une justice
+déshumanisée, où les garanties procédurales et les droits
+fondamentaux pourraient être compromis par la complexité et
+l'apparente objectivité des machines. L'utilisation de systèmes
+d'information judiciaire automatisés peut améliorer l'accès à la
+justice et l'efficacité, mais soulève des enjeux d'équité dans l'accès
+et de protection des données sensibles. L'admission de preuves
+générées par des machines dans les procès pénaux pose des défis
+fondamentaux aux règles de la preuve (authentification,
+confrontation, fiabilité). La "faillibilité" des machines 63 et leur nature
+de "boîte noire" peuvent rendre difficile pour la défense de contester
+efficacement une preuve algorithmique, potentiellement
+déséquilibrant le procès. Si les juges ou les jurés accordent une
+
+
+ confiance excessive à la "machine" 63, cela peut conduire à des
+erreurs judiciaires. Cette évolution vers une "justice algorithmique"
+risque d'éroder des principes tels que le droit à un procès équitable,
+la présomption d'innocence et la nécessité d'une décision humaine
+motivée et compréhensible, surtout si les aspects techniques ne
+sont pas maîtrisés par les acteurs judiciaires. La question de la
+"responsabilité" de la machine ou de ses concepteurs en cas
+d'erreur devient également centrale.
+C. Perspectives Historiques sur la Responsabilité : Les Procès d'Animaux
+Un détour par l'histoire du droit peut offrir des perspectives
+éclairantes, bien que distantes, sur la question de l'imputabilité des
+agents non humains. Cohen 64 et Evans 66 documentent la pratique
+historique, du Moyen Âge jusqu'au XVIIIe ou XIXe siècle en Europe,
+des procès d'animaux. Ces derniers étaient formellement poursuivis
+en justice pour des crimes tels que l'homicide ou la destruction de
+récoltes, tant devant des tribunaux séculiers qu'ecclésiastiques.64
+Ces procès respectaient des procédures judiciaires rigoureuses,
+incluant la présence d'avocats, l'audition de témoins, et
+aboutissaient à des sentences formelles comme l'excommunication
+ou l'exécution.65 Les justifications de ces pratiques étaient d'ordre
+théologique et légal : interprétation littérale de textes bibliques (par
+exemple, Exode xxi, 28 sur le bœuf qui sera lapidé), affirmation de la
+hiérarchie divine plaçant l'homme au-dessus de l'animal, et
+nécessité de restaurer l'ordre social perturbé par l'acte de l'animal.64
+Les animaux pouvaient être perçus comme des instruments de Dieu
+ou, au contraire, du Diable.64
+Bien que ces procès puissent paraître aujourd'hui insolites, ils
+reflètent une tentative des sociétés de l'époque de trouver un
+responsable et de donner un sens à des événements perturbateurs
+
+
+ impliquant des agents non humains. Ils soulèvent des questions sur
+les notions de personnalité juridique, d'intentionnalité et de
+responsabilité pour des entités non humaines. Un parallèle, à manier
+avec prudence, peut être établi avec les débats contemporains : face
+aux dommages causés par des systèmes d'IA de plus en plus
+autonomes et opaques, notre société cherche également à attribuer
+des responsabilités. La question "qui est responsable quand une IA
+commet une erreur?" fait écho, d'une certaine manière, à la question
+de la culpabilité de l'animal. Evans lui-même 67, tout en adoptant un
+ton critique envers ces procès, les utilisait pour argumenter en
+faveur des droits des animaux et contre le réductionnisme de
+l'anthropologie criminelle de son temps.
+Les procès d'animaux, bien que relevant d'un contexte
+socio-juridique révolu, peuvent servir de miroir historique pour
+réfléchir aux défis contemporains de l'attribution de la responsabilité
+et de l'imputabilité face à des agents non humains (ou
+quasi-autonomes comme certaines IA) qui causent des dommages.
+Ils illustrent la tendance humaine à chercher des cadres de justice
+même face à des acteurs dont l'intentionnalité est discutable. Ces
+procès appliquaient des formes juridiques humaines à des
+non-humains, dans une tentative de restaurer un ordre perçu comme
+violé.64 Ils impliquaient une forme d'attribution de "culpabilité" ou du
+moins de "causalité répréhensible" à l'animal. Aujourd'hui, face à des
+systèmes d'IA qui prennent des décisions complexes avec des
+conséquences parfois graves (biais, accidents, manipulations), la
+question de la responsabilité est centrale : le programmeur?
+L'utilisateur? L'entreprise? Le système lui-même (si on lui accorde
+une forme d'agentivité)? Bien que l'IA ne soit pas un animal, la
+difficulté à cerner un "coupable" humain unique et clairement
+identifiable dans des chaînes causales complexes impliquant des
+
+
+ algorithmes opaques présente une analogie structurelle avec le
+dilemme des juristes médiévaux. L'étude de ces procès historiques
+peut donc nous éclairer non pas sur la "culpabilité" de l'IA, mais sur
+les mécanismes sociaux et juridiques que les sociétés mettent en
+place pour faire face à des préjudices causés par des entités dont le
+statut moral et légal est ambigu. Cela peut nous aider à anticiper les
+types de constructions juridiques ou de fictions légales que nous
+pourrions être amenés à développer pour l'IA.
+Synthèse et Recommandations pour l'Examen Doctoral
+A. Principaux Points de Convergence, de Divergence et de Tension
+L'analyse des références met en lumière plusieurs points de
+convergence notables. Il existe une reconnaissance quasi unanime
+de la nécessité d'une éthique de la responsabilité face à la
+puissance technologique et algorithmique, dans la lignée de Jonas,
+et reprise par des cadres comme ceux de Floridi, la Déclaration de
+Montréal ou le Biosphere Code. Un accord se dégage également sur
+un noyau de principes éthiques pour l'IA, incluant la transparence,
+la justice/équité, la non-malfaisance, la responsabilité et la
+protection de la vie privée, comme le soulignent Jobin, Floridi et la
+Déclaration de Montréal. Le constat de l'opacité fréquente des
+systèmes d'IA et du besoin crucial d'explicabilité (XAI) est partagé
+par des auteurs comme Burkart et Doran. Enfin, la reconnaissance
+que les données et les algorithmes peuvent être biaisés et
+engendrer des discriminations fait l'objet d'un consensus (Mehrabi,
+Barocas & Selbst).
+Cependant, des divergences significatives persistent, notamment sur
+l'interprétation et l'opérationnalisation concrète des principes
+éthiques [Jobin2019]. La perception de la bureaucratie elle-même
+oscille entre un outil rationnel wébérien et un instrument de violence
+
+
+ structurelle selon Graeber, une dualité qui se transpose à
+l'appréhension de la gouvernance algorithmique. Le degré
+d'optimisme ou de pessimisme quant à la capacité des cadres
+légaux existants à encadrer l'IA varie également, opposant par
+exemple la vision de Coglianese et Lehr aux critiques implicites de
+Barocas & Selbst ou de Sites. De même, les définitions de l'équité
+et les meilleures stratégies pour l'atteindre demeurent un sujet de
+débat [Mehrabi2021].
+Ces convergences et divergences génèrent des tensions
+fondamentales : entre l'innovation technologique et l'efficacité
+d'une part, et les impératifs éthiques et la prudence d'autre part
+(illustrée par Jonas et les cadres de gestion des risques). Une autre
+tension oppose la personnalisation et l'utilité des algorithmes aux
+risques de bulles de filtres et de manipulation (Pariser, Gray).
+L'objectivité apparente des algorithmes se heurte aux biais et
+discriminations systémiques qu'ils peuvent masquer ou amplifier.
+Le besoin de transparence et d'explicabilité se confronte à la
+complexité technique et à la protection de la propriété
+intellectuelle des algorithmes. Enfin, la "Rule by Nobody" induite
+par la gouvernance algorithmique entre en conflit avec l'exigence
+d'une responsabilité humaine clairement identifiable.
+B. Questions Transversales et Critiques Clés à Anticiper
+Plusieurs questions transversales et critiques clés émergent de cette
+synthèse et sont susceptibles d'être abordées lors de l'examen :
+● La question de l'intentionnalité : Dans quelle mesure
+l'intention est-elle pertinente pour qualifier un algorithme de
+"discriminatoire" ou une pratique de "manipulatrice"? L'analyse
+de Barocas et Selbst sur l'impact disparate, qui peut survenir
+sans intention, est ici centrale.
+
+
+ ● La dilution de la responsabilité : Comment attribuer la
+responsabilité dans des chaînes causales complexes impliquant
+de multiples acteurs humains et des systèmes algorithmiques
+opaques?
+● Le rôle du droit : Le droit existant est-il suffisant pour
+appréhender les spécificités de l'IA, ou de nouvelles catégories
+juridiques (concernant par exemple la personnalité juridique des
+robots, le statut des données) sont-elles nécessaires?
+● Universalité vs. contextualisation des principes éthiques :
+Comment concilier la recherche de principes universels pour l'IA
+avec la diversité des contextes culturels et la spécificité des
+applications?
+● Le pouvoir des concepteurs : Quel est le rôle et la
+responsabilité des ingénieurs, des designers UX, et des
+entreprises technologiques dans le façonnement des impacts
+sociétaux de l'IA? Les codes de conduite et la problématique des
+"dark patterns" sont ici pertinents.
+● La "solutionnite" technologique : L'IA est-elle toujours la
+meilleure solution à un problème donné? Comment éviter de
+créer de nouveaux problèmes en cherchant à en résoudre
+d'anciens par la technologie, comme le soulève la question de
+l'énoncé d'opportunité dans les projets d'IA
+[EngineeringCom2025]?
+● Justice procédurale vs. justice substantielle : Les efforts
+pour rendre les algorithmes "équitables" se concentrent-ils
+suffisamment sur la correction des inégalités de fond, ou se
+limitent-ils à des ajustements procéduraux? La distinction de
+Barocas et Selbst entre les approches d'anticlassification et
+d'antisubordination est éclairante à cet égard.
+C. Pistes de Réflexion pour Approfondir Votre Analyse et Formuler des Arguments
+
+
+ Originaux
+Pour enrichir votre réflexion et développer des arguments originaux,
+plusieurs pistes peuvent être explorées :
+● Le dialogue interdisciplinaire : Comment les concepts issus de
+la sociologie (Weber, Graeber), de la philosophie (Jonas, Floridi),
+du droit et de l'informatique peuvent-ils s'enrichir mutuellement
+pour une compréhension plus holistique des enjeux? Par
+exemple, comment l'analyse de la "violence structurelle" de
+Graeber s'applique-t-elle aux "biais historiques" encodés dans
+les données d'entraînement des algorithmes?
+● L'éthique de la conception (Ethics by Design) : Au-delà des
+codes de conduite et des cadres de gestion des risques
+appliqués a posteriori, comment intégrer les considérations
+éthiques dès les premières phases de conception et de
+développement des systèmes d'IA?
+● Les "communs numériques" : Face à la privatisation des
+données et des algorithmes, quelle place pour des approches
+fondées sur les communs (données ouvertes, algorithmes open
+source – évoqués par le Biosphere Code et la Déclaration de
+Montréal) pour promouvoir une IA plus démocratique et
+équitable?
+● L'éducation et la littératie algorithmique : Quel rôle
+l'éducation des citoyens et des professionnels peut-elle jouer
+dans le développement d'une compréhension critique des
+algorithmes et de leurs impacts? La Déclaration de Montréal
+insiste sur l'accès à la connaissance et le développement de la
+pensée critique.
+● Votre positionnement original : En fonction de votre sujet de
+thèse spécifique, identifiez les références qui offrent les leviers
+les plus puissants pour étayer votre propre argumentation. Y
+
+
+ a-t-il des "angles morts" dans la bibliographie fournie que votre
+recherche pourrait contribuer à éclairer?
+D. Recommandations Spécifiques pour l'Examen
+Pour aborder l'examen doctoral avec succès :
+● Maîtrisez les auteurs clés : Soyez capable de présenter
+succinctement la thèse centrale de Jonas, Weber, Graeber,
+Floridi, Pariser, Barocas & Selbst, et Mehrabi et al.
+● Faites des liens : Démontrez votre capacité à tisser des liens
+conceptuels entre les auteurs et les idées (par exemple,
+comment l'heuristique de la peur de Jonas informe la nécessité
+de l'XAI ou des cadres de gestion des risques).
+● Illustrez avec des exemples : Utilisez des exemples concrets,
+tirés des textes ou de l'actualité, pour rendre les concepts
+abstraits plus tangibles (exemples de biais, de "dark patterns",
+de décisions algorithmiques problématiques).
+● Adoptez une posture critique : Ne vous contentez pas de
+résumer les arguments ; évaluez leur portée, leurs limites, leurs
+points forts et leurs points faibles.
+● Structurez votre pensée : Utilisez les grands thèmes identifiés
+dans ce rapport (éthique, pouvoir, explicabilité, impacts,
+gouvernance, droit) pour organiser vos réponses. Les tableaux
+comparatifs proposés peuvent servir de base à cette
+structuration.
+● Anticipez les questions sur l'opérationnalisation : De
+nombreux principes éthiques sont énoncés ; soyez prêt à
+discuter des défis concrets de leur mise en œuvre.
+● Reliez à votre propre recherche : Si cela est pertinent,
+n'hésitez pas à faire des ponts avec votre sujet de thèse pour
+montrer comment ces lectures nourrissent et éclairent votre
+
+
+ propre réflexion.
+Cette synthèse analytique a cherché à mettre en lumière les
+articulations complexes entre les différentes œuvres et les enjeux
+qu'elles soulèvent. L'objectif d'un examen doctoral est de démontrer
+non seulement une connaissance approfondie des textes, mais
+surtout une capacité à penser de manière critique et articulée avec
+et à partir d'eux.
+Ouvrages cités
+1. Forty years after the „Imperative of Responsibility“ – Ethics of technology choice in times of eroding planetary boundaries - German Institute of Development and Sustainability (IDOS), dernier accès : juin 6, 2025, https://www.idos-research.de/en/events/details/the-imperative-of-responsibilityunderstanding-hans-jonas/ 2. Principe de responsabilité : définition et vision selon Hans Jonas ..., dernier accès : juin 6, 2025, https://www.novethic.fr/lexique/detail/le-principe-de-responsabilite-une-ethiqueecologique.html 3. AI Risk Management Framework - Palo Alto Networks, dernier accès : juin 6, 2025, https://www.paloaltonetworks.com/cyberpedia/ai-risk-management-framework 4. Google's Secure AI Framework (SAIF), dernier accès : juin 6, 2025, https://safety.google/intl/en_au/cybersecurity-advancements/saif/ 5. The Biosphere Code — Dark Machines, dernier accès : juin 6, 2025, https://darkmachines.earth/blog/the-biosphere-code 6. Wirtschaft und Gesellschaft. Gesamtregister (Max Weber Gesamtausgabe I/25) by , , (review) - Project MUSE, dernier accès : juin 6, 2025, https://muse.jhu.edu/article/808682/summary 7. Weberian Bureaucracy | Oxford Research Encyclopedia of Politics, dernier accès : juin 6, 2025, https://oxfordre.com/politics/display/10.1093/acrefore/9780190228637.001.0001/a crefore-9780190228637-e-166?d=%2F10.1093%2Facrefore%2F9780190228637.0 01.0001%2Facrefore-9780190228637-e-166&p=emailA2QZtzDMm7QH2 8. Weberian Bureaucracy | Oxford Research Encyclopedia of Politics, dernier accès : juin 6, 2025, https://oxfordre.com/politics/display/10.1093/acrefore/9780190228637.001.0001/a crefore-9780190228637-e-166 9. Bureaucratie : l'analyse de Max Weber - secession.fr, dernier accès : juin 6, 2025, https://secession.fr/bureaucratie-max-weber 10. Bureaucratie, l'utopie des règles — Wikipédia, dernier accès : juin 6, 2025, https://fr.wikipedia.org/wiki/Bureaucratie,_l%27utopie_des_r%C3%A8gles
+
+
+ 11. The Utopia of Rules - Wikipedia, dernier accès : juin 6, 2025, https://en.wikipedia.org/wiki/The_Utopia_of_Rules 12. PDF Summary:The Utopia of Rules, by David Graeber, dernier accès : juin 6, 2025, https://www.shortform.com/pdf/the-utopia-of-rules-pdf-david-graeber 13. David Graeber - Dead zones of the imagination: on violence ..., dernier accès : juin 6, 2025, https://eprints.lse.ac.uk/53222/1/Graeber_Dead_zones_imagination_2012.pdf 14. Dead zones of the imagination: On violence, bureaucracy, and interpretive labor The University of Chicago Press: Journals, dernier accès : juin 6, 2025, https://www.journals.uchicago.edu/doi/pdf/10.14318/hau2.2.007 15. The utopia of rules: on technology, stupidity, and the secret joys of bureaucracy David Graeber | libcom.org, dernier accès : juin 6, 2025, https://libcom.org/article/utopia-rules-technology-stupidity-and-secret-joys-bur eaucracy-david-graeber 16. Dead zones of the imagination: On violence, bureaucracy, and interpretive labor. The 2006 Malinowski Memorial Lecture. | Graeber | HAU: Journal of Ethnographic Theory, dernier accès : juin 6, 2025, https://www.haujournal.org/index.php/hau/article/view/hau2.2.007 17. Toward a Critique of Surveillance in the Age of the Internet: A Reflection on the “Internet and Surveillance” Volume Edited by Fuchs, Boersma, Albrechtslund, and Sandoval - ResearchGate, dernier accès : juin 6, 2025, https://www.researchgate.net/publication/324862837_Toward_a_Critique_of_Surv eillance_in_the_Age_of_the_Internet_A_Reflection_on_the_Internet_and_Surveilla nce_Volume_Edited_by_Fuchs_Boersma_Albrechtslund_and_Sandoval 18. View of A Survey on the Explainability of Supervised Machine Learning | PDF Scribd, dernier accès : juin 6, 2025, https://www.scribd.com/document/811793396/View-of-A-Survey-on-the-Explaina bility-of-Supervised-Machine-Learning 19. www.jair.org, dernier accès : juin 6, 2025, https://www.jair.org/index.php/jair/article/download/12228/26647/25818 20. Interpretable and explainable predictive machine learning models for data-driven protein engineering - bioRxiv, dernier accès : juin 6, 2025, https://www.biorxiv.org/content/10.1101/2024.02.18.580860v1.full.pdf 21. Rhetorical XAI: Explaining AI's Benefits as well as its Use via ... - arXiv, dernier accès : juin 6, 2025, https://arxiv.org/pdf/2505.09862 22. Generalized Artificial Intelligence (AI) Explainability Tool for Object Detection Army SBIR, dernier accès : juin 6, 2025, https://armysbir.army.mil/topics/generalized-artificial-intelligence-ai-explainability -tool-for-object-detection/ 23. Actionable AI: Enabling Non Experts to Understand and Configure AI Systems arXiv, dernier accès : juin 6, 2025, https://arxiv.org/pdf/2503.06803 24. AI4People—An Ethical Framework for a Good AI Society ..., dernier accès : juin 6, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC6404626/ 25. Montreal Declaration for Responsible AI: 10 Principles and 59 ... - OSF, dernier accès : juin 6, 2025, https://osf.io/sj2z5/download
+
+
+ 26. A Survey on Bias and Fairness in Machine Learning - arXiv, dernier accès : juin 6, 2025, http://arxiv.org/pdf/1908.09635 27. Top Research Papers on Recommender Systems - Paperguide, dernier accès : juin 6, 2025, https://paperguide.ai/papers/top/research-papers-recommender-systems/ 28. A Survey of Recommendation Systems: Recommendation Models ..., dernier accès : juin 6, 2025, https://www.mdpi.com/2079-9292/11/1/141 29. www.fondationdescartes.org, dernier accès : juin 6, 2025, https://www.fondationdescartes.org/en/2020/07/filter-bubbles-and-echo-chamb ers/#:~:text=According%20to%20Internet%20expert%20Eli,is%20Hiding%20fro m%20You%2C%20Penguin 30. Filter bubble - Wikipedia, dernier accès : juin 6, 2025, https://en.wikipedia.org/wiki/The_Filter_Bubble 31. The Uses and Limitations of Occam Algorithms: a response to Herrmann PhilSci-Archive, dernier accès : juin 6, 2025, https://philsci-archive.pitt.edu/24910/1/The_Uses_and_Limitations_of_Occam_Alg orithms__response_to_Herrmann__For_Philosophy_of_Science%20%285%29.pdf 32. PAC Learning and Occam's Razor: Probably Approximately Incorrect | Philosophy of Science | Cambridge Core, dernier accès : juin 6, 2025, https://www.cambridge.org/core/journals/philosophy-of-science/article/pac-learn ing-and-occams-razor-probably-approximately-incorrect/E586F0D0C0E3F8403 1FBB326A0A608D0 33. An Empirical Comparison of Cost Functions in Inductive Logic ..., dernier accès : juin 6, 2025, https://arxiv.org/pdf/2503.07554 34. A Syntactic Approach to Prediction, dernier accès : juin 6, 2025, http://www.eecs.qmul.ac.uk/~jwoodward/publications/prediction.pdf 35. Bayesian Model Selection and Model Averaging 1. INTRODUCTION, dernier accès : juin 6, 2025, http://yaroslavvb.com/papers/wasserman-bayesian.pdf 36. Intro — Introduction to Bayesian model averaging - Description - Stata, dernier accès : juin 6, 2025, https://www.stata.com/manuals/bmaintro.pdf 37. Why Does Bagging Work A Bayesian Account and its Implications ..., dernier accès : juin 6, 2025, https://homes.cs.washington.edu/~pedrod/papers/kdd97.pdf 38. Big Data's Disparate Impact - California Courts, dernier accès : juin 6, 2025, https://courts.ca.gov/sites/default/files/courts/default/2024-12/btb24-2l-2.pdf 39. (Open Access) A Survey on Bias and Fairness in Machine Learning (2021) | Ninareh Mehrabi | 2438 Citations - SciSpace, dernier accès : juin 6, 2025, https://scispace.com/papers/a-survey-on-bias-and-fairness-in-machine-learning -52igbyxaaa 40. dernier accès : décembre 31, 1969, https://dl.acm.org/doi/10.1145/3457607 41. Algorithmic Bias and Fairness in Machine Learning: Two Sides of the Same Coin? IRO Journals, dernier accès : juin 6, 2025, https://irojournals.com/jscp/article/pdf/4/4/2 42. Barocas, S., & Selbst, A. D. (2016). Big Data's Disparate Impact. California Law Review, 104, 671-732. - References, dernier accès : juin 6, 2025, https://www.scirp.org/reference/referencespapers?referenceid=3614745
+
+
+ 43. Discrimination, Algorithms and Privacy - Yale Law School, dernier accès : juin 6, 2025, https://law.yale.edu/sites/default/files/area/center/isp/documents/discrimination_al gorithms_and_privacy.pdf 44. (Open Access) The Dark (Patterns) Side of UX Design (2018) | Colin M. Gray SciSpace, dernier accès : juin 6, 2025, https://scispace.com/papers/the-dark-patterns-side-of-ux-design-31hcu3muz5 45. Dark Patterns, dernier accès : juin 6, 2025, https://oar.princeton.edu/bitstream/88435/pr1z256/1/DarkPatterns.pdf 46. Towards a Preliminary Ontology of Dark Patterns Knowledge - Colin M. Gray, PhD, dernier accès : juin 6, 2025, https://colingray.me/wp-content/uploads/2023/03/2023_GraySantosBielova_CHIB LW_OntologyDarkPatterns.pdf 47. Frontiers: Algorithmic Collusion: Supra-competitive Prices via Independent Algorithms, dernier accès : juin 6, 2025, https://www.researchgate.net/publication/348341585_Frontiers_Algorithmic_Collu sion_Supra-competitive_Prices_via_Independent_Algorithms 48. The ethics of algorithms: Mapping the debate - OUCI, dernier accès : juin 6, 2025, https://ouci.dntb.gov.ua/en/works/4aXYdLM7/ 49. The global landscape of AI ethics guidelines - CyberIR@MIT, dernier accès : juin 6, 2025, https://cyberir.mit.edu/site/global-landscape-ai-ethics-guidelines/ 50. Smart Ethics in the Digital World. Proceedings of the ETHICOMP 2024 - Dialnet, dernier accès : juin 6, 2025, https://dialnet.unirioja.es/descarga/articulo/9333574.pdf 51. The global landscape of AI ethics guidelines - Research Collection, dernier accès : juin 6, 2025, https://www.research-collection.ethz.ch/bitstream/20.500.11850/375277/3/s4225 6-019-0088-2.pdf 52. dernier accès : décembre 31, 1969, https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/375277/3 /s42256-019-0088-2.pdf 53. Code of Ethics in Software Engineers | GeeksforGeeks, dernier accès : juin 6, 2025, https://www.geeksforgeeks.org/code-of-ethics-in-software-engineers/ 54. The Software Engineering Code of Ethics and Professional Practice, dernier accès : juin 6, 2025, https://ethics.acm.org/code-of-ethics/software-engineering-code/ 55. library.fiveable.me, dernier accès : juin 6, 2025, https://library.fiveable.me/key-terms/ethics/ieee-code-of-ethics#:~:text=The%20I EEE%20Code%20of%20Ethics%20encourages%20members%20to%20avoid%2 0harmful,and%20diversity%20in%20professional%20environments. 56. How engineers can mitigate AI risks in digital transformation, dernier accès : juin 6, 2025, https://www.engineering.com/how-engineers-can-mitigate-ai-risks-in-digital-tra nsformation/ 57. AI Risk Management Framework | NIST, dernier accès : juin 6, 2025, https://www.nist.gov/itl/ai-risk-management-framework
+
+
+ 58. Google's Secure AI Framework - Google Safety Center, dernier accès : juin 6, 2025, https://safety.google/cybersecurity-advancements/saif/ 59. Regulating by Robot: Administrative Decision Making in the ..., dernier accès : juin 6, 2025, https://www.law.upenn.edu/live/files/6329-coglianese-and-lehr-regulating-by-rob ot-penn-ile 60. Overview of the Application of Machine-Learning in Administrative Law, dernier accès : juin 6, 2025, https://www.acus.gov/newsroom/administrative-fix-blog/overview-application-m achine-learning-administrative-law 61. Artificial Intelligence Education & Governance Preparing Human Intelligence for AI Driven Performance Augmentation * - Rutgers University, dernier accès : juin 6, 2025, https://scholarship.libraries.rutgers.edu/view/pdfCoverPage?instCode=01RUT_INS T&filePid=13778594210004646&download=true 62. Electronic Access to Court Information Law Library, dernier accès : juin 6, 2025, http://www.superiorcourt.maricopa.gov/LawLibrary/docs/PDF/Bibliographies/Elect ronicAccess.pdf 63. Machines Ascendant: Robots and the Rules of Evidence, dernier accès : juin 6, 2025, https://georgetownlawtechreview.org/machines-ascendant-robots-and-the-rule s-of-evidence/GLTR-01-2019/ 64. Esther Cohen | Animals Matter to God, dernier accès : juin 6, 2025, https://animalsmattertogod.com/tag/esther-cohen/ 65. When Societies Put Animals on Trial - JSTOR Daily, dernier accès : juin 6, 2025, https://daily.jstor.org/when-societies-put-animals-on-trial/ 66. The Criminal Prosecution And Capital Punishment Of Animals: Evans, E P Amazon.com, dernier accès : juin 6, 2025, https://www.amazon.com/Criminal-Prosecution-Capital-Punishment-Animals/dp/ 1497856620 67. 27 The Law is an Ass: Reading E.P. Evans' The Medieval ..., dernier accès : juin 6, 2025, https://www.animalsandsociety.org/wp-content/uploads/2015/10/beirnes.pdf 68. "Evidence Teaching Wisdom: A Survey" by Calvin William Sharpe, dernier accès : juin 6, 2025, https://digitalcommons.law.seattleu.edu/sulr/vol26/iss3/6/

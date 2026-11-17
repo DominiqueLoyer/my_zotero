@@ -1,0 +1,141 @@
+Article
+State of the Art in Cross-Lingual Information Retrieval
+Ananthakrishnan Ramanathan
+National Centre for Software Technology Rain Tree Marg, Sector 7, CBD Belapur Navi Mumbai 400614 Email: anand@ncst.ernet.in
+Cross-Lingual Information Retrieval (CLIR) refers to the retrieval of documents that are in a language different from the one in which the query is expressed. This article provides an introduction to the issues involved in CLIR, and surveys the state of the art. The appendix to this article takes a look at the availability of resources for CLIR work in Indian languages.
+1 Introduction
+Cross-Lingual Information Retrieval (CLIR) refers to the retrieval of documents that are in a language different from the one in which the query is expressed. This task has also been termed multilingual, translingual, or cross-language IR by some groups. [Oard, 1997] contains a brief note on the different connotations of these terms and how they came about.
+CLIR is especially important to countries like India where a very large fraction of the population is not conversant with English and consequently does not have access to the vast store of information that is available in English on the Internet. In India, there are also many people who know English, but not fluently enough to be able to formulate queries in it. These are the principal motivations for developing CLIR systems for Indian languages, though there are other situations too in which they are useful. Some examples are [Oard and Dorr, 1996]:
+• A collection contains documents in different languages. Using a CLIR system, a single query could retrieve documents irrespective of the language.
+• A collection contains multi-lingual documents, that is, some documents contain text in two or more languages.
+• A collection contains images with captions in a language that the user is not familiar with.
+In this article, we will look at various approaches to CLIR and the issues involved therein. The appendix contains pointers to places where useful resources for CLIR, such as electronic dictionaries,
+machine translation systems, morphological analyzers etc., can be found. We will use the terms source and target language to refer to the language of the query and that of the documents respectively. Often, in a CLIR system, for the retrieved documents to be useful, the documents would have to be translated to the source language after retrieval. CLIR, per se, refers only to the identification of relevant documents, and does not include the document translation aspect.
+2 Approaches to CLIR
+Intuitively, there are three ways of accomplishing CLIR. One is to translate the query into the target language, the second is to translate the documents into the source language, and the third is to translate both queries and documents to a common representation.
+In the first approach, where isolated words in the query are translated into the target language, the primary problem is that of lexical ambiguity due to lack of adequate context. For example, the word “sonA” in Hindi could translate into “gold” or “sleeping” in English. Despite this problem, query translation is the most feasible approach to CLIR in many situations, as we will see later in this article.
+In the document translation approach, all target languages are translated to the source language. This may be done on an ‘as-and-when-needed’ basis at query time (on-the-fly translation), or all together before any query is processed. Lexical ambiguities are largely avoided in this approach due to the availability of greater context. [Oard, 1998a] contains the results of some experiments with query and document translation based approaches, and,
+Vivek 15.2 1
+
+
+ Article
+not surprisingly, the latter perform significantly better. But, outside of experimental setups, document translation for CLIR is impractical for both on-the-fly translation and pre-translation approaches.
+• on-the-fly translation: Documents that are to be searched are translated at query-time. This approach is infeasible because of the time required for translation and the volume of material to be translated. Also, IR systems generally use indexes to speed up search, and with on-the-fly translation, indexes would not be available, leading to further slowdown.
+• pre-translation: Documents from various collections are translated to all desired source languages and indexed before query-time. Thus, separate storage space is required for the translated documents. It is also necessary here to keep the translated collection consistent with the original, which means that the system would need constant monitoring. Therefore, pre-translation is impossible as a solution for large, distributed collections, which are controlled by different groups of people (as an extreme example, consider the Internet).
+The third approach – translating both queries and documents to a common representation – also requires additional storage space for the translated documents, but this approach provides scalability when the same collection of documents is required in multiple languages, as the additional space requirement is independent of the number of languages supported. Controlled vocabulary systems [Oard and Dorr, 1996] are an early example of such an approach. These systems represent all documents using a pre-defined list of language-independent concepts, and enforce queries in the same concept space. This concept space defines the granularity or precision of searching possible. One major issue with controlled vocabulary systems is that non-expert users usually require some training and also suitable interfaces to the vocabulary (such as a browsable thesaurus) to be able to generate effective queries. Another system that uses an intermediate representation for documents is under development at IIT Bombay [IITB MLASIA projects; IITB MLASIA report]. This system represents documents using an interlingua called the Universal Networking
+Language (UNL) [UNL]. The key advantages of these systems are that queries can be expressed and matched unambiguously, and, as mentioned above, the additional space requirement is independent of the number of languages supported. The main difficulties are in defining the concept space or intermediate representation, and in converting documents to this representation.
+An orthogonal classification of CLIR approaches is based on the standard dichotomy of all natural language processing techniques: knowledge-based and corpus-based (statistical) [Oard, 1998]. The three approaches mentioned earlier can fit into either of these categories depending on whether knowledge-based or corpus-based techniques are used for translation. Exploding the possibilities, then, we arrive at the following classification (in parentheses are example approaches for the categories).
+Knowledge-based:
+• Query translation (using thesauri )
+• Document translation (using grammar rules and dictionaries)
+• Intermediate representation (using a manually constructed multi-lingual concept index )
+Corpus-based:
+• Query translation (pseudo-relevance feedback )
+• Document translation (example-based machine translation)
+• Intermediate representation (latent-semantic indexing )
+This, of course, is an overly simplified view, and CLIR techniques do not always clearly fall into one or the other of the two broad categories knowledge-based and corpus-based; many techniques combine features of both approaches. For instance, corpora may also be used for automatically generating thesauri [Soergel, 1997; Loukachevitch and Dobrov, 2002], or to disambiguate translated query terms based on co-occurrence statistics [Hiemstra and de Jong, 1999] – these could be thought of as hybrid approaches.
+In this article, we will ignore document translation approaches, because these do not present any problems that are specific to CLIR. The
+2 April 2003
+
+
+ Article
+knowledge-based intermediate representation path is of interest and has been discussed briefly earlier. The primary issues in this approach are the design of the multi-lingual thesaurus (or concept index) in controlled vocabulary systems, and interlingua design and conversion to and from the interlingua in the ‘UNL’ approach. See [Oard and Dorr, 1996] for a detailed discussion on controlled vocabulary systems, and [UNL; Leavitt et al, 1994] for more information on the issues involved in interlingua based approaches.
+Thus, in the following discussion, we will focus only on query translation within the knowledge-based approaches. In corpus-based approaches, we will look at three techniques: pseudo-relevance feedback, the generalized vector space model, and latent semantic indexing. We should be able to fit these techniques within the above classification, though, admittedly, with a slight stretch of imagination!
+2.1 Knowledge-Based Approaches
+These approaches use machine-readable bilingual dictionaries [Oard et al, 1998b] or thesauri, possibly with semantic hierarchies and associations (such as wordnets), to generate the target query. The simplest method possible is to just lookup the first dictionary translation of each query term. This might result in the loss of some relevant meanings. For example, if the first entry for a query term “account” is “KAtA” (bank account), whereas the user intended “vivaraNa” (description), the search would obviously yield no useful information. The alternative is to include all possible translations of each term, which would increase recall at the cost of precision. Another issue here is that phrases and idioms lose their meaning when translated word for word. For instance, translating “kick the bucket” to Hindi as “lAta bAlTI ” would lead to unexpected results!
+It is clear that to obtain better results, disambiguation of query terms is required. In general, search queries tend to be short (2-3 terms), due to which disambiguation might not be possible in some cases. But, in many queries, the search terms should be mutually disambiguating. [Hull, 1997] notes that simple conjunction and disjunction (the boolean AND and OR operators) suffice to disambiguate terms in most cases. In a Hindi query, if “sonA” (sleeping or gold) and “KAna” (mine) appear together, the structured query “(gold OR sleeping) AND mine” is likely to give good results.
+It has also been observed [Oard et al, 1998b] that simple techniques such as limiting the translated term to the same part of speech, and including phrase translations (along with word translations) improves CLIR performance significantly.
+Query term disambiguation may be better achieved in some cases by using thesauri or ontologies, such as wordnets, which encode associative and hierarchical relationships between terms. Some thesauri also include probability figures for each sense of a word, which acts as a fallback mechanism in case other disambiguation methods fail. Thesauri can also be used for query expansion, either by automatically adding synonyms, or through user feedback by presenting appropriate thesaurus entries to the user. Query terms can be broadened (e.g. from “snake” to “reptile”) or narrowed (e.g. from “snake” to “viper”) using hypernymy and hyponymy relations in thesauri.
+Some experiments have used existing MT systems to translate queries [Oard et al, 1998b]. As might be expected, this works well only when the queries are long, which is not really typical. Also, this might not be efficient, because the MT system would take much more time for translation than a simple dictionary or thesaurus lookup would.
+2.2 Corpus-based Approaches
+These methods use a parallel corpus of aligned documents to establish a link between the query and the documents. The parallel corpus used is usually document aligned, that is, each document in the source language collection has an identified counterpart in the target language collection.
+Corpus-based approaches can also be termed IR approaches [Carbonell et al, 1997] since these approaches are based on statistical IR models such as the Vector Space Model (VSM) and Latent Semantic Indexing (LSI).
+We will now look at three techniques for CLIR, all of which use a document-aligned parallel training corpus for computing query-document similarity [Carbonell et al, 1997].
+In the following discussion, S refers to the source language training corpus, and T refers to the target language training corpus. E and H refer to term-by-document matrices of S and T respectively. q and d refer to the query and the candidate document respectively.
+Vivek 15.2 3
+
+
+ Article
+Pseudo-Relevance Feedback: This is a straightforward extension of the Relevance Feedback method for mono-lingual IR. The Relevance Feedback method uses a feedback loop in which keywords from the best matching documents in the first round of retrieval are added to the original query. This biases the search towards these documents, thus enhancing the results.
+The extension of Relevance Feedback for CLIR involves the following steps: (i) The query is matched against documents in S using any suitable IR model. (ii) The documents in T that correspond to the best matching documents in S are identified. (iii) The top few keywords of these documents, extracted using a suitable keyword extraction algorithm, are used to query the full target language collection.
+For example, if S is in Hindi and T in English, the query “sonA KAna” should identify documents in S that deal with gold mines. Now, the k most relevant documents of S will identify a set of k documents in T also dealing with gold mines, since S and T are parallel. The most prominent keywords of these documents can now be extracted to yield a query in English. This should now, expectedly, match relevant documents in the English document collection.
+Thus, the pseudo-relevance feedback method is a corpus-based query translation method.
+Generalized Vector Space Model (GVSM): The similarity score in GVSM for comparing a source language query q to a target language document d is:
+similarity(q, d) = cosine(ET q, HT d)
+Here, ET and HT are transposes of E and T respectively.
+As discussed in [Littman and Jiang, 1998], this measures the degree of overlap between the query q and each document in S, and the degree of overlap between d and each document in T. If these two vectors are similar, then q and d are related, since S and T are parallel corpora. The key intuition here is that GVSM matches the query and the candidate document in the document space of the training corpus, that is, q and d are both compared with the same set of documents, albeit in two different languages, and the similarity between the vectors ET and HT is measurable since both are in terms of a common document set.
+Latent Semantic Indexing (LSI) [Littman and Jiang, 1998]; [Oard and Dorr, 1996]: LSI is based on the fact that people use different words to refer to the same object. For example, cross-lingual, multi-lingual, and trans-lingual may all be used while searching for documents on CLIR. LSI maps all such equivalent terms to one semantic structure, causing a search on any of these terms to retrieve the same documents. This is done by decomposing the term-by-document matrix of the collection to a set of k orthogonal vectors using an operation called Singular Value Decomposition (SVD). Intuitively, these orthogonal vectors are the unique semantic concepts in the collection. k is a controllable parameter – the dimensionality of the SVD operation.
+In using LSI for CLIR, the rows of E and H are put one below the other to form a single matrix, and this matrix is transformed into a set of k orthogonal vectors using SVD. q and d are then compared in this reduced vector space. The key insight here is that the semantic structures defined by the k orthogonal vectors combine terms across the two languages, thus making q and d comparable. For example, since the terms “sonA” and “gold” would have similar occurrence patterns in the document collection, they would be combined in one vector. In other words, a search for “sonA” would identify English documents containing the term “gold”. Each document d can then be compared to this set of documents to identify its similarity with the query “sonA”.
+LSI and GVSM can be thought of as indirectly bringing queries and documents to a common representation using a parallel corpus.
+3 Discussion
+Knowledge-based query translation and controlled vocabulary techniques are dominant among CLIR systems today. Controlled vocabulary systems have been in use for many years and provide satisfactory solutions in some applications (for example, in library systems). Lexical ambiguity appears to be the limiting factor for query translation methods, but simple disambiguation techniques work for many queries.
+Good thesauri are crucial to effective retrieval using query translation techniques. Different domains and styles bring in various issues for thesauri development – new terms and senses, changed
+4 April 2003
+
+
+ Article
+probabilities of entries, idiomatic usages etc. Therefore, creating a comprehensive multi-lingual thesaurus for CLIR, with all the necessary relationships between terms, is a difficult task to perform. Automatic thesaurus construction techniques [Padmini, 1992], which relate terms based on actual usage in corpora, mitigate the difficulties somewhat, but completely automatic, high-quality thesaurus construction is still a long way off.
+Corpus-based approaches such as GVSM and LSI also automatically factor in features of particular domains and styles by exploiting statistics of term usage in parallel corpora. GVSM is easier to implement, and computationally less intensive as compared to LSI, whereas LSI compares favourably in terms of retrieval effectiveness according to some small-scale experiments.
+Both automatic thesaurus construction and corpus-based methods depend critically on the quality and quantity of parallel corpora available. These methods work well only if the training corpora are representative of the collection of documents being searched. This is very difficult to achieve for CLIR systems targeting large and varied collections. Pending availability of suitable parallel corpora, knowledge-based query translation methods appear to be the way of choice for large-scale systems, especially for Indian languages. Corpus-based methods are more appropriate for smaller domain-specific collections. These methods are also useful in automatic thesaurus construction and sense disambiguation.
+Appendix: Availability of Resources and Tools for Indian Languages
+Disclaimer : No legal claim is made to the accuracy of the following information. This information is based on the material available on the mentioned websites, and is believed by the author to be correct at the time of writing. Interested readers should contact the concerned organizations for the latest information.
+Multi-lingual Dictionaries and Thesauri: A number of bilingual dictionaries are available for translation between Hindi and other Indian languages such as Marathi, Telugu, Punjabi, and Bengali. Dictionaries are also available for
+English-Hindi and English-Telugu translation [Dictionaries]. Some of these dictionaries have good coverage, and it should be possible to make them more suitable for CLIR by extracting term mappings from the word definitions by combining information from these dictionaries and existing English and Hindi thesauri. Work on a Hindi wordnet [Jha et al, 2001] is in progress at the Indian Institute of Technology, Bombay [Hindi Wordnet]. The Commission for Scientific and Technical Terminology [CCST] is involved in the development of a computer based national terminology bank.
+Corpora: Corpora for 12 Indian languages, each of about 3-million words, is available from the Central Institute for Indian Languages (CIIL). The beta version of the EMILLE corpus that has been released recently contains the following: 121,000 words of parallel data in six languages (English, Bengali, Hindi, Urdu, Gujarati, and Punjabi); written data in Tamil (13 million words), Hindi (5.6 million words), Gujarati (10.6 million words) and Punjabi (1.4 million words in the Gurmukhi alphabet); and spoken data in Bengali (265,000 words), Hindi (40,000 words), Gujarati (136000 words), Punjabi (40,000 words), and Urdu (118,000 words).
+Machine Translation systems: Almost every computational linguistics group in India has ongoing work in MT. Some of the more prominent systems are mentioned below.
+Anglabharati, developed at IIT Kanpur, provides technology for developing systems for MT from English to Indian languages. AnglaHindi is the English to Hindi version of Anglabharati [AnglaHindi]. Anubharati is another system from IIT Kanpur that does template-based translation from Hindi to English.
+IIIT Hyderabad has developed an English to Hindi anusaaraka (language accessor). They have also recently released the beta version of an MT system called Shakti [Shakti].
+MaTra, being developed at NCST, is a human-assisted translation engine for translation from English to Hindi [MaTra].
+CDAC has developed Mantra, an English to Hindi MT system for translating gazette notifications, office memos, etc. Mantra is currently being expanded to translate English into other Indian languages such as Gujarati, Bengali, and Telugu [Mantra].
+Vivek 15.2 5
+
+
+ Article
+IIT Bombay is creating MT systems between English, Hindi, and Marathi, by creating software to convert between these languages and UNL [IITB UNL].
+[Rao, 2000] is a brief survey of MT systems in India, which gives short summaries of many systems, including some of those mentioned above.
+Morphological analyzers: These are available for Hindi, Telugu, Marathi, Kannada, and Punjabi at [Morph]. These would be useful for dictionary lookup of inflected forms and for selection of terms with particular part of speech (POS) tags.
+Stemmers: The Porter stemmer [Porter, 1980] is a widely accepted stemming algorithm for English, and various implementations of this are available on the web. A lightweight stemmer for Hindi has been developed at NCST [Ananthakrishnan and Rao, 2003].
+Miscellaneous: [TDIL] and [LTRC] have various useful tools and resources, such as localization software, dictionaries, keyboard drivers, and fonts for Indian languages. [AU-KBC] has details about NLP research at the AU-KBC research centre, and information about various tools for Tamil that are being developed there.
+Acknowledgments
+I am grateful to Mr. Sasikumar whose detailed comments have helped fix quite a few logical and organizational tangles in the article. I am also thankful to Mr. Vivek Mehta, Mr. Jayprasad Hegde, Ms. Kavitha Mohanraj, Mr. Vivek Nallur, and Ms. Neetu Dogra for their suggestions.
+References
+[Ananthakrishnan and Rao, 2003] Ananthakrishnan R and Rao D. A Lightweight Stemmer for Hindi. Proceedings of the EACL 2003 Workshop on Computational Linguistics for South Asian Languages – Expanding Synergies with Europe, Budapest, Hungary, 2003.
+[AnglaHindi] http://anglahindi.iitk.ac.in/
+[AU-KBC] http://www.au-kbc.org/research areas/nlp.html
+[Carbonell et al, 1997]
+Carbonell J, Yang Y, Frederking R, Brown R, Geng Y and Lee D. Translingual Information Retrieval: A Comparative Evaluation. Proceedings of the International Joint Conference on Artificial Intelligence, IJCAI’97, 1997.
+[CCST] http://shikshanic.nic.in/csttterms/about cstt. asp
+[Dictionaries] http://www.iiit.net/ltrc/Dictionaries/Dict Frame. html
+[Hiemstra and de Jong, 1999] Hiemstra D and de Jong F. Disambiguation Strategies for Cross-Language Information Retrieval. European Conference on Digital Libraries, pp. 274–293, 1999.
+[Hindi Wordnet] http://www.cse.iitb.ac.in/ ̃dipak/hindiwn.html
+[Hull, 1997] Hull DA. Using Structured Queries for Disambiguation in Cross-Language Information Retrieval. AAAI Symposium on Cross Language Text and Speech Retrieval, American Association for Artificial Intelligence, 1997.
+[IITB MLASIA projects] http://www.ircc.iitb.ernet.in/ ̃MLAsia/projects.htm
+[IITB MLASIA report] www.ircc.iitb.ac.in/ ̃tech/3rdUP 06.pdf
+[IITB UNL] http://www.cse.iitb.ac.in/ ̃pb/UNL.htm
+[Jha et al, 2001] Jha SK, Narayan DK, Pandey P and Bhattacharya P. A Wordnet for Hindi. International Workshop on Lexical Resources for Natural Language Processing, Hyderabad, India, 2001.
+[Language Technologies] http://www.languagetechnologies.ac.in
+[Leavitt et al, 1994] Leavitt J, Lonsdale D and Franz A. A Reasoned Interlingua for Knowledge-Based Machine Translation. Canadian Artificial Intelligence Conference, Banff, Canada, 1994.
+[Littman and Jiang, 1998] Littman M and Jiang F. A Comparison of Two Corpus-Based Methods for Translingual Information Retrieval. Technical Report CS-98-11, Duke University, Department of Computer Science, Durham, NC, June 1998.
+6 April 2003
+
+
+ Article
+[Loukachevitch and Dobrov, 2002] Loukachevitch N and Dobrov B. Cross-Language Information Retrieval Based on Multilingual Thesauri. Cross-Language Information Retrieval: A Research Roadmap, Workshop at SIGIR-2002, 2002.
+[LTRC] http://www.iiit.net/ltrc/downloads.html
+[MaTra] http://www.ncst.ernet.in/matra/
+[Mantra] http://www.cdacindia.com/html/aai/mantra.asp
+[Morph] http://www.iiit.net/ltrc/morph/index.htm
+[Oard and Dorr, 1996] Oard D and Dorr B. A Survey of Multilingual Text Retrieval, Technical Report UMIACS-TR-96-19, University of Maryland, Institute for Advanced Computer Studies, 1996.
+[Oard, 1997] Oard D. Alternative Approaches for Cross-Language Text Retrieval. AAAI Symposium on Cross-Language Text and Speech Retrieval, American Association for Artificial Intelligence, 1997.
+[Oard, 1998a] Oard D. A Comparative Study of Query and Document Translation for Cross-Language Information Retrieval. AMTA, pp. 472–483, 1998.
+[Oard et al, 1998b] Oard D, Dorr B, Hackett P and Katsova M. A Comparative Study of Knowledge-Based Approaches for Cross-Language Information Retrieval, Technical Report: LAMP-TR-014, University of Maryland, College Park, 1998.
+[Padmini, 1992] Padmini Srinivasan. Thesaurus Construction. Information Retrieval: Data Structures & Algorithms, pp. 161–218, 1992.
+[Porter, 1980] Porter MF. An Algorithm for Suffix Stripping. Program, Vol. 14, No. 3, pp. 130-137, 1980.
+[Rao, 2000] Rao D. Machine Translation: A Brief Survey. SCALLA 2001 Workshop, Bangalore, India, 2000.
+[Shakti] http://gdit.iiit.net/ ̃mt/shakti/index.html
+[Soergel, 1997]
+Soergel D. Multilingual Thesauri in Cross-Language Text and Speech Retrieval. AAAI Symposium on Cross-Language Text and Speech Retrieval, American Association for Artificial Intelligence, 1997.
+[TDIL] http://tdil.mit.gov.in/download/menu.htm
+[UNL] http://www.unl.ru/introduction.html
+Ananthakrishnan Ramanathan is a staff scientist in the Knowledge Based Computer Systems division of NCST. His research interests are in the areas of Natural Language Processing and Information Retrieval
+Vivek 15.2 7

@@ -1,0 +1,250 @@
+H. Lounis 1
+Une introduction à Jrules
+Riche documentation à : C:\ILOG\JRules35\docs\pdf
+H. Lounis 2
+Caractéristiques
+100% Java librairie ;
+S’intègre à des applications Java : supporte des expressions Java, ... Utilise et teste n’importe quelle classe Java ; Opérateurs logiques ; Regroupement de règles ; Truth Maintenance system ; Raisonnement temporel ;
+Environnement graphique de manipulation des règles, débogage ; Syntax checker ; Compilation des règles ; Générateur de documentation (javadoc).
+
+
+ Base de connaissances
+Base de règles
+Base d’objets
+Classes Java Règles JRules
+Connaissances factuelles Connaissances déductives
+Introduction
+Interface JRules-Java
+.ilr
+javac
+.java
+.java
+.java
+.java
+.class
+.class
+.class
+.class
+Règle 1
+RèglReè2gle n
+Objet 1
+Objet 2
+ObjeOtb3jet n
+Agenda Mémoire de travail
+Parsing
+Moteur d ’inférence
+Règle
+déclenchée
+Ruleset
+IlrContext
+Règles tangibles
+
+
+ H. Lounis 5
+Patrons
+Form(color==black; shape==square);
+Form(shape==triangle);
+Form(color==gray; shape==circle);
+~Form(color==gray; shape==circle);
+Fo r m
+color : {w hite, gray, black} s hape : {s tar, s qaure, triangle, circle, ellips e}
+H. Lounis 6
+Mémoire de travail (base de faits)
+Actions
+assert Form(gray,circle);
+
+
+ H. Lounis 7
+Règles
+when
+{
+Form(color==black; shape==circle);
+Form(color==white; shape==square);
+}
+then
+{
+assert Form(white,triangle);
+assert Form(black,ellipse);
+}
+when
+{
+?x: Form(color==gray; shape==rectangle);
+}
+then
+{
+retract ?x;
+assert Form(white,rectangle);
+}
+H. Lounis 8
+Ensemble de règles
+C:\ILOG\JRules35\examples\applets\data\getstart.ilr
+
+
+ H. Lounis 9
+Initialiser la mémoire de travail
+rule initialize
+{
+when
+{
+?s: Form(shape==star);
+}
+then
+{
+retract ?s;
+assert Form(black,triangle);
+assert Form(white,ellipse);
+assert Form(black,square);
+assert Form(black,square);
+}
+};
+H. Lounis 10
+Une démo
+C:/ILOG/JRules35/examples/applets/getstart.html
+
+
+ H. Lounis 11
+Instance de règles
+rule rule1 {
+when {
+Form( color == white; shape == square );
+Form( shape == circle);
+}
+then {...}
+}
+Mémoire de travail
+Instances de règles :
+rule1(A, C)
+rule1(A, D)
+rule1(B, C)
+rule1(B, D)
+H. Lounis 12
+Agenda (instances de règles éligibles))
+rule init {
+when { foo(); }
+then {
+assert bar();
+assert gee(); } };
+rule last {
+when { gee(); }
+then {
+System.out.println("last"); } };
+rule first {
+priority = high;
+when { foo(); gee(); foo(); }
+then {
+System.out.println("first"); } };
+rule second {
+priority = high;
+when { foo(); gee(); foo(); }
+then {
+System.out.println("second"); } };
+rule third {
+priority = high;
+when { foo(); bar(); foo(); }
+then {
+System.out.println("third"); } };
+Pourquoi cet ordre : init, first, second, third, last (si initialement foo est le seul fait connu) ?
+Refraction
+Priorité
+Recency
+Lexicography
+
+
+ Règle dans Jrules
+Actions
+Asserting an Object ; Retracting an Object ; Modifying an Object ; ...
+Déclenchables en chaînage avant
+Raisonnement dans Jrules
+Chaînage avant ; Les règles sont disposées en un réseau RETE (p.62 du document user’s manual) ; Agenda : instances de règle éligibles ; Critères d ’ordonnancement des règles dans l’agenda : Réfraction : une règle déjà exécutée ne peut être réinsérée dans l ’agenda que s ’il y a une nouveau fait qui se produit ; Priorité Recency : l ’objet le plus récemment modifié ou inséré ; Ordre lexicographique des noms de règles.
+
+
+ Exemple de règles
+H. Lounis 16
+Exemple de règles
+
+
+ Exemple: Diagnostic d ’une lampe (1)
+/** * Règle pour gérer le cas d'une seule lampe défectueuse */
+rule Lampe {
+when { ?x: Lampe(etat == false; ?p: piece); exists Lampe(etat == true; piece == ?p); }
+then { assert Conseil("Changer cette Lampe"); } };
+La mpe
+e ta t : boole a n pie ce : int
+/**
+* Règle pour gérer le cas des lampes défectueuses de la même pièce */
+rule Piece {
+when { ?x: Lampe(etat == false; ?p: piece); not Lampe(etat == true; piece == ?p); exists Lampe(etat == true; piece != ?p); }
+then { assert Conseil("Vérifier l'interrupteur ou le fusible de la pièce"); } };
+Exemple: Diagnostic d ’une lampe (2)
+
+
+ /**
+* Règle pour gérer le cas de toutes les lampes défectueuses
+*/
+rule Appartement
+{
+when {
+?x: Lampe(etat == false; ?p: piece);
+not Lampe(etat == true; piece == ?p);
+not Lampe(etat == true; piece != ?p);
+}
+then {
+assert Conseil("Appeler la compagnie d'électricité");
+}
+};
+Exemple: Diagnostic d ’une lampe (3)
+Grammaire BNF de Jrules
+Chaque groupe de règles est défini dans une unité d ’entrée
+– RulesetDefinition ::= ( ImportDefinition )*
+( SetupDefinition )?
+( RuleDefinition )*
+Une règle en Jrules:
+– RuleDefinition ::= "rule" Identifier "{"
+RuleParameters
+RuleConditions
+RuleActions "};"
+
+
+ Exemple: Structure d’un programme
+Classes Java ;
+Application (Main class Java) ;
+Règles.
+package stocks;
+import java.io.*;
+import java.util.*;
+import ilog.rules.engine.*;
+class Main
+{
+public static void main(String[] args) {
+String filename = "stocks.ilr";
+IlrRuleset ruleset = new IlrRuleset();
+boolean parsed = ruleset.parseFileName(filename);
+if (!parsed)
+{
+System.out.println("Parsing not OK.");
+return;
+}
+IlrContext context = new IlrContext(ruleset);
+int nrules = context.fireAllRules();
+}
+}
+import stocks.*;
+setup {
+assert Stock("SUNW",101.5,90.25);
+assert Stock("NT",11.5,19.25);
+assert Stock("SU",271.5,300.25);
+assert Stock("SNW",121.5,93.25);
+assert Stock("SW",131.5,120.25); }
+rule PrintPercentStockChange {
+priority = ?p;
+when {
+?s:Stock(?c:currentPrice; ?l:closingPrice;
+?p:(?c-?l)/(.01*?l));
+}
+then {
+System.out.println("Stock " + ?s.symbol + " % change " + ?p);
+} };
+...
+H. Lounis 22
+Exemple supplémentaire
+Agent nettoyeur

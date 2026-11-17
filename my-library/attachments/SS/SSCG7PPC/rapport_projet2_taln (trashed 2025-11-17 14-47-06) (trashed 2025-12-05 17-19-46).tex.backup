@@ -1,0 +1,128 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fichier .tex Principal pour le Rapport de Projet TAN
+% Style NAACL 2016
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper]{article}
+\usepackage{naacl2016} % Assurez-vous d'avoir ce fichier .sty
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[utf8]{inputenc} % Encodage UTF-8 pour les caractères français
+\usepackage[T1]{fontenc}    % Encodage des fontes
+\usepackage[french]{babel}  % Langue française (si nécessaire pour césures etc.)
+\usepackage{url}
+\usepackage{graphicx}       % Pour inclure des images/graphiques
+\usepackage{amsmath}        % Packages mathématiques
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}       % Pour de jolis tableaux (\toprule, \midrule, \bottomrule)
+\usepackage{multirow}       % Pour fusionner des cellules dans les tableaux
+\usepackage{natbib}         % Pour la bibliographie style auteur-date
+\usepackage{microtype}      % Améliore la typographie et les coupures de mots
+\usepackage{float}          % Pour mieux contrôler le placement des flottants si besoin [H]
+\usepackage{enumitem}
+\naaclfinalcopy % À décommenter pour la version finale
+
+
+\title{Développement et Évaluation d'un Système de Traduction Automatique Neuronale Anglais–Russe}
+
+\author{Dominique S. Loyer\\
+  Travail présenté le 28 avril 2025 \\
+  à Ngoc Tan Lê, dans le cadre d'un \\
+  cours de doctorat, TALN DIC-9345, à l'UQAM \\
+  loyer.dominique@courrier.uqam.ca \\}
+
+\date{28 avril 2025}
+\sloppy
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Ce rapport présente le développement et l'évaluation d'un système de traduction automatique neuronale (TAN) Anglais→Russe (EN→RU). En utilisant la bibliothèque Hugging Face Transformers\citep{wolf2020transformers} et un modèle pré-entraîné \texttt{Helsinki-NLP/opus-mt-en-ru}\citep{junczys2018marian} basé sur l'architecture Transformer\citep{vaswani2017attention}, nous avons fine-tuné le modèle sur un sous-ensemble de 10\,000 paires de phrases du corpus parallèle \texttt{opus\_books}\citep{tiedemann2012parallel}. Le système a été entraîné pendant 3 époques dans un environnement Kaggle (GPU T4). L'évaluation sur un jeu de test réservé du même corpus donne SacreBLEU~22.6 et chrF~48.5.
+\end{abstract}
+
+\noindent\textbf{Mots-clés :} Traduction Automatique Neuronale, EN→RU, Transformer, Fine-tuning, SacreBLEU, chrF.
+
+\section{Introduction}
+La traduction automatique (TA) vise à traduire du texte d'une langue source vers une langue cible sans intervention humaine. Historiquement dominée par des approches statistiques (SMT), la TA a été révolutionnée par la traduction automatique neuronale (NMT) au milieu des années 2010\citep{bahdanau2014neural}. Ce projet :
+\begin{itemize}
+  \item implémente un pipeline complet (données, fine-tuning, évaluation),
+  \item utilise le modèle \texttt{Helsinki-NLP/opus-mt-en-ru}\citep{junczys2018marian},
+  \item s'appuie sur 10\,000 paires de \texttt{opus\_books}\citep{tiedemann2012parallel}.
+\end{itemize}
+Nous mesurons la qualité via SacreBLEU et chrF et comparons à l'état de l'art.
+
+\section{État de l'art}
+Les premières architectures NMT combinaient RNN et attention\citep{bahdanau2014neural}. Le Transformer\citep{vaswani2017attention} a ensuite imposé son efficacité. Les modèles MarianMT\citep{junczys2018marian}, pré-entraînés sur OPUS, offrent une base solide.
+Les campagnes WMT et le modèle NLLB-200\citep{nllb_team_placeholder} atteignent BLEU~30–45 pour EN→RU.
+
+\section{Méthodologie}
+\subsection{Pipeline général}
+Le processus :
+\begin{enumerate}
+\item \textbf{Chargement :} Corpus \texttt{opus\_books}\citep{tiedemann2012parallel} EN–RU via \texttt{datasets}\citep{lhoest2021datasets}.
+\item \textbf{Prétraitement :} Nettoyage et tokenisation (max len=128 tokens).
+\item \textbf{Modèle :} Chargement de \texttt{Helsinki-NLP/opus-mt-en-ru}\citep{junczys2018marian}.
+\item \textbf{Fine-tuning :} 3 époques, batch=8, lr=2e-5, fp16 via \texttt{Seq2SeqTrainer}.
+\item \textbf{Évaluation :} SacreBLEU, chrF avec \texttt{evaluate}\citep{lhoest2021datasets}.
+\end{enumerate}
+\clearpage
+\subsection{Analyse de la méthodologie}
+Le pipeline adopté suit une approche standard pour le développement d'un système de traduction automatique neuronale basée sur le fine-tuning. Le choix du corpus \texttt{opus\_books} est pertinent car il offre un large éventail de textes traduits, bien que le sous-ensemble de 10\,000 paires utilisé pour l'entraînement représente une fraction modeste de la taille totale du corpus (17\,496 paires selon la section Données, mais potentiellement plus vaste si on considère l'ensemble du corpus OPUS). L'utilisation du modèle pré-entraîné \texttt{Helsinki-NLP/opus-mt-en-ru} est judicieuse car il bénéficie déjà d'une connaissance linguistique acquise sur de plus grands volumes de données, ce qui permet un apprentissage plus rapide et potentiellement de meilleurs résultats avec un jeu de données limité.
+
+Le prétraitement, limité au nettoyage et à la tokenisation avec une longueur maximale de 128 tokens, est une étape essentielle pour garantir que les données sont dans un format approprié pour le modèle. La longueur maximale choisie peut influencer la capacité du modèle à traduire des phrases plus longues dans leur intégralité.
+
+Les hyperparamètres de fine-tuning (3 époques, taille de batch de 8, taux d'apprentissage de 2e-5) représentent une configuration typique pour ce type de tâche. L'utilisation de la précision mixte (fp16) via \texttt{Seq2SeqTrainer} permet d'accélérer l'entraînement et de réduire la consommation de mémoire sur le GPU.
+
+L'évaluation à l'aide de SacreBLEU et chrF fournit des métriques standardisées et largement reconnues pour évaluer la qualité des systèmes de traduction automatique. SacreBLEU, en particulier, est une métrique robuste qui prend en compte plusieurs facteurs pour éviter les biais d'évaluation.
+
+\subsection{Environnement}
+L'utilisation de l'écosystème Hugging Face Transformers simplifie considérablement le processus de développement en fournissant des outils et des modèles pré-implémentés. L'exécution sur un Notebook Kaggle avec un GPU Tesla T4 offre une puissance de calcul adéquate pour le fine-tuning du modèle dans un délai raisonnable.
+
+\section{Données}
+Le corpus \texttt{opus\_books}\citep{tiedemann2012parallel} est un choix pertinent pour ce projet compte tenu de sa disponibilité et de sa nature parallèle. La division en ensembles d'entraînement, de validation et de test est cruciale pour évaluer la capacité de généralisation du modèle et éviter le surapprentissage. La taille de l'ensemble d'entraînement (10\,000 paires) est relativement petite par rapport aux standards actuels pour les tâches de traduction automatique à grande échelle.
+
+\section{Résultats}
+Les scores obtenus sur l'ensemble de test (SacreBLEU~22.6 et chrF~48.5) fournissent une mesure quantitative de la performance du système.
+
+\subsection{Analyse des résultats et limitations}
+Le SacreBLEU de 22.6 indique une qualité de traduction modérée. Bien que ce score ne soit pas comparable aux résultats de pointe rapportés pour EN→RU (BLEU~30–45 voire 45.3 pour WMT19 Best), il est important de considérer la quantité limitée de données d'entraînement utilisée (10\,000 paires). Les modèles plus performants mentionnés dans l'état de l'art ont été entraînés sur des corpus beaucoup plus vastes.
+
+Le score chrF de 48.5, qui prend en compte la similarité au niveau des caractères, est également un indicateur de la qualité de la traduction. Comparer ce score directement avec les systèmes de l'état de l'art qui rapportent principalement le BLEU est difficile sans les valeurs chrF correspondantes.
+
+\textbf{Limitations :}
+\begin{itemize}
+\item \textbf{Taille des données d'entraînement :} L'utilisation de seulement 10\,000 paires de phrases est une limitation majeure. Un corpus plus grand permettrait potentiellement au modèle d'apprendre des traductions plus complexes et d'améliorer la fluidité et l'exactitude.
+\item \textbf{Complexité du corpus :} Le corpus \texttt{opus\_books} peut contenir une variété de styles et de complexités de langage. Il serait intéressant d'analyser les performances du modèle sur différents sous-ensembles du corpus (par exemple, en fonction du genre littéraire) pour identifier des points forts et des faiblesses.
+\item \textbf{Longueur maximale des séquences :} La limite de 128 tokens pourrait avoir un impact sur la qualité des traductions de phrases plus longues, qui pourraient être tronquées ou traduites de manière incomplète.
+ \item \textbf{Nombre d'époques d'entraînement :} Seulement 3 époques d'entraînement pourraient être insuffisantes pour que le modèle converge complètement. Un entraînement plus long avec une stratégie d'arrêt précoce basée sur les performances sur l'ensemble de validation pourrait être bénéfique.
+\item \textbf{Absence d'analyse qualitative :} Le rapport se concentre sur les métriques quantitatives. Une analyse qualitative des traductions produites par le modèle (en examinant des exemples de traductions correctes et incorrectes) fournirait des informations plus approfondies sur les types d'erreurs commises par le système.
+\end{itemize}
+
+\section{Perspective et travaux futurs}
+Bien que les résultats obtenus soient encourageants compte tenu de la quantité limitée de données, plusieurs pistes d'amélioration peuvent être explorées.
+
+\subsection{Augmentation des données d'entraînement}
+Comme suggéré dans la conclusion, l'augmentation de la taille du corpus d'entraînement est une voie évidente pour améliorer les performances du modèle. L'utilisation de corpus plus importants tels que WMT\citep{bojar-etal-2016-wmt16} et ParaCrawl\citep{barrault2019paracrawl} pourrait significativement augmenter la couverture linguistique et la robustesse du modèle. L'exploration de techniques de données augmentées spécifiques à la traduction automatique, comme le back-translation\citep{sennrich2016improving}, où un modèle est utilisé pour traduire le corpus cible vers la langue source afin de créer des données d'entraînement supplémentaires, pourrait également être bénéfique.
+
+\subsection{Exploration de modèles plus avancés}
+Le modèle \texttt{Helsinki-NLP/opus-mt-en-ru} est un bon point de départ, mais l'expérimentation avec des modèles plus grands et plus récents, tels que NLLB-200\citep{nllb_team_placeholder} (mentionné dans l'état de l'art) ou des modèles de la famille Transformer encore plus performants, pourrait conduire à des améliorations substantielles. L'utilisation de grands modèles de langage (LLM) pré-entraînés sur de vastes quantités de texte multilingue et leur fine-tuning pour la tâche de traduction pourrait également être explorée. Des modèles comme mBART\citep{liu2020multilingual}, T5\citep{raffel2020exploring}, ou même des modèles plus récents comme Gemma\citep{team2024gemma} pourraient offrir de meilleures performances.
+
+\subsection{Optimisation des hyperparamètres et de la stratégie d'entraînement}
+Une recherche plus approfondie des hyperparamètres de fine-tuning (taux d'apprentissage, taille de batch, nombre d'époques, fonctions d'activation, etc.) pourrait permettre d'optimiser les performances du modèle sur le corpus actuel et sur des corpus plus grands. L'implémentation d'une stratégie d'arrêt précoce basée sur la performance sur l'ensemble de validation aiderait à prévenir le surapprentissage et à optimiser le nombre d'époques d'entraînement.
+
+\subsection{Amélioration du prétraitement}
+L'exploration de techniques de prétraitement plus avancées, telles que l'application de la tokenisation SentencePiece\citep{kudo2018sentencepiece} ou WordPiece\citep{wu2016google} au lieu d'une simple tokenisation par espace, pourrait améliorer la gestion du vocabulaire et des mots rares. L'augmentation de la longueur maximale des séquences pourrait permettre au modèle de traiter des phrases plus longues.
+
+\subsection{Analyse qualitative des erreurs}
+Une analyse qualitative des erreurs de traduction produites par le modèle actuel permettrait d'identifier les types d'erreurs les plus fréquentes (par exemple, erreurs lexicales, erreurs syntaxiques, problèmes de cohérence, erreurs de traduction de termes spécifiques). Cette analyse pourrait ensuite guider les efforts futurs en ciblant les aspects spécifiques où le modèle doit être amélioré.
+\clearpage
+\subsection{Évaluation plus poussée}
+Outre SacreBLEU et chrF, d'autres métriques d'évaluation, telles que TER (Translation Edit Rate) ou des évaluations basées sur le jugement humain, pourraient fournir une image plus complète de la qualité des traductions. L'évaluation du modèle sur des domaines spécifiques ou des types de textes différents (par exemple, textes techniques, conversations) pourrait également révéler des forces et des faiblesses spécifiques.
+\nocite{*}
+\bibliographystyle{acl}
+\bibliography{referencesVF}
+\clearpage
+\tableofcontents
+\end{document}
