@@ -14,7 +14,7 @@ zotero-key: "SQJQF87M"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SQJQF87M"
 date-added: "2026-03-05 00:42:53"
-date-modified: "2026-03-25 21:29:02"
+date-modified: "2026-11-17 17:56:25"
 ---
 
 # Intention is Choice + Commitment
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:02"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2431139695
 
 ## Attachments
 

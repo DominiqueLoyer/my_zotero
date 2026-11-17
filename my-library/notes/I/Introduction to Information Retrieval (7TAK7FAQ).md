@@ -13,7 +13,7 @@ zotero-key: "7TAK7FAQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7TAK7FAQ"
 date-added: "2026-03-03 23:33:18"
-date-modified: "2026-03-25 21:29:14"
+date-modified: "2026-11-17 17:56:31"
 ---
 
 # Introduction to Information Retrieval
@@ -23,6 +23,7 @@ date-modified: "2026-03-25 21:29:14"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4213009331
 
 ## Attachments
 

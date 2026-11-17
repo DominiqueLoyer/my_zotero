@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "notion://www.notion.so/Barbiero2026Interpretable-31e9fa248c5781769ed0f573de6c1fd3"
+		},
+		{
+			"accessDate": "2026-11-17T17:56:31Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:56:31Z",
+			"dateModified": "2026-11-17T17:56:31Z",
+			"filename": "Barbiero, Pietro and Ciravegna, Gabriele and Giannini, Francesco and Zarlenga, Mateo Espinosa and Magister, Lucie Charlotte and Tonda, Alberto and Li{'o}, Pietro and Precioso, Frederic and Jamnik, Mateja an.pdf",
+			"itemType": "attachment",
+			"key": "LBYF5BCZ",
+			"linkMode": "imported_file",
+			"parentItem": "CFFD67M6",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4415209359.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Barbiero, Pietro and Ciravegna, Gabriele and Giannini, Francesco and Zarlenga, Mateo Espinosa and Magister, Lucie Charlotte and Tonda, Alberto and Li{'o}, Pietro and Precioso, Frederic and Jamnik, Mateja an.pdf",
+				"files": [
+					{
+						"path": "attachments/LB/LBYF5BCZ/Barbiero, Pietro and Ciravegna, Gabriele and Giannini, Francesco and Zarlenga, Mateo Espinosa and Magister, Lucie Charlotte and Tonda, Alberto and Li{'o}, Pietro and Precioso, Frederic and Jamnik, Mateja an.pdf",
+						"size": 347282,
+						"storage": "git"
+					}
+				],
+				"key": "LBYF5BCZ",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4415209359.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -59,8 +92,8 @@
 		],
 		"date": "2026",
 		"dateAdded": "2026-03-08T21:23:48Z",
-		"dateModified": "2026-03-25T21:28:47Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:56:31Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W4415209359",
 		"itemType": "journalArticle",
 		"key": "CFFD67M6",
 		"relations": {},

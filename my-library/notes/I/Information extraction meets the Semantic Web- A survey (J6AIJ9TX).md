@@ -14,7 +14,7 @@ zotero-key: "J6AIJ9TX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/J6AIJ9TX"
 date-added: "2026-03-04 19:44:19"
-date-modified: "2026-11-09 15:02:14"
+date-modified: "2026-11-17 17:56:24"
 ---
 
 # Information extraction meets the Semantic Web: A survey
@@ -24,6 +24,7 @@ date-modified: "2026-11-09 15:02:14"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2898256678
 
 ## Attachments
 

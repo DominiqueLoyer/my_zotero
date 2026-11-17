@@ -12,7 +12,7 @@ zotero-key: "WB5QZAPZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/WB5QZAPZ"
 date-added: "2026-03-03 23:34:50"
-date-modified: "2026-03-25 21:29:13"
+date-modified: "2026-11-17 17:56:24"
 ---
 
 # Information Retrieval: Implementing and Evaluating Search Engines (Online Material)
@@ -22,6 +22,7 @@ date-modified: "2026-03-25 21:29:13"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4244061993
 
 ## Attachments
 

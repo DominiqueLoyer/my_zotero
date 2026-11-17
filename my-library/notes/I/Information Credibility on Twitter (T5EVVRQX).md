@@ -14,7 +14,7 @@ zotero-key: "T5EVVRQX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/T5EVVRQX"
 date-added: "2026-02-26 20:20:18"
-date-modified: "2026-11-09 15:00:55"
+date-modified: "2026-11-17 17:56:22"
 ---
 
 # Information Credibility on Twitter
@@ -24,6 +24,7 @@ date-modified: "2026-11-09 15:00:55"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2084591134
 
 ## Attachments
 

@@ -14,7 +14,7 @@ zotero-key: "Q86JUWZF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Q86JUWZF"
 date-added: "2026-03-05 00:42:58"
-date-modified: "2026-03-25 21:29:01"
+date-modified: "2026-11-17 17:56:26"
 ---
 
 # Intentions, Plans, and Practical Reason
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:01"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2056245254
 
 ## Attachments
 
