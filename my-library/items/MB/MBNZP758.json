@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:56:55Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:56:55Z",
+			"dateModified": "2026-11-17T17:56:55Z",
+			"filename": "Wang et al. - 2019 - Knowledge-aware graph neural networks with label smoothness regularization for recommender systems.pdf",
+			"itemType": "attachment",
+			"key": "5HL6QWE4",
+			"linkMode": "imported_url",
+			"parentItem": "MBNZP758",
+			"relations": {},
+			"tags": [],
+			"title": "Submitted Version",
+			"url": "https://arxiv.org/pdf/1905.04413"
+		},
+		{
 			"accessDate": "2026-01-08T20:32:29Z",
 			"charset": "",
 			"contentType": "",
@@ -29,6 +45,23 @@
 				"status": "no-file",
 				"title": "Notion",
 				"url": "notion://www.notion.so/Wang2019a-2e29fa248c5781c2b8a7f0a3f4967dee"
+			},
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Wang et al. - 2019 - Knowledge-aware graph neural networks with label smoothness regularization for recommender systems.pdf",
+				"files": [
+					{
+						"path": "attachments/5H/5HL6QWE4/Wang et al. - 2019 - Knowledge-aware graph neural networks with label smoothness regularization for recommender systems.pdf",
+						"size": 990331,
+						"storage": "git"
+					}
+				],
+				"key": "5HL6QWE4",
+				"linkMode": "imported_url",
+				"status": "ok",
+				"title": "Submitted Version",
+				"url": "https://arxiv.org/pdf/1905.04413"
 			}
 		],
 		"collections": [
@@ -52,7 +85,7 @@
 		"zoteroURI": "zotero://select/library/items/MBNZP758"
 	},
 	"zotero": {
-		"citationKey": "wangKnowledgeawareGraphNeural2019b",
+		"citationKey": "wangKnowledgeawareGraphNeural2019d",
 		"collections": [
 			"7PN5IQY2"
 		],
@@ -95,7 +128,8 @@
 		],
 		"date": "2019",
 		"dateAdded": "2026-01-08T20:10:55Z",
-		"dateModified": "2026-03-25T21:30:18Z",
+		"dateModified": "2026-11-17T17:56:55Z",
+		"extra": "OpenAlex: W2963911286",
 		"itemType": "conferencePaper",
 		"key": "MBNZP758",
 		"language": "fr-CA",

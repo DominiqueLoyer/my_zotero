@@ -20,12 +20,16 @@ zotero-key: "D87N8NY8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/D87N8NY8"
 date-added: "2026-01-08 20:07:33"
-date-modified: "2026-03-25 21:30:32"
+date-modified: "2026-11-17 17:56:45"
 ---
 
 # Item-based collaborative filtering recommendation algorithms
 
 **Sarwar, Badrul; Karypis, George; Konstan, Joseph A.; Riedl, John**
+
+## Extra
+
+OpenAlex: W2042281163
 
 ## Attachments
 

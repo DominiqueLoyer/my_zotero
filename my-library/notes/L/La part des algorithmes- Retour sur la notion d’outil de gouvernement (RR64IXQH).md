@@ -14,7 +14,7 @@ zotero-key: "RR64IXQH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RR64IXQH"
 date-added: "2026-03-08 21:21:06"
-date-modified: "2026-03-25 21:28:49"
+date-modified: "2026-11-17 17:57:02"
 ---
 
 # La part des algorithmes: Retour sur la notion d’outil de gouvernement
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:49"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1511862853
 
 ## Attachments
 

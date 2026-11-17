@@ -16,12 +16,16 @@ zotero-key: "L6R2LBVH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/L6R2LBVH"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-09 15:00:22"
+date-modified: "2026-11-17 17:56:56"
 ---
 
 # L'acteur et le système
 
 **Crozier, Michel; Friedberg, Erhard**
+
+## Extra
+
+OpenAlex: W4252926784
 
 ## Attachments
 

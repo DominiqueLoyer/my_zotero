@@ -13,7 +13,7 @@ zotero-key: "9QI3FW5V"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9QI3FW5V"
 date-added: "2026-03-08 21:21:01"
-date-modified: "2026-03-25 21:28:50"
+date-modified: "2026-11-17 17:56:59"
 ---
 
 # L’algorithmisation de l’administration
@@ -23,6 +23,7 @@ date-modified: "2026-03-25 21:28:50"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2913864222
 
 ## Attachments
 

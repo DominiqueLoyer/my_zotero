@@ -15,12 +15,16 @@ zotero-key: "PKRGJ9WK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PKRGJ9WK"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-09 15:00:43"
+date-modified: "2026-11-17 17:57:01"
 ---
 
 # La bureaucratisation du monde à l'ère néolibérale
 
 **Hibou, Béatrice**
+
+## Extra
+
+OpenAlex: W2619682057
 
 ## Attachments
 

@@ -14,7 +14,7 @@ zotero-key: "GGGA3G8M"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GGGA3G8M"
 date-added: "2026-02-25 20:55:20"
-date-modified: "2026-03-25 21:29:56"
+date-modified: "2026-11-17 17:56:53"
 ---
 
 # Item-based collaborative filtering recommendation algorithms
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:56"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2042281163
 
 ## Attachments
 

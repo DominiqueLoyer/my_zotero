@@ -15,10 +15,43 @@
 			"tags": [],
 			"title": "Notion",
 			"url": "notion://www.notion.so/Icard2023Joint-31e9fa248c57818684b1d78b0a25296e"
+		},
+		{
+			"accessDate": "2026-11-17T17:56:55Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:56:55Z",
+			"dateModified": "2026-11-17T17:56:55Z",
+			"filename": "Icard III, Thomas F. and Pacuit, Eric and Shoham, Yoav - 2023 - Joint Revision of Belief and Intention.pdf",
+			"itemType": "attachment",
+			"key": "JUV32KN4",
+			"linkMode": "imported_file",
+			"parentItem": "93VK6D44",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W4379523159.pdf"
 		}
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Icard III, Thomas F. and Pacuit, Eric and Shoham, Yoav - 2023 - Joint Revision of Belief and Intention.pdf",
+				"files": [
+					{
+						"path": "attachments/JU/JUV32KN4/Icard III, Thomas F. and Pacuit, Eric and Shoham, Yoav - 2023 - Joint Revision of Belief and Intention.pdf",
+						"size": 355905,
+						"storage": "git"
+					}
+				],
+				"key": "JUV32KN4",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W4379523159.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -59,8 +92,8 @@
 		],
 		"date": "2023",
 		"dateAdded": "2026-03-05T00:43:14Z",
-		"dateModified": "2026-03-25T21:29:01Z",
-		"extra": "Importé via SysCRED.",
+		"dateModified": "2026-11-17T17:56:55Z",
+		"extra": "Importé via SysCRED.\nOpenAlex: W4379523159",
 		"itemType": "journalArticle",
 		"key": "93VK6D44",
 		"relations": {},

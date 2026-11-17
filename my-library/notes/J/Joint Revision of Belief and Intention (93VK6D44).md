@@ -14,7 +14,7 @@ zotero-key: "93VK6D44"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/93VK6D44"
 date-added: "2026-03-05 00:43:14"
-date-modified: "2026-03-25 21:29:01"
+date-modified: "2026-11-17 17:56:55"
 ---
 
 # Joint Revision of Belief and Intention
@@ -24,9 +24,11 @@ date-modified: "2026-03-25 21:29:01"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W4379523159
 
 ## Attachments
 
+- [Icard III, Thomas F. and Pacuit, Eric and Shoham, Yoav - 2023 - Joint Revision of Belief and Intention.pdf](../../attachments/JU/JUV32KN4/Icard%20III%2C%20Thomas%20F.%20and%20Pacuit%2C%20Eric%20and%20Shoham%2C%20Yoav%20-%202023%20-%20Joint%20Revision%20of%20Belief%20and%20Intention.pdf)
 - [Notion](notion://www.notion.so/Icard2023Joint-31e9fa248c57818684b1d78b0a25296e)
 
 ---

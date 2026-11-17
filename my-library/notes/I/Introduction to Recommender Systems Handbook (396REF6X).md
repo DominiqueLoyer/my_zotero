@@ -14,7 +14,7 @@ zotero-key: "396REF6X"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/396REF6X"
 date-added: "2026-02-25 20:55:16"
-date-modified: "2026-03-25 21:29:57"
+date-modified: "2026-11-17 17:56:43"
 ---
 
 # Introduction to Recommender Systems Handbook
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:57"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W1486317198
 
 ## Attachments
 

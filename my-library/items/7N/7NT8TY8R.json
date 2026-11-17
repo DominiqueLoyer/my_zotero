@@ -1,6 +1,22 @@
 {
 	"children": [
 		{
+			"accessDate": "2026-11-17T17:56:40Z",
+			"charset": "",
+			"contentType": "application/pdf",
+			"dateAdded": "2026-11-17T17:56:40Z",
+			"dateModified": "2026-11-17T17:56:40Z",
+			"filename": "Manning et al. - 2008 - Introduction to information retrieval.pdf",
+			"itemType": "attachment",
+			"key": "2QPLV9LS",
+			"linkMode": "imported_file",
+			"parentItem": "7NT8TY8R",
+			"relations": {},
+			"tags": [],
+			"title": "Full Text",
+			"url": "https://content.openalex.org/works/W1532325895.pdf"
+		},
+		{
 			"accessDate": "2025-12-05T22:29:15Z",
 			"charset": "",
 			"contentType": "",
@@ -19,6 +35,23 @@
 	],
 	"meta": {
 		"attachments": [
+			{
+				"annotationCount": 0,
+				"contentType": "application/pdf",
+				"filename": "Manning et al. - 2008 - Introduction to information retrieval.pdf",
+				"files": [
+					{
+						"path": "attachments/2Q/2QPLV9LS/Manning et al. - 2008 - Introduction to information retrieval.pdf",
+						"size": 6903344,
+						"storage": "git"
+					}
+				],
+				"key": "2QPLV9LS",
+				"linkMode": "imported_file",
+				"status": "ok",
+				"title": "Full Text",
+				"url": "https://content.openalex.org/works/W1532325895.pdf"
+			},
 			{
 				"annotationCount": 0,
 				"contentType": null,
@@ -71,8 +104,8 @@
 		],
 		"date": "2008",
 		"dateAdded": "2025-04-10T15:02:46Z",
-		"dateModified": "2025-04-10T15:02:46Z",
-		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
+		"dateModified": "2026-11-17T17:56:40Z",
+		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400\nOpenAlex: W1532325895",
 		"itemType": "book",
 		"key": "7NT8TY8R",
 		"publisher": "Cambridge University Press",

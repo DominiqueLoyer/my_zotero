@@ -14,7 +14,7 @@ zotero-key: "U7FXP6Q4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/U7FXP6Q4"
 date-added: "2026-02-25 21:47:07"
-date-modified: "2026-03-25 21:29:38"
+date-modified: "2026-11-17 17:56:50"
 ---
 
 # Item-Based Collaborative Filtering Recommendation Algorithms
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:38"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2042281163
 
 ## Attachments
 
