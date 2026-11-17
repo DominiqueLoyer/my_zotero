@@ -1,0 +1,231 @@
+DIC-9001
+Semaine 14a
+Pensée convergente et pensée divergente
+PAR SERGE ROBERT
+UNIVERSITÉ DU QUÉBEC À MONTRÉAL
+1
+
+
+ La représentation s’adapte à l’environnement
+ La pensée humaine, en travaillant à s’adapter à son environnement, peut être
+tantôt convergente, tantôt divergente (des découvertes de la psychologie du
+raisonnement)
+ Penser de manière convergente ou divergente sont deux façons créatives de
+penser
+ On peut utiliser le raisonnement logique pour comprendre et modéliser ces deux
+manières différentes de penser
+ Les arbres de consistance peuvent être utilisés : comparer les arbres logiques
+avec les arbres convergents ou divergents (semblables aux arbres de décision)
+ Un arbre de consistance décompose le contenu sémantique d’un énoncé en
+parties : cela donne un arbre inversé
+ Les situations qui sont considérées comme coprésentes sont dans une même
+branche (des conjonctions)
+ Les situations considérées comme des alternatives possibles sont dans des
+branches différentes (des disjonctions)
+2
+
+
+ La pensée convergente :
+arbre de l’implication
+ L’implication logique :
+AB
+~A B
+ L’implication convergente :
+AB
+~A B
+~B A
+La pensée converge, la coprésence de ~A et B est une possibilité logique non prise en compte, d’où on a ~A avec ~B ou B avec A
+3
+
+
+ La pensée convergente :
+la disjonction convergente
+ La disjonction logique :
+AB
+AB
+ La disjonction convergente :
+AB
+AB
+~B ~A
+La pensée converge, la coprésence de A et B est une possibilité logique non prise en compte, d’où on a A avec ~B ou B avec ~A
+4
+
+
+ La pensée convergente :
+l’incompatibilité convergente
+ L’incompatibilité logique :
+A|B
+~A ~B
+ L’incompatibilité convergente :
+A|B
+~A ~B
+BA
+La pensée converge : la coprésence de ~A et ~B est une possibilité logique non prise en compte, d’où on a ~A avec B, ou ~B avec A
+5
+
+
+ Pensée convergente et abduction
+ Les formes de pensée convergentes précédentes sont des abductions
+AB AB AB A|B
+B ~A A ~A
+______ ______ _____ ______
+A ~B ~B B
+ Ce sont des formes de raisonnement logiquement non valides (qui correspondent, d’un point de vue logique, à des sophismes)
+ Mais elles sont cognitivement spontanées et nécessaires : elles intègrent des données nouvelles à ce que nous connaissons déjà
+6
+
+
+ Pensée convergente et information
+ En raisonnant de manière abductive, les humains éliminent des possibilités et
+augmentent ainsi leur information
+ Les abductions implicatives permettent de trouver des causes : c’est A qui a
+causé B (comme c’est le cas d’habitude; c’est utilisé dans les diagnostics)
+ Mais, éviter les abductions implicatives, permet de trouver des causes
+alternatives (nouvelles)
+ Les abductions disjonctives et d’incompatibilité permettent de penser les
+événements et les classes d’objets comme étant oppositionnels
+ Mais, éviter les abductions disjonctives et d’incompatibilité permettent d’éviter
+les faux dilemmes (en permettant de penser les événements et les classes
+d’objets de manière hiérarchique)
+ Un usage excessif des abductions mène au dogmatisme (causes uniques, faux
+dilemmes)
+ Les implicatures conversationnelles peuvent être vues comme des formes de
+pensée convergente (voir E. A. Smith : Mary ate some cookies, on omet de
+considérer une branche logiquement possible)
+7
+
+
+ D’autres formes de convergences
+et les implicatures (1)
+Tous les A sont B Aucun A n’et B
+Certains A sont B Certains A ne sont pas B
+ Le point de vue logique :
+ Si certains A sont B, alors certains A ne sont pas B ou tous les A sont B
+ Non ampliatif : pas d’accroissement de l’information
+ Le point de vue pragmatique (maxime de quantité):
+ Si certains A sont B, alors certains A ne sont pas B
+ Ampliatif : accroissement (quantificationnel) de l’information
+8
+
+
+ D’autres formes de convergences
+et les implicatures (2)
+Il est nécessaire que A Il est impossible que A
+Il est possible que A Il est possible que non-A
+ Le point de vue logique :
+ S’il est possible que A, alors il est possible que non-A ou il est nécessaire que A
+ Non ampliatif : pas d’accroissement de l’information
+ Le point de vue pragmatique (maxime de quantité) :
+ S’il est possible que A, alors il est possible que non-A
+ Ampliatif : accroissement (modal) de l’information
+9
+
+
+ La pensée divergente :
+la divergence implicative
+ L’implication logique :
+AB
+~A B
+ L’implication divergente :
+A (& C)  B
+~(A & C) B
+~A ~C
+La pensée diverge, A ne suffit pas pour B, il faut aussi C avec A pour produire B; d’où on a ~A ou ~C ou B
+10
+
+
+ La pensée divergente :
+la divergence disjonctive
+ La disjonction logique :
+AB
+AB
+ La disjonction divergente :
+A  B ( C)
+A BC
+BC
+La pensée diverge, en plus de A ou de B, il existe aussi une possibilité C qu’il faut considérer; d’où on a A ou B ou C
+11
+
+
+ La pensée divergente :
+la divergence d’incompatibilité
+ L’incompatibilité logique :
+A|B
+~A ~B
+ L’incompatibilité divergente :
+(A | B) (  C intermédiaire)
+A | B C (intermédiaire)
+~A ~B
+La pensée diverge : en plus de ~A ou
+de ~B, il peut exister un compromis C
+intermédiaire entre A et B
+12
+
+
+ Pensée divergente et information
+ En raisonnant de manière divergente, les humains s’ouvrent à de
+nouvelles possibilités non prévues auparavant, ils diminuent ainsi la
+quantité d’information qu’ils croyaient posséder, en augmentant les
+possibilités logiques
+ Les divergences rendent possible l’apprentissage
+ Les divergences implicatives permettent l’allongement des chaînes
+causales (un enchaînement de plusieurs causes doit être présent pour
+produire l’effet)
+ Les divergences disjonctives permettent de créer des entités nouvelles
+à l’extérieurs de celles qui étaient auparavant envisagées
+ Les divergences d’incompatibilité permettent de créer des entités
+nouvelles intermédiaires entre celles qui étaient envisagées auparavant
+ Par contre, un usage excessif de la pensée divergente peut mener au
+relativisme
+13
+
+
+ Raisonnement logique,
+pensée convergente, pensée divergente
+ La pensée convergente et la pensée divergentes sont créatives
+ La pensée convergente augmente notre information, elle est ampliative :
+ La nouveauté est représentable par un allongement de branches existantes ou par l’omission de branches logiquement possibles
+ La pensée divergente augmente les possibilités de configurations du monde, elle est non monotone
+ La nouveauté est représentable par une ouverture d’une nouvelle branche
+ La pensée logique est non créative, elle non ampliative et monotone, elle ne fait qu’expliciter les conséquences implicites des prémisses, mais ses conclusions sont certaines
+ La pensée logique est une construction intermédiaire (non ampliative et monotone) entre la pensée convergente et la pensée divergente : elle rend ainsi possible de modéliser la différence entre pensée convergente et pensée divergente (ce que je suis en train de faire)
+14
+
+
+ Procédures cognitives convergentes et divergentes
+ Pensée convergente et pensée divergente peuvent être intégrées
+dans une théorie générale des procédures cognitives
+ Une procédure convergente est simple et spontanée : le nouveau est
+intégré à ce qui est acquis et connu dans la mémoire du système
+cognitif
+ Une procédure divergente est imposée à un système cognitif
+lorsqu’une information ne peut plus être traitée de manière
+convergente
+ Connaître, c’est se représenter la régularité qui est présumée dans le
+monde
+ Un système cognitif est un détecteur de régularité, d’organisation, de
+néguentropie
+ Connaître, c’est alterner entre faire converger et faire diverger notre
+information
+15
+
+
+ Processus duaux, pensée scientifique
+ Les processus de type 1 (spontanés, rapides, innés, parallèles) sont habituellement convergents ou divergents; nous les partageons avec les autres animaux
+ La pensée logique a commencé avec le raisonnement moral (de type 1, voir Tooby & Cosmides)
+ La pensée logique s’est ensuite développée surtout comme processus de type 2 (réflexifs, lents, acquis, sériels)
+ La pensée scientifique (de type 2) est née à partir :
+ 1) du développement de règles logiques pour organiser nos connaissances en systèmes (voir la logique d’Aristote)
+ 2) d’un traitement des processus convergents comme étant des hypothèses à tester (le doute méthodique)
+ 3) d’une utilisation des processus divergents comme corrections de nos hypothèses pour tenir compte des contre-exemples rencontrés dans nos tests expérimentaux : l’apprentissage est reconnu comme tel (la métacognition)
+16
+
+
+ Pensée convergente, pensée divergente,
+intelligence artificielle
+ L’intelligence artificielle a commencé par être symboliste en utilisant des outils logiques (non ampliatifs et monotones, de type 2)
+ L’intelligence artificielle peut aussi utiliser d’autres procédures symbolistes, convergentes ou divergentes, pour modéliser et simuler, d’une part, la créativité humaine et, d’autre part, l’apprentissage (modéliser les systèmes 1)
+ Le même genre de travail peut se faire avec le raisonnement humain en contextes non classiques (des raisonnements non classiques logiques, ou convergents, ou divergents)
+ Ces 3 familles de raisonnements sont rendues possibles par notre plasticité neuronale
+ L’approche symboliste n’a pas dit son dernier mot..
+17

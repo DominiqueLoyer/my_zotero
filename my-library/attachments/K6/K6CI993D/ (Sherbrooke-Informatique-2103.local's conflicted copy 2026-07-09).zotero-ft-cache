@@ -1,0 +1,403 @@
+DIC-9001
+Semaine 10
+Cognition et représentation
+en sciences cognitives du raisonnement
+PAR SERGE ROBERT
+UNIVERSITÉ DU QUÉBEC À MONTRÉAL
+1
+
+
+ L’ordre dans la nature
+ La tendance à l’entropie dans la nature
+ La naissance d’îlots de néguentropie:
+une source d’énergie et un milieu semi-fermé
+(vs trop ouvert ou trop fermé)
+ Ainsi, l’apparition d’ordre:
+Des systèmes apparaissent: entités, relations et interactions transformatrices dans un environnement
+D’où le monde s’organise: atomes, molécules, objets physiques, êtres vivants, institutions sociales...
+2
+
+
+ L’ordre, l’information et la représentation
+ L’information c’est l’ordre, la régularité dans notre environnement
+ Les animaux ont cette capacité, grâce à leur système neuronal, d’extraire,
+produire, traiter, communiquer et appliquer de l’information (sensibilité aux
+régularités)
+ L’esprit humain comme « machine » puissante pour manipuler de l’information
+et pour se la représenter
+ Représenter de l’ordre, c’est représenter des relations et des interactions par des
+catégories et des inférences entre ces catégories
+ Un programme d’ordinateur est une manière artificielle de structurer
+l’information, de la représenter et de la traiter
+ Références de base :
+ Schrödinger, E. (1944), What is Life, Cambridge University Press. Traduction française
+(1993) Le Seuil.
+ Brillouin, L. (1956) Science and Information Theory, Dover Books. Traduction française
+(1959) Masson.
+3
+
+
+ Inférences et raisonnements
+ Les inférences comme relations entre perceptions et actions (par l’intermédiaire de la mémoire procédurale): perception-mémoire-action, donc, cette inférence permet d’apprendre et d’anticiper
+ commune à l’humain et aux animaux
+ Les inférences argumentatives (qu’on appelle « raisonnements ») (langage, représentation verbale, mémoire sémantique et épisodique):
+propre aux humains
+ Ainsi, nos capacités de raisonnement sont le résultat d’un processus neuronal évolutif
+4
+
+
+ Structure générale des raisonnements
+ prémisse(s) (proposition de départ),
+ conclusion(s) (proposition tirée de prémisse(s))
+ règle d’inférence (définit le type d’inférence, d’opération): logique, mathématique...
+ Dans un programme inspiré de la logique, on aura:
+les données, les règles du programme, les résultats de l’application des règles sur les données
+5
+
+
+ Types d’inférences et information
+ Les inférences créatives : augmentation de l’information entre les prémisses et la conclusion
+Beaucoup de criminels sont menteurs
+Donc, tous les criminels sont menteurs
+ Inférences incertaines (degré de probabilité)
+ Les inférences monotones (ou logiques) : maintien ou diminution de l’information entre les prémisses et la conclusion
+Si Jean était à l’église à l’heure du crime, il n’était pas au bar
+Si Jean n’était pas au bar à l’heure du crime, il n’a pas tué Jacques
+Donc, si Jean était à l’église à l’heure du crime, il n’a pas tué Jacques
+ Inférences logiques certaines (maintien de la vérité) : si les prémisses sont vraies, alors la conclusion est nécessairement vraie
+6
+
+
+ Les propriétés cognitives des inférences
+ Inférences logiques :
+ Non ampliatives
+ Truth-preserving (de vrai à vrai)
+ Monotones (si P  Q, alors P & R &...  Q)
+ Servent à expliciter l’information implicite et à structurer notre information en
+systèmes
+ Voir les systèmes experts à base de règles logiques (forward chaining)
+ Inférences créatives :
+ Elles peuvent être ampliatives (augmentation de l’information)
+ Et/ou non monotones (la valeur de la conclusion peut changer à la suite
+d’informations nouvelles) (voir la loi de Bayes)
+ Servent à générer de nouvelles informations
+ Voir les systèmes experts à base de règles abductives (backward chaining)
+7
+
+
+ La théorie classique de Piaget sur le
+développement du raisonnement logique
+ Il n’y a pas de structures logiques innées dans la pensée (contre Kant)
+ Mais il y a des fonctions biologiques innées (la pensée est biologique)
+ L’assimilation de l’information à une structure déjà présente
+ L’accommodation de la structure (sa complexification) pour l’adapter au milieu
+ Ainsi, nous passons de structures de connaissance moins complexes à des structures plus complexes
+(plus abstraites, plus adaptées, le décentrement du sujet, ces structures sont d’abord logiques)
+ Il y a ainsi parfois des changements qualitatifs dans le développement de la compétence logique
+ Les stades de développement de l’intelligence
+ Le stade sensori-moteur : structuration de la perception (de manière procédurale)
+ Le stade pré-opératoire : accès au langage, raisonnements non logiquement valides
+ Le stade opératoire concret : raisonnements valides sur des contenus concrets, basés sur le perçu
+(logique des relations, logique des classes)
+ Le stade opératoire abstrait : raisonnements hypothético-déductifs valides (usage correct de la
+logique classique des propositions)
+ Donc, normalement, de l’enfance à l’âge adulte, nous devenons des êtres logiques
+8
+
+
+ L’expérimentation en psychologie
+et les problèmes de la théorie de Piaget
+ Les expérimentations en psychologie cognitive depuis les années 1960 s’opposent à la théorie classique de Piaget
+ 3 problèmes principaux dans les raisonnements sur des propositions
+ Les erreurs logiques systématiques des adultes (sophismes, le raisonneur est trop bavard relativement à ce que prescrit la logique, raisonnement ampliatif)
+ La compétence logique des jeunes enfants dans certaines tâches
+ Les suppressions d’inférences valides (le raisonneur est trop discret relativement à ce que prescrit la logique, raisonnement non monotone)
+9
+
+
+ L’organisation logique des opérateurs
+d’implication et d’équivalence
+Si A, alors B A si et seulement si B
+AB AB A≡ B
+VV VVV VVV
+VF VF F VF F
+F V F VV F F V
+F F F VF F VF
+10
+
+
+ Les 4 raisonnements de base
+avec les implications
+ D’où :
+ Modus ponendo ponens (MPP) :
+((A  B) & A)  B (est logiquement valide)
+ Modus tollendo tollens (MTT) :
+((A  B) & ~B)  ~A (est logiquement valide)
+ Sophisme de l’affirmation du conséquent (AC) :
+((A  B) & B)  A (est logiquement invalide, mais serait
+valide avec une équivalence, avec ≡ plutôt que )
+ Sophisme de la négation de l’antécédent (DA) :
+((A  B) & ~A)  ~B (est logiquement invalide, mais
+serait valide avec une équivalence, avec ≡ plutôt que  )
+11
+
+
+ Les erreurs spontanées avec les implications
+ Pourtant : les expérimentations avec les 4
+raisonnements de base sur l’implication
+ Modus ponendo ponens (MPP) :
+((A  B) & A)  B valide (entre 89% et 100% le font)
+ Modus tollendo tollens (MTT) :
+((A  B) & ~B)  ~A valide (entre 41 et 81% le font)
+ Sophisme de l’affirmation du conséquent (AC) :
+((A  B) & B)  A erreur (entre 41 et 81% font l’erreur)
+ Sophisme de la négation de l’antécédent (DA) :
+((A  B) & ~A)  ~B erreur (entre 23 et 75% font l’erreur)
+12
+
+
+ Une expérience paradigmatique :
+les cartes de Wason et les erreurs spontanées
+ 4 cartes posées sur une table : chaque carte possède une lettre d’un
+côté et un chiffre de l’autre
+ La règle: s’il y a un A d’un côté d’une carte, alors il y a 4 de l’autre côté
+ Les 4 cartes possèdent du côté visible : un A, un D, un 4, un 7
+ La question adressée aux sujets : quelles sont les cartes que l’on doit
+nécessairement retourner pour vérifier si la règle est respectée?
+ L’erreur habituelle : A, 4 (90% des sujets) : modus ponendo ponens (A)
+et sophisme de l’affirmation du conséquent (4)
+ La réponse valide : A, 7 (10% des sujets) : modus ponendo ponens (A) et
+modus tollendo tollens (7)
+ La question classique : pourquoi faisons-nous cette erreur logique?
+ Dans cette erreur, nous avons tendance à traiter l’implication
+(A 4 כ ) comme une équivalence (A ≡ 4) : pourquoi?
+13
+
+
+ L’organisation logique de la disjonction, de
+l’incompatibilité et de la disjonction exclusive
+A ou B A incompatible avec B
+A B A|B
+VVV VF V
+VVF VVF
+F VV F VV
+F F F F VF
+Ou bien A, ou bien B
+A  B
+VF V
+VVF
+F VV
+FFF
+14
+
+
+ Les erreurs spontanées avec les disjonctions et
+les incompatibilités
+ D’autres raisonnements spontanés courants
+ ((A ˅ B) & ~A) כ B (MTP valide sur ˅ )
+ Mais : ((A ˅ B) & A) ~ כ B (MPT invalide sur ˅, mais serait valide
+avec une disjonction exclusive , plutôt que )
+ ((A | B) & A) ~ כ B (MPT valide sur |)
+ Mais ((A | B) & ~A) כ B (MTP invalide sur |, mais serait valide
+avec une disjonction exclusive , plutôt que |)
+ Nous traitons donc souvent les disjonctions inclusives (˅) et les
+incompatibilités (|) comme des disjonctions exclusives (voir Robert
+et Brisson in Logica Universalis, volume 10)
+ Pourquoi ces sophismes?
+15
+
+
+ Deux types d’erreurs logiques courantes
+ Les sophismes : tirer une conclusion que l’on croit logiquement
+valide quand cette conclusion n’est pas valide (comme ce
+que nous venons de voir avec les implications, les disjonctions
+et les incompatibilités)
+ Penser à des antécédents alternatifs permet d’éviter ces
+sophismes
+ Les suppressions d’inférences valides : ne pas tirer de
+conclusion valide quand il serait possible d’en tirer une
+ L’exemple de Marie à la bibliothèque
+ Il a été démontré que ces erreurs dépendent de ce que
+nous considérons comme des « disablers », des inhibiteurs
+(Byrne, 1989)
+16
+
+
+ Les théories de la compétence logique
+et des erreurs logiques (dans les SC post Piaget)
+ La théorie de la logique mentale (syntaxique)
+ La théorie des modèles mentaux (sémantique)
+ Les théories pragmatiques
+ Les théories évolutionnistes
+ La théorie des modules darwiniens sélectionnés (Tooby & Cosmides)
+ La théorie des heuristiques (Gigerenzer)
+ La théorie du satisfycing (Simon, Tversky & Kahneman)
+ La théorie des processus duaux (Evans, Stanovich, Kahneman)
+ Les théories récentes
+ La théorie probabiliste (Oaksford & Chater)
+ La théorie du « closed-world reasoning » (Stenning & van Lambalgen)
+ Nous allons voir maintenant un aperçu de quelques-unes de ces théories
+17
+
+
+ La théorie de la logique mentale
+ Il y a des règles (syntaxiques) de la déduction dans l’esprit (Rips, Braine) : apparenté à la grammaire
+universelle (Chomsky) et au langage de la pensée (Fodor)
+ La logique mentale de Braine : des règles qui s’appliquent spontanément
+ Le système déductif naturel de Braine est équivalent aux règles de déduction naturelle de Gentzen
+ L’erreur peut venir de :
+ L’absence de la règle dans notre bagage mental (voir MTT, les règles complexes)
+ L’absence de reconnaissance de la règle dans un cas particulier (un contexte pragmatique
+particulier) : apprendre la logique, c’est apprendre à désamorcer les effets de contexte et/ou
+apprendre des règles non inscrites dans la logique mentale
+ Problèmes
+ La logique mentale n’explique pas les erreurs systématiques dans les raisonnements courts (voir les
+sophismes de l’implication)
+ C’est une théorie descriptive et explicative, mais non prédictive (chaque succès est inclus dans le
+bagage mental, chaque erreur en est exclue, sans que l’on puisse prédire ce qui va arriver avec
+des raisonnements non encore testés)
+ Elle est trop exclusivement syntaxique : elle n’explique pas les effets de contenu et les biais de
+croyance (l’absence des dimensions sémantiques et pragmatiques)
+18
+
+
+ La théorie des modèles mentaux
+ Il y a des procédures sémantiques dans la pensée : les procédures de raisonnement sont surtout déterminées par le contenu (Johnson-Laird, Byrne)
+ Pas des tables de vérité, mais quelque chose qui s’en rapproche (moins formel, seulement les cas avec conclusion vraie, les configurations possibles du monde selon les prémisses)
+ La nature de ces procédures
+ 1) Construction d’un modèle intuitif représentant une possibilité de conclusion vraie
+ 2) Falsification par un contre-exemple (point de vue poppérien)
+ 3) Construction d’un modèle alternatif jusqu’à épuisement des contre-exemples
+ La difficulté croît avec le nombre de modèles nécessaires: moins de modèles dans l’ ≡ que dans l’ כ, moins de modèles dans  que dans 
+ Les différences de performances dépendraient de variations dans la mémoire de travail
+ Problèmes : 1) Grande variation dans les résultats, peu de variation dans la mémoire de travail (voir la loi de Miller), pas de corrélation significative entre les deux
+ 2) Les modèles de Johnson-Laird sont artificiels et trop complexes pour le novice
+ 3) La théorie est trop exclusivement sémantique
+ 4) Elle n’explique pas tous les effets de contenu (voir plus loin l’expérience du barman, la dimension pragmatique du raisonnement)
+19
+
+
+ Exemple de modèles mentaux 20
+
+
+ L’expérience du barman :
+les succès spontanés (Tooby & Cosmides, 1989)
+ Le patron d’un bar vous embauche
+ Vous devez respecter la loi, sinon, le patron va vous congédier
+ La loi dit : si une personne boit de l’alcool, alors elle doit avoir au moins
+18 ans
+ Un groupe de 4 clients est assis à une table : un est jeune, un est vieux,
+un commande du Coca Cola, un commande de la bière
+ La question : quels sont les clients dont je dois vérifier la consommation
+ou l’âge?
+ La réponse valide : la consommation du jeune et l’âge de celui qui boit
+de la bière (le vieux peut boire ce qu’il veut et l’âge de celui qui boit
+du Coca Cola n’importent pas)
+ Le taux de succès : près de 100%
+ Le problème a la même structure logique que celui des cartes de
+Wason!!!
+ Pourquoi évitons-nous l’erreur?
+21
+
+
+ Les théories évolutionnistes
+ Spécifiquement pour expliquer les effets de contenu
+ Nos mécanismes inférentiels sont le résultat d’une sélection
+par l’évolution : variations et sélection naturelle (ou culturelle)
+des variations adaptées
+ Approches habituellement modulaires (vs processeur central)
+ Approches habituellement à réalisabilité unique (vs multiple)
+ 4 écoles évolutionnistes principales:
+ Tooby et Cosmides : des algorithmes darwiniens sélectionnés
+ La théorie des heuristiques (Gigerenzer)
+ La théorie du satisfycing (Simon, Tversky & Kahneman)
+ La théorie des processus duaux (Evans, Stanovich, Kahneman)
+22
+
+
+ La théorie modulaire de Tooby et Cosmides
+ Cosmides et Tooby (1989, 1996) : retour sur la différence de performance entre les cartes de Wason et le barman
+ Différence entre raisonnement descriptif et raisonnement normatif
+ Obligation déontique relative à une relation de privilège à prix
+ Activation d’un module darwinien de détection de tricheurs (un circuit neuronal sélectionné, Goel et al. 2004) : deux modules différents pour les cartes et pour le barman
+ Ce module est lié à la stabilisation de la coopération (dans les contrats sociaux) et la lutte contre la tricherie : relation coût et bénéfice (prix et privilège) depuis les sociétés de chasseurs-cueilleurs : si tu veux un privilège, cela implique un prix à payer
+ Intégration de l’adaptationnisme et du modularisme
+ Le maniement correct de l’implication n’est dans notre bagage héréditaire que pour les contrats sociaux : voir le gâteau au chocolat et les épinards chez les enfants
+ Le module permet des décisions rapides contre les prédateurs ou les compétiteurs : la logique nous aide à vivre en société et non à trouver la vérité!
+23
+
+
+ La théorie des heuristiques
+ Gigerenzer : une rationalité faible de fait vs normative
+ L’évolution a sélectionné des inférences frugales, rapides, approximatives, suffisantes pour survivre de
+manière efficace : les heuristiques
+ Nos erreurs logiques (biais) systématiques sont l’effet de l’usage des heuristiques
+ Le biais de croyance : le syllogismes des éléphants petits
+ Le biais de confirmation : la règle de génération de 2-4-6
+ Le biais d’appariement : pas de carré rouge à gauche כ cercle jaune à droite (comment rendre la règle fausse)
+ Le raisonnement logique n’a pas été nécessaire à notre survie
+ Le raisonnement logique demande trop de temps de réflexion
+ Apprendre la logique est inutile
+ Problème vs Gigerenzer : absence de normativité
+ Tout ce qui a duré et s’est reproduit dans le raisonnement humain serait pertinent pour notre survie!
+ Nous pouvons penser, contre Gigerenzer, que nous avons fait et que nous répétons des erreurs dans
+notre adaptation à notre milieu, notamment parce que la sélection naturelle est partielle et non
+radicale...
+24
+
+
+ La théorie probabiliste
+ Le traitement de l’implication selon Oaksford & Chater, Over :
+ MPP : valide : ((A כ B) & A) כ B
+ Nous le traitons comme Pr(B|A)
+ MTT : valide : ((A כ B) & ~B) כ ~A
+ Nous le traitons comme Pr(~A|~B)
+ Sophisme du AC : invalide : ((A כ B) & B) כ A
+ Nous le traitons comme Pr(A|B)
+ Sophisme du DA : invalide : ((A כ B) & ~A) כ ~B
+ Nous le traitons comme Pr(~B|~A)
+ Le traitement humain spontané de l’implication se ferait selon une probabilité
+conditionnelle qualitative et approximative et non selon les lois de la logique classique ou
+de la logique des probabilités
+ Nous cherchons des relations de dépendance relative entre les événements, plutôt que
+des implications logiques
+25
+
+
+ La théorie des processus duaux
+ Evans, Stanovich, Kahneman : évolutionnisme, rationalisme et méliorativisme :
+oui, nous sommes spontanément plus ou moins logiques, mais nous pouvons
+apprendre à le devenir davantage et cela peut nous aider à prendre de
+bonnes décisions pour mieux survivre
+ 2 types de circuits neuronaux :
+ Type 1 : rapide, spontané, inconscient, en parallèle, inné : responsable des
+heuristiques et des sophismes
+ Type 2 : lent, réfléchi, conscient, en série, acquis :
+responsable de la compétence logique plus sophistiquée
+ Le type 2 passe par la visuo-spatialisation pariétale entre la vision
+(occipitale) et le langage (frontal et temporal)
+ Voir l’imagerie cérébrale faite par l’équipe de Goel
+ Le type 1 ne peut être éliminé (il est trop ancré en nous), mais il peut être inhibé
+pour faire place au type 2: apprendre la logique, c’est apprendre des stratégies
+d’inhibition du type 1 (Houdé & Moutier)
+26
+
+
+ Quelques conclusions
+ La logique est une création tardive dans l’histoire humaine, qui nous permet de tirer des
+conclusions certainement vraies si les prémisses sont vraies
+ La logique a permis l’invention de l’ordinateur, comme machine qui automatise le
+raisonnement logique (voir l’IA)
+ Cependant, les humains n’ont pas souvent tendance à raisonner en respectant les lois de
+la logique (voir les SC du raisonnement)
+ Ils ont plutôt tendance à raisonner rapidement, pour augmenter leur information et pour
+survivre de manière économique et simple dans un monde hostile (processus de type 1)
+ Les sophismes sont des augmentations injustifiées de l’information (des inférences
+créatives)
+ La logique s’apprend et peut nous aider à prendre des décisions plus rationnelles et à
+mieux nous adapter à notre environnement (processus de type 2)
+ L’ordinateur est une technologie logique qui peut nous être très utile, compte tenu de nos
+tendances illogiques spontanées
+ L’informatique cognitive doit tenir compte des résultats de la psychologie cognitive du
+raisonnement pour faire de l’IA plus adaptée aux humains
+27
