@@ -1,0 +1,462 @@
+H. Lounis 1
+Raisonnement
+
+
+ H. Lounis 2
+Raisonnement
+C ’est le processus de faire coopérer
+connaissances, faits, et stratégies de
+résolution de problèmes, dans le but
+d ’atteindre des conclusions.
+Comprendre comment un expert
+humain raisonne lors de la résolution
+d ’un problème.
+
+
+ H. Lounis 3
+Types de raisonnement
+Raisonnement
+Abductif
+Analogique
+Du sens commun
+Déductif
+Inductif
+
+
+ H. Lounis 4
+Types de raisonnement
+Raisonnement déductif
+:
+Raisonnement inductif :
+Un ensemble d ’objets {a, b, c,
+d, ...}
+Une propriété P vraie pour les
+objets a, b, c, ... de l ’ensemble
+On induit que P est vraie pour
+tout x de l ’ensemble
+A est vrai
+A --> B est vrai
+On en déduit que : B est
+vrai
+
+
+ H. Lounis 5
+Raisonnement abductif :
+Raisonnement du sens commun
+Raisonnement
+analogique :
+C ’est une inférence plausible.
+B est vrai
+A --> B est vrai
+on abduit que A est vrai
+Faire une analogie entre 2
+situations, rechercher les simi
+larités et différences, etc.
+Exploite par ex. la notion de
+frame pour raisonner.
+S ’appuie sur l ’expérience de l ’expert,
+sur la notion de « bon » jugement, plus
+que sur la logique. Notion
+d ’heuristique.
+Types de raisonnement
+
+
+ H. Lounis 6
+Raisonnement à base de règles
+- 3 composants essentiels :
+un ensemble de règles ;
+un ensemble de faits ;
+un moteur d ’inférence ;
+- Avantages : facile à comprendre, naturel, modulaire.
+- Gérer les problèmes de contrôle
+
+
+ H. Lounis 7
+Raisonnement à base de règles
+- Principe de fonctionnement :
+- Résolution de conflits
+- Critère d ’arrêt :
+- Trouver parmi les règles celles candidates
+- Choisir une de ces règles
+- Exécuter la règle
+- Si plusieurs règles satisfaites, choisir laquelle déclenchée
+- Pour déterminer la fin du processus d ’inférence (plus
+aucune règle n ’est déclenchée, une solution acceptable a
+été trouvée, impossibilité de trouver une solution, etc.)
+
+
+ H. Lounis 8
+Chaînage avant
+Pour nombre de
+problèmes, le processus
+de résolution commence
+par une collecte de
+données, à partir des
+quelles l’on infère des
+conclusions logiques.
+Le processus se poursuit
+jusqu’à ce qu’un but soit
+atteint ou jusqu’à ce que
+plus aucune règle ne se
+déclenche.
+Base de faits initiale
+Considérer la
+première règle
+Appariement
+base de faits
+– prémisses
+?
+Ajouter la
+conclusion à la
+base de faits
+Il reste des
+règles ?
+STOP
+Considérer la règle
+suivante
+TF
+T
+F
+
+
+ H. Lounis 9
+Chaînage avant
+Stratégies de résolution de conflits :
+- Première règle qui s’apparie avec les faits avérés ;
+- Règle ayant la plus haute priorité ;
+- Règle la plus spécifique ;
+- Règle faisant référence aux faits les plus récemment
+introduits dans la base de faits ;
+- Ne pas déclencher à nouveau une règle l’ayant déjà
+été ;
+- Etc. ;
+
+
+ H. Lounis 10
+Chaînage arrière
+Pour prouver une hypothèse
+en recherchant les
+informations pouvant la
+supporter.
+On sélectionne alors les
+règles ayant ce but comme
+conclusion, et vérifie si les
+prémisses de ces règles font
+partie de la base des faits.
+Les prémisses n’appartenant
+pas à la base de faits
+deviennent à leur tour des
+buts à prouver de la même
+façon.
+Le raisonnement se fait des
+solutions vers les faits
+initiaux.
+Ex. MYCIN :
+11
+8
+9 10
+7
+Infection streptocoque
+de la gorge ?
+Infection streptocoque
+de la gorge ?
+Signes d’infection de
+la gorge
+Signes d’infection de
+la gorge Organisme =
+streptocoque
+Organisme =
+streptocoque
+Gorge rouge
+Gorge rouge
+Tâche en Grampos
+Tâche en Grampos
+Morphologie coccidie
+Morphologie coccidie
+Croissance en chaîne
+Croissance en chaîne
+1
+2
+3
+45
+6
+12
+
+
+ H. Lounis 11
+Comparaison
+Chaînage avant Chaînage arrière
+Points forts √ Fonctionne bien lorsque le
+problème se présente « natu
+rellement » avec des faits
+initiaux ;
+√ Produit une grande quantité de
+faits à partir de faits initiaux très
+peu nombreux ;
+√ Fonctionne parfaitement lors
+que le problème consiste à
+prouver une hypothèse ;
+√ Il est focalisé sur le but à
+prouver et pose donc des
+questions pertinentes, qui ne
+déroutent pas l’utilisateur ;
+√ Contrairement au chaînage
+avant, il recherche dans la base
+de connaissances les infor
+mations intéressantes pour le
+problème courant ;
+Points faibles √ Souvent ne perçoit pas
+certaines évidences ;
+√ Le système peut poser de
+nombreuses questions, qui des
+fois s’avèrent non pertinentes.
+√ Poursuit une ligne de
+raisonnement même s’il s’avère
+qu’il devrait l’abandonner pour
+une autres. Les facteurs de
+croyance et les méta-règles
+peuvent aider à résoudre ce
+problème.
+
+
+ H. Lounis 12
+Chaînage bidirectionnel
+Faits
+initiaux
+Solutions
+possibles
+- Règles en chaînage avant et d ’autres en chaînage arrière
+- Le SBR alterne les 2 modes de fonctionnement
+
+
+ H. Lounis 13
+Chaînage mixte
+Faits
+initiaux
+Solutions
+possibles
+- Les mêmes règles sont utilisées an chaînage avant et arrière,
+selon que des faits nouveaux arrivent ou que l ’on ait des faits
+à établir.
+
+
+ H. Lounis 14
+Raisonnement monotone vs. non monotone
+Raisonnement non monotone :
+information dynamique, l ’état
+de véracité de l ’information
+change.
+Raisonnement monotone :
+information statique, l ’état de
+véracité de l’information ne change
+pas.
+Sauvegarder les dépendances
+logiques entre faits.
+Si on retire un fait A dont
+dépend un autre fait B, on doit
+retirer aussi le fait B.
+Ex.
+Si Il pleut
+alors j ’ouvre mon parapluie
+
+
+ H. Lounis 15
+Stratégies de parcours d ’arbre
+Notion de réseau d ’inférences
+et de parcours dans le réseau.
+Ex.
+Si P1 alors C1 ;
+Si P2 alors C2 ;
+Si P3 & P4 alors P2 ;
+Si P5 & P6 alors P1 ;
+Si P7 alors P6 ;
+Si P8 alors P4 ;
+Si P9 alors C2 ;
+Problème
+C1 C2
+P1
+P5 P6
+P7
+P2 P9
+P3 P4
+P8
+Différentes stratégies de
+parcours de l ’espace !
+
+
+ H. Lounis 16
+Stratégies de parcours d’arbre
+- Parcours en profondeur d ’abord :
+parcourir le graphe verticalement
+d’abord, pour ensuite explorer d’autres
+nœuds (de gauche à droite).
+Lorsqu’il est connu que l’espace de
+recherche est profond, la stratégie en
+profondeur d’abord est un bon choix.
+De plus, cette stratégie se focalise sur
+une solution et est donc à même d’être
+comprise par un utilisateur qui interagit
+avec le système, car les questions sont
+relatives à un même chemin.
+Problème
+C1 C2
+P1
+P5 P6
+P7
+P2 P9
+P3 P4
+P8
+
+
+ H. Lounis 17
+Stratégies de parcours d’arbre
+- Parcours en largeur d ’abord :
+parcourir d’abord les nœuds d’un
+même niveau, avant de considérer
+les nœuds du niveau inférieur.
+Si la solution se situe
+profondément dans l’espace de
+recherche, cette stratégie n’est pas
+payante.
+Les interactions avec un utilisateur
+sont difficiles en raison de
+l’exploration de chemins nombreux
+(manque de focalisation).
+Problème
+C1 C2
+P1
+P5 P6
+P7
+P2 P9
+P3 P4
+P8
+
+
+ H. Lounis 18
+Stratégies de parcours d’arbre
+- Parcours « meilleur » d ’abord :
+c ’est une solution non aveugle.
+Elle exploite des connaissances du
+problème pour guider la recherche.
+À chaque nœud, la technique juge
+du meilleur chemin à emprunter,
+suivant une heuristique donnée.
+Exemples d ’heuristiques :
+- Ordonner les buts ;
+- Ordonner les prémisses ;
+- Utiliser des méta-règles ;
+- Attribuer des priorités aux règles ;
+- Utiliser des facteurs de confiance ;
+- Etc.
+
+
+ H. Lounis 19
+Heuristiques
+Les algorithmes de recherche aveugle n'exploitent
+aucune information concernant la structure de l'arbre
+de recherche ou la présence potentielle de noeuds
+solution pour optimiser la recherche ;
+Recherche "rustique" à travers l'espace jusqu'à
+trouver une solution.
+La plupart des problèmes réels sont susceptibles de
+provoquer une explosion combinatoire du nombre
+d'états possibles.
+Un algorithme de recherche heuristique utilise
+l'information disponible pour rendre le processus de
+recherche plus efficace.
+Une information heuristique est une règle ou une
+méthode qui presque toujours améliore un processus
+de décision.
+
+
+ H. Lounis 20
+Fonction heuristique
+Une fonction heuristique
+h:E→R
+fait correspondre à un état s ∈ E (espace d'états) un nombre
+h(s) ∈ R qui est (généralement) une estimation du rapport
+coût/bénéfice qu'il y a à étendre le chemin courant en passant
+par s.
+Contrainte : h(solution) = 0
+Le nœud A a 3 successeurs pour lesquels :
+h(s1) = 0.8 h(s2) = 2.0 h(s3) = 1.6
+La poursuite de la recherche par s1 est heuristiquement la
+meilleure
+A
+s1 s2 s3
+
+
+ H. Lounis 21
+C’est un problème de recherche
+dans un espace d’états
+Espace d'états : décrit par un état initial et
+un ensemble d'actions possibles
+(opérateurs). Un chemin dans cet espace est
+n'importe quelle suite d'actions qui mènent
+d'un état à un autre.
+Test-but : fonction applicable à un état qui
+détermine si c'est l'état-solution.
+Coût-chemin : permet de déterminer quel est
+le meilleur chemin menant à la solution si
+plusieurs chemins existent.
+
+
+ H. Lounis 22
+Définir un espace d’états
+Le monde réel est excessivement complexe
+⇒ l'espace d'états doit être une abstraction
+de la réalité
+– état (abstrait) = ensemble d'états réels
+– opérateur (abstrait) = combinaison d'actions
+réelles
+– solution (abstraite) = ensemble de chemins
+solutions dans le monde réel
+
+
+ H. Lounis 23
+Exemple
+Le monde consiste en 2
+positions pièce gauche,
+pièce droite
+Chaque pièce peut
+contenir de la poussière
+L'agent (aspirateur)
+peut être dans l'une des
+2 pièces
+Il y a 8 états possibles
+3 actions possibles : à
+gauche, à droite,
+aspirer
+
+
+ H. Lounis 24
+Exemple – suite 
+L'aspirateur est dans une des 2 pièces
+Formulation du but :
+– éliminer toute la poussière
+Formulation du problème :
+– États : les 8 états possibles du problème
+– Actions: se déplacer à gauche, à droite, aspirer
+Solution :
+– être dans l'état 7 ou 8
+
+
+ H. Lounis 25
+Exemple – suite 
+• état initial : 1 des 8 états ci-dessus
+• opérateurs : à gauche (L), à droite (R), aspirer (S)
+• test-but : plus de poussière nulle part
+• coût-chemin : chaque action coûte 1
+
+
+ H. Lounis 26
+En conclusion
+Prendre en compte différents types de
+représentation de connaissances, et donc,
+différents types d ’inférences :
+Prendre en compte l ’incertain
+Etc.
+- Règles
+- Réseaux sémantiques
+- Contraintes d ’intégrité
+- Etc.

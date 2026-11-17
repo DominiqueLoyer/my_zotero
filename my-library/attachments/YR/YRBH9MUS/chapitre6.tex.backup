@@ -1,0 +1,94 @@
+\part{La frontière générative et ses implications sociétales}
+L'émergence de l'IA générative (GenAI), propulsée par des modèles de fondation comme les grands modèles de langage (LLMs) et les modèles de diffusion, représente un changement de paradigme, passant d'une IA capable de «reconnaître» à une IA capable de «générer» des contenus complexes.
+
+Cette nouvelle ère soulève des défis inédits pour l'explicabilité et engendre des impacts sociétaux profonds qui nécessitent une analyse approfondie.
+
+Cette partie explore les nouvelles exigences pour l'explicabilité dans le contexte de l'IA générative (GenXAI), examine l'imbrication de l'IA dans les structures de gouvernance, et analyse les conséquences des systèmes algorithmiques sur la société à travers des études de cas concrètes.
+\vspace{2em}
+
+\chapter{Explicabilité pour l'IA générative (GenXAI)}
+L'IA générative, capable de créer du texte, des images, du code et d'autres médias, a radicalement changé le paysage de l'intelligence artificielle \citep{Gozalo-Brizuela2023, Cao2023}.
+
+Des systèmes comme ChatGPT \citet{Achiam2023} et DALL-E \citet{Betker2023} ont rendu ces capacités accessibles à un large public. Cependant, la complexité, la nature multi-facettes et le potentiel hallucinatoire (génération de contenu plausible mais factuellement incorrect) de ces modèles rendent le besoin de compréhension encore plus pressant que pour les modèles pré-génératifs \citet{Schneider2024b}. Ainsi, le domaine de l'IA explicable pour l'IA générative, ou GenXAI, vise à relever ces nouveaux défis.
+\section{De l'IA discriminative à l'IA générative : un nouveau besoin d'explication}
+Les techniques d'XAI traditionnelles ont été principalement conçues pour des modèles discriminatifs, dont la tâche est de classer ou de prédire une valeur à partir d'une entrée (p. ex. classifier une image comme «chat»). 
+
+L'explication se concentre alors sur l'identification des caractéristiques d'entrée qui ont le plus contribué à cette classification.
+
+Avec l'IA générative, la tâche est fondamentalement différente : le modèle génère une sortie complexe et structurée (un paragraphe de texte, une image entière) à partir d'une entrée souvent concise (un prompt) \citet{White2023}.
+
+Ce changement de nature de la tâche introduit de nouveaux besoins en matière d'explication. Il ne suffit plus de savoir quelles parties de l'entrée ont influencé la sortie. Les utilisateurs et les développeurs veulent comprendre :
+\begin{itemize}[label=\textbullet]
+    \item Pourquoi le modèle a-t-il généré ce contenu spécifique plutôt qu'un autre?
+    \tem Quelles parties des données d'entraînement ont influencé la génération de cette sortie?
+    \item Comment le prompt peut-il être modifié pour contrôler plus finement le résultat?
+    \item La sortie générée est-elle factuellement correcte et exempte de biais?
+\end{itemize}
+
+La complexité des sorties générées, qui peuvent comporter de multiples couches de signification, rend une explication unique souvent insuffisante \citet{Schneider2024b}.
+
+De plus, la diversité des utilisateurs, allant des experts techniques aux novices, exige des explications adaptées à différents niveaux de compréhension \citet{Meske2022}.
+\subsection{Nouveaux desiderata pour la GenXAI : vérifiabilité, interactivité et sécurité}
+L'avènement de l'IA générative a fait émerger de nouvelles propriétés souhaitables (desiderata) pour les explications, au-delà des critères traditionnels comme la fidélité et la plausibilité \citet{Schneider2024b}.
+
+\textbf{Vérifiabilité :} Étant donné la propension des modèles génératifs aux hallucinations, les explications doivent aider les utilisateurs à vérifier l'exactitude factuelle du contenu généré. Cela peut impliquer de lier les affirmations du texte généré à des sources fiables dans les données d'entraînement ou sur le web.
+
+\textbf{Interactivité et personnalisation :} Les utilisateurs doivent pouvoir interagir avec les explications pour les adapter à leurs besoins. Par exemple, un utilisateur pourrait vouloir explorer comment différentes parties du prompt ont influencé différentes parties de la sortie, ou demander des explications plus ou moins détaillées \citep{Schwalbe2023, Schneider2019}.
+
+\textbf{Sécurité :} Les explications ne doivent pas révéler de vulnérabilités dans le modèle qui pourraient être exploitées pour générer du contenu malveillant, ou divulguer des informations sensibles présentes dans les données d'entraînement.
+Coût : La génération d'explications pour des modèles aussi vastes et complexes que les LLMs peut être coûteuse en termes de calcul. Les techniques de GenXAI doivent donc être efficaces sur le plan computationnel.
+
+\textbf{Contrôlabilité :} Les explications devraient fournir des indications sur la manière de modifier le prompt ou d'autres entrées pour guider la génération vers un résultat souhaité, ce qui est essentiel pour le débogage et l'utilisation créative de ces modèles.
+\subsection{Le rôle des LLMs comme sujet et outil d'explication}
+Les grands modèles de langage (LLMs) occupent une position unique dans le domaine de la GenXAI : ils sont à la fois l'objet principal nécessitant une explication et un outil puissant pour générer ces explications \citep{Singh2024, Liao2023}.
+
+En tant qu'objet d'explication, la recherche se concentre sur l'adaptation des techniques existantes (comme l'attribution de caractéristiques) et le développement de nouvelles méthodes pour sonder les mécanismes internes des architectures Transformer, comprendre comment les connaissances sont stockées dans leurs paramètres, et tracer l'influence des données d'entraînement sur les sorties générées \citep{Zhao2023a, Luo2024}.
+
+De façon analogue, les LLMs offrent une opportunité prometteuse pour améliorer l'XAI en général. Grâce à leur capacité à traiter et à générer du langage naturel, les LLMs peuvent transformer les sorties souvent techniques et peu intuitives des méthodes XAI traditionnelles (comme les cartes de saillance ou les valeurs SHAP) en récits faciles à comprendre pour les non-experts \citet{Norori2021}.
+
+Un LLM peut être utilisé pour :
+\begin{itemize}[label=\textbullet]
+    \item Générer des explications en langage naturel pour les prédictions de n'importe quel modèle d'apprentissage automatique (y compris les modèles non génératifs).
+    \item Créer des explications conversationnelles et interactives, où un utilisateur peut poser des questions de suivi pour approfondir sa compréhension.
+    \item Produire des explications contrefactuelles ou des exemples contrastifs de manière fluide et contextuellement pertinente.
+\end{itemize}
+
+Cette double nature des LLMs crée une dynamique de recherche fertile, où les progrès dans la compréhension des LLMs peuvent être immédiatement mis à profit pour améliorer l'explicabilité de tous les systèmes d'IA, y compris les LLMs eux-mêmes.
+
+\section{Bureaucratie algorithmique : l'IA, l'état et le wébérisme numérique}
+L'adoption d'algorithmes d'IA par les administrations publiques pour l'aide à la décision, l'allocation de ressources et la fourniture de services marque une nouvelle étape dans l'évolution de la bureaucratie \citet{Busuioc2021}.
+
+Loin de démanteler les structures bureaucratiques, les technologies numériques semblent plutôt en réinventer et en intensifier la logique fondamentale. Le concept de «Wébérisme Numérique» \citet{Muellerleile2018} suggère que les principes clés de la bureaucratie idéale de Max Weber – efficacité, objectivité et rationalité – trouvent une nouvelle incarnation, souvent plus puissante et moins visible, dans les systèmes algorithmiques.
+
+\textbf{Efficacité et rationalité :} L'IA promet d'optimiser les processus administratifs en automatisant les tâches répétitives et en améliorant l'analyse des données \citet{VanNoordt2022}. Cette quête d'efficacité techno-rationnelle est une continuation directe de l'idéal wébérien de la bureaucratie comme une «machine bien huilée» \footnote{Traduit par Perplexity AI Pro.} (gut geölte Maschine) \citet{Weber1968}.
+
+\textbf{Objectivité :} Les algorithmes sont souvent présentés comme des outils neutres et objectifs, capables de surmonter les biais humains dans la prise de décision \citet{Janssen2020}. Cependant, cette objectivité apparente masque le fait que les biais systémiques présents dans les données historiques sont souvent appris et perpétués par les modèles \citep{Busuioc2021, Diakopoulos2014}.
+
+Cette transformation conduit à l'émergence d'une bureaucratie algorithmique, où l'autorité décisionnelle est de plus en plus partagée entre les fonctionnaires et les systèmes d'IA \citep{Vogl2020, Roehl2023}.
+
+Cela a des conséquences profondes sur la discrétion bureaucratique. Certaines études suggèrent que l'IA peut réduire la marge de manœuvre des fonctionnaires de première ligne (street-level bureaucrats) en automatisant les décisions \citep{Aviram2024, Giest2022}.
+
+D'autres, au contraire, montrent que l'IA peut créer de nouvelles formes de discrétion en dotant les agents de capacités d'analyse de données améliorées \citet{Bullock2020}. 
+
+L'impact semble dépendre du contexte, notamment de la complexité de la tâche : l'IA tend à limiter le jugement humain dans les décisions simples, mais les décisions complexes nécessitent toujours une appréciation humaine pour garantir la justice \citep{Bullock2019, Nagtegaal2021}.
+
+De plus, la bureaucratie algorithmique redéfinit le travail administratif, créant de nouveaux rôles de «professionnels des données» chargés de superviser les systèmes d'IA et de vérifier leurs décisions \citep{Fest2023}.
+
+Le concept de «professionnalisme bureaucratique algorithmique» émerge alors comme une éthique de gouvernance qui habilite les fonctionnaires à jouer un rôle de médiateur actif, en soumettant les recommandations de l'IA à un examen critique basé sur leur expertise et des directives éthiques \citet{Busuioc2020}.
+
+\subsection{Bulles de filtres, diversité et bien-être dans les écosystèmes de recommandation}
+Les systèmes de recommandation, en personnalisant le contenu présenté aux utilisateurs, ont un impact profond sur l'écologie de l'information et le bien-être individuel. 
+
+Le phénomène des «bulles de filtres«, popularisé par \citet{Pariser2011}, postule que la personnalisation algorithmique peut limiter l'exposition des individus à des contenus et des points de vue diversifiés, les enfermant dans des cocons idéologiques.
+
+Bien que l'existence et l'ampleur de ce phénomène fassent l'objet de débats empiriques \citet{ZuiderveenBorgesius2016}, il soulève des préoccupations majeures quant à ses répercussions sur la société, notamment la polarisation politique, la radicalisation et la fragmentation de la sphère publique \citet{Sunstein2018}.
+
+Les systèmes de recommandation peuvent créer des boucles de rétroaction (feedback loops), où les interactions des utilisateurs avec des recommandations biaisées renforcent les préférences initiales du système, créant un cycle auto-entretenu qui réduit la diversité du contenu \citet{Chen2020}. Par exemple sur des plateformes comme Netflix ou YouTube, les contenus populaires ont tendance à éclipser les perspectives de niche ou minoritaires, rétrécissant ainsi la diversité des expériences utilisateur \citet{Chen2020}.
+
+Au-delà de la diversité, les systèmes de recommandation soulèvent des questions éthiques plus larges liées au bien-être de l'utilisateur. La plupart des systèmes sont optimisés pour des métriques d'engagement à court terme (clics, temps de visionnage), ce qui ne correspond pas nécessairement au bien-être à long terme de l'utilisateur \citet{Ekstrand2021}.
+
+En guise d'illustration, un système pourrait recommander du contenu «clickbait» ou addictif qui maximise l'engagement mais peut être préjudiciable. 
+
+La recherche commence à peine à explorer comment définir et mesurer le bien-être de l'utilisateur dans ce contexte, en s'inspirant de concepts psychologiques comme le bien-être eudaimonique (axé sur le sens et l'épanouissement) par opposition au bien-être hédonique (axé sur le plaisir immédiat) \citep{Ryan2001, Huta2013}. 
+
+Cela implique de repenser les fonctions objectives des systèmes de recommandation pour inclure des objectifs liés à la diversité, la nouveauté, la sérendipité et le soutien aux objectifs à long terme des utilisateurs \citet{McNee2006}.

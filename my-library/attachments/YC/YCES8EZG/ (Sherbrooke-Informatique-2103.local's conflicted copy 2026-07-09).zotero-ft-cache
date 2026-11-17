@@ -1,0 +1,111 @@
+H. Lounis
+Spécifications d’un système d’IA
+
+
+ H. Lounis
+Prologue
+ Particularité des systèmes d’IA :
+– Type de problèmes qu’ils cherchent à résoudre ;
+– Ne peuvent être totalement spécifiés au tout début du cycle
+de développement.
+ Développement en grande partie exploratoire ;
+ Explicitation progressive des connaissances (grâce à
+une représentation déclarative des connaissances) ;
+ Spécifications évolutives et donc incomplètement
+définies au début ;
+ Pouvoir cependant construire des prototypes avant
+que les spécifications aient leur aspect final.
+
+
+ H. Lounis
+Spécification d’un système d’IA
+ Description du système au niveau de la connaissance ;
+ Décrire le problème et la solution adoptée :
+– Spécifications du problème : terme du contrat, ce que le système doit et ne doit pas faire, les performances attendues, les contraintes, etc. C’est l’étape de description qui se stabilise le plus tôt.
+– Spécifications solutions : base sur laquelle s’appuie le développement, description du domaine d’expertise, des buts à atteindre, des tâches à effectuer, etc. Réalisation d’une représentation de la connaissance et implémentation.
+Spécifications
+Spécifications du problème
+Spécifications solutions
+Description du problème
+Contraintes
+Modèle conceptuel
+Implémentation
+
+
+ H. Lounis
+Les spécifications du problème
+ Description du problème ;
+ Description de la connaissance du domaine (à un haut niveau) :
+entités, relations, événements, etc.  Modèle de cohérence ;  Données d’entrée et résultats ;
+ Contraintes (servant à réduire le nombre de solutions
+envisageables) ;  Performances attendues (temps, taux de réussite, ..) ;  Type d’interface voulu avec l’utilisateur / l’expert ;  L’environnement de travail ;  Les protections ;  Module d’apprentissage pour la maintenance future ;  Nécessité ou pas de produire des documents.
+
+
+ H. Lounis
+Les spécifications solutions
+ Elles résultent d’une phase d’analyse de la manière dont l’expert résout le
+problème ; aller donc d’un modèle conceptuel (niveau intermédiaire de
+formalisation entre le niveau linguistique et le niveau symbolique
+d’implémentation) vers un modèle d’implémentation ;  Le modèle conceptuel doit prendre en compte :
+– La résolution de problèmes : décrire la K. statique et la K. dynamique qui s’applique
+sur la statique ;
+– La gestion du dialogue : interaction du système avec l’utilisateur, les explications à
+fournir,
+– La coopération : schémas conceptuels de communication entre le système et les
+entités extérieures (données d’une base de données, une entrée au lieu d’un sous
+but, ...) ;
+– L’évolution future : description conceptuelle des moyens permettant d’acquérir de la
+nouvelle K. (apprentissage, méthodes classiques, ...).
+ Il décrit en général plusieurs types de K. :
+– K. statique : entités du domaine, relations, ... ; – Primitives d’inférence : pour simuler le raisonnement d’un expert ;
+– Procédures orientées tâches : dépendantes ou indépendantes du domaine, résultent
+de la combinaison de méthodes de résolution de problèmes ; e.g., classification
+heuristique de Clancey, 1985 ;
+– K. stratégiques : décrit comment appliquer les procédures orientées tâches pour la
+résolution de problèmes d’un domaine donné.
+
+
+ H. Lounis
+Les spécifications solutions
+ Les différentes représentations du modèle conceptuel :
+– Langage structuré [De Marco, 1978] ; – Structures conceptuelles [Sowa, 1984] ; – KADS [Wielinga & al., 1991] ; –...
+ Le modèle d’implémentation décrit le système en termes de structures de
+données, d’algorithmes, etc. Il regroupe donc l’ensemble des décisions
+concernant la transformation d’une décision conceptuelle non exécutable en une
+implémentation. Il comporte dans un modèle idéale :
+– Représentation des K. choisies ; – Architecture : modules, communication inter-modules, langages, etc. – Algorithmes des primitives d’inférence ; – Procédures gérant l’explication et le dialogue ; – Incertitude, e.g., procédures de calcul de probabilités à partir de la loi de Bayes ; – Enrichissement de la BC, e.g., description des algos d’apprentissage ;
+ Il est formalisé à l’aide de langages de programmation de haut niveau ou avec
+un langage comme UML.
+
+
+ H. Lounis
+Spécification et Validation
+ Les spécifications jouent un rôle important lors de la validation du système ;
+ La validation consiste à s’assurer que :
+– Besoins correctement énoncés dans les spécs du problème ;
+– La BC décrites dans les spécs solutions est correcte ;
+– Les 3 niveaux : conceptuel, d’implémentation et l’implémentation elle-même sont corrects l’un par rapport à l’autre ;
+– Le système effectue correctement les tâches, telles qu’elles ont été énoncées dans les spécs du problème.
+
+
+ H. Lounis
+À lire ...
+ Born & al., « Guidelines for quality assurance of expert-systems ». CSA
+working group on QA and expert systems, Computing services
+association, London, 1988.
+ Guida &Tasso, « Building expert systems: from life cycle to
+development methodology ». In Topics in expert system design p. 3-24,
+Amsterdam: Elsevier North-Holland, 1989.  Newell, « The knowledge level ». AI magazine (US), 2(2), p.1-20, 1981.
+ Steels, « Components of expertise ». AI magazine, 11(2), p.
+28-49,1990.
+ Boose & Bradshaw, « Expertise transfer and complex problem: using
+AQUINAS as a knowledge acquisition workbench for KBS ». Intl journal
+of Man-Machine studies, volume 26, number 1, p. 3-28, 1987.
+ Clancey, « Heuristic classification ». AI (Netherlands), 27, p. 289-350,
+1985.
+ De Marco, « Structured analysis and system specification ». Englewood
+Cliffs, NJ: Yourdon Press, 1978.
+ Sowa, « Conceptual structures ». Information processing in Minds and
+Machines. Addison Wesley, 1984.
+ Wielinga & al., « KADS: a modelling approach to knowledge
+engineering ». Knowledge Acquisition, 1991.

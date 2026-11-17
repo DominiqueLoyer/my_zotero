@@ -1,0 +1,562 @@
+\documentclass[9pt]{beamer}
+
+% --- Thème et Packages ---
+\usetheme{Warsaw}      % Thème demandé
+\usecolortheme{default} % Jeu de couleurs par défaut (peut être changé)
+
+\usepackage[utf8]{inputenc} % Encodage du fichier source
+\usepackage[T1]{fontenc}    % Encodage des fontes
+\usepackage[french]{babel}  % Langue française
+\usepackage{graphicx}       % Pour inclure des images
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{booktabs}       % Pour de belles tables
+\usepackage{amsfonts}
+\usepackage{amsmath}        % Symboles mathématiques (si nécessaire)
+\usepackage{amssymb}        % Symboles mathématiques (si nécessaire)
+\usepackage{natbib}         % Pour les citations style (Author, Year)
+\usepackage{hyperref}       % Pour les liens cliquables (optionnel)
+\usepackage{adjustbox}      % Pour ajuster la taille des tables/figures si elles sont trop grandes
+\usepackage{ragged2e}       % Pour un meilleur alignement dans les cellules de tableau p{}
+
+% --- Informations Titre ---
+\title[Système d'évaluation de crédibilité d'information]{Modélisation d'un Système d'Évaluation de la Crédibilité de l'Information}
+\subtitle{Projet 1 de modélisation, DIC-9251}
+\author{Dominique S. Loyer}
+\institute{UQAM \\ \texttt{loyer.dominique@courrier.uqam.ca}}
+\date{28 avril 2025 (Présentation)} % Date de la présentation
+
+% --- Configuration Bibliographie ---
+\bibliographystyle{apalike} % Style bibliographique demandé (compatible avec citet/citep)
+
+% --- Début du Document ---
+\begin{document}
+
+% --- Diapo 1: Page de Titre ---
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% --- Diapo 2: Plan ---
+\begin{frame}{Plan de la Présentation}
+  \tableofcontents
+\end{frame}
+
+% --- SECTION 1: Introduction et Problématique ---
+\section{Introduction et Problématique}
+\begin{frame}
+  \frametitle{Contexte : La Surcharge Informationnelle}
+  \begin{itemize}
+    \item Augmentation massive de l'information ("infobésité").
+    \item Difficulté croissante à distinguer l'information fiable.
+    \item Polarisation des opinions alimentée par la désinformation. \citet{Metzger2010}
+    \item Nécessité d'outils pour aider à l'évaluation critique.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Le Problème : Désinformation et "Fake News"}
+  \begin{itemize}
+    \item Prolifération de désinformation, mésinformation et "fake news". \citet{Oshikawa2019A, Zhou2022A, Pescuma2025}
+    \item Impact négatif sur l'opinion publique, la confiance et la démocratie. \citet{Loth2024, Zhou2022A}
+    \item Illustration tragique lors de la pandémie de COVID-19. \citet{Loth2024, Chen2024Combating, Metzger2010}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Un Nouveau Défi : L'IA Générative}
+  \begin{itemize}
+    \item Émergence de l'Intelligence Artificielle Générative (GenAI).\citet{Loth2024, Chen2024Combating}
+    \item Création facile et rapide de contenus synthétiques réalistes. \citet{Loth2024, Willems2020Modeling, Thibault2025A}
+    \item Exacerbation de la crise informationnelle.
+    \item Difficulté de distinction entre contenu authentique et synthétique.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Le Défi de l'Évaluation de la Crédibilité}
+  \begin{itemize}
+    \item Manque de transparence sur l'origine et la fiabilité des sources. \citet{Metzger2010, W3CCredibility2018, Pescuma2025, Rieh2014Credibility}
+    \item Évaluation complexe nécessitant temps et compétences spécifiques.
+    \item Nature multidimensionnelle de la crédibilité (fiabilité, expertise, exactitude, objectivité, qualité, actualité). \citet{Pescuma2025, Metzger2010}
+  \end{itemize}
+\end{frame}
+
+% --- Diapositive "Le Défi de l'Infobésité..." SUPPRIMÉE ---
+
+\begin{frame}{Solution Proposée : Système Hybride d'Évaluation}
+  \begin{itemize}
+    % Clés BibTeX mises à jour
+    \item \textbf{Objectif :} Fournir des outils (métriques, analyse sources, opinions divergentes) pour aider l'utilisateur à développer son esprit critique.
+    \item \textbf{Approche Hybride} \citet{Ahmed2025Aidriven} :
+      \begin{itemize}
+        \item \textbf{Règles Logiques Prédéfinies :} Encodage de connaissances explicites (réputation source, marqueurs linguistiques) \citet{Kedzie2018, W3CCredibility2018}. % Key35->Kedzie2018; Key36,37->W3CCredibility2018
+        \item \textbf{IA / Traitement Langage Naturel (NLP) :} Analyse de nuances (sentiment, cohérence, biais), adaptation \citet{Ahmed2025Aidriven, Loth2024, Chen2024Combating}. % Key16->Ahmed2025Aidriven; Key22->Loth2024; Key23->Chen2024Combating
+      \end{itemize}
+    \item \textbf{Motivation :} Pallier les limites des systèmes purement algorithmiques face à la complexité et la contextualité \citet{Nabozny2021}. % Key17,18,19,20 -> Nabozny2021
+    \item \textbf{Buts Spécifiques :} Lutter contre infobésité, détecter désinformation, évaluer sources, présenter métriques simplement, encourager pensée critique, assurer traçabilité, contribuer à la transparence.
+  \end{itemize}
+\end{frame}
+
+% --- SECTION 2: Modélisation UML ---
+\section{Modélisation UML du Système}
+
+\begin{frame}{Acteurs du Système}
+  \begin{table}[htbp]
+    \centering
+    \caption{Acteurs du Système d'Évaluation de Crédibilité.}
+    \label{tab:beamer_acteurs}
+    \tiny % Réduire la taille si nécessaire
+    \begin{tabular}{@{}lp{0.35\linewidth}p{0.35\linewidth}@{}}
+      \toprule
+      Acteur & Description & Buts Principaux \\
+      \midrule
+      Utilisateur & Personne souhaitant vérifier la crédibilité. & Soumettre requête, Consulter rapport, Fournir feedback. \\
+      \addlinespace
+      Expert & Personne qualifiée (config. système). & Ajuster règles/paramètres, Analyser logs. \\
+      \addlinespace
+      Système Externe & Source de données tierce (API, DB). & Fournir données brutes, Fournir métadonnées. \\
+      \addlinespace
+      Système & Le système d'évaluation. & Traiter requêtes, Interroger syst. ext., Appliquer règles/IA, Générer rapports. \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+  \vspace{1em} % Espace après le tableau
+  % Clés BibTeX mises à jour
+  \footnotesize L'acteur "Expert" est crucial pour la maintenance et l'adaptation continue face à l'évolution des menaces \citet{Nabozny2021, Loth2024, Chen2024Combating}. % Key17->Nabozny2021; Key21->Loth2024; Key23->Chen2024Combating
+\end{frame}
+
+\begin{frame}{Diagramme des Cas d'Utilisation}
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.97\textwidth,height=0.83\textheight, keepaspectration]{tp1_modelisation_beamer/UC_VF.png}
+    \caption{\tiny Diagramme des cas d'utilisation. * Note: UC = Use Case (Cas d'Utilisation).}
+    \label{fig:beamer_uc}
+  \end{figure}
+\end{frame}
+
+% --- Diapositive avec les blocs supprimés ---
+\begin{frame}{Explication des Cas d'Utilisation Clés (1/2)}
+  \textbf{UC1 : Soumettre une requête de vérification} \\ % Titre en gras
+  \textbf{But :} Permettre à l'Utilisateur de demander une évaluation. \\
+  \textbf{Acteurs :} Utilisateur (primaire), Système, Système Externe (secondaires). \\
+  \textbf{Déroulement :}
+  \begin{enumerate}
+    \item Utilisateur saisit/colle info (texte, URL).
+    \item Utilisateur soumet.
+    \item Système reçoit et déclenche le traitement hybride.
+    \item Système présente le rapport (via UC2).
+  \end{enumerate}
+
+  \medskip % Ajoute un petit espace vertical
+
+  \textbf{UC2 : Générer un rapport de crédibilité} \\ % Titre en gras
+  \textbf{But :} Présenter les résultats de manière claire. \\
+  \textbf{Acteurs :} Système (primaire), Utilisateur (secondaire). \\
+  \textbf{Déroulement :}
+  \begin{enumerate}
+    \item Système collecte résultats (score, détails, sources...).
+    \item Système formate le rapport (structuré, lisible, explications).
+    \item Système présente à l'Utilisateur.
+  \end{enumerate}
+\end{frame}
+
+% --- Diapositive avec les blocs supprimés ---
+\begin{frame}{Explication des Cas d'Utilisation Clés (2/2)}
+  % Clés BibTeX mises à jour
+  \textbf{UC3 : Récupérer des données externes} \\ % Titre en gras
+  \textbf{But :} Collecter informations pertinentes (contexte, vérifications). \\
+  \textbf{Acteurs :} Sys.(primaire), Sys.Ext. (API Moteur Recher., LLM, «Faits»...). \\
+  \textbf{Déroulement :}
+  \begin{enumerate}
+    \item Système identifie données nécessaires.
+    \item Système envoie requêtes aux API externes \citet{GoogleSearchAPI, Google2026Fact}. % Key40,41->GoogleSearchAPI; Key42,43->Google2026Fact}
+    \item Systèmes Externes retournent données.
+    \item Système prétraite et stocke temporairement.
+  \end{enumerate}
+  \textbf{Points Critiques :} Gestion erreurs API, timeouts, limites de taux. % Key44,45 omis
+
+  \medskip % Ajoute un petit espace vertical
+
+  % --- DÉBUT DE L'EXPLICATION UC8 RÉINSÉRÉE ---
+  \textbf{UC8 : Mettre à jour les règles/modèles} \\ % Titre en gras
+  \textbf{But :} Permettre à l'Expert d'améliorer/adapter le système. \\
+  \textbf{Acteurs :} Expert (primaire), Système (secondaire). \\
+  \textbf{Déroulement :}
+  \begin{enumerate}
+    \item Expert accède à l'interface admin.
+    \item Expert modifie/ajoute règles ou MAJ/réentraîne modèles IA.
+    \item Expert teste les modifications.
+    \item Expert déploie.
+  \end{enumerate}
+   \textbf{Importance :}pour maintenabilité face aux nouvelles menaces \citet{Nabozny2021, Loth2024, Chen2024Combating}. % Key17->Nabozny2021; Key21->Loth2024; Key23->Chen2024Combating
+  % --- FIN DE L'EXPLICATION UC8 RÉINSÉRÉE ---
+
+\end{frame}
+
+% --- DÉBUT DES DIAPOSITIVES AJOUTÉES ---
+
+% --- Diapo pour UC4 ---
+\begin{frame}{Explication du Cas d'Utilisation Interne : UC4}
+    \textbf{UC4 : Appliquer les règles} \\ % Titre en gras
+    \textbf{But :} Appliquer les règles logiques prédéfinies par l'Expert pour une première évaluation rapide. \\
+    \textbf{Acteur(s) Primaire(s) :} Système (via UC\_Hybride). \\
+    \textbf{Acteur(s) Secondaire(s) :} (Aucun acteur externe direct). \\
+    \textbf{Relation :} Inclus (`<<include>>`) dans UC\_Hybride. \\
+    \textbf{Description :}
+    \begin{itemize}
+        \item Le système exécute les `RegleVerification` configurées sur les `DonneesBrutes` récupérées (issues de UC7).
+        \item Produit des `ResultatRegle` (ex: score partiel basé sur la source, détection de langage suspect).
+        \item Ces résultats sont utilisés par UC6 pour le calcul du score final.
+    \end{itemize}
+\end{frame}
+
+% --- Diapo pour UC5 ---
+\begin{frame}{Explication du Cas d'Utilisation Interne : UC5}
+    \textbf{UC5 : Analyser via IA} \\ % Titre en gras
+    \textbf{But :} Exécuter des analyses sémantiques et contextuelles via des modèles IA/NLP. \\
+    \textbf{Acteur(s) Primaire(s) :} Système (via UC\_Hybride). \\
+    \textbf{Acteur(s) Secondaire(s) :} (Aucun acteur externe direct). \\
+    \textbf{Relation :} Inclus (`<<include>>`) dans UC\_Hybride. \\
+    \textbf{Description :}
+    \begin{itemize}
+        \item Le système utilise les `ModeleIA` configurés (sentiment, cohérence, biais, NER...) sur les `DonneesBrutes`.
+        \item Produit un `ResultatNLP` contenant les analyses détaillées.
+        \item Ces résultats sont utilisés par UC6 pour affiner le score de crédibilité.
+    \end{itemize}
+\end{frame}
+
+% --- Diapo pour UC6 ---
+\begin{frame}{Explication du Cas d'Utilisation Interne : UC6}
+    \textbf{UC6 : Calculer le score} \\ % Titre en gras
+    \textbf{But :} Combiner les résultats des analyses pour générer un score de crédibilité global et des métriques détaillées. \\
+    \textbf{Acteur(s) Primaire(s) :} Système (via UC\_Hybride). \\
+    \textbf{Acteur(s) Secondaire(s) :} (Aucun acteur externe direct). \\
+    \textbf{Relation :} Inclus (`<<include>>`) dans UC\_Hybride. \\
+    \textbf{Description :}
+    \begin{itemize}
+        \item Le système agrège les `ResultatRegle` (de UC4), le `ResultatNLP` (de UC5) et potentiellement l'analyse des `InfoSource` (issues de UC7).
+        \item Applique un algorithme de pondération ou de combinaison (défini par l'Expert via UC8) pour calculer le `scoreCredibilite`.
+        \item Prépare les `detailsScore` et autres informations pour le `RapportEvaluation` (généré par UC2).
+    \end{itemize}
+\end{frame}
+
+% --- Diapo pour UC7 ---
+\begin{frame}{Explication du Cas d'Utilisation Interne : UC7}
+    % Note: La description de UC7 était sous UC3 dans le rapport .tex
+    \textbf{UC7 : Récupérer des données externes} \\ % Titre en gras
+    \textbf{But :} Collecter les informations pertinentes depuis les sources externes nécessaires à l'analyse. \\
+    \textbf{Acteur(s) Primaire(s) :} Système (via UC\_Hybride). \\
+    \textbf{Acteur(s) Secondaire(s) :} Système Externe (API Moteur Recherche, API LLM, API Fact-checking...). \\
+    \textbf{Relation :} Inclus (`<<include>>`) dans UC\_Hybride. \\
+    \textbf{Description :}
+    \begin{itemize}
+        \item Le système identifie les données nécessaires (contenu URL, contexte, faits...).
+        \item Interroge les API des `SystemeExterne` configurés.
+        \item Reçoit et prétraite les `DonneesBrutes` pour les analyses UC4 et UC5.
+        \item Gère les erreurs, timeouts et limites des API externes.
+    \end{itemize}
+\end{frame}
+
+% --- FIN DES DIAPOSITIVES AJOUTÉES ---
+
+
+\begin{frame}{Diagramme de Classes}
+  \begin{figure}[htbp]
+    \centering
+    % IMPORTANT: Assurez-vous que le fichier 'Classes.png' est dans le même répertoire
+    % ou fournissez le chemin correct. Ajustez la largeur si nécessaire.
+    \begin{adjustbox}{width=\textwidth, center}
+        \includegraphics[width=1.08\textwidth,height=0.75\textheight]{tp1_modelisation_beamer/Classes.png}
+    \end{adjustbox}
+    \caption{Structure statique du système.}
+    \label{fig:beamer_classes}
+  \end{figure}
+  \tiny \textbf{Points Clés :} Orchestration centrale (`SystemeEvaluation`), gestion requêtes (`RequeteEvaluation`), extensibilité sources externes (`SystemeExterne`), approche hybride explicite (`RegleVerification`, `ModeleIA`), rapport riche (`RapportEvaluation`), configuration par l'Expert. \citet{Fowler1998Uml, Larman2004Applying}. % Key38->Fowler1998Uml; Key39->Larman2004Applying
+\end{frame}
+
+% --- DÉBUT TABLEAU SYNTHÈSE CLASSES ---
+\begin{frame}{Synthèse du Diagramme de Classes}
+  \begin{table}[htbp]
+    \centering
+    \caption{Résumé des Classes Principales et Rôles.}
+    \label{tab:beamer_classes_summary}
+    \scriptsize % Smaller font size
+    \begin{tabular}{@{}lp{0.4\linewidth}p{0.4\linewidth}@{}}
+      \toprule
+      Classe Principale & Rôle / Responsabilité & Relations Clés \\
+      \midrule
+      `SystemeEvaluation` & Orchestre l'évaluation hybride & Contient `RegleVerification`, `ModeleIA`, `SystemeExterne`. Utilise `RequeteEvaluation`, `RapportEvaluation`. \\
+      \addlinespace
+      `RequeteEvaluation` & Représente la demande de l'utilisateur & Concerne `InformationEntree`, Génère `RapportEvaluation`. \\
+      \addlinespace
+      `RapportEvaluation` & Contient les résultats détaillés de l'évaluation & Contient `ResultatRegle`, `ResultatNLP`, `InfoSource`. Associé à `RequeteEvaluation`. \\
+      \addlinespace
+      `RegleVerification` & Applique une règle logique spécifique & Produit `ResultatRegle`. Configurée par `Expert`. \\
+      \addlinespace
+      `ModeleIA` & Exécute une analyse IA/NLP & Produit `ResultatNLP`. Configuré par `Expert`. \\
+      \addlinespace
+      `SystemeExterne` & Accès aux données/API externes (Classe abstraite) & Utilisé par `SystemeEvaluation`. Spécialisé en `MoteurRecherche`, `ApiLLM`, etc. \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+\end{frame}
+% --- FIN TABLEAU SYNTHÈSE CLASSES ---
+
+\begin{frame}{Diagramme de Séquence : Scénario 1 (Vérification URL)}
+ % Clés BibTeX mises à jour
+  \begin{figure}[htbp]
+    \centering
+    % IMPORTANT: Assurez-vous que le fichier 'seq1.png' est dans le même répertoire
+    % ou fournissez le chemin correct.
+    \begin{adjustbox}{width=\textwidth, center}
+        \includegraphics[keepaspectratio]{seq1.png}
+    \end{adjustbox}
+    \caption{Interaction pour une évaluation simple par l'utilisateur.}
+    \label{fig:beamer_scenario1}
+  \end{figure}
+  \tiny Illustre l'orchestration, l'appel à l'approche hybride, la récupération de données externes (`SE1`, `SE2`) \citet{Larman2004Applying}, et la génération du rapport. La gestion des erreurs API est cruciale. % Key46,47->Larman2004Applying; Key44,45 omis
+\end{frame}
+
+\begin{frame}{Diagramme de Séquence : Scénario 2 (MàJ Règle Expert)}
+  \begin{figure}[htbp]
+    \centering
+    % IMPORTANT: Assurez-vous que le fichier 'seq2.png' est dans le même répertoire
+    % ou fournissez le chemin correct.
+     \begin{adjustbox}{width=\textwidth, center}
+        \includegraphics[width=1.1\textwidth,height=0.7\textheight]{tp1_modelisation_beamer/seq2.png}
+    \end{adjustbox}
+    \caption{Interaction pour la mise à jour d'une règle par l'expert (UC8).}
+    \label{fig:beamer_scenario2}
+  \end{figure}
+  \tiny Montre l'accès via UI admin, la validation, le test optionnel mais recommandé, et la sauvegarde. Souligne l'importance d'un cycle de validation.
+\end{frame}
+
+% --- DÉBUT TABLEAU SYNTHÈSE SÉQUENCES (AJUSTÉ AVEC adjustbox) ---
+\begin{frame}{Synthèse des Diagrammes de Séquence}
+  \begin{table}[htbp]
+    \centering
+    \caption{Résumé des Scénarios d'Interaction.}
+    \label{tab:beamer_sequences_summary}
+    % Utilisation de adjustbox pour forcer l'ajustement à la largeur
+    \begin{adjustbox}{width=\textwidth, center}
+    \tiny % Garder tiny pour la taille de base avant redimensionnement
+    % Les largeurs p{} sont moins critiques ici car adjustbox redimensionne,
+    % mais elles aident toujours à la mise en forme initiale.
+    \begin{tabular}{@{} >{\RaggedRight}p{0.15\linewidth} >{\RaggedRight}p{0.25\linewidth} >{\RaggedRight}p{0.25\linewidth} >{\RaggedRight}p{0.30\linewidth} @{}} % Légère redistribution
+      \toprule
+      Scénario & Objectif Principal & Participants Clés & Interaction Clé \\
+      \midrule
+      Scénario 1 (Vérif. URL) & Traiter une requête utilisateur de A à Z & Utilisateur, Facade, Module Hybride, Accès Données, Syst. Externes, Gén. Rapport & Orchestration du flux : requête -> récup. données -> analyse hybride -> rapport. \\
+      \addlinespace
+      Scénario 2 (MàJ Règle) & Mettre à jour une règle par l'Expert (UC8) & Expert, Interface Admin, Gest. Règles, Syst. Test & Processus contrôlé : modif -> validation -> test (avec `alt`) -> sauvegarde. \\
+      \bottomrule
+    \end{tabular}
+    \end{adjustbox} % Fin de l'adjustbox
+  \end{table}
+\end{frame}
+% --- FIN TABLEAU SYNTHÈSE SÉQUENCES (AJUSTÉ AVEC adjustbox) ---
+
+\begin{frame}{Diagramme d'États/Transitions (Cycle de vie d'une Requête)}
+ % Clés BibTeX mises à jour
+  \begin{figure}[htbp]
+    \centering
+    % IMPORTANT: Assurez-vous que le fichier 'etats.png' est dans le même répertoire
+    % ou fournissez le chemin correct.
+     \begin{adjustbox}{width=\textwidth, center}
+        \includegraphics[width=1.18\textwidth,height=0.74\textheight]{tp1_modelisation_beamer/etats.png}
+    \end{adjustbox}
+    \caption{États possibles d'une `RequeteEvaluation` \citet{Larman2004Applying}.} % Key46 -> Larman2004Applying
+    \label{fig:beamer_et}
+  \end{figure}
+  \tiny \textbf{États :} Soumis $\rightarrow$ EnTraitement $\rightarrow$ Analysé $\rightarrow$ RapportGénéré $\rightarrow$ [AvecFeedback]. État final alternatif : Erreur.
+\end{frame}
+
+% --- DÉBUT TABLEAU SYNTHÈSE ÉTATS ---
+\begin{frame}{Synthèse du Diagramme d'États/Transitions (`RequeteEvaluation`)}
+  \begin{table}[htbp]
+    \centering
+    \caption{Résumé du Cycle de Vie d'une Requête.}
+    \label{tab:beamer_states_summary}
+    \scriptsize % Smaller font size
+    \begin{tabular}{@{}lp{0.3\linewidth}p{0.4\linewidth}@{}}
+      \toprule
+      État & Description & Transitions Sortantes Principales (Événement / Action) \\
+      \midrule
+      `Soumis` & Requête créée, en attente de traitement. & `traiterRequete()` / `lancerRecuperationDonnees()` $\rightarrow$ `EnTraitement` \\
+      \addlinespace
+      `EnTraitement` & Récupération données, analyses règles/IA en cours. & `analyseTerminee()` / `calculerScore()` $\rightarrow$ `Analysé` \newline `echec...()` / `notifierErreur()` $\rightarrow$ `Erreur` \\
+      \addlinespace
+      `Analysé` & Analyses terminées, score calculé/en calcul. & `scoreCalcule()` / `genererRapport()` $\rightarrow$ `RapportGénéré` \newline `echecCalculScore()` / `notifierErreur()` $\rightarrow$ `Erreur` \\
+      \addlinespace
+      `RapportGénéré` & Rapport prêt pour consultation. & `fournirFeedback()` / `enregistrerFeedback()` $\rightarrow$ `AvecFeedback` \\
+      \addlinespace
+      `AvecFeedback` & Feedback utilisateur reçu. & `finTraitementFeedback()` $\rightarrow$ (Fin) \\
+      \addlinespace
+      `Erreur` & Échec irrécupérable du traitement. & `archiverErreur()` $\rightarrow$ (Fin) \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+\end{frame}
+% --- FIN TABLEAU SYNTHÈSE ÉTATS ---
+
+% --- SECTION 3: Composants et Technologies ---
+\section{Composants et Technologies Clés}
+
+\begin{frame}{Table : Indicateurs de Crédibilité et Analyses}
+ % Clés BibTeX mises à jour
+  \begin{table}[htbp]
+    \centering
+    \caption{Indicateurs Clés et Techniques d'Analyse Associées.}
+    \label{tab:beamer_credibility_indicators}
+    \tiny % Très petit pour essayer de tout faire rentrer
+    \begin{adjustbox}{width=\textwidth} % Ajuster la largeur
+    \begin{tabular}{@{}lp{0.65\linewidth}@{}} % Ajuster la largeur de colonne
+      \toprule
+      Indicateur de Crédibilité & Techniques d'Analyse Associées \\
+      \midrule
+      \textbf{Exactitude / Facticité} \citet{Pescuma2025} & - Vérification via API Fact-Checking (ClaimReview) \citet{ClaimReviewSchema, Google2026Fact} \newline - NER + Interrogation bases de connaissances / Moteurs recherche \citet{Oshikawa2019A} \newline - Analyse présence/qualité citations \citet{Kedzie2018} \\ % Key25,33->Pescuma2025; Key49->ClaimReviewSchema; Key74->Google2026Fact; Key24->Oshikawa2019A; Key48->Kedzie2018
+      \addlinespace
+      \textbf{Autorité / Réputation Source} \citet{Pescuma2025} & - Consultation bases réputation (via règles, ex: MediaBias) \citet{W3CCredibility2018} \newline - Analyse historique source (règles: ancienneté domaine...) \newline - NER pour identifier experts/institutions cités \citet{Oshikawa2019A} \\ % Key25,33->Pescuma2025; Key32->W3CCredibility2018; Key24->Oshikawa2019A
+      \addlinespace
+      \textbf{Objectivité / Biais} \citet{Pescuma2025} & - Modèles Détection Biais (Politique, Genre...) \citet{Shah2024Decoding, Menzner2018Biasscanner, Baly2020We} \newline - Analyse Sentiment Contextualisée (ton manipulateur) \citet{Ahmed2025Aidriven} \newline - Analyse diversité points de vue (via infos externes) \\ % Key25,33->Pescuma2025; Key54->Shah2024Decoding; Key62->Menzner2018Biasscanner; Key65->Baly2020We; Key16->Ahmed2025Aidriven
+      \addlinespace
+      \textbf{Présentation / Qualité} \citet{Pescuma2025} & - Analyse Cohérence (Locale/Globale) \citet{Willems2020Modeling, Barzilay2008} \newline - Règles détection langage sensationnaliste \citet{Kedzie2018} \newline - Analyse stylométrique \citet{Ahmed2025Aidriven} \newline - Détection texte généré par IA \citet{Willems2020Modeling, Kedzie2018} \\ % Key33->Pescuma2025; Key57->Willems2020Modeling; Key58->Barzilay2008; Key35->Kedzie2018; Key16->Ahmed2025Aidriven; Key30->Willems2020Modeling; Key48->Kedzie2018
+      \addlinespace
+      \textbf{Actualité} \citet{Pescuma2025} & - Règles cohérence dates \newline - Signalement infos obsolètes \\ % Key33->Pescuma2025
+      \addlinespace
+      \textbf{Persuasion / Fallacies} \citet{Pescuma2025, Kedzie2018} & - Règles détection patterns (émotion excessive...) \citet{Kedzie2018} \newline - Analyse Sentiment (manipulation émotionnelle) \citet{Ahmed2025Aidriven} \\ % Key25->Pescuma2025; Key48->Kedzie2018; Key35->Kedzie2018; Key16->Ahmed2025Aidriven
+      \bottomrule
+    \end{tabular}
+    \end{adjustbox}
+  \end{table}
+\end{frame}
+
+\begin{frame}{Table : Exemple Performance Détection Biais}
+ % Clés BibTeX mises à jour
+  \begin{table}[htbp]
+    \centering
+    \caption{Exemple Illustratif de Performance (F1-Score) de Modèles Transformers pour la Détection de Biais Multiples (Basé sur \citet{Shah2024Decoding}).} % Key54 -> Shah2024Decoding
+    \label{tab:beamer_bias_detection_perf}
+    \tiny
+    \begin{adjustbox}{width=\textwidth}
+    \begin{tabular}{@{}lccccc@{}}
+      \toprule
+      Type de Biais & BERT & RoBERTa & ALBERT & DistilBERT & XLNet \\
+      \midrule
+      Politique & \textbf{0.89} & 0.87 & 0.85 & 0.84 & 0.86 \\
+      Genre & \textbf{0.82} & 0.80 & 0.75 & 0.73 & 0.76 \\
+      Entité & \textbf{0.85} & 0.84 & 0.81 & 0.80 & 0.82 \\
+      Racial & \textbf{0.65} & 0.62 & 0.55 & 0.38 & 0.51 \\
+      Religieux & \textbf{0.78} & 0.77 & 0.72 & 0.70 & 0.74 \\
+      Régional & \textbf{0.70} & 0.68 & 0.63 & 0.59 & 0.65 \\
+      Sensationnalisme & \textbf{0.80} & 0.79 & 0.74 & 0.71 & 0.75 \\
+      \midrule
+      Moyen (Macro) & \textbf{0.78} & 0.77 & 0.72 & 0.68 & 0.73 \\
+      \bottomrule
+      \multicolumn{6}{p{0.9\linewidth}}{\textit{Note :} Valeurs illustratives. Performances réelles dépendent du dataset, fine-tuning, et gestion déséquilibre des classes (ex: Racial).} \\
+    \end{tabular}
+    \end{adjustbox}
+  \end{table}
+\end{frame}
+
+% --- SECTION 4: Références ---
+\section{Références Bibliographiques}
+
+% Utiliser allowframebreaks si la bibliographie est longue
+\begin{frame}[allowframebreaks]{Références}
+  \frametitle{Références}
+  \tiny % Police très petite pour la bibliographie
+  % --- Début de la bibliographie ---
+  % La commande \bibliography{references} va chercher les entrées
+  % dans le fichier 'references.bib' et les formater selon le style 'apalike'.
+  % Assurez-vous que ce fichier existe et contient les clés utilisées
+  % dans les commandes \citet{}.
+  \bibliography{references}
+  % --- Fin de la bibliographie ---
+
+  % Rappel: Vous devez compiler avec LaTeX, puis BibTeX, puis LaTeX deux fois
+  % pour que les citations et la bibliographie apparaissent correctement.
+\end{frame}
+
+% --- SECTION 5: Discussion ---
+\section{Discussion}
+
+\begin{frame}{Discussion et Questions}
+  \begin{center}
+    \huge Merci de votre attention !
+    \vspace{2em}
+
+    Questions ?
+  \end{center}
+\end{frame}
+\section{Protoype}
+\begin{frame}
+    \titlepage  Prototype
+\end{frame}
+
+\section{Prototype}
+\begin{frame}
+    \frametitle{Interface}
+
+
+    \begin{figure}
+        \centering % Centre la figure
+        \includegraphics[height=5cm]{interface.png} % Contrôle par la hauteur
+        \caption{L'interface}
+        \label{fig:diagramme} % Étiquette pour référence future
+    \end{figure}
+\end{frame}
+\clearpage
+\begin{frame}
+    \frametitle{Le système}
+
+
+    \begin{figure}
+        \centering % Centre la figure
+        \includegraphics[width=1.1\textwidth]{tp1_modelisation_beamer/ex1.png} % Contrôle par la hauteur
+        \caption{Exemple 1 avec du texte}
+        \label{fig:diagramme} % Étiquette pour référence future
+    \end{figure}
+\end{frame}
+\clearpage
+\begin{frame}
+    \frametitle{Le système 2}
+
+
+    \begin{figure}
+        \centering % Centre la figure
+        \includegraphics[width=1.05\textwidth]{tp1_modelisation_beamer/ex2.png} % Contrôle par la hauteur
+        \caption{Exemple 2 avec une URL connue pour un Hoax}
+        \label{fig:diagramme} % Étiquette pour référence future
+    \end{figure}
+\end{frame}
+\clearpage
+\begin{frame}
+    \frametitle{Le système 3}
+
+
+    \begin{figure}
+        \centering % Centre la figure
+        \includegraphics[width=1.05\textwidth]{tp1_modelisation_beamer/ex3.png} % Contrôle par la hauteur
+        \caption{Exemple 3 (sources connue)}
+        \label{fig:diagramme} % Étiquette pour référence future
+    \end{figure}
+\end{frame}
+\clearpage
+\begin{frame}
+    \frametitle{Le système à base de règles de prédicats}
+
+
+    \begin{figure}
+        \centering % Centre la figure
+        \includegraphics[height=0.8\textheight]{tp1_modelisation_beamer/classes.png} % Contrôle par la hauteur
+        \caption{Les classes dans le système à base de règle de prédicat}
+        \label{fig:diagramme} % Étiquette pour référence future
+    \end{figure}
+\end{frame}
+
+
+
+% --- Fin du Document ---
+\end{document}
