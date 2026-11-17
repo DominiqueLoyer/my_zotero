@@ -1,0 +1,365 @@
+Introduction Privacy Transparency, accountability and fairness
+Big Data, privacy and ethics: current trends and
+future challenges
+S ́ebastien Gambs Universit ́e du Qu ́ebec `a Montr ́eal (UQAM)
+gambs.sebastien@uqam.ca
+24 April 2017
+Se ́bastien Gambs Big Data, privacy and ethics 1
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Introduction
+Se ́bastien Gambs Big Data, privacy and ethics 2
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Big Data
+I Broadly refers to the massive increase of the amount and diversity of data collected and available.
+I Technical characterization: often define in terms of the five “V”’ (Volume, Variety, Velocity, Variability and Veracity).
+I Main promise of Big Data: offer the possibility to realize inferences with an unprecedented level of accuracy and details.
+Se ́bastien Gambs Big Data, privacy and ethics 3
+
+
+ Introduction Privacy Transparency, accountability and fairness
+A glimpse at Big personal Data
+Se ́bastien Gambs Big Data, privacy and ethics 4
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Personalized medicine - IBM Watson advisor for cancer
+Se ́bastien Gambs Big Data, privacy and ethics 5
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Large-scale mobility analytics
+Objective: publication of the mobility traces of users issued from phone usage (Call Details Records).
+Fundamental question: how to anonymize the data before publishing it to limit the privacy risks for the users whose mobility is recorded in the data?
+Se ́bastien Gambs Big Data, privacy and ethics 6
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Other types of data with strong inference potential
+1. Genomic/medical data.
+I Possible risks : inference on genetic diseases or tendency to develop particular health problems, leakage of information about ethnic origin and genomics of relatives, genetic discrimination, . . .
+2. Social data.
+I Possible risks : reconstruction of the social graph, inferences on political opinions, religion, sexual orientations, hobbies, . . .
+Se ́bastien Gambs Big Data, privacy and ethics 7
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Factor 1: augmentation of the easiness of recording our life
+I Recent technological developments increase the capacity to record the real and the virtual world. I Examples :
+Se ́bastien Gambs Big Data, privacy and ethics 8
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Factor 2: open data movement
+I Consequence : release of important amount of data. I Originally, this data was mainly public information but... I there is more and more pressure for institutions to open dataset composed of personal information. Example :
+Se ́bastien Gambs Big Data, privacy and ethics 9
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Factor 3: deep learning revolution
+I Revolution: “quantum leap” in the prediction accuracy in many domains. I Recent success: automatic generation of textual description from a picture, victory of AlphaGo against a professional go player in 2016.
+I Possible due to algorithmic advances in machine learning through the Deep Learning approach combined with the increase in computational power and the amount of data available.
+Se ́bastien Gambs Big Data, privacy and ethics 10
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Privacy
+Se ́bastien Gambs Big Data, privacy and ethics 11
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Privacy
+I Privacy is one of the fundamental right of individuals: I Universal Declaration of the Human Rights at the assembly of the United Nations (Article 12), 1948. I European General Data Protection Regulation (GDPR), voted in 2016 will become effective in 2018. I One of the main challenge of the “Information Society”.
+I Risk: collect and use of digital traces and personal data for fraudulent purposes. I Examples: targeted spam, identity theft, profiling, (unfair) discrimination (to be discussed later).
+Se ́bastien Gambs Big Data, privacy and ethics 12
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Impact of Big Data on privacy
+1. Magnification of the privacy risks due to the increase in volume and diversity of the personal data collected and the computational power to process them.
+2. Often data collected about individuals are “re-used” for a different purpose without asking their consent.
+3. The inferences that are possible with Big Data are much more fine-grained and precise than before.
+4. Massive release of data without taking into account the privacy aspect ⇒ major privacy breach
+I Once a data is disclosed, it is there forever.
+5. Ethics of inference : what are the inferences that are acceptable for the society and which ones are not?
+Se ́bastien Gambs Big Data, privacy and ethics 13
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Example of sensitive inference: predictive policing
+Se ́bastien Gambs Big Data, privacy and ethics 14
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Privacy enhancing technologies
+Privacy Enhancing Technologies (PETs) : ensemble of techniques for protecting the privacy of an individual and offer him a better control on his personal data. Example of PET : homomorphic encryption (see Caroline Fontaine talk’s tomorrow).
+Two fundamental principles behind the PETs : I Data minimization : only the information necessary for completing a particular purpose should be collected/revealed. I Data sovereignty : enable a user to keep the control on his personal data and how they are collected and disseminated.
+Se ́bastien Gambs Big Data, privacy and ethics 15
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Personally identifiable information
+I Personally identifiable information : ensemble of information that can be used to uniquely identified an individual.
+I Examples : first and last name, social security number, place and date of birth, physical and email address, phone number, credit card number, biometric data (such as fingerprint and DNA), . . .
+I Sensitive because they identify uniquely an individual and can be used to easily cross-referenced databases. I Main limits of the definition : I does not take into account some attributes or patterns in the data that can seem innocuous individually but can identified an individual when combined together (quasi-identifiers). I does not take into account the inference potential of the data considered.
+Se ́bastien Gambs Big Data, privacy and ethics 16
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Pseudonymization is not an alternative to anonymization
+Replacing the name of a person by a pseudonym ; preservation of the privacy of this individual
+(Extract from an article from the New York Times, 6 August 2006)
+Se ́bastien Gambs Big Data, privacy and ethics 17
+
+
+ Introduction Privacy Transparency, accountability and fairness
+SUICA’s privacy leak (July 2013)
+Se ́bastien Gambs Big Data, privacy and ethics 18
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Legal requirements to evaluate anonymization methods
+General Data Protection Regulation (Article 16):
+“To ascertain whether means are reasonably likely to be used to identify the natural person, account should be taken of all objective factors, such as the costs of and the amount of time required for identification, taking into consideration the available technology at the time of the processing and technological developments.”
+I Consequence : evaluation of risk of de-anonymization should take into account the ressources needed to conduct the re-identification and should be done on a regular basis (risk-based approach).
+I The French law “for a Digital Republic” (October 2016) also recognized the right for the French data protection authority (the CNIL) to certify anonymization processes.
+Se ́bastien Gambs Big Data, privacy and ethics 19
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Inference attack
+I Inference attack : the adversary takes as input a published dataset (and possibly some background knowledge) and tries to infer some personal information regarding individuals contained in the dataset.
+I Main challenge : to be able to give some privacy guarantees even against an adversary having some auxiliary knowledge. I We may not even be able to model this a priori knowledge. I Remark: maybe my data is private today but it may not be so in the future due to the public release of some other data.
+Se ́bastien Gambs Big Data, privacy and ethics 20
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Example : inference attacks on location data
+Joint work with Marc-Olivier Killijian (LAAS-CNRS) and Miguel N ́u ̃nez del Prado (Universidad del Pacifico). Main objective : quantify the privacy risks of location data. Types of attacks:
+1. Identification of important places, called Point of Interests (POI), characterizing the interests of an individual.
+I Example: home, place of work, gymnasium, political headquarters, medical center, . . .
+2. Prediction of the movement patterns of an individual, such as his past, present and future locations.
+3. Linking the records of the same individual contained in the same dataset or in different datasets (either anonymized or under different pseudonyms).
+Se ́bastien Gambs Big Data, privacy and ethics 21
+
+
+ Introduction Privacy Transparency, accountability and fairness
+De-anonymization attack
+I De-anonymization attack : the adversary takes as input a sanitized dataset and some background knowledge and tries to infer the identities of the individuals contained in the dataset. I Specific form of inference attack. I Example : Sweeney’s original de-anonymization attack via linking.
+I The re-identification risk measures the success probability of this attack.
+Se ́bastien Gambs Big Data, privacy and ethics 22
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Sanitization
+Sanitization : process increasing the uncertainty in the data in order to preserve privacy.
+⇒ Inherent trade-off between the desired level of privacy and the utility of the sanitized data. Typical application : public release of data (offline or online context).
+Examples drawn from the “sanitization” entry on Wikipedia
+Se ́bastien Gambs Big Data, privacy and ethics 23
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Classical sanitization mechanisms
+I Perturbation : addition of noise to the true value. I Aggregation : merge several data into a single one. I Generalization : loss of granularity of information.
+I Deletion : erasure of the information related to a particular attribute. I Remark : the absence of information can sometimes lead to a privacy breach (e.g. : removing the information on the disease of a patient record only if he has a sexual disease). I Introduction of fake data : addition of artificial records in a database to “hide” the true data.
+Se ́bastien Gambs Big Data, privacy and ethics 24
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Fundamental ingredients for sanitization
+1. Privacy model : what does it mean for released data to be respectful of privacy?
+2. Sanitization algorithm : how to modify the data to reach the property defined by the privacy model?
+3. Utility measure : how to quantify the utility of the resulting data?
+Se ́bastien Gambs Big Data, privacy and ethics 25
+
+
+ Introduction Privacy Transparency, accountability and fairness
+k-anonymity (Sweeney 02)
+I Privacy guarantee : in each group of the sanitized dataset, each invidividual will be identical to a least k − 1 others. I Reach by a combination of generalization and suppression. I Example of use : sanitization of medical data.
+I Main challenge : extracting useful knowledge while preserving the confidentiality of individual sensitive data.
+Se ́bastien Gambs Big Data, privacy and ethics 26
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Intersection attack
+I Question : suppose that Alice’s employer knows that she is 28 years old, she lives in ZIP code 13012 and she visits both hospitals. What does he learn?
+Se ́bastien Gambs Big Data, privacy and ethics 27
+
+
+ Introduction Privacy Transparency, accountability and fairness
+The key property: composition
+I A “good” privacy model should provide some guarantees about the total leak of information revealed by two (or more) sanitized datasets.
+I More precisely, if the first release reveals b1 of information and the second release b2 bits of information, the total amount of information leaked should not be more than O(b1 + b2) bits.
+I Remark : most of the existing privacy models do not have any composition property with the exception of differential privacy (Dwork 06).
+Se ́bastien Gambs Big Data, privacy and ethics 28
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Differential privacy: principle (Dwork 06)
+I Privacy notion developed within the community of private data analysis that has gained a widespread adoption.
+I Basically ensures that whether or not an item is in the profile of an individual does not influence too much the output.
+I Give strong privacy guarantees that hold independently of the auxiliary knowledge of the adversary and compose well.
+Se ́bastien Gambs Big Data, privacy and ethics 29
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Implementing differential privacy
+Possible techniques to implement differential privacy :
+I Addition of noise to the output of an algorithm (ex: Laplacian mechanism).
+I Perturbation of the input given to the algorithm.
+I Randomization of the behaviour of the algorithm.
+I Creation of a synthetic database or a data structure “summarizing and aggregating the data”.
+I Sampling mechanisms.
+Se ́bastien Gambs Big Data, privacy and ethics 30
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Fire and Ice Japanese competition on anonymization and
+re-identification attacks (2015, 2016 and 2017)
+I Objective : evaluate empirically the efficiency of anonymization methods and re-identification attacks.
+I Similar in spirit to other competitions in machine learning or security.
+I See talks of Hiroaki Kikuchi (Meiji University) and Hiroshi Nakagawa (University of Tokyo) in privacy WG session for more details.
+Se ́bastien Gambs Big Data, privacy and ethics 31
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Next steps
+I To broaden the impact and the outreach to the privacy community, we have submitted a proposal (accepted) to held an international competition on sanitization mechanisms and inference attacks in the annual Privacy Enhancing Technologies Symposium (PETS).
+I Schedule : I This year: workshop at PETS for preparing the competition (definition of privacy and utility metrics, choice of the dataset, setting of the competition, . . . ). I Next year: international competition + workshop at PETS to report on the outcomes and the best algorithms for sanitization and inference.
+I Parallel event : Shonan meeting on “Anonymization methods and inference attacks: theory and practice” (March 2018).
+Se ́bastien Gambs Big Data, privacy and ethics 32
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Transparency, accountability and fairness
+Se ́bastien Gambs Big Data, privacy and ethics 33
+
+
+ Introduction Privacy Transparency, accountability and fairness
+The fuzzy border between personalization and
+discrimination
+I Example : price personalization of the Staples website depending of the localization (Wall Street Journal 2012).
+I Possible discriminations : poor credit, high insurance rate, refusal to employment or access to schools, denial to some function.
+Se ́bastien Gambs Big Data, privacy and ethics 34
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Right to fairness and transparency (GDPR, Article 70)
+In order to ensure fair and transparent processing in respect of the data subject, taking into account the specific circumstances and context in which the personal data are processed, the controller should use appropriate mathematical or statistical procedures for the profiling, implement technical and organisational measures appropriate to ensure, in particular, that factors which result in inaccuracies in personal data are corrected and the risk of errors is minimised, [...] and that prevents, inter alia, discriminatory effects on natural persons on the basis of racial or ethnic origin, political opinion, religion or beliefs, trade union membership, genetic or health status or sexual orientation, or that result in measures having such an effect.
+Se ́bastien Gambs Big Data, privacy and ethics 35
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Possible origin of the bias
+1. Problem in the data collection due to some error or the fact that the data is inherently biased.
+I Examples : mistake in the profile of the user, dataset reflects discriminatory decision against a particular population.
+2. Inaccuracy due to the learning algorithm.
+I Example : the algorithm is very accurate, except for 1% of the individuals.
+Se ́bastien Gambs Big Data, privacy and ethics 36
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Opacity of machine learning algorithms
+I Machine learning has a central role in most of the personalized systems.
+I Opacity: difficulty of understanding and explaining their decision due to their complex design.
+I Example: the classifier outputted by a deep learning algorithm is typically composed of many layers of neural networks.
+I Risk of “algorithmic dictatorship” (Rouvroy): loss of control of individuals on their digital lives due to automated decision if there is no remediation procedure.
+Se ́bastien Gambs Big Data, privacy and ethics 37
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Transparency as a first step
+I Asymmetry of information: strong difference between what the system knows about a person and what the person knows about the system.
+I Lack of transparency leads to lack of trust. I Strong need to improve the transparency of information systems.
+Se ́bastien Gambs Big Data, privacy and ethics 38
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Possible cases for analyzing the black-box (Diakopoulos 16)
+Se ́bastien Gambs Big Data, privacy and ethics 39
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Possible approaches to transparency
+1. Regulatory approaches to force companies to let users examine and correct the information collected about them.
+2. Methods to increase transparency by “opening the black-box”.
+I Tools to reach transparency by design.
+I Examples: publication of the source code, use of an interpretable model in machine learning.
+Se ́bastien Gambs Big Data, privacy and ethics 40
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Example of community effort to increase transparency
+Se ́bastien Gambs Big Data, privacy and ethics 41
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Towards algorithmic accountability
+I Caveat: transparency does not necessarily means interpretability or accountability.
+I Example: the code of an application could be public but too complex to be comprehend by a human.
+I Strong need for the development of tools that can analyze and certify the code of the program.
+I Objective: verify that the execution of the program match the intended behaviour or the ethical values that are expected from it.
+I Strong link with the notion of loyalty (does the system behave as it promises).
+Se ́bastien Gambs Big Data, privacy and ethics 42
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Measuring discrimination
+I Example: measurement of quantitative input influence.
+I Challenge: possibility of indirect discrimination in which the discriminatory attribute is inferred through other attributes. I Example: even if the ethnicity is not asked from the user, in some countries it strongly correlates with the ZIP code.
+Se ́bastien Gambs Big Data, privacy and ethics 43
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Defining discrimination and fairness
+I Disparate impact: criterion in the US law to measure inequality of treatment.
+I Inequal treatment occurs if (% of the minority group hired)/(% of the majority group hired) > 0.8
+I Group fairness: the statistics of the decisions targeting a particular group are approximately the same than the overall population.
+I Individual fairness: two individuals whose profiles are similar (with the exception of the protected attributes) should receive a similar outcome.
+I Difficulty: some studies have shown than some of these metrics are incomparable.
+Se ́bastien Gambs Big Data, privacy and ethics 44
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Enhancing fairness
+I Ultimate objective: being able to increase fairness while not impact too much accuracy
+I Examples of possible approaches: I Sample the input data to remove its original bias, I Change the design of the algorithm so that it becomes discrimination-aware by design, I Adapt the output produced by the algorithm (e.g., the classifier) to reduce discrimination.
+I Active subject of research but still in its infancy, much remains to be done.
+Se ́bastien Gambs Big Data, privacy and ethics 45
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Conclusion
+Se ́bastien Gambs Big Data, privacy and ethics 46
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Conclusion (1/2)
+I Observation 1 : the capacity to record and store personal data as increased rapidly these last years.
+I Observation 2 : “Big Data” will result in more and more being available ⇒ increase of inference possibilities.
+I Observation 3 : the “Open data” movement will lead to the release of a huge amount of dataset ⇒ worsen the privacy impact of Big Data (observation 2).
+I The advent of Big Data magnifies the privacy risks that were already existing but also raises new ethical issues.
+I Main challenge : balance the social and economical benefits of Big Data with the protection of privacy and fundamental rights of individuals.
+Se ́bastien Gambs Big Data, privacy and ethics 47
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Conclusion (2/2)
+I Strong need for research and scientific cooperation in Big Data : I for determining how to address privacy in this context, I for the design of new protection and sanitization mechanisms I as well as for inference attacks for assessing the privacy level they provide. I for finding solutions for addressing the transparency, fairness and accountability issues
+I Overall objective: being able to reap the benefits of Big Data by not only to protecting the privacy of individuals but also making sure that they remain in control of their digital lives.
+Se ́bastien Gambs Big Data, privacy and ethics 48
+
+
+ Introduction Privacy Transparency, accountability and fairness
+This is the end
+Thanks for your attention Questions?
+Se ́bastien Gambs Big Data, privacy and ethics 49
+
+
+ Introduction Privacy Transparency, accountability and fairness
+Right to object to automated decision (GDPR, Article 70)
+The data subject should have the right not to be subject to a decision, which may include a measure, evaluating personal aspects relating to him or her which is based solely on automated processing and which produces legal effects concerning him or her or similarly significantly affects him or her, such as automatic refusal of an online credit application or e-recruiting practices without any human intervention. Such processing includes “profiling” that consists of any form of automated processing of personal data evaluating the personal aspects relating to a natural person, in particular to analyse or predict aspects concerning the data subject’s performance at work, economic situation, health, personal preferences or interests, reliability or behaviour, location or movements, [...].
+Se ́bastien Gambs Big Data, privacy and ethics 50

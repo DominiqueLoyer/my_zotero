@@ -1,0 +1,1015 @@
+\documentclass[9pt, aspectratio=169]{beamer}
+
+% --- CONFIGURATION ROBUSTE (MacTeX / Overleaf) ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[french]{babel}
+% -------------------------------------------------
+
+% --- THÈME ---
+\usetheme{Warsaw}
+\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+\setbeamertemplate{caption}[numbered]
+
+% --- PACKAGES ---
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows, positioning, calc, shadows, trees, fit, backgrounds, decorations.pathreplacing}
+\usepackage{booktabs}
+\usepackage{csquotes}
+\usepackage{ragged2e}
+\usepackage{caption}
+\usepackage{hyperref}
+
+% --- CONFIGURATION DES LIENS ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+% --- BIBLIOGRAPHIE (Mode Compatible BibTeX pour MacTeXnicle) ---
+% On utilise 'bibtex' au lieu de 'biber' pour assurer la compatibilité
+% avec les éditeurs configurés par défaut.
+\usepackage[style=authoryear, backend=bibtex]{biblatex}
+
+% --- CRÉATION DU FICHIER BIB ---
+\begin{filecontents*}{ref_doctorat.bib}
+@article{Weber2019,
+  author = {Weber, Max},
+  title = {The Concept of Bureaucracy},
+  journal = {International Journal of Social Science Studies},
+  volume = {7},
+  number = {2},
+  year = {2019}
+}
+@book{Graeber2015,
+  author = {Graeber, David},
+  title = {Bureaucratie. L'utopie des règles},
+  publisher = {Les Liens qui libèrent},
+  year = {2015},
+  address = {Paris}
+}
+@book{Zuboff2019,
+  author = {Zuboff, Shoshana},
+  title = {The Age of Surveillance Capitalism},
+  year = {2019},
+  publisher = {PublicAffairs}
+}
+@misc{Biosphere2015,
+  author = {{Biosphere Code}},
+  title = {The Biosphere Code},
+  year = {2015},
+  note = {Manifeste pour une algorithmique responsable}
+}
+@article{NeuerPoint,
+  author = {Neuer, Laurence},
+  title = {Le droit face aux algorithmes},
+  journal = {Le Point},
+  year = {2023}
+}
+@article{Doran2017,
+  author = {Doran, Derek and Schulz, Sarah and Besold, Tarek R.},
+  title = {What Does Explainable AI Really Mean?},
+  journal = {arXiv preprint arXiv:1710.00794},
+  year = {2017}
+}
+@article{Burkart2021,
+  author = {Burkart, Nadia and Huber, Marco F.},
+  title = {A Survey on the Explainability of Supervised Machine Learning},
+  journal = {Journal of Artificial Intelligence Research},
+  volume = {70},
+  pages = {245--317},
+  year = {2021}
+}
+@article{Ko2022,
+  author = {Ko, Hyeyoung and Lee, Suyeon and Park, Yoonseo and Choi, Anna},
+  title = {A Survey of Recommendation Systems},
+  journal = {Electronics},
+  volume = {11},
+  number = {1},
+  year = {2022}
+}
+@article{Koren2009,
+  author = {Koren, Yehuda and Bell, Robert},
+  title = {Advances in Collaborative Filtering},
+  journal = {Recommender Systems Handbook},
+  pages = {145--186},
+  year = {2009},
+  publisher = {Springer}
+}
+@book{Pariser2011,
+  author = {Pariser, Eli},
+  title = {The Filter Bubble: What the Internet Is Hiding from You},
+  year = {2011},
+  publisher = {Penguin Press},
+  address = {New York}
+}
+\end{filecontents*}
+
+\addbibresource{ref_doctorat.bib}
+
+% --- INFOS TITRE ---
+\title{Le Léviathan Algorithmique}
+\subtitle{Pouvoir, opacité et responsabilité à l'ère de l'IA}
+\author{Dominique Loyer}
+\institute{Université du Québec à Montréal (UQAM) \\ Doctorat en Informatique Cognitive}
+\date{26 novembre 2025}
+
+\begin{document}
+
+% --- SLIDE 1 : Titre ---
+\begin{frame}
+    \titlepage
+    \begin{center}
+        \tiny Examen de synthèse doctoral (DIC-9401)
+    \end{center}
+\end{frame}
+
+% --- SLIDE 2 : Plan ---
+\begin{frame}{Plan de l'examen : 4 axes de réflexion}
+    Ce rapport s'articule autour de quatre questionnements fondamentaux, soutenus par la littérature de référence.
+    
+    \vspace{0.3cm}
+    \textbf{1. Bureaucratie Algorithmique}
+    \begin{itemize}
+        \item \textit{Problématique :} Lien entre personnalisation et phénomène bureaucratique.
+        \item \textit{Sources :} \cite{Weber2019}, \cite{Graeber2015}.
+    \end{itemize}
+    
+    \textbf{2. Code de Déontologie}
+    \begin{itemize}
+        \item \textit{Problématique :} Responsabilité humaine et formulation d'un code éthique.
+        \item \textit{Sources :} \cite{Biosphere2015}, \cite{NeuerPoint}.
+    \end{itemize}
+    
+    \textbf{3. Interprétabilité des Modèles}
+    \begin{itemize}
+        \item \textit{Problématique :} Définition, évaluation et enjeux des méthodes XAI.
+        \item \textit{Sources :} \cite{Doran2017}, \cite{Burkart2021}.
+    \end{itemize}
+    
+    \textbf{4. Systèmes de Recommandation}
+    \begin{itemize}
+        \item \textit{Problématique :} Fonctionnement technique et comparaison d'approches.
+        \item \textit{Sources :} \cite{Ko2022}, \cite{Koren2009}, \cite{Pariser2011}.
+    \end{itemize}
+\end{frame}
+
+% ================= SECTION 1 : BUREAUCRATIE =================
+\section{Bureaucratie Algorithmique}
+
+\begin{frame}{Section 1 : Bureaucratie algorithmique}
+    \begin{center}
+        \Large \textbf{La rationalisation numérique du monde}
+    \end{center}
+    \vspace{1cm}
+    \begin{quote}
+        « Quel lien pourriez-vous faire entre les modalités de fonctionnement de l'algorithme de personnalisation et le phénomène bureaucratique ? »
+    \end{quote}
+\end{frame}
+
+% --- FIGURE VECTORIELLE WEBER ---
+\begin{frame}{Illustration : la hiérarchie wébérienne}
+    \begin{figure}
+        \centering
+        \begin{tikzpicture}[
+            node distance=1.5cm,
+            every node/.style={rectangle, rounded corners, draw=black!80, fill=blue!10, align=center, font=\scriptsize, minimum width=2.0cm, drop shadow},
+            arrow/.style={->, >=stealth, thick, color=black!70}
+        ]
+            \node (authority) {\textbf{Règles Abstraites}\\(Code = Loi)};
+            \node (hierarchy) [below left=1cm and 0.2cm of authority] {Hiérarchie\\Pyramidale};
+            \node (impersonal) [below right=1cm and 0.2cm of authority] {Impersonnalité\\(Standardisation)};
+            \node (efficiency) [below=2.5cm of authority, fill=green!10] {\textbf{Rationalité}\\(Optimisation)};
+            
+            \draw[arrow] (authority) -- (hierarchy);
+            \draw[arrow] (authority) -- (impersonal);
+            \draw[arrow] (hierarchy) -- (efficiency);
+            \draw[arrow] (impersonal) -- (efficiency);
+            
+            \node [draw=none, fill=none, right=0.5cm of efficiency, text width=3cm, font=\tiny\itshape] {Objectif : Efficacité Instrumentale};
+        \end{tikzpicture}
+        \caption{Modèle bureaucratique de Weber appliqué à l'IA (Généré par GEMINI PRO 3.0)}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{La vision wébérienne}
+    Selon \cite{Weber2019}, la bureaucratie se définit par :
+    \begin{enumerate}
+        \item \textbf{Règles abstraites et impersonnelles :} L'algorithme applique des règles de code sans considération pour l'individu en tant que sujet moral.
+        \item \textbf{Rationalité instrumentale :} Optimisation de moyens en vue d'une fin (le clic, l'engagement) sans questionnement sur la valeur de la fin.
+        \item \textbf{Opacité et Secret :} Le « secret de fonction » bureaucratique devient le « secret industriel » ou l'opacité technique de la boîte noire.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{L'algorithme comme bureaucrate parfait}
+    L'algorithme de personnalisation réalise le rêve bureaucratique ultime :
+    \vspace{0.5cm}
+    \begin{itemize}
+        \item \textbf{Application instantanée des règles :} Aucune latence entre la décision et l'exécution.
+        \item \textbf{Absence d'états d'âme :} La suppression totale de l'empathie humaine, vue comme un biais dans la logique bureaucratique pure.
+        \item \textbf{Traitement de masse standardisé :} Malgré l'illusion de personnalisation, chaque individu est traité selon des catégories statistiques pré-établies.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{David Graeber et l'utopie des règles}
+    L'analyse de \cite{Graeber2015} éclaire la nature contraignante de l'algorithme :
+    \begin{itemize}
+        \item \textbf{La violence structurelle :} L'impossibilité de négocier avec la machine. Face à une recommandation ou un refus algorithmique, il n'y a pas de recours. L'interface utilisateur agit comme un guichet fermé.
+        \item \textbf{La zone morte de l'imagination :} La bureaucratie (et l'algorithme) remplace l'imagination humaine et l'empathie par des procédures rigides. L'algorithme ne peut pas imaginer des situations hors de ses données d'entraînement.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Le paradoxe de la personnalisation bureaucratique}
+    Comment un système \textit{personnalisé} peut-il être \textit{bureaucratique} ?
+    \begin{itemize}
+        \item La personnalisation n'est pas une rencontre humaine, mais une \textbf{catégorisation statistique}.
+        \item L'individu est réduit à un vecteur de données (le « dividu »).
+        \item La gestion par algorithme est une administration des comportements à grande échelle, répondant parfaitement à la définition de la gestion bureaucratique moderne : gérer des populations par des normes.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Le capitalisme de surveillance}
+    \cite{Zuboff2019} fournit le cadre économique de cette bureaucratie :
+    \begin{itemize}
+        \item L'algorithme n'est pas seulement un outil de gestion, c'est un outil d'\textbf{extraction}.
+        \item La rationalisation (Weber) est mise au service de la prédiction et de la modification comportementale à des fins lucratives.
+        \item Le "surplus comportemental" est la matière première de cette nouvelle industrie, traitée par la bureaucratie algorithmique.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{La "rationalité" du profilage}
+    Le profilage algorithmique est une forme de rationalisation extrême :
+    \begin{itemize}
+        \item \textbf{Standardisation de l'humain :} Réduire la complexité d'une personne à un ensemble de « caractéristiques » (features) exploitables par le modèle.
+        \item \textbf{Déqualification du jugement :} Le jugement humain est remplacé par un score de probabilité (score de crédit, score de recommandation).
+        \item \textbf{Automatisation de la suspicion :} Le système est conçu pour trier, classer et évaluer en permanence, souvent de manière préemptive.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Synthèse Q1 : la machine comme guichet}
+    L'algorithme de personnalisation est l'aboutissement de la bureaucratie :
+    \begin{itemize}
+        \item Il applique une \textbf{rationalité instrumentale} (Weber) sans empathie.
+        \item Il impose une \textbf{violence structurelle} par son inflexibilité (Graeber).
+        \item Il transforme l'expérience humaine en données extractibles pour un marché (Zuboff).
+    \end{itemize}
+    \vspace{0.3cm}
+    La "personnalisation" est l'interface aimable d'un appareil bureaucratique de gestion et de contrôle impersonnel.
+\end{frame}
+
+\begin{frame}{Conséquences : la cage d'acier numérique}
+    Weber parlait de « cage d'acier » pour la rationalité capitaliste. L'IA renforce cette cage :
+    \begin{itemize}
+        \item \textbf{Inflexibilité :} Le code est loi (Lessig). Une fois déployée, la règle s'applique sans discernement.
+        \item \textbf{Irrésponsabilité :} "C'est la faute de l'ordinateur". La chaîne de responsabilité est diluée entre le développeur, les données et l'utilisateur.
+        \item \textbf{Perte de sens :} L'efficacité (le "comment") prime systématiquement sur la finalité sociale (le "pourquoi").
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Le wébérisme numérique : formalisation}
+    \textbf{Concepts clés sur la bureaucratie algorithmique} :
+    
+    \vspace{0.3cm}
+    \begin{itemize}
+        \item \textbf{Administration isocratique :} L'IA permet une administration où l'explicabilité algorithmique augmente la compétence individuelle du personnel et des citoyens
+        \item \textbf{Gestion de la complexité :} Les algorithmes traitent la complexité institutionnelle plus efficacement que les humains seuls
+        \item \textbf{Bureaucratie hybride :} Mélange d'agence humaine et non-humaine dans la prise de décision
+    \end{itemize}
+    
+    \vspace{0.3cm}
+    \textit{Paradoxe :} La bureaucratie algorithmique peut être \textbf{impartiale} dans son application tout en étant \textbf{sensible au contexte} de façon prédictive.
+\end{frame}
+
+% ================= SECTION 2 : DÉONTOLOGIE =================
+\section{Code de Déontologie}
+
+\begin{frame}{Section 2 : Code de déontologie}
+    \begin{center}
+        \Large \textbf{Responsabilité et éthique du codeur}
+    \end{center}
+    \vspace{1cm}
+    \begin{quote}
+        « Comment vous y prendriez-vous pour formuler un code de déontologie des codeurs... ? »
+    \end{quote}
+\end{frame}
+
+\begin{frame}{Inspiration : The Biosphere Code}
+    Le \textit{Biosphere Code} \parencite{Biosphere2015} propose un manifeste liant technologie et écologie.
+    \begin{itemize}
+        \item Nous devons adapter cette approche à l'écologie \textit{attentionnelle} et \textit{sociale} des utilisateurs.
+        \item L'algorithme n'est pas neutre ; il habite et modifie notre environnement mental comme une industrie modifie l'environnement naturel.
+        \item Le codeur a une responsabilité civique qui dépasse son contrat de travail.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Le contexte juridique et social}
+    \cite{NeuerPoint} souligne l'urgence d'un cadre :
+    \begin{itemize}
+        \item Le vide juridique actuel laisse les développeurs seuls face à des dilemmes éthiques complexes.
+        \item La pression organisationnelle pousse à la performance (KPIs, engagement) au détriment de l'éthique.
+        \item Il est nécessaire de protéger le lanceur d'alerte interne qui signale des dérives algorithmiques.
+    \end{itemize}
+\end{frame}
+
+% --- FIGURE VECTORIELLE PILIERS ---
+\begin{frame}{Illustration : piliers du code}
+    \begin{figure}
+        \centering
+        \begin{tikzpicture}[scale=0.8, every node/.style={transform shape}]
+            % Sol
+            \fill[gray!30] (-3,0) rectangle (3,0.3);
+            \node[below] at (0,0) {\textit{Confiance des utilisateurs}};
+            % Piliers
+            \foreach \x/\c/\t in {-2/blue!30/Transparence, 0/green!30/Loyauté, 2/red!30/Responsabilité} {
+                \draw[fill=\c] (\x-0.8, 0.3) rectangle (\x+0.8, 3.5);
+                \node[rotate=90] at (\x, 1.9) {\textbf{\t}};
+            }
+            % Toit
+            \draw[fill=black!70] (-3.2, 3.5) -- (3.2, 3.5) -- (0, 5) -- cycle;
+            \node[white, font=\bfseries] at (0, 4) {DÉONTOLOGIE};
+        \end{tikzpicture}
+        \caption{Les trois piliers d'une déontologie algorithmique (Généré par GEMINI PRO 3.0)}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Proposition de code : article 1 - transparence}
+    \textbf{« Je ne coderai pas de boîtes noires destinées à manipuler. »}
+    \vspace{0.5cm}
+    \begin{itemize}
+        \item Le développeur doit s'assurer que les critères d'optimisation sont explicables et documentés.
+        \item Refus des « motifs obscurs » (dark patterns) dans la conception des systèmes de recommandation.
+        \item L'utilisateur doit savoir pourquoi un contenu lui est recommandé.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Proposition de code : article 2 - loyauté}
+    \textbf{« Mon algorithme servira l'intérêt de l'utilisateur, pas seulement celui de la plateforme. »}
+    \vspace{0.5cm}
+    \begin{itemize}
+        \item Prioriser la pertinence réelle et le bien-être sur le temps passé (engagement addictif).
+        \item Ne pas exploiter les vulnérabilités psychologiques des utilisateurs.
+        \item \cite{Biosphere2015} rappelle la responsabilité envers l'écosystème global : un algorithme ne doit pas polluer l'espace public.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Proposition de code : article 3 - responsabilité}
+    \textbf{« J'assume la responsabilité des biais de mon modèle. »}
+    \vspace{0.5cm}
+    \begin{itemize}
+        \item Test rigoureux des biais discriminatoires (genre, race, classe) avant tout déploiement.
+        \item Mise en place de mécanismes de monitoring continu post-déploiement.
+        \item Création de voies de recours pour les utilisateurs s'estimant lésés par une décision automatique.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Processus d'élaboration (1/2) : consultation}
+    Un code de déontologie ne peut être unilatéral.
+    \begin{itemize}
+        \item \textbf{Multidisciplinaire :} Doit impliquer des ingénieurs, mais aussi des juristes, sociologues, psychologues et représentants des utilisateurs.
+        \item \textbf{Itératif :} Le code doit être un document vivant, capable de s'adapter aux nouvelles avancées technologiques (IA générative, etc.).
+        \item \textbf{Public :} Le processus de consultation doit être transparent pour garantir l'adhésion.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Processus d'élaboration (2/2) : application}
+    Pour être efficace, le code doit être contraignant.
+    \begin{itemize}
+        \item \textbf{Intégration au flux de travail (workflow) :} L'évaluation éthique (Ethical Impact Assessment) doit être une étape obligatoire du cycle de développement, comme les tests unitaires.
+        \item \textbf{Cadre légal :} Le code doit s'appuyer sur des régulations émergentes (ex: AI Act européen) pour avoir une portée légale \parencite{NeuerPoint}.
+        \item \textbf{Protection :} Mécanismes de protection des ingénieurs qui refusent une tâche contraire à l'éthique (droit de retrait).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Cadres réglementaires émergents}
+    \textbf{Principes internationaux pour une IA responsable} :
+    
+    \vspace{0.3cm}
+    \textbf{1. Recommandation UNESCO sur l'éthique de l'IA (2021)} :
+    \begin{itemize}
+        \item Approche centrée sur l'humain, droits humains, diversité culturelle
+        \item Transparence, responsabilité, contrôlabilité par l'humain
+    \end{itemize}
+    
+    \textbf{2. Groupe d'experts de haut niveau de l'UE (2019)} :
+    \begin{itemize}
+        \item \textit{Quatre principes éthiques :} Respect de l'autonomie humaine, prévention des dommages, équité, explicabilité
+        \item \textit{Sept exigences clés :} Agence humaine, robustesse technique, vie privée, transparence, diversité, bien-être sociétal, responsabilité
+    \end{itemize}
+    
+    \textbf{3. Principes ACM/IEEE (2022-2023)} :
+    \begin{itemize}
+        \item Auditabilité, contestabilité, transparence, sécurité
+        \item "Humain dans la boucle" obligatoire pour systèmes à haut risque
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Redevabilité algorithmique : cadre opérationnel}
+    \textbf{Trois dimensions de la redevabilité algorithmique} :
+    
+    \vspace{0.3cm}
+    \begin{enumerate}
+        \item \textbf{Responsabilité} : 
+        \begin{itemize}
+            \item Identification claire des acteurs responsables (développeurs, déployeurs, régulateurs)
+            \item Chaîne de responsabilité sur tout le cycle de vie de l'IA
+        \end{itemize}
+        
+        \item \textbf{Transparence} : 
+        \begin{itemize}
+            \item Systèmes explicables et auditables
+            \item Détection et correction des erreurs
+        \end{itemize}
+        
+        \item \textbf{Recours} : 
+        \begin{itemize}
+            \item Voies d'appel pour les individus lésés
+            \item Mécanismes de contestation des décisions automatisées
+        \end{itemize}
+    \end{enumerate}
+    
+    \vspace{0.3cm}
+    \textbf{Outils pratiques :} Évaluations d'impact algorithmique (ÉIA), audits indépendants, documentation du cycle de vie.
+\end{frame}
+
+\begin{frame}{Le "serment d'Hippocrate" du codeur}
+    L'objectif final est de passer d'une culture de "Move Fast and Break Things" à une culture de la responsabilité.
+    \begin{itemize}
+        \item Le principe fondamental : \textbf{"Primum non nocere" (D'abord, ne pas nuire)}.
+        \item La responsabilité du codeur n'est pas seulement technique (le code compile-t-il ?) mais aussi civique (le code est-il juste ?).
+        \item Cela implique une formation en éthique obligatoire dans les cursus d'ingénierie.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Mise en \oe uvre organisationnelle}
+    Un code n'est rien sans structure pour le soutenir :
+    \begin{itemize}
+        \item Création de comités d'éthique indépendants au sein des entreprises tech.
+        \item Institution d'un droit de retrait pour un ingénieur refusant de coder une fonctionnalité contraire au code.
+        \item Formation continue en éthique des données, pas seulement en technique.
+    \end{itemize}
+\end{frame}
+
+% ================= SECTION 3 : INTERPRÉTABILITÉ =================
+\section{Interprétabilité des Modèles}
+
+\begin{frame}{Section 3 : Interprétabilité (XAI)}
+    \begin{center}
+        \Large \textbf{Ouvrir la boîte noire}
+    \end{center}
+    \vspace{1cm}
+    \begin{quote}
+        « Comment définit-on et évalue-t-on l'interprétabilité... ? »
+    \end{quote}
+\end{frame}
+
+\begin{frame}{Définitions fondamentales}
+    Selon \cite{Doran2017}, il faut distinguer :
+    \begin{itemize}
+        \item \textbf{Interprétabilité (Interpretability) :} La capacité d'un modèle à être compris dans sa globalité par un humain. C'est une propriété intrinsèque (ex: régression linéaire, arbre de décision simple).
+        \item \textbf{Explicabilité (Explainability) :} La capacité d'un système opaque à fournir des justifications a posteriori pour ses décisions (ex: cartes de chaleur pour un réseau de neurones).
+        \item \textbf{Transparence :} Accès technique au code source et aux données d'entraînement.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Pourquoi est-ce crucial ?}
+    \cite{Burkart2021} identifient les enjeux majeurs :
+    \begin{enumerate}
+        \item \textbf{Confiance (Trust) :} L'utilisateur n'adopte pas durablement une technologie qu'il ne comprend pas ou qui lui semble arbitraire.
+        \item \textbf{Débogage et Amélioration :} Pour l'ingénieur, comprendre pourquoi le modèle échoue est essentiel pour le corriger.
+        \item \textbf{Conformité Légale :} RGPD (Droit à l'explication des décisions automatisées), AI Act européen.
+        \item \textbf{Éthique :} Détection des biais cachés qui seraient invisibles par la seule analyse de la performance globale.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Taxonomie des méthodes (1/2)}
+    \textbf{1. Modèles intrinsèquement interprétables}
+    \begin{itemize}
+        \item \textbf{Régression Linéaire / Logistique :} Les poids associés à chaque variable sont lisibles directement.
+        \item \textbf{Arbres de décision :} Suivre le chemin de la racine à la feuille est un processus logique humain.
+        \item \textit{Avantage :} Transparence totale et confiance élevée.
+        \item \textit{Limite :} Performance souvent moindre sur des données très complexes et non structurées (images, texte).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Taxonomie des méthodes (2/2)}
+    \textbf{2. Méthodes post-hoc (pour boîtes noires)}
+    \vspace{0.3cm}
+    Ces méthodes tentent d'expliquer un modèle complexe sans le modifier.
+    \begin{itemize}
+        \item \textbf{Indépendant du modèle (Model-Agnostic) :} Fonctionne sur n'importe quel type de modèle (LIME, SHAP).
+        \item \textbf{Spécifique au modèle (Model-Specific) :} Utilise l'architecture interne spécifique (ex: Gradients ou cartes d'attention pour réseaux de neurones).
+        \item \textbf{Explications Globales :} Comprendre le fonctionnement général du modèle.
+        \item \textbf{Explications Locales :} Comprendre une décision spécifique pour un utilisateur donné.
+    \end{itemize}
+\end{frame}
+
+% --- FIGURE VECTORIELLE LIME/SHAP ---
+\begin{frame}{Illustration : approche locale (LIME et SHAP)}
+    \begin{figure}
+        \centering
+        \begin{tikzpicture}[scale=0.7]
+            % LIME
+            \begin{scope}[shift={(-4,0)}]
+                \draw[->] (-2,0) -- (2,0) node[right] {$x$};
+                \draw[->] (0,-2) -- (0,2) node[above] {$y$};
+                \draw[thick, blue] plot [smooth] coordinates {(-2,-1.5) (-0.5, 1.5) (1.5, 0.5)};
+                \draw[red, dashed, thick] (-1.5, -0.5) -- (1, 2); 
+                \fill[black] (-0.2, 0.8) circle (3pt) node[right] {Instance};
+                \node at (0, -2.5) {\textbf{LIME} (Approx. Linéaire)};
+            \end{scope}
+            % SHAP
+            \begin{scope}[shift={(4,0)}]
+                \draw[->] (-1,0) -- (3,0) node[right] {Impact};
+                \foreach \y/\w/\c/\l in {1.5/2/green/Age, 0.5/-1/red/Dette, -0.5/1/green/Revenu} {
+                    \draw[fill=\c] (0,\y-0.2) rectangle (\w,\y+0.2);
+                    \node[left] at (0,\y) {\l};
+                }
+                \draw (0,-1.5) -- (0,2);
+                \node at (1, -2.5) {\textbf{SHAP} (Contributions)};
+            \end{scope}
+        \end{tikzpicture}
+        \caption{Comparaison conceptuelle LIME vs SHAP (Généré par GEMINI PRO 3.0)}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Focus méthode : LIME}
+    \textbf{LIME (Local Interpretable Model-agnostic Explanations)}
+    \begin{itemize}
+        \item \textit{Principe :} LIME teste la sensibilité du modèle en perturbant légèrement l'entrée (ex: cacher des parties de l'image) et observe le changement de prédiction.
+        \item \textit{Fonctionnement :} Il crée un modèle linéaire simple \textit{localement} autour de la prédiction pour l'approximer.
+        \item \textit{Force :} Intuitif, visuel, applicable à tout modèle.
+        \item \textit{Faiblesse :} Instabilité des explications (si on relance l'algorithme, l'explication peut changer légèrement).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{LIME : fondement mathématique}
+    \textbf{Explications locales interprétables indépendantes du modèle}
+    
+    \vspace{0.3cm}
+    \textbf{Problème d'optimisation :}
+    
+    \[
+    \text{explication}(\mathbf{x}) = \arg\min_{g \in G} \mathcal{L}(\hat{f}, g, \pi_{\mathbf{x}}) + \Omega(g)
+    \]
+    
+    \vspace{0.2cm}
+    où :
+    \begin{itemize}
+        \item \(\mathbf{x}\) : instance à expliquer
+        \item \(\hat{f}\) : modèle boîte noire
+        \item \(g\) : modèle simple interprétable (ex: régression linéaire)
+        \item \(G\) : famille de modèles interprétables
+        \item \(\mathcal{L}\) : fonction de perte pondérée par proximité
+        \item \(\pi_{\mathbf{x}}\) : noyau de proximité (ex: \(\exp(-d^2/\sigma^2)\))
+        \item \(\Omega(g)\) : mesure de complexité (régularisation)
+    \end{itemize}
+    
+    \vspace{0.2cm}
+    \textbf{Algorithme} : (1) Perturber \(\mathbf{x}\), (2) Prédire avec \(\hat{f}\), (3) Pondérer par \(\pi_{\mathbf{x}}\), (4) Ajuster \(g\) par régression pondérée.
+\end{frame}
+
+\begin{frame}{Focus méthode : SHAP}
+    \textbf{SHAP (SHapley Additive exPlanations)}
+    \begin{itemize}
+        \item \textit{Principe :} Basé sur la théorie des jeux coopératifs (Valeurs de Shapley). Il calcule la contribution marginale de chaque caractéristique à la prédiction finale.
+        \item \textit{Force :} Fondement mathématique solide, garantie de cohérence (propriété d'additivité).
+        \item \textit{Faiblesse :} Très coûteux en temps de calcul pour des modèles complexes avec beaucoup de variables.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{SHAP : fondement mathématique (valeurs de Shapley)}
+    \textbf{Explications additives de Shapley}
+    
+    \vspace{0.3cm}
+    \textbf{Définition (théorie des jeux coopératifs)} :
+    
+    \[
+    \phi_j(val) = \sum_{S \subseteq \{1,\ldots,p\} \setminus \{j\}} \frac{|S|!(p-|S|-1)!}{p!} \left[ val(S \cup \{j\}) - val(S) \right]
+    \]
+    
+    \vspace{0.2cm}
+    où :
+    \begin{itemize}
+        \item \(\phi_j\) : contribution de la caractéristique \(j\) à la prédiction
+        \item \(p\) : nombre total de caractéristiques
+        \item \(S\) : sous-ensemble de caractéristiques (coalition)
+        \item \(val(S)\) : prédiction du modèle en utilisant uniquement les caractéristiques de \(S\)
+        \item \(\frac{|S|!(p-|S|-1)!}{p!}\) : poids combinatoire (contribution marginale moyenne)
+    \end{itemize}
+    
+    \vspace{0.2cm}
+    \textbf{Propriétés garanties} : Efficacité (somme = prédiction), Symétrie, Additivité, Joueur nul.
+\end{frame}
+
+\begin{frame}{Évaluation de l'explication}
+    Comment savoir si une explication est "bonne" ? \parencite{Burkart2021}
+    \begin{itemize}
+        \item \textbf{Fidélité (Fidelity) :} L'explication reflète-t-elle fidèlement le processus de décision du modèle ? (Mesure technique).
+        \item \textbf{Robustesse (Robustness) :} Si l'entrée change très peu, l'explication reste-t-elle stable ?
+        \item \textbf{Compréhensibilité (Understandability) :} L'explication est-elle compréhensible par l'humain cible ? (Mesure subjective/utilisateur).
+        \item \textbf{Suffisance (Sufficiency) :} L'explication fournit-elle assez d'informations pour que l'humain puisse prédire le comportement du modèle ?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Évaluation de l'explication : critères formels}
+    \textbf{Mesures d'évaluation des explications en IA Explicable} :
+    
+    \vspace{0.3cm}
+    \begin{enumerate}
+        \item \textbf{Fidélité} : 
+        \[
+        \text{Fidélité} = 1 - \frac{1}{N}\sum_{i=1}^{N}|\hat{f}(\mathbf{x}_i) - g(\mathbf{x}_i)|
+        \]
+        L'explication \(g\) reflète-t-elle \(\hat{f}\) localement ?
+        
+        \item \textbf{Robustesse} : Si \(\mathbf{x}' \approx \mathbf{x}\), alors \(\text{expl}(\mathbf{x}') \approx \text{expl}(\mathbf{x})\)
+        
+        \item \textbf{Compréhensibilité} : 
+        \begin{itemize}
+            \item Simplicité du modèle \(g\) (nombre de caractéristiques actives)
+            \item Mesure subjective selon l'audience cible
+        \end{itemize}
+        
+        \item \textbf{Complétude} : L'explication permet-elle de prédire le comportement de \(\hat{f}\) ?
+    \end{enumerate}
+    
+    \vspace{0.2cm}
+    \textbf{Compromis LIME vs SHAP} : LIME est rapide mais instable ; SHAP est lent mais théoriquement fondé.
+\end{frame}
+
+\begin{frame}{Les différentes audiences de l'explication}
+    Une "bonne" explication dépend de son public \parencite{Doran2017} :
+    \begin{itemize}
+        \item \textbf{Le Concepteur (Ingénieur) :} A besoin d'une explication technique pour déboguer (ex: valeurs SHAP, activation des neurones).
+        \item \textbf{L'Utilisateur Final (Client) :} A besoin d'une explication simple, exploitable et non technique (ex: "Recommandé car vous avez aimé X et Y").
+        \item \textbf{Le Régulateur (Auditeur) :} A besoin d'une preuve de non-discrimination et de robustesse (ex: analyse globale des biais).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Risques : le "pari de l'explicabilité"}
+    L'explicabilité n'est pas une solution magique.
+    \begin{itemize}
+        \item \textbf{Fausse confiance (False Trust) :} Une explication plausible mais techniquement fausse peut amener un humain à faire trop confiance à un modèle défaillant.
+        \item \textbf{Détournement du système (Gaming the System) :} Si un modèle est trop interprétable, des acteurs malveillants peuvent l'exploiter (ex: spam, fraude).
+        \item \textbf{Rationalisation a posteriori :} L'explication peut n'être qu'une "bonne histoire" que le modèle raconte pour justifier une décision prise sur des corrélations fallacieuses.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Limitations techniques et conceptuelles}
+    D'après \textcite{Doran2017} et \textcite{Burkart2021} :
+    \begin{itemize}
+        \item \textbf{Le compromis précision / interprétabilité :} Simplifier pour expliquer peut fausser la réalité du modèle. Une explication trop simple peut être trompeuse.
+        \item \textbf{Biais de confirmation :} L'humain a tendance à accepter une explication qui confirme ses croyances, même si elle est techniquement fausse.
+        \item \textbf{Fidélité (Fidelity gap) :} L'explication est-elle vraiment fidèle au fonctionnement du modèle, ou est-ce une rationalisation a posteriori ?
+    \end{itemize}
+\end{frame}
+
+% ================= SECTION 4 : RECOMMANDATION =================
+\section{Systèmes de Recommandation}
+
+\begin{frame}{Section 4 : Systèmes de recommandation}
+    \begin{center}
+        \Large \textbf{L'architecture du choix}
+    \end{center}
+    \vspace{1cm}
+    \begin{quote}
+        « Expliquez ce qu'est un système de recommandation... »
+    \end{quote}
+\end{frame}
+
+\begin{frame}{Définition et rôle}
+    Selon \textcite{Ko2022}, un système de recommandation (RS) est :
+    \begin{itemize}
+        \item Un système de filtrage de l'information visant à présenter les éléments les plus pertinents à un utilisateur.
+        \item \textit{But :} Prédire la préférence ou la note qu'un utilisateur donnerait à un item qu'il ne connait pas encore.
+        \item \textit{Enjeu :} Résoudre la surcharge informationnelle (Information Overload) sur le web.
+    \end{itemize}
+    Il ne s'agit pas seulement de suggérer, mais de \textit{personnaliser} l'expérience et d'orienter l'attention.
+\end{frame}
+
+% --- FIGURE VECTORIELLE RECO ---
+\begin{frame}{Illustration : filtrage collaboratif vs contenu}
+    \begin{figure}
+        \centering
+        \begin{tikzpicture}[scale=0.85]
+            % CONTENT BASED
+            \begin{scope}[shift={(-4,0)}]
+                \node[font=\bfseries] at (0, 2.5) {Basé sur le contenu};
+                \node[draw, circle, fill=orange!30] (u) at (0,1) {Utilisateur};
+                \node[draw, rectangle, fill=green!20] (i1) at (-1,-1) {Item A};
+                \node[draw, rectangle, fill=green!20] (i2) at (1,-1) {Item B};
+                \draw[<->, dashed] (i1) -- (i2) node[midway, below, font=\tiny] {Attributs Similaires};
+                \draw[->] (u) -- (i1) node[midway, left, font=\tiny] {Aime};
+                \draw[->, red] (u) -- (i2) node[midway, right, font=\tiny] {Rec.};
+            \end{scope}
+            
+            % COLLABORATIVE
+            \begin{scope}[shift={(4,0)}]
+                \node[font=\bfseries] at (0, 2.5) {Filtrage collaboratif};
+                \draw[step=0.5, gray!50] (-1.5,-1.5) grid (1.5,1.5);
+                \node at (0, 1.8) {\scriptsize Matrice User-Item};
+                \fill[blue] (-1, 1) circle (3pt);
+                \fill[blue] (-0.5, 1) circle (3pt);
+                \fill[red] (0, 0.5) circle (3pt) node[right, red, font=\tiny] {Prédiction};
+            \end{scope}
+        \end{tikzpicture}
+        \caption{Distinctions conceptuelles FC vs FBC (Généré par GEMINI PRO 3.0)}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Aperçu des techniques}
+    Les principales familles identifiées par \textcite{Ko2022} :
+    \begin{enumerate}
+        \item \textbf{Filtrage basé sur le contenu (Content-Based) :} Analyse les propriétés des objets. "Vous avez aimé Star Wars (Science-Fiction), voici Dune".
+        \item \textbf{Filtrage collaboratif (Collaborative Filtering) :} Analyse les interactions sociales. "Les gens comme vous ont aimé ceci".
+        \item \textbf{Systèmes hybrides :} Combinaison des deux approches pour pallier leurs défauts respectifs.
+        \item \textbf{Basé sur l'apprentissage profond (Deep Learning) :} Utilisation de réseaux de neurones (RNN, CNN) pour modéliser des interactions complexes et séquentielles.
+    \end{enumerate}
+\end{frame}
+
+% --- SLIDE MATHÉMATIQUE 1 : CB ---
+\begin{frame}{Fondement mathématique (1) : Basé sur le contenu (FBC)}
+    Dans l'approche FBC, la similarité est souvent calculée via la \textbf{similarité cosinus}.
+    
+    Soit \(u\) un vecteur de profil utilisateur et \(i\) un vecteur de profil d'item (basé sur TF-IDF par exemple). La pertinence est estimée par :
+    
+    \begin{equation}
+        \text{sim}(u, i) = \cos(\theta) = \frac{u \cdot i}{||u|| \times ||i||} = \frac{\sum_{k=1}^{n} u_k i_k}{\sqrt{\sum_{k=1}^{n} u_k^2} \sqrt{\sum_{k=1}^{n} i_k^2}}
+    \end{equation}
+    
+    \begin{itemize}
+        \item \textbf{Principe :} On projette l'utilisateur et l'item dans le même espace vectoriel.
+        \item Plus l'angle \(\theta\) est petit, plus le cosinus est proche de 1, signifiant une forte similarité.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Technique 1 : le filtrage collaboratif (FC)}
+    Détaillé par \textcite{Koren2009}, c'est la méthode la plus célèbre.
+    \begin{itemize}
+        \item \textbf{Principe :} Utiliser les interactions passées (matrice Utilisateurs-Items) pour prédire les interactions futures, sans connaitre la nature des objets.
+        \item \textbf{Approche centrée utilisateur (User-based) :} Trouver des voisins similaires à l'utilisateur cible et recommander ce qu'ils ont aimé.
+        \item \textbf{Approche centrée item (Item-based) :} Trouver des items qui sont notés de manière similaire par l'ensemble des utilisateurs.
+        \item \textbf{Factorisation Matricielle (SVD) :} Décomposer la matrice géante des notations en facteurs latents (goûts cachés) pour remplir les vides.
+    \end{itemize}
+\end{frame}
+
+% --- SLIDE MATHÉMATIQUE 2 : CF ---
+\begin{frame}{Fondement mathématique (2) : factorisation matricielle (DVS)}
+    Selon \textcite{Koren2009}, le but est d'approximer la matrice de notation \(R\) par deux matrices de facteurs latents \(P\) (utilisateurs) et \(Q\) (items) de dimension \(f\).
+    
+    L'estimation de la note \(\hat{r}_{ui}\) est donnée par le produit scalaire :
+    \[ \hat{r}_{ui} = q_i^T p_u \]
+    
+    Pour apprendre ces facteurs, on minimise l'erreur quadratique régularisée sur l'ensemble des notes connues \(\kappa\) :
+    
+    \begin{equation}
+        \min_{q^*, p^*} \sum_{(u,i) \in \kappa} (r_{ui} - q_i^T p_u)^2 + \lambda(||q_i||^2 + ||p_u||^2)
+    \end{equation}
+    
+    \footnotesize
+    \textit{Le terme \(\lambda\) (régularisation) empêche le surapprentissage (overfitting) en pénalisant les vecteurs de trop grande amplitude.}
+\end{frame}
+
+\begin{frame}{Technique 2 : filtrage basé sur le contenu (FBC)}
+    \begin{itemize}
+        \item \textbf{Principe :} Créer un profil pour chaque item (caractéristiques : genre, auteur, mots-clés) et un profil utilisateur basé sur ses préférences déclarées ou son historique.
+        \item \textbf{Méthode :} Calcul de similarité (Distance Cosinus, Jaccard) entre le vecteur Utilisateur et le vecteur Item.
+        \item \textbf{Avantage :} Indépendance. Pas besoin des données des autres utilisateurs.
+        \item \textbf{Limite :} Sur-spécialisation. Le système ne recommande que ce que l'utilisateur connait déjà, limitant la découverte (sérendipité).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Le problème du "démarrage à froid" (Cold Start)}
+    Un défi majeur pour les systèmes collaboratifs \parencite{Ko2022} :
+    \begin{itemize}
+        \item \textbf{Nouvel utilisateur :} Comment recommander à quelqu'un dont on ne sait rien ? Le système n'a pas de "voisins" à qui le comparer.
+        \item \textbf{Nouvel item :} Comment recommander un nouveau film si personne ne l'a encore noté ? Il n'apparaîtra dans les recommandations de personne.
+        \item \textbf{Solution hybride :} C'est là que le FBC est crucial. On peut recommander un nouvel item en se basant sur ses attributs (genre, acteurs) avant même qu'il ait reçu des notes.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Évaluation des recommandations (métriques)}
+    Comment mesurer la qualité d'un SR ?
+    \begin{itemize}
+        \item \textbf{Précision (Precision@k) :} Parmi les k items recommandés, combien sont pertinents ?
+        \item \textbf{Rappel (Recall@k) :} Parmi tous les items pertinents, combien ont été recommandés dans le top k ?
+        \item \textbf{Métriques de classement (NDCG) :} La pertinence seule ne suffit pas. Les meilleurs items doivent-ils être en position 1 ou 2 ?
+        \item \textbf{Métriques "au-delà de la précision" :}
+            \begin{itemize}
+                \item \textbf{Sérendipité :} Capacité à surprendre l'utilisateur avec des items pertinents mais inattendus.
+                \item \textbf{Diversité :} Les recommandations couvrent-elles différents aspects des goûts de l'utilisateur ?
+            \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Mesures d'évaluation : formules mathématiques}
+    \textbf{Mesures de classement pour systèmes de recommandation}
+    
+    \vspace{0.3cm}
+    \textbf{1. Précision@k} :
+    \[
+    \text{Précision@}k = \frac{|\{\text{items pertinents}\} \cap \{\text{top-}k\text{ recommandés}\}|}{k}
+    \]
+    
+    \textbf{2. Rappel@k} :
+    \[
+    \text{Rappel@}k = \frac{|\{\text{items pertinents}\} \cap \{\text{top-}k\text{ recommandés}\}|}{|\{\text{tous items pertinents}\}|}
+    \]
+    
+    \textbf{3. GCDAN@k (Gain Cumulé Actualisé Normalisé)} :
+    \[
+    \text{GCDAN@}k = \frac{\text{GCA@}k}{\text{GCAI@}k}, \quad \text{GCA@}k = \sum_{i=1}^{k} \frac{2^{rel_i} - 1}{\log_2(i+1)}
+    \]
+    
+    Prend en compte l'ordre et la pertinence graduée.
+    
+    \vspace{0.2cm}
+    \textbf{Au-delà de la précision} : Diversité, Sérendipité, Nouveauté, Couverture.
+\end{frame}
+
+\begin{frame}{Enjeux : la "bulle de filtre" et sérendipité}
+    Le SR façonne notre vision du monde.
+    \begin{itemize}
+        \item \textbf{Bulle de filtre :} L'optimisation de la pertinence (clics) peut enfermer l'utilisateur dans une boucle de rétroaction, ne lui montrant que ce qu'il pense déjà.
+        \item \textbf{Perte de sérendipité :} Un système trop efficace en FC ou FBC ne laisse plus de place à la découverte fortuite, essentielle à l'apprentissage et à la culture.
+        \item \textbf{Enjeu éthique :} Le SR a une responsabilité dans la polarisation du débat public (Q2) et devient une forme de bureaucratie de l'information (Q1).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Enjeux éthiques : bulle de filtre et polarisation}
+    \textbf{Bulle de filtre et chambres d'écho}
+    
+    \vspace{0.3cm}
+    \textbf{Définitions formelles} :
+    \begin{itemize}
+        \item \textbf{Bulle de filtre (Pariser, 2011)} : Isolation intellectuelle causée par personnalisation algorithmique sélective
+        \item \textbf{Chambre d'écho} : Renforcement des croyances par exposition homogène (boucles de rétroaction)
+    \end{itemize}
+    
+    \vspace{0.3cm}
+    \textbf{Mécanismes algorithmiques} :
+    \begin{enumerate}
+        \item FC/FBC favorisent la similarité $\rightarrow$ Recommandations redondantes
+        \item Boucle de rétroaction : \(\text{Préférence}_t \rightarrow \text{Reco}_t \rightarrow \text{Interaction}_t \rightarrow \text{Préférence}_{t+1}\)
+        \item Optimisation pour engagement (temps passé) \(\neq\) diversité informationnelle
+    \end{enumerate}
+    
+    \vspace{0.3cm}
+    \textbf{Atténuation} : Injection de diversité, "données antidotes", mesures au-delà de la précision (sérendipité, diversité).
+\end{frame}
+
+\begin{frame}{Comparaison détaillée}
+    \begin{table}[]
+        \centering
+        \small
+        \begin{tabular}{@{}p{5cm}p{5cm}@{}}
+            \toprule
+            \textbf{Filtrage collaboratif (FC)} & \textbf{Basé sur le contenu (FBC)} \\ \midrule
+            Nécessite une communauté (données sociales) & Autonome (centré sur l'utilisateur seul) \\
+            Favorise la \textit{Sérendipité} (peut surprendre) & Tendance à la sur-spécialisation (bulle) \\
+            Problème de "Démarrage à froid" (nouveaux items/utilisateurs) & Gère bien les nouveaux items \\
+            Opaque (facteurs latents mathématiques) & Plus explicable (basé sur des attributs clairs) \\ \bottomrule
+        \end{tabular}
+    \end{table}
+    \textcite{Ko2022} notent que les systèmes modernes (Netflix, YouTube) sont presque toujours hybrides pour maximiser les forces des deux approches.
+\end{frame}
+
+\begin{frame}{L'évolution vers l'Apprentissage Profond}
+    Les limites du FC (linéarité) sont dépassées par l'Apprentissage Profond (Deep Learning).
+    \begin{itemize}
+        \item \textbf{Filtrage Collaboratif Neuronal (FCN) :} Remplace le simple produit scalaire par un réseau de neurones pour capturer des interactions complexes.
+        \item \textbf{Réseaux de Neurones Récurrents (RNN) :} Utilisés pour la recommandation de session (séquentielle), prédisant le prochain clic en fonction de l'historique immédiat.
+        \item \textbf{Enjeu :} Augmentation massive de l'opacité. On gagne en précision, mais on perd en capacité d'explication \(\rightarrow\) Retour à la question 3 (Interprétabilité).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Filtrage collaboratif neuronal (FCN)}
+    \textbf{Architecture d'apprentissage profond pour la recommandation}
+    
+    \vspace{0.3cm}
+    \textbf{Limite de la FM traditionnelle} : Le produit scalaire \(\mathbf{u}_u^T \cdot \mathbf{v}_i\) est linéaire et ne capture pas les interactions complexes.
+    
+    \vspace{0.3cm}
+    \textbf{FCN : Remplacer le produit scalaire par un réseau de neurones} :
+    
+    \[
+    \hat{y}_{ui} = f(\mathbf{u}_u, \mathbf{v}_i | \Theta)
+    \]
+    
+    où \(f\) est un Perceptron Multi-Couches (PMC).
+    
+    \vspace{0.3cm}
+    \textbf{Architecture FMN (Factorisation Matricielle Neuronale)} :
+    \begin{enumerate}
+        \item \textbf{FMG (FM Généralisée)} : Produit élément-par-élément des plongements
+        \item \textbf{PMC} : Couches denses empilées (4-5 couches, non-linéarité ReLU)
+        \item \textbf{Fusion} : Concaténation FMG + PMC $\rightarrow$ couche de sortie
+    \end{enumerate}
+    
+    \[
+    \hat{y}_{ui} = \sigma\left( \mathbf{h}^T \left[ \mathbf{u}_u \odot \mathbf{v}_i \, || \, \text{PMC}(\mathbf{u}_u, \mathbf{v}_i) \right] \right)
+    \]
+    
+    \textbf{Gain} : Capture d'interactions non-linéaires.
+\end{frame}
+
+% ================= CONCLUSION =================
+\section{Conclusion}
+
+% --- SYNTHÈSE TRANSVERSALE (La diapo qui manquait) ---
+\begin{frame}{Synthèse transversale : architecture du Léviathan}
+    \textbf{Interconnexions entre les 4 questions} :
+    
+    \vspace{0.5cm}
+    \begin{center}
+    \begin{tikzpicture}[node distance=2.5cm, auto, box/.style={rectangle, draw, rounded corners, fill=gray!10, align=center, minimum height=1cm}]
+        % Noeuds
+        \node[box, fill=blue!20] (Q1) {\textbf{Q1 : Bureaucratie}\\ (La Logique)};
+        \node[box, fill=green!20, right=of Q1] (Q4) {\textbf{Q4 : Recommandation}\\ (Le Moteur)};
+        \node[box, fill=red!20, below=of Q1] (Q2) {\textbf{Q2 : Déontologie}\\ (La Loi)};
+        \node[box, fill=yellow!20, right=of Q2] (Q3) {\textbf{Q3 : IAX}\\ (Le Contre-Pouvoir)};
+        
+        % Flèches
+        \draw[->, thick] (Q1) -- node[above] {\footnotesize Implémente} (Q4);
+        \draw[->, thick] (Q4) -- node[left] {\footnotesize Crée opacité} (Q3);
+        \draw[->, thick] (Q2) -- node[right] {\footnotesize Exige} (Q3);
+        \draw[<->, dashed, thick] (Q1) -- node[left] {\footnotesize Encadre} (Q2);
+        
+    \end{tikzpicture}
+    \end{center}
+    
+    \vspace{0.3cm}
+    \footnotesize
+    \begin{enumerate}
+        \item La \textbf{bureaucratie algorithmique} s'incarne techniquement dans les \textbf{systèmes de recommandation}.
+        \item L'opacité de ces systèmes (boîte noire) rend nécessaire l'\textbf{IA explicable}.
+        \item L'ensemble doit être régulé par une \textbf{déontologie} forte pour éviter la dérive (capitalisme de surveillance).
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Synthèse finale}
+    \begin{itemize}
+        \item L'algorithme de personnalisation est le \textbf{bureaucrate parfait} de Weber, efficace mais aveugle, appliquant des règles impersonnelles à grande échelle.
+        \item Face à ce pouvoir, un \textbf{code de déontologie} inspiré de la Biosphère est nécessaire pour responsabiliser les créateurs et sortir du vide éthique.
+        \item Cette responsabilité passe techniquement par l'\textbf{interprétabilité (XAI)}, seule garante contre l'arbitraire et condition de la confiance.
+        \item Les \textbf{systèmes de recommandation} sont le terrain d'application concret de ces tensions, tiraillés entre la performance pure (Apprentissage profond) et la nécessité de transparence et d'équité.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusion}
+    \begin{center}
+        \Huge Le Léviathan peut être dompté, \\ mais seulement s'il est compris.
+    \end{center}
+\end{frame}
+
+% --- GLOSSAIRE ---
+\begin{frame}{Glossaire : terminologie francisée}
+    \footnotesize
+    \begin{table}[]
+        \centering
+        \begin{tabular}{@{}p{5cm}p{6cm}@{}}
+            \toprule
+            \textbf{Terme anglais} & \textbf{Terme français} \\ \midrule
+            Digital Weberianism & Wébérisme numérique \\
+            Algorithmic Accountability & Redevabilité algorithmique \\
+            XAI (Explainable AI) & IA Explicable / IAX \\
+            LIME & Explications Locales Interprétables Indépendantes du Modèle \\
+            SHAP & Explications Additives de Shapley \\
+            SVD & DVS (Décomposition en Valeurs Singulières) \\
+            TF-IDF & FT-FDI (Fréquence du Terme - Fréquence du Document Inverse) \\
+            Matrix Factorization (MF) & Factorisation Matricielle (FM) \\
+            Neural Collaborative Filtering (NCF) & Filtrage Collaboratif Neuronal (FCN) \\
+            NeuMF & FMN (Factorisation Matricielle Neuronale) \\
+            MLP (Multi-Layer Perceptron) & PMC (Perceptron Multi-Couches) \\
+            GMF (Generalized MF) & FMG (FM Généralisée) \\
+            NDCG & GCDAN (Gain Cumulé Actualisé Normalisé) \\
+            Precision@k / Recall@k & Précision@k / Rappel@k \\
+            Collaborative Filtering (CF) & Filtrage Collaboratif (FC) \\
+            Content-Based (CB) & Basé sur le Contenu (FBC) \\
+            Recommender System (RS) & Système de Recommandation (SR) \\
+            Filter Bubble / Echo Chamber & Bulle de Filtre / Chambre d'Écho \\
+            Information Overload & Surcharge informationnelle \\
+            Gaming the System & Détournement du système \\
+            Model-Agnostic & Indépendant du modèle \\
+            Model-Specific & Spécifique au modèle \\
+            Features & Caractéristiques / Attributs \\
+            Cold Start & Démarrage à froid \\
+            AI Act & Loi sur l'IA \\ \bottomrule
+        \end{tabular}
+    \end{table}
+\end{frame}
+
+% --- BIBLIOGRAPHIE ---
+\begin{frame}[allowframebreaks]{Bibliographie}
+    \printbibliography
+\end{frame}
+
+\end{document}

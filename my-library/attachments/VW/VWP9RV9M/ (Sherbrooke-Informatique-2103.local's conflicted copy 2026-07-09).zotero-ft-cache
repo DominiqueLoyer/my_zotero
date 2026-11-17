@@ -1,0 +1,696 @@
+RECHERCHE D’INFORMATION
+TRANSLINGUE (RIT)
+CROSS-LANGUAGE
+INFORMATION RETRIEVAL
+(CLIR)
+
+
+ OBJECTIF / DÉFINITION
+Trouver les documents pertinents en une langue (cible) – en utilisant une (des) requête(s) en une langue diffèrente (source)
+
+
+ OBJECTIF / DÉFINITION
+• L'idée de base est de franchir la frontière linguistique en donnant
+accès dans une langue (source) à des documents écrits dans une autre langue (cible)
+• “to bridge the language boundary by providing access in one language (the source) to documents written in another language
+(the target)”
+• Langue source: la langue qui donne accès aux informations
+demandées ; le langage interrogateur
+• “the language that gives access to the required information;
+the query language thus
+• Langue cible: la langue du contenu de la base de données
+• “the language of the content in the database (documents)”
+
+
+ LANGUES ET STATISTIQUES
+https://fr.statista.com/infographie/14919/langues-les-plus-parlees-vs-langues-utilisees-sites-web/ Voir: https://fr.statista.com/statistiques/1048133/classement-langues-internet-monde/
+
+
+ https://fr.statista.com/infographie/8183/les-pays-ou-lon-parle-le-plus-de-langues/ Voir (2022): https://fr.statista.com/infographie/8183/les-pays-ou-lon-parle-le-plus-de-langues/
+LANGUES ET STATISTIQUES
+
+
+ • La RIT est rendue de plus en plus importante pour l'échange
+mondial d'informations et le partage des connaissances.
+• Des exemples:
+– sécurité nationale
+– accès à l'information de façon générale (nouvelles)
+– accès aux informations médicales/juridiques pour les patients/ clients
+– recherche web/medias sociaux
+– Recherche multilingue / image / multimodale
+IMPORTANCE DE LA RIT
+
+
+ • Configuration typique
+– l’usager parle seulement anglais.
+– Souhaite avoir accès aux documents dans une(des)
+langue(s) étrangère(s) (ex. chinois, arabe).
+• Besoins
+– L'utilisateur doit comprendre les documents récupérés !
+– L'interface doit supporter la navigation (browsing) dans
+les documents en langues étrangères.
+• Comment ça peut se faire ?
+IMPORTANCE DE LA RIT
+
+
+ • Sert à identifier les documents qui répondent aux besoins de
+l’utilisateur, d’après le(s) langue(s) de la requête et des documents recherchés.
+• Nécessite la traduction de la requête ou des documents ou des deux.
+• Approches /techniques de traduction
+– basée sur les corpus /Corpus-based
+– traduction automatique /Machine translation
+– basées sur le dictionnaire /Dictionary-based
+• Améliorations possible - expansion de requêtes pré- et/ou
+post- ... ( à découvrir !)
+IMPORTANCE DE LA RIT
+
+
+ IMPORTANCE DE LA RIT
+Documents in
+target language
+Documents in Source language
+CLIR
+system
+Linguistics Resources
+Source language query
+Retrieved documents, Summarized, Translated, etc.
+Retrieved documents
+Bilingual Dictionary
+Comp./Parall. Corpora
+Machine Translation
+
+
+ CAMPAGNES D’ÉVALUATIONS
+• Les campagnes d’évaluation suivantes organisent des concours
+pour la promotion et le développement de la recherche
+multilingue et pour le partage des ressources linguistiques:
+NII-NACSIS Test Collection for IR Systems (NTCIR)
+Text REtrieval Conference (TREC)
+Cross Language Evaluation Forum (CLEF)
+http://trec.nist.gov/
+http://www.clef-campaign.org/
+http://research.nii.ac.jp/ntcir/
+
+
+ • Traduction des requêtes
+– Traduire les requêtes d’une langue (source) vers la(es) langue(s)
+des documents (cible.s)
+– Recherche dans la(es) collection(s) des documents
+– Aussi : traduire les documents obtenus (retrieved docs) dans la
+langue source - back translation
+• Traduction des documents
+– Traduire la collection entière des documents dans la langue source
+– RI monolingue
+• Hybride: Traduire les deux (Req. et Doc.)
+TRADUCTION REQ. VS DOC.
+
+
+ Req. (fr.) Traduction
+Req.
+Système
+RI (ang.)
+T.A.
+Ang.-fr.
+Système RIT (français-anglais)
+Req. (ang.)
+Résultats
+(ang.)
+Résultats
+(fr.)
+Documents
+ang.
+TRADUCTION REQ.
+http://www.ccs.neu.edu/home/jaa/IS4200.12S/Handouts/cross_language.pdf
+
+
+ Req.
+fr.
+Documents
+ang.
+RI monolingue
+Système TA
+Documents
+fr.
+Résultats (fr.)
+TRADUCTION DOC.
+Système RIT (français-anglais)
+http://www.ccs.neu.edu/home/jaa/IS4200.12S/Handouts/cross_language.pdf
+
+
+ Term-aligned Sentence-aligned Document-aligned Unaligned
+Parallel Comparable
+Knowledge-based Corpus-based
+Controlled Vocabulary Free Text
+Query Translation Document Translation
+Text Translation Vector Translation
+Ontology-based Dictionary-based
+Thesaurus-based
+APPROCHES RIT
+
+
+ • Traduction Req.
+– Rapide et efficace pour requêtes courtes (pas les très courtes)
+– Désambiguïsation des mots de la requête difficile à résoudre
+• Traduction Doc.
+– Très utile à long terme et pour d’autres recherches (interface)
+– Plus lente; mais a besoin d’être fait une seule fois par document
+• La performance dépend du système de traduction automatique et de la disponibilité des ressources linguistiques
+TRADUCTION REQ. VS DOC.
+
+
+ • Qui est la meilleure ?
+– Dépendent toutes les deux de la disponibilité des ressources linguistiques.
+– Toutes deux présentent des défis.
+– Dépendent des langues traitées (peu dotées, etc.)
+• Méthodes statistiques/neuronales dominantes dans le domaine !
+TRADUCTION REQ. VS DOC.
+
+
+ RIT – PROBLÈMES / DÉFIS
+oil petroleum
+probe survey
+take samples
+Which
+translation?
+No
+translation!
+restrain
+cymbidium goeringii
+Wrong
+segmentation
+oil petroleum
+probe survey
+take samples
+
+
+ RIT – PROBLÈMES / DÉFIS
+18
+● Word Segmentation in Inuktitut (langue autochtone) du Canada):
+○ siipiisiikkut (meaning CBC or Canadian Broadcasting Corporation)
+○ qimirruvita (meaning are we looking at, as in the context Are we looking at trying to find out? or qimirruvita qaujimanittinnuk)
+○ utaqqivita (meaning are we waiting for?, as in the context What are we waiting
+for? or kisumik utaqqivita?)
+Schwartz, L., Tyers, F., Levin, L., Kirov, C., Littell, P., Lo, C. K., ... & Strunk, L. (2020). Neural
+Polysynthetic Language Modelling. arXiv preprint arXiv:2005.05477.
+
+
+ • Problèmes
+• Disponibilité des dictionnaires
+• Formes de mots fléchis
+• Polysémie des mots – ambiguïté lexicale
+• Traduction des phrases, mots composés
+• Entités nommées et expression polylexicales sont très importantes.
+• La plupart des dictionaires n’ont pas une bonne couverture
+• translittération vs. traduction
+• Le défi majeur est de traduire la requête entière avec un bon choix de la traduction
+• Techniques de désambiguïsation
+RIT BASÉE SUR LES DICTIONAIRES
+
+
+ TRANSLITTÉRATION VS. TRADUCTION
+• Translittération = fait référence à la méthode de mappage d'un système
+d'écriture sur un autre, en fonction de la similarité phonétique.
+• La translittération est possible avec plus de 20 langues.
+• https://www.google.com/intl/frCA/inputtools/services/features/transliteration.html#:~:text=La%20translitt%C3%A9ration%20fait%20r%C3%A9f%C3%A9rence%20%C3%A0,fonction%20de%20la%20similarit%C3%A9 %20phon%C3%A9tique.
+• La translittération consiste à convertir un texte d’un système
+d’écriture à un autre. Cela signifie généralement remplacer les
+caractères du texte source par des caractères du système d’écriture
+de la langue cible ou, plus simplement encore, écrire un mot utilisant
+un système d’écriture différent.
+• https://www.trustedtranslations.com/fr/blog/translitteration-vstraduction#:~:text=La%20translitt%C3%A9ration%20consiste%20%C3%A0%20convertir,un%20syst%C3%A8me%20d'%C3%A9criture%20 diff%C3%A9rent.
+
+
+ • Noms propres (NPs) en vietnamien : 2 catégories
+• NPs d’origine vietnamienne
+• Par exemple : Tran Văn Tr;o, Đinh Tiên Hoàng, Lý Br;ch, L8 Tan
+• NPs d’origine étrangère
+• Par exemple : Francois, Hugo, Napoléon (en fran ̧cais)
+• Translittération : Frăng-xoa/Phơ-răng-xoa, Huy-gô/Uy-gô, Na-pô-lê-ông/Nã Phá Luân ( 拿 破 崙 /ná pò lún/)
+• Écriture des noms de personne, de lieu, d’organisation :
+• Influence sino-vietnamienne • Translittération en sino-vietnamien ou via une langue indo-européenne
+• Par exemple : Paris, Moscou, Canada (en francais)
+• Translittération : Pa-rít/Pa-ri/Ba Lê ( 巴 黎 /b ̄a lí/), Mát-xcơ-va/Mr;c Tư Khoa ( 莫 斯 科 /mò s ̄ı k ̄e/), Ca-na-đa/Gia Nã Đr;i ( 加 拿 大 /ji ̄a ná dà/)
+• ⇒ Problématique : Manque d’uniformité
+TRANSLITTÉRATION VS. TRADUCTION
+Pris de la présentation de thèse de Tan Ngoc Le. UQAM, 2019
+
+
+ • Noms propres (NPs) en arabe:
+• 112 orthographes différentes pour écrire Kadhafi ( القذافي )*
+Gadafi, Gadaffi, Gaddafi, Gaddaffi, Gadhafi, Gadhaffi, Ghadafi,
+Ghadaffi, Ghaddafi, Ghaddaffi, Ghadhafi, Ghadhaffi, Kadafi,
+Kadaffi, Kaddafi, Kadhafi, Khadafi, Khaddafi, Khaddaffi,
+Khadhafi, Khadhaffi, Qadafi, Qadaffi, Qaddafi, Qaddaffi,
+Qadhafi, Qadhaffi, Qadhdhafi, Qathafi, ...
+https://languagelog.ldc.upenn.edu/nll/?p=2989
+• Traduction :Muammar Gaddafi (Ang) , Mouammar Kadhafi (Fr).
+TRANSLITTÉRATION VS. TRADUCTION
+* https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D9%85%D8%B1_%D8%A7%D9%84%D9%82%D8%B0%D8%A7%D9%81%D9%8A
+
+
+ Les mots ambigus ont plusieurs sens/siginifications qui peuvent être lié.e.s ou pas lié.e.s entre eux.elles.
+• Homonymie
+LING. Relation entre plusieurs formes linguistiques ayant le même
+signifiant graphique et/ou phonique et des signifiés totalement différents; formes linguistiques qui ont entre elles cette relation.
+https://www.cnrtl.fr/definition/homonymie
+• Ex.
+• Avocat (fruit) – avocat (métier)
+• Sang, cent, sans, sent
+AMBIGUÏTÉ LEXICALE
+
+
+ Les mots ambigus ont plusieurs sens qui peuvent être liés ou pas liés entre eux
+• Polysémie
+LING. Propriété d'un signifiant de renvoyer à plusieurs signifiés présentant des
+traits sémantiques communs.
+https://www.cnrtl.fr/definition/polys%C3%A9mie
+La polysémie est la caractéristique d’un mot ou d’une expression qui a plusieurs sens ou significations différentes (on le qualifie de polysémique).
+https://fr.wikipedia.org/wiki/Polys%C3%A9mie
+• Ex.
+• Souris: animal, materiel accompagnant un ordinateur, viande d’agneau, verbe sourire.
+AMBIGUÏTÉ LEXICALE
+
+
+ La tâche (TAL) qui consiste à définir le sens d’un mot ambigu en
+contexte.
+Word Sense Disambiguation (WSD)
+• La désambiguïsation lexicale ou désambigüisation lexicale est la
+détermination du sens d’un mot dans une phrase lorsque ce mot
+peut avoir plusieurs sens possibles.
+https://fr.wikipedia.org/wiki/D%C3%A9sambigu%C3%AFsation_lexicale
+DÉSAMBIGUÏSATION LEXICALE
+
+
+ DÉSAMBIGUÏSATION LEXICALE
+Target Translations
+Term-by-term translation
+Disambiguation of translations
+Preprocessing
+Retrieval System
+Source Query
+Document
+Retrieval
+1 2
+3
+4
+Bilingual Dictionary
+Stop List
+Morphological Analyzer
+Target Language
+Corpus
+Lemmas
+All
+Translations
+Co-occurrence
+Tendencies
+Monolingual
+Thesaurus
+Bilingual dictionary Compensation & update
+Ranking Target translations and Disambiguation of Target translations (RTDT)
+
+
+ DÉSAMBIGUÏSATION LEXICALE
+Target Translations
+Term-by-term translation
+Disambiguation of translations
+Preprocessing
+Retrieval System
+Source Query
+Document
+Retrieval
+1
+2
+3
+4
+5
+Bilingual Dictionary
+Stop List
+Morphological
+Analyzer Monolingua l Thesaurus
+Source Language
+Corpus
+Target Language
+Corpus
+Lemmas
+All
+Translations
+Co-occurrence
+Tendencies
+Co-occurrence
+Tendencies
+Bilingual dictionary Compensation & update
+Organization of source terms
+Ranking Source terms and Disambiguation of Target translations (RSDT)
+
+
+ TRAD. ET CO-OCCURENCES
+§ Information Mutuelle:
+§ Test de rapport de vraisemblance / Log-likelihood ratio:
+§ Pour n mots: trouver globalement la meilleure combinaison de traductions:
+N
+freq(w )
+...
+N
+freq(w )
+N
+freq(w )
+N
+(w , w ,...w )
+log
+1
+1
+MI(w , w ,...w )
+12 n
+12 n
+12 n
+××
+−
+=
+freq
+N
+N
+freq(w )
+N
+freq(w )
+N
+(w , w )
+MI(w , w ) log
+12
+12
+12
+×
+=
+freq
+22
+22 22
+21
+21 21
+12
+12 12
+11
+11 1 2 n 11 C R
+log
+CR
+log
+CR
+log
+CR
+LLR(w , w ,...w ) log K N
+K
+KN
+K
+KN
+K
+KN
+=K + + +
+
+
+ ÉVALUATIONS
+La performance des systèmes RIT est mesurée en termes de précision et
+rappel (retrieval effectiveness) et pas en terme de précision (exactitude) des
+traductions (translation accuracy).
+• Précision: mesure la proportion de documents pertinents retrouvés parmi tous les documents retrouvés par le système.
+• Rappel: mesure la proportion de document pertinents retrouvés
+parmi tous les documents pertinents dans la base.
+• Précision moyenne: est une moyenne de précision sur un ensemble de points de rappel. On utilise la précision moyenne sur 10 points de
+rappel (0.1, ..., 1.0).
+RETR
+RETR REL
+precision ∩
+= REL
+RETR REL
+recall ∩
+=
+
+
+ Erica Cosijn et al. CLIR: opening up possibilities for indigenous languages in South Africa? (2003)
+ÉVALUATIONS
+Analyse des problèmes de traduction - exemple
+
+
+ • Expansion de requêtes – QUAND ?
+Avant (pre-) ou après (post-) la traduction (translation)?
+ou la combinaison des deux ?
+COMMENT AIDER LA RIT ?
+
+
+ • Expansion de requêtes – QUAND ?
+• Avant la traduction de la requête : améliore la requête
+• Avant la traduction des documents : enrichit le vocabulaire
+• Après la traduction de la requête : atténue les erreurs de traduction
+COMMENT AIDER LA RIT ?
+
+
+ EXPANSION DE REQUÊTES
+• Ex. Retour de pertinence aveugle / Blind Relevance Feedback /
+Query
+Translation results
+Source Language IR
+Target Language IR
+source language collection
+target language collection
+expanded source language query
+expanded target language terms
+Pre-translation expansion Post-translation expansion
+
+
+ • Le retour de pertinence se fait:
+• d’une façon automatique ou
+• par interaction avec l’usager
+• Améliore la précision/rappel
+• Les requêtes courtes en bénéficient plus.
+• L’expansion Pré-traduction is a bigger win ... why?
+• La combinaison des 2 pre- et post-traduction, is the
+biggest win ... why?
+• La qualité des ressources de traduction est très importante !
+LESSONS APPRISES
+
+
+ COMPARAISONS - EXAMPLE
+0.00
+0.05
+0.10
+0.15
+0.20
+0.25
+0.30
+0.35
+0 5,000 10,000 15,000
+Unique Dutch Terms
+Mean Average Precision
+Both
+Post
+Pre
+None
+McNamee and Mayfield. Comparing cross-language query expansion techniques by degrading translation resources. 2002
+
+
+ COLLINS Fr- Eng Dictionary
+French Query
+English Translation
+Lemmatization
+Document Collection
+Indexing
+Index L1 Index L2 Index L3
+Query Matching
+Retrieved Documents
+SMART system
+Term-by-Term Translation
+French Stemmer
+French Stop list
+Pseudo-Relevance Feedback
+Domain-based Feedback
+(interactive)
+WordNetbased
+Expansion
+EuroWordNetbased Expansion
+Organization of Source Terms
+HANSARD Fr Corpus
+Tipster Vol.1 Data Collection
+Disambiguation of Translations
+HANSARD Eng Corpus
+EXAMPLE : RIT FR-ANG
+
+
+ RETOUR DE PERTINENCE
+Extraction, sélection et ajout de termes qui sont fortement liés
+aux concepts de la requête
+∑
+=
+=
+n
+i
+cooccur termi term
+1
+Weight(Q,expterm) ( , exp )
+Q: {term1, ... termi , ...}
+Relevant Exp. Terms
+Top ranked Documents
+First Text
+Retrieval
+System
+Query Terms
+Exp. Term Candidates
+Term Extraction
+Term Selection
+Second Text
+Retrieval
+System
+Raw Query Terms
+
+
+ THESAURUS / WORDNET
+Les différentes relations lexico-sémantiques d’un thesaurus peuvent
+enrichir la requête.
+Adaptation de WordNet ...
+Q: Quels termes ajouter ?
+A: Synonyms and Multiple Word Senses
+Relations: Synonymie, Hypernymie, Hyponymie, Holonymie, Méronymie,
+Q: Comment est faite la sélection de ces termes d’expansion?
+A: Weighting scheme based on co-occurrence tendencies
+
+
+ EXEMPLE (RIT JAP-ANG)
+ü Corpus comparable japonais|anglais (1998-1999)
+q Japonais: articles de journaux Mainichi
+q Anglais: articles de journaux Mainichi Daily News.
+ü Extraction de mots (content words), leurs lemmes et POS des textes J et E
+q ChaSen (J) et OAK (E)
+q Retenir les noms (NN), verbes (VB), adverbs (RB), adjectives (JJ) et mots étrangers (FW).
+ü Dictionnaires bilingues EDR et EDICT
+ü Évaluations:
+q NTCIR-2 test collection (japonais vers anglais)
+q Système SMART pour les documents E
+Ressources linguistiques & Prétraitement
+
+
+ ü Collection test NTCIR-2 (JE-E)
+q Document data
+q Author abstracts of the Academic Conference Paper Database (1997-1999)
+q Grant Reports (1988-1997)
+q about 400,000 Japanese and 130,000 English documents),
+q 49 Search topics (Japanese and English), and Relevance Judgment.
+q SMART: système de RI [Salton, 1971]
+ü Métriques d’évaluation:
+q Précision / Rappel
+q Précision moyenne
+How is the retrieval effectiveness evaluated (CLIR) ?
+EXEMPLE (RIT JAP-ANG)
+
+
+ SMART label Weighting Scheme
+NNN Wij = tfij
+ATN !"
+#
+$%
+= ×& +
+i
+ij
+ij j 2 max tf
+tf
+w idf 0.5
+LTN wij = idf j × [ln( tf ij ) + 1.0 ]
+LTC
+[]
+[ ( )]
+2
+n
+k1
+k ik
+j ij ij
+idf ln( tf ) 0.1
+idf ln( tf ) 0.1
+w
+∑
+=
+×+
+×+
+=
+ATC 2
+n
+k1 i
+ik k
+i
+ij j
+ij
+2 max tf
+tf
+idf 0 .5
+2 max tf
+tf
+idf 0 .5
+w
+∑
+=
+! "
+# $ %
+&
+))
+*
++
+,,
+
+.
+×
+×+
+!"
+#
+$%
+&
+×
+×+
+=
+NTC [ ]
+2
+n
+k1
+k ik
+j ij ij
+idf tf
+idf tf
+w
+∑
+=
+×
+×
+=
+Weighting schemes of SMART retrieval system
+
+
+ Method Avg. precision %Monolingual % Improvement
+Mono_Eng 0.2629 100 
+No_DIS 0.2214 84.24 -15.76
+All_Tr 0.2160 82.19 -17.81
+RTDT.LLR 0.2387 90.82 -9.18
+RSDT.LLR 0.2679 101.94 +1.94
+RTDT.MI 0.2325 88.47 -11.53
+RSDT.MI 0.2652 100.91 +0.91
+ÉVALUATIONS - DÉSAMBIGUÏSATION
+
+
+ Method Avg.
+precision
+%
+Monolingual % Improvement
+Mono_Eng 0.2629 100 
+Feed.bef 0.2309 87.86 -12.14
+Feed.aft 0.2663 101.33 +1.33
+Feed.bef_aft 0.2704 102.89 +2.89
+Feed.bef_dom 0.2725 103.69 +3.69
+Feed.ewn_wn 0.2608 99.23 -0.77
+ÉVALUATIONS - EXPANSION DE REQUÊTES
+
+
+ CONCLUSIONS
+ü Les techniques de désambiguïsation sur les termes de la
+requête en langue source ainsi qu’en langue cible ont bien
+montré leurs efficacités en RIT.
+ü Précision moyenne (mean average precision)
+ü Taux d’amélioration: 21% pour RSDT et 7.81% pour RTDT
+comparés au processus de traduction sans désambiguïsation .
+ü La combinaison de techniques d’expansion de requêtes en
+pré- et post-traduction a montré une meilleure amélioration
+dans la performance de la RIT.
+
+
+ Merci !

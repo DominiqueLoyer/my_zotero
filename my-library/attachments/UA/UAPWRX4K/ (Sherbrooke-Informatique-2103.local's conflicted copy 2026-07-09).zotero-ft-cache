@@ -1,0 +1,465 @@
+Data Exposure from LLM Apps: An In-depth Investigation of OpenAI’s GPTs
+Evin Jaff∗, Yuhao Wu∗, Ning Zhang, and Umar Iqbal Washington University in St. Louis
+Abstract—LLM app ecosystems are quickly maturing and supporting a wide range of use cases, which requires them to collect excessive user data. Given that the LLM apps are developed by third-parties and that anecdotal evidence suggests LLM platforms currently do not strictly enforce their policies, user data shared with arbitrary third-parties poses a significant privacy risk. In this paper we aim to bring transparency in data practices of LLM apps. As a case study, we study OpenAI’s GPT app ecosystem. We develop an LLM-based framework to conduct the static analysis of natural language-based source code of GPTs and their Actions (external services) to characterize their data collection practices. Our findings indicate that Actions collect expansive data about users, including sensitive information prohibited by OpenAI, such as passwords. We find that some Actions, including related to advertising and analytics, are embedded in multiple GPTs, which allow them to track user activities across GPTs. Additionally, co-occurrence of Actions exposes as much as 9.5× more data to them, than it is exposed to individual Actions. Lastly, we develop an LLM-based privacy policy analysis framework to automatically check the consistency of data collection by Actions with disclosures in their privacy policies. Our measurements indicate that the disclosures for most of the collected data types are omitted in privacy policies, with only 5.8% of Actions clearly disclosing their data collection practices.
+1. Introduction
+Large language model (LLM)-based platforms, such as ChatGPT [1] and Gemini [2], are increasingly supporting third-party app ecosystems [3], [4]. While third-party LLM apps enhance the functionality of LLM platforms, they may also pose significant risks to user privacy. As it has been the case in other computing platforms, third-party apps and external services embedded in them collect excessive user data, often more than it is needed to provide essential services [5], [6], [7], [8]. In LLM platforms, the risks from third-party apps may be exacerbated because of the natural language-based execution paradigm of LLMs. For example, user’s main mode of interaction with LLMs is information-rich natural language, which can be processed to infer several characteristics about the user, such as their age or interests [9], [10]. Furthermore, malicious LLM apps can launch straightforward attacks (e.g., with prompt injection [11]) to access information beyond their one-to-one
+∗. Equal contribution. Each reserves the right to list their name first.
+interactions with the user, as LLMs automatically load prior user interactions in their execution environment (i.e., context window) to provide a contextually relevant responses [12]. LLM platforms moderate the practices of apps through their policies [13], [14], [15], however, these polices are currently mostly limited, optional, or not strictly enforced [16], [17], [18]. For example, prominent platforms, such as OpenAI, currently state that they may not review the apps hosted on their platforms [15]. Anecdotal evidence suggests that policy violating apps are already hosted on such platforms, and only removed when publicly brought to attention [19]. Vendors are also constantly improving their platforms. For example OpenAI, has recently completely revamped its LLM app ecosystem with more restrictions to improve their security and privacy posture [20]. For example, LLM apps (referred to as GPTs [3]) and external services embedded in them (referred to as Actions [21]), now need to host their specifications on the OpenAI’s back-end and can no longer be self-hosted [22]. However, we also note that at the same time, OpenAI has removed restrictions on use cases, such as advertising, which often require personal and excessive user data [23], [14]. Given the potential for privacy issues due to the limited polices and their lack of enforcement in LLM platforms, in this paper we aim to bring transparency in data practices of LLM apps. As a case study, we study OpenAI’s GPT ecosystem, as it is the largest LLM app ecosystem with more than 3 million GPTs [24]. At a high level, we (i) first survey GPTs and Actions, (ii) characterize their data collection practices, (iii) measure potential indirect data exposure across GPTs and their Actions, and (iv) check the consistency of data collection practices with disclosures in privacy policies of GPTs and Actions. We crawl a total of 119,274 GPTs and 2,596 unique Actions embedded in them from third-party and the OpenAI’s official app store, over four months (our crawling is still ongoing). Since GPTs and their Actions define their functionality, including their data collection, in natural language, we rely on static analysis to characterize their data collection practices. However, static analysis requires addressing the challenge of assigning succinct data types to the detailed and potentially vague natural language descriptions. To that end, we build an LLM-based tool, that takes a natural language data type description as input, and outputs a succinct data type and its associated data category, based on a data taxonomy that we provide it as a knowledge base. We also note that some GPTs embed several Actions, and some Actions are embedded across several GPTs. Since
+1
+arXiv:2408.13247v1 [cs.CR] 23 Aug 2024
+
+
+ all Actions embedded in a GPT execute in a shared execution environment [25], [17], they are automatically exposed each other’s data. Similarly, presence in several GPTs, allow Actions to collect user data and track user activities across GPTs. We model the presence of Actions in GPTs as a graph, to systematically study such indirect data exposure in OpenAI’s GPT ecosystem. To check the consistency of data collection with disclosures in privacy polices, we take inspiration from prior work on automated privacy policy analysis [26], [27], [8], [28] and develop an LLM-based privacy policy analysis framework. Due to LLMs’ unreliability and performance issues with large contexts [29], our framework analyzes privacy policies in three steps: (i) extracts data collection related statements from privacy policies, (ii) builds LLM’s context with the extracted statements, and (iii) evaluates individual data items against the sentences for disclosures. This approach ensures precise association between the LLM’s assessments and specific data types within the privacy policies. We summarize our key contributions and findings below: 1) GPT census. We analyze a total of 119,274 GPTs with 2,596 unique Actions, crawled across four months. We note that the number of GPTs has been steadily growing. Many GPTs modify their functionality but likely do not change it altogether. We also note that some GPTs are removed from the OpenAI platforms, likely because they violated OpenAI’s policies. We also find that majority of Actions (82.9%) included in GPTs are from external third-party services.
+2) Characterization of data collection practices. We develop an LLM-based framework to conduct the static analysis of natural language-based source code of GPTs and their Actions to characterize their data collection practices. Our findings indicate that Actions collect expansive data about users, including sensitive information prohibited by OpenAI, such as passwords [14]. We also find that some GPTs are embedding specialized third-party Actions to track users and also to serve ads to users.
+3) Measuring indirect data exposure. To study the indirect data exposure between Actions and across GPTs, we model the Action co-occurrence in a graph representation. We note that some Actions, including related to advertising and analytics, are embedded in multiple GPTs, which allow them to track user activities across GPTs. Additionally, co-occurrence of Actions exposes as much as 9.5× more data to them, than it is exposed to individual Actions.
+4) Consistency of data collection with privacy policy disclosures. We develop an LLM-based privacy policy analysis framework to automatically check the consistency of data collection by Actions with disclosures in privacy policies. Our measurements indicate that the disclosures for most of the collected data types are omitted in privacy policies. However, nearly half of the Actions clearly disclose more than half of their data collection and only 5.8% of Actions clearly disclose their data collection practices.
+Callable Functions
+Web Browser
+Code
+Interpreter Actions
+DALL-E File
+Search
+System Prompt
+Function Descriptions
+Custom Instructions
+Memory
+OpenAI Resources Third-Party Resources
+LLM
+Figure 1: GPT architecture: GPTs are provided access to an LLM and the ability to maintain their memory [31]. GPTs also have an ability to prompt the system through custom instructions. GPTs are provided 5 tools, including Actions, through which they can create custom tools to connect to third-party online services.
+2. Background & Motivation
+2.1. OpenAI GPTs
+In this paper we study the OpenAI’s GPT (app) ecosystem, the most mature third-party LLM app ecosystem with more than 3 million GPTs [24]. OpenAI provides GPTs the ability to customize the behavior of the LLM, browse the web, generate images, interpret code, search files, and connect to the APIs of external online services. Browsing (i.e., Web Browser), image generation (DALLE), code interpretation (Code Interpreter), and file searching (Knowledge) are built-in tools and provided by OpenAI [3], whereas connection to external APIs are implemented as custom tools, which are referred to as Actions [21]. Actions are akin to third-party services on the web, such as analytics, JS wrappers, CDNs, that websites embed to enhance their offerings.
+Built-in tools can be enabled by clicking check-boxes on the GPT creation interface [30], whereas Actions need to be implemented as HTTP APIs and exposed to OpenAI in a JSON format [21]. The JSON format of Actions describes the functionality offered by each API, including its data types, as natural language descriptions (Appendix A lists the source code of a GPT with an Action). GPTs also define their functionality in natural language and interface with the LLM, their tools, the user, and other GPTs through natural language instructions. To build the necessary context to use a GPT, LLMs inject the natural language-based source code of GPTs in their context window, when users install and interact with GPTs. Figure 1 presents the architecture of GPTs with its core components.
+2
+
+
+ GPT Crawlers GPT manifests
+GPT Crawling
+Privacy policies
+Statistical analysis
+LLM-based data taxonomy tool
+LLM-based privacy policy checker
+Indirect data exposure
+Distribution and attribution
+Action manifests
+Functionality changes
+Policy violation trends Third-party connections
+Policy availability analysis
+Data disclosure analysis
+GPT Census
+GPT Data Collection Analysis
+GPT Privacy Policy Analysis
+Figure 2: Summary of our approach to analyze data exposure from OpenAI’s GPTs. We divide our approach into four main phases: GPT crawling, GPT census, GPT data collection analysis, and GPT privacy policy analysis.
+2.2. Privacy risks
+While third-party apps extend the capabilities of computing platforms, they also pose several risks to user privacy. For example, in almost all online computing platforms, such as the web, mobile, and IoT, it is a standard practice for third-party apps to collect excessive user data, often with other specialized third-party services, for the purposes of profiling users for personalized online advertising [5], [6], [7], [8]. We worry that the GPTs might also engage in similar practices on the OpenAI’s platform. In fact, GPTs are already including specialized third-party Actions to track users (as we show later in Section 5.2.2). OpenAI currently imposes some restrictions [13], [14], [15] on GPTs but they are mostly limited, optional, or not strictly enforced [16], [17], [18]. For example, OpenAI currently does not implement any foolproof access control mechanisms, and leaves it up to the developers to define permission interfaces for activities performed by the GPTs, which may not be reviewed [15]. There are already instances where policy violating apps were hosted on OpenAI and only removed when publicly brought to attention [19]. Furthermore, OpenAI also intends to use user’s interaction with the GPTs, i.e., to train its models [32]. Although, OpenAI provides users’ controls to delete their data [33], these controls may not extend to third-party GPTs, as OpenAI
+may not have visibility or control over the data exfiltrated by the Actions inside GPTs. Privacy risks may be further exacerbated in LLM platforms because of the natural language-based execution paradigm of LLMs. For example, user’s main mode of interaction with LLMs is information rich natural language, which can be processed to infer several characteristics about the user, such as their age or interests [9], [10]. Furthermore, malicious GPTs can launch straightforward attacks (e.g., with prompt injection [11]) to access information beyond their one-to-one interactions with the user, as LLMs automatically load prior user interactions in their context window to provide a contextually relevant response [12].
+2.3. Our goal
+Given the potential for privacy issues and their harms to the users, this paper aims to bring transparency in the OpenAI’s third-party app ecosystem. More specifically, our goal is to characterize the privacy practices in the OpenAI’s GPT ecosystem, including (i) surveying GPTs and Actions embedded in them, (ii) characterizing their data collection practices, (iii) measuring potential indirect data exposure across GPTs and their Actions, and (iv) checking the consistency of data collection practices with disclosures in privacy policies of GPTs and Actions. We conduct a four-month long periodic weekly crawls of GPTs from February 8th to May 3rd 2024, to measure their evolution across several axes (Section 4). To characterize data collection by GPTs and their actions, we rely on static code analysis, as GPTs and Actions need to state their data collection in natural language, so that it can be interpreted and acted upon by LLMs (Section 3). Furthermore, we analyze the indirect exposure of data across Actions because of embedding of multiple Actions in GPTs by modeling Action co-occurrence as a graph (Section 5.3). Lastly, to measure the consistency between the data collection by GPT Actions and disclosures in their privacy policies, we develop an LLM-based privacy policy analysis framework (Section 6). Figure 2 provides an overview of our approach. With these measurements, our goal is to build an informed understanding of the third-party app ecosystems in LLM platforms. We envision such measurements to serve as a guide to inform the design of current and future integrations of third-party services in LLM platforms, to improve their privacy.
+3. GPT crawling
+We first crawl a large number of GPTs from the OpenAI and third-party GPT stores and present their census, including their growth and tool usage trends.
+3.1. GPT marketplaces
+Since OpenAI does not provide any interfaces to download GPTs hosted on their platform, we rely on several thirdparty GPT stores that index a large number of GPTs. We
+3
+
+
+ Source Count of GPTs
+Casanpir GitHub GPT List 85,377 plugin.surf 58,546 assistanthunt.com 2,024 allgpts.co 1,776 topgpts.co 929 customgpts.info 575 gpt-collection.com 485 gptdirectory.co 372 meetups.ai 276 gptshunt.tech 200 OpenAI Store 151 botsbarn.com 104 cusomgptslist.com 91
+Total (unique) 119,543
+TABLE 1: Count of GPTs successfully crawled from the OpenAI and third-party GPT stores.
+identified a total of 13 popular sources that list GPTs (listed in Table 1) from popular developer communities and forums, such as the OpenAI Developer Forum [34], [35].
+3.2. Crawling process
+We implemented selenium-based [36] crawlers for each of the third-party store to extract links to the GPTs. After extracting the links, we process them to extract the GPT identifiers, and then send a request to an OpenAI API endpoint with the GPT identifier1 that returns the JSON specification of a GPT. If the GPT identifier is not associated with a publicly available GPT, OpenAI returns a 404 error code. We also crawl a small number of featured GPTs listed on the OpenAI’s official GPT store. The downloaded JSON specifications of GPTs describe their functionality in natural language, including the endpoints contacted by Actions, and the data exfiltrated by them (Appendix A lists the source code of a GPT with a third-party Action). After crawling GPTs, we download the privacy policies of their Actions by requesting the URL in the legal_info_url field in their specifications.2 We successfully crawl 98.9 ± 1.7% GPTs and 91.5 ± 2.3% privacy policies of GPT Actions, over four months. We are unable to crawl the remaining GPTs and privacy policies due to internal server errors and server unresponsiveness. Table 1 shows the cumulative number of GPTs from each of the GPT stores. In total, we crawl 119,543 unique GPTs from all of the GPT stores.
+4. GPT census
+After crawling the GPTs, we first analyze their growth trends on third-party stores over time. From Figure 3, we note that new GPTs are frequently listed on stores, with a mean increase rate of 4.5% over each week. We also note
+1. https://chat.openai.com/backend-api/gizmos/g-{identifier} 2. Note that only the Actions embedded in GPTs are required to provide privacy policies [21].
+2024-02-08
+2024-02-20
+2024-02-24
+2024-03-07
+2024-03-22
+2024-04-01
+2024-04-05
+2024-04-15
+2024-04-19
+2024-04-26
+2024-05-03
+80000
+90000
+100000
+110000
+120000
+GPT count
+Unchanged Removals Changes Additions
+Figure 3: Longitudinal growth trends of GPTs listed on third-party stores from February 8th to May 3rd, 2024.
+Change type GPT property Count
+Contact info.
+Modified social media 114 Removed social media 33 Author website 31 Profile picture 12 Allow feedback to author 8
+Metadata
+GPT welcome message 121 Review-ability status 10 GPT description 7 GPT categories 6 GPT name 4 Prompt starters 4 Developer verification status 2
+Actions/Files
+File modification 23 Spec. format change to JSON 7 File removals 3 File Additions 2
+Total 303
+TABLE 2: Breakdown of changes in properties of crawled GPTs over time.
+that several GPTs are changed or removed over time, with a mean rate of 0.02% and 0.2% over each week, respectively. We next discuss the changes and removals in more detail.
+4.1. GPTs modify their functionality but likely do not change it altogether
+We note that several GPTs are modified over time, either because they are changed by their developers or because some of their metadata is changed by OpenAI, such as ratings and usage statistics. Table 2 presents the breakdown of changes in properties of crawled GPTs. In total, we identify 303 GPTs that are modified over time (we do not consider the properties that are changed by OpenAI). We note that some modification (e.g., metadata and Actions/Files) could be more consequential than the others (e.g., contact information) in altering a GPT’s functionality. We investigated all such instances, i.e., modifications to metadata and Actions/Files related properties. However, none of these modifications indicated a functionality change and most seem to be related to performance/accuracy tweaks.
+4
+
+
+ For example, in all instances where GPTs changed their descriptions, they were to make them more precise. It is important to note that the GPT’s exact instructions are not revealed in their crawled source code, so we cannot investigate how they change over time. Moreover, we could also only observe that the name of the files associated with the GPTs have changed, but not their content.
+4.2. Some of the GPTs that no longer exist violated OpenAI’s policies
+Next we analyze the removed GPTs to assess if the reason for their removal were problematic behaviors. We consider a GPT to be removed if it is no longer present on the third-party GPT stores and also inaccessible on ChatGPT. In total, we note that 2,883 GPTs were removed from the GPT store during our crawl period. Since our goal is to reliably assess the potential reasons for the removal of GPTs, we resort to manual investigation. We specifically emphasize on GPTs that embed Actions because they present the potential for most harms – as they connect to potentially untrustworthy third-party services on the internet and load unvetted content. Our manual review process involves two human coders first independently analyzing a small set of GPTs to generate a code book, and then independently analyzing GPTs using that code book. At a high level, the code book contains rules that characterize GPTs functionalities, including their data collection practices and their content generation practices. This characterization requires us to analyze the natural language functionality description of the GPTs and their API endpoints, individually using them in ChatGPT, and also interacting with their API endpoints. Table 3 presents the potential reason for the removal of 175 GPTs that embed Actions. We find that the largest proportion of removed GPTs are the ones whose Action APIs are no longer accessible. In some cases, we noticed that upon calling the Action’s APIs, they returned messages that the GPTs have been discontinued. For example, the AskYourCode Action within the AskYourCode GPT returned the message that: “AskYourCode was closed on 15th Feb due to low usage.” [37]
+The second largest category of removed GPTs are the ones that provide web browsing functionality. Upon investigating, we discovered that OpenAI from time-to-time, although inconsistently, has been removing GPTs that allow users to browse the web [38], [39]. More recently, OpenAI has been reaching out to the GPT developers which provide web browsing functionality, that their GPT provides “copyright infringing content” to its users [40].
+The third largest category of removed GPTs were the ones that contained Actions which provide analytics and advertising services. OpenAI currently does not condone GPTs to collect analytics of their own and promises an inhouse analytics feature in future releases [32]. As for the advertising, it was initially prohibited by OpenAI [41], [42] but does not seem to be prohibited anymore, as per the updated OpenAI’s policies [14].
+Potential reason for removal Count
+Inactive Action APIs 59 Advertising/Analytics 61 Web Browsing 23 Prohibited API usage (YouTube) [43] 13 Prompt injection/redirection 9 Impersonation 2 Sexually explicit content 1 Gambling 1 Stock trading 1 Inconclusive 17
+Total 175
+TABLE 3: Potential removal reason of GPTs that embed Actions.
+We also noticed that a number of GPTs were removed because they contained Actions that use YouTube’s APIs. Since OpenAI by default uses user’s interaction with ChatGPT, including with custom GPTs, for training its models, YouTube API embedding GPTs could be removed because they are in a potential violation of YouTube’s data usage policies [43]. Several other removed GPTs provided sexually explicit content (e.g., SutraKama [44]), enabled gambling (e.g., CrytoCipher [45]), or enabled stock trading (e.g., MetaTrader GPT [46]), all of which are practices that are prohibited by OpenAI [14]. We also noticed a couple of instances where the GPTs likely tried to impersonate other services. For example, we identified a GPT appearing to be representing booking.com but serving content from amadeus.com. We have reached out to booking.com to notify them about the existence of this GPT and also to validate whether they are hosting this GPT, but we have not yet heard back from them.
+4.3. Many GPTs connect to third-party services on the internet
+Table 4 provides the breakdown of tool usage in GPTs. We note that almost all (97.5%) GPTs include tools; with most popular integration being the Web browser with 92.3%, followed by DALL-E with 85.5%, Code interpreter with 53.0%, Knowledge (Files) with 28.2%, and Actions with 4.6%.3 A significant majority (93.2%) of GPTs connect to online services through Web Browser and Actions. Specifically, the Web Browser tool allows to consume content from any webpage on the internet and Actions allow to connect to specific online services. While these tools extend the capabilities of GPTs, they also expose users to unvetted online content on the Internet, threatening user security and privacy [48], [17]. In the case of Actions, these risk may be further exacerbated as a significant number of Actions in
+3. The high prevalence of Web browser and DALL-E could be because they are pre-checked by default in the OpenAI’s GPT configuration interface [47].
+5
+
+
+ Tool % of GPTs First-party Third-party
+Web Browser 92.3% - DALLE 85.5% - Code Interpreter 53.0% - Knowledge (Files) 28.2% - Actions 4.6% 17.1% 82.9%
+Total 97.5% - 
+TABLE 4: Tool usage in GPTs. First and third-party columns only pertain to Actions, and represent whether they are created by the GPT vendors themselves (first-party) or other developers (third-party).
+GPTs are not developed in-house but are simply integrated from other third-party developers.4 We also noticed that in some cases GPTs integrate more than one Action. Specifically, among the GPTs that integrate actions, 90.9% contain one Action, 6.6% contain two Actions, 1.2% contain three Actions, and the remaining 1.3% contain as many as 4 to 10 Actions. Of the GPTs with multiple Actions, majority (55.3%) of them connect to additional domains (i.e., different online services), while the remaining 44.7% described other paths/endpoints for an API within the same domain (i.e., the same online service). The presence of multiple Actions can allow them to read each other’s data and also influence each other’s functionality, as currently ChatGPT does not isolate the execution of Actions inside a GPT [17], [25]. This practice of integrating Actions, especially from the third-parties is reminiscent of the early days of the web and mobile platforms when only a few websites/apps included a few third-party services [50]. As LLM ecosystems mature, GPTs may include tens of Actions, including from thirdparties, as it is a common practice in the modern web, mobile, and IoT ecosystems [5], [6], [7], [8]. We further investigate the practices of GPTs and their Actions in Section 3 (Data collection) and Section 6 (Privacy policy compliance).
+5. GPT data collection analysis
+In this section, we analyze data collection practices of GPTs. We specifically emphasize on GPTs that embed Actions, because GPTs can only contact external online services with Actions, to exfiltrate data outside OpenAI’s ecosystem.
+5.1. Overview of collected data
+5.1.1. Methodology. We first present an overview of the data collected by the Actions embedded in GPTs. As Actions describe the data collected by each API endpoint in natural language descriptions, we rely on static analysis, to sufficiently capture their data collection practices. However,
+4. We classify an Action as a third-party if its eTLD+1 does not match the eTLD+1 of the hosting GPT — a standard process to detect third-parties on the web [49].
+Category Data type 1st 3rd GPTs
+App activity
+Other user-gen. data 64.3% 59.2% 65.9% Settings or parameters 39.9% 24.0% 38.7% In-app search history 29.1% 16.1% 28.6% Data identifier 21.2% 10.6% 20.7% Other activities 14.7% 7.1% 14.1% Time 11.2% 11.9% 12.2% Reference information 8.8% 3.2% 8.8% Installed apps 8.1% 0.1% 7.4% Model name or version 5.1% 3.3% 5.3% Reviews 2.2% 0.9% 2.2% Command/prompt 1.7% 3.7% 2.2%
+Personal info
+Other info 43.9% 58.9% 47.9% Languages 21.1% 7.8% 20.4% User IDs 19.5% 22.7% 20.3% Name 8.8% 13.0% 10.3% Email address 7.2% 5.7% 7.7% Address 6.0% 7.8% 6.9% Passwords 0.9% 0.9% 1.0% Timezone 0.8% 0.9% 0.8% Phone number 0.6% 1.5% 0.8% Race and ethnicity 0.1% 0.0% 0.1% Political/religious beliefs 0.0% 0.1% 0.1%
+Web browsing Websites visits 17.0% 6.6% 16.7%
+Location Approximate location 10.4% 11.7% 11.7%
+Precise location 2.3% 2.9% 2.4%
+Messages Other in-app messages 4.9% 2.9% 4.9%
+Emails 2.9% 1.7% 3.1%
+Financial info
+Other financial info 3.1% 5.0% 3.8% Purchase history 0.3% 0.4% 0.3% User payment info 0.1% 0.1% 0.1%
+Files & docs Files and docs 2.6% 5.7% 3.2%
+Photos & videos Videos 2.5% 1.0% 2.7%
+Photos 0.7% 1.3% 0.9%
+Calendar Calendar events 0.4% 0.8% 0.5%
+App info & perf. Other app perf. data 0.4% 0.6% 0.5%
+Health & fitness Health info 0.2% 0.6% 0.4%
+Physical activity info 0.0% 0.1% 0.1%
+Device/other IDs Device or other IDs 0.3% 0.6% 0.4%
+Audio files
+Other audio files 0.3% 0.5% 0.3% Voice or sound recordings 0.1% 0.4% 0.1% Music files 0.1% 0.0% 0.1%
+Contacts Contacts 0.2% 0.3% 0.2%
+TABLE 5: Distribution of different data types collected by GPTs through first-party (1st) and third-party (3rd) Actions. GPTs column represents the proportion of GPTs embedding these Actions.
+static analysis requires addressing the challenge of assigning succinct data types to the detailed and potentially vague natural language descriptions. To that end, we build an LLM-based tool, that takes a natural language data type description as input, and outputs a succinct data type and its associated data category. Specifically, in our tool, we configure a GPT-4 instance with a tailored prompt template [51] and an expanded Android platform’s data type taxonomy [52] as a knowledge base.
+6
+
+
+ 0 5 10 15 20 25 30 35 40 45 50 Count of data types
+0.00
+0.25
+0.50
+0.75
+1.00
+Fraction of Actions
+Raw data types Succinct data types
+Figure 4: Distribution of raw and processed data types collected by Actions.
+5.1.2. Actions collect expansive data, including sensitive information prohibited by OpenAI. We first plot the number of data items collected by each Action in Figure 4. We note that 25.57% and 39.77% of Actions collect 5 or more succinct (as determined by our LLM-based tool) and raw data types, respectively. Additionally, there are 4.35% and 18.82% of Actions that collect 10 or more succinct and raw data types, respectively. We next analyze specific data types that are excessively collected by Actions. We note that the Actions collect a wide range of expansive data spanning across 14 different categories. Table 5 presents the categories, types, and counts of data collected by first-party and third-party Actions embedded in GPTs (see Appendix B for our detailed data taxonomy). It can be seen from the Table 5 that a significant number of Actions collect data related to user’s app activity, personal information, and web browsing. App activity data consists of user generated data (e.g., conversation and keywords from conversation), preferences or setting for the Actions (e.g., preferences for sorting search results), and information about the platform and other apps (e.g., other actions embedded in a GPT). Personal information includes demographics data (e.g., Race and ethnicity), PII (e.g., email addresses), and even user passwords; web browsing history refers to the data related to websites visited by the user using GPTs. We note that several of these data types pertain to sensitive user data and their collection is prohibited by OpenAI [14], [15]. For example, OpenAI prohibits the collection of information such as passwords and API keys, but we note that at least 1% of GPTs that embed Actions (in our crawl), collect user passwords, for the purposes of signing into online services or managing online services on user’s behalf. Since OpenAI may use user-to-GPT interaction data for training its models [32], the collection of sensitive user data not only exposes users to harms from third-party developers but also from arbitrary attackers, who can extract training data from LLMs, as it has been shown by prior work [53], [54] We also note that OpenAI requires GPTs to comply with applicable legal requirements while collecting personal user data [14], [15]. However, we found that OpenAI does not provide GPTs sufficient controls that they can offer to users so that they can exercise their rights. For example, prominent
+data protection regulations, such as GDPR and CCPA [55], [56], require online services to provide users controls to opt out of usage or selling of data [57], but in our testing in respective jurisdictions, we did not find such controls being offered to the users. Overall, we note that OpenAI’s GPT app ecosystem is already supporting complicated use cases, that require collecting expansive data types, indicating a quick maturing, especially relative to other emerging computing platforms, such as the VR [8] and smart speakers [7] ecosystems. Although, OpenAI is revising its polices to catch up with the rapid development of its third-party app ecosystem, our measurements indicate that these efforts may not be sufficient, as many problematic GPTs continue to exist on OpenAI’s store.
+5.2. Attributing data collection
+Next, we analyze Actions that collect user data, including analyzing their practices and offerings.
+5.2.1. GPTs mostly embed third-party Actions, some of which dynamically load other Actions. Form Table 4 and 5, we note that GPTs mostly embed third-party Actions which collect extensive data including personal user information. While in most instances these Actions are directly integrated by GPT developers, we encountered two instances where Actions had capability to dynamically load other third-party Actions. Specifically, Zapier [58] listed that it can “Equip GPTs with the ability to run thousands of actions via Zapier” and JustPaid [59] listed that it can “Equip GPTs with the ability to run actions via JustPaid” (with currently only supporting stripe and accounting). Although, integration of third-party services is a common practice on computing platforms, such as the web and mobile, they often exacerbate the privacy risks posed to the users [5], [6]. For example, advertising and tracking thirdparty services are known to dynamically embed 100s of other third-party services to share user information with each other, e.g., through cookie syncing [5], [60]. To mitigate such concerns, platforms are making active efforts to restrict the inclusion of dynamically loaded code in apps. For example, Google Chrome no longer allows to include remotely hosted code in browser extensions [61], [62]. Although OpenAI’s GPT ecosystem is still nascent, it has a unique opportunity to learn from earlier platforms and enhance its security and privacy measures from the outset.
+5.2.2. Some GPTs are embedding third-party Actions to track users and serve them advertisements. Next, we analyze data collection practices and the functionality offered by prevalent third-party Actions. Table 6 lists prevalent third-party Actions, along with their functionality category, count of data items collected by them, some of the data that they collect, and the fraction of GPTs that embed them (among Action embedding GPTs). We note that some thirdparty Actions are widely deployed across GPTs. Among these, webPilot [63] is the most prevalent Action which
+7
+
+
+ Action name Functionality # Data types Collected data % GPTs
+webPilot / web_pilot Productivity 7 Languages, In-app search history, Web browsing visits 6.06% Zapier AI Actions for GPT (Dynamic) Productivity 5 Data identifier, Installed apps, Other user-generated content 5.65% AdIntelli Advertising & Marketing 2 GPT name, GPT description, context keywords 3.50% OpenAI Profile Communications 2 Model name or version, Other in-app messages 1.93% Gapier: Powerful GPTs Actions API Prompt Engineering 12 Email address, Data identifier, Approximate location 1.60% Wix GPT Integration Web Hosting 4 Email address, Data identifier, Name 0.79% Abotify product information API Ecommerce & Shopping 1 Other info 0.76% GPT functions/actions Prompt Engineering 7 Model name/version, Approx. location, In-app search history 0.61% Analytics to improve this assistant Research & Analysis 2 Conversation keywords, Other user-generated content 0.54% VoxScript Communications 7 Data identifier, Other info, In-app search history 0.52% Get weather data Weather 1 Approximate location 0.47% ChatPrompt product info. API Prompt Engineering 4 Other info, Videos, Name, Other user-generated content 0.43% Relevance AI Tools Prompt Engineering 7 Files and docs, Videos Name, Approximate location 0.38% SerpApi Search Service Search Engines 8 Precise location, Languages, In-app search history, User IDs 0.27% Swagger Petstore Pets & Animals 2 User IDs, Settings or parameters 0.20%
+TABLE 6: Prevalent third-party Actions, along with their offered functionality, count of collected data types, example collected data types, and the proportion of GPTs that embed them.
+provides functionality to browse the web, with integration in 6.06% of GPTs. As part of its functionality, the Action gets access to user’s browsing history, among other user data. The second most prevalent functionality provided by third-party Actions is advertising and marketing, with AdIntelli [64] Action being embedded on 5.65% of the GPTs. AdIntelli collects the name and description of the GPT on which it is embedded, along with the keywords from the user’s chat history with the GPT. Additionally, as a function of being present on several GPTs, AdIntelli has potential to track user activities across several GPTs. We also note specialized Action, such as “Analytics to improve this assistant”, are embedded for collecting analytics related to the GPT usage, a practice currently not condoned by OpenAI [32] (as discussed earlier in Section 4.2). Similar to advertising and marketing Actions, analytics Actions collect data related to the user’s conversation. We also noticed that nearly 1.93% of GPTs embed an Action, named OpenAI Profile that connects to OpenAI’s APIs, including getting user information such as their phone number and email address. Since GPTs already have access to OpenAI’s LLM, while they are integrated in ChatGPT, they do not need to explicitly make API calls to OpenAI’s LLMs. Upon investigation, we found that OpenAI Profile was initially used as an example Action [65] in the GPT creation portal [47]. Get weather data and Swagger Petstore are two other such example actions, which are embedded in 0.47% and 0.20% of the GPTs, respectively. We surmise that many developers likely unintentionally add these example Actions to their GPTs. While the inclusion of such Actions may not necessarily cause any harm to users, it shows that many GPTs developers may be lay users and not experienced software developers. We also note that several GPTs embed super Actions, such as Zapier [58] and Gapier [66], which provide 10s of APIs for a variety of tasks, including engineering user prompts to get improved recommendations from ChatGPT. As a consequence, these Actions collect excessive amount of user data. The inclusion of super Actions may also degrade the LLM performance, as LLMs struggle with large
+webPilot
+Zapier
+Gapier
+Link Reader
+AdIntelli
+VoxScript
+Figure 5: Action connectivity graph across all GPTs. Nodes represent Actions and edges represent Action co-occurrence. The size of the node is proportional to its weighted degree and the color of edges represent its weight, such that the edges with higher weights are darker. Nodes with weighted degree greater than 15 are labeled with Action name.
+context [29]. Other prominent Actions functionalities include, web hosting, e-commerce and shopping, and search engines.
+5.3. Indirect data exposure
+Since Actions execute in shared memory space in GPTs, they have unrestrained access to each others data, which allows them to access it (and also potentially influence each others execution) [25], [17]. Thus, in this subsection, we analyze the indirect exposure of user data due to integration of multiple Actions in GPTs, given the lack of isolation in ChatGPT.
+5.3.1. Action co-occurrence across several GPTs, without proper isolation, enables indirect data exposure.
+8
+
+
+ As Actions are embedded in multiple GPTs, they are in a position to connect user data collected across multiple GPTs, in different contexts. This is a common practice on other computing platforms, such as the web, where specialized third-party services are embedded on websites that collect and connect users browsing history across several websites, often referred to as cross-site tracking [5], [60]. It is currently unknown if third-party services embedded on GPTs also engage in similar practices, but since the have the ability to do so, we measure the potential data sharing that can happen because of the presence of Actions across multiple GPTs. To that end, we create a graph to understand the potential information sharing relationships between different Actions. In our graph representation, nodes represent Actions and the edges represent their appearance in a GPT. Note that edges are undirected and weighted, such that the weight is incremented by one if the same Action pair co-occurs again in another GPT. Also, we make the size of a node, proportional to its weighted degree and use a color gradient to represent the edge weights, such that the darker color represents higher weight. Figure 5 represents the largest connected component in our graph representation. It can be seen from the figure that webPilot [63] and AdIntelli [64] Actions have the highest weighted degree in our graph, i.e., 93 and 29, respectively. Their non-weighted degrees are 63 (webPilot) and 12 (AdIntelli), which means that they co-appear with other Actions across several GPTs. In fact, we note that both webPilot and AdIntelli, co-occur in 13 GPTs. For webPilot, the other most frequent co-occurrences include Gapier [66] and Link Reader [67], with presence in 8 and 5 GPTs, respectively. Whereas for AdIntelli, the other most frequent co-occurrences include Gapier [66] and “Analytics to improve this assistant” [68], with presence in 9 and 3 GPTs, respectively. The presence of AdIntelli (an advertising service) with other “Analytics to improve this assistant” (an analytics/tracking service) seems to indicate that the LLM app ecosystem may be evolving similar to other app ecosystems, where advertising and analytics services are often loaded together, for the purposes of targeted advertising [5], [69]. We also note that many other co-occurrences of AdIntelli are with shopping and travel related Actions; businesses that often rely on third-party advertising and tracking services to reach their consumers. In sum, appearance in several GPTs along with other Actions, naturally enables an environment where Action can access each others data [25], [17]. We next quantify the potential indirect exposure of user data due to inclusion of multiple Actions in GPTs.
+5.3.2. Co-occurrence exposes Actions to as much as 9.5× more data than they were individually exposed. Next, we measure the increase in the exposure of data types to additional Actions, as a function of multiple Actions co-occurring in GPTs. Table 7 represents the increase in data exposure for different data types. On average, the data exposure increases for all data types by 2.3% at first degree
+Category Data type 1-Hop IE 2-Hop IE
+App activity
+Other user-gen. data 6.0% 6.5% Settings or parameters 7.0% 7.9% In-app search history 5.5% 6.4% Data identifier 6.4% 7.9% Other activities 5.2% 7.7% Time 4.6% 6.8% Reference information 3.7% 5.5% Installed apps 1.2% 5.2% Model name or version 1.6% 6.1% Reviews 1.4% 5.4% Command/prompt 2.2% 6.2%
+Personal info
+Other info 6.5% 6.9% Languages 4.6% 6.0% User IDs 6.9% 8.1% Name 4.0% 7.6% Email address 2.6% 6.0% Address 3.7% 6.6% Passwords 0.7% 0.7% Timezone 0.7% 5.1% Phone number 1.7% 5.6% Race and ethnicity 0.0% 0.0% Political/religious beliefs 0.0% 0.0%
+Web browsing Websites visits 3.6% 5.2%
+Location Approximate location 3.3% 6.7%
+Precise location 1.6% 6.2%
+Messages Other in-app messages 2.4% 5.9%
+Emails 1.1% 5.6%
+Financial info
+Other financial info 2.8% 6.9% Purchase history 0.3% 0.3% User payment info 0.3% 0.3%
+Files & docs Files and docs 2.7% 5.8%
+Photos & videos Videos 1.4% 5.2%
+Photos 0.4% 0.4%
+Calendar Calendar events 0.0% 0.0%
+App info & perf. Other app perf. data 0.4% 0.4%
+Health & fitness Health info 0.0% 0.0%
+Physical activity info 0.0% 0.0%
+Device/other IDs Device or other IDs 0.6% 5.4%
+Audio files
+Other audio files 0.0% 0.0% Voice or sound recordings 0.0% 0.0% Music files 0.0% 0.0%
+Contacts Contacts 0.2% 0.2%
+TABLE 7: Results of increase in data exposure due to the co-occurrence of Actions. 1-Hop IE and 2-Hop IE represent increase in indirect data exposure (IE) at the first and the second hop co-occurrences of Actions. The darker shades (of red) represent higher increase in exposure of respective data types.
+connections and by 4.3% at second degree connections. From the table, we note that user IDs and settings or parameters have the highest exposure across both the first and second degree co-occurrences. We next analyze increased exposure of data to the most prevalent co-occurring Actions. Table 8 represents the top-5 most co-occurring Actions. We note the because of the increased co-occurrence, Actions are exposed to significantly
+9
+
+
+ Action Occ. # DT # IE Additional data exposure examples
+webPilot 93 7 22 Address, Phone number, Email address, Approximate location, Precise location, Name, Emails, Installed apps AdIntelli 29 2 19 Web browsing history, Email address, Approximate location, Name, In-app search history, Emails, User IDs, Link Reader 27 7 14 In-app search history, Other financial info, Address, Phone number, Web browsing history, Email address, Name Zapier 26 5 20 Phone number, Web browsing history, Approximate location, In-app search history, Name, Emails, User IDs Gapier 25 12 6 User IDs, Installed apps, Other actions, Web browsing history, Reference Information, Name
+TABLE 8: Increased exposure of data to top-5 most co-occurring Actions. Occ. represents the number of co-occurrences of the respective Actions. # DT represents the number of data types that the Action originally collected. # IE represents the number of additional data types that are indirectly exposed to the Action because of co-occurring with other Actions.
+Privacy policy statistics % Actions
+Successfully crawled 86.68% Duplicates (hash count > 1) 38.56% Near-duplicates (Jaccard similarity > 95%) 5.50%
+TABLE 9: High-level statistics of privacy policies of Actions.
+Policy description % Actions
+Policy of embedded services (e.g., Github, Google) 33.5% Empty policy 27.0% Actions belonging to the same vendor 19.2% JS code for dynamic rendering of privacy policy 17.8% OpenAI’s Privacy Policy 5.3% 1x1 pixel 3.8%
+TABLE 10: Description of content inside duplicate privacy policies that are seen at least 4 times.
+more data than they were individually exposed. For some Actions, such as AdIntelli’s [64], the data exposure increases by as much as 9.5×. We also note that the Actions are exposed to sensitive user data, including PII, such as email addresses.
+Overall, we note that Actions are in a position to track users across GPTs and collect far more data than they would if they appeared alone or executed in isolation [25]. We also note that such lack of execution isolation is not unique to LLM-based systems, such as ChatGPT. Other ecosystems, such as the the web, continue to suffer from this problem, where the third-party code from several services execute in the same environment as the first-party code [70], [71]. However, LLM platforms have an opportunity to address this problem by-design, before their architecture becomes established and new solutions risk breaking compatibility.
+6. GPT privacy policy analysis
+In this section, we analyze whether GPTs and their Actions disclose their data collection practices in their privacy policies.
+6.1. Privacy policies overview and availability
+OpenAI mandates, individual third-party Actions embedded in GPTs, to provide privacy policies but does not require GPTs to provide a privacy policy that describes its data practices as a whole [21]. This approach deviates
+from the norm in other platforms, where the apps provide a privacy policy with information about their own practices, including information about third-party services that they embed. In OpenAI’s ecosystem, to understand data practices of GPTs, users need to read the privacy policies of all of their third-party Actions. Since the GPT interface does not disclose the Actions embedded in them, and given that Actions can dynamically embed other third-party Actions (Section 5.2.1), users may simply be unaware of the existence of these Actions in GPTs, let alone their data practices. For the purposes of analysis in this section, we analyze the privacy policy disclosures at the granularity of individual Actions. Table 9 presents high-level statistics about privacy policies. Overall, we were able to crawl privacy policies of 86.68% of Actions (among 2,596 distinct Actions). For the remaining 13.32% of the Actions, the privacy policies were inaccessible. We also note that nearly 39.56% of the polices appear more than once for distinct Actions and 5.50% of the policies are near duplicates of each other (i.e., have a Jaccard similarity [72] of more than 95%). We investigate these duplicates and near-duplicates, and provide our assessment in Table 10. We note that, the inclusion of privacy policy of the external third-party services (e.g., Github, Google) is the most common reason for duplicate policies (33.5%), followed by empty privacy policies (27.0%) and Actions belonging to the same vendor (19.2%). For near-duplicates, we find that all such Actions include a boilerplate privacy policy generated from freeprivacypolicy.com, with mostly the only change being the name of the Action. We also noted that for 12.45% of the Actions the privacy policies were less than 500 characters. We manually analyze these policies and find that they contain generic statements, such as “We do not collect any personal data from users of our Service.” and “Your data is never for sale.”. Nonetheless they still describe the data practices of the Actions, albeit being short, thus we still consider them in our analysis.
+6.2. Data disclosure analysis methodology
+Our goal with the privacy policy analysis is to assess whether they contain disclosures about the data collection practices of Actions. To that end, we build on the automatic privacy policy analysis by prior work [26], [27], [8], [28], and leverage the recent advances in natural language processing [73] to develop an LLM-based framework to check the consistency of data collection disclosures.
+10
+
+
+ Type Privacy policy text Data description in Action Consistent
+Clear For example, we collect information ..., and a timestamp
+for the request.
+End time of the query as unix timestamp.
+If only count is given, defaults to now. ✓
+Vauge
+User Data that includes data about how you use our website and any online services together with any data that you post for publication on our website or through other online services
+Script to be produced ✓
+Omitted We only collect user name and mailing address Email address of the user ✗
+Ambiguous
+We do not actively collect and store any personal data from users...We use Your Personal data to provide and improve the Service.
+Shopping category data ✗
+Incorrect "We do not collect our customer’s personal information
+or share it with unaffiliated third parties ..." User’s level of fitness ✗
+TABLE 11: Examples of each enumerated privacy policy consistency type. Privacy policy text shows data collection related statements from a privacy policy which may disclose the data collection, while data description in Action shows the specific instruction in the action that requests the respective data.
+Considering that LLMs are not always reliable and that their performance degrades with large context [29], we do not simply pass the large and complicated privacy policies to an LLM and probe it to measure the disclosures by GPTs. Instead, our framework takes a three step approach to analyze privacy policies. First, we tokenize the sentences in privacy policies [74] and pass individual sentences to an LLM to assess whether they pertain to data collection. Second, we pass (indexed) data collection statements to the LLM, so that it can build its context. Third, we pass the data items one-by-one to the LLM and ask it to provide its assessment about whether the data is disclosed in the passed sentences, as a two item tuple (i.e., <sentence index, disclosure type>). Overall, this process allows us to reliably associate the LLMs assessment about individual data types with individual sentences. We label the disclosures either as: clear: If the data type description exactly matches a collection statement, vague: If the data type description matches a collection statement in broader terms, omitted: If there is no collection statement corresponding to the data type description, ambiguous: If there are contradicting collection statements about a data type description, incorrect: If there is a data type description for which the collection statement states otherwise. We further group these labels as consistent (i.e., consisting of clear and vague) and inconsistent (i.e., omitted, ambiguous, and incorrect) data flows (similar to prior work [27], [8]). To enable the LLM to assign one of these labels, we provide it several examples of these cases in a prompt template [51]. We list some of these examples in Table 11. Since we assign multiple labels to each data type (per each data collection statement in the privacy policy), we next process the labels to assign it the most precise label, such that if consistent labels are present we prioritize them over inconsistent labels. We use the following precedence: clear, vague, ambiguous, incorrect, and omitted in determining the most precise label.
+6.2.1. Accuracy. Before running our framework at scale, we conduct a pilot study to evaluate its accuracy. For extraction
+of data collection statements, we manually analyze privacy polices of 10 Action and measure the coverage of our framework in correctly extracting data collection related statements. Specifically, we manually go through the privacy policies and extract statements which contain actionable verbs pertaining to data (e.g., collection) or mention specific data types. For the 10 privacy policies we analyze, we are able to extract all sentences related to data collection. For the assignment of data collection labels, we manually check 20 Actions with 84 data types. Specifically, we check if the label assigned by our framework to a data type description is correct by inspecting the relevant sentence. For example, for the clear label, we consider our tool’s detection to be a true positive: if the data type is detected by our tool and it is also clearly mentioned in the privacy policy, true negative: if the data type is not detected by the tool and also not clearly mentioned in the privacy policy, false positive: if the data type is detected by the tool as but not mentioned in the privacy policy, false negative: if the data type is not detected by the tool but mentioned in the privacy policy. Overall, we achieve an accuracy of 85.7% (with a recall of 89.2% and precision of 96.4%) in detecting the consistency of data types, on average across all disclosure types.
+6.3. Data disclosure analysis results
+Next, we use our framework to check the consistency of data collection with the disclosures in Action’s privacy polcies.
+6.3.1. Disclosures for most data types are omitted. Figure 6 represents the data disclosures consistency across all Actions. It can be seen from the figure that disclosures are omitted for most of the data types. We also note that for some data types, such as the collection of purchase history, user payment info, race and ethnicity, and installed apps, there are no disclosures. For example, Moon Wallet [75] Action provides crypto trading services and collects an whopping 108 data items, including user’s payment and financial information but in its privacy policy does not list
+11
+
+
+ Clear Vague Incorrect Ambiguous Omitted Other user-gen. data Settings or parameters In-app search history Data identifier Other activities Time Reference information Installed apps Model name or version Reviews Command/prompt Other info Languages User IDs Name Email address Address Passwords Timezone Phone number Race and ethnicity Political/religious beliefs Websites visits Approximate location Precise location Other in-app messages Emails Other financial info Purchase history User payment info Files and docs Videos Photos Calendar events Other app perf. data Health info Physical activity info Device or other IDs Other audio files Voice or sound recordings Music files Contacts
+10.0 8.0 3.0 0.2 78.7 3.9 2.6 1.9 91.7 10.1 10.8 5.7 73.4 2.4 1.1 3.8 0.3 92.4 0.9 2.7 0.9 95.6 4.0 3.8 4.3 0.2 87.7 6.1 3.0 90.9 100 4.2 2.1 2.1 91.7 7.1 92.9 1.5 1.5 97.0 3.9 3.3 3.8 89.0 5 3.6 2.9 88.6 7.4 5.1 7.9 79.7 37.4 13.7 7.0 41.9 48.3 8.5 5.1 38.1 17.8 3.0 4.4 74.8 12.5 4.2 83.3 4.5 95.5 27.3 9.1 9.1 54.5 100 100 12.0 15.2 8.7 64.1 15.3 18.8 9.1 0.7 56.1 18.9 8.4 8.4 64.2 10.3 33.3 10.3 46.2 17.2 17.2 10.3 55.2 11.5 1.8 5.5 81.2 100 100 23.1 8.7 1.0 67.3 11.1 88.9 28.6 7.1 64.3 11.1 33.3 55.6 6.2 6.2 87.5 4 96
+60 10 30 14.3 85.7 100 100 14.3 14.3 71.4
+20 40 60 80 100
+Figure 6: Heat map of data disclosure consistency for Actions in their privacy policies. The values represent the fraction of data for each type of disclosure, where the darker shades (of red) represent higher values. Empty cells represent the lack of respective disclosures for the respective data types.
+any of this information. Upon inspection, we find that the Action uses a boilerplate privacy policy template and does not even fills in the name of the Action in the text and leaves it as: [[“website” or “app”]] [76].
+Among the omitted disclosures, device or other IDs collection are the least omitted, followed by the email address, and name. In fact, these data types are also the most clearly defined disclosures in privacy polcies. For example, we note that the Document Wizard [77], clearly describes in its privacy policy that it: “may collect personal information from you when you voluntarily provide it. For example we collect your email address when you request us to send you an email with your document” [78].
+Description Clear Vague Total
+OpenAPI definition 0 20 20 Show Me 0 10 10 Mortgage Calculator API 8 0 8 Sapientor API 6 0 6 Lowe’s Product Search 0 5 5 MixerBox OnePlayer Music Plugin 3 2 5
+TABLE 12: Action that collect more than five data types with consistent data closures in privacy policies.
+Overall, the omission of disclosures is not unique to LLM apps as prior research on other platforms, such as the VR app ecosystem, found that the disclosures about the collection of most data were omitted in privacy policies [8].
+0 10 20 30 40 50 60 70 80 90 100 Fraction of data types
+0.00
+0.25
+0.50
+0.75
+1.00
+Fraction of Actions
+Ambiguous
+Clear
+Vague
+Incorrect
+Omitted
+Figure 7: Distribution of clear, vague, ambiguous, incorrect, and omitted data collection disclosures for Actions in their respective privacy policies.
+6.3.2. Nearly half of the Actions clearly disclose more than half of their data collection. Next, we investigate whether Actions at least clearly disclose some of their data collection. Figure 7, presents the CDF of clear, vague, ambiguous, incorrect, and omitted data collection disclosures for Actions in their respective privacy policies. It can be seen from the figure that for almost half of the Actions the data collection disclosures are consistent with their privacy policies for more than half of their data collection. We also note that for nearly all Actions, at least 10% of their data collection practices are inconsistent with their disclosures.
+0 20 40 60 80 100 120 Number of data types
+0
+25
+50
+75
+100
+Consistency
+Trend line
+Figure 8: Fraction of consistent data disclosures (i.e., clear and vague) over all data disclosures along with the number of collected data types by Actions. The blue line represents the underlying trend, by fitting the data points to a polynomial [79].
+12
+
+
+ 6.3.3. Data disclosure consistency decreases as more data is collected, however, this correlation is not strong. We investigate, whether the the consistency of disclosures decreases as Actions collect more data. Figure 8 plots the fraction of consistent data disclosures (i.e., clear and vague) over all data disclosures along with the number of collected data types by Actions. We note that as the number of collected data types increase, the consistency of disclosures decreases, however, the correlation between the two is not strong (i.e., Spearman’s correlation coefficient between the two is 0.13) [80]. We also find that the data collection of only 5.8% of Actions is consistent with their disclosures. We represent these Actions, with more five or more clear disclosures, in Table 12. Among these Action, Mortgage Calculator [81] and Sapientor [82] clearly disclose all of their data collection practices. In the case of Sapiento, it collects information such as the user authentication token and the content provided by the user, and clearly mentions these with the exact names in its privacy policy. In the case of Mortgage Calculator, it collects loan amount and value of the home, among other similar data types, and mentions in its privacy policy that it collects financial information.
+7. Discussion
+Parallels with other emerging app ecosystems. As compared to other ecosystems, such as the VR, Smart TVs, and Smart Speakers [83], [84], [7], [8], OpenAI’s GPTs and their Action are collecting expansive and excessive amount of data. While this data collection is enabling a wide variety of use cases, at the same time it is posing serious risks to user privacy. Considering the rapid growth of the GPT ecosystem, with millions of GPTs already hosted on the OpenAI GPT store [24], it is crucial that GPTs and their Actions are carefully reviewed by the vendors; which currently does not seem to be the case [16], [17], [18], in fact, GPTs may not even be reviewed at all [15]. We also note that the LLMs provide vendors a unique opportunity to improve the privacy posture of LLM-based apps. For example, currently OpenAI provides an interface for developers to create GPTs using an LLM, the same LLM could also assist the GPTs in drafting their privacy polices to accurately represent their data collection practices. Furthermore, LLMs could be used to monitor the user’s interaction with GPTs to provide recommendations to developers to improve disclosures in their privacy policies and also to users about whether the data to be collected is disclosed by the GPT (and its Actions) and for what purposes it will be used.
+Privacy and security as key considerations in the design of LLM platforms. We see that LLM apps are going through a rapid transformation from providing simple instructions through a prompt, to adding 10s of third-party libraries (Actions) to support complicated use cases (Section 4.3). This transformation has parallels with the web ecosystem, where the websites also evolved from simple
+HTML web pages to complicated web applications. As a consequence, the web ecosystem suffers from serious privacy issues, with browser vendors and researchers still continuously developing ad-hoc solutions to mitigate these concerns [49], [85], [71].
+Similar to these mature platforms, OpenAI is also continuously revising its polices to catch up with the rapid growth of the its app ecosystems [13], [14], [15]. However, as our measurements indicate, these efforts may not be sufficient. For example, as we note in Section 5.1.2, OpenAI requires GPTs to comply with applicable legal requirements while collecting personal user data [14], [15], but does not provide GPTs sufficient controls that they can offer to users so that users can exercise their rights. Similarly, OpenAI currently does not isolate the execution of Actions, which leads to the indirect exposure of data between Actions embed in a GPT(Section 5.3).
+Since LLM app ecosystem are still nascent, there is an opportunity to improve their design from the outset, instead of (and in addition to) piecemeal iterative improvements. In fact, OpenAI has already gone through one major overhaul of its app ecosystem, from retiring plugins in favor of GPTs with Actions [86]. However, this re-haul seems to be mostly geared towards improving the functionality of LLM apps. For a secure platform, we argue that security and privacy should also be given similar attention. For example, LLM app ecosystems could implement design interfaces for multiple Actions to securely collaborate with each other inside a GPT [25]. Similarly, in addition to proposing policies, e.g., for complying with legal requirements, platforms should also develop controls so that they can be used to enforce respective policies.
+8. Conclusion
+In this paper we conducted an in-depth investigation of OpenAI’s GPTs. We crawled a total of 119,274 GPTs and 2,596 unique Actions (custom tools), from third-party and the OpenAI’s official app store, over four months. We found that the number of GPTs has been steadily growing with many GPTs getting removed because of potentially violating OpenAI’s polcies. We also found that 82.9% of Actions included in GPTs were from external third-party services. We developed an LLM-based framework to conduct the static analysis of natural language-based source code of GPTs and their Actions to characterize their data collection practices. Our findings indicated that Actions collect expansive data about users, including sensitive information prohibited by OpenAI, such as passwords. To automatically check the consistency of data collection by Actions with disclosures in privacy policies, we developed an LLM-based privacy policy analysis framework. Our measurements indicated that the disclosures for most of the collected data types were omitted in privacy policies, with only 5.8% of Actions clearly disclosing their data collection practices.
+13
+
+
+ Acknowledgements
+The authors would like to thank Camila Garcia-Novelli, Donggyu (DK) Kim, Bob Xiao, and Yerrin Kang who contributed to the preliminary investigation of this work. This work is supported by the Washington University in St. Louis.
+References
+[1] OpenAI, “Introducing chatgpt.” https://openai.com/blog/chatgpt, 2022.
+[2] Google, “Google gemini.” https://gemini.google.com/, 2023.
+[3] OpenAI, “Introducing gpts.” https://openai.com/blog/introducing-gpt s, 2024.
+[4] TechCrunch, “Google launches a smarter bard.” https://techcrunch.c om/2023/05/10/google-launches-a-smarter-bard/, 2023.
+[5] S. Englehardt and A. Narayanan, “Online tracking: A 1-million-site measurement and analysis,” 2023.
+[6] A. Razaghpanah, R. Nithyanand, N. Vallina-Rodriguez, S. Sundaresan, M. Allman, C. Kreibich, P. Gill, et al., “Apps, trackers, privacy, and regulators: A global study of the mobile tracking ecosystem,” in The 25th Annual Network and Distributed System Security Symposium (NDSS 2018), 2018.
+[7] U. Iqbal, P. N. Bahrami, R. Trimananda, H. Cui, A. Gamero-Garrido, D. Dubois, D. Choffnes, A. Markopoulou, F. Roesner, and Z. Shafiq, “Tracking, profiling, and ad targeting in the alexa echo smart speaker ecosystem,” in ACM Internet Measurement Conference (IMC), 2023.
+[8] R. Trimananda, H. Le, H. Cui, J. T. Ho, A. Shuba, and A. Markopoulou, “{OVRseen}: Auditing network traffic and privacy policies in oculus {VR},” in 31st USENIX security symposium (USENIX security 22), pp. 3789–3806, 2022.
+[9] R. Staab, M. Vero, M. Balunovic, and M. Vechev, “Beyond memorization: Violating privacy via inference with large language models,” in The Twelfth International Conference on Learning Representations, 2024.
+[10] Z. Tan and M. Jiang, “User modeling in the era of large language models: Current research and future directions,” 2023.
+[11] “Chatgpt plugins: Data exfiltration via images & cross plugin request forgery.” https://embracethered.com/blog/posts/2023/chatgpt-webpilo t-data-exfil-via-markdown-injection/, 2023.
+[12] OpenAI, “Memory and new controls for chatgpt,” 2024.
+[13] OpenAI, “Actions in production.” https://platform.openai.com/docs/a ctions/production, 2023.
+[14] OpenAI, “Usage policies.” https://openai.com/policies/usage-policies, 2024.
+[15] OpenAI, “Plugins and actions terms.” https://openai.com/policies/pl ugin-terms/, 2023.
+[16] J. Rehberger, “Plugin vulnerabilities: Visit a website and have your source code stolen.” https://embracethered.com/blog/posts/2023/chat gpt-plugin-vulns-chat-with-code/, 2023.
+[17] U. Iqbal, T. Kohno, and F. Roesner, “LLM platform security: Applying a systematic evaluation framework to openai’s chatgpt plugins,” 2023.
+[18] M. Burgess, “Chatgpt has a plug-in problem.” https://www.wired.co m/story/chatgpt-plugins-security-privacy-risk/, 2023.
+[19] u/AwkwardAsHell, “This is scary! posting stuff by itself. - reddit.” https://www.reddit.com/r/OpenAI/comments/146xl6u/comment/jqt6e zb/, 2023.
+[20] OpenAI, “Getting started.” https://platform.openai.com/docs/actions /getting-started, 2023.
+[21] “Actions in gpts.” https://platform.openai.com/docs/actions/introduct ion, 2023.
+[22] OpenAI, “Getting started with actions.” https://platform.openai.com/ docs/actions/getting-started, 2024. Accessed: 2024-06-07.
+[23] OpenAI, “Can i charge people money for my plugin?.” https://comm unity.openai.com/t/exploring-ways-to-monetize-free-chatgpt-plugins /331899, 2023.
+[24] “Introducing the gpt store.” https://openai.com/blog/introducing-the -gpt-store, 2024.
+[25] Y. Wu, F. Roesner, T. Kohno, N. Zhang, and U. Iqbal, “Secgpt: An execution isolation architecture for llm-based systems,” arXiv preprint arXiv:2403.04960, 2024.
+[26] H. Harkous, K. Fawaz, R. Lebret, F. Schaub, K. G. Shin, and K. Aberer, “Polisis: Automated analysis and presentation of privacy policies using deep learning,” 2018.
+[27] B. Andow, S. Y. Mahmud, J. Whitaker, W. Enck, B. Reaves, K. Singh, and S. Egelman, “Actions speak louder than words: Entity-Sensitive privacy policy and data flow analysis with PoliCheck,” in 29th USENIX Security Symposium (USENIX Security 20), pp. 985–1002, USENIX Association, Aug. 2020.
+[28] H. Cui, R. Trimananda, A. Markopoulou, and S. Jordan, “PoliGraph: Automated privacy policy analysis using knowledge graphs,” in 32nd USENIX Security Symposium (USENIX Security 23), (Anaheim, CA), pp. 1037–1054, USENIX Association, Aug. 2023.
+[29] T. Li, G. Zhang, Q. D. Do, X. Yue, and W. Chen, “Longcontext llms struggle with long in-context learning,” arXiv preprint arXiv:2404.02060, 2024.
+[30] OpenAI, “Creating a gpt - openai,” 2023.
+[31] OpenAI, “Memory and new controls for chatgpt.” https://openai.com /index/memory-and-new-controls-for-chatgpt/.
+[32] OpenAI, “Getting started.” https://help.openai.com/en/articles/8554 402-gpts-data-privacy-faqs, 2023.
+[33] OpenAI, “Data controls faq.” https://help.openai.com/en/articles/77 30893-data-controls-faq, 2023.
+[34] Reddit, “There are already 51 unofficial gpt stores being discovered,” 2024.
+[35] O. Forum, “Is there a definitive list of all gpts on the store?,” 2023.
+[36] S. F. Conservancy, “Selenium,” 2024.
+[37] AskYourCode, “Askyourcode api.” https://web.archive.org/web/2024 0419200933/https://askyourcode.ai/, 2024.
+[38] O. Forum, “Why was my custom gpt de-listed - openai forum.” https: //community.openai.com/t/why-was-my-customgpt-de-listed/584676 /39, 2024.
+[39] O. Forum, “Webgpt de-listed for the fifth time in a row - openai forum.” https://community.openai.com/t/webgpt-de-listed-for-the-fif th-time-now-open-sourced/742129/5, 2024.
+[40] J. Olin, “Openai’s brand-new gpt-4o tested against recently removed webgpt.” https://www.youtube.com/watch?v=NaIpCo1M430, 2024.
+[41] OpenAI, “Can i charge people money for my plugin?.” https://platfo rm.openai.com/docs/plugins/production/can- i- charge- people- money -for-my-plugin, 2023.
+[42] O. D. Forum, “Community discussion: Can i charge people money for my plugin?.” https://community.openai.com/t/plugin-monetizatio n- with- no- code- stop- bleeding- charge- your- users- instead/268640/5, 2023.
+[43] A. Rees, “Youtube ceo warns openai training models on its videos is against the rules.” https://readwrite.com/youtube-ceo-underlines-tra ining-ai-models-on-its-videos-is-against-the-rules/, 2024.
+[44] Breebs, “Sutrakama - breebs,” 2023.
+[45] C. Brilliantes, “Cryptocipherai gpt,” 2023.
+14
+
+
+ [46] I. Bjorklund, “Cryptocipherai gpt,” 2023.
+[47] OpenAI, “Gpt editor.” https://chatgpt.com/gpts/editor, 2024.
+[48] K. Greshake, S. Abdelnabi, S. Mishra, C. Endres, T. Holz, and M. Fritz, “Not what you’ve signed up for: Compromising real-world llm-integrated applications with indirect prompt injection,” arXiv preprint arXiv:2302.12173, 2023.
+[49] A. Inc., “Webkit tracking prevention policy.” https://webkit.org/track ing-prevention-policy/, 2024.
+[50] A. Lerner, A. K. Simpson, T. Kohno, and F. Roesner, “Internet jones and the raiders of the lost trackers: An archaeological study of web tracking from 1996 to 2016,” in 25th USENIX Security Symposium (USENIX Security 16), 2016.
+[51] H. Chase, “Prompts - langchain docs,” 2024.
+[52] “Provide information for google play’s data safety section.” https: //support.google.com/googleplay/android- developer/answer/107874 69?hl=en, 2024.
+[53] N. Carlini, F. Tramer, E. Wallace, M. Jagielski, A. Herbert-Voss, K. Lee, A. Roberts, T. Brown, D. Song, U. Erlingsson, et al., “Extracting training data from large language models,” in 30th USENIX Security Symposium (USENIX Security 21), pp. 2633–2650, 2021.
+[54] N. Lukas, A. Salem, R. Sim, S. Tople, L. Wutschitz, and S. ZanellaBéguelin, “Analyzing leakage of personally identifiable information in language models,” in 2023 IEEE Symposium on Security and Privacy (SP), pp. 346–363, IEEE, 2023.
+[55] “Regulation (eu) 2016/679 of the european parliament and of the council of 27 april 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing directive 95/46/ec (general data protection regulation).” https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng, 2016.
+[56] “California consumer privacy act.” https://leginfo.legislature.ca.gov/f aces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV &title=1.81.5, 2018.
+[57] Z. Liu, U. Iqbal, and N. Saxena, “Opted out, yet tracked: Are regulations enough to protect your privacy?,” in Privacy Enhancing Technologies Symposium (PETS), 2024.
+[58] “Create custom versions of chatgpt with gpts and zapier.” https://ga pier.com/, 2024.
+[59] “Ai revenue ops.” https://www.justpaid.io/, 2024.
+[60] P. Papadopoulos, N. Kourtellis, and E. P. Markatos, “Cookie synchronization: Everything you always wanted to know but were afraid to ask,” in The Web Conference (WWW), 2019.
+[61] Google, “Improve extension security.” https://developer.chrome.com /docs/extensions/develop/migrate/improve-security, 2018.
+[62] Google, “Trustworthy chrome extensions.” https://blog.chromium.or g/2018/10/trustworthy-chrome-extensions-by-default.html, 2023.
+[63] “Webpilot.” https://www.webpilot.ai/home?lang=en-US, 2024.
+[64] “Adintelli.” https://adintelli.ai/, 2024.
+[65] “Gpts example action:”openai profile” failing on chat completion endpoint.” https://community.openai.com/t/gpts-example-action-ope nai-profile-failing-on-chat-completion-endpoint/495052, 2023.
+[66] “Create custom versions of chatgpt with gpts and zapier.” https://za pier.com/blog/gpt-assistant/, 2023.
+[67] “Linkreader - chatgpt.” https://chatgpt.com/g/g-Hdq2AC858, 2023.
+[68] “Google gemini custom gpt.” https://gptstore.ai/gpts/CB7_BxAKsf-g oo-gle-gemini-ai, 2024.
+[69] U. Iqbal, C. Wolfe, C. Nguyen, S. Englehardt, and Z. Shafiq, “Khaleesi: Breaker of advertising and tracking request chains,” in 31st USENIX Security Symposium (USENIX Security 22), pp. 29112928, 2022.
+[70] S. Munir, S. Siby, U. Iqbal, S. Englehardt, Z. Shafiq, and C. Troncoso, “Cookiegraph: Understanding and detecting first-party tracking cookies,” in Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security, pp. 3490–3504, 2023.
+[71] S. Munir, P. Lee, U. Iqbal, Z. Shafiq, and S. Siby, “Purl: Safe and effective sanitization of link decoration,” in USENIX Security Symposium, 2024.
+[72] “Mining of massive datasets.” http://infolab.stanford.edu/~ullman/ mmds/ch3.pdf, 2011.
+[73] B. et. al, “Sparks of artificial general intelligence: Early experiments with gpt-4,” 2023.
+[74] NLTK, “Nltk tokenization.” https://www.nltk.org/api/nltk.tokenize.h tml.
+[75] MoonAI, “Moon | modular full-stack api for web3 builders.” https: //usemoon.ai, 2024.
+[76] A. Gareginyan, “privacy-policy.txt.” https://raw.githubusercontent.co m/ArthurGareginyan/privacy- policy- template/master/privacy- policy. txt, 2024.
+[77] T. Digital, “Document wizard.” https://document-wizard.com/, 2024.
+[78] T. Digital, “Document wizard - privacy policy.” https://document-w izard.com/privacy-policy, 2024.
+[79] N. Developers, “numpy.polyfit - numpy v1.26 manual.” https://nump y.org/doc/stable/reference/generated/numpy.polyfit.html, 2024.
+[80] P. Schober, C. Boer, and L. A. Schwarte, “Correlation coefficients: appropriate use and interpretation,” Anesthesia & analgesia, vol. 126, no. 5, pp. 1763–1768, 2018.
+[81] M. S. Elola, “Chatgpt - mortgage calculator.” https://chatgpt.com/g/ g-NIGpQi8Rc, 2024.
+[82] Sapientor.net, “Chatgpt - knowledge base gpt.” https://chatgpt.com/ g/g-rGJvqSptw, 2024.
+[83] J. Varmarken, H. Le, A. Shuba, A. Markopoulou, and Z. Shafiq, “The tv is smart and full of trackers: Measuring smart tv advertising and tracking,” Proceedings on Privacy Enhancing Technologies, 2020.
+[84] H. Mohajeri Moghaddam, G. Acar, B. Burgess, A. Mathur, D. Y. Huang, N. Feamster, E. W. Felten, P. Mittal, and A. Narayanan, “Watching you watch: The tracking ecosystem of over-the-top tv streaming devices,” in Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security, CCS ’19, (New York, NY, USA), p. 131–147, Association for Computing Machinery, 2019.
+[85] Google, “Google privacy sandbox.” https://privacysandbox.com.
+[86] OpenAI, “New models and developer products announced at devday.”
+[87] Swagger Group, “Openapi spec 3.1.0,” 2024.
+Appendix A. Sample of a GPT and Action Manifest
+Listing 1 describes a simplified representation of a Custom GPT from our dataset that aims to help a user with writing code. As shown in the listing, the display field contains information about the GPT submitted by the author; this includes a name, description, and suggested prompts for interacting with the GPT. Additionally, gizmos contain a tags field which tags GPTs with important attributes about the GPT. In our dataset, we observe that OpenAI has used these tags to identify GPTs: (first_party, public, private, reportable, unreviewable, and uses_function_calls). For each of the tags, we
+15
+
+
+ inspect GPTs tagged with them these and hypothesize their purpose below:
+1) first_party - GPTs that are published by OpenAI 2) reportable - GPTs that can be reported to OpenAI for violating its policies 3) unreviewable - GPTs that cannot have reviews submitted to them (in our dataset, this attribute was only found on GPTs tagged first_party) 4) public - GPTs that are publicly published. From testing, this also includes unlisted GPTs that are set as "Anyone with the link can chat with" 5) private - GPTs that are set to private and therefore only visible to the author. This was only identified in GPTs our account published, as we would be unable to crawl any GPTs with these tags that aren’t published by us. 6) uses_function_calls - GPTs that contain Actions. We believe the usage of the term function calls references that OpenAI may internally implements Actions using the function calling mechanism in the GPT API.
+Also included is the id field which is a unique 10character alphanumeric shortcode that identifies the GPT and is used as the shortlink to access the GPT. The tools field contains an array of JSON objects, where each object is a tool with a field called type that indicates what kind of tool is enabled (ex. DALL-E, code interpreter, etc.) THe exception to this rule are Actions, which also contain a metadata field which includes important information about the Action like its privacy policy, domain used, security methods, and OpenAPI specification. Listing 2 shows an expanded view of the OpenAPI specification used in the Code Copilot GPT. This action uses a third-party RESTful API to fetch the raw HTML contents of webpages, likely to help the GPT with retrieving information. The composition of an OpenAPI specification can differ, but as a standard rule, OpenAPI specifications contain at least a servers, info, paths, and OpenAPI field which respectively denote the URLs hosting the API, an overview of the specification, the endpoint locations, and version of the OpenAPI specification used [87]. OpenAPI specifications can contain additional fields, but these are either not relevant to this discussion or could be similarly implemented with the fields described above.
+Lastly, there is a files field which indicates if any files have been uploaded. One file is uploaded in this example, but we are only able to see the MIME-type and an id that is specific to the GPT (therefore we cannot use it like a hash to identify file reuse).
+1{ 2 "gizmo" : { 3 " i d " : " g −2DQzU5UZl " , 4 "author" : { 5 " d i s p l a y _ n a m e " : " p r o m p t s p e l l s m i t h . com " , 6 }, 7 "display": { 8 "name" : " Code C o p i l o t " , 9 " d e s c r i p t i o n " : "Code Smarter , Build F a s t e r With the Expertise of a 10x Programmer by Your Side . " , 10 " p r o m p t _ s t a r t e r s " : [ 11 " / s t a r t P y t h o n " , 12 ] 13 } , 14 " c a t e g o r i e s " : [ " programming " ] 15 " t a g s " : [ 16 " p u b l i c " , " r e p o r t a b l e " , " u s e s _ f u n c t i o n _ c a l l s " 17 ] , 18 } , 19 " t o o l s " : [ 20 { 21 " t y p e " : " c o d e \ _ i n t e r p r e t e r " , 22 } , 23 { 24 " i d " : " Ah9L5AnQ78HgjZQXJqkZdisL " , 25 " t y p e " : " a c t i o n " 26 " j s o n \ _ s p e c " : { s e e l i s t i n g 2 } 27 } , 28 { 29 " t y p e " : " b r o w s e r " , 30 } 31 ] , 32 " f i l e s " : [ 33 { 34 " i d " : " 12 fArMjcPuhUggnDTkCPuQcy " , 35 " t y p e " : " t e x t / markdown " , 36 } 37 ] 38 }
+Listing 1: A simplified representation of Code Copilot A custom GPT intended to help users with writing code utilizing many capabilities of a custom GPT on OpenAI’s platform including uploaded files, web browsing, actions, and code interpreter.
+1{ 2 "openapi" : " 3.1.0" , 3 "info" : { 4 " t i t l e " : " Read web page c o n t e n t " , 5 " d e s c r i p t i o n " : " P a s s l i n k s / URLs , r e t r i e v e c l e a n e d web page c o n t e n t c o n v e r t e d t o markdown f o r m a t , p r o c e s s i n g up t o 6 URLs per request ." , 6 "version" : " 0.0.2" 7 }, 8 "servers": [ 9{ 10 " u r l " : " h t t p s : / / r . 1 lm . i o " , 11 " d e s c r i p t i o n " : "Web Page R e a d e r p r o d u c t i o n API . " 12 } 13 ] , 14 " p a t h s " : { 15 " / " : { 16 " p o s t " : { 17 " t a g s " : [ 18 " R e a d P a g e s " 19 ] ,
+16
+
+
+ 20 " summary " : " R e t r i e v e c l e a n e d web p a g e c o n t e n t , p r o c e s s i n g up t o 6 URLs p e r request ." , 21 " x− o p e n a i − i s C o n s e q u e n t i a l " : f a l s e , 22 " r e q u e s t B o d y " : { 23 " c o n t e n t " : { 24 " a p p l i c a t i o n / j s o n " : { 25 " schema " : { 26 " t y p e " : " o b j e c t " , 27 " p r o p e r t i e s " : { 28 " u r l s " : { 29 " t y p e " : " a r r a y " , 30 " i t e m s " : { 31 " t y p e " : " s t r i n g " , 32 " d e s c r i p t i o n " : " The raw URL o f t h e web page t o f e t c h . I f more t h a n 6 URLs a r e s u b m i t t e d , o n l y t h e f i r s t 6 will be processed ." , 33 " e x a m p l e " : " h t t p : / / d o c s . j i n a . a i / " 34 } , 35 " d e s c r i p t i o n " : " The raw URL o f t h e web page t o f e t c h . I f more t h a n 6 URLs a r e s u b m i t t e d , o n l y t h e f i r s t 6 will be processed ." 36 } 37 } 38 } 39 } 40 } 41 } , 42 " r e s p o n s e s " : { 43 " 200 " : { 44 " d e s c r i p t i o n " : " R e t u r n s an a r r a y o f o b j e c t s each c o n t a i n i n g the markdown p r e v i e w URL, s r c URL, and c o n t e n t o f t h e web page i n markdown or an e r r o r message if the fetch f a i l s ." , 45 } 46 } 47 } 48 } 49 } 50 }
+Listing 2: An expanded OpenAPI specification for Code Copilot’s Action which specifies a third-party API that fetches the contents of URLs in addition to OpenAI’s builtin web browser. (obtained from OpenAI’s plugin store on 5/3/2024).
+Appendix B. GPT data taxonomy
+Table 13 represents the detailed description of data taxonomy used to assign succinct data types to natural language data collection descriptions of API endpoints in Section 3.
+17
+
+
+ Category Data type Description
+App activity
+Other user-generated data
+Any other content you generated that is not listed here, or in any other section. For example, bios, notes, or open-ended responses. This includes all forms of uncategorized text that are part of user interactions or settings within an app. App interactions Information about how you interact with the app. For example, the number of times you
+visit a page or sections you tap on. Settings or parameters User-defined settings or parameters for using apps, such as user settings for visual customization,
+technical settings, and user-defined app parameters: ’weather parameters’. In-app search history Information about what you have searched for in the app, including search queries, prefixes
+used in search operations, and the values of the last users’ answers/ Data identifier Any identifiers used for accessing specific data or events within apps. Other activities Any other activity or actions in-app not listed here, such as gameplay, likes, and dialog options. Time Time specified by users when using apps. Reference Information Information sourced from the Internet or other external resources to support apps. Installed apps Information about the apps installed on the device. Model name or version Information about models used by users or apps. Reviews User reviews or feedback messages for apps. Commands/prompts Any commands, instructions, or prompts specified by users.
+Personal info
+Other info Any other personal information such as date of birth, gender identity, veteran status,
+preferred language settings, etc. Languages Preferred language settings used by users. User IDs Identifiers that relate to an identifiable person. For example, an account ID, account number,
+or account name. Name How the users refers to themself, such as their first or last name, or nickname. Email address User’s email address. Address User’s address, such as a mailing or home address. Passwords User passwords used to access apps. Timezone Users’ preferred or devices’ timezone settings. Phone number User’s phone number. Race and ethnicity Information about the user’s race or ethnicity. Political or religious beliefs Information about the user’s political or religious beliefs. Sexual orientation Information about the user’s sexual orientation. Web browsing Website visits Information about the websites you have visited. Location Approximate location The user’s or user device’s physical location to an area greater than or equal to 3 square kilometers,
+such as the city you are in or the county for which data is requested. Precise location The user’s or user device’s physical location within an area less than 3 square kilometers.
+Messages
+Other in-app messages Any other types of messages. For example, instant messages or chat content. SMS or MMS The text messages of the user, including the sender, recipients, and the content of the message. Emails Emails of the user, including the email subject line, sender, recipients, and the content of the email.
+Financial info
+Other financial info Any other financial information, such as the user’s salary or debts. User payment info Information about the user’s financial accounts, such as credit card number. Purchase history Information about purchases or transactions you have made. Credit score Information about the user’s credit. For example, a credit history or credit score. Files & docs Files and docs The user’s files, documents, or information about their files or documents, such as file names. Photos and videos Videos The user’s videos.
+Photos The user’s photos. Calendar Calendar events Information from the user’s calendar, such as events, event notes, and attendees.
+App info & perf.
+Other app performance data Any other app performance data not listed here. Crash logs Crash data from the app. For example, the number of times the app has crashed on the device
+or other information directly related to a crash. Diagnostics Information about the performance of the app on the device. For example, battery life, loading
+time, latency, framerate, or any technical diagnostics. Health and fitness Health info Information about the user’s health, such as medical records or symptoms.
+Fitness info Information about the user’s fitness, such as exercise or other physical activity. Device or other IDs Device/other IDs Identifiers that relate to an individual device, browser, or app. For example, an IMEI number,
+MAC address, Widevine Device ID, Firebase installation ID, or advertising identifier.
+Audio files
+Voice or sound recordings The user’s voice, such as a voicemail or a sound recording. Music files The user’s music files. Other audio files Any other audio files you created or provided. Contacts Contacts Information about the user’s contacts, such as contact names, message history, and social graph
+information like usernames, contact recency, contact frequency, interaction duration, and call history.
+TABLE 13: Detailed description of data taxonomy used to assign succinct data types to natural language data collection descriptions of API endpoints in Section 3.
+18

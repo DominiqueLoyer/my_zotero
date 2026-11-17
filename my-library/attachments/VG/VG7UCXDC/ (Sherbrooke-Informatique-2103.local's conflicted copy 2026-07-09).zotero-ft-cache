@@ -1,0 +1,41 @@
+DIC9150 Automne 2024
+Réseaux Bayésiens Exercices
+Pour ces exercices, nous allons utiliser l’outil TETRAD, en fait la version la plus récente de tetrad-gui-X.X.X-launch.jar.
+Nous n’allons qu’explorer les fonctionnalités de base de l’outil. Pour aller plus loin, il est possible de consulter la documentation disponible à github.com/cmu-phil/tetrad, et encore les vidéos du CCD Summer Short Course 2016, June 13-18, 2016, Carnegie Mellon University, Pittsburg à Vidéos.
+Notre objectif cette semaine est de réaliser, avec l’outil, les tâches suivantes.
+— Définir un réseau Bayésien.
+— Faire générer des données pseudo-aléatoires à partir de ce réseau.
+— Se servir de ces données pour générer (à partir des fréquences) un réseau Bayésien et le comparer au réseau original.
+1. Étapes pour définir le réseau Bayésien.
+(a) On définit tout d’abord le graphe de la façon suivante.
+i. Déposez un Graph dans le canevas, double-cliquez et définissez-le comme un graphe orienté acyclique. Un panneau s’ouvre pour définir le graphe.
+ii. Le second bouton permet d’ajouter des noeuds (non-latents) et le dernier des arcs. Reproduisez le graphe suivant. Il suffit de double-cliquer sur un noeud pour en changer le nom.
+— P l : Il pleut,
+— An : on annonce de la pluie,
+— P a : j’ai un parapluie avec moi,
+P l An
+Pa
+(b) Pour définir les domaines des variables, procédez comme suit :
+i. Revenez au canevas et ajoutez un modèle paramétrique avec une flèche venant du graphe précédent.
+ii. Double-cliquez sur le modèle paramétrique et choisissez un modèle paramétrique de Bayes.
+iii. Ajustez le domaine des variables pour avoir deux valeurs. On peut aussi en changer le nom pour quelque chose de plus convivial que 0 et 1, comme par exemple vrai et faux.
+(c) Finalement, pour ajouter les distributions de probabilités et obtenir un réseau Bayésien, procédez comme suit :
+© 2016-2024 Roger Villemaire, villemaire.roger@uqam.ca 1
+
+
+ i. Ajoutez au canevas un Instantiated Model avec une flèche venant du modèle paramétrique.
+ii. Double-cliquez sur le modèle instancié, choisissez un modèle instancié de Bayes, choix manuels. Il reste à indiquer les probabilités.
+A. Pour la variable P l, il s’agit d’indiquer la probabilité que la variable soit vraie et le tabulateur complétera la valeur pour faux.
+B. Pour les autres variables, il est nécessaire de donner les probabilités conditionnelles, donc des probabilités pour chacune des valeurs des conditions.
+C. Choisissez les valeurs de probabilités que vous voulez.
+(d) Pour faire générer des données pseudo-aléatoires :
+i. Ajoutez dans le canevas un bloc Simulation avec une flèche venant du modèle instancié de Bayes.
+ii. Double-cliquez sur le bloc Simulation, les données seront générées avec les valeurs par défaut indiquées dans l’onglet Simulation Setup.
+(e) Finalement pour faire générer un réseau Bayésien à partir des données :
+i. Ajoutez un bloc Estimator au canevas avec des flèche venant du bloc de simulation et de celui du modèle paramétrique de Bayes.
+ii. Double-cliquez et choisissez un estimateur EM de Bayes (vous pouvez conserver la tolérance par défaut). Une fenêtre s’ouvre contenant le modèle instancié de Bayes généré à partir des données. Vous pouvez le comparer avec le modèle instancié original.
+Si ça ne marche pas sur Windows :
+1. Déinstaller Java avec le bouton démarrer (en bas à gauche) Paramètres/Applis/Applis et fonctions à droite faire défiler et déinstaller toutes les versions de Java, jdk et jre. redémarrer l’ordinateur,
+2. réinstaller en allant sur https://java.com/fr/ téléchargement gratuit Java,
+3. l’application devrait démarrer en double-cliquant sur le fichier tetrad-gui-X.X.X-launch.jar.
+© 2016-2024 Roger Villemaire, villemaire.roger@uqam.ca 2
