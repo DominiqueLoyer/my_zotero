@@ -15,12 +15,16 @@ zotero-key: "6Q5C5Q2E"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6Q5C5Q2E"
 date-added: "2026-01-08 20:10:57"
-date-modified: "2026-03-25 21:30:10"
+date-modified: "2026-11-17 18:05:06"
 ---
 
 # The EU AI act
 
 **Hugging Face**
+
+## Extra
+
+OpenAlex: W4404460162
 
 ## Attachments
 

@@ -14,12 +14,16 @@ zotero-key: "2495LH34"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2495LH34"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-03-25 21:31:07"
+date-modified: "2026-11-17 18:05:02"
 ---
 
 # The EU AI Act
 
 **Hugging Face**
+
+## Extra
+
+OpenAlex: W4404460162
 
 ## Attachments
 
