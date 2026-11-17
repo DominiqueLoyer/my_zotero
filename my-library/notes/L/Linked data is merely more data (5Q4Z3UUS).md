@@ -13,7 +13,7 @@ zotero-key: "5Q4Z3UUS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5Q4Z3UUS"
 date-added: "2026-03-04 20:00:18"
-date-modified: "2026-03-25 21:29:04"
+date-modified: "2026-11-17 17:58:34"
 ---
 
 # Linked data is merely more data
@@ -23,6 +23,7 @@ date-modified: "2026-03-25 21:29:04"
 ## Extra
 
 Importé via SysCRED.
+OpenAlex: W2546750069
 
 ## Attachments
 
