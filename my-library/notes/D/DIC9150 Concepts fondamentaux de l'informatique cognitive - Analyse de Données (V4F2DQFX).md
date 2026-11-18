@@ -8,6 +8,7 @@ tags:
   - "Analyse de données"
   - "Big Data"
   - "Villemaire Roger"
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -16,7 +17,7 @@ zotero-key: "V4F2DQFX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/V4F2DQFX"
 date-added: "2024-11-26 15:02:09"
-date-modified: "2025-12-29 23:57:35"
+date-modified: "2026-11-18 01:40:49"
 ---
 
 # DIC9150 Concepts fondamentaux de l'informatique cognitive - Analyse de Données

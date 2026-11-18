@@ -10,6 +10,7 @@ tags:
   - "Bayes"
   - "Réseaux Bayésiens"
   - "Villemaire Roger"
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -18,7 +19,7 @@ zotero-key: "9A6UEW54"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9A6UEW54"
 date-added: "2024-12-08 17:46:23"
-date-modified: "2025-12-29 23:57:34"
+date-modified: "2026-11-18 01:40:50"
 ---
 
 # DIC9150 Concepts fondamentaux de l'informatique cognitive - Réseaux Bayésiens

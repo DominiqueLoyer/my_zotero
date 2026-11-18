@@ -10,7 +10,7 @@ publication: "Indiana Journal of Global Legal Studies"
 volume: "25"
 issue: "1"
 pages: "315–344"
-doi: "10.2979/indjglolegstu.25.1.0315"
+doi: "10.2979/indjglolegstu.25.1.0187"
 tags:
   - "notion"
 collections:
@@ -21,7 +21,7 @@ zotero-key: "K5YP28YS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/K5YP28YS"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-17 17:52:07"
+date-modified: "2026-11-18 01:40:55"
 ---
 
 # Digital Weberianism: Bureaucracy, Information, and the Techno-rationality of Neoliberal Capitalism
@@ -31,6 +31,7 @@ date-modified: "2026-11-17 17:52:07"
 ## Extra
 
 OpenAlex: W2620060335
+DOI Fix previous DOI: 10.2979/indjglolegstu.25.1.0315
 
 ## Attachments
 

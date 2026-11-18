@@ -6,6 +6,7 @@ authors:
 date: "1637"
 year: "1637"
 publisher: "Joannes Maire"
+doi: "10.14375/np.9782401068261"
 language: "fr-CA"
 tags:
   - "notion"
@@ -15,7 +16,7 @@ zotero-key: "QBRT2M6H"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QBRT2M6H"
 date-added: "2026-01-08 20:10:58"
-date-modified: "2026-03-25 21:30:07"
+date-modified: "2026-11-18 01:40:59"
 ---
 
 # Discours de la Méthode

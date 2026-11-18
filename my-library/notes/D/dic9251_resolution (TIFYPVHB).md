@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -12,7 +13,7 @@ zotero-key: "TIFYPVHB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TIFYPVHB"
 date-added: "2025-03-31 19:02:43"
-date-modified: "2025-03-31 19:02:48"
+date-modified: "2026-11-18 01:40:55"
 ---
 
 # dic9251_resolution

@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -12,7 +13,7 @@ zotero-key: "7LDXRNQH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7LDXRNQH"
 date-added: "2025-03-31 18:36:17"
-date-modified: "2025-03-31 18:58:06"
+date-modified: "2026-11-18 01:40:54"
 ---
 
 # dic9251_raisonnement

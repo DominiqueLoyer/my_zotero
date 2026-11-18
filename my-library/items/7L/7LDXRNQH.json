@@ -543,7 +543,7 @@
 			}
 		],
 		"dateAdded": "2025-03-31T18:36:17Z",
-		"dateModified": "2025-03-31T18:58:06Z",
+		"dateModified": "2026-11-18T01:40:54Z",
 		"itemType": "document",
 		"key": "7LDXRNQH",
 		"relations": {
@@ -553,6 +553,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

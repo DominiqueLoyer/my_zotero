@@ -1064,7 +1064,7 @@
 		],
 		"date": "A2024",
 		"dateAdded": "2024-12-08T17:46:23Z",
-		"dateModified": "2025-12-29T23:57:34Z",
+		"dateModified": "2026-11-18T01:40:50Z",
 		"itemType": "journalArticle",
 		"key": "9A6UEW54",
 		"language": "fr",
@@ -1079,6 +1079,10 @@
 			},
 			{
 				"tag": "Villemaire Roger"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

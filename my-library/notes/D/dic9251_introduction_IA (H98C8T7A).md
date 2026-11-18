@@ -3,6 +3,7 @@ title: "dic9251_introduction_IA"
 item-type: "document"
 authors:
   - "Lounis Hakim"
+doi: "10.3917/dbu.mhadh.2016.01.0009"
 tags:
   - "notion"
 collections:
@@ -12,7 +13,7 @@ zotero-key: "H98C8T7A"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/H98C8T7A"
 date-added: "2025-03-31 18:36:16"
-date-modified: "2025-03-31 18:41:40"
+date-modified: "2026-11-18 01:40:51"
 ---
 
 # dic9251_introduction_IA

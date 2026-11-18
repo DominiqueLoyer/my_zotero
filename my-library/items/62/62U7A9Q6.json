@@ -246,12 +246,16 @@
 		],
 		"date": "automne 2024",
 		"dateAdded": "2024-12-11T19:32:11Z",
-		"dateModified": "2025-12-05T22:26:58Z",
+		"dateModified": "2026-11-18T01:40:47Z",
 		"itemType": "presentation",
 		"key": "62U7A9Q6",
 		"place": "UQAM",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

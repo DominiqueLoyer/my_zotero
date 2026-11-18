@@ -9,6 +9,7 @@ tags:
   - "Lakatos"
   - "Robert Serge"
   - "connaissance"
+  - "doi-fix:low-confidence"
   - "découverte"
   - "naturalisation"
   - "notion"
@@ -19,7 +20,7 @@ zotero-key: "MGQGJ6F7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/MGQGJ6F7"
 date-added: "2024-12-11 19:48:05"
-date-modified: "2025-12-05 22:26:57"
+date-modified: "2026-11-18 01:40:48"
 ---
 
 # DIC9001 texte 1 sem 1,2 Robert 2009 2016 naturalisation

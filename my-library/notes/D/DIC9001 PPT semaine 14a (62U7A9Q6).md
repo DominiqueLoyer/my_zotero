@@ -6,6 +6,7 @@ authors:
 date: "automne 2024"
 year: "2024"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours A24/DIC9001/Russell"
@@ -13,7 +14,7 @@ zotero-key: "62U7A9Q6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/62U7A9Q6"
 date-added: "2024-12-11 19:32:11"
-date-modified: "2025-12-05 22:26:58"
+date-modified: "2026-11-18 01:40:47"
 ---
 
 # DIC9001 PPT semaine 14a

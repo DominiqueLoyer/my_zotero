@@ -94,7 +94,7 @@
 		],
 		"date": "Automne 2024",
 		"dateAdded": "2024-12-11T19:48:05Z",
-		"dateModified": "2025-12-05T22:26:57Z",
+		"dateModified": "2026-11-18T01:40:48Z",
 		"itemType": "presentation",
 		"key": "MGQGJ6F7",
 		"place": "UQAM",
@@ -108,6 +108,10 @@
 			},
 			{
 				"tag": "connaissance"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "découverte"
