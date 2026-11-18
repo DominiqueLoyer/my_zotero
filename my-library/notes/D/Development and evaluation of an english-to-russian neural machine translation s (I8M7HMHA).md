@@ -15,13 +15,14 @@ tags:
   - "NLP"
   - "Neural Machine Translation"
   - "Transformer"
+  - "doi-fix:low-confidence"
 collections:
   - "completeLoyer_100126 2026-11-12, 5:14:18 p.m."
 zotero-key: "I8M7HMHA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/I8M7HMHA"
 date-added: "2026-11-12 22:14:19"
-date-modified: "2026-11-12 22:14:19"
+date-modified: "2026-11-18 01:39:42"
 ---
 
 # Development and evaluation of an english-to-russian neural machine translation system

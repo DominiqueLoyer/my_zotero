@@ -14,7 +14,7 @@ zotero-key: "XIWZD3ZI"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XIWZD3ZI"
 date-added: "2026-03-08 21:20:16"
-date-modified: "2026-03-25 21:28:50"
+date-modified: "2026-11-18 01:39:46"
 ---
 
 # Development and Evaluation of an English-to-Russian Neural Machine Translation System

@@ -74,7 +74,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-11-12T22:14:19Z",
-		"dateModified": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-18T01:39:42Z",
 		"extra": "ISBN: 978-1-0699904-4-0",
 		"itemType": "journalArticle",
 		"key": "I8M7HMHA",
@@ -98,6 +98,10 @@
 			},
 			{
 				"tag": "Transformer"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			}
 		],
 		"title": "Development and evaluation of an english-to-russian neural machine translation system",

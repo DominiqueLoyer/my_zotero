@@ -9,6 +9,7 @@ publication: "https://doi.org/10.13140/RG.2.2.17980.55687. |. ISBN : 978-1-06999
 pages: "8"
 url: "https://doi.org/10.13140/RG.2.2.17980.55687"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -17,7 +18,7 @@ zotero-key: "8VZMQUBK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8VZMQUBK"
 date-added: "2026-01-03 00:11:30"
-date-modified: "2026-11-08 16:11:39"
+date-modified: "2026-11-18 01:39:45"
 ---
 
 # Development and evaluation of an english-to-russian neural machine translation system
