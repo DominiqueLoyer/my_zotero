@@ -11,6 +11,7 @@ url: "http://arxiv.org/abs/2411.04383"
 tags:
   - "Computer Science - Artificial Intelligence"
   - "Computer Science - Machine Learning"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/gs_080326/PDFs"
@@ -18,7 +19,7 @@ zotero-key: "4Q6JHM4T"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4Q6JHM4T"
 date-added: "2026-03-14 17:41:03"
-date-modified: "2026-03-14 18:16:58"
+date-modified: "2026-11-18 01:56:16"
 ---
 
 # Neuro-Symbolic AI: Explainability, Challenges, and Future Trends

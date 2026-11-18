@@ -5,7 +5,7 @@ authors:
   - "Zhang, Xin and Sheng, Victor S"
 date: "2024"
 year: "2024"
-doi: "10.1109/access.2024.3485185"
+doi: "10.1109/ACCESS.2024.3485185"
 tags:
   - "notion"
 collections:
@@ -14,7 +14,7 @@ zotero-key: "2QEG5KBX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2QEG5KBX"
 date-added: "2026-03-08 21:23:19"
-date-modified: "2026-03-25 21:28:47"
+date-modified: "2026-11-18 01:56:16"
 ---
 
 # Neuro-symbolic ai: Explainability, challenges, and future trends
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:47"
 ## Extra
 
 Importé via SysCRED.
+DOI Fix previous DOI: 10.1109/access.2024.3485185
 
 ## Attachments
 

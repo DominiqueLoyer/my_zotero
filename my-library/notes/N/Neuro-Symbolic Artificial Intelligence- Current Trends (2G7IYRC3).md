@@ -8,7 +8,7 @@ authors:
   - "Hitzler, Pascal"
 date: "2021-05-14"
 year: "2021"
-doi: "10.48550/arXiv.2105.05330"
+doi: "10.3233/aic-210084"
 url: "http://arxiv.org/abs/2105.05330"
 tags:
   - "Computer Science - Artificial Intelligence"
@@ -23,7 +23,7 @@ zotero-key: "2G7IYRC3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2G7IYRC3"
 date-added: "2026-03-14 17:34:16"
-date-modified: "2026-11-09 14:58:36"
+date-modified: "2026-11-18 01:56:19"
 ---
 
 # Neuro-Symbolic Artificial Intelligence: Current Trends
@@ -37,6 +37,7 @@ Neuro-Symbolic Artificial Intelligence -- the combination of symbolic methods wi
 ## Extra
 
 arXiv:2105.05330 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2105.05330
 
 ## Notes
 
