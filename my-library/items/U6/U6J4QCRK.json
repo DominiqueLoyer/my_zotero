@@ -61,7 +61,7 @@
 		],
 		"date": "2026-03-12",
 		"dateAdded": "2026-04-17T20:25:49Z",
-		"dateModified": "2026-11-08T16:12:20Z",
+		"dateModified": "2026-11-18T01:41:38Z",
 		"itemType": "journalArticle",
 		"key": "U6J4QCRK",
 		"language": "fr",
@@ -79,6 +79,10 @@
 			},
 			{
 				"tag": "Work (physics)"
+			},
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
 			},
 			{
 				"tag": "notion"

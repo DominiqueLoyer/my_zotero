@@ -14,6 +14,7 @@ tags:
   - "Vulnerability (computing)"
   - "Window (computing)"
   - "Work (physics)"
+  - "doi-fix:no-doi-found"
   - "notion"
   - "sync"
 collections:
@@ -22,7 +23,7 @@ zotero-key: "U6J4QCRK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/U6J4QCRK"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-08 16:12:20"
+date-modified: "2026-11-18 01:41:38"
 ---
 
 # DominiqueLoyer/systemFactChecking: V2.4.1
