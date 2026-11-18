@@ -84,13 +84,17 @@
 		],
 		"date": "2016",
 		"dateAdded": "2026-01-08T20:14:05Z",
-		"dateModified": "2026-03-25T21:30:05Z",
+		"dateModified": "2026-11-18T01:57:40Z",
 		"extra": "titleTranslation: OpenWPM: An automated platform for web privacy measurement",
 		"itemType": "journalArticle",
 		"key": "9F9WU4MV",
 		"language": "fr-CA",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

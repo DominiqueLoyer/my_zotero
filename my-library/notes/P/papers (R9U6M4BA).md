@@ -1,6 +1,7 @@
 ---
 title: "papers"
 item-type: "document"
+doi: "10.59350/89kfq-1ev37"
 language: "fr-CA"
 tags:
   - "notion"
@@ -10,7 +11,7 @@ zotero-key: "R9U6M4BA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/R9U6M4BA"
 date-added: "2026-01-08 22:57:51"
-date-modified: "2026-02-05 00:07:54"
+date-modified: "2026-11-18 01:57:49"
 ---
 
 # papers

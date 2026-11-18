@@ -12,6 +12,7 @@ year: "2016"
 url: "https://www.semanticscholar.org/paper/2ccde1be1ff725aa8740868929cd1a6f5072ab3a"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
@@ -19,7 +20,7 @@ zotero-key: "9F9WU4MV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9F9WU4MV"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-03-25 21:30:05"
+date-modified: "2026-11-18 01:57:40"
 ---
 
 # OpenWPM : An automated platform for web privacy measurement

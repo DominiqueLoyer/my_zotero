@@ -32,7 +32,7 @@
 		],
 		"date": "2026-04-04",
 		"dateAdded": "2026-04-17T20:25:49Z",
-		"dateModified": "2026-11-17T18:00:38Z",
+		"dateModified": "2026-11-18T01:57:44Z",
 		"extra": "Publication Title: Zenodo (CERN European Organization for Nuclear Research)\nOpenAlex: W7148942891",
 		"itemType": "dataset",
 		"key": "86GFUWCY",
@@ -51,6 +51,10 @@
 			},
 			{
 				"tag": "Transliteration"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			}
 		],
 		"title": "opus-mt-fr-en-finetuned-fr-to-en",

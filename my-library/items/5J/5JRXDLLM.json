@@ -31,12 +31,17 @@
 		],
 		"date": "2026-01-01",
 		"dateAdded": "2026-04-17T20:25:49Z",
-		"dateModified": "2026-11-17T18:00:37Z",
+		"dateModified": "2026-11-18T01:57:42Z",
 		"extra": "Publication Title: Hugging Face\nOpenAlex: W7117981422",
 		"itemType": "dataset",
 		"key": "5JRXDLLM",
 		"relations": {},
-		"tags": [],
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			}
+		],
 		"title": "opus-mt-fr-en-finetuned-fr-to-en",
 		"url": "https://doi.org/10.57967/hf/7422"
 	}

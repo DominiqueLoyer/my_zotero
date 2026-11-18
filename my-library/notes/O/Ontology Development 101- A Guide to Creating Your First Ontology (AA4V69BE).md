@@ -6,12 +6,13 @@ authors:
 date: "2001"
 year: "2001"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 zotero-key: "AA4V69BE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/AA4V69BE"
 date-added: "2026-03-03 23:15:25"
-date-modified: "2026-11-17 18:00:36"
+date-modified: "2026-11-18 01:57:37"
 ---
 
 # Ontology Development 101: A Guide to Creating Your First Ontology

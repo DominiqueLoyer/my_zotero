@@ -3,6 +3,7 @@ title: "Overview of the third text Retrieval conference (TREC-3)"
 item-type: "journalArticle"
 authors:
   - "Harman, D K"
+doi: "10.6028/NIST.SP.500-225"
 language: "en"
 tags:
   - "notion"
@@ -12,7 +13,7 @@ zotero-key: "N63BR9KM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/N63BR9KM"
 date-added: "2026-03-14 17:36:24"
-date-modified: "2026-03-14 18:19:41"
+date-modified: "2026-11-18 01:57:48"
 ---
 
 # Overview of the third text Retrieval conference (TREC-3)

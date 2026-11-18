@@ -13,13 +13,14 @@ tags:
   - "Stylistics"
   - "Transformer"
   - "Transliteration"
+  - "doi-fix:low-confidence"
 collections:
   - "works-ris-mLe7JLvNH2FvzENyBfxeRk"
 zotero-key: "86GFUWCY"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/86GFUWCY"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-17 18:00:38"
+date-modified: "2026-11-18 01:57:44"
 ---
 
 # opus-mt-fr-en-finetuned-fr-to-en
