@@ -5,6 +5,7 @@ authors:
   - "Robert, Par Serge"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "VBDGIZ4F"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VBDGIZ4F"
 date-added: "2024-12-01 03:29:19"
-date-modified: "2025-12-29 23:57:37"
+date-modified: "2026-11-18 01:58:39"
 ---
 
 # Qu’est-ce que la science? Une introduction épistémologique Aux origines des sciences cognitives et de l’informatique (suite et fin)

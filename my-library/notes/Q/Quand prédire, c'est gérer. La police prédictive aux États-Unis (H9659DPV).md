@@ -21,7 +21,7 @@ zotero-key: "H9659DPV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/H9659DPV"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-09 14:58:16"
+date-modified: "2026-11-18 01:58:39"
 ---
 
 # Quand prédire, c'est gérer. La police prédictive aux États-Unis

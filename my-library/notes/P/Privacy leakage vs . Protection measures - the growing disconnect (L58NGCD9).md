@@ -8,6 +8,7 @@ year: "2011"
 url: "https://www.semanticscholar.org/paper/4c39c926689b52cbc1cd31a2b8a9159450219757"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
@@ -15,7 +16,7 @@ zotero-key: "L58NGCD9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/L58NGCD9"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-03-25 21:30:04"
+date-modified: "2026-11-18 01:58:32"
 ---
 
 # Privacy leakage vs . Protection measures : the growing disconnect

@@ -60,12 +60,16 @@
 		],
 		"date": "2011",
 		"dateAdded": "2026-01-08T20:14:05Z",
-		"dateModified": "2026-03-25T21:30:04Z",
+		"dateModified": "2026-11-18T01:58:32Z",
 		"itemType": "journalArticle",
 		"key": "L58NGCD9",
 		"language": "fr-CA",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

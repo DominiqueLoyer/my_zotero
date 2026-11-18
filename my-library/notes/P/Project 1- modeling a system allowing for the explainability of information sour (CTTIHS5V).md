@@ -10,7 +10,7 @@ zotero-key: "CTTIHS5V"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/CTTIHS5V"
 date-added: "2026-04-24 21:26:52"
-date-modified: "2026-11-17 18:01:03"
+date-modified: "2026-11-18 01:58:32"
 ---
 
 # Project 1: modeling a system allowing for the explainability of information sources

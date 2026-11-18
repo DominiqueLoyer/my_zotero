@@ -7,6 +7,7 @@ date: "1 mai 2025"
 year: "2025"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -15,7 +16,7 @@ zotero-key: "5HCYSXT8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5HCYSXT8"
 date-added: "2025-05-01 23:41:07"
-date-modified: "2026-01-09 19:16:30"
+date-modified: "2026-11-18 01:58:33"
 ---
 
 # Projet 1: modélisation d’un système permettant l’explicabilité des sources d’information

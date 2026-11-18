@@ -84,13 +84,17 @@
 		],
 		"date": "1 mai 2025",
 		"dateAdded": "2025-05-01T23:41:07Z",
-		"dateModified": "2026-01-09T19:16:30Z",
+		"dateModified": "2026-11-18T01:58:33Z",
 		"itemType": "journalArticle",
 		"key": "5HCYSXT8",
 		"language": "fr",
 		"libraryCatalog": "Zotero",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

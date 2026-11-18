@@ -21,7 +21,7 @@ zotero-key: "MCDTMK5E"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/MCDTMK5E"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-11-17 18:01:01"
+date-modified: "2026-11-18 01:58:32"
 ---
 
 # PriVaricator: Deceiving fingerprinters with little white lies
