@@ -15,7 +15,7 @@ zotero-key: "DV6CUIMH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DV6CUIMH"
 date-added: "2026-02-26 20:21:09"
-date-modified: "2026-11-17 17:50:51"
+date-modified: "2026-11-18 01:36:30"
 ---
 
 # CimpleKG: A Knowledge Graph for Linking Claims with Explanations and Context

@@ -14,7 +14,7 @@ zotero-key: "CBEPV7ZM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/CBEPV7ZM"
 date-added: "2026-02-26 20:19:56"
-date-modified: "2026-11-17 17:50:53"
+date-modified: "2026-11-18 01:36:31"
 ---
 
 # ClaimEval: Integrated Framework for Joint Source Credibility Estimation and Claim Evaluation

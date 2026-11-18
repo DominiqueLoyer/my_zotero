@@ -17,7 +17,7 @@ zotero-key: "UZE4TRQP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UZE4TRQP"
 date-added: "2025-03-10 20:12:30"
-date-modified: "2026-11-13 19:34:17"
+date-modified: "2026-11-18 01:36:30"
 ---
 
 # (Choi et Kang, 2013) :  « if our brain is not powerful enough to simulate a given complex system, we rely on computers to perform a computer simulation ».
