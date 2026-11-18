@@ -9,6 +9,7 @@ year: "2018"
 publication: "arXiv preprint arXiv:1806.08049"
 url: "https://arxiv.org/abs/1806.08049"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -19,7 +20,7 @@ zotero-key: "STE4TUEB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/STE4TUEB"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-09 15:08:45"
+date-modified: "2026-11-18 01:57:05"
 ---
 
 # On the Robustness of Interpretability Methods

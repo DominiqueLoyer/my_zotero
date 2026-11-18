@@ -12,6 +12,7 @@ date: "1995"
 year: "1995"
 publication: "Proceedings of the third text retrieval conference (TREC-3)"
 pages: "109–126"
+doi: "10.6028/nist.sp.500-236.adhoc-city"
 tags:
   - "notion"
   - "⛔ No DOI found"
@@ -21,7 +22,7 @@ zotero-key: "LUYCK77R"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/LUYCK77R"
 date-added: "2025-04-10 15:02:45"
-date-modified: "2025-04-10 15:02:45"
+date-modified: "2026-11-18 01:57:01"
 ---
 
 # Okapi at TREC-3

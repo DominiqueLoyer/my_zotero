@@ -3,6 +3,7 @@ title: "Online Tracking: A 1-million-site Measurement and Analysis"
 item-type: "webpage"
 url: "https://www.connectedpapers.com/main/6ffa93e8a674e3b0a40ecfaf0b1b1ae814f23c63/Online-Tracking%3A-A-1%20million%20site-Measurement-and-Analysis/graph"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Ma thèse"
@@ -11,7 +12,7 @@ zotero-key: "NK9P7MIQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/NK9P7MIQ"
 date-added: "2024-11-24 15:05:07"
-date-modified: "2026-11-17 18:00:33"
+date-modified: "2026-11-18 01:57:10"
 ---
 
 # Online Tracking: A 1-million-site Measurement and Analysis

@@ -15,7 +15,7 @@ zotero-key: "2ZV9TG6B"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2ZV9TG6B"
 date-added: "2026-03-04 20:28:00"
-date-modified: "2026-03-25 21:29:02"
+date-modified: "2026-11-18 01:57:10"
 ---
 
 # Ontologie - Sys. de V\'{e}rification de la Cr\'{e}dibilit\'{e

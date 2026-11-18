@@ -1,6 +1,7 @@
 ---
 title: "NotebookLM"
 item-type: "webpage"
+doi: "10.55593/ej.30118m1"
 url: "https://notebooklm.google.com/"
 tags:
   - "notion"
@@ -10,7 +11,7 @@ zotero-key: "JU6CEJID"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JU6CEJID"
 date-added: "2024-12-09 13:12:40"
-date-modified: "2025-12-05 22:28:17"
+date-modified: "2026-11-18 01:56:57"
 ---
 
 # NotebookLM

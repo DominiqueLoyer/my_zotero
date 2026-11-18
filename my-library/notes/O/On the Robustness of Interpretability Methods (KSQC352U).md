@@ -5,7 +5,7 @@ authors:
   - "Alvarez-Melis, David and Jaakkola, Tommi S."
 date: "2021"
 year: "2021"
-doi: "10.1109/ivmem53963.2021.00007"
+doi: "10.1109/IVMEM53963.2021.00007"
 url: "https://arxiv.org/abs/1806.08049"
 tags:
   - "notion"
@@ -15,7 +15,7 @@ zotero-key: "KSQC352U"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KSQC352U"
 date-added: "2026-02-25 21:32:22"
-date-modified: "2026-11-17 18:00:28"
+date-modified: "2026-11-18 01:57:08"
 ---
 
 # On the Robustness of Interpretability Methods
@@ -26,6 +26,7 @@ date-modified: "2026-11-17 18:00:28"
 
 Importé via SysCRED.
 OpenAlex: W4210274113
+DOI Fix previous DOI: 10.1109/ivmem53963.2021.00007
 
 ## Attachments
 

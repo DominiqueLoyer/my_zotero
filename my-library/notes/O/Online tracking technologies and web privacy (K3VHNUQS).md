@@ -8,6 +8,7 @@ year: "2017"
 url: "https://www.semanticscholar.org/paper/bc8570d0987429c086c515a1bfffae64ccbefcff"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
@@ -15,7 +16,7 @@ zotero-key: "K3VHNUQS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/K3VHNUQS"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-11-17 18:00:32"
+date-modified: "2026-11-18 01:57:09"
 ---
 
 # Online tracking technologies and web privacy

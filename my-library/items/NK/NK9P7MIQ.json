@@ -90,7 +90,7 @@
 		],
 		"creators": [],
 		"dateAdded": "2024-11-24T15:05:07Z",
-		"dateModified": "2026-11-17T18:00:33Z",
+		"dateModified": "2026-11-18T01:57:10Z",
 		"extra": "OpenAlex: W2535603283",
 		"itemType": "webpage",
 		"key": "NK9P7MIQ",
@@ -100,6 +100,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

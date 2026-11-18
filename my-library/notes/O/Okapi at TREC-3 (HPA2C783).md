@@ -5,13 +5,14 @@ authors:
   - "Stephen E. Robertson and Steve Walker and Susan Jones and Micheline Hancock-Beaulieu and Mike Gatford"
 date: "1995"
 year: "1995"
+doi: "10.6028/nist.sp.500-236.adhoc-city"
 tags:
   - "notion"
 zotero-key: "HPA2C783"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/HPA2C783"
 date-added: "2026-03-03 23:32:46"
-date-modified: "2026-03-25 21:29:15"
+date-modified: "2026-11-18 01:57:03"
 ---
 
 # Okapi at TREC-3
