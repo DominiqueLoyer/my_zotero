@@ -4,6 +4,7 @@ item-type: "journalArticle"
 authors:
   - "researchgate.net, DS LOYER - 2025 -"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -12,7 +13,7 @@ zotero-key: "9ZA6BREV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9ZA6BREV"
 date-added: "2026-04-17 21:00:09"
-date-modified: "2026-11-09 15:00:53"
+date-modified: "2026-11-18 01:46:18"
 ---
 
 # Hybrid system for verifying the credibility of information sources: An ontology
