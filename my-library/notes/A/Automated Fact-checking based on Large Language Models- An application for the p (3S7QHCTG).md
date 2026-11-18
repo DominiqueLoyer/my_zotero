@@ -14,7 +14,7 @@ zotero-key: "3S7QHCTG"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3S7QHCTG"
 date-added: "2026-03-08 21:20:32"
-date-modified: "2026-11-13 19:32:27"
+date-modified: "2026-11-18 01:35:10"
 ---
 
 # Automated Fact-checking based on Large Language Models: An application for the press.

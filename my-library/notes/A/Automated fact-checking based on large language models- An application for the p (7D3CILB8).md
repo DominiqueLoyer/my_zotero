@@ -19,7 +19,7 @@ zotero-key: "7D3CILB8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7D3CILB8"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-11-13 19:32:27"
+date-modified: "2026-11-18 01:35:10"
 ---
 
 # Automated fact-checking based on large language models: An application for the press
