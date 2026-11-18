@@ -6,6 +6,7 @@ authors:
 date: "1977"
 year: "1977"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "9401_bibtex_all_250226"
@@ -13,7 +14,7 @@ zotero-key: "23KHFZ7G"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/23KHFZ7G"
 date-added: "2026-02-25 21:35:09"
-date-modified: "2026-11-17 17:56:56"
+date-modified: "2026-11-18 01:50:41"
 ---
 
 # L'acteur et le système

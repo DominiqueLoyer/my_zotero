@@ -13,13 +13,14 @@ language: "fr"
 tags:
   - "Art"
   - "Humanities"
+  - "doi-fix:low-confidence"
 collections:
   - "works-ris-mLe7JLvNH2FvzENyBfxeRk"
 zotero-key: "GN9DW998"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GN9DW998"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-17 17:56:57"
+date-modified: "2026-11-18 01:50:45"
 ---
 
 # L'adaptation de la communication interne au sein des services d'incendie et de secours à l'ère collaborative [ensosp]
