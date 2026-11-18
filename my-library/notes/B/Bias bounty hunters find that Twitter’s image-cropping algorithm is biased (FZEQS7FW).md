@@ -14,7 +14,7 @@ zotero-key: "FZEQS7FW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FZEQS7FW"
 date-added: "2026-02-25 21:54:44"
-date-modified: "2026-11-13 19:32:39"
+date-modified: "2026-11-18 01:35:24"
 ---
 
 # Bias bounty hunters find that Twitter’s image-cropping algorithm is biased

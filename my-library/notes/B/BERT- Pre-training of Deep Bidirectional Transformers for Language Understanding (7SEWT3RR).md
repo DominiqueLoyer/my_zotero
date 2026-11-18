@@ -12,7 +12,7 @@ zotero-key: "7SEWT3RR"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7SEWT3RR"
 date-added: "2026-03-03 23:34:05"
-date-modified: "2026-11-17 17:50:32"
+date-modified: "2026-11-18 01:35:20"
 ---
 
 # BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding

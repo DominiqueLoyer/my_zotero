@@ -14,7 +14,7 @@ zotero-key: "EWQH78HB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EWQH78HB"
 date-added: "2026-02-26 20:20:44"
-date-modified: "2026-11-17 17:50:34"
+date-modified: "2026-11-18 01:35:24"
 ---
 
 # BiasScanner: Detecting Biased Statements in News Articles
