@@ -15,6 +15,7 @@ tags:
   - "Sequence-a-Sequence"
   - "TAL"
   - "Traduction Automatique"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "completeLoyer_100126"
@@ -22,7 +23,7 @@ zotero-key: "K2N4JGCE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/K2N4JGCE"
 date-added: "2026-01-10 20:17:21"
-date-modified: "2026-03-25 21:29:59"
+date-modified: "2026-11-18 14:00:23"
 ---
 
 # Systeme de traduction automatique neuronal du russe vers l'anglais

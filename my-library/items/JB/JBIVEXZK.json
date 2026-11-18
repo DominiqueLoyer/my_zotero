@@ -75,7 +75,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-11-12T22:14:19Z",
-		"dateModified": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-18T14:00:25Z",
 		"itemType": "conferencePaper",
 		"key": "JBIVEXZK",
 		"relations": {},
@@ -94,6 +94,10 @@
 			},
 			{
 				"tag": "Traduction Automatique"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			}
 		],
 		"title": "Systeme de traduction automatique neuronal du russe vers l'anglais",

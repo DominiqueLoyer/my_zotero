@@ -5,6 +5,7 @@ authors:
   - "Loyer, Dominique S"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "UITUWNF9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UITUWNF9"
 date-added: "2026-01-09 21:12:44"
-date-modified: "2026-03-08 21:43:25"
+date-modified: "2026-11-18 14:00:29"
 ---
 
 # Système hybride de vérification de crédibilité des sources de l’information, une ontologie
