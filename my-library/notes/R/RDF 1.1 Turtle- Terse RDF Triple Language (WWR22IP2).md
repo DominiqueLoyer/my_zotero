@@ -7,12 +7,13 @@ date: "2014"
 year: "2014"
 url: "https://www.w3.org/TR/turtle/"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 zotero-key: "WWR22IP2"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/WWR22IP2"
 date-added: "2026-03-03 23:15:21"
-date-modified: "2026-11-09 14:58:19"
+date-modified: "2026-11-18 01:58:49"
 ---
 
 # RDF 1.1 Turtle: Terse RDF Triple Language

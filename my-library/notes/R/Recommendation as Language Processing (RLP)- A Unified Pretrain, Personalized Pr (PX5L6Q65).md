@@ -9,7 +9,7 @@ authors:
   - "Zhang, Yongfeng"
 date: "2023-01-02"
 year: "2023"
-doi: "10.48550/arXiv.2203.13366"
+doi: "10.1145/3523227.3546767"
 url: "http://arxiv.org/abs/2203.13366"
 tags:
   - "Computer Science - Artificial Intelligence"
@@ -23,7 +23,7 @@ zotero-key: "PX5L6Q65"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PX5L6Q65"
 date-added: "2026-03-14 17:39:28"
-date-modified: "2026-03-14 18:17:48"
+date-modified: "2026-11-18 01:58:53"
 ---
 
 # Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5)
@@ -37,6 +37,7 @@ For a long time, different recommendation tasks typically require designing task
 ## Extra
 
 arXiv:2203.13366 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2203.13366
 
 ## Notes
 

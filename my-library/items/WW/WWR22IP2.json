@@ -54,7 +54,7 @@
 		],
 		"date": "2014",
 		"dateAdded": "2026-03-03T23:15:21Z",
-		"dateModified": "2026-11-09T14:58:19Z",
+		"dateModified": "2026-11-18T01:58:49Z",
 		"extra": "Importé via SysCRED.",
 		"itemType": "journalArticle",
 		"key": "WWR22IP2",
@@ -64,6 +64,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

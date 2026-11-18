@@ -12,6 +12,7 @@ authors:
 date: "2022"
 year: "2022"
 publication: "arXiv preprint arXiv:2203.13366"
+doi: "10.1145/3523227.3546767"
 url: "https://arxiv.org/abs/2203.13366"
 tags:
   - "notion"
@@ -24,7 +25,7 @@ zotero-key: "UIZU4FRY"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UIZU4FRY"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-09 14:55:25"
+date-modified: "2026-11-18 01:58:56"
 ---
 
 # Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5)

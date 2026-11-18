@@ -5,6 +5,7 @@ authors:
   - "Sadat, Fatiha"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "QE8N278B"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QE8N278B"
 date-added: "2025-04-03 07:42:21"
-date-modified: "2025-12-29 23:57:32"
+date-modified: "2026-11-18 01:58:52"
 ---
 
 # Recherche d’Information (RI)
