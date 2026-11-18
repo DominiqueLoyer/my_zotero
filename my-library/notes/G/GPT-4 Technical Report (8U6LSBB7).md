@@ -18,6 +18,7 @@ year: "2023"
 publication: "arXiv preprint arXiv:2303.08774"
 url: "https://arxiv.org/abs/2303.08774"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -28,7 +29,7 @@ zotero-key: "8U6LSBB7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8U6LSBB7"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-09 15:01:34"
+date-modified: "2026-11-18 01:45:38"
 ---
 
 # GPT-4 Technical Report

@@ -6,6 +6,7 @@ authors:
 doi: "10.48550/arXiv.2312.09532"
 url: "http://arxiv.org/abs/2312.09532"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_9335_all"
@@ -13,7 +14,7 @@ zotero-key: "IBCCQ4RC"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IBCCQ4RC"
 date-added: "2026-03-04 19:42:46"
-date-modified: "2026-03-25 21:29:07"
+date-modified: "2026-11-18 01:45:40"
 ---
 
 # Grounding for {{Artificial Intelligence

@@ -10,7 +10,7 @@ authors:
   - "Luo, Siqiang"
 date: "2026-01-21"
 year: "2026"
-doi: "10.48550/arXiv.2504.10499"
+doi: "10.1145/3795880"
 url: "http://arxiv.org/abs/2504.10499"
 language: "en"
 tags:
@@ -23,7 +23,7 @@ zotero-key: "VEJYJQ7A"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VEJYJQ7A"
 date-added: "2026-03-14 17:41:05"
-date-modified: "2026-03-14 18:16:57"
+date-modified: "2026-11-18 01:45:40"
 ---
 
 # Graph-based Approaches and Functionalities in Retrieval-Augmented Generation: A Comprehensive Survey
@@ -37,6 +37,7 @@ Large language models (LLMs) struggle with the factual error during inference du
 ## Extra
 
 arXiv:2504.10499 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2504.10499
 
 ## Attachments
 

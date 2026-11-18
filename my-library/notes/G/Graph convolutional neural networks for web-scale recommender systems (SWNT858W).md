@@ -12,6 +12,7 @@ date: "2018"
 year: "2018"
 publication: "Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining"
 pages: "974–983"
+doi: "10.1145/3219819.3219890"
 language: "fr-CA"
 tags:
   - "notion"
@@ -21,7 +22,7 @@ zotero-key: "SWNT858W"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SWNT858W"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-11-17 17:56:05"
+date-modified: "2026-11-18 01:45:39"
 ---
 
 # Graph convolutional neural networks for web-scale recommender systems

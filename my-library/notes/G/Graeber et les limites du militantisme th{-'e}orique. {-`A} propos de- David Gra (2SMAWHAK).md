@@ -14,7 +14,7 @@ zotero-key: "2SMAWHAK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2SMAWHAK"
 date-added: "2026-03-08 21:22:38"
-date-modified: "2026-03-25 21:28:48"
+date-modified: "2026-11-18 01:45:38"
 ---
 
 # Graeber et les limites du militantisme th{\'e}orique. {\`A} propos de: David Graeber, Bureaucratie. L'utopie des r{\`e}gles, Paris, Les Liens qui lib{\`e}rent, 2015.

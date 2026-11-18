@@ -13,6 +13,7 @@ date: "2019"
 year: "2019"
 publication: "The world wide web conference"
 pages: "417–426"
+doi: "10.1145/3308558.3313488"
 language: "fr-CA"
 tags:
   - "notion"
@@ -22,7 +23,7 @@ zotero-key: "BYK38YAM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/BYK38YAM"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-11-17 17:56:10"
+date-modified: "2026-11-18 01:45:40"
 ---
 
 # Graph neural networks for social recommendation

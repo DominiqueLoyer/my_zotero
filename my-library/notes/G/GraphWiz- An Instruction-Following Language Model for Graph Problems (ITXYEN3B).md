@@ -8,7 +8,7 @@ authors:
   - "Li, Jia"
 date: "2024-07-03"
 year: "2024"
-doi: "10.48550/arXiv.2402.16029"
+doi: "10.1145/3637528.3672010"
 url: "http://arxiv.org/abs/2402.16029"
 language: "en"
 tags:
@@ -20,7 +20,7 @@ zotero-key: "ITXYEN3B"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ITXYEN3B"
 date-added: "2026-03-14 17:39:41"
-date-modified: "2026-03-14 18:17:44"
+date-modified: "2026-11-18 01:45:40"
 ---
 
 # GraphWiz: An Instruction-Following Language Model for Graph Problems
@@ -34,6 +34,7 @@ Large language models (LLMs) have achieved impressive success across several fie
 ## Extra
 
 arXiv:2402.16029 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2402.16029
 
 ## Notes
 

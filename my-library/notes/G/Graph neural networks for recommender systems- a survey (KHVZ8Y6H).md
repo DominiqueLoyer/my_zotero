@@ -13,7 +13,7 @@ publication: "ACM Computing Surveys"
 volume: "55"
 issue: "5"
 pages: "1–37"
-doi: "10.1145/3537142"
+doi: "10.1145/3535101"
 tags:
   - "notion"
 collections:
@@ -24,12 +24,16 @@ zotero-key: "KHVZ8Y6H"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KHVZ8Y6H"
 date-added: "2025-10-10 19:01:29"
-date-modified: "2026-11-09 15:01:26"
+date-modified: "2026-11-18 01:45:39"
 ---
 
 # Graph neural networks for recommender systems: a survey
 
 **Wu, Shiwen; Sun, Fei; Zhang, Wentao; Xu, Xin; Cui, Bin**
+
+## Extra
+
+DOI Fix previous DOI: 10.1145/3537142
 
 ## Attachments
 

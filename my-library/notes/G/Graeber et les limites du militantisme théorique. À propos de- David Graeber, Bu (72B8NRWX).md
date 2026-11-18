@@ -16,7 +16,7 @@ zotero-key: "72B8NRWX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/72B8NRWX"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-11-17 17:56:04"
+date-modified: "2026-11-18 01:45:38"
 ---
 
 # Graeber et les limites du militantisme théorique. À propos de: David Graeber, Bureaucratie. L'utopie des règles, Paris, Les Liens qui libèrent, 2015.

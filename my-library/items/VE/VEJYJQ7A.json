@@ -86,11 +86,11 @@
 		"zoteroURI": "zotero://select/library/items/VEJYJQ7A"
 	},
 	"zotero": {
-		"DOI": "10.48550/arXiv.2504.10499",
+		"DOI": "10.1145/3795880",
 		"abstractNote": "Large language models (LLMs) struggle with the factual error during inference due to the lack of sufficient training data and the most updated knowledge, leading to the hallucination problem. Retrieval-Augmented Generation (RAG) has gained attention as a promising solution to address the limitation of LLMs, by retrieving relevant information from external source to generate more accurate answers to the questions. Given the pervasive presence of structured knowledge in the external source, considerable strides in RAG have been made to employ the techniques related to graphs and achieve more complex reasoning based on the topological information between knowledge entities. However, there is currently neither unified review examining the diverse roles of graphs in RAG, nor a comprehensive resource to help researchers navigate and contribute to this evolving field. This survey offers a novel perspective on the functionality of graphs within RAG and their impact on enhancing performance across a wide range of graph-structured data. It provides a detailed breakdown of the roles that graphs play in RAG, covering database construction, algorithms, pipelines, and tasks. Finally, it identifies current challenges and outline future research directions, aiming to inspire further developments in this field. Our graph-centered analysis highlights the commonalities and differences in existing methods, setting the stage for future researchers in areas such as graph learning, database systems, and natural language processing.",
 		"accessDate": "2026-03-14T17:41:05Z",
 		"archiveID": "arXiv:2504.10499",
-		"citationKey": "zhuGraphbasedApproachesFunctionalities2026",
+		"citationKey": "zhuGraphbasedApproachesFunctionalities2026a",
 		"collections": [
 			"Y8TQQBY3"
 		],
@@ -128,8 +128,8 @@
 		],
 		"date": "2026-01-21",
 		"dateAdded": "2026-03-14T17:41:05Z",
-		"dateModified": "2026-03-14T18:16:57Z",
-		"extra": "arXiv:2504.10499 [cs]",
+		"dateModified": "2026-11-18T01:45:40Z",
+		"extra": "arXiv:2504.10499 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2504.10499",
 		"itemType": "preprint",
 		"key": "VEJYJQ7A",
 		"language": "en",
