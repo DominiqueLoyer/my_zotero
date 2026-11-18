@@ -13,13 +13,14 @@ tags:
   - "Confidentialite des Donnees"
   - "Protection des Donnees"
   - "RGPD"
+  - "doi-fix:low-confidence"
 collections:
   - "completeLoyer_100126 2026-11-12, 5:14:18 p.m."
 zotero-key: "ZSXZKWY5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZSXZKWY5"
 date-added: "2026-11-12 22:14:19"
-date-modified: "2026-11-12 22:14:19"
+date-modified: "2026-11-18 01:42:08"
 ---
 
 # Enjeux de la confidentialite des donnees

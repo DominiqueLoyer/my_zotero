@@ -91,7 +91,7 @@
 			}
 		],
 		"dateAdded": "2025-03-31T18:35:35Z",
-		"dateModified": "2025-03-31T18:58:09Z",
+		"dateModified": "2026-11-18T01:42:11Z",
 		"itemType": "document",
 		"key": "7VR8ISER",
 		"relations": {
@@ -101,6 +101,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
