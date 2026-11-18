@@ -18,6 +18,7 @@ tags:
   - "Ontology"
   - "RDF"
   - "Web Science"
+  - "doi-fix:low-confidence"
   - "knowkeldge representation"
   - "notion"
   - "ontology"
@@ -36,7 +37,7 @@ zotero-key: "VPMCRPUJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VPMCRPUJ"
 date-added: "2026-01-10 20:17:20"
-date-modified: "2026-11-09 15:01:07"
+date-modified: "2026-11-18 01:46:21"
 ---
 
 # Hybrid system ontology for information source verification: An OWL-based knowledge representation

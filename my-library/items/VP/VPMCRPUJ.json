@@ -189,7 +189,7 @@
 	},
 	"zotero": {
 		"DOI": "10.13140/RG.2.2.22926.47680",
-		"citationKey": "loyerHybridSystemOntology2025",
+		"citationKey": "loyerHybridSystemOntology2025b",
 		"collections": [
 			"6IRQRQI8",
 			"7XVYZYFG",
@@ -210,7 +210,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-10T20:17:20Z",
-		"dateModified": "2026-11-09T15:01:07Z",
+		"dateModified": "2026-11-18T01:46:21Z",
 		"extra": "ISBN: 978-1-0699945-1-6\ntitleTranslation: Hybrid system ontology for information source verification: An OWL-based knowledge representation",
 		"itemType": "journalArticle",
 		"key": "VPMCRPUJ",
@@ -263,6 +263,10 @@
 			},
 			{
 				"tag": "Web Science"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "knowkeldge representation"

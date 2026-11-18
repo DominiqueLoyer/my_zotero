@@ -3,6 +3,7 @@ title: "Identité numérique | Une solution, mille interrogations | La Presse"
 item-type: "webpage"
 url: "https://www.lapresse.ca/contexte/2022-11-20/identite-numerique/une-solution-mille-interrogations.php"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Ma thèse"
@@ -12,7 +13,7 @@ zotero-key: "IWWRBNU9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IWWRBNU9"
 date-added: "2024-11-22 19:13:09"
-date-modified: "2025-12-05 22:33:36"
+date-modified: "2026-11-18 01:46:25"
 ---
 
 # Identité numérique | Une solution, mille interrogations | La Presse

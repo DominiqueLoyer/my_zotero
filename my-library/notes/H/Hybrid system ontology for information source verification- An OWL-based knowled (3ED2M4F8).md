@@ -14,13 +14,14 @@ tags:
   - "OWL Ontology"
   - "RDF"
   - "Web Science"
+  - "doi-fix:low-confidence"
 collections:
   - "completeLoyer_100126 2026-11-12, 5:14:18 p.m."
 zotero-key: "3ED2M4F8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3ED2M4F8"
 date-added: "2026-11-12 22:14:19"
-date-modified: "2026-11-12 22:14:19"
+date-modified: "2026-11-18 01:46:25"
 ---
 
 # Hybrid system ontology for information source verification: An OWL-based knowledge representation
