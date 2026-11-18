@@ -9,6 +9,7 @@ year: "2015"
 publication: "Artificial intelligence : A modern approach."
 publisher: "Prentice- Hall"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours A24/DIC9001/Russell"
@@ -16,7 +17,7 @@ zotero-key: "7NSIEARN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7NSIEARN"
 date-added: "2024-12-11 19:33:09"
-date-modified: "2025-12-05 22:26:43"
+date-modified: "2026-11-18 01:46:38"
 ---
 
 # Intelligent agents :ch. 2

@@ -12,6 +12,7 @@ year: "2023"
 publication: "Proceedings of the 31st European Conference on Information Systems (ECIS)"
 url: "https://aisel.aisnet.org/ecis2023_rp/310/"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -22,7 +23,7 @@ zotero-key: "HACCLC3M"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/HACCLC3M"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-09 15:00:58"
+date-modified: "2026-11-18 01:46:42"
 ---
 
 # Interactive and Conversational Explainable AI (ICXAI): A Research Agenda

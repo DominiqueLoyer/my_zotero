@@ -1289,13 +1289,17 @@
 		],
 		"date": "2015",
 		"dateAdded": "2024-12-11T19:33:09Z",
-		"dateModified": "2025-12-05T22:26:43Z",
+		"dateModified": "2026-11-18T01:46:38Z",
 		"edition": "3rd",
 		"itemType": "bookSection",
 		"key": "7NSIEARN",
 		"publisher": "Prentice- Hall",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

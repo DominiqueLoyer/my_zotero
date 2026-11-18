@@ -121,7 +121,7 @@
 		],
 		"date": "2023",
 		"dateAdded": "2025-10-10T19:01:28Z",
-		"dateModified": "2026-11-09T15:00:58Z",
+		"dateModified": "2026-11-18T01:46:42Z",
 		"itemType": "conferencePaper",
 		"key": "HACCLC3M",
 		"proceedingsTitle": "Proceedings of the 31st European Conference on Information Systems (ECIS)",
@@ -135,6 +135,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

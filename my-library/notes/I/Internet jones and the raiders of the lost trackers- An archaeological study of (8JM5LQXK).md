@@ -11,6 +11,7 @@ year: "2016"
 url: "https://www.semanticscholar.org/paper/d896fe7a868a10efade1ed9f55f68db2a80574fa"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
@@ -18,7 +19,7 @@ zotero-key: "8JM5LQXK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8JM5LQXK"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-11-17 17:56:28"
+date-modified: "2026-11-18 01:46:45"
 ---
 
 # Internet jones and the raiders of the lost trackers: An archaeological study of web tracking from 1996 to 2016
