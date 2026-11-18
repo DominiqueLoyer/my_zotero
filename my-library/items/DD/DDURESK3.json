@@ -89,13 +89,17 @@
 			}
 		],
 		"dateAdded": "2025-09-18T18:05:51Z",
-		"dateModified": "2026-01-09T19:16:42Z",
+		"dateModified": "2026-11-18T01:44:12Z",
 		"itemType": "journalArticle",
 		"key": "DDURESK3",
 		"language": "fr",
 		"libraryCatalog": "Zotero",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

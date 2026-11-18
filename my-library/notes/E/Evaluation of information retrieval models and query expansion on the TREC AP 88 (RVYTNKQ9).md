@@ -7,6 +7,7 @@ date: "2025"
 year: "2025"
 publication: "https://doi.org/10.13140/RG.2.2.22608.62721. |. ISBN : 978-1-0699904-5-7"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -15,7 +16,7 @@ zotero-key: "RVYTNKQ9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RVYTNKQ9"
 date-added: "2026-01-03 00:11:30"
-date-modified: "2026-11-08 16:13:40"
+date-modified: "2026-11-18 01:44:08"
 ---
 
 # Evaluation of information retrieval models and query expansion on the TREC AP 88-90 collection

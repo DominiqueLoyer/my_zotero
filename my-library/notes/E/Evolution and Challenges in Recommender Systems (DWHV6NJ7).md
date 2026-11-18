@@ -5,7 +5,7 @@ authors:
   - "Ekstrand, Michael D. and others"
 date: "2025"
 year: "2025"
-doi: "10.1109/iccica67008.2025.11337872"
+doi: "10.1109/ICCICA67008.2025.11337872"
 tags:
   - "notion"
 collections:
@@ -14,7 +14,7 @@ zotero-key: "DWHV6NJ7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DWHV6NJ7"
 date-added: "2026-02-25 21:36:08"
-date-modified: "2026-11-17 17:53:57"
+date-modified: "2026-11-18 01:44:11"
 ---
 
 # Evolution and Challenges in Recommender Systems
@@ -25,6 +25,7 @@ date-modified: "2026-11-17 17:53:57"
 
 Importé via SysCRED.
 OpenAlex: W7124992146
+DOI Fix previous DOI: 10.1109/iccica67008.2025.11337872
 
 ## Attachments
 

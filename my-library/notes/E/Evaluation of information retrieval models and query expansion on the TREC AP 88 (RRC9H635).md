@@ -39,7 +39,7 @@ zotero-key: "RRC9H635"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RRC9H635"
 date-added: "2026-01-10 20:17:20"
-date-modified: "2026-11-17 15:07:39"
+date-modified: "2026-11-18 01:44:05"
 ---
 
 # Evaluation of information retrieval models and query expansion on the TREC AP 88-90 collection

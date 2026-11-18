@@ -74,7 +74,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-11-12T22:14:19Z",
-		"dateModified": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-18T01:44:08Z",
 		"extra": "ISBN: 978-1-0699904-5-7",
 		"itemType": "journalArticle",
 		"key": "VP8ZMD9N",
@@ -103,6 +103,10 @@
 			},
 			{
 				"tag": "Vector Space Models"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			}
 		],
 		"title": "Evaluation of information retrieval models and query expansion on the TREC AP 88-90 collection",

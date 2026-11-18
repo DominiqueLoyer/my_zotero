@@ -18,7 +18,7 @@ zotero-key: "S9U8V8S9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/S9U8V8S9"
 date-added: "2025-11-29 21:17:06"
-date-modified: "2026-11-17 15:07:42"
+date-modified: "2026-11-18 01:44:15"
 ---
 
 # Examen général de doctorat en informatique cognitive (DIC-9401)

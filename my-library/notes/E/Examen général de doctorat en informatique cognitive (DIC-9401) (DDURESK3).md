@@ -5,6 +5,7 @@ authors:
   - "Loyer, Dominique"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "DDURESK3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DDURESK3"
 date-added: "2025-09-18 18:05:51"
-date-modified: "2026-01-09 19:16:42"
+date-modified: "2026-11-18 01:44:12"
 ---
 
 # Examen général de doctorat en informatique cognitive (DIC-9401)
