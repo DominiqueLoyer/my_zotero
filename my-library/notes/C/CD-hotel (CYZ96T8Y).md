@@ -13,7 +13,7 @@ zotero-key: "CYZ96T8Y"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/CYZ96T8Y"
 date-added: "2025-03-31 19:04:00"
-date-modified: "2026-11-13 19:33:57"
+date-modified: "2026-11-18 01:36:21"
 ---
 
 # CD-hotel

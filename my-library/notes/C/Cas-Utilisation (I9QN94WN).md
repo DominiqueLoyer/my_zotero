@@ -13,7 +13,7 @@ zotero-key: "I9QN94WN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/I9QN94WN"
 date-added: "2025-03-31 19:03:41"
-date-modified: "2026-11-13 19:33:38"
+date-modified: "2026-11-18 01:36:10"
 ---
 
 # Cas-Utilisation

@@ -12,7 +12,7 @@ zotero-key: "U24TECDC"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/U24TECDC"
 date-added: "2025-03-17 17:30:40"
-date-modified: "2026-11-13 19:33:37"
+date-modified: "2026-11-18 01:36:09"
 ---
 
 # Cas d’utilisation : Gérer Bon de commande
