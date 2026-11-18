@@ -26,6 +26,7 @@ language: "en"
 tags:
   - "Computer Science - Artificial Intelligence"
   - "Computer Science - Computation and Language"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/240226/PDFs"
@@ -35,7 +36,7 @@ zotero-key: "EBGV973R"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EBGV973R"
 date-added: "2026-03-14 17:34:37"
-date-modified: "2026-11-09 15:00:33"
+date-modified: "2026-11-18 01:51:52"
 ---
 
 # Large Language Models and Knowledge Graphs: Opportunities and Challenges

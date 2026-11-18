@@ -16,6 +16,7 @@ tags:
   - "Computer Science - Artificial Intelligence"
   - "Computer Science - Computer Vision and Pattern Recognition"
   - "Computer Science - Machine Learning"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Ma thèse"
@@ -24,7 +25,7 @@ zotero-key: "6EGTCDXL"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6EGTCDXL"
 date-added: "2024-11-02 17:29:21"
-date-modified: "2025-12-05 22:26:35"
+date-modified: "2026-11-18 01:51:56"
 ---
 
 # Layerwise Early Stopping for Test Time Adaptation

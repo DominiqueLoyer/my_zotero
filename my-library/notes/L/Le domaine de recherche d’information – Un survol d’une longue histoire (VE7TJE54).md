@@ -5,6 +5,7 @@ authors:
   - "Nie, Jian-Yun"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "VE7TJE54"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VE7TJE54"
 date-added: "2025-04-03 07:41:43"
-date-modified: "2025-12-29 23:57:32"
+date-modified: "2026-11-18 01:52:02"
 ---
 
 # Le domaine de recherche d’information – Un survol d’une longue histoire

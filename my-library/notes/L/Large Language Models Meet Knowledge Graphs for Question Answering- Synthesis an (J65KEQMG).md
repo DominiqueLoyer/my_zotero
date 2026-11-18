@@ -7,6 +7,7 @@ authors:
   - "Wu, Tianxing"
   - "Khan, Arijit"
   - "Wang, Haofen"
+doi: "10.18653/v1/2025.emnlp-main.1249"
 language: "en"
 tags:
   - "notion"
@@ -16,7 +17,7 @@ zotero-key: "J65KEQMG"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/J65KEQMG"
 date-added: "2026-03-14 17:40:46"
-date-modified: "2026-03-14 18:17:12"
+date-modified: "2026-11-18 01:51:54"
 ---
 
 # Large Language Models Meet Knowledge Graphs for Question Answering: Synthesis and Opportunities

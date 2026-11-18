@@ -14,7 +14,7 @@ zotero-key: "V5NB4X8K"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/V5NB4X8K"
 date-added: "2026-03-05 01:00:10"
-date-modified: "2026-11-09 15:00:39"
+date-modified: "2026-11-18 01:52:02"
 ---
 
 # Le droit face aux algorithmes
