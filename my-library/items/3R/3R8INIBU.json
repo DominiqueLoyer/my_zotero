@@ -59,12 +59,16 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-03-06T17:07:28Z",
-		"dateModified": "2026-03-25T21:28:52Z",
+		"dateModified": "2026-11-18T01:57:32Z",
 		"extra": "Importé via SysCRED.",
 		"itemType": "journalArticle",
 		"key": "3R8INIBU",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

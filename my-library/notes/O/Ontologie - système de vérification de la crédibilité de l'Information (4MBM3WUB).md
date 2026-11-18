@@ -9,6 +9,7 @@ publication: "https://doi.org/10.13140/RG.2.2.25249.72807 | ISBN : 978-1-0699945
 pages: "22"
 url: "https://doi.org/10.13140/RG.2.2.25249.72807"
 tags:
+  - "doi-fix:low-confidence"
   - "⛔ No DOI found"
 collections:
   - "GS_MyPapers_020126"
@@ -16,7 +17,7 @@ zotero-key: "4MBM3WUB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4MBM3WUB"
 date-added: "2026-01-03 00:11:30"
-date-modified: "2026-01-09 19:17:36"
+date-modified: "2026-11-18 01:57:31"
 ---
 
 # Ontologie - système de vérification de la crédibilité de l'Information

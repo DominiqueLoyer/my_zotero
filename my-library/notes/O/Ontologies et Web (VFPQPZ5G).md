@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -12,7 +13,7 @@ zotero-key: "VFPQPZ5G"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VFPQPZ5G"
 date-added: "2025-03-31 18:38:11"
-date-modified: "2025-03-31 18:58:24"
+date-modified: "2026-11-18 01:57:33"
 ---
 
 # Ontologies et Web
