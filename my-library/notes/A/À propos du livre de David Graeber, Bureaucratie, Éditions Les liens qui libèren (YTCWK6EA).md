@@ -15,7 +15,7 @@ zotero-key: "YTCWK6EA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/YTCWK6EA"
 date-added: "2025-05-06 20:11:38"
-date-modified: "2026-11-13 19:29:49"
+date-modified: "2026-11-18 01:33:02"
 ---
 
 # À propos du livre de David Graeber, Bureaucratie, Éditions Les liens qui libèrent,

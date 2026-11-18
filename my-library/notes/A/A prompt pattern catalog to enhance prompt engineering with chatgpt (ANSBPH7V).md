@@ -15,7 +15,7 @@ zotero-key: "ANSBPH7V"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ANSBPH7V"
 date-added: "2026-02-25 21:57:18"
-date-modified: "2026-11-13 19:29:45"
+date-modified: "2026-11-18 01:32:58"
 ---
 
 # A prompt pattern catalog to enhance prompt engineering with chatgpt

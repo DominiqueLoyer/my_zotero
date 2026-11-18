@@ -27,7 +27,7 @@ zotero-key: "BNTD76WM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/BNTD76WM"
 date-added: "2025-03-18 22:00:40"
-date-modified: "2026-11-13 19:29:42"
+date-modified: "2026-11-18 01:32:55"
 ---
 
 # A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT

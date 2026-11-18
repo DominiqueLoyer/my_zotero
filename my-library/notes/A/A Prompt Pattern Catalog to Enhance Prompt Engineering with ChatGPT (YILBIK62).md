@@ -26,7 +26,7 @@ zotero-key: "YILBIK62"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/YILBIK62"
 date-added: "2026-03-14 17:40:07"
-date-modified: "2026-11-13 19:29:45"
+date-modified: "2026-11-18 01:32:58"
 ---
 
 # A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT
