@@ -126,7 +126,7 @@
 	"zotero": {
 		"DOI": "10.13140/RG.2.2.29876.43200",
 		"ISBN": "978-1-0699945-3-0",
-		"citationKey": "loyerEnjeuxConfidentialiteDonnees2025",
+		"citationKey": "loyerEnjeuxConfidentialiteDonnees2025b",
 		"collections": [
 			"8UCLQEMM",
 			"KKPWSFMI"
@@ -140,7 +140,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-10T20:17:21Z",
-		"dateModified": "2026-01-16T18:01:04Z",
+		"dateModified": "2026-11-18T01:42:04Z",
 		"extra": "titleTranslation: Data Privacy Issues",
 		"itemType": "conferencePaper",
 		"key": "RC9MJ5VM",
@@ -165,6 +165,10 @@
 			},
 			{
 				"tag": "RGPD"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

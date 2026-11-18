@@ -82,7 +82,7 @@
 		],
 		"date": "1998",
 		"dateAdded": "2025-10-10T19:01:25Z",
-		"dateModified": "2026-11-09T15:08:10Z",
+		"dateModified": "2026-11-18T01:42:04Z",
 		"itemType": "conferencePaper",
 		"key": "AL48WVIN",
 		"pages": "43–52",
@@ -97,6 +97,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

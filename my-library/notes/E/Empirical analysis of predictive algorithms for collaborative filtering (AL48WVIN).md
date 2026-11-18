@@ -10,6 +10,7 @@ year: "1998"
 publication: "Proceedings of the Fourteenth conference on Uncertainty in artificial intelligence"
 pages: "43–52"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -20,7 +21,7 @@ zotero-key: "AL48WVIN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/AL48WVIN"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-09 15:08:10"
+date-modified: "2026-11-18 01:42:04"
 ---
 
 # Empirical analysis of predictive algorithms for collaborative filtering

@@ -6,6 +6,7 @@ authors:
 date: "1968"
 year: "1968"
 publisher: "Bedminster Press"
+doi: "10.1002/9780470755679.ch3"
 tags:
   - "notion"
 collections:
@@ -16,7 +17,7 @@ zotero-key: "RNBVB5DA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RNBVB5DA"
 date-added: "2025-10-10 19:01:29"
-date-modified: "2026-11-17 17:52:25"
+date-modified: "2026-11-18 01:41:57"
 ---
 
 # Economy and Society: An Outline of Interpretive Sociology

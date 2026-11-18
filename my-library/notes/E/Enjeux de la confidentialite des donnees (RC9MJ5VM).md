@@ -14,6 +14,7 @@ tags:
   - "Confidentialite des Donnees"
   - "Protection des Donnees"
   - "RGPD"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "completeLoyer_100126"
@@ -22,7 +23,7 @@ zotero-key: "RC9MJ5VM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RC9MJ5VM"
 date-added: "2026-01-10 20:17:21"
-date-modified: "2026-01-16 18:01:04"
+date-modified: "2026-11-18 01:42:04"
 ---
 
 # Enjeux de la confidentialite des donnees

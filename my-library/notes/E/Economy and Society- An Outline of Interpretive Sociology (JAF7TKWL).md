@@ -6,6 +6,7 @@ authors:
 date: "1978"
 year: "1978"
 publisher: "University of California Press"
+doi: "10.1002/9780470755679.ch3"
 tags:
   - "notion"
 collections:
@@ -16,7 +17,7 @@ zotero-key: "JAF7TKWL"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JAF7TKWL"
 date-added: "2025-10-10 19:01:29"
-date-modified: "2026-11-09 15:08:07"
+date-modified: "2026-11-18 01:41:57"
 ---
 
 # Economy and Society: An Outline of Interpretive Sociology

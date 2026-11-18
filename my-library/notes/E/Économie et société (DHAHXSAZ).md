@@ -5,6 +5,7 @@ authors:
   - "Weber, Max"
 date: "2019"
 year: "2019"
+doi: "10.2307/3322159"
 tags:
   - "notion"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "DHAHXSAZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DHAHXSAZ"
 date-added: "2026-03-05 01:10:51"
-date-modified: "2026-03-25 21:28:56"
+date-modified: "2026-11-18 01:41:54"
 ---
 
 # Économie et société

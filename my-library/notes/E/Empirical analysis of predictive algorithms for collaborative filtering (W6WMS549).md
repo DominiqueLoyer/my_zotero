@@ -5,7 +5,7 @@ authors:
   - "Breese, John S. and Heckerman, David and Kadie, Carl"
 date: "2002"
 year: "2002"
-doi: "10.1023/a:1020443909834"
+doi: "10.1023/A:1020443909834"
 url: "https://people.eecs.berkeley.edu/~jordan/papers/98-UAI-collab-filtering.pdf"
 tags:
   - "notion"
@@ -15,7 +15,7 @@ zotero-key: "W6WMS549"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/W6WMS549"
 date-added: "2026-02-25 21:33:27"
-date-modified: "2026-03-25 21:29:53"
+date-modified: "2026-11-18 01:42:04"
 ---
 
 # Empirical analysis of predictive algorithms for collaborative filtering
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:29:53"
 ## Extra
 
 Importé via SysCRED.
+DOI Fix previous DOI: 10.1023/a:1020443909834
 
 ## Attachments
 

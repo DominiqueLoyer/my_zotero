@@ -130,7 +130,7 @@
 		],
 		"date": "2013-09-07",
 		"dateAdded": "2026-03-14T17:34:56Z",
-		"dateModified": "2026-11-09T15:03:37Z",
+		"dateModified": "2026-11-18T01:42:00Z",
 		"extra": "arXiv:1301.3781 [cs]",
 		"itemType": "preprint",
 		"key": "YRJKRYEQ",
@@ -157,6 +157,10 @@
 		"tags": [
 			{
 				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:low-confidence",
 				"type": 1
 			},
 			{

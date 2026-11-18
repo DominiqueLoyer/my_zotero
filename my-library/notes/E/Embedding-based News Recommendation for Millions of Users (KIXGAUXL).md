@@ -21,7 +21,7 @@ zotero-key: "KIXGAUXL"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KIXGAUXL"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-17 17:52:27"
+date-modified: "2026-11-18 01:42:00"
 ---
 
 # Embedding-based News Recommendation for Millions of Users

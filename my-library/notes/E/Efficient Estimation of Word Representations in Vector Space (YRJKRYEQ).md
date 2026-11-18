@@ -13,6 +13,7 @@ url: "http://arxiv.org/abs/1301.3781"
 language: "en"
 tags:
   - "Computer Science - Computation and Language"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/beamer_modelisation_030326/PDFs"
@@ -23,7 +24,7 @@ zotero-key: "YRJKRYEQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/YRJKRYEQ"
 date-added: "2026-03-14 17:34:56"
-date-modified: "2026-11-09 15:03:37"
+date-modified: "2026-11-18 01:42:00"
 ---
 
 # Efficient Estimation of Word Representations in Vector Space
