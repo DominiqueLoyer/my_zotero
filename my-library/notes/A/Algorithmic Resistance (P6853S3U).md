@@ -16,7 +16,7 @@ zotero-key: "P6853S3U"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/P6853S3U"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-13 19:31:27"
+date-modified: "2026-11-18 01:34:37"
 ---
 
 # Algorithmic Resistance

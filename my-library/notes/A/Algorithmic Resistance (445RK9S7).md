@@ -14,7 +14,7 @@ zotero-key: "445RK9S7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/445RK9S7"
 date-added: "2026-02-25 21:38:20"
-date-modified: "2026-11-13 19:31:35"
+date-modified: "2026-11-18 01:34:40"
 ---
 
 # Algorithmic Resistance

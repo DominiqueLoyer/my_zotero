@@ -11,7 +11,7 @@ zotero-key: "R9ICR8AI"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/R9ICR8AI"
 date-added: "2025-12-16 16:53:18"
-date-modified: "2026-11-13 19:31:40"
+date-modified: "2026-11-18 01:34:43"
 ---
 
 # Analyse de Votre Code Initial et des Adaptations
