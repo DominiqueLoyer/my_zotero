@@ -8,6 +8,7 @@ year: "2017"
 url: "https://www.semanticscholar.org/paper/dc82cdbc8a8a8f3f8899f9dabcd9409a4461b486"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
@@ -15,7 +16,7 @@ zotero-key: "ET7HUSXW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ET7HUSXW"
 date-added: "2026-01-08 20:14:06"
-date-modified: "2026-11-17 17:58:56"
+date-modified: "2026-11-18 01:54:13"
 ---
 
 # Measuring and improving security and privacy on the web: Case studies with QR codes, third-party tracking, and archives

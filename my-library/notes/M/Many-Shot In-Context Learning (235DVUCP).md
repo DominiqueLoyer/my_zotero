@@ -19,6 +19,7 @@ authors:
   - "Larochelle, Hugo"
 date: "2024-05-22"
 year: "2024"
+doi: "10.52202/079017-2447"
 url: "http://arxiv.org/abs/2404.11018"
 language: "en"
 tags:
@@ -32,7 +33,7 @@ zotero-key: "235DVUCP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/235DVUCP"
 date-added: "2024-10-15 19:08:11"
-date-modified: "2025-12-05 22:37:46"
+date-modified: "2026-11-18 01:54:07"
 ---
 
 # Many-Shot In-Context Learning

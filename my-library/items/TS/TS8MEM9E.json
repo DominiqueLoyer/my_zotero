@@ -111,11 +111,11 @@
 		"zoteroURI": "zotero://select/library/items/TS8MEM9E"
 	},
 	"zotero": {
-		"DOI": "10.48550/arXiv.1804.00344",
+		"DOI": "10.18653/v1/p18-4020",
 		"abstractNote": "We present Marian, an efficient and self-contained Neural Machine Translation framework with an integrated automatic differentiation engine based on dynamic computation graphs. Marian is written entirely in C++. We describe the design of the encoder-decoder framework and demonstrate that a research-friendly toolkit can achieve high training and translation speed.",
 		"accessDate": "2026-03-14T17:35:54Z",
 		"archiveID": "arXiv:1804.00344",
-		"citationKey": "junczys-dowmuntMarianFastNeural2018",
+		"citationKey": "junczys-dowmuntMarianFastNeural2018a",
 		"collections": [
 			"VENCFFG7"
 		],
@@ -183,8 +183,8 @@
 		],
 		"date": "2018-04-04",
 		"dateAdded": "2026-03-14T17:35:54Z",
-		"dateModified": "2026-03-14T18:20:00Z",
-		"extra": "arXiv:1804.00344 [cs]",
+		"dateModified": "2026-11-18T01:54:09Z",
+		"extra": "arXiv:1804.00344 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.1804.00344",
 		"itemType": "preprint",
 		"key": "TS8MEM9E",
 		"libraryCatalog": "arXiv.org",

@@ -12,6 +12,7 @@ doi: "10.48550/arXiv.2410.22077"
 url: "http://arxiv.org/abs/2410.22077"
 tags:
   - "Computer Science - Artificial Intelligence"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/gs_080326/PDFs"
@@ -19,7 +20,7 @@ zotero-key: "S8ZFQEFU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/S8ZFQEFU"
 date-added: "2026-03-14 17:40:30"
-date-modified: "2026-03-14 18:17:21"
+date-modified: "2026-11-18 01:54:08"
 ---
 
 # Mapping the Neuro-Symbolic AI Landscape by Architectures: A Handbook on Augmenting Deep Learning Through Symbolic Reasoning

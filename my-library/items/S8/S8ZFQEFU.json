@@ -107,7 +107,7 @@
 		"abstractNote": "Integrating symbolic techniques with statistical ones is a long-standing problem in artificial intelligence. The motivation is that the strengths of either area match the weaknesses of the other, and $\\unicode{x2013}$ by combining the two $\\unicode{x2013}$ the weaknesses of either method can be limited. Neuro-symbolic AI focuses on this integration where the statistical methods are in particular neural networks. In recent years, there has been significant progress in this research field, where neuro-symbolic systems outperformed logical or neural models alone. Yet, neuro-symbolic AI is, comparatively speaking, still in its infancy and has not been widely adopted by machine learning practitioners. In this survey, we present the first mapping of neuro-symbolic techniques into families of frameworks based on their architectures, with several benefits: Firstly, it allows us to link different strengths of frameworks to their respective architectures. Secondly, it allows us to illustrate how engineers can augment their neural networks while treating the symbolic methods as black-boxes. Thirdly, it allows us to map most of the field so that future researchers can identify closely related frameworks.",
 		"accessDate": "2026-03-14T17:40:30Z",
 		"archiveID": "arXiv:2410.22077",
-		"citationKey": "feldsteinMappingNeuroSymbolicAI2024",
+		"citationKey": "feldsteinMappingNeuroSymbolicAI2024a",
 		"collections": [
 			"Y8TQQBY3"
 		],
@@ -135,7 +135,7 @@
 		],
 		"date": "2024-10-29",
 		"dateAdded": "2026-03-14T17:40:30Z",
-		"dateModified": "2026-03-14T18:17:21Z",
+		"dateModified": "2026-11-18T01:54:08Z",
 		"extra": "arXiv:2410.22077 [cs]",
 		"itemType": "preprint",
 		"key": "S8ZFQEFU",
@@ -150,6 +150,10 @@
 		"tags": [
 			{
 				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:low-confidence",
 				"type": 1
 			},
 			{

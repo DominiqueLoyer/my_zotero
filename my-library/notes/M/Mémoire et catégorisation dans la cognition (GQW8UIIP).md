@@ -5,6 +5,7 @@ authors:
   - "Robert, Par Serge"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "GQW8UIIP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GQW8UIIP"
 date-added: "2024-12-01 03:38:18"
-date-modified: "2025-12-29 23:57:36"
+date-modified: "2026-11-18 01:54:13"
 ---
 
 # Mémoire et catégorisation dans la cognition

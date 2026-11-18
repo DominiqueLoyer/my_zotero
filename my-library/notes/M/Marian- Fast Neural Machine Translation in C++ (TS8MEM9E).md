@@ -16,7 +16,7 @@ authors:
   - "Birch, Alexandra"
 date: "2018-04-04"
 year: "2018"
-doi: "10.48550/arXiv.1804.00344"
+doi: "10.18653/v1/p18-4020"
 url: "http://arxiv.org/abs/1804.00344"
 tags:
   - "Computer Science - Computation and Language"
@@ -27,7 +27,7 @@ zotero-key: "TS8MEM9E"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TS8MEM9E"
 date-added: "2026-03-14 17:35:54"
-date-modified: "2026-03-14 18:20:00"
+date-modified: "2026-11-18 01:54:09"
 ---
 
 # Marian: Fast Neural Machine Translation in C++
@@ -41,6 +41,7 @@ We present Marian, an efficient and self-contained Neural Machine Translation fr
 ## Extra
 
 arXiv:1804.00344 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.1804.00344
 
 ## Notes
 

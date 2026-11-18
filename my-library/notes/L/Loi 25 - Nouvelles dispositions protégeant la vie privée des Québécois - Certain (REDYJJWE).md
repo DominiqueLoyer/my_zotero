@@ -6,6 +6,7 @@ authors:
 url: "https://www.newswire.ca/fr/news-releases/loi-25-nouvelles-dispositions-protegeant-la-vie-privee-des-quebecois-certaines-dispositions-entrent-en-vigueur-aujourd-hui-850231083.html"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Ma thèse"
@@ -15,7 +16,7 @@ zotero-key: "REDYJJWE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/REDYJJWE"
 date-added: "2024-11-22 19:17:23"
-date-modified: "2025-12-05 22:32:16"
+date-modified: "2026-11-18 01:54:05"
 ---
 
 # Loi 25 - Nouvelles dispositions protégeant la vie privée des Québécois - Certaines dispositions entrent en vigueur aujourd'hui

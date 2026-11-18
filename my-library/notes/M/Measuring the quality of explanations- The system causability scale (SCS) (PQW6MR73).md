@@ -19,7 +19,7 @@ zotero-key: "PQW6MR73"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PQW6MR73"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-09 14:59:34"
+date-modified: "2026-11-18 01:54:13"
 ---
 
 # Measuring the quality of explanations: The system causability scale (SCS)
