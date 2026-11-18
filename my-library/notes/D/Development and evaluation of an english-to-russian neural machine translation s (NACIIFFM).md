@@ -4,6 +4,7 @@ item-type: "journalArticle"
 authors:
   - "researchgate.net, DS Loyer -"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -12,7 +13,7 @@ zotero-key: "NACIIFFM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/NACIIFFM"
 date-added: "2026-04-17 21:00:10"
-date-modified: "2026-11-08 16:11:43"
+date-modified: "2026-11-18 01:40:08"
 ---
 
 # Development and evaluation of an english-to-russian neural machine translation system
