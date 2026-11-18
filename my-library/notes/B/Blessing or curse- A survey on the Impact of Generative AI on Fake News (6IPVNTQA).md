@@ -14,7 +14,7 @@ zotero-key: "6IPVNTQA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6IPVNTQA"
 date-added: "2026-02-26 20:18:50"
-date-modified: "2026-11-17 17:50:41"
+date-modified: "2026-11-18 01:35:42"
 ---
 
 # Blessing or curse? A survey on the Impact of Generative AI on Fake News

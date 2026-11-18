@@ -12,7 +12,7 @@ zotero-key: "J5VFAXVD"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/J5VFAXVD"
 date-added: "2026-03-03 23:18:55"
-date-modified: "2026-11-17 17:50:42"
+date-modified: "2026-11-18 01:35:45"
 ---
 
 # Blessing or curse? A survey on the Impact of Generative AI on Fake News
