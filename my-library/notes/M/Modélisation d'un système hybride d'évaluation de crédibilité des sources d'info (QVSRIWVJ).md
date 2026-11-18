@@ -11,12 +11,13 @@ doi: "10.13140/RG.2.2.18312.74244"
 url: "https://www.researchgate.net/publication/392330408_Modelisation_d%27un_systeme_hybride_d%27evaluation_de_credibilite_des_sources_d%27information_systeme_AINLP_et_systeme_a_base_de_regles_logiques?channel=doi&linkId=683df5ab6b5a287c3048cb20&showFulltext=true"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 zotero-key: "QVSRIWVJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QVSRIWVJ"
 date-added: "2026-01-09 19:13:09"
-date-modified: "2026-01-27 00:38:31"
+date-modified: "2026-11-18 01:55:07"
 ---
 
 # Modélisation d'un système hybride d'évaluation de crédibilité des sources d'information (système AI/NLP et système à base de règles logiques)
