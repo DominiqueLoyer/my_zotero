@@ -14,7 +14,7 @@ zotero-key: "VXUQWXZK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VXUQWXZK"
 date-added: "2026-03-08 21:25:39"
-date-modified: "2026-11-17 17:45:11"
+date-modified: "2026-11-18 01:32:30"
 ---
 
 # A comprehensive survey of retrieval-augmented generation (rag): Evolution, current landscape and future directions

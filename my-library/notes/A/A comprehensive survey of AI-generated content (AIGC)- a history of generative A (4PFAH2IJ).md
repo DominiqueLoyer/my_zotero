@@ -23,7 +23,7 @@ zotero-key: "4PFAH2IJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4PFAH2IJ"
 date-added: "2026-01-08 20:07:30"
-date-modified: "2026-11-13 19:29:08"
+date-modified: "2026-11-18 01:32:26"
 ---
 
 # A comprehensive survey of AI-generated content (AIGC): a history of generative AI from GAN to ChatGPT

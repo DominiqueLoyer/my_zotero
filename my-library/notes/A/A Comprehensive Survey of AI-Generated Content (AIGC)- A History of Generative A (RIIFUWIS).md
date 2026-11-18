@@ -25,7 +25,7 @@ zotero-key: "RIIFUWIS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RIIFUWIS"
 date-added: "2026-03-14 17:39:23"
-date-modified: "2026-11-13 19:29:05"
+date-modified: "2026-11-18 01:32:23"
 ---
 
 # A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT

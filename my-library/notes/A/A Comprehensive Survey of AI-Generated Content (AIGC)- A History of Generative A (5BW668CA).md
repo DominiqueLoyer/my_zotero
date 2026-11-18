@@ -15,7 +15,7 @@ zotero-key: "5BW668CA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5BW668CA"
 date-added: "2026-02-25 21:34:25"
-date-modified: "2026-11-13 19:29:11"
+date-modified: "2026-11-18 01:32:29"
 ---
 
 # A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT

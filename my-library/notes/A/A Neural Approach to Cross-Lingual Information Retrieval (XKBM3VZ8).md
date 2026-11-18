@@ -15,7 +15,7 @@ zotero-key: "XKBM3VZ8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XKBM3VZ8"
 date-added: "2025-03-20 18:03:09"
-date-modified: "2026-11-13 19:29:14"
+date-modified: "2026-11-18 01:32:34"
 ---
 
 # A Neural Approach to Cross-Lingual Information Retrieval
