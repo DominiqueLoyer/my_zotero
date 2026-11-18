@@ -114,7 +114,7 @@
 		],
 		"date": "2024",
 		"dateAdded": "2026-01-08T20:07:32Z",
-		"dateModified": "2026-11-17T17:57:34Z",
+		"dateModified": "2026-11-18T01:51:32Z",
 		"extra": "OpenAlex: W4296790950",
 		"itemType": "document",
 		"key": "BM7A356B",
@@ -126,6 +126,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

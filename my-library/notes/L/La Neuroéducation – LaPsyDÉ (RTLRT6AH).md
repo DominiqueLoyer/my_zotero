@@ -16,7 +16,7 @@ zotero-key: "RTLRT6AH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RTLRT6AH"
 date-added: "2024-11-27 00:55:40"
-date-modified: "2025-12-06 00:18:01"
+date-modified: "2026-11-18 01:51:25"
 ---
 
 # La Neuroéducation – LaPsyDÉ

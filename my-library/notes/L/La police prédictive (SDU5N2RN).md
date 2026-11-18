@@ -5,6 +5,7 @@ authors:
   - "Chambon, Margot"
 date: "2018"
 year: "2018"
+doi: "10.70675/2d0d91b7zf166z4b1az8711zb11b6e686869"
 tags:
   - "notion"
 collections:
@@ -14,7 +15,7 @@ zotero-key: "SDU5N2RN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SDU5N2RN"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-09 15:00:19"
+date-modified: "2026-11-18 01:51:25"
 ---
 
 # La police prédictive

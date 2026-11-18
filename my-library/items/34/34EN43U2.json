@@ -97,7 +97,7 @@
 		],
 		"date": "2019",
 		"dateAdded": "2025-10-10T19:01:27Z",
-		"dateModified": "2026-11-09T15:00:16Z",
+		"dateModified": "2026-11-18T01:51:24Z",
 		"itemType": "book",
 		"key": "34EN43U2",
 		"publisher": "Éditions de l'Observatoire",
@@ -111,6 +111,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

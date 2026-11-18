@@ -8,6 +8,7 @@ year: "2024"
 publisher: "La Quadrature du Net"
 url: "https://www.laquadrature.net/2024/01/18/la-police-predictive-en-france-contre-lopacite-et-les-discriminations-la-necessite-dune-interdiction/"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -15,7 +16,7 @@ zotero-key: "F3DQ5CUJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/F3DQ5CUJ"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-17 17:57:33"
+date-modified: "2026-11-18 01:51:28"
 ---
 
 # La police prédictive en France: contre l'opacité et les discriminations, la nécessité d'une interdiction

@@ -106,13 +106,17 @@
 		],
 		"date": "2024",
 		"dateAdded": "2025-10-10T19:01:27Z",
-		"dateModified": "2026-11-17T17:57:33Z",
+		"dateModified": "2026-11-18T01:51:28Z",
 		"extra": "OpenAlex: W4296790950",
 		"itemType": "document",
 		"key": "F3DQ5CUJ",
 		"publisher": "La Quadrature du Net",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
