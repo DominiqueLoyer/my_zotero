@@ -7,6 +7,7 @@ date: "2018"
 year: "2018"
 url: "https://www.declarationmontreal-iaresponsable.com/"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -14,7 +15,7 @@ zotero-key: "R9HHIPM6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/R9HHIPM6"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-17 17:51:31"
+date-modified: "2026-11-18 01:38:56"
 ---
 
 # Déclaration de Montréal pour un développement responsable de l'intelligence artificielle

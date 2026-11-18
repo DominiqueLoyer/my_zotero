@@ -5,6 +5,7 @@ authors:
   - "Robert, Par Serge"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "6MREVYB8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6MREVYB8"
 date-added: "2024-12-01 03:28:39"
-date-modified: "2025-12-29 23:57:36"
+date-modified: "2026-11-18 01:38:55"
 ---
 
 # De l’épistémologie générale des sciences à la création des sciences cognitives

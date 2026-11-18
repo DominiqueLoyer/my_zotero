@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -13,7 +14,7 @@ zotero-key: "P4RAK8SJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/P4RAK8SJ"
 date-added: "2025-03-31 18:36:12"
-date-modified: "2025-03-31 18:57:59"
+date-modified: "2026-11-18 01:38:55"
 ---
 
 # DC_Instit_Financiere

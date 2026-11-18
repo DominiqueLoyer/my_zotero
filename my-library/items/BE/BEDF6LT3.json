@@ -81,7 +81,7 @@
 		],
 		"date": "2024",
 		"dateAdded": "2026-01-08T20:07:34Z",
-		"dateModified": "2026-03-25T21:30:29Z",
+		"dateModified": "2026-11-18T01:38:51Z",
 		"itemType": "document",
 		"key": "BEDF6LT3",
 		"language": "fr-CA",
@@ -91,6 +91,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

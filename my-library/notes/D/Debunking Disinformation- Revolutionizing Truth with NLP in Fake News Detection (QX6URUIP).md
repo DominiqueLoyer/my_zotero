@@ -12,7 +12,7 @@ zotero-key: "QX6URUIP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QX6URUIP"
 date-added: "2026-04-24 21:29:18"
-date-modified: "2026-11-08 16:10:57"
+date-modified: "2026-11-18 01:38:55"
 ---
 
 # Debunking Disinformation: Revolutionizing Truth with NLP in Fake News Detection

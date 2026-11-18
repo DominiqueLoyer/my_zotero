@@ -131,11 +131,11 @@
 		"zoteroURI": "zotero://select/library/items/URM87PV5"
 	},
 	"zotero": {
-		"DOI": "10.48550/arXiv.2109.02846",
+		"DOI": "10.18653/v1/2021.emnlp-demo.21",
 		"abstractNote": "The scale, variety, and quantity of publicly-available NLP datasets has grown rapidly as researchers propose new tasks, larger models, and novel benchmarks. Datasets is a community library for contemporary NLP designed to support this ecosystem. Datasets aims to standardize end-user interfaces, versioning, and documentation, while providing a lightweight front-end that behaves similarly for small datasets as for internet-scale corpora. The design of the library incorporates a distributed, community-driven approach to adding datasets and documenting usage. After a year of development, the library now includes more than 650 unique datasets, has more than 250 contributors, and has helped support a variety of novel cross-dataset research projects and shared tasks. The library is available at https://github.com/huggingface/datasets.",
 		"accessDate": "2026-03-14T17:35:58Z",
 		"archiveID": "arXiv:2109.02846",
-		"citationKey": "lhoestDatasetsCommunityLibrary2021",
+		"citationKey": "lhoestDatasetsCommunityLibrary2021a",
 		"collections": [
 			"VENCFFG7"
 		],
@@ -303,8 +303,8 @@
 		],
 		"date": "2021-09-07",
 		"dateAdded": "2026-03-14T17:35:58Z",
-		"dateModified": "2026-03-14T18:19:54Z",
-		"extra": "arXiv:2109.02846 [cs]",
+		"dateModified": "2026-11-18T01:38:51Z",
+		"extra": "arXiv:2109.02846 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2109.02846",
 		"itemType": "preprint",
 		"key": "URM87PV5",
 		"libraryCatalog": "arXiv.org",

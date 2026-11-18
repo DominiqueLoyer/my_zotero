@@ -14,7 +14,7 @@ zotero-key: "2GXN7HCW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2GXN7HCW"
 date-added: "2026-02-25 21:52:23"
-date-modified: "2026-11-13 19:35:43"
+date-modified: "2026-11-18 01:38:45"
 ---
 
 # Data Poisoning: The New Frontier of AI-Powered Cyber Attacks

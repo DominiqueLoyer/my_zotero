@@ -36,7 +36,7 @@ authors:
   - "Wolf, Thomas"
 date: "2021-09-07"
 year: "2021"
-doi: "10.48550/arXiv.2109.02846"
+doi: "10.18653/v1/2021.emnlp-demo.21"
 url: "http://arxiv.org/abs/2109.02846"
 tags:
   - "Computer Science - Computation and Language"
@@ -47,7 +47,7 @@ zotero-key: "URM87PV5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/URM87PV5"
 date-added: "2026-03-14 17:35:58"
-date-modified: "2026-03-14 18:19:54"
+date-modified: "2026-11-18 01:38:51"
 ---
 
 # Datasets: A Community Library for Natural Language Processing
@@ -61,6 +61,7 @@ The scale, variety, and quantity of publicly-available NLP datasets has grown ra
 ## Extra
 
 arXiv:2109.02846 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2109.02846
 
 ## Notes
 

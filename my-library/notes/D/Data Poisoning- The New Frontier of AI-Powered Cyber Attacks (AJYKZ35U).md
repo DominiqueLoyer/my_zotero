@@ -15,7 +15,7 @@ zotero-key: "AJYKZ35U"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/AJYKZ35U"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-13 19:35:46"
+date-modified: "2026-11-18 01:38:48"
 ---
 
 # Data Poisoning: The New Frontier of AI-Powered Cyber Attacks

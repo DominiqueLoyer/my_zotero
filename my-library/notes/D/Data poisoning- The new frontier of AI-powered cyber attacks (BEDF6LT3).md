@@ -8,6 +8,7 @@ year: "2024"
 url: "https://www.topbots.com/data-poisoning-ai-cyber-attacks/"
 language: "fr-CA"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
 collections:
   - "references_dic9401"
@@ -15,7 +16,7 @@ zotero-key: "BEDF6LT3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/BEDF6LT3"
 date-added: "2026-01-08 20:07:34"
-date-modified: "2026-03-25 21:30:29"
+date-modified: "2026-11-18 01:38:51"
 ---
 
 # Data poisoning: The new frontier of AI-powered cyber attacks
