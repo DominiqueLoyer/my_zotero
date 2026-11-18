@@ -32,7 +32,7 @@
 		],
 		"date": "2026-01-07",
 		"dateAdded": "2026-04-17T20:25:49Z",
-		"dateModified": "2026-11-17T18:00:24Z",
+		"dateModified": "2026-11-18T01:56:51Z",
 		"extra": "OpenAlex: W7149535280",
 		"itemType": "journalArticle",
 		"key": "C76ECTJ9",
@@ -51,6 +51,10 @@
 			},
 			{
 				"tag": "Translation (biology)"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			}
 		],
 		"title": "NMT_Ru-En_v1",

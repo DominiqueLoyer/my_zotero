@@ -14,13 +14,14 @@ tags:
   - "Feature (linguistics)"
   - "Interpretation (philosophy)"
   - "Translation (biology)"
+  - "doi-fix:low-confidence"
 collections:
   - "works-ris-mLe7JLvNH2FvzENyBfxeRk"
 zotero-key: "C76ECTJ9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/C76ECTJ9"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-17 18:00:24"
+date-modified: "2026-11-18 01:56:51"
 ---
 
 # NMT_Ru-En_v1
