@@ -10,6 +10,7 @@ url: "https://doi.org/10.13140/RG.2.2.11827.95526"
 language: "fr"
 tags:
   - "Modélisation, Système hybride, Crédibilité de l'information,  intelligence artificielle explicable"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "mes papiers et beamers"
@@ -18,7 +19,7 @@ zotero-key: "N9MSVNK6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/N9MSVNK6"
 date-added: "2025-05-30 19:01:00"
-date-modified: "2025-05-30 19:01:57"
+date-modified: "2026-11-18 01:54:58"
 ---
 
 # Modélisation d'un Système d'Évaluation de la Crédibilité de l'Information - Projet 1 de modélisation, DIC-9251

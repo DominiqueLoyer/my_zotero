@@ -14,7 +14,7 @@ zotero-key: "2HBAR6AJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2HBAR6AJ"
 date-added: "2026-02-26 20:19:06"
-date-modified: "2026-11-09 14:59:08"
+date-modified: "2026-11-18 01:54:51"
 ---
 
 # Modeling Thematic Coherence: An Interpretable Approach for Analyzing Fake and LLM-Generated News

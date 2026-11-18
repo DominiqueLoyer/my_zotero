@@ -5,6 +5,7 @@ authors:
   - "Loyer, Dominique S"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "2JCQ9CUM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2JCQ9CUM"
 date-added: "2026-01-09 21:12:31"
-date-modified: "2026-03-08 21:43:24"
+date-modified: "2026-11-18 01:54:54"
 ---
 
 # Modélisation d'un Système d'Évaluation de la Crédibilité de l'Information - Projet 1 de modélisation, DIC-9251

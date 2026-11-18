@@ -4,6 +4,7 @@ item-type: "journalArticle"
 authors:
   - "researchgate.net, DS LOYER - 2025 -"
 tags:
+  - "doi-fix:low-confidence"
   - "⛔ No DOI found"
 collections:
   - "research rabbit_170426"
@@ -11,7 +12,7 @@ zotero-key: "FG4WKS3Z"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FG4WKS3Z"
 date-added: "2026-04-17 21:00:09"
-date-modified: "2026-11-09 14:59:16"
+date-modified: "2026-11-18 01:54:50"
 ---
 
 # Modeling an hybrid system (predicate-logic-based+ ML/AI) for verifying the credibility of information sources
