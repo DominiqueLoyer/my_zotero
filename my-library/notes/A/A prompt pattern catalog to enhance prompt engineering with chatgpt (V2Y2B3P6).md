@@ -26,7 +26,7 @@ zotero-key: "V2Y2B3P6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/V2Y2B3P6"
 date-added: "2026-01-08 20:10:56"
-date-modified: "2026-11-17 17:48:50"
+date-modified: "2026-11-18 01:32:50"
 ---
 
 # A prompt pattern catalog to enhance prompt engineering with chatgpt

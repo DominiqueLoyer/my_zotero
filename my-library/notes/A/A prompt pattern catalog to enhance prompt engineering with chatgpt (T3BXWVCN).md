@@ -27,7 +27,7 @@ zotero-key: "T3BXWVCN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/T3BXWVCN"
 date-added: "2025-10-10 19:01:29"
-date-modified: "2026-11-13 19:29:30"
+date-modified: "2026-11-18 01:32:47"
 ---
 
 # A prompt pattern catalog to enhance prompt engineering with chatgpt

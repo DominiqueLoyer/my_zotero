@@ -16,7 +16,7 @@ zotero-key: "L3NNML8K"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/L3NNML8K"
 date-added: "2026-01-08 20:10:57"
-date-modified: "2026-11-13 19:29:27"
+date-modified: "2026-11-18 01:32:43"
 ---
 
 # A practical guide to algorithmic auditing
