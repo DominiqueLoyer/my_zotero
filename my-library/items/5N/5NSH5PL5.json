@@ -97,7 +97,7 @@
 		],
 		"date": "2018",
 		"dateAdded": "2025-10-10T19:01:28Z",
-		"dateModified": "2026-11-17T18:03:57Z",
+		"dateModified": "2026-11-18T01:59:43Z",
 		"extra": "OpenAlex: W4245999774",
 		"itemType": "book",
 		"key": "5NSH5PL5",
@@ -112,6 +112,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

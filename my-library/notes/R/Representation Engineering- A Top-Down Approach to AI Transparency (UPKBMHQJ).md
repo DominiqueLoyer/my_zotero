@@ -40,6 +40,7 @@ tags:
   - "Computers and Society (cs.CY)"
   - "FOS: Computer and information sciences"
   - "Machine Learning (cs.LG)"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Ma thèse"
@@ -49,7 +50,7 @@ zotero-key: "UPKBMHQJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UPKBMHQJ"
 date-added: "2024-11-22 16:10:18"
-date-modified: "2025-12-05 22:23:51"
+date-modified: "2026-11-18 01:59:40"
 ---
 
 # Representation Engineering: A Top-Down Approach to AI Transparency
