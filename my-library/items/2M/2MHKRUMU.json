@@ -60,7 +60,7 @@
 		],
 		"date": "2025-01-01",
 		"dateAdded": "2026-04-17T20:25:49Z",
-		"dateModified": "2026-11-17T17:52:12Z",
+		"dateModified": "2026-11-18T01:41:18Z",
 		"extra": "OpenAlex: W7115597938",
 		"itemType": "journalArticle",
 		"key": "2MHKRUMU",
@@ -69,6 +69,10 @@
 		"tags": [
 			{
 				"tag": "Python (programming language)"
+			},
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
 			},
 			{
 				"tag": "notion"

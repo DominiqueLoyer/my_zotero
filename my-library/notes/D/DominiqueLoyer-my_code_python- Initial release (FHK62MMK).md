@@ -11,6 +11,7 @@ tags:
   - "MEDLINE"
   - "Perspective (graphical)"
   - "Qualitative research"
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -19,7 +20,7 @@ zotero-key: "FHK62MMK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FHK62MMK"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-17 17:52:14"
+date-modified: "2026-11-18 01:41:19"
 ---
 
 # DominiqueLoyer/my_code_python: Initial release

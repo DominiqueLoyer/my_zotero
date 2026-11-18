@@ -11,6 +11,7 @@ tags:
   - "Data collection"
   - "Qualitative research"
   - "Statistical analysis"
+  - "doi-fix:no-doi-found"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -19,7 +20,7 @@ zotero-key: "DXBFSG5H"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DXBFSG5H"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-17 17:52:15"
+date-modified: "2026-11-18 01:41:23"
 ---
 
 # DominiqueLoyer/project4: 1stRelease

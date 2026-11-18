@@ -8,6 +8,7 @@ year: "2025"
 publication: "Open MIND"
 tags:
   - "Python (programming language)"
+  - "doi-fix:no-doi-found"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -16,7 +17,7 @@ zotero-key: "2MHKRUMU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2MHKRUMU"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-17 17:52:12"
+date-modified: "2026-11-18 01:41:18"
 ---
 
 # DominiqueLoyer/misc_Python: 1stRelease

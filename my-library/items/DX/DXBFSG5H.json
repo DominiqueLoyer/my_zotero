@@ -60,7 +60,7 @@
 		],
 		"date": "2025-01-01",
 		"dateAdded": "2026-04-17T20:25:49Z",
-		"dateModified": "2026-11-17T17:52:15Z",
+		"dateModified": "2026-11-18T01:41:23Z",
 		"extra": "OpenAlex: W7115582629",
 		"itemType": "journalArticle",
 		"key": "DXBFSG5H",
@@ -78,6 +78,10 @@
 			},
 			{
 				"tag": "Statistical analysis"
+			},
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
 			},
 			{
 				"tag": "notion"

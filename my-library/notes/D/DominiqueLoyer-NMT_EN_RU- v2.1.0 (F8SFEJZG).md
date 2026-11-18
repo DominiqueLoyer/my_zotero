@@ -12,6 +12,7 @@ tags:
   - "Action (physics)"
   - "Identification (biology)"
   - "Process (computing)"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "works-ris-mLe7JLvNH2FvzENyBfxeRk"
@@ -19,7 +20,7 @@ zotero-key: "F8SFEJZG"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/F8SFEJZG"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-08 16:12:18"
+date-modified: "2026-11-18 01:41:20"
 ---
 
 # DominiqueLoyer/NMT_EN_RU: v2.1.0

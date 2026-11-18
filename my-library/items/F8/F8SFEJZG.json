@@ -61,7 +61,7 @@
 		],
 		"date": "2026-04-04",
 		"dateAdded": "2026-04-17T20:25:49Z",
-		"dateModified": "2026-11-08T16:12:18Z",
+		"dateModified": "2026-11-18T01:41:20Z",
 		"itemType": "journalArticle",
 		"key": "F8SFEJZG",
 		"publicationTitle": "Open MIND",
@@ -75,6 +75,10 @@
 			},
 			{
 				"tag": "Process (computing)"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"
