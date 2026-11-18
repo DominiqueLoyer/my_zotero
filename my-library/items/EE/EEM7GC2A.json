@@ -57,7 +57,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-09T18:32:40Z",
-		"dateModified": "2026-02-05T00:04:46Z",
+		"dateModified": "2026-11-18T01:55:04Z",
 		"extra": "abstractTranslation: Massive increase in information (\"information overload\"). Growing difficulty in distinguishing reliable information. Polarization of opinions fueled by disinformation. Metzger et al. Need for tools to aid critical evaluation. Proliferation of disinformation, misinformation, and \"fake news\". Oshikawa et al.; Zhou and Zafarani; Pescuma et al. Negative impact on public opinion, trust, and democracy. Loth et al.; Zhou and Zafarani Tragic illustration during the COVID-19 pandemic. Loth et al.); Chen and Shu Metzger et al.\ntitleTranslation: Modeling a hybrid system for evaluating the credibility of information sources (AI/NLP system and logical rule-based system)",
 		"itemType": "conferencePaper",
 		"key": "EEM7GC2A",
@@ -71,6 +71,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

@@ -21,7 +21,7 @@ zotero-key: "QY2Q2C8R"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QY2Q2C8R"
 date-added: "2025-10-06 16:22:09"
-date-modified: "2026-11-17 15:07:49"
+date-modified: "2026-11-18 01:55:01"
 ---
 
 # Modélisation d'un système hybride d'évaluation de crédibilité des sources d'information (système AI/NLP et système à base de règles logiques)
