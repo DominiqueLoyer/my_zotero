@@ -39,7 +39,7 @@ zotero-key: "WEWYX6JE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/WEWYX6JE"
 date-added: "2026-01-10 20:17:21"
-date-modified: "2026-11-17 15:07:24"
+date-modified: "2026-11-18 01:39:38"
 ---
 
 # Development and evaluation of an english-to-russian neural machine translation system
