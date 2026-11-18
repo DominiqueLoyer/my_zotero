@@ -30,12 +30,17 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-03T00:11:30Z",
-		"dateModified": "2026-03-25T21:30:49Z",
+		"dateModified": "2026-11-18T01:53:04Z",
 		"extra": "Number: Examen de synthèse doctoral du DIC-9401",
 		"itemType": "document",
 		"key": "S8IECVTW",
 		"relations": {},
-		"tags": [],
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			}
+		],
 		"title": "Le Léviathan algorithmique : pouvoir, opacité et responsabilité à l'ère de l'intelligence artificielle"
 	}
 }

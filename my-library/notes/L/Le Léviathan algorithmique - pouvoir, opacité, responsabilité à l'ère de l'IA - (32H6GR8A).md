@@ -7,6 +7,7 @@ doi: "10.13140/RG.2.2.28011.20002"
 issn: "978-1-0699904-0-2"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/Beamer_18-19nov25_dic9401"
@@ -14,7 +15,7 @@ zotero-key: "32H6GR8A"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/32H6GR8A"
 date-added: "2025-11-20 14:20:10"
-date-modified: "2026-03-25 21:30:53"
+date-modified: "2026-11-18 01:53:08"
 ---
 
 # Le Léviathan algorithmique : pouvoir, opacité, responsabilité à l'ère de l'IA - Examen général de doctorat en informatique cognitive (DIC-9401)

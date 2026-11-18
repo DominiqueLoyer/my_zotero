@@ -114,7 +114,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-08T20:00:27Z",
-		"dateModified": "2026-11-17T17:57:41Z",
+		"dateModified": "2026-11-18T01:53:12Z",
 		"extra": "OpenAlex: W7109779957",
 		"itemType": "conferencePaper",
 		"key": "GAL4UPUP",
@@ -126,6 +126,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

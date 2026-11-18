@@ -30,7 +30,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-03T00:11:31Z",
-		"dateModified": "2026-03-25T21:30:49Z",
+		"dateModified": "2026-11-18T01:53:05Z",
 		"itemType": "conferencePaper",
 		"key": "BNGZX22N",
 		"pages": "64",
@@ -38,6 +38,10 @@
 		"publisher": "Présentation (Beamer) lors de mon examen de synthèse doctoral à l'UQAM",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "⛔ No DOI found",
 				"type": 1
