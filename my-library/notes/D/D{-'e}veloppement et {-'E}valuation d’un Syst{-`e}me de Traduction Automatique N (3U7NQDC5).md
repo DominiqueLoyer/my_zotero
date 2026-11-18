@@ -14,7 +14,7 @@ zotero-key: "3U7NQDC5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3U7NQDC5"
 date-added: "2026-03-08 21:19:38"
-date-modified: "2026-11-13 19:35:18"
+date-modified: "2026-11-18 01:38:21"
 ---
 
 # D{\'e}veloppement et {\'E}valuation d’un Syst{\`e}me de Traduction Automatique Neuronale Anglais--Russe

@@ -15,7 +15,7 @@ zotero-key: "ZN2XDXB4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZN2XDXB4"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-13 19:35:20"
+date-modified: "2026-11-18 01:38:26"
 ---
 
 # Das Prinzip Verantwortung. Versuch einer Ethik für die technologische Zivilisation

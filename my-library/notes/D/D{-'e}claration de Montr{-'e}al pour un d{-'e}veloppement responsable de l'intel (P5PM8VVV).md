@@ -14,7 +14,7 @@ zotero-key: "P5PM8VVV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/P5PM8VVV"
 date-added: "2026-02-25 20:54:42"
-date-modified: "2026-11-17 17:51:07"
+date-modified: "2026-11-18 01:38:21"
 ---
 
 # D{\'e}claration de Montr{\'e}al pour un d{\'e}veloppement responsable de l'intelligence artificielle

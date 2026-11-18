@@ -15,7 +15,7 @@ zotero-key: "TVDQJBSM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TVDQJBSM"
 date-added: "2025-04-10 15:02:46"
-date-modified: "2026-11-13 19:35:14"
+date-modified: "2026-11-18 01:38:19"
 ---
 
 # CS224n: Natural language processing with deep learning - syllabus

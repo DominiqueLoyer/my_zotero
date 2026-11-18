@@ -16,7 +16,7 @@ zotero-key: "ZLDL4MMK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZLDL4MMK"
 date-added: "2026-01-08 20:07:32"
-date-modified: "2026-11-13 19:35:20"
+date-modified: "2026-11-18 01:38:27"
 ---
 
 # Das prinzip verantwortung. Versuch einer ethik für die technologische zivilisation

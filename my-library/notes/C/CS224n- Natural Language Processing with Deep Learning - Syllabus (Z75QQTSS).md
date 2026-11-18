@@ -12,7 +12,7 @@ zotero-key: "Z75QQTSS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Z75QQTSS"
 date-added: "2026-03-03 23:34:54"
-date-modified: "2026-11-13 19:35:14"
+date-modified: "2026-11-18 01:38:19"
 ---
 
 # CS224n: Natural Language Processing with Deep Learning - Syllabus
