@@ -15,13 +15,14 @@ tags:
   - "Recherche d'Information"
   - "TF-IDF"
   - "TREC"
+  - "doi-fix:low-confidence"
 collections:
   - "completeLoyer_100126 2026-11-12, 5:14:18 p.m."
 zotero-key: "XI3AYF5A"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XI3AYF5A"
 date-added: "2026-11-12 22:14:19"
-date-modified: "2026-11-12 22:14:19"
+date-modified: "2026-11-18 01:43:58"
 ---
 
 # Evaluation de modeles de recherche d'Information et d'Expansion de requetes sur la collection TREC AP 88-90

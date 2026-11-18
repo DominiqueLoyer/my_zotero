@@ -142,7 +142,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-10T20:17:21Z",
-		"dateModified": "2026-11-09T15:03:02Z",
+		"dateModified": "2026-11-18T01:43:55Z",
 		"extra": "ISBN: 978-1-0699945-5-4\ntitleTranslation: Evaluation of Information Retrieval and Query Expansion Models on the TREC AP 88-90 Collection",
 		"itemType": "journalArticle",
 		"key": "WZHGAS9X",
@@ -188,6 +188,10 @@
 			},
 			{
 				"tag": "TREC"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

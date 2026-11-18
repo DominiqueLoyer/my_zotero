@@ -4,6 +4,7 @@ item-type: "journalArticle"
 authors:
   - "researchgate.net, DS Loyer -"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -12,7 +13,7 @@ zotero-key: "LBTY9LG5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/LBTY9LG5"
 date-added: "2026-04-17 21:00:08"
-date-modified: "2026-11-09 15:02:57"
+date-modified: "2026-11-18 01:43:59"
 ---
 
 # Évaluation de modèles de recherche d'Information et d'Expansion de requêtes sur la collection TREC AP 88-90

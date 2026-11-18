@@ -74,7 +74,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-11-12T22:14:19Z",
-		"dateModified": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-18T01:43:58Z",
 		"extra": "ISBN: 978-1-0699945-5-4",
 		"itemType": "journalArticle",
 		"key": "XI3AYF5A",
@@ -98,6 +98,10 @@
 			},
 			{
 				"tag": "TREC"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			}
 		],
 		"title": "Evaluation de modeles de recherche d'Information et d'Expansion de requetes sur la collection TREC AP 88-90",

@@ -9,12 +9,13 @@ year: "2025"
 doi: "10.13140/rg.2.2.21668.18563"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 zotero-key: "APE9PWZX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/APE9PWZX"
 date-added: "2026-01-09 18:32:44"
-date-modified: "2026-02-05 00:04:43"
+date-modified: "2026-11-18 01:43:50"
 ---
 
 # Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC AP 88-90

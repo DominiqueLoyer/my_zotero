@@ -23,7 +23,7 @@ zotero-key: "UTYV45G4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UTYV45G4"
 date-added: "2025-05-01 04:37:13"
-date-modified: "2026-11-17 15:07:35"
+date-modified: "2026-11-18 01:43:49"
 ---
 
 # Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC AP 88-90

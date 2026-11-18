@@ -16,7 +16,7 @@ zotero-key: "W9VFIN62"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/W9VFIN62"
 date-added: "2026-03-04 20:27:37"
-date-modified: "2026-11-09 15:03:07"
+date-modified: "2026-11-18 01:43:59"
 ---
 
 # Evaluation of Information Retrieval Models and Query Expansion on

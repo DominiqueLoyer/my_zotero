@@ -9,12 +9,13 @@ year: "2025"
 doi: "10.13140/rg.2.2.21668.18563"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 zotero-key: "TCNNDZNH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TCNNDZNH"
 date-added: "2026-01-09 19:13:13"
-date-modified: "2026-01-16 16:34:54"
+date-modified: "2026-11-18 01:43:52"
 ---
 
 # Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC AP 88-90

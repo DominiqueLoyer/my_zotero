@@ -15,7 +15,7 @@ zotero-key: "W26B4VEW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/W26B4VEW"
 date-added: "2026-03-06 17:07:10"
-date-modified: "2026-11-17 17:53:56"
+date-modified: "2026-11-18 01:43:59"
 ---
 
 # Evaluation of Information Retrieval Models and Query

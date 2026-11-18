@@ -20,6 +20,7 @@ tags:
   - "RechercheInformation"
   - "TF-IDF"
   - "TREC"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_gs_080326"
@@ -29,7 +30,7 @@ zotero-key: "WZHGAS9X"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/WZHGAS9X"
 date-added: "2026-01-10 20:17:21"
-date-modified: "2026-11-09 15:03:02"
+date-modified: "2026-11-18 01:43:55"
 ---
 
 # Evaluation de modeles de recherche d'Information et d'Expansion de requetes sur la collection TREC AP 88-90
