@@ -18,6 +18,7 @@ publication: "Advances in neural information processing systems 26 (NIPS 2013)"
 pages: "3111–3119"
 url: "https://papers.nips.cc/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -26,7 +27,7 @@ zotero-key: "EWW2LD5B"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EWW2LD5B"
 date-added: "2025-04-10 15:02:46"
-date-modified: "2025-04-10 15:02:46"
+date-modified: "2026-11-18 01:41:04"
 ---
 
 # Distributed representations of words and phrases and their compositionality

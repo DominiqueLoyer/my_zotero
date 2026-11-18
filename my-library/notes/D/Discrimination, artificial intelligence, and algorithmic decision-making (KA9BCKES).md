@@ -1,6 +1,7 @@
 ---
 title: "Discrimination, artificial intelligence, and algorithmic decision-making"
 item-type: "journalArticle"
+doi: "10.59224/bjlti.v1i2.63-86"
 language: "en"
 tags:
   - "notion"
@@ -10,7 +11,7 @@ zotero-key: "KA9BCKES"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KA9BCKES"
 date-added: "2026-03-14 17:40:17"
-date-modified: "2026-03-14 18:17:31"
+date-modified: "2026-11-18 01:41:03"
 ---
 
 # Discrimination, artificial intelligence, and algorithmic decision-making

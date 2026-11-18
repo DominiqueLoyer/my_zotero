@@ -21,7 +21,7 @@ zotero-key: "DG8U8TA5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DG8U8TA5"
 date-added: "2026-01-08 20:07:34"
-date-modified: "2026-11-09 15:08:04"
+date-modified: "2026-11-18 01:41:03"
 ---
 
 # Discrimination, artificial intelligence, and algorithmic decision-making

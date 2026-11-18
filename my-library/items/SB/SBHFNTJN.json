@@ -117,7 +117,7 @@
 		"zoteroURI": "zotero://select/library/items/SBHFNTJN"
 	},
 	"zotero": {
-		"citationKey": "descartesDiscoursMethodePour1637",
+		"citationKey": "descartesDiscoursMethodePour1637a",
 		"collections": [
 			"F9TGXIMY",
 			"KMK2RY9F"
@@ -131,7 +131,7 @@
 		],
 		"date": "1637",
 		"dateAdded": "2025-10-10T19:01:26Z",
-		"dateModified": "2026-11-09T15:03:26Z",
+		"dateModified": "2026-11-18T01:41:02Z",
 		"itemType": "book",
 		"key": "SBHFNTJN",
 		"place": "Leyde",
@@ -145,6 +145,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

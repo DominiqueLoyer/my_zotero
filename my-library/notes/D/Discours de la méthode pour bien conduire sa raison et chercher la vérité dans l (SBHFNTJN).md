@@ -7,6 +7,7 @@ date: "1637"
 year: "1637"
 publisher: "Jean Maire"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -15,7 +16,7 @@ zotero-key: "SBHFNTJN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SBHFNTJN"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-09 15:03:26"
+date-modified: "2026-11-18 01:41:02"
 ---
 
 # Discours de la méthode pour bien conduire sa raison et chercher la vérité dans les sciences
