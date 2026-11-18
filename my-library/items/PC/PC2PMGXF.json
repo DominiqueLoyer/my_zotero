@@ -83,11 +83,15 @@
 		],
 		"date": "avril 2025",
 		"dateAdded": "2025-03-30T19:01:19Z",
-		"dateModified": "2025-03-30T19:01:53Z",
+		"dateModified": "2026-11-18T01:59:58Z",
 		"itemType": "document",
 		"key": "PC2PMGXF",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},
