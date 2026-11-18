@@ -14,6 +14,7 @@ issue: "1"
 pages: "1–26"
 doi: "10.1186/s40854-021-00258-7"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -23,7 +24,7 @@ zotero-key: "Y378E58W"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Y378E58W"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-09 15:02:39"
+date-modified: "2026-11-18 01:44:30"
 ---
 
 # Explainable AI for financial services: a survey

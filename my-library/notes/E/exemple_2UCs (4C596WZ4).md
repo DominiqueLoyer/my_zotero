@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -12,7 +13,7 @@ zotero-key: "4C596WZ4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4C596WZ4"
 date-added: "2025-03-31 18:42:50"
-date-modified: "2025-03-31 18:43:02"
+date-modified: "2026-11-18 01:44:21"
 ---
 
 # exemple_2UCs

@@ -6,6 +6,7 @@ authors:
 date: "2025"
 year: "2025"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -14,7 +15,7 @@ zotero-key: "823AI3MZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/823AI3MZ"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-01-09 19:16:41"
+date-modified: "2026-11-18 01:44:18"
 ---
 
 # Examen général de doctorat en informatique cognitive (dic-9401)

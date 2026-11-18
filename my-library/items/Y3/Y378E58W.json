@@ -89,7 +89,7 @@
 		],
 		"date": "2021",
 		"dateAdded": "2025-10-10T19:01:27Z",
-		"dateModified": "2026-11-09T15:02:39Z",
+		"dateModified": "2026-11-18T01:44:30Z",
 		"issue": "1",
 		"itemType": "journalArticle",
 		"key": "Y378E58W",
@@ -105,6 +105,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

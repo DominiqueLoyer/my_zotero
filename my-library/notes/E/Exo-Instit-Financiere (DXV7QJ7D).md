@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -12,7 +13,7 @@ zotero-key: "DXV7QJ7D"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DXV7QJ7D"
 date-added: "2025-03-31 18:42:52"
-date-modified: "2025-03-31 18:43:24"
+date-modified: "2026-11-18 01:44:24"
 ---
 
 # Exo-Instit-Financiere

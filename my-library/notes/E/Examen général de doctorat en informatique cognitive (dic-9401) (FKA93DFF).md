@@ -4,6 +4,7 @@ item-type: "journalArticle"
 authors:
   - "researchgate.net, D LOYER - 2025 -"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -12,7 +13,7 @@ zotero-key: "FKA93DFF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FKA93DFF"
 date-added: "2026-04-17 21:00:09"
-date-modified: "2026-11-09 15:02:24"
+date-modified: "2026-11-18 01:44:18"
 ---
 
 # Examen général de doctorat en informatique cognitive (dic-9401)
