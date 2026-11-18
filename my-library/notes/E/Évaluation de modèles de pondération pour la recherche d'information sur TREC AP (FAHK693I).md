@@ -5,6 +5,7 @@ authors:
   - "Loyer, Dominique S"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "FAHK693I"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FAHK693I"
 date-added: "2026-01-09 20:59:01"
-date-modified: "2026-03-08 21:43:24"
+date-modified: "2026-11-18 01:43:15"
 ---
 
 # Évaluation de modèles de pondération pour la recherche d'information sur TREC AP 88-90 - Cours DIC-9345 TALN Présenté à Ngoc Tan Lê

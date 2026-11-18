@@ -59,13 +59,17 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-03T00:11:30Z",
-		"dateModified": "2026-11-08T16:13:21Z",
+		"dateModified": "2026-11-18T01:43:12Z",
 		"itemType": "conferencePaper",
 		"key": "YNSKEIQB",
 		"pages": "20",
 		"proceedingsTitle": "https://doi.org/10.13140/RG.2.2.18538.84162. | ISBN : 978-1-0699904-8-8",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

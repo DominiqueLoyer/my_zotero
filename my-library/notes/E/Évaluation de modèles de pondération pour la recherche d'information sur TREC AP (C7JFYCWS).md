@@ -6,6 +6,7 @@ authors:
 date: "2025"
 year: "2025"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "GS_MyPapers_020126"
@@ -13,7 +14,7 @@ zotero-key: "C7JFYCWS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/C7JFYCWS"
 date-added: "2026-01-03 00:11:30"
-date-modified: "2026-11-08 16:13:21"
+date-modified: "2026-11-18 01:43:09"
 ---
 
 # Évaluation de modèles de pondération pour la recherche d'information sur TREC AP 88-90

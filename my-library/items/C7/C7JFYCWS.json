@@ -59,12 +59,16 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-03T00:11:30Z",
-		"dateModified": "2026-11-08T16:13:21Z",
+		"dateModified": "2026-11-18T01:43:09Z",
 		"extra": "Pages: 7",
 		"itemType": "document",
 		"key": "C7JFYCWS",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
