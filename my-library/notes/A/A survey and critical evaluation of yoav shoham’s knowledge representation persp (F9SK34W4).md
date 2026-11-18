@@ -16,7 +16,7 @@ zotero-key: "F9SK34W4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/F9SK34W4"
 date-added: "2026-01-03 00:11:30"
-date-modified: "2026-11-13 19:29:57"
+date-modified: "2026-11-18 01:33:12"
 ---
 
 # A survey and critical evaluation of yoav shoham’s knowledge representation perspective

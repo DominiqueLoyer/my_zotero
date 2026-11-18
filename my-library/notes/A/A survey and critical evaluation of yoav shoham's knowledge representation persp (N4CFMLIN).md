@@ -20,7 +20,7 @@ zotero-key: "N4CFMLIN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/N4CFMLIN"
 date-added: "2026-11-12 22:14:19"
-date-modified: "2026-11-13 19:29:56"
+date-modified: "2026-11-18 01:33:09"
 ---
 
 # A survey and critical evaluation of yoav shoham's knowledge representation perspective

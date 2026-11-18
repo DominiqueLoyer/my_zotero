@@ -14,7 +14,7 @@ zotero-key: "HEQD7BWA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/HEQD7BWA"
 date-added: "2026-03-08 21:20:21"
-date-modified: "2026-11-13 19:29:57"
+date-modified: "2026-11-18 01:33:12"
 ---
 
 # A Survey and Critical Evaluation of Yoav Shoham’s Knowledge Representation Perspective
