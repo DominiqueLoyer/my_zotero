@@ -6,6 +6,7 @@ authors:
   - "Croft, W Bruce"
 language: "en"
 tags:
+  - "doi-fix:multiple-candidates"
   - "notion"
   - "❓ Multiple DOI"
 collections:
@@ -15,7 +16,7 @@ zotero-key: "MZKW3VKJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/MZKW3VKJ"
 date-added: "2025-03-20 18:02:59"
-date-modified: "2025-12-06 00:18:01"
+date-modified: "2026-11-18 01:58:07"
 ---
 
 # Phrasal Translation and Query Expansion Techniques for Cross-Language Information Retrieval

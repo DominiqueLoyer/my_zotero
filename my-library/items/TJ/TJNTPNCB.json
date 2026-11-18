@@ -66,13 +66,17 @@
 		],
 		"date": "2012",
 		"dateAdded": "2026-01-08T20:14:05Z",
-		"dateModified": "2026-03-25T21:30:03Z",
+		"dateModified": "2026-11-18T01:58:09Z",
 		"extra": "abstractTranslation: Tying the browser more closely to operating system functionality and system hardware means that websites have more access to these resources, and that browser behavior varies depending on the behavior of these resources. We propose a new system fingerprint, inspired by the observation above: render text and WebGL scenes to a canvas element, then examine the pixels produced. The new fingerprint is consistent, high-entropy, orthogonal to other fingerprints, transparent to the user, and readily obtainable.",
 		"itemType": "journalArticle",
 		"key": "TJNTPNCB",
 		"language": "fr-CA",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

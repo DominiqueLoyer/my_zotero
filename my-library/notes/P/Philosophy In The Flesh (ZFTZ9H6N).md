@@ -5,6 +5,7 @@ authors:
   - "Lakoff, George"
 language: "en"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "ZFTZ9H6N"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZFTZ9H6N"
 date-added: "2024-12-08 17:48:33"
-date-modified: "2025-12-29 23:57:36"
+date-modified: "2026-11-18 01:58:07"
 ---
 
 # Philosophy In The Flesh

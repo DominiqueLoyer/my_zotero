@@ -7,7 +7,7 @@ authors:
   - "Mitchell, Margaret"
 date: "2019-10-09"
 year: "2019"
-doi: "10.48550/arXiv.1910.04210"
+doi: "10.18653/v1/d19-1578"
 url: "http://arxiv.org/abs/1910.04210"
 tags:
   - "Computer Science - Computation and Language"
@@ -20,7 +20,7 @@ zotero-key: "H7AE4A2B"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/H7AE4A2B"
 date-added: "2026-03-14 17:35:05"
-date-modified: "2026-11-09 14:57:59"
+date-modified: "2026-11-18 01:58:06"
 ---
 
 # Perturbation Sensitivity Analysis to Detect Unintended Model Biases
@@ -34,6 +34,7 @@ Data-driven statistical Natural Language Processing (NLP) techniques leverage la
 ## Extra
 
 arXiv:1910.04210 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.1910.04210
 
 ## Notes
 

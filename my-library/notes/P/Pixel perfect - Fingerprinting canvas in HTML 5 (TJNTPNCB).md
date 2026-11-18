@@ -9,6 +9,7 @@ year: "2012"
 url: "https://www.semanticscholar.org/paper/9243f5103669bd0e5b29f333f6e1d2246dc0a492"
 language: "fr-CA"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
 collections:
   - "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
@@ -16,7 +17,7 @@ zotero-key: "TJNTPNCB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TJNTPNCB"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-03-25 21:30:03"
+date-modified: "2026-11-18 01:58:09"
 ---
 
 # Pixel perfect : Fingerprinting canvas in HTML 5

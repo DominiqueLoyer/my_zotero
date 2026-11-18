@@ -7,6 +7,7 @@ date: "2019"
 year: "2019"
 url: "https://aisel.aisnet.org/ecis2019_rp/156/"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "9401_bibtex_all_250226"
@@ -14,7 +15,7 @@ zotero-key: "XTKHNSNE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XTKHNSNE"
 date-added: "2026-02-25 21:47:50"
-date-modified: "2026-03-25 21:29:37"
+date-modified: "2026-11-18 01:58:05"
 ---
 
 # Personalized Explanations for Machine Learning: A Conceptualization
