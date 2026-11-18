@@ -15,7 +15,7 @@ zotero-key: "T8EXTIVZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/T8EXTIVZ"
 date-added: "2026-03-06 17:06:52"
-date-modified: "2026-11-17 18:00:02"
+date-modified: "2026-11-18 01:54:37"
 ---
 
 # Modeling a Hybrid System (predicate-logic-based + {ML/AI})

@@ -142,7 +142,7 @@
 		],
 		"date": "2018",
 		"dateAdded": "2025-10-10T19:01:28Z",
-		"dateModified": "2026-11-17T18:00:02Z",
+		"dateModified": "2026-11-18T01:54:37Z",
 		"extra": "OpenAlex: W2898138693",
 		"itemType": "conferencePaper",
 		"key": "322ZRE9A",
@@ -158,6 +158,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

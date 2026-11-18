@@ -8,6 +8,7 @@ year: "2025"
 doi: "10.13140/RG.2.2.11827.95526"
 url: "https://doi.org/10.13140/RG.2.2.11827.95526"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_gs_080326"
@@ -15,7 +16,7 @@ zotero-key: "SRDT6JXV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SRDT6JXV"
 date-added: "2026-03-06 17:07:23"
-date-modified: "2026-03-25 21:28:52"
+date-modified: "2026-11-18 01:54:34"
 ---
 
 # Mod\'elisation d'un Syst\`eme hybride d'\'Evaluation

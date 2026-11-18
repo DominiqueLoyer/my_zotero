@@ -5,7 +5,7 @@ authors:
   - "Plumb, Gregory and Molitor, David and Talwalkar, Ameet S."
 date: "2022"
 year: "2022"
-doi: "10.14428/esann/2022.es2022-34"
+doi: "10.14428/esann/2022.ES2022-34"
 tags:
   - "notion"
 collections:
@@ -14,7 +14,7 @@ zotero-key: "PRPK9Z4W"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PRPK9Z4W"
 date-added: "2026-02-25 21:43:59"
-date-modified: "2026-03-25 21:29:39"
+date-modified: "2026-11-18 01:54:37"
 ---
 
 # Model Agnostic Supervised Local Explanations
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:29:39"
 ## Extra
 
 Importé via SysCRED.
+DOI Fix previous DOI: 10.14428/esann/2022.es2022-34
 
 ## Attachments
 
