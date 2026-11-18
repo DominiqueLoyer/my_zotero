@@ -81,7 +81,7 @@
 		"zoteroURI": "zotero://select/library/items/EIYNDB4L"
 	},
 	"zotero": {
-		"DOI": "10.48550/arXiv.2404.09554",
+		"DOI": "10.1007/s10462-024-10916-x",
 		"abstractNote": "Generative AI (GenAI) marked a shift from AI being able to recognize to AI being able to generate solutions for a wide variety of tasks. As the generated solutions and applications become increasingly more complex and multi-faceted, novel needs, objectives, and possibilities have emerged for explainability (XAI). In this work, we elaborate on why XAI has gained importance with the rise of GenAI and its challenges for explainability research. We also unveil novel and emerging desiderata that explanations should fulfill, covering aspects such as verifiability, interactivity, security, and cost. To this end, we focus on surveying existing works. Furthermore, we provide a taxonomy of relevant dimensions that allows us to better characterize existing XAI mechanisms and methods for GenAI. We discuss different avenues to ensure XAI, from training data to prompting. Our paper offers a short but concise technical background of GenAI for non-technical readers, focusing on text and images to better understand novel or adapted XAI techniques for GenAI. However, due to the vast array of works on GenAI, we decided to forego detailed aspects of XAI related to evaluation and usage of explanations. As such, the manuscript interests both technically oriented people and other disciplines, such as social scientists and information systems researchers. Our research roadmap provides more than ten directions for future investigation.",
 		"accessDate": "2026-03-14T17:39:52Z",
 		"archiveID": "arXiv:2404.09554",
@@ -98,8 +98,8 @@
 		],
 		"date": "2024-04-15",
 		"dateAdded": "2026-03-14T17:39:52Z",
-		"dateModified": "2026-03-25T21:28:25Z",
-		"extra": "arXiv:2404.09554 [cs]",
+		"dateModified": "2026-11-18T01:44:41Z",
+		"extra": "arXiv:2404.09554 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2404.09554",
 		"itemType": "preprint",
 		"key": "EIYNDB4L",
 		"libraryCatalog": "arXiv.org",

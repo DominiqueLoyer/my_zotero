@@ -5,7 +5,7 @@ authors:
   - "Schneider, Johannes"
 date: "2024-04-15"
 year: "2024"
-doi: "10.48550/arXiv.2404.09554"
+doi: "10.1007/s10462-024-10916-x"
 url: "http://arxiv.org/abs/2404.09554"
 tags:
   - "Computer Science - Artificial Intelligence"
@@ -16,7 +16,7 @@ zotero-key: "EIYNDB4L"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EIYNDB4L"
 date-added: "2026-03-14 17:39:52"
-date-modified: "2026-03-25 21:28:25"
+date-modified: "2026-11-18 01:44:41"
 ---
 
 # Explainable Generative AI (GenXAI): A Survey, Conceptualization, and Research Agenda
@@ -30,6 +30,7 @@ Generative AI (GenAI) marked a shift from AI being able to recognize to AI being
 ## Extra
 
 arXiv:2404.09554 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2404.09554
 
 ## Attachments
 

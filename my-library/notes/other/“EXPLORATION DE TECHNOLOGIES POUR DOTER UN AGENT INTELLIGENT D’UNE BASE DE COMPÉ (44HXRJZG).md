@@ -5,6 +5,7 @@ authors:
   - "Aklah, Kodjo Jean-Pierre"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -14,7 +15,7 @@ zotero-key: "44HXRJZG"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/44HXRJZG"
 date-added: "2025-03-17 17:30:29"
-date-modified: "2025-03-31 18:44:11"
+date-modified: "2026-11-18 01:44:45"
 ---
 
 # “EXPLORATION DE TECHNOLOGIES POUR DOTER UN AGENT INTELLIGENT D’UNE BASE DE COMPÉTENCES ” : APPLICATION AU DOMAINE FINANCIER

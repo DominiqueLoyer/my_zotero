@@ -119,7 +119,7 @@
 		],
 		"date": "2017",
 		"dateAdded": "2025-10-10T19:01:28Z",
-		"dateModified": "2026-11-09T15:02:43Z",
+		"dateModified": "2026-11-18T01:44:41Z",
 		"itemType": "journalArticle",
 		"key": "QYHPR2P6",
 		"publicationTitle": "arXiv preprint arXiv:1711.02222",
@@ -133,6 +133,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},
