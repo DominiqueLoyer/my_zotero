@@ -64,7 +64,7 @@
 		],
 		"date": "octobre 2025",
 		"dateAdded": "2026-01-09T18:32:29Z",
-		"dateModified": "2026-11-17T17:57:39Z",
+		"dateModified": "2026-11-18T01:52:52Z",
 		"extra": "ORCID=\"0009-0003-9713-7109\"\nOpenAlex: W7108209568",
 		"itemType": "journalArticle",
 		"key": "3HR59KPR",
@@ -77,6 +77,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

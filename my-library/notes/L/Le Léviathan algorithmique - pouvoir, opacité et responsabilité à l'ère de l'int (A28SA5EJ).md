@@ -24,7 +24,7 @@ zotero-key: "A28SA5EJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/A28SA5EJ"
 date-added: "2025-12-03 19:45:34"
-date-modified: "2026-11-17 15:07:46"
+date-modified: "2026-11-18 01:52:51"
 ---
 
 # Le Léviathan algorithmique : pouvoir, opacité et responsabilité à l'ère de l'intelligence artificielle

@@ -11,12 +11,13 @@ doi: "10.13140/RG.2.2.28011.20002"
 issn: "ISBN 978-1-0699904-0-2"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 zotero-key: "Q54EK4BH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Q54EK4BH"
 date-added: "2026-01-09 19:13:09"
-date-modified: "2026-11-17 17:57:40"
+date-modified: "2026-11-18 01:52:58"
 ---
 
 # Le Léviathan algorithmique : pouvoir, opacité et responsabilité à l'ère de l'intelligence artificielle
