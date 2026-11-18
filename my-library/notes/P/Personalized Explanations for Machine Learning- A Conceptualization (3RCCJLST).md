@@ -9,6 +9,7 @@ year: "2019"
 publication: "Proceedings of the 27th European Conference on Information Systems (ECIS)"
 url: "https://aisel.aisnet.org/ecis2019_rp/156/"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -19,7 +20,7 @@ zotero-key: "3RCCJLST"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3RCCJLST"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-09 15:08:49"
+date-modified: "2026-11-18 01:58:01"
 ---
 
 # Personalized Explanations for Machine Learning: A Conceptualization

@@ -103,7 +103,7 @@
 		],
 		"date": "2019",
 		"dateAdded": "2025-10-10T19:01:28Z",
-		"dateModified": "2026-11-09T15:08:49Z",
+		"dateModified": "2026-11-18T01:58:01Z",
 		"itemType": "conferencePaper",
 		"key": "3RCCJLST",
 		"proceedingsTitle": "Proceedings of the 27th European Conference on Information Systems (ECIS)",
@@ -117,6 +117,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

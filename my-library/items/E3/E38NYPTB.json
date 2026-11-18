@@ -47,13 +47,17 @@
 		"collections": [],
 		"creators": [],
 		"dateAdded": "2026-01-14T03:08:31Z",
-		"dateModified": "2026-01-16T16:46:18Z",
+		"dateModified": "2026-11-18T01:57:57Z",
 		"extra": "titleTranslation: (PDF) The Algorithmic Leviathan: Power, Opacity, and Responsibility in the Age of Artificial Intelligence (ISBN: 978-1-0699904-7-1)",
 		"itemType": "webpage",
 		"key": "E38NYPTB",
 		"language": "fr-CA",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

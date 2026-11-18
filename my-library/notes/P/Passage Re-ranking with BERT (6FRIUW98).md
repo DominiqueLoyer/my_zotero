@@ -7,12 +7,13 @@ date: "2019"
 year: "2019"
 url: "https://arxiv.org/abs/1901.04085"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 zotero-key: "6FRIUW98"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6FRIUW98"
 date-added: "2026-03-03 23:33:06"
-date-modified: "2026-03-25 21:29:14"
+date-modified: "2026-11-18 01:57:56"
 ---
 
 # Passage Re-ranking with BERT

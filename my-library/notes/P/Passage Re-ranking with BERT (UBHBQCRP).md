@@ -12,6 +12,7 @@ tags:
   - "Computer Science - Computation and Language"
   - "Computer Science - Information Retrieval"
   - "Computer Science - Machine Learning"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/trec_rapport1_030326/PDFs"
@@ -19,7 +20,7 @@ zotero-key: "UBHBQCRP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UBHBQCRP"
 date-added: "2026-03-14 17:36:28"
-date-modified: "2026-03-14 18:19:40"
+date-modified: "2026-11-18 01:57:52"
 ---
 
 # Passage Re-ranking with BERT

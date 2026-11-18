@@ -9,6 +9,7 @@ year: "2019"
 publication: "arXiv preprint arXiv:1901.04085"
 url: "https://arxiv.org/abs/1901.04085"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -17,7 +18,7 @@ zotero-key: "K8IFFL8Q"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/K8IFFL8Q"
 date-added: "2025-04-10 15:02:46"
-date-modified: "2025-04-10 15:02:46"
+date-modified: "2026-11-18 01:57:54"
 ---
 
 # Passage re-ranking with BERT
