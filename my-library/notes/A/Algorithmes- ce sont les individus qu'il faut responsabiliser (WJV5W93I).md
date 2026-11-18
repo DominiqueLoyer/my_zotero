@@ -17,7 +17,7 @@ zotero-key: "WJV5W93I"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/WJV5W93I"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-13 19:31:15"
+date-modified: "2026-11-18 01:34:24"
 ---
 
 # Algorithmes: ce sont les individus qu'il faut responsabiliser

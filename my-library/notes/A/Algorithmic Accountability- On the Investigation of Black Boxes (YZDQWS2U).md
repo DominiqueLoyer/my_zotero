@@ -17,7 +17,7 @@ zotero-key: "YZDQWS2U"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/YZDQWS2U"
 date-added: "2024-11-02 18:36:16"
-date-modified: "2026-11-13 19:31:17"
+date-modified: "2026-11-18 01:34:27"
 ---
 
 # Algorithmic Accountability: On the Investigation of Black Boxes

@@ -11,7 +11,7 @@ zotero-key: "J54ABZEN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/J54ABZEN"
 date-added: "2026-04-17 21:35:16"
-date-modified: "2026-11-17 17:49:40"
+date-modified: "2026-11-18 01:34:24"
 ---
 
 # Algorithmic {{Accountability}} and {{Transparency}} in {{Journalism}} :: {{FAT ML

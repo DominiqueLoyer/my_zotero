@@ -14,7 +14,7 @@ zotero-key: "UM7SCVIE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UM7SCVIE"
 date-added: "2026-02-25 21:35:14"
-date-modified: "2026-11-17 17:49:49"
+date-modified: "2026-11-18 01:34:32"
 ---
 
 # Algorithmic Governance and the Administrative State

@@ -14,7 +14,7 @@ zotero-key: "VQWAEM7V"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VQWAEM7V"
 date-added: "2026-02-25 20:54:28"
-date-modified: "2026-11-17 17:49:37"
+date-modified: "2026-11-18 01:34:24"
 ---
 
 # Algorithmes: ce sont les individus qu'il faut responsabiliser

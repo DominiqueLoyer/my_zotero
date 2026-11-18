@@ -17,7 +17,7 @@ zotero-key: "GSLIUD6H"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GSLIUD6H"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-13 19:31:26"
+date-modified: "2026-11-18 01:34:32"
 ---
 
 # Algorithmic Governance and the Administrative State
