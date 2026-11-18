@@ -8,6 +8,7 @@ year: "2025"
 pages: "7"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "mes papiers et beamers"
@@ -15,7 +16,7 @@ zotero-key: "DYD49SWB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DYD49SWB"
 date-added: "2025-06-15 18:26:05"
-date-modified: "2026-11-08 16:13:29"
+date-modified: "2026-11-18 01:43:43"
 ---
 
 # Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC AP 88-90

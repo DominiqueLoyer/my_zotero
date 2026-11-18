@@ -46,7 +46,7 @@
 		"zoteroURI": "zotero://select/library/items/DYD49SWB"
 	},
 	"zotero": {
-		"citationKey": "loyerEvaluationModelesRecherche2025",
+		"citationKey": "loyerEvaluationModelesRecherche2025g",
 		"collections": [
 			"GXLPXWSC"
 		],
@@ -59,7 +59,7 @@
 		],
 		"date": "avril 2025",
 		"dateAdded": "2025-06-15T18:26:05Z",
-		"dateModified": "2026-11-08T16:13:29Z",
+		"dateModified": "2026-11-18T01:43:43Z",
 		"itemType": "journalArticle",
 		"key": "DYD49SWB",
 		"language": "fr",
@@ -67,6 +67,10 @@
 		"pages": "7",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

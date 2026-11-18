@@ -47,7 +47,7 @@
 	},
 	"zotero": {
 		"abstractNote": "Ce rapport détaille l’implémentation et l’évaluation comparative d’un système de recherche d’information (RI) monolingue sur la collection standard TREC Associated Press (AP) 8890. Nous avons étudié l’influence du prétraitement du texte (stemming Porter vs baseline), de la longueur des requêtes (courtes vs longues) et du modèle de pondération (QLD vs BM25). Le système a été développé en Python avec Pyserini sous Java 21. La meilleure configuration de base identifiée (Baseline, Requêtes Longues, BM25) a atteint un MAP de 0.2205. Le stemming s’est avéré moins performant que la baseline (MAP max de 0.1778). Une technique d’amélioration par pseudo-retour de pertinence, RM3, appliquée sur la meilleure configuration baseline, a permis d’atteindre un MAP final de 0.2948, démontrant une amélioration significative (+34",
-		"citationKey": "loyerEvaluationModelesRecherche2025a",
+		"citationKey": "loyerEvaluationModelesRecherche2025h",
 		"collections": [
 			"GXLPXWSC"
 		],
@@ -60,7 +60,7 @@
 		],
 		"date": "28 avril 2025",
 		"dateAdded": "2025-05-30T18:45:25Z",
-		"dateModified": "2026-11-08T16:13:29Z",
+		"dateModified": "2026-11-18T01:43:44Z",
 		"itemType": "journalArticle",
 		"key": "U8J6HSNX",
 		"language": "fr",
@@ -76,6 +76,10 @@
 			},
 			{
 				"tag": "TREC, Pyserini, BM25, QLD, Stemming, Expansion de Requêtes, RM3"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

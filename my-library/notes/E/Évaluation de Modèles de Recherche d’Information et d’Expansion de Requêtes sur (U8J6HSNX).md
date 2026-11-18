@@ -11,6 +11,7 @@ tags:
   - "RI"
   - "RechercheInformation"
   - "TREC, Pyserini, BM25, QLD, Stemming, Expansion de Requêtes, RM3"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "mes papiers et beamers"
@@ -18,7 +19,7 @@ zotero-key: "U8J6HSNX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/U8J6HSNX"
 date-added: "2025-05-30 18:45:25"
-date-modified: "2026-11-08 16:13:29"
+date-modified: "2026-11-18 01:43:44"
 ---
 
 # Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC AP 88-90
