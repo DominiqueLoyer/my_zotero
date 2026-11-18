@@ -14,7 +14,7 @@ zotero-key: "H78WXCA3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/H78WXCA3"
 date-added: "2026-02-25 21:36:46"
-date-modified: "2026-11-13 19:30:53"
+date-modified: "2026-11-18 01:34:03"
 ---
 
 # AI Governance: A Framework for Building Trust and Mitigating Risks

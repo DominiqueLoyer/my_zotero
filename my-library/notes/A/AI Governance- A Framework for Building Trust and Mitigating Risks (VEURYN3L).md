@@ -17,7 +17,7 @@ zotero-key: "VEURYN3L"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VEURYN3L"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-13 19:30:53"
+date-modified: "2026-11-18 01:34:03"
 ---
 
 # AI Governance: A Framework for Building Trust and Mitigating Risks
