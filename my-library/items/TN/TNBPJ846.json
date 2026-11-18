@@ -123,7 +123,7 @@
 		],
 		"date": "2025-04-05",
 		"dateAdded": "2026-03-14T17:41:13Z",
-		"dateModified": "2026-03-25T21:28:23Z",
+		"dateModified": "2026-11-18T01:56:10Z",
 		"extra": "arXiv:2501.05435 [cs]",
 		"itemType": "preprint",
 		"key": "TNBPJ846",
@@ -138,6 +138,10 @@
 		"tags": [
 			{
 				"tag": "Computer Science - Artificial Intelligence",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:no-doi-found",
 				"type": 1
 			},
 			{
