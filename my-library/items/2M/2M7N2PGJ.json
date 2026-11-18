@@ -55,7 +55,7 @@
 	},
 	"zotero": {
 		"DOI": "10.5281/ZENODO.18436691",
-		"citationKey": "dominiqueDominiqueLoyerSystemFactCheckingV2212026",
+		"citationKey": "dominiqueDominiqueLoyerSystemFactCheckingV2212026a",
 		"collections": [
 			"7XVYZYFG",
 			"9ERXAIZK"
@@ -68,7 +68,7 @@
 		],
 		"date": "2026",
 		"dateAdded": "2026-03-04T20:28:17Z",
-		"dateModified": "2026-11-09T15:03:34Z",
+		"dateModified": "2026-11-18T01:41:32Z",
 		"extra": "Importé via SysCRED.",
 		"itemType": "journalArticle",
 		"key": "2M7N2PGJ",
@@ -81,6 +81,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

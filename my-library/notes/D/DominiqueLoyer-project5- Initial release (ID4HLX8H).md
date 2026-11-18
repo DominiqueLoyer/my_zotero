@@ -12,6 +12,7 @@ tags:
   - "Context (archaeology)"
   - "Data collection"
   - "Process (computing)"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "works-ris-mLe7JLvNH2FvzENyBfxeRk"
@@ -19,7 +20,7 @@ zotero-key: "ID4HLX8H"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ID4HLX8H"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-17 17:52:19"
+date-modified: "2026-11-18 01:41:29"
 ---
 
 # DominiqueLoyer/project5: Initial release

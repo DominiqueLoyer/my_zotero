@@ -8,6 +8,7 @@ year: "2026"
 doi: "10.5281/ZENODO.18436691"
 url: "https://zenodo.org/doi/10.5281/zenodo.18436691"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_9335_all"
@@ -16,7 +17,7 @@ zotero-key: "2M7N2PGJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2M7N2PGJ"
 date-added: "2026-03-04 20:28:17"
-date-modified: "2026-11-09 15:03:34"
+date-modified: "2026-11-18 01:41:32"
 ---
 
 # DominiqueLoyer/systemFactChecking: v2.2.1 - PyPI Publication
