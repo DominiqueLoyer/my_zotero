@@ -8,6 +8,7 @@ year: "2025"
 doi: "10.13140/RG.2.2.21668.18563"
 url: "https://doi.org/10.13140/RG.2.2.21668.18563"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_gs_080326"
@@ -15,7 +16,7 @@ zotero-key: "UQA6VPQU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UQA6VPQU"
 date-added: "2026-03-06 17:07:37"
-date-modified: "2026-03-25 21:28:52"
+date-modified: "2026-11-18 14:00:14"
 ---
 
 # Syst\`eme de traduction automatique neuronal du

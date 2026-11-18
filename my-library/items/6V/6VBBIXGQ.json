@@ -101,7 +101,7 @@
 	"zotero": {
 		"DOI": "10.13140/RG.2.2.21668.18563",
 		"ISBN": "978-1-0699904-9-5",
-		"citationKey": "loyerSystemeTraductionAutomatique2025",
+		"citationKey": "loyerSystemeTraductionAutomatique2025d",
 		"collections": [
 			"KKPWSFMI"
 		],
@@ -114,7 +114,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-08T20:00:28Z",
-		"dateModified": "2026-03-25T21:30:48Z",
+		"dateModified": "2026-11-18T14:00:16Z",
 		"itemType": "conferencePaper",
 		"key": "6VBBIXGQ",
 		"language": "fr-CA",
@@ -138,6 +138,10 @@
 			},
 			{
 				"tag": "Traduction Automatique"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"
