@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -13,7 +14,7 @@ zotero-key: "427DDKZQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/427DDKZQ"
 date-added: "2025-03-31 18:47:54"
-date-modified: "2025-03-31 18:58:50"
+date-modified: "2026-11-18 02:00:02"
 ---
 
 # Résumé du formalisme graphique diag etat

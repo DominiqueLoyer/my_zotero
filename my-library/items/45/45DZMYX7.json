@@ -79,13 +79,13 @@
 		"zoteroURI": "zotero://select/library/items/45DZMYX7"
 	},
 	"zotero": {
-		"citationKey": "Resume29335",
+		"citationKey": "Resume29335a",
 		"collections": [
 			"6IRQRQI8"
 		],
 		"creators": [],
 		"dateAdded": "2026-01-08T22:57:40Z",
-		"dateModified": "2026-01-16T15:53:29Z",
+		"dateModified": "2026-11-18T02:00:05Z",
 		"itemType": "document",
 		"key": "45DZMYX7",
 		"relations": {
@@ -94,6 +94,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

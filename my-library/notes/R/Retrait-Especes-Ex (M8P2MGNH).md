@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -12,7 +13,7 @@ zotero-key: "M8P2MGNH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/M8P2MGNH"
 date-added: "2025-03-31 18:48:28"
-date-modified: "2025-03-31 18:48:33"
+date-modified: "2026-11-18 02:00:08"
 ---
 
 # Retrait-Especes-Ex

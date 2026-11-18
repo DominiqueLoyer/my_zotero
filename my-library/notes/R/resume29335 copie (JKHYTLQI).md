@@ -1,6 +1,7 @@
 ---
 title: "resume29335 copie"
 item-type: "document"
+doi: "10.1163/2214-8264_dutchpamphlets-kb0-kb00232"
 tags:
   - "notion"
 collections:
@@ -9,7 +10,7 @@ zotero-key: "JKHYTLQI"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JKHYTLQI"
 date-added: "2026-01-08 22:57:41"
-date-modified: "2026-01-16 15:53:28"
+date-modified: "2026-11-18 02:00:07"
 ---
 
 # resume29335 copie

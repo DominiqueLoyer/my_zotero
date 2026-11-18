@@ -2,6 +2,7 @@
 title: "resume29335"
 item-type: "document"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
 collections:
   - "myReferences"
@@ -9,7 +10,7 @@ zotero-key: "45DZMYX7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/45DZMYX7"
 date-added: "2026-01-08 22:57:40"
-date-modified: "2026-01-16 15:53:29"
+date-modified: "2026-11-18 02:00:05"
 ---
 
 # resume29335
