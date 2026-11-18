@@ -128,7 +128,7 @@
 		],
 		"date": "A2024",
 		"dateAdded": "2024-12-08T18:02:30Z",
-		"dateModified": "2025-12-05T22:26:55Z",
+		"dateModified": "2026-11-18T01:58:25Z",
 		"itemType": "document",
 		"key": "IB3JGUFR",
 		"relations": {},
@@ -147,6 +147,10 @@
 			},
 			{
 				"tag": "cognition sociale"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

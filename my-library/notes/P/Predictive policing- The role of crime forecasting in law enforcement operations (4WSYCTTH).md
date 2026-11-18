@@ -10,6 +10,7 @@ authors:
 date: "2013"
 year: "2013"
 publisher: "RAND Corporation"
+doi: "10.7249/RR233"
 language: "fr-CA"
 tags:
   - "notion"
@@ -19,7 +20,7 @@ zotero-key: "4WSYCTTH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4WSYCTTH"
 date-added: "2026-01-08 20:10:54"
-date-modified: "2026-11-17 18:00:55"
+date-modified: "2026-11-18 01:58:25"
 ---
 
 # Predictive policing: The role of crime forecasting in law enforcement operations

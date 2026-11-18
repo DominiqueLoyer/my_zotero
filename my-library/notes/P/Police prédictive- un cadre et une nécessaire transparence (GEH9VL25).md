@@ -6,6 +6,7 @@ authors:
 date: "2019"
 year: "2019"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -14,7 +15,7 @@ zotero-key: "GEH9VL25"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GEH9VL25"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-09 14:58:05"
+date-modified: "2026-11-18 01:58:19"
 ---
 
 # Police prédictive: un cadre et une nécessaire transparence

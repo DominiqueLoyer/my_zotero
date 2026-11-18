@@ -11,6 +11,7 @@ tags:
   - "cognition incarnée"
   - "cognition située"
   - "cognition sociale"
+  - "doi-fix:low-confidence"
   - "notion"
   - "paradigme"
   - "symbolisme"
@@ -20,7 +21,7 @@ zotero-key: "IB3JGUFR"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IB3JGUFR"
 date-added: "2024-12-08 18:02:30"
-date-modified: "2025-12-05 22:26:55"
+date-modified: "2026-11-18 01:58:25"
 ---
 
 # PPT semaine 9b (S. Robert)

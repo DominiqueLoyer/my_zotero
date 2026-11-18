@@ -1,12 +1,13 @@
 ---
 title: "PrintempsDeLaRecherche — Wikipédia"
 item-type: "webpage"
+doi: "10.12660/gvexec.v6n3.2007.34606"
 url: "https://fr.wikipedia.org/wiki/Projet:UQAM/2026/PrintempsDeLaRecherche#Nos_priorit%C3%A9s"
 zotero-key: "57NEBWVD"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/57NEBWVD"
 date-added: "2026-03-27 16:50:36"
-date-modified: "2026-03-27 16:50:38"
+date-modified: "2026-11-18 01:58:26"
 ---
 
 # PrintempsDeLaRecherche — Wikipédia
