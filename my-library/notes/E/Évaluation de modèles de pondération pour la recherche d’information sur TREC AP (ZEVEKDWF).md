@@ -25,7 +25,7 @@ zotero-key: "ZEVEKDWF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZEVEKDWF"
 date-added: "2025-10-06 16:22:10"
-date-modified: "2026-11-17 15:07:28"
+date-modified: "2026-11-18 01:42:54"
 ---
 
 # Évaluation de modèles de pondération pour la recherche d’information sur TREC AP 88-90

@@ -11,12 +11,13 @@ doi: "10.13140/RG.2.2.21668.18563"
 url: "https://www.researchgate.net/publication/392329863_Traduction_automatique_neuronal_du_Russe-Anglais?channel=doi&linkId=683df6c86a754f72b58ff628&showFulltext=true"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 zotero-key: "2WUBUSDH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2WUBUSDH"
 date-added: "2026-01-09 18:32:36"
-date-modified: "2026-02-05 00:04:49"
+date-modified: "2026-11-18 01:43:00"
 ---
 
 # Évaluation de modèles de pondération pour la recherche d’information sur TREC AP 88-90
