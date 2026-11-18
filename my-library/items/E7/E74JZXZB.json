@@ -121,7 +121,7 @@
 		],
 		"date": "2023",
 		"dateAdded": "2025-10-10T19:01:25Z",
-		"dateModified": "2026-11-09T15:00:50Z",
+		"dateModified": "2026-11-18T01:46:32Z",
 		"itemType": "journalArticle",
 		"key": "E74JZXZB",
 		"publicationTitle": "OpenAI",
@@ -135,6 +135,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

@@ -7,7 +7,7 @@ authors:
   - "Birch, Alexandra"
 date: "2016-06-03"
 year: "2016"
-doi: "10.48550/arXiv.1511.06709"
+doi: "10.18653/v1/p16-1009"
 url: "http://arxiv.org/abs/1511.06709"
 tags:
   - "Computer Science - Computation and Language"
@@ -18,7 +18,7 @@ zotero-key: "P8Y6JUU4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/P8Y6JUU4"
 date-added: "2026-03-14 17:36:04"
-date-modified: "2026-03-14 18:19:51"
+date-modified: "2026-11-18 01:46:32"
 ---
 
 # Improving Neural Machine Translation Models with Monolingual Data
@@ -32,6 +32,7 @@ Neural Machine Translation (NMT) has obtained state-of-the art performance for s
 ## Extra
 
 arXiv:1511.06709 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.1511.06709
 
 ## Notes
 

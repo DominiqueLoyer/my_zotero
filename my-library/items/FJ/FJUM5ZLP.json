@@ -87,7 +87,7 @@
 	"zotero": {
 		"abstractNote": "L’usurpation d’identité touche des centaines de milliers de Canadiens par année, et le Québec est la province où le plus grand nombre de cas sont rapportés. Une des solutions au fléau : l’identité numérique, un projet qui pourrait voir le jour dès 2025 et qui soulève des questions inédites sur la propriété des renseignements personnels des Québécois.",
 		"accessDate": "2024-11-02T17:44:59Z",
-		"citationKey": "berubeIdentiteNumeriqueSolution2022",
+		"citationKey": "berubeIdentiteNumeriqueSolution2022a",
 		"collections": [
 			"ENT9VKF6",
 			"J4VTG4NB",
@@ -102,7 +102,7 @@
 		],
 		"date": "2022-11-20T05:00:00-05:00",
 		"dateAdded": "2024-11-02T17:44:59Z",
-		"dateModified": "2025-12-05T22:36:58Z",
+		"dateModified": "2026-11-18T01:46:31Z",
 		"itemType": "newspaperArticle",
 		"key": "FJUM5ZLP",
 		"language": "fr-CA",
@@ -116,6 +116,10 @@
 		"section": "Contexte",
 		"shortTitle": "Identité numérique",
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

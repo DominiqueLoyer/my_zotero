@@ -12,6 +12,7 @@ year: "2023"
 publication: "OpenAI"
 url: "https://openai.com/research/improving-image-generation-with-better-captions"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -22,7 +23,7 @@ zotero-key: "E74JZXZB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/E74JZXZB"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-09 15:00:50"
+date-modified: "2026-11-18 01:46:32"
 ---
 
 # Improving Image Generation with Better Captions

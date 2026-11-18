@@ -15,7 +15,7 @@ zotero-key: "9THCA82E"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9THCA82E"
 date-added: "2026-03-05 01:11:51"
-date-modified: "2026-03-25 21:28:55"
+date-modified: "2026-11-18 01:46:35"
 ---
 
 # Intelligence artificielle : vers un code de déontologie des codeurs

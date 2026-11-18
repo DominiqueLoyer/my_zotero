@@ -7,6 +7,7 @@ date: "2010"
 year: "2010"
 url: "https://www.iro.umontreal.ca/~nie/IR-book/Preface.html"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
@@ -14,7 +15,7 @@ zotero-key: "XMTLVYZC"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XMTLVYZC"
 date-added: "2025-04-10 15:02:46"
-date-modified: "2025-04-10 15:02:46"
+date-modified: "2026-11-18 01:46:35"
 ---
 
 # Information retrieval: Implementing and evaluating search engines (online material)

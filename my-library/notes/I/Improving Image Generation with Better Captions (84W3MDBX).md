@@ -15,7 +15,7 @@ zotero-key: "84W3MDBX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/84W3MDBX"
 date-added: "2026-02-25 21:33:09"
-date-modified: "2026-03-25 21:29:53"
+date-modified: "2026-11-18 01:46:32"
 ---
 
 # Improving Image Generation with Better Captions
