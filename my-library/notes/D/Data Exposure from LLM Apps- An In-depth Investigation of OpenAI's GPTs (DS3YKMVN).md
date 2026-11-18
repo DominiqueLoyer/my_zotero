@@ -27,7 +27,7 @@ zotero-key: "DS3YKMVN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DS3YKMVN"
 date-added: "2024-11-02 18:24:35"
-date-modified: "2026-11-13 19:35:30"
+date-modified: "2026-11-18 01:38:33"
 ---
 
 # Data Exposure from LLM Apps: An In-depth Investigation of OpenAI's GPTs

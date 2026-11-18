@@ -132,7 +132,7 @@
 		"abstractNote": "LLM app ecosystems are quickly maturing and supporting a wide range of use cases, which requires them to collect excessive user data. Given that the LLM apps are developed by third-parties and that anecdotal evidence suggests LLM platforms currently do not strictly enforce their policies, user data shared with arbitrary third-parties poses a significant privacy risk. In this paper we aim to bring transparency in data practices of LLM apps. As a case study, we study OpenAI’s GPT app ecosystem. We develop an LLM-based framework to conduct the static analysis of natural language-based source code of GPTs and their Actions (external services) to characterize their data collection practices. Our findings indicate that Actions collect expansive data about users, including sensitive information prohibited by OpenAI, such as passwords. We find that some Actions, including related to advertising and analytics, are embedded in multiple GPTs, which allow them to track user activities across GPTs. Additionally, co-occurrence of Actions exposes as much as 9.5× more data to them, than it is exposed to individual Actions. Lastly, we develop an LLM-based privacy policy analysis framework to automatically check the consistency of data collection by Actions with disclosures in their privacy policies. Our measurements indicate that the disclosures for most of the collected data types are omitted in privacy policies, with only 5.8% of Actions clearly disclosing their data collection practices.",
 		"accessDate": "2024-11-02T18:24:35Z",
 		"archiveID": "arXiv:2408.13247",
-		"citationKey": "jaffDataExposureLLM2024",
+		"citationKey": "jaffDataExposureLLM2024a",
 		"collections": [
 			"ENT9VKF6",
 			"J4VTG4NB",
@@ -163,7 +163,7 @@
 		],
 		"date": "2024-08-23",
 		"dateAdded": "2024-11-02T18:24:35Z",
-		"dateModified": "2026-11-13T19:35:30Z",
+		"dateModified": "2026-11-18T01:38:33Z",
 		"extra": "arXiv:2408.13247 [cs]",
 		"itemType": "preprint",
 		"key": "DS3YKMVN",

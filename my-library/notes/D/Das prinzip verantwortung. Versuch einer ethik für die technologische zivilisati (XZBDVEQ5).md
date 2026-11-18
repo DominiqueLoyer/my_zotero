@@ -16,7 +16,7 @@ zotero-key: "XZBDVEQ5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XZBDVEQ5"
 date-added: "2026-01-08 20:10:54"
-date-modified: "2026-11-13 19:35:26"
+date-modified: "2026-11-18 01:38:30"
 ---
 
 # Das prinzip verantwortung. Versuch einer ethik für die technologische zivilisation
