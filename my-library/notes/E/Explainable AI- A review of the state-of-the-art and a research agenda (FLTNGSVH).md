@@ -14,6 +14,7 @@ issue: "3"
 pages: "335–374"
 doi: "10.1007/s10257-021-00555-9"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -23,7 +24,7 @@ zotero-key: "FLTNGSVH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FLTNGSVH"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-09 15:02:27"
+date-modified: "2026-11-18 01:44:34"
 ---
 
 # Explainable AI: A review of the state-of-the-art and a research agenda

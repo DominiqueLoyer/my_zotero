@@ -13,6 +13,7 @@ publication: "Proceedings of the 2021 Conference on Empirical Methods in Natural
 pages: "1–11"
 url: "https://aclanthology.org/2021.emnlp-main.485/"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -23,7 +24,7 @@ zotero-key: "Z9BFS5AU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Z9BFS5AU"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-09 15:02:22"
+date-modified: "2026-11-18 01:44:38"
 ---
 
 # Explainable AI: A Survey of the State-of-the-Art in Natural Language Generation

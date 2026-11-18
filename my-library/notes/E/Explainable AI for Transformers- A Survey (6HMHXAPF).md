@@ -5,7 +5,7 @@ authors:
   - "Zhao, Yilong and Zhang, Ziqi and Liu, Yang and Liu, Zhaoning and Zhang, Yifei and Zhang, Jian"
 date: "2024"
 year: "2024"
-doi: "10.1109/iccp63557.2024.10793046"
+doi: "10.1109/ICCP63557.2024.10793046"
 url: "https://arxiv.org/abs/2302.14543"
 tags:
   - "notion"
@@ -15,7 +15,7 @@ zotero-key: "6HMHXAPF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6HMHXAPF"
 date-added: "2026-02-25 21:59:29"
-date-modified: "2026-03-25 21:29:32"
+date-modified: "2026-11-18 01:44:33"
 ---
 
 # Explainable AI for Transformers: A Survey
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:29:32"
 ## Extra
 
 Importé via SysCRED.
+DOI Fix previous DOI: 10.1109/iccp63557.2024.10793046
 
 ## Attachments
 

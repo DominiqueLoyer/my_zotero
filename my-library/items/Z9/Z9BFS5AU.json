@@ -131,7 +131,7 @@
 		],
 		"date": "2021",
 		"dateAdded": "2025-10-10T19:01:27Z",
-		"dateModified": "2026-11-09T15:02:22Z",
+		"dateModified": "2026-11-18T01:44:38Z",
 		"itemType": "conferencePaper",
 		"key": "Z9BFS5AU",
 		"pages": "1–11",
@@ -146,6 +146,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

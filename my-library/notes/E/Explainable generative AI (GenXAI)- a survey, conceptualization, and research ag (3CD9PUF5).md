@@ -7,6 +7,7 @@ authors:
 date: "2024"
 year: "2024"
 publication: "arXiv preprint arXiv:2404.09554"
+doi: "10.1007/s10462-024-10916-x"
 url: "https://arxiv.org/abs/2404.09554"
 language: "fr-CA"
 tags:
@@ -18,7 +19,7 @@ zotero-key: "3CD9PUF5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3CD9PUF5"
 date-added: "2026-01-08 20:07:33"
-date-modified: "2026-11-09 15:02:41"
+date-modified: "2026-11-18 01:44:38"
 ---
 
 # Explainable generative AI (GenXAI): a survey, conceptualization, and research agenda

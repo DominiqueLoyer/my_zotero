@@ -14,7 +14,7 @@ zotero-key: "ZFXUSWVX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZFXUSWVX"
 date-added: "2026-02-25 21:37:40"
-date-modified: "2026-11-17 17:54:01"
+date-modified: "2026-11-18 01:44:34"
 ---
 
 # Explainable AI in the financial sector: a legal perspective

@@ -21,7 +21,7 @@ zotero-key: "USSYGK47"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/USSYGK47"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-09 15:02:18"
+date-modified: "2026-11-18 01:44:34"
 ---
 
 # Explainable AI in the financial sector: a legal perspective

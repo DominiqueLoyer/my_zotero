@@ -5,7 +5,7 @@ authors:
   - "Norori, Nelson and Hu, Qiyang and Aellen, Florian and Cieliebak, Mark and Senn, E."
 date: "2019"
 year: "2019"
-doi: "10.18653/v1/w19-8402"
+doi: "10.18653/v1/W19-8402"
 url: "https://aclanthology.org/2021.emnlp-main.485/"
 tags:
   - "notion"
@@ -15,7 +15,7 @@ zotero-key: "XQU98MDC"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XQU98MDC"
 date-added: "2026-02-25 21:42:45"
-date-modified: "2026-03-25 21:29:40"
+date-modified: "2026-11-18 01:44:38"
 ---
 
 # Explainable AI: A Survey of the State-of-the-Art in Natural Language Generation
@@ -25,6 +25,7 @@ date-modified: "2026-03-25 21:29:40"
 ## Extra
 
 Importé via SysCRED.
+DOI Fix previous DOI: 10.18653/v1/w19-8402
 
 ## Attachments
 
