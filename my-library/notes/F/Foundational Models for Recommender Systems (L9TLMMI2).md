@@ -12,6 +12,7 @@ publication: "Proceedings of the 17th ACM Conference on Recommender Systems"
 pages: "1–5"
 doi: "10.1145/3604915.3610720"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -21,7 +22,7 @@ zotero-key: "L9TLMMI2"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/L9TLMMI2"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-09 15:01:57"
+date-modified: "2026-11-18 01:45:12"
 ---
 
 # Foundational Models for Recommender Systems

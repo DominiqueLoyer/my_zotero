@@ -375,7 +375,7 @@
 		],
 		"date": "2021-10-28",
 		"dateAdded": "2024-11-11T20:23:13Z",
-		"dateModified": "2025-12-05T22:26:49Z",
+		"dateModified": "2026-11-18T01:45:16Z",
 		"extra": "arXiv:2110.15245 [cs]",
 		"itemType": "preprint",
 		"key": "LCTN6TR8",
@@ -391,6 +391,10 @@
 			},
 			{
 				"tag": "Computer Science - Robotics",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:low-confidence",
 				"type": 1
 			},
 			{

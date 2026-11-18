@@ -25,7 +25,7 @@ zotero-key: "SRL32GWT"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SRL32GWT"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-11-17 17:55:52"
+date-modified: "2026-11-18 01:45:12"
 ---
 
 # FPDetective: dusting the web for fingerprinters

@@ -29,6 +29,7 @@ language: "en"
 tags:
   - "Computer Science - Machine Learning"
   - "Computer Science - Robotics"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours A24/DIC9270(A24)/Beaudoin 14 nov (étique)"
@@ -36,7 +37,7 @@ zotero-key: "LCTN6TR8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/LCTN6TR8"
 date-added: "2024-11-11 20:23:13"
-date-modified: "2025-12-05 22:26:49"
+date-modified: "2026-11-18 01:45:16"
 ---
 
 # From Machine Learning to Robotics: Challenges and Opportunities for Embodied Intelligence
