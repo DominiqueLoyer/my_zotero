@@ -5,7 +5,7 @@ authors:
   - "Liu, Bing"
 date: "2023-12-15"
 year: "2023"
-doi: "10.48550/arXiv.2312.09532"
+doi: "10.4324/9781003567622-4"
 url: "http://arxiv.org/abs/2312.09532"
 language: "en"
 tags:
@@ -17,7 +17,7 @@ zotero-key: "BEA9D9W7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/BEA9D9W7"
 date-added: "2025-02-28 17:57:02"
-date-modified: "2025-03-21 21:40:21"
+date-modified: "2026-11-18 01:45:46"
 ---
 
 # Grounding for Artificial Intelligence
@@ -31,6 +31,7 @@ A core function of intelligence is grounding, which is the process of connecting
 ## Extra
 
 arXiv:2312.09532 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2312.09532
 
 ## Attachments
 

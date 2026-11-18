@@ -54,7 +54,7 @@
 		"zoteroURI": "zotero://select/library/items/CP9VSGWU"
 	},
 	"zotero": {
-		"citationKey": "edpbGuidelines0220192019",
+		"citationKey": "edpbGuidelines0220192019a",
 		"collections": [
 			"F9TGXIMY",
 			"KMK2RY9F"
@@ -67,7 +67,7 @@
 		],
 		"date": "2019",
 		"dateAdded": "2025-10-10T19:01:26Z",
-		"dateModified": "2026-11-09T15:01:14Z",
+		"dateModified": "2026-11-18T01:45:50Z",
 		"itemType": "document",
 		"key": "CP9VSGWU",
 		"relations": {
@@ -79,6 +79,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

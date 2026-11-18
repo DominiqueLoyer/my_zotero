@@ -87,11 +87,11 @@
 		"zoteroURI": "zotero://select/library/items/BEA9D9W7"
 	},
 	"zotero": {
-		"DOI": "10.48550/arXiv.2312.09532",
+		"DOI": "10.4324/9781003567622-4",
 		"abstractNote": "A core function of intelligence is grounding, which is the process of connecting the natural language and abstract knowledge to the internal representation of the real world in an intelligent being, e.g., a human. Human cognition is grounded in our sensorimotor experiences in the external world and subjective feelings in our internal world. We use languages to communicate with each other and the languages are grounded on our shared sensorimotor experiences and feelings. Without this shard grounding, it is impossible for us to understand each other because all natural languages are highly abstract and are only able to describe a tiny portion of what has happened or is happening in the real world. Although grounding at high or abstract levels has been studied in different fields and applications, to our knowledge, limited systematic work at fine-grained levels has been done. With the rapid progress of large language models (LLMs), it is imperative that we have a sound understanding of grounding in order to move to the next level of intelligence. It is also believed that grounding is necessary for Artificial General Intelligence (AGI). This paper makes an attempt to systematically study this problem.",
 		"accessDate": "2025-02-28T17:57:02Z",
 		"archiveID": "arXiv:2312.09532",
-		"citationKey": "liuGroundingArtificialIntelligence2023",
+		"citationKey": "liuGroundingArtificialIntelligence2023b",
 		"collections": [
 			"SXNXAMTK"
 		],
@@ -104,8 +104,8 @@
 		],
 		"date": "2023-12-15",
 		"dateAdded": "2025-02-28T17:57:02Z",
-		"dateModified": "2025-03-21T21:40:21Z",
-		"extra": "arXiv:2312.09532 [cs]",
+		"dateModified": "2026-11-18T01:45:46Z",
+		"extra": "arXiv:2312.09532 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2312.09532",
 		"itemType": "preprint",
 		"key": "BEA9D9W7",
 		"language": "en",

@@ -14,7 +14,7 @@ zotero-key: "V775N5ET"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/V775N5ET"
 date-added: "2026-02-25 21:36:02"
-date-modified: "2026-11-17 17:56:12"
+date-modified: "2026-11-18 01:45:50"
 ---
 
 # Guidelines 02/2019 on the processing of personal data under Article 6(1)(b) GDPR in the context of the provision of online services to data subjects
