@@ -8,6 +8,7 @@ date: "2022"
 year: "2022"
 publisher: "IOS press"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -16,7 +17,7 @@ zotero-key: "L68B9J28"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/L68B9J28"
 date-added: "2025-12-30 21:49:11"
-date-modified: "2026-11-17 18:00:22"
+date-modified: "2026-11-18 01:56:25"
 ---
 
 # Neuro-symbolic artificial intelligence: The state of the art

@@ -5,6 +5,7 @@ authors:
   - "Sarker, Md Kamruzzaman and Zhou, Lu and Eberhart, Aaron and Hitzler, Pascal"
 date: "2022"
 year: "2022"
+doi: "10.3233/aic-210084"
 tags:
   - "notion"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "ZM4TXTV2"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZM4TXTV2"
 date-added: "2026-03-08 21:24:20"
-date-modified: "2026-11-17 18:00:20"
+date-modified: "2026-11-18 01:56:22"
 ---
 
 # Neuro-symbolic artificial intelligence: Current trends

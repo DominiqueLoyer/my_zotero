@@ -4,6 +4,7 @@ item-type: "journalArticle"
 authors:
   - "Michel, Cyprien"
   - "Sarker, Kamruzzaman"
+doi: "10.1177/29498732261469336"
 language: "en"
 tags:
   - "notion"
@@ -18,7 +19,7 @@ zotero-key: "U9ETVACY"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/U9ETVACY"
 date-added: "2026-03-14 17:34:25"
-date-modified: "2026-11-09 15:08:40"
+date-modified: "2026-11-18 01:56:26"
 ---
 
 # Neuro-Symbolic methods for Trustworthy AI: a systematic review

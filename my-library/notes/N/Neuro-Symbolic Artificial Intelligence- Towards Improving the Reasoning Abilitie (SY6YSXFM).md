@@ -12,7 +12,7 @@ authors:
   - "Li, Yu-Feng"
 date: "2025-08-19"
 year: "2025"
-doi: "10.48550/arXiv.2508.13678"
+doi: "10.24963/ijcai.2025/1195"
 url: "http://arxiv.org/abs/2508.13678"
 tags:
   - "Computer Science - Artificial Intelligence"
@@ -29,7 +29,7 @@ zotero-key: "SY6YSXFM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SY6YSXFM"
 date-added: "2026-03-14 17:34:20"
-date-modified: "2026-11-09 14:58:42"
+date-modified: "2026-11-18 01:56:26"
 ---
 
 # Neuro-Symbolic Artificial Intelligence: Towards Improving the Reasoning Abilities of Large Language Models
@@ -43,6 +43,7 @@ Large Language Models (LLMs) have shown promising results across various tasks, 
 ## Extra
 
 arXiv:2508.13678 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2508.13678
 
 ## Notes
 
