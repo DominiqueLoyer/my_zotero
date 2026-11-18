@@ -11,6 +11,7 @@ year: "2004"
 publication: "ACM transactions on information systems (TOIS)"
 volume: "22"
 pages: "5–53"
+doi: "10.1145/963770.963772"
 language: "fr-CA"
 tags:
   - "notion"
@@ -20,7 +21,7 @@ zotero-key: "DQD57QLS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DQD57QLS"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-11-17 17:52:39"
+date-modified: "2026-11-18 01:42:41"
 ---
 
 # Evaluating collaborative filtering recommender systems
