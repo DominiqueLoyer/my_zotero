@@ -15,7 +15,7 @@ zotero-key: "2RDCJ8CQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2RDCJ8CQ"
 date-added: "2025-10-10 19:01:29"
-date-modified: "2026-11-13 19:35:33"
+date-modified: "2026-11-18 01:38:36"
 ---
 
 # Data poisoning attacks explained
