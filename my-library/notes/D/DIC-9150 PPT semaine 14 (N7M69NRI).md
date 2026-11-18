@@ -6,6 +6,7 @@ authors:
 date: "3 décembre 2024"
 year: "2024"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours A24/DIC9001/Papier sur Searle (Naturalisme et étique)"
@@ -13,7 +14,7 @@ zotero-key: "N7M69NRI"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/N7M69NRI"
 date-added: "2024-11-29 17:43:27"
-date-modified: "2025-12-05 22:27:15"
+date-modified: "2026-11-18 01:40:46"
 ---
 
 # DIC-9150 PPT semaine 14

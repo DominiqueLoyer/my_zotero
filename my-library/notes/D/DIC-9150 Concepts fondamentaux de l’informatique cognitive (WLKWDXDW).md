@@ -5,6 +5,7 @@ authors:
   - "Robert, Par Serge"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "WLKWDXDW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/WLKWDXDW"
 date-added: "2024-12-08 17:49:57"
-date-modified: "2025-12-29 23:57:36"
+date-modified: "2026-11-18 01:40:39"
 ---
 
 # DIC-9150 Concepts fondamentaux de l’informatique cognitive

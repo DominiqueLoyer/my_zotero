@@ -5,6 +5,7 @@ authors:
   - "Robert, Serge"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "3AY2C5B7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3AY2C5B7"
 date-added: "2024-11-19 14:39:49"
-date-modified: "2025-12-29 23:57:38"
+date-modified: "2026-11-18 01:40:38"
 ---
 
 # DIC-9150  Les fondements cognitifs des réseaux de neurones, des algorithmes génétiques et des systèmes dynamiques Semaine 12

@@ -7,6 +7,7 @@ tags:
   - "Architectures cognitives"
   - "Clarion"
   - "Robert Serge"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours A24/Dic9150/Architectures cognitive 9150"
@@ -14,7 +15,7 @@ zotero-key: "Z6EJQNXR"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Z6EJQNXR"
 date-added: "2024-12-08 18:04:42"
-date-modified: "2025-12-05 22:26:56"
+date-modified: "2026-11-18 01:40:42"
 ---
 
 # DIC-9150 PPT semaine 14
