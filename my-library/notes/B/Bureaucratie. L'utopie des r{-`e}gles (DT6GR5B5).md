@@ -15,7 +15,7 @@ zotero-key: "DT6GR5B5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DT6GR5B5"
 date-added: "2026-02-25 20:54:18"
-date-modified: "2026-11-13 19:33:28"
+date-modified: "2026-11-18 01:36:04"
 ---
 
 # Bureaucratie. L'utopie des r{\`e}gles

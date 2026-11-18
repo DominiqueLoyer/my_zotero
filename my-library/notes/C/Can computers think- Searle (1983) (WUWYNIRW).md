@@ -19,7 +19,7 @@ zotero-key: "WUWYNIRW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/WUWYNIRW"
 date-added: "2024-11-15 17:52:08"
-date-modified: "2026-11-13 19:33:34"
+date-modified: "2026-11-18 01:36:08"
 ---
 
 # Can computers think? Searle (1983)
