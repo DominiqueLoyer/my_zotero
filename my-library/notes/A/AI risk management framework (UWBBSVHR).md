@@ -16,7 +16,7 @@ zotero-key: "UWBBSVHR"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UWBBSVHR"
 date-added: "2026-01-08 20:07:33"
-date-modified: "2026-11-13 19:31:00"
+date-modified: "2026-11-18 01:34:09"
 ---
 
 # AI risk management framework

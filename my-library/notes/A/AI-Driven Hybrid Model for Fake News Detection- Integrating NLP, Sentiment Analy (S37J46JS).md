@@ -15,7 +15,7 @@ zotero-key: "S37J46JS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/S37J46JS"
 date-added: "2026-02-26 20:19:13"
-date-modified: "2026-11-17 17:49:33"
+date-modified: "2026-11-18 01:34:12"
 ---
 
 # AI-Driven Hybrid Model for Fake News Detection: Integrating NLP, Sentiment Analysis, and Source Credibility to Combat Misinformation

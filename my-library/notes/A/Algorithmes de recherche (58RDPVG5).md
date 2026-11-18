@@ -15,7 +15,7 @@ zotero-key: "58RDPVG5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/58RDPVG5"
 date-added: "2025-03-10 19:00:34"
-date-modified: "2026-11-13 19:31:10"
+date-modified: "2026-11-18 01:34:15"
 ---
 
 # Algorithmes de recherche

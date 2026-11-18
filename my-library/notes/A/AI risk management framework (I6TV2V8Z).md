@@ -16,7 +16,7 @@ zotero-key: "I6TV2V8Z"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/I6TV2V8Z"
 date-added: "2026-01-08 20:10:57"
-date-modified: "2026-11-13 19:31:06"
+date-modified: "2026-11-18 01:34:12"
 ---
 
 # AI risk management framework

@@ -14,7 +14,7 @@ zotero-key: "5J3DBXW8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5J3DBXW8"
 date-added: "2026-03-08 21:20:44"
-date-modified: "2026-11-17 17:49:35"
+date-modified: "2026-11-18 01:34:15"
 ---
 
 # ALGORITHMES, BIG DATA ET INTELLIGENCE ARTIFICIELLE: G{\'E}N{\'E}ALOGIE DU POUVOIR ET TRANSFORMATION DE L’ESPACE PUBLIC

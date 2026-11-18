@@ -15,7 +15,7 @@ zotero-key: "W5WG3BXY"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/W5WG3BXY"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-11-13 19:31:12"
+date-modified: "2026-11-18 01:34:19"
 ---
 
 # Algorithmes, big data et intelligence artificielle: Généalogie du pouvoir et transformation de l’espace public

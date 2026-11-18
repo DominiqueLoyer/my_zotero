@@ -11,7 +11,7 @@ zotero-key: "JDKTEX9B"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JDKTEX9B"
 date-added: "2025-08-21 19:19:37"
-date-modified: "2026-11-13 19:31:07"
+date-modified: "2026-11-18 01:34:12"
 ---
 
 # Algorithmes : « Ce sont les individus qu'il faut responsabiliser »

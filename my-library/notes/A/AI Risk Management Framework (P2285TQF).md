@@ -15,7 +15,7 @@ zotero-key: "P2285TQF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/P2285TQF"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-13 19:30:56"
+date-modified: "2026-11-18 01:34:09"
 ---
 
 # AI Risk Management Framework
