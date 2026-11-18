@@ -7,6 +7,7 @@ authors:
   - "Gurevych, Iryna"
 date: "2024-07-16"
 year: "2024"
+doi: "10.18653/v1/2025.acl-long.1404"
 url: "http://arxiv.org/abs/2407.11770"
 language: "en"
 tags:
@@ -21,7 +22,7 @@ zotero-key: "FD4AJPZJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FD4AJPZJ"
 date-added: "2024-11-02 18:27:08"
-date-modified: "2025-12-05 22:24:14"
+date-modified: "2026-11-18 02:19:16"
 ---
 
 # Robust Utility-Preserving Text Anonymization Based on Large Language Models

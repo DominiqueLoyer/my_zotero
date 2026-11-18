@@ -104,7 +104,7 @@
 		"zoteroURI": "zotero://select/library/items/2QJZW5QN"
 	},
 	"zotero": {
-		"DOI": "10.48550/arXiv.1812.10119",
+		"DOI": "10.1609/aaai.v33i01.330110075",
 		"abstractNote": "As fas as we are aware, using sequence to sequence algorithms for query expansion has not been explored yet in Information Retrieval literature nor in QuestionAnswering’s. We tried to ﬁll this gap in the literature with a custom Query Expansion system trained and tested on open datasets. One speciﬁcity of our engine compared to classic ones is that it does not need the documents to expand the introduced query. We test our expansions on three different tasks : Information Retrieval, Answer preselection and Text classiﬁcation. Our method yielded a slight improvement in performance in the three tasks .",
 		"accessDate": "2025-03-20T18:03:01Z",
 		"archiveID": "arXiv:1812.10119",
@@ -127,8 +127,8 @@
 		],
 		"date": "2018-12-25",
 		"dateAdded": "2025-03-20T18:03:01Z",
-		"dateModified": "2025-12-05T22:24:00Z",
-		"extra": "arXiv:1812.10119 [cs]",
+		"dateModified": "2026-11-18T13:59:26Z",
+		"extra": "arXiv:1812.10119 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.1812.10119",
 		"itemType": "preprint",
 		"key": "2QJZW5QN",
 		"language": "en",

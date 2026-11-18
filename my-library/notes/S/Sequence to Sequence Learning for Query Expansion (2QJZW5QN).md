@@ -6,7 +6,7 @@ authors:
   - "Sadat, Fatiha"
 date: "2018-12-25"
 year: "2018"
-doi: "10.48550/arXiv.1812.10119"
+doi: "10.1609/aaai.v33i01.330110075"
 url: "http://arxiv.org/abs/1812.10119"
 language: "en"
 tags:
@@ -21,7 +21,7 @@ zotero-key: "2QJZW5QN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2QJZW5QN"
 date-added: "2025-03-20 18:03:01"
-date-modified: "2025-12-05 22:24:00"
+date-modified: "2026-11-18 13:59:26"
 ---
 
 # Sequence to Sequence Learning for Query Expansion
@@ -35,6 +35,7 @@ As fas as we are aware, using sequence to sequence algorithms for query expansio
 ## Extra
 
 arXiv:1812.10119 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.1812.10119
 
 ## Notes
 

@@ -5,7 +5,7 @@ authors:
   - "Kudo, Taku and Richardson, John"
 date: "2018"
 year: "2018"
-doi: "10.18653/v1/d18-2012"
+doi: "10.18653/v1/D18-2012"
 tags:
   - "notion"
 collections:
@@ -14,7 +14,7 @@ zotero-key: "EISGCH5E"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EISGCH5E"
 date-added: "2026-03-05 00:56:11"
-date-modified: "2026-03-25 21:28:59"
+date-modified: "2026-11-18 13:59:23"
 ---
 
 # SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing
@@ -24,6 +24,7 @@ date-modified: "2026-03-25 21:28:59"
 ## Extra
 
 Importé via SysCRED.
+DOI Fix previous DOI: 10.18653/v1/d18-2012
 
 ## Attachments
 
