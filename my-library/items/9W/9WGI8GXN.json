@@ -83,7 +83,7 @@
 		"zoteroURI": "zotero://select/library/items/9WGI8GXN"
 	},
 	"zotero": {
-		"DOI": "10.48550/arXiv.2501.02482",
+		"DOI": "10.1145/3711542.3711601",
 		"abstractNote": "News Articles provides crucial information about various events happening in the society but they unfortunately come with different kind of biases. These biases can significantly distort public opinion and trust in the media, making it essential to develop techniques to detect and address them. Previous works have majorly worked towards identifying biases in particular domains e.g., Political, gender biases. However, more comprehensive studies are needed to detect biases across diverse domains. Large language models (LLMs) offer a powerful way to analyze and understand natural language, making them ideal for constructing datasets and detecting these biases. In this work, we have explored various biases present in the news articles, built a dataset using LLMs and present results obtained using multiple detection techniques. Our approach highlights the importance of broad-spectrum bias detection and offers new insights for improving the integrity of news articles.",
 		"accessDate": "2026-03-14T17:37:09Z",
 		"archiveID": "arXiv:2501.02482",
@@ -110,8 +110,8 @@
 		],
 		"date": "2025-01-05",
 		"dateAdded": "2026-03-14T17:37:09Z",
-		"dateModified": "2026-03-25T21:28:34Z",
-		"extra": "arXiv:2501.02482 [cs]",
+		"dateModified": "2026-11-18T01:39:12Z",
+		"extra": "arXiv:2501.02482 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2501.02482",
 		"itemType": "preprint",
 		"key": "9WGI8GXN",
 		"language": "en",
