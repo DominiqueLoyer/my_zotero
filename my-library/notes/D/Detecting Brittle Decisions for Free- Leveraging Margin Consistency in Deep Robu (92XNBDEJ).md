@@ -9,6 +9,7 @@ authors:
   - "Gagné, Christian"
 date: "2024-07-22"
 year: "2024"
+doi: "10.52202/079017-0733"
 url: "http://arxiv.org/abs/2406.18451"
 language: "en"
 tags:
@@ -23,7 +24,7 @@ zotero-key: "92XNBDEJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/92XNBDEJ"
 date-added: "2024-11-02 17:29:33"
-date-modified: "2025-12-05 22:28:27"
+date-modified: "2026-11-18 01:39:26"
 ---
 
 # Detecting Brittle Decisions for Free: Leveraging Margin Consistency in Deep Robust Classifiers

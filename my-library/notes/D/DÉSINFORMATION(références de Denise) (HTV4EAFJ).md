@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Denise"
 tags:
+  - "doi-fix:low-confidence"
   - "désinformation"
   - "notion"
 collections:
@@ -12,7 +13,7 @@ zotero-key: "HTV4EAFJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/HTV4EAFJ"
 date-added: "2025-03-26 14:13:32"
-date-modified: "2025-03-26 14:14:45"
+date-modified: "2026-11-18 01:39:26"
 ---
 
 # DÉSINFORMATION(références de Denise)

@@ -18,7 +18,7 @@ zotero-key: "XMIF42QR"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XMIF42QR"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-03-25 21:31:15"
+date-modified: "2026-11-18 01:39:25"
 ---
 
 # Des crimes et des séismes. La police prédictive entre science, technique et divination

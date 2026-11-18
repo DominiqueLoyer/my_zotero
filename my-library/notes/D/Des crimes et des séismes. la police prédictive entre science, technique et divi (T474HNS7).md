@@ -9,6 +9,7 @@ publication: "Réseaux"
 volume: "206"
 issue: "6"
 pages: "95–123"
+doi: "10.3917/res.206.0095"
 language: "fr-CA"
 tags:
   - "notion"
@@ -18,7 +19,7 @@ zotero-key: "T474HNS7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/T474HNS7"
 date-added: "2026-01-08 20:10:53"
-date-modified: "2026-11-17 17:51:53"
+date-modified: "2026-11-18 01:39:25"
 ---
 
 # Des crimes et des séismes. la police prédictive entre science, technique et divination

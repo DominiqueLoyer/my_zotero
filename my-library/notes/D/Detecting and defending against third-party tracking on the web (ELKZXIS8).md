@@ -10,6 +10,7 @@ year: "2012"
 url: "https://www.semanticscholar.org/paper/96df51029b8f6c936c9909bd45a9b0b8498d1ffa"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
@@ -17,7 +18,7 @@ zotero-key: "ELKZXIS8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ELKZXIS8"
 date-added: "2026-01-08 20:14:06"
-date-modified: "2026-11-17 17:51:56"
+date-modified: "2026-11-18 01:39:26"
 ---
 
 # Detecting and defending against third-party tracking on the web

@@ -19,7 +19,7 @@ zotero-key: "H5H5NW8X"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/H5H5NW8X"
 date-added: "2026-01-08 20:07:30"
-date-modified: "2026-03-25 21:30:47"
+date-modified: "2026-11-18 01:39:25"
 ---
 
 # Des crimes et des séismes. La police prédictive entre science, technique et divination

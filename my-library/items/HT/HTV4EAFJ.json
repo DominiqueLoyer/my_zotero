@@ -75,7 +75,7 @@
 		"zoteroURI": "zotero://select/library/items/HTV4EAFJ"
 	},
 	"zotero": {
-		"citationKey": "deniseDESINFORMATIONreferencesDenise",
+		"citationKey": "deniseDESINFORMATIONreferencesDenisea",
 		"collections": [
 			"WN6UAL9Z"
 		],
@@ -86,7 +86,7 @@
 			}
 		],
 		"dateAdded": "2025-03-26T14:13:32Z",
-		"dateModified": "2025-03-26T14:14:45Z",
+		"dateModified": "2026-11-18T01:39:26Z",
 		"itemType": "document",
 		"key": "HTV4EAFJ",
 		"relations": {
@@ -95,6 +95,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "désinformation"
 			},

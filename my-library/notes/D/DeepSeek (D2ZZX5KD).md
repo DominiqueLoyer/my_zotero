@@ -1,6 +1,7 @@
 ---
 title: "DeepSeek"
 item-type: "webpage"
+doi: "10.1201/9781003676980-5"
 url: "https://chat.deepseek.com"
 language: "en"
 tags:
@@ -12,7 +13,7 @@ zotero-key: "D2ZZX5KD"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/D2ZZX5KD"
 date-added: "2025-03-30 18:53:56"
-date-modified: "2026-11-17 17:51:48"
+date-modified: "2026-11-18 01:39:25"
 ---
 
 # DeepSeek

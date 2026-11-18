@@ -72,13 +72,17 @@
 		],
 		"date": "2012",
 		"dateAdded": "2026-01-08T20:14:06Z",
-		"dateModified": "2026-11-17T17:51:56Z",
+		"dateModified": "2026-11-18T01:39:26Z",
 		"extra": "OpenAlex: W2099474262",
 		"itemType": "journalArticle",
 		"key": "ELKZXIS8",
 		"language": "fr-CA",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

@@ -5,7 +5,7 @@ authors:
   - "Zhang, Shuai and Yao, Lina and Sun, Aixin and Tay, Yi"
 date: "2020"
 year: "2020"
-doi: "10.1504/ijiids.2020.109457"
+doi: "10.1504/IJIIDS.2020.109457"
 tags:
   - "notion"
 collections:
@@ -14,7 +14,7 @@ zotero-key: "TK7JN5WP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TK7JN5WP"
 date-added: "2026-02-25 21:58:53"
-date-modified: "2026-11-17 17:51:39"
+date-modified: "2026-11-18 01:39:19"
 ---
 
 # Deep learning based recommender system: A survey and new perspectives
@@ -25,6 +25,7 @@ date-modified: "2026-11-17 17:51:39"
 
 Importé via SysCRED.
 OpenAlex: W4236294630
+DOI Fix previous DOI: 10.1504/ijiids.2020.109457
 
 ## Attachments
 
