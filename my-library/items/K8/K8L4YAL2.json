@@ -76,7 +76,7 @@
 		"zoteroURI": "zotero://select/library/items/K8L4YAL2"
 	},
 	"zotero": {
-		"citationKey": "loyerdominiqueloyermahmoudmohannaisabellerochetteratiarayromeoravelonjanaharyFinalProjectMaster2014",
+		"citationKey": "loyerdominiqueloyermahmoudmohannaisabellerochetteratiarayromeoravelonjanaharyFinalProjectMaster2014a",
 		"collections": [
 			"GXLPXWSC",
 			"KKPWSFMI"
@@ -89,7 +89,7 @@
 		],
 		"date": "2014",
 		"dateAdded": "2025-06-12T18:08:57Z",
-		"dateModified": "2025-06-12T18:16:28Z",
+		"dateModified": "2026-11-18T01:45:05Z",
 		"extra": "ORCID=\"0009-0003-9713-7109\"",
 		"itemType": "document",
 		"key": "K8L4YAL2",
@@ -102,6 +102,10 @@
 		"tags": [
 			{
 				"tag": "censusBureau_dataset"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

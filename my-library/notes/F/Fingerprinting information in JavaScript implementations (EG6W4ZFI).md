@@ -11,6 +11,7 @@ year: "2011"
 url: "https://www.semanticscholar.org/paper/b42c88c9a7cf1ac95598fc49169b0c008a414d76"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
@@ -18,7 +19,7 @@ zotero-key: "EG6W4ZFI"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EG6W4ZFI"
 date-added: "2026-01-08 20:14:04"
-date-modified: "2026-03-25 21:30:06"
+date-modified: "2026-11-18 01:45:08"
 ---
 
 # Fingerprinting information in JavaScript implementations

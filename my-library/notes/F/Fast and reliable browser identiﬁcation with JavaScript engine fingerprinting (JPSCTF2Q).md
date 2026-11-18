@@ -13,6 +13,7 @@ year: "2013"
 url: "https://www.semanticscholar.org/paper/bdb430d06f3e134b2df8965dd62c77ac87710064"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
@@ -20,7 +21,7 @@ zotero-key: "JPSCTF2Q"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JPSCTF2Q"
 date-added: "2026-01-08 20:14:05"
-date-modified: "2026-03-25 21:30:03"
+date-modified: "2026-11-18 01:45:03"
 ---
 
 # Fast and reliable browser identiﬁcation with JavaScript engine fingerprinting
