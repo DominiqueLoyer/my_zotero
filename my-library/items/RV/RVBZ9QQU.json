@@ -64,7 +64,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-09T18:32:50Z",
-		"dateModified": "2026-02-05T00:04:41Z",
+		"dateModified": "2026-11-18T01:57:26Z",
 		"extra": "abstractTranslation: Exponential proliferation of online information (Zhou et Zafarani 2020; Viviani et Pasi 2017). Increasing difficulty for users to evaluate the reliability of sources and content (Metzger, Flanagin et Medders 2010; Rieh 2010). Major societal impact of misinformation (disinformation, fake news) (Sharma et al. 2019; Souza et al. 2020; Oshikawa, Qian et Wang 2020). Increased complexity due to generative AI (GenAI) capable of creating realistic synthetic content (K. Chen et Shu 2023; Loth, Kappes et Pahl 2024). Need for transparency and explainability of AI systems, particularly LLMs (Liao2024; Mahari2023; Zou2023; Chaudhary2024; DiakopoulosND).\ntitleTranslation: Ontology - Information Credibility Verification System Final Project presented to Petko Valchev, DIC-9335 Web Sciences",
 		"itemType": "journalArticle",
 		"key": "RVBZ9QQU",
@@ -78,6 +78,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

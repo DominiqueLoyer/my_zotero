@@ -97,7 +97,7 @@
 		],
 		"date": "30 avril 2025",
 		"dateAdded": "2025-05-30T18:47:29Z",
-		"dateModified": "2025-05-30T18:56:58Z",
+		"dateModified": "2026-11-18T01:57:23Z",
 		"extra": "ORCID=\"0009-0003-9713-7109\"",
 		"itemType": "presentation",
 		"key": "7YQTKWKB",
@@ -110,6 +110,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

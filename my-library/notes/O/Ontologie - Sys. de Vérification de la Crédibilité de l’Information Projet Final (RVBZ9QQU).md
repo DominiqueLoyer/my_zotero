@@ -12,12 +12,13 @@ doi: "10.13140/RG.2.2.25249.72807"
 url: "https://rgdoi.net/10.13140/RG.2.2.25249.72807"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 zotero-key: "RVBZ9QQU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RVBZ9QQU"
 date-added: "2026-01-09 18:32:50"
-date-modified: "2026-02-05 00:04:41"
+date-modified: "2026-11-18 01:57:26"
 ---
 
 # Ontologie - Sys. de Vérification de la Crédibilité de l’Information Projet Final présenté à Petko Valchev, DIC-9335 Sciences du Web

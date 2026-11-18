@@ -9,6 +9,7 @@ year: "2025"
 url: "10.13140/RG.2.2.25249.72807"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "ontology, fact cheking"
 collections:
@@ -18,7 +19,7 @@ zotero-key: "7YQTKWKB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7YQTKWKB"
 date-added: "2025-05-30 18:47:29"
-date-modified: "2025-05-30 18:56:58"
+date-modified: "2026-11-18 01:57:23"
 ---
 
 # Ontologie - Sys. de Vérification de la Crédibilité de l'Information - Projet Final présenté à Petko Valchev, DIC-9335 Sciences du Web

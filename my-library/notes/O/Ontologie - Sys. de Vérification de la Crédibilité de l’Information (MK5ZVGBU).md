@@ -24,7 +24,7 @@ zotero-key: "MK5ZVGBU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/MK5ZVGBU"
 date-added: "2025-10-06 16:22:09"
-date-modified: "2026-11-17 15:07:52"
+date-modified: "2026-11-18 01:57:18"
 ---
 
 # Ontologie - Sys. de Vérification de la Crédibilité de l’Information

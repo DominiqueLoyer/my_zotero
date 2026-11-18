@@ -19,7 +19,7 @@ zotero-key: "K9QVVWXD"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/K9QVVWXD"
 date-added: "2025-10-05 18:57:05"
-date-modified: "2026-11-17 15:07:56"
+date-modified: "2026-11-18 01:57:23"
 ---
 
 # Ontologie - Sys. de Vérification de la Crédibilité de l’Information Projet Final présenté à Petko Valchev, DIC-9335 Sciences du Web

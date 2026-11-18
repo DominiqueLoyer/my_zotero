@@ -11,12 +11,13 @@ doi: "10.13140/RG.2.2.25249.72807"
 url: "https://www.researchgate.net/publication/392626777_Ontologie_-_Sys_de_Verification_de_la_Credibilite_de_l%27Information_Projet_Final_presente_a_Petko_Valchev_DIC-9335_Sciences_du_Web?channel=doi&linkId=684b2d39e7be56124ab5fd82&showFulltext=true"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 zotero-key: "RKVWFWKT"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RKVWFWKT"
 date-added: "2026-01-09 19:13:09"
-date-modified: "2026-01-27 00:38:30"
+date-modified: "2026-11-18 01:57:22"
 ---
 
 # Ontologie - Sys. de Vérification de la Crédibilité de l’Information
