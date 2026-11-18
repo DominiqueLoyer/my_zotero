@@ -73,12 +73,16 @@
 		],
 		"date": "2023",
 		"dateAdded": "2025-04-10T15:02:46Z",
-		"dateModified": "2025-04-10T15:02:46Z",
+		"dateModified": "2026-11-18T14:00:00Z",
 		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
 		"itemType": "document",
 		"key": "DVSFFK7I",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

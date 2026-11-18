@@ -5,6 +5,7 @@ authors:
   - "Ramanathan, Ananthakrishnan"
 language: "en"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -14,7 +15,7 @@ zotero-key: "VXT54RLJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VXT54RLJ"
 date-added: "2025-03-20 18:02:44"
-date-modified: "2025-12-29 23:57:23"
+date-modified: "2026-11-18 13:59:59"
 ---
 
 # State of the Art in Cross-Lingual Information Retrieval
