@@ -262,7 +262,7 @@
 		],
 		"date": "automne 2024",
 		"dateAdded": "2024-12-11T19:36:05Z",
-		"dateModified": "2025-12-05T22:27:08Z",
+		"dateModified": "2026-11-18T01:40:33Z",
 		"itemType": "presentation",
 		"key": "FKYWIN9N",
 		"place": "UQAM",
@@ -273,6 +273,10 @@
 			},
 			{
 				"tag": "dic-9001"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

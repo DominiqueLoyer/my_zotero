@@ -8,6 +8,7 @@ year: "2024"
 tags:
   - "Robert Serge"
   - "dic-9001"
+  - "doi-fix:low-confidence"
   - "notion"
   - "synthèse 9001"
 collections:
@@ -16,7 +17,7 @@ zotero-key: "FKYWIN9N"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FKYWIN9N"
 date-added: "2024-12-11 19:36:05"
-date-modified: "2025-12-05 22:27:08"
+date-modified: "2026-11-18 01:40:33"
 ---
 
 # DIC-9001 PPT semaine 14c

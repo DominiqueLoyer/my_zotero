@@ -277,7 +277,7 @@
 		],
 		"date": "Automne 2024",
 		"dateAdded": "2024-12-11T19:39:16Z",
-		"dateModified": "2025-12-05T22:25:50Z",
+		"dateModified": "2026-11-18T01:40:34Z",
 		"itemType": "presentation",
 		"key": "56XUZGK9",
 		"place": "UQAM",
@@ -297,6 +297,10 @@
 			},
 			{
 				"tag": "dic-9001"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"
