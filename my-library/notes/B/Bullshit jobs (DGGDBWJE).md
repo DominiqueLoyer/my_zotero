@@ -16,7 +16,7 @@ zotero-key: "DGGDBWJE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DGGDBWJE"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-11-17 17:50:43"
+date-modified: "2026-11-18 01:35:52"
 ---
 
 # Bullshit jobs

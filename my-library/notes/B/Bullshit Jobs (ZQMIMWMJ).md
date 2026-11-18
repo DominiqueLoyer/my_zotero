@@ -15,7 +15,7 @@ zotero-key: "ZQMIMWMJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZQMIMWMJ"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-17 17:50:43"
+date-modified: "2026-11-18 01:35:48"
 ---
 
 # Bullshit Jobs
