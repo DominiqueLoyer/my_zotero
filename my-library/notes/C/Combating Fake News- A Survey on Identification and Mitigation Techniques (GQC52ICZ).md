@@ -25,7 +25,7 @@ zotero-key: "GQC52ICZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GQC52ICZ"
 date-added: "2026-03-14 17:38:55"
-date-modified: "2026-11-13 19:34:36"
+date-modified: "2026-11-18 01:37:47"
 ---
 
 # Combating Fake News: A Survey on Identification and Mitigation Techniques

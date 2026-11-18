@@ -27,7 +27,7 @@ zotero-key: "KU24VIPU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KU24VIPU"
 date-added: "2026-03-14 17:35:09"
-date-modified: "2026-11-13 19:34:33"
+date-modified: "2026-11-18 01:37:44"
 ---
 
 # Combating Fake News: A Survey on Identification and Mitigation Techniques

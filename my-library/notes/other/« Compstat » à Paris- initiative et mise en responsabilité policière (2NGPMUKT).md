@@ -18,7 +18,7 @@ zotero-key: "2NGPMUKT"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2NGPMUKT"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-13 19:34:41"
+date-modified: "2026-11-18 01:37:48"
 ---
 
 # « Compstat » à Paris: initiative et mise en responsabilité policière

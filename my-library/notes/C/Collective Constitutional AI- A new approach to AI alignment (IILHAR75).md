@@ -17,7 +17,7 @@ zotero-key: "IILHAR75"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IILHAR75"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-13 19:34:32"
+date-modified: "2026-11-18 01:37:43"
 ---
 
 # Collective Constitutional AI: A new approach to AI alignment
