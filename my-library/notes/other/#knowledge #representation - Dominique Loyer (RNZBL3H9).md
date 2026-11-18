@@ -10,7 +10,7 @@ zotero-key: "RNZBL3H9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RNZBL3H9"
 date-added: "2026-01-03 22:15:09"
-date-modified: "2026-11-13 19:28:47"
+date-modified: "2026-11-18 01:32:03"
 ---
 
 # #knowledge #representation | Dominique Loyer

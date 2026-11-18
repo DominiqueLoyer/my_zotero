@@ -11,7 +11,7 @@ zotero-key: "GJ2YAEHK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GJ2YAEHK"
 date-added: "2025-10-30 21:03:28"
-date-modified: "2026-11-13 19:28:51"
+date-modified: "2026-11-18 01:32:08"
 ---
 
 # 11 items selected | My Publications | My Library | Zotero
