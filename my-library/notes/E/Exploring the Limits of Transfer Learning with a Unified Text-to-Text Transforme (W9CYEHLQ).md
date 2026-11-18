@@ -20,6 +20,7 @@ tags:
   - "Computer Science - Computation and Language"
   - "Computer Science - Machine Learning"
   - "Statistics - Machine Learning"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
@@ -27,7 +28,7 @@ zotero-key: "W9CYEHLQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/W9CYEHLQ"
 date-added: "2026-03-14 17:36:02"
-date-modified: "2026-03-14 18:19:52"
+date-modified: "2026-11-18 01:44:48"
 ---
 
 # Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer

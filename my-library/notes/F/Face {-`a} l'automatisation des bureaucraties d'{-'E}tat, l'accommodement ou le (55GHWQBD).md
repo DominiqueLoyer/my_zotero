@@ -14,7 +14,7 @@ zotero-key: "55GHWQBD"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/55GHWQBD"
 date-added: "2026-03-08 21:20:56"
-date-modified: "2026-11-17 17:55:39"
+date-modified: "2026-11-18 01:44:51"
 ---
 
 # Face {\`a} l'automatisation des bureaucraties d'{\'E}tat, l'accommodement ou le refus

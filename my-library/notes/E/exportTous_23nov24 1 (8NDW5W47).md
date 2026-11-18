@@ -2,6 +2,7 @@
 title: "exportTous_23nov24 1"
 item-type: "document"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
 collections:
   - "myReferences"
@@ -9,7 +10,7 @@ zotero-key: "8NDW5W47"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8NDW5W47"
 date-added: "2026-01-08 22:57:48"
-date-modified: "2026-01-16 15:53:08"
+date-modified: "2026-11-18 01:44:48"
 ---
 
 # exportTous_23nov24 1

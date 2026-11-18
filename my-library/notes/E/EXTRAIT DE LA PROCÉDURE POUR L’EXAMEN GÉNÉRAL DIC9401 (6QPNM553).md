@@ -3,6 +3,7 @@ title: "EXTRAIT DE LA PROCÉDURE POUR L’EXAMEN GÉNÉRAL DIC9401"
 item-type: "journalArticle"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)"
@@ -10,7 +11,7 @@ zotero-key: "6QPNM553"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6QPNM553"
 date-added: "2025-05-06 20:15:35"
-date-modified: "2025-12-05 22:34:49"
+date-modified: "2026-11-18 01:44:51"
 ---
 
 # EXTRAIT DE LA PROCÉDURE POUR L’EXAMEN GÉNÉRAL DIC9401
