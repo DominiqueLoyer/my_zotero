@@ -59,7 +59,7 @@
 		],
 		"date": "2018",
 		"dateAdded": "2025-12-30T21:49:10Z",
-		"dateModified": "2026-11-17T17:56:58Z",
+		"dateModified": "2026-11-18T01:50:49Z",
 		"extra": "OpenAlex: W2913864222",
 		"issue": "150",
 		"itemType": "journalArticle",
@@ -68,6 +68,10 @@
 		"publicationTitle": "Revue Lamy Droit de l'immatériel",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

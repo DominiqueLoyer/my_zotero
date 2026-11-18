@@ -7,6 +7,7 @@ date: "2022-06-10"
 year: "2022"
 url: "https://www.journaldemontreal.com/2022/06/10/lidentite-numerique-quels-enjeux-et-quels-risques"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Ma thèse"
@@ -17,7 +18,7 @@ zotero-key: "T5IJTS4L"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/T5IJTS4L"
 date-added: "2024-11-02 17:40:17"
-date-modified: "2025-12-05 22:32:26"
+date-modified: "2026-11-18 01:50:59"
 ---
 
 # L’identité numérique: quels enjeux et quels risques?

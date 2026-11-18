@@ -9,6 +9,7 @@ publication: "Revue Lamy Droit de l'immatériel"
 issue: "150"
 pages: "42–54"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -17,7 +18,7 @@ zotero-key: "6CXGYZGA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6CXGYZGA"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-11-17 17:56:58"
+date-modified: "2026-11-18 01:50:49"
 ---
 
 # L’algorithmisation de l’administration

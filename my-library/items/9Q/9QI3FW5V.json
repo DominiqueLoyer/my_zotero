@@ -58,12 +58,16 @@
 		],
 		"date": "2018",
 		"dateAdded": "2026-03-08T21:21:01Z",
-		"dateModified": "2026-11-17T17:56:59Z",
+		"dateModified": "2026-11-18T01:50:52Z",
 		"extra": "Importé via SysCRED.\nOpenAlex: W2913864222",
 		"itemType": "journalArticle",
 		"key": "9QI3FW5V",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

@@ -6,6 +6,7 @@ authors:
 date: "2018"
 year: "2018"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_gs_080326"
@@ -13,7 +14,7 @@ zotero-key: "9QI3FW5V"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9QI3FW5V"
 date-added: "2026-03-08 21:21:01"
-date-modified: "2026-11-17 17:56:59"
+date-modified: "2026-11-18 01:50:52"
 ---
 
 # L’algorithmisation de l’administration

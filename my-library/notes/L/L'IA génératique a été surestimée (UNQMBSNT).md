@@ -9,6 +9,7 @@ publication: "L'Express"
 issue: "3819"
 pages: "58-60"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -20,7 +21,7 @@ zotero-key: "UNQMBSNT"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UNQMBSNT"
 date-added: "2024-11-02 17:25:53"
-date-modified: "2025-12-29 23:57:39"
+date-modified: "2026-11-18 01:50:55"
 ---
 
 # L'IA génératique a été surestimée
