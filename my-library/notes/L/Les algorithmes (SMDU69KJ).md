@@ -6,6 +6,7 @@ authors:
   - "Loyer, Dominique"
 date: "2021"
 year: "2021"
+doi: "10.3917/sh.hs22.0036"
 language: "fr-CA"
 tags:
   - "AI"
@@ -22,7 +23,7 @@ zotero-key: "SMDU69KJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SMDU69KJ"
 date-added: "2024-12-15 16:40:17"
-date-modified: "2026-01-09 19:17:43"
+date-modified: "2026-11-18 01:53:39"
 ---
 
 # Les algorithmes

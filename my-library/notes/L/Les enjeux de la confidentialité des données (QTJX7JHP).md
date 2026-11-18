@@ -11,6 +11,7 @@ tags:
   - "Dominique Loyer"
   - "confidentialité"
   - "conférences"
+  - "doi-fix:low-confidence"
   - "notion"
   - "privacy"
 collections:
@@ -20,7 +21,7 @@ zotero-key: "QTJX7JHP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QTJX7JHP"
 date-added: "2024-12-15 15:30:19"
-date-modified: "2026-01-09 19:17:45"
+date-modified: "2026-11-18 01:53:46"
 ---
 
 # Les enjeux de la confidentialité des données

@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -12,7 +13,7 @@ zotero-key: "YNUY75ES"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/YNUY75ES"
 date-added: "2025-03-31 18:39:20"
-date-modified: "2025-03-31 18:39:53"
+date-modified: "2026-11-18 01:53:42"
 ---
 
 # Les cas d'utilisations DIC-9251
