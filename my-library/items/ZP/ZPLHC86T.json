@@ -31,7 +31,7 @@
 		],
 		"date": "2026-01-01",
 		"dateAdded": "2026-04-17T20:25:49Z",
-		"dateModified": "2026-11-17T18:04:15Z",
+		"dateModified": "2026-11-18T14:00:12Z",
 		"extra": "OpenAlex: W7138949068",
 		"itemType": "journalArticle",
 		"key": "ZPLHC86T",
@@ -49,6 +49,10 @@
 			},
 			{
 				"tag": "Subpoena"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			}
 		],
 		"title": "syscred: Présentation prévue pour mon projet de doctorat devant jury et public. (DIC-9411) ISBN : 978-1-0699945-8-5",

@@ -6,6 +6,7 @@ authors:
 date: "1975"
 year: "1975"
 publisher: "Gallimard"
+doi: "10.2307/1850892"
 isbn: "978-2-07-029179-3"
 tags:
   - "notion"
@@ -17,7 +18,7 @@ zotero-key: "RWIRIRMP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RWIRIRMP"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-09 14:55:04"
+date-modified: "2026-11-18 14:00:07"
 ---
 
 # Surveiller et punir : Naissance de la prison

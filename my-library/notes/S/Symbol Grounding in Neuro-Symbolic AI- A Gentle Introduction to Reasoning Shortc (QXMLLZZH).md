@@ -13,7 +13,7 @@ authors:
   - "Teso, Stefano"
 date: "2025-10-16"
 year: "2025"
-doi: "10.48550/arXiv.2510.14538"
+doi: "10.1613/jair.1.22389"
 url: "http://arxiv.org/abs/2510.14538"
 tags:
   - "Computer Science - Artificial Intelligence"
@@ -29,7 +29,7 @@ zotero-key: "QXMLLZZH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QXMLLZZH"
 date-added: "2026-03-14 17:34:34"
-date-modified: "2026-11-09 14:55:01"
+date-modified: "2026-11-18 14:00:11"
 ---
 
 # Symbol Grounding in Neuro-Symbolic AI: A Gentle Introduction to Reasoning Shortcuts
@@ -43,6 +43,7 @@ Neuro-symbolic (NeSy) AI aims to develop deep neural networks whose predictions 
 ## Extra
 
 arXiv:2510.14538 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2510.14538
 
 ## Attachments
 
