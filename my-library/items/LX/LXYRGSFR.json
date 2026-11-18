@@ -93,7 +93,7 @@
 			}
 		],
 		"dateAdded": "2026-01-09T20:59:15Z",
-		"dateModified": "2026-03-25T21:29:59Z",
+		"dateModified": "2026-11-18T01:52:35Z",
 		"itemType": "journalArticle",
 		"key": "LXYRGSFR",
 		"language": "fr",
@@ -104,6 +104,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

@@ -5,6 +5,7 @@ authors:
   - "Loyer, Dominique"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "WN9B7SLH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/WN9B7SLH"
 date-added: "2026-01-09 20:59:03"
-date-modified: "2026-03-25 21:30:00"
+date-modified: "2026-11-18 01:52:35"
 ---
 
 # Le Léviathan algorithmique - Pouvoir, opacité et responsabilité à l'ère de l'IA
