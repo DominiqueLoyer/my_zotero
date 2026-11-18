@@ -14,7 +14,7 @@ zotero-key: "7PVNQCSG"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7PVNQCSG"
 date-added: "2026-02-25 20:56:01"
-date-modified: "2026-11-17 17:56:59"
+date-modified: "2026-11-18 01:51:14"
 ---
 
 # La bureaucratisation du monde {\`a} l'{\`e}re n{\'e}olib{\'e}rale

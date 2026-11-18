@@ -114,7 +114,7 @@
 			}
 		],
 		"dateAdded": "2024-12-01T03:36:39Z",
-		"dateModified": "2025-12-29T23:57:37Z",
+		"dateModified": "2026-11-18T01:51:14Z",
 		"itemType": "journalArticle",
 		"key": "GXN26YAF",
 		"language": "fr",
@@ -125,6 +125,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

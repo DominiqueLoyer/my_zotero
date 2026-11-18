@@ -5,6 +5,7 @@ authors:
   - "Smith, Par Elizabeth"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "GXN26YAF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GXN26YAF"
 date-added: "2024-12-01 03:36:39"
-date-modified: "2025-12-29 23:57:37"
+date-modified: "2026-11-18 01:51:14"
 ---
 
 # L’interdépendance des systèmes cognitifs en communication : attention, vision et contexte.

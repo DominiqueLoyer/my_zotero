@@ -14,13 +14,14 @@ tags:
   - "Ethique IA"
   - "Intelligence Artificielle"
   - "Machine Learning"
+  - "doi-fix:low-confidence"
 collections:
   - "completeLoyer_100126 2026-11-12, 5:14:18 p.m."
 zotero-key: "WWPYFLJ2"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/WWPYFLJ2"
 date-added: "2026-11-12 22:14:19"
-date-modified: "2026-11-12 22:14:19"
+date-modified: "2026-11-18 01:51:11"
 ---
 
 # L'intelligence artificielle. Qu'est-ce que c'est?
