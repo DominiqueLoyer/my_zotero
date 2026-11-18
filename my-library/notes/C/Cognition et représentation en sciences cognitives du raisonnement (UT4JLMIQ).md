@@ -17,7 +17,7 @@ zotero-key: "UT4JLMIQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UT4JLMIQ"
 date-added: "2024-12-01 03:35:12"
-date-modified: "2026-11-13 19:34:29"
+date-modified: "2026-11-18 01:36:43"
 ---
 
 # Cognition et représentation en sciences cognitives du raisonnement

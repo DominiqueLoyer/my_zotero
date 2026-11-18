@@ -21,7 +21,7 @@ zotero-key: "H6R7JW9J"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/H6R7JW9J"
 date-added: "2026-01-08 20:10:58"
-date-modified: "2026-11-13 19:34:24"
+date-modified: "2026-11-18 01:36:37"
 ---
 
 # Cogito ergo es

@@ -15,7 +15,7 @@ zotero-key: "2Z9BI6XN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2Z9BI6XN"
 date-added: "2026-02-26 20:21:04"
-date-modified: "2026-11-13 19:34:18"
+date-modified: "2026-11-18 01:36:34"
 ---
 
 # ClaimReview - Schema.org Type

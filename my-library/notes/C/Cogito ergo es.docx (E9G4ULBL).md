@@ -20,7 +20,7 @@ zotero-key: "E9G4ULBL"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/E9G4ULBL"
 date-added: "2025-09-08 12:07:08"
-date-modified: "2026-11-13 19:34:25"
+date-modified: "2026-11-18 01:36:40"
 ---
 
 # Cogito ergo es.docx
