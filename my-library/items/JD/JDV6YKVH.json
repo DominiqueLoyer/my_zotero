@@ -46,7 +46,7 @@
 		"zoteroURI": "zotero://select/library/items/JDV6YKVH"
 	},
 	"zotero": {
-		"citationKey": "institutparisregionPolicePredictiveEnjeux2019b",
+		"citationKey": "institutparisregionPolicePredictiveEnjeux2019d",
 		"collections": [
 			"7PN5IQY2"
 		],
@@ -58,13 +58,17 @@
 		],
 		"date": "2019",
 		"dateAdded": "2026-01-08T20:10:54Z",
-		"dateModified": "2026-03-25T21:30:25Z",
+		"dateModified": "2026-11-18T01:51:44Z",
 		"institution": "L'Institut Paris Region",
 		"itemType": "report",
 		"key": "JDV6YKVH",
 		"language": "fr-CA",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

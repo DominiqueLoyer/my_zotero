@@ -5,7 +5,7 @@ authors:
   - "Institut Paris Region"
 date: "2019"
 year: "2019"
-doi: "10.64628/aak.n9ymswkgc"
+doi: "10.64628/AAK.n9ymswkgc"
 url: "https://www.institutparisregion.fr/nos-travaux/publications/la-police-predictive/"
 tags:
   - "notion"
@@ -15,7 +15,7 @@ zotero-key: "TCPWIHIA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TCPWIHIA"
 date-added: "2026-02-25 21:38:43"
-date-modified: "2026-11-17 17:57:36"
+date-modified: "2026-11-18 01:51:45"
 ---
 
 # La police prédictive. Enjeux soulevés par l'usage des algorithmes prédictifs en matière de sécurité publique
@@ -26,6 +26,7 @@ date-modified: "2026-11-17 17:57:36"
 
 Importé via SysCRED.
 OpenAlex: W4413722063
+DOI Fix previous DOI: 10.64628/aak.n9ymswkgc
 
 ## Attachments
 

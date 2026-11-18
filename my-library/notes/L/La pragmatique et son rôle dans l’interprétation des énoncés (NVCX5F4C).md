@@ -5,6 +5,7 @@ authors:
   - "Smith, Par Elizabeth"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "NVCX5F4C"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/NVCX5F4C"
 date-added: "2024-12-02 10:42:01"
-date-modified: "2025-12-29 23:57:37"
+date-modified: "2026-11-18 01:51:47"
 ---
 
 # La pragmatique et son rôle dans l’interprétation des énoncés
