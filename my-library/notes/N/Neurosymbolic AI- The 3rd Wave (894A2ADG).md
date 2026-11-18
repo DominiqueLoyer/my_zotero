@@ -6,7 +6,7 @@ authors:
   - "Lamb, Luis C."
 date: "2020-12-16"
 year: "2020"
-doi: "10.48550/arXiv.2012.05876"
+doi: "10.1007/s10462-023-10448-w"
 url: "http://arxiv.org/abs/2012.05876"
 tags:
   - "Computer Science - Artificial Intelligence"
@@ -18,7 +18,7 @@ zotero-key: "894A2ADG"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/894A2ADG"
 date-added: "2026-03-14 17:36:19"
-date-modified: "2026-03-25 21:28:36"
+date-modified: "2026-11-18 01:56:38"
 ---
 
 # Neurosymbolic AI: The 3rd Wave
@@ -32,6 +32,7 @@ Current advances in Artificial Intelligence (AI) and Machine Learning (ML) have 
 ## Extra
 
 arXiv:2012.05876 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2012.05876
 
 ## Notes
 
