@@ -79,13 +79,13 @@
 		"zoteroURI": "zotero://select/library/items/NFHV6NTQ"
 	},
 	"zotero": {
-		"citationKey": "RefInfoTrashed20250528",
+		"citationKey": "RefInfoTrashed20250528a",
 		"collections": [
 			"6IRQRQI8"
 		],
 		"creators": [],
 		"dateAdded": "2026-01-08T22:57:43Z",
-		"dateModified": "2026-01-16T15:53:19Z",
+		"dateModified": "2026-11-18T01:59:27Z",
 		"itemType": "document",
 		"key": "NFHV6NTQ",
 		"relations": {
@@ -94,6 +94,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

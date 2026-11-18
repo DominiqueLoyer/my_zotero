@@ -1,6 +1,7 @@
 ---
 title: "refTan copie 2"
 item-type: "document"
+doi: "10.1163/2214-8264_dutchpamphlets-kb0-kb00232"
 language: "fr-CA"
 tags:
   - "notion"
@@ -10,7 +11,7 @@ zotero-key: "2I24II8S"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2I24II8S"
 date-added: "2026-01-08 22:57:44"
-date-modified: "2026-02-05 00:08:38"
+date-modified: "2026-11-18 01:59:31"
 ---
 
 # refTan copie 2

@@ -79,13 +79,13 @@
 		"zoteroURI": "zotero://select/library/items/KETEH7JW"
 	},
 	"zotero": {
-		"citationKey": "ReferencesVFTrashed20250528",
+		"citationKey": "ReferencesVFTrashed20250528a",
 		"collections": [
 			"6IRQRQI8"
 		],
 		"creators": [],
 		"dateAdded": "2026-01-08T22:57:40Z",
-		"dateModified": "2026-02-05T00:09:07Z",
+		"dateModified": "2026-11-18T01:59:23Z",
 		"itemType": "document",
 		"key": "KETEH7JW",
 		"language": "fr-CA",
@@ -95,6 +95,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

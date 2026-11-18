@@ -2,6 +2,7 @@
 title: "refInfo (trashed 2025-05-28 14-38-09) 2"
 item-type: "document"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "myReferences"
@@ -9,7 +10,7 @@ zotero-key: "NFHV6NTQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/NFHV6NTQ"
 date-added: "2026-01-08 22:57:43"
-date-modified: "2026-01-16 15:53:19"
+date-modified: "2026-11-18 01:59:27"
 ---
 
 # refInfo (trashed 2025-05-28 14-38-09) 2

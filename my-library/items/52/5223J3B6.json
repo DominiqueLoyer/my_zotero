@@ -79,13 +79,13 @@
 		"zoteroURI": "zotero://select/library/items/5223J3B6"
 	},
 	"zotero": {
-		"citationKey": "RefSC9471",
+		"citationKey": "RefSC9471a",
 		"collections": [
 			"6IRQRQI8"
 		],
 		"creators": [],
 		"dateAdded": "2026-01-08T22:57:42Z",
-		"dateModified": "2026-02-05T00:08:54Z",
+		"dateModified": "2026-11-18T01:59:27Z",
 		"itemType": "document",
 		"key": "5223J3B6",
 		"language": "fr-CA",
@@ -95,6 +95,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

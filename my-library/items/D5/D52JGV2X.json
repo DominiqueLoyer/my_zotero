@@ -79,13 +79,13 @@
 		"zoteroURI": "zotero://select/library/items/D52JGV2X"
 	},
 	"zotero": {
-		"citationKey": "ReferencesVF1at20250705T22_35_04570Zpinn",
+		"citationKey": "ReferencesVF1at20250705T22_35_04570Zpinna",
 		"collections": [
 			"6IRQRQI8"
 		],
 		"creators": [],
 		"dateAdded": "2026-01-08T22:57:39Z",
-		"dateModified": "2026-01-16T15:53:32Z",
+		"dateModified": "2026-11-18T01:59:23Z",
 		"itemType": "document",
 		"key": "D52JGV2X",
 		"relations": {
@@ -94,6 +94,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

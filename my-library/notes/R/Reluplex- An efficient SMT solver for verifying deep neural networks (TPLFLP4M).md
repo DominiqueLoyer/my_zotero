@@ -11,6 +11,7 @@ date: "2017"
 year: "2017"
 publication: "Computer aided verification"
 pages: "97–117"
+doi: "10.1007/978-3-319-63387-9_5"
 language: "fr-CA"
 tags:
   - "notion"
@@ -20,7 +21,7 @@ zotero-key: "TPLFLP4M"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TPLFLP4M"
 date-added: "2026-01-08 20:10:57"
-date-modified: "2026-11-17 18:03:55"
+date-modified: "2026-11-18 01:59:31"
 ---
 
 # Reluplex: An efficient SMT solver for verifying deep neural networks

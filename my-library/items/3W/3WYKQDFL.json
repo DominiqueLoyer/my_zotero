@@ -79,13 +79,13 @@
 		"zoteroURI": "zotero://select/library/items/3WYKQDFL"
 	},
 	"zotero": {
-		"citationKey": "RefTan",
+		"citationKey": "RefTana",
 		"collections": [
 			"6IRQRQI8"
 		],
 		"creators": [],
 		"dateAdded": "2026-01-08T22:57:44Z",
-		"dateModified": "2026-02-05T00:08:40Z",
+		"dateModified": "2026-11-18T01:59:30Z",
 		"itemType": "document",
 		"key": "3WYKQDFL",
 		"language": "fr-CA",
@@ -95,6 +95,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

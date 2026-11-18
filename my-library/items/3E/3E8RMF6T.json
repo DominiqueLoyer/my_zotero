@@ -79,13 +79,13 @@
 		"zoteroURI": "zotero://select/library/items/3E8RMF6T"
 	},
 	"zotero": {
-		"citationKey": "ReferencesVFat20250705T22_35_09123Zpinned",
+		"citationKey": "ReferencesVFat20250705T22_35_09123Zpinneda",
 		"collections": [
 			"6IRQRQI8"
 		],
 		"creators": [],
 		"dateAdded": "2026-01-08T22:57:39Z",
-		"dateModified": "2026-02-05T00:09:16Z",
+		"dateModified": "2026-11-18T01:59:24Z",
 		"itemType": "document",
 		"key": "3E8RMF6T",
 		"language": "fr-CA",
@@ -95,6 +95,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

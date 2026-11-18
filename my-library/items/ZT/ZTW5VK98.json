@@ -25,12 +25,17 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-04-24T21:26:55Z",
-		"dateModified": "2026-06-16T20:30:07Z",
+		"dateModified": "2026-11-18T01:59:34Z",
 		"extra": "Importé via SysCRED.",
 		"itemType": "journalArticle",
 		"key": "ZTW5VK98",
 		"relations": {},
-		"tags": [],
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			}
+		],
 		"title": "Report: Ontology of the Public Research Funding Domain"
 	}
 }
