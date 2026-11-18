@@ -113,7 +113,7 @@
 	},
 	"zotero": {
 		"abstractNote": "Ce rapport présente le développement et l’évaluation d’un système de traduction automatique neuronale (TAN) Anglais→Russe (EN→RU). En utilisant la bibliothèque Hugging Face Transformers(Wolf et al., 2020) et un modèle pré-entraîné Helsinki-NLP/opus-mt-en-ru(JunczysDowmunt and Grundkiewicz, 2018) basé sur l’architecture Transformer(Vaswani et al., 2017), nous avons fine-tuné le modèle sur un sous-ensemble de 10 000 paires de phrases du corpus parallèle opus_books(Tiedemann, 2012). Le système a été entraîné pendant 3 époques dans un environnement Kaggle (GPU T4). L’évaluation sur un jeu de test réservé du même corpus donne SacreBLEU 22.6 et chrF 48.5.",
-		"citationKey": "loyerDeveloppementEvaluationDun",
+		"citationKey": "loyerDeveloppementEvaluationDuna",
 		"collections": [
 			"8J6V7TQL",
 			"GXLPXWSC",
@@ -128,7 +128,7 @@
 			}
 		],
 		"dateAdded": "2025-05-01T04:37:08Z",
-		"dateModified": "2026-03-08T21:43:24Z",
+		"dateModified": "2026-11-18T01:40:17Z",
 		"extra": "abstractTranslation: This report presents the development and evaluation of an English–Russian neural machine translation (NMT) system (EN→RU). Using the Hugging Face Transformers library (Wolf et al., 2020) and a pre-trained Helsinki-NLP/opus-mt-en-ru model (JunczysDowmunt and Grundkiewicz, 2018) based on the Transformer architecture (Vaswani et al., 2017), we fine-tuned the model on a subset of 10,000 sentence pairs from the opus_books parallel corpus (Tiedemann, 2012). The system was trained for 3 epochs in a Kaggle environment (T4 GPU). Evaluation on a held-out test set from the same corpus yielded SacreBLEU 22.6 and chrF 48.5.",
 		"itemType": "journalArticle",
 		"key": "A2JVASAE",
@@ -145,6 +145,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

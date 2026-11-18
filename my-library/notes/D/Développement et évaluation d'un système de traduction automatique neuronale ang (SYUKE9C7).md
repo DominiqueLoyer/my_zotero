@@ -4,6 +4,7 @@ item-type: "journalArticle"
 authors:
   - "researchgate.net, DS Loyer -"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -12,7 +13,7 @@ zotero-key: "SYUKE9C7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SYUKE9C7"
 date-added: "2026-04-17 21:00:08"
-date-modified: "2026-11-09 15:03:23"
+date-modified: "2026-11-18 01:40:24"
 ---
 
 # Développement et évaluation d'un système de traduction automatique neuronale anglais–russe

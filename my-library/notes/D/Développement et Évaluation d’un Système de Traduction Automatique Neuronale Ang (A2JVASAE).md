@@ -5,6 +5,7 @@ authors:
   - "Loyer, Dominique S"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -16,7 +17,7 @@ zotero-key: "A2JVASAE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/A2JVASAE"
 date-added: "2025-05-01 04:37:08"
-date-modified: "2026-03-08 21:43:24"
+date-modified: "2026-11-18 01:40:17"
 ---
 
 # Développement et Évaluation d’un Système de Traduction Automatique Neuronale Anglais–Russe

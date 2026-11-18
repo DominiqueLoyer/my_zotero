@@ -74,7 +74,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-11-12T22:14:19Z",
-		"dateModified": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-18T01:40:13Z",
 		"extra": "ISBN: 978-1-0699945-6-1",
 		"itemType": "journalArticle",
 		"key": "YCWY7EIF",
@@ -95,6 +95,10 @@
 			},
 			{
 				"tag": "Transformateurs"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			}
 		],
 		"title": "Developpement et evaluation d'un systeme de traduction automatique neuronale anglais-russe",

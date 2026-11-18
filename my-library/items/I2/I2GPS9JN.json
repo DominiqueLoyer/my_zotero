@@ -127,7 +127,7 @@
 	},
 	"zotero": {
 		"DOI": "10.13140/RG.2.2.13505.67685",
-		"citationKey": "loyerDeveloppementEvaluationDun2025",
+		"citationKey": "loyerDeveloppementEvaluationDun2025c",
 		"collections": [
 			"8UCLQEMM",
 			"9ERXAIZK",
@@ -142,7 +142,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-10T20:17:21Z",
-		"dateModified": "2026-11-09T15:08:02Z",
+		"dateModified": "2026-11-18T01:40:12Z",
 		"extra": "ISBN: 978-1-0699945-6-1\ntitleTranslation: Development and Evaluation of an English-Russian Neural Machine Translation System",
 		"itemType": "journalArticle",
 		"key": "I2GPS9JN",
@@ -172,6 +172,10 @@
 			},
 			{
 				"tag": "Transformateurs"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

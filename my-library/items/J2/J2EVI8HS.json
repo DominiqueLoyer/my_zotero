@@ -59,13 +59,17 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-03T00:11:30Z",
-		"dateModified": "2026-11-08T16:11:44Z",
+		"dateModified": "2026-11-18T01:40:23Z",
 		"itemType": "journalArticle",
 		"key": "J2EVI8HS",
 		"pages": "5",
 		"publicationTitle": "https://doi.org/10.13140/RG.2.2.13505.67685 | SBN : 978-1-0699945-6-1",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

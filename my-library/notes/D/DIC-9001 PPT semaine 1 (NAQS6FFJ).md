@@ -4,6 +4,7 @@ item-type: "presentation"
 authors:
   - "Robert, Serge"
 tags:
+  - "doi-fix:low-confidence"
   - "empirisme logique"
   - "notion"
 collections:
@@ -12,7 +13,7 @@ zotero-key: "NAQS6FFJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/NAQS6FFJ"
 date-added: "2024-12-01 16:09:22"
-date-modified: "2025-12-05 22:27:18"
+date-modified: "2026-11-18 01:40:25"
 ---
 
 # DIC-9001 PPT semaine 1

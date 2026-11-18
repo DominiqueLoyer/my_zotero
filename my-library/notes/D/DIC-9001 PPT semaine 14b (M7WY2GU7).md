@@ -8,6 +8,7 @@ year: "2024"
 tags:
   - "AI"
   - "dic-9001"
+  - "doi-fix:low-confidence"
   - "notion"
   - "pensée convergente"
   - "pensée divergente"
@@ -18,7 +19,7 @@ zotero-key: "M7WY2GU7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/M7WY2GU7"
 date-added: "2024-12-11 19:34:32"
-date-modified: "2025-12-05 22:27:07"
+date-modified: "2026-11-18 01:40:27"
 ---
 
 # DIC-9001 PPT semaine 14b

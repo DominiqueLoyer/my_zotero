@@ -15,6 +15,7 @@ tags:
   - "TAL"
   - "Traduction Automatique Neuronale"
   - "Transformateurs"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_gs_080326"
@@ -24,7 +25,7 @@ zotero-key: "I2GPS9JN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/I2GPS9JN"
 date-added: "2026-01-10 20:17:21"
-date-modified: "2026-11-09 15:08:02"
+date-modified: "2026-11-18 01:40:12"
 ---
 
 # Developpement et evaluation d'un systeme de traduction automatique neuronale anglais-russe

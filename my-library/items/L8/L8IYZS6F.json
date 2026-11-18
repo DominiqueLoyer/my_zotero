@@ -88,7 +88,7 @@
 			}
 		],
 		"dateAdded": "2025-03-31T18:36:14Z",
-		"dateModified": "2025-03-31T18:58:02Z",
+		"dateModified": "2026-11-18T01:40:25Z",
 		"itemType": "document",
 		"key": "L8IYZS6F",
 		"relations": {
@@ -97,6 +97,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
