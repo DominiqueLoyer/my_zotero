@@ -14,13 +14,14 @@ tags:
   - "Machine Learning"
   - "Neuro-Symbolic AI"
   - "Predicate Logic"
+  - "doi-fix:low-confidence"
 collections:
   - "completeLoyer_100126 2026-11-12, 5:14:18 p.m."
 zotero-key: "UDGJR3EQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UDGJR3EQ"
 date-added: "2026-11-12 22:14:19"
-date-modified: "2026-11-12 22:14:19"
+date-modified: "2026-11-18 01:54:43"
 ---
 
 # Modeling a hybrid system (predicate-logic-based + ML/AI) for verifying the credibility of information sources

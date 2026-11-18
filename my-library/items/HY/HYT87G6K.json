@@ -81,7 +81,7 @@
 		"zoteroURI": "zotero://select/library/items/HYT87G6K"
 	},
 	"zotero": {
-		"citationKey": "loyerModelingHybridSystem",
+		"citationKey": "loyerModelingHybridSystema",
 		"collections": [
 			"DE3FMIGK"
 		],
@@ -93,7 +93,7 @@
 			}
 		],
 		"dateAdded": "2026-03-14T17:41:18Z",
-		"dateModified": "2026-03-14T18:16:44Z",
+		"dateModified": "2026-11-18T01:54:43Z",
 		"itemType": "journalArticle",
 		"key": "HYT87G6K",
 		"language": "en",
@@ -104,6 +104,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

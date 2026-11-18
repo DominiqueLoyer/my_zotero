@@ -74,7 +74,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-11-12T22:14:19Z",
-		"dateModified": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-18T01:54:43Z",
 		"extra": "ISBN: 978-1-0699945-0-9",
 		"itemType": "journalArticle",
 		"key": "UDGJR3EQ",
@@ -95,6 +95,10 @@
 			},
 			{
 				"tag": "Predicate Logic"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			}
 		],
 		"title": "Modeling a hybrid system (predicate-logic-based + ML/AI) for verifying the credibility of information sources",

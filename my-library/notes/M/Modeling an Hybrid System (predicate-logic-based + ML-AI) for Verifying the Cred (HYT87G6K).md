@@ -5,6 +5,7 @@ authors:
   - "Loyer, Dominique S"
 language: "en"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "HYT87G6K"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/HYT87G6K"
 date-added: "2026-03-14 17:41:18"
-date-modified: "2026-03-14 18:16:44"
+date-modified: "2026-11-18 01:54:43"
 ---
 
 # Modeling an Hybrid System (predicate-logic-based + ML/AI) for Verifying the Credibility of Information Sources

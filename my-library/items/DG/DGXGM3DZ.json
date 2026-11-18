@@ -159,7 +159,7 @@
 	},
 	"zotero": {
 		"DOI": "10.13140/rg.2.2.36348.24961",
-		"citationKey": "loyerModelingHybridSystem2025",
+		"citationKey": "loyerModelingHybridSystem2025c",
 		"collections": [
 			"6IRQRQI8",
 			"7XVYZYFG",
@@ -180,7 +180,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-10T20:17:20Z",
-		"dateModified": "2026-11-09T14:59:20Z",
+		"dateModified": "2026-11-18T01:54:41Z",
 		"extra": "ISBN: 978-1-0699945-0-9\ntitleTranslation: Modeling a hybrid system (predicate-logic-based + ML/AI) for verifying the credibility of information sources",
 		"itemType": "journalArticle",
 		"key": "DGXGM3DZ",
@@ -236,6 +236,10 @@
 			},
 			{
 				"tag": "Predicate Logic"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

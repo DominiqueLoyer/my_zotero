@@ -20,6 +20,7 @@ tags:
   - "Machine Learning"
   - "Neuro-Symbolic AI"
   - "Predicate Logic"
+  - "doi-fix:low-confidence"
   - "notion"
   - "verificationSystem"
   - "xAI"
@@ -37,7 +38,7 @@ zotero-key: "DGXGM3DZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DGXGM3DZ"
 date-added: "2026-01-10 20:17:20"
-date-modified: "2026-11-09 14:59:20"
+date-modified: "2026-11-18 01:54:41"
 ---
 
 # Modeling a hybrid system (predicate-logic-based + ML/AI) for verifying the credibility of information sources

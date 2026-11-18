@@ -30,12 +30,16 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-03T00:11:30Z",
-		"dateModified": "2026-01-09T19:16:42Z",
+		"dateModified": "2026-11-18T01:54:44Z",
 		"itemType": "journalArticle",
 		"key": "U3UK7GB7",
 		"publicationTitle": "https://doi.org/10.13140/rg.2.2.36348.24961. |. ISBN : 978-1-0699904-2-6",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "⛔ No DOI found",
 				"type": 1
