@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -12,7 +13,7 @@ zotero-key: "63EXBGKE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/63EXBGKE"
 date-added: "2025-03-31 18:38:33"
-date-modified: "2025-03-31 18:59:04"
+date-modified: "2026-11-18 13:59:34"
 ---
 
 # sequence-diag-pret2

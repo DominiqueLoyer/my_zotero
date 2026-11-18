@@ -94,7 +94,7 @@
 			}
 		],
 		"dateAdded": "2025-03-31T18:38:33Z",
-		"dateModified": "2025-03-31T18:59:04Z",
+		"dateModified": "2026-11-18T13:59:34Z",
 		"itemType": "document",
 		"key": "63EXBGKE",
 		"relations": {
@@ -103,6 +103,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

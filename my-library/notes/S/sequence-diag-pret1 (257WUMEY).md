@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -12,7 +13,7 @@ zotero-key: "257WUMEY"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/257WUMEY"
 date-added: "2025-03-31 18:38:31"
-date-modified: "2025-03-31 18:58:54"
+date-modified: "2026-11-18 13:59:30"
 ---
 
 # sequence-diag-pret1

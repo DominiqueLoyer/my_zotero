@@ -14,7 +14,7 @@ zotero-key: "JKX8X6GQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JKX8X6GQ"
 date-added: "2026-02-25 21:54:49"
-date-modified: "2026-11-17 18:04:06"
+date-modified: "2026-11-18 13:59:35"
 ---
 
 # Session-based recommendation with recurrent neural networks
