@@ -90,7 +90,7 @@
 			}
 		],
 		"dateAdded": "2025-03-31T18:45:52Z",
-		"dateModified": "2025-03-31T18:58:19Z",
+		"dateModified": "2026-11-18T01:55:15Z",
 		"itemType": "document",
 		"key": "KHVQAF3S",
 		"relations": {
@@ -99,6 +99,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

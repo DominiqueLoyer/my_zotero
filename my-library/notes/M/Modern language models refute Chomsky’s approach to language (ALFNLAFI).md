@@ -5,6 +5,7 @@ authors:
   - "Piantadosi, Steven T"
 language: "en"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "ALFNLAFI"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ALFNLAFI"
 date-added: "2025-04-02 15:57:02"
-date-modified: "2025-12-29 23:57:31"
+date-modified: "2026-11-18 01:55:15"
 ---
 
 # Modern language models refute Chomsky’s approach to language

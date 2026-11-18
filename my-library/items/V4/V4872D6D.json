@@ -30,13 +30,17 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-03T00:11:30Z",
-		"dateModified": "2026-01-09T19:17:37Z",
+		"dateModified": "2026-11-18T01:55:12Z",
 		"itemType": "conferencePaper",
 		"key": "V4872D6D",
 		"pages": "33",
 		"proceedingsTitle": "https://doi.org/10.13140/RG.2.2.11827.95526 | ISBN : 978-1-0699945-0-9",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "⛔ No DOI found",
 				"type": 1

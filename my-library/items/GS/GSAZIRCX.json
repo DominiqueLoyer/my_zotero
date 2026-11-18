@@ -85,13 +85,17 @@
 			}
 		],
 		"dateAdded": "2025-03-31T16:16:58Z",
-		"dateModified": "2025-12-29T23:57:32Z",
+		"dateModified": "2026-11-18T01:55:14Z",
 		"itemType": "journalArticle",
 		"key": "GSAZIRCX",
 		"language": "fr",
 		"libraryCatalog": "Zotero",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

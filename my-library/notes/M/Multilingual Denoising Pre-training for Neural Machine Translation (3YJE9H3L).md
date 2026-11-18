@@ -12,7 +12,7 @@ authors:
   - "Zettlemoyer, Luke"
 date: "2020-01-23"
 year: "2020"
-doi: "10.48550/arXiv.2001.08210"
+doi: "10.1162/tacl_a_00343"
 url: "http://arxiv.org/abs/2001.08210"
 tags:
   - "Computer Science - Computation and Language"
@@ -23,7 +23,7 @@ zotero-key: "3YJE9H3L"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3YJE9H3L"
 date-added: "2026-03-14 17:36:00"
-date-modified: "2026-03-14 18:19:52"
+date-modified: "2026-11-18 01:55:18"
 ---
 
 # Multilingual Denoising Pre-training for Neural Machine Translation
@@ -37,6 +37,7 @@ This paper demonstrates that multilingual denoising pre-training produces signif
 ## Extra
 
 arXiv:2001.08210 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2001.08210
 
 ## Notes
 
