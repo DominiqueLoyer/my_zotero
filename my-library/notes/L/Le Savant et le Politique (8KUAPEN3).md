@@ -6,6 +6,7 @@ authors:
 date: "1959"
 year: "1959"
 publisher: "Plon"
+doi: "10.1522/cla.wem.sav"
 tags:
   - "notion"
 collections:
@@ -16,7 +17,7 @@ zotero-key: "8KUAPEN3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8KUAPEN3"
 date-added: "2025-10-10 19:01:29"
-date-modified: "2026-11-17 17:57:48"
+date-modified: "2026-11-18 01:53:33"
 ---
 
 # Le Savant et le Politique
