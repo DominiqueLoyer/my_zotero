@@ -79,13 +79,13 @@
 		"zoteroURI": "zotero://select/library/items/C7VPFGCK"
 	},
 	"zotero": {
-		"citationKey": "ReferencesInfo_2005",
+		"citationKey": "ReferencesInfo_2005a",
 		"collections": [
 			"6IRQRQI8"
 		],
 		"creators": [],
 		"dateAdded": "2026-01-08T22:57:46Z",
-		"dateModified": "2026-02-05T00:08:27Z",
+		"dateModified": "2026-11-18T01:59:22Z",
 		"itemType": "document",
 		"key": "C7VPFGCK",
 		"language": "fr-CA",
@@ -95,6 +95,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

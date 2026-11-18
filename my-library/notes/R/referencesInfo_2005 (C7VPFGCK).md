@@ -3,6 +3,7 @@ title: "referencesInfo_2005"
 item-type: "document"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "myReferences"
@@ -10,7 +11,7 @@ zotero-key: "C7VPFGCK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/C7VPFGCK"
 date-added: "2026-01-08 22:57:46"
-date-modified: "2026-02-05 00:08:27"
+date-modified: "2026-11-18 01:59:22"
 ---
 
 # referencesInfo_2005

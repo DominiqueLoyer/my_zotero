@@ -1,6 +1,7 @@
 ---
 title: "references 1"
 item-type: "document"
+doi: "10.2307/2931137"
 language: "fr-CA"
 tags:
   - "notion"
@@ -10,7 +11,7 @@ zotero-key: "D9Z2EQV9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/D9Z2EQV9"
 date-added: "2026-01-08 22:57:45"
-date-modified: "2026-11-17 18:03:52"
+date-modified: "2026-11-18 01:59:13"
 ---
 
 # references 1

@@ -5,6 +5,7 @@ authors:
   - "Lounis, Hakim"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -14,7 +15,7 @@ zotero-key: "4PVJ6CNH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4PVJ6CNH"
 date-added: "2025-03-17 17:25:54"
-date-modified: "2025-12-29 23:57:31"
+date-modified: "2026-11-18 01:59:04"
 ---
 
 # Réductionnisme et holisme

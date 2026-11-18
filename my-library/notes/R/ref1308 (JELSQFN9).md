@@ -2,6 +2,7 @@
 title: "ref1308"
 item-type: "document"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
 collections:
   - "myReferences"
@@ -9,7 +10,7 @@ zotero-key: "JELSQFN9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JELSQFN9"
 date-added: "2026-01-08 22:57:50"
-date-modified: "2026-01-16 15:53:04"
+date-modified: "2026-11-18 01:59:10"
 ---
 
 # ref1308

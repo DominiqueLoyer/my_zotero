@@ -79,13 +79,13 @@
 		"zoteroURI": "zotero://select/library/items/T7VL7CKM"
 	},
 	"zotero": {
-		"citationKey": "Ref1108",
+		"citationKey": "Ref1108a",
 		"collections": [
 			"6IRQRQI8"
 		],
 		"creators": [],
 		"dateAdded": "2026-01-08T22:57:49Z",
-		"dateModified": "2026-01-16T15:53:06Z",
+		"dateModified": "2026-11-18T01:59:08Z",
 		"itemType": "document",
 		"key": "T7VL7CKM",
 		"relations": {
@@ -94,6 +94,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

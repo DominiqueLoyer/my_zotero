@@ -1,6 +1,7 @@
 ---
 title: "ref copie 2"
 item-type: "document"
+doi: "10.1163/2214-8264_dutchpamphlets-kb0-kb00381"
 language: "fr-CA"
 tags:
   - "notion"
@@ -10,7 +11,7 @@ zotero-key: "X68V279X"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/X68V279X"
 date-added: "2026-01-08 22:57:49"
-date-modified: "2026-02-05 00:08:12"
+date-modified: "2026-11-18 01:59:05"
 ---
 
 # ref copie 2

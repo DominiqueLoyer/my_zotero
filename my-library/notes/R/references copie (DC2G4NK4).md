@@ -1,6 +1,7 @@
 ---
 title: "references copie"
 item-type: "document"
+doi: "10.1163/2214-8264_dutchpamphlets-kb0-kb00232"
 language: "fr-CA"
 tags:
   - "notion"
@@ -10,7 +11,7 @@ zotero-key: "DC2G4NK4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DC2G4NK4"
 date-added: "2026-01-08 22:57:47"
-date-modified: "2026-02-05 00:08:23"
+date-modified: "2026-11-18 01:59:14"
 ---
 
 # references copie

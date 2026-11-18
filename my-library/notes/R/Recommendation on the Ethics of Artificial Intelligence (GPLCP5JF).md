@@ -5,6 +5,7 @@ authors:
   - "UNESCO"
 date: "2021"
 year: "2021"
+doi: "10.54678/ytsa7796"
 url: "https://www.unesco.org/en/artificial-intelligence/ethics"
 tags:
   - "notion"
@@ -16,7 +17,7 @@ zotero-key: "GPLCP5JF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GPLCP5JF"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-09 14:54:43"
+date-modified: "2026-11-18 01:58:59"
 ---
 
 # Recommendation on the Ethics of Artificial Intelligence
