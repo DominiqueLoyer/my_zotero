@@ -15,7 +15,7 @@ zotero-key: "CYNM93MM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/CYNM93MM"
 date-added: "2025-04-10 15:02:46"
-date-modified: "2026-11-13 19:30:49"
+date-modified: "2026-11-18 01:33:57"
 ---
 
 # ACM SIGIR conference on research and development in information retrieval
