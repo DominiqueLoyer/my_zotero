@@ -14,7 +14,7 @@ zotero-key: "CFFD67M6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/CFFD67M6"
 date-added: "2026-03-08 21:23:48"
-date-modified: "2026-11-17 17:56:31"
+date-modified: "2026-11-18 01:50:17"
 ---
 
 # Interpretable neural-symbolic concept reasoning

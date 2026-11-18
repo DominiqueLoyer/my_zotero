@@ -93,7 +93,7 @@
 		"DOI": "10.5555/3618408.3618484",
 		"abstractNote": "Deep learning methods are highly accurate, yet their opaque decision process prevents them from earning full human trust. Concept-based models aim to address this issue by learning tasks based on a set of human-understandable concepts. However, state-of-the-art concept-based models rely on high-dimensional concept embedding representations which lack a clear semantic meaning, thus questioning the interpretability of their decision process. To overcome this limitation, we propose the Deep Concept Reasoner (DCR), the first interpretable concept-based model that builds upon concept embeddings. In DCR, neural networks do not make task predictions directly, but they build syntactic rule structures using concept embeddings. DCR then executes these rules on meaningful concept truth degrees to provide a final interpretable and semantically-consistent prediction in a differentiable manner. Our experiments show that DCR: (i) improves up to +25% w.r.t. state-of-the-art interpretable concept-based models on challenging benchmarks (ii) discovers meaningful logic rules matching known ground truths even in the absence of concept supervision during training, and (iii), facilitates the generation of counterfactual examples providing the learnt rules as guidance.",
 		"accessDate": "2026-03-14T17:40:20Z",
-		"citationKey": "barbieroInterpretableNeuralSymbolicConcept2023",
+		"citationKey": "barbieroInterpretableNeuralSymbolicConcept2023a",
 		"collections": [
 			"Y8TQQBY3"
 		],
@@ -151,7 +151,7 @@
 		],
 		"date": "2023-05-22",
 		"dateAdded": "2026-03-14T17:40:20Z",
-		"dateModified": "2026-03-14T18:17:30Z",
+		"dateModified": "2026-11-18T01:50:16Z",
 		"extra": "arXiv:2304.14068 [cs]",
 		"itemType": "preprint",
 		"key": "8KN8RLGB",
@@ -176,6 +176,10 @@
 			},
 			{
 				"tag": "Statistics - Machine Learning",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:low-confidence",
 				"type": 1
 			},
 			{

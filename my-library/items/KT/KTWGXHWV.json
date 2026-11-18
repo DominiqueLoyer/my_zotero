@@ -97,7 +97,7 @@
 		],
 		"date": "2021-07-29",
 		"dateAdded": "2025-10-10T19:01:25Z",
-		"dateModified": "2026-11-09T15:01:00Z",
+		"dateModified": "2026-11-18T01:50:17Z",
 		"itemType": "document",
 		"key": "KTWGXHWV",
 		"relations": {
@@ -110,6 +110,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

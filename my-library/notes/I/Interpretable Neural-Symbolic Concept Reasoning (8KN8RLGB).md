@@ -21,6 +21,7 @@ tags:
   - "Computer Science - Machine Learning"
   - "Computer Science - Neural and Evolutionary Computing"
   - "Statistics - Machine Learning"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/gs_080326/PDFs"
@@ -28,7 +29,7 @@ zotero-key: "8KN8RLGB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8KN8RLGB"
 date-added: "2026-03-14 17:40:20"
-date-modified: "2026-03-14 18:17:30"
+date-modified: "2026-11-18 01:50:16"
 ---
 
 # Interpretable Neural-Symbolic Concept Reasoning

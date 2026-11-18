@@ -7,6 +7,7 @@ date: "2021-07-29"
 year: "2021"
 url: "https://blog.twitter.com/engineering/en_us/topics/insights/2021/introducing-the-industrys-first-ever-algorithmic-bias-bounty"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -16,7 +17,7 @@ zotero-key: "KTWGXHWV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KTWGXHWV"
 date-added: "2025-10-10 19:01:25"
-date-modified: "2026-11-09 15:01:00"
+date-modified: "2026-11-18 01:50:17"
 ---
 
 # Introducing the industry’s first-ever algorithmic bias bounty
