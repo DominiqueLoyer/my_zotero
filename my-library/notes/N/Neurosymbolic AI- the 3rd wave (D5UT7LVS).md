@@ -8,6 +8,7 @@ date: "2020"
 year: "2020"
 publication: "arXiv e-prints"
 pages: "arXiv–2012"
+doi: "10.1007/s10462-023-10448-w"
 tags:
   - "notion"
   - "⛔ No DOI found"
@@ -17,7 +18,7 @@ zotero-key: "D5UT7LVS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/D5UT7LVS"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-03-25 21:30:51"
+date-modified: "2026-11-18 01:56:32"
 ---
 
 # Neurosymbolic AI: the 3rd wave
