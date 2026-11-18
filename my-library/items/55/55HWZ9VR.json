@@ -113,7 +113,7 @@
 	},
 	"zotero": {
 		"abstractNote": "Début de l’IA Peut remonter à la nuit des temps de l’ancienne Grèce On rêvait déjà d’automates. Héphaïstos dieu du feu, de la forge et des volcans Dans la Torah, le Golem, un automate fait d’argile à forme humaine En Égypte, statues sacrées Moyen-âge et Renaissance 1642 Blaise Pascal machine à calculer: la Pascaline 16e siècle, Léonard de Vinci : le 1er Android 1818 Frankenstein de Mary Shelley Plus près de nous… Vous l’utilisez souvent : SIRI Google map Google traduction Netflix, Amazon",
-		"citationKey": "loyers.dominiqueLintelligenceArtificielle2020",
+		"citationKey": "loyers.dominiqueLintelligenceArtificielle2020a",
 		"collections": [
 			"5ZW34MGC"
 		],
@@ -125,7 +125,7 @@
 		],
 		"date": "2020",
 		"dateAdded": "2024-12-15T16:37:12Z",
-		"dateModified": "2026-03-25T21:31:27Z",
+		"dateModified": "2026-11-18T01:51:02Z",
 		"itemType": "presentation",
 		"key": "55HWZ9VR",
 		"language": "fr",
@@ -149,6 +149,10 @@
 			},
 			{
 				"tag": "IA"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "intelligence artificielle"

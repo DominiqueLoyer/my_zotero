@@ -15,6 +15,7 @@ tags:
   - "Ethique IA"
   - "Intelligence Artificielle"
   - "Machine Learning"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "completeLoyer_100126"
@@ -23,7 +24,7 @@ zotero-key: "BCACHAW4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/BCACHAW4"
 date-added: "2026-01-10 20:17:21"
-date-modified: "2026-01-16 18:00:22"
+date-modified: "2026-11-18 01:51:05"
 ---
 
 # L'intelligence artificielle. Qu'est-ce que c'est?

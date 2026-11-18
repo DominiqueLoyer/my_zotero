@@ -126,7 +126,7 @@
 	"zotero": {
 		"DOI": "10.13140/RG.2.2.11245.78560",
 		"ISBN": "978-1-0699945-2-3",
-		"citationKey": "loyerLintelligenceArtificielleQuest2025",
+		"citationKey": "loyerLintelligenceArtificielleQuest2025b",
 		"collections": [
 			"8UCLQEMM",
 			"KKPWSFMI"
@@ -140,7 +140,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-10T20:17:21Z",
-		"dateModified": "2026-01-16T18:00:22Z",
+		"dateModified": "2026-11-18T01:51:05Z",
 		"extra": "titleTranslation: Artificial Intelligence. What is it?",
 		"itemType": "conferencePaper",
 		"key": "BCACHAW4",
@@ -168,6 +168,10 @@
 			},
 			{
 				"tag": "Machine Learning"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

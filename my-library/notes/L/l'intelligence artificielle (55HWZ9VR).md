@@ -11,6 +11,7 @@ tags:
   - "Artificial intelligence"
   - "Dominique Loyer"
   - "IA"
+  - "doi-fix:low-confidence"
   - "intelligence artificielle"
   - "notion"
 collections:
@@ -19,7 +20,7 @@ zotero-key: "55HWZ9VR"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/55HWZ9VR"
 date-added: "2024-12-15 16:37:12"
-date-modified: "2026-03-25 21:31:27"
+date-modified: "2026-11-18 01:51:02"
 ---
 
 # l'intelligence artificielle
