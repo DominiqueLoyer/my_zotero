@@ -5,6 +5,7 @@ authors:
   - "Lounis Hakim"
 language: "fr"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -12,7 +13,7 @@ zotero-key: "2QMTNVJ7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2QMTNVJ7"
 date-added: "2025-03-31 16:08:32"
-date-modified: "2025-03-31 18:46:44"
+date-modified: "2026-11-18 01:58:43"
 ---
 
 # Raisonnement incertain

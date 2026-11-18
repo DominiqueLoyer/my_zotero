@@ -9,6 +9,7 @@ year: "2023"
 publication: "arXiv preprint arXiv:2310.11496"
 url: "https://arxiv.org/abs/2310.11496"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -17,7 +18,7 @@ zotero-key: "G6AB8MTE"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/G6AB8MTE"
 date-added: "2025-04-10 15:02:46"
-date-modified: "2025-04-10 15:02:46"
+date-modified: "2026-11-18 01:58:43"
 ---
 
 # Query generation for information retrieval using large language models: a survey

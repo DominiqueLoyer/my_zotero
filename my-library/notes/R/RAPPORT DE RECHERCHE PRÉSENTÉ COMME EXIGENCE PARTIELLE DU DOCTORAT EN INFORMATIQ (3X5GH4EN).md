@@ -23,6 +23,7 @@ tags:
   - "Transparence algorithmique"
   - "Wébérisme numérique"
   - "dic-9401"
+  - "doi-fix:low-confidence"
   - "l’IA, Éthique de l’intelligence artificielle, Examen de synthèse de doctorat."
   - "mique, Max Weber, David Graeber, Béatrice Hibou, Cynthia Rudin, Informatique Cognitive, Gouvernance de"
   - "notion"
@@ -34,7 +35,7 @@ zotero-key: "3X5GH4EN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3X5GH4EN"
 date-added: "2025-10-11 22:49:07"
-date-modified: "2026-01-27 00:39:37"
+date-modified: "2026-11-18 01:58:46"
 ---
 
 # RAPPORT DE RECHERCHE PRÉSENTÉ COMME EXIGENCE PARTIELLE DU DOCTORAT EN INFORMATIQUE COGNITIVE

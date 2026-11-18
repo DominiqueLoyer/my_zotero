@@ -98,13 +98,17 @@
 		],
 		"date": "2023",
 		"dateAdded": "2025-04-10T15:02:46Z",
-		"dateModified": "2025-04-10T15:02:46Z",
+		"dateModified": "2026-11-18T01:58:43Z",
 		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
 		"itemType": "journalArticle",
 		"key": "G6AB8MTE",
 		"publicationTitle": "arXiv preprint arXiv:2310.11496",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

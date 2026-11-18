@@ -5,6 +5,7 @@ authors:
   - "Loyer, Dominique"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "TEU46R3U"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TEU46R3U"
 date-added: "2026-01-09 20:59:18"
-date-modified: "2026-03-08 21:43:25"
+date-modified: "2026-11-18 01:58:43"
 ---
 
 # RAPPORT DE RECHERCHE PRÉSENTÉ COMME EXIGENCE PARTIELLE DU DOCTORAT EN INFORMATIQUE COGNITIVE

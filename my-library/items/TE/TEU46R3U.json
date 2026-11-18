@@ -81,7 +81,7 @@
 		"zoteroURI": "zotero://select/library/items/TEU46R3U"
 	},
 	"zotero": {
-		"citationKey": "loyerRAPPORTRECHERCHEPRESENTE",
+		"citationKey": "loyerRAPPORTRECHERCHEPRESENTEa",
 		"collections": [
 			"GXLPXWSC"
 		],
@@ -93,7 +93,7 @@
 			}
 		],
 		"dateAdded": "2026-01-09T20:59:18Z",
-		"dateModified": "2026-03-08T21:43:25Z",
+		"dateModified": "2026-11-18T01:58:43Z",
 		"extra": "titleTranslation: RESEARCH REPORT SUBMITTED IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE DOCTORATE IN COGNITIVE COMPUTER SCIENCE",
 		"itemType": "journalArticle",
 		"key": "TEU46R3U",
@@ -105,6 +105,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},
