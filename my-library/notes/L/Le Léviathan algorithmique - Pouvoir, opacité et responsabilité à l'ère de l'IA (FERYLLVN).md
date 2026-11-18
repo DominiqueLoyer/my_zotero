@@ -11,6 +11,7 @@ url: "DOI: 10.13140/RG.2.2.19196.60806"
 language: "fr"
 tags:
   - "IA Explicable (XAI), Systèmes de Recommandation, DeepLearning, Bureaucratie Algorithmique, Max Weber, Wébérisme numérique, David Graeber, Béatrice Hibou, Cynthia  Rudin, Judea Pearl, Informatique et Sciences Cognitives, Gouvernance et éthique de l’IA"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/présentation 26nov 2025/Version Finale 26nov25"
@@ -18,7 +19,7 @@ zotero-key: "FERYLLVN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FERYLLVN"
 date-added: "2025-12-01 15:21:40"
-date-modified: "2026-03-25 21:30:52"
+date-modified: "2026-11-18 01:52:46"
 ---
 
 # Le Léviathan algorithmique - Pouvoir, opacité et responsabilité à l'ère de l'IA

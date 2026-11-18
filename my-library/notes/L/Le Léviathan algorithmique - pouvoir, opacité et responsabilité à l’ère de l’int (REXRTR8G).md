@@ -18,6 +18,7 @@ tags:
   - "Informatique cognitive"
   - "Max Weber"
   - "Systèmes de recommandation"
+  - "doi-fix:low-confidence"
   - "notion"
   - "xAI"
   - "Éthique de l'intelligence artificielle"
@@ -30,7 +31,7 @@ zotero-key: "REXRTR8G"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/REXRTR8G"
 date-added: "2025-09-18 18:06:26"
-date-modified: "2026-03-25 21:31:16"
+date-modified: "2026-11-18 01:52:46"
 ---
 
 # Le Léviathan algorithmique : pouvoir, opacité et responsabilité à l’ère  de l’intelligence artificielle
