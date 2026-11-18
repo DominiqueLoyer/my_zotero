@@ -126,7 +126,7 @@
 	"zotero": {
 		"DOI": "10.13140/RG.2.2.18538.84164",
 		"ISBN": "978-1-0699904-8-8",
-		"citationKey": "loyerEvaluationModelesPonderations2025",
+		"citationKey": "loyerEvaluationModelesPonderations2025b",
 		"collections": [
 			"8UCLQEMM",
 			"KKPWSFMI"
@@ -140,7 +140,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-10T20:17:21Z",
-		"dateModified": "2026-01-16T18:00:58Z",
+		"dateModified": "2026-11-18T01:43:30Z",
 		"extra": "titleTranslation: Evaluation of Weighting Models for Information Retrieval on TREC AP 88-90",
 		"itemType": "conferencePaper",
 		"key": "PQZVTNTS",
@@ -172,6 +172,10 @@
 			},
 			{
 				"tag": "TREC"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

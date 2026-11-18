@@ -19,7 +19,7 @@ zotero-key: "VSVFT4RC"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VSVFT4RC"
 date-added: "2025-05-30 18:45:13"
-date-modified: "2026-11-17 15:07:32"
+date-modified: "2026-11-18 01:43:21"
 ---
 
 # Évaluation de modèles de pondération pour la recherche d'information sur TREC AP 88-90 - Cours DIC-9345 TALN Présenté à Ngoc Tan Lê

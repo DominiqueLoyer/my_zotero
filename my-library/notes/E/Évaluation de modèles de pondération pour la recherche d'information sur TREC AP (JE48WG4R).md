@@ -9,12 +9,13 @@ year: "2025"
 url: "https://doi.org/10.13140/RG.2.2.21668.18563  ORCID=\"0009-0003-9713-7109\""
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 zotero-key: "JE48WG4R"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JE48WG4R"
 date-added: "2026-01-09 18:33:03"
-date-modified: "2026-02-05 00:04:38"
+date-modified: "2026-11-18 01:43:24"
 ---
 
 # Évaluation de modèles de pondération pour la recherche d'information sur TREC AP 88-90 - Cours DIC-9345 TALN Présenté à Ngoc Tan Lê

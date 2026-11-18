@@ -98,7 +98,7 @@
 		],
 		"date": "10 avril 2025",
 		"dateAdded": "2025-05-30T18:45:13Z",
-		"dateModified": "2026-11-17T15:07:32Z",
+		"dateModified": "2026-11-18T01:43:21Z",
 		"extra": "abstractTranslation: Information Retrieval (IR): Finding relevant information in the vast TREC AP 88-90 collection. Challenge: 243k documents individually compressed with GunZip -> .gz in a .tar file enclosing them. Long sequential processing vs. parallel processing. The XML file encoding type is not supported by Python -> conversion to .JSON. Main Objective: Implement and evaluate a monolingual (English) IR system on the collection. Course Relevance: Practical application of NLP concepts seen in DIC-9345 course such as: (IR models, indexing, evaluation, improvement).",
 		"inPublications": true,
 		"itemType": "presentation",

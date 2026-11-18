@@ -17,6 +17,7 @@ tags:
   - "Recherche d'Information"
   - "TF-IDF"
   - "TREC"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "completeLoyer_100126"
@@ -25,7 +26,7 @@ zotero-key: "PQZVTNTS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PQZVTNTS"
 date-added: "2026-01-10 20:17:21"
-date-modified: "2026-01-16 18:00:58"
+date-modified: "2026-11-18 01:43:30"
 ---
 
 # Evaluation de modeles de ponderations pour la recherche d'information sur TREC AP 88-90

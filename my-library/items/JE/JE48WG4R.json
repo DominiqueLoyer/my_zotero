@@ -62,7 +62,7 @@
 		],
 		"date": "10 avril 2025",
 		"dateAdded": "2026-01-09T18:33:03Z",
-		"dateModified": "2026-02-05T00:04:38Z",
+		"dateModified": "2026-11-18T01:43:24Z",
 		"extra": "abstractTranslation: Information Retrieval (IR): Finding relevant information in the vast TREC AP 88-90 collection. Challenge: 243k documents individually compressed into GunZip->.gz within a->.tar encompassing file. Long sequential processing vs. parallel. XML file encoding type not supported by Python -> conversion to .JSON. Main Objective: Implement and evaluate a monolingual (English) IR system on the collection. Course Relevance: Practical application of NLT concepts seen in DIC-9345 course such as: (IR models, indexing, evaluation, improvement).\ntitleTranslation: Evaluation of weighting models for information retrieval on TREC AP 88-90 - DIC-9345 TALN Course Presented to Ngoc Tan Lê",
 		"itemType": "presentation",
 		"key": "JE48WG4R",
@@ -75,6 +75,10 @@
 		},
 		"rights": "Licence Creative Commons Attribution - Pas d’utilisation commerciale - Pas de modification 4.0 International",
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
