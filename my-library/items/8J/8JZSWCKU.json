@@ -154,7 +154,7 @@
 		],
 		"date": "2017",
 		"dateAdded": "2025-10-10T19:01:26Z",
-		"dateModified": "2026-11-09T15:08:38Z",
+		"dateModified": "2026-11-18T01:55:39Z",
 		"itemType": "conferencePaper",
 		"key": "8JZSWCKU",
 		"pages": "1263–1272",
@@ -169,6 +169,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

@@ -82,11 +82,11 @@
 		"zoteroURI": "zotero://select/library/items/Z6586CQA"
 	},
 	"zotero": {
-		"DOI": "10.48550/arXiv.2010.11926",
+		"DOI": "10.1609/aaai.v35i6.16639",
 		"abstractNote": "Despite significant progress in the development of neural-symbolic frameworks, the question of how to integrate a neural and a symbolic system in a \\emph{compositional} manner remains open. Our work seeks to fill this gap by treating these two systems as black boxes to be integrated as modules into a single architecture, without making assumptions on their internal structure and semantics. Instead, we expect only that each module exposes certain methods for accessing the functions that the module implements: the symbolic module exposes a deduction method for computing the function's output on a given input, and an abduction method for computing the function's inputs for a given output; the neural module exposes a deduction method for computing the function's output on a given input, and an induction method for updating the function given input-output training instances. We are, then, able to show that a symbolic module -- with any choice for syntax and semantics, as long as the deduction and abduction methods are exposed -- can be cleanly integrated with a neural module, and facilitate the latter's efficient training, achieving empirical performance that exceeds that of previous work.",
 		"accessDate": "2026-03-14T17:40:53Z",
 		"archiveID": "arXiv:2010.11926",
-		"citationKey": "tsamouraNeuralSymbolicIntegrationCompositional2020",
+		"citationKey": "tsamouraNeuralSymbolicIntegrationCompositional2020a",
 		"collections": [
 			"Y8TQQBY3"
 		],
@@ -104,8 +104,8 @@
 		],
 		"date": "2020-10-22",
 		"dateAdded": "2026-03-14T17:40:53Z",
-		"dateModified": "2026-03-14T18:17:02Z",
-		"extra": "arXiv:2010.11926 [cs]",
+		"dateModified": "2026-11-18T01:55:39Z",
+		"extra": "arXiv:2010.11926 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2010.11926",
 		"itemType": "preprint",
 		"key": "Z6586CQA",
 		"libraryCatalog": "arXiv.org",

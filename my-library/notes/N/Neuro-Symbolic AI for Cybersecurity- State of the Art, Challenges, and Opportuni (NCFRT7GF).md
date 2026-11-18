@@ -14,6 +14,7 @@ url: "http://arxiv.org/abs/2509.06921"
 tags:
   - "Computer Science - Artificial Intelligence"
   - "Computer Science - Cryptography and Security"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/230226_v1551/PDFs"
@@ -24,7 +25,7 @@ zotero-key: "NCFRT7GF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/NCFRT7GF"
 date-added: "2026-03-14 17:37:26"
-date-modified: "2026-11-09 14:58:52"
+date-modified: "2026-11-18 01:55:46"
 ---
 
 # Neuro-Symbolic AI for Cybersecurity: State of the Art, Challenges, and Opportunities

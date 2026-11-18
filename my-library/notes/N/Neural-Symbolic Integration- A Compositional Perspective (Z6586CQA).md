@@ -6,7 +6,7 @@ authors:
   - "Michael, Loizos"
 date: "2020-10-22"
 year: "2020"
-doi: "10.48550/arXiv.2010.11926"
+doi: "10.1609/aaai.v35i6.16639"
 url: "http://arxiv.org/abs/2010.11926"
 tags:
   - "Computer Science - Artificial Intelligence"
@@ -18,7 +18,7 @@ zotero-key: "Z6586CQA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Z6586CQA"
 date-added: "2026-03-14 17:40:53"
-date-modified: "2026-03-14 18:17:02"
+date-modified: "2026-11-18 01:55:39"
 ---
 
 # Neural-Symbolic Integration: A Compositional Perspective
@@ -32,6 +32,7 @@ Despite significant progress in the development of neural-symbolic frameworks, t
 ## Extra
 
 arXiv:2010.11926 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2010.11926
 
 ## Attachments
 

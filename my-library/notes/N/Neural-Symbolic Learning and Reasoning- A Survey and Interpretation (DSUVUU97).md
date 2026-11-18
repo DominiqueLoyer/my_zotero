@@ -23,6 +23,7 @@ url: "http://arxiv.org/abs/1711.03902"
 language: "en"
 tags:
   - "Computer Science - Artificial Intelligence"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/gs_080326/PDFs"
@@ -30,7 +31,7 @@ zotero-key: "DSUVUU97"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DSUVUU97"
 date-added: "2026-03-14 17:40:36"
-date-modified: "2026-03-14 18:17:18"
+date-modified: "2026-11-18 01:55:42"
 ---
 
 # Neural-Symbolic Learning and Reasoning: A Survey and Interpretation

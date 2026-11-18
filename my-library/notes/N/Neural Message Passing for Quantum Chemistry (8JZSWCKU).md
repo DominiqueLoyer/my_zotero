@@ -12,6 +12,7 @@ year: "2017"
 publication: "Proceedings of the 34th International Conference on Machine Learning"
 pages: "1263–1272"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -22,7 +23,7 @@ zotero-key: "8JZSWCKU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8JZSWCKU"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-09 15:08:38"
+date-modified: "2026-11-18 01:55:39"
 ---
 
 # Neural Message Passing for Quantum Chemistry

@@ -15,7 +15,7 @@ zotero-key: "2VVNQRJQ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2VVNQRJQ"
 date-added: "2026-02-25 21:37:08"
-date-modified: "2026-03-25 21:29:48"
+date-modified: "2026-11-18 01:55:39"
 ---
 
 # Neural Message Passing for Quantum Chemistry
