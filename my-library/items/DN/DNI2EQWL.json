@@ -75,7 +75,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-11-12T22:14:19Z",
-		"dateModified": "2026-11-12T22:14:19Z",
+		"dateModified": "2026-11-18T01:43:36Z",
 		"itemType": "conferencePaper",
 		"key": "DNI2EQWL",
 		"pages": "20",
@@ -98,6 +98,10 @@
 			},
 			{
 				"tag": "TREC"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			}
 		],
 		"title": "Evaluation de modeles de ponderations pour la recherche d'information sur TREC AP 88-90",

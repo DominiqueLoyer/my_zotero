@@ -5,6 +5,7 @@ authors:
   - "Loyer, Dominique S"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "PS559QHT"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PS559QHT"
 date-added: "2026-01-09 20:59:11"
-date-modified: "2026-03-08 21:43:25"
+date-modified: "2026-11-18 01:43:40"
 ---
 
 # Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC AP 88-90

@@ -16,13 +16,14 @@ tags:
   - "Recherche d'Information"
   - "TF-IDF"
   - "TREC"
+  - "doi-fix:low-confidence"
 collections:
   - "completeLoyer_100126 2026-11-12, 5:14:18 p.m."
 zotero-key: "DNI2EQWL"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DNI2EQWL"
 date-added: "2026-11-12 22:14:19"
-date-modified: "2026-11-12 22:14:19"
+date-modified: "2026-11-18 01:43:36"
 ---
 
 # Evaluation de modeles de ponderations pour la recherche d'information sur TREC AP 88-90

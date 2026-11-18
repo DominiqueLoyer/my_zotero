@@ -5,6 +5,7 @@ authors:
   - "Loyer, Dominique S"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "IVFHV7RK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IVFHV7RK"
 date-added: "2026-01-09 20:58:59"
-date-modified: "2026-03-08 21:43:24"
+date-modified: "2026-11-18 01:43:39"
 ---
 
 # Évaluation de Modèles de Recherche d’Information et d’Expansion de Requêtes sur la Collection TREC AP 88-90

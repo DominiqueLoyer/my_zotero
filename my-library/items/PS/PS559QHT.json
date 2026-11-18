@@ -93,7 +93,7 @@
 			}
 		],
 		"dateAdded": "2026-01-09T20:59:11Z",
-		"dateModified": "2026-03-08T21:43:25Z",
+		"dateModified": "2026-11-18T01:43:40Z",
 		"itemType": "journalArticle",
 		"key": "PS559QHT",
 		"language": "fr",
@@ -104,6 +104,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

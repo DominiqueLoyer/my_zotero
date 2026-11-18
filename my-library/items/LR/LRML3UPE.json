@@ -46,7 +46,7 @@
 		"zoteroURI": "zotero://select/library/items/LRML3UPE"
 	},
 	"zotero": {
-		"citationKey": "loyerEvaluationModelesRecherche",
+		"citationKey": "loyerEvaluationModelesRecherched",
 		"collections": [
 			"H8Z7N6W8"
 		],
@@ -58,11 +58,15 @@
 			}
 		],
 		"dateAdded": "2025-12-30T21:49:10Z",
-		"dateModified": "2026-01-09T19:16:35Z",
+		"dateModified": "2026-11-18T01:43:36Z",
 		"itemType": "journalArticle",
 		"key": "LRML3UPE",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},
