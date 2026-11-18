@@ -26,7 +26,7 @@ authors:
   - "Rush, Alexander M."
 date: "2020-07-14"
 year: "2020"
-doi: "10.48550/arXiv.1910.03771"
+doi: "10.18653/v1/2020.emnlp-demos.6"
 url: "http://arxiv.org/abs/1910.03771"
 tags:
   - "Computer Science - Computation and Language"
@@ -37,7 +37,7 @@ zotero-key: "UPXZ2PJU"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UPXZ2PJU"
 date-added: "2026-03-14 17:36:07"
-date-modified: "2026-03-14 18:19:48"
+date-modified: "2026-11-18 01:46:08"
 ---
 
 # HuggingFace's Transformers: State-of-the-art Natural Language Processing
@@ -51,6 +51,7 @@ Recent progress in natural language processing has been driven by advances in bo
 ## Extra
 
 arXiv:1910.03771 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.1910.03771
 
 ## Notes
 

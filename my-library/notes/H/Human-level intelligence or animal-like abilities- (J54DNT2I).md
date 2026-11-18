@@ -1,6 +1,7 @@
 ---
 title: "Human-level intelligence or animal-like abilities?"
 item-type: "journalArticle"
+doi: "10.1145/3271625"
 language: "en"
 tags:
   - "notion"
@@ -10,7 +11,7 @@ zotero-key: "J54DNT2I"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/J54DNT2I"
 date-added: "2024-12-08 17:44:48"
-date-modified: "2025-12-05 22:33:38"
+date-modified: "2026-11-18 01:46:11"
 ---
 
 # Human-level intelligence or animal-like abilities?

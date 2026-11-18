@@ -5,7 +5,7 @@ authors:
   - "Loyer, Dominique"
 date: "2025"
 year: "2025"
-doi: "10.1109/roedunet68395.2025.11208267"
+doi: "10.1109/RoEduNet68395.2025.11208267"
 url: "https://doi.org/10.13140/RG.2.2.22926.47680"
 tags:
   - "notion"
@@ -15,7 +15,7 @@ zotero-key: "7DAU25G8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7DAU25G8"
 date-added: "2026-03-06 17:06:57"
-date-modified: "2026-11-17 17:56:19"
+date-modified: "2026-11-18 01:46:12"
 ---
 
 # Hybrid System for Verifying the Credibility of Information
@@ -26,6 +26,7 @@ date-modified: "2026-11-17 17:56:19"
 
 Importé via SysCRED.
 OpenAlex: W4415709470
+DOI Fix previous DOI: 10.1109/roedunet68395.2025.11208267
 
 ## Attachments
 
