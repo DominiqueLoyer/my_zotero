@@ -7,6 +7,7 @@ doi: "10.13140/RG.2.2.28011.20002"
 issn: "978-1-0699904-0-2"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/Beamer_18-19nov25_dic9401"
@@ -14,7 +15,7 @@ zotero-key: "5MRVRIH4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5MRVRIH4"
 date-added: "2025-11-20 14:21:58"
-date-modified: "2025-12-29 23:32:16"
+date-modified: "2026-11-18 01:52:09"
 ---
 
 # Le LÃ©viathan algorithmique - Pouvoir, opacitÃ© et responsabilitÃ© Ã l'Ã¨re de l'intelligence artificielle

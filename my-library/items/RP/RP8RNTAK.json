@@ -79,7 +79,7 @@
 	"zotero": {
 		"DOI": "10.13140/RG.2.2.28011.20002",
 		"ISSN": "978-1-0699904-0-2",
-		"citationKey": "loyerLeviathanAlgorithmiquePouvoir",
+		"citationKey": "loyerLeviathanAlgorithmiquePouvoirt",
 		"collections": [
 			"U4LWGVFE"
 		],
@@ -91,13 +91,17 @@
 			}
 		],
 		"dateAdded": "2025-11-19T18:26:00Z",
-		"dateModified": "2026-03-25T21:30:54Z",
+		"dateModified": "2026-11-18T01:52:10Z",
 		"itemType": "journalArticle",
 		"key": "RP8RNTAK",
 		"language": "fr",
 		"libraryCatalog": "Zotero",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
