@@ -8,6 +8,7 @@ date: "2025"
 year: "2025"
 publication: "arXiv preprint arXiv:2501.05435"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -16,7 +17,7 @@ zotero-key: "HWAZF9HY"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/HWAZF9HY"
 date-added: "2025-12-30 21:49:11"
-date-modified: "2026-11-17 18:00:15"
+date-modified: "2026-11-18 01:55:49"
 ---
 
 # Neuro-symbolic AI in 2024: A systematic review

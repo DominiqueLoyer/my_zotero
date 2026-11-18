@@ -10,6 +10,7 @@ doi: "10.48550/arXiv.2501.05435"
 url: "http://arxiv.org/abs/2501.05435"
 tags:
   - "Computer Science - Artificial Intelligence"
+  - "doi-fix:no-doi-found"
   - "notion"
 collections:
   - "_ALL_CIT_140326/sysCRED_240226/PDFs"
@@ -17,7 +18,7 @@ zotero-key: "8BUJH7ZM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8BUJH7ZM"
 date-added: "2026-03-14 17:37:29"
-date-modified: "2026-03-25 21:28:33"
+date-modified: "2026-11-18 01:55:55"
 ---
 
 # Neuro-Symbolic AI in 2024: A Systematic Review
