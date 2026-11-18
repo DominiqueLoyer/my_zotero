@@ -7,6 +7,7 @@ date: "27 mars 2025"
 year: "2025"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "mes papiers et beamers"
@@ -15,7 +16,7 @@ zotero-key: "AB9DP3U2"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/AB9DP3U2"
 date-added: "2025-05-30 18:51:57"
-date-modified: "2025-10-30 21:00:37"
+date-modified: "2026-11-18 01:54:20"
 ---
 
 # MÉTRIQUES D'ÉVALUATION EN RI DE LA QUALITÉ DES LIENS DU WEB

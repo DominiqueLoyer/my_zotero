@@ -6,6 +6,7 @@ authors:
 date: "A2024"
 year: "0000"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours A24/Dic9150"
@@ -13,7 +14,7 @@ zotero-key: "GC5KYIPK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GC5KYIPK"
 date-added: "2024-12-08 17:55:27"
-date-modified: "2025-12-05 22:30:04"
+date-modified: "2026-11-18 01:54:16"
 ---
 
 # Mes notes du cours dic9150

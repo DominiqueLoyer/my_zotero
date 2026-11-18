@@ -10,6 +10,7 @@ date: "2002"
 year: "2002"
 publication: "Proceedings of the 25th annual international ACM SIGIR conference on Research and development in information retrieval"
 pages: "253–260"
+doi: "10.1145/564376.564421"
 tags:
   - "notion"
 collections:
@@ -18,7 +19,7 @@ zotero-key: "Y8YJDWEF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Y8YJDWEF"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-11-17 17:59:29"
+date-modified: "2026-11-18 01:54:17"
 ---
 
 # Methods and metrics for cold-start recommendations
