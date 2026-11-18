@@ -13,7 +13,7 @@ zotero-key: "PLM3535B"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PLM3535B"
 date-added: "2025-03-31 19:05:19"
-date-modified: "2026-11-13 19:31:47"
+date-modified: "2026-11-18 01:34:47"
 ---
 
 # applying-uml-and-patterns

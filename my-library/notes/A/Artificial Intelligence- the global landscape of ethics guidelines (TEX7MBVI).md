@@ -19,7 +19,7 @@ zotero-key: "TEX7MBVI"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/TEX7MBVI"
 date-added: "2024-11-22 18:40:11"
-date-modified: "2026-11-13 19:32:08"
+date-modified: "2026-11-18 01:34:54"
 ---
 
 # Artificial Intelligence: the global landscape of ethics guidelines

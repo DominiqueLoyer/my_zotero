@@ -14,7 +14,7 @@ zotero-key: "4ZB9FE2H"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4ZB9FE2H"
 date-added: "2026-02-26 20:18:30"
-date-modified: "2026-11-17 17:50:03"
+date-modified: "2026-11-18 01:34:46"
 ---
 
 # Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development
