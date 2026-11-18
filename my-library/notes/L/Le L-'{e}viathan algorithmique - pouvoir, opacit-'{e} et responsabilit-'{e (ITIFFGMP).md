@@ -8,6 +8,7 @@ year: "2025"
 doi: "10.13140/RG.2.2.28011.20002"
 url: "https://www.researchgate.net/doi/10.13140/RG.2.2.28011.20002"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_9335_all"
@@ -15,7 +16,7 @@ zotero-key: "ITIFFGMP"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ITIFFGMP"
 date-added: "2026-03-04 20:27:15"
-date-modified: "2026-11-17 17:57:38"
+date-modified: "2026-11-18 01:52:03"
 ---
 
 # Le L\'{e}viathan algorithmique : pouvoir, opacit\'{e} et responsabilit\'{e
