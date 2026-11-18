@@ -4,6 +4,7 @@ item-type: "journalArticle"
 authors:
   - "researchgate.net, DS Loyer -"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -12,7 +13,7 @@ zotero-key: "JM274RBI"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JM274RBI"
 date-added: "2026-04-17 21:00:09"
-date-modified: "2026-11-08 16:11:40"
+date-modified: "2026-11-18 01:39:52"
 ---
 
 # Development and evaluation of an english-to-russian neural machine translation system

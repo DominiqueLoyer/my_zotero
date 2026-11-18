@@ -58,12 +58,16 @@
 			}
 		],
 		"dateAdded": "2026-04-17T21:00:09Z",
-		"dateModified": "2026-11-08T16:11:41Z",
+		"dateModified": "2026-11-18T01:39:53Z",
 		"extra": "tex.researchrabbitid: ebf6afdc-b8b7-4fb3-8b5e-182db9594da2",
 		"itemType": "journalArticle",
 		"key": "Y89YDERS",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},
