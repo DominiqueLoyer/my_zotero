@@ -27,7 +27,7 @@ zotero-key: "NIXGQW5J"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/NIXGQW5J"
 date-added: "2026-03-14 17:35:14"
-date-modified: "2026-11-13 19:30:09"
+date-modified: "2026-11-18 01:33:21"
 ---
 
 # A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities

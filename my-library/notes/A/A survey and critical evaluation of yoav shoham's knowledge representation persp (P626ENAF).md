@@ -13,7 +13,7 @@ zotero-key: "P626ENAF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/P626ENAF"
 date-added: "2026-04-17 21:00:09"
-date-modified: "2026-11-13 19:30:00"
+date-modified: "2026-11-18 01:33:16"
 ---
 
 # A survey and critical evaluation of yoav shoham's knowledge representation perspective

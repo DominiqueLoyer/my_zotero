@@ -23,7 +23,7 @@ zotero-key: "E3AAVGC7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/E3AAVGC7"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-13 19:30:09"
+date-modified: "2026-11-18 01:33:21"
 ---
 
 # A survey of Generative AI Applications
