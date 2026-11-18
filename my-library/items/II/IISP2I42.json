@@ -71,7 +71,7 @@
 		"zoteroURI": "zotero://select/library/items/IISP2I42"
 	},
 	"zotero": {
-		"DOI": "10.48550/arXiv.2401.04122",
+		"DOI": "10.1145/3709599",
 		"abstractNote": "As LLMs make their way into many aspects of our lives, one place that warrants increased scrutiny with LLM usage is scientific research. Using LLMs for generating or analyzing data for research purposes is gaining popularity. But when such application is marred with ad-hoc decisions and engineering solutions, we need to be concerned about how it may affect that research, its findings, or any future works based on that research. We need a more scientific approach to using LLMs in our research. While there are several active efforts to support more systematic construction of prompts, they are often focused more on achieving desirable outcomes rather than producing replicable and generalizable knowledge with sufficient transparency, objectivity, or rigor. This article presents a new methodology inspired by codebook construction through qualitative methods to address that. Using humans in the loop and a multiphase verification processes, this methodology lays a foundation for more systematic, objective, and trustworthy way of applying LLMs for analyzing data. Specifically, we show how a set of researchers can work through a rigorous process of labeling, deliberating, and documenting to remove subjectivity and bring transparency and replicability to prompt generation process.",
 		"accessDate": "2025-03-26T14:08:48Z",
 		"archiveID": "arXiv:2401.04122",
@@ -88,8 +88,8 @@
 		],
 		"date": "2024-05-10",
 		"dateAdded": "2025-03-26T14:08:48Z",
-		"dateModified": "2025-12-05T22:25:57Z",
-		"extra": "arXiv:2401.04122 [cs]",
+		"dateModified": "2026-11-18T01:45:19Z",
+		"extra": "arXiv:2401.04122 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2401.04122",
 		"itemType": "preprint",
 		"key": "IISP2I42",
 		"language": "en",

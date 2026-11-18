@@ -89,7 +89,7 @@
 		],
 		"creators": [],
 		"dateAdded": "2025-11-19T18:17:24Z",
-		"dateModified": "2026-11-09T15:02:01Z",
+		"dateModified": "2026-11-18T01:45:25Z",
 		"extra": "abstractTranslation: Item created with Gemini",
 		"itemType": "webpage",
 		"key": "PQJGMNLW",
@@ -101,6 +101,10 @@
 		},
 		"shortTitle": "‎Gemini",
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "gemini"
 			},

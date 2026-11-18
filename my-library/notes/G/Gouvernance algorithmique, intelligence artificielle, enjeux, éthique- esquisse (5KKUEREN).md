@@ -10,6 +10,7 @@ publisher: "Éditions Nota bene"
 volume: "23"
 issue: "2"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -18,7 +19,7 @@ zotero-key: "5KKUEREN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5KKUEREN"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-03-25 21:30:50"
+date-modified: "2026-11-18 01:45:37"
 ---
 
 # Gouvernance algorithmique, intelligence artificielle, enjeux, éthique: esquisse d’une analyse critique.«D’après vous en tant que chercheur en IA, quels sont les enjeux d’une gouvernance algorithmique? L’éthique a-t-elle un rôle à jouer?»

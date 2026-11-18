@@ -26,7 +26,7 @@ zotero-key: "SVPRQC5J"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SVPRQC5J"
 date-added: "2024-11-02 18:50:48"
-date-modified: "2025-12-05 22:26:51"
+date-modified: "2026-11-18 01:45:37"
 ---
 
 # Gouvernementalité algorithmique et perspectives d'émancipation: Le disparate comme condition d'individuation par la relation ?

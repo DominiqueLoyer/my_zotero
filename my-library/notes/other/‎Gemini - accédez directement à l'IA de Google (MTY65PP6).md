@@ -4,6 +4,7 @@ item-type: "webpage"
 url: "https://gemini.google.com/u/1/share/30e615809bd6?pageId=none"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "all-references"
@@ -11,7 +12,7 @@ zotero-key: "MTY65PP6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/MTY65PP6"
 date-added: "2026-01-07 02:21:49"
-date-modified: "2026-11-09 15:02:01"
+date-modified: "2026-11-18 01:45:25"
 ---
 
 # ‎Gemini : accédez directement à l'IA de Google

@@ -1,6 +1,7 @@
 ---
 title: "Google Gemini"
 item-type: "webpage"
+doi: "10.1515/9781501519741"
 url: "https://gemini.google.com/app/665dba6ad67626d6"
 tags:
   - "notion"
@@ -10,7 +11,7 @@ zotero-key: "8NBIPZ26"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8NBIPZ26"
 date-added: "2025-11-22 01:39:14"
-date-modified: "2026-11-17 17:56:01"
+date-modified: "2026-11-18 01:45:32"
 ---
 
 # Google Gemini

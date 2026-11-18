@@ -5,7 +5,7 @@ authors:
   - "Wu, Yonghui and Schuster, Mike and Chen, Zhifeng and Le, Quoc V and Norouzi, Mohammad and Jaitly, Navdeep and Hinton, Geoffrey and бригадный, ОРИГИНАЛ and others"
 date: "2019"
 year: "2019"
-doi: "10.18653/v1/p19-1426"
+doi: "10.18653/v1/P19-1426"
 tags:
   - "notion"
 collections:
@@ -14,7 +14,7 @@ zotero-key: "I5A6S7B9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/I5A6S7B9"
 date-added: "2026-03-05 00:56:16"
-date-modified: "2026-11-17 17:56:03"
+date-modified: "2026-11-18 01:45:36"
 ---
 
 # Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation
@@ -25,6 +25,7 @@ date-modified: "2026-11-17 17:56:03"
 
 Importé via SysCRED.
 OpenAlex: W2964345285
+DOI Fix previous DOI: 10.18653/v1/p19-1426
 
 ## Attachments
 

@@ -5,7 +5,7 @@ authors:
   - "Shah, Chirag"
 date: "2024-05-10"
 year: "2024"
-doi: "10.48550/arXiv.2401.04122"
+doi: "10.1145/3709599"
 url: "http://arxiv.org/abs/2401.04122"
 language: "en"
 tags:
@@ -18,7 +18,7 @@ zotero-key: "IISP2I42"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IISP2I42"
 date-added: "2025-03-26 14:08:48"
-date-modified: "2025-12-05 22:25:57"
+date-modified: "2026-11-18 01:45:19"
 ---
 
 # From Prompt Engineering to Prompt Science With Human in the Loop
@@ -32,6 +32,7 @@ As LLMs make their way into many aspects of our lives, one place that warrants i
 ## Extra
 
 arXiv:2401.04122 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2401.04122
 
 ## Attachments
 

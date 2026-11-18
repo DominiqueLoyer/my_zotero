@@ -5,6 +5,7 @@ authors:
   - "Lounis Hakim"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -13,7 +14,7 @@ zotero-key: "VQJHT53Y"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VQJHT53Y"
 date-added: "2025-03-17 17:32:28"
-date-modified: "2025-03-31 18:43:50"
+date-modified: "2026-11-18 01:45:28"
 ---
 
 # Gestion d’un centre de formation

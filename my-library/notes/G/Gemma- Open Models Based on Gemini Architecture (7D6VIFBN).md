@@ -14,7 +14,7 @@ zotero-key: "7D6VIFBN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7D6VIFBN"
 date-added: "2026-03-05 00:56:06"
-date-modified: "2026-11-17 17:56:00"
+date-modified: "2026-11-18 01:45:25"
 ---
 
 # Gemma: Open Models Based on Gemini Architecture

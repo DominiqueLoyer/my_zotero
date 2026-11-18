@@ -4,6 +4,7 @@ item-type: "webpage"
 url: "https://www.mozilla.org/en-US/products/vpn/"
 language: "en"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "mes papiers et beamers"
@@ -11,7 +12,7 @@ zotero-key: "SF9SAMWW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SF9SAMWW"
 date-added: "2026-01-09 21:18:42"
-date-modified: "2026-02-05 00:04:28"
+date-modified: "2026-11-18 01:45:29"
 ---
 
 # Get Mozilla VPN — Mozilla (US)

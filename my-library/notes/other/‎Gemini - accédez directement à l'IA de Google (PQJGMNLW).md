@@ -4,6 +4,7 @@ item-type: "webpage"
 url: "https://gemini.google.com/share/9eeac164ca06"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "gemini"
   - "notion"
 collections:
@@ -12,7 +13,7 @@ zotero-key: "PQJGMNLW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PQJGMNLW"
 date-added: "2025-11-19 18:17:24"
-date-modified: "2026-11-09 15:02:01"
+date-modified: "2026-11-18 01:45:25"
 ---
 
 # ‎Gemini : accédez directement à l'IA de Google

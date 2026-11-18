@@ -83,13 +83,13 @@
 	"zotero": {
 		"abstractNote": "Use Mozilla VPN for full-device protection for all apps. With servers in 57+ countries, you can connect to anywhere, from anywhere.",
 		"accessDate": "2026-01-09T21:18:42Z",
-		"citationKey": "GetMozillaVPN",
+		"citationKey": "GetMozillaVPNa",
 		"collections": [
 			"GXLPXWSC"
 		],
 		"creators": [],
 		"dateAdded": "2026-01-09T21:18:42Z",
-		"dateModified": "2026-02-05T00:04:28Z",
+		"dateModified": "2026-11-18T01:45:29Z",
 		"extra": "abstractTranslation: Use Mozilla VPN for full-device protection for all apps. With servers in 57+ countries, you can connect to anywhere, from anywhere.\ntitleTranslation: Get Mozilla VPN — Mozilla (US)",
 		"itemType": "webpage",
 		"key": "SF9SAMWW",
@@ -100,6 +100,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

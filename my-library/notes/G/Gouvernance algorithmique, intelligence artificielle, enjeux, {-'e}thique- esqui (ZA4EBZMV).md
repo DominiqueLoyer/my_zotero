@@ -14,7 +14,7 @@ zotero-key: "ZA4EBZMV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZA4EBZMV"
 date-added: "2026-03-08 21:21:15"
-date-modified: "2026-11-17 17:56:03"
+date-modified: "2026-11-18 01:45:36"
 ---
 
 # Gouvernance algorithmique, intelligence artificielle, enjeux, {\'e}thique: esquisse d’une analyse critique.{\guillemotleft}D’apr{\`e}s vous en tant que chercheur en IA, quels sont les enjeux d’une gouvernance algorithmique? L’{\'e}thique a-t-elle un r{\^o}le {\`a} jouer?{\guillemotright

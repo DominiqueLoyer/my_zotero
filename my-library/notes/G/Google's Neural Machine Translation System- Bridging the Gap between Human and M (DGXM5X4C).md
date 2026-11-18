@@ -41,6 +41,7 @@ tags:
   - "Computer Science - Artificial Intelligence"
   - "Computer Science - Computation and Language"
   - "Computer Science - Machine Learning"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
@@ -48,7 +49,7 @@ zotero-key: "DGXM5X4C"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DGXM5X4C"
 date-added: "2026-03-14 17:36:09"
-date-modified: "2026-03-14 18:19:47"
+date-modified: "2026-11-18 01:45:36"
 ---
 
 # Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation

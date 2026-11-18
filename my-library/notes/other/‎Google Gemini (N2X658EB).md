@@ -1,6 +1,7 @@
 ---
 title: "‎Google Gemini"
 item-type: "webpage"
+doi: "10.1515/9781501519741"
 url: "https://gemini.google.com"
 language: "fr-CA"
 tags:
@@ -11,7 +12,7 @@ zotero-key: "N2X658EB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/N2X658EB"
 date-added: "2025-09-15 17:38:11"
-date-modified: "2026-11-17 17:56:01"
+date-modified: "2026-11-18 01:45:32"
 ---
 
 # ‎Google Gemini
