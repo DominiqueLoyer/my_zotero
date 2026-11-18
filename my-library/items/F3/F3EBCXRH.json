@@ -100,7 +100,7 @@
 		],
 		"date": "2024",
 		"dateAdded": "2025-10-10T19:01:27Z",
-		"dateModified": "2026-03-25T21:31:03Z",
+		"dateModified": "2026-11-18T01:59:49Z",
 		"itemType": "document",
 		"key": "F3EBCXRH",
 		"relations": {
@@ -113,6 +113,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

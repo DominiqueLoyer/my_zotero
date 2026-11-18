@@ -4,6 +4,7 @@ item-type: "document"
 authors:
   - "Lounis Hakim"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -11,7 +12,7 @@ zotero-key: "G6HWWFFV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/G6HWWFFV"
 date-added: "2025-03-31 18:47:25"
-date-modified: "2025-03-31 18:47:29"
+date-modified: "2026-11-18 01:59:46"
 ---
 
 # ReseauxNeurones

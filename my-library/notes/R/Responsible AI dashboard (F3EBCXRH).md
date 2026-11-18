@@ -7,6 +7,7 @@ date: "2024"
 year: "2024"
 url: "https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai-dashboard"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -16,7 +17,7 @@ zotero-key: "F3EBCXRH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/F3EBCXRH"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-03-25 21:31:03"
+date-modified: "2026-11-18 01:59:49"
 ---
 
 # Responsible AI dashboard
