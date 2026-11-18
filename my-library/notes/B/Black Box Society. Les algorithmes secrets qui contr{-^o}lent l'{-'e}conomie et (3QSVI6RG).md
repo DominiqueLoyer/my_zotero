@@ -14,7 +14,7 @@ zotero-key: "3QSVI6RG"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3QSVI6RG"
 date-added: "2026-03-08 21:21:37"
-date-modified: "2026-11-13 19:32:55"
+date-modified: "2026-11-18 01:35:30"
 ---
 
 # Black Box Society. Les algorithmes secrets qui contr{\^o}lent l'{\'e}conomie et l'information

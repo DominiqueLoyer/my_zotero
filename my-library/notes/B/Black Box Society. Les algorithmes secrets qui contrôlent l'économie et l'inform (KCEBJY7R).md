@@ -15,7 +15,7 @@ zotero-key: "KCEBJY7R"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KCEBJY7R"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-11-13 19:32:55"
+date-modified: "2026-11-18 01:35:34"
 ---
 
 # Black Box Society. Les algorithmes secrets qui contrôlent l'économie et l'information
