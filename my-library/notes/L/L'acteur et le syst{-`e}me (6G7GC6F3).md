@@ -5,6 +5,7 @@ authors:
   - "Crozier, Michel and Friedberg, Erhard"
 date: "1977"
 year: "1977"
+doi: "10.2307/40176734"
 tags:
   - "notion"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "6G7GC6F3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6G7GC6F3"
 date-added: "2026-02-25 20:55:43"
-date-modified: "2026-03-25 21:29:56"
+date-modified: "2026-11-18 01:50:33"
 ---
 
 # L'acteur et le syst{\`e}me

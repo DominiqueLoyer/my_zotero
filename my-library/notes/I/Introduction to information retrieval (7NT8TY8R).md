@@ -8,6 +8,7 @@ authors:
 date: "2008"
 year: "2008"
 publisher: "Cambridge University Press"
+doi: "10.1017/CBO9780511809071"
 url: "https://nlp.stanford.edu/IR-book/"
 tags:
   - "notion"
@@ -17,7 +18,7 @@ zotero-key: "7NT8TY8R"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7NT8TY8R"
 date-added: "2025-04-10 15:02:46"
-date-modified: "2026-11-17 17:56:40"
+date-modified: "2026-11-18 01:50:27"
 ---
 
 # Introduction to information retrieval

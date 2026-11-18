@@ -13,6 +13,7 @@ date: "2019"
 year: "2019"
 publication: "Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining"
 pages: "968–977"
+doi: "10.1145/3292500.3330836"
 language: "fr-CA"
 tags:
   - "notion"
@@ -22,7 +23,7 @@ zotero-key: "MBNZP758"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/MBNZP758"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-11-17 17:56:55"
+date-modified: "2026-11-18 01:50:29"
 ---
 
 # Knowledge-aware graph neural networks with label smoothness regularization for recommender systems

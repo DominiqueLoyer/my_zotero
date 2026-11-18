@@ -9,6 +9,7 @@ language: "fr-CA"
 tags:
   - "Dominique Loyer"
   - "Taconnat"
+  - "doi-fix:low-confidence"
   - "mémoire"
   - "notion"
 collections:
@@ -17,7 +18,7 @@ zotero-key: "8WT5F3VL"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/8WT5F3VL"
 date-added: "2024-12-02 14:42:04"
-date-modified: "2025-12-05 22:31:18"
+date-modified: "2026-11-18 01:50:28"
 ---
 
 # Je me souviens...Oui,mais de quoi?

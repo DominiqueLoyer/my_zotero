@@ -3,6 +3,7 @@ title: "Introduction to the Soar Cognitive Architecture"
 item-type: "journalArticle"
 authors:
   - "Laird, John E"
+doi: "10.7551/mitpress/7688.001.0001"
 language: "en"
 tags:
   - "notion"
@@ -13,7 +14,7 @@ zotero-key: "W7THITRW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/W7THITRW"
 date-added: "2024-12-09 20:37:02"
-date-modified: "2025-12-29 23:57:36"
+date-modified: "2026-11-18 01:50:27"
 ---
 
 # Introduction to the Soar Cognitive Architecture

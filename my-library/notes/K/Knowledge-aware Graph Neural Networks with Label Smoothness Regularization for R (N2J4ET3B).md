@@ -11,7 +11,7 @@ authors:
   - "Wang, Zhongyuan"
 date: "2019-06-14"
 year: "2019"
-doi: "10.48550/arXiv.1905.04413"
+doi: "10.1145/3292500.3330836"
 url: "http://arxiv.org/abs/1905.04413"
 language: "en"
 tags:
@@ -25,7 +25,7 @@ zotero-key: "N2J4ET3B"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/N2J4ET3B"
 date-added: "2026-03-14 17:40:00"
-date-modified: "2026-03-25 21:28:25"
+date-modified: "2026-11-18 01:50:29"
 ---
 
 # Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems
@@ -39,6 +39,7 @@ Knowledge graphs capture structured information and relations between a set of e
 ## Extra
 
 arXiv:1905.04413 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.1905.04413
 
 ## Attachments
 

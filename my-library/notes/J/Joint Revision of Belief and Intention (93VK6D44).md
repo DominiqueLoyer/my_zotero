@@ -14,7 +14,7 @@ zotero-key: "93VK6D44"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/93VK6D44"
 date-added: "2026-03-05 00:43:14"
-date-modified: "2026-11-17 17:56:55"
+date-modified: "2026-11-18 01:50:28"
 ---
 
 # Joint Revision of Belief and Intention

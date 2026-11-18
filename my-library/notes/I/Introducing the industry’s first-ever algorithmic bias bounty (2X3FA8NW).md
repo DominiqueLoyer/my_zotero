@@ -6,6 +6,7 @@ authors:
 date: "2021"
 year: "2021"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "9401_bibtex_all_250226"
@@ -13,7 +14,7 @@ zotero-key: "2X3FA8NW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2X3FA8NW"
 date-added: "2026-02-25 21:34:44"
-date-modified: "2026-03-25 21:29:51"
+date-modified: "2026-11-18 01:50:23"
 ---
 
 # Introducing the industry’s first-ever algorithmic bias bounty

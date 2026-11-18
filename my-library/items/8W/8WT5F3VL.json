@@ -110,7 +110,7 @@
 		],
 		"date": "4 novembre 2024",
 		"dateAdded": "2024-12-02T14:42:04Z",
-		"dateModified": "2025-12-05T22:31:18Z",
+		"dateModified": "2026-11-18T01:50:28Z",
 		"itemType": "document",
 		"key": "8WT5F3VL",
 		"language": "fr-CA",
@@ -121,6 +121,10 @@
 			},
 			{
 				"tag": "Taconnat"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "mémoire"
