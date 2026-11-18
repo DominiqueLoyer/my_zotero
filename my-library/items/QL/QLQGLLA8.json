@@ -114,7 +114,7 @@
 		],
 		"date": "2018",
 		"dateAdded": "2026-01-08T20:07:32Z",
-		"dateModified": "2026-11-17T17:51:34Z",
+		"dateModified": "2026-11-18T01:38:59Z",
 		"extra": "OpenAlex: W7205242103",
 		"itemType": "document",
 		"key": "QLQGLLA8",
@@ -125,6 +125,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

@@ -8,6 +8,7 @@ year: "2018"
 url: "https://www.declarationmontreal-iaresponsable.com/"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "references_dic9401"
@@ -15,7 +16,7 @@ zotero-key: "QLQGLLA8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QLQGLLA8"
 date-added: "2026-01-08 20:07:32"
-date-modified: "2026-11-17 17:51:34"
+date-modified: "2026-11-18 01:38:59"
 ---
 
 # Déclaration de Montréal pour un développement responsable de l'intelligence artificielle

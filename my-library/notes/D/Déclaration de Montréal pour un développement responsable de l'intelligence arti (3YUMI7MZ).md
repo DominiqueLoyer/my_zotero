@@ -8,6 +8,7 @@ year: "2018"
 url: "https://www.declarationmontreal-iaresponsable.com/"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "references"
@@ -15,7 +16,7 @@ zotero-key: "3YUMI7MZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3YUMI7MZ"
 date-added: "2026-01-08 20:10:54"
-date-modified: "2026-11-17 17:51:36"
+date-modified: "2026-11-18 01:39:02"
 ---
 
 # Déclaration de Montréal pour un développement responsable de l'intelligence artificielle

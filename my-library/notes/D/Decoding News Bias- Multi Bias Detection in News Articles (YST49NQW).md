@@ -7,7 +7,7 @@ authors:
   - "Attar, Vahida"
 date: "2025-01-05"
 year: "2025"
-doi: "10.48550/arXiv.2501.02482"
+doi: "10.1145/3711542.3711601"
 url: "http://arxiv.org/abs/2501.02482"
 language: "en"
 tags:
@@ -19,7 +19,7 @@ zotero-key: "YST49NQW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/YST49NQW"
 date-added: "2026-03-14 17:36:41"
-date-modified: "2026-03-25 21:28:36"
+date-modified: "2026-11-18 01:39:08"
 ---
 
 # Decoding News Bias: Multi Bias Detection in News Articles
@@ -33,6 +33,7 @@ News Articles provides crucial information about various events happening in the
 ## Extra
 
 arXiv:2501.02482 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2501.02482
 
 ## Attachments
 

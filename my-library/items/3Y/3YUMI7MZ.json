@@ -106,13 +106,17 @@
 		],
 		"date": "2018",
 		"dateAdded": "2026-01-08T20:10:54Z",
-		"dateModified": "2026-11-17T17:51:36Z",
+		"dateModified": "2026-11-18T01:39:02Z",
 		"extra": "OpenAlex: W7205242103",
 		"itemType": "document",
 		"key": "3YUMI7MZ",
 		"language": "fr-CA",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
