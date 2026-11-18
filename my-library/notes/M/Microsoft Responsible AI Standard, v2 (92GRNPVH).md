@@ -7,6 +7,7 @@ date: "2024"
 year: "2024"
 url: "https://www.microsoft.com/en-us/ai/responsible-ai"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -14,7 +15,7 @@ zotero-key: "92GRNPVH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/92GRNPVH"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-03-25 21:31:03"
+date-modified: "2026-11-18 01:54:23"
 ---
 
 # Microsoft Responsible AI Standard, v2

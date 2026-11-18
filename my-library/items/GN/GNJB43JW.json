@@ -46,7 +46,7 @@
 		"zoteroURI": "zotero://select/library/items/GNJB43JW"
 	},
 	"zotero": {
-		"citationKey": "microsoftMicrosoftResponsibleAI2024b",
+		"citationKey": "microsoftMicrosoftResponsibleAI2024d",
 		"collections": [
 			"7PN5IQY2"
 		],
@@ -58,12 +58,16 @@
 		],
 		"date": "2024",
 		"dateAdded": "2026-01-08T20:10:57Z",
-		"dateModified": "2026-03-25T21:30:09Z",
+		"dateModified": "2026-11-18T01:54:27Z",
 		"itemType": "document",
 		"key": "GNJB43JW",
 		"language": "fr-CA",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

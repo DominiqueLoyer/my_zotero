@@ -8,6 +8,7 @@ year: "2024"
 url: "https://www.microsoft.com/en-us/ai/responsible-ai"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "references"
@@ -15,7 +16,7 @@ zotero-key: "GNJB43JW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GNJB43JW"
 date-added: "2026-01-08 20:10:57"
-date-modified: "2026-03-25 21:30:09"
+date-modified: "2026-11-18 01:54:27"
 ---
 
 # Microsoft responsible AI standard, v2
