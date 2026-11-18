@@ -1,6 +1,7 @@
 ---
 title: "Skinner course notes"
 item-type: "book"
+doi: "10.1145/1088309.1088310"
 language: "fr-CA"
 tags:
   - "notion"
@@ -8,7 +9,7 @@ zotero-key: "378RBHGF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/378RBHGF"
 date-added: "2026-01-06 23:39:59"
-date-modified: "2026-02-05 00:23:08"
+date-modified: "2026-11-18 13:59:51"
 ---
 
 # Skinner course notes

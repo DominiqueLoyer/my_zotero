@@ -1,6 +1,7 @@
 ---
 title: "start [Zotero Documentation]"
 item-type: "webpage"
+doi: "10.5596/c13-003"
 url: "https://www.zotero.org/support/"
 tags:
   - "notion"
@@ -10,7 +11,7 @@ zotero-key: "QC2Z4XDN"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QC2Z4XDN"
 date-added: "2026-01-09 18:11:28"
-date-modified: "2026-01-16 15:52:53"
+date-modified: "2026-11-18 13:59:56"
 ---
 
 # start [Zotero Documentation]

@@ -5,6 +5,7 @@ authors:
   - "Lounis Hakim"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Modélisation"
@@ -13,7 +14,7 @@ zotero-key: "2AXAGH5H"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/2AXAGH5H"
 date-added: "2025-03-17 17:33:20"
-date-modified: "2025-03-31 18:49:14"
+date-modified: "2026-11-18 13:59:51"
 ---
 
 # Spécifications d’un système d’IA

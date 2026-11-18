@@ -8,7 +8,7 @@ authors:
   - "Tikk, Domonkos"
 date: "2016-03-29"
 year: "2016"
-doi: "10.48550/arXiv.1511.06939"
+doi: "10.1145/3109859.3109896"
 url: "http://arxiv.org/abs/1511.06939"
 tags:
   - "Computer Science - Information Retrieval"
@@ -21,7 +21,7 @@ zotero-key: "GKLIX7Z3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GKLIX7Z3"
 date-added: "2026-03-14 17:39:36"
-date-modified: "2026-03-25 21:28:26"
+date-modified: "2026-11-18 13:59:48"
 ---
 
 # Session-based Recommendations with Recurrent Neural Networks
@@ -35,6 +35,7 @@ We apply recurrent neural networks (RNN) on a new domain, namely recommender sys
 ## Extra
 
 arXiv:1511.06939 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.1511.06939
 
 ## Notes
 

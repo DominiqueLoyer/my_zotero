@@ -13,6 +13,7 @@ year: "2016"
 publication: "Internet Policy Review"
 volume: "5"
 issue: "1"
+doi: "10.14763/2016.1.401"
 language: "fr-CA"
 tags:
   - "notion"
@@ -22,7 +23,7 @@ zotero-key: "6CX67JLW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6CX67JLW"
 date-added: "2026-01-08 20:10:56"
-date-modified: "2026-11-17 18:04:09"
+date-modified: "2026-11-18 13:59:49"
 ---
 
 # Should we worry about filter bubbles?

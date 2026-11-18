@@ -9,6 +9,7 @@ year: "2023"
 publisher: "Online"
 url: "https://web.stanford.edu/~jurafsky/slp3/"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
@@ -16,7 +17,7 @@ zotero-key: "MK3KFAUJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/MK3KFAUJ"
 date-added: "2025-04-10 15:02:46"
-date-modified: "2025-04-10 15:02:46"
+date-modified: "2026-11-18 13:59:55"
 ---
 
 # Speech and language processing

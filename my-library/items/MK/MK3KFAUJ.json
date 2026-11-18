@@ -65,7 +65,7 @@
 		],
 		"date": "2023",
 		"dateAdded": "2025-04-10T15:02:46Z",
-		"dateModified": "2025-04-10T15:02:46Z",
+		"dateModified": "2026-11-18T13:59:55Z",
 		"edition": "3rd (Draft)",
 		"extra": "tex.date-added: 2025-04-10 09:48:04 -0400\ntex.date-modified: 2025-04-10 09:48:04 -0400",
 		"itemType": "book",
@@ -73,6 +73,10 @@
 		"publisher": "Online",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

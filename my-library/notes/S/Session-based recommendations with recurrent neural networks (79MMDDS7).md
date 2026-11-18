@@ -9,6 +9,7 @@ authors:
 date: "2016"
 year: "2016"
 publication: "Proceedings of the 4th international conference on learning representations, ICLR 2016"
+doi: "10.1145/3109859.3109896"
 language: "fr-CA"
 tags:
   - "notion"
@@ -18,7 +19,7 @@ zotero-key: "79MMDDS7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/79MMDDS7"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-11-17 18:04:06"
+date-modified: "2026-11-18 13:59:46"
 ---
 
 # Session-based recommendations with recurrent neural networks
