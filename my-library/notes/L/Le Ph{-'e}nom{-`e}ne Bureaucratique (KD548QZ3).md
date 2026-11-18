@@ -5,6 +5,7 @@ authors:
   - "Crozier, Michel"
 date: "1963"
 year: "1963"
+doi: "10.2307/1526368"
 tags:
   - "notion"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "KD548QZ3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KD548QZ3"
 date-added: "2026-02-25 20:55:39"
-date-modified: "2026-03-25 21:29:56"
+date-modified: "2026-11-18 01:53:27"
 ---
 
 # Le Ph{\'e}nom{\`e}ne Bureaucratique

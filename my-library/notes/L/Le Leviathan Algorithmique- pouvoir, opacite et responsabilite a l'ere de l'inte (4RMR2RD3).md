@@ -9,6 +9,7 @@ doi: "10.13140/RG.2.2.28011.20002"
 url: "https://www.researchgate.net/doi/10.13140/RG.2.2.28011.20002"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "completeLoyer_100126"
@@ -16,7 +17,7 @@ zotero-key: "4RMR2RD3"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/4RMR2RD3"
 date-added: "2026-01-10 20:17:20"
-date-modified: "2026-11-17 17:57:43"
+date-modified: "2026-11-18 01:53:21"
 ---
 
 # Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle

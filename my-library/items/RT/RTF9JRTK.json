@@ -75,13 +75,18 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-11-12T22:14:19Z",
-		"dateModified": "2026-11-17T17:57:44Z",
+		"dateModified": "2026-11-18T01:53:24Z",
 		"extra": "OpenAlex: W7109779957",
 		"itemType": "conferencePaper",
 		"key": "RTF9JRTK",
 		"pages": "64",
 		"relations": {},
-		"tags": [],
+		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			}
+		],
 		"title": "Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle",
 		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.19196.60806"
 	}

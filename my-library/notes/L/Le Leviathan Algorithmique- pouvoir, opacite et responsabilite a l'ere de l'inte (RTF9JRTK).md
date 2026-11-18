@@ -9,13 +9,15 @@ pages: "64"
 doi: "10.13140/RG.2.2.19196.60806"
 isbn: "978-1-0699904-7-1"
 url: "https://www.researchgate.net/doi/10.13140/RG.2.2.19196.60806"
+tags:
+  - "doi-fix:low-confidence"
 collections:
   - "completeLoyer_100126 2026-11-12, 5:14:18 p.m."
 zotero-key: "RTF9JRTK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RTF9JRTK"
 date-added: "2026-11-12 22:14:19"
-date-modified: "2026-11-17 17:57:44"
+date-modified: "2026-11-18 01:53:24"
 ---
 
 # Le Leviathan Algorithmique: pouvoir, opacite et responsabilite a l'ere de l'intelligence artificielle

@@ -113,7 +113,7 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-10T20:17:20Z",
-		"dateModified": "2026-11-17T17:57:43Z",
+		"dateModified": "2026-11-18T01:53:21Z",
 		"extra": "ISBN: 978-1-0699904-0-2\nPages: 64\ntitleTranslation: The Algorithmic Leviathan: Power, Opacity, and Responsibility in the Age of Artificial Intelligence\nOpenAlex: W7108209568",
 		"itemType": "document",
 		"key": "4RMR2RD3",
@@ -124,6 +124,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
