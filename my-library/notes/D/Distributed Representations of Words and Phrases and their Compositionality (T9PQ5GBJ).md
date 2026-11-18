@@ -15,6 +15,7 @@ tags:
   - "Computer Science - Computation and Language"
   - "Computer Science - Machine Learning"
   - "Statistics - Machine Learning"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/trec_rapport1_030326/PDFs"
@@ -22,7 +23,7 @@ zotero-key: "T9PQ5GBJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/T9PQ5GBJ"
 date-added: "2026-03-14 17:36:30"
-date-modified: "2026-03-14 18:19:35"
+date-modified: "2026-11-18 01:41:10"
 ---
 
 # Distributed Representations of Words and Phrases and their Compositionality

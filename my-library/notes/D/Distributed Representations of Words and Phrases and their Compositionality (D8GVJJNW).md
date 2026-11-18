@@ -5,14 +5,14 @@ authors:
   - "Tomas Mikolov and Ilya Sutskever and Kai Chen and Greg Corrado and Jeffrey Dean"
 date: "2015"
 year: "2015"
-doi: "10.3115/v1/w15-1502"
+doi: "10.3115/v1/W15-1502"
 tags:
   - "notion"
 zotero-key: "D8GVJJNW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/D8GVJJNW"
 date-added: "2026-03-03 23:33:03"
-date-modified: "2026-03-25 21:29:14"
+date-modified: "2026-11-18 01:41:10"
 ---
 
 # Distributed Representations of Words and Phrases and their Compositionality
@@ -22,6 +22,7 @@ date-modified: "2026-03-25 21:29:14"
 ## Extra
 
 Importé via SysCRED.
+DOI Fix previous DOI: 10.3115/v1/w15-1502
 
 ## Attachments
 

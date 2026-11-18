@@ -10,6 +10,7 @@ tags:
   - "Government (linguistics)"
   - "Qualitative analysis"
   - "Qualitative research"
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -18,7 +19,7 @@ zotero-key: "FBVZAK8U"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FBVZAK8U"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-17 17:52:10"
+date-modified: "2026-11-18 01:41:13"
 ---
 
 # DominiqueLoyer/2016_US_Election: 1STREALEASE

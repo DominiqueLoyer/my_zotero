@@ -60,7 +60,7 @@
 		],
 		"date": "2025-01-01",
 		"dateAdded": "2026-04-17T20:25:49Z",
-		"dateModified": "2026-11-17T17:52:10Z",
+		"dateModified": "2026-11-18T01:41:13Z",
 		"extra": "OpenAlex: W7115580461",
 		"itemType": "journalArticle",
 		"key": "FBVZAK8U",
@@ -75,6 +75,10 @@
 			},
 			{
 				"tag": "Qualitative research"
+			},
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
 			},
 			{
 				"tag": "notion"

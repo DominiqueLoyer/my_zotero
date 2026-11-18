@@ -1,6 +1,7 @@
 ---
 title: "domingos"
 item-type: "document"
+doi: "10.1093/acref/9780195301731.013.50670"
 language: "fr-CA"
 tags:
   - "notion"
@@ -10,7 +11,7 @@ zotero-key: "RCENZKSI"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/RCENZKSI"
 date-added: "2026-01-08 22:57:50"
-date-modified: "2026-02-05 00:08:04"
+date-modified: "2026-11-18 01:41:12"
 ---
 
 # domingos

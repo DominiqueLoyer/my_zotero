@@ -5,6 +5,7 @@ authors:
   - "Lounis, H"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -14,7 +15,7 @@ zotero-key: "V37ICDU4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/V37ICDU4"
 date-added: "2025-03-10 20:02:53"
-date-modified: "2025-12-29 23:57:35"
+date-modified: "2026-11-18 01:41:11"
 ---
 
 # - Distribution de l’expertise sur un ensemble d’agents opérant collectivement et de façon décentralisée pour atteindre un objectif global ;
