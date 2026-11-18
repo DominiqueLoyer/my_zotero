@@ -97,7 +97,7 @@
 		],
 		"date": "2013-06-13",
 		"dateAdded": "2024-12-09T20:36:56Z",
-		"dateModified": "2025-12-05T22:35:04Z",
+		"dateModified": "2026-11-18T01:46:05Z",
 		"extra": "DOI: 10.1093/acprof:oso/9780199794546.001.0001\nDOI: 10.1093/acprof:oso/9780199794546.001.0001",
 		"itemType": "book",
 		"key": "UX9EYHGV",
@@ -107,6 +107,10 @@
 		"relations": {},
 		"shortTitle": "How to Build a Brain",
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

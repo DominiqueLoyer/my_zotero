@@ -15,7 +15,7 @@ zotero-key: "34M3B55J"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/34M3B55J"
 date-added: "2026-02-25 21:38:01"
-date-modified: "2026-11-17 17:56:15"
+date-modified: "2026-11-18 01:46:01"
 ---
 
 # How a Dutch tax scandal showed the world the dangers of AI

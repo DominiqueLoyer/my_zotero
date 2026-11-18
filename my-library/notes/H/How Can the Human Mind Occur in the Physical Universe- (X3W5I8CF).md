@@ -6,6 +6,7 @@ authors:
 date: "2009"
 year: "2009"
 publisher: "Oxford University Press, Incorporated"
+doi: "10.1093/acprof:oso/9780195324259.001.0001"
 isbn: "978-0-19-532425-9 978-0-19-974126-7"
 language: "en"
 tags:
@@ -16,7 +17,7 @@ zotero-key: "X3W5I8CF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/X3W5I8CF"
 date-added: "2024-12-08 17:49:49"
-date-modified: "2025-12-05 22:37:18"
+date-modified: "2026-11-18 01:46:05"
 ---
 
 # How Can the Human Mind Occur in the Physical Universe?

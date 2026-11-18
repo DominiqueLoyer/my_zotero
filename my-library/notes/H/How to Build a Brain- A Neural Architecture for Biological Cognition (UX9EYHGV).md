@@ -10,6 +10,7 @@ isbn: "978-0-19-979454-6"
 url: "https://academic.oup.com/book/6263"
 language: "en"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours A24/Dic9150/Architectures cognitive 9150"
@@ -17,7 +18,7 @@ zotero-key: "UX9EYHGV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UX9EYHGV"
 date-added: "2024-12-09 20:36:56"
-date-modified: "2025-12-05 22:35:04"
+date-modified: "2026-11-18 01:46:05"
 ---
 
 # How to Build a Brain: A Neural Architecture for Biological Cognition

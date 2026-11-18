@@ -21,7 +21,7 @@ zotero-key: "UQ8D8BVW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/UQ8D8BVW"
 date-added: "2026-01-08 20:14:04"
-date-modified: "2026-11-17 17:56:14"
+date-modified: "2026-11-18 01:45:56"
 ---
 
 # Hiding in the crowd: an analysis of the effectiveness of browser fingerprinting at large scale
