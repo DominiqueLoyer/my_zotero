@@ -50,7 +50,7 @@
 		"zoteroURI": "zotero://select/library/items/C5TUNK4X"
 	},
 	"zotero": {
-		"citationKey": "hutaEudaimoniaHedoniaPsychological2013",
+		"citationKey": "hutaEudaimoniaHedoniaPsychological2013a",
 		"collections": [
 			"F9TGXIMY"
 		],
@@ -63,7 +63,7 @@
 		],
 		"date": "2013",
 		"dateAdded": "2026-01-08T20:07:32Z",
-		"dateModified": "2026-03-25T21:30:39Z",
+		"dateModified": "2026-11-18T01:42:32Z",
 		"itemType": "journalArticle",
 		"key": "C5TUNK4X",
 		"language": "fr-CA",
@@ -75,6 +75,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

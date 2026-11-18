@@ -58,12 +58,16 @@
 		],
 		"date": "2024",
 		"dateAdded": "2026-01-08T20:10:57Z",
-		"dateModified": "2026-03-25T21:30:11Z",
+		"dateModified": "2026-11-18T01:42:31Z",
 		"itemType": "document",
 		"key": "Y4AZFCA9",
 		"language": "fr-CA",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
