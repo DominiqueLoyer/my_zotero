@@ -15,7 +15,7 @@ zotero-key: "JNCR7W2E"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JNCR7W2E"
 date-added: "2026-02-25 21:52:07"
-date-modified: "2026-11-17 17:53:54"
+date-modified: "2026-11-18 01:42:44"
 ---
 
 # Evaluating robustness of neural networks with mixed integer programming

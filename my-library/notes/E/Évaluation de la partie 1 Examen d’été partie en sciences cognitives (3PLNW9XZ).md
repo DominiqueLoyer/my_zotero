@@ -5,6 +5,7 @@ authors:
   - "Loyer, Dominique S"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)"
@@ -12,7 +13,7 @@ zotero-key: "3PLNW9XZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3PLNW9XZ"
 date-added: "2025-05-06 20:13:59"
-date-modified: "2026-11-08 16:13:11"
+date-modified: "2026-11-18 01:42:44"
 ---
 
 # Évaluation de la partie 1 Examen d’été partie en sciences cognitives

@@ -7,6 +7,7 @@ date: "2025"
 year: "2025"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -15,7 +16,7 @@ zotero-key: "C9MN9KLK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/C9MN9KLK"
 date-added: "2026-01-08 20:14:58"
-date-modified: "2026-02-05 00:09:18"
+date-modified: "2026-11-18 01:42:51"
 ---
 
 # Évaluation de modèles de pondération pour la recherche d’information sur TREC AP 88-90

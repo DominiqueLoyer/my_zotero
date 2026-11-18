@@ -10,6 +10,7 @@ year: "2019"
 publication: "International Conference on Learning Representations"
 url: "https://openreview.net/forum?id=Hy-2x3x0F"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -20,7 +21,7 @@ zotero-key: "G42S58JR"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/G42S58JR"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-09 15:03:13"
+date-modified: "2026-11-18 01:42:44"
 ---
 
 # Evaluating robustness of neural networks with mixed integer programming

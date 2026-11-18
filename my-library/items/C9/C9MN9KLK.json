@@ -46,7 +46,7 @@
 		"zoteroURI": "zotero://select/library/items/C9MN9KLK"
 	},
 	"zotero": {
-		"citationKey": "loyerEvaluationModelesPonderation2025a",
+		"citationKey": "loyerEvaluationModelesPonderation2025k",
 		"collections": [
 			"UIV5JLK2"
 		],
@@ -59,12 +59,16 @@
 		],
 		"date": "2025",
 		"dateAdded": "2026-01-08T20:14:58Z",
-		"dateModified": "2026-02-05T00:09:18Z",
+		"dateModified": "2026-11-18T01:42:51Z",
 		"itemType": "journalArticle",
 		"key": "C9MN9KLK",
 		"language": "fr-CA",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},

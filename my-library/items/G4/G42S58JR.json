@@ -82,7 +82,7 @@
 		],
 		"date": "2019",
 		"dateAdded": "2025-10-10T19:01:28Z",
-		"dateModified": "2026-11-09T15:03:13Z",
+		"dateModified": "2026-11-18T01:42:44Z",
 		"itemType": "conferencePaper",
 		"key": "G42S58JR",
 		"proceedingsTitle": "International Conference on Learning Representations",
@@ -96,6 +96,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			},
