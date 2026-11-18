@@ -19,7 +19,7 @@ zotero-key: "QBFYZUN6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QBFYZUN6"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-11-13 19:33:24"
+date-modified: "2026-11-18 01:35:55"
 ---
 
 # Bullshit jobs: David graeber, paris, les liens qui libèrent, 2018, 416 p.

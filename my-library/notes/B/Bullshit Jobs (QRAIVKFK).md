@@ -15,7 +15,7 @@ zotero-key: "QRAIVKFK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/QRAIVKFK"
 date-added: "2026-02-25 20:55:51"
-date-modified: "2026-11-17 17:50:44"
+date-modified: "2026-11-18 01:35:55"
 ---
 
 # Bullshit Jobs

@@ -15,7 +15,7 @@ zotero-key: "9KJ4UQE9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9KJ4UQE9"
 date-added: "2026-01-08 20:07:31"
-date-modified: "2026-11-17 17:50:44"
+date-modified: "2026-11-18 01:35:55"
 ---
 
 # Bullshit jobs

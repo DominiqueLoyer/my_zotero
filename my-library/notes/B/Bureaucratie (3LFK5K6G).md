@@ -23,7 +23,7 @@ zotero-key: "3LFK5K6G"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3LFK5K6G"
 date-added: "2025-05-06 20:15:10"
-date-modified: "2026-11-13 19:33:24"
+date-modified: "2026-11-18 01:35:58"
 ---
 
 # Bureaucratie

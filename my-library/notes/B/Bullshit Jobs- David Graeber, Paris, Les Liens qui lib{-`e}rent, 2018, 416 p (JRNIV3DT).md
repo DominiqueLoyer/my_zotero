@@ -14,7 +14,7 @@ zotero-key: "JRNIV3DT"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/JRNIV3DT"
 date-added: "2026-03-08 21:22:48"
-date-modified: "2026-11-13 19:33:24"
+date-modified: "2026-11-18 01:35:55"
 ---
 
 # Bullshit Jobs: David Graeber, Paris, Les Liens qui lib{\`e}rent, 2018, 416 p.
