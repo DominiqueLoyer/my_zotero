@@ -7,6 +7,7 @@ date: "2021"
 year: "2021"
 url: "https://pub.towardsai.net/natural-language-processing-nlp-with-python-tutorial-for-beginners-1f54e610a1a0"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours H25/Traitement naturel des langues/références pour projet 1 10avril présentation taln"
@@ -14,7 +15,7 @@ zotero-key: "P9HM7A6S"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/P9HM7A6S"
 date-added: "2025-04-10 15:02:46"
-date-modified: "2025-04-10 15:02:46"
+date-modified: "2026-11-18 01:55:31"
 ---
 
 # Natural language processing (NLP) with python – tutorial for beginners

@@ -14,6 +14,7 @@ tags:
   - "Computer Science - Machine Learning"
   - "Computer Science - Neural and Evolutionary Computing"
   - "Statistics - Machine Learning"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/NMT_en-ru_040326/PDFs"
@@ -21,7 +22,7 @@ zotero-key: "VRW5YPMB"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/VRW5YPMB"
 date-added: "2026-03-14 17:35:52"
-date-modified: "2026-03-14 18:20:00"
+date-modified: "2026-11-18 01:55:35"
 ---
 
 # Neural Machine Translation by Jointly Learning to Align and Translate

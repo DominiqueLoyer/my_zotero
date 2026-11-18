@@ -12,6 +12,7 @@ year: "2019"
 publication: "Proceedings of the 42nd international ACM SIGIR conference on research and development in information retrieval"
 pages: "165–174"
 tags:
+  - "doi-fix:multiple-candidates"
   - "notion"
 collections:
   - "references"
@@ -19,7 +20,7 @@ zotero-key: "L7FNDS2V"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/L7FNDS2V"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-11-17 18:00:10"
+date-modified: "2026-11-18 01:55:32"
 ---
 
 # Neural graph collaborative filtering

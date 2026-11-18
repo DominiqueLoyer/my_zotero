@@ -14,7 +14,7 @@ zotero-key: "ZBV66HH7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/ZBV66HH7"
 date-added: "2026-03-05 00:54:32"
-date-modified: "2026-03-25 21:29:01"
+date-modified: "2026-11-18 01:55:36"
 ---
 
 # Neural Machine Translation by Jointly Learning to Align and Translate

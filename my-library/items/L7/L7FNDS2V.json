@@ -116,7 +116,7 @@
 		],
 		"date": "2019",
 		"dateAdded": "2026-01-08T20:10:55Z",
-		"dateModified": "2026-11-17T18:00:10Z",
+		"dateModified": "2026-11-18T01:55:32Z",
 		"extra": "OpenAlex: W2945827670",
 		"itemType": "conferencePaper",
 		"key": "L7FNDS2V",
@@ -124,6 +124,10 @@
 		"proceedingsTitle": "Proceedings of the 42nd international ACM SIGIR conference on research and development in information retrieval",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:multiple-candidates",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

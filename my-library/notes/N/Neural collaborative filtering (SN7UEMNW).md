@@ -12,6 +12,7 @@ date: "2017"
 year: "2017"
 publication: "Proceedings of the 26th international conference on world wide web"
 pages: "173–182"
+doi: "10.1145/3038912.3052569"
 language: "fr-CA"
 tags:
   - "notion"
@@ -21,7 +22,7 @@ zotero-key: "SN7UEMNW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SN7UEMNW"
 date-added: "2026-01-08 20:10:55"
-date-modified: "2026-11-17 18:00:09"
+date-modified: "2026-11-18 01:55:31"
 ---
 
 # Neural collaborative filtering

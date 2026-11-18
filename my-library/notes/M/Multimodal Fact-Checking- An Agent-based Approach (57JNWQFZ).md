@@ -13,6 +13,7 @@ url: "http://arxiv.org/abs/2512.22933"
 tags:
   - "Computer Science - Artificial Intelligence"
   - "Computer Science - Computation and Language"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_ALL_CIT_140326/gs_080326/PDFs"
@@ -20,7 +21,7 @@ zotero-key: "57JNWQFZ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/57JNWQFZ"
 date-added: "2026-03-14 17:41:01"
-date-modified: "2026-03-14 18:16:59"
+date-modified: "2026-11-18 01:55:24"
 ---
 
 # Multimodal Fact-Checking: An Agent-based Approach

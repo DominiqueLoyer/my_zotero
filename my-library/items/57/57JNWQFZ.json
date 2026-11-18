@@ -107,7 +107,7 @@
 		"abstractNote": "The rapid spread of multimodal misinformation poses a growing challenge for automated fact-checking systems. Existing approaches, including large vision language models (LVLMs) and deep multimodal fusion methods, often fall short due to limited reasoning and shallow evidence utilization. A key bottleneck is the lack of dedicated datasets that provide complete real-world multimodal misinformation instances accompanied by annotated reasoning processes and verifiable evidence. To address this limitation, we introduce RW-Post, a high-quality and explainable dataset for real-world multimodal fact-checking. RW-Post aligns real-world multimodal claims with their original social media posts, preserving the rich contextual information in which the claims are made. In addition, the dataset includes detailed reasoning and explicitly linked evidence, which are derived from human written fact-checking articles via a large language model assisted extraction pipeline, enabling comprehensive verification and explanation. Building upon RW-Post, we propose AgentFact, an agent-based multimodal fact-checking framework designed to emulate the human verification workflow. AgentFact consists of five specialized agents that collaboratively handle key fact-checking subtasks, including strategy planning, high-quality evidence retrieval, visual analysis, reasoning, and explanation generation. These agents are orchestrated through an iterative workflow that alternates between evidence searching and task-aware evidence filtering and reasoning, facilitating strategic decision-making and systematic evidence analysis. Extensive experimental results demonstrate that the synergy between RW-Post and AgentFact substantially improves both the accuracy and interpretability of multimodal fact-checking.",
 		"accessDate": "2026-03-14T17:41:01Z",
 		"archiveID": "arXiv:2512.22933",
-		"citationKey": "xuMultimodalFactCheckingAgentbased2026",
+		"citationKey": "xuMultimodalFactCheckingAgentbased2026a",
 		"collections": [
 			"Y8TQQBY3"
 		],
@@ -135,7 +135,7 @@
 		],
 		"date": "2026-01-04",
 		"dateAdded": "2026-03-14T17:41:01Z",
-		"dateModified": "2026-03-14T18:16:59Z",
+		"dateModified": "2026-11-18T01:55:24Z",
 		"extra": "arXiv:2512.22933 [cs]",
 		"itemType": "preprint",
 		"key": "57JNWQFZ",
@@ -154,6 +154,10 @@
 			},
 			{
 				"tag": "Computer Science - Computation and Language",
+				"type": 1
+			},
+			{
+				"tag": "doi-fix:low-confidence",
 				"type": 1
 			},
 			{
