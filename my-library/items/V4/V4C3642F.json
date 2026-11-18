@@ -100,7 +100,7 @@
 		],
 		"date": "2024",
 		"dateAdded": "2024-11-15T17:50:30Z",
-		"dateModified": "2025-12-05T22:27:19Z",
+		"dateModified": "2026-11-18T01:51:21Z",
 		"itemType": "presentation",
 		"key": "V4C3642F",
 		"language": "fr",
@@ -108,6 +108,10 @@
 		"presentationType": "Diapositives",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

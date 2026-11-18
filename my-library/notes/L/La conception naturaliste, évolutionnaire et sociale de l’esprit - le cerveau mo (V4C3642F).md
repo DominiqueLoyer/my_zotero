@@ -7,6 +7,7 @@ date: "2024"
 year: "2024"
 language: "fr"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours A24/DIC9001/Papier sur Searle (Naturalisme et étique)"
@@ -14,7 +15,7 @@ zotero-key: "V4C3642F"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/V4C3642F"
 date-added: "2024-11-15 17:50:30"
-date-modified: "2025-12-05 22:27:19"
+date-modified: "2026-11-18 01:51:21"
 ---
 
 # La conception naturaliste, évolutionnaire et sociale de l’esprit : le cerveau moral

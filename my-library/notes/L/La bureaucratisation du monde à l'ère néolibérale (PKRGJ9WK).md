@@ -7,6 +7,7 @@ date: "2012"
 year: "2012"
 publisher: "La Découverte"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -15,7 +16,7 @@ zotero-key: "PKRGJ9WK"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/PKRGJ9WK"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-17 17:57:01"
+date-modified: "2026-11-18 01:51:17"
 ---
 
 # La bureaucratisation du monde à l'ère néolibérale

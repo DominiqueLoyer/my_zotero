@@ -68,7 +68,7 @@
 		],
 		"date": "2012",
 		"dateAdded": "2025-10-10T19:01:26Z",
-		"dateModified": "2026-11-17T17:57:01Z",
+		"dateModified": "2026-11-18T01:51:17Z",
 		"extra": "OpenAlex: W2619682057",
 		"itemType": "book",
 		"key": "PKRGJ9WK",
@@ -83,6 +83,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
