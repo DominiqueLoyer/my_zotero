@@ -21,7 +21,7 @@ zotero-key: "Z4EMCRL7"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Z4EMCRL7"
 date-added: "2025-10-10 19:01:27"
-date-modified: "2026-11-13 19:29:21"
+date-modified: "2026-11-18 01:32:37"
 ---
 
 # A political economy of the music industry

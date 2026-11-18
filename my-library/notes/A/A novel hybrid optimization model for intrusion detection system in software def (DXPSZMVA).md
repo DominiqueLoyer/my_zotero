@@ -14,7 +14,7 @@ zotero-key: "DXPSZMVA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DXPSZMVA"
 date-added: "2026-02-25 21:46:26"
-date-modified: "2026-11-17 17:48:48"
+date-modified: "2026-11-18 01:32:37"
 ---
 
 # A novel hybrid optimization model for intrusion detection system in software defined networks

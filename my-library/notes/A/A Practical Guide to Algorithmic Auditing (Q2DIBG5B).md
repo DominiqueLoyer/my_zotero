@@ -17,7 +17,7 @@ zotero-key: "Q2DIBG5B"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Q2DIBG5B"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-13 19:29:24"
+date-modified: "2026-11-18 01:32:40"
 ---
 
 # A Practical Guide to Algorithmic Auditing

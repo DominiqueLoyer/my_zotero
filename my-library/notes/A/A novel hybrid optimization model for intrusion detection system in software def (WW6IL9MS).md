@@ -22,7 +22,7 @@ zotero-key: "WW6IL9MS"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/WW6IL9MS"
 date-added: "2025-10-10 19:01:28"
-date-modified: "2026-11-13 19:29:17"
+date-modified: "2026-11-18 01:32:37"
 ---
 
 # A novel hybrid optimization model for intrusion detection system in software defined networks
