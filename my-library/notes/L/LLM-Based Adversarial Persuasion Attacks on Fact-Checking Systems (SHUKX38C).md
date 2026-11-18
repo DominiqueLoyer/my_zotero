@@ -5,6 +5,7 @@ authors:
   - "Leite, Jo{\\~a}o A and Razuvayevskaya, Olesya and Bontcheva, Kalina and Scarton, Carolina"
 date: "2026"
 year: "2026"
+doi: "10.18653/2026.emnlp-main.86"
 tags:
   - "notion"
 collections:
@@ -13,7 +14,7 @@ zotero-key: "SHUKX38C"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/SHUKX38C"
 date-added: "2026-03-08 21:24:04"
-date-modified: "2026-11-17 17:58:42"
+date-modified: "2026-11-18 01:53:57"
 ---
 
 # LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems

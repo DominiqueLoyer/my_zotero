@@ -12,6 +12,7 @@ tags:
   - "Linguistique"
   - "Pylyshyn"
   - "Smith Elisabeth"
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Cours A24/DIC9001/Fodor"
@@ -19,7 +20,7 @@ zotero-key: "3L95KT9X"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3L95KT9X"
 date-added: "2024-12-01 03:28:07"
-date-modified: "2025-12-05 22:25:49"
+date-modified: "2026-11-18 01:53:49"
 ---
 
 # LES ORIGINES DE LA CONTRIBUTION DE LA LINGUISTIQUE AUX SCIENCES COGNITIVES

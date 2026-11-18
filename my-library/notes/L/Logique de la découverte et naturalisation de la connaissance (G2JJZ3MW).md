@@ -8,6 +8,7 @@ year: "2009"
 publication: "Philosophie de la connaissance"
 publisher: "Nadeau, R"
 pages: "407-435"
+doi: "10.1515/9782760636613-016"
 tags:
   - "Lakatos"
   - "Serge Robert"
@@ -21,7 +22,7 @@ zotero-key: "G2JJZ3MW"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/G2JJZ3MW"
 date-added: "2024-10-28 14:39:53"
-date-modified: "2025-12-05 22:27:13"
+date-modified: "2026-11-18 01:54:04"
 ---
 
 # Logique de la découverte et naturalisation de la connaissance

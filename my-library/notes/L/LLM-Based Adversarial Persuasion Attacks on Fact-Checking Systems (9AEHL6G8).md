@@ -8,7 +8,7 @@ authors:
   - "Scarton, Carolina"
 date: "2026-01-23"
 year: "2026"
-doi: "10.48550/arXiv.2601.16890"
+doi: "10.18653/2026.emnlp-main.86"
 url: "http://arxiv.org/abs/2601.16890"
 language: "en"
 tags:
@@ -22,7 +22,7 @@ zotero-key: "9AEHL6G8"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/9AEHL6G8"
 date-added: "2026-03-14 17:40:43"
-date-modified: "2026-03-14 18:17:14"
+date-modified: "2026-11-18 01:53:56"
 ---
 
 # LLM-Based Adversarial Persuasion Attacks on Fact-Checking Systems
@@ -36,6 +36,7 @@ Automated fact-checking (AFC) systems are susceptible to adversarial attacks, en
 ## Extra
 
 arXiv:2601.16890 [cs]
+DOI Fix previous DOI: 10.48550/arXiv.2601.16890
 
 ## Attachments
 

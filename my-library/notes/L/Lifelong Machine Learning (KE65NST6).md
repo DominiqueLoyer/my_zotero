@@ -6,6 +6,7 @@ authors:
   - "Liu, Bing"
 language: "en"
 tags:
+  - "doi-fix:multiple-candidates"
   - "notion"
   - "❓ Multiple DOI"
 collections:
@@ -14,7 +15,7 @@ zotero-key: "KE65NST6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KE65NST6"
 date-added: "2025-02-28 17:57:25"
-date-modified: "2025-12-06 00:17:57"
+date-modified: "2026-11-18 01:53:49"
 ---
 
 # Lifelong Machine Learning

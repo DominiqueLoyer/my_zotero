@@ -13,6 +13,7 @@ publisher: "MDPI"
 volume: "11"
 issue: "3"
 pages: "167"
+doi: "10.3390/info11030167"
 tags:
   - "notion"
   - "⛔ No DOI found"
@@ -22,7 +23,7 @@ zotero-key: "KI7TIHQJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/KI7TIHQJ"
 date-added: "2025-12-30 21:49:11"
-date-modified: "2026-11-17 17:58:44"
+date-modified: "2026-11-18 01:53:59"
 ---
 
 # Logic-based technologies for intelligent systems: State of the art and perspectives

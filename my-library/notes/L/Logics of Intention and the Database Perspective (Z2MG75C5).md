@@ -14,7 +14,7 @@ zotero-key: "Z2MG75C5"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Z2MG75C5"
 date-added: "2026-03-05 00:43:03"
-date-modified: "2026-11-17 17:58:46"
+date-modified: "2026-11-18 01:54:00"
 ---
 
 # Logics of Intention and the Database Perspective

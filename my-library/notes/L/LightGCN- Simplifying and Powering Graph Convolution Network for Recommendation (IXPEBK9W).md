@@ -14,7 +14,7 @@ zotero-key: "IXPEBK9W"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IXPEBK9W"
 date-added: "2026-02-25 21:37:55"
-date-modified: "2026-11-17 17:57:51"
+date-modified: "2026-11-18 01:53:49"
 ---
 
 # LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation

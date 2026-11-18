@@ -6,6 +6,7 @@ authors:
 date: "2010"
 year: "2010"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "_9335_all"
@@ -13,7 +14,7 @@ zotero-key: "EG5W5HTM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EG5W5HTM"
 date-added: "2026-03-04 19:43:56"
-date-modified: "2026-11-17 17:58:01"
+date-modified: "2026-11-18 01:53:52"
 ---
 
 # Linked Data Is Merely More Data

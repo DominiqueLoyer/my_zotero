@@ -23,7 +23,7 @@ zotero-key: "XIR5ZRYA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/XIR5ZRYA"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-09 14:59:57"
+date-modified: "2026-11-18 01:53:49"
 ---
 
 # LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation

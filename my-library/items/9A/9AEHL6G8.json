@@ -84,11 +84,11 @@
 		"zoteroURI": "zotero://select/library/items/9AEHL6G8"
 	},
 	"zotero": {
-		"DOI": "10.48550/arXiv.2601.16890",
+		"DOI": "10.18653/2026.emnlp-main.86",
 		"abstractNote": "Automated fact-checking (AFC) systems are susceptible to adversarial attacks, enabling false claims to evade detection. Existing adversarial frameworks typically rely on injecting noise or altering semantics, yet no existing framework exploits the adversarial potential of persuasion techniques, which are widely used in disinformation campaigns to manipulate audiences. In this paper, we introduce a novel class of persuasive adversarial attacks on AFCs by employing a generative LLM to rephrase claims using persuasion techniques. Considering 15 techniques grouped into 6 categories, we study the effects of persuasion on both claim verification and evidence retrieval using a decoupled evaluation strategy. Experiments on the FEVER and FEVEROUS benchmarks show that persuasion attacks can substantially degrade both verification performance and evidence retrieval. Our analysis identifies persuasion techniques as a potent class of adversarial attacks, highlighting the need for more robust AFC systems.",
 		"accessDate": "2026-03-14T17:40:43Z",
 		"archiveID": "arXiv:2601.16890",
-		"citationKey": "leiteLLMBasedAdversarialPersuasion2026",
+		"citationKey": "leiteLLMBasedAdversarialPersuasion2026a",
 		"collections": [
 			"Y8TQQBY3"
 		],
@@ -116,8 +116,8 @@
 		],
 		"date": "2026-01-23",
 		"dateAdded": "2026-03-14T17:40:43Z",
-		"dateModified": "2026-03-14T18:17:14Z",
-		"extra": "arXiv:2601.16890 [cs]",
+		"dateModified": "2026-11-18T01:53:56Z",
+		"extra": "arXiv:2601.16890 [cs]\nDOI Fix previous DOI: 10.48550/arXiv.2601.16890",
 		"itemType": "preprint",
 		"key": "9AEHL6G8",
 		"language": "en",

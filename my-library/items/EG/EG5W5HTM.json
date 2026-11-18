@@ -62,7 +62,7 @@
 		],
 		"date": "2010",
 		"dateAdded": "2026-03-04T19:43:56Z",
-		"dateModified": "2026-11-17T17:58:01Z",
+		"dateModified": "2026-11-18T01:53:52Z",
 		"extra": "Importé via SysCRED.\nOpenAlex: W2546750069",
 		"itemType": "journalArticle",
 		"key": "EG5W5HTM",
@@ -72,6 +72,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
