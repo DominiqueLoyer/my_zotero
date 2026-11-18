@@ -8,6 +8,7 @@ year: "2024"
 url: "https://symbio6.nl/en/blog/criticism-of-eu-ai-act"
 language: "fr-CA"
 tags:
+  - "doi-fix:no-doi-found"
   - "notion"
 collections:
   - "references"
@@ -15,7 +16,7 @@ zotero-key: "87NDW34I"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/87NDW34I"
 date-added: "2026-01-08 20:10:57"
-date-modified: "2026-03-25 21:30:09"
+date-modified: "2026-11-18 01:42:23"
 ---
 
 # EU AI act criticism: Key risks, challenges & industry concern

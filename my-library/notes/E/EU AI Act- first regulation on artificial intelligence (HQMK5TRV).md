@@ -8,6 +8,7 @@ year: "2024"
 url: "https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "references_dic9401"
@@ -15,7 +16,7 @@ zotero-key: "HQMK5TRV"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/HQMK5TRV"
 date-added: "2026-01-08 20:07:31"
-date-modified: "2026-03-25 21:30:42"
+date-modified: "2026-11-18 01:42:28"
 ---
 
 # EU AI Act: first regulation on artificial intelligence

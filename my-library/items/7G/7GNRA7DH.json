@@ -58,11 +58,15 @@
 		],
 		"date": "2024",
 		"dateAdded": "2025-10-10T19:01:28Z",
-		"dateModified": "2026-03-25T21:30:58Z",
+		"dateModified": "2026-11-18T01:42:14Z",
 		"itemType": "document",
 		"key": "7GNRA7DH",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

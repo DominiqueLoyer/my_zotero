@@ -5,7 +5,7 @@ authors:
   - "Symbio6"
 date: "2024"
 year: "2024"
-doi: "10.1108/oxan-db287242"
+doi: "10.1108/OXAN-DB287242"
 tags:
   - "notion"
 collections:
@@ -14,7 +14,7 @@ zotero-key: "DWAGWHNF"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/DWAGWHNF"
 date-added: "2026-02-25 21:51:16"
-date-modified: "2026-11-17 17:52:31"
+date-modified: "2026-11-18 01:42:12"
 ---
 
 # EU AI Act Criticism: Key Risks, Challenges \& Industry Concern
@@ -25,6 +25,7 @@ date-modified: "2026-11-17 17:52:31"
 
 Importé via SysCRED.
 OpenAlex: W4398777439
+DOI Fix previous DOI: 10.1108/oxan-db287242
 
 ## Attachments
 

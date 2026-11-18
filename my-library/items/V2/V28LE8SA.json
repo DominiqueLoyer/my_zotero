@@ -50,7 +50,7 @@
 		"zoteroURI": "zotero://select/library/items/V28LE8SA"
 	},
 	"zotero": {
-		"citationKey": "symbio6EUAIAct2024b",
+		"citationKey": "symbio6EUAIAct2024d",
 		"collections": [
 			"F9TGXIMY"
 		],
@@ -62,7 +62,7 @@
 		],
 		"date": "2024",
 		"dateAdded": "2026-01-08T20:07:33Z",
-		"dateModified": "2026-03-25T21:30:30Z",
+		"dateModified": "2026-11-18T01:42:17Z",
 		"itemType": "document",
 		"key": "V28LE8SA",
 		"language": "fr-CA",
@@ -72,6 +72,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

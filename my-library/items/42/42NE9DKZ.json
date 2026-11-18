@@ -79,13 +79,13 @@
 		"zoteroURI": "zotero://select/library/items/42NE9DKZ"
 	},
 	"zotero": {
-		"citationKey": "Ete25SCTrashed20250528",
+		"citationKey": "Ete25SCTrashed20250528a",
 		"collections": [
 			"6IRQRQI8"
 		],
 		"creators": [],
 		"dateAdded": "2026-01-08T22:57:48Z",
-		"dateModified": "2026-02-05T00:08:18Z",
+		"dateModified": "2026-11-18T01:42:12Z",
 		"itemType": "document",
 		"key": "42NE9DKZ",
 		"language": "fr-CA",
@@ -95,6 +95,10 @@
 			]
 		},
 		"tags": [
+			{
+				"tag": "doi-fix:low-confidence",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}

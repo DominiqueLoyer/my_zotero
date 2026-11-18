@@ -58,12 +58,16 @@
 		],
 		"date": "2024",
 		"dateAdded": "2026-01-08T20:10:57Z",
-		"dateModified": "2026-03-25T21:30:09Z",
+		"dateModified": "2026-11-18T01:42:23Z",
 		"itemType": "document",
 		"key": "87NDW34I",
 		"language": "fr-CA",
 		"relations": {},
 		"tags": [
+			{
+				"tag": "doi-fix:no-doi-found",
+				"type": 1
+			},
 			{
 				"tag": "notion"
 			}
