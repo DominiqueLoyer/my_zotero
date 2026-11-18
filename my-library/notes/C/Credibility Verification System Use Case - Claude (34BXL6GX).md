@@ -12,7 +12,7 @@ zotero-key: "34BXL6GX"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/34BXL6GX"
 date-added: "2026-01-11 16:55:19"
-date-modified: "2026-11-13 19:35:13"
+date-modified: "2026-11-18 01:38:13"
 ---
 
 # Credibility Verification System Use Case | Claude

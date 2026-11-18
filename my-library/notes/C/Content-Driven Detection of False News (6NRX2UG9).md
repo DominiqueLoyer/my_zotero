@@ -12,7 +12,7 @@ zotero-key: "6NRX2UG9"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/6NRX2UG9"
 date-added: "2026-03-03 23:18:17"
-date-modified: "2026-11-13 19:34:56"
+date-modified: "2026-11-18 01:38:02"
 ---
 
 # Content-Driven Detection of False News

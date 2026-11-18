@@ -14,7 +14,7 @@ zotero-key: "BE8BFRJG"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/BE8BFRJG"
 date-added: "2026-02-26 20:21:46"
-date-modified: "2026-11-13 19:35:03"
+date-modified: "2026-11-18 01:38:05"
 ---
 
 # Content-Driven Detection of False News

@@ -13,7 +13,7 @@ zotero-key: "72BE7J25"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/72BE7J25"
 date-added: "2026-03-03 23:19:45"
-date-modified: "2026-11-13 19:35:12"
+date-modified: "2026-11-18 01:38:13"
 ---
 
 # Credibility Signals (Draft Community Group Report)

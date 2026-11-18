@@ -13,7 +13,7 @@ zotero-key: "7YCR32B6"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/7YCR32B6"
 date-added: "2025-03-31 18:36:11"
-date-modified: "2026-11-13 19:35:10"
+date-modified: "2026-11-18 01:38:09"
 ---
 
 # cours_dyn_state

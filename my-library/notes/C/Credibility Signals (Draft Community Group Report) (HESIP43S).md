@@ -15,7 +15,7 @@ zotero-key: "HESIP43S"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/HESIP43S"
 date-added: "2026-02-26 20:19:41"
-date-modified: "2026-11-13 19:35:11"
+date-modified: "2026-11-18 01:38:10"
 ---
 
 # Credibility Signals (Draft Community Group Report)

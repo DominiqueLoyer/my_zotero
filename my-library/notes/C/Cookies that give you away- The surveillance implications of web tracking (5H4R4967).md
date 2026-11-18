@@ -25,7 +25,7 @@ zotero-key: "5H4R4967"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/5H4R4967"
 date-added: "2026-01-08 20:14:06"
-date-modified: "2026-11-17 17:51:00"
+date-modified: "2026-11-18 01:38:09"
 ---
 
 # Cookies that give you away: The surveillance implications of web tracking
