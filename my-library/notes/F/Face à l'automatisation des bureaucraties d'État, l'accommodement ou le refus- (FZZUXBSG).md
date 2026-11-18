@@ -9,6 +9,7 @@ publication: "L'État digital: numérisation de l'administration publique et adm
 publisher: "Berger-Levrault"
 pages: "337–356"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -17,7 +18,7 @@ zotero-key: "FZZUXBSG"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/FZZUXBSG"
 date-added: "2025-12-30 21:49:10"
-date-modified: "2026-03-25 21:30:50"
+date-modified: "2026-11-18 01:44:54"
 ---
 
 # Face à l'automatisation des bureaucraties d'État, l'accommodement ou le refus?

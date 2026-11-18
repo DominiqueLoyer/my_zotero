@@ -12,6 +12,7 @@ year: "2012"
 url: "https://www.semanticscholar.org/paper/4eb24b73879b2a65ea967ff8f15ef0887cf0f9e9"
 language: "fr-CA"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "ConnectedPapers-for-The-Web-Never-Forgets_3A-Pe"
@@ -19,7 +20,7 @@ zotero-key: "GWBYRL49"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/GWBYRL49"
 date-added: "2026-01-08 20:14:06"
-date-modified: "2026-03-25 21:30:01"
+date-modified: "2026-11-18 01:44:58"
 ---
 
 # Fast and efficient browser identification with JavaScript engine fingerprinting technical report TR-SBA-research-0512-01

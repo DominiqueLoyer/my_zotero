@@ -14,6 +14,7 @@ issue: "1"
 pages: "1–43"
 doi: "10.1145/3487665"
 tags:
+  - "doi-fix:low-confidence"
   - "notion"
 collections:
   - "Examen doctoral 9401(été25)/9401_101025"
@@ -22,7 +23,7 @@ zotero-key: "3M2XTRGJ"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/3M2XTRGJ"
 date-added: "2025-10-10 19:01:26"
-date-modified: "2026-11-09 15:01:44"
+date-modified: "2026-11-18 01:44:57"
 ---
 
 # Fairness and Discrimination in Recommender Systems: A Survey and Future Directions
