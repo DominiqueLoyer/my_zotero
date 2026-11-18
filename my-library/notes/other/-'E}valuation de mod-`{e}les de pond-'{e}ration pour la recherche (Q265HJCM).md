@@ -15,7 +15,7 @@ zotero-key: "Q265HJCM"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/Q265HJCM"
 date-added: "2026-03-04 20:28:05"
-date-modified: "2026-11-17 17:52:24"
+date-modified: "2026-11-18 01:41:48"
 ---
 
 # \'E}valuation de mod\`{e}les de pond\'{e}ration pour la recherche

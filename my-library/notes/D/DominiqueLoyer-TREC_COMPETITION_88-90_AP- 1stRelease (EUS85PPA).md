@@ -13,6 +13,7 @@ tags:
   - "Information system"
   - "Information technology"
   - "Quality (philosophy)"
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -21,7 +22,7 @@ zotero-key: "EUS85PPA"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EUS85PPA"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-17 17:52:21"
+date-modified: "2026-11-18 01:41:44"
 ---
 
 # DominiqueLoyer/TREC_COMPETITION_88-90_AP: 1stRelease

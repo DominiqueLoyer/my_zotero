@@ -14,7 +14,7 @@ zotero-key: "MUW6QABH"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/MUW6QABH"
 date-added: "2026-03-08 21:19:15"
-date-modified: "2026-03-25 21:28:51"
+date-modified: "2026-11-18 01:41:48"
 ---
 
 # \'E}valuation de Mod{\`e}les de Recherche d’Information et d’Expansion de Requ{\^e}tes sur la Collection TREC AP 88-90

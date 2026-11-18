@@ -14,7 +14,7 @@ zotero-key: "EF4XIPHG"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/EF4XIPHG"
 date-added: "2026-03-08 21:19:50"
-date-modified: "2026-11-17 17:52:23"
+date-modified: "2026-11-18 01:41:48"
 ---
 
 # \'E}valuation de mod{\`e}les de pond{\'e}ration pour la recherche d’information sur TREC AP 88-90

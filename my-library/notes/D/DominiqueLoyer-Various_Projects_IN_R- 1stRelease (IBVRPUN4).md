@@ -10,6 +10,7 @@ tags:
   - "Perspective (graphical)"
   - "Qualitative research"
   - "Work (physics)"
+  - "doi-fix:low-confidence"
   - "notion"
   - "⛔ No DOI found"
 collections:
@@ -18,7 +19,7 @@ zotero-key: "IBVRPUN4"
 zotero-library: 1
 zotero-uri: "zotero://select/library/items/IBVRPUN4"
 date-added: "2026-04-17 20:25:49"
-date-modified: "2026-11-17 17:52:22"
+date-modified: "2026-11-18 01:41:48"
 ---
 
 # DominiqueLoyer/Various_Projects_IN_R: 1stRelease
